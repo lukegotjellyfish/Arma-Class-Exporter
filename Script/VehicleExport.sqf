@@ -460,14 +460,19 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Filter\Class Searcher\";
 
 				_configs append _weapConfigs;
 
-				diag_log(format["%1 = [", _x]);
+				//diag_log(format["%1 = [", _x]);
 				{
 					_propertyArray = (str _x) splitString ("/");
 					_propertyName = _propertyArray param [count _propertyArray - 1];
 
-					if (isText   _x) then { diag_log(format["    [%1,%2],", _propertyName, getText   _x]); };
-					if (isNumber _x) then { diag_log(format["    [%1,%2],", _propertyName, getNumber _x]); };
-					if (isArray  _x) then { diag_log(format["    [%1,%2],", _propertyName, getArray  _x]); };
+					if (isText   _x) then {  };
+					if (isNumber _x) then {  };
+					if (isArray  _x) then {  };
+
+
+					// if (isText   _x) then { diag_log(format["    [%1 = %2],", _propertyName, getText   _x]); };
+					// if (isNumber _x) then { diag_log(format["    [%1 = %2],", _propertyName, getNumber _x]); };
+					// if (isArray  _x) then { diag_log(format["    [%1 = %2],", _propertyName, getArray  _x]); };
 				} foreach _configs;  //For each vehicle in selected array
 
 			};
