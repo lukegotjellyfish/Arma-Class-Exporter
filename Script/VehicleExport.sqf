@@ -438,55 +438,52 @@ _sideMatrix = [
 ];
 
 
-_basePath = "E:\USBBACKUP\GitHub\Arma-Class-Filter\Class Searcher\";
+_basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 {
 	{
 		i = 0;
 		_configCategory = "";
+		_folder = "";
 		{
-			if (i == 1) then {
-				_configCategory = _x;
-			};
-			if (i == 0) then {
-				path = _basePath + _x;
-			};
+			_classBody = format["class %1", _x];
+			if (i == 1) then {_configCategory = _x;};
+			if (i == 0) then {_folder = _x;};
 			if (i > 1) then {
-				_configClasses = "true" configClasses (configFile >> _configCategory >> _x);
-
+				//Get all sub-classes of the current class (not including sub-classes from inherited classes)
+				//_configClasses = "true" configClasses (configFile >> _configCategory >> _x);
 				// _vehOpticsProperties = (configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret" >> "OpticsIn");
 
+				//Get all properties not in a sub-class of the current class
 				_configs     = configProperties [configFile >> _configCategory >> _x];
-				_weapConfigs = configProperties [configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret"];
 
-				_configs append _weapConfigs;
+				//If the class is a vehicle, find the relevant turret properties (elevation, weapon, ammuniton etc)
+				if (_configCategory == "CfgVehicles") then {
+					//Get all properties from the sub-sub-class "MainTurret" in the "Turrets" sub-class
+					_weapConfigs = configProperties [configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret"];
+					//Add the properties from the "MainTurret" sub-sub-class to retrieve values
+					_configs append _weapConfigs;
+				};
 
-				//diag_log(format["%1 = [", _x]);
 				{
+					//Split the directory by /s, splits parents into array
 					_propertyArray = (str _x) splitString ("/");
+					//Property name -> (var) <- = [sound,0.4]
+					//Last item in array is the property name e.g (cfgveh\apc\maxspeed)
 					_propertyName = _propertyArray param [count _propertyArray - 1];
 
-					if (isText   _x) then {  };
-					if (isNumber _x) then {  };
-					if (isArray  _x) then {  };
-
-
-					// if (isText   _x) then { diag_log(format["    [%1 = %2],", _propertyName, getText   _x]); };
-					// if (isNumber _x) then { diag_log(format["    [%1 = %2],", _propertyName, getNumber _x]); };
-					// if (isArray  _x) then { diag_log(format["    [%1 = %2],", _propertyName, getArray  _x]); };
+					//If entry value actually has a value
+					if (!isNull _x) then {
+						//Cannot write tabs to file
+						if (isText   _x) then { _classBody = _classBody + format['\n    [%1 = "%2"]', _propertyName, getText   _x]; };
+						if (isNumber _x) then { _classBody = _classBody + format["\n    [%1 = %2]" , _propertyName, getNumber _x]; };
+						if (isArray  _x) then { _classBody = _classBody + format["\n    [%1 = %2]" , _propertyName, getArray  _x]; };
+					}
 				} foreach _configs;  //For each vehicle in selected array
 
+				_path = format[_basePath + _folder + _x + ".cpp"];
+				"make_file" callExtension (_path + "|" + str _classBody);
 			};
 			i = i + 1;
 		} foreach _x; //for each class for the side in the category
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
-
-
-// "make_file" callExtension format ["%1%2.cpp|%3", _path, _x, classData];
-// "make_file" callExtension format ["%1.cpp|%2", "E:\USBBACKUP\GitHub\Arma-Class-Filter\Class Searcher\hey", "uwu"];
-//
-//
-// _configs = configProperties [configFile >> "CfgMagazines" >> "RHS_48Rnd_40mm_MK19_M430A1"];
-// diag_log(_configs);
-//
-//
