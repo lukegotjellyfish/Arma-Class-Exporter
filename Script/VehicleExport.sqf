@@ -445,7 +445,8 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		_configCategory = "";
 		_folder = "";
 		{
-			_classBody = format["class %1", _x];
+			//Create the start of the file, classname with bracket for matrix
+			_classBody = format["%1 = [", _x];
 			if (i == 1) then {_configCategory = _x;};
 			if (i == 0) then {_folder = _x;};
 			if (i > 1) then {
@@ -471,17 +472,24 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 					//Last item in array is the property name e.g (cfgveh\apc\maxspeed)
 					_propertyName = _propertyArray param [count _propertyArray - 1];
 
-					//If entry value actually has a value
-					if (!isNull _x) then {
-						//Cannot write tabs to file
-						if (isText   _x) then { _classBody = _classBody + format['\n    [%1 = "%2"]', _propertyName, getText   _x]; };
-						if (isNumber _x) then { _classBody = _classBody + format["\n    [%1 = %2]" , _propertyName, getNumber _x]; };
-						if (isArray  _x) then { _classBody = _classBody + format["\n    [%1 = %2]" , _propertyName, getArray  _x]; };
-					}
-				} foreach _configs;  //For each vehicle in selected array
+					//Cannot write tabs to file, using spaces instead
 
+					//If property is a string
+					if (isText   _x) then { _classBody = _classBody + format[',\n    [%1 = "%2"]', _propertyName, getText   _x]; };
+					//If property is a number
+					if (isNumber _x) then { _classBody = _classBody + format[",\n    [%1 = %2]",   _propertyName, getNumber _x]; };
+					//If property is an array
+					if (isArray  _x) then { _classBody = _classBody + format[",\n    [%1 = %2]",   _propertyName, getArray  _x]; };
+				} foreach _configs;  //For each class in selected array
+
+				//Add closing bracket
+				_classBody = _classBody + "\n]";
+
+				//Create path to write class data to
 				_path = format[_basePath + _folder + _x + ".cpp"];
-				"make_file" callExtension (_path + "|" + str _classBody);
+
+				//Write class to its own file
+				"make_file" callExtension (_path + "|" + _classBody);
 			};
 			i = i + 1;
 		} foreach _x; //for each class for the side in the category
