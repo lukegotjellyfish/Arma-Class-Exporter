@@ -445,8 +445,8 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		_configCategory = "";
 		_folder = "";
 		{
-			//Create the start of the file, classname with bracket for matrix
-			_classBody = format["%1 = [", _x];
+			//Create the start of the file, classname with brace for dict
+			_classBody = _x + " = {";
 			if (i == 1) then {_configCategory = _x;};
 			if (i == 0) then {_folder = _x;};
 			if (i > 1) then {
@@ -455,16 +455,18 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 				// _vehOpticsProperties = (configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret" >> "OpticsIn");
 
 				//Get all properties not in a sub-class of the current class
-				_configs     = configProperties [configFile >> _configCategory >> _x];
+				_properties = configProperties [configFile >> _configCategory >> _x];
 
 				//If the class is a vehicle, find the relevant turret properties (elevation, weapon, ammuniton etc)
 				if (_configCategory == "CfgVehicles") then {
 					//Get all properties from the sub-sub-class "MainTurret" in the "Turrets" sub-class
 					_weapConfigs = configProperties [configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret"];
 					//Add the properties from the "MainTurret" sub-sub-class to retrieve values
-					_configs append _weapConfigs;
+					_properties append _weapConfigs;
 				};
 
+				_i = 1;
+				_addComma = "";
 				{
 					//Split the directory by /s, splits parents into array
 					_propertyArray = (str _x) splitString ("/");
@@ -474,19 +476,22 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 
 					//Cannot write tabs to file, using spaces instead
 
+					if (_i > 1) then {_addComma = ",";};
 					//If property is a string
-					if (isText   _x) then { _classBody = _classBody + format[',\n    [%1 = "%2"]', _propertyName, getText   _x]; };
+					if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _propertyName, getText   _x]; };
 					//If property is a number
-					if (isNumber _x) then { _classBody = _classBody + format[",\n    [%1 = %2]",   _propertyName, getNumber _x]; };
+					if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,   _propertyName, getNumber _x]; };
 					//If property is an array
-					if (isArray  _x) then { _classBody = _classBody + format[",\n    [%1 = %2]",   _propertyName, getArray  _x]; };
-				} foreach _configs;  //For each class in selected array
+					if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,   _propertyName, getArray  _x]; };
 
-				//Add closing bracket
-				_classBody = _classBody + "\n]";
+					_i = _i + 1;
+				} foreach _properties;  //For each property in class
+
+				//Add closing brace
+				_classBody = _classBody + "\n}";
 
 				//Create path to write class data to
-				_path = format[_basePath + _folder + _x + ".cpp"];
+				_path = _basePath + _folder + _x + ".cpp";
 
 				//Write class to its own file
 				"make_file" callExtension (_path + "|" + _classBody);
