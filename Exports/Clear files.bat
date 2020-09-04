@@ -1,0 +1,1 @@
+for /r %%i in (*.cpp) do DEL "%%i"
