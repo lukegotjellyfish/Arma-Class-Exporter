@@ -1,0 +1,2 @@
+PYTHON "Script.py"
+PAUSE
