@@ -1,0 +1,377 @@
+Shared:
+	Quad Bike               = A3_Soft_F_Quadbike_01
+	SUV                     = A3_Soft_F_Gamma_SUV_01
+	Hatchback (Sport)       = A3_Soft_F_Gamma_Hatchback_01
+	Kart                    = A3_Soft_F_Kart_Kart_01
+
+Opfor:
+	UAZ-3151                = RHS_UAZ_MSV_01
+	UAZ-3151 (DShKM)        = rhsgref_ins_uaz_dshkm
+		rhs_weap_DSHKM:
+			5*rhs_mag_127x108mm_50
+	GAZ-233011 (Camo/Hatch) = rhs_tigr_3camo_msv
+	UAZ-3151 (AGS-30)       = rhsgref_cdf_b_reg_uaz_ags
+		RHS_weap_AGS30:
+			6*RHS_mag_VOG30_30
+	GAZ-233014              = rhs_tigr_sts_vdv
+
+	UAZ-3151 (SPG-9)        = rhsgref_ins_uaz_spg9
+		rhs_weap_SPG9:
+			7*rhs_mag_OG9V
+			6*rhs_mag_PG9V
+
+	BRDM-2                 = rhsgref_BRDM2_vdv
+		rhs_weap_kpvt:
+			10*rhs_mag_145x115mm_50
+		rhs_weap_pkt_btr:
+			8*rhs_mag_762x54mm_250
+
+	BRDM-2 (9P148)          = rhsgref_BRDM2_ATGM_vdv
+		rhs_weap_9P148:
+			3*rhs_mag_9m113_5
+
+	GAZ-66 (ZU-23-2)        = rhs_gaz66_zu23_msv
+		rhs_weap_2A14:
+			9*RHS_mag_AZP23_100
+
+	BMD-1R                  = rhs_bmd1r
+		rhs_weap_s8:
+			1*rhs_mag_s8_12
+
+	BTR-80                  = rhs_btr80_msv
+		rhs_weap_kpvt:
+			10*rhs_mag_145x115mm_50
+		rhs_weap_pkt_btr:
+			6*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	BMD-1PK                 = rhsgref_ins_bmp1k
+		rhs_weap_2a28:
+			1*rhs_mag_pg15v_20
+			1*rhs_mag_og15v_20
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_9k11:
+			4*rhs_mag_9m14m
+
+	BMP-1P                  = rhsgref_ins_bmp1p
+		rhs_weap_2a28:
+			1*rhs_mag_og15v_20
+			1*rhs_mag_pg15v_20
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	BMP-2D                  = rhsgref_ins_bmp2d
+		rhs_weap_2a42:
+			1*rhs_mag_3uof8_340
+			1*rhs_mag_3ubr8_160
+		rhs_weap_pkt:
+			1*rhs_mag_762x54mm_2000
+		rhs_weap_9m113:
+			4*rhs_mag_9m113M
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	ZSU-23-4V               = rhs_zsu234_aa
+		RHS_weap_AZP23:
+			1*rhs_mag_AZP23_2000
+
+	2S25                    = rhs_sprut_vdv
+		rhs_weap_2a75:
+			1*rhs_mag_3bm46_10
+			1*rhs_mag_3bk29_8
+			1*rhs_mag_3of26_6
+			1*rhs_mag_9m119rx_6
+		rhs_weap_pkt_bmd_coax:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_PL1:
+			(laser designator)
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	BMD-2M                  = rhs_bmd2m
+		rhs_weap_2a42:
+			1*rhs_mag_3uof8_180
+			1*rhs_mag_3ubr8_120
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_9k133:
+			1*rhs_mag_9m133_2
+
+	BMP-3 (early)           = rhs_bmp3_msv
+		rhs_weap_2a70:
+			1*rhs_mag_3UOF17_22
+			1*rhs_mag_9m117_8
+		rhs_weap_2a72:
+			1*rhs_mag_3uof8_305
+			1*rhs_mag_3ubr6_195
+		rhs_weap_pkt_bmd_coax:
+			1*rhs_mag_762x54mm_2000
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	BTR-80A                 = rhs_btr80a_msv
+		rhs_weap_2a72_btr:
+			1*rhs_mag_3uof8_150
+			1*rhs_mag_3ubr11_150
+		rhs_weap_pkt_btr80a:
+			1*rhs_mag_762x54mm_2000
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	BMD-4                   = rhs_bmd4_vdv
+		rhs_weap_2a70:
+			1*rhs_mag_3UOF17_22
+			1*rhs_mag_9m117m_8
+		rhs_weap_2a72:
+			1*rhs_mag_3uof8_237
+			1*rhs_mag_3ubr11_227
+		rhs_weap_pkt_bmd_coax:
+			1*rhs_mag_762x54mm_2000
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	T-72B (obr. 1985g.)     = rhs_t72bb_tv
+		rhs_weap_2a46m:
+			1*rhs_mag_3bm42_7
+			1*rhs_mag_3bk18m_6
+			1*rhs_mag_3of26_5
+			1*rhs_mag_9m119_4
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17
+		(commander)rhs_weap_nsvt_t72:
+			3*rhs_mag_127x108mm_50
+
+	T-80BVK                 = rhs_t80bvk
+		rhs_weap_2a46_2:
+			1*rhs_mag_3bm22_14
+			1*rhs_mag_3bk18m_8
+			1*rhs_mag_3of26_6
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17
+
+	T-80UK                  = rhs_t80uk
+		rhs_weap_2a46m_4:
+			1*rhs_mag_3bm46_10
+			1*rhs_mag_3bk31_8
+			1*rhs_mag_3of26_6
+			1*rhs_mag_9m119_4
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902b:
+			1*rhs_mag_3d17_12
+
+	T-72B (obr. 1989g.)     = rhs_t72bc_tv
+		rhs_weap_2a46m:
+			1*rhs_mag_3bm42_7
+			1*rhs_mag_3bk18m_6
+			1*rhs_mag_3of26_5
+			1*rhs_mag_9m119_4
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17
+		(commander)rhs_weap_nsvt_t72:
+			3*rhs_mag_127x108mm_50
+
+	T-90 (obr. 1992g.)      = rhs_t90a_tv
+		rhs_weap_2a46m_5:
+			1*rhs_mag_3bm46_8
+			1*rhs_mag_3bk31_3
+			1*rhs_mag_3of26_7
+			1*rhs_mag_9m119_4
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902b:
+			1*rhs_mag_3d17_12
+
+	BMD-4M (A)              = rhs_bmd4ma_vdv
+		rhs_weap_2a70:
+			1*rhs_mag_3UOF191_22
+			1*rhs_mag_9m117m1_8
+		rhs_weap_2a72:
+			1*rhs_mag_3uof8_237
+			1*rhs_mag_3ubr11_227
+		rhs_weap_pkt_bmd_coax:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	T-90A (obr. 2006g.)     = rhs_t90a_tv
+		rhs_weap_2a46m_5:
+			1*rhs_mag_3bm46_8
+			1*rhs_mag_3bk31_3
+			1*rhs_mag_3of26_7
+			1*rhs_mag_9m119_4
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902b:
+			1*rhs_mag_3d17_12
+
+	T-72B3 (obr. 2012g.)    = rhs_t72bd_tv
+		rhs_weap_2a46m:
+			1*rhs_mag_3bm42_7
+			1*rhs_mag_3bk18m_6
+			1*rhs_mag_3of26_5
+			1*rhs_mag_9m119_4
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17
+		(commander)rhs_weap_nsvt_t72:
+			3*rhs_mag_127x108mm_50
+
+	BMP-3 (Vesna-K/A)       = rhs_bmp3mera_msv
+		rhs_weap_2a70:
+			1*rhs_mag_3UOF191_22
+			1*rhs_mag_9m117m1_8
+		rhs_weap_2a72:
+			1*rhs_mag_3uof8_305
+			1*rhs_mag_3ubr11_195
+		rhs_weap_pkt_bmd_coax:
+			1*rhs_mag_762x54mm_2000
+		rhs_weap_902a:
+			1*rhs_mag_3d17_6
+
+	T-80UE-1                = rhs_t80ue1
+		rhs_weap_2a46m_4:
+			1*rhs_mag_3bm46_10
+			1*rhs_mag_3bk31_8
+			1*rhs_mag_3of26_6
+			1*rhs_mag_9m119_4
+		rhs_weap_pkt:
+			8*rhs_mag_762x54mm_250
+		rhs_weap_902a:
+			1*rhs_mag_3d17
+
+Blufor:
+	M1025A2 (Unarmed)   = rhsusf_m1025_w
+	M1025A2 (M2)        = rhsusf_m1025_w_m2
+		RHS_M2:
+			6*rhs_mag_100rnd_127x99_mag_Tracer_Red
+
+	M113A3 (MEV)        = rhsusf_m113_usarmy_medical
+	M1025A2 (Mk19)      = rhsusf_m1025_w_Mk19
+		RHS_MK19:
+			6*RHS_48Rnd_40mm_MK19_M430A1
+
+	M1220               = rhsusf_m1220_usarmy_wd
+	M1220 (Mk19)        = rhsusf_M1220_MK19_usarmy_wd
+		RHS_MK19:
+			14*RHS_48Rnd_40mm_MK19_M430A1
+
+	M113A3 (M2)         = rhsusf_m113_usarmy
+		RHS_M2:
+			15*rhs_mag_100rnd_127x99_mag_Tracer_Red
+		rhsusf_weap_M259:
+			3*rhsusf_mag_L8A3_8
+
+	M1045A2 (M220A2)    = rhsusf_m1045_w
+		rhs_weap_tow_launcher_static:
+			2*rhs_ammo_TOW2A_AT
+			2*rhs_ammo_TOW2B_AT
+			2*rhs_ammo_TOW2_BB
+
+	M1117 ASV           = rhsusf_m1117_w
+		RHS_M2_M1117:
+			5*rhs_mag_200rnd_127x99_mag_Tracer_Red
+		RHS_MK19:
+			7*RHS_96Rnd_40mm_MK19_M430A1
+		rhsusf_weap_M257_8:
+			1*rhsusf_mag_L8A3_8
+
+	M113A3 (Mk19)       = rhsusf_m113_usarmy_Mk19
+		RHS_MK19:
+			9*RHS_48Rnd_40mm_MK19_M430A1
+		rhsusf_weap_M259:
+			3*rhsusf_mag_L8A3_8
+
+	Ural-4320 (ZU-23-2) = rhsgref_cdf_b_ural_Zu23
+		rhs_weap_2A14:
+			9*RHS_mag_AZP23_100
+
+	M1232               = rhsusf_m1232_usarmy_wd
+	M1220 (M2 CROWS)    = rhsusf_m1220_m153_m2_usarmy_wd
+		RHS_M2_CROWS_M153:
+			4*rhs_mag_400rnd_127x99_mag_Tracer_Red
+
+	M1232 (Mk19)        = rhsusf_m1232_MK19_usarmy_wd
+		RHS_MK19:
+			14*RHS_48Rnd_40mm_MK19_M430A1
+			3*RHS_48Rnd_40mm_MK19_M1001
+
+	M6A2                = RHS_M6_wd
+		RHS_weap_M242BC:
+			2*rhs_mag_70Rnd_25mm_M242_APFSDS
+			2*rhs_mag_230Rnd_25mm_M242_HEI
+		rhs_weap_m240_bradley_coax:
+			2*rhs_mag_1100Rnd_762x51_M240
+		Rhs_weap_stinger_Launcher:
+			3*Rhs_mag_4Rnd_stinger
+
+	M2A2ODS             = RHS_M2A2_wd
+		RHS_weap_M242BC:
+			3*rhs_mag_230Rnd_25mm_M242_HEI
+			3*rhs_mag_70Rnd_25mm_M242_APFSDS
+		rhs_weap_m240_bradley_coax:
+			2*rhs_mag_1100Rnd_762x51_M240
+		Rhs_weap_TOW_Launcher:
+			3*rhs_mag_2Rnd_TOW2A
+			1*rhs_mag_2Rnd_TOW2BB
+
+	M2A2ODS (BUSK 1)    = rhs_m2a2_buski_wd
+		RHS_weap_M242BC:
+			3*rhs_mag_230Rnd_25mm_M242_HEI
+			3*rhs_mag_70Rnd_25mm_M242_APFSDS
+		rhs_weap_m240_bradley_coax:
+			2*rhs_mag_1100Rnd_762x51_M240
+		Rhs_weap_TOW_Launcher:
+			3*rhs_mag_2Rnd_TOW2A
+			1*rhs_mag_2Rnd_TOW2BB
+
+	M1A1HC              = rhsusf_m1a1hc_wd
+		rhs_weap_m256:
+			1*rhs_mag_M829A1
+			1*rhs_mag_M830A1
+		rhs_weap_m240_abrams_coax
+			9*rhs_mag_762x51_M240_1200
+
+	M1A1FEP             = rhsusf_m1a1fep_wd
+		rhs_weap_m256:
+			1*rhs_mag_M829A1
+			1*rhs_mag_M830A1
+		rhs_weap_m240_abrams_coax
+			9*rhs_mag_762x51_M240_1200
+
+	M1A1SA (TUSK I)     = rhsusf_m1a1aim_tuski_wd
+		rhs_weap_m256:
+			1*rhs_mag_M829A1
+			1*rhs_mag_M830A1
+		RHS_M2_Abrams_Gunner:
+			1*rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red
+		rhs_weap_m240_abrams_coax
+			9*rhs_mag_762x51_M240_1200
+
+	M2A3 (BUSK III)     = RHS_M2A3_BUSKIII_WD
+		2*rhs_mag_1100Rnd_762x51_M240
+		3*rhs_mag_230Rnd_25mm_M242_HEI
+		3*rhs_mag_70Rnd_25mm_M242_APFSDS
+		2*rhs_mag_2Rnd_TOW2B_AERO
+		1*rhs_mag_2Rnd_TOW2A
+		1*rhs_mag_2Rnd_TOW2BB
+
+	M1A2SEPv1 (TUSK II) = rhsusf_m1a2sep1tuskiiwd_usarmy
+		rhs_weap_m256:
+			1*rhs_mag_M829A1
+			1*rhs_mag_M830A1
+		RHS_M2_Abrams_Gunner:
+			1*rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red
+		rhs_weap_m240_abrams_coax
+			9*rhs_mag_762x51_M240_1200
