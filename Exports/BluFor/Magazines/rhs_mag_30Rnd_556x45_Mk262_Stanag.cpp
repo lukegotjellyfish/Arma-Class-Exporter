@@ -6,7 +6,7 @@ rhs_mag_30Rnd_556x45_Mk262_Stanag = {
     "displayName": "30rnd STANAG Mk262 Mod 1",
     "displayNameShort": "Mk262",
     "descriptionShort": "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Used in: M4, M16, M27, M249",
-    "hiddenSelectionsTextures": ["rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_usgi_alum_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_556_m193_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_magpul_black_co.paa"],
+    "hiddenSelectionsTextures": ["rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_30rn_usgi_alum_co.paa","rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_556_m193_co.paa","rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_30rn_magpul_black_co.paa"],
     "mass": 9.35,
     "tracersEvery": 0,
     "lastRoundsTracer": 0,

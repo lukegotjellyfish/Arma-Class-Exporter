@@ -6,7 +6,7 @@ rhs_mag_30Rnd_556x45_Mk318_Stanag = {
     "descriptionShort": "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Used in: M4, M16, M27, M249",
     "ammo": "rhs_ammo_556x45_Mk318_Ball",
     "initSpeed": 950.366,
-    "hiddenSelectionsTextures": ["rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_usgi_alum_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_556_m193_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_magpul_earth_co.paa"],
+    "hiddenSelectionsTextures": ["rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_30rn_usgi_alum_co.paa","rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_556_m193_co.paa","rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_30rn_magpul_earth_co.paa"],
     "mass": 9.35,
     "tracersEvery": 0,
     "lastRoundsTracer": 0,

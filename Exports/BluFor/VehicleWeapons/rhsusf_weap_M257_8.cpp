@@ -18,7 +18,7 @@ rhsusf_weap_M257_8 = {
     "cursoraim": "mg",
     "nameSound": "mgun",
     "reloadAction": "ManActReloadMagazine",
-    "reloadMagazineSound": ["A3\Sounds_F\arsenal\weapons_static\Static_HMG\reload_static_HMG",10,1,20],
+    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
     "soundContinuous": 0,
     "initSpeed": 0,
     "flash": "gunfire",

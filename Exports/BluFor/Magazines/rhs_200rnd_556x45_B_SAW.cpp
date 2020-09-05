@@ -14,7 +14,7 @@ rhs_200rnd_556x45_B_SAW = {
     "modelSpecial": "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd",
     "count": 200,
     "descriptionshort": "Caliber: 5.56x45mm M855A1 NATO<br />Rounds: 200<br />Used in: M249",
-    "hiddenSelectionsTextures": ["rhsusf\addons\rhsusf_weapons\mag_proxies\data\stockpouch_m81_co.paa"],
+    "hiddenSelectionsTextures": ["rhsusf|addons|rhsusf_weapons|mag_proxies|data|stockpouch_m81_co.paa"],
     "reloadAction": "rhs_GestureReloadM249",
     "initSpeed": 960,
     "modelSpecialIsProxy": 1,

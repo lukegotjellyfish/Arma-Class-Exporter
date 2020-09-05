@@ -19,7 +19,7 @@ rhs_weap_2a42 = {
     "cursorSize": 1,
     "ballisticsComputer": 0,
     "showAimCursorInternal": 0,
-    "sound": ["A3\sounds_f\dummysound",2.51189,1,1800],
+    "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
     "soundContinuous": 0,
     "autoReload": 1,
     "FCSMaxLeadSpeed": 30.5556,

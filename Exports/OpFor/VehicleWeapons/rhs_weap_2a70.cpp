@@ -11,7 +11,7 @@ rhs_weap_2a70 = {
     "midRangeProbab": 0.7,
     "maxRange": 2500,
     "maxRangeProbab": 0.1,
-    "reloadSound": ["\rhsafrf\addons\rhs_c_heavyweapons\sounds\autoloader",3.16228,1,200],
+    "reloadSound": ["|rhsafrf|addons|rhs_c_heavyweapons|sounds|autoloader",3.16228,1,200],
     "canLock": 0,
     "scope": 1,
     "nameSound": "cannon",

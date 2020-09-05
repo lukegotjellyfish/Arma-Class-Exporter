@@ -7,7 +7,7 @@ rhs_mag_30Rnd_556x45_M855_Stanag = {
     "ammo": "rhs_ammo_556x45_M855_Ball",
     "initSpeed": 960,
     "mass": 9.35,
-    "hiddenSelectionsTextures": ["rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_usgi_alum_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_556_m855_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_magpul_black_co.paa"],
+    "hiddenSelectionsTextures": ["rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_30rn_usgi_alum_co.paa","rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_556_m855_co.paa","rhsusf|addons|rhsusf_weapons|mag_proxies|data|rhs_30rn_magpul_black_co.paa"],
     "tracersEvery": 0,
     "lastRoundsTracer": 0,
     "model": "rhsusf\addons\rhsusf_weapons\magazines\rhs_stanag_mag",

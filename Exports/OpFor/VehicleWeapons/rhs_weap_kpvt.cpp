@@ -12,7 +12,7 @@ rhs_weap_kpvt = {
     "aiDispersionCoefY": 10,
     "aiDispersionCoefX": 8,
     "selectionFireAnim": "zasleh3",
-    "reloadMagazineSound": ["a3\Sounds_F\arsenal\weapons_static\Static_HMG\reload_static_HMG",1,1,10],
+    "reloadMagazineSound": ["a3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",1,1,10],
     "modes": ["manual","close","short","medium","far"],
     "cursor": "EmptyCursor",
     "cursoraim": "mg",

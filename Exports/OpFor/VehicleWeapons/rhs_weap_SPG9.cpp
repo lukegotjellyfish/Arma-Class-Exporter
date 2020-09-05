@@ -8,7 +8,7 @@ rhs_weap_SPG9 = {
     "modelOptics": "",
     "magazines": ["rhs_mag_PG9V","rhs_mag_PG9N","rhs_mag_PG9VNT","rhs_mag_OG9VM","rhs_mag_OG9V"],
     "sounds": ["StandardSound"],
-    "reloadMagazineSound": ["\rhsafrf\addons\rhs_c_heavyweapons\sounds\flare_reload",0.000316228,1,20],
+    "reloadMagazineSound": ["|rhsafrf|addons|rhs_c_heavyweapons|sounds|flare_reload",0.000316228,1,20],
     "recoil": "launcherBase",
     "aiRateOfFire": 10,
     "aiRateOfFireDistance": 450,

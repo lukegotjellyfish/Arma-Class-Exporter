@@ -12,7 +12,7 @@ RHS_weap_M242BC = {
     "cursorAim": "cannon",
     "showAimCursorInternal": 0,
     "nameSound": "cannon",
-    "sound": ["A3\sounds_f\dummysound",2.51189,1,1800],
+    "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
     "soundContinuous": 0,
     "reloadTime": 0.3,
     "magazineReloadTime": 20,
