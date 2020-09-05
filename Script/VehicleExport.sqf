@@ -1,4 +1,4 @@
-_sideMatrix = [
+ _sideMatrix = [
 	//weapons matrix (add opfor pistols)
 	[
 		//BluFor
@@ -243,7 +243,7 @@ _sideMatrix = [
 		],
 		//OpFor
 		[
-			"OpFor\Vehicles",
+			"OpFor\Vehicles\",
 			"CfgVehicles",
 			"A3_Soft_F_Quadbike_01",
 			"RHS_UAZ_MSV_01",
@@ -276,6 +276,7 @@ _sideMatrix = [
 			"rhs_t72bd_tv",
 			"rhs_bmp3mera_msv",
 			"rhs_t80ue1",
+			"rhs_mi28n_base",
 			"A3_Soft_F_Gamma_SUV_01",
 			"A3_Soft_F_Gamma_Hatchback_01",
 			"A3_Soft_F_Kart_Kart_01"
@@ -437,6 +438,89 @@ _sideMatrix = [
 	// ]
 ];
 
+_vehicleHitPoints = [
+	"HitHull",
+	"HitFuel",
+	"HitAvionics",
+	"HitEngine1",
+	"HitEngine2",
+	"HitEngine",
+	"HitWings",
+	"HitVRotor",
+	"HitHRotor",
+	"HitRotor",
+	"Hit_Radar",
+	"Hit_Optic_TOES521",
+	"Hit_Optic_OPS28",
+	"HitGlass1",
+	"HitGlass2",
+	"HitGlass3",
+	"HitGlass4",
+	"HitGlass5",
+	"HitGlass6",
+	"HitGlass7",
+	"HitGlass8",
+	"HitGear",
+	"HitHydraulics",
+	"HitTransmission",
+	"HitTail",
+	"HitPylon1",
+	"HitPylon2",
+	"HitPylon3",
+	"HitPylon4",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+];
+
 
 _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 {
@@ -452,7 +536,6 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 			if (i > 1) then {
 				//Get all sub-classes of the current class (not including sub-classes from inherited classes)
 				//_configClasses = "true" configClasses (configFile >> _configCategory >> _x);
-				// _vehOpticsProperties = (configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret" >> "OpticsIn");
 
 				//Get all properties not in a sub-class of the current class
 				_properties = configProperties [configFile >> _configCategory >> _x];
@@ -476,13 +559,13 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 
 					//Cannot write tabs to file, using spaces instead
 
-					if (_i > 1) then {_addComma = ",";};
+					if (_i == 2) then { _addComma = ","; };
 					//If property is a string
 					if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _propertyName, getText   _x]; };
 					//If property is a number
 					if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,   _propertyName, getNumber _x]; };
 					//If property is an array
-					if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,   _propertyName, getArray  _x]; };
+					if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,   _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
 
 					_i = _i + 1;
 				} foreach _properties;  //For each property in class
