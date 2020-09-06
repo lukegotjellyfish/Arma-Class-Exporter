@@ -251,6 +251,35 @@ Opfor:
 		rhs_weap_902a:
 			1*rhs_mag_3d17
 
+	rhs_ka60_c
+	RHS_Mi8MTV3_vvsc
+		rhs_weap_s8:
+			2*rhs_mag_s8_20
+		rhs_weap_gsh23l:
+			1*
+
+	RHS_Mi24Vt_vvsc
+	RHS_Mi24P_vvs
+	RHS_Mi24V_vvs
+	rhsgref_mi24g_CAS
+
+	rhs_mi28n_base
+		rhs_weap_2a42
+			1*rhs_mag_3ubr11_125
+			1*rhs_mag_3uof8_125
+
+	RHS_Ka52_vvs
+
+	RHS_Su25SM_vvs
+
+	rhs_mig29sm_vmf
+
+
+
+
+
+
+
 Blufor:
 	M1025A2 (Unarmed)   = rhsusf_m1025_w
 	M1025A2 (M2)        = rhsusf_m1025_w_m2
@@ -375,3 +404,51 @@ Blufor:
 			1*rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red
 		rhs_weap_m240_abrams_coax
 			9*rhs_mag_762x51_M240_1200
+
+	RHS_MELB_MH6M
+		RHS_weap_m134_pylon:
+			1*rhs_mag_m134_pylon_3000
+		2*rhs_mag_M151_7_green
+
+	RHS_RHS_UH60M
+		2*rhs_weap_m134_minigun_2:
+			1*rhs_mag_762x51_m80a1_4000
+
+	RHS_UH1Y_d
+		2*rhs_mag_M151_7_green
+		2*rhs_mag_762x51_m80a1_4000
+
+	RHS_MELB_MH6M
+		1*rhs_mag_gau19_air_base
+		1*rhs_mag_M151_19_green
+
+	RHS_CH_47F_10
+		2*rhs_weap_m134_minigun_1:
+			1*rhs_mag_762x51_m80a1_4000
+
+	RHS_AH1Z
+		rhs_weap_M197:
+			1*rhs_mag_M197_750
+		2*rhs_mag_M151_19_green
+
+	RHS_AH64D
+		rhs_weap_M230:
+			1*rhs_mag_30x113mm_M789_HEDP_1200
+		2*rhs_mag_M151_19_green
+		1*rhs_mag_AGM114L_4
+		1*rhs_mag_AGM114K_4
+
+	RHS_C130J
+	RHS_A10
+		RHS_weap_gau8:
+			1*rhs_mag_1150Rnd_30x173_mixed
+		2*rhs_mag_M151_7_green
+		4*rhs_mag_gbu12?
+
+	rhsusf_f22
+		disabled
+
+	rhs_l159_cdf_b_CDF
+		1*rhs_mag_zpl20_mixed
+		2*rhs_mag_mk82
+		2*rhs_mag_M151_7_green
