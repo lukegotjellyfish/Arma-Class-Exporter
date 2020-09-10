@@ -252,12 +252,6 @@ Opfor:
 			1*rhs_mag_3d17
 
 	rhs_ka60_c
-	RHS_Mi8MTV3_vvsc
-		rhs_weap_s8:
-			2*rhs_mag_s8_20
-		rhs_weap_gsh23l:
-			1*
-
 	RHS_Mi24Vt_vvs
 		rhs_weap_yakB:
 			1*rhs_mag_127x108mm_1SLT_1470
@@ -288,6 +282,12 @@ Opfor:
 			2*rhs_mag_b8v20a_ka52_s8kom
 		rhs_weap_9k121_Launcher:
 			2*rhs_mag_apu6_9m127m_ka52
+
+	RHS_Mi8MTV3_vvsc
+		rhs_weap_s8:
+			2*rhs_mag_b8v20a_s8kom
+		2*rhs_weap_gsh23l:
+			1*rhs_mag_upk23_mixed
 
 	RHS_Su25SM_vvs
 		rhs_weap_GSh302:
