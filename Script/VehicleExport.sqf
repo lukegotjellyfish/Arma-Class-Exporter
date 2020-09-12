@@ -353,11 +353,18 @@
 			"rhs_weap_902a",
 			"rhs_weap_902b",
 			"rhs_weap_9k11",
+			"rhs_weap_9k121_Launcher",
 			"rhs_weap_9k133",
 			"rhs_weap_9m113",
 			"rhs_weap_9P148",
 			"RHS_weap_AGS30",
+			"RHS_weap_AZP23",
 			"rhs_weap_DSHKM",
+			"rhs_weap_fab250",
+			"rhs_weap_gi2",
+			"rhs_weap_gsh23l",
+			"rhs_weap_gsh30",
+			"rhs_weap_GSh302",
 			"rhs_weap_kpvt",
 			"rhs_weap_nsvt_t72",
 			"rhs_weap_pkt_bmd_coax",
@@ -366,7 +373,9 @@
 			"rhs_weap_pkt",
 			"rhs_weap_PL1",
 			"rhs_weap_s8",
-			"rhs_weap_SPG9"
+			"rhs_weap_s8df",
+			"rhs_weap_SPG9",
+			"rhs_weap_yakB"
 		]
 	],
 	//vehicle magazine matrix
@@ -417,7 +426,10 @@
 		[
 			"OpFor\VehicleMagazines\",
 			"CfgMagazines",
+			"RHS_HP_FAB250",
+			"rhs_mag_127x108mm_1SLT_1470",
 			"rhs_mag_127x108mm_50",
+			"rhs_mag_145x115mm_50",
 			"rhs_mag_145x115mm_50",
 			"rhs_mag_3bk18m_6",
 			"rhs_mag_3bk18m_8",
@@ -430,22 +442,27 @@
 			"rhs_mag_3bm46_8",
 			"rhs_mag_3d17_12",
 			"rhs_mag_3d17_6",
+			"rhs_mag_3d17",
 			"rhs_mag_3of26_5",
 			"rhs_mag_3of26_6",
 			"rhs_mag_3of26_7",
+			"rhs_mag_3ubr11_125",
 			"rhs_mag_3ubr11_150",
 			"rhs_mag_3ubr11_195",
 			"rhs_mag_3ubr11_227",
 			"rhs_mag_3ubr6_195",
 			"rhs_mag_3ubr8_120",
 			"rhs_mag_3ubr8_160",
+			"rhs_mag_3ubr8_230",
 			"rhs_mag_3UOF17_22",
 			"rhs_mag_3UOF191_22",
+			"rhs_mag_3uof8_125",
 			"rhs_mag_3uof8_150",
 			"rhs_mag_3uof8_180",
 			"rhs_mag_3uof8_237",
 			"rhs_mag_3uof8_305",
 			"rhs_mag_3uof8_340",
+			"rhs_mag_3uor6_230",
 			"rhs_mag_762x54mm_2000",
 			"rhs_mag_762x54mm_250",
 			"rhs_mag_9m113_5",
@@ -457,13 +474,23 @@
 			"rhs_mag_9m119rx_6",
 			"rhs_mag_9m133_2",
 			"rhs_mag_9m14m",
+			"rhs_mag_apu6_9m127m_ka52",
 			"RHS_mag_AZP23_100",
 			"rhs_mag_AZP23_2000",
+			"rhs_mag_b8m1_s8df",
+			"rhs_mag_b8m1_s8kom",
+			"rhs_mag_b8v20a_ka52_s8kom",
+			"rhs_mag_b8v20a_s8kom",
+			"rhs_mag_GI2_420_AP",
+			"rhs_mag_GI2_420_HE",
+			"rhs_mag_gsh30_bt_250",
+			"rhs_mag_gsh30_ofzt_750",
 			"rhs_mag_og15v_20",
 			"rhs_mag_OG9V",
 			"rhs_mag_pg15v_20",
 			"rhs_mag_PG9V",
 			"rhs_mag_s8_12",
+			"rhs_mag_upk23_mixed",
 			"RHS_mag_VOG30_30"
 		]
 	]
@@ -604,7 +631,6 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 					_propertyName = _propertyArray param [count _propertyArray - 1];
 
 					//Cannot write tabs to file, using spaces instead
-
 					if (_i == 2) then { _addComma = ","; };
 					//If property is a string
 					if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _propertyName, getText   _x]; };
