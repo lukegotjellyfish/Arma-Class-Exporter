@@ -10,13 +10,13 @@ bulletA = player addAction ["Enable Bullet Cam", {YEETUS = player addEventHandle
   _cam = "camera" camCreate (position player);
   _cam cameraEffect ["External", "Back"];
   while {!(isNull _missile)} do {
-   SystemChat format ["Speed: %1", speed _missile];
+   //diag_log(format ["%1|%2", speed _missile, time - _timestart]);
    _cam camSetTarget getPos _missile;
    camdistance = player distance2D _cam;
    timeend = time;
    camposition = getPos _missile;
    hint str speed _missile;
-   _cam camSetRelPos [0,-8,-2];
+   _cam camSetRelPos [0,-20,0];
    _cam camCommit 0;
   };
   sleep 2;
