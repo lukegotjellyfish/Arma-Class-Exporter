@@ -84,7 +84,7 @@ Opfor:
 			1*rhs_mag_3bm46_10
 			1*rhs_mag_3bk29_8
 			1*rhs_mag_3of26_6
-			1*rhs_mag_9m119rx_6
+			1*rhs_mag_9m119_6
 		rhs_weap_pkt_bmd_coax:
 			8*rhs_mag_762x54mm_250
 		rhs_weap_PL1:
@@ -259,15 +259,43 @@ Opfor:
 	RHS_Mi24P_vvs
 		rhs_weap_gsh30:
 			1*rhs_mag_gsh30_ofzt_750
+		rhs_weap_s8:
+			rhs_mag_b8m1_s8kom
+		rhs_weap_s8:
+			rhs_mag_b8m1_s8kom
+		rhs_weap_fab250:
+			rhs_mag_fab250
+		rhs_weap_fab250:
+			rhs_mag_fab250
+		rhs_weap_9m120_launcher:
+			rhs_mag_9M120M_Mi24_2x
+		rhs_weap_9m120_launcher:
+			rhs_mag_9M120M_Mi24_2x
 
 	RHS_Mi24V_vvs
 		rhs_weap_yakB:
 			1*rhs_mag_127x108mm_1SLT_1470
+		rhs_weap_s8:
+			rhs_mag_b8m1_s8kom
+		rhs_weap_s8:
+			rhs_mag_b8m1_s8kom
+		rhs_weap_s8df:
+			rhs_mag_b8m1_s8df
+		rhs_weap_s8df:
+			rhs_mag_b8m1_s8df
+		rhs_weap_9m120_launcher:
+			rhs_mag_9M120M_Mi24_2x
+		rhs_weap_9m120_launcher:
+			rhs_mag_9M120M_Mi24_2x
 
 	rhsgref_mi24g_CAS
 		rhs_weap_gi2:
 			1*rhs_mag_GI2_420_HE
 			1*rhs_mag_GI2_420_AP
+		rhs_weap_s8df:
+			rhs_mag_b8m1_s8df
+		rhs_weap_s8:
+			rhs_mag_b8m1_s8kom
 
 	rhs_mi28n_base
 		rhs_weap_2a42
@@ -279,9 +307,13 @@ Opfor:
 			1*rhs_mag_3uor6_230
 			1*rhs_mag_3ubr8_230
 		rhs_weap_s8:
-			2*rhs_mag_b8v20a_ka52_s8kom
+			rhs_mag_b8v20a_ka52_s8kom
+		rhs_weap_s8:
+			rhs_mag_b8v20a_ka52_s8kom
 		rhs_weap_9k121_Launcher:
-			2*rhs_mag_apu6_9m127m_ka52
+			rhs_mag_apu6_9m127m_ka52
+		rhs_weap_9k121_Launcher:
+			rhs_mag_apu6_9m127m_ka52
 
 	RHS_Mi8MTV3_vvsc
 		rhs_weap_s8:
@@ -293,11 +325,17 @@ Opfor:
 		rhs_weap_GSh302:
 			1*rhs_mag_gsh30_bt_250
 		rhs_weap_fab250:
-			4*RHS_HP_FAB250
+			rhs_mag_fab250
+		rhs_weap_fab250:
+			rhs_mag_fab250
+		rhs_weap_fab250:
+			rhs_mag_fab250
+		rhs_weap_fab250:
+			rhs_mag_fab250
 		rhs_weap_s8:
-			1*rhs_mag_b8m1_s8kom
+			rhs_mag_b8m1_s8kom
 		rhs_weap_s8df:
-			1*rhs_mag_b8m1_s8df
+			rhs_mag_b8m1_s8df
 
 	rhs_mig29sm_vmf
 		disabled
@@ -438,12 +476,17 @@ Blufor:
 			1*rhs_mag_m134_pylon_3000
 		2*rhs_mag_M151_7_green
 
-	RHS_RHS_UH60M
-		2*rhs_weap_m134_minigun_2:
-			1*rhs_mag_762x51_m80a1_4000
+	RHS_UH60M
+		rhs_weap_m134_minigun_1:
+			rhs_mag_762x51_m80a1_4000
+		rhs_weap_m134_minigun_1:
+			rhs_mag_762x51_m80a1_4000
 
 	RHS_UH1Y_d
-		2*rhs_mag_M151_7_green
+		rhs_weap_FFARLauncher:
+			rhs_mag_M151_7_green
+		rhs_weap_FFARLauncher:
+			rhs_mag_M151_7_green
 		2*rhs_mag_762x51_m80a1_4000
 
 	RHS_MELB_MH6M
@@ -452,20 +495,26 @@ Blufor:
 			1*rhs_mag_M151_19_green
 
 	RHS_CH_47F_10
-		2*rhs_weap_m134_minigun_1:
-			1*rhs_mag_762x51_m80a1_4000
+		rhs_weap_m134_minigun_1:
+			rhs_mag_762x51_m80a1_4000
+		rhs_weap_m134_minigun_1:
+			rhs_mag_762x51_m80a1_4000
 
 	RHS_AH1Z
 		rhs_weap_M197:
 			1*rhs_mag_M197_750
 		rhs_weap_FFARLauncher:
-			2*rhs_mag_M151_19_green
+			rhs_mag_M151_19_green
+		rhs_weap_FFARLauncher:
+			rhs_mag_M151_19_green
 
 	RHS_AH64D
 		rhs_weap_M230:
 			1*rhs_mag_30x113mm_M789_HEDP_1200
 		rhs_weap_FFARLauncher:
-			2*rhs_mag_M151_19_green
+			rhs_mag_M151_19_green
+		rhs_weap_FFARLauncher:
+			rhs_mag_M151_19_green
 		rhs_weap_HellfireLauncher:
 			1*rhs_mag_AGM114L_4
 			1*rhs_mag_AGM114K_4
@@ -473,11 +522,21 @@ Blufor:
 	RHS_C130J
 	RHS_A10
 		RHS_weap_gau8:
-			1*rhs_mag_1150Rnd_30x173_mixed
+			rhs_mag_1150Rnd_30x173_mixed
 		rhs_weap_FFARLauncher:
-			2*rhs_mag_M151_7_green
+			rhs_mag_M151_7_green
+		rhs_weap_FFARLauncher:
+			rhs_mag_M151_7_green
 		rhs_weap_gbu12:
-		4*rhs_mag_gbu12
+			rhs_mag_gbu12
+		rhs_weap_gbu12:
+			rhs_mag_gbu12
+		rhs_weap_gbu12:
+			rhs_mag_gbu12
+		rhs_weap_gbu12:
+			rhs_mag_gbu12
+		rhs_weap_gbu12:
+			rhs_mag_gbu12
 
 	rhsusf_f22
 		disabled
