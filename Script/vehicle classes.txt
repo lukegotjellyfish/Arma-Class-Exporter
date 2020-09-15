@@ -20,7 +20,7 @@ Opfor:
 			7*rhs_mag_OG9V
 			6*rhs_mag_PG9V
 
-	BRDM-2                 = rhsgref_BRDM2_vdv
+	BRDM-2                  = rhsgref_BRDM2_vdv
 		rhs_weap_kpvt:
 			10*rhs_mag_145x115mm_50
 		rhs_weap_pkt_btr:
@@ -347,34 +347,34 @@ Opfor:
 
 
 Blufor:
-	M1025A2 (Unarmed)   = rhsusf_m1025_w
-	M1025A2 (M2)        = rhsusf_m1025_w_m2
+	M1025A2 (Unarmed)       = rhsusf_m1025_w
+	M1025A2 (M2)            = rhsusf_m1025_w_m2
 		RHS_M2:
 			6*rhs_mag_100rnd_127x99_mag_Tracer_Red
 
-	M113A3 (MEV)        = rhsusf_m113_usarmy_medical
-	M1025A2 (Mk19)      = rhsusf_m1025_w_Mk19
+	M113A3 (MEV)            = rhsusf_m113_usarmy_medical
+	M1025A2 (Mk19)          = rhsusf_m1025_w_Mk19
 		RHS_MK19:
 			6*RHS_48Rnd_40mm_MK19_M430A1
 
-	M1220               = rhsusf_m1220_usarmy_wd
-	M1220 (Mk19)        = rhsusf_M1220_MK19_usarmy_wd
+	M1220                   = rhsusf_m1220_usarmy_wd
+	M1220 (Mk19)            = rhsusf_M1220_MK19_usarmy_wd
 		RHS_MK19:
 			14*RHS_48Rnd_40mm_MK19_M430A1
 
-	M113A3 (M2)         = rhsusf_m113_usarmy
+	M113A3 (M2)             = rhsusf_m113_usarmy
 		RHS_M2:
 			15*rhs_mag_100rnd_127x99_mag_Tracer_Red
 		rhsusf_weap_M259:
 			3*rhsusf_mag_L8A3_8
 
-	M1045A2 (M220A2)    = rhsusf_m1045_w
+	M1045A2 (M220A2)        = rhsusf_m1045_w
 		rhs_weap_tow_launcher_static:
 			2*rhs_ammo_TOW2A_AT
 			2*rhs_ammo_TOW2B_AT
 			2*rhs_ammo_TOW2_BB
 
-	M1117 ASV           = rhsusf_m1117_w
+	M1117 ASV               = rhsusf_m1117_w
 		RHS_M2_M1117:
 			5*rhs_mag_200rnd_127x99_mag_Tracer_Red
 		RHS_MK19:
@@ -382,27 +382,27 @@ Blufor:
 		rhsusf_weap_M257_8:
 			1*rhsusf_mag_L8A3_8
 
-	M113A3 (Mk19)       = rhsusf_m113_usarmy_Mk19
+	M113A3 (Mk19)           = rhsusf_m113_usarmy_Mk19
 		RHS_MK19:
 			9*RHS_48Rnd_40mm_MK19_M430A1
 		rhsusf_weap_M259:
 			3*rhsusf_mag_L8A3_8
 
-	Ural-4320 (ZU-23-2) = rhsgref_cdf_b_ural_Zu23
+	Ural-4320 (ZU-23-2)     = rhsgref_cdf_b_ural_Zu23
 		rhs_weap_2A14:
 			9*RHS_mag_AZP23_100
 
-	M1232               = rhsusf_m1232_usarmy_wd
-	M1220 (M2 CROWS)    = rhsusf_m1220_m153_m2_usarmy_wd
+	M1232                   = rhsusf_m1232_usarmy_wd
+	M1220 (M2 CROWS)        = rhsusf_m1220_m153_m2_usarmy_wd
 		RHS_M2_CROWS_M153:
 			4*rhs_mag_400rnd_127x99_mag_Tracer_Red
 
-	M1232 (Mk19)        = rhsusf_m1232_MK19_usarmy_wd
+	M1232 (Mk19)            = rhsusf_m1232_MK19_usarmy_wd
 		RHS_MK19:
 			14*RHS_48Rnd_40mm_MK19_M430A1
 			3*RHS_48Rnd_40mm_MK19_M1001
 
-	M6A2                = RHS_M6_wd
+	M6A2                    = RHS_M6_wd
 		RHS_weap_M242BC:
 			2*rhs_mag_70Rnd_25mm_M242_APFSDS
 			2*rhs_mag_230Rnd_25mm_M242_HEI
@@ -411,7 +411,7 @@ Blufor:
 		Rhs_weap_stinger_Launcher:
 			3*Rhs_mag_4Rnd_stinger
 
-	M2A2ODS             = RHS_M2A2_wd
+	M2A2ODS                 = RHS_M2A2_wd
 		RHS_weap_M242BC:
 			3*rhs_mag_230Rnd_25mm_M242_HEI
 			3*rhs_mag_70Rnd_25mm_M242_APFSDS
@@ -421,7 +421,7 @@ Blufor:
 			3*rhs_mag_2Rnd_TOW2A
 			1*rhs_mag_2Rnd_TOW2BB
 
-	M2A2ODS (BUSK 1)    = rhs_m2a2_buski_wd
+	M2A2ODS (BUSK 1)        = rhs_m2a2_buski_wd
 		RHS_weap_M242BC:
 			3*rhs_mag_230Rnd_25mm_M242_HEI
 			3*rhs_mag_70Rnd_25mm_M242_APFSDS
@@ -431,21 +431,21 @@ Blufor:
 			3*rhs_mag_2Rnd_TOW2A
 			1*rhs_mag_2Rnd_TOW2BB
 
-	M1A1HC              = rhsusf_m1a1hc_wd
+	M1A1HC                  = rhsusf_m1a1hc_wd
 		rhs_weap_m256:
 			1*rhs_mag_M829A1
 			1*rhs_mag_M830A1
 		rhs_weap_m240_abrams_coax
 			9*rhs_mag_762x51_M240_1200
 
-	M1A1FEP             = rhsusf_m1a1fep_wd
+	M1A1FEP                 = rhsusf_m1a1fep_wd
 		rhs_weap_m256:
 			1*rhs_mag_M829A1
 			1*rhs_mag_M830A1
 		rhs_weap_m240_abrams_coax
 			9*rhs_mag_762x51_M240_1200
 
-	M1A1SA (TUSK I)     = rhsusf_m1a1aim_tuski_wd
+	M1A1SA (TUSK I)         = rhsusf_m1a1aim_tuski_wd
 		rhs_weap_m256:
 			1*rhs_mag_M829A1
 			1*rhs_mag_M830A1
@@ -454,7 +454,7 @@ Blufor:
 		rhs_weap_m240_abrams_coax
 			9*rhs_mag_762x51_M240_1200
 
-	M2A3 (BUSK III)     = RHS_M2A3_BUSKIII_WD
+	M2A3 (BUSK III)         = RHS_M2A3_BUSKIII_WD
 		2*rhs_mag_1100Rnd_762x51_M240
 		3*rhs_mag_230Rnd_25mm_M242_HEI
 		3*rhs_mag_70Rnd_25mm_M242_APFSDS
@@ -462,7 +462,7 @@ Blufor:
 		1*rhs_mag_2Rnd_TOW2A
 		1*rhs_mag_2Rnd_TOW2BB
 
-	M1A2SEPv1 (TUSK II) = rhsusf_m1a2sep1tuskiiwd_usarmy
+	M1A2SEPv1 (TUSK II)     = rhsusf_m1a2sep1tuskiiwd_usarmy
 		rhs_weap_m256:
 			1*rhs_mag_M829A1
 			1*rhs_mag_M830A1
@@ -471,36 +471,37 @@ Blufor:
 		rhs_weap_m240_abrams_coax
 			9*rhs_mag_762x51_M240_1200
 
-	RHS_MELB_MH6M
+	MH-6M Little Bird       = RHS_MELB_MH6M
 		RHS_weap_m134_pylon:
 			1*rhs_mag_m134_pylon_3000
 		2*rhs_mag_M151_7_green
 
-	RHS_UH60M
+	UH-60M                  = RHS_UH60M
 		rhs_weap_m134_minigun_1:
 			rhs_mag_762x51_m80a1_4000
 		rhs_weap_m134_minigun_1:
 			rhs_mag_762x51_m80a1_4000
 
-	RHS_UH1Y_d
+	UH-1Y (MG)              = RHS_UH1Y_d
 		rhs_weap_FFARLauncher:
 			rhs_mag_M151_7_green
 		rhs_weap_FFARLauncher:
 			rhs_mag_M151_7_green
 		2*rhs_mag_762x51_m80a1_4000
 
-	RHS_MELB_MH6M
-		1*rhs_mag_gau19_air_base
+	MH-6M Little Bird       = RHS_MELB_MH6M
+		RHS_weap_gau19:
+			rhs_mag_gau19_air_base
 		rhs_weap_FFARLauncher:
 			1*rhs_mag_M151_19_green
 
-	RHS_CH_47F_10
+	CH-47F                  = RHS_CH_47F_10
 		rhs_weap_m134_minigun_1:
 			rhs_mag_762x51_m80a1_4000
 		rhs_weap_m134_minigun_1:
 			rhs_mag_762x51_m80a1_4000
 
-	RHS_AH1Z
+	AH-1Z                   = RHS_AH1Z
 		rhs_weap_M197:
 			1*rhs_mag_M197_750
 		rhs_weap_FFARLauncher:
@@ -508,7 +509,7 @@ Blufor:
 		rhs_weap_FFARLauncher:
 			rhs_mag_M151_19_green
 
-	RHS_AH64D
+	AH-64D                  = RHS_AH64D
 		rhs_weap_M230:
 			1*rhs_mag_30x113mm_M789_HEDP_1200
 		rhs_weap_FFARLauncher:
@@ -519,7 +520,7 @@ Blufor:
 			1*rhs_mag_AGM114L_4
 			1*rhs_mag_AGM114K_4
 
-	RHS_C130J
+	C-130J                  = RHS_C130J
 	RHS_A10
 		RHS_weap_gau8:
 			rhs_mag_1150Rnd_30x173_mixed
@@ -538,10 +539,10 @@ Blufor:
 		rhs_weap_gbu12:
 			rhs_mag_gbu12
 
-	rhsusf_f22
+	F-22A                   = rhsusf_f22
 		disabled
 
-	rhs_l159_cdf_b_CDF
+	L-159 Alca              = rhs_l159_cdf_b_CDF
 		RHS_weap_zpl20:
 			1*rhs_mag_zpl20_mixed
 		rhs_weap_mk82:
