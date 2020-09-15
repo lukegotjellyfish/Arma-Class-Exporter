@@ -16,7 +16,7 @@ bulletA = player addAction ["Enable Bullet Cam", {YEETUS = player addEventHandle
    timeend = time;
    camposition = getPos _missile;
    hint str speed _missile;
-   _cam camSetRelPos [0,-20,0];
+   _cam camSetRelPos [0,-20,10];
    _cam camCommit 0;
   };
   sleep 2;
