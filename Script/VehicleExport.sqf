@@ -619,10 +619,12 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 				//If the class is a vehicle, find the relevant turret properties (elevation, weapon, ammuniton etc)
 				if (_configCategory == "CfgVehicles") then {
 					//Get all properties from the sub-sub-class "MainTurret" in the "Turrets" sub-class
-					_weapConfigs = configProperties [configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret"];
+					_properties append configProperties [configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret"];
+				};
 
-					//Add the properties from the "MainTurret" sub-sub-class to retrieve values
-					_properties append _weapConfigs;
+				if (_configCategory == "CfgMagazines") then {
+					_ammo = configFile >> "CfgMagazines" >> _x >> "ammo";
+					_properties append configProperties [configFile >> "CfgAmmo" >> _x >> _ammo];
 				};
 
 				_i = 1;
@@ -640,16 +642,16 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 							_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
 							{
 								diag_log("on ammo property");
-								if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x, getText   _x]; };
-								if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,  _x, getNumber _x]; };
-								if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,  _x, (str getArray _x) splitString "\" joinString "|"]; };
+								if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x splitString "\" joinString "|", getText   _x]; };
+								if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", getNumber _x]; };
+								if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", (str getArray _x) splitString "\" joinString "|"]; };
 							} forEach _ammoProperties;
 							diag_log("finished ammo properties");
 							_foundAmmo = 1;
 						};
 					};
-					if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,  _x, getNumber _x]; };
-					if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma,  _x, (str getArray _x) splitString "\" joinString "|"]; };
+					if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", getNumber _x]; };
+					if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", (str getArray _x) splitString "\" joinString "|"]; };
 
 					_i = _i + 1;
 				} foreach _properties;  //For each property in class
