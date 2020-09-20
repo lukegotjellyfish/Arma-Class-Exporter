@@ -20,7 +20,7 @@ _dbg = "";
 
 v3_DamageEntry = [];
 _size = 0;
-{_size = _size + 1; v3_DamageEntry resize _size; v3_DamageEntry set [_size -1, 0]} forEach (getAllHitPointsDamage t90sm select 0);
+{_size = _size + 1; v3_DamageEntry resize _size; v3_DamageEntry set [_size -1, 0]} forEach (getAllHitPointsDamage v3 select 0);
 _dbg = _dbg + "T-90SM Hitpoints: " + str(_size);
 
 hint _dbg;
@@ -29,10 +29,10 @@ vehicle_3 = player addAction ["Toggle T-90SM monitor", {
 	if (v3_toggle == 0) then {
 		v3_toggle = 1;
 		v3_vehicle = vehicle player;
-		t90sm_fire = v3_vehicle addEventHandler ["Fired", {
-			t90smHitpointsDamageArray = getAllHitPointsDamage t90sm;
-			t90smHitPointsNames = t90smHitpointsDamageArray select 0;
-			t90smHitpointsDamage = t90smHitpointsDamageArray select 2;
+		v3_fire = v3_vehicle addEventHandler ["Fired", {
+			v3_HitpointsDamageArray = getAllHitPointsDamage v3;
+			v3_HitPointsNames = v3_HitpointsDamageArray select 0;
+			v3_HitpointsDamage = v3_HitpointsDamageArray select 2;
 
 			_damageDone = "";
 			_i = 0;
@@ -40,16 +40,16 @@ vehicle_3 = player addAction ["Toggle T-90SM monitor", {
 				_damage = v3_DamageEntry select _i;
 				if (_x != 0 && _x != _damage) then {
 						v3_DamageEntry set [_i, _x];
-						_name = t90smHitPointsNames select _i;
+						_name = v3_HitPointsNames select _i;
 						_damageDone = _damageDone + _name + ": " + str(_x) + " (+" + str(_x - _damage) + ")\n";
 					};
 				_i = _i + 1;
-			} forEach t90smHitpointsDamage;
+			} forEach v3_HitpointsDamage;
 			hint _damageDone;
-			v3_DamageEntry = t90smHitpointsDamage;
+			v3_DamageEntry = v3_HitpointsDamage;
 		}];
 	}
-	else {v3_toggle = 0;v3_vehicle removeEventHandler ["Fired", t90sm_fire];};
+	else {v3_toggle = 0;v3_vehicle removeEventHandler ["Fired", v3_fire];};
 }];
 
 
@@ -68,8 +68,8 @@ vehicle_remove = player addAction ["Remove and disable options", {
 	// _var = missionNameSpace getVariable ["t80uk_fire",-1];
 	// if (_var != -1) then { player removeEventHandler ["Fired", t80uk_fire]; } else {};
 
-	_var = missionNameSpace getVariable ["t90sm_fire",-1];
-	if (_var != -1) then { player removeEventHandler ["Fired", t90sm_fire]; } else {};
+	_var = missionNameSpace getVariable ["v3_fire",-1];
+	if (_var != -1) then { player removeEventHandler ["Fired", v3_fire]; } else {};
 
 	// _var = missionNameSpace getVariable ["t14_fire",-1];
 	// if (_var != -1) then { player removeEventHandler ["Fired", t14_fire]; } else {};
