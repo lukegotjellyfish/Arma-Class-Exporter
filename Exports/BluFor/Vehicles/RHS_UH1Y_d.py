@@ -1,4 +1,5 @@
-RHS_UH1Y_d = {    "bin|config.bin/CfgVehicles/RHS_UH1Y_d/faction": "rhs_faction_usmc_d",
+RHS_UH1Y_d = {
+    "bin|config.bin/CfgVehicles/RHS_UH1Y_d/faction": "rhs_faction_usmc_d",
     "bin|config.bin/CfgVehicles/RHS_UH1Y_d/vehicleClass": "rhs_vehclass_helicopter",
     "bin|config.bin/CfgVehicles/RHS_UH1Y_d/crew": "rhsusf_usmc_marpat_d_helipilot",
     "bin|config.bin/CfgVehicles/RHS_UH1Y_d/typicalCargo": ["rhsusf_usmc_marpat_d_helicrew"],

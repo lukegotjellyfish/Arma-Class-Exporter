@@ -1,4 +1,5 @@
-rhs_mag_3ubr8_230 = {    "bin|config.bin/CfgMagazines/rhs_mag_3ubr8_230/displayName": "APDS 3UBR8",
+rhs_mag_3ubr8_230 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3ubr8_230/displayName": "APDS 3UBR8",
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr8_230/displayNameShort": "3UBR8",
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr8_230/ammo": "rhs_ammo_3ubr8",
         "bin|config.bin/CfgAmmo/rhs_ammo_3ubr8/hit": 90,

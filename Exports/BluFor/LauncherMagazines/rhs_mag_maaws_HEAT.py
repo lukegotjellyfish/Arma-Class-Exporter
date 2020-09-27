@@ -1,4 +1,5 @@
-rhs_mag_maaws_HEAT = {    "bin|config.bin/CfgMagazines/rhs_mag_maaws_HEAT/author": "Red Hammer Studios",
+rhs_mag_maaws_HEAT = {
+    "bin|config.bin/CfgMagazines/rhs_mag_maaws_HEAT/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_maaws_HEAT/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_maaws_HEAT/displayName": "FFV751 HEAT",
     "bin|config.bin/CfgMagazines/rhs_mag_maaws_HEAT/model": "rhsusf\addons\rhsusf_weapons2\m3maaws\mag_m3maaws.p3d",

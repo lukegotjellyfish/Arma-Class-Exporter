@@ -1,4 +1,5 @@
-rhs_rshg2_mag = {    "bin|config.bin/CfgMagazines/rhs_rshg2_mag/scope": 1,
+rhs_rshg2_mag = {
+    "bin|config.bin/CfgMagazines/rhs_rshg2_mag/scope": 1,
     "bin|config.bin/CfgMagazines/rhs_rshg2_mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_rshg2_mag/displayName": "RShG-2",
     "bin|config.bin/CfgMagazines/rhs_rshg2_mag/displayNameShort": "HE",

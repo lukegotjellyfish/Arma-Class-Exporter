@@ -1,4 +1,5 @@
-rhs_weap_m240_abrams_coax = {,
+rhs_weap_m240_abrams_coax = {
+,
     "bin|config.bin/CfgWeapons/rhs_weap_m240veh/type": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_m240veh/ballisticsComputer": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m240veh/canLock": 0,

@@ -1,4 +1,5 @@
-rhs_weap_m32_Base_F = {    "bin|config.bin/CfgWeapons/rhs_weap_m32_Base_F/dlc": "RHS_USAF",
+rhs_weap_m32_Base_F = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m32_Base_F/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhs_weap_m32_Base_F/UiPicture": "\A3\weapons_f\data\UI\icon_regular_CA.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m32_Base_F/model": "\rhsusf\addons\rhsusf_weapons2\M32\rhs_m32",
     "bin|config.bin/CfgWeapons/rhs_weap_m32_Base_F/magazines": ["rhsusf_mag_6Rnd_M441_HE","rhsusf_mag_6Rnd_M433_HEDP","rhsusf_mag_6Rnd_M397_HET","rhsusf_mag_6Rnd_M576_Buckshot","rhsusf_mag_6Rnd_M781_Practice","rhsusf_mag_6Rnd_m4009","rhsusf_mag_6Rnd_M585_white","rhsusf_mag_6Rnd_m661_green","rhsusf_mag_6Rnd_m662_red","rhsusf_mag_6Rnd_M713_red","rhsusf_mag_6Rnd_M714_white","rhsusf_mag_6Rnd_M715_green","rhsusf_mag_6Rnd_M716_yellow"],

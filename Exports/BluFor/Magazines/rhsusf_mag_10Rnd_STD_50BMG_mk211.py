@@ -1,4 +1,5 @@
-rhsusf_mag_10Rnd_STD_50BMG_mk211 = {    "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_mk211/author": "Red Hammer Studios",
+rhsusf_mag_10Rnd_STD_50BMG_mk211 = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_mk211/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_mk211/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_mk211/displayName": "10rnd M107 Mk211",
     "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_mk211/displayNameShort": "Mk 211 HEIAP",

@@ -1,4 +1,5 @@
-rhsgref_5Rnd_792x57_kar98k = {    "bin|config.bin/CfgMagazines/rhsgref_5Rnd_792x57_kar98k/author": "Red Hammer Studios",
+rhsgref_5Rnd_792x57_kar98k = {
+    "bin|config.bin/CfgMagazines/rhsgref_5Rnd_792x57_kar98k/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_5Rnd_792x57_kar98k/scope": 2,
     "bin|config.bin/CfgMagazines/rhsgref_5Rnd_792x57_kar98k/displayName": "5rnd 7.92x57mm clip",
     "bin|config.bin/CfgMagazines/rhsgref_5Rnd_792x57_kar98k/model": "\rhsgref\addons\rhsgref_weapons\kar98k\792x57clip",

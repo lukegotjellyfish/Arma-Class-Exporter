@@ -1,4 +1,5 @@
-rhs_mag_3bm46_10 = {    "bin|config.bin/CfgMagazines/rhs_mag_3bm46_10/displayName": "APFSDS-T 3BM48",
+rhs_mag_3bm46_10 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3bm46_10/displayName": "APFSDS-T 3BM48",
     "bin|config.bin/CfgMagazines/rhs_mag_3bm46_10/displayNameShort": "3BM48",
     "bin|config.bin/CfgMagazines/rhs_mag_3bm46_10/ammo": "rhs_ammo_3bm46",
         "bin|config.bin/CfgAmmo/rhs_ammo_3bm46/caliber": 0.1,

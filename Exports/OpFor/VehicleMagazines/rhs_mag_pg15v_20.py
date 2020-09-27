@@ -1,4 +1,5 @@
-rhs_mag_pg15v_20 = {    "bin|config.bin/CfgMagazines/rhs_mag_pg15v_20/count": 20,
+rhs_mag_pg15v_20 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_pg15v_20/count": 20,
     "bin|config.bin/CfgMagazines/rhs_mag_pg15v_24/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_pg15v_24/displayName": "HEAT PG15V",
     "bin|config.bin/CfgMagazines/rhs_mag_pg15v_24/displayNameShort": "PG15V",

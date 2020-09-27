@@ -1,4 +1,5 @@
-rhs_ammo_smaw_HEDP_penetrator = {    "bin|config.bin/CfgAmmo/rhs_ammo_smaw_HEDP_penetrator/hit": 235,
+rhs_ammo_smaw_HEDP_penetrator = {
+    "bin|config.bin/CfgAmmo/rhs_ammo_smaw_HEDP_penetrator/hit": 235,
     "bin|config.bin/CfgAmmo/rhs_ammo_smaw_HEDP_penetrator/caliber": 16.6667,
     "bin|config.bin/CfgAmmo/rhsusf_ammo_basic_penetrator/warheadName": "HEAT",
     "bin|config.bin/CfgAmmo/rhsusf_ammo_basic_penetrator/indirectHit": 0,

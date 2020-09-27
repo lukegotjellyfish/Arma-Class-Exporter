@@ -1,4 +1,5 @@
-rhs_mag_smaw_HEDP = {    "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEDP/author": "Red Hammer Studios",
+rhs_mag_smaw_HEDP = {
+    "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEDP/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEDP/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEDP/displayName": "Mk.3 HEDP",
     "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEDP/descriptionshort": "Type: High Explosive Dual Purpose<br />Caliber: 83 mm<br />Used in: SMAW",

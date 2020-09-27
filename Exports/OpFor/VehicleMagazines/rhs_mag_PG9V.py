@@ -1,4 +1,5 @@
-rhs_mag_PG9V = {    "bin|config.bin/CfgMagazines/rhs_mag_pg9v/displayName": "HEAT PG9V",
+rhs_mag_PG9V = {
+    "bin|config.bin/CfgMagazines/rhs_mag_pg9v/displayName": "HEAT PG9V",
     "bin|config.bin/CfgMagazines/rhs_mag_pg9v/displayNameShort": "PG9V",
     "bin|config.bin/CfgMagazines/rhs_mag_pg9v/ammo": "rhs_ammo_pg9v",
         "bin|config.bin/CfgAmmo/rhs_ammo_pg9v/model": "\rhsafrf\addons\rhs_heavyweapons\SPG9\pg9_projectile",

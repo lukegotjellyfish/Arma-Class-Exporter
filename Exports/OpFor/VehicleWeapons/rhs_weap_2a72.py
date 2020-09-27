@@ -1,4 +1,5 @@
-rhs_weap_2a72 = {,
+rhs_weap_2a72 = {
+,
     "bin|config.bin/CfgWeapons/rhs_weap_2a72_base/displayName": "2A72",
     "bin|config.bin/CfgWeapons/rhs_weap_2a72_base/cursor": "EmptyCursor",
     "bin|config.bin/CfgWeapons/rhs_weap_2a72_base/cursorAim": "mg",

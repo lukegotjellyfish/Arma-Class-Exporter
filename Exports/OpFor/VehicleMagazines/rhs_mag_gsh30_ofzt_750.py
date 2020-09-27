@@ -1,4 +1,5 @@
-rhs_mag_gsh30_ofzt_750 = {    "bin|config.bin/CfgMagazines/rhs_mag_gsh30_ofzt_750/displayName": "HE-T OFZT-30-Gsh",
+rhs_mag_gsh30_ofzt_750 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_gsh30_ofzt_750/displayName": "HE-T OFZT-30-Gsh",
     "bin|config.bin/CfgMagazines/rhs_mag_gsh30_ofzt_750/displayNameShort": "OFZT-30-Gsh",
     "bin|config.bin/CfgMagazines/rhs_mag_gsh30_ofzt_750/ammo": "rhs_ammo_3uof8",
         "bin|config.bin/CfgAmmo/rhs_ammo_3uof8/hit": 50,

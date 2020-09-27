@@ -1,4 +1,5 @@
-rhs_mag_3uor6_230 = {    "bin|config.bin/CfgMagazines/rhs_mag_3uor6_230/displayName": "HEI-T 3UOR6",
+rhs_mag_3uor6_230 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3uor6_230/displayName": "HEI-T 3UOR6",
     "bin|config.bin/CfgMagazines/rhs_mag_3uor6_230/displayNameShort": "3UOR6",
     "bin|config.bin/CfgMagazines/rhs_mag_3uor6_230/nameSound": "heat",
     "bin|config.bin/CfgMagazines/rhs_mag_3uor6_230/ammo": "rhs_ammo_3uor6",

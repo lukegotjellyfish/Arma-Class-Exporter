@@ -1,4 +1,5 @@
-rhsusf_mag_10Rnd_STD_50BMG_M33 = {    "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_M33/author": "Red Hammer Studios",
+rhsusf_mag_10Rnd_STD_50BMG_M33 = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_M33/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_M33/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_M33/initSpeed": 853,
     "bin|config.bin/CfgMagazines/rhsusf_mag_10Rnd_STD_50BMG_M33/displayName": "10rnd M107 M33",

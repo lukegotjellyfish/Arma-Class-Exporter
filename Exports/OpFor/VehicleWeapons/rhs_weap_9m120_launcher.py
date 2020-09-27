@@ -1,4 +1,5 @@
-rhs_weap_9m120_launcher = {    "bin|config.bin/CfgWeapons/rhs_weap_9M120_launcher/displayname": "9M120",
+rhs_weap_9m120_launcher = {
+    "bin|config.bin/CfgWeapons/rhs_weap_9M120_launcher/displayname": "9M120",
     "bin|config.bin/CfgWeapons/rhs_weap_9M120_launcher/magazines": ["rhs_mag_9M120","rhs_mag_9M120_8","rhs_mag_9M120_16","rhs_mag_9M120M","rhs_mag_9M120M_8","rhs_mag_9M120M_16","rhs_mag_9M120_Mi24_2x","rhs_mag_9M120M_Mi24_2x","rhs_mag_9M120_Mi28_8x","rhs_mag_9M120M_Mi28_8x"],
     "bin|config.bin/CfgWeapons/rhs_weap_9M120_launcher/maxrange": 8000,
     "bin|config.bin/CfgWeapons/rhs_weap_9M120_launcher/midrange": 3500,

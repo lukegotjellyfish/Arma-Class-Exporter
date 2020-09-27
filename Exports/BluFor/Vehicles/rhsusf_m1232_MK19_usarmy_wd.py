@@ -1,4 +1,5 @@
-rhsusf_m1232_MK19_usarmy_wd = {    "bin|config.bin/CfgVehicles/rhsusf_M1232_MK19_usarmy_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_M1232_MK19_usarmy_wd.paa",
+rhsusf_m1232_MK19_usarmy_wd = {
+    "bin|config.bin/CfgVehicles/rhsusf_M1232_MK19_usarmy_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_M1232_MK19_usarmy_wd.paa",
     "bin|config.bin/CfgVehicles/rhsusf_M1232_MK19_usarmy_wd/displayName": "M1232 (Mk19)",
     "bin|config.bin/CfgVehicles/rhsusf_M1232_MK19_usarmy_wd/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/rhsusf_M1232_MK19_usarmy_wd/crew": "rhsusf_army_ucp_driver_armored",

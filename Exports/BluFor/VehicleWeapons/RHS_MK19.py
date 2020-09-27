@@ -1,4 +1,5 @@
-RHS_MK19 = {    "bin|config.bin/CfgWeapons/RHS_MK19/type": 1,
+RHS_MK19 = {
+    "bin|config.bin/CfgWeapons/RHS_MK19/type": 1,
     "bin|config.bin/CfgWeapons/RHS_MK19/scope": 1,
     "bin|config.bin/CfgWeapons/RHS_MK19/ballisticsComputer": 2,
     "bin|config.bin/CfgWeapons/RHS_MK19/autoreload": 1,

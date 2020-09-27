@@ -1,4 +1,5 @@
-rhs_mag_762x51_M240_1200 = {    "bin|config.bin/CfgMagazines/rhs_mag_762x51_M240_1200/count": 1200,
+rhs_mag_762x51_M240_1200 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_762x51_M240_1200/count": 1200,
     "bin|config.bin/CfgMagazines/rhs_mag_1100Rnd_762x51_M240/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_1100Rnd_762x51_M240/ammo": "rhs_ammo_762x51_M80A1EPR_Ball",
         "bin|config.bin/CfgAmmo/rhs_ammo_762x51_M80A1EPR_Ball/hit": 10.5,

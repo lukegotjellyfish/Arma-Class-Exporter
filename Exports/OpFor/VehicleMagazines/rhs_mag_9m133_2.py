@@ -1,4 +1,5 @@
-rhs_mag_9m133_2 = {    "bin|config.bin/CfgMagazines/rhs_mag_9m133_2/scope": 2,
+rhs_mag_9m133_2 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_9m133_2/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_9m133_2/displayName": "ATGM 9M133",
     "bin|config.bin/CfgMagazines/rhs_mag_9m133_2/displayNameShort": "9M133",
     "bin|config.bin/CfgMagazines/rhs_mag_9m133_2/canLock": 1,

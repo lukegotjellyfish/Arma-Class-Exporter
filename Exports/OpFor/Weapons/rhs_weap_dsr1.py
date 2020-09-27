@@ -1,4 +1,5 @@
-rhs_weap_dsr1 = {    "bin|config.bin/CfgWeapons/rhs_weap_dsr1/author": "Red Hammer Studios",
+rhs_weap_dsr1 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_dsr1/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_dsr1/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_dsr1_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_dsr1/scopeArsenal": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_dsr1/scope": 1,

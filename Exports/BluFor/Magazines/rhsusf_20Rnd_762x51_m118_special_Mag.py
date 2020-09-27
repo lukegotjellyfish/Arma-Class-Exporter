@@ -1,4 +1,5 @@
-rhsusf_20Rnd_762x51_m118_special_Mag = {    "bin|config.bin/CfgMagazines/rhsusf_20Rnd_762x51_m118_special_Mag/author": "Red Hammer Studios",
+rhsusf_20Rnd_762x51_m118_special_Mag = {
+    "bin|config.bin/CfgMagazines/rhsusf_20Rnd_762x51_m118_special_Mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_20Rnd_762x51_m118_special_Mag/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_20Rnd_762x51_m118_special_Mag/displayName": "20rnd M14 M118",
     "bin|config.bin/CfgMagazines/rhsusf_20Rnd_762x51_m118_special_Mag/displayNameShort": "M118 Ball",

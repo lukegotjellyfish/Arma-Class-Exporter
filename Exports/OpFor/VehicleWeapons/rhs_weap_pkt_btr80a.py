@@ -1,4 +1,5 @@
-rhs_weap_pkt_btr80a = {,
+rhs_weap_pkt_btr80a = {
+,
     "bin|config.bin/CfgWeapons/rhs_weap_pkt/type": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_pkt/showAimCursorInternal": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_pkt/scope": 2,

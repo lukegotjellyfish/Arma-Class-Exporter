@@ -1,4 +1,5 @@
-rhs_weap_M590_5RD = {    "bin|config.bin/CfgWeapons/rhs_weap_M590_5RD/author": "Red Hammer Studios",
+rhs_weap_M590_5RD = {
+    "bin|config.bin/CfgWeapons/rhs_weap_M590_5RD/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_M590_5RD/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_M590_5RD_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_M590_5RD/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhs_weap_M590_5RD/scope": 2,

@@ -1,4 +1,5 @@
-RHS_CH_47F_10 = {    "bin|config.bin/CfgVehicles/RHS_CH_47F_10/faction": "rhs_faction_usarmy_d",
+RHS_CH_47F_10 = {
+    "bin|config.bin/CfgVehicles/RHS_CH_47F_10/faction": "rhs_faction_usarmy_d",
     "bin|config.bin/CfgVehicles/RHS_CH_47F_10/vehicleClass": "rhs_vehclass_helicopter",
     "bin|config.bin/CfgVehicles/RHS_CH_47F_10/crew": "rhsusf_army_ocp_helipilot",
     "bin|config.bin/CfgVehicles/RHS_CH_47F_10/typicalCargo": ["rhsusf_army_ocp_helicrew"],

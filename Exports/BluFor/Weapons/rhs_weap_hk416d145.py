@@ -1,4 +1,5 @@
-rhs_weap_hk416d145 = {    "bin|config.bin/CfgWeapons/rhs_weap_hk416d145/author": "Red Hammer Studios",
+rhs_weap_hk416d145 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_hk416d145/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_hk416d145/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_hk416d145_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_hk416d145/displayName": "HK416 D14.5",
     "bin|config.bin/CfgWeapons/rhs_weap_hk416d145/initSpeed": -0.94,

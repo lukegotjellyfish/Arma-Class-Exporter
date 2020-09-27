@@ -1,4 +1,5 @@
-rhs_weap_rpg7 = {    "bin|config.bin/CfgWeapons/rhs_weap_rpg7/author": "Red Hammer Studios",
+rhs_weap_rpg7 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_rpg7/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_rpg7/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_rpg7_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_rpg7/dlc": "RHS_AFRF",
     "bin|config.bin/CfgWeapons/rhs_weap_rpg7/scope": 2,

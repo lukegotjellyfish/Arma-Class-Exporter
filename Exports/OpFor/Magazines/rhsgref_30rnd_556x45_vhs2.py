@@ -1,4 +1,5 @@
-rhsgref_30rnd_556x45_vhs2 = {    "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_vhs2/author": "Red Hammer Studios",
+rhsgref_30rnd_556x45_vhs2 = {
+    "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_vhs2/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_vhs2/scope": 2,
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_vhs2/displayName": "30rnd VHS-2 M855A1",
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_vhs2/displaynameshort": "M855A1",

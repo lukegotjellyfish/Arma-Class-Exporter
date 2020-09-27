@@ -1,4 +1,5 @@
-rhs_mag_3ubr11_195 = {    "bin|config.bin/CfgMagazines/rhs_mag_3ubr11_195/count": 195,
+rhs_mag_3ubr11_195 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3ubr11_195/count": 195,
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr11_195/weight": 58.5,
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr11_230/displayName": "APFSDS 3UBR11",
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr11_230/displayNameShort": "3UBR11",

@@ -1,4 +1,5 @@
-rhs_m72a7_mag = {    "bin|config.bin/CfgMagazines/rhs_m72a7_mag/author": "Red Hammer Studios",
+rhs_m72a7_mag = {
+    "bin|config.bin/CfgMagazines/rhs_m72a7_mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_m72a7_mag/displayName": "M72 HEDP",
     "bin|config.bin/CfgMagazines/rhs_m72a7_mag/ammo": "rhs_ammo_m72a7_rocket",
         "bin|config.bin/CfgAmmo/rhs_ammo_m72a7_rocket/submunitionAmmo": "rhs_ammo_M136_hedp_penetrator",

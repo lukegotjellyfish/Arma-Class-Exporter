@@ -1,4 +1,5 @@
-rhs_mag_145x115mm_50 = {    "bin|config.bin/CfgMagazines/rhs_mag_145x115mm_50/displayName": "14.5x115mm",
+rhs_mag_145x115mm_50 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_145x115mm_50/displayName": "14.5x115mm",
     "bin|config.bin/CfgMagazines/rhs_mag_145x115mm_50/displayNameShort": "14.5x115mm",
     "bin|config.bin/CfgMagazines/rhs_mag_145x115mm_50/count": 50,
     "bin|config.bin/CfgMagazines/rhs_mag_145x115mm_50/ammo": "rhs_ammo_145x115mm",

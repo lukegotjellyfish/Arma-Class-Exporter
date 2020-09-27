@@ -1,4 +1,5 @@
-rhs_mag_3uof8_150 = {    "bin|config.bin/CfgMagazines/rhs_mag_3uof8_150/count": 150,
+rhs_mag_3uof8_150 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3uof8_150/count": 150,
     "bin|config.bin/CfgMagazines/rhs_mag_3uof8_150/weight": 58.35,
     "bin|config.bin/CfgMagazines/rhs_mag_3uof8_230/displayName": "HE-T 3UOF8",
     "bin|config.bin/CfgMagazines/rhs_mag_3uof8_230/displayNameShort": "3UOF8",

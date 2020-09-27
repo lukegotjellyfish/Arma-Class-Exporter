@@ -1,4 +1,5 @@
-rhsusf_mag_L8A3_8 = {    "bin|config.bin/CfgMagazines/rhsusf_mag_L8A3_8/count": 8,
+rhsusf_mag_L8A3_8 = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_L8A3_8/count": 8,
     "bin|config.bin/CfgMagazines/rhsusf_mag_L8A3_8/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_mag_L8A3_8/ammo": "rhsusf_ammo_L8A3",
         "bin|config.bin/CfgAmmo/rhsusf_ammo_L8A3/rhs_smokeShell": "rhsusf_ammo_L8A3_shell",

@@ -1,4 +1,5 @@
-rhs_bmd1r = {    "bin|config.bin/CfgVehicles/rhs_bmd1r/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd1r.paa",
+rhs_bmd1r = {
+    "bin|config.bin/CfgVehicles/rhs_bmd1r/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd1r.paa",
     "bin|config.bin/CfgVehicles/rhs_bmd1r/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_bmd1r/model": "\rhsafrf\addons\rhs_bmd\rhs_bmd1rock.p3d",
     "bin|config.bin/CfgVehicles/rhs_bmd1r/picture": "\rhsafrf\addons\rhs_bmd\pictures\rhs_bmd1r_pic_ca.paa",

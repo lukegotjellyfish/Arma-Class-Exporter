@@ -1,4 +1,5 @@
-rhs_rpg7_PG7VR_mag = {    "bin|config.bin/CfgMagazines/rhs_rpg7_PG7VR_mag/author": "Red Hammer Studios",
+rhs_rpg7_PG7VR_mag = {
+    "bin|config.bin/CfgMagazines/rhs_rpg7_PG7VR_mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_rpg7_PG7VR_mag/picture": "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_rpg7_PG7VR_mag_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_rpg7_PG7VR_mag/displayName": "PG-7VR",
     "bin|config.bin/CfgMagazines/rhs_rpg7_PG7VR_mag/displayNameShort": "PG-7VR - AT",

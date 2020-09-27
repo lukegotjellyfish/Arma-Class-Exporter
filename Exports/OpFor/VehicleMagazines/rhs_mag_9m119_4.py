@@ -1,4 +1,5 @@
-rhs_mag_9m119_4 = {    "bin|config.bin/CfgMagazines/rhs_mag_9m119_4/count": 4,
+rhs_mag_9m119_4 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_9m119_4/count": 4,
     "bin|config.bin/CfgMagazines/rhs_mag_9m119_6/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_9m119_6/canLock": 0,
     "bin|config.bin/CfgMagazines/rhs_mag_9m119_6/displayName": "ATGM 9M119",

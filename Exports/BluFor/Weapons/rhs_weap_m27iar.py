@@ -1,4 +1,5 @@
-rhs_weap_m27iar = {    "bin|config.bin/CfgWeapons/rhs_weap_m27iar/author": "Red Hammer Studios",
+rhs_weap_m27iar = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m27iar/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m27iar/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m27iar_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m27iar/displayName": "M27 IAR",
     "bin|config.bin/CfgWeapons/rhs_weap_m27iar/model": "\rhsusf\addons\rhsusf_weapons2\M27\rhs_m27iar.p3d",

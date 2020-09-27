@@ -1,4 +1,5 @@
-rhsgref_30rnd_556x45_m21 = {    "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_m21/magazineGroup": ["rhs_m21_mag_group"],
+rhsgref_30rnd_556x45_m21 = {
+    "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_m21/magazineGroup": ["rhs_m21_mag_group"],
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_m21/dlc": "RHS_SAF",
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_m21/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_556x45_m21/scope": 2,

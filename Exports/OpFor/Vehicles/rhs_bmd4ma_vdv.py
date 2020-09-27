@@ -1,4 +1,5 @@
-rhs_bmd4ma_vdv = {    "bin|config.bin/CfgVehicles/rhs_bmd4ma_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd4ma_vdv.paa",
+rhs_bmd4ma_vdv = {
+    "bin|config.bin/CfgVehicles/rhs_bmd4ma_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd4ma_vdv.paa",
     "bin|config.bin/CfgVehicles/rhs_bmd4ma_vdv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_bmd4ma_vdv/model": "\rhsafrf\addons\rhs_bmd_34\rhs_bmd_4ma.p3d",
     "bin|config.bin/CfgVehicles/rhs_bmd4ma_vdv/displayName": "BMD-4M (A)",

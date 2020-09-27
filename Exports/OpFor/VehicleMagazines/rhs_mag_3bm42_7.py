@@ -1,4 +1,5 @@
-rhs_mag_3bm42_7 = {    "bin|config.bin/CfgMagazines/rhs_mag_3bm42_7/count": 7,
+rhs_mag_3bm42_7 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3bm42_7/count": 7,
     "bin|config.bin/CfgMagazines/rhs_mag_3bm42_10/displayName": "APFSDS-T 3BM42",
     "bin|config.bin/CfgMagazines/rhs_mag_3bm42_10/displayNameShort": "3BM42",
     "bin|config.bin/CfgMagazines/rhs_mag_3bm42_10/ammo": "rhs_ammo_3bm42",

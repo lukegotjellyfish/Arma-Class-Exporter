@@ -1,4 +1,5 @@
-rhs_m136_hedp_mag = {    "bin|config.bin/CfgMagazines/rhs_m136_hedp_mag/author": "Red Hammer Studios",
+rhs_m136_hedp_mag = {
+    "bin|config.bin/CfgMagazines/rhs_m136_hedp_mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_m136_hedp_mag/displayName": "M136 HEDP",
     "bin|config.bin/CfgMagazines/rhs_m136_hedp_mag/descriptionshort": "Type: High Explosive, Dual Purpose",
     "bin|config.bin/CfgMagazines/rhs_m136_hedp_mag/ammo": "rhs_ammo_M136_hedp_rocket",

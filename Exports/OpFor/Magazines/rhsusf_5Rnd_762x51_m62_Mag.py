@@ -1,4 +1,5 @@
-rhsusf_5Rnd_762x51_m62_Mag = {    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m62_Mag/author": "Red Hammer Studios",
+rhsusf_5Rnd_762x51_m62_Mag = {
+    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m62_Mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m62_Mag/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m62_Mag/displayname": "5rnd M62 (Tracer)",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m62_Mag/displayNameShort": "M62 Tracer",

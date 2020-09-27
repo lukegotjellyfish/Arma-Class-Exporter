@@ -1,4 +1,5 @@
-rhs_mag_fab250 = {    "bin|config.bin/CfgMagazines/rhs_mag_fab250/model": "\rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_m_fab250",
+rhs_mag_fab250 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_fab250/model": "\rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_m_fab250",
     "bin|config.bin/CfgMagazines/rhs_mag_fab250/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_fab250/ammo": "rhs_ammo_fab250",
         "bin|config.bin/CfgAmmo/rhs_ammo_fab250/hit": 5000,

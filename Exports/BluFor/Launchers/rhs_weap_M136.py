@@ -1,4 +1,5 @@
-rhs_weap_M136 = {    "bin|config.bin/CfgWeapons/rhs_weap_M136/dlc": "RHS_USAF",
+rhs_weap_M136 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_M136/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhs_weap_M136/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_M136/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_M136/displayName": "M136 (HEAT)",

@@ -1,4 +1,5 @@
-RHS_AH1Z = {    "bin|config.bin/CfgVehicles/RHS_AH1Z/side": 1,
+RHS_AH1Z = {
+    "bin|config.bin/CfgVehicles/RHS_AH1Z/side": 1,
     "bin|config.bin/CfgVehicles/RHS_AH1Z/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_AH1Z/accuracy": 5,
     "bin|config.bin/CfgVehicles/RHS_AH1Z/cost": 1e+007,

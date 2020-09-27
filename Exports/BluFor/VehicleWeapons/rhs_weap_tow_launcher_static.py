@@ -1,4 +1,5 @@
-rhs_weap_tow_launcher_static = {    "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher_static/canLock": 0,
+rhs_weap_tow_launcher_static = {
+    "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher_static/canLock": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher_static/autoReload": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher_static/minRange": 10,
     "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher_static/minRangeProbab": 0.5,

@@ -1,4 +1,5 @@
-rhs_ammo_thermobaric_wave = {    "bin|config.bin/CfgAmmo/rhs_ammo_thermobaric_wave/caliber": 6.66667,
+rhs_ammo_thermobaric_wave = {
+    "bin|config.bin/CfgAmmo/rhs_ammo_thermobaric_wave/caliber": 6.66667,
     "bin|config.bin/CfgAmmo/rhs_ammo_thermobaric_wave/hit": 10,
     "bin|config.bin/CfgAmmo/rhs_ammo_thermobaric_wave/indirectHit": 20,
     "bin|config.bin/CfgAmmo/rhs_ammo_thermobaric_wave/indirectHitRange": 2.15,

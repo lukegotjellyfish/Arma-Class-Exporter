@@ -1,4 +1,5 @@
-rhs_weap_mg42_base = {    "bin|config.bin/CfgWeapons/rhs_weap_mg42_base/author": "Red Hammer Studios",
+rhs_weap_mg42_base = {
+    "bin|config.bin/CfgWeapons/rhs_weap_mg42_base/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_mg42_base/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_mg42_base_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_mg42_base/dlc": "RHS_GREF",
     "bin|config.bin/CfgWeapons/rhs_weap_mg42_base/scope": 1,

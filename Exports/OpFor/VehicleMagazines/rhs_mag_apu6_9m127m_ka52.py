@@ -1,4 +1,5 @@
-rhs_mag_apu6_9m127m_ka52 = {    "bin|config.bin/CfgMagazines/rhs_mag_apu6_9m127m_ka52/model": "rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_m_9m127_6x",
+rhs_mag_apu6_9m127m_ka52 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_apu6_9m127m_ka52/model": "rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_m_9m127_6x",
     "bin|config.bin/CfgMagazines/rhs_mag_apu6_9m127m_ka52/pylonWeapon": "rhs_weap_9k121_Launcher",
     "bin|config.bin/CfgMagazines/rhs_mag_apu6_9m127m_ka52/hardpoints": ["RHS_HP_APU6_9m127_KA52"],
     "bin|config.bin/CfgMagazines/rhs_mag_9m127m/ammo": "rhs_ammo_9m127m",

@@ -1,4 +1,5 @@
-rhs_mag_3UOF17_22 = {    "bin|config.bin/CfgMagazines/rhs_mag_3UOF17_22/scope": 2,
+rhs_mag_3UOF17_22 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3UOF17_22/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_3UOF17_22/displayName": "HEF-T 3UOF17",
     "bin|config.bin/CfgMagazines/rhs_mag_3UOF17_22/displayNameShort": "3UOF17",
     "bin|config.bin/CfgMagazines/rhs_mag_3UOF17_22/ammo": "rhs_ammo_3UOF17",

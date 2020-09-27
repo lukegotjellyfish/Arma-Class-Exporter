@@ -1,4 +1,5 @@
-rhsusf_f22 = {    "bin|config.bin/CfgVehicles/rhsusf_f22/rhs_gearAnim": "fold_gear_F",
+rhsusf_f22 = {
+    "bin|config.bin/CfgVehicles/rhsusf_f22/rhs_gearAnim": "fold_gear_F",
     "bin|config.bin/CfgVehicles/rhsusf_f22/scope": 2,
     "bin|config.bin/CfgVehicles/rhsusf_f22/dlc": "RHS_USAF",
     "bin|config.bin/CfgVehicles/rhsusf_f22/author": "Red Hammer Studios",

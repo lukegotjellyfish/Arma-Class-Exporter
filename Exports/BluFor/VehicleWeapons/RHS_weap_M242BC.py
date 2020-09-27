@@ -1,4 +1,5 @@
-RHS_weap_M242BC = {    "bin|config.bin/CfgWeapons/RHS_weap_M242BC/aiDispersioncoefX": 4,
+RHS_weap_M242BC = {
+    "bin|config.bin/CfgWeapons/RHS_weap_M242BC/aiDispersioncoefX": 4,
     "bin|config.bin/CfgWeapons/RHS_weap_M242BC/aiDispersioncoefY": 6,
     "bin|config.bin/CfgWeapons/RHS_weap_M242BC/airateoffire": 2,
     "bin|config.bin/CfgWeapons/RHS_weap_M242BC/airateoffiredistance": 1000,

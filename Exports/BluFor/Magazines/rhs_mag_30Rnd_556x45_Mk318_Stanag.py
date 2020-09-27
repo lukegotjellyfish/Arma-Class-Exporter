@@ -1,4 +1,5 @@
-rhs_mag_30Rnd_556x45_Mk318_Stanag = {    "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk318_Stanag/author": "Red Hammer Studios",
+rhs_mag_30Rnd_556x45_Mk318_Stanag = {
+    "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk318_Stanag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk318_Stanag/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\magazines\rhs_mag_30Rnd_556x45_Mk318_Stanag_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk318_Stanag/displayName": "30rnd STANAG Mk318 Mod 0",
     "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk318_Stanag/displayNameShort": "Mk318",

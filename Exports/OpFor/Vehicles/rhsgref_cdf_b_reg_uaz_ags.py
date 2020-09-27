@@ -1,4 +1,5 @@
-rhsgref_cdf_b_reg_uaz_ags = {    "bin|config.bin/CfgVehicles/rhsgref_cdf_b_reg_uaz_ags/author": "Red Hammer Studios",
+rhsgref_cdf_b_reg_uaz_ags = {
+    "bin|config.bin/CfgVehicles/rhsgref_cdf_b_reg_uaz_ags/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhsgref_cdf_b_reg_uaz_ags/faction": "rhsgref_faction_cdf_ground_b",
     "bin|config.bin/CfgVehicles/rhsgref_cdf_b_reg_uaz_ags/side": 1,
     "bin|config.bin/CfgVehicles/rhsgref_cdf_b_reg_uaz_ags/scope": 2,

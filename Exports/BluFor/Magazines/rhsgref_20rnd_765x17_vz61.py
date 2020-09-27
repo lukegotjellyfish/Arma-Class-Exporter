@@ -1,4 +1,5 @@
-rhsgref_20rnd_765x17_vz61 = {    "bin|config.bin/CfgMagazines/rhsgref_20rnd_765x17_vz61/dlc": "RHS_SAF",
+rhsgref_20rnd_765x17_vz61 = {
+    "bin|config.bin/CfgMagazines/rhsgref_20rnd_765x17_vz61/dlc": "RHS_SAF",
     "bin|config.bin/CfgMagazines/rhsgref_20rnd_765x17_vz61/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_20rnd_765x17_vz61/mass": 5.5,
     "bin|config.bin/CfgMagazines/rhsgref_20rnd_765x17_vz61/scope": 2,

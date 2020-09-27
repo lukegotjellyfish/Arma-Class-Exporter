@@ -1,4 +1,5 @@
-rhsusf_10Rnd_762x51_m993_Mag = {    "bin|config.bin/CfgMagazines/rhsusf_10Rnd_762x51_m993_Mag/author": "Red Hammer Studios",
+rhsusf_10Rnd_762x51_m993_Mag = {
+    "bin|config.bin/CfgMagazines/rhsusf_10Rnd_762x51_m993_Mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_10Rnd_762x51_m993_Mag/model": "\rhsusf\addons\rhsusf_weapons\magazines\rhs_10rnd_aics_mag",
     "bin|config.bin/CfgMagazines/rhsusf_10Rnd_762x51_m993_Mag/modelSpecial": "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_aics_10rnd",
     "bin|config.bin/CfgMagazines/rhsusf_10Rnd_762x51_m993_Mag/scope": 2,

@@ -1,4 +1,5 @@
-rhsgref_50Rnd_792x57_SmE_drum = {    "bin|config.bin/CfgMagazines/rhsgref_50Rnd_792x57_SmE_drum/author": "Red Hammer Studios",
+rhsgref_50Rnd_792x57_SmE_drum = {
+    "bin|config.bin/CfgMagazines/rhsgref_50Rnd_792x57_SmE_drum/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_50Rnd_792x57_SmE_drum/scope": 2,
     "bin|config.bin/CfgMagazines/rhsgref_50Rnd_792x57_SmE_drum/scopeCurator": 2,
     "bin|config.bin/CfgMagazines/rhsgref_50Rnd_792x57_SmE_drum/displayName": "50Rnd 7.92x57 Drum S.m.E.",

@@ -1,4 +1,5 @@
-rhs_mag_2Rnd_TOW2BB = {    "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2BB/scope": 2,
+rhs_mag_2Rnd_TOW2BB = {
+    "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2BB/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2BB/ammo": "rhs_ammo_TOW2_BB",
         "bin|config.bin/CfgAmmo/rhs_ammo_TOW2_BB/AIAmmoUsageFlags": "64+128+256",
         "bin|config.bin/CfgAmmo/rhs_ammo_TOW2_BB/submunitionAmmo": "rhs_ammo_TOW2_BB_penetrator",

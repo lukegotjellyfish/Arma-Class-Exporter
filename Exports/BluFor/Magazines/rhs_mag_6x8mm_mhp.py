@@ -1,4 +1,5 @@
-rhs_mag_6x8mm_mhp = {    "bin|config.bin/CfgMagazines/rhs_mag_6x8mm_mhp/scope": 2,
+rhs_mag_6x8mm_mhp = {
+    "bin|config.bin/CfgMagazines/rhs_mag_6x8mm_mhp/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_6x8mm_mhp/type": 16,
     "bin|config.bin/CfgMagazines/rhs_mag_6x8mm_mhp/displayName": "6Rnd Type 94 Nambu 8x22mm",
     "bin|config.bin/CfgMagazines/rhs_mag_6x8mm_mhp/picture": "\rhsgref\addons\rhsgref_weapons2\icons\rhs_inv_type94mag_01_ca.paa",

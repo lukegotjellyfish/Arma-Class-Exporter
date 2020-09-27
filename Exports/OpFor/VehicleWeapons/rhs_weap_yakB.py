@@ -1,4 +1,5 @@
-rhs_weap_yakB = {    "bin|config.bin/CfgWeapons/rhs_weap_yakB/scope": 2,
+rhs_weap_yakB = {
+    "bin|config.bin/CfgWeapons/rhs_weap_yakB/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_yakB/aidispersioncoefx": 1.6,
     "bin|config.bin/CfgWeapons/rhs_weap_yakB/aidispersioncoefy": 3,
     "bin|config.bin/CfgWeapons/rhs_weap_yakB/ballisticscomputer": 0,

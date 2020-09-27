@@ -1,4 +1,5 @@
-rhs_weap_2a46_2 = {    "bin|config.bin/CfgWeapons/rhs_weap_2a46_2/aiDispersioncoefX": 3.5,
+rhs_weap_2a46_2 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_2a46_2/aiDispersioncoefX": 3.5,
     "bin|config.bin/CfgWeapons/rhs_weap_2a46_2/aiDispersioncoefY": 6.5,
     "bin|config.bin/CfgWeapons/rhs_weap_2a46_2/displayName": "2A46-2",
     "bin|config.bin/CfgWeapons/rhs_weap_d81/canLock": 0,

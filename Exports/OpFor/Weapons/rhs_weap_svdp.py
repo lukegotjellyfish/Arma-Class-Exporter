@@ -1,4 +1,5 @@
-rhs_weap_svdp = {    "bin|config.bin/CfgWeapons/rhs_weap_svdp/author": "Red Hammer Studios",
+rhs_weap_svdp = {
+    "bin|config.bin/CfgWeapons/rhs_weap_svdp/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_svdp/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_svdp_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_svdp/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_svdp/displayname": "SVDM",

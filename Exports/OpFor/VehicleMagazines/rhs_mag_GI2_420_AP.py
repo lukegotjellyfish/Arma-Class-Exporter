@@ -1,4 +1,5 @@
-rhs_mag_GI2_420_AP = {    "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_AP/scope": 2,
+rhs_mag_GI2_420_AP = {
+    "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_AP/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_AP/displayname": "20x139mm Armor-Piercing Capped",
     "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_AP/displaynameshort": "APC",
     "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_AP/ammo": "rhs_ammo_20x139mm_AP",

@@ -1,4 +1,5 @@
-rhs_weap_gi2 = {    "bin|config.bin/CfgWeapons/rhs_weap_gi2/displayName": "GI-2",
+rhs_weap_gi2 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_gi2/displayName": "GI-2",
     "bin|config.bin/CfgWeapons/rhs_weap_gi2/magazines": [],
     "bin|config.bin/CfgWeapons/rhs_weap_gi2/muzzles": ["HE","AP"],
     "bin|config.bin/CfgWeapons/rhs_weap_M197/aiDispersionCoefX": 2,

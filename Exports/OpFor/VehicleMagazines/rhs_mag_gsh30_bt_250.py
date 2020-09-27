@@ -1,4 +1,5 @@
-rhs_mag_gsh30_bt_250 = {    "bin|config.bin/CfgMagazines/rhs_mag_gsh30_bt_250/count": 250,
+rhs_mag_gsh30_bt_250 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_gsh30_bt_250/count": 250,
     "bin|config.bin/CfgMagazines/rhs_mag_gsh30_bt_250/weight": "0.390*250",
     "bin|config.bin/CfgMagazines/rhs_mag_gsh30_bt_250/maxLeadSpeed": 300,
     "bin|config.bin/CfgMagazines/rhs_mag_gsh30_bt_750/displayName": "APDS BT-30-GSh",

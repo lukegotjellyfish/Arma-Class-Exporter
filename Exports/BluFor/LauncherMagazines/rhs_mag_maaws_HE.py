@@ -1,4 +1,5 @@
-rhs_mag_maaws_HE = {    "bin|config.bin/CfgMagazines/rhs_mag_maaws_HE/author": "Red Hammer Studios",
+rhs_mag_maaws_HE = {
+    "bin|config.bin/CfgMagazines/rhs_mag_maaws_HE/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_maaws_HE/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_maaws_HE/displayName": "FFV441 HE",
     "bin|config.bin/CfgMagazines/rhs_mag_maaws_HE/model": "rhsusf\addons\rhsusf_weapons2\m3maaws\mag_m3maaws.p3d",

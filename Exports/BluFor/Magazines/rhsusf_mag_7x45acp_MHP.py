@@ -1,4 +1,5 @@
-rhsusf_mag_7x45acp_MHP = {    "bin|config.bin/CfgMagazines/rhsusf_mag_7x45acp_MHP/author": "Red Hammer Studios",
+rhsusf_mag_7x45acp_MHP = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_7x45acp_MHP/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_mag_7x45acp_MHP/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_mag_7x45acp_MHP/type": 16,
     "bin|config.bin/CfgMagazines/rhsusf_mag_7x45acp_MHP/displayName": "7rnd M1911 HP",

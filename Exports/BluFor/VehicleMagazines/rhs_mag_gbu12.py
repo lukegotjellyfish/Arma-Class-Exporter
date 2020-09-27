@@ -1,4 +1,5 @@
-rhs_mag_gbu12 = {    "bin|config.bin/CfgMagazines/rhs_mag_gbu12/count": 1,
+rhs_mag_gbu12 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_gbu12/count": 1,
     "bin|config.bin/CfgMagazines/rhs_mag_gbu12/displayName": "GBU-12",
     "bin|config.bin/CfgMagazines/rhs_mag_gbu12/descriptionShort": "500lb Paveway II",
     "bin|config.bin/CfgMagazines/rhs_mag_gbu12/ammo": "rhs_ammo_gbu12",

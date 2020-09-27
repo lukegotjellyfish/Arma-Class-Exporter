@@ -1,4 +1,5 @@
-Rhs_mag_4Rnd_stinger = {    "bin|config.bin/CfgMagazines/rhs_mag_4Rnd_stinger/scope": 2,
+Rhs_mag_4Rnd_stinger = {
+    "bin|config.bin/CfgMagazines/rhs_mag_4Rnd_stinger/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_4Rnd_stinger/ammo": "rhs_ammo_fim92_missile",
         "bin|config.bin/CfgAmmo/rhs_ammo_fim92_missile/model": "\rhsusf\addons\rhsusf_weapons\FIM92\Stinger_Rocket",
         "bin|config.bin/CfgAmmo/rhs_ammo_fim92_missile/hit": 60,

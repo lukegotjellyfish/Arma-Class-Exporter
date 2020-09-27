@@ -1,4 +1,5 @@
-rhsgref_1Rnd_00Buck = {    "bin|config.bin/CfgMagazines/rhsgref_1Rnd_00Buck/author": "Red Hammer Studios",
+rhsgref_1Rnd_00Buck = {
+    "bin|config.bin/CfgMagazines/rhsgref_1Rnd_00Buck/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_1Rnd_00Buck/scope": 2,
     "bin|config.bin/CfgMagazines/rhsgref_1Rnd_00Buck/displayName": "1Rnd 00 Buckshot",
     "bin|config.bin/CfgMagazines/rhsgref_1Rnd_00Buck/displayNameShort": "Buckshot",

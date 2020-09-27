@@ -1,4 +1,5 @@
-rhs_m136_mag = {    "bin|config.bin/CfgMagazines/rhs_m136_mag/author": "Red Hammer Studios",
+rhs_m136_mag = {
+    "bin|config.bin/CfgMagazines/rhs_m136_mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_m136_mag/allowedSlots": [801,701,901],
     "bin|config.bin/CfgMagazines/rhs_m136_mag/scope": 1,
     "bin|config.bin/CfgMagazines/rhs_m136_mag/displayName": "M136 HEAT",

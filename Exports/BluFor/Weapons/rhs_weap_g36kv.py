@@ -1,4 +1,5 @@
-rhs_weap_g36kv = {    "bin|config.bin/CfgWeapons/rhs_weap_g36kv/picture": "\rhssaf\addons\rhssaf_inventoryicons\data\weapons\rhs_weap_g36kv_ca.paa",
+rhs_weap_g36kv = {
+    "bin|config.bin/CfgWeapons/rhs_weap_g36kv/picture": "\rhssaf\addons\rhssaf_inventoryicons\data\weapons\rhs_weap_g36kv_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_g36kv/dlc": "RHS_SAF",
     "bin|config.bin/CfgWeapons/rhs_weap_g36kv/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_g36kv/scope": 2,

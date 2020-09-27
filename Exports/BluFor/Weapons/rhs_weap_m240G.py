@@ -1,4 +1,5 @@
-rhs_weap_m240G = {    "bin|config.bin/CfgWeapons/rhs_weap_m240G/author": "Red Hammer Studios",
+rhs_weap_m240G = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m240G/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m240G/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m240G_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m240G/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m240G/displayName": "M240G",

@@ -1,4 +1,5 @@
-rhs_weap_2a70 = {    "bin|config.bin/CfgWeapons/rhs_weap_2a70/aiDispersioncoefX": 2,
+rhs_weap_2a70 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_2a70/aiDispersioncoefX": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_2a70/aiDispersioncoefY": 4,
     "bin|config.bin/CfgWeapons/rhs_weap_2a70/displayName": "2A70",
     "bin|config.bin/CfgWeapons/rhs_weap_2a70/magazineReloadTime": 5.5,

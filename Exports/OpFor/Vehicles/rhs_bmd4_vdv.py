@@ -1,4 +1,5 @@
-rhs_bmd4_vdv = {    "bin|config.bin/CfgVehicles/rhs_bmd4_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd4_vdv.paa",
+rhs_bmd4_vdv = {
+    "bin|config.bin/CfgVehicles/rhs_bmd4_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd4_vdv.paa",
     "bin|config.bin/CfgVehicles/rhs_bmd4_vdv/rhs_decalParameters": ["['Number',cRHSBMD4NumberPlaces,'Default']","['Label',cRHSBMD4PlnSymPlaces, 'Platoon',11]"],
     "bin|config.bin/CfgVehicles/rhs_bmd4_vdv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_bmd4_vdv/vehicleClass": "rhs_vehclass_ifv",

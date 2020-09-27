@@ -1,4 +1,5 @@
-rhs_weap_m240_bradley_coax = {    "bin|config.bin/CfgWeapons/rhs_weap_m240_bradley_coax/displayName": "M240C",
+rhs_weap_m240_bradley_coax = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m240_bradley_coax/displayName": "M240C",
     "bin|config.bin/CfgWeapons/rhs_weap_m240_bradley_coax/displaynameshort": "M240C",
     "bin|config.bin/CfgWeapons/rhs_weap_m240_bradley_coax/ballisticsComputer": "2 + 16",
     "bin|config.bin/CfgWeapons/rhs_weap_m240_bradley_coax/minZeroing": 200,

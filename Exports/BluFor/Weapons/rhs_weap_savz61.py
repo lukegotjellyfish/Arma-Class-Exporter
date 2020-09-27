@@ -1,4 +1,5 @@
-rhs_weap_savz61 = {    "bin|config.bin/CfgWeapons/rhs_weap_savz61/author": "Red Hammer Studios",
+rhs_weap_savz61 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_savz61/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_savz61/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_savz61_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_savz61/dlc": "RHS_GREF",
     "bin|config.bin/CfgWeapons/rhs_weap_savz61/displayName": "Sa vz. 61",

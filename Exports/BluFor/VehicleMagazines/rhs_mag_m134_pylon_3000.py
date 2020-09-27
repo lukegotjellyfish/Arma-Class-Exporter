@@ -1,4 +1,5 @@
-rhs_mag_m134_pylon_3000 = {    "bin|config.bin/CfgMagazines/rhs_mag_m134_pylon_3000/descriptionShort": "×3000 7.62×51mm M61/M62 (AP/T)",
+rhs_mag_m134_pylon_3000 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_m134_pylon_3000/descriptionShort": "×3000 7.62×51mm M61/M62 (AP/T)",
     "bin|config.bin/CfgMagazines/rhs_mag_m134_pylon_3000/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_m134_pylon_3000/hardpoints": ["RHS_HP_MELB_M134"],
     "bin|config.bin/CfgMagazines/rhs_mag_m134_pylon_3000/count": 3000,

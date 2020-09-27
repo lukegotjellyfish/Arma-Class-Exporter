@@ -1,4 +1,5 @@
-rhs_ammo_M_fgm148_AT_penetrator = {    "bin|config.bin/CfgAmmo/rhs_ammo_M_fgm148_AT_penetrator/warheadName": "TandemHEAT",
+rhs_ammo_M_fgm148_AT_penetrator = {
+    "bin|config.bin/CfgAmmo/rhs_ammo_M_fgm148_AT_penetrator/warheadName": "TandemHEAT",
     "bin|config.bin/CfgAmmo/rhs_ammo_M_fgm148_AT_penetrator/hit": 380,
     "bin|config.bin/CfgAmmo/rhs_ammo_M_fgm148_AT_penetrator/caliber": 64.6667,
     "bin|config.bin/CfgAmmo/rhsusf_ammo_basic_penetrator/indirectHit": 0,

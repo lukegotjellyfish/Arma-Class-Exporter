@@ -1,4 +1,5 @@
-rhs_mag_20Rnd_762x51_m80_fnfal = {    "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_762x51_m80_fnfal/author": "Red Hammer Studios",
+rhs_mag_20Rnd_762x51_m80_fnfal = {
+    "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_762x51_m80_fnfal/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_762x51_m80_fnfal/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_762x51_m80_fnfal/displayName": "20rnd FN FAL M80",
     "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_762x51_m80_fnfal/displayNameShort": "M80 Ball",

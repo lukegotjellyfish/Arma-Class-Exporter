@@ -1,4 +1,5 @@
-rhs_mag_mk82 = {    "bin|config.bin/CfgMagazines/rhs_mag_mk82/count": 1,
+rhs_mag_mk82 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_mk82/count": 1,
     "bin|config.bin/CfgMagazines/rhs_mag_mk82/displayName": "Mk82",
     "bin|config.bin/CfgMagazines/rhs_mag_mk82/descriptionShort": "500lb bomb",
     "bin|config.bin/CfgMagazines/rhs_mag_mk82/ammo": "rhs_ammo_mk82",

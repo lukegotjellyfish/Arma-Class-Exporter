@@ -1,4 +1,5 @@
-RHS_weap_m134_pylon = {    "bin|config.bin/CfgWeapons/RHS_weap_m134_pylon/scope": 1,
+RHS_weap_m134_pylon = {
+    "bin|config.bin/CfgWeapons/RHS_weap_m134_pylon/scope": 1,
     "bin|config.bin/CfgWeapons/RHS_weap_m134_pylon/displayname": "M134D-H",
     "bin|config.bin/CfgWeapons/RHS_weap_m134_pylon/cursor": "EmptyCursor",
     "bin|config.bin/CfgWeapons/RHS_weap_m134_pylon/cursorAim": "EmptyCursor",

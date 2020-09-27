@@ -1,4 +1,5 @@
-rhs_mag_3ubr6_195 = {    "bin|config.bin/CfgMagazines/rhs_mag_3ubr6_195/count": 195,
+rhs_mag_3ubr6_195 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3ubr6_195/count": 195,
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr6_195/weight": 78,
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr6_230/displayName": "APBC-T 3UBR6",
     "bin|config.bin/CfgMagazines/rhs_mag_3ubr6_230/displayNameShort": "3UBR6",

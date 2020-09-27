@@ -1,4 +1,5 @@
-rhs_mag_30Rnd_556x45_Mk262_Stanag = {    "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk262_Stanag/author": "Red Hammer Studios",
+rhs_mag_30Rnd_556x45_Mk262_Stanag = {
+    "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk262_Stanag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk262_Stanag/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\magazines\rhs_mag_30Rnd_556x45_Mk262_Stanag_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_mag_30Rnd_556x45_Mk262_Stanag/ammo": "rhs_ammo_556x45_Mk262_Ball",
         "bin|config.bin/CfgAmmo/rhs_ammo_556x45_Mk262_Ball/model": "\A3\Weapons_f\Data\bullettracer\tracer_red",

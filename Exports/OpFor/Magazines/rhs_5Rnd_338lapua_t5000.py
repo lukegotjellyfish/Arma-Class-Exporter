@@ -1,4 +1,5 @@
-rhs_5Rnd_338lapua_t5000 = {    "bin|config.bin/CfgMagazines/rhs_5Rnd_338lapua_t5000/author": "Red Hammer Studios",
+rhs_5Rnd_338lapua_t5000 = {
+    "bin|config.bin/CfgMagazines/rhs_5Rnd_338lapua_t5000/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_5Rnd_338lapua_t5000/picture": "\A3\Weapons_F_EPA\Data\ui\M_5rnd_127x108_ball_CA.paa",
     "bin|config.bin/CfgMagazines/rhs_5Rnd_338lapua_t5000/model": "\rhsafrf\addons\rhs_weapons3\magazines\rhs_t5000_mag",
     "bin|config.bin/CfgMagazines/rhs_5Rnd_338lapua_t5000/displayName": "5rnd T-5000 .338",

@@ -1,4 +1,5 @@
-rhs_weap_m134_minigun_1 = {    "bin|config.bin/CfgWeapons/rhs_weap_m134_minigun_1/displayName": "M134 Minigun 7.62mm",
+rhs_weap_m134_minigun_1 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m134_minigun_1/displayName": "M134 Minigun 7.62mm",
     "bin|config.bin/CfgWeapons/rhs_weap_m134_minigun_1/magazines": ["rhs_mag_762x51_m80a1_4000"],
     "bin|config.bin/CfgWeapons/M134_minigun/scope": 1,
     "bin|config.bin/CfgWeapons/M134_minigun/cursor": "EmptyCursor",

@@ -1,4 +1,5 @@
-rhs_weap_mk82 = {    "bin|config.bin/CfgWeapons/rhs_weap_mk82/displayName": "Mk 82",
+rhs_weap_mk82 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_mk82/displayName": "Mk 82",
     "bin|config.bin/CfgWeapons/rhs_weap_mk82/cursorSize": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_mk82/cursor": "bomb",
     "bin|config.bin/CfgWeapons/rhs_weap_mk82/cursorAim": "EmptyCursor",

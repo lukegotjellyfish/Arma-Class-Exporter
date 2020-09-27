@@ -1,4 +1,5 @@
-rhs_mag_AGM114K_4 = {    "bin|config.bin/CfgMagazines/rhs_mag_AGM114K_4/model": "\rhsusf\addons\rhsusf_airweapons\proxypylon\rhsusf_pylon_m_agm114_4x",
+rhs_mag_AGM114K_4 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_AGM114K_4/model": "\rhsusf\addons\rhsusf_airweapons\proxypylon\rhsusf_pylon_m_agm114_4x",
     "bin|config.bin/CfgMagazines/rhs_mag_AGM114K_4/count": 4,
     "bin|config.bin/CfgMagazines/rhs_mag_AGM114K_4/displayName": "AGM-114K (M299)",
     "bin|config.bin/CfgMagazines/rhs_mag_AGM114K_4/descriptionShort": "×4 Hellfire, Laser-homing ",

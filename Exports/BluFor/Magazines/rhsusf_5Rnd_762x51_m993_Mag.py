@@ -1,4 +1,5 @@
-rhsusf_5Rnd_762x51_m993_Mag = {    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m993_Mag/author": "Red Hammer Studios",
+rhsusf_5Rnd_762x51_m993_Mag = {
+    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m993_Mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m993_Mag/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m993_Mag/displayName": "5rnd M993 AP",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_762x51_m993_Mag/displayNameShort": "M993 AP",

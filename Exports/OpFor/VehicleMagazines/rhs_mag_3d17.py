@@ -1,4 +1,5 @@
-rhs_mag_3d17 = {    "bin|config.bin/CfgMagazines/rhs_mag_3d17/count": 8,
+rhs_mag_3d17 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3d17/count": 8,
     "bin|config.bin/CfgMagazines/rhs_mag_3d17/scope": 1,
     "bin|config.bin/CfgMagazines/rhs_mag_3d17/initSpeed": 50,
     "bin|config.bin/CfgMagazines/rhs_mag_3d17/ammo": "rhs_ammo_3d17",

@@ -1,4 +1,5 @@
-rhsgref_10Rnd_792x57_m76 = {    "bin|config.bin/CfgMagazines/rhsgref_10Rnd_792x57_m76/magazineGroup": ["rhs_m76_mag_group"],
+rhsgref_10Rnd_792x57_m76 = {
+    "bin|config.bin/CfgMagazines/rhsgref_10Rnd_792x57_m76/magazineGroup": ["rhs_m76_mag_group"],
     "bin|config.bin/CfgMagazines/rhsgref_10Rnd_792x57_m76/dlc": "RHS_SAF",
     "bin|config.bin/CfgMagazines/rhsgref_10Rnd_792x57_m76/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_10Rnd_792x57_m76/scope": 2,

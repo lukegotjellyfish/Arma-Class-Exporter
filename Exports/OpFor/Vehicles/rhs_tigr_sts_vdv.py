@@ -1,4 +1,5 @@
-rhs_tigr_sts_vdv = {    "bin|config.bin/CfgVehicles/rhs_tigr_sts_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_tigr_sts_vdv.paa",
+rhs_tigr_sts_vdv = {
+    "bin|config.bin/CfgVehicles/rhs_tigr_sts_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_tigr_sts_vdv.paa",
     "bin|config.bin/CfgVehicles/rhs_tigr_sts_vdv/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_tigr_sts_vdv/scopeCurator": 2,
     "bin|config.bin/CfgVehicles/rhs_tigr_sts_vdv/model": "\rhsafrf\addons\rhs_tigr\RHS_Tigr_sts",

@@ -1,4 +1,5 @@
-rhsusf_mag_6Rnd_M441_HE = {    "bin|config.bin/CfgMagazines/rhsusf_mag_6Rnd_M441_HE/author": "Red Hammer Studios",
+rhsusf_mag_6Rnd_M441_HE = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_6Rnd_M441_HE/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_mag_6Rnd_M441_HE/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_mag_6Rnd_M441_HE/displayName": "6rnd M441 HE Grenade Rounds",
     "bin|config.bin/CfgMagazines/rhsusf_mag_6Rnd_M441_HE/count": 6,

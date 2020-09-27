@@ -1,4 +1,5 @@
-rhs_mag_M830A1 = {    "bin|config.bin/CfgMagazines/rhs_mag_M830A1/displayName": "M830A1 MPAT",
+rhs_mag_M830A1 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_M830A1/displayName": "M830A1 MPAT",
     "bin|config.bin/CfgMagazines/rhs_mag_M830A1/displayNameShort": "M830A1",
     "bin|config.bin/CfgMagazines/rhs_mag_M830A1/ammo": "rhs_ammo_M830A1",
         "bin|config.bin/CfgAmmo/rhs_ammo_M830A1/explosive": 0.8,

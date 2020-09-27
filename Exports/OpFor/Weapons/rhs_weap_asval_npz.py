@@ -1,4 +1,5 @@
-rhs_weap_asval_npz = {    "bin|config.bin/CfgWeapons/rhs_weap_asval_npz/author": "Red Hammer Studios",
+rhs_weap_asval_npz = {
+    "bin|config.bin/CfgWeapons/rhs_weap_asval_npz/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_asval_npz/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_asval_npz_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_asval_npz/displayName": "AS Val (NPZ)",
     "bin|config.bin/CfgWeapons/rhs_weap_asval_npz/model": "\rhsafrf\addons\rhs_weapons2\asval\rhs_asval_npz",

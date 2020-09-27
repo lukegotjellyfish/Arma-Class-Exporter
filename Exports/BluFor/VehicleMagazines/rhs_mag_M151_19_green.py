@@ -1,4 +1,5 @@
-rhs_mag_M151_19_green = {    "bin|config.bin/CfgMagazines/rhs_mag_M151_19_green/model": "\rhsusf\addons\rhsusf_airweapons\proxypylon\rhsusf_pylon_r_FFAR_19x_green",
+rhs_mag_M151_19_green = {
+    "bin|config.bin/CfgMagazines/rhs_mag_M151_19_green/model": "\rhsusf\addons\rhsusf_airweapons\proxypylon\rhsusf_pylon_r_FFAR_19x_green",
     "bin|config.bin/CfgMagazines/rhs_mag_M151_19_green/displayname": "M151 Hydra (LAU-61)",
     "bin|config.bin/CfgMagazines/rhs_mag_M151_19_green/hardpoints": ["RHS_HP_FFAR_USMC"],
     "bin|config.bin/CfgMagazines/rhs_mag_M151_19/count": 19,

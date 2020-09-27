@@ -1,4 +1,5 @@
-rhs_mag_OG9V = {    "bin|config.bin/CfgMagazines/rhs_mag_og9v/displayName": "HE-FRAG OG9V",
+rhs_mag_OG9V = {
+    "bin|config.bin/CfgMagazines/rhs_mag_og9v/displayName": "HE-FRAG OG9V",
     "bin|config.bin/CfgMagazines/rhs_mag_og9v/displayNameShort": "OG9V",
     "bin|config.bin/CfgMagazines/rhs_mag_og9v/ammo": "rhs_ammo_og9v",
         "bin|config.bin/CfgAmmo/rhs_ammo_og9v/AIAmmoUsageFlags": "64+128+256",

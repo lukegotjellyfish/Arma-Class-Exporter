@@ -1,4 +1,5 @@
-rhs_mag_3of26_7 = {    "bin|config.bin/CfgMagazines/rhs_mag_3of26_7/count": 7,
+rhs_mag_3of26_7 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3of26_7/count": 7,
     "bin|config.bin/CfgMagazines/rhs_mag_3of26_6/displayName": "HE-FRAG-FS 3OF26",
     "bin|config.bin/CfgMagazines/rhs_mag_3of26_6/displayNameShort": "3OF26",
     "bin|config.bin/CfgMagazines/rhs_mag_3of26_6/ammo": "rhs_ammo_3of26",

@@ -1,4 +1,5 @@
-rhsusf_m1025_w_m2 = {    "bin|config.bin/CfgVehicles/rhsusf_m1025_w_m2/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1025_w_m2.paa",
+rhsusf_m1025_w_m2 = {
+    "bin|config.bin/CfgVehicles/rhsusf_m1025_w_m2/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1025_w_m2.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m1025_w_m2/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/rhsusf_m1025_w_m2/vehicleClass": "rhs_vehclass_car",
     "bin|config.bin/CfgVehicles/rhsusf_m1025_w_m2/crew": "rhsusf_army_ucp_rifleman",

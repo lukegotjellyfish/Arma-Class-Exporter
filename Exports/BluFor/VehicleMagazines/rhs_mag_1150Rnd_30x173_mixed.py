@@ -1,4 +1,5 @@
-rhs_mag_1150Rnd_30x173_mixed = {    "bin|config.bin/CfgMagazines/rhs_mag_1150Rnd_30x173_mixed/count": 1150,
+rhs_mag_1150Rnd_30x173_mixed = {
+    "bin|config.bin/CfgMagazines/rhs_mag_1150Rnd_30x173_mixed/count": 1150,
     "bin|config.bin/CfgMagazines/rhs_mag_1150Rnd_30x173_mixed/ammo": "rhs_ammo_30x173mm_GAU8_mixed",
         "bin|config.bin/CfgAmmo/rhs_ammo_30x173mm_GAU8_mixed/hit": 180,
         "bin|config.bin/CfgAmmo/rhs_ammo_30x173mm_GAU8_mixed/indirectHit": 4,

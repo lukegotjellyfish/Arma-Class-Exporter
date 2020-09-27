@@ -1,4 +1,5 @@
-rhs_weap_fgm148 = {    "bin|config.bin/CfgWeapons/rhs_weap_fgm148/dlc": "RHS_USAF",
+rhs_weap_fgm148 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_fgm148/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhs_weap_fgm148/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_fgm148/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_fgm148/displayName": "FGM-148 Javelin",

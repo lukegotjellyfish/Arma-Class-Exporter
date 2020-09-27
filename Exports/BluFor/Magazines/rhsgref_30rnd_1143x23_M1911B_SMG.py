@@ -1,4 +1,5 @@
-rhsgref_30rnd_1143x23_M1911B_SMG = {    "bin|config.bin/CfgMagazines/rhsgref_30rnd_1143x23_M1911B_SMG/author": "Red Hammer Studios",
+rhsgref_30rnd_1143x23_M1911B_SMG = {
+    "bin|config.bin/CfgMagazines/rhsgref_30rnd_1143x23_M1911B_SMG/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_1143x23_M1911B_SMG/scope": 2,
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_1143x23_M1911B_SMG/scopeCurator": 2,
     "bin|config.bin/CfgMagazines/rhsgref_30rnd_1143x23_M1911B_SMG/type": 16,

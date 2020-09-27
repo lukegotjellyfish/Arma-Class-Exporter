@@ -1,4 +1,5 @@
-rhs_mag_smaw_HEAA = {    "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEAA/author": "Red Hammer Studios",
+rhs_mag_smaw_HEAA = {
+    "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEAA/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEAA/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEAA/displayName": "Mk.6 HEAA",
     "bin|config.bin/CfgMagazines/rhs_mag_smaw_HEAA/descriptionshort": "Type: High Explosive Anti Armor<br />Caliber: 83 mm<br />Used in: SMAW",

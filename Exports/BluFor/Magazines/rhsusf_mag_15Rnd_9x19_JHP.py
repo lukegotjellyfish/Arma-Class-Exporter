@@ -1,4 +1,5 @@
-rhsusf_mag_15Rnd_9x19_JHP = {    "bin|config.bin/CfgMagazines/rhsusf_mag_15Rnd_9x19_JHP/author": "Red Hammer Studios",
+rhsusf_mag_15Rnd_9x19_JHP = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_15Rnd_9x19_JHP/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_mag_15Rnd_9x19_JHP/displayName": "15rnd M9 Mk243 JHP",
     "bin|config.bin/CfgMagazines/rhsusf_mag_15Rnd_9x19_JHP/picture": "\rhsusf\addons\rhsusf_weapons2\m9_beretta\Data\UI\M9_Magazine_ca.paa",
     "bin|config.bin/CfgMagazines/rhsusf_mag_15Rnd_9x19_JHP/descriptionShort": "Caliber: 9x19mm Parabellum<br/>Rounds: 15<br/>Used in: M9",

@@ -1,4 +1,5 @@
-rhs_mag_20Rnd_SCAR_762x51_m80_ball = {    "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_SCAR_762x51_m80_ball/author": "Red Hammer Studios",
+rhs_mag_20Rnd_SCAR_762x51_m80_ball = {
+    "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_SCAR_762x51_m80_ball/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_SCAR_762x51_m80_ball/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_SCAR_762x51_m80_ball/displayName": "20rnd SCAR M80",
     "bin|config.bin/CfgMagazines/rhs_mag_20Rnd_SCAR_762x51_m80_ball/displayNameShort": "M80 Ball",

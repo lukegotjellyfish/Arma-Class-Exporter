@@ -1,4 +1,5 @@
-rhs_100Rnd_762x54mmR = {    "bin|config.bin/CfgMagazines/rhs_100Rnd_762x54mmR/author": "Red Hammer Studios",
+rhs_100Rnd_762x54mmR = {
+    "bin|config.bin/CfgMagazines/rhs_100Rnd_762x54mmR/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_100Rnd_762x54mmR/displayName": "100rnd PKM 57-N-323S",
     "bin|config.bin/CfgMagazines/rhs_100Rnd_762x54mmR/descriptionShort": "Caliber: 7.62x54mmR FMJ<br />Rounds: 100<br />Every 5 Rounds: 1x 7T2 Tracer<br />Used in: PKM, PKP",
     "bin|config.bin/CfgMagazines/rhs_100Rnd_762x54mmR/displayNameShort": "57-N-323S",

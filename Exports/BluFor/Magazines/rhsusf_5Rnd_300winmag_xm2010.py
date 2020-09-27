@@ -1,4 +1,5 @@
-rhsusf_5Rnd_300winmag_xm2010 = {    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_300winmag_xm2010/author": "Red Hammer Studios",
+rhsusf_5Rnd_300winmag_xm2010 = {
+    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_300winmag_xm2010/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_300winmag_xm2010/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_300winmag_xm2010/displayName": "5rnd .300WM Mk248 MOD 1",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_300winmag_xm2010/displaynameshort": ".300 Win Mag",

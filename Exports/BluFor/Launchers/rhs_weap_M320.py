@@ -1,4 +1,5 @@
-rhs_weap_M320 = {    "bin|config.bin/CfgWeapons/rhs_weap_M320/author": "Red Hammer Studios",
+rhs_weap_M320 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_M320/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_M320/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_M320_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_M320/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_M320/displayName": "M320 GLM",

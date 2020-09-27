@@ -1,4 +1,5 @@
-rhs_mag_3bk18m_6 = {    "bin|config.bin/CfgMagazines/rhs_mag_3bk18m_6/count": 6,
+rhs_mag_3bk18m_6 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3bk18m_6/count": 6,
     "bin|config.bin/CfgMagazines/rhs_mag_3bk18m_8/displayName": "HEAT-FS 3BK18M",
     "bin|config.bin/CfgMagazines/rhs_mag_3bk18m_8/displayNameShort": "3BK18M",
     "bin|config.bin/CfgMagazines/rhs_mag_3bk18m_8/ammo": "rhs_ammo_3bk18M",

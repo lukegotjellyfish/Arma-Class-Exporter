@@ -1,4 +1,5 @@
-rhs_mag_b8v20a_ka52_s8kom = {    "bin|config.bin/CfgMagazines/rhs_mag_b8v20a_ka52_s8kom/model": "rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_r_b8v20a_ka52.p3d",
+rhs_mag_b8v20a_ka52_s8kom = {
+    "bin|config.bin/CfgMagazines/rhs_mag_b8v20a_ka52_s8kom/model": "rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_r_b8v20a_ka52.p3d",
     "bin|config.bin/CfgMagazines/rhs_mag_b8v20a_ka52_s8kom/hardpoints": ["RHS_HP_B8V20_KA52"],
     "bin|config.bin/CfgMagazines/rhs_mag_b8v20a_s8kom/ammo": "rhs_ammo_s8",
         "bin|config.bin/CfgAmmo/rhs_ammo_s8/AIAmmoUsageFlags": "64+128+512",

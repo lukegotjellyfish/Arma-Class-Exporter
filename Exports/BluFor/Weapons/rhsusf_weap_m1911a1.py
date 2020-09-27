@@ -1,4 +1,5 @@
-rhsusf_weap_m1911a1 = {    "bin|config.bin/CfgWeapons/rhsusf_weap_m1911a1/author": "Red Hammer Studios",
+rhsusf_weap_m1911a1 = {
+    "bin|config.bin/CfgWeapons/rhsusf_weap_m1911a1/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhsusf_weap_m1911a1/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhsusf_weap_m1911a1_ca.paa",
     "bin|config.bin/CfgWeapons/rhsusf_weap_m1911a1/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhsusf_weap_m1911a1/scope": 2,

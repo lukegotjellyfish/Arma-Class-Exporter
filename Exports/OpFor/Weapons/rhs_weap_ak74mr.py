@@ -1,4 +1,5 @@
-rhs_weap_ak74mr = {    "bin|config.bin/CfgWeapons/rhs_weap_ak74mr/author": "Red Hammer Studios",
+rhs_weap_ak74mr = {
+    "bin|config.bin/CfgWeapons/rhs_weap_ak74mr/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_ak74mr/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_ak74mr_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_ak74mr/displayName": "AK-74MR (UUK)",
     "bin|config.bin/CfgWeapons/rhs_weap_ak74mr/model": "\rhsafrf\addons\rhs_weapons3\ak74mr\rhs_ak74mr",

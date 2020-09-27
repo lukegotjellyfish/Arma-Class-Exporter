@@ -1,4 +1,5 @@
-rhsusf_m1a1fep_wd = {    "bin|config.bin/CfgVehicles/rhsusf_m1a1fep_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a1fep_wd.paa",
+rhsusf_m1a1fep_wd = {
+    "bin|config.bin/CfgVehicles/rhsusf_m1a1fep_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a1fep_wd.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1fep_wd/scope": 2,
     "bin|config.bin/CfgVehicles/rhsusf_m1a1fep_wd/displayName": "M1A1FEP",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1fep_wd/faction": "rhs_faction_usmc_wd",

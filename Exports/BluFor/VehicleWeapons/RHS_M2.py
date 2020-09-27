@@ -1,4 +1,5 @@
-RHS_M2 = {    "bin|config.bin/CfgWeapons/RHS_M2/type": 1,
+RHS_M2 = {
+    "bin|config.bin/CfgWeapons/RHS_M2/type": 1,
     "bin|config.bin/CfgWeapons/RHS_M2/ballisticsComputer": 2,
     "bin|config.bin/CfgWeapons/RHS_M2/canLock": 0,
     "bin|config.bin/CfgWeapons/RHS_M2/initspeed": 0,

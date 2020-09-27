@@ -1,4 +1,5 @@
-rhs_t80uk = {    "bin|config.bin/CfgVehicles/rhs_t80uk/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t80uk.paa",
+rhs_t80uk = {
+    "bin|config.bin/CfgVehicles/rhs_t80uk/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t80uk.paa",
     "bin|config.bin/CfgVehicles/rhs_t80uk/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_t80uk/displayName": "T-80UK",
     "bin|config.bin/CfgVehicles/rhs_t80uk/rhs_aps_shtora": 1,

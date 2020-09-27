@@ -1,4 +1,5 @@
-rhs_weap_gsh30 = {    "bin|config.bin/CfgWeapons/rhs_weap_gsh30/scope": 2,
+rhs_weap_gsh30 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_gsh30/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_gsh30/canlock": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_gsh30/cursor": "mg",
     "bin|config.bin/CfgWeapons/rhs_weap_gsh30/cursoraim": "EmptyCursor",

@@ -1,4 +1,5 @@
-rhs_weap_m1garand_sa43 = {    "bin|config.bin/CfgWeapons/rhs_weap_m1garand_sa43/author": "Red Hammer Studios",
+rhs_weap_m1garand_sa43 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m1garand_sa43/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m1garand_sa43/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_m1garand_sa43_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m1garand_sa43/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m1garand_sa43/scopeCurator": 2,

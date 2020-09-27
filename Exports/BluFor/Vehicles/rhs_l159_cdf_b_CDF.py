@@ -1,4 +1,5 @@
-rhs_l159_cdf_b_CDF = {    "bin|config.bin/CfgVehicles/rhs_l159_cdf_b_CDF/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhs_l159_cdf_b_CDF.paa",
+rhs_l159_cdf_b_CDF = {
+    "bin|config.bin/CfgVehicles/rhs_l159_cdf_b_CDF/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhs_l159_cdf_b_CDF.paa",
     "bin|config.bin/CfgVehicles/rhs_l159_cdf_b_CDF/faction": "rhsgref_faction_cdf_air_b",
     "bin|config.bin/CfgVehicles/rhs_l159_cdf_b_CDF/crew": "rhsgref_cdf_b_air_pilot",
     "bin|config.bin/CfgVehicles/rhs_l159_cdf_b_CDF/side": 1,

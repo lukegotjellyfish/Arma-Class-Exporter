@@ -1,4 +1,5 @@
-rhsgref_8Rnd_762x63_M2B_M1rifle = {    "bin|config.bin/CfgMagazines/rhsgref_8Rnd_762x63_M2B_M1rifle/author": "Red Hammer Studios",
+rhsgref_8Rnd_762x63_M2B_M1rifle = {
+    "bin|config.bin/CfgMagazines/rhsgref_8Rnd_762x63_M2B_M1rifle/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_8Rnd_762x63_M2B_M1rifle/scope": 2,
     "bin|config.bin/CfgMagazines/rhsgref_8Rnd_762x63_M2B_M1rifle/displayName": "8Rnd .30-06 M2",
     "bin|config.bin/CfgMagazines/rhsgref_8Rnd_762x63_M2B_M1rifle/displayNameShort": "M2 Ball",

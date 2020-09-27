@@ -1,4 +1,5 @@
-rhs_weap_ak74m = {    "bin|config.bin/CfgWeapons/rhs_weap_ak74m/author": "Red Hammer Studios",
+rhs_weap_ak74m = {
+    "bin|config.bin/CfgWeapons/rhs_weap_ak74m/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_ak74m/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_ak74m_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_ak74m/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_ak74m/baseWeapon": "rhs_weap_ak74m",

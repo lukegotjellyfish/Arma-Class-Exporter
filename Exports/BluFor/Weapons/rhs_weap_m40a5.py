@@ -1,4 +1,5 @@
-rhs_weap_m40a5 = {    "bin|config.bin/CfgWeapons/rhs_weap_m40a5/author": "Red Hammer Studios",
+rhs_weap_m40a5 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m40a5/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m40a5/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m40a5_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m40a5/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m40a5/displayName": "M40A5",

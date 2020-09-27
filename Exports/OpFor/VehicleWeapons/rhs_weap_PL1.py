@@ -1,4 +1,5 @@
-rhs_weap_PL1 = {    "bin|config.bin/CfgWeapons/rhs_weap_PL1/displayname": "PL-1 Laser Designator",
+rhs_weap_PL1 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_PL1/displayname": "PL-1 Laser Designator",
     "bin|config.bin/CfgWeapons/RHS_T72_FCS/cursor": "EmptyCursor",
     "bin|config.bin/CfgWeapons/RHS_T72_FCS/cursoraim": "EmptyCursor",
     "bin|config.bin/CfgWeapons/RHS_T72_FCS/cursoraimon": "EmptyCursor",

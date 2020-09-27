@@ -1,4 +1,5 @@
-rhs_mag_30x113mm_M789_HEDP_1200 = {    "bin|config.bin/CfgMagazines/rhs_mag_30x113mm_M789_HEDP_1200/scope": 1,
+rhs_mag_30x113mm_M789_HEDP_1200 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_30x113mm_M789_HEDP_1200/scope": 1,
     "bin|config.bin/CfgMagazines/rhs_mag_30x113mm_M789_HEDP_1200/displayName": "30x113mm M789 HEDP-T",
     "bin|config.bin/CfgMagazines/rhs_mag_30x113mm_M789_HEDP_1200/ammo": "rhs_ammo_30x113mm_M789_HEDP",
         "bin|config.bin/CfgAmmo/rhs_ammo_30x113mm_M789_HEDP/allowagainstinfantry": 1,

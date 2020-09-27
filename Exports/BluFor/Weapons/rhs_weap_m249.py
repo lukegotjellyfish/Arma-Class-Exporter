@@ -1,4 +1,5 @@
-rhs_weap_m249 = {    "bin|config.bin/CfgWeapons/rhs_weap_m249/author": "Red Hammer Studios",
+rhs_weap_m249 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m249/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m249/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m249_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m249/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m249/model": "\rhsusf\addons\rhsusf_weapons2\M249\merged\m249_mk1.p3d",

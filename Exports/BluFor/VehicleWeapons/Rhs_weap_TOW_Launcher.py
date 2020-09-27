@@ -1,4 +1,5 @@
-Rhs_weap_TOW_Launcher = {    "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher/holdsterAnimValue": 1,
+Rhs_weap_TOW_Launcher = {
+    "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher/holdsterAnimValue": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher/autoReload": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher/textureType": "semi",
     "bin|config.bin/CfgWeapons/rhs_weap_TOW_Launcher/scope": 1,

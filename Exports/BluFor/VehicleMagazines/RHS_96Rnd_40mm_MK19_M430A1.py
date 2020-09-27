@@ -1,4 +1,5 @@
-RHS_96Rnd_40mm_MK19_M430A1 = {    "bin|config.bin/CfgMagazines/RHS_96Rnd_40mm_MK19_M430A1/count": 96,
+RHS_96Rnd_40mm_MK19_M430A1 = {
+    "bin|config.bin/CfgMagazines/RHS_96Rnd_40mm_MK19_M430A1/count": 96,
     "bin|config.bin/CfgMagazines/RHS_48Rnd_40mm_MK19_M430A1/displayName": "Mk. 19 40mm M430A1 HEDP",
     "bin|config.bin/CfgMagazines/RHS_48Rnd_40mm_MK19_M430A1/displaynameshort": "M430A1 HEDP",
     "bin|config.bin/CfgMagazines/RHS_48Rnd_40mm_MK19_M430A1/ammo": "rhs_ammo_mk19m3_M430A1",

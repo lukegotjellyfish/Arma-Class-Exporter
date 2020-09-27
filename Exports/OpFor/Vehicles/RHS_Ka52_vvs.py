@@ -1,4 +1,5 @@
-RHS_Ka52_vvs = {    "bin|config.bin/CfgVehicles/RHS_Ka52_vvs/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Ka52_vvs.paa",
+RHS_Ka52_vvs = {
+    "bin|config.bin/CfgVehicles/RHS_Ka52_vvs/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Ka52_vvs.paa",
     "bin|config.bin/CfgVehicles/RHS_Ka52_vvs/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_Ka52_vvs/faction": "rhs_faction_vvs",
     "bin|config.bin/CfgVehicles/RHS_Ka52_vvs/author": "Red Hammer Studios",

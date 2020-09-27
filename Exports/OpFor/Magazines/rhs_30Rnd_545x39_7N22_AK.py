@@ -1,4 +1,5 @@
-rhs_30Rnd_545x39_7N22_AK = {    "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N22_AK/author": "Red Hammer Studios",
+rhs_30Rnd_545x39_7N22_AK = {
+    "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N22_AK/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N22_AK/picture": "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N22_AK_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N22_AK/displayName": "30rnd AK-74 7N22",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N22_AK/descriptionShort": "Caliber: 5.45x39mm AP<br />Rounds: 30<br />Used in: AK-74M, AK-105",

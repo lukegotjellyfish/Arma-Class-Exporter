@@ -1,4 +1,5 @@
-rhs_10Rnd_762x54mmR_7N14 = {    "bin|config.bin/CfgMagazines/rhs_10Rnd_762x54mmR_7N14/author": "Red Hammer Studios",
+rhs_10Rnd_762x54mmR_7N14 = {
+    "bin|config.bin/CfgMagazines/rhs_10Rnd_762x54mmR_7N14/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_10Rnd_762x54mmR_7N14/displayName": "10rnd SVD 7N14",
     "bin|config.bin/CfgMagazines/rhs_10Rnd_762x54mmR_7N14/descriptionShort": "7N14 10rnd SVD Mag",
     "bin|config.bin/CfgMagazines/rhs_10Rnd_762x54mmR_7N14/displayNameShort": "7N14 AP",

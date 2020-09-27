@@ -1,4 +1,5 @@
-rhs_weap_mk18 = {    "bin|config.bin/CfgWeapons/rhs_weap_mk18/author": "Red Hammer Studios",
+rhs_weap_mk18 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_mk18/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_mk18/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_mk18_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_mk18/displayName": "Mk 18 Mod 1",
     "bin|config.bin/CfgWeapons/rhs_weap_mk18/model": "\rhsusf\addons\rhsusf_weapons3\M4BII\MK18.p3d",

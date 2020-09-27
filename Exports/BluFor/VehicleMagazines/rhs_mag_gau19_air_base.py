@@ -1,4 +1,5 @@
-rhs_mag_gau19_air_base = {    "bin|config.bin/CfgMagazines/rhs_mag_gau19_air_base/scope": 0,
+rhs_mag_gau19_air_base = {
+    "bin|config.bin/CfgMagazines/rhs_mag_gau19_air_base/scope": 0,
     "bin|config.bin/CfgMagazines/rhs_mag_gau19_air_base/ammo": "rhs_ammo_127x99_SLAP_Tracer_Red",
         "bin|config.bin/CfgAmmo/rhs_ammo_127x99_SLAP_Tracer_Red/model": "\A3\Weapons_f\Data\bullettracer\tracer_red",
         "bin|config.bin/CfgAmmo/rhs_ammo_127x99_SLAP_Tracer_Red/tracerEndTime": 3,

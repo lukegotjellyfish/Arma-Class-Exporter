@@ -1,4 +1,5 @@
-rhs_zsu234_aa = {    "bin|config.bin/CfgVehicles/rhs_zsu234_aa/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_zsu234_aa.paa",
+rhs_zsu234_aa = {
+    "bin|config.bin/CfgVehicles/rhs_zsu234_aa/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_zsu234_aa.paa",
     "bin|config.bin/CfgVehicles/rhs_zsu234_aa/author": "RHS",
     "bin|config.bin/CfgVehicles/rhs_zsu234_aa/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_zsu234_aa/displayName": "ZSU-23-4V",

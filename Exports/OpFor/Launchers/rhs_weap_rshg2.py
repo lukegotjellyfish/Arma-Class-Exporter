@@ -1,4 +1,5 @@
-rhs_weap_rshg2 = {    "bin|config.bin/CfgWeapons/rhs_weap_rshg2/author": "Red Hammer Studios",
+rhs_weap_rshg2 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_rshg2/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_rshg2/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_rshg2_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_rshg2/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_rshg2/displayName": "RShG-2",

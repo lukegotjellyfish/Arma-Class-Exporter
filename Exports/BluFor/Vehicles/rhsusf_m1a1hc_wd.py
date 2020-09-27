@@ -1,4 +1,5 @@
-rhsusf_m1a1hc_wd = {    "bin|config.bin/CfgVehicles/rhsusf_m1a1hc_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a1hc_wd.paa",
+rhsusf_m1a1hc_wd = {
+    "bin|config.bin/CfgVehicles/rhsusf_m1a1hc_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a1hc_wd.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1hc_wd/faction": "rhs_faction_usmc_wd",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1hc_wd/vehicleClass": "rhs_vehclass_tank",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1hc_wd/crew": "rhsusf_usmc_marpat_wd_crewman",

@@ -1,4 +1,5 @@
-rhs_rpg26_penetrator = {    "bin|config.bin/CfgAmmo/rhs_rpg26_penetrator/caliber": 29.3333,
+rhs_rpg26_penetrator = {
+    "bin|config.bin/CfgAmmo/rhs_rpg26_penetrator/caliber": 29.3333,
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/warheadName": "HEAT",
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/hit": 290,
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/indirectHit": 0,

@@ -1,4 +1,5 @@
-rhs_mag_9M120M_Mi24_2x = {    "bin|config.bin/CfgMagazines/rhs_mag_9M120M_Mi24_2x/model": "rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_m_9m120_2x",
+rhs_mag_9M120M_Mi24_2x = {
+    "bin|config.bin/CfgMagazines/rhs_mag_9M120M_Mi24_2x/model": "rhsafrf\addons\rhs_a2port_air\data\rhs_pylon_m_9m120_2x",
     "bin|config.bin/CfgMagazines/rhs_mag_9M120M_Mi24_2x/count": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_9M120M_Mi24_2x/mass": 85,
     "bin|config.bin/CfgMagazines/rhs_mag_9M120M_Mi24_2x/weight": 85,

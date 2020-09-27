@@ -1,4 +1,5 @@
-rhs_weap_m4a1_blockII = {    "bin|config.bin/CfgWeapons/rhs_weap_m4a1_blockII/author": "Red Hammer Studios",
+rhs_weap_m4a1_blockII = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m4a1_blockII/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m4a1_blockII/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m4a1_blockII_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m4a1_blockII/displayName": "M4A1 Block II",
     "bin|config.bin/CfgWeapons/rhs_weap_m4a1_blockII/model": "\rhsusf\addons\rhsusf_weapons3\M4BII\m4a1_blockII.p3d",

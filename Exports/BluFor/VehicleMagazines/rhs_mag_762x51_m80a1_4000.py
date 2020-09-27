@@ -1,4 +1,5 @@
-rhs_mag_762x51_m80a1_4000 = {    "bin|config.bin/CfgMagazines/rhs_mag_762x51_m80a1_4000/count": 4000,
+rhs_mag_762x51_m80a1_4000 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_762x51_m80a1_4000/count": 4000,
     "bin|config.bin/CfgMagazines/rhs_mag_762x51_m80a1_4000/weight": 84,
     "bin|config.bin/CfgMagazines/rhs_mag_1100Rnd_762x51_M240/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_1100Rnd_762x51_M240/ammo": "rhs_ammo_762x51_M80A1EPR_Ball",

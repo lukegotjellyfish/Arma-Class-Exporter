@@ -1,4 +1,5 @@
-rhs_mag_2Rnd_TOW2B_AERO = {    "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2B_AERO/scope": 2,
+rhs_mag_2Rnd_TOW2B_AERO = {
+    "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2B_AERO/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2B_AERO/ammo": "rhs_ammo_TOW2B_AERO_AT",
         "bin|config.bin/CfgAmmo/rhs_ammo_TOW2B_AERO_AT/model": "\rhsusf\addons\rhsusf_heavyweapons\atgm\TOW2BAERO",
         "bin|config.bin/CfgAmmo/rhs_ammo_TOW2B_AERO_AT/maxControlRange": 4000,

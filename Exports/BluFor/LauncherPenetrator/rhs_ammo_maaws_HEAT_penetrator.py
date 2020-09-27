@@ -1,4 +1,5 @@
-rhs_ammo_maaws_HEAT_penetrator = {    "bin|config.bin/CfgAmmo/rhs_ammo_maaws_HEAT_penetrator/caliber": 39.3333,
+rhs_ammo_maaws_HEAT_penetrator = {
+    "bin|config.bin/CfgAmmo/rhs_ammo_maaws_HEAT_penetrator/caliber": 39.3333,
     "bin|config.bin/CfgAmmo/rhsusf_ammo_basic_penetrator/warheadName": "HEAT",
     "bin|config.bin/CfgAmmo/rhsusf_ammo_basic_penetrator/hit": 290,
     "bin|config.bin/CfgAmmo/rhsusf_ammo_basic_penetrator/indirectHit": 0,

@@ -1,4 +1,5 @@
-rhs_10rnd_9x39mm_SP5 = {    "bin|config.bin/CfgMagazines/rhs_10rnd_9x39mm_SP5/author": "Red Hammer Studios",
+rhs_10rnd_9x39mm_SP5 = {
+    "bin|config.bin/CfgMagazines/rhs_10rnd_9x39mm_SP5/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_10rnd_9x39mm_SP5/picture": "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_10rnd_9x39mm_SP5_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_10rnd_9x39mm_SP5/count": 10,
     "bin|config.bin/CfgMagazines/rhs_10rnd_9x39mm_SP5/mass": 5.45,

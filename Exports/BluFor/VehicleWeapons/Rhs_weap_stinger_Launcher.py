@@ -1,4 +1,5 @@
-Rhs_weap_stinger_Launcher = {    "bin|config.bin/CfgWeapons/rhs_weap_stinger_Launcher/displayName": "FIM-92F Stinger",
+Rhs_weap_stinger_Launcher = {
+    "bin|config.bin/CfgWeapons/rhs_weap_stinger_Launcher/displayName": "FIM-92F Stinger",
     "bin|config.bin/CfgWeapons/rhs_weap_stinger_Launcher/reloadTime": 4,
     "bin|config.bin/CfgWeapons/rhs_weap_stinger_Launcher/magazineReloadTime": 5,
     "bin|config.bin/CfgWeapons/rhs_weap_stinger_Launcher/canLock": 2,

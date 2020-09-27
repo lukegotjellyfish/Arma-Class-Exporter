@@ -1,4 +1,5 @@
-rhs_30Rnd_545x39_7N10_AK = {    "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N10_AK/author": "Red Hammer Studios",
+rhs_30Rnd_545x39_7N10_AK = {
+    "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N10_AK/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N10_AK/picture": "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_AK_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N10_AK/displayName": "30rnd AK-74 7N10",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N10_AK/displayNameShort": "7N10",

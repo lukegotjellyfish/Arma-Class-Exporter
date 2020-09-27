@@ -1,4 +1,5 @@
-rhs_mag_9m14m = {    "bin|config.bin/CfgMagazines/rhs_mag_9m14m/scope": 1,
+rhs_mag_9m14m = {
+    "bin|config.bin/CfgMagazines/rhs_mag_9m14m/scope": 1,
     "bin|config.bin/CfgMagazines/rhs_mag_9m14m/displayName": "ATGM 9M14M",
     "bin|config.bin/CfgMagazines/rhs_mag_9m14m/displayNameShort": "9M14M",
     "bin|config.bin/CfgMagazines/rhs_mag_9m14m/ammo": "rhs_ammo_9m14m",

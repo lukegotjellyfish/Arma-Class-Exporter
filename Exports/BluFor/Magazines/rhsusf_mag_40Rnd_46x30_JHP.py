@@ -1,4 +1,5 @@
-rhsusf_mag_40Rnd_46x30_JHP = {    "bin|config.bin/CfgMagazines/rhsusf_mag_40Rnd_46x30_JHP/author": "Red Hammer Studios",
+rhsusf_mag_40Rnd_46x30_JHP = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_40Rnd_46x30_JHP/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_mag_40Rnd_46x30_JHP/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_mag_40Rnd_46x30_JHP/type": 16,
     "bin|config.bin/CfgMagazines/rhsusf_mag_40Rnd_46x30_JHP/displayName": "40rnd MP7 SX JHP",

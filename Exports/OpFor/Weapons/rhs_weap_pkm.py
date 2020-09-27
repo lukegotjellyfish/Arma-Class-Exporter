@@ -1,4 +1,5 @@
-rhs_weap_pkm = {    "bin|config.bin/CfgWeapons/rhs_weap_pkm/author": "Red Hammer Studios",
+rhs_weap_pkm = {
+    "bin|config.bin/CfgWeapons/rhs_weap_pkm/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_pkm/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_pkm_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_pkm/baseWeapon": "rhs_weap_pkm",
     "bin|config.bin/CfgWeapons/rhs_weap_pkm/scope": 2,

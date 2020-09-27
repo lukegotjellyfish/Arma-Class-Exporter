@@ -1,4 +1,5 @@
-rhsusf_5Rnd_00Buck = {    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_00Buck/author": "Red Hammer Studios",
+rhsusf_5Rnd_00Buck = {
+    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_00Buck/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_00Buck/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_00Buck/displayName": "5Rnd .00 Buckshot",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_00Buck/displayNameShort": "Buckshot",

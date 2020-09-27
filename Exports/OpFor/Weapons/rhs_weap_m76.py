@@ -1,4 +1,5 @@
-rhs_weap_m76 = {    "bin|config.bin/CfgWeapons/rhs_weap_m76/magazines": ["rhsgref_10Rnd_792x57_m76","rhssaf_10Rnd_792x57_m76_tracer"],
+rhs_weap_m76 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_m76/magazines": ["rhsgref_10Rnd_792x57_m76","rhssaf_10Rnd_792x57_m76_tracer"],
     "bin|config.bin/CfgWeapons/rhs_weap_m76/magazineWell": ["CBA_792x57_M76"],
     "bin|config.bin/CfgWeapons/rhs_weap_m76/discreteDistanceCameraPoint": ["eye","eye_100","eye_200","eye_300","eye_400","eye_500","eye_600","eye_700","eye_800","eye_900","eye_1000"],
     "bin|config.bin/CfgWeapons/rhs_weap_m76/discreteDistance": [350,100,200,300,400,500,600,700,800,900,1000],

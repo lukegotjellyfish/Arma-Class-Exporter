@@ -1,4 +1,5 @@
-rhs_t72bc_tv = {    "bin|config.bin/CfgVehicles/rhs_t72bc_tv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t72bc_tv.paa",
+rhs_t72bc_tv = {
+    "bin|config.bin/CfgVehicles/rhs_t72bc_tv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t72bc_tv.paa",
     "bin|config.bin/CfgVehicles/rhs_t72bc_tv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_t72bc_tv/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_t72bc_tv/displayName": "T-72B (obr. 1989g.)",

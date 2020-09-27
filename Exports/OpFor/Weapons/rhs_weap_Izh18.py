@@ -1,4 +1,5 @@
-rhs_weap_Izh18 = {    "bin|config.bin/CfgWeapons/rhs_weap_Izh18/author": "Red Hammer Studios",
+rhs_weap_Izh18 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_Izh18/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_Izh18/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_Izh18_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_Izh18/dlc": "RHS_GREF",
     "bin|config.bin/CfgWeapons/rhs_weap_Izh18/scope": 2,

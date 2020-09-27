@@ -1,4 +1,5 @@
-rhs_mag_b8m1_s8df = {    "bin|config.bin/CfgMagazines/rhs_mag_b8m1_s8df/displayName": "S-8 DF FAE",
+rhs_mag_b8m1_s8df = {
+    "bin|config.bin/CfgMagazines/rhs_mag_b8m1_s8df/displayName": "S-8 DF FAE",
     "bin|config.bin/CfgMagazines/rhs_mag_b8m1_s8df/displayNameShort": "S-8 DF",
     "bin|config.bin/CfgMagazines/rhs_mag_b8m1_s8df/ammo": "rhs_ammo_s8df",
         "bin|config.bin/CfgAmmo/rhs_ammo_s8DF/AIAmmoUsageFlags": "64+128",

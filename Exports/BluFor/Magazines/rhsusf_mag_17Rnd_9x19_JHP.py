@@ -1,4 +1,5 @@
-rhsusf_mag_17Rnd_9x19_JHP = {    "bin|config.bin/CfgMagazines/rhsusf_mag_17Rnd_9x19_JHP/author": "Red Hammer Studios",
+rhsusf_mag_17Rnd_9x19_JHP = {
+    "bin|config.bin/CfgMagazines/rhsusf_mag_17Rnd_9x19_JHP/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_mag_17Rnd_9x19_JHP/displayName": "17rnd Glock Mk243 JHP",
     "bin|config.bin/CfgMagazines/rhsusf_mag_17Rnd_9x19_JHP/displayNameShort": "9mm JHP Mag",
     "bin|config.bin/CfgMagazines/rhsusf_mag_17Rnd_9x19_JHP/picture": "\rhsusf\addons\rhsusf_weapons2\glock17g4\data\rhs_mag2_glock17g4_ca.paa",

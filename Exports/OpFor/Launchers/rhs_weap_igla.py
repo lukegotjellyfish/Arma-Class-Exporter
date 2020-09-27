@@ -1,4 +1,5 @@
-rhs_weap_igla = {    "bin|config.bin/CfgWeapons/rhs_weap_igla/author": "Red Hammer Studios",
+rhs_weap_igla = {
+    "bin|config.bin/CfgWeapons/rhs_weap_igla/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_igla/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_igla/displayname": "9K38 Igla",
     "bin|config.bin/CfgWeapons/rhs_weap_igla/descriptionShort": "Missile launcher<br/>Caliber: 72mm<br/>Type: Surface-to-air",

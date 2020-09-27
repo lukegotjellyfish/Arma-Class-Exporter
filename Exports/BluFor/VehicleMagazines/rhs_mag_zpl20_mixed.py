@@ -1,4 +1,5 @@
-rhs_mag_zpl20_mixed = {    "bin|config.bin/CfgMagazines/rhs_mag_zpl20_mixed/displayname": "20x139mm Mixed",
+rhs_mag_zpl20_mixed = {
+    "bin|config.bin/CfgMagazines/rhs_mag_zpl20_mixed/displayname": "20x139mm Mixed",
     "bin|config.bin/CfgMagazines/rhs_mag_zpl20_mixed/displaynameshort": "Mixed",
     "bin|config.bin/CfgMagazines/rhs_mag_zpl20_mixed/ammo": "B_20mm",
         "bin|config.bin/CfgAmmo/B_20mm/hit": 60,

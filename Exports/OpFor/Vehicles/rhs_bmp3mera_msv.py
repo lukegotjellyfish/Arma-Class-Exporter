@@ -1,4 +1,5 @@
-rhs_bmp3mera_msv = {    "bin|config.bin/CfgVehicles/rhs_bmp3mera_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmp3mera_msv.paa",
+rhs_bmp3mera_msv = {
+    "bin|config.bin/CfgVehicles/rhs_bmp3mera_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmp3mera_msv.paa",
     "bin|config.bin/CfgVehicles/rhs_bmp3mera_msv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_bmp3mera_msv/model": "\rhsafrf\addons\rhs_bmp3\bmp3m_era",
     "bin|config.bin/CfgVehicles/rhs_bmp3mera_msv/scope": 2,

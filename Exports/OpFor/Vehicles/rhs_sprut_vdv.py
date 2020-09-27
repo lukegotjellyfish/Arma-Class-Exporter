@@ -1,4 +1,5 @@
-rhs_sprut_vdv = {    "bin|config.bin/CfgVehicles/rhs_sprut_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_sprut_vdv.paa",
+rhs_sprut_vdv = {
+    "bin|config.bin/CfgVehicles/rhs_sprut_vdv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_sprut_vdv.paa",
     "bin|config.bin/CfgVehicles/rhs_sprut_vdv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_sprut_vdv/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_sprut_vdv/displayName": "2S25",

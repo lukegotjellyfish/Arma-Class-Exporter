@@ -1,4 +1,5 @@
-rhs_200rnd_556x45_B_SAW = {    "bin|config.bin/CfgMagazines/rhs_200rnd_556x45_B_SAW/author": "Red Hammer Studios",
+rhs_200rnd_556x45_B_SAW = {
+    "bin|config.bin/CfgMagazines/rhs_200rnd_556x45_B_SAW/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_200rnd_556x45_B_SAW/ammo": "rhs_ammo_556x45_M855A1_Ball",
         "bin|config.bin/CfgAmmo/rhs_ammo_556x45_M855A1_Ball/model": "\A3\Weapons_f\Data\bullettracer\tracer_red",
         "bin|config.bin/CfgAmmo/rhs_ammo_556x45_M855A1_Ball/cartridge": "RHS_Cartridge_556x45_m855",

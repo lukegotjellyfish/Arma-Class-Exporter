@@ -1,4 +1,5 @@
-RHS_48Rnd_40mm_MK19_M1001 = {    "bin|config.bin/CfgMagazines/RHS_48Rnd_40mm_MK19_M1001/displayName": "Mk. 19 40mm M1001 Canister",
+RHS_48Rnd_40mm_MK19_M1001 = {
+    "bin|config.bin/CfgMagazines/RHS_48Rnd_40mm_MK19_M1001/displayName": "Mk. 19 40mm M1001 Canister",
     "bin|config.bin/CfgMagazines/RHS_48Rnd_40mm_MK19_M1001/displaynameshort": "M1001 Canister",
     "bin|config.bin/CfgMagazines/RHS_48Rnd_40mm_MK19_M1001/ammo": "rhs_ammo_mk19m3_M1001",
         "bin|config.bin/CfgAmmo/rhs_ammo_mk19m3_M1001/simulation": "shotSubmunitions",

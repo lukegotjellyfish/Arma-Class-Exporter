@@ -1,4 +1,5 @@
-rhs_weap_kpvt = {    "bin|config.bin/CfgWeapons/rhs_weap_kpvt/type": 1,
+rhs_weap_kpvt = {
+    "bin|config.bin/CfgWeapons/rhs_weap_kpvt/type": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_kpvt/autoFire": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_kpvt/reloadTime": 0.1,
     "bin|config.bin/CfgWeapons/rhs_weap_kpvt/magazineReloadTime": 12,

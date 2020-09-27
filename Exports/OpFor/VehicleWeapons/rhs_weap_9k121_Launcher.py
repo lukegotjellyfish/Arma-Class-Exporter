@@ -1,4 +1,5 @@
-rhs_weap_9k121_Launcher = {    "bin|config.bin/CfgWeapons/rhs_weap_9k121_Launcher/airateoffire": 5,
+rhs_weap_9k121_Launcher = {
+    "bin|config.bin/CfgWeapons/rhs_weap_9k121_Launcher/airateoffire": 5,
     "bin|config.bin/CfgWeapons/rhs_weap_9k121_Launcher/airateoffiredistance": 4000,
     "bin|config.bin/CfgWeapons/rhs_weap_9k121_Launcher/displayname": "9K121M",
     "bin|config.bin/CfgWeapons/rhs_weap_9k121_Launcher/magazines": ["rhs_mag_apu6_9m127_ka52","rhs_mag_apu6_9m127m_ka52"],

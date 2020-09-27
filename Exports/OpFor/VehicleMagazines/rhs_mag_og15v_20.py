@@ -1,4 +1,5 @@
-rhs_mag_og15v_20 = {    "bin|config.bin/CfgMagazines/rhs_mag_og15v_20/count": 20,
+rhs_mag_og15v_20 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_og15v_20/count": 20,
     "bin|config.bin/CfgMagazines/rhs_mag_og15v_16/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_og15v_16/displayName": "HE-FRAG OG15V",
     "bin|config.bin/CfgMagazines/rhs_mag_og15v_16/displayNameShort": "OG15V",

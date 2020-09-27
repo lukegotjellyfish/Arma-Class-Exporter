@@ -1,4 +1,5 @@
-rhs_mag_9m113M = {    "bin|config.bin/CfgMagazines/rhs_mag_9m113M/displayName": "ATGM 9M113M",
+rhs_mag_9m113M = {
+    "bin|config.bin/CfgMagazines/rhs_mag_9m113M/displayName": "ATGM 9M113M",
     "bin|config.bin/CfgMagazines/rhs_mag_9m113M/displayNameShort": "9M113M",
     "bin|config.bin/CfgMagazines/rhs_mag_9m113M/ammo": "rhs_ammo_9m113M",
         "bin|config.bin/CfgAmmo/rhs_ammo_9m113m/submunitionAmmo": "rhs_ammo_9m113m_penetrator",

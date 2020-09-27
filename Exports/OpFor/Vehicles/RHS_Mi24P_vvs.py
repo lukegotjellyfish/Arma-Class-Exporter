@@ -1,4 +1,5 @@
-RHS_Mi24P_vvs = {    "bin|config.bin/CfgVehicles/RHS_Mi24P_vvs/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Mi24P_vvs.paa",
+RHS_Mi24P_vvs = {
+    "bin|config.bin/CfgVehicles/RHS_Mi24P_vvs/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Mi24P_vvs.paa",
     "bin|config.bin/CfgVehicles/RHS_Mi24P_vvs/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_Mi24P_vvs/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/RHS_Mi24P_VVS_Base/accuracy": 0.5,

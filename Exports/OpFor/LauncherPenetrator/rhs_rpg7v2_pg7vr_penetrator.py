@@ -1,4 +1,5 @@
-rhs_rpg7v2_pg7vr_penetrator = {    "bin|config.bin/CfgAmmo/rhs_rpg7v2_pg7vr_penetrator/warheadName": "TandemHEAT",
+rhs_rpg7v2_pg7vr_penetrator = {
+    "bin|config.bin/CfgAmmo/rhs_rpg7v2_pg7vr_penetrator/warheadName": "TandemHEAT",
     "bin|config.bin/CfgAmmo/rhs_rpg7v2_pg7vr_penetrator/caliber": 41.3333,
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/hit": 290,
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/indirectHit": 0,

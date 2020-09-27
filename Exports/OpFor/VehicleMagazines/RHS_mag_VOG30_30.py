@@ -1,4 +1,5 @@
-RHS_mag_VOG30_30 = {    "bin|config.bin/CfgMagazines/RHS_mag_VOG30_30/displayName": "VOG30",
+RHS_mag_VOG30_30 = {
+    "bin|config.bin/CfgMagazines/RHS_mag_VOG30_30/displayName": "VOG30",
     "bin|config.bin/CfgMagazines/RHS_mag_VOG30_30/displayNameShort": "VOG30",
     "bin|config.bin/CfgMagazines/RHS_mag_VOG30_30/count": 30,
     "bin|config.bin/CfgMagazines/RHS_mag_VOG30_30/ammo": "rhs_ammo_VOG30",

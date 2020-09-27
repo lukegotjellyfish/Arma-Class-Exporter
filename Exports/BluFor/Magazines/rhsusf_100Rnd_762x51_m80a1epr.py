@@ -1,4 +1,5 @@
-rhsusf_100Rnd_762x51_m80a1epr = {    "bin|config.bin/CfgMagazines/rhsusf_100Rnd_762x51_m80a1epr/author": "Red Hammer Studios",
+rhsusf_100Rnd_762x51_m80a1epr = {
+    "bin|config.bin/CfgMagazines/rhsusf_100Rnd_762x51_m80a1epr/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_100Rnd_762x51_m80a1epr/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\magazines\rhsusf_100Rnd_762x51_m80a1epr_ca.paa",
     "bin|config.bin/CfgMagazines/rhsusf_100Rnd_762x51_m80a1epr/displayname": "100rnd M240 Box M80A1 EPR",
     "bin|config.bin/CfgMagazines/rhsusf_100Rnd_762x51_m80a1epr/displayNameShort": "M80A1 EPR",

@@ -1,4 +1,5 @@
-rhs_mag_s8_12 = {    "bin|config.bin/CfgMagazines/rhs_mag_s8_12/scope": 2,
+rhs_mag_s8_12 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_s8_12/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_s8_12/displayName": "S-8 KOM HEAT",
     "bin|config.bin/CfgMagazines/rhs_mag_s8_12/displayNameShort": "S-8 KOM",
     "bin|config.bin/CfgMagazines/rhs_mag_s8_12/descriptionShort": "HEAT (Penetration: 350mm RHA)",

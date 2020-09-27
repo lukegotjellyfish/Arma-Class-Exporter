@@ -1,4 +1,5 @@
-RHS_M2A2_wd = {    "bin|config.bin/CfgVehicles/RHS_M2A2_wd/scope": 2,
+RHS_M2A2_wd = {
+    "bin|config.bin/CfgVehicles/RHS_M2A2_wd/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_M2A2_wd/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/RHS_M2A2_wd/crew": "rhsusf_army_ucp_crewman",
     "bin|config.bin/CfgVehicles/RHS_M2A2_wd/author": "Red Hammer Studios",

@@ -1,4 +1,5 @@
-rhs_mag_2Rnd_TOW2A = {    "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2A/scope": 2,
+rhs_mag_2Rnd_TOW2A = {
+    "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2A/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_2Rnd_TOW2A/ammo": "rhs_ammo_TOW2A_AT",
         "bin|config.bin/CfgAmmo/rhs_ammo_TOW2A_AT/warheadName": "TandemHEAT",
         "bin|config.bin/CfgAmmo/rhs_ammo_TOW2A_AT/submunitionAmmo": "rhs_ammo_TOW2A_AT_penetrator",

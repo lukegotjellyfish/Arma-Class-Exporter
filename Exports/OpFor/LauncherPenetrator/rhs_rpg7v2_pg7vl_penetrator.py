@@ -1,4 +1,5 @@
-rhs_rpg7v2_pg7vl_penetrator = {    "bin|config.bin/CfgAmmo/rhs_rpg7v2_pg7vl_penetrator/caliber": 36,
+rhs_rpg7v2_pg7vl_penetrator = {
+    "bin|config.bin/CfgAmmo/rhs_rpg7v2_pg7vl_penetrator/caliber": 36,
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/warheadName": "HEAT",
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/hit": 290,
     "bin|config.bin/CfgAmmo/rhs_ammo_base_penetrator/indirectHit": 0,

@@ -1,4 +1,5 @@
-rhs_mag_M829A1 = {    "bin|config.bin/CfgMagazines/rhs_mag_M829A1/displayName": "M829A1 APFSDS-T",
+rhs_mag_M829A1 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_M829A1/displayName": "M829A1 APFSDS-T",
     "bin|config.bin/CfgMagazines/rhs_mag_M829A1/displayNameShort": "M829A1",
     "bin|config.bin/CfgMagazines/rhs_mag_M829A1/ammo": "rhs_ammo_M829A1",
         "bin|config.bin/CfgAmmo/rhs_ammo_M829A1/caliber": 0.1,

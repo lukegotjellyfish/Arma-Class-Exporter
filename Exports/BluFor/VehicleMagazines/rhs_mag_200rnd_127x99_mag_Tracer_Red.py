@@ -1,4 +1,5 @@
-rhs_mag_200rnd_127x99_mag_Tracer_Red = {    "bin|config.bin/CfgMagazines/rhs_mag_200rnd_127x99_mag_Tracer_Red/scope": 2,
+rhs_mag_200rnd_127x99_mag_Tracer_Red = {
+    "bin|config.bin/CfgMagazines/rhs_mag_200rnd_127x99_mag_Tracer_Red/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_200rnd_127x99_mag_Tracer_Red/count": 200,
     "bin|config.bin/CfgMagazines/rhs_mag_200rnd_127x99_mag_Tracer_Red/descriptionShort": "Caliber: 12.7x99 mm Tracer - Red<br/>Rounds: 200<br />Used in: Mounted M2",
     "bin|config.bin/CfgMagazines/rhs_mag_100rnd_127x99_mag_Tracer_Red/ammo": "rhs_ammo_127x99_Ball_Tracer_Red",

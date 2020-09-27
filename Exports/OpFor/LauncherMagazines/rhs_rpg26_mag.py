@@ -1,4 +1,5 @@
-rhs_rpg26_mag = {    "bin|config.bin/CfgMagazines/rhs_rpg26_mag/allowedSlots": [701,901],
+rhs_rpg26_mag = {
+    "bin|config.bin/CfgMagazines/rhs_rpg26_mag/allowedSlots": [701,901],
     "bin|config.bin/CfgMagazines/rhs_rpg26_mag/scope": 1,
     "bin|config.bin/CfgMagazines/rhs_rpg26_mag/scopeArsenal": 0,
     "bin|config.bin/CfgMagazines/rhs_rpg26_mag/author": "Red Hammer Studios",

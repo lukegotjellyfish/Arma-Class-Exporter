@@ -1,4 +1,5 @@
-rhssaf_30rnd_556x45_EPR_G36 = {    "bin|config.bin/CfgMagazines/rhssaf_30rnd_556x45_EPR_G36/dlc": "RHS_SAF",
+rhssaf_30rnd_556x45_EPR_G36 = {
+    "bin|config.bin/CfgMagazines/rhssaf_30rnd_556x45_EPR_G36/dlc": "RHS_SAF",
     "bin|config.bin/CfgMagazines/rhssaf_30rnd_556x45_EPR_G36/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhssaf_30rnd_556x45_EPR_G36/scope": 2,
     "bin|config.bin/CfgMagazines/rhssaf_30rnd_556x45_EPR_G36/scopeCurator": 2,

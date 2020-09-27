@@ -1,4 +1,5 @@
-rhs_mag_GI2_420_HE = {    "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_HE/scope": 2,
+rhs_mag_GI2_420_HE = {
+    "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_HE/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_HE/displayname": "20x139mm High-Explosive Indenciary",
     "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_HE/displaynameshort": "HEI",
     "bin|config.bin/CfgMagazines/rhs_mag_GI2_420_HE/ammo": "rhs_ammo_20x139mm_HE",

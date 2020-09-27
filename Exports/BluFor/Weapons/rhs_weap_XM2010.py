@@ -1,4 +1,5 @@
-rhs_weap_XM2010 = {    "bin|config.bin/CfgWeapons/rhs_weap_XM2010/author": "Red Hammer Studios",
+rhs_weap_XM2010 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_XM2010/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_XM2010/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_XM2010_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_XM2010/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_XM2010/displayName": "M2010 ESR",

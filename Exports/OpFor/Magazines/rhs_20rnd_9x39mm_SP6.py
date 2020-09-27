@@ -1,4 +1,5 @@
-rhs_20rnd_9x39mm_SP6 = {    "bin|config.bin/CfgMagazines/rhs_20rnd_9x39mm_SP6/author": "Red Hammer Studios",
+rhs_20rnd_9x39mm_SP6 = {
+    "bin|config.bin/CfgMagazines/rhs_20rnd_9x39mm_SP6/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_20rnd_9x39mm_SP6/picture": "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_20rnd_9x39mm_SP6_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_20rnd_9x39mm_SP6/ammo": "rhs_B_9x39_SP6",
         "bin|config.bin/CfgAmmo/rhs_B_9x39_SP6/hit": 11.3,

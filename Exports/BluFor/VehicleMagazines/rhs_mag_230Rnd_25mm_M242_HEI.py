@@ -1,4 +1,5 @@
-rhs_mag_230Rnd_25mm_M242_HEI = {    "bin|config.bin/CfgMagazines/rhs_mag_230Rnd_25mm_M242_HEI/scope": 2,
+rhs_mag_230Rnd_25mm_M242_HEI = {
+    "bin|config.bin/CfgMagazines/rhs_mag_230Rnd_25mm_M242_HEI/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_230Rnd_25mm_M242_HEI/ammo": "RHS_ammo_M792_HEI",
         "bin|config.bin/CfgAmmo/RHS_ammo_M792_HEI/timeToLive": 7.5,
         "bin|config.bin/CfgAmmo/RHS_ammo_M792_HEI/airfriction": -0.00056,

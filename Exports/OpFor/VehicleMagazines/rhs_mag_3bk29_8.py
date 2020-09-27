@@ -1,4 +1,5 @@
-rhs_mag_3bk29_8 = {    "bin|config.bin/CfgMagazines/rhs_mag_3bk29_8/displayName": "HEAT-FS 3BK29",
+rhs_mag_3bk29_8 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3bk29_8/displayName": "HEAT-FS 3BK29",
     "bin|config.bin/CfgMagazines/rhs_mag_3bk29_8/displayNameShort": "3BK29",
     "bin|config.bin/CfgMagazines/rhs_mag_3bk29_8/ammo": "rhs_ammo_3bk29",
         "bin|config.bin/CfgAmmo/rhs_ammo_3bk29/hit": 230,

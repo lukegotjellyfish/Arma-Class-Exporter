@@ -1,4 +1,5 @@
-rhs_mag_M441_HE = {    "bin|config.bin/CfgMagazines/rhs_mag_M441_HE/author": "Red Hammer Studios",
+rhs_mag_M441_HE = {
+    "bin|config.bin/CfgMagazines/rhs_mag_M441_HE/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_M441_HE/mass": 5.06,
     "bin|config.bin/CfgMagazines/rhs_mag_M441_HE/ammo": "rhsusf_40mm_HE",
         "bin|config.bin/CfgAmmo/rhsusf_40mm_HE/hit": 20,

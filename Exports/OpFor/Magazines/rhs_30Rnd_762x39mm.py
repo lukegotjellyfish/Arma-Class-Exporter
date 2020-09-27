@@ -1,4 +1,5 @@
-rhs_30Rnd_762x39mm = {    "bin|config.bin/CfgMagazines/rhs_30Rnd_762x39mm/author": "Red Hammer Studios",
+rhs_30Rnd_762x39mm = {
+    "bin|config.bin/CfgMagazines/rhs_30Rnd_762x39mm/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_762x39mm/picture": "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_762x39mm_tracer_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_762x39mm/displayName": "30rnd AKM 57-N-231",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_762x39mm/descriptionShort": "Caliber: 7.62x39mm FMJ<br />Rounds: 30<br />Used in: AKM, AK-103, AK-104",

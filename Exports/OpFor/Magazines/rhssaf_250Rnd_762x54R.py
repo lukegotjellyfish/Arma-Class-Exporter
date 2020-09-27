@@ -1,4 +1,5 @@
-rhssaf_250Rnd_762x54R = {    "bin|config.bin/CfgMagazines/rhssaf_250Rnd_762x54R/displayName": "250Rnd M84 Belt 7.62x54mm M30",
+rhssaf_250Rnd_762x54R = {
+    "bin|config.bin/CfgMagazines/rhssaf_250Rnd_762x54R/displayName": "250Rnd M84 Belt 7.62x54mm M30",
     "bin|config.bin/CfgMagazines/rhssaf_250Rnd_762x54R/descriptionshort": "Caliber: 7.62x54Rmm <br />Rounds: 250<br />Used in: M84 LMG",
     "bin|config.bin/CfgMagazines/rhssaf_250Rnd_762x54R/ammo": "rhs_B_762x54_Ball",
         "bin|config.bin/CfgAmmo/rhs_B_762x54_Ball/cartridge": "RHS_Cartridge_762x54r",

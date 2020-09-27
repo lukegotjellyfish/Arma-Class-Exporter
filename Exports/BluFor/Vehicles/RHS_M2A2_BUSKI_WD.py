@@ -1,4 +1,5 @@
-RHS_M2A2_BUSKI_WD = {    "bin|config.bin/CfgVehicles/RHS_M2A2_BUSKI_WD/scope": 2,
+RHS_M2A2_BUSKI_WD = {
+    "bin|config.bin/CfgVehicles/RHS_M2A2_BUSKI_WD/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_M2A2_BUSKI_WD/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/RHS_M2A2_BUSKI_WD/crew": "rhsusf_army_ucp_crewman",
     "bin|config.bin/CfgVehicles/RHS_M2A2_BUSKI_WD/author": "Red Hammer Studios",

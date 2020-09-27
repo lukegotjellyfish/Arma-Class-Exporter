@@ -1,4 +1,5 @@
-rhsusf_5Rnd_Slug = {    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_Slug/author": "Red Hammer Studios",
+rhsusf_5Rnd_Slug = {
+    "bin|config.bin/CfgMagazines/rhsusf_5Rnd_Slug/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_Slug/scope": 2,
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_Slug/displayName": "5Rnd 12g Slug",
     "bin|config.bin/CfgMagazines/rhsusf_5Rnd_Slug/displayNameShort": "Slug",

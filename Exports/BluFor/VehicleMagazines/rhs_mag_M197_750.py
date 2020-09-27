@@ -1,4 +1,5 @@
-rhs_mag_M197_750 = {    "bin|config.bin/CfgMagazines/rhs_mag_M197_750/scope": 2,
+rhs_mag_M197_750 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_M197_750/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_M197_750/displayname": "20x102mm PGU-28/B SAPHEI-T",
     "bin|config.bin/CfgMagazines/rhs_mag_M197_750/displaynameshort": "SAPHEI-T",
     "bin|config.bin/CfgMagazines/rhs_mag_M197_750/ammo": "rhs_ammo_20mm_AP",

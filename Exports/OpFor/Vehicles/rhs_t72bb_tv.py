@@ -1,4 +1,5 @@
-rhs_t72bb_tv = {    "bin|config.bin/CfgVehicles/rhs_t72bb_tv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t72bb_tv.paa",
+rhs_t72bb_tv = {
+    "bin|config.bin/CfgVehicles/rhs_t72bb_tv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t72bb_tv.paa",
     "bin|config.bin/CfgVehicles/rhs_t72bb_tv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_t72bb_tv/model": "\rhsafrf\addons\rhs_t72\rhs_t72b_b",
     "bin|config.bin/CfgVehicles/rhs_t72bb_tv/scope": 2,

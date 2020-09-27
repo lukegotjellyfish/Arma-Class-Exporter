@@ -1,4 +1,5 @@
-rhsgref_cdf_b_ural_Zu23 = {    "bin|config.bin/CfgVehicles/rhsgref_cdf_b_ural_Zu23/author": "Red Hammer Studios",
+rhsgref_cdf_b_ural_Zu23 = {
+    "bin|config.bin/CfgVehicles/rhsgref_cdf_b_ural_Zu23/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhsgref_cdf_b_ural_Zu23/faction": "rhsgref_faction_cdf_ground_b",
     "bin|config.bin/CfgVehicles/rhsgref_cdf_b_ural_Zu23/side": 1,
     "bin|config.bin/CfgVehicles/rhsgref_cdf_b_ural_Zu23/scope": 2,

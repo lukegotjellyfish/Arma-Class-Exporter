@@ -1,4 +1,5 @@
-rhsgref_ins_uaz_dshkm = {    "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_dshkm/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_ins_uaz_dshkm.paa",
+rhsgref_ins_uaz_dshkm = {
+    "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_dshkm/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_ins_uaz_dshkm.paa",
     "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_dshkm/scope": 2,
     "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_dshkm/crew": "rhsgref_ins_rifleman",
     "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_dshkm/author": "Red Hammer Studios",

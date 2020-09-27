@@ -1,4 +1,5 @@
-RHS_mag_AZP23_100 = {    "bin|config.bin/CfgMagazines/rhs_mag_AZP23_100/count": 100,
+RHS_mag_AZP23_100 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_AZP23_100/count": 100,
     "bin|config.bin/CfgMagazines/rhs_mag_AZP23_250/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_AZP23_250/displayName": "AZP-23",
     "bin|config.bin/CfgMagazines/rhs_mag_AZP23_250/ammo": "RHS_ammo_23mm_AA",

@@ -1,4 +1,5 @@
-rhsusf_m1117_w = {    "bin|config.bin/CfgVehicles/rhsusf_M1117_W/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_M1117_W.paa",
+rhsusf_m1117_w = {
+    "bin|config.bin/CfgVehicles/rhsusf_M1117_W/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_M1117_W.paa",
     "bin|config.bin/CfgVehicles/rhsusf_M1117_W/author": "Cleggy",
     "bin|config.bin/CfgVehicles/rhsusf_M1117_W/dlc": "RHS_USAF",
     "bin|config.bin/CfgVehicles/rhsusf_M1117_W/category": "Car",

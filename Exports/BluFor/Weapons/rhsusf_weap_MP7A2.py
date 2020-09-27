@@ -1,4 +1,5 @@
-rhsusf_weap_MP7A2 = {    "bin|config.bin/CfgWeapons/rhsusf_weap_MP7A2/author": "Red Hammer Studios",
+rhsusf_weap_MP7A2 = {
+    "bin|config.bin/CfgWeapons/rhsusf_weap_MP7A2/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhsusf_weap_MP7A2/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhsusf_weap_MP7A2/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhsusf_weap_MP7A2_ca.paa",
     "bin|config.bin/CfgWeapons/rhsusf_weap_MP7A2/displayName": "MP7A2",

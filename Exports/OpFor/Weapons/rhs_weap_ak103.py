@@ -1,4 +1,5 @@
-rhs_weap_ak103 = {    "bin|config.bin/CfgWeapons/rhs_weap_ak103/author": "Red Hammer Studios",
+rhs_weap_ak103 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_ak103/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_ak103/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_ak103_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_ak103/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_ak103/displayName": "AK-103",

@@ -1,4 +1,5 @@
-rhs_mag_127x108mm_50 = {    "bin|config.bin/CfgMagazines/rhs_mag_127x108mm_50/scope": 2,
+rhs_mag_127x108mm_50 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_127x108mm_50/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_mag_127x108mm_50/displayName": "12.7x108mm",
     "bin|config.bin/CfgMagazines/rhs_mag_127x108mm_50/displayNameShort": "12.7x108mm",
     "bin|config.bin/CfgMagazines/rhs_mag_127x108mm_50/count": 50,

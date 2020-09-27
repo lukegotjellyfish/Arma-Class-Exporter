@@ -1,4 +1,5 @@
-rhsgref_1Rnd_Slug = {    "bin|config.bin/CfgMagazines/rhsgref_1Rnd_Slug/author": "Red Hammer Studios",
+rhsgref_1Rnd_Slug = {
+    "bin|config.bin/CfgMagazines/rhsgref_1Rnd_Slug/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhsgref_1Rnd_Slug/scope": 2,
     "bin|config.bin/CfgMagazines/rhsgref_1Rnd_Slug/displayName": "1Rnd 12g Slug",
     "bin|config.bin/CfgMagazines/rhsgref_1Rnd_Slug/displayNameShort": "Slug",

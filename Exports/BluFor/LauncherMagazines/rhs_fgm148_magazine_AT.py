@@ -1,4 +1,5 @@
-rhs_fgm148_magazine_AT = {    "bin|config.bin/CfgMagazines/rhs_fgm148_magazine_AT/author": "Red Hammer Studios",
+rhs_fgm148_magazine_AT = {
+    "bin|config.bin/CfgMagazines/rhs_fgm148_magazine_AT/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_fgm148_magazine_AT/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_fgm148_magazine_AT/displayName": "Javelin AT",
     "bin|config.bin/CfgMagazines/rhs_fgm148_magazine_AT/descriptionshort": "Type: High Explosive Anti Tank<br />Caliber: 127 mm<br />Used in: FGM-148",

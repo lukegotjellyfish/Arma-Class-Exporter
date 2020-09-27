@@ -1,4 +1,5 @@
-rhs_weap_2A14 = {    "bin|config.bin/CfgWeapons/rhs_weap_2a14/type": 1,
+rhs_weap_2A14 = {
+    "bin|config.bin/CfgWeapons/rhs_weap_2a14/type": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_2a14/ballisticsComputer": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_2a14/canLock": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_2a14/weaponLockSystem": 1,

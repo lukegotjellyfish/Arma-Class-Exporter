@@ -1,4 +1,5 @@
-RHS_Mi8MTV3_vvsc = {    "bin|config.bin/CfgVehicles/RHS_Mi8MTV3_vvsc/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Mi8MTV3_vvsc.paa",
+RHS_Mi8MTV3_vvsc = {
+    "bin|config.bin/CfgVehicles/RHS_Mi8MTV3_vvsc/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Mi8MTV3_vvsc.paa",
     "bin|config.bin/CfgVehicles/RHS_Mi8MTV3_vvsc/faction": "rhs_faction_vvs_c",
     "bin|config.bin/CfgVehicles/RHS_Mi8MTV3_vvsc/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/RHS_Mi8MTV3_vvsc/rhs_decalParameters": ["['Number',cRHSAIRMI8NumberPlaces,'AviaRed']"],

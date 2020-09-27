@@ -1,4 +1,5 @@
-RHS_Su25SM_vvs = {    "bin|config.bin/CfgVehicles/RHS_Su25SM_vvs/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Su25SM_vvs.paa",
+RHS_Su25SM_vvs = {
+    "bin|config.bin/CfgVehicles/RHS_Su25SM_vvs/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Su25SM_vvs.paa",
     "bin|config.bin/CfgVehicles/RHS_Su25SM_vvs/faction": "rhs_faction_vvs",
     "bin|config.bin/CfgVehicles/RHS_Su25SM_vvs/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_Su25SM_vvs/displayName": "Su-25",

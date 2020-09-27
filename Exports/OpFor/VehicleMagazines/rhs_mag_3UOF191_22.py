@@ -1,4 +1,5 @@
-rhs_mag_3UOF191_22 = {    "bin|config.bin/CfgMagazines/rhs_mag_3UOF191_22/displayName": "3UOF191",
+rhs_mag_3UOF191_22 = {
+    "bin|config.bin/CfgMagazines/rhs_mag_3UOF191_22/displayName": "3UOF191",
     "bin|config.bin/CfgMagazines/rhs_mag_3UOF191_22/displayNameShort": "3UOF191",
     "bin|config.bin/CfgMagazines/rhs_mag_3UOF191_22/ammo": "rhs_ammo_3UOF191",
         "bin|config.bin/CfgAmmo/rhs_ammo_3UOF191/simulation": "shotSubmunitions",

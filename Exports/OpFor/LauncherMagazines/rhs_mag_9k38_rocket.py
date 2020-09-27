@@ -1,4 +1,5 @@
-rhs_mag_9k38_rocket = {    "bin|config.bin/CfgMagazines/rhs_mag_9k38_rocket/author": "Red Hammer Studios",
+rhs_mag_9k38_rocket = {
+    "bin|config.bin/CfgMagazines/rhs_mag_9k38_rocket/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_mag_9k38_rocket/ammo": "rhs_ammo_9k38",
         "bin|config.bin/CfgAmmo/rhs_ammo_9k38/cmimmunity": 0.9,
         "bin|config.bin/CfgAmmo/rhs_ammo_9k38/maxspeed": 800,

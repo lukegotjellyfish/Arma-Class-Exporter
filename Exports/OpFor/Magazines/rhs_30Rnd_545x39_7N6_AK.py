@@ -1,4 +1,5 @@
-rhs_30Rnd_545x39_7N6_AK = {    "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N6_AK/author": "Red Hammer Studios",
+rhs_30Rnd_545x39_7N6_AK = {
+    "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N6_AK/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N6_AK/picture": "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_AK_ca.paa",
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_7N6_AK/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_30Rnd_545x39_AK/displayName": "30rnd AK-74 (Bakelite) 7N6",

@@ -1,4 +1,5 @@
-rhs_mag_M151_7_green = {    "bin|config.bin/CfgMagazines/rhs_mag_M151_7_green/model": "\rhsusf\addons\rhsusf_airweapons\proxypylon\rhsusf_pylon_r_FFAR_7x_green",
+rhs_mag_M151_7_green = {
+    "bin|config.bin/CfgMagazines/rhs_mag_M151_7_green/model": "\rhsusf\addons\rhsusf_airweapons\proxypylon\rhsusf_pylon_r_FFAR_7x_green",
     "bin|config.bin/CfgMagazines/rhs_mag_M151_7_green/displayname": "M151 Hydra (LAU-68)",
     "bin|config.bin/CfgMagazines/rhs_mag_M151_7_green/hardpoints": ["RHS_HP_FFAR_USMC"],
     "bin|config.bin/CfgMagazines/rhs_mag_M151_7/scope": 2,

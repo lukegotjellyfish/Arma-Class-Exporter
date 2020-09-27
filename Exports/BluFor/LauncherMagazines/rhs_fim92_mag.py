@@ -1,4 +1,5 @@
-rhs_fim92_mag = {    "bin|config.bin/CfgMagazines/rhs_fim92_mag/author": "Red Hammer Studios",
+rhs_fim92_mag = {
+    "bin|config.bin/CfgMagazines/rhs_fim92_mag/author": "Red Hammer Studios",
     "bin|config.bin/CfgMagazines/rhs_fim92_mag/scope": 2,
     "bin|config.bin/CfgMagazines/rhs_fim92_mag/mass": 120,
     "bin|config.bin/CfgMagazines/rhs_fim92_mag/displayName": "FIM-92F",
