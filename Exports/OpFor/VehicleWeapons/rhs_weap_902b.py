@@ -1,5 +1,4 @@
-rhs_weap_902b = {
-    "bin|config.bin/CfgWeapons/rhs_weap_902b/displayName": "Smoke 902B",
+rhs_weap_902b = {    "bin|config.bin/CfgWeapons/rhs_weap_902b/displayName": "Smoke 902B",
     "bin|config.bin/CfgWeapons/rhs_weap_902b/modes": ["Double","Volley","AIDouble","AIVolley"],
     "bin|config.bin/CfgWeapons/rhs_weap_902a/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_902a/magazines": ["rhs_mag_902a","rhs_mag_3d17_4","rhs_mag_3d17_6","rhs_mag_3d17_12","rhs_mag_3d17"],

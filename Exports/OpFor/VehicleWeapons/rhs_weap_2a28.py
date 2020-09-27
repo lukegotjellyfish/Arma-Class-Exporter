@@ -1,5 +1,4 @@
-rhs_weap_2a28 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_2a28/muzzles": ["HE","AP"],
+rhs_weap_2a28 = {    "bin|config.bin/CfgWeapons/rhs_weap_2a28/muzzles": ["HE","AP"],
     "bin|config.bin/CfgWeapons/rhs_weap_2a28_base/aiDispersioncoefX": 7,
     "bin|config.bin/CfgWeapons/rhs_weap_2a28_base/aiDispersioncoefY": 12,
     "bin|config.bin/CfgWeapons/rhs_weap_2a28_base/canLock": 0,

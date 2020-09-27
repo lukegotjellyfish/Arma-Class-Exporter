@@ -1,5 +1,4 @@
-rhs_weap_M136_hedp = {
-    "bin|config.bin/CfgWeapons/rhs_weap_M136_hedp/author": "Red Hammer Studios",
+rhs_weap_M136_hedp = {    "bin|config.bin/CfgWeapons/rhs_weap_M136_hedp/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_M136_hedp/displayName": "M136 (HEDP)",
     "bin|config.bin/CfgWeapons/rhs_weap_M136_hedp/descriptionShort": "Rocket launcher<br/>Caliber: 84mm<br/>Type: Single-shot Dual-purpose",
     "bin|config.bin/CfgWeapons/rhs_weap_M136_hedp/magazines": ["rhs_m136_hedp_mag"],

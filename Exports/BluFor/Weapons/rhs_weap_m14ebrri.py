@@ -1,5 +1,4 @@
-rhs_weap_m14ebrri = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m14ebrri/author": "Red Hammer Studios",
+rhs_weap_m14ebrri = {    "bin|config.bin/CfgWeapons/rhs_weap_m14ebrri/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m14ebrri/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m14ebrri_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m14ebrri/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m14ebrri/baseWeapon": "rhs_weap_m14ebrri",

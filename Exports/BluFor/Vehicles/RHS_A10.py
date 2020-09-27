@@ -1,5 +1,4 @@
-RHS_A10 = {
-    "bin|config.bin/CfgVehicles/RHS_A10/rhs_gearAnim": "Gear_1",
+RHS_A10 = {    "bin|config.bin/CfgVehicles/RHS_A10/rhs_gearAnim": "Gear_1",
     "bin|config.bin/CfgVehicles/RHS_A10/dlc": "RHS_USAF",
     "bin|config.bin/CfgVehicles/RHS_A10/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhs_a10.paa",
     "bin|config.bin/CfgVehicles/RHS_A10/scope": 2,

@@ -1,5 +1,4 @@
-RHS_weap_AGS30 = {
-    "bin|config.bin/CfgWeapons/RHS_weap_Ags30/type": 1,
+RHS_weap_AGS30 = {    "bin|config.bin/CfgWeapons/RHS_weap_Ags30/type": 1,
     "bin|config.bin/CfgWeapons/RHS_weap_Ags30/ballisticsComputer": 2,
     "bin|config.bin/CfgWeapons/RHS_weap_Ags30/scope": 1,
     "bin|config.bin/CfgWeapons/RHS_weap_Ags30/displayName": "AGS-30",

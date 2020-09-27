@@ -1,5 +1,4 @@
-RHS_weap_gau8 = {
-    "bin|config.bin/CfgWeapons/RHS_weap_gau8/displayName": "GAU-8",
+RHS_weap_gau8 = {    "bin|config.bin/CfgWeapons/RHS_weap_gau8/displayName": "GAU-8",
     "bin|config.bin/CfgWeapons/RHS_weap_gau8/cursorSize": 0,
     "bin|config.bin/CfgWeapons/RHS_weap_gau8/cursor": "mg",
     "bin|config.bin/CfgWeapons/RHS_weap_gau8/cursorAim": "EmptyCursor",

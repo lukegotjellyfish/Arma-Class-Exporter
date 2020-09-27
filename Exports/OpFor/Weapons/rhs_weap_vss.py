@@ -1,5 +1,4 @@
-rhs_weap_vss = {
-    "bin|config.bin/CfgWeapons/rhs_weap_vss/author": "Red Hammer Studios",
+rhs_weap_vss = {    "bin|config.bin/CfgWeapons/rhs_weap_vss/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_vss/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_vss_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_vss/displayName": "VSS Vintorez",
     "bin|config.bin/CfgWeapons/rhs_weap_vss/descriptionShort": "Sniper Rifle<br />Caliber: 9x39mm",

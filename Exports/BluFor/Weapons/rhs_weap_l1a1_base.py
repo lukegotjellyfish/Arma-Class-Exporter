@@ -1,5 +1,4 @@
-rhs_weap_l1a1_base = {
-    "bin|config.bin/CfgWeapons/rhs_weap_l1a1_base/displayname": "L1A1 (Polymer)",
+rhs_weap_l1a1_base = {    "bin|config.bin/CfgWeapons/rhs_weap_l1a1_base/displayname": "L1A1 (Polymer)",
     "bin|config.bin/CfgWeapons/rhs_weap_l1a1_base/model": "\rhsgref\addons\rhsgref_weapons3\fnfal\rhs_l1a1.p3d",
     "bin|config.bin/CfgWeapons/rhs_weap_l1a1_base/modes": ["Single","Single_AI","single_medium_optics1","single_far_optics2"],
     "bin|config.bin/CfgWeapons/rhs_weap_fnfal_base/dlc": "RHS_GREF",

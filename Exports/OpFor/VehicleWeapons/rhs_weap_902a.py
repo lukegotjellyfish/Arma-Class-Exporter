@@ -1,5 +1,4 @@
-rhs_weap_902a = {
-    "bin|config.bin/CfgWeapons/rhs_weap_902a/scope": 2,
+rhs_weap_902a = {    "bin|config.bin/CfgWeapons/rhs_weap_902a/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_902a/displayName": "Smoke 902A",
     "bin|config.bin/CfgWeapons/rhs_weap_902a/magazines": ["rhs_mag_902a","rhs_mag_3d17_4","rhs_mag_3d17_6","rhs_mag_3d17_12","rhs_mag_3d17"],
     "bin|config.bin/CfgWeapons/rhs_weap_902a/reloadTime": 0.099,

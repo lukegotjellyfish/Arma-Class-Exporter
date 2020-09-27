@@ -1,5 +1,4 @@
-rhs_weap_SPG9 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_SPG9/scope": 2,
+rhs_weap_SPG9 = {    "bin|config.bin/CfgWeapons/rhs_weap_SPG9/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_SPG9/canlock": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_SPG9/displayName": "SPG-9",
     "bin|config.bin/CfgWeapons/rhs_weap_SPG9/type": 65536,

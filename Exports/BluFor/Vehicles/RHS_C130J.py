@@ -1,5 +1,4 @@
-RHS_C130J = {
-    "bin|config.bin/CfgVehicles/RHS_C130J/author": "Red Hammer Studios",
+RHS_C130J = {    "bin|config.bin/CfgVehicles/RHS_C130J/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/RHS_C130J/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_C130J/side": 1,
     "bin|config.bin/CfgVehicles/RHS_C130J_Base/rhs_paraRamp": "ramp",

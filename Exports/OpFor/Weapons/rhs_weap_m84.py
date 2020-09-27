@@ -1,5 +1,4 @@
-rhs_weap_m84 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m84/picture": "\rhssaf\addons\rhssaf_inventoryicons\data\weapons\rhs_weap_m84_ca.paa",
+rhs_weap_m84 = {    "bin|config.bin/CfgWeapons/rhs_weap_m84/picture": "\rhssaf\addons\rhssaf_inventoryicons\data\weapons\rhs_weap_m84_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m84/dlc": "RHS_SAF",
     "bin|config.bin/CfgWeapons/rhs_weap_m84/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m84/displayName": "M84",

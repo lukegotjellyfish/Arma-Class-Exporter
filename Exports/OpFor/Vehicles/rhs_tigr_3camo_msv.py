@@ -1,5 +1,4 @@
-rhs_tigr_3camo_msv = {
-    "bin|config.bin/CfgVehicles/rhs_tigr_3camo_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_tigr_3camo_msv.paa",
+rhs_tigr_3camo_msv = {    "bin|config.bin/CfgVehicles/rhs_tigr_3camo_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_tigr_3camo_msv.paa",
     "bin|config.bin/CfgVehicles/rhs_tigr_3camo_msv/faction": "rhs_faction_msv",
     "bin|config.bin/CfgVehicles/rhs_tigr_3camo_msv/crew": "rhs_msv_driver_armored",
     "bin|config.bin/CfgVehicles/rhs_tigr_3camo_msv/rhs_decalParameters": ["['Number', cDecalsTigr4NumberPlaces, 'LicensePlate']","['Label', cDecalsTigrRightArmyPlaces, 'Platoon', 12]"],

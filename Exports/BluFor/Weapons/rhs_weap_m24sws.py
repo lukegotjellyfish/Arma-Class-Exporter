@@ -1,5 +1,4 @@
-rhs_weap_m24sws = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m24sws/author": "Red Hammer Studios",
+rhs_weap_m24sws = {    "bin|config.bin/CfgWeapons/rhs_weap_m24sws/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m24sws/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m24sws_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m24sws/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m24sws/displayName": "M24 SWS",

@@ -1,5 +1,4 @@
-rhs_weap_HellfireLauncher = {
-    "bin|config.bin/CfgWeapons/rhs_weap_HellfireLauncher/scope": 2,
+rhs_weap_HellfireLauncher = {    "bin|config.bin/CfgWeapons/rhs_weap_HellfireLauncher/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_HellfireLauncher/autoFire": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_HellfireLauncher/displayName": "AGM-114L Hellfire II",
     "bin|config.bin/CfgWeapons/rhs_weap_HellfireLauncher/cursorSize": 0,

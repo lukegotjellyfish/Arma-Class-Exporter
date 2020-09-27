@@ -1,5 +1,4 @@
-rhs_bmp3_msv = {
-    "bin|config.bin/CfgVehicles/rhs_bmp3_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmp3_msv.paa",
+rhs_bmp3_msv = {    "bin|config.bin/CfgVehicles/rhs_bmp3_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmp3_msv.paa",
     "bin|config.bin/CfgVehicles/rhs_bmp3_msv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_bmp3_msv/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_bmp3_msv/displayName": "BMP-3 (early)",

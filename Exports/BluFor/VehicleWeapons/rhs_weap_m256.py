@@ -1,5 +1,4 @@
-rhs_weap_m256 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m256/canLock": 0,
+rhs_weap_m256 = {    "bin|config.bin/CfgWeapons/rhs_weap_m256/canLock": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_m256/scope": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_m256/nameSound": "cannon",
     "bin|config.bin/CfgWeapons/rhs_weap_m256/showaimcursorinternal": 0,

@@ -1,5 +1,4 @@
-RHS_MELB_AH6M = {
-    "bin|config.bin/CfgVehicles/RHS_MELB_AH6M/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhs_MELB_AH6M.paa",
+RHS_MELB_AH6M = {    "bin|config.bin/CfgVehicles/RHS_MELB_AH6M/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhs_MELB_AH6M.paa",
     "bin|config.bin/CfgVehicles/RHS_MELB_AH6M/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_MELB_AH6M/forceInGarage": 1,
     "bin|config.bin/CfgVehicles/RHS_MELB_AH6M/author": "Red Hammer Studios",

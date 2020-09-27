@@ -1,5 +1,4 @@
-rhs_weap_m21a = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m21a/picture": "\rhssaf\addons\rhssaf_inventoryicons\data\weapons\rhs_weap_m21a_ca.paa",
+rhs_weap_m21a = {    "bin|config.bin/CfgWeapons/rhs_weap_m21a/picture": "\rhssaf\addons\rhssaf_inventoryicons\data\weapons\rhs_weap_m21a_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m21a/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m21a/scopeCurator": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m21a/dlc": "RHS_SAF",

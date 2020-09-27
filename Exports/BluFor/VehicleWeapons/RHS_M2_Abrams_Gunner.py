@@ -1,5 +1,4 @@
-RHS_M2_Abrams_Gunner = {
-    "bin|config.bin/CfgWeapons/RHS_M2_Abrams_Gunner/displayName": "M2 CSAMM",
+RHS_M2_Abrams_Gunner = {    "bin|config.bin/CfgWeapons/RHS_M2_Abrams_Gunner/displayName": "M2 CSAMM",
     "bin|config.bin/CfgWeapons/RHS_M2_Abrams_Gunner/displaynameshort": "M2 CSAMM",
     "bin|config.bin/CfgWeapons/RHS_M2_Abrams_Gunner/canLock": 0,
     "bin|config.bin/CfgWeapons/RHS_M2_Abrams_Gunner/initspeed": 0,

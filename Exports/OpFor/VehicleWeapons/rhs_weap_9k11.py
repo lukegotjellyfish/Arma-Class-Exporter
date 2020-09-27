@@ -1,5 +1,4 @@
-rhs_weap_9k11 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_9k11/displayName": "9K11",
+rhs_weap_9k11 = {    "bin|config.bin/CfgWeapons/rhs_weap_9k11/displayName": "9K11",
     "bin|config.bin/CfgWeapons/rhs_weap_9k11/minRange": 300,
     "bin|config.bin/CfgWeapons/rhs_weap_9k11/minRangeProbab": 0.1,
     "bin|config.bin/CfgWeapons/rhs_weap_9k11/midRange": 1000,

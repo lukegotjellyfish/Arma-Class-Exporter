@@ -1,5 +1,4 @@
-rhs_weap_M230 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_M230/displayName": "M230",
+rhs_weap_M230 = {    "bin|config.bin/CfgWeapons/rhs_weap_M230/displayName": "M230",
     "bin|config.bin/CfgWeapons/rhs_weap_M230/magazines": ["rhs_mag_30x113mm_M789_HEDP_1200","rhs_mag_30x113mm_M789_HEDP_laser_1200"],
     "bin|config.bin/CfgWeapons/rhs_weap_M230/shotFromTurret": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_M230/aiDispersionCoefX": 2,

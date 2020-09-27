@@ -1,5 +1,4 @@
-rhs_mig29sm_vmf = {
-    "bin|config.bin/CfgVehicles/rhs_mig29sm_vmf/author": "Red Hammer Studios",
+rhs_mig29sm_vmf = {    "bin|config.bin/CfgVehicles/rhs_mig29sm_vmf/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_mig29sm_vmf/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_mig29s_vmf.paa",
     "bin|config.bin/CfgVehicles/rhs_mig29sm_vmf/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_mig29sm_vmf/faction": "rhs_faction_vmf",

@@ -1,5 +1,4 @@
-rhs_weap_svdp_npz = {
-    "bin|config.bin/CfgWeapons/rhs_weap_svdp_npz/author": "Red Hammer Studios",
+rhs_weap_svdp_npz = {    "bin|config.bin/CfgWeapons/rhs_weap_svdp_npz/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_svdp_npz/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_svdp_npz_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_svdp_npz/displayName": "SVDM (NPZ)",
     "bin|config.bin/CfgWeapons/rhs_weap_svdp_npz/model": "\rhsafrf\addons\rhs_weapons\SVD\svd_polymer_npz",

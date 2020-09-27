@@ -1,5 +1,4 @@
-RHS_Mi24Vt_vvsc = {
-    "bin|config.bin/CfgVehicles/RHS_Mi24Vt_vvsc/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Mi24Vt_vvsc.paa",
+RHS_Mi24Vt_vvsc = {    "bin|config.bin/CfgVehicles/RHS_Mi24Vt_vvsc/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_Mi24Vt_vvsc.paa",
     "bin|config.bin/CfgVehicles/RHS_Mi24Vt_vvsc/faction": "rhs_faction_vvs_c",
     "bin|config.bin/CfgVehicles/RHS_Mi24Vt_vvsc/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_Mi24Vt_vvsc/author": "Red Hammer Studios",

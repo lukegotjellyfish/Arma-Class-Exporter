@@ -1,5 +1,4 @@
-rhsgref_ins_uaz_spg9 = {
-    "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_spg9/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_ins_uaz_spg9.paa",
+rhsgref_ins_uaz_spg9 = {    "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_spg9/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_ins_uaz_spg9.paa",
     "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_spg9/rhs_decalParameters": ["['Number', cDecals4CarsNumberPlaces, 'LicensePlate']"],
     "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_spg9/scope": 2,
     "bin|config.bin/CfgVehicles/rhsgref_ins_uaz_spg9/crew": "rhsgref_ins_rifleman",

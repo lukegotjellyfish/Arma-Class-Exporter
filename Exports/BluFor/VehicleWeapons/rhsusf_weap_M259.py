@@ -1,5 +1,4 @@
-rhsusf_weap_M259 = {
-    "bin|config.bin/CfgWeapons/rhsusf_weap_M259/scope": 2,
+rhsusf_weap_M259 = {    "bin|config.bin/CfgWeapons/rhsusf_weap_M259/scope": 2,
     "bin|config.bin/CfgWeapons/rhsusf_weap_M259/magazines": ["rhsusf_mag_L8A3_8"],
     "bin|config.bin/CfgWeapons/rhsusf_weap_M259/reloadTime": 0.04,
     "bin|config.bin/CfgWeapons/rhsusf_weap_M259/magazineReloadTime": 60,

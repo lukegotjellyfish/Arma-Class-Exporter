@@ -1,5 +1,4 @@
-rhs_weap_sr25 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_sr25/author": "Red Hammer Studios",
+rhs_weap_sr25 = {    "bin|config.bin/CfgWeapons/rhs_weap_sr25/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_sr25/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_sr25_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_sr25/baseWeapon": "rhs_weap_sr25",
     "bin|config.bin/CfgWeapons/rhs_weap_sr25/hiddenSelections": ["camo1","camo2","camo3","camo4","camo5","camo6"],

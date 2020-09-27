@@ -1,5 +1,4 @@
-rhs_weap_m16a4 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m16a4/author": "Red Hammer Studios",
+rhs_weap_m16a4 = {    "bin|config.bin/CfgWeapons/rhs_weap_m16a4/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m16a4/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m16a4_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m16a4/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m16a4/displayName": "M16A4",

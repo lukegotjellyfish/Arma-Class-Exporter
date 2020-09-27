@@ -1,5 +1,4 @@
-rhs_weap_m3a1_specops = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m3a1_specops/author": "Red Hammer Studios",
+rhs_weap_m3a1_specops = {    "bin|config.bin/CfgWeapons/rhs_weap_m3a1_specops/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m3a1_specops/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_m3a1_specops_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m3a1_specops/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m3a1_specops/scopeCurator": 2,

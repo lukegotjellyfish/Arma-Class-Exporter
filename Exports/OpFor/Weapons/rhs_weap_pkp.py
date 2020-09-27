@@ -1,5 +1,4 @@
-rhs_weap_pkp = {
-    "bin|config.bin/CfgWeapons/rhs_weap_pkp/author": "Red Hammer Studios",
+rhs_weap_pkp = {    "bin|config.bin/CfgWeapons/rhs_weap_pkp/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_pkp/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_pkp_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_pkp/baseWeapon": "rhs_weap_pkp",
     "bin|config.bin/CfgWeapons/rhs_weap_pkp/inertia": 0.8,

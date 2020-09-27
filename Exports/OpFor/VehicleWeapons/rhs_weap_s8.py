@@ -1,5 +1,4 @@
-rhs_weap_s8 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_s8/displayName": "S8",
+rhs_weap_s8 = {    "bin|config.bin/CfgWeapons/rhs_weap_s8/displayName": "S8",
     "bin|config.bin/CfgWeapons/rhs_weap_s8/magazines": ["rhs_mag_s8_12","rhs_mag_s8_20","rhs_mag_s8_40","rhs_mag_s8_80","rhs_mag_s8_120","rhs_mag_b8m1_s8kom","rhs_mag_b8v20a_s8kom","rhs_mag_b8v20a_ka52_s8kom","rhs_mag_b8m1_bd3_umk2a_s8kom"],
     "bin|config.bin/CfgWeapons/rhs_weap_s5/aiDispersionCoefY": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_s5/aiDispersionCoefX": 1.5,

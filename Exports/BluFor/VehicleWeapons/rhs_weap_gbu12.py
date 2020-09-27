@@ -1,5 +1,4 @@
-rhs_weap_gbu12 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_gbu12/displayName": "GBU-12",
+rhs_weap_gbu12 = {    "bin|config.bin/CfgWeapons/rhs_weap_gbu12/displayName": "GBU-12",
     "bin|config.bin/CfgWeapons/rhs_weap_gbu12/cursorSize": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_gbu12/cursor": "bomb",
     "bin|config.bin/CfgWeapons/rhs_weap_gbu12/cursorAim": "EmptyCursor",

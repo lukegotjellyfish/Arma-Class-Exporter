@@ -1,5 +1,4 @@
-rhsusf_m113_usarmy_Mk19 = {
-    "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_MK19/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m113_usarmy_MK19.paa",
+rhsusf_m113_usarmy_Mk19 = {    "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_MK19/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m113_usarmy_MK19.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_MK19/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_MK19/vehicleClass": "rhs_vehclass_apc",
     "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_MK19/crew": "rhsusf_army_ucp_crewman",

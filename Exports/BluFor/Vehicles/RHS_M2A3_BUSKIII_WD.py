@@ -1,5 +1,4 @@
-RHS_M2A3_BUSKIII_WD = {
-    "bin|config.bin/CfgVehicles/RHS_M2A3_BUSKIII_wd/faction": "rhs_faction_usarmy_wd",
+RHS_M2A3_BUSKIII_WD = {    "bin|config.bin/CfgVehicles/RHS_M2A3_BUSKIII_wd/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/RHS_M2A3_BUSKIII_wd/crew": "rhsusf_army_ucp_crewman",
     "bin|config.bin/CfgVehicles/RHS_M2A3_BUSKIII_wd/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/RHS_M2A3_BUSKIII_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\RHS_M2A3_BUSKIII_wd.paa",

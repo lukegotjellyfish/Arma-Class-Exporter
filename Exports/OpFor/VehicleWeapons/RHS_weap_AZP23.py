@@ -1,5 +1,4 @@
-RHS_weap_AZP23 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_azp23/scope": 1,
+RHS_weap_AZP23 = {    "bin|config.bin/CfgWeapons/rhs_weap_azp23/scope": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_azp23/ballisticsComputer": 4,
     "bin|config.bin/CfgWeapons/rhs_weap_azp23/displayName": "AZP-23",
     "bin|config.bin/CfgWeapons/rhs_weap_azp23/nameSound": "cannon",

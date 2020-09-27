@@ -1,5 +1,4 @@
-rhs_weap_akmn = {
-    "bin|config.bin/CfgWeapons/rhs_weap_akmn/author": "Red Hammer Studios",
+rhs_weap_akmn = {    "bin|config.bin/CfgWeapons/rhs_weap_akmn/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_akmn/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_akmn_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_akmn/displayName": "AKMN",
     "bin|config.bin/CfgWeapons/rhs_weap_akmn/model": "\rhsafrf\addons\rhs_weapons\akm\rhs_akmn",

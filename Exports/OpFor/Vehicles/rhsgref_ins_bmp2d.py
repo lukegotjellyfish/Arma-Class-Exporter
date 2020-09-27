@@ -1,5 +1,4 @@
-rhsgref_ins_bmp2d = {
-    "bin|config.bin/CfgVehicles/rhsgref_ins_bmp2d/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_ins_bmp2d.paa",
+rhsgref_ins_bmp2d = {    "bin|config.bin/CfgVehicles/rhsgref_ins_bmp2d/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_ins_bmp2d.paa",
     "bin|config.bin/CfgVehicles/rhsgref_ins_bmp2d/scope": 2,
     "bin|config.bin/CfgVehicles/rhsgref_ins_bmp2d/crew": "rhsgref_ins_crew",
     "bin|config.bin/CfgVehicles/rhsgref_ins_bmp2d/author": "Red Hammer Studios",

@@ -1,5 +1,4 @@
-rhs_weap_maaws = {
-    "bin|config.bin/CfgWeapons/rhs_weap_maaws/dlc": "RHS_USAF",
+rhs_weap_maaws = {    "bin|config.bin/CfgWeapons/rhs_weap_maaws/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhs_weap_maaws/audiblefire": 20,
     "bin|config.bin/CfgWeapons/rhs_weap_maaws/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_maaws/scope": 2,

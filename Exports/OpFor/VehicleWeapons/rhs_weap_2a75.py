@@ -1,5 +1,4 @@
-rhs_weap_2a75 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_2a75/aiDispersioncoefX": 3,
+rhs_weap_2a75 = {    "bin|config.bin/CfgWeapons/rhs_weap_2a75/aiDispersioncoefX": 3,
     "bin|config.bin/CfgWeapons/rhs_weap_2a75/aiDispersioncoefY": 4,
     "bin|config.bin/CfgWeapons/rhs_weap_2a75/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_2a75/displayName": "2A75",

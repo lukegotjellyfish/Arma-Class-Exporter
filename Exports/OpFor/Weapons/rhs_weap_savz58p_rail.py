@@ -1,5 +1,4 @@
-rhs_weap_savz58p_rail = {
-    "bin|config.bin/CfgWeapons/rhs_weap_savz58p_rail/author": "Red Hammer Studios",
+rhs_weap_savz58p_rail = {    "bin|config.bin/CfgWeapons/rhs_weap_savz58p_rail/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_savz58p_rail/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_savz58p_rail_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_savz58p_rail/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_savz58p_rail/displayName": "Sa vz. 58P (Rail)",

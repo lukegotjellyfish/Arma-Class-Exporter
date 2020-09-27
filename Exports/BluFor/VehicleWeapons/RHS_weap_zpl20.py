@@ -1,5 +1,4 @@
-RHS_weap_zpl20 = {
-    "bin|config.bin/CfgWeapons/RHS_weap_zpl20/scope": 2,
+RHS_weap_zpl20 = {    "bin|config.bin/CfgWeapons/RHS_weap_zpl20/scope": 2,
     "bin|config.bin/CfgWeapons/RHS_weap_zpl20/aidispersioncoefx": 4,
     "bin|config.bin/CfgWeapons/RHS_weap_zpl20/aidispersioncoefy": 4,
     "bin|config.bin/CfgWeapons/RHS_weap_zpl20/canlock": 2,

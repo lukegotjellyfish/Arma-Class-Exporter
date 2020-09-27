@@ -1,5 +1,4 @@
-rhs_bmd2m = {
-    "bin|config.bin/CfgVehicles/rhs_bmd2m/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd2m.paa",
+rhs_bmd2m = {    "bin|config.bin/CfgVehicles/rhs_bmd2m/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_bmd2m.paa",
     "bin|config.bin/CfgVehicles/rhs_bmd2m/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_bmd2m/model": "\rhsafrf\addons\rhs_bmd\rhs_bmd2m.p3d",
     "bin|config.bin/CfgVehicles/rhs_bmd2m/author": "Red Hammer Studios",

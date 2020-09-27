@@ -1,5 +1,4 @@
-rhs_ka60_c = {
-    "bin|config.bin/CfgVehicles/rhs_ka60_c/forceInGarage": 0,
+rhs_ka60_c = {    "bin|config.bin/CfgVehicles/rhs_ka60_c/forceInGarage": 0,
     "bin|config.bin/CfgVehicles/rhs_ka60_c/faction": "rhs_faction_vvs_c",
     "bin|config.bin/CfgVehicles/rhs_ka60_c/author": "RHS",
     "bin|config.bin/CfgVehicles/rhs_ka60_c/hiddenSelectionsTextures": ["|rhsafrf|addons|rhs_a3retex|Data|heli_light_02_ext_c_co.paa"],

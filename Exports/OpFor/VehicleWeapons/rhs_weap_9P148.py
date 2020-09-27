@@ -1,5 +1,4 @@
-rhs_weap_9P148 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_9P148/autoreload": 0,
+rhs_weap_9P148 = {    "bin|config.bin/CfgWeapons/rhs_weap_9P148/autoreload": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_9P148/reloadTime": 1.5,
     "bin|config.bin/CfgWeapons/rhs_weap_9m111/canLock": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_9m111/minRange": 10,

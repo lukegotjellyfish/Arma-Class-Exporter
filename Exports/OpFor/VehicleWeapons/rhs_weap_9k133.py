@@ -1,5 +1,4 @@
-rhs_weap_9k133 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_9k133/displayName": "9K133",
+rhs_weap_9k133 = {    "bin|config.bin/CfgWeapons/rhs_weap_9k133/displayName": "9K133",
     "bin|config.bin/CfgWeapons/rhs_weap_9k133/sounds": ["StandardSound"],
     "bin|config.bin/CfgWeapons/rhs_weap_9k133/magazines": ["rhs_mag_9m133_2"],
     "bin|config.bin/CfgWeapons/rhs_weap_9k133/reloadTime": 0.1,

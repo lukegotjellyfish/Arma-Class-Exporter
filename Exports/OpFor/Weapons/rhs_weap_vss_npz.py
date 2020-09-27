@@ -1,5 +1,4 @@
-rhs_weap_vss_npz = {
-    "bin|config.bin/CfgWeapons/rhs_weap_vss_npz/author": "Red Hammer Studios",
+rhs_weap_vss_npz = {    "bin|config.bin/CfgWeapons/rhs_weap_vss_npz/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_vss_npz/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_vss_npz_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_vss_npz/displayName": "VSS Vintorez (NPZ)",
     "bin|config.bin/CfgWeapons/rhs_weap_vss_npz/model": "\rhsafrf\addons\rhs_weapons2\vss\rhs_vss_npz",

@@ -1,5 +1,4 @@
-rhs_t80ue1 = {
-    "bin|config.bin/CfgVehicles/rhs_t80ue1/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t80ue1.paa",
+rhs_t80ue1 = {    "bin|config.bin/CfgVehicles/rhs_t80ue1/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t80ue1.paa",
     "bin|config.bin/CfgVehicles/rhs_t80ue1/rhs_hasSnorkel": 0,
     "bin|config.bin/CfgVehicles/rhs_t80ue1/enableGPS": 1,
     "bin|config.bin/CfgVehicles/rhs_t80ue1/receiveRemoteTargets": 1,

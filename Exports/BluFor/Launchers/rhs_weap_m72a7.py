@@ -1,5 +1,4 @@
-rhs_weap_m72a7 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m72a7/scope": 2,
+rhs_weap_m72a7 = {    "bin|config.bin/CfgWeapons/rhs_weap_m72a7/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m72a7/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m72a7/displayName": "M72A7",
     "bin|config.bin/CfgWeapons/rhs_weap_m72a7/descriptionShort": "Rocket launcher<br/>Caliber: 66mm<br/>Type: Single-shot Anti-Tank",

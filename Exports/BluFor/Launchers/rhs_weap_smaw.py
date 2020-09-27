@@ -1,5 +1,4 @@
-rhs_weap_smaw = {
-    "bin|config.bin/CfgWeapons/rhs_weap_smaw/dlc": "RHS_USAF",
+rhs_weap_smaw = {    "bin|config.bin/CfgWeapons/rhs_weap_smaw/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhs_weap_smaw/primary": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_smaw/audiblefire": 20,
     "bin|config.bin/CfgWeapons/rhs_weap_smaw/author": "Red Hammer Studios",

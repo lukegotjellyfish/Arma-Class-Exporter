@@ -1,5 +1,4 @@
-rhs_weap_nsvt_t72 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_nsvt_t72/type": 1,
+rhs_weap_nsvt_t72 = {    "bin|config.bin/CfgWeapons/rhs_weap_nsvt_t72/type": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_nsvt/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_nsvt/displayName": "NSVT",
     "bin|config.bin/CfgWeapons/rhs_weap_nsvt/magazines": ["rhs_mag_127x108mm_50","rhs_mag_127x108mm_100","rhs_mag_127x108mm_150","rhs_mag_127x108mm_300"],

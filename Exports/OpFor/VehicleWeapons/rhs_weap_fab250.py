@@ -1,5 +1,4 @@
-rhs_weap_fab250 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_fab250/cursor": "bomb",
+rhs_weap_fab250 = {    "bin|config.bin/CfgWeapons/rhs_weap_fab250/cursor": "bomb",
     "bin|config.bin/CfgWeapons/rhs_weap_fab250/cursoraim": "EmptyCursor",
     "bin|config.bin/CfgWeapons/rhs_weap_fab250/cursorsize": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_fab250/displayname": "FAB-250",

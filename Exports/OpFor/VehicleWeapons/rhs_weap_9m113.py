@@ -1,5 +1,4 @@
-rhs_weap_9m113 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_9m113/autoreload": 0,
+rhs_weap_9m113 = {    "bin|config.bin/CfgWeapons/rhs_weap_9m113/autoreload": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_9m113/minRange": 10,
     "bin|config.bin/CfgWeapons/rhs_weap_9m113/minRangeProbab": 0.5,
     "bin|config.bin/CfgWeapons/rhs_weap_9m113/midRange": 1450,

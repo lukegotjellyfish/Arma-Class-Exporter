@@ -1,5 +1,4 @@
-rhs_t80bvk = {
-    "bin|config.bin/CfgVehicles/rhs_t80bvk/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t80bvk.paa",
+rhs_t80bvk = {    "bin|config.bin/CfgVehicles/rhs_t80bvk/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t80bvk.paa",
     "bin|config.bin/CfgVehicles/rhs_t80bvk/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_t80bvk/displayName": "T-80BVK",
     "bin|config.bin/CfgVehicles/rhs_t80bvk/hiddenSelectionsTextures": ["rhsafrf|addons|rhs_t80|data|hull.pac","rhsafrf|addons|rhs_t80|data|turetbk.paa","","rhsafrf|addons|rhs_t80|data|searchlightopen_co.paa","rhsafrf|addons|rhs_decals|Data|Labels|Misc|no_ca.paa"],

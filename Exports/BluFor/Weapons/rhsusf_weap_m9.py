@@ -1,5 +1,4 @@
-rhsusf_weap_m9 = {
-    "bin|config.bin/CfgWeapons/rhsusf_weap_m9/author": "Red Hammer Studios",
+rhsusf_weap_m9 = {    "bin|config.bin/CfgWeapons/rhsusf_weap_m9/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhsusf_weap_m9/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhsusf_weap_m9_ca.paa",
     "bin|config.bin/CfgWeapons/rhsusf_weap_m9/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhsusf_weap_m9/scope": 2,

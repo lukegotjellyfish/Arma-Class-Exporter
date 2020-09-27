@@ -1,5 +1,4 @@
-rhs_weap_fim92 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_fim92/dlc": "RHS_USAF",
+rhs_weap_fim92 = {    "bin|config.bin/CfgWeapons/rhs_weap_fim92/dlc": "RHS_USAF",
     "bin|config.bin/CfgWeapons/rhs_weap_fim92/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_fim92/displayName": "FIM-92F",
     "bin|config.bin/CfgWeapons/rhs_weap_fim92/descriptionShort": "Missile launcher<br/>Caliber: 70mm<br/>Type: Surface-to-air",

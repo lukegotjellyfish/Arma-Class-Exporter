@@ -1,5 +1,4 @@
-rhs_weap_rpg26 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_rpg26/author": "Red Hammer Studios",
+rhs_weap_rpg26 = {    "bin|config.bin/CfgWeapons/rhs_weap_rpg26/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_rpg26/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_rpg26_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_rpg26/dlc": "RHS_AFRF",
     "bin|config.bin/CfgWeapons/rhs_weap_rpg26/scope": 2,

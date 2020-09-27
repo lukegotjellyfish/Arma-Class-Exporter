@@ -1,5 +1,4 @@
-rhs_t90a_tv = {
-    "bin|config.bin/CfgVehicles/rhs_t90a_tv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t90a_tv.paa",
+rhs_t90a_tv = {    "bin|config.bin/CfgVehicles/rhs_t90a_tv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_t90a_tv.paa",
     "bin|config.bin/CfgVehicles/rhs_t90a_tv/displayName": "T-90A (obr. 2006g.)",
     "bin|config.bin/CfgVehicles/rhs_t90a_tv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_t90a_tv/scope": 2,

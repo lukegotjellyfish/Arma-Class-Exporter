@@ -1,5 +1,4 @@
-rhs_btr80a_msv = {
-    "bin|config.bin/CfgVehicles/rhs_btr80a_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_btr80a_msv.paa",
+rhs_btr80a_msv = {    "bin|config.bin/CfgVehicles/rhs_btr80a_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_btr80a_msv.paa",
     "bin|config.bin/CfgVehicles/rhs_btr80a_msv/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhs_btr80a_msv/displayName": "BTR-80A",
     "bin|config.bin/CfgVehicles/rhs_btr80a_msv/model": "\rhsafrf\addons\rhs_btr80\rhs_btr80a.p3d",

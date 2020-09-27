@@ -1,5 +1,4 @@
-rhs_weap_2a42 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_2a42/muzzles": ["HE","AP"],
+rhs_weap_2a42 = {    "bin|config.bin/CfgWeapons/rhs_weap_2a42/muzzles": ["HE","AP"],
     "bin|config.bin/CfgWeapons/rhs_weap_2a42_base/aiDispersioncoefX": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_2a42_base/aiDispersioncoefY": 3,
     "bin|config.bin/CfgWeapons/rhs_weap_2a42_base/airateoffire": 1,

@@ -1,5 +1,4 @@
-rhs_gaz66_zu23_msv = {
-    "bin|config.bin/CfgVehicles/rhs_gaz66_zu23_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_gaz66_zu23_msv.paa",
+rhs_gaz66_zu23_msv = {    "bin|config.bin/CfgVehicles/rhs_gaz66_zu23_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_gaz66_zu23_msv.paa",
     "bin|config.bin/CfgVehicles/rhs_gaz66_zu23_msv/scope": 2,
     "bin|config.bin/CfgVehicles/rhs_gaz66_zu23_msv/faction": "rhs_faction_msv",
     "bin|config.bin/CfgVehicles/rhs_gaz66_zu23_msv/crew": "rhs_msv_driver",

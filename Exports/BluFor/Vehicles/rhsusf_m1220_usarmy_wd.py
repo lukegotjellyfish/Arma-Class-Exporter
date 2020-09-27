@@ -1,5 +1,4 @@
-rhsusf_m1220_usarmy_wd = {
-    "bin|config.bin/CfgVehicles/rhsusf_M1220_usarmy_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1220_usarmy_wd.paa",
+rhsusf_m1220_usarmy_wd = {    "bin|config.bin/CfgVehicles/rhsusf_M1220_usarmy_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1220_usarmy_wd.paa",
     "bin|config.bin/CfgVehicles/rhsusf_M1220_usarmy_wd/displayName": "M1220",
     "bin|config.bin/CfgVehicles/rhsusf_M1220_usarmy_wd/picture": "\rhsusf\addons\rhsusf_caiman\pictures\rhs_caiman_unarmed_pic_ca.paa",
     "bin|config.bin/CfgVehicles/rhsusf_M1220_usarmy_wd/scope": 2,

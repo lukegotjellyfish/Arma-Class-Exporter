@@ -1,5 +1,4 @@
-rhs_weap_type94_new = {
-    "bin|config.bin/CfgWeapons/rhs_weap_type94_new/author": "Red Hammer Studios",
+rhs_weap_type94_new = {    "bin|config.bin/CfgWeapons/rhs_weap_type94_new/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_type94_new/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_type94_new_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_type94_new/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_type94_new/displayName": "Type 94 Nambu",

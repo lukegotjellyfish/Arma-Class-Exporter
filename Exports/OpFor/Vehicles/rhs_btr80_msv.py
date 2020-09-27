@@ -1,5 +1,4 @@
-rhs_btr80_msv = {
-    "bin|config.bin/CfgVehicles/rhs_btr80_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_btr80_msv.paa",
+rhs_btr80_msv = {    "bin|config.bin/CfgVehicles/rhs_btr80_msv/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_btr80_msv.paa",
     "bin|config.bin/CfgVehicles/rhs_btr80_msv/Icon": "\rhsafrf\addons\rhs_c_btr\icons\rhs_btr80_icon_ca.paa",
     "bin|config.bin/CfgVehicles/rhs_btr80_msv/picture": "\rhsafrf\addons\rhs_c_btr\icons\rhs_btr80_pic_ca.paa",
     "bin|config.bin/CfgVehicles/rhs_btr80_msv/driverForceOptics": 0,

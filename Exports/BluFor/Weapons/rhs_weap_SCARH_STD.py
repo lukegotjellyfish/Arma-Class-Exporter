@@ -1,5 +1,4 @@
-rhs_weap_SCARH_STD = {
-    "bin|config.bin/CfgWeapons/rhs_weap_SCARH_STD/dlc": "RHS_SAF",
+rhs_weap_SCARH_STD = {    "bin|config.bin/CfgWeapons/rhs_weap_SCARH_STD/dlc": "RHS_SAF",
     "bin|config.bin/CfgWeapons/rhs_weap_SCARH_STD/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_SCARH_STD/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_SCARH_STD/picture": "\rhssaf\addons\rhssaf_inventoryicons\data\weapons\rhs_weap_SCARH_STD_ca.paa",

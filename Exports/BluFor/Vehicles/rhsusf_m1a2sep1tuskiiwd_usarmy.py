@@ -1,5 +1,4 @@
-rhsusf_m1a2sep1tuskiiwd_usarmy = {
-    "bin|config.bin/CfgVehicles/rhsusf_m1a2sep1tuskiiwd_usarmy/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a2sep1tuskiiwd_usarmy.paa",
+rhsusf_m1a2sep1tuskiiwd_usarmy = {    "bin|config.bin/CfgVehicles/rhsusf_m1a2sep1tuskiiwd_usarmy/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a2sep1tuskiiwd_usarmy.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m1a2sep1tuskiiwd_usarmy/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/rhsusf_m1a2sep1tuskiiwd_usarmy/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/rhsusf_m1a2sep1tuskiiwd_usarmy/vehicleClass": "rhs_vehclass_tank",

@@ -1,5 +1,4 @@
-rhs_weap_2a46m_4 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_2a46m_4/aiDispersioncoefX": 3.5,
+rhs_weap_2a46m_4 = {    "bin|config.bin/CfgWeapons/rhs_weap_2a46m_4/aiDispersioncoefX": 3.5,
     "bin|config.bin/CfgWeapons/rhs_weap_2a46m_4/aiDispersioncoefY": 5,
     "bin|config.bin/CfgWeapons/rhs_weap_2a46m_4/displayName": "2A46M-4",
     "bin|config.bin/CfgWeapons/rhs_weap_2a46m_2/magazineWell": ["RHS_Cannon_125mm_D81","RHS_Cannon_125mm_2A46M"],

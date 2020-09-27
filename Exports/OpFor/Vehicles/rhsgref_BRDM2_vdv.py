@@ -1,5 +1,4 @@
-rhsgref_BRDM2_vdv = {
-    "bin|config.bin/CfgVehicles/rhsgref_BRDM2_vdv/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_BRDM2_vdv.paa",
+rhsgref_BRDM2_vdv = {    "bin|config.bin/CfgVehicles/rhsgref_BRDM2_vdv/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_BRDM2_vdv.paa",
     "bin|config.bin/CfgVehicles/rhsgref_BRDM2_vdv/faction": "rhs_faction_vdv",
     "bin|config.bin/CfgVehicles/rhsgref_BRDM2_vdv/crew": "rhs_vdv_crew",
     "bin|config.bin/CfgVehicles/rhsgref_BRDM2_vdv/rhs_decalParameters": ["['Number', [3,4,5], 'Default']","['Label', [6], 'Platoon',11]"],

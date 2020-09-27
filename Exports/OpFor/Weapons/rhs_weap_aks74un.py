@@ -1,5 +1,4 @@
-rhs_weap_aks74un = {
-    "bin|config.bin/CfgWeapons/rhs_weap_aks74un/author": "Red Hammer Studios",
+rhs_weap_aks74un = {    "bin|config.bin/CfgWeapons/rhs_weap_aks74un/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_aks74un/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_aks74un_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_aks74un/displayName": "AKS-74UN",
     "bin|config.bin/CfgWeapons/rhs_weap_aks74un/model": "\rhsafrf\addons\rhs_weapons2\aks74u\rhs_aks74un",

@@ -1,5 +1,4 @@
-rhs_weap_GSh302 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_gsh302/initspeed": 870,
+rhs_weap_GSh302 = {    "bin|config.bin/CfgWeapons/rhs_weap_gsh302/initspeed": 870,
     "bin|config.bin/CfgWeapons/rhs_weap_gsh302/displayname": "GSh-30-2",
     "bin|config.bin/CfgWeapons/rhs_weap_gsh302/modes": ["manual","close","short","medium","far"],
     "bin|config.bin/CfgWeapons/rhs_weap_gsh30/scope": 2,

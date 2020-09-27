@@ -1,5 +1,4 @@
-rhs_weap_t5000 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_t5000/author": "Red Hammer Studios",
+rhs_weap_t5000 = {    "bin|config.bin/CfgWeapons/rhs_weap_t5000/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_t5000/picture": "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_t5000_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_t5000/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_t5000/displayName": "T-5000",

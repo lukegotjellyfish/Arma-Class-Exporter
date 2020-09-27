@@ -1,5 +1,4 @@
-rhs_weap_gsh23l = {
-    "bin|config.bin/CfgWeapons/rhs_weap_gsh23l/initspeed": 715,
+rhs_weap_gsh23l = {    "bin|config.bin/CfgWeapons/rhs_weap_gsh23l/initspeed": 715,
     "bin|config.bin/CfgWeapons/rhs_weap_gsh23l/displayname": "GSh-23L",
     "bin|config.bin/CfgWeapons/rhs_weap_gsh23l/magazines": ["rhs_mag_AM23_500","rhs_mag_upk23_ofz","rhs_mag_upk23_ofzt","rhs_mag_upk23_btz","rhs_mag_upk23_mixed","rhs_mag_upk23_ka52_ofz","rhs_mag_upk23_ka52_ofzt","rhs_mag_upk23_ka52_btz","rhs_mag_upk23_ka52_mixed"],
     "bin|config.bin/CfgWeapons/rhs_weap_gsh23l/namesound": "cannon",

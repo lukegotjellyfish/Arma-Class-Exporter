@@ -1,5 +1,4 @@
-RHS_AH64D = {
-    "bin|config.bin/CfgVehicles/RHS_AH64D/scope": 2,
+RHS_AH64D = {    "bin|config.bin/CfgVehicles/RHS_AH64D/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_AH64D/accuracy": 5,
     "bin|config.bin/CfgVehicles/RHS_AH64D/cost": 1e+007,
     "bin|config.bin/CfgVehicles/RHS_AH64D/model": "\rhsusf\addons\rhsusf_a2port_air\AH64\AH64D",

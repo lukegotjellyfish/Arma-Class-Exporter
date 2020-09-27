@@ -1,5 +1,4 @@
-RHS_UAZ_MSV_01 = {
-    "bin|config.bin/CfgVehicles/RHS_UAZ_MSV_01/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_UAZ_MSV_01.paa",
+RHS_UAZ_MSV_01 = {    "bin|config.bin/CfgVehicles/RHS_UAZ_MSV_01/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_UAZ_MSV_01.paa",
     "bin|config.bin/CfgVehicles/RHS_UAZ_MSV_01/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_UAZ_MSV_01/author": "Red Hammer Studios",
     "bin|config.bin/CfgVehicles/RHS_UAZ_MSV_Base/accuracy": 0.5,

@@ -1,5 +1,4 @@
-rhs_weap_savz58v_fold = {
-    "bin|config.bin/CfgWeapons/rhs_weap_savz58v_fold/author": "Red Hammer Studios",
+rhs_weap_savz58v_fold = {    "bin|config.bin/CfgWeapons/rhs_weap_savz58v_fold/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_savz58v_fold/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_savz58v_fold_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_savz58v_fold/scope": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_savz58v_fold/displayName": "Sa vz. 58V (Folded)",

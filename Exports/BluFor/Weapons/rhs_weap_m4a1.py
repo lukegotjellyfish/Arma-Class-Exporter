@@ -1,5 +1,4 @@
-rhs_weap_m4a1 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_m4a1/author": "Red Hammer Studios",
+rhs_weap_m4a1 = {    "bin|config.bin/CfgWeapons/rhs_weap_m4a1/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_m4a1/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m4a1_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_m4a1/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_m4a1/displayName": "M4A1 PIP",

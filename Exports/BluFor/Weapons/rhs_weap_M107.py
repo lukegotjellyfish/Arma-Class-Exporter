@@ -1,5 +1,4 @@
-rhs_weap_M107 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_M107/author": "Red Hammer Studios",
+rhs_weap_M107 = {    "bin|config.bin/CfgWeapons/rhs_weap_M107/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_M107/picture": "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_M107_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_M107/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_M107/displayname": "M107",

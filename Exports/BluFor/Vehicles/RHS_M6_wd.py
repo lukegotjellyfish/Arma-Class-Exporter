@@ -1,5 +1,4 @@
-RHS_M6_wd = {
-    "bin|config.bin/CfgVehicles/RHS_M6_wd/scope": 2,
+RHS_M6_wd = {    "bin|config.bin/CfgVehicles/RHS_M6_wd/scope": 2,
     "bin|config.bin/CfgVehicles/RHS_M6_wd/displayName": "M6A2",
     "bin|config.bin/CfgVehicles/RHS_M6_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\RHS_M6_wd.paa",
     "bin|config.bin/CfgVehicles/RHS_M6_wd/faction": "rhs_faction_usarmy_wd",

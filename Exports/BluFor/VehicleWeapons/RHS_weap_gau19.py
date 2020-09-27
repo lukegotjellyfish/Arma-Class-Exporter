@@ -1,5 +1,4 @@
-RHS_weap_gau19 = {
-    "bin|config.bin/CfgWeapons/RHS_weap_gau19/scope": 1,
+RHS_weap_gau19 = {    "bin|config.bin/CfgWeapons/RHS_weap_gau19/scope": 1,
     "bin|config.bin/CfgWeapons/RHS_weap_gau19/displayName": "GAU-19/A",
     "bin|config.bin/CfgWeapons/RHS_weap_gau19/cursor": "EmptyCursor",
     "bin|config.bin/CfgWeapons/RHS_weap_gau19/cursorAim": "EmptyCursor",

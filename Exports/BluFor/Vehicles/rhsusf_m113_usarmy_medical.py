@@ -1,5 +1,4 @@
-rhsusf_m113_usarmy_medical = {
-    "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_medical/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m113_usarmy_medical.paa",
+rhsusf_m113_usarmy_medical = {    "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_medical/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m113_usarmy_medical.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_medical/faction": "rhs_faction_usarmy_wd",
     "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_medical/vehicleClass": "rhs_vehclass_apc",
     "bin|config.bin/CfgVehicles/rhsusf_m113_usarmy_medical/crew": "rhsusf_army_ucp_crewman",

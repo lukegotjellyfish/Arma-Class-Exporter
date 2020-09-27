@@ -1,5 +1,4 @@
-rhs_mi28n_base = {
-    "bin|config.bin/CfgVehicles/rhs_mi28n_base/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_mi28n_Base.paa",
+rhs_mi28n_base = {    "bin|config.bin/CfgVehicles/rhs_mi28n_base/editorPreview": "rhsafrf\addons\rhs_editorPreviews\data\rhs_mi28n_Base.paa",
     "bin|config.bin/CfgVehicles/rhs_mi28n_base/displayName": "Mi-28N",
     "bin|config.bin/CfgVehicles/rhs_mi28n_base/selectionFireAnim": "",
     "bin|config.bin/CfgVehicles/rhs_mi28_base/side": 0,

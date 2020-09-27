@@ -1,5 +1,4 @@
-rhs_weap_DSHKM = {
-    "bin|config.bin/CfgWeapons/rhs_weap_DSHKM/type": 1,
+rhs_weap_DSHKM = {    "bin|config.bin/CfgWeapons/rhs_weap_DSHKM/type": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_DSHKM/initSpeed": 0,
     "bin|config.bin/CfgWeapons/rhs_weap_DSHKM/reloadMagazineSound": ["a3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",1,1,10],
     "bin|config.bin/CfgWeapons/rhs_weap_DSHKM/scope": 2,

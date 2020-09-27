@@ -1,5 +1,4 @@
-rhs_weap_M197 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_M197/aiDispersionCoefX": 2,
+rhs_weap_M197 = {    "bin|config.bin/CfgWeapons/rhs_weap_M197/aiDispersionCoefX": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_M197/scope": 1,
     "bin|config.bin/CfgWeapons/rhs_weap_M197/cursor": "mg",
     "bin|config.bin/CfgWeapons/rhs_weap_M197/cursorAim": "EmptyCursor",

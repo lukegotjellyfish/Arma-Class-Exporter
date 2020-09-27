@@ -1,5 +1,4 @@
-rhs_weap_mosin_sbr = {
-    "bin|config.bin/CfgWeapons/rhs_weap_mosin_sbr/author": "Red Hammer Studios",
+rhs_weap_mosin_sbr = {    "bin|config.bin/CfgWeapons/rhs_weap_mosin_sbr/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_mosin_sbr/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_mosin_sbr_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_mosin_sbr/model": "\rhsgref\addons\rhsgref_weapons\m38\rhs_mosin_sbr.p3d",
     "bin|config.bin/CfgWeapons/rhs_weap_mosin_sbr/handAnim": ["OFP2_ManSkeleton","|rhsgref|addons|rhsgref_c_weapons|anims|rhs_hand_mosin_sbr.rtm"],

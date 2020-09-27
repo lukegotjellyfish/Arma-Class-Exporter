@@ -1,5 +1,4 @@
-rhsusf_m1a1aim_tuski_wd = {
-    "bin|config.bin/CfgVehicles/rhsusf_m1a1aim_tuski_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a1aim_tuski_wd.paa",
+rhsusf_m1a1aim_tuski_wd = {    "bin|config.bin/CfgVehicles/rhsusf_m1a1aim_tuski_wd/editorPreview": "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_m1a1aim_tuski_wd.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1aim_tuski_wd/model": "\rhsusf\addons\rhsusf_m1a1\m1a1aim_tuski",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1aim_tuski_wd/Icon": "\rhsusf\addons\rhsusf_m1a1\icons\M1A1AIMTUSKI.paa",
     "bin|config.bin/CfgVehicles/rhsusf_m1a1aim_tuski_wd/picture": "\rhsusf\addons\rhsusf_m1a1\icons\M1A1TUSKSIDE_ca.paa",

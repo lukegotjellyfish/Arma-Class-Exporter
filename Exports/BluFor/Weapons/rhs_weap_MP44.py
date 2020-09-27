@@ -1,5 +1,4 @@
-rhs_weap_MP44 = {
-    "bin|config.bin/CfgWeapons/rhs_weap_MP44/author": "Red Hammer Studios",
+rhs_weap_MP44 = {    "bin|config.bin/CfgWeapons/rhs_weap_MP44/author": "Red Hammer Studios",
     "bin|config.bin/CfgWeapons/rhs_weap_MP44/picture": "\rhsgref\addons\rhsgref_inventoryicons\data\weapons\rhs_weap_MP44_ca.paa",
     "bin|config.bin/CfgWeapons/rhs_weap_MP44/scope": 2,
     "bin|config.bin/CfgWeapons/rhs_weap_MP44/scopeCurator": 2,

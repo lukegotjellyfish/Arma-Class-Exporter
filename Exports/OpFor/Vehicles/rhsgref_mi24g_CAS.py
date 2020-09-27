@@ -1,5 +1,4 @@
-rhsgref_mi24g_CAS = {
-    "bin|config.bin/CfgVehicles/rhsgref_mi24g_CAS/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_mi24g_CAS.paa",
+rhsgref_mi24g_CAS = {    "bin|config.bin/CfgVehicles/rhsgref_mi24g_CAS/editorPreview": "rhsgref\addons\rhsgref_editorPreviews\data\rhsgref_mi24g_CAS.paa",
     "bin|config.bin/CfgVehicles/rhsgref_mi24g_CAS/displayName": "Mi-24G",
     "bin|config.bin/CfgVehicles/rhsgref_mi24g_CAS/scope": 2,
     "bin|config.bin/CfgVehicles/rhsgref_mi24g_CAS/crew": "rhsgref_cdf_air_pilot",
