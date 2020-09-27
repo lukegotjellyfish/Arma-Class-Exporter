@@ -596,7 +596,6 @@ _vehicleHitPoints = [
 	""
 ];
 
-
 _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 {
 	{
@@ -622,38 +621,38 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 					_properties append configProperties [configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret"];
 				};
 
-				if (_configCategory == "CfgMagazines") then {
-					_ammo = configFile >> "CfgMagazines" >> _x >> "ammo";
-					_properties append configProperties [configFile >> "CfgAmmo" >> _x >> _ammo];
-				};
-
 				_i = 1;
 				_addComma = "";
 				_foundAmmo = 0;
 				{
-					//Cannot write tabs to file, using spaces instead
-					if (_i == 2) then { _addComma = ","; };
-					//If property is a string
-					if (isText   _x) then {
-						_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x, getText   _x];
+					if (str _x find "sound" != -1) then {}
+					else {
+						_propertyName =  str _x splitString "\" joinString "|";
+						//Cannot write tabs to file, using spaces instead
+						if (_i == 2) then { _addComma = ","; };
+						//If property is a string
+						if (isText   _x) then {
+							_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x, getText   _x];
 
-						if ((_configCategory == "CfgMagazines") && (_foundAmmo == 0) && (str _x find "ammo" != -1)) then {
-							diag_log(format["Fetching ammo %1", _x]);
-							_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
-							{
-								diag_log("on ammo property");
-								if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x splitString "\" joinString "|", getText   _x]; };
-								if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", getNumber _x]; };
-								if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", (str getArray _x) splitString "\" joinString "|"]; };
-							} forEach _ammoProperties;
-							diag_log("finished ammo properties");
-							_foundAmmo = 1;
+							//fix this, not finding  ammo or submunition ammo
+							if ((_configCategory == "CfgMagazines") && (_foundAmmo == 0)) then {
+								if ((str _x find "ammo" != -1) || (str _x find "SubmunitionAmmo" != -1)) then {
+									diag_log(format["Fetching ammo %1", _x]);
+									_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
+									{
+										_propertyName =  str _x splitString "\" joinString "|";
+										if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _propertyName, getText   _x]; };
+										if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, getNumber _x]; };
+										if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
+									} forEach _ammoProperties;
+									_foundAmmo = 1;
+								};
+							};
 						};
+						if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, getNumber _x]; };
+						if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
+						_i = _i + 1;
 					};
-					if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", getNumber _x]; };
-					if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _x splitString "\" joinString "|", (str getArray _x) splitString "\" joinString "|"]; };
-
-					_i = _i + 1;
 				} foreach _properties;  //For each property in class
 				diag_log("finished propertiess");
 
