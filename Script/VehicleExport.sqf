@@ -623,7 +623,6 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 
 				_i = 1;
 				_addComma = "";
-				_foundAmmo = 0;
 				{
 					if (str _x find "sound" != -1) then {}
 					else {
@@ -635,7 +634,7 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 							_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x, getText   _x];
 
 							//fix this, not finding  ammo or submunition ammo
-							if ((_configCategory == "CfgMagazines") && (_foundAmmo == 0)) then {
+							if (_configCategory == "CfgMagazines") then {
 								if ((str _x find "ammo" != -1) || (str _x find "SubmunitionAmmo" != -1)) then {
 									diag_log(format["Fetching ammo %1", _x]);
 									_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
@@ -645,7 +644,6 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 										if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, getNumber _x]; };
 										if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
 									} forEach _ammoProperties;
-									_foundAmmo = 1;
 								};
 							};
 						};
