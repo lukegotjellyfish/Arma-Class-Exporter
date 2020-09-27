@@ -614,7 +614,7 @@ getPropertyValue = {
 		  //diag_log(format["Classbody: %1", _classBody]);
 
 		//fix this, not finding  ammo or submunition ammo
-		if (((str _property find "CfgMagazines" != -1) && (str _property find "ammo" != -1)) || ((str _property find "submunitionAmmo" != -1) || str _property find "SubmunitionAmmo" != -1)) then {
+		if (((str _property find "CfgMagazines" != -1) && (str _property find "ammo" != -1)) || ((str _property find "submunitionAmmo" != -1) && (getText _property != "")) || (str _property find "SubmunitionAmmo" != -1) && (getText _property != "")) then {
 			diag_log(format["Looking for ammo | %1", _property]);
 
 			  //diag_log(format["Property = %1 | getText property = %2 | propertyName = %3", _property, getText _property, _propertyName]);
@@ -629,19 +629,15 @@ getPropertyValue = {
 			  // diag_log(format["_configCategory = %1", _configCategory]);
 			  // diag_log(format["_propertyName = %1", _propertyName]);
 
-			_addComma = "    ,";
+			_addComma = _addComma + "    ";
 			_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
 			{
-				if (str _x find "sound" != -1) then {}
-				else {
-					  //diag_log(format["Getting property: %1", _x]);
-					  // diag_log("In ammoProperties loop:");
-					  // diag_log(format["_x = %1", _x]);
-					_addition = [_x, _addComma, _x, _configCategory, str _x splitString "\" joinString "|"] call getPropertyValue;
-					_classBody = _classBody + _addition;
-				};
+					//diag_log(format["Getting property: %1", _x]);
+					// diag_log("In ammoProperties loop:");
+					// diag_log(format["_x = %1", _x]);
+				_addition = [_x, _addComma, _x, _configCategory, str _x splitString "\" joinString "|"] call getPropertyValue;
+				_classBody = _classBody + _addition;
 			} forEach _ammoProperties;
-			_addComma = ","
 		};
 	};
 	if (isNumber _property) then { _classBody = _classBody + format['%1\n    "%2": %3', _addComma, _propertyName, getNumber _property]; };
