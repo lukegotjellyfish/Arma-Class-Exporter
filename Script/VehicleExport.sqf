@@ -624,7 +624,7 @@ getProperties = {
 			if (_i == 2) then { _addComma = ","; };
 			//If property is a string
 			if (isText _x) then {
-				_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _newClass, getText   _x];
+				_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x, getText _x];
 
 				//fix this, not finding  ammo or submunition ammo
 				if (_configCategory == "CfgMagazines") then {
@@ -632,7 +632,7 @@ getProperties = {
 						diag_log(format["Fetching ammo %1", _newClass]);
 						_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
 						{
-							_classBody = [_x, _classBody,  _configCategory] call getProperties;
+							_classBody = [_x, _classBody, _configCategory] call getProperties;
 						} forEach _ammoProperties;
 					};
 				};
@@ -642,7 +642,7 @@ getProperties = {
 			_i = _i + 1;
 		};
 	} foreach _properties;  //For each property in class
-	diag_log("finished properties");
+	  //diag_log("finished properties");
 
 	//Add closing brace and return body
 	  //diag_log(format["Classbody is: %1", _classBody]);
