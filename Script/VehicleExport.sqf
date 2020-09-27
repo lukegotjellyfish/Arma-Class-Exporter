@@ -617,10 +617,13 @@ getProperties = {
 	_i = 1;
 	_addComma = "";
 	{
+		//Try to ignore sounds because i do not care
 		if (str _x find "sound" == 0) then {}
 		else {
+			//Sanitized property name for writing to file
 			_propertyName =  str _x splitString "\" joinString "|";
-			//Cannot write tabs to file, using spaces instead
+
+			//Only want to add a comma on lines before the last item
 			if (_i == 2) then { _addComma = ","; };
 			//If property is a string
 			if (isText _x) then {
@@ -628,17 +631,19 @@ getProperties = {
 
 				//fix this, not finding  ammo or submunition ammo
 				if (_configCategory == "CfgMagazines") then {
-					if ((str _x find "ammo" == 0) || (str _x find "SubmunitionAmmo" == 0)) then {
+					diag_log(format["Looking for ammo | %1", _x]);
+					if ((str _x find "ammo" != -1) || (str _x find "SubmunitionAmmo" != -1)) then {
 						diag_log(format["Fetching ammo %1", _newClass]);
-						_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
+
+						_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _newClass];
 						{
 							_classBody = [_x, _classBody, _configCategory] call getProperties;
 						} forEach _ammoProperties;
 					};
 				};
 			};
-			if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, getNumber _x]; };
-			if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
+			if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3', _addComma, _propertyName, getNumber _x]; };
+			if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3', _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
 			_i = _i + 1;
 		};
 	} foreach _properties;  //For each property in class
@@ -647,10 +652,12 @@ getProperties = {
 	//Add closing brace and return body
 	  //diag_log(format["Classbody is: %1", _classBody]);
 	_classBody = _classBody + "\n}";
+
+	//Return _classBody
 	_classBody
 };
 
-
+_testRun = 0;
 _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 {
 	{
@@ -667,12 +674,17 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 				_classBody = [_x, _classBody, _configCategory] call getProperties;
 				  //diag_log(format["Classbody on return is: %1", _classBody]);
 
-				//Create path to write class data to
-				_path = _basePath + _folder + _x + ".py";
+				if (_testRun != 1) then {
+					//Create path to write class data to
+					_path = _basePath + _folder + _x + ".py";
 
-				//Write class to its own file
-				diag_log(format["Wrote to %1", _path]);
-				"make_file" callExtension (_path + "|" + _classBody);
+					//Write class to its own file
+					diag_log(format["Wrote to %1", _path]);
+
+					//KillZoneKidd's make_file_x64 .dll linked in repo
+						//(Cannot write tabs to file, using spaces instead)
+					"make_file" callExtension (_path + "|" + _classBody);
+				};
 
 				//seperate lines in .rpt by a line
 				diag_log("");
