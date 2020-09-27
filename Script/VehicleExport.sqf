@@ -674,6 +674,9 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 				//Write class to its own file
 				diag_log(format["Wrote to %1", _path]);
 				"make_file" callExtension (_path + "|" + _classBody);
+
+				//seperate lines in .rpt by a line
+				diag_log("");
 			};
 			i = i + 1;
 		} foreach _x; //for each class for the side in the category
