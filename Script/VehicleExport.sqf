@@ -596,7 +596,6 @@ _vehicleHitPoints = [
 	""
 ];
 
-//	diag_log(format[""]);
 
 getProperties = {
 	params ["_newClass", "_classBody", "_configCategory"];
@@ -634,7 +633,6 @@ getProperties = {
 						_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
 						{
 							_classBody = [_x, _classBody,  _configCategory] call getProperties;
-							diag_log(format["Classbody is now: %1", _classBody]);
 						} forEach _ammoProperties;
 					};
 				};
@@ -647,10 +645,11 @@ getProperties = {
 	diag_log("finished properties");
 
 	//Add closing brace and return body
-	diag_log(format["Classbody is: %1", _classBody]);
+	  //diag_log(format["Classbody is: %1", _classBody]);
 	_classBody = _classBody + "\n}";
 	_classBody
 };
+
 
 _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 {
@@ -666,7 +665,7 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 			if (i == 0) then {_folder = _x;};
 			if (i > 1) then {
 				_classBody = [_x, _classBody, _configCategory] call getProperties;
-				diag_log(format["Classbody on return is: %1", _classBody]);
+				  //diag_log(format["Classbody on return is: %1", _classBody]);
 
 				//Create path to write class data to
 				_path = _basePath + _folder + _x + ".py";
