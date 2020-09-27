@@ -610,7 +610,7 @@ getPropertyValue = {
 
 	//If property is a string
 	if (isText _property) then {
-		_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _propertyName, getText _property];
+		_classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyName, getText _property];
 		  //diag_log(format["Classbody: %1", _classBody]);
 
 		//fix this, not finding  ammo or submunition ammo
@@ -640,8 +640,8 @@ getPropertyValue = {
 			} forEach _ammoProperties;
 		};
 	};
-	if (isNumber _property) then { _classBody = _classBody + format['%1\n    "%2": %3', _addComma, _propertyName, getNumber _property]; };
-	if (isArray  _property) then { _classBody = _classBody + format['%1\n    "%2": %3', _addComma, _propertyName, (str getArray _property) splitString "\" joinString "|"]; };
+	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyName, getNumber _property]; };
+	if (isArray  _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyName, (str getArray _property) splitString "\" joinString "|"]; };
 
 	_classBody
 };
@@ -670,7 +670,7 @@ getProperties = {
 		_propertyName =  str _x splitString "\" joinString "|";
 
 		//Only want to add a comma on lines before the last item
-		if (_i == 2) then { _addComma = ","; };
+		if (_i == 2) then { _addComma = ",\n"; };
 
 		_addition = [_x, _addComma, _newClass, _configCategory, _propertyName] call getPropertyValue;
 		_classBody = _classBody + _addition;
