@@ -596,6 +596,62 @@ _vehicleHitPoints = [
 	""
 ];
 
+//	diag_log(format[""]);
+
+getProperties = {
+	params ["_newClass", "_classBody", "_configCategory"];
+
+	diag_log(format["Recieved [%1,%2]", _newClass, _configCategory]);
+
+	//Get all sub-classes of the current class (not including sub-classes from inherited classes)
+	//_configClasses = "true" configClasses (configFile >> _configCategory >> _x);
+
+	//Get all properties not in a sub-class of the current class
+	_properties = configProperties [configFile >> _configCategory >> _newClass];
+
+	//If the class is a vehicle, find the relevant turret properties (elevation, weapon, ammuniton etc)
+	if (_configCategory == "CfgVehicles") then {
+		//Get all properties from the sub-sub-class "MainTurret" in the "Turrets" sub-class
+		_properties append configProperties [configFile >> _configCategory >> _newClass >> "Turrets" >> "MainTurret"];
+	};
+
+	_i = 1;
+	_addComma = "";
+	{
+		if (str _x find "sound" == 0) then {}
+		else {
+			_propertyName =  str _x splitString "\" joinString "|";
+			//Cannot write tabs to file, using spaces instead
+			if (_i == 2) then { _addComma = ","; };
+			//If property is a string
+			if (isText _x) then {
+				_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _newClass, getText   _x];
+
+				//fix this, not finding  ammo or submunition ammo
+				if (_configCategory == "CfgMagazines") then {
+					if ((str _x find "ammo" == 0) || (str _x find "SubmunitionAmmo" == 0)) then {
+						diag_log(format["Fetching ammo %1", _newClass]);
+						_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
+						{
+							_classBody = [_x, _classBody,  _configCategory] call getProperties;
+							diag_log(format["Classbody is now: %1", _classBody]);
+						} forEach _ammoProperties;
+					};
+				};
+			};
+			if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, getNumber _x]; };
+			if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
+			_i = _i + 1;
+		};
+	} foreach _properties;  //For each property in class
+	diag_log("finished properties");
+
+	//Add closing brace and return body
+	diag_log(format["Classbody is: %1", _classBody]);
+	_classBody = _classBody + "\n}";
+	_classBody
+};
+
 _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 {
 	{
@@ -609,56 +665,11 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 			if (i == 1) then {_configCategory = _x;};
 			if (i == 0) then {_folder = _x;};
 			if (i > 1) then {
-				//Get all sub-classes of the current class (not including sub-classes from inherited classes)
-				//_configClasses = "true" configClasses (configFile >> _configCategory >> _x);
-
-				//Get all properties not in a sub-class of the current class
-				_properties = configProperties [configFile >> _configCategory >> _x];
-
-				//If the class is a vehicle, find the relevant turret properties (elevation, weapon, ammuniton etc)
-				if (_configCategory == "CfgVehicles") then {
-					//Get all properties from the sub-sub-class "MainTurret" in the "Turrets" sub-class
-					_properties append configProperties [configFile >> _configCategory >> _x >> "Turrets" >> "MainTurret"];
-				};
-
-				_i = 1;
-				_addComma = "";
-				{
-					if (str _x find "sound" != -1) then {}
-					else {
-						_propertyName =  str _x splitString "\" joinString "|";
-						//Cannot write tabs to file, using spaces instead
-						if (_i == 2) then { _addComma = ","; };
-						//If property is a string
-						if (isText   _x) then {
-							_classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _x, getText   _x];
-
-							//fix this, not finding  ammo or submunition ammo
-							if (_configCategory == "CfgMagazines") then {
-								if ((str _x find "ammo" != -1) || (str _x find "SubmunitionAmmo" != -1)) then {
-									diag_log(format["Fetching ammo %1", _x]);
-									_ammoProperties = configProperties [configFile >> "CfgAmmo" >> getText _x];
-									{
-										_propertyName =  str _x splitString "\" joinString "|";
-										if (isText   _x) then { _classBody = _classBody + format['%1\n    "%2": "%3"', _addComma, _propertyName, getText   _x]; };
-										if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, getNumber _x]; };
-										if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
-									} forEach _ammoProperties;
-								};
-							};
-						};
-						if (isNumber _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, getNumber _x]; };
-						if (isArray  _x) then { _classBody = _classBody + format['%1\n    "%2": %3',   _addComma, _propertyName, (str getArray _x) splitString "\" joinString "|"]; };
-						_i = _i + 1;
-					};
-				} foreach _properties;  //For each property in class
-				diag_log("finished propertiess");
-
-				//Add closing brace
-				_classBody = _classBody + "\n}";
+				_classBody = [_x, _classBody, _configCategory] call getProperties;
+				diag_log(format["Classbody on return is: %1", _classBody]);
 
 				//Create path to write class data to
-				_path = _basePath + _folder + _x + ".cpp";
+				_path = _basePath + _folder + _x + ".py";
 
 				//Write class to its own file
 				diag_log(format["Wrote to %1", _path]);
