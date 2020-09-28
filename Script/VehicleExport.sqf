@@ -42,30 +42,30 @@
 		[
 			"OpFor\Weapons\"                           ,
 			"CfgWeapons"                               ,
+			"rhs_weap_ak103"                           ,
+			"rhs_weap_ak74"                            ,
+			"rhs_weap_ak74m"                           ,
+			"rhs_weap_ak74mr"                          ,
+			"rhs_weap_akmn"                            ,
+			"rhs_weap_aks74un"                         ,
+			"rhs_weap_asval_npz"                       ,
+			"rhs_weap_asval"                           ,
+			"rhs_weap_dsr1"                            ,
 			"rhs_weap_Izh18"                           ,
-			"rhs_weap_t5000"                           ,
-			"rhs_weap_svdp"                            ,
-			"rhs_weap_svdp_npz"                        ,
-			"rhs_weap_m76"                             ,
-			"rhs_weap_m38"                             ,
 			"rhs_weap_m38_rail"                        ,
+			"rhs_weap_m38"                             ,
+			"rhs_weap_m76"                             ,
+			"rhs_weap_m84"                             ,
 			"rhs_weap_pkm"                             ,
 			"rhs_weap_pkp"                             ,
-			"rhs_weap_m84"                             ,
-			"rhs_weap_asval"                           ,
-			"rhs_weap_asval_npz"                       ,
-			"rhs_weap_dsr1"                            ,
-			"rhs_weap_ak74mr"                          ,
-			"rhs_weap_ak74m"                           ,
-			"rhs_weap_vss"                             ,
-			"rhs_weap_vss_npz"                         ,
-			"rhs_weap_ak74"                            ,
-			"rhs_weap_aks74un"                         ,
-			"rhs_weap_vhsd2"                           ,
-			"rhs_weap_akmn"                            ,
 			"rhs_weap_savz58p_rail"                    ,
 			"rhs_weap_savz58v_fold"                    ,
-			"rhs_weap_ak103"
+			"rhs_weap_svdp_npz"                        ,
+			"rhs_weap_svdp"                            ,
+			"rhs_weap_t5000"                           ,
+			"rhs_weap_vhsd2"                           ,
+			"rhs_weap_vss_npz"                         ,
+			"rhs_weap_vss"
 		]
 	]                                            ,
 	//magazines matrix  (add opfor pistols)
@@ -74,34 +74,34 @@
 		[
 			"BluFor\Magazines\"                        ,
 			"CfgMagazines"                             ,
+			"rhs_200rnd_556x45_B_SAW"                  ,
+			"rhs_mag_20Rnd_762x51_m80_fnfal"           ,
+			"rhs_mag_20Rnd_SCAR_762x51_m80_ball"       ,
+			"rhs_mag_30Rnd_556x45_M855_Stanag"         ,
+			"rhs_mag_30Rnd_556x45_Mk262_Stanag"        ,
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag"        ,
+			"rhs_mag_6x8mm_mhp"                        ,
+			"rhsgref_20rnd_765x17_vz61"                ,
+			"rhsgref_30rnd_1143x23_M1911B_SMG"         ,
+			"rhsgref_30rnd_556x45_m21"                 ,
+			"rhsgref_50Rnd_792x57_SmE_drum"            ,
+			"rhsgref_5Rnd_762x54_m38"                  ,
+			"rhsgref_5Rnd_792x57_kar98k"               ,
+			"rhsgref_8Rnd_762x63_M2B_M1rifle"          ,
+			"rhssaf_30rnd_556x45_EPR_G36"              ,
+			"Rhsusf_100Rnd_762x51"                     ,
+			"rhsusf_10Rnd_762x51_m993_Mag"             ,
+			"rhsusf_20Rnd_762x51_m118_special_Mag"     ,
 			"rhsusf_5Rnd_00Buck"                       ,
+			"rhsusf_5Rnd_300winmag_xm2010"             ,
+			"rhsusf_5Rnd_762x51_m993_Mag"              ,
 			"rhsusf_5Rnd_Slug"                         ,
 			"rhsusf_mag_10Rnd_STD_50BMG_M33"           ,
 			"rhsusf_mag_10Rnd_STD_50BMG_mk211"         ,
-			"rhsusf_5Rnd_300winmag_xm2010"             ,
-			"rhsgref_8Rnd_762x63_M2B_M1rifle"          ,
-			"rhsusf_20Rnd_762x51_m118_special_Mag"     ,
-			"rhs_mag_20Rnd_762x51_m80_fnfal"           ,
-			"rhs_mag_20Rnd_SCAR_762x51_m80_ball"       ,
-			"rhsusf_10Rnd_762x51_m993_Mag"             ,
-			"rhsusf_5Rnd_762x51_m993_Mag"              ,
-			"rhsgref_5Rnd_792x57_kar98k"               ,
-			"rhsgref_50Rnd_792x57_SmE_drum"            ,
-			"rhsgref_5Rnd_762x54_m38"                  ,
-			"rhsusf_100Rnd_762x51_m80a1epr"            ,
-			"rhs_mag_30Rnd_556x45_Mk262_Stanag"        ,
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag"        ,
-			"rhs_mag_30Rnd_556x45_M855_Stanag"         ,
-			"rhsgref_30rnd_556x45_m21"                 ,
-			"rhssaf_30rnd_556x45_EPR_G36"              ,
-			"rhs_200rnd_556x45_B_SAW"                  ,
-			"rhsusf_mag_40Rnd_46x30_JHP"               ,
 			"rhsusf_mag_15Rnd_9x19_JHP"                ,
 			"rhsusf_mag_17Rnd_9x19_JHP"                ,
-			"rhsgref_30rnd_1143x23_M1911B_SMG"         ,
-			"rhsusf_mag_7x45acp_MHP"                   ,
-			"rhsgref_20rnd_765x17_vz61"                ,
-			"rhs_mag_6x8mm_mhp"
+			"rhsusf_mag_40Rnd_46x30_JHP"               ,
+			"rhsusf_mag_7x45acp_MHP"
 		]                                           ,
 		//OpFor
 		[
@@ -593,20 +593,23 @@ _vehicleHitPoints = [
 ];
 
 getPropertyValue = {
-	params ["_property", "_addComma", "_newClass", "_configCategory", "_propertyName"];
+	params ["_property", "_addComma", "_newClass", "_configCategory", "_propertyName", "_i"];
 	//_property = CONFIG directory of property
 	//_addComma = comma or blank value
 	//_newClass = 
 	//_configCategory = category of parent item
 	//_propertyName = sanitized version of _property
 
+	//Only want to add a comma on lines before the last item
+	if (_i == 2) then { _addComma = ",\n"; };
 	private _classBody = "";
+	  //diag_log(format["Addcomma = [%1]", _addComma]);
 
 	  //diag_log(format["getPropertyValue: %1", _property]);
 
 	//If property is a string
 	if (isText _property) then {
-		_classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyName, getText _property];
+		_classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyName, getText _property splitString "\" joinString "|"];
 		  //diag_log(format["Classbody: %1", _classBody]);
 
 		//fix this, not finding  ammo or submunition ammo
@@ -626,15 +629,18 @@ getPropertyValue = {
 			  // diag_log(format["_propertyName = %1", _propertyName]);
 
 			_addComma = _addComma + "    ";
+			  //diag_log(format["Addcomma now = [%1]", _addComma]);
 			_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
 			{
 					//diag_log(format["Getting property: %1", _x]);
 					// diag_log("In ammoProperties loop:");
 					// diag_log(format["_x = %1", _x]);
-				_addition = [_x, _addComma, _x, _configCategory, str _x splitString "\" joinString "|"] call getPropertyValue;
+				_addition = [_x, _addComma, _x, _configCategory, str _x splitString "\" joinString "|", _i] call getPropertyValue;
 				_classBody = _classBody + _addition;
+				_i = _i + 1;
 			} forEach _ammoProperties;
-		};
+		}
+		else {_i = _i + 1;};
 	};
 	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyName, getNumber _property]; };
 	if (isArray  _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyName, (str getArray _property) splitString "\" joinString "|"]; };
@@ -665,10 +671,7 @@ getProperties = {
 		//Sanitized property name for writing to file
 		_propertyName =  str _x splitString "\" joinString "|";
 
-		//Only want to add a comma on lines before the last item
-		if (_i == 2) then { _addComma = ",\n"; };
-
-		_addition = [_x, _addComma, _newClass, _configCategory, _propertyName] call getPropertyValue;
+		_addition = [_x, _addComma, _newClass, _configCategory, _propertyName, _i] call getPropertyValue;
 		_classBody = _classBody + _addition;
 
 		_i = _i + 1;
