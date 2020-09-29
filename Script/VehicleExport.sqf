@@ -609,18 +609,14 @@ getPropertyValue = {
 	_propertyNameLast = _propertyNameArray select (count _propertyNameArray - 1);
 	//If property is a string
 	if (isText _property) then {
-		_classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, getText _property splitString "\" joinString "|"];
-		  //diag_log(format["Classbody: %1", _classBody]);
-
-		//fix this, not finding  ammo or submunition ammo
 		if (((str _property find "CfgMagazines" != -1) && (str _property find "ammo" != -1)) || ((str _property find "submunitionAmmo" != -1) && (getText _property != "")) || (str _property find "SubmunitionAmmo" != -1) && (getText _property != "")) then {
 			diag_log(format["Looking for ammo | %1", _property]);
 
-			_addComma = _addComma + "    ";
 			_ammoName = getText _property;
 			diag_log(format["Fetching ammo %1", _ammoName]);
-			_classBody = _classBody + format["%1  # Ammo: %2", _addComma, _ammoName];
-
+			_classBody = _classBody + format["%1    # Ammo: %2", _addComma, _ammoName];
+			_classBody = _classBody + format['%1    "%2": {%3        "%2": "%4"', _addComma, _propertyNameLast, _addComma splitString "," joinString "", getText _property splitString "\" joinString "|"];
+			_addComma = _addComma + "    ";
 			  // diag_log("Before ammoProperties loop:");
 			  // diag_log(format["_x = %1", _x]);
 			  // diag_log(format["_property = %1", _property]);
@@ -639,8 +635,9 @@ getPropertyValue = {
 				_classBody = _classBody + _addition;
 				_i = _i + 1;
 			} forEach _ammoProperties;
+			_classBody = _classBody + _addComma + "}"
 		}
-		else {_i = _i + 1;};
+		else {_i = _i + 1; _classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, getText _property splitString "\" joinString "|"];};
 	};
 	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getNumber _property]; };
 	if (isArray  _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; };
