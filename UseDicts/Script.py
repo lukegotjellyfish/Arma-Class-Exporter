@@ -2,15 +2,15 @@
 import re
 import os
 import csv
-import rhs_200rnd_556x45_B_SAW as rhs
+import BluFor_Magazines
 
 
-def getAttrib(attrib):
+def getAttrib(a, b):
     try:
-        return rhs.rhs_200rnd_556x45_B_SAW[attrib]
+        return BluFor_Magazines.BluFor_Magazines[a][b]
     except:
         print("Failed to find a match")
-        return attrib
+        return "failed"
 
 
-print(getAttrib("ammo"), getAttrib("caliber"))
+print(getAttrib("rhs_200rnd_556x45_B_SAW", "author"))
