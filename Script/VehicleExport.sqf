@@ -600,25 +600,26 @@ getPropertyValue = {
 	//_configCategory = category of parent item
 	//_propertyName = sanitized version of _property
 
-	//Only want to add a comma on lines before the last item
-	if (_i == 2) then { _addComma = ",\n"; };
 	private _classBody = "";
 	  //diag_log(format["Addcomma = [%1]", _addComma]);
 
 	  //diag_log(format["getPropertyValue: %1", _property]);
 
+	_propertyNameArray = _propertyName splitString "/";
+	_propertyNameLast = _propertyNameArray select (count _propertyNameArray - 1);
 	//If property is a string
 	if (isText _property) then {
-		_classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyName, getText _property splitString "\" joinString "|"];
+		_classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, getText _property splitString "\" joinString "|"];
 		  //diag_log(format["Classbody: %1", _classBody]);
 
 		//fix this, not finding  ammo or submunition ammo
 		if (((str _property find "CfgMagazines" != -1) && (str _property find "ammo" != -1)) || ((str _property find "submunitionAmmo" != -1) && (getText _property != "")) || (str _property find "SubmunitionAmmo" != -1) && (getText _property != "")) then {
 			diag_log(format["Looking for ammo | %1", _property]);
 
-			  //diag_log(format["Property = %1 | getText property = %2 | propertyName = %3", _property, getText _property, _propertyName]);
+			_addComma = _addComma + "    ";
 			_ammoName = getText _property;
 			diag_log(format["Fetching ammo %1", _ammoName]);
+			_classBody = _classBody + format["%1  # Ammo: %2", _addComma, _ammoName];
 
 			  // diag_log("Before ammoProperties loop:");
 			  // diag_log(format["_x = %1", _x]);
@@ -628,7 +629,6 @@ getPropertyValue = {
 			  // diag_log(format["_configCategory = %1", _configCategory]);
 			  // diag_log(format["_propertyName = %1", _propertyName]);
 
-			_addComma = _addComma + "    ";
 			  //diag_log(format["Addcomma now = [%1]", _addComma]);
 			_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
 			{
@@ -642,8 +642,8 @@ getPropertyValue = {
 		}
 		else {_i = _i + 1;};
 	};
-	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyName, getNumber _property]; };
-	if (isArray  _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyName, (str getArray _property) splitString "\" joinString "|"]; };
+	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getNumber _property]; };
+	if (isArray  _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; };
 
 	_classBody
 };
@@ -670,6 +670,9 @@ getProperties = {
 	{
 		//Sanitized property name for writing to file
 		_propertyName =  str _x splitString "\" joinString "|";
+
+		//Only want to add a comma on lines before the last item
+		if (_i == 2) then { _addComma = ",\n"; };
 
 		_addition = [_x, _addComma, _newClass, _configCategory, _propertyName, _i] call getPropertyValue;
 		_classBody = _classBody + _addition;
