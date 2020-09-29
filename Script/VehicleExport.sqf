@@ -3,7 +3,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\Weapons\"                          ,
+			"BluFor_Weapons"                          ,
 			"CfgWeapons"                               ,
 			"rhs_weap_M590_5RD"                        ,
 			"rhs_weap_M107"                            ,
@@ -40,7 +40,7 @@
 		]                                           ,
 		//OpFor
 		[
-			"OpFor\Weapons\"                           ,
+			"OpFor_Weapons"                           ,
 			"CfgWeapons"                               ,
 			"rhs_weap_ak103"                           ,
 			"rhs_weap_ak74"                            ,
@@ -72,7 +72,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\Magazines\"                        ,
+			"BluFor_Magazines"                        ,
 			"CfgMagazines"                             ,
 			"rhs_200rnd_556x45_B_SAW"                  ,
 			"rhs_mag_20Rnd_762x51_m80_fnfal"           ,
@@ -105,7 +105,7 @@
 		]                                           ,
 		//OpFor
 		[
-			"OpFor\Magazines\"                         ,
+			"OpFor_Magazines"                         ,
 			"CfgMagazines"                             ,
 			"rhsgref_1Rnd_00Buck"                      ,
 			"rhsgref_1Rnd_Slug"                        ,
@@ -131,7 +131,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\Launchers\"                        ,
+			"BluFor_Launchers"                        ,
 			"CfgWeapons"                               ,
 			"rhs_weap_M136"                            ,
 			"rhs_weap_M136_hedp"                       ,
@@ -145,7 +145,7 @@
 		]                                           ,
 		//OpFor
 		[
-			"OpFor\Launchers\"                         ,
+			"OpFor_Launchers"                         ,
 			"CfgWeapons"                               ,
 			"rhs_weap_rpg26"                           ,
 			"rhs_weap_rpg7"                            ,
@@ -157,7 +157,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\LauncherMagazines\"                ,
+			"BluFor_LauncherMagazines"                ,
 			"CfgMagazines"                             ,
 			"rhs_fgm148_magazine_AT"                   ,
 			"rhs_fim92_mag"                            ,
@@ -173,7 +173,7 @@
 		]                                           ,
 		//OpFor
 		[
-			"OpFor\LauncherMagazines\"                 ,
+			"OpFor_LauncherMagazines"                 ,
 			"CfgMagazines"                             ,
 			"rhs_mag_9k38_rocket"                      ,
 			"rhs_rpg26_mag"                            ,
@@ -188,7 +188,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\LauncherPenetrator\"               ,
+			"BluFor_LauncherPenetrator"               ,
 			"CfgAmmo"                                  ,
 			"rhs_ammo_M_fgm148_AT_penetrator"          ,
 			"rhs_ammo_M136_hedp_penetrator"            ,
@@ -200,7 +200,7 @@
 		]                                           ,
 		//OpFor
 		[
-			"OpFor\LauncherPenetrator\"                ,
+			"OpFor_LauncherPenetrator"                ,
 			"CfgAmmo"                                  ,
 			"rhs_ammo_thermobaric_wave"                ,
 			"rhs_rpg26_penetrator"                     ,
@@ -212,7 +212,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\Vehicles\"                         ,
+			"BluFor_Vehicles"                         ,
 			"CfgVehicles"                              ,
 			"A3_Soft_F_Quadbike_01"                    ,
 			"RHS_M2A2_BUSKI_WD"                        ,
@@ -253,7 +253,7 @@
 		]                                           ,
 		//OpFor
 		[
-			"OpFor\Vehicles\"                          ,
+			"OpFor_Vehicles"                          ,
 			"CfgVehicles"                              ,
 			"A3_Soft_F_Quadbike_01"                    ,
 			"RHS_UAZ_MSV_01"                           ,
@@ -306,7 +306,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\VehicleWeapons\"                   ,
+			"BluFor_VehicleWeapons"                   ,
 			"CfgWeapons"                               ,
 			"RHS_M2"                                   ,
 			"RHS_M2_Abrams_Gunner"                     ,
@@ -338,7 +338,7 @@
 		]                                           ,
 		//OpFor
 		[
-			"OpFor\VehicleWeapons\"                    ,
+			"OpFor_VehicleWeapons"                    ,
 			"CfgWeapons"                               ,
 			"rhs_weap_2A14"                            ,
 			"rhs_weap_2a28"                            ,
@@ -384,7 +384,7 @@
 	[
 		//BluFor
 		[
-			"BluFor\VehicleMagazines\"                 ,
+			"BluFor_VehicleMagazines"                  ,
 			"CfgMagazines"                             ,
 			"RHS_48Rnd_40mm_MK19_M1001"                ,
 			"RHS_48Rnd_40mm_MK19_M430A1"               ,
@@ -422,7 +422,7 @@
 		],
 		//OpFor
 		[
-			"OpFor\VehicleMagazines\"    ,
+			"OpFor_VehicleMagazines"    ,
 			"CfgMagazines"               ,
 			"rhs_mag_127x108mm_1SLT_1470",
 			"rhs_mag_127x108mm_50"       ,
@@ -671,8 +671,8 @@ getProperties = {
 		//Sanitized property name for writing to file
 		_propertyName =  str _x splitString "\" joinString "|";
 
-		//Only want to add a comma on lines before the last item
-		if (_i == 2) then { _addComma = ",\n"; };
+		// //Only want to add a comma on lines before the last item
+		if (_i >= 2) then { _addComma = ",\n    "; };
 
 		_addition = [_x, _addComma, _newClass, _configCategory, _propertyName, _i] call getPropertyValue;
 		_classBody = _classBody + _addition;
@@ -683,7 +683,7 @@ getProperties = {
 
 	//Add closing brace and return body
 	  //diag_log(format["Classbody is: %1", _classBody]);
-	_classBody = _classBody + "\n}";
+	_classBody = _classBody + "\n    }";
 
 	//Return _classBody
 	_classBody
@@ -696,32 +696,42 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		i = 0;
 		_configCategory = "";
 		_folder = "";
+		_path = "";
+		_classBody = "";
+		_array = _x;
 		{
 			//Create the start of the file, classname with brace for dict
 			diag_log(format["On: %1", _x]);
-			_classBody = _x + " = {\n";
-			if (i == 1) then {_configCategory = _x;};
-			if (i == 0) then {_folder = _x;};
+			if (i == 1) then {_configCategory = _x; _classBody = _classBody + _folder + " = {";};
+			if (i == 0) then {_folder = _x; };
 			if (i > 1) then {
+				_classBody = _classBody + "\n    " + '"' + _x + '"' + ": {\n    ";
 				_classBody = [_x, _classBody, _configCategory] call getProperties;
 				  //diag_log(format["Classbody on return is: %1", _classBody]);
 
 				if (_testRun != 1) then {
 					//Create path to write class data to
-					_path = _basePath + _folder + _x + ".py";
+					_path = _basePath + _folder + ".py";
 
-					//Write class to its own file
-					diag_log(format["Wrote to %1", _path]);
+				};
 
-					//KillZoneKidd's make_file_x64 .dll linked in repo
-						//(Cannot write tabs to file, using spaces instead)
-					"make_file" callExtension (_path + "|" + _classBody);
+				if (_x != (_array select (count _array - 1))) then {
+					_classBody = _classBody + ",";
 				};
 
 				//seperate lines in .rpt by a line
-				diag_log("");
+				diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 			};
 			i = i + 1;
-		} foreach _x; //for each class for the side in the category
+		} foreach _array; //for each class for the side in the category
+		//Write class to its own file
+		diag_log(format["Wrote to %1", _path]);
+
+		//add final brace
+		_classBody = _classBody + "\n}";
+
+		//KillZoneKidd's make_file_x64 .dll linked in repo
+			//(Cannot write tabs to file, using spaces instead)
+		"make_file" callExtension (_path + "|" + _classBody);
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
