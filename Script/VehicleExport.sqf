@@ -184,30 +184,6 @@
 			"rhs_rshg2_mag"
 		]
 	]                                            ,
-	//launcher penetrator matrix
-	[
-		//BluFor
-		[
-			"BluFor_LauncherPenetrator"               ,
-			"CfgAmmo"                                  ,
-			"rhs_ammo_M_fgm148_AT_penetrator"          ,
-			"rhs_ammo_M136_hedp_penetrator"            ,
-			"rhs_ammo_M136_penetrator"                 ,
-			"rhs_ammo_maaws_HEAT_penetrator"           ,
-			"rhs_ammo_smaw_HEAA_penetrator"            ,
-			"rhs_ammo_smaw_HEDP_penetrator"            ,
-			"rhs_ammo_thermobaric_wave"
-		]                                           ,
-		//OpFor
-		[
-			"OpFor_LauncherPenetrator"                ,
-			"CfgAmmo"                                  ,
-			"rhs_ammo_thermobaric_wave"                ,
-			"rhs_rpg26_penetrator"                     ,
-			"rhs_rpg7v2_pg7vl_penetrator"              ,
-			"rhs_rpg7v2_pg7vr_penetrator"
-		]
-	]                                            ,
 	//vehicle matrix
 	[
 		//BluFor
@@ -492,111 +468,13 @@
 			"RHS_mag_VOG30_30"
 		]
 	]
-	//vehicle submunition penetrator matrix
-	// [
-	// 	//BluFor
-	// 	[
-	// 		"BluFor\VehiclePenetrator\",
-	//		"CfgAmmo",
-
-	// 	],
-	// 	//OpFor
-	// 	[
-	// 		"OpFor\VehiclePenetrator\",
-	//		"CfgAmmo",
-
-	// 	]
-	// ]
 ];
 
-_vehicleHitPoints = [
-	"HitHull",
-	"HitFuel",
-	"HitAvionics",
-	"HitEngine1",
-	"HitEngine2",
-	"HitEngine",
-	"HitWings",
-	"HitVRotor",
-	"HitHRotor",
-	"HitRotor",
-	"Hit_Radar",
-	"Hit_Optic_TOES521",
-	"Hit_Optic_OPS28",
-	"HitGlass1",
-	"HitGlass2",
-	"HitGlass3",
-	"HitGlass4",
-	"HitGlass5",
-	"HitGlass6",
-	"HitGlass7",
-	"HitGlass8",
-	"HitGear",
-	"HitHydraulics",
-	"HitTransmission",
-	"HitTail",
-	"HitPylon1",
-	"HitPylon2",
-	"HitPylon3",
-	"HitPylon4",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	""
-];
 
 getPropertyValue = {
-	params ["_property", "_addComma", "_newClass", "_configCategory", "_propertyName", "_i"];
+	params ["_property", "_addComma", "_configCategory", "_propertyName", "_i"];
 	//_property = CONFIG directory of property
 	//_addComma = comma or blank value
-	//_newClass = 
 	//_configCategory = category of parent item
 	//_propertyName = sanitized version of _property
 
@@ -621,7 +499,6 @@ getPropertyValue = {
 			  // diag_log(format["_x = %1", _x]);
 			  // diag_log(format["_property = %1", _property]);
 			  // diag_log(format["_addComma = %1", _addComma]);
-			  // diag_log(format["_newClass = %1", _newClass]);
 			  // diag_log(format["_configCategory = %1", _configCategory]);
 			  // diag_log(format["_propertyName = %1", _propertyName]);
 
@@ -631,7 +508,7 @@ getPropertyValue = {
 					//diag_log(format["Getting property: %1", _x]);
 					// diag_log("In ammoProperties loop:");
 					// diag_log(format["_x = %1", _x]);
-				_addition = [_x, _addComma, _x, _configCategory, str _x splitString "\" joinString "|", _i] call getPropertyValue;
+				_addition = [_x, _addComma, _configCategory, str _x splitString "\" joinString "|", _i] call getPropertyValue;
 				_classBody = _classBody + _addition;
 				_i = _i + 1;
 			} forEach _ammoProperties;
@@ -641,7 +518,7 @@ getPropertyValue = {
 	};
 	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getNumber _property]; };
 	if (isArray  _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; };
-
+	if (isClass _property) then { diag_log(format["Oh shit there's a class here mate: %1", _property]); };
 	_classBody
 };
 
@@ -656,11 +533,11 @@ getProperties = {
 	//Get all properties not in a sub-class of the current class
 	_properties = configProperties [configFile >> _configCategory >> _newClass];
 
-	//If the class is a vehicle, find the relevant turret properties (elevation, weapon, ammuniton etc)
-	if (_configCategory == "CfgVehicles") then {
-		//Get all properties from the sub-sub-class "MainTurret" in the "Turrets" sub-class
-		_properties append configProperties [configFile >> _configCategory >> _newClass >> "Turrets" >> "MainTurret"];
-	};
+	// //If the class is a vehicle, find the relevant turret properties (elevation, weapon, ammuniton etc)
+	// if (_configCategory == "CfgVehicles") then {
+	// 	//Get all properties from the sub-sub-class "MainTurret" in the "Turrets" sub-class
+	// 	_properties append configProperties [configFile >> _configCategory >> _newClass >> "Turrets" >> "MainTurret"];
+	// };
 
 	_i = 1;
 	_addComma = "";
@@ -671,7 +548,7 @@ getProperties = {
 		// //Only want to add a comma on lines before the last item
 		if (_i >= 2) then { _addComma = ",\n    "; };
 
-		_addition = [_x, _addComma, _newClass, _configCategory, _propertyName, _i] call getPropertyValue;
+		_addition = [_x, _addComma, _configCategory, _propertyName, _i] call getPropertyValue;
 		_classBody = _classBody + _addition;
 
 		_i = _i + 1;
