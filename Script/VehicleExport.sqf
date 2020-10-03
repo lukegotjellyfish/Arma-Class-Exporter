@@ -515,13 +515,14 @@ getPropertyValue = {
 		//Remove "bin" and "config.bin"
 		_splitClass deleteRange [0, 2];
 
+		_countSplitClass = count _splitClass;
 		//Add comment showing class
-		_classBody = _classBody + format["%1    # Class: %2", _addComma, (_splitClass joinString "\")];
+		_classBody = _classBody + format["%1    # Class: %2 [Indent level: %3]", _addComma, (_splitClass joinString "\"), str (_countSplitClass - 2)];
 		_classBody = _classBody + format['%1    "%2": {', _addComma, _propertyNameLast];
 
 		//create _classProperties to assign array to
 		_classProperties = [];
-		switch (count _splitClass) do {
+		switch (_countSplitClass) do {
 			 case 2: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1]};
 			 case 3: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2]};
 			 case 4: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3]};
@@ -535,7 +536,7 @@ getPropertyValue = {
 			case 12: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7 >> _splitClass select 8 >> _splitClass select 9 >> _splitClass select 10 >> _splitClass select 11]};
 			case 13: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7 >> _splitClass select 8 >> _splitClass select 9 >> _splitClass select 10 >> _splitClass select 11 >> _splitClass select 12]};
 			case 14: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7 >> _splitClass select 8 >> _splitClass select 9 >> _splitClass select 10 >> _splitClass select 11 >> _splitClass select 12 >> _splitClass select 13]};
-			default {diag_log(format["count _splitClass [%1]", count _splitClass]);};
+			default {diag_log(format["count _splitClass [%1]", _countSplitClass]);};
 		};
 
 		_addComma = (_addComma splitString "," joinString "") + "    ";
