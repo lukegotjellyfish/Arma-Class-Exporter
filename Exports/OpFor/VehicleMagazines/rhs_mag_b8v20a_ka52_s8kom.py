@@ -35,28 +35,28 @@ rhs_mag_b8v20a_ka52_s8kom = {
         "timeToLive": 15,
         "muzzleEffect": "",
         "simulation": "shotMissile",
-        # Class: CfgAmmo\R_80mm_HE\CamShakeExplode,
+        # Class: CfgAmmo\R_80mm_HE\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 16,
             "duration": 1.8,
             "frequency": 20,
             "distance": 191.554
         },
-        # Class: CfgAmmo\R_80mm_HE\CamShakeHit,
+        # Class: CfgAmmo\R_80mm_HE\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 80,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\R_80mm_HE\CamShakeFire,
+        # Class: CfgAmmo\R_80mm_HE\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\R_80mm_HE\CamShakePlayerFire,
+        # Class: CfgAmmo\R_80mm_HE\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 2,
             "duration": 0.1,
@@ -73,13 +73,13 @@ rhs_mag_b8v20a_ka52_s8kom = {
         "supersonicCrackFar": ["",1,1,150],
         "CraterEffects": "HERocketCrater",
         "explosionEffects": "HERocketExplosion",
-        # Class: CfgAmmo\RocketBase\HitEffects,
+        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\RocketBase\EventHandlers,
+        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -196,7 +196,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -205,14 +205,14 @@ rhs_mag_b8v20a_ka52_s8kom = {
     "mass": 349,
     "weight": 349,
     "pylonWeapon": "rhs_weap_s8",
-    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements,
+    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname
+        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname [Indent level: 2]
         "rhs_rus_ammoname": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Bones
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw,
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw [Indent level: 3],
             "Draw": {
                 # Ammo: PylonSelected
                 "condition": {
@@ -220,7 +220,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
                 },
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw\PylonText1,
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     # Ammo: text
                     "type": {
@@ -246,12 +246,12 @@ rhs_mag_b8v20a_ka52_s8kom = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right,
+        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right [Indent level: 2],
         "rhs_rus_ammoname_right": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Bones
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw,
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw [Indent level: 3],
             "Draw": {
                 # Ammo: PylonSelected
                 "condition": {
@@ -259,7 +259,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
                 },
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw\PylonText1,
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     # Ammo: text
                     "type": {
@@ -285,28 +285,28 @@ rhs_mag_b8v20a_ka52_s8kom = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box,
+        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box [Indent level: 2],
         "rhs_su25_box": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Bones
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw,
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw [Indent level: 3],
             "Draw": {
                 "condition": "1-pylonMagazineEmpty",
                 "color": [0.15,1,0.15,1],
                 "alpha": 0.22,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Shape,
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Shape [Indent level: 4],
                 "Shape": {
                     "type": "polygon",
                     "width": 4,
                     "points": [[[[-0.022,-0.04],1],[[0.022,-0.04],1],[[0.022,0.04],1],[[-0.022,0.04],1]]]
                 },
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.58,0.23,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -315,25 +315,25 @@ rhs_mag_b8v20a_ka52_s8kom = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle,
+        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle [Indent level: 2],
         "rhs_rus_circle": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Bones
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Bones [Indent level: 3]
             "Bones": {
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Bones\Center
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Bones\Center [Indent level: 4]
                 "Center": {
                     "type": "fixed",
                     "pos": [0,0]
                 }
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw,
+            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15,1],
                 "alpha": 0.22,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default,
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default [Indent level: 4],
                 "Default": {
                     "condition": "1-PylonSelected-pylonMagazineEmpty",
                     "color": [1,1,1],
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\PylonValue1,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\PylonValue1 [Indent level: 5],
                     "PylonValue1": {
                         "type": "text",
                         "source": "pylonAmmo",
@@ -344,7 +344,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -356,19 +356,19 @@ rhs_mag_b8v20a_ka52_s8kom = {
                         "right": [[0.035,0.12],1],
                         "down": [[-0.005,0.16],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\Shape,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [["Center",[0,-0.0339416],1],["Center",[0.015,-0.0293934],1],["Center",[0.02598,-0.0169708],1],["Center",[0.03,0],1],["Center",[0.02598,0.0169708],1],["Center",[0.015,0.0293934],1],["Center",[0,0.0339416],1],["Center",[-0.015,0.0293934],1],["Center",[-0.02598,0.0169708],1],["Center",[-0.03,0],1],["Center",[-0.02598,-0.0169708],1],["Center",[-0.015,-0.0293934],1],["Center",[0,-0.0339416],1],[],["Center",[0.0137886,-0.0156002],1],["Center",[0.0116673,-0.0132002],1],[],["Center",[0.0195,9.64363e-010],1],["Center",[0.0165,8.15999e-010],1],[],["Center",[0.0137886,0.0156002],1],["Center",[0.0116673,0.0132002],1],[],["Center",[-1.70474e-009,0.022062],1],["Center",[-1.44248e-009,0.0186679],1],[],["Center",[-0.0137886,0.0156002],1],["Center",[-0.0116673,0.0132002],1],[],["Center",[-0.0195,-2.63087e-010],1],["Center",[-0.0165,-2.22612e-010],1],[],["Center",[-0.0137886,-0.0156002],1],["Center",[-0.0116673,-0.0132002],1],[],["Center",[3.40949e-009,-0.022062],1],["Center",[2.88495e-009,-0.0186679],1],[],["Center",[0.00742462,-0.00840012],1],["Center",[0.0053033,-0.00600008],1],[],["Center",[0.00742462,0.00840012],1],["Center",[0.0053033,0.00600008],1],[],["Center",[-0.00742462,0.00840012],1],["Center",[-0.0053033,0.00600009],1],[],["Center",[-0.00742462,-0.00840012],1],["Center",[-0.0053033,-0.00600008],1],[]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -380,7 +380,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
                         "right": [[0.035,0.12],1],
                         "down": [[-0.005,0.16],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\PylonValue1,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\PylonValue1 [Indent level: 5],
                     "PylonValue1": {
                         "type": "text",
                         "source": "pylonAmmo",
@@ -391,18 +391,18 @@ rhs_mag_b8v20a_ka52_s8kom = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [["Center",[0,-0.0339416],1],["Center",[0.015,-0.0293934],1],["Center",[0.02598,-0.0169708],1],["Center",[0.03,0],1],["Center",[0.02598,0.0169708],1],["Center",[0.015,0.0293934],1],["Center",[0,0.0339416],1],["Center",[-0.015,0.0293934],1],["Center",[-0.02598,0.0169708],1],["Center",[-0.03,0],1],["Center",[-0.02598,-0.0169708],1],["Center",[-0.015,-0.0293934],1],["Center",[0,-0.0339416],1],[],["Center",[0.0137886,-0.0156002],1],["Center",[0.0116673,-0.0132002],1],[],["Center",[0.0195,9.64363e-010],1],["Center",[0.0165,8.15999e-010],1],[],["Center",[0.0137886,0.0156002],1],["Center",[0.0116673,0.0132002],1],[],["Center",[-1.70474e-009,0.022062],1],["Center",[-1.44248e-009,0.0186679],1],[],["Center",[-0.0137886,0.0156002],1],["Center",[-0.0116673,0.0132002],1],[],["Center",[-0.0195,-2.63087e-010],1],["Center",[-0.0165,-2.22612e-010],1],[],["Center",[-0.0137886,-0.0156002],1],["Center",[-0.0116673,-0.0132002],1],[],["Center",[3.40949e-009,-0.022062],1],["Center",[2.88495e-009,-0.0186679],1],[],["Center",[0.00742462,-0.00840012],1],["Center",[0.0053033,-0.00600008],1],[],["Center",[0.00742462,0.00840012],1],["Center",[0.0053033,0.00600008],1],[],["Center",[-0.00742462,0.00840012],1],["Center",[-0.0053033,0.00600009],1],[],["Center",[-0.00742462,-0.00840012],1],["Center",[-0.0053033,-0.00600008],1],[]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty,
+                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "pylonMagazineEmpty",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -414,7 +414,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
                         "right": [[0.035,0.12],1],
                         "down": [[-0.005,0.16],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\PylonValue1,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\PylonValue1 [Indent level: 5],
                     "PylonValue1": {
                         "type": "text",
                         "source": "pylonAmmo",
@@ -425,7 +425,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\Shape,
+                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
@@ -454,10 +454,10 @@ rhs_mag_b8v20a_ka52_s8kom = {
     "useActionTitle": "",
     "selectionFireAnim": "zasleh",
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

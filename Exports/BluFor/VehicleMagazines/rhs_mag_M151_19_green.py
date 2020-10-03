@@ -5,35 +5,35 @@ rhs_mag_M151_19_green = {
     "count": 19,
     "weight": 131,
     "descriptionShort": "×19 10lb HE Hydra",
-    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements,
+    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD
+        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD [Indent level: 2]
         "RHS_AH64_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Bones
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw,
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default [Indent level: 4]
                 "Default": {
                     "condition": "PylonAmmoRelative>0",
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -46,29 +46,29 @@ rhs_mag_M151_19_green = {
                         "down": [["0.03+-0.03",0.045],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "width": 8,
                         "type": "line",
                         "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0,0.12,0],
                         "alpha": 0.3,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup\Background,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText [Indent level: 5],
                     "BlackText": {
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText1,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText1 [Indent level: 6],
                         "PylonText1": {
                             "type": "text",
                             "source": "static",
@@ -80,7 +80,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText2,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText2 [Indent level: 6],
                         "PylonText2": {
                             "type": "text",
                             "source": "static",
@@ -92,7 +92,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText3,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText3 [Indent level: 6],
                         "PylonText3": {
                             "type": "text",
                             "source": "static",
@@ -104,7 +104,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText4,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText4 [Indent level: 6],
                         "PylonText4": {
                             "type": "text",
                             "source": "static",
@@ -116,7 +116,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText5,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText5 [Indent level: 6],
                         "PylonText5": {
                             "type": "text",
                             "source": "static",
@@ -128,7 +128,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText6,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText6 [Indent level: 6],
                         "PylonText6": {
                             "type": "text",
                             "source": "static",
@@ -141,16 +141,16 @@ rhs_mag_M151_19_green = {
                             "down": [["0.03+-0.03",0.045],1]
                         },
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
                         "BackgroundGroup": {
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background,
+                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
                             "Background": {
                                 "type": "polygon",
                                 "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
                         "Shape": {
                             "type": "line",
                             "width": 4,
@@ -158,7 +158,7 @@ rhs_mag_M151_19_green = {
                         }
                     },
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -171,19 +171,19 @@ rhs_mag_M151_19_green = {
                         "down": [["0.03+-0.03",0.045],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative <= 0",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
                     "Shape": {
                         "width": 8,
                         "type": "line",
                         "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText [Indent level: 5],
                     "BlackText": {
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText1
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText1 [Indent level: 6]
                         "PylonText1": {
                             "type": "text",
                             "source": "static",
@@ -195,7 +195,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText2,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText2 [Indent level: 6],
                         "PylonText2": {
                             "type": "text",
                             "source": "static",
@@ -207,7 +207,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText3,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText3 [Indent level: 6],
                         "PylonText3": {
                             "type": "text",
                             "source": "static",
@@ -219,7 +219,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText4,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText4 [Indent level: 6],
                         "PylonText4": {
                             "type": "text",
                             "source": "static",
@@ -231,7 +231,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText5,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText5 [Indent level: 6],
                         "PylonText5": {
                             "type": "text",
                             "source": "static",
@@ -243,7 +243,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.025,0.02],1],
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText6,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText6 [Indent level: 6],
                         "PylonText6": {
                             "type": "text",
                             "source": "static",
@@ -257,33 +257,33 @@ rhs_mag_M151_19_green = {
                         },
                         "color": [0,0,0],
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
                         "BackgroundGroup": {
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background,
+                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
                             "Background": {
                                 "type": "polygon",
                                 "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
                         "Shape": {
                             "type": "line",
                             "width": 4,
                             "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0,0.12,0],
                         "alpha": 0.3,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup\Background,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -298,14 +298,14 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory,
+        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
         "RHS_AH64_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Bones
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw,
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonText1
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonText1 [Indent level: 4]
                 "PylonText1": {
                     "type": "text",
                     "source": "static",
@@ -317,7 +317,7 @@ rhs_mag_M151_19_green = {
                     "right": [[0.03,0.02],1],
                     "down": [[0,0.05],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonAmo,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonAmo [Indent level: 4],
                 "PylonAmo": {
                     "type": "text",
                     "source": "pylonammo",
@@ -328,10 +328,10 @@ rhs_mag_M151_19_green = {
                     "right": [[0.03,0.054],1],
                     "down": [[0,0.084],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonSelected,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonSelected [Indent level: 4],
                 "PylonSelected": {
                     "condition": "PylonSelected",
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonSelected\Static,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonSelected\Static [Indent level: 5],
                     "Static": {
                         "type": "line",
                         "width": 4,
@@ -340,33 +340,33 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD,
+        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD [Indent level: 2],
         "RHS_A29_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Bones
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw,
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default [Indent level: 4]
                 "Default": {
                     "condition": "PylonAmmoRelative>0",
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -379,30 +379,30 @@ rhs_mag_M151_19_green = {
                         "down": [["0.03+-0.03",0.005],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
                     "color": [0.99,0.94,0.59],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "width": 8,
                         "type": "line",
                         "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0.99,0.94,0.59],
                         "alpha": 0.1,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup\Background,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText [Indent level: 5],
                     "BlackText": {
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText1,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText1 [Indent level: 6],
                         "PylonText1": {
                             "type": "text",
                             "source": "static",
@@ -414,7 +414,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText2,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText2 [Indent level: 6],
                         "PylonText2": {
                             "type": "text",
                             "source": "static",
@@ -426,7 +426,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText3,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText3 [Indent level: 6],
                         "PylonText3": {
                             "type": "text",
                             "source": "static",
@@ -438,7 +438,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText4,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText4 [Indent level: 6],
                         "PylonText4": {
                             "type": "text",
                             "source": "static",
@@ -450,7 +450,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText5,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText5 [Indent level: 6],
                         "PylonText5": {
                             "type": "text",
                             "source": "static",
@@ -462,7 +462,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText6,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText6 [Indent level: 6],
                         "PylonText6": {
                             "type": "text",
                             "source": "static",
@@ -475,23 +475,23 @@ rhs_mag_M151_19_green = {
                             "down": [["0.03+-0.03",0.005],1]
                         },
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
                         "BackgroundGroup": {
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background,
+                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
                             "Background": {
                                 "type": "polygon",
                                 "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
                         "Shape": {
                             "type": "line",
                             "width": 4,
                             "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -504,19 +504,19 @@ rhs_mag_M151_19_green = {
                         "down": [["0.03+-0.03",0.005],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative <= 0",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
                     "Shape": {
                         "width": 8,
                         "type": "line",
                         "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText [Indent level: 5],
                     "BlackText": {
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText1
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText1 [Indent level: 6]
                         "PylonText1": {
                             "type": "text",
                             "source": "static",
@@ -528,7 +528,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText2,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText2 [Indent level: 6],
                         "PylonText2": {
                             "type": "text",
                             "source": "static",
@@ -540,7 +540,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText3,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText3 [Indent level: 6],
                         "PylonText3": {
                             "type": "text",
                             "source": "static",
@@ -552,7 +552,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText4,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText4 [Indent level: 6],
                         "PylonText4": {
                             "type": "text",
                             "source": "static",
@@ -564,7 +564,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText5,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText5 [Indent level: 6],
                         "PylonText5": {
                             "type": "text",
                             "source": "static",
@@ -576,7 +576,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText6,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText6 [Indent level: 6],
                         "PylonText6": {
                             "type": "text",
                             "source": "static",
@@ -590,33 +590,33 @@ rhs_mag_M151_19_green = {
                         },
                         "color": [0,0,0],
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
                         "BackgroundGroup": {
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background,
+                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
                             "Background": {
                                 "type": "polygon",
                                 "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
                         "Shape": {
                             "type": "line",
                             "width": 4,
                             "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0.99,0.94,0.59],
                         "alpha": 0.1,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup\Background,
+                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -631,14 +631,14 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory,
+        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory [Indent level: 2],
         "RHS_A29_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Bones
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw,
+            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText1
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText1 [Indent level: 4]
                 "PylonText1": {
                     "type": "text",
                     "source": "static",
@@ -650,7 +650,7 @@ rhs_mag_M151_19_green = {
                     "right": [[0.025,0.02],1],
                     "down": [[0,0.04],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText2,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText2 [Indent level: 4],
                 "PylonText2": {
                     "type": "text",
                     "source": "static",
@@ -662,7 +662,7 @@ rhs_mag_M151_19_green = {
                     "right": [[0.025,0.054],1],
                     "down": [[0,0.074],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonAmo,
+                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonAmo [Indent level: 4],
                 "PylonAmo": {
                     "type": "text",
                     "source": "pylonammo",
@@ -675,16 +675,16 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname,
+        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname [Indent level: 2],
         "rhs_a10a_ammoname": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Bones
+            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw,
+            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw\PylonText1,
+                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     # Ammo: text
                     "type": {
@@ -710,45 +710,45 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box,
+        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box [Indent level: 2],
         "rhs_a10a_box": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Bones
+            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw,
+            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default,
+                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>=0.001",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,-0.04],1],[[0.015,-0.04],1],[[0.015,0.04],1],[[-0.015,0.04],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,0.05],1],[[0.015,0.05],1],[[0.015,0.13],1],[[-0.015,0.13],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty,
+                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative<=0",
                     "color": [0.87,0,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty\Shape,
+                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -757,18 +757,18 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname,
+        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname [Indent level: 2],
         "rhs_ah64_ammoname": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Bones
+            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw,
+            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw [Indent level: 3],
             "Draw": {
                 # Ammo: pylonSelected
                 "condition": {
                     "condition": "pylonSelected"
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonText1,
+                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     # Ammo: text
                     "type": {
@@ -792,7 +792,7 @@ rhs_mag_M151_19_green = {
                     "right": [[0.05,0.02],1],
                     "down": [[0.005,0.105],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonAmmo,
+                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonAmmo [Indent level: 4],
                 "PylonAmmo": {
                     # Ammo: text
                     "type": {
@@ -854,28 +854,28 @@ rhs_mag_M151_19_green = {
         "effectsMissileInit": "PylonBackEffectsFFAR",
         "muzzleEffect": "",
         "soundFly": ["A3|Sounds_F|weapons|Rockets|rocket_fly_1",0.630957,1.2,1700],
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeExplode,
+        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 16,
             "duration": 1.8,
             "frequency": 20,
             "distance": 191.554
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeHit,
+        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 80,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeFire,
+        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakePlayerFire,
+        # Class: CfgAmmo\Rocket_04_HE_F\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 2,
             "duration": 0.1,
@@ -899,11 +899,11 @@ rhs_mag_M151_19_green = {
         "cmImmunity": 0.9,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects,
+        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\MissileBase\Components,
+        # Class: CfgAmmo\MissileBase\Components [Indent level: 1],
         "Components": {
         },
         "htMin": 60,
@@ -912,9 +912,9 @@ rhs_mag_M151_19_green = {
         "mfMax": 100,
         "mFact": 0,
         "tBody": 0,
-        # Class: CfgAmmo\MissileBase\EventHandlers,
+        # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -1022,7 +1022,7 @@ rhs_mag_M151_19_green = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -1042,10 +1042,10 @@ rhs_mag_M151_19_green = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

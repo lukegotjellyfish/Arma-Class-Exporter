@@ -40,7 +40,7 @@ rhs_mag_3bk29_8 = {
         "soundHit3": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_03",1.77828,1,1800],
         "soundHit4": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_04",1.77828,1,1800],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects,
+        # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitMetal": "ImpactMetalSabotBig",
             "hitMetalPlate": "ImpactMetalSabotBig",
@@ -52,28 +52,28 @@ rhs_mag_3bk29_8 = {
             "default_mat": "ImpactEffectsGroundSabot"
         },
         "aiAmmoUsageFlags": "128 + 512",
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode,
+        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 13.4164,
             "duration": 2.6,
             "frequency": 20,
             "distance": 40.2492
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit,
+        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 180,
             "duration": 0.8,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire,
+        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 3.30975,
             "duration": 2.2,
             "frequency": 20,
             "distance": 87.6356
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire,
+        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.02,
             "duration": 0.1,
@@ -210,11 +210,11 @@ rhs_mag_3bk29_8 = {
         "minePlaceDist": 0.5,
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers,
+        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -242,10 +242,10 @@ rhs_mag_3bk29_8 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -43,14 +43,14 @@ rhs_rpg26_mag = {
         "explosionEffects": "ATRocketExplosion",
         "effectsMissileInit": "RocketBackEffectsNLAW",
         "effectsMissile": "missile3",
-        # Class: CfgAmmo\rhs_rpg26_rocket\CamShakeFire,
+        # Class: CfgAmmo\rhs_rpg26_rocket\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 10,
             "duration": 0.5,
             "frequency": 20,
             "distance": 30
         },
-        # Class: CfgAmmo\rhs_rpg26_rocket\CamShakePlayerFire,
+        # Class: CfgAmmo\rhs_rpg26_rocket\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 5,
             "duration": 0.1,
@@ -65,14 +65,14 @@ rhs_rpg26_mag = {
         "soundHit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,1800],
         "soundHit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,1800],
         "multiSoundHit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
-        # Class: CfgAmmo\R_PG32V_F\CamShakeExplode,
+        # Class: CfgAmmo\R_PG32V_F\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 11,
             "duration": 1.4,
             "frequency": 20,
             "distance": 99.3296
         },
-        # Class: CfgAmmo\R_PG32V_F\CamShakeHit,
+        # Class: CfgAmmo\R_PG32V_F\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
@@ -88,13 +88,13 @@ rhs_rpg26_mag = {
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
-        # Class: CfgAmmo\RocketBase\HitEffects,
+        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\RocketBase\EventHandlers,
+        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -205,7 +205,7 @@ rhs_rpg26_mag = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -223,10 +223,10 @@ rhs_rpg26_mag = {
     "useAction": 0,
     "useActionTitle": "",
     "modelSpecial": "",
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

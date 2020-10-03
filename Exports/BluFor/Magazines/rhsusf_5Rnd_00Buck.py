@@ -29,20 +29,20 @@ rhsusf_5Rnd_00Buck = {
         "airFriction": -0.008,
         "caliber": 1,
         "deflecting": 30,
-        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakeFire,
+        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 3,
             "duration": 0.5,
             "frequency": 20,
             "distance": 10
         },
-        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakePlayerFire,
+        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 1,
             "duration": 0.1,
             "frequency": 20
         },
-        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakeHit,
+        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 10,
             "duration": 1,
@@ -53,7 +53,7 @@ rhsusf_5Rnd_00Buck = {
         "dangerRadiusHit": 8,
         "suppressionRadiusBulletClose": 2,
         "suppressionRadiusHit": 4,
-        # Class: CfgAmmo\ShotgunBase\HitEffects,
+        # Class: CfgAmmo\ShotgunBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -211,11 +211,11 @@ rhsusf_5Rnd_00Buck = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers,
+        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -233,10 +233,10 @@ rhsusf_5Rnd_00Buck = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -27,17 +27,17 @@ rhs_fgm148_magazine_AT = {
         "indirectHitRange": 4,
         "explosive": 0.65,
         "flightProfiles": ["Direct","TopDown","Cruise"],
-        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Direct,
+        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Direct [Indent level: 1],
         "Direct": {
         },
-        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\TopDown,
+        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\TopDown [Indent level: 1],
         "TopDown": {
             "ascendHeight": 160,
             "descendDistance": 200,
             "minDistance": 150,
             "ascendAngle": 45
         },
-        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Cruise,
+        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Cruise [Indent level: 1],
         "Cruise": {
             "preferredFlightAltitude": 60,
             "lockDistanceToTarget": 1000
@@ -74,22 +74,22 @@ rhs_fgm148_magazine_AT = {
         "missileLockMaxSpeed": 41,
         "missileLockCone": 10,
         "weaponLockSystem": "2 + 16",
-        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components,
+        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent
+            # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent [Indent level: 2]
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components
+                # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components\IRSensorComponent
+                    # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components\IRSensorComponent [Indent level: 4]
                     "IRSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget
+                        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget [Indent level: 5]
                         "AirTarget": {
                             "minRange": 500,
                             "maxRange": 3000,
                             "objectDistanceLimitCoef": 1,
                             "viewDistanceLimitCoef": -1
                         },
-                        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget,
+                        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget [Indent level: 5],
                         "GroundTarget": {
                             "minRange": 500,
                             "maxRange": 3000,
@@ -131,7 +131,7 @@ rhs_fgm148_magazine_AT = {
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects,
+        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -141,9 +141,9 @@ rhs_fgm148_magazine_AT = {
         "mfMax": 100,
         "mFact": 0,
         "tBody": 0,
-        # Class: CfgAmmo\MissileBase\EventHandlers,
+        # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -243,7 +243,7 @@ rhs_fgm148_magazine_AT = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -264,10 +264,10 @@ rhs_fgm148_magazine_AT = {
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

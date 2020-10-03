@@ -37,28 +37,28 @@ rhs_mag_s8_12 = {
         "timeToLive": 15,
         "muzzleEffect": "",
         "simulation": "shotMissile",
-        # Class: CfgAmmo\R_80mm_HE\CamShakeExplode,
+        # Class: CfgAmmo\R_80mm_HE\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 16,
             "duration": 1.8,
             "frequency": 20,
             "distance": 191.554
         },
-        # Class: CfgAmmo\R_80mm_HE\CamShakeHit,
+        # Class: CfgAmmo\R_80mm_HE\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 80,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\R_80mm_HE\CamShakeFire,
+        # Class: CfgAmmo\R_80mm_HE\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\R_80mm_HE\CamShakePlayerFire,
+        # Class: CfgAmmo\R_80mm_HE\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 2,
             "duration": 0.1,
@@ -75,13 +75,13 @@ rhs_mag_s8_12 = {
         "supersonicCrackFar": ["",1,1,150],
         "CraterEffects": "HERocketCrater",
         "explosionEffects": "HERocketExplosion",
-        # Class: CfgAmmo\RocketBase\HitEffects,
+        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\RocketBase\EventHandlers,
+        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -198,7 +198,7 @@ rhs_mag_s8_12 = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -221,10 +221,10 @@ rhs_mag_s8_12 = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

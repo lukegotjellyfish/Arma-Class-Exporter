@@ -13,7 +13,7 @@ rhs_mag_fab250 = {
         "proxyShape": "rhsafrf|addons|rhs_a2port_air|data|rhs_m_fab250",
         "cost": 50,
         "flightProfiles": ["Direct"],
-        # Class: CfgAmmo\rhs_ammo_fab100\Direct,
+        # Class: CfgAmmo\rhs_ammo_fab100\Direct [Indent level: 1],
         "Direct": {
         },
         "explosionForceCoef": 10,
@@ -28,11 +28,11 @@ rhs_mag_fab250 = {
         "soundFakeFall2": ["a3|Sounds_F|weapons|falling_bomb|fall_03",3.16228,1,1000],
         "soundFakeFall3": ["a3|Sounds_F|weapons|falling_bomb|fall_04",3.16228,1,1000],
         "soundFakeFall": ["soundFakeFall0",0.25,"soundFakeFall1",0.25,"soundFakeFall2",0.25,"soundFakeFall3",0.25],
-        # Class: CfgAmmo\rhs_ammo_fab100\Components,
+        # Class: CfgAmmo\rhs_ammo_fab100\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_fab100\Components\SensorsManagerComponent
+            # Class: CfgAmmo\rhs_ammo_fab100\Components\SensorsManagerComponent [Indent level: 2]
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_fab100\Components\SensorsManagerComponent\Components
+                # Class: CfgAmmo\rhs_ammo_fab100\Components\SensorsManagerComponent\Components [Indent level: 3]
                 "Components": {
                 }
             }
@@ -63,7 +63,7 @@ rhs_mag_fab250 = {
         "missileLockMaxSpeed": 30,
         "lockSeekRadius": 500,
         "cmImmunity": 0.3,
-        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\LoalAltitude,
+        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\LoalAltitude [Indent level: 1],
         "LoalAltitude": {
             "lockSeekAltitude": 500
         },
@@ -175,7 +175,7 @@ rhs_mag_fab250 = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects,
+        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -184,11 +184,11 @@ rhs_mag_fab250 = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers,
+        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -202,14 +202,14 @@ rhs_mag_fab250 = {
     "pylonWeapon": "rhs_weap_fab250",
     "weight": 266,
     "mass": 266,
-    # Class: CfgMagazines\rhs_mag_fab250\mfdElements,
+    # Class: CfgMagazines\rhs_mag_fab250\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname
+        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname [Indent level: 2]
         "rhs_rus_ammoname": {
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Bones
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Draw,
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Draw [Indent level: 3],
             "Draw": {
                 # Ammo: PylonSelected
                 "condition": {
@@ -217,7 +217,7 @@ rhs_mag_fab250 = {
                 },
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Draw\PylonText1,
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     # Ammo: text
                     "type": {
@@ -243,12 +243,12 @@ rhs_mag_fab250 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right,
+        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right [Indent level: 2],
         "rhs_rus_ammoname_right": {
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Bones
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Draw,
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Draw [Indent level: 3],
             "Draw": {
                 # Ammo: PylonSelected
                 "condition": {
@@ -256,7 +256,7 @@ rhs_mag_fab250 = {
                 },
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Draw\PylonText1,
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     # Ammo: text
                     "type": {
@@ -282,28 +282,28 @@ rhs_mag_fab250 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box,
+        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box [Indent level: 2],
         "rhs_su25_box": {
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Bones
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw,
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw [Indent level: 3],
             "Draw": {
                 "condition": "1-pylonMagazineEmpty",
                 "color": [0.15,1,0.15,1],
                 "alpha": 0.22,
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw\Shape,
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw\Shape [Indent level: 4],
                 "Shape": {
                     "type": "polygon",
                     "width": 4,
                     "points": [[[[-0.022,-0.04],1],[[0.022,-0.04],1],[[0.022,0.04],1],[[-0.022,0.04],1]]]
                 },
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.58,0.23,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_su25_box\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -312,25 +312,25 @@ rhs_mag_fab250 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle,
+        # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle [Indent level: 2],
         "rhs_rus_circle": {
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Bones
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Bones [Indent level: 3]
             "Bones": {
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Bones\Center
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Bones\Center [Indent level: 4]
                 "Center": {
                     "type": "fixed",
                     "pos": [0,0]
                 }
             },
-            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw,
+            # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15,1],
                 "alpha": 0.22,
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Default,
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Default [Indent level: 4],
                 "Default": {
                     "condition": "1-PylonSelected-pylonMagazineEmpty",
                     "color": [1,1,1],
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -342,19 +342,19 @@ rhs_mag_fab250 = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Default\Shape,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Default\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [["Center",[0,-0.0169708],1],["Center",[0.0075,-0.0146967],1],["Center",[0.01299,-0.0084854],1],["Center",[0.015,0],1],["Center",[0.01299,0.0084854],1],["Center",[0.0075,0.0146967],1],["Center",[0,0.0169708],1],["Center",[-0.0075,0.0146967],1],["Center",[-0.01299,0.0084854],1],["Center",[-0.015,0],1],["Center",[-0.01299,-0.0084854],1],["Center",[-0.0075,-0.0146967],1],["Center",[0,-0.0169708],1],[],["Center",[0.0106066,-0.0120002],1],["Center",[0.0176777,-0.0200003],1],[],["Center",[0.0106066,0.0120002],1],["Center",[0.0176777,0.0200003],1],[],["Center",[-0.0106066,0.0120002],1],["Center",[-0.0176777,0.0200003],1],[],["Center",[-0.0106066,-0.0120002],1],["Center",[-0.0176777,-0.0200003],1],[]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -366,24 +366,24 @@ rhs_mag_fab250 = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [["Center",[0,-0.0169708],1],["Center",[0.0075,-0.0146967],1],["Center",[0.01299,-0.0084854],1],["Center",[0.015,0],1],["Center",[0.01299,0.0084854],1],["Center",[0.0075,0.0146967],1],["Center",[0,0.0169708],1],["Center",[-0.0075,0.0146967],1],["Center",[-0.01299,0.0084854],1],["Center",[-0.015,0],1],["Center",[-0.01299,-0.0084854],1],["Center",[-0.0075,-0.0146967],1],["Center",[0,-0.0169708],1],[],["Center",[0.0106066,-0.0120002],1],["Center",[0.0176777,-0.0200003],1],[],["Center",[0.0106066,0.0120002],1],["Center",[0.0176777,0.0200003],1],[],["Center",[-0.0106066,0.0120002],1],["Center",[-0.0176777,0.0200003],1],[],["Center",[-0.0106066,-0.0120002],1],["Center",[-0.0176777,-0.0200003],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected\Polygon,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Selected\Polygon [Indent level: 5],
                     "Polygon": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[["Center",1,[0,0],1],["Center",[0.0106066,-0.0120002],1],["Center",[0.015,7.41817e-010],1],["Center",[0.0106066,0.0120002],1]],[["Center",1,[0,0],1],["Center",[0.0106066,0.0120002],1],["Center",[-1.31134e-009,0.0169708],1],["Center",[-0.0106066,0.0120002],1]],[["Center",1,[0,0],1],["Center",[-0.0106066,0.0120002],1],["Center",[-0.015,-2.02375e-010],1],["Center",[-0.0106066,-0.0120002],1]],[["Center",1,[0,0],1],["Center",[-0.0106066,-0.0120002],1],["Center",[2.62268e-009,-0.0169708],1],["Center",[0.0106066,-0.0120002],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty,
+                # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "pylonMagazineEmpty",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -395,13 +395,13 @@ rhs_mag_fab250 = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty\Shape,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [["Center",[0,-0.0169708],1],["Center",[0.0075,-0.0146967],1],["Center",[0.01299,-0.0084854],1],["Center",[0.015,0],1],["Center",[0.01299,0.0084854],1],["Center",[0.0075,0.0146967],1],["Center",[0,0.0169708],1],["Center",[-0.0075,0.0146967],1],["Center",[-0.01299,0.0084854],1],["Center",[-0.015,0],1],["Center",[-0.01299,-0.0084854],1],["Center",[-0.0075,-0.0146967],1],["Center",[0,-0.0169708],1],[],["Center",[0.0106066,-0.0120002],1],["Center",[0.0176777,-0.0200003],1],[],["Center",[0.0106066,0.0120002],1],["Center",[0.0176777,0.0200003],1],[],["Center",[-0.0106066,0.0120002],1],["Center",[-0.0176777,0.0200003],1],[],["Center",[-0.0106066,-0.0120002],1],["Center",[-0.0176777,-0.0200003],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty\Polygon,
+                    # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_circle\Draw\Empty\Polygon [Indent level: 5],
                     "Polygon": {
                         "type": "polygon",
                         "width": 4,
@@ -423,10 +423,10 @@ rhs_mag_fab250 = {
     "useActionTitle": "",
     "selectionFireAnim": "zasleh",
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

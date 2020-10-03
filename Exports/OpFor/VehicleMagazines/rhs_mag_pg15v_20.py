@@ -50,7 +50,7 @@ rhs_mag_pg15v_20 = {
         "penetrationDirDistribution": 0.26,
         "whistleOnFire": 2,
         "aiAmmoUsageFlags": "64 + 128 + 256",
-        # Class: CfgAmmo\ShellBase\HitEffects,
+        # Class: CfgAmmo\ShellBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -175,11 +175,11 @@ rhs_mag_pg15v_20 = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleDist": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers,
+        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -200,10 +200,10 @@ rhs_mag_pg15v_20 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

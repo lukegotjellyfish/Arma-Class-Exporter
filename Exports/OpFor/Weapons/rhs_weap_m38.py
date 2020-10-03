@@ -8,31 +8,31 @@ rhs_weap_m38 = {
     "weaponInfoType": "rhs_mosin_handler",
     "initSpeed": -0.96,
     "inertia": 0.87,
-    # Class: CfgWeapons\rhs_weap_m38\WeaponSlotsInfo,
+    # Class: CfgWeapons\rhs_weap_m38\WeaponSlotsInfo [Indent level: 1],
     "WeaponSlotsInfo": {
         "mass": 74.8,
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\PointerSlot,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\PointerSlot [Indent level: 2],
         "PointerSlot": {
             "iconPosition": [0,0.45],
             "iconScale": 0.2,
             "iconPicture": "A3|Weapons_F|Data|UI|attachment_muzzle.paa",
             "iconPinpoint": "Center"
         },
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\CowsSlot,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\CowsSlot [Indent level: 2],
         "CowsSlot": {
             "iconPosition": [0,0.45],
             "iconScale": 0.2,
             "iconPicture": "A3|Weapons_F|Data|UI|attachment_muzzle.paa",
             "iconPinpoint": "Center"
         },
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\MuzzleSlot,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\MuzzleSlot [Indent level: 2],
         "MuzzleSlot": {
             "iconPosition": [0,0.45],
             "iconScale": 0.2,
             "iconPicture": "A3|Weapons_F|Data|UI|attachment_muzzle.paa",
             "iconPinpoint": "Center"
         },
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\UnderBarrelSlot,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\WeaponSlotsInfo\UnderBarrelSlot [Indent level: 2],
         "UnderBarrelSlot": {
             "iconPosition": [0,0.45],
             "iconScale": 0.2,
@@ -41,7 +41,7 @@ rhs_weap_m38 = {
         },
         "allowedSlots": [901]
     },
-    # Class: CfgWeapons\rhs_weap_m38\ItemInfo,
+    # Class: CfgWeapons\rhs_weap_m38\ItemInfo [Indent level: 1],
     "ItemInfo": {
         "priority": 1,
         "RMBhint": "m38",
@@ -51,7 +51,7 @@ rhs_weap_m38 = {
     "dlc": "RHS_GREF",
     "magazines": ["rhsgref_5Rnd_762x54_m38"],
     "magazineWell": ["CBA_762x54R_Mosin"],
-    # Class: CfgWeapons\rhs_weap_m38_Base_F\Library,
+    # Class: CfgWeapons\rhs_weap_m38_Base_F\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -60,15 +60,15 @@ rhs_weap_m38 = {
     "maxRecoilSway": 0.0125,
     "swayDecaySpeed": 1.25,
     "recoil": "recoil_dmr_01",
-    # Class: CfgWeapons\rhs_weap_m38_Base_F\GunParticles,
+    # Class: CfgWeapons\rhs_weap_m38_Base_F\GunParticles [Indent level: 1],
     "GunParticles": {
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\GunParticles\RHSUSF_BarrelRefract
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\GunParticles\RHSUSF_BarrelRefract [Indent level: 2]
         "RHSUSF_BarrelRefract": {
             "positionName": "usti hlavne",
             "directionName": "usti hlavne up",
             "effectName": "RHSUSF_BarrelRefract"
         },
-        # Class: CfgWeapons\Rifle_Base_F\GunParticles\FirstEffect,
+        # Class: CfgWeapons\Rifle_Base_F\GunParticles\FirstEffect [Indent level: 2],
         "FirstEffect": {
             "effectName": "RifleAssaultCloud",
             "positionName": "Usti hlavne",
@@ -103,7 +103,7 @@ rhs_weap_m38 = {
     "bullet12": ["A3|sounds_f|weapons|shells|7_62|grass_762_04",0.630957,1,15],
     "soundBullet": ["bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083],
     "modes": ["Single","far_optic1","medium_optic2","far_optic2"],
-    # Class: CfgWeapons\rhs_weap_m38_Base_F\Single,
+    # Class: CfgWeapons\rhs_weap_m38_Base_F\Single [Indent level: 1],
     "Single": {
         "reloadTime": 1.6,
         "dispersion": 0.000235,
@@ -114,11 +114,11 @@ rhs_weap_m38 = {
         "maxRange": 400,
         "maxRangeProbab": 0.04,
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
             "soundSetShot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
             "soundSetShot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
@@ -157,7 +157,7 @@ rhs_weap_m38 = {
         "aiRateOfFireDispersion": 1,
         "aiRateOfFireDistance": 500
     },
-    # Class: CfgWeapons\rhs_weap_m38_Base_F\far_optic1,
+    # Class: CfgWeapons\rhs_weap_m38_Base_F\far_optic1 [Indent level: 1],
     "far_optic1": {
         "requiredOpticType": 1,
         "showToPlayer": 0,
@@ -173,11 +173,11 @@ rhs_weap_m38 = {
         "reloadTime": 1.6,
         "dispersion": 0.000235,
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
             "soundSetShot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
             "soundSetShot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
@@ -211,7 +211,7 @@ rhs_weap_m38 = {
         "aiDispersionCoefX": 1.4,
         "soundBurst": 0
     },
-    # Class: CfgWeapons\rhs_weap_m38_Base_F\medium_optic2,
+    # Class: CfgWeapons\rhs_weap_m38_Base_F\medium_optic2 [Indent level: 1],
     "medium_optic2": {
         "requiredOpticType": 2,
         "minRange": 250,
@@ -227,11 +227,11 @@ rhs_weap_m38 = {
         "reloadTime": 1.6,
         "dispersion": 0.000235,
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
             "soundSetShot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
             "soundSetShot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
@@ -265,7 +265,7 @@ rhs_weap_m38 = {
         "aiDispersionCoefX": 1.4,
         "soundBurst": 0
     },
-    # Class: CfgWeapons\rhs_weap_m38_Base_F\far_optic2,
+    # Class: CfgWeapons\rhs_weap_m38_Base_F\far_optic2 [Indent level: 1],
     "far_optic2": {
         "minRange": 500,
         "minRangeProbab": 0.1,
@@ -281,11 +281,11 @@ rhs_weap_m38 = {
         "reloadTime": 1.6,
         "dispersion": 0.000235,
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
             "soundSetShot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound,
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
             "soundSetShot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
@@ -323,9 +323,9 @@ rhs_weap_m38 = {
     "aiDispersionCoefX": 8,
     "hiddenSelections": ["camo"],
     "hiddenSelectionsTextures": ["rhsgref|addons|rhsgref_weapons|m38|data|m38_co.paa"],
-    # Class: CfgWeapons\rhs_weap_m38_Base_F\Eventhandlers,
+    # Class: CfgWeapons\rhs_weap_m38_Base_F\Eventhandlers [Indent level: 1],
     "Eventhandlers": {
-        # Class: CfgWeapons\rhs_weap_m38_Base_F\Eventhandlers\RHS_BoltAction
+        # Class: CfgWeapons\rhs_weap_m38_Base_F\Eventhandlers\RHS_BoltAction [Indent level: 2]
         "RHS_BoltAction": {
             "fired": "[_this select 0,_this select 1,_this select 1] call rhs_fnc_boltAction;"
         }
@@ -444,7 +444,7 @@ rhs_weap_m38 = {
     "artilleryDispersion": 1,
     "artilleryCharge": 1,
     "fireAnims": [],
-    # Class: CfgWeapons\Default\GunFire,
+    # Class: CfgWeapons\Default\GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -466,126 +466,126 @@ rhs_weap_m38 = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: CfgWeapons\Default\GunFire\Table,
+        # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],
         "Table": {
-            # Class: CfgWeapons\Default\GunFire\Table\T0
+            # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]
             "T0": {
                 "maxT": 0,
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T1,
+            # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T2,
+            # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T3,
+            # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T4,
+            # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T5,
+            # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T6,
+            # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T7,
+            # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T8,
+            # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T9,
+            # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T10,
+            # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T11,
+            # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T12,
+            # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T13,
+            # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T14,
+            # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T15,
+            # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T16,
+            # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T17,
+            # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T18,
+            # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T19,
+            # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T20,
+            # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T21,
+            # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T22,
+            # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgWeapons\Default\GunClouds,
+    # Class: CfgWeapons\Default\GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -606,9 +606,9 @@ rhs_weap_m38 = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: CfgWeapons\Default\GunClouds\Table,
+        # Class: CfgWeapons\Default\GunClouds\Table [Indent level: 2],
         "Table": {
-            # Class: CfgWeapons\Default\GunClouds\Table\T0
+            # Class: CfgWeapons\Default\GunClouds\Table\T0 [Indent level: 3]
             "T0": {
                 "maxT": 0,
                 "color": [1,1,1,0]

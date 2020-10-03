@@ -8,9 +8,9 @@ RHS_UH1Y_d = {
     "scope": 2,
     "accuracy": 1.5,
     "selectionFireAnim": "",
-    # Class: CfgVehicles\RHS_UH1Y\Turrets,
+    # Class: CfgVehicles\RHS_UH1Y\Turrets [Indent level: 1],
     "Turrets": {
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret [Indent level: 2]
         "CopilotTurret": {
             "primaryObserver": 0,
             "primaryGunner": 1,
@@ -18,7 +18,7 @@ RHS_UH1Y_d = {
             "playerPosition": 0,
             "isCopilot": 1,
             "usePiP": 1,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\MFD,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\MFD [Indent level: 3],
             "MFD": {
             },
             "gunnerName": "Observer",
@@ -52,9 +52,9 @@ RHS_UH1Y_d = {
             "gunnerRightHandAnimName": "stick_copilot",
             "proxyIndex": 1,
             "commanding": -1,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsIn,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsIn [Indent level: 3],
             "OpticsIn": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsIn\Wide
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsIn\Wide [Indent level: 4]
                 "Wide": {
                     "opticsDisplayName": "W",
                     "initAngleX": 0,
@@ -72,9 +72,9 @@ RHS_UH1Y_d = {
                     "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhs_uh1_flir"
                 }
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsOut,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsOut [Indent level: 3],
             "OpticsOut": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsOut\Monocular
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\OpticsOut\Monocular [Indent level: 4]
                 "Monocular": {
                     "initAngleX": 0,
                     "minAngleX": -30,
@@ -90,9 +90,9 @@ RHS_UH1Y_d = {
                     "gunnerOpticsEffect": []
                 }
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors [Indent level: 3],
             "Reflectors": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cabin
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cabin [Indent level: 4]
                 "cabin": {
                     "color": [830,100,100],
                     "ambient": [5,0,0],
@@ -110,7 +110,7 @@ RHS_UH1Y_d = {
                     "flareMaxDistance": 5,
                     "dayLight": 1,
                     "blinking": 0,
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cabin\Attenuation,
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cabin\Attenuation [Indent level: 5],
                     "Attenuation": {
                         "start": 0,
                         "constant": 0,
@@ -120,7 +120,7 @@ RHS_UH1Y_d = {
                         "hardLimitEnd": 1.5
                     }
                 },
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_1,
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_1 [Indent level: 4],
                 "cargo_light_1": {
                     "color": [830,100,100],
                     "position": "cargo_light_1",
@@ -130,7 +130,7 @@ RHS_UH1Y_d = {
                     "intensity": 7,
                     "useFlare": 0,
                     "coneFadeCoef": 0.1,
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation,
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation [Indent level: 5],
                     "Attenuation": {
                         "start": 0,
                         "constant": 0,
@@ -148,7 +148,7 @@ RHS_UH1Y_d = {
                     "dayLight": 1,
                     "blinking": 0
                 },
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_2,
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_2 [Indent level: 4],
                 "cargo_light_2": {
                     "position": "cargo_light_2",
                     "direction": "cargo_light_2_dir",
@@ -158,7 +158,7 @@ RHS_UH1Y_d = {
                     "intensity": 7,
                     "useFlare": 0,
                     "coneFadeCoef": 0.1,
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation,
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation [Indent level: 5],
                     "Attenuation": {
                         "start": 0,
                         "constant": 0,
@@ -177,27 +177,27 @@ RHS_UH1Y_d = {
                     "blinking": 0
                 }
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components [Indent level: 3],
             "Components": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 4]
                 "VehicleSystemsDisplayManagerComponentLeft": {
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components [Indent level: 5]
                     "Components": {
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay [Indent level: 6]
                         "EmptyDisplay": {
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\MinimapDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\MinimapDisplay [Indent level: 6],
                         "MinimapDisplay": {
                             "componentType": "MinimapDisplayComponent",
                             "resource": "RscCustomInfoMiniMap"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay [Indent level: 6],
                         "CrewDisplay": {
                             "componentType": "CrewDisplayComponent",
                             "resource": "RscCustomInfoCrew"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SensorDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SensorDisplay [Indent level: 6],
                         "SensorDisplay": {
                             "componentType": "SensorsDisplayComponent",
                             "range": [8000,16000,20000,50000],
@@ -210,26 +210,26 @@ RHS_UH1Y_d = {
                     "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
                     "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                 },
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight,
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 4],
                 "VehicleSystemsDisplayManagerComponentRight": {
                     "defaultDisplay": "SensorDisplay",
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components,
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components [Indent level: 5],
                     "Components": {
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay [Indent level: 6]
                         "EmptyDisplay": {
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\MinimapDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\MinimapDisplay [Indent level: 6],
                         "MinimapDisplay": {
                             "componentType": "MinimapDisplayComponent",
                             "resource": "RscCustomInfoMiniMap"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay [Indent level: 6],
                         "CrewDisplay": {
                             "componentType": "CrewDisplayComponent",
                             "resource": "RscCustomInfoCrew"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\SensorDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\CopilotTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\SensorDisplay [Indent level: 6],
                         "SensorDisplay": {
                             "componentType": "SensorsDisplayComponent",
                             "range": [8000,16000,20000,50000],
@@ -250,7 +250,7 @@ RHS_UH1Y_d = {
             "gunnerOpticsModel": "",
             "gunnerLeftLegAnimName": "pedalL",
             "gunnerRightLegAnimName": "pedalR",
-            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\ViewGunner,
+            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\ViewGunner [Indent level: 3],
             "ViewGunner": {
                 "initAngleX": -15,
                 "initFov": 0.9,
@@ -272,9 +272,9 @@ RHS_UH1Y_d = {
             },
             "startEngine": 0,
             "gunnerHasFlares": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\HitPoints,
+            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\HitPoints [Indent level: 3],
             "HitPoints": {
-                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\HitPoints\HitTurret
+                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\HitPoints\HitTurret [Indent level: 4]
                 "HitTurret": {
                     "armor": 1,
                     "material": -1,
@@ -283,7 +283,7 @@ RHS_UH1Y_d = {
                     "passThrough": 0.2,
                     "radius": 0.25
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\HitPoints\HitGun,
+                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\HitPoints\HitGun [Indent level: 4],
                 "HitGun": {
                     "armor": 1,
                     "material": -1,
@@ -294,7 +294,7 @@ RHS_UH1Y_d = {
                 }
             },
             "turretCanSee": "1 + 2 + 4 + 8 + 32",
-            # Class: CfgVehicles\Helicopter\Turrets\MainTurret\TurretSpec,
+            # Class: CfgVehicles\Helicopter\Turrets\MainTurret\TurretSpec [Indent level: 3],
             "TurretSpec": {
                 "showHeadPhones": 1
             },
@@ -350,7 +350,7 @@ RHS_UH1Y_d = {
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -371,126 +371,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -511,16 +511,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -541,19 +541,19 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
             "ViewOptics": {
                 "initAngleX": 0,
                 "minAngleX": -30,
@@ -582,17 +582,17 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret [Indent level: 2],
         "MainTurret": {
             "usePiP": 0,
             "isCopilot": 0,
@@ -633,7 +633,7 @@ RHS_UH1Y_d = {
             "commanding": -2,
             "playerPosition": 1,
             "primaryGunner": 0,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewOptics,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewOptics [Indent level: 3],
             "ViewOptics": {
                 "initanglex": 0,
                 "initangley": 0,
@@ -645,7 +645,7 @@ RHS_UH1Y_d = {
                 "minangley": -100,
                 "minfov": 0.25
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewGunner,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewGunner [Indent level: 3],
             "ViewGunner": {
                 "initanglex": 0,
                 "initangley": 0,
@@ -658,9 +658,9 @@ RHS_UH1Y_d = {
                 "minfov": 0.25,
                 "visionMode": []
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn [Indent level: 3],
             "OpticsIn": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn\ViewOptics
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn\ViewOptics [Indent level: 4]
                 "ViewOptics": {
                     "gunnerOpticsModel": "A3|weapons_f|reticle|optics_empty",
                     "gunnerOutOpticsModel": "A3|weapons_f|reticle|optics_empty",
@@ -680,20 +680,20 @@ RHS_UH1Y_d = {
             "memoryPointGun": "machinegun",
             "memoryPointGunnerOptics": "gunnerview_1",
             "soundAttenuationTurret": "HeliAttenuationGunner",
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Reflectors,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Reflectors [Indent level: 3],
             "Reflectors": {
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components [Indent level: 3],
             "Components": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 4]
                 "VehicleSystemsDisplayManagerComponentLeft": {
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components [Indent level: 5]
                     "Components": {
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay [Indent level: 6]
                         "EmptyDisplay": {
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay [Indent level: 6],
                         "CrewDisplay": {
                             "componentType": "CrewDisplayComponent",
                             "resource": "RscCustomInfoCrew"
@@ -705,16 +705,16 @@ RHS_UH1Y_d = {
                     "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
                     "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                 },
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight,
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 4],
                 "VehicleSystemsDisplayManagerComponentRight": {
                     "defaultDisplay": "SensorDisplay",
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components,
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components [Indent level: 5],
                     "Components": {
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay [Indent level: 6]
                         "EmptyDisplay": {
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay [Indent level: 6],
                         "CrewDisplay": {
                             "componentType": "CrewDisplayComponent",
                             "resource": "RscCustomInfoCrew"
@@ -726,14 +726,14 @@ RHS_UH1Y_d = {
                     "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                 }
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
             "inGunnerMayFire": 1,
             "gunnerOpticsEffect": [],
-            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut,
+            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut [Indent level: 3],
             "OpticsOut": {
-                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut\Monocular
+                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut\Monocular [Indent level: 4]
                 "Monocular": {
                     "initAngleX": 0,
                     "minAngleX": -30,
@@ -752,7 +752,7 @@ RHS_UH1Y_d = {
             "startEngine": 0,
             "gunnerHasFlares": 0,
             "turretCanSee": "1 + 2 + 4 + 8 + 32",
-            # Class: CfgVehicles\Helicopter\Turrets\MainTurret\TurretSpec,
+            # Class: CfgVehicles\Helicopter\Turrets\MainTurret\TurretSpec [Indent level: 3],
             "TurretSpec": {
                 "showHeadPhones": 1
             },
@@ -809,7 +809,7 @@ RHS_UH1Y_d = {
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -830,126 +830,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -970,16 +970,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -1000,16 +1000,16 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
             "forceNVG": 0,
@@ -1022,17 +1022,17 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\RightDoorGun,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\RightDoorGun [Indent level: 2],
         "RightDoorGun": {
             "body": "Turret_2",
             "gun": "Gun_2",
@@ -1075,7 +1075,7 @@ RHS_UH1Y_d = {
             "gunnerGetOutAction": "RHS_HIND_Cargo_Exit",
             "preciseGetInOut": 0,
             "turretInfoType": "RscWeaponZeroing",
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewOptics,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewOptics [Indent level: 3],
             "ViewOptics": {
                 "initanglex": 0,
                 "initangley": 0,
@@ -1087,7 +1087,7 @@ RHS_UH1Y_d = {
                 "minangley": -100,
                 "minfov": 0.25
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewGunner,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\ViewGunner [Indent level: 3],
             "ViewGunner": {
                 "initanglex": 0,
                 "initangley": 0,
@@ -1100,9 +1100,9 @@ RHS_UH1Y_d = {
                 "minfov": 0.25,
                 "visionMode": []
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn [Indent level: 3],
             "OpticsIn": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn\ViewOptics
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\OpticsIn\ViewOptics [Indent level: 4]
                 "ViewOptics": {
                     "gunnerOpticsModel": "A3|weapons_f|reticle|optics_empty",
                     "gunnerOutOpticsModel": "A3|weapons_f|reticle|optics_empty",
@@ -1120,20 +1120,20 @@ RHS_UH1Y_d = {
             },
             "gunnerCompartments": "Compartment2",
             "soundAttenuationTurret": "HeliAttenuationGunner",
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Reflectors,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Reflectors [Indent level: 3],
             "Reflectors": {
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components [Indent level: 3],
             "Components": {
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 4]
                 "VehicleSystemsDisplayManagerComponentLeft": {
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components [Indent level: 5]
                     "Components": {
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay [Indent level: 6]
                         "EmptyDisplay": {
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay [Indent level: 6],
                         "CrewDisplay": {
                             "componentType": "CrewDisplayComponent",
                             "resource": "RscCustomInfoCrew"
@@ -1145,16 +1145,16 @@ RHS_UH1Y_d = {
                     "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
                     "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                 },
-                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight,
+                # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 4],
                 "VehicleSystemsDisplayManagerComponentRight": {
                     "defaultDisplay": "SensorDisplay",
-                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components,
+                    # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components [Indent level: 5],
                     "Components": {
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay [Indent level: 6]
                         "EmptyDisplay": {
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay,
+                        # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay [Indent level: 6],
                         "CrewDisplay": {
                             "componentType": "CrewDisplayComponent",
                             "resource": "RscCustomInfoCrew"
@@ -1166,14 +1166,14 @@ RHS_UH1Y_d = {
                     "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                 }
             },
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\MainTurret\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
             "inGunnerMayFire": 1,
             "gunnerOpticsEffect": [],
-            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut,
+            # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut [Indent level: 3],
             "OpticsOut": {
-                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut\Monocular
+                # Class: CfgVehicles\Heli_light_03_base_F\Turrets\MainTurret\OpticsOut\Monocular [Indent level: 4]
                 "Monocular": {
                     "initAngleX": 0,
                     "minAngleX": -30,
@@ -1192,7 +1192,7 @@ RHS_UH1Y_d = {
             "startEngine": 0,
             "gunnerHasFlares": 0,
             "turretCanSee": "1 + 2 + 4 + 8 + 32",
-            # Class: CfgVehicles\Helicopter\Turrets\MainTurret\TurretSpec,
+            # Class: CfgVehicles\Helicopter\Turrets\MainTurret\TurretSpec [Indent level: 3],
             "TurretSpec": {
                 "showHeadPhones": 1
             },
@@ -1249,7 +1249,7 @@ RHS_UH1Y_d = {
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -1270,126 +1270,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -1410,16 +1410,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -1440,16 +1440,16 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
             "forceNVG": 0,
@@ -1462,17 +1462,17 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01 [Indent level: 2],
         "CargoTurret_01": {
             "weapons": ["rhsusf_weap_DummyLauncher"],
             "gunnerAction": "passenger_inside_2",
@@ -1497,10 +1497,10 @@ RHS_UH1Y_d = {
             "playerPosition": 1,
             "soundAttenuationTurret": "HeliAttenuationRamp",
             "disableSoundAttenuation": 0,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
-            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner,
+            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2],
             "ViewGunner": {
                 "initAngleX": 5,
                 "minAngleX": -75,
@@ -1560,7 +1560,7 @@ RHS_UH1Y_d = {
             "hasGunner": 1,
             "turretCanSee": 0,
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
             "TurretSpec": {
                 "showHeadPhones": 0
             },
@@ -1595,11 +1595,11 @@ RHS_UH1Y_d = {
             "missileBeg": "spice rakety",
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
             "Reflectors": {
             },
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -1620,126 +1620,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -1760,16 +1760,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -1790,19 +1790,19 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
             "ViewOptics": {
                 "initAngleX": 0,
                 "minAngleX": -30,
@@ -1834,11 +1834,11 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
@@ -1848,7 +1848,7 @@ RHS_UH1Y_d = {
             "memoryPointGun": "kulas",
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_02,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_02 [Indent level: 2],
         "CargoTurret_02": {
             "gunnerName": "Passenger (Right Bench 2)",
             "memoryPointsGetInGunner": "pos cargo R4",
@@ -1873,10 +1873,10 @@ RHS_UH1Y_d = {
             "playerPosition": 1,
             "soundAttenuationTurret": "HeliAttenuationRamp",
             "disableSoundAttenuation": 0,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
-            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner,
+            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2],
             "ViewGunner": {
                 "initAngleX": 5,
                 "minAngleX": -75,
@@ -1936,7 +1936,7 @@ RHS_UH1Y_d = {
             "hasGunner": 1,
             "turretCanSee": 0,
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
             "TurretSpec": {
                 "showHeadPhones": 0
             },
@@ -1971,11 +1971,11 @@ RHS_UH1Y_d = {
             "missileBeg": "spice rakety",
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
             "Reflectors": {
             },
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -1996,126 +1996,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -2136,16 +2136,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -2166,19 +2166,19 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
             "ViewOptics": {
                 "initAngleX": 0,
                 "minAngleX": -30,
@@ -2210,11 +2210,11 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
@@ -2224,7 +2224,7 @@ RHS_UH1Y_d = {
             "memoryPointGun": "kulas",
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_03,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_03 [Indent level: 2],
         "CargoTurret_03": {
             "gunnerName": "Passenger (Right Bench 3)",
             "memoryPointsGetInGunner": "pos cargo R2",
@@ -2249,10 +2249,10 @@ RHS_UH1Y_d = {
             "playerPosition": 1,
             "soundAttenuationTurret": "HeliAttenuationRamp",
             "disableSoundAttenuation": 0,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
-            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner,
+            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2],
             "ViewGunner": {
                 "initAngleX": 5,
                 "minAngleX": -75,
@@ -2312,7 +2312,7 @@ RHS_UH1Y_d = {
             "hasGunner": 1,
             "turretCanSee": 0,
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
             "TurretSpec": {
                 "showHeadPhones": 0
             },
@@ -2347,11 +2347,11 @@ RHS_UH1Y_d = {
             "missileBeg": "spice rakety",
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
             "Reflectors": {
             },
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -2372,126 +2372,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -2512,16 +2512,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -2542,19 +2542,19 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
             "ViewOptics": {
                 "initAngleX": 0,
                 "minAngleX": -30,
@@ -2586,11 +2586,11 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
@@ -2600,7 +2600,7 @@ RHS_UH1Y_d = {
             "memoryPointGun": "kulas",
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_04,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_04 [Indent level: 2],
         "CargoTurret_04": {
             "memoryPointsGetInGunner": "pos cargo L",
             "memoryPointsGetInGunnerDir": "pos cargo L dir",
@@ -2625,10 +2625,10 @@ RHS_UH1Y_d = {
             "playerPosition": 1,
             "soundAttenuationTurret": "HeliAttenuationRamp",
             "disableSoundAttenuation": 0,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
-            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner,
+            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2],
             "ViewGunner": {
                 "initAngleX": 5,
                 "minAngleX": -75,
@@ -2688,7 +2688,7 @@ RHS_UH1Y_d = {
             "hasGunner": 1,
             "turretCanSee": 0,
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
             "TurretSpec": {
                 "showHeadPhones": 0
             },
@@ -2723,11 +2723,11 @@ RHS_UH1Y_d = {
             "missileBeg": "spice rakety",
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
             "Reflectors": {
             },
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -2748,126 +2748,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -2888,16 +2888,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -2918,19 +2918,19 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
             "ViewOptics": {
                 "initAngleX": 0,
                 "minAngleX": -30,
@@ -2962,11 +2962,11 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
@@ -2976,7 +2976,7 @@ RHS_UH1Y_d = {
             "memoryPointGun": "kulas",
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_05,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_05 [Indent level: 2],
         "CargoTurret_05": {
             "gunnerName": "Passenger (Left Bench 2)",
             "memoryPointsGetInGunner": "pos cargo L4",
@@ -3001,10 +3001,10 @@ RHS_UH1Y_d = {
             "playerPosition": 1,
             "soundAttenuationTurret": "HeliAttenuationRamp",
             "disableSoundAttenuation": 0,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
-            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner,
+            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2],
             "ViewGunner": {
                 "initAngleX": 5,
                 "minAngleX": -75,
@@ -3064,7 +3064,7 @@ RHS_UH1Y_d = {
             "hasGunner": 1,
             "turretCanSee": 0,
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
             "TurretSpec": {
                 "showHeadPhones": 0
             },
@@ -3099,11 +3099,11 @@ RHS_UH1Y_d = {
             "missileBeg": "spice rakety",
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
             "Reflectors": {
             },
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -3124,126 +3124,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -3264,16 +3264,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -3294,19 +3294,19 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
             "ViewOptics": {
                 "initAngleX": 0,
                 "minAngleX": -30,
@@ -3338,11 +3338,11 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
@@ -3352,7 +3352,7 @@ RHS_UH1Y_d = {
             "memoryPointGun": "kulas",
             "showCrewAim": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_06,
+        # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_06 [Indent level: 2],
         "CargoTurret_06": {
             "gunnerName": "Passenger (Left Bench 3)",
             "memoryPointsGetInGunner": "pos cargo L2",
@@ -3377,10 +3377,10 @@ RHS_UH1Y_d = {
             "playerPosition": 1,
             "soundAttenuationTurret": "HeliAttenuationRamp",
             "disableSoundAttenuation": 0,
-            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints,
+            # Class: CfgVehicles\RHS_UH1Y\Turrets\CargoTurret_01\Hitpoints [Indent level: 3],
             "Hitpoints": {
             },
-            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner,
+            # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2],
             "ViewGunner": {
                 "initAngleX": 5,
                 "minAngleX": -75,
@@ -3440,7 +3440,7 @@ RHS_UH1Y_d = {
             "hasGunner": 1,
             "turretCanSee": 0,
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
             "TurretSpec": {
                 "showHeadPhones": 0
             },
@@ -3475,11 +3475,11 @@ RHS_UH1Y_d = {
             "missileBeg": "spice rakety",
             "missileEnd": "konec rakety",
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
             "Reflectors": {
             },
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
             "GunFire": {
                 "access": 0,
                 "cloudletDuration": 0.2,
@@ -3500,126 +3500,126 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 4500,
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table,
+                # Class: WeaponFireGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0
+                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1,
+                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                     "T1": {
                         "maxT": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2,
+                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                     "T2": {
                         "maxT": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3,
+                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                     "T3": {
                         "maxT": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4,
+                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                     "T4": {
                         "maxT": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5,
+                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                     "T5": {
                         "maxT": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6,
+                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                     "T6": {
                         "maxT": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7,
+                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                     "T7": {
                         "maxT": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8,
+                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                     "T8": {
                         "maxT": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9,
+                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                     "T9": {
                         "maxT": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10,
+                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                     "T10": {
                         "maxT": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11,
+                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                     "T11": {
                         "maxT": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12,
+                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                     "T12": {
                         "maxT": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13,
+                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                     "T13": {
                         "maxT": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14,
+                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                     "T14": {
                         "maxT": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15,
+                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                     "T15": {
                         "maxT": 2850,
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16,
+                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                     "T16": {
                         "maxT": 2900,
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17,
+                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                     "T17": {
                         "maxT": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18,
+                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                     "T18": {
                         "maxT": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19,
+                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                     "T19": {
                         "maxT": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20,
+                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                     "T20": {
                         "maxT": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21,
+                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                     "T21": {
                         "maxT": 3600,
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22,
+                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                     "T22": {
                         "maxT": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
             "GunClouds": {
                 "access": 0,
                 "cloudletDuration": 0.3,
@@ -3640,16 +3640,16 @@ RHS_UH1Y_d = {
                 "timeToLive": 0,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table,
+                # Class: WeaponCloudsGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0
+                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
             "MGunClouds": {
                 "access": 0,
                 "cloudletGrowUp": 0.05,
@@ -3670,19 +3670,19 @@ RHS_UH1Y_d = {
                 "sourceSize": 0.02,
                 "initT": 0,
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table,
+                # Class: WeaponCloudsMGun\Table [Indent level: 0],
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0
+                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                     "T0": {
                         "maxT": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
             "ViewOptics": {
                 "initAngleX": 0,
                 "minAngleX": -30,
@@ -3714,11 +3714,11 @@ RHS_UH1Y_d = {
             "slingLoadOperator": 0,
             "allowLauncherIn": 0,
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
             "TurnIn": {
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
             "TurnOut": {
                 "turnOffset": 0
             },
@@ -3729,53 +3729,53 @@ RHS_UH1Y_d = {
             "showCrewAim": 0
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y\AnimationSources,
+    # Class: CfgVehicles\RHS_UH1Y\AnimationSources [Indent level: 1],
     "AnimationSources": {
-        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\Gatling_1
+        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\Gatling_1 [Indent level: 2]
         "Gatling_1": {
             "source": "revolving",
             "weapon": "rhs_weap_m134_minigun_1"
         },
-        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\Gatling_2,
+        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\Gatling_2 [Indent level: 2],
         "Gatling_2": {
             "source": "revolving",
             "weapon": "rhs_weap_m134_minigun_2"
         },
-        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\muzzle_rot_hmg,
+        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\muzzle_rot_hmg [Indent level: 2],
         "muzzle_rot_hmg": {
             "source": "ammorandom",
             "weapon": "rhs_weap_m134_minigun_1"
         },
-        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\muzzle_rot_hmg2,
+        # Class: CfgVehicles\RHS_UH1Y\AnimationSources\muzzle_rot_hmg2 [Indent level: 2],
         "muzzle_rot_hmg2": {
             "source": "ammorandom",
             "weapon": "rhs_weap_m134_minigun_2"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\cargolights_hide,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\cargolights_hide [Indent level: 2],
         "cargolights_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\cabinlights_hide,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\cabinlights_hide [Indent level: 2],
         "cabinlights_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HitAvionics,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HitAvionics [Indent level: 2],
         "HitAvionics": {
             "source": "hit",
             "hitpoint": "HitAvionics",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HitFuel,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HitFuel [Indent level: 2],
         "HitFuel": {
             "source": "hit",
             "hitpoint": "HitFuel",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorL,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorL [Indent level: 2],
         "DoorL": {
             "source": "door",
             "animPeriod": 0.8,
@@ -3783,7 +3783,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorR,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorR [Indent level: 2],
         "DoorR": {
             "soundPosition": "doorR_axis",
             "source": "door",
@@ -3791,7 +3791,7 @@ RHS_UH1Y_d = {
             "initPhase": 0,
             "sound": "MetalDoorsSound"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorRB,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorRB [Indent level: 2],
         "DoorRB": {
             "source": "user",
             "animPeriod": 1.5,
@@ -3799,7 +3799,7 @@ RHS_UH1Y_d = {
             "sound": "MetalOldBigDoorsSound",
             "soundPosition": "doorRB_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorLB,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\DoorLB [Indent level: 2],
         "DoorLB": {
             "soundPosition": "doorLB_axis",
             "source": "user",
@@ -3807,7 +3807,7 @@ RHS_UH1Y_d = {
             "initPhase": 1,
             "sound": "MetalOldBigDoorsSound"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\doorHandler_L,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\doorHandler_L [Indent level: 2],
         "doorHandler_L": {
             "source": "user",
             "animPeriod": 0.0001,
@@ -3815,7 +3815,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\doorHandler_R,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\doorHandler_R [Indent level: 2],
         "doorHandler_R": {
             "source": "user",
             "animPeriod": 0.0001,
@@ -3823,7 +3823,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\pip1_on,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\pip1_on [Indent level: 2],
         "pip1_on": {
             "source": "user",
             "animPeriod": 0.0001,
@@ -3831,7 +3831,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\pip2_on,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\pip2_on [Indent level: 2],
         "pip2_on": {
             "source": "user",
             "animPeriod": 0.0001,
@@ -3839,7 +3839,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_rockets,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_rockets [Indent level: 2],
         "hide_rockets": {
             "mass": -50,
             "source": "user",
@@ -3848,7 +3848,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_mg,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_mg [Indent level: 2],
         "hide_mg": {
             "displayName": "hide MG",
             "mass": -120,
@@ -3858,7 +3858,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_FrontDoors,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_FrontDoors [Indent level: 2],
         "hide_FrontDoors": {
             "displayName": "hide front doors",
             "initPhase": 0,
@@ -3868,7 +3868,7 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_CargoDoors,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hide_CargoDoors [Indent level: 2],
         "hide_CargoDoors": {
             "displayName": "hide cargo doors",
             "mass": -200,
@@ -3878,19 +3878,19 @@ RHS_UH1Y_d = {
             "sound": "MetalDoorsSound",
             "soundPosition": "doorL_axis"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HUDAction,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HUDAction [Indent level: 2],
         "HUDAction": {
             "source": "user",
             "animPeriod": 2,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HUDAction_1,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HUDAction_1 [Indent level: 2],
         "HUDAction_1": {
             "animPeriod": 0.1,
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\mainRotor_folded,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\mainRotor_folded [Indent level: 2],
         "mainRotor_folded": {
             "source": "user",
             "animPeriod": 0.001,
@@ -3899,170 +3899,170 @@ RHS_UH1Y_d = {
             "displayName": "fold main rotor",
             "onPhaseChanged": "_this call rhs_fnc_foldHeli"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HitGlass7,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\HitGlass7 [Indent level: 2],
         "HitGlass7": {
             "hitpoint": "HitGlass7",
             "raw": 1,
             "source": "hit"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hit_pylon_1_source,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hit_pylon_1_source [Indent level: 2],
         "hit_pylon_1_source": {
             "source": "Hit",
             "hitpoint": "HitPylon1"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hit_pylon_2_source,
+        # Class: CfgVehicles\RHS_UH1Y_base\AnimationSources\hit_pylon_2_source [Indent level: 2],
         "hit_pylon_2_source": {
             "source": "Hit",
             "hitpoint": "HitPylon2"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\GunL_Revolving,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\GunL_Revolving [Indent level: 2],
         "GunL_Revolving": {
             "source": "revolving",
             "weapon": "M134_minigun"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\GunR_Revolving,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\GunR_Revolving [Indent level: 2],
         "GunR_Revolving": {
             "source": "revolving",
             "weapon": "M134_minigun"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\muzzle_hide,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\muzzle_hide [Indent level: 2],
         "muzzle_hide": {
             "source": "reload",
             "weapon": "M134_minigun"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\Muzzle_Flash,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\Muzzle_Flash [Indent level: 2],
         "Muzzle_Flash": {
             "source": "ammorandom",
             "weapon": "M134_minigun",
             "animPeriod": 1e-006
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\Missiles_revolving,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\Missiles_revolving [Indent level: 2],
         "Missiles_revolving": {
             "source": "revolving",
             "weapon": "missiles_DAR"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\RocketPods_Hide,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\RocketPods_Hide [Indent level: 2],
         "RocketPods_Hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HideWeapons,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HideWeapons [Indent level: 2],
         "HideWeapons": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass1,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass1"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass2,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass2"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass3,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass3"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass4,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass4"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass5,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass5"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass6,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass6"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass8,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass8 [Indent level: 2],
         "HitGlass8": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass8"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass9,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass9 [Indent level: 2],
         "HitGlass9": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass9"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass10,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass10 [Indent level: 2],
         "HitGlass10": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass10"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass11,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass11 [Indent level: 2],
         "HitGlass11": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass11"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass12,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass12 [Indent level: 2],
         "HitGlass12": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass12"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass13,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass13 [Indent level: 2],
         "HitGlass13": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass13"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass14,
+        # Class: CfgVehicles\Heli_light_03_base_F\AnimationSources\HitGlass14 [Indent level: 2],
         "HitGlass14": {
             "raw": 1,
             "source": "hit",
             "hitpoint": "HitGlass14"
         },
-        # Class: CfgVehicles\Helicopter\AnimationSources\HitEngine1,
+        # Class: CfgVehicles\Helicopter\AnimationSources\HitEngine1 [Indent level: 2],
         "HitEngine1": {
             "source": "hit",
             "hitpoint": "HitEngine1",
             "raw": 1
         },
-        # Class: CfgVehicles\Helicopter\AnimationSources\HitEngine2,
+        # Class: CfgVehicles\Helicopter\AnimationSources\HitEngine2 [Indent level: 2],
         "HitEngine2": {
             "source": "hit",
             "hitpoint": "HitEngine2",
             "raw": 1
         },
-        # Class: CfgVehicles\Helicopter\AnimationSources\HitWinch_Source,
+        # Class: CfgVehicles\Helicopter\AnimationSources\HitWinch_Source [Indent level: 2],
         "HitWinch_Source": {
             "source": "hit",
             "hitpoint": "HitWinch",
             "raw": 1
         },
-        # Class: CfgVehicles\Air\AnimationSources\CollisionLightRed_source,
+        # Class: CfgVehicles\Air\AnimationSources\CollisionLightRed_source [Indent level: 2],
         "CollisionLightRed_source": {
             "source": "MarkerLight",
             "markerLight": "CollisionRed"
         },
-        # Class: CfgVehicles\Air\AnimationSources\CollisionLightWhite_source,
+        # Class: CfgVehicles\Air\AnimationSources\CollisionLightWhite_source [Indent level: 2],
         "CollisionLightWhite_source": {
             "source": "MarkerLight",
             "markerLight": "CollisionWhite"
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y\UserActions,
+    # Class: CfgVehicles\RHS_UH1Y\UserActions [Indent level: 1],
     "UserActions": {
-        # Class: CfgVehicles\RHS_UH1Y\UserActions\HUDoff
+        # Class: CfgVehicles\RHS_UH1Y\UserActions\HUDoff [Indent level: 2]
         "HUDoff": {
             "displayName": "HUD on",
             "displayNameDefault": "HUD on",
@@ -4072,7 +4072,7 @@ RHS_UH1Y_d = {
             "condition": "(player==driver this)and(this animationphase 'HUDAction' !=1)",
             "statement": "this animate ['HUDAction',1];this animate ['HUDAction_1',1]"
         },
-        # Class: CfgVehicles\RHS_UH1Y\UserActions\HUDon,
+        # Class: CfgVehicles\RHS_UH1Y\UserActions\HUDon [Indent level: 2],
         "HUDon": {
             "displayName": "HUD off",
             "displayNameDefault": "HUD off",
@@ -4082,7 +4082,7 @@ RHS_UH1Y_d = {
             "radius": 1,
             "onlyForPlayer": 1
         },
-        # Class: CfgVehicles\RHS_UH1Y\UserActions\TogglePIP,
+        # Class: CfgVehicles\RHS_UH1Y\UserActions\TogglePIP [Indent level: 2],
         "TogglePIP": {
             "displayName": "Toggle monitor",
             "displayNameDefault": "Toggle monitor",
@@ -4092,7 +4092,7 @@ RHS_UH1Y_d = {
             "radius": 1,
             "onlyForPlayer": 1
         },
-        # Class: CfgVehicles\RHS_UH1Y\UserActions\ToggleLight,
+        # Class: CfgVehicles\RHS_UH1Y\UserActions\ToggleLight [Indent level: 2],
         "ToggleLight": {
             "displayName": "Toggle interior light",
             "position": "pos driver",
@@ -4103,28 +4103,28 @@ RHS_UH1Y_d = {
             "onlyforplayer": 1
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y\EventHandlers,
+    # Class: CfgVehicles\RHS_UH1Y\EventHandlers [Indent level: 1],
     "EventHandlers": {
-        # Class: CfgVehicles\RHS_UH1Y\EventHandlers\RHSUSF_EventHandlers
+        # Class: CfgVehicles\RHS_UH1Y\EventHandlers\RHSUSF_EventHandlers [Indent level: 2]
         "RHSUSF_EventHandlers": {
         },
         "fired": "",
         "init": "",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers,
+        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers [Indent level: 0],
         "RHS_DefaultEventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
     "side": 1,
-    # Class: CfgVehicles\RHS_UH1Y_US_base\Components,
+    # Class: CfgVehicles\RHS_UH1Y_US_base\Components [Indent level: 1],
     "Components": {
-        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent
+        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent [Indent level: 2]
         "TransportPylonsComponent": {
             "UIPicture": "rhsusf|addons|rhsusf_a2port_air2|data|loadouts|RHS_UH1_EDEN_CA.paa",
-            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons,
+            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons [Indent level: 3],
             "pylons": {
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons\pylon1
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons\pylon1 [Indent level: 4]
                 "pylon1": {
                     "hardpoints": ["RHS_HP_FFAR_USMC"],
                     "UIposition": [0.573,0.44],
@@ -4134,7 +4134,7 @@ RHS_UH1Y_d = {
                     "bay": -1,
                     "hitpoint": "HitPylon1"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons\pylon2,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons\pylon2 [Indent level: 4],
                 "pylon2": {
                     "UIposition": [0.1,0.44],
                     "mirroredMissilePos": 1,
@@ -4145,7 +4145,7 @@ RHS_UH1Y_d = {
                     "attachment": "rhs_mag_M151_7_green",
                     "bay": -1
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons\cmDispenser,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\pylons\cmDispenser [Indent level: 4],
                 "cmDispenser": {
                     "hardpoints": ["RHSUSF_cm_ANALE39","RHSUSF_cm_ANALE39_x2","RHSUSF_cm_ANALE39_x4"],
                     "priority": 1,
@@ -4154,39 +4154,39 @@ RHS_UH1Y_d = {
                     "UIposition": [0.33,0]
                 }
             },
-            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets,
+            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets [Indent level: 3],
             "Presets": {
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets\Empty
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets\Empty [Indent level: 4]
                 "Empty": {
                     "attachment": ["",""],
                     "displayname": "<empty>"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets\FFAR,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets\FFAR [Indent level: 4],
                 "FFAR": {
                     "attachment": ["rhs_mag_M151_7_green","rhs_mag_M151_7_green","rhsusf_ANALE39_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "FFAR"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets\GS,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportPylonsComponent\Presets\GS [Indent level: 4],
                 "GS": {
                     "attachment": ["rhs_mag_M151_19_green","rhs_mag_M151_19_green","rhsusf_ANALE39_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Ground Suppression"
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent,
+        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent [Indent level: 2],
         "SensorsManagerComponent": {
-            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components
+            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components [Indent level: 3]
             "Components": {
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\IRSensorComponent
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\IRSensorComponent [Indent level: 4]
                 "IRSensorComponent": {
-                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget
+                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget [Indent level: 5]
                     "AirTarget": {
                         "minRange": 2000,
                         "maxRange": 4000,
                         "objectDistanceLimitCoef": -1,
                         "viewDistanceLimitCoef": 1
                     },
-                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget,
+                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget [Indent level: 5],
                     "GroundTarget": {
                         "minRange": 4000,
                         "maxRange": 4000,
@@ -4211,16 +4211,16 @@ RHS_UH1Y_d = {
                     "minTrackableATL": -1e+010,
                     "maxTrackableATL": 1e+010
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\VisualSensorComponent,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\VisualSensorComponent [Indent level: 4],
                 "VisualSensorComponent": {
-                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget
+                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget [Indent level: 5]
                     "AirTarget": {
                         "minRange": 500,
                         "maxRange": 2000,
                         "objectDistanceLimitCoef": -1,
                         "viewDistanceLimitCoef": 1
                     },
-                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget,
+                    # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget [Indent level: 5],
                     "GroundTarget": {
                         "minRange": 500,
                         "maxRange": 2000,
@@ -4246,17 +4246,17 @@ RHS_UH1Y_d = {
                     "minTrackableATL": -1e+010,
                     "maxTrackableATL": 1e+010
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\LaserSensorComponent,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\LaserSensorComponent [Indent level: 4],
                 "LaserSensorComponent": {
                     "componentType": "LaserSensorComponent",
-                    # Class: SensorTemplateLaser\AirTarget,
+                    # Class: SensorTemplateLaser\AirTarget [Indent level: 0],
                     "AirTarget": {
                         "minRange": 6000,
                         "maxRange": 6000,
                         "objectDistanceLimitCoef": -1,
                         "viewDistanceLimitCoef": -1
                     },
-                    # Class: SensorTemplateLaser\GroundTarget,
+                    # Class: SensorTemplateLaser\GroundTarget [Indent level: 0],
                     "GroundTarget": {
                         "minRange": 6000,
                         "maxRange": 6000,
@@ -4279,17 +4279,17 @@ RHS_UH1Y_d = {
                     "minTrackableATL": -1e+010,
                     "maxTrackableATL": 1e+010
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\PassiveRadarSensorComponent,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\SensorsManagerComponent\Components\PassiveRadarSensorComponent [Indent level: 4],
                 "PassiveRadarSensorComponent": {
                     "componentType": "PassiveRadarSensorComponent",
-                    # Class: SensorTemplatePassiveRadar\AirTarget,
+                    # Class: SensorTemplatePassiveRadar\AirTarget [Indent level: 0],
                     "AirTarget": {
                         "minRange": 16000,
                         "maxRange": 16000,
                         "objectDistanceLimitCoef": -1,
                         "viewDistanceLimitCoef": -1
                     },
-                    # Class: SensorTemplatePassiveRadar\GroundTarget,
+                    # Class: SensorTemplatePassiveRadar\GroundTarget [Indent level: 0],
                     "GroundTarget": {
                         "minRange": 16000,
                         "maxRange": 16000,
@@ -4314,30 +4314,30 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft,
+        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 2],
         "VehicleSystemsDisplayManagerComponentLeft": {
-            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components
+            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components [Indent level: 3]
             "Components": {
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay [Indent level: 4]
                 "EmptyDisplay": {
                     "componentType": "EmptyDisplayComponent"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\MinimapDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\MinimapDisplay [Indent level: 4],
                 "MinimapDisplay": {
                     "componentType": "MinimapDisplayComponent",
                     "resource": "RscCustomInfoMiniMap"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay [Indent level: 4],
                 "CrewDisplay": {
                     "componentType": "CrewDisplayComponent",
                     "resource": "RscCustomInfoCrew"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SlingLoadDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SlingLoadDisplay [Indent level: 4],
                 "SlingLoadDisplay": {
                     "componentType": "SlingLoadDisplayComponent",
                     "resource": "RscCustomInfoSlingLoad"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SensorDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SensorDisplay [Indent level: 4],
                 "SensorDisplay": {
                     "componentType": "SensorsDisplayComponent",
                     "resource": "RscCustomInfoSensors",
@@ -4350,31 +4350,31 @@ RHS_UH1Y_d = {
             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
         },
-        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight,
+        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 2],
         "VehicleSystemsDisplayManagerComponentRight": {
             "defaultDisplay": "SensorDisplay",
-            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components,
+            # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components [Indent level: 3],
             "Components": {
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay [Indent level: 4]
                 "EmptyDisplay": {
                     "componentType": "EmptyDisplayComponent"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\MinimapDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\MinimapDisplay [Indent level: 4],
                 "MinimapDisplay": {
                     "componentType": "MinimapDisplayComponent",
                     "resource": "RscCustomInfoMiniMap"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay [Indent level: 4],
                 "CrewDisplay": {
                     "componentType": "CrewDisplayComponent",
                     "resource": "RscCustomInfoCrew"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\SlingLoadDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\SlingLoadDisplay [Indent level: 4],
                 "SlingLoadDisplay": {
                     "componentType": "SlingLoadDisplayComponent",
                     "resource": "RscCustomInfoSlingLoad"
                 },
-                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\SensorDisplay,
+                # Class: CfgVehicles\RHS_UH1Y_US_base\Components\VehicleSystemsDisplayManagerComponentRight\Components\SensorDisplay [Indent level: 4],
                 "SensorDisplay": {
                     "componentType": "SensorsDisplayComponent",
                     "resource": "RscCustomInfoSensors",
@@ -4386,7 +4386,7 @@ RHS_UH1Y_d = {
             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_X`,	((safezoneX + safezoneW) - (		(10 * 			(			((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40)))])",
             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
         },
-        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportCountermeasuresComponent,
+        # Class: CfgVehicles\RHS_UH1Y_US_base\Components\TransportCountermeasuresComponent [Indent level: 2],
         "TransportCountermeasuresComponent": {
         }
     },
@@ -4396,10 +4396,10 @@ RHS_UH1Y_d = {
     "picture": "rhsusf|addons|rhsusf_a2port_air|data|ico|rhs_uh1y_pic_ca.paa",
     "icon": "rhsusf|addons|rhsusf_a2port_air2|data|mapico|Icon_UH1Y_CA.paa",
     "mapSize": 15,
-    # Class: CfgVehicles\RHS_UH1Y_base\MFD,
+    # Class: CfgVehicles\RHS_UH1Y_base\MFD [Indent level: 1],
     "MFD": {
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\Library,
+    # Class: CfgVehicles\RHS_UH1Y_base\Library [Indent level: 1],
     "Library": {
         "libTextDesc": "The UH-1Y Venom is an American medium-size multipurpose utility army helicopter. It is equipped with two external Mk66 70 mm rocket stations and two M240D 7.62 mm machine guns.<br />The UH-1Y is able to carry up to 3 tons of cargo or up to 10 passengers. It can provide close air support missions as well as transportation or reconnaissance."
     },
@@ -4425,58 +4425,58 @@ RHS_UH1Y_d = {
     "threat": [0.8,0.1,0.3],
     "gunnerCanSee": "2+4+8+16",
     "driverCanSee": "2+4+8+16",
-    # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines,
+    # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines [Indent level: 1],
     "TransportMagazines": {
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag [Indent level: 2]
         "_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag": {
             "magazine": "rhs_mag_30Rnd_556x45_M855A1_Stanag",
             "count": 12
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_m67,
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_m67 [Indent level: 2],
         "_xx_rhs_mag_m67": {
             "magazine": "rhs_mag_m67",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_m18_green,
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_m18_green [Indent level: 2],
         "_xx_rhs_mag_m18_green": {
             "magazine": "rhs_mag_m18_green",
             "count": 2
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_m18_red,
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_m18_red [Indent level: 2],
         "_xx_rhs_mag_m18_red": {
             "magazine": "rhs_mag_m18_red",
             "count": 2
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_an_m8hc,
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportMagazines\_xx_rhs_mag_an_m8hc [Indent level: 2],
         "_xx_rhs_mag_an_m8hc": {
             "magazine": "rhs_mag_an_m8hc",
             "count": 4
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\TransportItems,
+    # Class: CfgVehicles\RHS_UH1Y_base\TransportItems [Indent level: 1],
     "TransportItems": {
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportItems\_xx_FirstAidKit
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportItems\_xx_FirstAidKit [Indent level: 2]
         "_xx_FirstAidKit": {
             "name": "FirstAidKit",
             "count": 10
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportItems\_xx_Medikit,
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportItems\_xx_Medikit [Indent level: 2],
         "_xx_Medikit": {
             "name": "Medikit",
             "count": 2
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\TransportWeapons,
+    # Class: CfgVehicles\RHS_UH1Y_base\TransportWeapons [Indent level: 1],
     "TransportWeapons": {
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportWeapons\_xx_rhs_weap_m4_carryhandle
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportWeapons\_xx_rhs_weap_m4_carryhandle [Indent level: 2]
         "_xx_rhs_weap_m4_carryhandle": {
             "weapon": "rhs_weap_m4_carryhandle",
             "count": 2
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\TransportBackpacks,
+    # Class: CfgVehicles\RHS_UH1Y_base\TransportBackpacks [Indent level: 1],
     "TransportBackpacks": {
-        # Class: CfgVehicles\RHS_UH1Y_base\TransportBackpacks\_xx_B_Parachute
+        # Class: CfgVehicles\RHS_UH1Y_base\TransportBackpacks\_xx_B_Parachute [Indent level: 2]
         "_xx_B_Parachute": {
             "backpack": "B_Parachute",
             "count": 4
@@ -4489,24 +4489,24 @@ RHS_UH1Y_d = {
     "driverInAction": "RHS_UH1Y_Pilot",
     "driverAction": "RHS_UH1Y_Pilot",
     "cargoAction": ["RHS_UH1Y_Cargo02","RHS_UH1Y_Cargo03","RHS_UH1Y_Cargo03","RHS_UH1Y_Cargo02","RHS_UH1Y_Cargo01"],
-    # Class: CfgVehicles\RHS_UH1Y_base\Exhausts,
+    # Class: CfgVehicles\RHS_UH1Y_base\Exhausts [Indent level: 1],
     "Exhausts": {
-        # Class: CfgVehicles\RHS_UH1Y_base\Exhausts\Exhaust1
+        # Class: CfgVehicles\RHS_UH1Y_base\Exhausts\Exhaust1 [Indent level: 2]
         "Exhaust1": {
             "position": "exhaust1",
             "direction": "exhaust1_dir",
             "effect": "ExhaustsEffectHeliCom"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\Exhausts\Exhaust2,
+        # Class: CfgVehicles\RHS_UH1Y_base\Exhausts\Exhaust2 [Indent level: 2],
         "Exhaust2": {
             "position": "exhaust2",
             "direction": "exhaust2_dir",
             "effect": "ExhaustsEffectHeliCom"
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights,
+    # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights [Indent level: 1],
     "MarkerLights": {
-        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\WhiteStill
+        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\WhiteStill [Indent level: 2]
         "WhiteStill": {
             "name": "bily pozicni",
             "color": [1,1,1],
@@ -4518,7 +4518,7 @@ RHS_UH1Y_d = {
             "drawLightSize": 0.2,
             "drawLightCenterSize": 0.04
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\RedStill,
+        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\RedStill [Indent level: 2],
         "RedStill": {
             "name": "cerveny pozicni",
             "color": [0.8,0,0],
@@ -4532,7 +4532,7 @@ RHS_UH1Y_d = {
             "dayLight": 0,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\GreenStill,
+        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\GreenStill [Indent level: 2],
         "GreenStill": {
             "name": "zeleny pozicni",
             "color": [0,0.8,0],
@@ -4546,7 +4546,7 @@ RHS_UH1Y_d = {
             "dayLight": 0,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\RedBlinking,
+        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\RedBlinking [Indent level: 2],
         "RedBlinking": {
             "name": "bily pozicni blik",
             "color": [0.9,0.15,0.1],
@@ -4558,7 +4558,7 @@ RHS_UH1Y_d = {
             "drawLightSize": 0.2,
             "drawLightCenterSize": 0.04
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\WhiteBlinking,
+        # Class: CfgVehicles\RHS_UH1Y_base\MarkerLights\WhiteBlinking [Indent level: 2],
         "WhiteBlinking": {
             "name": "cerveny pozicni blik",
             "blinkingPattern": [0.2,1.3],
@@ -4571,9 +4571,9 @@ RHS_UH1Y_d = {
             "blinkingPatternGuarantee": 0
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\Reflectors,
+    # Class: CfgVehicles\RHS_UH1Y_base\Reflectors [Indent level: 1],
     "Reflectors": {
-        # Class: CfgVehicles\RHS_UH1Y_base\Reflectors\Middle
+        # Class: CfgVehicles\RHS_UH1Y_base\Reflectors\Middle [Indent level: 2]
         "Middle": {
             "color": [7000,7500,10000,1],
             "ambient": [100,100,100,0],
@@ -4589,7 +4589,7 @@ RHS_UH1Y_d = {
             "useFlare": 1,
             "dayLight": 0,
             "FlareSize": 6,
-            # Class: CfgVehicles\RHS_UH1Y_base\Reflectors\Middle\Attenuation,
+            # Class: CfgVehicles\RHS_UH1Y_base\Reflectors\Middle\Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 1,
                 "constant": 0,
@@ -4598,9 +4598,9 @@ RHS_UH1Y_d = {
             }
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\HitPoints,
+    # Class: CfgVehicles\RHS_UH1Y_base\HitPoints [Indent level: 1],
     "HitPoints": {
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitAvionics
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitAvionics [Indent level: 2]
         "HitAvionics": {
             "visual": "-",
             "armor": 1.3,
@@ -4612,7 +4612,7 @@ RHS_UH1Y_d = {
             "material": 51,
             "passThrough": 1
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitEngine1,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitEngine1 [Indent level: 2],
         "HitEngine1": {
             "armor": 2.5,
             "radius": 0.12,
@@ -4624,7 +4624,7 @@ RHS_UH1Y_d = {
             "convexComponent": "engine_1_hit",
             "material": 51
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitEngine2,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitEngine2 [Indent level: 2],
         "HitEngine2": {
             "armor": 2.5,
             "radius": 0.12,
@@ -4636,7 +4636,7 @@ RHS_UH1Y_d = {
             "passThrough": 1,
             "material": 51
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitVRotor,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitVRotor [Indent level: 2],
         "HitVRotor": {
             "armor": 1,
             "material": 51,
@@ -4644,7 +4644,7 @@ RHS_UH1Y_d = {
             "visual": "mala vrtule staticka",
             "passThrough": 0.5
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitHRotor,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitHRotor [Indent level: 2],
         "HitHRotor": {
             "armor": 1,
             "material": 51,
@@ -4652,7 +4652,7 @@ RHS_UH1Y_d = {
             "visual": "velka vrtule staticka",
             "passThrough": 0.5
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitFuel,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitFuel [Indent level: 2],
         "HitFuel": {
             "armor": 3,
             "explosionShielding": 4,
@@ -4665,7 +4665,7 @@ RHS_UH1Y_d = {
             "convexComponent": "hull_hit",
             "material": 51
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitGlass7,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitGlass7 [Indent level: 2],
         "HitGlass7": {
             "name": "glass7",
             "visual": "glass7",
@@ -4674,10 +4674,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 2,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -4686,7 +4686,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -4695,7 +4695,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -4704,7 +4704,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -4713,7 +4713,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -4722,7 +4722,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -4731,7 +4731,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -4740,7 +4740,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -4749,7 +4749,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -4758,7 +4758,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -4769,7 +4769,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1 [Indent level: 2],
         "HitPylon1": {
             "armor": -30,
             "material": -1,
@@ -4779,12 +4779,12 @@ RHS_UH1Y_d = {
             "explosionShielding": 0.1,
             "radius": 0.7,
             "visual": "-",
-            # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects,
+            # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -4793,7 +4793,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -4802,7 +4802,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -4811,7 +4811,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon1\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -4822,7 +4822,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2,
+        # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2 [Indent level: 2],
         "HitPylon2": {
             "armor": -30,
             "material": -1,
@@ -4832,12 +4832,12 @@ RHS_UH1Y_d = {
             "explosionShielding": 0.1,
             "radius": 0.7,
             "visual": "-",
-            # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects,
+            # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -4846,7 +4846,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -4855,7 +4855,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -4864,7 +4864,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_UH1Y_base\HitPoints\HitPylon2\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -4875,7 +4875,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitHull,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitHull [Indent level: 2],
         "HitHull": {
             "armor": 999,
             "minimalHit": 0.05,
@@ -4888,7 +4888,7 @@ RHS_UH1Y_d = {
             "visual": "trup",
             "passThrough": 1
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitEngine,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitEngine [Indent level: 2],
         "HitEngine": {
             "armor": 999,
             "radius": 0.05,
@@ -4901,7 +4901,7 @@ RHS_UH1Y_d = {
             "visual": "motor",
             "passThrough": 1
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "name": "glass1",
             "visual": "glass1",
@@ -4910,10 +4910,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 2,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -4922,7 +4922,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -4931,7 +4931,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -4940,7 +4940,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -4949,7 +4949,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -4958,7 +4958,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -4967,7 +4967,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -4976,7 +4976,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -4985,7 +4985,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -4994,7 +4994,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass1\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5005,7 +5005,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "name": "glass2",
             "visual": "glass2",
@@ -5014,10 +5014,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 1.5,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5026,7 +5026,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5035,7 +5035,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5044,7 +5044,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5053,7 +5053,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5062,7 +5062,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5071,7 +5071,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5080,7 +5080,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5089,7 +5089,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5098,7 +5098,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass2\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5109,7 +5109,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "name": "glass3",
             "visual": "glass3",
@@ -5118,10 +5118,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 1.5,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5130,7 +5130,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5139,7 +5139,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5148,7 +5148,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5157,7 +5157,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5166,7 +5166,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5175,7 +5175,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5184,7 +5184,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5193,7 +5193,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5202,7 +5202,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass3\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5213,7 +5213,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "name": "glass4",
             "visual": "glass4",
@@ -5222,10 +5222,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 1.5,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5234,7 +5234,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5243,7 +5243,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5252,7 +5252,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5261,7 +5261,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5270,7 +5270,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5279,7 +5279,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5288,7 +5288,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5297,7 +5297,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5306,7 +5306,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass4\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5317,7 +5317,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "name": "glass5",
             "visual": "glass5",
@@ -5326,10 +5326,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 2,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5338,7 +5338,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5347,7 +5347,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5356,7 +5356,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5365,7 +5365,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5374,7 +5374,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5383,7 +5383,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5392,7 +5392,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5401,7 +5401,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5410,7 +5410,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass5\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5421,7 +5421,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "name": "glass6",
             "visual": "glass6",
@@ -5430,10 +5430,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 1.5,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5442,7 +5442,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5451,7 +5451,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5460,7 +5460,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5469,7 +5469,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5478,7 +5478,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5487,7 +5487,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5496,7 +5496,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5505,7 +5505,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5514,7 +5514,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass6\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5525,7 +5525,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8 [Indent level: 2],
         "HitGlass8": {
             "name": "glass8",
             "visual": "glass8",
@@ -5534,10 +5534,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 1.5,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5546,7 +5546,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5555,7 +5555,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5564,7 +5564,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5573,7 +5573,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5582,7 +5582,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5591,7 +5591,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5600,7 +5600,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5609,7 +5609,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5618,7 +5618,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass8\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5629,7 +5629,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9 [Indent level: 2],
         "HitGlass9": {
             "name": "glass9",
             "visual": "glass9",
@@ -5638,10 +5638,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 1,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5650,7 +5650,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5659,7 +5659,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5668,7 +5668,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5677,7 +5677,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5686,7 +5686,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5695,7 +5695,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5704,7 +5704,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5713,7 +5713,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5722,7 +5722,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass9\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5733,7 +5733,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10,
+        # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10 [Indent level: 2],
         "HitGlass10": {
             "name": "glass10",
             "visual": "glass10",
@@ -5742,10 +5742,10 @@ RHS_UH1Y_d = {
             "explosionShielding": 1,
             "minimalHit": 0.025,
             "passThrough": 0,
-            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects,
+            # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass1,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass1 [Indent level: 4],
                 "BrokenGlass1": {
                     "simulation": "particles",
                     "type": "BrokenGlass1NS",
@@ -5754,7 +5754,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass2,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass2 [Indent level: 4],
                 "BrokenGlass2": {
                     "simulation": "particles",
                     "type": "BrokenGlass2NS",
@@ -5763,7 +5763,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass3,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass3 [Indent level: 4],
                 "BrokenGlass3": {
                     "simulation": "particles",
                     "type": "BrokenGlass3NS",
@@ -5772,7 +5772,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass4,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass4 [Indent level: 4],
                 "BrokenGlass4": {
                     "simulation": "particles",
                     "type": "BrokenGlass4NS",
@@ -5781,7 +5781,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass5,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass5 [Indent level: 4],
                 "BrokenGlass5": {
                     "simulation": "particles",
                     "type": "BrokenGlass5NS",
@@ -5790,7 +5790,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass1S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass1S [Indent level: 4],
                 "BrokenGlass1S": {
                     "simulation": "particles",
                     "type": "BrokenGlass1SS",
@@ -5799,7 +5799,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass2S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass2S [Indent level: 4],
                 "BrokenGlass2S": {
                     "simulation": "particles",
                     "type": "BrokenGlass2SS",
@@ -5808,7 +5808,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass3S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass3S [Indent level: 4],
                 "BrokenGlass3S": {
                     "simulation": "particles",
                     "type": "BrokenGlass3SS",
@@ -5817,7 +5817,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass4S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass4S [Indent level: 4],
                 "BrokenGlass4S": {
                     "simulation": "particles",
                     "type": "BrokenGlass4SS",
@@ -5826,7 +5826,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.05
                 },
-                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass5S,
+                # Class: CfgVehicles\Heli_light_03_base_F\HitPoints\HitGlass10\DestructionEffects\BrokenGlass5S [Indent level: 4],
                 "BrokenGlass5S": {
                     "simulation": "particles",
                     "type": "BrokenGlass5SS",
@@ -5837,7 +5837,7 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Helicopter_Base_F\HitPoints\HitMissiles,
+        # Class: CfgVehicles\Helicopter_Base_F\HitPoints\HitMissiles [Indent level: 2],
         "HitMissiles": {
             "name": "ammo_hit",
             "convexComponent": "ammo_hit",
@@ -5847,7 +5847,7 @@ RHS_UH1Y_d = {
             "visual": "munice",
             "passThrough": 0.5
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitRGlass,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitRGlass [Indent level: 2],
         "HitRGlass": {
             "convexComponent": "sklo predni P",
             "explosionShielding": 1,
@@ -5857,7 +5857,7 @@ RHS_UH1Y_d = {
             "visual": "sklo predni P",
             "passThrough": 0
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitLGlass,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitLGlass [Indent level: 2],
         "HitLGlass": {
             "convexComponent": "sklo predni L",
             "explosionShielding": 1,
@@ -5867,7 +5867,7 @@ RHS_UH1Y_d = {
             "visual": "sklo predni L",
             "passThrough": 0
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitEngine3,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitEngine3 [Indent level: 2],
         "HitEngine3": {
             "name": "engine_3_hit",
             "convexComponent": "engine_3_hit",
@@ -5877,7 +5877,7 @@ RHS_UH1Y_d = {
             "visual": "motor",
             "passThrough": 1
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitWinch,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitWinch [Indent level: 2],
         "HitWinch": {
             "armor": -40,
             "material": 51,
@@ -5885,10 +5885,10 @@ RHS_UH1Y_d = {
             "visual": "",
             "passThrough": 0,
             "radius": 0.1,
-            # Class: CfgVehicles\Helicopter\HitPoints\HitWinch\DestructionEffects,
+            # Class: CfgVehicles\Helicopter\HitPoints\HitWinch\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\Helicopter\HitPoints\HitWinch\DestructionEffects\Explo,
+                # Class: CfgVehicles\Helicopter\HitPoints\HitWinch\DestructionEffects\Explo [Indent level: 4],
                 "Explo": {
                     "simulation": "particles",
                     "type": "WinchDestructionExplo",
@@ -5897,7 +5897,7 @@ RHS_UH1Y_d = {
                     "interval": 1,
                     "lifeTime": 0.06
                 },
-                # Class: CfgVehicles\Helicopter\HitPoints\HitWinch\DestructionEffects\Sparks,
+                # Class: CfgVehicles\Helicopter\HitPoints\HitWinch\DestructionEffects\Sparks [Indent level: 4],
                 "Sparks": {
                     "simulation": "particles",
                     "type": "WinchDestructionSparks",
@@ -5908,91 +5908,91 @@ RHS_UH1Y_d = {
                 }
             }
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitTransmission,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitTransmission [Indent level: 2],
         "HitTransmission": {
             "armor": 0.8,
             "material": -1,
             "name": "transmission",
             "passThrough": 0.8
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitLight,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitLight [Indent level: 2],
         "HitLight": {
             "armor": 0.1,
             "material": -1,
             "name": "light",
             "passThrough": 0
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitHydraulics,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitHydraulics [Indent level: 2],
         "HitHydraulics": {
             "armor": 0.8,
             "material": -1,
             "name": "hydraulics",
             "passThrough": 0.8
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitGear,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitGear [Indent level: 2],
         "HitGear": {
             "armor": 0.9,
             "material": -1,
             "name": "gear",
             "passThrough": 0
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitHStabilizerL1,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitHStabilizerL1 [Indent level: 2],
         "HitHStabilizerL1": {
             "armor": 0.8,
             "material": -1,
             "name": "HStabilizerL1",
             "passThrough": 1
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitHStabilizerR1,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitHStabilizerR1 [Indent level: 2],
         "HitHStabilizerR1": {
             "armor": 0.8,
             "material": -1,
             "name": "HStabilizerR1",
             "passThrough": 0
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitVStabilizer1,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitVStabilizer1 [Indent level: 2],
         "HitVStabilizer1": {
             "armor": 0.8,
             "material": -1,
             "name": "VStabilizer1",
             "passThrough": 1
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitTail,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitTail [Indent level: 2],
         "HitTail": {
             "armor": 0.8,
             "material": -1,
             "name": "tail boom",
             "passThrough": 1
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitPitotTube,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitPitotTube [Indent level: 2],
         "HitPitotTube": {
             "armor": 0.5,
             "material": -1,
             "name": "pitot tube",
             "passThrough": 0.2
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitStaticPort,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitStaticPort [Indent level: 2],
         "HitStaticPort": {
             "armor": 0.1,
             "material": -1,
             "name": "static port",
             "passThrough": 1
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitStarter1,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitStarter1 [Indent level: 2],
         "HitStarter1": {
             "armor": 0.1,
             "material": -1,
             "name": "starter1",
             "passThrough": 0
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitStarter2,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitStarter2 [Indent level: 2],
         "HitStarter2": {
             "armor": 0.1,
             "material": -1,
             "name": "starter2",
             "passThrough": 0
         },
-        # Class: CfgVehicles\Helicopter\HitPoints\HitStarter3,
+        # Class: CfgVehicles\Helicopter\HitPoints\HitStarter3 [Indent level: 2],
         "HitStarter3": {
             "armor": 0.1,
             "material": -1,
@@ -6000,7 +6000,7 @@ RHS_UH1Y_d = {
             "passThrough": 0
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\Damage,
+    # Class: CfgVehicles\RHS_UH1Y_base\Damage [Indent level: 1],
     "Damage": {
         "tex": [],
         "mat": ["rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_sklo.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_sklo_damage.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_sklo_damage.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_sklo_in.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_sklo_in_damage.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_sklo_in_damage.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_ext.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_ext_damage.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_ext_destruct.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_int.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_int_damage.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_int_destruct.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|launcher.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|launcher.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|launcher_destruct.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_cockpit.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_cockpit_damage.rvmat","rhsusf|addons|rhsusf_a2port_air2|UH1Y|data|uh1y_cockpit_destruct.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","a3|data_f|default_destruct.rvmat"]
@@ -6009,9 +6009,9 @@ RHS_UH1Y_d = {
     "incomingMissileDetectionSystem": 16,
     "hiddenSelections": ["camo1","camo2","rn1","rn2","rn3","rn4","tn1","tn2","tn3","tn4","tn5","tn6","dn1","dn2","dn3","dn4","dn5","dn6","dn7","dn8","dn9","dn10","dn11","dn12","zn1","zn2","zn3"],
     "hiddenSelectionsTextures": ["rhsusf|addons|rhsusf_a2port_air2|uh1y|data|uh1y_ext_co.paa","rhsusf|addons|rhsusf_a2port_air2|uh1y|data|uh1y_int_co.paa"],
-    # Class: CfgVehicles\RHS_UH1Y_base\textureSources,
+    # Class: CfgVehicles\RHS_UH1Y_base\textureSources [Indent level: 1],
     "textureSources": {
-        # Class: CfgVehicles\RHS_UH1Y_base\textureSources\standard
+        # Class: CfgVehicles\RHS_UH1Y_base\textureSources\standard [Indent level: 2]
         "standard": {
             "displayName": "Standard",
             "author": "Red Hammer Studios",
@@ -6020,16 +6020,16 @@ RHS_UH1Y_d = {
         }
     },
     "textureList": ["standard",1],
-    # Class: CfgVehicles\RHS_UH1Y_base\Attributes,
+    # Class: CfgVehicles\RHS_UH1Y_base\Attributes [Indent level: 1],
     "Attributes": {
-        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\ObjectTexture
+        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\ObjectTexture [Indent level: 2]
         "ObjectTexture": {
             "control": "ObjectTexture",
             "data": "ObjectTexture",
             "displayName": "Skin",
             "tooltip": "Texture and material set applied on the object."
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\DoorL,
+        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\DoorL [Indent level: 2],
         "DoorL": {
             "displayName": "Open left door",
             "property": "DoorL",
@@ -6037,7 +6037,7 @@ RHS_UH1Y_d = {
             "defaultValue": "0",
             "expression": "_this animateDoor ['%s',_value,true]"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\DoorR,
+        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\DoorR [Indent level: 2],
         "DoorR": {
             "displayName": "Open right door",
             "property": "DoorR",
@@ -6045,7 +6045,7 @@ RHS_UH1Y_d = {
             "defaultValue": "0",
             "expression": "_this animateDoor ['%s',_value,true]"
         },
-        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\FoldHeli,
+        # Class: CfgVehicles\RHS_UH1Y_base\Attributes\FoldHeli [Indent level: 2],
         "FoldHeli": {
             "displayName": "Fold helicopter rotors",
             "property": "FoldHeli",
@@ -6054,7 +6054,7 @@ RHS_UH1Y_d = {
             "defaultValue": "0"
         }
     },
-    # Class: CfgVehicles\RHS_UH1Y_base\RotorLibHelicopterProperties,
+    # Class: CfgVehicles\RHS_UH1Y_base\RotorLibHelicopterProperties [Indent level: 1],
     "RotorLibHelicopterProperties": {
         "RTDconfig": "rhsusf|addons|rhsusf_c_a2port_air|UH1Y|RTD_UH1Y.xml",
         "defaultCollective": 0.75,
@@ -6087,7 +6087,7 @@ RHS_UH1Y_d = {
     "availableForSupportTypes": ["Drop","Transport"],
     "cargoCanEject": 1,
     "driverCanEject": 0,
-    # Class: CfgVehicles\RHS_UH1_Base\pilotCamera,
+    # Class: CfgVehicles\RHS_UH1_Base\pilotCamera [Indent level: 1],
     "pilotCamera": {
     },
     "unitInfoType": "RHSUSF_RscUnitInfoAir_UH1Y",
@@ -6109,10 +6109,10 @@ RHS_UH1Y_d = {
     "GetOutAction": "pilot_Heli_Light_02_Exit",
     "preciseGetInOut": 1,
     "getInRadius": 1.5,
-    # Class: CfgVehicles\RHS_UH1_Base\RenderTargets,
+    # Class: CfgVehicles\RHS_UH1_Base\RenderTargets [Indent level: 1],
     "RenderTargets": {
     },
-    # Class: CfgVehicles\RHS_UH1_Base\ViewPilot,
+    # Class: CfgVehicles\RHS_UH1_Base\ViewPilot [Indent level: 1],
     "ViewPilot": {
         "initFov": 0.75,
         "minFov": 0.3,
@@ -6198,337 +6198,337 @@ RHS_UH1Y_d = {
     "gearDownInt": ["A3|Sounds_F|vehicles|air|Heli_Transport_01|gear_down_IN",1,1,100],
     "gearDownExt": ["A3|Sounds_F|vehicles|air|Heli_Transport_01|gear_down_OUT",1,1,1000],
     "gearDown": ["gearDownInt","gearDownExt"],
-    # Class: CfgVehicles\Heli_light_03_base_F\Sounds,
+    # Class: CfgVehicles\Heli_light_03_base_F\Sounds [Indent level: 1],
     "Sounds": {
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\EngineExt
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\EngineExt [Indent level: 2]
         "EngineExt": {
             "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_engine_ext",1.77828,1,700],
             "frequency": "rotorSpeed",
             "volume": "camPos*((rotorSpeed-0.72)*4)"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RotorExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RotorExt [Indent level: 2],
         "RotorExt": {
             "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_rotor_ext",1.41254,1,1100],
             "frequency": "rotorSpeed * (1-rotorThrust/5)",
             "volume": "camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RotorNoiseExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RotorNoiseExt [Indent level: 2],
         "RotorNoiseExt": {
             "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|rotor_swist",1,1,300],
             "frequency": 1,
             "volume": "camPos * (rotorThrust factor [0.7, 0.9])",
             "cone": [0.7,1.3,1,0]
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\EngineInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\EngineInt [Indent level: 2],
         "EngineInt": {
             "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_engine_int",1,1],
             "frequency": "rotorSpeed",
             "volume": "(1-camPos)*((rotorSpeed-0.75)*4)"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RotorInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RotorInt [Indent level: 2],
         "RotorInt": {
             "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_rotor_int",1.77828,1],
             "frequency": "rotorSpeed * (1-rotorThrust/5)",
             "volume": "(1-camPos)*(0 max (rotorSpeed*rotorSpeed-0.1))*(1 + rotorThrust)"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageExt_phase1,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageExt_phase1 [Indent level: 2],
         "TransmissionDamageExt_phase1": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_1",1,1,150],
             "frequency": "0.66 + rotorSpeed / 3",
             "volume": "camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageExt_phase2,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageExt_phase2 [Indent level: 2],
         "TransmissionDamageExt_phase2": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_2",1,1,150],
             "frequency": "0.66 + rotorSpeed / 3",
             "volume": "camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageInt_phase1,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageInt_phase1 [Indent level: 2],
         "TransmissionDamageInt_phase1": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_1",1,1,150],
             "frequency": "0.66 + rotorSpeed / 3",
             "volume": "(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageInt_phase2,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\TransmissionDamageInt_phase2 [Indent level: 2],
         "TransmissionDamageInt_phase2": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_2",1,1,150],
             "frequency": "0.66 + rotorSpeed / 3",
             "volume": "(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\damageAlarmInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\damageAlarmInt [Indent level: 2],
         "damageAlarmInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.316228,1],
             "frequency": 1,
             "volume": "engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0.0, 0.001])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\damageAlarmExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\damageAlarmExt [Indent level: 2],
         "damageAlarmExt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.223872,1,20],
             "frequency": 1,
             "volume": "engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\rotorLowAlarmInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\rotorLowAlarmInt [Indent level: 2],
         "rotorLowAlarmInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.316228,1],
             "frequency": 1,
             "volume": "engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\rotorLowAlarmExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\rotorLowAlarmExt [Indent level: 2],
         "rotorLowAlarmExt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.223872,1,20],
             "frequency": 1,
             "volume": "engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubLandInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubLandInt [Indent level: 2],
         "scrubLandInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|scrubLandInt_open",1,1,100],
             "frequency": 1,
             "volume": "2 * (1-camPos) * (scrubLand factor[0.02, 0.05])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubLandExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubLandExt [Indent level: 2],
         "scrubLandExt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|scrubLandExt",1,1,100],
             "frequency": 1,
             "volume": "camPos * (scrubLand factor[0.02, 0.05])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubBuildingInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubBuildingInt [Indent level: 2],
         "scrubBuildingInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|scrubBuildingInt",1,1,100],
             "frequency": 1,
             "volume": "2 * (1 - camPos) * (scrubBuilding factor[0.02, 0.05])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubBuildingExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubBuildingExt [Indent level: 2],
         "scrubBuildingExt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|scrubBuildingExt",1,1,100],
             "frequency": 1,
             "volume": "camPos * (scrubBuilding factor[0.02, 0.05])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubTreeInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubTreeInt [Indent level: 2],
         "scrubTreeInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeExt",1,1,100],
             "frequency": 1,
             "volume": "(1 - camPos) * ((scrubTree) factor [0, 0.01])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubTreeExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\scrubTreeExt [Indent level: 2],
         "scrubTreeExt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeExt",1,1,100],
             "frequency": 1,
             "volume": "camPos * ((scrubTree) factor [0, 0.01])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RainExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RainExt [Indent level: 2],
         "RainExt": {
             "sound": ["A3|Sounds_F|vehicles|noises|rain1_ext",1,1,100],
             "frequency": 1,
             "volume": "camPos * (rain - rotorSpeed/2) * 2"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RainInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\RainInt [Indent level: 2],
         "RainInt": {
             "sound": ["A3|Sounds_F|vehicles|noises|rain1_int",1,1,100],
             "frequency": 1,
             "volume": "(1-camPos)*(rain - rotorSpeed/2)*2"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadDownExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadDownExt [Indent level: 2],
         "SlingLoadDownExt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownEXT",1.25893,1,500],
             "frequency": 1,
             "volume": "camPos*(slingLoadActive factor [0,-1])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadUpExt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadUpExt [Indent level: 2],
         "SlingLoadUpExt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpEXT",1.25893,1,500],
             "frequency": 1,
             "volume": "camPos*(slingLoadActive factor [0,1])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadDownInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadDownInt [Indent level: 2],
         "SlingLoadDownInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownINT",1,1,500],
             "frequency": 1,
             "volume": "(1-camPos)*(slingLoadActive factor [0,-1])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadUpInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\SlingLoadUpInt [Indent level: 2],
         "SlingLoadUpInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpINT",1,1,500],
             "frequency": 1,
             "volume": "(1-camPos)*(slingLoadActive factor [0,1])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\WindInt,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\WindInt [Indent level: 2],
         "WindInt": {
             "sound": ["A3|Sounds_F|vehicles|air|noises|wind_open_int",0.562341,1,50],
             "frequency": 1,
             "volume": "(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])"
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\GStress,
+        # Class: CfgVehicles\Heli_light_03_base_F\Sounds\GStress [Indent level: 2],
         "GStress": {
             "sound": ["A3|Sounds_F|vehicles|noises|vehicle_stress2b",0.354813,1,50],
             "frequency": 1,
             "volume": "engineOn * (1-camPos) * ((gmeterZ factor[1.5, 2.5]) + (gmeterZ factor[0.5, -0.5]))"
         }
     },
-    # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt,
+    # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt [Indent level: 1],
     "SoundsExt": {
-        # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\SoundEvents
+        # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\SoundEvents [Indent level: 2]
         "SoundEvents": {
         },
-        # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds,
+        # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds [Indent level: 2],
         "Sounds": {
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\EngineExt
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\EngineExt [Indent level: 3]
             "EngineExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_engine_ext",1.77828,1,700],
                 "frequency": "rotorSpeed",
                 "volume": "camPos*((rotorSpeed-0.72)*4)"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RotorExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RotorExt [Indent level: 3],
             "RotorExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_rotor_ext",1.41254,1,1100],
                 "frequency": "rotorSpeed * (1-rotorThrust/5)",
                 "volume": "camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RotorNoiseExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RotorNoiseExt [Indent level: 3],
             "RotorNoiseExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|rotor_swist",1,1,300],
                 "frequency": 1,
                 "volume": "camPos * (rotorThrust factor [0.7, 0.9])",
                 "cone": [0.7,1.3,1,0]
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\EngineInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\EngineInt [Indent level: 3],
             "EngineInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_engine_int",1,1],
                 "frequency": "rotorSpeed",
                 "volume": "(1-camPos)*((rotorSpeed-0.75)*4)"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RotorInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RotorInt [Indent level: 3],
             "RotorInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|Heli_Light_03|heli_rotor_int",1.77828,1],
                 "frequency": "rotorSpeed * (1-rotorThrust/5)",
                 "volume": "(1-camPos)*(0 max (rotorSpeed*rotorSpeed-0.1))*(1 + rotorThrust)"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageExt_phase1,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageExt_phase1 [Indent level: 3],
             "TransmissionDamageExt_phase1": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_1",1,1,150],
                 "frequency": "0.66 + rotorSpeed / 3",
                 "volume": "camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageExt_phase2,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageExt_phase2 [Indent level: 3],
             "TransmissionDamageExt_phase2": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_2",1,1,150],
                 "frequency": "0.66 + rotorSpeed / 3",
                 "volume": "camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageInt_phase1,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageInt_phase1 [Indent level: 3],
             "TransmissionDamageInt_phase1": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_1",1,1,150],
                 "frequency": "0.66 + rotorSpeed / 3",
                 "volume": "(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageInt_phase2,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\TransmissionDamageInt_phase2 [Indent level: 3],
             "TransmissionDamageInt_phase2": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_2",1,1,150],
                 "frequency": "0.66 + rotorSpeed / 3",
                 "volume": "(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\damageAlarmInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\damageAlarmInt [Indent level: 3],
             "damageAlarmInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.316228,1],
                 "frequency": 1,
                 "volume": "engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0.0, 0.001])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\damageAlarmExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\damageAlarmExt [Indent level: 3],
             "damageAlarmExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.223872,1,20],
                 "frequency": 1,
                 "volume": "engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\rotorLowAlarmInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\rotorLowAlarmInt [Indent level: 3],
             "rotorLowAlarmInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.316228,1],
                 "frequency": 1,
                 "volume": "engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\rotorLowAlarmExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\rotorLowAlarmExt [Indent level: 3],
             "rotorLowAlarmExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.223872,1,20],
                 "frequency": 1,
                 "volume": "engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubLandInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubLandInt [Indent level: 3],
             "scrubLandInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|scrubLandInt_open",1,1,100],
                 "frequency": 1,
                 "volume": "2 * (1-camPos) * (scrubLand factor[0.02, 0.05])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubLandExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubLandExt [Indent level: 3],
             "scrubLandExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|scrubLandExt",1,1,100],
                 "frequency": 1,
                 "volume": "camPos * (scrubLand factor[0.02, 0.05])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubBuildingInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubBuildingInt [Indent level: 3],
             "scrubBuildingInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|scrubBuildingInt",1,1,100],
                 "frequency": 1,
                 "volume": "2 * (1 - camPos) * (scrubBuilding factor[0.02, 0.05])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubBuildingExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubBuildingExt [Indent level: 3],
             "scrubBuildingExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|scrubBuildingExt",1,1,100],
                 "frequency": 1,
                 "volume": "camPos * (scrubBuilding factor[0.02, 0.05])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubTreeInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubTreeInt [Indent level: 3],
             "scrubTreeInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeExt",1,1,100],
                 "frequency": 1,
                 "volume": "(1 - camPos) * ((scrubTree) factor [0, 0.01])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubTreeExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\scrubTreeExt [Indent level: 3],
             "scrubTreeExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeExt",1,1,100],
                 "frequency": 1,
                 "volume": "camPos * ((scrubTree) factor [0, 0.01])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RainExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RainExt [Indent level: 3],
             "RainExt": {
                 "sound": ["A3|Sounds_F|vehicles|noises|rain1_ext",1,1,100],
                 "frequency": 1,
                 "volume": "camPos * (rain - rotorSpeed/2) * 2"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RainInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\RainInt [Indent level: 3],
             "RainInt": {
                 "sound": ["A3|Sounds_F|vehicles|noises|rain1_int",1,1,100],
                 "frequency": 1,
                 "volume": "(1-camPos)*(rain - rotorSpeed/2)*2"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadDownExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadDownExt [Indent level: 3],
             "SlingLoadDownExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownEXT",1,1,500],
                 "frequency": 1,
                 "volume": "camPos*(slingLoadActive factor [0,-1])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadUpExt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadUpExt [Indent level: 3],
             "SlingLoadUpExt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpEXT",1,1,500],
                 "frequency": 1,
                 "volume": "camPos*(slingLoadActive factor [0,1])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadDownInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadDownInt [Indent level: 3],
             "SlingLoadDownInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownINT",1,1,500],
                 "frequency": 1,
                 "volume": "(1-camPos)*(slingLoadActive factor [0,-1])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadUpInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\SlingLoadUpInt [Indent level: 3],
             "SlingLoadUpInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpINT",1,1,500],
                 "frequency": 1,
                 "volume": "(1-camPos)*(slingLoadActive factor [0,1])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\WindInt,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\WindInt [Indent level: 3],
             "WindInt": {
                 "sound": ["A3|Sounds_F|vehicles|air|noises|wind_open_int",0.562341,1,50],
                 "frequency": 1,
                 "volume": "(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])"
             },
-            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\GStress,
+            # Class: CfgVehicles\Heli_light_03_base_F\SoundsExt\Sounds\GStress [Indent level: 3],
             "GStress": {
                 "sound": ["A3|Sounds_F|vehicles|noises|vehicle_stress2b",0.354813,1,50],
                 "frequency": 1,
@@ -6536,7 +6536,7 @@ RHS_UH1Y_d = {
             }
         }
     },
-    # Class: CfgVehicles\Heli_light_03_base_F\Armory,
+    # Class: CfgVehicles\Heli_light_03_base_F\Armory [Indent level: 1],
     "Armory": {
         "description": "The WY-55 Hellcat is a multi-purpose military helicopter, most suited for a role of anti-surface battlefield utility, which also has a limited transport capacity. It replaces its predecessor the Super Lynx, improving the maneuverability, durability and protection. The armed version is fitted with twin miniguns and unguided rockets."
     },
@@ -6566,7 +6566,7 @@ RHS_UH1Y_d = {
     "driverLeftLegAnimName": "pedalL",
     "driverRightLegAnimName": "pedalR",
     "destrType": "DestructWreck",
-    # Class: CfgVehicles\Helicopter_Base_F\CamShake,
+    # Class: CfgVehicles\Helicopter_Base_F\CamShake [Indent level: 1],
     "CamShake": {
         "power": 30,
         "frequency": 20,
@@ -6581,13 +6581,13 @@ RHS_UH1Y_d = {
     "gearUpTime": 3.33,
     "gearDownTime": 2,
     "gearMinAlt": 0.5,
-    # Class: CfgVehicles\Helicopter\CargoSpec,
+    # Class: CfgVehicles\Helicopter\CargoSpec [Indent level: 1],
     "CargoSpec": {
-        # Class: CfgVehicles\Helicopter\CargoSpec\Cargo1
+        # Class: CfgVehicles\Helicopter\CargoSpec\Cargo1 [Indent level: 2]
         "Cargo1": {
             "showHeadPhones": 1
         },
-        # Class: CfgVehicles\Helicopter\CargoSpec\Cargo2,
+        # Class: CfgVehicles\Helicopter\CargoSpec\Cargo2 [Indent level: 2],
         "Cargo2": {
             "showHeadPhones": 0
         }
@@ -6609,7 +6609,7 @@ RHS_UH1Y_d = {
     "minFireTime": 20,
     "steerAheadSimul": 0.5,
     "steerAheadPlan": 0.7,
-    # Class: CfgVehicles\Helicopter\ViewOptics,
+    # Class: CfgVehicles\Helicopter\ViewOptics [Indent level: 1],
     "ViewOptics": {
         "initAngleX": 0,
         "minAngleX": -40,
@@ -6631,9 +6631,9 @@ RHS_UH1Y_d = {
     },
     "soundLandingGear": ["",1,1],
     "slingLoadMemoryPoint": "slingLoad0",
-    # Class: CfgVehicles\Helicopter\SpeechVariants,
+    # Class: CfgVehicles\Helicopter\SpeechVariants [Indent level: 1],
     "SpeechVariants": {
-        # Class: CfgVehicles\Helicopter\SpeechVariants\Default
+        # Class: CfgVehicles\Helicopter\SpeechVariants\Default [Indent level: 2]
         "Default": {
             "speechSingular": ["veh_air_helicopter_s"],
             "speechPlural": ["veh_air_helicopter_p"]
@@ -6659,7 +6659,7 @@ RHS_UH1Y_d = {
     "crewVulnerable": 1,
     "explosionShielding": 4,
     "minTotalDamageThreshold": 0.005,
-    # Class: CfgVehicles\Helicopter\DestructionEffects,
+    # Class: CfgVehicles\Helicopter\DestructionEffects [Indent level: 1],
     "DestructionEffects": {
     },
     "mainBladeCenter": "rotor_center",
@@ -6698,14 +6698,14 @@ RHS_UH1Y_d = {
     "flareVelocity": 100,
     "enableRadio": 1,
     "countermeasureActivationRadius": 10000,
-    # Class: CfgVehicles\Air\camShakeGForce,
+    # Class: CfgVehicles\Air\camShakeGForce [Indent level: 1],
     "camShakeGForce": {
         "power": 0.2,
         "frequency": 3,
         "distance": 0,
         "minSpeed": 1
     },
-    # Class: CfgVehicles\Air\camShakeDamage,
+    # Class: CfgVehicles\Air\camShakeDamage [Indent level: 1],
     "camShakeDamage": {
         "power": 0.5,
         "frequency": 60,
@@ -6719,7 +6719,7 @@ RHS_UH1Y_d = {
     "gForceShakeAttenuation": 0.5,
     "secondaryExplosion": -1,
     "fuelExplosionPower": 1,
-    # Class: CfgVehicles\AllVehicles\SquadTitles,
+    # Class: CfgVehicles\AllVehicles\SquadTitles [Indent level: 1],
     "SquadTitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
@@ -6732,7 +6732,7 @@ RHS_UH1Y_d = {
     "selectionClan": "clan",
     "selectionDashboard": "podsvit pristroju",
     "selectionBackLights": "zadni svetlo",
-    # Class: CfgVehicles\AllVehicles\NewTurret,
+    # Class: CfgVehicles\AllVehicles\NewTurret [Indent level: 1],
     "NewTurret": {
         "body": "mainTurret",
         "gun": "mainGun",
@@ -6775,7 +6775,7 @@ RHS_UH1Y_d = {
         "gunnerGetOutAction": "",
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner,
+        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -6796,7 +6796,7 @@ RHS_UH1Y_d = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -6837,11 +6837,11 @@ RHS_UH1Y_d = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -6862,126 +6862,126 @@ RHS_UH1Y_d = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table,
+            # Class: WeaponFireGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0
+                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1,
+                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2,
+                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3,
+                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4,
+                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5,
+                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6,
+                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7,
+                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8,
+                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9,
+                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10,
+                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11,
+                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12,
+                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13,
+                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14,
+                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15,
+                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16,
+                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17,
+                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18,
+                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19,
+                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20,
+                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21,
+                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22,
+                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -7002,16 +7002,16 @@ RHS_UH1Y_d = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table,
+            # Class: WeaponCloudsGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0
+                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -7032,18 +7032,18 @@ RHS_UH1Y_d = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table,
+            # Class: WeaponCloudsMGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0
+                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints,
+        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret
+            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
             "HitTurret": {
                 "armor": 0.8,
                 "material": 51,
@@ -7052,7 +7052,7 @@ RHS_UH1Y_d = {
                 "passThrough": 1,
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun,
+            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -7062,10 +7062,10 @@ RHS_UH1Y_d = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -7103,11 +7103,11 @@ RHS_UH1Y_d = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -7122,7 +7122,7 @@ RHS_UH1Y_d = {
         "selectionFireAnim": "zasleh",
         "showCrewAim": 0
     },
-    # Class: CfgVehicles\AllVehicles\ViewCargo,
+    # Class: CfgVehicles\AllVehicles\ViewCargo [Indent level: 1],
     "ViewCargo": {
         "initAngleX": 5,
         "minAngleX": -75,
@@ -7142,11 +7142,11 @@ RHS_UH1Y_d = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\PilotSpec,
+    # Class: CfgVehicles\AllVehicles\PilotSpec [Indent level: 1],
     "PilotSpec": {
         "showHeadPhones": 0
     },
-    # Class: CfgVehicles\AllVehicles\SoundEvents,
+    # Class: CfgVehicles\AllVehicles\SoundEvents [Indent level: 1],
     "SoundEvents": {
     },
     "tracksSpeed": 0,
@@ -7164,9 +7164,9 @@ RHS_UH1Y_d = {
     "tBody": 150,
     "impactEffectSpeedLimit": 8,
     "showCrewAim": 0,
-    # Class: CfgVehicles\AllVehicles\CargoTurret,
+    # Class: CfgVehicles\AllVehicles\CargoTurret [Indent level: 1],
     "CargoTurret": {
-        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner
+        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2]
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -7186,7 +7186,7 @@ RHS_UH1Y_d = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints,
+        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints [Indent level: 2],
         "Hitpoints": {
         },
         "animationSourceBody": "",
@@ -7243,7 +7243,7 @@ RHS_UH1Y_d = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -7280,11 +7280,11 @@ RHS_UH1Y_d = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -7305,126 +7305,126 @@ RHS_UH1Y_d = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table,
+            # Class: WeaponFireGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0
+                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1,
+                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2,
+                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3,
+                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4,
+                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5,
+                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6,
+                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7,
+                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8,
+                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9,
+                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10,
+                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11,
+                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12,
+                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13,
+                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14,
+                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15,
+                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16,
+                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17,
+                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18,
+                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19,
+                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20,
+                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21,
+                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22,
+                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -7445,16 +7445,16 @@ RHS_UH1Y_d = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table,
+            # Class: WeaponCloudsGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0
+                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -7475,19 +7475,19 @@ RHS_UH1Y_d = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table,
+            # Class: WeaponCloudsMGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0
+                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -7520,11 +7520,11 @@ RHS_UH1Y_d = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -7621,10 +7621,10 @@ RHS_UH1Y_d = {
     "soundAttenuationCargo": [1],
     "countsForScoreboard": 1,
     "hullDamageCauseExplosion": 0,
-    # Class: CfgVehicles\All\NVGMarkers,
+    # Class: CfgVehicles\All\NVGMarkers [Indent level: 1],
     "NVGMarkers": {
     },
-    # Class: CfgVehicles\All\NVGMarker,
+    # Class: CfgVehicles\All\NVGMarker [Indent level: 1],
     "NVGMarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
@@ -7632,7 +7632,7 @@ RHS_UH1Y_d = {
         "blinking": 0,
         "onlyInNvg": 0
     },
-    # Class: CfgVehicles\All\HeadLimits,
+    # Class: CfgVehicles\All\HeadLimits [Indent level: 1],
     "HeadLimits": {
         "initAngleX": 5,
         "minAngleX": -30,
@@ -7655,49 +7655,49 @@ RHS_UH1Y_d = {
     "uavHacker": 0,
     "soundEngine": ["",1,1],
     "soundEnviron": ["",1,1],
-    # Class: CfgVehicles\All\SoundEnvironExt,
+    # Class: CfgVehicles\All\SoundEnvironExt [Indent level: 1],
     "SoundEnvironExt": {
     },
-    # Class: CfgVehicles\All\SoundEquipment,
+    # Class: CfgVehicles\All\SoundEquipment [Indent level: 1],
     "SoundEquipment": {
     },
-    # Class: CfgVehicles\All\SoundGear,
+    # Class: CfgVehicles\All\SoundGear [Indent level: 1],
     "SoundGear": {
     },
-    # Class: CfgVehicles\All\SoundBreath,
+    # Class: CfgVehicles\All\SoundBreath [Indent level: 1],
     "SoundBreath": {
     },
-    # Class: CfgVehicles\All\SoundBreathSwimming,
+    # Class: CfgVehicles\All\SoundBreathSwimming [Indent level: 1],
     "SoundBreathSwimming": {
     },
-    # Class: CfgVehicles\All\SoundBreathInjured,
+    # Class: CfgVehicles\All\SoundBreathInjured [Indent level: 1],
     "SoundBreathInjured": {
     },
-    # Class: CfgVehicles\All\SoundHitScream,
+    # Class: CfgVehicles\All\SoundHitScream [Indent level: 1],
     "SoundHitScream": {
     },
-    # Class: CfgVehicles\All\SoundInjured,
+    # Class: CfgVehicles\All\SoundInjured [Indent level: 1],
     "SoundInjured": {
     },
-    # Class: CfgVehicles\All\SoundBreathAutomatic,
+    # Class: CfgVehicles\All\SoundBreathAutomatic [Indent level: 1],
     "SoundBreathAutomatic": {
     },
-    # Class: CfgVehicles\All\SoundDrown,
+    # Class: CfgVehicles\All\SoundDrown [Indent level: 1],
     "SoundDrown": {
     },
-    # Class: CfgVehicles\All\SoundChoke,
+    # Class: CfgVehicles\All\SoundChoke [Indent level: 1],
     "SoundChoke": {
     },
-    # Class: CfgVehicles\All\SoundRecovered,
+    # Class: CfgVehicles\All\SoundRecovered [Indent level: 1],
     "SoundRecovered": {
     },
-    # Class: CfgVehicles\All\SoundBurning,
+    # Class: CfgVehicles\All\SoundBurning [Indent level: 1],
     "SoundBurning": {
     },
-    # Class: CfgVehicles\All\PulsationSound,
+    # Class: CfgVehicles\All\PulsationSound [Indent level: 1],
     "PulsationSound": {
     },
-    # Class: CfgVehicles\All\SoundDrowning,
+    # Class: CfgVehicles\All\SoundDrowning [Indent level: 1],
     "SoundDrowning": {
     },
     "soundCrash": ["",0.316228,1],
@@ -7734,11 +7734,11 @@ RHS_UH1Y_d = {
     "hiddenUnderwaterSelections": [],
     "shownUnderWaterSelections": [],
     "hiddenUnderwaterSelectionsTextures": [],
-    # Class: CfgVehicles\All\FxExplo,
+    # Class: CfgVehicles\All\FxExplo [Indent level: 1],
     "FxExplo": {
         "access": 1
     },
-    # Class: CfgVehicles\All\GunFire,
+    # Class: CfgVehicles\All\GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -7759,126 +7759,126 @@ RHS_UH1Y_d = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: WeaponFireGun\Table,
+        # Class: WeaponFireGun\Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0
+            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
             "T0": {
                 "maxT": 0,
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1,
+            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2,
+            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3,
+            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4,
+            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5,
+            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6,
+            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7,
+            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8,
+            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9,
+            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10,
+            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11,
+            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12,
+            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13,
+            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14,
+            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15,
+            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16,
+            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17,
+            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18,
+            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19,
+            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20,
+            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21,
+            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22,
+            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\GunClouds,
+    # Class: CfgVehicles\All\GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletDuration": 0.3,
@@ -7899,16 +7899,16 @@ RHS_UH1Y_d = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsGun\Table,
+        # Class: WeaponCloudsGun\Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsGun\Table\T0
+            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
             "T0": {
                 "maxT": 0,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\MGunClouds,
+    # Class: CfgVehicles\All\MGunClouds [Indent level: 1],
     "MGunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -7929,9 +7929,9 @@ RHS_UH1Y_d = {
         "sourceSize": 0.02,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsMGun\Table,
+        # Class: WeaponCloudsMGun\Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsMGun\Table\T0
+            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
             "T0": {
                 "maxT": 0,
                 "color": [1,1,1,0]

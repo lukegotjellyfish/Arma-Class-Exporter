@@ -8,7 +8,7 @@ rhs_weap_savz61 = {
     "rhs_fold": "rhs_weap_savz61_folded",
     "magazines": ["rhsgref_20rnd_765x17_vz61","rhsgref_10rnd_765x17_vz61"],
     "magazineWell": ["CBA_32ACP_Vz61"],
-    # Class: CfgWeapons\rhs_weap_savz61\Library,
+    # Class: CfgWeapons\rhs_weap_savz61\Library [Indent level: 1],
     "Library": {
         "libTextDesc": "The Škorpion vz. 61 is a Czechoslovak 7.65 mm machine pistol developed in 1959 by Miroslav Rybář (1924–1970) and produced under the official designation Samopal vzor 61 by the Česká zbrojovka arms factory in Uherský Brod from 1961 to 1979."
     },
@@ -16,26 +16,26 @@ rhs_weap_savz61 = {
     "reloadAction": "GestureReloadSMG_02",
     "maxRecoilSway": 0.0125,
     "swayDecaySpeed": 1.25,
-    # Class: CfgWeapons\rhs_weap_savz61\GunParticles,
+    # Class: CfgWeapons\rhs_weap_savz61\GunParticles [Indent level: 1],
     "GunParticles": {
-        # Class: CfgWeapons\rhs_weap_savz61\GunParticles\FirstEffect
+        # Class: CfgWeapons\rhs_weap_savz61\GunParticles\FirstEffect [Indent level: 2]
         "FirstEffect": {
             "effectName": "PistolCloud",
             "positionName": "Usti hlavne",
             "directionName": "Konec hlavne"
         },
-        # Class: CfgWeapons\rhs_weap_savz61\GunParticles\SecondEffect,
+        # Class: CfgWeapons\rhs_weap_savz61\GunParticles\SecondEffect [Indent level: 2],
         "SecondEffect": {
             "positionName": "Nabojnicestart",
             "directionName": "Nabojniceend",
             "effectName": "CaselessAmmoCloud"
         }
     },
-    # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo,
+    # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo [Indent level: 1],
     "WeaponSlotsInfo": {
         "mass": 28.16,
         "allowedSlots": [901],
-        # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo\MuzzleSlot,
+        # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo\MuzzleSlot [Indent level: 2],
         "MuzzleSlot": {
             "linkProxy": "A3|data_f|proxies|weapon_slots|MUZZLE",
             "compatibleItems": [],
@@ -47,7 +47,7 @@ rhs_weap_savz61 = {
             "access": 1,
             "scope": 0
         },
-        # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo\CowsSlot,
+        # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo\CowsSlot [Indent level: 2],
         "CowsSlot": {
             "iconPosition": [0.5,0.35],
             "iconScale": 0.2,
@@ -59,7 +59,7 @@ rhs_weap_savz61 = {
             "access": 1,
             "scope": 0
         },
-        # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo\PointerSlot,
+        # Class: CfgWeapons\rhs_weap_savz61\WeaponSlotsInfo\PointerSlot [Indent level: 2],
         "PointerSlot": {
         }
     },
@@ -73,7 +73,7 @@ rhs_weap_savz61 = {
     "selectionfireanim": "zasleh",
     "discreteDistance": [75,150],
     "modes": ["Single","FullAuto"],
-    # Class: CfgWeapons\rhs_weap_savz61\Single,
+    # Class: CfgWeapons\rhs_weap_savz61\Single [Indent level: 1],
     "Single": {
         "reloadTime": 0.075,
         "dispersion": 0.0005,
@@ -86,49 +86,49 @@ rhs_weap_savz61 = {
         "aiRateOfFire": 2,
         "aiRateOfFireDistance": 500,
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_savz61\Single\StandardSound,
+        # Class: CfgWeapons\rhs_weap_savz61\Single\StandardSound [Indent level: 2],
         "StandardSound": {
             "soundSetShot": ["RHSGREF_scorp_Shot_SoundSet","RHSGREF_pistol1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\SMG_01_Base\Single\BaseSoundModeType,
+        # Class: CfgWeapons\SMG_01_Base\Single\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
             "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound,
+        # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_01",0.891251,1,400],
             "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_02",0.891251,1,400],
             "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_03",0.891251,1,400],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails,
+            # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails [Indent level: 3],
             "SoundTails": {
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailInterior
+                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailInterior [Indent level: 4]
                 "TailInterior": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_tail_interior",1,1,400],
                     "frequency": 1,
                     "volume": "interior"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailTrees,
+                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailTrees [Indent level: 4],
                 "TailTrees": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_trees",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*trees"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailForest,
+                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailForest [Indent level: 4],
                 "TailForest": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|silencer_Vermin_tail_forest",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*forest"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailMeadows,
+                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailMeadows [Indent level: 4],
                 "TailMeadows": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_meadows",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailHouses,
+                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailHouses [Indent level: 4],
                 "TailHouses": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_houses",1,1,400],
                     "frequency": 1,
@@ -173,7 +173,7 @@ rhs_weap_savz61 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
-    # Class: CfgWeapons\rhs_weap_savz61\FullAuto,
+    # Class: CfgWeapons\rhs_weap_savz61\FullAuto [Indent level: 1],
     "FullAuto": {
         "reloadTime": 0.075,
         "dispersion": 0.0005,
@@ -186,49 +186,49 @@ rhs_weap_savz61 = {
         "aiRateOfFire": 0.2,
         "aiRateOfFireDistance": 50,
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_savz61\FullAuto\StandardSound,
+        # Class: CfgWeapons\rhs_weap_savz61\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
             "soundSetShot": ["RHSGREF_scorp_Shot_SoundSet","RHSGREF_pistol1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\SMG_01_Base\FullAuto\BaseSoundModeType,
+        # Class: CfgWeapons\SMG_01_Base\FullAuto\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
             "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound,
+        # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_01",0.891251,1,400],
             "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_02",0.891251,1,400],
             "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_03",0.891251,1,400],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails,
+            # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails [Indent level: 3],
             "SoundTails": {
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailInterior
+                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailInterior [Indent level: 4]
                 "TailInterior": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_tail_interior",1,1,400],
                     "frequency": 1,
                     "volume": "interior"
                 },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailTrees,
+                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailTrees [Indent level: 4],
                 "TailTrees": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_trees",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*trees"
                 },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailForest,
+                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailForest [Indent level: 4],
                 "TailForest": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|silencer_Vermin_tail_forest",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*forest"
                 },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailMeadows,
+                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailMeadows [Indent level: 4],
                 "TailMeadows": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_meadows",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
                 },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailHouses,
+                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailHouses [Indent level: 4],
                 "TailHouses": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_houses",1,1,400],
                     "frequency": 1,
@@ -304,48 +304,48 @@ rhs_weap_savz61 = {
     "drySound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Dry_Vermin",0.501187,1,10],
     "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|reload_vermin",1,1,10],
     "changeFiremodeSound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|firemode_Vermin",0.251189,1,5],
-    # Class: CfgWeapons\SMG_01_Base\Burst,
+    # Class: CfgWeapons\SMG_01_Base\Burst [Indent level: 1],
     "Burst": {
         "sounds": ["StandardSound","SilencedSound"],
-        # Class: CfgWeapons\SMG_01_Base\Burst\BaseSoundModeType,
+        # Class: CfgWeapons\SMG_01_Base\Burst\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
             "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound,
+        # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound [Indent level: 2],
         "StandardSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_short_01",2.81838,1,1200],
             "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_short_02",2.81838,1,1200],
             "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_short_03",2.81838,1,1200],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails,
+            # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails [Indent level: 3],
             "SoundTails": {
-                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailInterior
+                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailInterior [Indent level: 4]
                 "TailInterior": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_tail_interior",1.58489,1,1200],
                     "frequency": 1,
                     "volume": "interior"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailTrees,
+                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailTrees [Indent level: 4],
                 "TailTrees": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_tail_trees",1,1,1200],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*trees"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailForest,
+                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailForest [Indent level: 4],
                 "TailForest": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_tail_forest",1,1,1200],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*forest"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailMeadows,
+                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailMeadows [Indent level: 4],
                 "TailMeadows": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_tail_meadows",1,1,1200],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailHouses,
+                # Class: CfgWeapons\SMG_01_Base\Burst\StandardSound\SoundTails\TailHouses [Indent level: 4],
                 "TailHouses": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Vermin_tail_houses",1,1,1200],
                     "frequency": 1,
@@ -357,39 +357,39 @@ rhs_weap_savz61 = {
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound,
+        # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound [Indent level: 2],
         "SilencedSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_01",0.891251,1,400],
             "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_02",0.891251,1,400],
             "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_03",0.891251,1,400],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails,
+            # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails [Indent level: 3],
             "SoundTails": {
-                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailInterior
+                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailInterior [Indent level: 4]
                 "TailInterior": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_tail_interior",1,1,400],
                     "frequency": 1,
                     "volume": "interior"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailTrees,
+                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailTrees [Indent level: 4],
                 "TailTrees": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_trees",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*trees"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailForest,
+                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailForest [Indent level: 4],
                 "TailForest": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|silencer_Vermin_tail_forest",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*forest"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailMeadows,
+                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailMeadows [Indent level: 4],
                 "TailMeadows": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_meadows",1,1,400],
                     "frequency": 1,
                     "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
                 },
-                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailHouses,
+                # Class: CfgWeapons\SMG_01_Base\Burst\SilencedSound\SoundTails\TailHouses [Indent level: 4],
                 "TailHouses": {
                     "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_houses",1,1,400],
                     "frequency": 1,
@@ -530,7 +530,7 @@ rhs_weap_savz61 = {
     "fireLightIntensity": 0.2,
     "fireLightDiffuse": [0.937,0.631,0.259],
     "fireLightAmbient": [0,0,0],
-    # Class: CfgWeapons\Default\Eventhandlers,
+    # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],
     "Eventhandlers": {
     },
     "backgroundReload": 0,
@@ -554,7 +554,7 @@ rhs_weap_savz61 = {
     "artilleryDispersion": 1,
     "artilleryCharge": 1,
     "fireAnims": [],
-    # Class: CfgWeapons\Default\GunFire,
+    # Class: CfgWeapons\Default\GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -576,126 +576,126 @@ rhs_weap_savz61 = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: CfgWeapons\Default\GunFire\Table,
+        # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],
         "Table": {
-            # Class: CfgWeapons\Default\GunFire\Table\T0
+            # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]
             "T0": {
                 "maxT": 0,
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T1,
+            # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T2,
+            # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T3,
+            # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T4,
+            # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T5,
+            # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T6,
+            # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T7,
+            # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T8,
+            # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T9,
+            # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T10,
+            # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T11,
+            # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T12,
+            # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T13,
+            # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T14,
+            # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T15,
+            # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T16,
+            # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T17,
+            # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T18,
+            # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T19,
+            # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T20,
+            # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T21,
+            # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T22,
+            # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgWeapons\Default\GunClouds,
+    # Class: CfgWeapons\Default\GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -716,9 +716,9 @@ rhs_weap_savz61 = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: CfgWeapons\Default\GunClouds\Table,
+        # Class: CfgWeapons\Default\GunClouds\Table [Indent level: 2],
         "Table": {
-            # Class: CfgWeapons\Default\GunClouds\Table\T0
+            # Class: CfgWeapons\Default\GunClouds\Table\T0 [Indent level: 3]
             "T0": {
                 "maxT": 0,
                 "color": [1,1,1,0]

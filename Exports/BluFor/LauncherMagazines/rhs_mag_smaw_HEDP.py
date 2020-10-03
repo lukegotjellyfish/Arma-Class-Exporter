@@ -43,28 +43,28 @@ rhs_mag_smaw_HEDP = {
         "timeToLive": 25,
         "maneuvrability": 0,
         "allowAgainstInfantry": 1,
-        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakeExplode,
+        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": "(55*0.2)",
             "duration": "((round (55^0.5))*0.2 max 0.2)",
             "frequency": 20,
             "distance": "((5 + 55^0.5)*8)"
         },
-        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakeHit,
+        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": "((round (110^0.25))*0.2 max 0.2)",
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakeFire,
+        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": "(20^0.25)",
             "duration": "((round (20^0.5))*0.2 max 0.2)",
             "frequency": 20,
             "distance": "((20^0.5)*8)"
         },
-        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakePlayerFire,
+        # Class: CfgAmmo\rhs_ammo_smaw_HEDP\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.1,
             "duration": 0.2,
@@ -78,13 +78,13 @@ rhs_mag_smaw_HEDP = {
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
-        # Class: CfgAmmo\RocketBase\HitEffects,
+        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\RocketBase\EventHandlers,
+        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -198,7 +198,7 @@ rhs_mag_smaw_HEDP = {
         "caliber": 1,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -218,10 +218,10 @@ rhs_mag_smaw_HEDP = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -45,22 +45,22 @@ Rhs_mag_4Rnd_stinger = {
         "missileLockCone": 12,
         "missileKeepLockedCone": 70,
         "weaponLockSystem": "2 + 16",
-        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components,
+        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent
+            # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent [Indent level: 2]
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components
+                # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components [Indent level: 3]
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent
+                    # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent [Indent level: 4]
                     "IRSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget
+                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget [Indent level: 5]
                         "AirTarget": {
                             "minRange": 500,
                             "maxRange": 6500,
                             "objectDistanceLimitCoef": -1,
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget,
+                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget [Indent level: 5],
                         "GroundTarget": {
                             "minRange": 500,
                             "maxRange": 1000,
@@ -96,28 +96,28 @@ Rhs_mag_4Rnd_stinger = {
         "soundHit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,1900],
         "soundHit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,1900],
         "multiSoundHit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
-        # Class: CfgAmmo\M_Titan_AA\CamShakeExplode,
+        # Class: CfgAmmo\M_Titan_AA\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 147.905
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakeHit,
+        # Class: CfgAmmo\M_Titan_AA\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakeFire,
+        # Class: CfgAmmo\M_Titan_AA\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakePlayerFire,
+        # Class: CfgAmmo\M_Titan_AA\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -135,7 +135,7 @@ Rhs_mag_4Rnd_stinger = {
         "deflecting": 0,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects,
+        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -146,9 +146,9 @@ Rhs_mag_4Rnd_stinger = {
         "mfMax": 100,
         "mFact": 0,
         "tBody": 0,
-        # Class: CfgAmmo\MissileBase\EventHandlers,
+        # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -253,7 +253,7 @@ Rhs_mag_4Rnd_stinger = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -278,10 +278,10 @@ Rhs_mag_4Rnd_stinger = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

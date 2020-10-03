@@ -39,14 +39,14 @@ rhs_m136_mag = {
         "explosionEffects": "ATRocketExplosion",
         "effectsMissileInit": "RocketBackEffectsRPG",
         "effectsMissile": "missile3",
-        # Class: CfgAmmo\rhs_ammo_M136_rocket\CamShakeFire,
+        # Class: CfgAmmo\rhs_ammo_M136_rocket\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 10,
             "duration": 0.5,
             "frequency": 20,
             "distance": 30
         },
-        # Class: CfgAmmo\rhs_ammo_M136_rocket\CamShakePlayerFire,
+        # Class: CfgAmmo\rhs_ammo_M136_rocket\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 5,
             "duration": 0.1,
@@ -61,13 +61,13 @@ rhs_m136_mag = {
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
-        # Class: CfgAmmo\RocketBase\HitEffects,
+        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\RocketBase\EventHandlers,
+        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -181,7 +181,7 @@ rhs_m136_mag = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -202,10 +202,10 @@ rhs_m136_mag = {
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

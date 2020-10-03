@@ -46,16 +46,16 @@ RHS_Su25SM_vvs = {
     "allowTabLock": 0,
     "driverCanEject": 1,
     "driverCompartments": 1,
-    # Class: CfgVehicles\RHS_su25_base\EjectionSystem,
+    # Class: CfgVehicles\RHS_su25_base\EjectionSystem [Indent level: 1],
     "EjectionSystem": {
     },
     "ejectDamageLimit": 1,
     "memoryPointDriverOptics": "pilotCamera",
-    # Class: CfgVehicles\RHS_su25_base\PilotCamera,
+    # Class: CfgVehicles\RHS_su25_base\PilotCamera [Indent level: 1],
     "PilotCamera": {
-        # Class: CfgVehicles\RHS_su25_base\PilotCamera\OpticsIn
+        # Class: CfgVehicles\RHS_su25_base\PilotCamera\OpticsIn [Indent level: 2]
         "OpticsIn": {
-            # Class: CfgVehicles\RHS_su25_base\PilotCamera\OpticsIn\Wide
+            # Class: CfgVehicles\RHS_su25_base\PilotCamera\OpticsIn\Wide [Indent level: 3]
             "Wide": {
                 "opticsDisplayName": "WFOV",
                 "initAngleX": 0,
@@ -86,7 +86,7 @@ RHS_Su25SM_vvs = {
         "pilotOpticsShowCursor": 1,
         "controllable": 1
     },
-    # Class: CfgVehicles\RHS_su25_base\ViewPilot,
+    # Class: CfgVehicles\RHS_su25_base\ViewPilot [Indent level: 1],
     "ViewPilot": {
         "initAngleX": -0,
         "initFov": 0.75,
@@ -128,9 +128,9 @@ RHS_Su25SM_vvs = {
     "damageResistance": 0.0048,
     "armorStructural": 2,
     "epeImpulseDamageCoef": 1,
-    # Class: CfgVehicles\RHS_su25_base\Hitpoints,
+    # Class: CfgVehicles\RHS_su25_base\Hitpoints [Indent level: 1],
     "Hitpoints": {
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitHull
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitHull [Indent level: 2]
         "HitHull": {
             "armor": 999,
             "explosionShielding": 0,
@@ -142,7 +142,7 @@ RHS_Su25SM_vvs = {
             "visual": "-",
             "depends": "Total"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitAvionics,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitAvionics [Indent level: 2],
         "HitAvionics": {
             "armor": 1,
             "explosionShielding": 0.6,
@@ -154,7 +154,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_avionics",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitEngine,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitEngine [Indent level: 2],
         "HitEngine": {
             "armor": 1,
             "explosionShielding": 0.25,
@@ -166,7 +166,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_engine_l",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitEngine2,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitEngine2 [Indent level: 2],
         "HitEngine2": {
             "armor": 1,
             "explosionShielding": 0.25,
@@ -178,7 +178,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_engine_r",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel [Indent level: 2],
         "HitFuel": {
             "armor": 1.4,
             "explosionShielding": 0.2,
@@ -190,7 +190,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_fuel",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel_left,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel_left [Indent level: 2],
         "HitFuel_left": {
             "armor": 1,
             "explosionShielding": 0.6,
@@ -202,7 +202,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_wing_l",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel_right,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel_right [Indent level: 2],
         "HitFuel_right": {
             "armor": 1,
             "explosionShielding": 0.6,
@@ -214,7 +214,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_wing_r",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel2,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitFuel2 [Indent level: 2],
         "HitFuel2": {
             "armor": 999,
             "explosionShielding": 0,
@@ -226,7 +226,7 @@ RHS_Su25SM_vvs = {
             "visual": "ind_fuel_r",
             "depends": "(HitFuel_left+HitFuel_right)*0.5"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLAileron_link,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLAileron_link [Indent level: 2],
         "HitLAileron_link": {
             "armor": 0.6,
             "explosionShielding": 0.6,
@@ -238,7 +238,7 @@ RHS_Su25SM_vvs = {
             "visual": "-",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitRAileron_link,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitRAileron_link [Indent level: 2],
         "HitRAileron_link": {
             "armor": 0.6,
             "explosionShielding": 0.6,
@@ -250,7 +250,7 @@ RHS_Su25SM_vvs = {
             "visual": "-",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLAileron,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLAileron [Indent level: 2],
         "HitLAileron": {
             "armor": 0.6,
             "explosionShielding": 0.5,
@@ -262,7 +262,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_wing_l",
             "depends": "HitLAileron_link*0.7"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitRAileron,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitRAileron [Indent level: 2],
         "HitRAileron": {
             "armor": 0.6,
             "explosionShielding": 0.5,
@@ -274,7 +274,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_wing_r",
             "depends": "HitRAileron_link*0.7"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitControlRear,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitControlRear [Indent level: 2],
         "HitControlRear": {
             "armor": 0.6,
             "explosionShielding": 0.1,
@@ -286,7 +286,7 @@ RHS_Su25SM_vvs = {
             "visual": "-",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLCElevator,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLCElevator [Indent level: 2],
         "HitLCElevator": {
             "armor": 0.6,
             "explosionShielding": 0.6,
@@ -298,7 +298,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_elevator_l",
             "depends": "HitControlRear"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitRElevator,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitRElevator [Indent level: 2],
         "HitRElevator": {
             "armor": 0.6,
             "explosionShielding": 0.6,
@@ -310,7 +310,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_elevator_r",
             "depends": "HitControlRear"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLCRudder,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitLCRudder [Indent level: 2],
         "HitLCRudder": {
             "armor": 0.6,
             "explosionShielding": 0.6,
@@ -322,7 +322,7 @@ RHS_Su25SM_vvs = {
             "visual": "vis_rudder",
             "depends": "HitControlRear"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitGlass1,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "armor": 0.5,
             "explosionShielding": 0.6,
@@ -334,7 +334,7 @@ RHS_Su25SM_vvs = {
             "visual": "glass1",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitGlass2,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "armor": 0.5,
             "explosionShielding": 0.6,
@@ -346,7 +346,7 @@ RHS_Su25SM_vvs = {
             "visual": "glass2",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Fire1,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Fire1 [Indent level: 2],
         "Ind_Fire1": {
             "armor": 999,
             "explosionShielding": 0,
@@ -358,7 +358,7 @@ RHS_Su25SM_vvs = {
             "visual": "ind_fire",
             "depends": "HitEngine*0.5"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Fire2,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Fire2 [Indent level: 2],
         "Ind_Fire2": {
             "armor": 999,
             "explosionShielding": 0,
@@ -370,7 +370,7 @@ RHS_Su25SM_vvs = {
             "visual": "ind_fire",
             "depends": "HitEngine2*0.5"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Hydr_L,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Hydr_L [Indent level: 2],
         "Ind_Hydr_L": {
             "armor": 999,
             "explosionShielding": 0,
@@ -382,7 +382,7 @@ RHS_Su25SM_vvs = {
             "visual": "ind_hydr_l",
             "depends": "(HitLAileron+HitLCElevator+HitLCRudder)*0.5"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Hydr_R,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\Ind_Hydr_R [Indent level: 2],
         "Ind_Hydr_R": {
             "armor": 999,
             "explosionShielding": 0,
@@ -394,7 +394,7 @@ RHS_Su25SM_vvs = {
             "visual": "ind_hydr_r",
             "depends": "(HitRAileron+HitRElevator)*0.5"
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1 [Indent level: 2],
         "HitPylon1": {
             "armor": -30,
             "material": -1,
@@ -404,10 +404,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -416,7 +416,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -425,7 +425,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -434,7 +434,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon1\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -445,7 +445,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2 [Indent level: 2],
         "HitPylon2": {
             "armor": -30,
             "material": -1,
@@ -455,10 +455,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -467,7 +467,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -476,7 +476,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -485,7 +485,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon2\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -496,7 +496,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3 [Indent level: 2],
         "HitPylon3": {
             "armor": -30,
             "material": -1,
@@ -506,10 +506,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -518,7 +518,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -527,7 +527,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -536,7 +536,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon3\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -547,7 +547,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4 [Indent level: 2],
         "HitPylon4": {
             "armor": -30,
             "material": -1,
@@ -557,10 +557,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -569,7 +569,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -578,7 +578,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -587,7 +587,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon4\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -598,7 +598,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5 [Indent level: 2],
         "HitPylon5": {
             "armor": -30,
             "material": -1,
@@ -608,10 +608,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -620,7 +620,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -629,7 +629,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -638,7 +638,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon5\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -649,7 +649,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6 [Indent level: 2],
         "HitPylon6": {
             "armor": -30,
             "material": -1,
@@ -659,10 +659,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -671,7 +671,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -680,7 +680,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -689,7 +689,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon6\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -700,7 +700,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7 [Indent level: 2],
         "HitPylon7": {
             "armor": -30,
             "material": -1,
@@ -710,10 +710,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -722,7 +722,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -731,7 +731,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -740,7 +740,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon7\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -751,7 +751,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8 [Indent level: 2],
         "HitPylon8": {
             "armor": -30,
             "material": -1,
@@ -761,10 +761,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -773,7 +773,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -782,7 +782,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -791,7 +791,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon8\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -802,7 +802,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9 [Indent level: 2],
         "HitPylon9": {
             "armor": -30,
             "material": -1,
@@ -812,10 +812,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -824,7 +824,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -833,7 +833,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -842,7 +842,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon9\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -853,7 +853,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10,
+        # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10 [Indent level: 2],
         "HitPylon10": {
             "armor": -30,
             "material": -1,
@@ -863,10 +863,10 @@ RHS_Su25SM_vvs = {
             "explosionShielding": 0.1,
             "radius": 0.75,
             "visual": "-",
-            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects,
+            # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Flash,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Flash [Indent level: 4],
                 "RHS_Pylon_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -875,7 +875,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Sound,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Sound [Indent level: 4],
                 "RHS_Pylon_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -884,7 +884,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Smoke,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Smoke [Indent level: 4],
                 "RHS_Pylon_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -893,7 +893,7 @@ RHS_Su25SM_vvs = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Shard,
+                # Class: CfgVehicles\RHS_su25_base\Hitpoints\HitPylon10\DestructionEffects\RHS_Pylon_Shard [Indent level: 4],
                 "RHS_Pylon_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -908,37 +908,37 @@ RHS_Su25SM_vvs = {
     "incomingMissileDetectionSystem": 8,
     "lockDetectionSystem": 8,
     "hiddenselections": ["camo1","camo2","n1","n2","i1","i2","tail_decals"],
-    # Class: CfgVehicles\RHS_su25_base\textureSources,
+    # Class: CfgVehicles\RHS_su25_base\textureSources [Indent level: 1],
     "textureSources": {
-        # Class: CfgVehicles\RHS_su25_base\textureSources\standard
+        # Class: CfgVehicles\RHS_su25_base\textureSources\standard [Indent level: 2]
         "standard": {
             "displayName": "Blue",
             "author": "Red Hammer Studios",
             "textures": ["|rhsafrf|addons|rhs_a2port_air|su25|data|su25_body1_alt_co.paa","|rhsafrf|addons|rhs_a2port_air|su25|data|su25_body2_alt_co.paa"],
             "factions": ["rhs_faction_vvs"]
         },
-        # Class: CfgVehicles\RHS_su25_base\textureSources\standard2,
+        # Class: CfgVehicles\RHS_su25_base\textureSources\standard2 [Indent level: 2],
         "standard2": {
             "displayName": "Grey",
             "author": "Red Hammer Studios",
             "textures": ["|rhsafrf|addons|rhs_a2port_air|su25|data|su25_body1_co.paa","|rhsafrf|addons|rhs_a2port_air|su25|data|su25_body2_co.paa"],
             "factions": ["rhs_faction_vvs"]
         },
-        # Class: CfgVehicles\RHS_su25_base\textureSources\Camo,
+        # Class: CfgVehicles\RHS_su25_base\textureSources\Camo [Indent level: 2],
         "Camo": {
             "displayName": "Camo #1",
             "author": "Red Hammer Studios",
             "textures": ["|rhsafrf|addons|rhs_a2port_air|su25|data|su25_body1_rus_co.paa","|rhsafrf|addons|rhs_a2port_air|su25|data|su25_body2_rus_co.paa"],
             "factions": ["rhs_faction_vvs_c"]
         },
-        # Class: CfgVehicles\RHS_su25_base\textureSources\Camo1,
+        # Class: CfgVehicles\RHS_su25_base\textureSources\Camo1 [Indent level: 2],
         "Camo1": {
             "displayName": "Camo #2",
             "author": "Red Hammer Studios",
             "textures": ["|rhsafrf|addons|rhs_a2port_air|su25|data|camo|su25_body1_camo1_co.paa","|rhsafrf|addons|rhs_a2port_air|su25|data|camo|su25_body2_camo1_co.paa"],
             "factions": ["rhs_faction_vvs_c"]
         },
-        # Class: CfgVehicles\RHS_su25_base\textureSources\Camo2,
+        # Class: CfgVehicles\RHS_su25_base\textureSources\Camo2 [Indent level: 2],
         "Camo2": {
             "displayName": "CDF",
             "author": "Red Hammer Studios",
@@ -947,14 +947,14 @@ RHS_Su25SM_vvs = {
         }
     },
     "textureList": [],
-    # Class: CfgVehicles\RHS_su25_base\Components,
+    # Class: CfgVehicles\RHS_su25_base\Components [Indent level: 1],
     "Components": {
-        # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent
+        # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent [Indent level: 2]
         "TransportPylonsComponent": {
             "UIPicture": "rhsafrf|addons|rhs_a2port_air|data|loadouts|RHS_Su25_EDEN_CA.paa",
-            # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons,
+            # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons [Indent level: 3],
             "pylons": {
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon1
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon1 [Indent level: 4]
                 "pylon1": {
                     "hardpoints": ["RHS_HP_KH29","RHS_HP_FAB100","RHS_HP_FAB100_MBD3_U4T","RHS_HP_FAB100_MBD3_U6","RHS_HP_FAB250","RHS_HP_FAB500","RHS_HP_KMGU2","RHS_HP_O25L","RHS_HP_APU68M3_S24","RHS_HP_B13L","RHS_HP_B8M1","RHS_HP_UB16","RHS_HP_UB32","RHS_HP_R73"],
                     "priority": 9,
@@ -963,7 +963,7 @@ RHS_Su25SM_vvs = {
                     "maxweight": 1200,
                     "UIposition": [0.32,0.35]
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon2,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon2 [Indent level: 4],
                 "pylon2": {
                     "UIposition": [0.32,0.2],
                     "mirroredMissilePos": 1,
@@ -973,7 +973,7 @@ RHS_Su25SM_vvs = {
                     "attachment": "rhs_mag_fab250",
                     "maxweight": 1200
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon3,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon3 [Indent level: 4],
                 "pylon3": {
                     "hardpoints": ["RHS_HP_KH25","RHS_HP_FAB100","RHS_HP_FAB100_MBD3_U4T","RHS_HP_FAB100_MBD3_U6","RHS_HP_FAB250","RHS_HP_FAB500","RHS_HP_KMGU2","RHS_HP_O25L","RHS_HP_APU68M3_S24","RHS_HP_B13L","RHS_HP_B8M1","RHS_HP_UB16","RHS_HP_UB32","RHS_HP_R73"],
                     "priority": 7,
@@ -982,7 +982,7 @@ RHS_Su25SM_vvs = {
                     "attachment": "rhs_mag_fab250",
                     "maxweight": 1200
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon4,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon4 [Indent level: 4],
                 "pylon4": {
                     "UIposition": [0.33,0.15],
                     "mirroredMissilePos": 3,
@@ -992,7 +992,7 @@ RHS_Su25SM_vvs = {
                     "attachment": "rhs_mag_fab250",
                     "maxweight": 1200
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon5,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon5 [Indent level: 4],
                 "pylon5": {
                     "hardpoints": ["RHS_HP_KH25","RHS_HP_FAB100","RHS_HP_FAB100_MBD3_U4T","RHS_HP_FAB100_MBD3_U6","RHS_HP_FAB250","RHS_HP_FAB500","RHS_HP_KMGU2","RHS_HP_O25L","RHS_HP_APU68M3_S24","RHS_HP_B13L","RHS_HP_B8M1","RHS_HP_UB16","RHS_HP_UB32","RHS_HP_R73"],
                     "priority": 10,
@@ -1001,7 +1001,7 @@ RHS_Su25SM_vvs = {
                     "maxweight": 1200,
                     "UIposition": [0.34,0.45]
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon6,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon6 [Indent level: 4],
                 "pylon6": {
                     "UIposition": [0.34,0.1],
                     "mirroredMissilePos": 5,
@@ -1011,7 +1011,7 @@ RHS_Su25SM_vvs = {
                     "attachment": "rhs_mag_b8m1_s8kom",
                     "maxweight": 1200
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon7,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon7 [Indent level: 4],
                 "pylon7": {
                     "hardpoints": ["RHS_HP_FAB100","RHS_HP_FAB100_MBD3_U4T","RHS_HP_FAB100_MBD3_U6","RHS_HP_FAB250","RHS_HP_FAB500","RHS_HP_KMGU2","RHS_HP_O25L","RHS_HP_APU68M3_S24","RHS_HP_B13L","RHS_HP_B8M1","RHS_HP_UB16","RHS_HP_UB32","RHS_HP_R73"],
                     "priority": 11,
@@ -1020,7 +1020,7 @@ RHS_Su25SM_vvs = {
                     "maxweight": 1200,
                     "UIposition": [0.35,0.5]
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon8,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon8 [Indent level: 4],
                 "pylon8": {
                     "UIposition": [0.35,0.05],
                     "mirroredMissilePos": 7,
@@ -1030,7 +1030,7 @@ RHS_Su25SM_vvs = {
                     "attachment": "rhs_mag_b8m1_s8df",
                     "maxweight": 1200
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon9,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon9 [Indent level: 4],
                 "pylon9": {
                     "hardpoints": ["RHS_HP_R60"],
                     "priority": 12,
@@ -1039,7 +1039,7 @@ RHS_Su25SM_vvs = {
                     "maxweight": 1200,
                     "UIposition": [0.36,0.55]
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon10,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\pylon10 [Indent level: 4],
                 "pylon10": {
                     "UIposition": [0.36,0],
                     "mirroredMissilePos": 9,
@@ -1049,7 +1049,7 @@ RHS_Su25SM_vvs = {
                     "attachment": "rhs_mag_R60M",
                     "maxweight": 1200
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\cmDispenser,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\pylons\cmDispenser [Indent level: 4],
                 "cmDispenser": {
                     "hardpoints": ["RHS_cm_ASO2","RHS_cm_ASO2_x2","RHS_cm_ASO2_x4"],
                     "priority": 1,
@@ -1058,75 +1058,75 @@ RHS_Su25SM_vvs = {
                     "UIposition": [0.625,0.275]
                 }
             },
-            # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets,
+            # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets [Indent level: 3],
             "Presets": {
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\CAS
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\CAS [Indent level: 4]
                 "CAS": {
                     "attachment": ["rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Close Air Support"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyCAS,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyCAS [Indent level: 4],
                 "HeavyCAS": {
                     "attachment": ["rhs_mag_b13l_s13b","rhs_mag_b13l_s13b","rhs_mag_b13l_s13t","rhs_mag_b13l_s13t","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Close Air Support (S-13)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\GroundSupress_S24B,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\GroundSupress_S24B [Indent level: 4],
                 "GroundSupress_S24B": {
                     "attachment": ["rhs_mag_apu68m3_s24b","rhs_mag_apu68m3_s24b","rhs_mag_apu68m3_s24b","rhs_mag_apu68m3_s24b","rhs_mag_apu68m3_s24b","rhs_mag_apu68m3_s24b","rhs_mag_apu68m3_s24b","rhs_mag_apu68m3_s24b","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Ground Supress (S-24B)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\Bomb,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\Bomb [Indent level: 4],
                 "Bomb": {
                     "attachment": ["rhs_mag_fab250","rhs_mag_fab250","rhs_mag_fab250","rhs_mag_fab250","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Bomb (FAB-250)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyBomb,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyBomb [Indent level: 4],
                 "HeavyBomb": {
                     "attachment": ["rhs_mag_fab500","rhs_mag_fab500","rhs_mag_fab500","rhs_mag_fab500","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Bomb (FAB-500)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\AT,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\AT [Indent level: 4],
                 "AT": {
                     "attachment": ["rhs_mag_fab250","rhs_mag_fab250","rhs_mag_kh25ML","rhs_mag_kh25ML","rhs_mag_kh25ML","rhs_mag_kh25ML","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Anti Tank (Kh-25ML)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyAT,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyAT [Indent level: 4],
                 "HeavyAT": {
                     "attachment": ["rhs_mag_kh29ML","rhs_mag_kh29ML","rhs_mag_fab250","rhs_mag_fab250","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Anti Tank (Kh-29ML)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyATMix,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\HeavyATMix [Indent level: 4],
                 "HeavyATMix": {
                     "attachment": ["rhs_mag_kh29ML","rhs_mag_kh29ML","rhs_mag_kh25ML","rhs_mag_kh25ML","rhs_mag_kh25ML","rhs_mag_kh25ML","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Anti Tank (Mixed)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\Cluster,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\Cluster [Indent level: 4],
                 "Cluster": {
                     "attachment": ["rhs_mag_rbk250_ao1","rhs_mag_rbk250_ao1","rhs_mag_rbk250_ao1","rhs_mag_rbk250_ao1","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "Heavy CAS (S-13)"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\KMGU,
+                # Class: CfgVehicles\RHS_su25_base\Components\TransportPylonsComponent\Presets\KMGU [Indent level: 4],
                 "KMGU": {
                     "attachment": ["rhs_mag_kmgu2_ao25","rhs_mag_kmgu2_ao25","rhs_mag_kmgu2_ao25","rhs_mag_kmgu2_ao25","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8kom","rhs_mag_b8m1_s8df","rhs_mag_b8m1_s8df","rhs_mag_R60M","rhs_mag_R60M","rhs_ASO2_CMFlare_Chaff_Magazine_x4"],
                     "displayname": "KMGU-2"
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Components\SensorsManagerComponent,
+        # Class: CfgVehicles\RHS_su25_base\Components\SensorsManagerComponent [Indent level: 2],
         "SensorsManagerComponent": {
-            # Class: CfgVehicles\RHS_su25_base\Components\SensorsManagerComponent\Components
+            # Class: CfgVehicles\RHS_su25_base\Components\SensorsManagerComponent\Components [Indent level: 3]
             "Components": {
-                # Class: CfgVehicles\RHS_su25_base\Components\SensorsManagerComponent\Components\PassiveRadarSensorComponent
+                # Class: CfgVehicles\RHS_su25_base\Components\SensorsManagerComponent\Components\PassiveRadarSensorComponent [Indent level: 4]
                 "PassiveRadarSensorComponent": {
                     "componentType": "PassiveRadarSensorComponent",
-                    # Class: SensorTemplatePassiveRadar\AirTarget,
+                    # Class: SensorTemplatePassiveRadar\AirTarget [Indent level: 0],
                     "AirTarget": {
                         "minRange": 16000,
                         "maxRange": 16000,
                         "objectDistanceLimitCoef": -1,
                         "viewDistanceLimitCoef": -1
                     },
-                    # Class: SensorTemplatePassiveRadar\GroundTarget,
+                    # Class: SensorTemplatePassiveRadar\GroundTarget [Indent level: 0],
                     "GroundTarget": {
                         "minRange": 16000,
                         "maxRange": 16000,
@@ -1151,20 +1151,20 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Components\TransportCountermeasuresComponent,
+        # Class: CfgVehicles\RHS_su25_base\Components\TransportCountermeasuresComponent [Indent level: 2],
         "TransportCountermeasuresComponent": {
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\Attributes,
+    # Class: CfgVehicles\RHS_su25_base\Attributes [Indent level: 1],
     "Attributes": {
-        # Class: CfgVehicles\RHS_su25_base\Attributes\ObjectTexture
+        # Class: CfgVehicles\RHS_su25_base\Attributes\ObjectTexture [Indent level: 2]
         "ObjectTexture": {
             "control": "ObjectTexture",
             "data": "ObjectTexture",
             "displayName": "Skin",
             "tooltip": "Texture and material set applied on the object."
         },
-        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type,
+        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type [Indent level: 2],
         "rhs_decalNumber_type": {
             "displayName": "Define font type of side number",
             "tooltip": "Define kind of font that will be drawn on vehicle",
@@ -1173,77 +1173,77 @@ RHS_Su25SM_vvs = {
             "expression": "if(_value != 'NoChange')then{ _this setVariable ['%s', _value];[_this,[['Number', cRHSAIRSU25NumberPlaces, _value]]] call rhs_fnc_decalsInit}",
             "defaultValue": 0,
             "typeName": "STRING",
-            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values,
+            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values [Indent level: 3],
             "values": {
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\NoChange
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\NoChange [Indent level: 4]
                 "NoChange": {
                     "name": "Default",
                     "value": "NoChange"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaYellow,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaYellow [Indent level: 4],
                 "AviaYellow": {
                     "name": "Aviation Yellow",
                     "value": "AviaYellow"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaBlue,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaBlue [Indent level: 4],
                 "AviaBlue": {
                     "name": "Aviation Blue",
                     "value": "AviaBlue",
                     "defaultValue": "AviaBlue"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaRed,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaRed [Indent level: 4],
                 "AviaRed": {
                     "name": "Aviation Red",
                     "value": "AviaRed"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaWhiteOut,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaWhiteOut [Indent level: 4],
                 "AviaWhiteOut": {
                     "name": "Aviation White Out",
                     "value": "AviaWhiteOut"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaCDF,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\AviaCDF [Indent level: 4],
                 "AviaCDF": {
                     "name": "Aviation CDF",
                     "value": "AviaCDF"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\Default,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\Default [Indent level: 4],
                 "Default": {
                     "name": "Default (White)",
                     "value": "Default"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\DefaultRed,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\DefaultRed [Indent level: 4],
                 "DefaultRed": {
                     "name": "Default (Red)",
                     "value": "DefaultRed"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\BoldRed,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\BoldRed [Indent level: 4],
                 "BoldRed": {
                     "name": "Bold Red",
                     "value": "BoldRed"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\CDF,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\CDF [Indent level: 4],
                 "CDF": {
                     "name": "CDF",
                     "value": "CDF"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\Handpaint,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\Handpaint [Indent level: 4],
                 "Handpaint": {
                     "name": "Handpaint",
                     "value": "Handpaint"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\HandpaintBlack,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\HandpaintBlack [Indent level: 4],
                 "HandpaintBlack": {
                     "name": "Handpaint Black",
                     "value": "HandpaintBlack"
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\Iraqi,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber_type\values\Iraqi [Indent level: 4],
                 "Iraqi": {
                     "name": "Iraqi",
                     "value": "Iraqi"
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber,
+        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNumber [Indent level: 2],
         "rhs_decalNumber": {
             "displayName": "Set side number",
             "tooltip": "Set side number. 2 numbers are required. Type 0 to hide numbers completly",
@@ -1254,7 +1254,7 @@ RHS_Su25SM_vvs = {
             "typeName": "Number",
             "expression": "if(_value >= 0)then{if(_value == 0)then{{[_this setobjectTexture [_x,'a3|data_f|clear_empty.paa']]}foreach cRHSAIRSU25NumberPlaces}else{[_this, [['Number', cRHSAIRSU25NumberPlaces, _this getVariable ['rhs_decalNumber_type','AviaYellow'], _value] ] ] call rhs_fnc_decalsInit}};"
         },
-        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt,
+        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt [Indent level: 2],
         "rhs_decalNoseArt": {
             "displayName": "Define Nose Art",
             "tooltip": "Define Nose Art texture located near the cabin. Appears on both sides",
@@ -1263,66 +1263,66 @@ RHS_Su25SM_vvs = {
             "expression": "if(_value >= 0)then{ [_this, [ [ 'Label', cRHSAIRSU25NosePlaces, 'Su25NoseArt',_value] ] ] call rhs_fnc_decalsInit};",
             "defaultValue": "-1",
             "typeName": "Number",
-            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values,
+            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values [Indent level: 3],
             "values": {
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Random
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Random [Indent level: 4]
                 "Random": {
                     "name": "Random",
                     "value": -1,
                     "defaultValue": -1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Empty,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Empty [Indent level: 4],
                 "Empty": {
                     "name": "Empty",
                     "value": 0
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Arrows,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Arrows [Indent level: 4],
                 "Arrows": {
                     "name": "Aviation emblem",
                     "value": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Thunders,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Thunders [Indent level: 4],
                 "Thunders": {
                     "name": "Thunders",
                     "value": 2
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Eyes,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Eyes [Indent level: 4],
                 "Eyes": {
                     "name": "Eyes",
                     "value": 3
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Stars,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalNoseArt\values\Stars [Indent level: 4],
                 "Stars": {
                     "name": "Stars",
                     "value": 4
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt,
+        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt [Indent level: 2],
         "rhs_decalSideArt": {
             "displayName": "Define Side Art",
             "tooltip": "Define Side Art texture located near the jet intake. Appears on both sides",
             "property": "rhs_decalSideArt",
             "expression": "if(_value >= 0)then{ [_this, [ [ 'Label', cRHSAIRSU25SidePlaces, 'Su25Ex',_value] ] ] call rhs_fnc_decalsInit};",
-            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values,
+            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values [Indent level: 3],
             "values": {
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Random
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Random [Indent level: 4]
                 "Random": {
                     "name": "Random",
                     "value": -1,
                     "defaultValue": -1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Empty,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Empty [Indent level: 4],
                 "Empty": {
                     "name": "Empty",
                     "value": 0
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Crow,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Crow [Indent level: 4],
                 "Crow": {
                     "name": "Crow",
                     "value": 1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Russia,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalSideArt\values\Russia [Indent level: 4],
                 "Russia": {
                     "name": "Russia emblem",
                     "value": 2
@@ -1332,7 +1332,7 @@ RHS_Su25SM_vvs = {
             "defaultValue": "-1",
             "typeName": "Number"
         },
-        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail,
+        # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail [Indent level: 2],
         "rhs_decalTail": {
             "displayName": "Define tail decal",
             "tooltip": "Define tail decal that will be drawn on vehicle",
@@ -1341,19 +1341,19 @@ RHS_Su25SM_vvs = {
             "expression": "[_this,[['Label', cRHSAIRSU25TailPlaces, 'Aviation',_value]]] call rhs_fnc_decalsInit",
             "defaultValue": -1,
             "typeName": "Number",
-            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values,
+            # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values [Indent level: 3],
             "values": {
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values\Default
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values\Default [Indent level: 4]
                 "Default": {
                     "name": "Default",
                     "value": -1
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values\Empty,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values\Empty [Indent level: 4],
                 "Empty": {
                     "name": "Empty",
                     "value": 0
                 },
-                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values\VVS,
+                # Class: CfgVehicles\RHS_su25_base\Attributes\rhs_decalTail\values\VVS [Indent level: 4],
                 "VVS": {
                     "name": "VVS Russia",
                     "value": 3,
@@ -1362,16 +1362,16 @@ RHS_Su25SM_vvs = {
             }
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\Exhausts,
+    # Class: CfgVehicles\RHS_su25_base\Exhausts [Indent level: 1],
     "Exhausts": {
-        # Class: CfgVehicles\RHS_su25_base\Exhausts\Exhaust1
+        # Class: CfgVehicles\RHS_su25_base\Exhausts\Exhaust1 [Indent level: 2]
         "Exhaust1": {
             "position": "exhaust1",
             "direction": "exhaust1_dir",
             "effect": "ExhaustsEffectPlaneHP",
             "engineIndex": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\Exhausts\Exhaust2,
+        # Class: CfgVehicles\RHS_su25_base\Exhausts\Exhaust2 [Indent level: 2],
         "Exhaust2": {
             "position": "exhaust2",
             "direction": "exhaust2_dir",
@@ -1379,12 +1379,12 @@ RHS_Su25SM_vvs = {
             "engineIndex": 1
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\RenderTargets,
+    # Class: CfgVehicles\RHS_su25_base\RenderTargets [Indent level: 1],
     "RenderTargets": {
-        # Class: CfgVehicles\RHS_su25_base\RenderTargets\Periscope
+        # Class: CfgVehicles\RHS_su25_base\RenderTargets\Periscope [Indent level: 2]
         "Periscope": {
             "renderTarget": "rendertarget0",
-            # Class: CfgVehicles\RHS_su25_base\RenderTargets\Periscope\CameraView1,
+            # Class: CfgVehicles\RHS_su25_base\RenderTargets\Periscope\CameraView1 [Indent level: 3],
             "CameraView1": {
                 "pointPosition": "PIP0_pos",
                 "pointDirection": "PIP0_dir",
@@ -1394,11 +1394,11 @@ RHS_Su25SM_vvs = {
             }
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\compartmentsLights,
+    # Class: CfgVehicles\RHS_su25_base\compartmentsLights [Indent level: 1],
     "compartmentsLights": {
-        # Class: CfgVehicles\RHS_su25_base\compartmentsLights\Comp1
+        # Class: CfgVehicles\RHS_su25_base\compartmentsLights\Comp1 [Indent level: 2]
         "Comp1": {
-            # Class: CfgVehicles\RHS_su25_base\compartmentsLights\Comp1\Light_General
+            # Class: CfgVehicles\RHS_su25_base\compartmentsLights\Comp1\Light_General [Indent level: 3]
             "Light_General": {
                 "color": [40,20,20],
                 "ambient": [0,0,0],
@@ -1409,7 +1409,7 @@ RHS_Su25SM_vvs = {
                 "flareMaxDistance": 0,
                 "dayLight": 0,
                 "blinking": 0,
-                # Class: CfgVehicles\RHS_su25_base\compartmentsLights\Comp1\Light_General\Attenuation,
+                # Class: CfgVehicles\RHS_su25_base\compartmentsLights\Comp1\Light_General\Attenuation [Indent level: 4],
                 "Attenuation": {
                     "start": 0,
                     "constant": 0,
@@ -1422,9 +1422,9 @@ RHS_Su25SM_vvs = {
             }
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\Reflectors,
+    # Class: CfgVehicles\RHS_su25_base\Reflectors [Indent level: 1],
     "Reflectors": {
-        # Class: CfgVehicles\RHS_su25_base\Reflectors\Left
+        # Class: CfgVehicles\RHS_su25_base\Reflectors\Left [Indent level: 2]
         "Left": {
             "ambient": [100,100,100,0],
             "color": [7000,7500,10000,1],
@@ -1440,7 +1440,7 @@ RHS_Su25SM_vvs = {
             "selection": "l svetlo",
             "size": 1,
             "useFlare": 1,
-            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation,
+            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation [Indent level: 3],
             "Attenuation": {
                 "constant": 0,
                 "linear": 0,
@@ -1448,7 +1448,7 @@ RHS_Su25SM_vvs = {
                 "start": 1
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Reflectors\Left_Flare,
+        # Class: CfgVehicles\RHS_su25_base\Reflectors\Left_Flare [Indent level: 2],
         "Left_Flare": {
             "intensity": 0.5,
             "useFlare": 1,
@@ -1464,7 +1464,7 @@ RHS_Su25SM_vvs = {
             "position": "l svetlo",
             "selection": "l svetlo",
             "size": 1,
-            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation,
+            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation [Indent level: 3],
             "Attenuation": {
                 "constant": 0,
                 "linear": 0,
@@ -1472,7 +1472,7 @@ RHS_Su25SM_vvs = {
                 "start": 1
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Reflectors\Right,
+        # Class: CfgVehicles\RHS_su25_base\Reflectors\Right [Indent level: 2],
         "Right": {
             "position": "p svetlo",
             "direction": "konec p svetla",
@@ -1488,7 +1488,7 @@ RHS_Su25SM_vvs = {
             "outerAngle": 60,
             "size": 1,
             "useFlare": 1,
-            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation,
+            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation [Indent level: 3],
             "Attenuation": {
                 "constant": 0,
                 "linear": 0,
@@ -1496,7 +1496,7 @@ RHS_Su25SM_vvs = {
                 "start": 1
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\Reflectors\Right_Flare,
+        # Class: CfgVehicles\RHS_su25_base\Reflectors\Right_Flare [Indent level: 2],
         "Right_Flare": {
             "intensity": 0.5,
             "useFlare": 1,
@@ -1512,7 +1512,7 @@ RHS_Su25SM_vvs = {
             "dayLight": 0,
             "flareSize": 4,
             "size": 1,
-            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation,
+            # Class: CfgVehicles\RHS_su25_base\Reflectors\Left\Attenuation [Indent level: 3],
             "Attenuation": {
                 "constant": 0,
                 "linear": 0,
@@ -1522,9 +1522,9 @@ RHS_Su25SM_vvs = {
         }
     },
     "aggregateReflectors": [["Left","Left_Flare"],["Right","Right_Flare"]],
-    # Class: CfgVehicles\RHS_su25_base\markerlights,
+    # Class: CfgVehicles\RHS_su25_base\markerlights [Indent level: 1],
     "markerlights": {
-        # Class: CfgVehicles\RHS_su25_base\markerlights\GreenStill
+        # Class: CfgVehicles\RHS_su25_base\markerlights\GreenStill [Indent level: 2]
         "GreenStill": {
             "activeLight": 0,
             "color": [0,0.8,0],
@@ -1539,7 +1539,7 @@ RHS_Su25SM_vvs = {
             "drawLightSize": 0.25,
             "drawLightCenterSize": 0.08
         },
-        # Class: CfgVehicles\RHS_su25_base\markerlights\RedStill,
+        # Class: CfgVehicles\RHS_su25_base\markerlights\RedStill [Indent level: 2],
         "RedStill": {
             "color": [0.8,0,0],
             "ambient": [0.08,0,0],
@@ -1554,7 +1554,7 @@ RHS_Su25SM_vvs = {
             "drawLightSize": 0.25,
             "drawLightCenterSize": 0.08
         },
-        # Class: CfgVehicles\RHS_su25_base\markerlights\WhiteStill,
+        # Class: CfgVehicles\RHS_su25_base\markerlights\WhiteStill [Indent level: 2],
         "WhiteStill": {
             "color": [1,1,1],
             "ambient": [0.1,0.1,0.1],
@@ -1569,7 +1569,7 @@ RHS_Su25SM_vvs = {
             "drawLightSize": 0.25,
             "drawLightCenterSize": 0.08
         },
-        # Class: CfgVehicles\RHS_su25_base\markerlights\WhiteBlicking,
+        # Class: CfgVehicles\RHS_su25_base\markerlights\WhiteBlicking [Indent level: 2],
         "WhiteBlicking": {
             "color": [1,1,1],
             "ambient": [0.1,0.1,0.1],
@@ -1584,7 +1584,7 @@ RHS_Su25SM_vvs = {
             "drawLightSize": 0.25,
             "drawLightCenterSize": 0.08
         },
-        # Class: CfgVehicles\RHS_su25_base\markerlights\RedBlinking,
+        # Class: CfgVehicles\RHS_su25_base\markerlights\RedBlinking [Indent level: 2],
         "RedBlinking": {
             "color": [0.9,0.15,0.1],
             "ambient": [0.09,0.015,0.01],
@@ -1600,235 +1600,235 @@ RHS_Su25SM_vvs = {
             "drawLightCenterSize": 0.08
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\Damage,
+    # Class: CfgVehicles\RHS_su25_base\Damage [Indent level: 1],
     "Damage": {
         "tex": ["rhsafrf|addons|rhs_a2port_air|su25|data|rhs_su25_warningLights_empty_ca.paa","rhsafrf|addons|rhs_a2port_air|su25|data|rhs_su25_warningLights_ca.paa"],
         "mat": ["rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass_damage.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass_damage.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass_in.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass_in_damage.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass_in_damage.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_body1.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_body1_damage.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_body1_destruct.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_body2.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_body2_damage.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_body2_destruct.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass_damage.rvmat","rhsafrf|addons|rhs_a2port_air|su25|data|su25_glass_destruct.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","a3|data_f|default_destruct.rvmat"]
     },
-    # Class: CfgVehicles\RHS_su25_base\AnimationSources,
+    # Class: CfgVehicles\RHS_su25_base\AnimationSources [Indent level: 1],
     "AnimationSources": {
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\eject
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\eject [Indent level: 2]
         "eject": {
             "source": "door",
             "animPeriod": 0.6,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\eject_hide,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\eject_hide [Indent level: 2],
         "eject_hide": {
             "source": "user",
             "animPeriod": 0.6,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\throttle_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\throttle_source [Indent level: 2],
         "throttle_source": {
             "animPeriod": 10,
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lights_lock,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lights_lock [Indent level: 2],
         "rwr_lights_lock": {
             "source": "user",
             "initPhase": 0,
             "animPeriod": 8
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lock_dir_primary,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lock_dir_primary [Indent level: 2],
         "rwr_lock_dir_primary": {
             "animPeriod": 0.1,
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lock_primary,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lock_primary [Indent level: 2],
         "rwr_lock_primary": {
             "animPeriod": 1e-007,
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_signal_strenght,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_signal_strenght [Indent level: 2],
         "rwr_signal_strenght": {
             "animPeriod": 1e-007,
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lights,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\rwr_lights [Indent level: 2],
         "rwr_lights": {
             "animPeriod": 1e-007,
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_1_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_1_source [Indent level: 2],
         "hit_pylon_1_source": {
             "source": "Hit",
             "hitpoint": "HitPylon1"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_2_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_2_source [Indent level: 2],
         "hit_pylon_2_source": {
             "source": "Hit",
             "hitpoint": "HitPylon2"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_3_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_3_source [Indent level: 2],
         "hit_pylon_3_source": {
             "source": "Hit",
             "hitpoint": "HitPylon3"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_4_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_4_source [Indent level: 2],
         "hit_pylon_4_source": {
             "source": "Hit",
             "hitpoint": "HitPylon4"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_5_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_5_source [Indent level: 2],
         "hit_pylon_5_source": {
             "source": "Hit",
             "hitpoint": "HitPylon5"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_6_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_6_source [Indent level: 2],
         "hit_pylon_6_source": {
             "source": "Hit",
             "hitpoint": "HitPylon6"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_7_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_7_source [Indent level: 2],
         "hit_pylon_7_source": {
             "source": "Hit",
             "hitpoint": "HitPylon7"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_8_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_8_source [Indent level: 2],
         "hit_pylon_8_source": {
             "source": "Hit",
             "hitpoint": "HitPylon8"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_9_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_9_source [Indent level: 2],
         "hit_pylon_9_source": {
             "source": "Hit",
             "hitpoint": "HitPylon9"
         },
-        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_10_source,
+        # Class: CfgVehicles\RHS_su25_base\AnimationSources\hit_pylon_10_source [Indent level: 2],
         "hit_pylon_10_source": {
             "source": "Hit",
             "hitpoint": "HitPylon10"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Cannon_30mm_ammorandom,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Cannon_30mm_ammorandom [Indent level: 2],
         "Cannon_30mm_ammorandom": {
             "source": "ammorandom",
             "weapon": "Cannon_30mm_Plane_CAS_02_F"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Cannon_30mm_revolving,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Cannon_30mm_revolving [Indent level: 2],
         "Cannon_30mm_revolving": {
             "source": "revolving",
             "weapon": "Cannon_30mm_Plane_CAS_02_F"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Missile_AA_03_revolving,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Missile_AA_03_revolving [Indent level: 2],
         "Missile_AA_03_revolving": {
             "source": "revolving",
             "weapon": "Missile_AA_03_Plane_CAS_02_F"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Missile_AGM_01_revolving,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Missile_AGM_01_revolving [Indent level: 2],
         "Missile_AGM_01_revolving": {
             "source": "revolving",
             "weapon": "Missile_AGM_01_Plane_CAS_02_F"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Rocket_03_HE_revolving,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Rocket_03_HE_revolving [Indent level: 2],
         "Rocket_03_HE_revolving": {
             "source": "revolving",
             "weapon": "Rocket_03_HE_Plane_CAS_02_F"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Rocket_03_AP_revolving,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Rocket_03_AP_revolving [Indent level: 2],
         "Rocket_03_AP_revolving": {
             "source": "revolving",
             "weapon": "Rocket_03_AP_Plane_CAS_02_F"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Bomb_03_revolving,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Bomb_03_revolving [Indent level: 2],
         "Bomb_03_revolving": {
             "source": "revolving",
             "weapon": "Bomb_03_Plane_CAS_02_F"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Damper_1_source,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Damper_1_source [Indent level: 2],
         "Damper_1_source": {
             "source": "damper",
             "wheel": "Wheel_1"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Damper_2_source,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Damper_2_source [Indent level: 2],
         "Damper_2_source": {
             "source": "damper",
             "wheel": "Wheel_2"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Damper_3_source,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Damper_3_source [Indent level: 2],
         "Damper_3_source": {
             "source": "damper",
             "wheel": "Wheel_3"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Wheel_1_source,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Wheel_1_source [Indent level: 2],
         "Wheel_1_source": {
             "source": "wheel",
             "wheel": "Wheel_1"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Wheel_2_source,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Wheel_2_source [Indent level: 2],
         "Wheel_2_source": {
             "source": "wheel",
             "wheel": "Wheel_2"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Wheel_3_source,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\Wheel_3_source [Indent level: 2],
         "Wheel_3_source": {
             "source": "wheel",
             "wheel": "Wheel_3"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\HitAvionics,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\HitAvionics [Indent level: 2],
         "HitAvionics": {
             "source": "Hit",
             "hitpoint": "HitAvionics",
             "raw": 1
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\HideWeapons,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\HideWeapons [Indent level: 2],
         "HideWeapons": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\canopy_hide,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\canopy_hide [Indent level: 2],
         "canopy_hide": {
             "source": "user",
             "animPeriod": 0.001,
             "initPhase": 0
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\ejection_seat_hide,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\ejection_seat_hide [Indent level: 2],
         "ejection_seat_hide": {
             "source": "user",
             "animPeriod": 0.001,
             "initPhase": 0
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\ejection_seat_motion,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\AnimationSources\ejection_seat_motion [Indent level: 2],
         "ejection_seat_motion": {
             "source": "user",
             "animPeriod": 0.25,
             "initPhase": 0
         },
-        # Class: CfgVehicles\Air\AnimationSources\CollisionLightRed_source,
+        # Class: CfgVehicles\Air\AnimationSources\CollisionLightRed_source [Indent level: 2],
         "CollisionLightRed_source": {
             "source": "MarkerLight",
             "markerLight": "CollisionRed"
         },
-        # Class: CfgVehicles\Air\AnimationSources\CollisionLightWhite_source,
+        # Class: CfgVehicles\Air\AnimationSources\CollisionLightWhite_source [Indent level: 2],
         "CollisionLightWhite_source": {
             "source": "MarkerLight",
             "markerLight": "CollisionWhite"
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\WingVortices,
+    # Class: CfgVehicles\RHS_su25_base\WingVortices [Indent level: 1],
     "WingVortices": {
-        # Class: CfgVehicles\RHS_su25_base\WingVortices\WingTipLeft
+        # Class: CfgVehicles\RHS_su25_base\WingVortices\WingTipLeft [Indent level: 2]
         "WingTipLeft": {
             "effectName": "WingVortices",
             "position": "cerveny pozicni"
         },
-        # Class: CfgVehicles\RHS_su25_base\WingVortices\WingTipRight,
+        # Class: CfgVehicles\RHS_su25_base\WingVortices\WingTipRight [Indent level: 2],
         "WingTipRight": {
             "effectName": "WingVortices",
             "position": "zeleny pozicni"
         },
-        # Class: CfgVehicles\RHS_su25_base\WingVortices\BodyLeft,
+        # Class: CfgVehicles\RHS_su25_base\WingVortices\BodyLeft [Indent level: 2],
         "BodyLeft": {
             "effectName": "BodyVortices",
             "position": "body_vapour_L_S"
         },
-        # Class: CfgVehicles\RHS_su25_base\WingVortices\BodyRight,
+        # Class: CfgVehicles\RHS_su25_base\WingVortices\BodyRight [Indent level: 2],
         "BodyRight": {
             "effectName": "BodyVortices",
             "position": "body_vapour_R_S"
@@ -1837,9 +1837,9 @@ RHS_Su25SM_vvs = {
     "threat": [1,1,1],
     "driveOnComponent": ["gear_f1","gear_l1","gear_r1"],
     "defaultUserMFDvalues": [0,0,0,0,0,0],
-    # Class: CfgVehicles\RHS_su25_base\MFD,
+    # Class: CfgVehicles\RHS_su25_base\MFD [Indent level: 1],
     "MFD": {
-        # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD
+        # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD [Indent level: 2]
         "AirplaneHUD": {
             "enableParallax": 1,
             "topLeft": "HUD LH",
@@ -1849,21 +1849,21 @@ RHS_Su25SM_vvs = {
             "borderRight": 0,
             "borderTop": 0,
             "borderBottom": 0,
-            # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Pos10Vector,
+            # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Pos10Vector [Indent level: 3],
             "Pos10Vector": {
                 "pos0": [0.52,0.03],
                 "pos10": [2.02,1.23],
                 "type": "vector"
             },
             "color": [0,1,0,0.1],
-            # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones,
+            # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones [Indent level: 3],
             "Bones": {
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\PlaneW
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\PlaneW [Indent level: 4]
                 "PlaneW": {
                     "pos": [0.5,0.5],
                     "type": "fixed"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\HorizonBankMGun,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\HorizonBankMGun [Indent level: 4],
                 "HorizonBankMGun": {
                     "center": [0,0],
                     "type": "rotational",
@@ -1874,7 +1874,7 @@ RHS_Su25SM_vvs = {
                     "maxAngle": 360,
                     "aspectRatio": 0.8
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\HorizonBankReverted,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\HorizonBankReverted [Indent level: 4],
                 "HorizonBankReverted": {
                     "pos0": [-0,-0],
                     "pos10": [0,0],
@@ -1887,28 +1887,28 @@ RHS_Su25SM_vvs = {
                     "maxAngle": -360,
                     "aspectRatio": 0.8
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\ImpactPoint,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\ImpactPoint [Indent level: 4],
                 "ImpactPoint": {
                     "type": "vector",
                     "source": "ImpactPoint",
                     "pos0": [0.5,0.23],
                     "pos10": [1.38,1.46]
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\TargetingPodDir,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\TargetingPodDir [Indent level: 4],
                 "TargetingPodDir": {
                     "type": "vector",
                     "source": "pilotcamera",
                     "pos0": ["0.50+0.034","0.27-0.0455"],
                     "pos10": [2.02,1.47]
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\TargetingPodTarget,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\TargetingPodTarget [Indent level: 4],
                 "TargetingPodTarget": {
                     "type": "vector",
                     "source": "pilotcamera",
                     "pos0": ["0.50+0.034","0.27-0.0455"],
                     "pos10": [2.02,1.47]
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot1,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot1 [Indent level: 4],
                 "MissileFlightTimeRot1": {
                     "type": "rotational",
                     "source": "MissileFlightTime",
@@ -1920,7 +1920,7 @@ RHS_Su25SM_vvs = {
                     "maxAngle": 18,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot2,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot2 [Indent level: 4],
                 "MissileFlightTimeRot2": {
                     "maxAngle": 37,
                     "max": 6,
@@ -1932,7 +1932,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot3,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot3 [Indent level: 4],
                 "MissileFlightTimeRot3": {
                     "maxAngle": 55.5,
                     "max": 9,
@@ -1944,7 +1944,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot4,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot4 [Indent level: 4],
                 "MissileFlightTimeRot4": {
                     "maxAngle": 74,
                     "max": 12,
@@ -1956,7 +1956,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot5,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot5 [Indent level: 4],
                 "MissileFlightTimeRot5": {
                     "maxAngle": 92.5,
                     "max": 15,
@@ -1968,7 +1968,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot6,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot6 [Indent level: 4],
                 "MissileFlightTimeRot6": {
                     "maxAngle": 111,
                     "max": 18,
@@ -1980,7 +1980,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot7,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot7 [Indent level: 4],
                 "MissileFlightTimeRot7": {
                     "maxAngle": 129.5,
                     "max": 21,
@@ -1992,7 +1992,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot8,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot8 [Indent level: 4],
                 "MissileFlightTimeRot8": {
                     "maxAngle": 148,
                     "max": 24,
@@ -2004,7 +2004,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot9,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot9 [Indent level: 4],
                 "MissileFlightTimeRot9": {
                     "maxAngle": 166.5,
                     "max": 27,
@@ -2016,7 +2016,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot10,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot10 [Indent level: 4],
                 "MissileFlightTimeRot10": {
                     "maxAngle": 185,
                     "max": 30,
@@ -2028,7 +2028,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot11,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot11 [Indent level: 4],
                 "MissileFlightTimeRot11": {
                     "maxAngle": 203.5,
                     "max": 33,
@@ -2040,7 +2040,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot12,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot12 [Indent level: 4],
                 "MissileFlightTimeRot12": {
                     "maxAngle": 222,
                     "max": 36,
@@ -2052,7 +2052,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot13,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot13 [Indent level: 4],
                 "MissileFlightTimeRot13": {
                     "maxAngle": 240.5,
                     "max": 39,
@@ -2064,7 +2064,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot14,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot14 [Indent level: 4],
                 "MissileFlightTimeRot14": {
                     "maxAngle": 259,
                     "max": 42,
@@ -2076,7 +2076,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot15,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot15 [Indent level: 4],
                 "MissileFlightTimeRot15": {
                     "maxAngle": 277.5,
                     "max": 45,
@@ -2088,7 +2088,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot16,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot16 [Indent level: 4],
                 "MissileFlightTimeRot16": {
                     "maxAngle": 296,
                     "max": 48,
@@ -2100,7 +2100,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot17,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot17 [Indent level: 4],
                 "MissileFlightTimeRot17": {
                     "maxAngle": 314.5,
                     "max": 51,
@@ -2112,7 +2112,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot18,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot18 [Indent level: 4],
                 "MissileFlightTimeRot18": {
                     "maxAngle": 333,
                     "max": 54,
@@ -2124,7 +2124,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot19,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot19 [Indent level: 4],
                 "MissileFlightTimeRot19": {
                     "maxAngle": 351.5,
                     "max": 57,
@@ -2136,7 +2136,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot20,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\MissileFlightTimeRot20 [Indent level: 4],
                 "MissileFlightTimeRot20": {
                     "maxAngle": 370,
                     "max": 60,
@@ -2148,7 +2148,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot1,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot1 [Indent level: 4],
                 "UserRot1": {
                     "type": "rotational",
                     "source": "user",
@@ -2161,7 +2161,7 @@ RHS_Su25SM_vvs = {
                     "maxAngle": 18,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot2,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot2 [Indent level: 4],
                 "UserRot2": {
                     "maxAngle": 37,
                     "max": 6,
@@ -2174,7 +2174,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot3,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot3 [Indent level: 4],
                 "UserRot3": {
                     "maxAngle": 55.5,
                     "max": 9,
@@ -2187,7 +2187,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot4,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot4 [Indent level: 4],
                 "UserRot4": {
                     "maxAngle": 74,
                     "max": 12,
@@ -2200,7 +2200,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot5,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot5 [Indent level: 4],
                 "UserRot5": {
                     "maxAngle": 92.5,
                     "max": 15,
@@ -2213,7 +2213,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot6,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot6 [Indent level: 4],
                 "UserRot6": {
                     "maxAngle": 111,
                     "max": 18,
@@ -2226,7 +2226,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot7,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot7 [Indent level: 4],
                 "UserRot7": {
                     "maxAngle": 129.5,
                     "max": 21,
@@ -2239,7 +2239,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot8,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot8 [Indent level: 4],
                 "UserRot8": {
                     "maxAngle": 148,
                     "max": 24,
@@ -2252,7 +2252,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot9,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot9 [Indent level: 4],
                 "UserRot9": {
                     "maxAngle": 166.5,
                     "max": 27,
@@ -2265,7 +2265,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot10,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot10 [Indent level: 4],
                 "UserRot10": {
                     "maxAngle": 185,
                     "max": 30,
@@ -2278,7 +2278,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot11,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot11 [Indent level: 4],
                 "UserRot11": {
                     "maxAngle": 203.5,
                     "max": 33,
@@ -2291,7 +2291,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot12,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot12 [Indent level: 4],
                 "UserRot12": {
                     "maxAngle": 222,
                     "max": 36,
@@ -2304,7 +2304,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot13,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot13 [Indent level: 4],
                 "UserRot13": {
                     "maxAngle": 240.5,
                     "max": 39,
@@ -2317,7 +2317,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot14,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot14 [Indent level: 4],
                 "UserRot14": {
                     "maxAngle": 259,
                     "max": 42,
@@ -2330,7 +2330,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot15,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot15 [Indent level: 4],
                 "UserRot15": {
                     "maxAngle": 277.5,
                     "max": 45,
@@ -2343,7 +2343,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot16,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot16 [Indent level: 4],
                 "UserRot16": {
                     "maxAngle": 296,
                     "max": 48,
@@ -2356,7 +2356,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot17,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot17 [Indent level: 4],
                 "UserRot17": {
                     "maxAngle": 314.5,
                     "max": 51,
@@ -2369,7 +2369,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot18,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot18 [Indent level: 4],
                 "UserRot18": {
                     "maxAngle": 333,
                     "max": 54,
@@ -2382,7 +2382,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot19,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot19 [Indent level: 4],
                 "UserRot19": {
                     "maxAngle": 351.5,
                     "max": 57,
@@ -2395,7 +2395,7 @@ RHS_Su25SM_vvs = {
                     "minAngle": 0,
                     "aspectRatio": 0.840909
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot20,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Bones\UserRot20 [Indent level: 4],
                 "UserRot20": {
                     "maxAngle": 370,
                     "max": 60,
@@ -2409,125 +2409,125 @@ RHS_Su25SM_vvs = {
                     "aspectRatio": 0.840909
                 }
             },
-            # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw,
+            # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.69,0.22,0],
                 "alpha": 1,
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint [Indent level: 4],
                 "ImpactPoint": {
                     "condition": "1 - atmissile",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Cros,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Cros [Indent level: 5],
                     "Cros": {
                         "type": "line",
                         "points": [["ImpactPoint",1,[0.111111,0],1],["ImpactPoint",1,[0.0277778,0],1],[],["ImpactPoint",1,[-0.111111,0],1],["ImpactPoint",1,[-0.0277778,0],1],[],["ImpactPoint",1,[0,0.0934343],1],["ImpactPoint",1,[0,0.0233586],1],[],["ImpactPoint",1,[0,-0.0934343],1],["ImpactPoint",1,[0,-0.0233586],1],[]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Dot,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Dot [Indent level: 5],
                     "Dot": {
                         "type": "line",
                         "points": [["ImpactPoint",[0,0.0035],1],["ImpactPoint",[0.0035,-0],1],["ImpactPoint",[0,-0.0035],1],["ImpactPoint",[-0.0035,-0],1],["ImpactPoint",[0,0.0035],1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Ring,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Ring [Indent level: 5],
                     "Ring": {
                         "type": "line",
                         "points": [["ImpactPoint",[0.187939,0.0575216],1],["ImpactPoint",[0.193185,0.0435287],1],["ImpactPoint",[0.196962,0.0292045],1],["ImpactPoint",[0.199239,0.014658],1],["ImpactPoint",[0.2,7.35146e-009],1],["ImpactPoint",[0.199239,-0.014658],1],["ImpactPoint",[0.196962,-0.0292045],1],["ImpactPoint",[0.193185,-0.0435286],1],["ImpactPoint",[0.187939,-0.0575216],1],["ImpactPoint",[0.181262,-0.0710767],1],["ImpactPoint",[0.173205,-0.0840909],1],["ImpactPoint",[0.16383,-0.0964651],1],["ImpactPoint",[0.153209,-0.108105],1],["ImpactPoint",[0.141421,-0.118923],1],["ImpactPoint",[0.128558,-0.128835],1],["ImpactPoint",[0.114715,-0.137766],1],["ImpactPoint",[0.1,-0.14565],1],["ImpactPoint",[0.0845237,-0.152424],1],["ImpactPoint",[0.068404,-0.158039],1],["ImpactPoint",[0.0517638,-0.162451],1],["ImpactPoint",[0.0347296,-0.165627],1],["ImpactPoint",[0.0174311,-0.167542],1],["ImpactPoint",[0,-0.168182],1],[],["ImpactPoint",[0.187939,0.0575216],1],["ImpactPoint",[0.169145,0.0517694],1],[],["ImpactPoint",[0.196962,0.0292045],1],["ImpactPoint",[0.187113,0.0277442],1],[],["ImpactPoint",[0.2,7.35146e-009],1],["ImpactPoint",[0.18,6.61632e-009],1],[],["ImpactPoint",[0.196962,-0.0292045],1],["ImpactPoint",[0.187113,-0.0277442],1],[],["ImpactPoint",[0.187939,-0.0575216],1],["ImpactPoint",[0.178542,-0.0546455],1],[],["ImpactPoint",[0.173205,-0.0840909],1],["ImpactPoint",[0.155885,-0.0756818],1],[],["ImpactPoint",[0.153209,-0.108105],1],["ImpactPoint",[0.145548,-0.1027],1],[],["ImpactPoint",[0.128558,-0.128835],1],["ImpactPoint",[0.12213,-0.122393],1],[],["ImpactPoint",[0.1,-0.14565],1],["ImpactPoint",[0.09,-0.131085],1],[],["ImpactPoint",[0.068404,-0.158039],1],["ImpactPoint",[0.0649838,-0.150137],1],[],["ImpactPoint",[0.0347296,-0.165627],1],["ImpactPoint",[0.0329932,-0.157345],1],[],["ImpactPoint",[0,-0.168182],1],["ImpactPoint",[0,-0.151364],1],[]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Triangle,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\Triangle [Indent level: 5],
                     "Triangle": {
                         "type": "line",
                         "width": 9,
                         "points": [["ImpactPoint",1,["HorizonBankReverted",0,0.192],1],["ImpactPoint",1,["HorizonBankReverted",0.01,0.177],1],["ImpactPoint",1,["HorizonBankReverted",-0.01,0.177],1],["ImpactPoint",1,["HorizonBankReverted",0,0.192],1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\LaunchAutorization,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\LaunchAutorization [Indent level: 5],
                     "LaunchAutorization": {
                         "type": "line",
                         "width": 14,
                         "points": [["ImpactPoint",[0,-0.172386],1],["MissileFlightTimeRot1",[0,0.205],1,"ImpactPoint",1],["MissileFlightTimeRot2",[0,0.205],1,"ImpactPoint",1],["MissileFlightTimeRot3",[0,0.205],1,"ImpactPoint",1],["MissileFlightTimeRot4",[0,0.205],1,"ImpactPoint",1],["MissileFlightTimeRot5",[0,0.205],1,"ImpactPoint",1],["MissileFlightTimeRot6",[0,0.205],1,"ImpactPoint",1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\LaunchAutorizationBig,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\ImpactPoint\LaunchAutorizationBig [Indent level: 5],
                     "LaunchAutorizationBig": {
                         "type": "line",
                         "width": 24,
                         "points": [["MissileFlightTimeRot1",[0,0.215],1,"ImpactPoint",1],["MissileFlightTimeRot2",[0,0.215],1,"ImpactPoint",1],["MissileFlightTimeRot3",[0,0.215],1,"ImpactPoint",1],["MissileFlightTimeRot4",[0,0.215],1,"ImpactPoint",1],["MissileFlightTimeRot5",[0,0.215],1,"ImpactPoint",1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod [Indent level: 4],
                 "TargetingPod": {
                     "condition": "atmissile-pilotcameralock",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Cros,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Cros [Indent level: 5],
                     "Cros": {
                         "type": "line",
                         "points": [["TargetingPodDir",1,[0.111111,0],1],["TargetingPodDir",1,[0.0277778,0],1],[],["TargetingPodDir",1,[-0.111111,0],1],["TargetingPodDir",1,[-0.0277778,0],1],[],["TargetingPodDir",1,[0,0.0934343],1],["TargetingPodDir",1,[0,0.0233586],1],[],["TargetingPodDir",1,[0,-0.0934343],1],["TargetingPodDir",1,[0,-0.0233586],1],[]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Dot,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Dot [Indent level: 5],
                     "Dot": {
                         "type": "line",
                         "points": [["TargetingPodDir",[0,0.0035],1],["TargetingPodDir",[0.0035,-0],1],["TargetingPodDir",[0,-0.0035],1],["TargetingPodDir",[-0.0035,-0],1],["TargetingPodDir",[0,0.0035],1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Ring,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Ring [Indent level: 5],
                     "Ring": {
                         "type": "line",
                         "points": [["TargetingPodDir",[0.187939,0.0575216],1],["TargetingPodDir",[0.193185,0.0435287],1],["TargetingPodDir",[0.196962,0.0292045],1],["TargetingPodDir",[0.199239,0.014658],1],["TargetingPodDir",[0.2,7.35146e-009],1],["TargetingPodDir",[0.199239,-0.014658],1],["TargetingPodDir",[0.196962,-0.0292045],1],["TargetingPodDir",[0.193185,-0.0435286],1],["TargetingPodDir",[0.187939,-0.0575216],1],["TargetingPodDir",[0.181262,-0.0710767],1],["TargetingPodDir",[0.173205,-0.0840909],1],["TargetingPodDir",[0.16383,-0.0964651],1],["TargetingPodDir",[0.153209,-0.108105],1],["TargetingPodDir",[0.141421,-0.118923],1],["TargetingPodDir",[0.128558,-0.128835],1],["TargetingPodDir",[0.114715,-0.137766],1],["TargetingPodDir",[0.1,-0.14565],1],["TargetingPodDir",[0.0845237,-0.152424],1],["TargetingPodDir",[0.068404,-0.158039],1],["TargetingPodDir",[0.0517638,-0.162451],1],["TargetingPodDir",[0.0347296,-0.165627],1],["TargetingPodDir",[0.0174311,-0.167542],1],["TargetingPodDir",[0,-0.168182],1],[],["TargetingPodDir",[0.187939,0.0575216],1],["TargetingPodDir",[0.169145,0.0517694],1],[],["TargetingPodDir",[0.196962,0.0292045],1],["TargetingPodDir",[0.187113,0.0277442],1],[],["TargetingPodDir",[0.2,7.35146e-009],1],["TargetingPodDir",[0.18,6.61632e-009],1],[],["TargetingPodDir",[0.196962,-0.0292045],1],["TargetingPodDir",[0.187113,-0.0277442],1],[],["TargetingPodDir",[0.187939,-0.0575216],1],["TargetingPodDir",[0.178542,-0.0546455],1],[],["TargetingPodDir",[0.173205,-0.0840909],1],["TargetingPodDir",[0.155885,-0.0756818],1],[],["TargetingPodDir",[0.153209,-0.108105],1],["TargetingPodDir",[0.145548,-0.1027],1],[],["TargetingPodDir",[0.128558,-0.128835],1],["TargetingPodDir",[0.12213,-0.122393],1],[],["TargetingPodDir",[0.1,-0.14565],1],["TargetingPodDir",[0.09,-0.131085],1],[],["TargetingPodDir",[0.068404,-0.158039],1],["TargetingPodDir",[0.0649838,-0.150137],1],[],["TargetingPodDir",[0.0347296,-0.165627],1],["TargetingPodDir",[0.0329932,-0.157345],1],[],["TargetingPodDir",[0,-0.168182],1],["TargetingPodDir",[0,-0.151364],1],[]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Triangle,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\Triangle [Indent level: 5],
                     "Triangle": {
                         "type": "line",
                         "width": 9,
                         "points": [["TargetingPodDir",1,["HorizonBankReverted",0,0.192],1],["TargetingPodDir",1,["HorizonBankReverted",0.01,0.177],1],["TargetingPodDir",1,["HorizonBankReverted",-0.01,0.177],1],["TargetingPodDir",1,["HorizonBankReverted",0,0.192],1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\LaunchAutorization,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\LaunchAutorization [Indent level: 5],
                     "LaunchAutorization": {
                         "type": "line",
                         "width": 14,
                         "points": [["TargetingPodDir",[0,-0.172386],1],["UserRot1",[0,0.205],1,"TargetingPodDir",1],["UserRot2",[0,0.205],1,"TargetingPodDir",1],["UserRot3",[0,0.205],1,"TargetingPodDir",1],["UserRot4",[0,0.205],1,"TargetingPodDir",1],["UserRot5",[0,0.205],1,"TargetingPodDir",1],["UserRot6",[0,0.205],1,"TargetingPodDir",1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\LaunchAutorizationBig,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPod\LaunchAutorizationBig [Indent level: 5],
                     "LaunchAutorizationBig": {
                         "type": "line",
                         "width": 24,
                         "points": [["UserRot1",[0,0.215],1,"TargetingPodDir",1],["UserRot2",[0,0.215],1,"TargetingPodDir",1],["UserRot3",[0,0.215],1,"TargetingPodDir",1],["UserRot4",[0,0.215],1,"TargetingPodDir",1],["UserRot5",[0,0.215],1,"TargetingPodDir",1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget [Indent level: 4],
                 "TargetingPodTarget": {
                     "condition": "(atmissile)*(pilotcameralock>=0)*laseron",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Cros,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Cros [Indent level: 5],
                     "Cros": {
                         "type": "line",
                         "points": [["TargetingPodTarget",1,[0.111111,0],1],["TargetingPodTarget",1,[0.0277778,0],1],[],["TargetingPodTarget",1,[-0.111111,0],1],["TargetingPodTarget",1,[-0.0277778,0],1],[],["TargetingPodTarget",1,[0,0.0934343],1],["TargetingPodTarget",1,[0,0.0233586],1],[],["TargetingPodTarget",1,[0,-0.0934343],1],["TargetingPodTarget",1,[0,-0.0233586],1],[]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Dot,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Dot [Indent level: 5],
                     "Dot": {
                         "type": "line",
                         "points": [["TargetingPodTarget",[0,0.0035],1],["TargetingPodTarget",[0.0035,-0],1],["TargetingPodTarget",[0,-0.0035],1],["TargetingPodTarget",[-0.0035,-0],1],["TargetingPodTarget",[0,0.0035],1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Ring,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Ring [Indent level: 5],
                     "Ring": {
                         "type": "line",
                         "points": [["TargetingPodTarget",[0.187939,0.0575216],1],["TargetingPodTarget",[0.193185,0.0435287],1],["TargetingPodTarget",[0.196962,0.0292045],1],["TargetingPodTarget",[0.199239,0.014658],1],["TargetingPodTarget",[0.2,7.35146e-009],1],["TargetingPodTarget",[0.199239,-0.014658],1],["TargetingPodTarget",[0.196962,-0.0292045],1],["TargetingPodTarget",[0.193185,-0.0435286],1],["TargetingPodTarget",[0.187939,-0.0575216],1],["TargetingPodTarget",[0.181262,-0.0710767],1],["TargetingPodTarget",[0.173205,-0.0840909],1],["TargetingPodTarget",[0.16383,-0.0964651],1],["TargetingPodTarget",[0.153209,-0.108105],1],["TargetingPodTarget",[0.141421,-0.118923],1],["TargetingPodTarget",[0.128558,-0.128835],1],["TargetingPodTarget",[0.114715,-0.137766],1],["TargetingPodTarget",[0.1,-0.14565],1],["TargetingPodTarget",[0.0845237,-0.152424],1],["TargetingPodTarget",[0.068404,-0.158039],1],["TargetingPodTarget",[0.0517638,-0.162451],1],["TargetingPodTarget",[0.0347296,-0.165627],1],["TargetingPodTarget",[0.0174311,-0.167542],1],["TargetingPodTarget",[0,-0.168182],1],[],["TargetingPodTarget",[0.187939,0.0575216],1],["TargetingPodTarget",[0.169145,0.0517694],1],[],["TargetingPodTarget",[0.196962,0.0292045],1],["TargetingPodTarget",[0.187113,0.0277442],1],[],["TargetingPodTarget",[0.2,7.35146e-009],1],["TargetingPodTarget",[0.18,6.61632e-009],1],[],["TargetingPodTarget",[0.196962,-0.0292045],1],["TargetingPodTarget",[0.187113,-0.0277442],1],[],["TargetingPodTarget",[0.187939,-0.0575216],1],["TargetingPodTarget",[0.178542,-0.0546455],1],[],["TargetingPodTarget",[0.173205,-0.0840909],1],["TargetingPodTarget",[0.155885,-0.0756818],1],[],["TargetingPodTarget",[0.153209,-0.108105],1],["TargetingPodTarget",[0.145548,-0.1027],1],[],["TargetingPodTarget",[0.128558,-0.128835],1],["TargetingPodTarget",[0.12213,-0.122393],1],[],["TargetingPodTarget",[0.1,-0.14565],1],["TargetingPodTarget",[0.09,-0.131085],1],[],["TargetingPodTarget",[0.068404,-0.158039],1],["TargetingPodTarget",[0.0649838,-0.150137],1],[],["TargetingPodTarget",[0.0347296,-0.165627],1],["TargetingPodTarget",[0.0329932,-0.157345],1],[],["TargetingPodTarget",[0,-0.168182],1],["TargetingPodTarget",[0,-0.151364],1],[]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Triangle,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\Triangle [Indent level: 5],
                     "Triangle": {
                         "type": "line",
                         "width": 9,
                         "points": [["TargetingPodTarget",1,["HorizonBankReverted",0,0.192],1],["TargetingPodTarget",1,["HorizonBankReverted",0.01,0.177],1],["TargetingPodTarget",1,["HorizonBankReverted",-0.01,0.177],1],["TargetingPodTarget",1,["HorizonBankReverted",0,0.192],1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\LaunchAutorization,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\LaunchAutorization [Indent level: 5],
                     "LaunchAutorization": {
                         "type": "line",
                         "width": 14,
                         "points": [["TargetingPodTarget",[0,-0.172386],1],["UserRot1",[0,0.205],1,"TargetingPodTarget",1],["UserRot2",[0,0.205],1,"TargetingPodTarget",1],["UserRot3",[0,0.205],1,"TargetingPodTarget",1],["UserRot4",[0,0.205],1,"TargetingPodTarget",1],["UserRot5",[0,0.205],1,"TargetingPodTarget",1],["UserRot6",[0,0.205],1,"TargetingPodTarget",1]]
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\LaunchAutorizationBig,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\TargetingPodTarget\LaunchAutorizationBig [Indent level: 5],
                     "LaunchAutorizationBig": {
                         "type": "line",
                         "width": 24,
                         "points": [["UserRot1",[0,0.215],1,"TargetingPodTarget",1],["UserRot2",[0,0.215],1,"TargetingPodTarget",1],["UserRot3",[0,0.215],1,"TargetingPodTarget",1],["UserRot4",[0,0.215],1,"TargetingPodTarget",1],["UserRot5",[0,0.215],1,"TargetingPodTarget",1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\StaticReticle,
+                # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\StaticReticle [Indent level: 4],
                 "StaticReticle": {
                     "condition": "user5",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\StaticReticle\Shape,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\AirplaneHUD\Draw\StaticReticle\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "texture": "rhsafrf|addons|rhs_c_a2port_air|Su25|rhs_su25_reticle_static_ca.paa",
@@ -2536,7 +2536,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1,
+        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1 [Indent level: 2],
         "MFD_1": {
             "topLeft": "MFD_WS_TL",
             "topRight": "MFD_WS_TR",
@@ -2548,31 +2548,31 @@ RHS_Su25SM_vvs = {
             "color": [0.15,1,0.15,1],
             "enableParallax": 0,
             "font": "PuristaMedium",
-            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Bones,
+            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw,
+            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw [Indent level: 3],
             "Draw": {
                 "alpha": 0.5,
                 "color": [1,1,1],
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo [Indent level: 4],
                 "MgunAmmo": {
                     "condition": "ammo2>=1",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\BlackBackground,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\BlackBackground [Indent level: 5],
                     "BlackBackground": {
                         "color": [0,0,0],
                         "alpha": 1,
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\BlackBackground\AmmoBox,
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\BlackBackground\AmmoBox [Indent level: 6],
                         "AmmoBox": {
                             "type": "polygon",
                             "width": 4,
                             "points": [[[[0.838,0.825],1],[[0.922,0.825],1],[[0.922,0.975],1],[[0.838,0.975],1]]]
                         }
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Full,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Full [Indent level: 5],
                     "Full": {
                         "condition": "ammo2>=212",
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Full\AmmoText,
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Full\AmmoText [Indent level: 6],
                         "AmmoText": {
                             "type": "text",
                             "source": "static",
@@ -2585,10 +2585,10 @@ RHS_Su25SM_vvs = {
                             "down": [[0.875,0.96],1]
                         }
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostFull,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostFull [Indent level: 5],
                     "AlmostFull": {
                         "condition": "(ammo2>=137)*(ammo2<=211)",
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostFull\AmmoText,
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostFull\AmmoText [Indent level: 6],
                         "AmmoText": {
                             "type": "text",
                             "source": "static",
@@ -2601,10 +2601,10 @@ RHS_Su25SM_vvs = {
                             "down": [[0.875,0.96],1]
                         }
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Half,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Half [Indent level: 5],
                     "Half": {
                         "condition": "(ammo2>=63)*(ammo2<=136)",
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Half\AmmoText,
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\Half\AmmoText [Indent level: 6],
                         "AmmoText": {
                             "type": "text",
                             "source": "static",
@@ -2617,10 +2617,10 @@ RHS_Su25SM_vvs = {
                             "down": [[0.875,0.96],1]
                         }
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostEmpty,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostEmpty [Indent level: 5],
                     "AlmostEmpty": {
                         "condition": "(ammo2<=62)",
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostEmpty\AmmoText,
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\MgunAmmo\AlmostEmpty\AmmoText [Indent level: 6],
                         "AmmoText": {
                             "type": "text",
                             "source": "static",
@@ -2634,21 +2634,21 @@ RHS_Su25SM_vvs = {
                         }
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket [Indent level: 4],
                 "WeaponTypeRocket": {
                     "condition": "rocket",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket\BlackBackground,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket\BlackBackground [Indent level: 5],
                     "BlackBackground": {
                         "color": [0,0,0],
                         "alpha": 1,
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket\BlackBackground\AmmoBox,
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket\BlackBackground\AmmoBox [Indent level: 6],
                         "AmmoBox": {
                             "type": "polygon",
                             "width": 4,
                             "points": [[[[0.838,0.125],1],[[0.922,0.125],1],[[0.922,0.275],1],[[0.838,0.275],1]]]
                         }
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket\AmmoText,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeRocket\AmmoText [Indent level: 5],
                     "AmmoText": {
                         "type": "text",
                         "source": "static",
@@ -2661,12 +2661,12 @@ RHS_Su25SM_vvs = {
                         "down": [[0.875,0.25],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles [Indent level: 4],
                 "WeaponTypeMissiles": {
                     "condition": "missile",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles\BlackBackground,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles\BlackBackground [Indent level: 5],
                     "BlackBackground": {
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles\BlackBackground\AmmoBox
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles\BlackBackground\AmmoBox [Indent level: 6]
                         "AmmoBox": {
                             "type": "polygon",
                             "width": 4,
@@ -2675,7 +2675,7 @@ RHS_Su25SM_vvs = {
                         "color": [0,0,0],
                         "alpha": 1
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles\AmmoText,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMissiles\AmmoText [Indent level: 5],
                     "AmmoText": {
                         "type": "text",
                         "source": "static",
@@ -2688,12 +2688,12 @@ RHS_Su25SM_vvs = {
                         "down": [[0.875,0.25],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs [Indent level: 4],
                 "WeaponTypeBombs": {
                     "condition": "bomb",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs\BlackBackground,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs\BlackBackground [Indent level: 5],
                     "BlackBackground": {
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs\BlackBackground\AmmoBox
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs\BlackBackground\AmmoBox [Indent level: 6]
                         "AmmoBox": {
                             "type": "polygon",
                             "width": 4,
@@ -2702,7 +2702,7 @@ RHS_Su25SM_vvs = {
                         "color": [0,0,0],
                         "alpha": 1
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs\AmmoText,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeBombs\AmmoText [Indent level: 5],
                     "AmmoText": {
                         "type": "text",
                         "source": "static",
@@ -2715,12 +2715,12 @@ RHS_Su25SM_vvs = {
                         "down": [[0.875,0.25],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun [Indent level: 4],
                 "WeaponTypeMgun": {
                     "condition": "mgun",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun\BlackBackground,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun\BlackBackground [Indent level: 5],
                     "BlackBackground": {
-                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun\BlackBackground\AmmoBox
+                        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun\BlackBackground\AmmoBox [Indent level: 6]
                         "AmmoBox": {
                             "type": "polygon",
                             "width": 4,
@@ -2729,7 +2729,7 @@ RHS_Su25SM_vvs = {
                         "color": [0,0,0],
                         "alpha": 1
                     },
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun\AmmoText,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\WeaponTypeMgun\AmmoText [Indent level: 5],
                     "AmmoText": {
                         "type": "text",
                         "source": "static",
@@ -2742,70 +2742,70 @@ RHS_Su25SM_vvs = {
                         "down": [[0.875,0.25],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon1,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon1 [Indent level: 4],
                 "Pylon1": {
                     "type": "pylonicon",
                     "pos": [[0.345,0.34],1],
                     "pylon": 1,
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon2,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon2 [Indent level: 4],
                 "Pylon2": {
                     "pylon": 2,
                     "pos": [[0.405,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon3,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon3 [Indent level: 4],
                 "Pylon3": {
                     "pylon": 3,
                     "pos": [[0.281,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon4,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon4 [Indent level: 4],
                 "Pylon4": {
                     "pylon": 4,
                     "pos": [[0.469,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon5,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon5 [Indent level: 4],
                 "Pylon5": {
                     "pylon": 5,
                     "pos": [[0.217,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon6,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon6 [Indent level: 4],
                 "Pylon6": {
                     "pylon": 6,
                     "pos": [[0.533,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon7,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon7 [Indent level: 4],
                 "Pylon7": {
                     "pylon": 7,
                     "pos": [[0.153,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon8,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon8 [Indent level: 4],
                 "Pylon8": {
                     "pylon": 8,
                     "pos": [[0.597,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon9,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon9 [Indent level: 4],
                 "Pylon9": {
                     "pylon": 9,
                     "pos": [[0.094,0.32],1],
                     "type": "pylonicon",
                     "name": "rhs_su25_box"
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon10,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_1\Draw\Pylon10 [Indent level: 4],
                 "Pylon10": {
                     "pylon": 10,
                     "pos": [[0.661,0.32],1],
@@ -2814,7 +2814,7 @@ RHS_Su25SM_vvs = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2,
+        # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2 [Indent level: 2],
         "MFD_2": {
             "topLeft": "MFD_Lights_TL",
             "topRight": "MFD_Lights_TR",
@@ -2825,43 +2825,43 @@ RHS_Su25SM_vvs = {
             "borderBottom": 0,
             "color": [0.15,1,0.15,1],
             "enableParallax": 0,
-            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Bones,
+            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw,
+            # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw [Indent level: 3],
             "Draw": {
                 "alpha": 1,
                 "color": [1,1,1],
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Authorized,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Authorized [Indent level: 4],
                 "Launch_Authorized": {
                     "condition": "((impactDistance/LarTop)>=LarAmmoMin)*((impactDistance/LarTop)<=LarAmmoMax)+(user1>=1)+missilelocked",
                     "color": [0.69,0.22,0],
                     "alpha": 0.2,
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Authorized\Bulb,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Authorized\Bulb [Indent level: 5],
                     "Bulb": {
                         "type": "polygon",
                         "texture": "a3|Data_f|light_flare_ca.paa",
                         "points": [[[[0.898,0.085],1],[[0.982,0.085],1],[[0.982,0.515],1],[[0.898,0.515],1]]]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Active,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Active [Indent level: 4],
                 "Laser_Active": {
                     "color": [0,0.49,0],
                     "alpha": 0.1,
                     "condition": "laseron",
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Active\Bulb,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Active\Bulb [Indent level: 5],
                     "Bulb": {
                         "type": "polygon",
                         "texture": "a3|Data_f|light_flare_ca.paa",
                         "points": [[[[0.018,0.085],1],[[0.102,0.085],1],[[0.102,0.515],1],[[0.018,0.515],1]]]
                     }
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Cooldown,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Cooldown [Indent level: 4],
                 "Laser_Cooldown": {
                     "condition": "user0",
                     "blinkingPattern": [0.3,0.3],
                     "blinkingStartsOn": 1,
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Cooldown\Bulb,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Laser_Cooldown\Bulb [Indent level: 5],
                     "Bulb": {
                         "type": "polygon",
                         "texture": "a3|Data_f|light_flare_ca.paa",
@@ -2870,12 +2870,12 @@ RHS_Su25SM_vvs = {
                     "color": [0,0.49,0],
                     "alpha": 0.1
                 },
-                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Disengage,
+                # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Disengage [Indent level: 4],
                 "Launch_Disengage": {
                     "condition": "(((impactDistance/LarTop)<=LarAmmoMin)+((impactDistance/LarTop)>=LarAmmoMax))*rocket+(user1<=-1)",
                     "color": [0.94,0.01,0],
                     "alpha": 0.07,
-                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Disengage\Bulb,
+                    # Class: CfgVehicles\RHS_su25_base\MFD\MFD_2\Draw\Launch_Disengage\Bulb [Indent level: 5],
                     "Bulb": {
                         "type": "polygon",
                         "texture": "a3|Data_f|light_flare_ca.paa",
@@ -2887,10 +2887,10 @@ RHS_Su25SM_vvs = {
     },
     "maxOmega": 2000,
     "engineMOI": 16,
-    # Class: CfgVehicles\RHS_su25_base\Wheels,
+    # Class: CfgVehicles\RHS_su25_base\Wheels [Indent level: 1],
     "Wheels": {
         "disableWheelsWhenDestroyed": 1,
-        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_1,
+        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_1 [Indent level: 2],
         "Wheel_1": {
             "side": "left",
             "boneName": "Wheel_1",
@@ -2918,7 +2918,7 @@ RHS_Su25SM_vvs = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_1_fake,
+        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_1_fake [Indent level: 2],
         "Wheel_1_fake": {
             "side": "left",
             "boneName": "Wheel_1",
@@ -2946,7 +2946,7 @@ RHS_Su25SM_vvs = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_2,
+        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_2 [Indent level: 2],
         "Wheel_2": {
             "boneName": "Wheel_2",
             "steering": 0,
@@ -2974,7 +2974,7 @@ RHS_Su25SM_vvs = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_3,
+        # Class: CfgVehicles\RHS_su25_base\Wheels\Wheel_3 [Indent level: 2],
         "Wheel_3": {
             "boneName": "Wheel_3",
             "side": "right",
@@ -3038,9 +3038,9 @@ RHS_Su25SM_vvs = {
     "draconicTorqueYCoef": [12,7.5,4,1.5,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
     "soundIncommingMissile": ["|rhsafrf|addons|rhs_c_a2port_air|sounds|alarm_beep",1.09811,1],
     "soundLocked": ["",1.58489,1],
-    # Class: CfgVehicles\RHS_su25_base\UserActions,
+    # Class: CfgVehicles\RHS_su25_base\UserActions [Indent level: 1],
     "UserActions": {
-        # Class: CfgVehicles\RHS_su25_base\UserActions\SAFEMODE
+        # Class: CfgVehicles\RHS_su25_base\UserActions\SAFEMODE [Indent level: 2]
         "SAFEMODE": {
             "displayName": "<t color='#00FF7F'>MASTERSAFE</t>",
             "condition": "(call rhs_fnc_findPlayer) in this",
@@ -3053,7 +3053,7 @@ RHS_Su25SM_vvs = {
             "shortcut": "user13",
             "hideOnUse": 1
         },
-        # Class: CfgVehicles\RHS_su25_base\UserActions\RETICLE,
+        # Class: CfgVehicles\RHS_su25_base\UserActions\RETICLE [Indent level: 2],
         "RETICLE": {
             "displayName": "<t color='#FBB829'>Toggle reticle</t>",
             "position": "",
@@ -3067,10 +3067,10 @@ RHS_Su25SM_vvs = {
             "statement": "if(((getUserMFDvalue this) select 5) isEqualTo 0)then{this setUserMFDvalue [5,1];}else{this setUserMFDvalue [5,0];};"
         }
     },
-    # Class: CfgVehicles\RHS_su25_base\EventHandlers,
+    # Class: CfgVehicles\RHS_su25_base\EventHandlers [Indent level: 1],
     "EventHandlers": {
         "hit": "",
-        # Class: CfgVehicles\RHS_su25_base\EventHandlers\RHS_EventHandlers,
+        # Class: CfgVehicles\RHS_su25_base\EventHandlers\RHS_EventHandlers [Indent level: 2],
         "RHS_EventHandlers": {
             "hit": "_this call RHS_fnc_AI_eject",
             "init": "_this call rhs_fnc_air_init",
@@ -3080,12 +3080,12 @@ RHS_Su25SM_vvs = {
         "init": "",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers,
+        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers [Indent level: 0],
         "RHS_DefaultEventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
-    # Class: CfgVehicles\O_Plane_CAS_02_F\SimpleObject,
+    # Class: CfgVehicles\O_Plane_CAS_02_F\SimpleObject [Indent level: 1],
     "SimpleObject": {
         "eden": 0,
         "animate": [["airintake_1_front_rot",0.07],["airintake_2_front_rot",0.07],["airintake_1_top_1_rot",0.07],["airintake_2_top_1_rot",0.07],["airintake_1_top_2_move",0.07],["airintake_2_top_2_move",0.07],["rotor_1_1_rot",0],["rotor_1_2_rot",0],["rotor_2_1_rot",0],["rotor_2_2_rot",0],["aileron_1_rot_1",0],["aileron_2_rot_1",0],["airbrake_rot_1",0],["airbrake_piston_1_move_1",0],["airbrake_piston_2_rot_1",0],["elevator_1_rot",0],["elevator_2_rot",0],["flap_1_rot",0],["flap_2_rot",0],["slat_1_1_rot",0],["slat_1_2_rot",0],["slat_2_1_rot",0],["slat_2_2_rot",0],["rudder_rot",0],["wheel_1_rot",0],["wheel_2_rot",0],["wheel_3_rot",0],["gear_1_rot",0],["gear_1_hatch_1_rot",0],["gear_1_hatch_2_rot",0],["gear_1_hatch_3_rot",0],["gear_1_hatch_4_rot",0],["gear_1_hatch_5_rot",0],["gear_1_steering_rot",0],["gear_1_damper_move",0],["gear_1_stabil_1_rot",0],["gear_1_stabil_2_rot",0],["gear_2_rot",0],["gear_2_hatch_1_rot",0],["gear_2_hatch_2_rot",0],["gear_2_hatch_3_rot",0],["gear_2_piston_1_rot",0],["gear_2_stabil_1_rot",0],["gear_2_stabil_2_rot",0],["gear_2_damper_move",0],["gear_3_rot",0],["gear_3_hatch_1_rot",0],["gear_3_hatch_2_rot",0],["gear_3_hatch_3_rot",0],["gear_3_piston_1_rot",0],["gear_3_stabil_1_rot",0],["gear_3_stabil_2_rot",0],["gear_3_damper_move",0],["canopy_rot",0],["ladder_hatch_l_rot",0],["ladder_hatch_r_rot",0],["display_off_hide",0],["avionics_damage",0],["display_cannon_rot",1],["display_cannon_rot_1",0],["display_cannon_rot_2",0],["display_missile_aa_1_rot",1],["display_missile_aa_1_rot_1",0],["display_missile_aa_1_rot_2",0],["display_missile_aa_2_rot",1],["display_missile_aa_2_rot_1",0],["display_missile_aa_2_rot_2",0],["display_missile_agm_2_1_rot",1],["display_missile_agm_2_1_rot_1",0],["display_missile_agm_2_1_rot_2",0],["display_missile_agm_1_1_rot",1],["display_missile_agm_1_1_rot_1",0],["display_missile_agm_1_1_rot_2",0],["display_missile_agm_2_2_rot",1],["display_missile_agm_2_2_rot_1",0],["display_missile_agm_2_2_rot_2",0],["display_missile_agm_1_2_rot",1],["display_missile_agm_1_2_rot_1",0],["display_missile_agm_1_2_rot_2",0],["display_rocketpod_2_rot",1],["display_rocketpod_2_rot_1",0],["display_rocketpod_2_rot_2",0],["display_rocketpod_1_rot",1],["display_rocketpod_1_rot_1",0],["display_rocketpod_1_rot_2",0],["display_bomb_1_rot",1],["display_bomb_1_rot_1",0],["display_bomb_1_rot_2",0],["display_bomb_2_rot",1],["display_bomb_2_rot_1",0],["display_bomb_2_rot_2",0],["display_cannon_slider_move",1],["display_rocketpod_1_slider_move",1],["display_rocketpod_2_slider_move",1],["display_horizon_rot_1",-0.03],["display_horizon_rot_2",0],["display_speed_rot",0],["display_compass_rot",0],["display_altitude_large_rot",7.98],["display_altitude_small_rot",7.98],["display_climb_rot",0],["display_engine_1_rot",0],["display_engine_2_rot",0],["display_engine_1_slider_move",0],["display_engine_2_slider_move",0],["display_gear_down_move",0],["display_gear_up_move",0],["controlstick_pitch_rot",0],["controlstick_roll_rot",0],["compass_rot",0],["cannon_muzzleflash_rot",514],["positionlights",0],["collisionlight_red_blinking",0],["pilotcamera_h",0],["pilotcamera_v",0.26],["unhidemfd",0]],
@@ -3100,7 +3100,7 @@ RHS_Su25SM_vvs = {
     "destrType": "DestructWreck",
     "memoryPointTaskMarker": "TaskMarker_1_pos",
     "slingLoadCargoMemoryPoints": ["SlingLoadCargo1","SlingLoadCargo2","SlingLoadCargo3","SlingLoadCargo4"],
-    # Class: CfgVehicles\Plane_CAS_02_base_F\Library,
+    # Class: CfgVehicles\Plane_CAS_02_base_F\Library [Indent level: 1],
     "Library": {
         "libTextDesc": "The To-199 Neophron is a new addition to CSAT air forces. An agile single-seat aircraft is used for close air support but can also take down air threats. It cannot carry as much payload as NATO's A-164 and has to rearm more often, but it can take-off from even the roughest terrain, not being so dependent on air bases or aircraft carriers. Neophron in CAS variant is fitted with 30 mm Cannon, Sahr-3 short range air-to-air missiles, Sharur air-to-ground missiles, Tratnyr rockets (HE and AP variants) and LOM-250G bombs."
     },
@@ -3109,10 +3109,10 @@ RHS_Su25SM_vvs = {
     "precisegetinout": 1,
     "viewDriverShadowDiff": 0.5,
     "viewDriverShadowAmb": 0.5,
-    # Class: CfgVehicles\Plane_CAS_02_base_F\Turrets,
+    # Class: CfgVehicles\Plane_CAS_02_base_F\Turrets [Indent level: 1],
     "Turrets": {
     },
-    # Class: CfgVehicles\Plane_CAS_02_base_F\TransportItems,
+    # Class: CfgVehicles\Plane_CAS_02_base_F\TransportItems [Indent level: 1],
     "TransportItems": {
     },
     "attenuationEffectType": "PlaneAttenuation",
@@ -3154,82 +3154,82 @@ RHS_Su25SM_vvs = {
     "Crash2": ["A3|Sounds_F|vehicles|crashes|cars|cars_coll_big_default_ext_3",1,1,900],
     "Crash3": ["A3|Sounds_F|vehicles|crashes|cars|cars_coll_big_default_ext_4",1,1,900],
     "soundCrashes": ["Crash0",0.25,"Crash1",0.25,"Crash2",0.25,"Crash3",0.25],
-    # Class: CfgVehicles\Plane_CAS_02_base_F\scrubLandInt,
+    # Class: CfgVehicles\Plane_CAS_02_base_F\scrubLandInt [Indent level: 1],
     "scrubLandInt": {
         "sound": ["A3|Sounds_F|vehicles|air|noises|wheelsInt",1,1,100],
         "frequency": 1,
         "volume": "(scrubLand factor[0.01, 0.20])"
     },
-    # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds,
+    # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds [Indent level: 1],
     "Sounds": {
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineLowOut
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineLowOut [Indent level: 2]
         "EngineLowOut": {
             "sound": ["A3|Sounds_F_EPC|CAS_02|CAS_02_engine_idle_ext",1,1,2100],
             "frequency": "1.0 min (rpm + 0.5)",
             "volume": "camPos*2*(rpm factor[0.95, 0])*(rpm factor[0, 0.95])"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineHighOut,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineHighOut [Indent level: 2],
         "EngineHighOut": {
             "sound": ["A3|Sounds_F_EPC|CAS_02|CAS_02_engine_max_ext",1,1.2,2500],
             "frequency": "1",
             "volume": "camPos*4*(rpm factor[0.5, 1.1])*(rpm factor[1.1, 0.5])"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\ForsageOut,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\ForsageOut [Indent level: 2],
         "ForsageOut": {
             "sound": ["A3|Sounds_F_EPC|CAS_02|CAS_02_forsage_ext",1.41254,1.2,2800],
             "frequency": "1",
             "volume": "engineOn*camPos*(thrust factor[0.6, 1.0])",
             "cone": [3.14,3.92,2,0.5]
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\WindNoiseOut,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\WindNoiseOut [Indent level: 2],
         "WindNoiseOut": {
             "sound": ["A3|Sounds_F_EPC|CAS_02|noise",0.562341,1,150],
             "frequency": "(0.1+(1.2*(speed factor[1, 150])))",
             "volume": "camPos*(speed factor[1, 150])"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineLowIn,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineLowIn [Indent level: 2],
         "EngineLowIn": {
             "sound": ["A3|Sounds_F_EPC|CAS_02|CAS_02_engine_idle_int",0.562341,1],
             "frequency": "1.0 min (rpm + 0.5)",
             "volume": "(1-camPos)*((rpm factor[0.7, 0.1])*(rpm factor[0.1, 0.7]))"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineHighIn,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\EngineHighIn [Indent level: 2],
         "EngineHighIn": {
             "sound": ["A3|Sounds_F_EPC|CAS_02|CAS_02_engine_max_int",0.316228,1.2],
             "frequency": "1",
             "volume": "(1-camPos)*(rpm factor[0.85, 1.0])"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\ForsageIn,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\ForsageIn [Indent level: 2],
         "ForsageIn": {
             "sound": ["A3|Sounds_F_EPC|CAS_02|CAS_02_forsage_int",0.501187,1.2],
             "frequency": "1",
             "volume": "(1-camPos)*(engineOn*(thrust factor[0.6, 1.0]))"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\WindNoiseIn,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\WindNoiseIn [Indent level: 2],
         "WindNoiseIn": {
             "sound": ["A3|Sounds_F|air|Plane_Fighter_03|noise_int",0.316228,1],
             "frequency": "(0.1+(1.2*(speed factor[1, 150])))",
             "volume": "(1-camPos)*(speed factor[1, 150])"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\RainExt,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\RainExt [Indent level: 2],
         "RainExt": {
             "sound": ["A3|Sounds_F|vehicles|noises|rain1_ext",1.77828,1,100],
             "frequency": 1,
             "volume": "camPos * rain * (speed factor[50, 0])"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\RainInt,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\RainInt [Indent level: 2],
         "RainInt": {
             "sound": ["A3|Sounds_F|vehicles|noises|rain1_int",1,1,100],
             "frequency": 1,
             "volume": "(1-camPos) * rain * (speed factor[50, 0])"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\Waternoise_ext,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\Waternoise_ext [Indent level: 2],
         "Waternoise_ext": {
             "sound": ["A3|Sounds_F|vehicles|noises|air_driving_in_water",0.707946,1,300],
             "frequency": "1",
             "volume": "(speed factor[0, 5]) * water * camPos + (speed factor[-0.1, -5]) * water * camPos"
         },
-        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\Waternoise_int,
+        # Class: CfgVehicles\Plane_CAS_02_base_F\Sounds\Waternoise_int [Indent level: 2],
         "Waternoise_int": {
             "sound": ["A3|Sounds_F|vehicles|noises|soft_driving_in_water_int",0.562341,1,100],
             "frequency": "1",
@@ -3262,16 +3262,16 @@ RHS_Su25SM_vvs = {
     "maximumLoad": 500,
     "supplyRadius": 2,
     "memoryPointSupply": "doplnovani",
-    # Class: CfgVehicles\Plane_Base_F\TransportBackpacks,
+    # Class: CfgVehicles\Plane_Base_F\TransportBackpacks [Indent level: 1],
     "TransportBackpacks": {
     },
-    # Class: CfgVehicles\Plane_Base_F\TransportMagazines,
+    # Class: CfgVehicles\Plane_Base_F\TransportMagazines [Indent level: 1],
     "TransportMagazines": {
     },
-    # Class: CfgVehicles\Plane_Base_F\TransportWeapons,
+    # Class: CfgVehicles\Plane_Base_F\TransportWeapons [Indent level: 1],
     "TransportWeapons": {
     },
-    # Class: CfgVehicles\Plane_Base_F\camShakeGForce,
+    # Class: CfgVehicles\Plane_Base_F\camShakeGForce [Indent level: 1],
     "camShakeGForce": {
         "power": 1,
         "frequency": 20,
@@ -3281,7 +3281,7 @@ RHS_Su25SM_vvs = {
     "minGForce": 0.3,
     "maxGForce": 3,
     "gForceShakeAttenuation": 0.5,
-    # Class: CfgVehicles\Plane_Base_F\NewTurret,
+    # Class: CfgVehicles\Plane_Base_F\NewTurret [Indent level: 1],
     "NewTurret": {
         "body": "mainTurret",
         "gun": "mainGun",
@@ -3324,7 +3324,7 @@ RHS_Su25SM_vvs = {
         "gunnerGetOutAction": "",
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner,
+        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -3345,7 +3345,7 @@ RHS_Su25SM_vvs = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -3386,11 +3386,11 @@ RHS_Su25SM_vvs = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -3411,126 +3411,126 @@ RHS_Su25SM_vvs = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table,
+            # Class: WeaponFireGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0
+                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1,
+                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2,
+                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3,
+                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4,
+                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5,
+                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6,
+                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7,
+                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8,
+                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9,
+                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10,
+                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11,
+                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12,
+                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13,
+                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14,
+                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15,
+                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16,
+                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17,
+                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18,
+                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19,
+                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20,
+                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21,
+                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22,
+                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -3551,16 +3551,16 @@ RHS_Su25SM_vvs = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table,
+            # Class: WeaponCloudsGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0
+                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -3581,18 +3581,18 @@ RHS_Su25SM_vvs = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table,
+            # Class: WeaponCloudsMGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0
+                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints,
+        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret
+            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
             "HitTurret": {
                 "armor": 0.8,
                 "material": 51,
@@ -3601,7 +3601,7 @@ RHS_Su25SM_vvs = {
                 "passThrough": 1,
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun,
+            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -3611,10 +3611,10 @@ RHS_Su25SM_vvs = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -3652,11 +3652,11 @@ RHS_Su25SM_vvs = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -3694,7 +3694,7 @@ RHS_Su25SM_vvs = {
     "VTOLYawInfluence": 2,
     "VTOLPitchInfluence": 2,
     "VTOLRollInfluence": 2,
-    # Class: CfgVehicles\Plane\ViewOptics,
+    # Class: CfgVehicles\Plane\ViewOptics [Indent level: 1],
     "ViewOptics": {
         "initAngleX": 0,
         "minAngleX": 0,
@@ -3720,7 +3720,7 @@ RHS_Su25SM_vvs = {
     "rightDustEffect": "RDustEffects",
     "dustEffect": "HeliDust",
     "waterEffect": "HeliWater",
-    # Class: CfgVehicles\Plane\GunFire,
+    # Class: CfgVehicles\Plane\GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -3741,126 +3741,126 @@ RHS_Su25SM_vvs = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: WeaponFireGun\Table,
+        # Class: WeaponFireGun\Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0
+            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
             "T0": {
                 "maxT": 0,
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1,
+            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2,
+            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3,
+            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4,
+            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5,
+            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6,
+            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7,
+            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8,
+            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9,
+            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10,
+            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11,
+            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12,
+            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13,
+            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14,
+            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15,
+            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16,
+            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17,
+            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18,
+            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19,
+            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20,
+            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21,
+            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22,
+            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\Plane\GunClouds,
+    # Class: CfgVehicles\Plane\GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletDuration": 0.3,
@@ -3881,16 +3881,16 @@ RHS_Su25SM_vvs = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsGun\Table,
+        # Class: WeaponCloudsGun\Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsGun\Table\T0
+            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
             "T0": {
                 "maxT": 0,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\Plane\MGunFire,
+    # Class: CfgVehicles\Plane\MGunFire [Indent level: 1],
     "MGunFire": {
         "cloudletDuration": 0,
         "cloudletGrowUp": 0.06,
@@ -3911,126 +3911,126 @@ RHS_Su25SM_vvs = {
         "cloudletShape": "cloudletFire",
         "cloudletColor": [1,1,1,0],
         "timeToLive": 0,
-        # Class: WeaponFireGun\Table,
+        # Class: WeaponFireGun\Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0
+            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
             "T0": {
                 "maxT": 0,
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1,
+            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2,
+            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3,
+            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4,
+            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5,
+            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6,
+            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7,
+            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8,
+            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9,
+            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10,
+            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11,
+            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12,
+            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13,
+            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14,
+            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15,
+            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16,
+            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17,
+            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18,
+            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19,
+            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20,
+            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21,
+            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22,
+            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\Plane\MGunClouds,
+    # Class: CfgVehicles\Plane\MGunClouds [Indent level: 1],
     "MGunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -4051,9 +4051,9 @@ RHS_Su25SM_vvs = {
         "sourceSize": 0.02,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsMGun\Table,
+        # Class: WeaponCloudsMGun\Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsMGun\Table\T0
+            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
             "T0": {
                 "maxT": 0,
                 "color": [1,1,1,0]
@@ -4061,9 +4061,9 @@ RHS_Su25SM_vvs = {
         }
     },
     "numberPhysicalWheels": 3,
-    # Class: CfgVehicles\Plane\SpeechVariants,
+    # Class: CfgVehicles\Plane\SpeechVariants [Indent level: 1],
     "SpeechVariants": {
-        # Class: CfgVehicles\Plane\SpeechVariants\Default
+        # Class: CfgVehicles\Plane\SpeechVariants\Default [Indent level: 2]
         "Default": {
             "speechSingular": ["veh_air_plane_s"],
             "speechPlural": ["veh_air_plane_p"]
@@ -4082,7 +4082,7 @@ RHS_Su25SM_vvs = {
     "getInRadius": 1.2,
     "camouflage": 100,
     "audible": 60,
-    # Class: CfgVehicles\Plane\CamShake,
+    # Class: CfgVehicles\Plane\CamShake [Indent level: 1],
     "CamShake": {
         "power": 50,
         "frequency": 20,
@@ -4090,7 +4090,7 @@ RHS_Su25SM_vvs = {
         "minSpeed": 200
     },
     "minTotalDamageThreshold": 0.005,
-    # Class: CfgVehicles\Plane\DestructionEffects,
+    # Class: CfgVehicles\Plane\DestructionEffects [Indent level: 1],
     "DestructionEffects": {
     },
     "formationTime": 10,
@@ -4114,7 +4114,7 @@ RHS_Su25SM_vvs = {
     "enableRadio": 1,
     "radarType": 4,
     "countermeasureActivationRadius": 10000,
-    # Class: CfgVehicles\Air\camShakeDamage,
+    # Class: CfgVehicles\Air\camShakeDamage [Indent level: 1],
     "camShakeDamage": {
         "power": 0.5,
         "frequency": 60,
@@ -4124,7 +4124,7 @@ RHS_Su25SM_vvs = {
         "duration": 3
     },
     "secondaryExplosion": -1,
-    # Class: CfgVehicles\AllVehicles\SquadTitles,
+    # Class: CfgVehicles\AllVehicles\SquadTitles [Indent level: 1],
     "SquadTitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
@@ -4139,7 +4139,7 @@ RHS_Su25SM_vvs = {
     "selectionClan": "clan",
     "selectionDashboard": "podsvit pristroju",
     "selectionBackLights": "zadni svetlo",
-    # Class: CfgVehicles\AllVehicles\ViewCargo,
+    # Class: CfgVehicles\AllVehicles\ViewCargo [Indent level: 1],
     "ViewCargo": {
         "initAngleX": 5,
         "minAngleX": -75,
@@ -4159,18 +4159,18 @@ RHS_Su25SM_vvs = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\PilotSpec,
+    # Class: CfgVehicles\AllVehicles\PilotSpec [Indent level: 1],
     "PilotSpec": {
         "showHeadPhones": 0
     },
-    # Class: CfgVehicles\AllVehicles\CargoSpec,
+    # Class: CfgVehicles\AllVehicles\CargoSpec [Indent level: 1],
     "CargoSpec": {
-        # Class: CfgVehicles\AllVehicles\CargoSpec\Cargo1
+        # Class: CfgVehicles\AllVehicles\CargoSpec\Cargo1 [Indent level: 2]
         "Cargo1": {
             "showHeadPhones": 0
         }
     },
-    # Class: CfgVehicles\AllVehicles\SoundEvents,
+    # Class: CfgVehicles\AllVehicles\SoundEvents [Indent level: 1],
     "SoundEvents": {
     },
     "tracksSpeed": 0,
@@ -4191,9 +4191,9 @@ RHS_Su25SM_vvs = {
     "tBody": 150,
     "impactEffectSpeedLimit": 8,
     "showCrewAim": 0,
-    # Class: CfgVehicles\AllVehicles\CargoTurret,
+    # Class: CfgVehicles\AllVehicles\CargoTurret [Indent level: 1],
     "CargoTurret": {
-        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner
+        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2]
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -4213,7 +4213,7 @@ RHS_Su25SM_vvs = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints,
+        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints [Indent level: 2],
         "Hitpoints": {
         },
         "animationSourceBody": "",
@@ -4270,7 +4270,7 @@ RHS_Su25SM_vvs = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -4307,11 +4307,11 @@ RHS_Su25SM_vvs = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -4332,126 +4332,126 @@ RHS_Su25SM_vvs = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table,
+            # Class: WeaponFireGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0
+                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1,
+                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2,
+                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3,
+                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4,
+                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5,
+                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6,
+                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7,
+                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8,
+                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9,
+                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10,
+                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11,
+                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12,
+                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13,
+                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14,
+                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15,
+                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16,
+                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17,
+                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18,
+                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19,
+                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20,
+                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21,
+                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22,
+                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -4472,16 +4472,16 @@ RHS_Su25SM_vvs = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table,
+            # Class: WeaponCloudsGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0
+                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds,
+        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -4502,19 +4502,19 @@ RHS_Su25SM_vvs = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table,
+            # Class: WeaponCloudsMGun\Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0
+                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
                 "T0": {
                     "maxT": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets,
+        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics,
+        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -4547,11 +4547,11 @@ RHS_Su25SM_vvs = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut,
+        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -4646,10 +4646,10 @@ RHS_Su25SM_vvs = {
     "soundAttenuationCargo": [1],
     "countsForScoreboard": 1,
     "hullDamageCauseExplosion": 0,
-    # Class: CfgVehicles\All\NVGMarkers,
+    # Class: CfgVehicles\All\NVGMarkers [Indent level: 1],
     "NVGMarkers": {
     },
-    # Class: CfgVehicles\All\NVGMarker,
+    # Class: CfgVehicles\All\NVGMarker [Indent level: 1],
     "NVGMarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
@@ -4657,7 +4657,7 @@ RHS_Su25SM_vvs = {
         "blinking": 0,
         "onlyInNvg": 0
     },
-    # Class: CfgVehicles\All\HeadLimits,
+    # Class: CfgVehicles\All\HeadLimits [Indent level: 1],
     "HeadLimits": {
         "initAngleX": 5,
         "minAngleX": -30,
@@ -4681,49 +4681,49 @@ RHS_Su25SM_vvs = {
     "uavHacker": 0,
     "soundEngine": ["",1,1],
     "soundEnviron": ["",1,1],
-    # Class: CfgVehicles\All\SoundEnvironExt,
+    # Class: CfgVehicles\All\SoundEnvironExt [Indent level: 1],
     "SoundEnvironExt": {
     },
-    # Class: CfgVehicles\All\SoundEquipment,
+    # Class: CfgVehicles\All\SoundEquipment [Indent level: 1],
     "SoundEquipment": {
     },
-    # Class: CfgVehicles\All\SoundGear,
+    # Class: CfgVehicles\All\SoundGear [Indent level: 1],
     "SoundGear": {
     },
-    # Class: CfgVehicles\All\SoundBreath,
+    # Class: CfgVehicles\All\SoundBreath [Indent level: 1],
     "SoundBreath": {
     },
-    # Class: CfgVehicles\All\SoundBreathSwimming,
+    # Class: CfgVehicles\All\SoundBreathSwimming [Indent level: 1],
     "SoundBreathSwimming": {
     },
-    # Class: CfgVehicles\All\SoundBreathInjured,
+    # Class: CfgVehicles\All\SoundBreathInjured [Indent level: 1],
     "SoundBreathInjured": {
     },
-    # Class: CfgVehicles\All\SoundHitScream,
+    # Class: CfgVehicles\All\SoundHitScream [Indent level: 1],
     "SoundHitScream": {
     },
-    # Class: CfgVehicles\All\SoundInjured,
+    # Class: CfgVehicles\All\SoundInjured [Indent level: 1],
     "SoundInjured": {
     },
-    # Class: CfgVehicles\All\SoundBreathAutomatic,
+    # Class: CfgVehicles\All\SoundBreathAutomatic [Indent level: 1],
     "SoundBreathAutomatic": {
     },
-    # Class: CfgVehicles\All\SoundDrown,
+    # Class: CfgVehicles\All\SoundDrown [Indent level: 1],
     "SoundDrown": {
     },
-    # Class: CfgVehicles\All\SoundChoke,
+    # Class: CfgVehicles\All\SoundChoke [Indent level: 1],
     "SoundChoke": {
     },
-    # Class: CfgVehicles\All\SoundRecovered,
+    # Class: CfgVehicles\All\SoundRecovered [Indent level: 1],
     "SoundRecovered": {
     },
-    # Class: CfgVehicles\All\SoundBurning,
+    # Class: CfgVehicles\All\SoundBurning [Indent level: 1],
     "SoundBurning": {
     },
-    # Class: CfgVehicles\All\PulsationSound,
+    # Class: CfgVehicles\All\PulsationSound [Indent level: 1],
     "PulsationSound": {
     },
-    # Class: CfgVehicles\All\SoundDrowning,
+    # Class: CfgVehicles\All\SoundDrowning [Indent level: 1],
     "SoundDrowning": {
     },
     "soundCrash": ["",0.316228,1],
@@ -4756,7 +4756,7 @@ RHS_Su25SM_vvs = {
     "hiddenUnderwaterSelections": [],
     "shownUnderWaterSelections": [],
     "hiddenUnderwaterSelectionsTextures": [],
-    # Class: CfgVehicles\All\FxExplo,
+    # Class: CfgVehicles\All\FxExplo [Indent level: 1],
     "FxExplo": {
         "access": 1
     },

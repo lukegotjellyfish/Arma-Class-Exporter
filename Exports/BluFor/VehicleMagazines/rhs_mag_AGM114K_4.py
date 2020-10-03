@@ -6,36 +6,36 @@ rhs_mag_AGM114K_4 = {
     "weight": 180,
     "hardpoints": ["RHS_HP_HELLFIRE_RACK","RHS_HP_LONGBOW_RACK"],
     "mirrorMissilesIndexes": [2,1,4,3],
-    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements,
+    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD
+        # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD [Indent level: 2]
         "RHS_AH64_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Bones
+            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw,
+            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup
+                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup [Indent level: 4]
                 "BackgroundGroup": {
                     "color": [0,0,0],
                     "alpha": 1,
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup\Background,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup\Background [Indent level: 5],
                     "Background": {
                         "type": "polygon",
                         "points": [[[[-0.045,-0.05],1],[[0.045,-0.05],1],[[0.045,0.17],1],[[-0.045,0.17],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default,
+                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>0",
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -47,7 +47,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.05,0.01],1],
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText2,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText2 [Indent level: 5],
                     "PylonText2": {
                         "type": "text",
                         "source": "static",
@@ -59,7 +59,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.05,0.14],1],
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText3,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText3 [Indent level: 5],
                     "PylonText3": {
                         "type": "text",
                         "source": "static",
@@ -71,7 +71,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.005,0.01],1],
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText4,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText4 [Indent level: 5],
                     "PylonText4": {
                         "type": "text",
                         "source": "static",
@@ -84,17 +84,17 @@ rhs_mag_AGM114K_4 = {
                         "down": [[-0.025,0.165],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected,
+                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
                     "color": [0.99,0.94,0.59],
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\Shape,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -106,7 +106,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.05,0.01],1],
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText2,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText2 [Indent level: 5],
                     "PylonText2": {
                         "type": "text",
                         "source": "static",
@@ -118,7 +118,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.05,0.14],1],
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText3,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText3 [Indent level: 5],
                     "PylonText3": {
                         "type": "text",
                         "source": "static",
@@ -130,7 +130,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.005,0.01],1],
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText4,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText4 [Indent level: 5],
                     "PylonText4": {
                         "type": "text",
                         "source": "static",
@@ -143,17 +143,17 @@ rhs_mag_AGM114K_4 = {
                         "down": [[-0.025,0.165],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty,
+                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative <= 0",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\Shape,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText1,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -165,7 +165,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.05,0.01],1],
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText2,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText2 [Indent level: 5],
                     "PylonText2": {
                         "type": "text",
                         "source": "static",
@@ -177,7 +177,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.05,0.14],1],
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText3,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText3 [Indent level: 5],
                     "PylonText3": {
                         "type": "text",
                         "source": "static",
@@ -189,7 +189,7 @@ rhs_mag_AGM114K_4 = {
                         "right": [[0.005,0.01],1],
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText4,
+                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText4 [Indent level: 5],
                     "PylonText4": {
                         "type": "text",
                         "source": "static",
@@ -204,12 +204,12 @@ rhs_mag_AGM114K_4 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory,
+        # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
         "RHS_AH64_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Bones
+            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Bones [Indent level: 3]
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw,
+            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw [Indent level: 3],
             "Draw": {
             }
         }
@@ -240,22 +240,22 @@ rhs_mag_AGM114K_4 = {
         "weaponLockSystem": "4 + 16",
         "lockSeekRadius": 1000,
         "weaponType": "missileAA",
-        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components,
+        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent
+            # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent [Indent level: 2]
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components
+                # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components [Indent level: 3]
                 "Components": {
-                    # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent
+                    # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent [Indent level: 4]
                     "LaserSensorComponent": {
-                        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent\AirTarget
+                        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent\AirTarget [Indent level: 5]
                         "AirTarget": {
                             "minRange": 7000,
                             "maxRange": 7000,
                             "objectDistanceLimitCoef": -1,
                             "viewDistanceLimitCoef": -1
                         },
-                        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent\GroundTarget,
+                        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent\GroundTarget [Indent level: 5],
                         "GroundTarget": {
                             "minRange": 7000,
                             "maxRange": 7000,
@@ -308,32 +308,32 @@ rhs_mag_AGM114K_4 = {
         "autoSeekTarget": 1,
         "maneuvDependsOnSpeedCoef": 0.018,
         "flightProfiles": ["TopDown","LoalDistance","Cruise"],
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Direct,
+        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Direct [Indent level: 1],
         "Direct": {
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\TopDown,
+        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\TopDown [Indent level: 1],
         "TopDown": {
             "ascendAngle": 39,
             "ascendHeight": 360,
             "minDistance": 600,
             "descendDistance": 3000
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\LoalDistance,
+        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\LoalDistance [Indent level: 1],
         "LoalDistance": {
             "lockSeekDistanceFromParent": 1000
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Cruise,
+        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Cruise [Indent level: 1],
         "Cruise": {
             "preferredFlightAltitude": 500,
             "lockDistanceToTarget": 500
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers,
+        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers [Indent level: 1],
         "Eventhandlers": {
-            # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers\RHS_EH
+            # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers\RHS_EH [Indent level: 2]
             "RHS_EH": {
                 "fired": "_this call rhs_fnc_agm114_helper"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH,
+            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -346,28 +346,28 @@ rhs_mag_AGM114K_4 = {
         "craterEffects": "AAMissileCrater",
         "explosionEffects": "AAMissileExplosion",
         "soundFly": ["A3|Sounds_F|weapons|Rockets|rocket_fly_2",0.501187,1,1700],
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeExplode,
+        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 163.905
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeHit,
+        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeFire,
+        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakePlayerFire,
+        # Class: CfgAmmo\Missile_AGM_02_F\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 4,
             "duration": 0.1,
@@ -386,7 +386,7 @@ rhs_mag_AGM114K_4 = {
         "deflecting": 0,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects,
+        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -492,7 +492,7 @@ rhs_mag_AGM114K_4 = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -514,10 +514,10 @@ rhs_mag_AGM114K_4 = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

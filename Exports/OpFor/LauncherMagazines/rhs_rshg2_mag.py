@@ -41,28 +41,28 @@ rhs_rshg2_mag = {
         "allowAgainstInfantry": 1,
         "CraterEffects": "ArtyShellCrater",
         "explosionEffects": "RHS_FAE_Explosion",
-        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakeExplode,
+        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 227.905
         },
-        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakeHit,
+        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakeFire,
+        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 3.23853,
             "duration": 2,
             "frequency": 20,
             "distance": 83.9047
         },
-        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakePlayerFire,
+        # Class: CfgAmmo\rhs_rpg7v2_tbg7v\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 5,
             "duration": 0.1,
@@ -91,13 +91,13 @@ rhs_rshg2_mag = {
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
-        # Class: CfgAmmo\RocketBase\HitEffects,
+        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\RocketBase\EventHandlers,
+        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH
+            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -208,7 +208,7 @@ rhs_rshg2_mag = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -229,10 +229,10 @@ rhs_rshg2_mag = {
     "useAction": 0,
     "useActionTitle": "",
     "modelSpecial": "",
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -10,28 +10,28 @@ RHS_mag_VOG30_30 = {
         "indirectHitRange": 4.174,
         "dangerRadiusHit": 50,
         "suppressionRadiusHit": 20,
-        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakeExplode,
+        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": "(30*0.2)",
             "duration": "((round (30^0.5))*0.2 max 0.2)",
             "frequency": 20,
             "distance": "((3 + 30^0.5)*8)"
         },
-        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakeHit,
+        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": "((round (30^0.25))*0.2 max 0.2)",
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakeFire,
+        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": "(0^0.25)",
             "duration": "((round (0^0.5))*0.2 max 0.2)",
             "frequency": 20,
             "distance": "((0^0.5)*8)"
         },
-        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakePlayerFire,
+        # Class: CfgAmmo\rhs_ammo_VOG30\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0.1,
@@ -181,7 +181,7 @@ RHS_mag_VOG30_30 = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects,
+        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -189,11 +189,11 @@ RHS_mag_VOG30_30 = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers,
+        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers,
+        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -215,10 +215,10 @@ RHS_mag_VOG30_30 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements,
+    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library,
+    # Class: CfgMagazines\Default\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
