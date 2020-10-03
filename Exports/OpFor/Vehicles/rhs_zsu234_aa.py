@@ -1058,12 +1058,18 @@ rhs_zsu234_aa = {
                             "Components": {
                                 # Class: CfgVehicles\rhs_zsutank_base\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay
                                 "EmptyDisplay": {
+                                    "componentType": "EmptyDisplayComponent"
                                 },
                                 # Class: CfgVehicles\rhs_zsutank_base\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay,
                                 "CrewDisplay": {
+                                    "componentType": "CrewDisplayComponent",
+                                    "resource": "RscCustomInfoCrew"
                                 },
                                 # Class: CfgVehicles\rhs_zsutank_base\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SensorDisplay,
                                 "SensorDisplay": {
+                                    "componentType": "SensorsDisplayComponent",
+                                    "range": [2000,4000,8000,14000],
+                                    "resource": "RscCustomInfoSensors"
                                 }
                             },
                             "componentType": "VehicleSystemsDisplayManager",
@@ -1079,12 +1085,18 @@ rhs_zsu234_aa = {
                             "Components": {
                                 # Class: CfgVehicles\rhs_zsutank_base\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay
                                 "EmptyDisplay": {
+                                    "componentType": "EmptyDisplayComponent"
                                 },
                                 # Class: CfgVehicles\rhs_zsutank_base\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay,
                                 "CrewDisplay": {
+                                    "componentType": "CrewDisplayComponent",
+                                    "resource": "RscCustomInfoCrew"
                                 },
                                 # Class: CfgVehicles\rhs_zsutank_base\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentRight\Components\SensorDisplay,
                                 "SensorDisplay": {
+                                    "componentType": "SensorsDisplayComponent",
+                                    "range": [2000,4000,8000,14000],
+                                    "resource": "RscCustomInfoSensors"
                                 }
                             },
                             "componentType": "VehicleSystemsDisplayManager",
