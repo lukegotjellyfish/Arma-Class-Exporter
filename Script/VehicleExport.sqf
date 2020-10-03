@@ -480,14 +480,20 @@ getPropertyValue = {
 	_propertyNameLast = _propertyNameArray select (count _propertyNameArray - 1);
 
 	if (isText _property) then {
-		if (((str _property find "CfgMagazines" != -1) && (str _property find "ammo" != -1)) || ((str _property find "submunitionAmmo" != -1) && (getText _property != "")) || (str _property find "SubmunitionAmmo" != -1) && (getText _property != "")) then {
+		if ((str _property find "CfgMagazines" != -1) && (str _property find "ammo" != -1)) then {
+
+			_ammoType = "Ammo/SubmunitionAmmo";
+			if ((_property find "submunitionAmmo") || (_property find "SubmunitionAmmo")) then { _ammoType = "SubmunitionAmmo"; };
+			if ((_property find "ammo") || (_property find "Ammo")) then { _ammoType = "Ammo"; };
+
 			diag_log(format["Looking for ammo | %1", _property]);
 
 			_ammoName = getText _property;
 			diag_log(format["Fetching ammo %1", _ammoName]);
-			_classBody = _classBody + format["%1    # Ammo: %2", _addComma, _ammoName];
+			_classBody = _classBody + format["%1    # %2: %3", _addComma, _ammoType, _ammoName];
 			_classBody = _classBody + format['%1    "%2": {%3        "%2": "%4"', _addComma, _propertyNameLast, _addComma splitString "," joinString "", getText _property splitString "\" joinString "|"];
 			_addComma = _addComma + "    ";
+
 			_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
 			{
 				_addition = [_x, _addComma, _configCategory, (((str _x) splitString "\") joinString "|"), _i] call getPropertyValue;
@@ -500,14 +506,50 @@ getPropertyValue = {
 	};
 	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getNumber _property]; };
 	if (isArray _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; };
-	if (isClass _property) then { diag_log(format["Class here: %1", _property]); };
+	if (isClass _property) then {
+		diag_log(format["Class here: %1", _property]);
+
+		//Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
+		_splitClass = str _property splitString "\/";
+		//Remove "bin" and "config.bin"
+		_splitClass deleteRange [0, 2];
+
+		//Add comment showing class
+		_classBody = _classBody + format["%1    # Class: %2", _addComma, (_splitClass joinString "\")];
+		_classBody = _classBody + format['%1    "%2": {', _addComma, _propertyNameLast];
+
+		//create _classProperties to assign array to
+		_classProperties = [];
+		switch (count _splitClass) do {
+			case 2: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1]};
+			case 3: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2]};
+			case 4: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3]};
+			case 5: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4]};
+			case 6: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5]};
+			case 7: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6]};
+			case 8: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7]};
+			case 9: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7 >> _splitClass select 8]};
+			default {diag_log("count _splitClass < 2 or > 9");};
+		};
+
+		_addComma = (_addComma splitString "," joinString "") + "    ";
+		_i = 1;
+		{
+			//Sanitized property name for writing to file
+			_propertyName =  str _x splitString "\" joinString "|";
+			if (_i == 2) then { _addComma = "," + _addComma;};
+			_addition = [_x, _addComma, _configCategory, _propertyName, _i] call getPropertyValue;
+			_classBody = _classBody + _addition;
+			_i = _i + 1;
+		} foreach _classProperties;  //For each property in class
+		_classBody = _classBody + "\n" + (_addComma splitString ",\n" joinString "") + "}";
+	};
 	_classBody
 };
 
 
 getProperties = {
 	params ["_newClass", "_classBody", "_configCategory"];
-	_what = 1 + 5;
 
 	diag_log(format["Recieved %1 %2", _newClass, _configCategory]);
 
@@ -531,7 +573,7 @@ getProperties = {
 		_propertyName =  str _x splitString "\" joinString "|";
 
 		// //Only want to add a comma on lines before the last item
-		if (_i >= 2) then { _addComma = ",\n    "; };
+		if (_i >= 2) then { _addComma = ",\n"; };
 
 		_addition = [_x, _addComma, _configCategory, _propertyName, _i] call getPropertyValue;
 		_classBody = _classBody + _addition;
@@ -542,7 +584,7 @@ getProperties = {
 
 	//Add closing brace and return body
 	  //diag_log(format["Classbody is: %1", _classBody]);
-	_classBody = _classBody + "\n    }";
+	//_classBody = _classBody + "\n    }";
 
 	//Return _classBody
 	_classBody
@@ -557,7 +599,6 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		_configCategory = "";
 		_folder = "";
 		_path = "";
-		_classBody = "";
 		_array = _x;
 		{
 			//Create the start of the file, classname with brace for dict
@@ -565,14 +606,13 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 			if (i == 1) then {_configCategory = _x; _classBody = _classBody + _folder + " = {";};
 			if (i == 0) then {_folder = _x; };
 			if (i > 1) then {
-				_classBody = _classBody + "\n    " + '"' + _x + '"' + ": {\n    ";
+				_classBody = _x + " = {\n";
 				_classBody = [_x, _classBody, _configCategory] call getProperties;
 				//diag_log(format["Classbody on return is: %1", _classBody]);
 
 				if (_testRun != 1) then {
 					//Create path to write class data to
-					_path = _basePath + _folder + ".py";
-
+					_path = _basePath + _folder + "/" + _x + ".py";
 				};
 
 				if (_x != (_array select (count _array - 1))) then {
@@ -581,17 +621,20 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 
 				//seperate lines in .rpt by a line
 				diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+
+				//Write class to its own file
+				diag_log(format["Wrote to %1", _path]);
+
+				//add final brace
+				_classBody = _classBody + "\n}";
+
+				//KillZoneKidd's make_file_x64 .dll linked in repo
+					//(Cannot write tabs to file, using spaces instead)
+				"make_file" callExtension (_path + "|" + _classBody);
+
+
 			};
 			i = i + 1;
 		} foreach _x; //for each class for the side in the category
-		//Write class to its own file
-		diag_log(format["Wrote to %1", _path]);
-
-		//add final brace
-		_classBody = _classBody + "\n}";
-
-		//KillZoneKidd's make_file_x64 .dll linked in repo
-			//(Cannot write tabs to file, using spaces instead)
-		"make_file" callExtension (_path + "|" + _classBody);
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
