@@ -614,10 +614,9 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 			if (i == 0) then {_folder = _x; };
 			if (i > 1) then {
 				_classBody = _x + " = {\n";
-				_classBody = [_x, _classBody, _configCategory] call getProperties;
-				//diag_log(format["Classbody on return is: %1", _classBody]);
 
 				if (_testRun != 1) then {
+					_classBody = [_x, _classBody, _configCategory] call getProperties;
 					//Create path to write class data to
 					_path = _basePath + _folder + "/" + _x + ".py";
 				};
@@ -638,10 +637,17 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 				//KillZoneKidd's make_file_x64 .dll linked in repo
 					//(Cannot write tabs to file, using spaces instead)
 				"make_file" callExtension (_path + "|" + _classBody);
-
-
 			};
 			i = i + 1;
 		} foreach _x; //for each class for the side in the category
+
+		_folderCategoryName = (_folder splitString "\") select 1;
+		_combinedPath = _basePath + _folder + "/" + _folderCategoryName + ".py";
+
+		diag_log(format["_basePath           = %1", _basePath]);
+		diag_log(format["_folder             = %1", _folder]);
+		diag_log(format["_folderCategoryName = %1", _folderCategoryName]);
+		diag_log(format["Trying to write to %1", _combinedPath]);
+		"make_file" callExtension (_combinedPath + "|" + "empty");
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
