@@ -2,12 +2,12 @@
 import re
 import os
 import csv
-import BluFor_Magazines
+import BluForMagazines
 
 
 def getAttrib(a, b):
     try:
-        return BluFor_Magazines.BluFor_Magazines[a][b]
+        return BluForMagazines.BluFor_Magazines[a][b]
     except:
         print("Failed to find a match")
         return "failed"
