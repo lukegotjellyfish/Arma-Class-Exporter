@@ -9,4 +9,12 @@ bulletA = player addAction ["Enable Weapon Tracker", {YEETUS = player addEventHa
 	};
 }]}];
 bulletB = player addAction ["Disable Weapon Tracker", {player removeEventHandler["Fired", YEETUS]}];
-bulletC = player addAction ["Remove Weapon Tracker Options", {player removeaction bulletA; player removeaction bulletB; player removeaction bulletC; _var = missionNameSpace getVariable ["YEETUS",-1]; if (_var != -1) then {player removeEventHandler ["Fired", YEETUS]} else {}}];
+bulletC = player addAction ["Remove Weapon Tracker Options", {
+		player removeaction bulletA; player removeaction bulletB;
+		player removeaction bulletC;
+		_var = missionNameSpace getVariable ["YEETUS",-1];
+		if (_var != -1) then {
+			player removeEventHandler ["Fired", YEETUS]
+		} else {}
+	}
+];
