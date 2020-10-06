@@ -502,6 +502,10 @@ getPropertyValue = {
 				_i = _i + 1;
 			} forEach _ammoProperties;
 			_classBody = _classBody + _addComma + "}"
+		};
+		if ((_strProperty find "CfgWeapons" != -1) && ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilProne"))) then {
+			_configDir = configFile >> "CfgRecoil" >> getText _property;
+			_classBody = [_property, _addComma, _configCategory, _propertyName, _i] call getPropertyValue;
 		}
 		else {_i = _i + 1; _classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];};
 	};
@@ -651,3 +655,8 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		"make_file" callExtension (_combinedPath + "|" + "empty");
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
+
+
+while {alive player} do {
+    diag_log(eyeDirection player);
+};
