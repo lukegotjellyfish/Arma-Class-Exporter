@@ -1,2 +1,9 @@
-for /r %%i in (*.cpp) do DEL "%%i"
-for /r %%i in (*.py) do DEL "%%i"
+@echo off
+
+CD BluFor
+for /r %%i in (*.cpp *.py) do recycle "%%i"
+CD ..\
+CD OpFor
+for /r %%i in (*.cpp *.py) do recycle "%%i"
+
+PAUSE
