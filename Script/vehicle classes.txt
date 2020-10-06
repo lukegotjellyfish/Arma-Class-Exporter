@@ -1,8 +1,6 @@
-Shared:
-	Quad Bike               = A3_Soft_F_Quadbike_01
-	SUV                     = A3_Soft_F_Gamma_SUV_01
-	Hatchback (Sport)       = A3_Soft_F_Gamma_Hatchback_01
-	Kart                    = A3_Soft_F_Kart_Kart_01
+B-8V20-A - S8 launcher helicopters
+B-8M-1   - S8 launcher planes
+
 
 Opfor:
 	UAZ-3151                = RHS_UAZ_MSV_01
