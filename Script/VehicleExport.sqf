@@ -504,8 +504,10 @@ getPropertyValue = {
 			_classBody = _classBody + _addComma + "}"
 		};
 		if ((_strProperty find "CfgWeapons" != -1) && ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilProne"))) then {
-			_configDir = configFile >> "CfgRecoil" >> getText _property;
-			_classBody = [_property, _addComma, _configCategory, _propertyName, _i] call getPropertyValue;
+			_configDir = configFile >> "CfgRecoils" >> getText _property;
+
+			if (isClass _configDir) then { diag_log("Class recoil"); };
+			if (isArray _configDir) then { diag_log("Array recoil"); };
 		}
 		else {_i = _i + 1; _classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];};
 	};
