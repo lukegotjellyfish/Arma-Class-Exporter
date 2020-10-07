@@ -60,15 +60,7 @@ rhsusf_mag_6Rnd_M441_HE = {
             "frequency": 20,
             "distance": 1
         },
-        "SoundSetExplosion": ["jsrs_grenade_explosion_soundset","jsrs_40mm_explosion_stereo_soundset","jsrs_grenade_explosion_reverb_soundset"],
-        "ace_frag_enabled": 1,
-        "ace_frag_force": 1,
-        "ace_frag_classes": ["ace_frag_tiny_HD"],
-        "ace_frag_metal": 200,
-        "ace_frag_charge": 32,
-        "ace_frag_gurney_c": 2700,
-        "ace_frag_gurney_k": "1/2",
-        "ace_rearm_caliber": 39,
+        "SoundSetExplosion": ["GrenadeHe_Exp_SoundSet","GrenadeHe_Tail_SoundSet","Explosion_Debris_SoundSet"],
         "soundHit5": ["A3|Sounds_F|weapons|Explosion|gr_explosion_5",3.16228,1,1400],
         "soundHit6": ["A3|Sounds_F|weapons|Explosion|gr_explosion_6",3.16228,1,1400],
         "supersonicCrackNear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.316228,1,50],
@@ -78,7 +70,6 @@ rhsusf_mag_6Rnd_M441_HE = {
         "muzzleEffect": "",
         "explosionForceCoef": 4,
         "shadow": 1,
-        "ACE_damageType": "grenade",
         "simulationStep": 0.05,
         "soundHit": ["",10,1],
         "soundFly": ["",3.16228e-005,1],
@@ -208,6 +199,7 @@ rhsusf_mag_6Rnd_M441_HE = {
         "EventHandlers": {
         },
     },
+        "EventHandlers": "rhsusf_40mm_HE",
     "displaynameshort": "HE Grenade",
     "descriptionshort": "Type: High Explosive Grenade<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: M203, M320, M79",
     "model": "rhsusf|addons|rhsusf_weapons2|magazines|40mm|rhs_m443",
@@ -223,7 +215,7 @@ rhsusf_mag_6Rnd_M441_HE = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
@@ -283,7 +275,10 @@ rhs_fgm148_magazine_AT = {
             "preferredFlightAltitude": 60,
             "lockDistanceToTarget": 1000
         },
+        "irLock": 1,
+        "laserLock": 1,
         "nvLock": 0,
+        "airLock": 1,
         "autoSeekTarget": 0,
         "allowAgainstInfantry": 0,
         "airFriction": 0.2,
@@ -355,36 +350,13 @@ rhs_fgm148_magazine_AT = {
                 }
             }
         },
-        "irLock": 1,
-        "laserLock": 0,
-        "airLock": 0,
-        # Class: CfgAmmo\rhs_ammo_M_fgm148_AT\ace_missileguidance [Indent level: 1],
-        "ace_missileguidance": {
-            "enabled": 1,
-            "minDeflection": 5e-005,
-            "maxDeflection": 0.025,
-            "incDeflection": 5e-005,
-            "canVanillaLock": 0,
-            "defaultSeekerType": "Optic",
-            "seekerTypes": ["Optic"],
-            "defaultSeekerLockMode": "LOBL",
-            "seekerLockModes": ["LOBL"],
-            "seekerAngle": 180,
-            "seekerAccuracy": 1,
-            "seekerMinRange": 0,
-            "seekerMaxRange": 2500,
-            "seekLastTargetPos": 1,
-            "defaultAttackProfile": "JAV_TOP",
-            "attackProfiles": ["JAV_TOP","JAV_DIR"],
-            "useModeForAttackProfile": 1
-        },
         "soundHit1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_01",2.51189,1,2000],
         "soundHit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,2000],
         "soundHit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,2000],
         "multiSoundHit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly2.ogg",1,1,750],
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundFly": ["",1,1,400],
+        "soundEngine": ["",1,1,50],
         "supersonicCrackNear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.398107,1,20],
         "supersonicCrackFar": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_50meters",0.316228,1,50],
         "CraterEffects": "ATMissileCrater",
@@ -402,9 +374,6 @@ rhs_fgm148_magazine_AT = {
         "mfMax": 100,
         "mFact": 0,
         "tBody": 0,
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_missile_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -412,8 +381,6 @@ rhs_fgm148_magazine_AT = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 250,
-        "ACE_damageType": "explosive",
         "simulation": "shotMissile",
         "visibleFire": 32,
         "visibleFireTime": 20,
@@ -514,6 +481,7 @@ rhs_fgm148_magazine_AT = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_M_fgm148_AT",
     "initSpeed": 10,
     "maxLeadSpeed": 350,
     "mass": 286.88,
@@ -639,6 +607,7 @@ rhs_fim92_mag = {
         "warheadName": "HE",
         "aiAmmoUsageFlags": 256,
         "airFriction": 0.145,
+        "explosionEffects": "AAMissileExplosion",
         "soundHit1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_01",2.51189,1,1900],
         "soundHit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,1900],
         "soundHit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,1900],
@@ -671,14 +640,11 @@ rhs_fim92_mag = {
             "frequency": 20,
             "distance": 1
         },
-        "explosionEffects": "AA_Explode",
-        "SoundSetExplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1.5,400],
-        "ace_frag_skip": 1,
+        "SoundSetExplosion": ["RocketsHeavy_Exp_SoundSet","RocketsHeavy_Tail_SoundSet","Explosion_Debris_SoundSet"],
         "manualControl": 0,
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundFly": ["",1,1,400],
+        "soundEngine": ["",1,1,50],
         "supersonicCrackNear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.398107,1,20],
         "supersonicCrackFar": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_50meters",0.316228,1,50],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -696,7 +662,6 @@ rhs_fim92_mag = {
         "mfMax": 100,
         "mFact": 0,
         "tBody": 0,
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -704,8 +669,6 @@ rhs_fim92_mag = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 250,
-        "ACE_damageType": "explosive",
         "simulation": "shotMissile",
         "visibleFire": 32,
         "visibleFireTime": 20,
@@ -811,6 +774,7 @@ rhs_fim92_mag = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_fim92_missile",
     "type": "6 * 		256",
     "picture": "rhsusf|addons|rhsusf_weapons|icons|m_stinger_ca.paa",
     "model": "rhsusf|addons|rhsusf_weapons|FIM92|Stinger_proxy",
@@ -860,14 +824,6 @@ rhs_m136_hedp_mag = {
         "indirectHitRange": 6.1,
         "cost": 200,
         "explosive": 0.65,
-        "ace_frag_enabled": 1,
-        "ace_frag_metal": 330,
-        "ace_frag_charge": 280,
-        "ace_frag_gurney_c": 2800,
-        "ace_frag_gurney_k": "3/5",
-        "ace_frag_classes": ["ACE_frag_medium_HD"],
-        "ace_frag_skip": 0,
-        "ace_frag_force": 1,
         "model": "rhsusf|addons|rhsusf_weapons2|M136|at4_rocket",
         "caliber": 0.8,
         "airFriction": 0,
@@ -903,8 +859,8 @@ rhs_m136_hedp_mag = {
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,200],
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundFly": ["",1,1,400],
+        "soundEngine": ["",1,1,20],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -912,9 +868,6 @@ rhs_m136_hedp_mag = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -922,8 +875,6 @@ rhs_m136_hedp_mag = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 70,
-        "ACE_damageType": "explosive",
         "simulation": "shotRocket",
         "maneuvrability": 0,
         "maxControlRange": 0,
@@ -1038,6 +989,7 @@ rhs_m136_hedp_mag = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_M136_hedp_rocket",
     "allowedSlots": [801,701,901],
     "scope": 1,
     "picture": "rhsusf|addons|rhsusf_weapons|icons|m_m136_ca.paa",
@@ -1053,7 +1005,7 @@ rhs_m136_hedp_mag = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
@@ -1128,8 +1080,8 @@ rhs_m136_mag = {
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,200],
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundFly": ["",1,1,400],
+        "soundEngine": ["",1,1,20],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -1137,9 +1089,6 @@ rhs_m136_mag = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -1147,8 +1096,6 @@ rhs_m136_mag = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 70,
-        "ACE_damageType": "explosive",
         "simulation": "shotRocket",
         "maneuvrability": 0,
         "maxControlRange": 0,
@@ -1263,6 +1210,7 @@ rhs_m136_mag = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_M136_rocket",
     "type": "6 * 		256",
     "initSpeed": 290,
     "mass": 0,
@@ -1274,7 +1222,7 @@ rhs_m136_mag = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
@@ -1309,14 +1257,6 @@ rhs_m72a7_mag = {
         "indirectHitRange": 6.1,
         "cost": 200,
         "explosive": 0.65,
-        "ace_frag_enabled": 1,
-        "ace_frag_metal": 330,
-        "ace_frag_charge": 280,
-        "ace_frag_gurney_c": 2800,
-        "ace_frag_gurney_k": "3/5",
-        "ace_frag_classes": ["ACE_frag_medium_HD"],
-        "ace_frag_skip": 0,
-        "ace_frag_force": 1,
         "model": "rhsusf|addons|rhsusf_weapons2|M136|at4_rocket",
         "caliber": 0.8,
         "airFriction": 0,
@@ -1352,8 +1292,8 @@ rhs_m72a7_mag = {
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,200],
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundFly": ["",1,1,400],
+        "soundEngine": ["",1,1,20],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -1361,9 +1301,6 @@ rhs_m72a7_mag = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -1371,8 +1308,6 @@ rhs_m72a7_mag = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 70,
-        "ACE_damageType": "explosive",
         "simulation": "shotRocket",
         "maneuvrability": 0,
         "maxControlRange": 0,
@@ -1487,6 +1422,7 @@ rhs_m72a7_mag = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_m72a7_rocket",
     "descriptionshort": "Type: High Explosive, Dual Purpose",
     "allowedSlots": [801,701,901],
     "scope": 1,
@@ -1503,7 +1439,7 @@ rhs_m72a7_mag = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
@@ -1579,15 +1515,7 @@ rhs_mag_M441_HE = {
             "frequency": 20,
             "distance": 1
         },
-        "SoundSetExplosion": ["jsrs_grenade_explosion_soundset","jsrs_40mm_explosion_stereo_soundset","jsrs_grenade_explosion_reverb_soundset"],
-        "ace_frag_enabled": 1,
-        "ace_frag_force": 1,
-        "ace_frag_classes": ["ace_frag_tiny_HD"],
-        "ace_frag_metal": 200,
-        "ace_frag_charge": 32,
-        "ace_frag_gurney_c": 2700,
-        "ace_frag_gurney_k": "1/2",
-        "ace_rearm_caliber": 39,
+        "SoundSetExplosion": ["GrenadeHe_Exp_SoundSet","GrenadeHe_Tail_SoundSet","Explosion_Debris_SoundSet"],
         "soundHit5": ["A3|Sounds_F|weapons|Explosion|gr_explosion_5",3.16228,1,1400],
         "soundHit6": ["A3|Sounds_F|weapons|Explosion|gr_explosion_6",3.16228,1,1400],
         "supersonicCrackNear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.316228,1,50],
@@ -1597,7 +1525,6 @@ rhs_mag_M441_HE = {
         "muzzleEffect": "",
         "explosionForceCoef": 4,
         "shadow": 1,
-        "ACE_damageType": "grenade",
         "simulationStep": 0.05,
         "soundHit": ["",10,1],
         "soundFly": ["",3.16228e-005,1],
@@ -1727,6 +1654,7 @@ rhs_mag_M441_HE = {
         "EventHandlers": {
         },
     },
+        "EventHandlers": "rhsusf_40mm_HE",
     "displayName": "M441 HE Grenade Round",
     "displaynameshort": "HE Grenade",
     "descriptionshort": "Type: High Explosive Grenade<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: M203, M320, M79",
@@ -1745,7 +1673,7 @@ rhs_mag_M441_HE = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
@@ -1836,7 +1764,7 @@ rhs_mag_maaws_HE = {
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundEngine": ["",1,1,20],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -1844,9 +1772,6 @@ rhs_mag_maaws_HE = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -1854,8 +1779,6 @@ rhs_mag_maaws_HE = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 70,
-        "ACE_damageType": "explosive",
         "simulation": "shotRocket",
         "maxControlRange": 0,
         "visibleFireTime": 20,
@@ -1970,6 +1893,7 @@ rhs_mag_maaws_HE = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_maaws_HE",
     "type": "2*        256",
     "mass": "68,36",
     "value": 5,
@@ -1981,7 +1905,7 @@ rhs_mag_maaws_HE = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
@@ -2081,7 +2005,7 @@ rhs_mag_maaws_HEAT = {
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundEngine": ["",1,1,20],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -2089,9 +2013,6 @@ rhs_mag_maaws_HEAT = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -2099,8 +2020,6 @@ rhs_mag_maaws_HEAT = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 70,
-        "ACE_damageType": "explosive",
         "simulation": "shotRocket",
         "maxControlRange": 0,
         "visibleFireTime": 20,
@@ -2212,6 +2131,7 @@ rhs_mag_maaws_HEAT = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_maaws_HEAT",
     "type": "2*        256",
     "mass": 88.2,
     "value": 5,
@@ -2223,7 +2143,7 @@ rhs_mag_maaws_HEAT = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
@@ -2315,7 +2235,7 @@ rhs_mag_smaw_HEAA = {
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundEngine": ["",1,1,20],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -2323,9 +2243,6 @@ rhs_mag_smaw_HEAA = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -2333,8 +2250,6 @@ rhs_mag_smaw_HEAA = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 70,
-        "ACE_damageType": "explosive",
         "simulation": "shotRocket",
         "maxControlRange": 0,
         "visibleFire": 32,
@@ -2449,6 +2364,7 @@ rhs_mag_smaw_HEAA = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_smaw_HEAA",
     "type": "2*256",
     "mass": 136.4,
     "value": 5,
@@ -2460,7 +2376,7 @@ rhs_mag_smaw_HEAA = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
@@ -2552,7 +2468,7 @@ rhs_mag_smaw_HEDP = {
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundEngine": ["",1,1,20],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -2560,9 +2476,6 @@ rhs_mag_smaw_HEDP = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -2570,8 +2483,6 @@ rhs_mag_smaw_HEDP = {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        "ace_rearm_caliber": 70,
-        "ACE_damageType": "explosive",
         "simulation": "shotRocket",
         "maxControlRange": 0,
         "visibleFire": 32,
@@ -2686,6 +2597,7 @@ rhs_mag_smaw_HEDP = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
+        "minDamageForCamShakeHit": "rhs_ammo_smaw_HEDP",
     "type": "2*256",
     "mass": 129.8,
     "value": 5,
@@ -2697,7 +2609,7 @@ rhs_mag_smaw_HEDP = {
     "useActionTitle": "",
     "reloadAction": "",
     "selectionFireAnim": "zasleh",
-    "maxLeadSpeed": 23,
+    "maxLeadSpeed": 25,
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
