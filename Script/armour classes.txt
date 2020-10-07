@@ -153,39 +153,39 @@ rhsusf_ach_helmet_ucp
 rhs_ess_black
 
 USMC (Woodland):
-
-
-
+rhs_uniform_FROG01_wd
+rhsusf_spc_teamleader
+rhsusf_lwh_helmet_marpatwd_headset
 
 USMC (Desert):
-
-
-
+rhs_uniform_FROG01_d
+rhsusf_spc_teamleader
+rhsusf_lwh_helmet_marpatd_headset
 
 Army Marksman (OCP):
-
-
-
+rhs_uniform_cu_ocp
+rhsusf_iotv_ocp_Teamleader
+rhsusf_ach_helmet_camo_ocp
 
 Army Marksman (UCP):
-
-
-
+rhs_uniform_acu_ucp
+rhsusf_iotv_ucp_Teamleader
+rhs_Booniehat_ucp
 
 USMC Officer (Woodland):
-
-
-
+rhs_uniform_FROG01_wd
+rhsusf_spc
+rhs_8point_marpatwd
 
 Tank Crew (OCP):
-
-
-
+rhs_uniform_cu_ocp
+rhsusf_iotv_ocp
+rhsusf_cvc_green_ess
 
 Tank Crew (UCP):
-
-
-
+rhs_uniform_cu_ucp
+rhsusf_iotv_ucp
+rhsusf_cvc_ess
 
 Helicopter Crew (OCP):
 
