@@ -50,19 +50,19 @@ rhs_6b13_Flora_6sh92
 rhs_6b7_1m_bala1_flora
 
 Officer:
-
-
-
+rhs_uniform_emr_patchless
+rhs_vest_commander
+rhs_fieldcap_digi2
 
 Crewman:
-
-
-
+rhs_uniform_flora_patchless
+rhs_vydra_3m
+rhs_tsh4
 
 Heli Pilot:
-
-
-
+rhs_uniform_df15
+rhs_vydra_3m
+rhs_zsh7a_mike_alt
 
 Jet Pilot:
 
