@@ -126,29 +126,31 @@ rhsusf_falconii
 B_Carryall_cbr
 
 Army Light (OCP):
-
-
-
+rhs_uniform_acu_ocp
+rhsusf_spcs_ocp
+rhsusf_patrolcap_ocp
 
 Army Light (UCP):
-
-
-
+rhs_uniform_acu_ucp
+rhsusf_spcs_ucp
+rhsusf_patrolcap_ucp
 
 Alpenflage:
-
-
-
+rhsgref_uniform_alpenflage
+rhsgref_alice_webbing
+rhsgref_Booniehat_alpen
 
 Army (OCP):
-
-
-
+rhs_uniform_cu_ocp
+rhsusf_iotv_ocp_SAW
+rhsusf_ach_helmet_ocp
+rhs_ess_black
 
 Army (UCP):
-
-
-
+rhs_uniform_cu_ucp
+rhsusf_iotv_ucp_SAW
+rhsusf_ach_helmet_ucp
+rhs_ess_black
 
 USMC (Woodland):
 
