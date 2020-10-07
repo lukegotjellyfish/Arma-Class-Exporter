@@ -2,16 +2,19 @@ Shared:
 Ghillie Semi-Aritd:
 U_O_FullGhillie_sard
 V_Chestrig_khk
+
 G_Bandanna_blk
 
 Ghillie Lush:
 U_O_FullGhillie_lsh
 V_Chestrig_khk
+
 G_Bandanna_blk
 
 Ghillie Arid:
 U_O_FullGhillie_ard
 V_Chestrig_khk
+
 G_Bandanna_blk
 
 
@@ -119,7 +122,8 @@ Infantry Assault:
 
 BluFor:
 Backpacks:
-
+rhsusf_falconii
+B_Carryall_cbr
 
 Army Light (OCP):
 
@@ -217,17 +221,19 @@ USMC Recon (Desert):
 
 
 SOC (Woodland):
-
-
-
+rhs_uniform_g3_rgr
+V_PlateCarrier2_rgr
+rhsusf_opscore_mar_fg_pelt
+rhsusf_shemagh2_gogg_grn
 
 SOC (Desert):
-
-
-
+rhs_uniform_g3_tan
+V_TacVest_khk
+rhsusf_opscore_mar_ut_pelt
+rhsusf_shemagh2_gogg_tan
 
 SOC (Black):
-
-
-
-
+rhs_uniform_g3_blk
+V_PlateCarrier2_blk
+rhsusf_opscore_bk_pelt
+rhsusf_shemagh2_gogg_od
