@@ -1,0 +1,112 @@
+OpFor:
+Backpacks:
+rhs_sidor
+rhs_assault_umbts
+rhsgref_ttsko_alicepack
+
+Infantry Light:
+rhs_uniform_flora_patchless_alt
+rhs_6b23
+rhs_fieldcap_vsr
+
+Marines Light:
+rhs_uniform_flora_patchless_alt
+rhs_6sh92_vsr
+rhs_beret_mp1
+
+Airborne Light:
+rhs_uniform_vdv_flora
+rhs_6sh92
+rhs_beret_vdv3
+
+Afghan:
+rhs_uniform_m88_patchless
+rhs_6b5_rifleman_khaki
+rhs_ssh68
+
+Infantry:
+rhs_uniform_flora_patchless
+rhs_6b23_rifleman
+rhs_6b27m_ess
+
+Infantry (EMR):
+rhs_uniform_emr_patchless
+rhs_6b23_digi_rifleman
+rhs_6b28_ess
+
+Infantry (Mountain):
+rhs_uniform_mflora_patchless
+rhs_6b23_ML_rifleman
+rhs_6b27m_ml_ess
+
+Airborne:
+rhs_uniform_vdv_emr
+rhs_6b23_digi_6sh92_spetsnaz2
+rhs_6b28_ess
+
+Marines:
+rhs_uniform_vmf_flora
+rhs_6b13_Flora_6sh92
+rhs_6b7_1m_bala1_flora
+
+Officer:
+
+
+
+
+Crewman:
+
+
+
+
+Heli Pilot:
+
+
+
+
+Jet Pilot:
+
+
+
+
+Marines (EMR):
+
+
+
+
+Airborne (Desert):
+
+
+
+
+Spetsnaz Light:
+
+
+
+
+Ghillie Semi-Aritd:
+
+
+
+
+Ghillie Lush:
+
+
+
+
+Ghillie Arid:
+
+
+
+
+Spetsnaz Marksman:
+
+
+
+
+Spetsnaz:
+
+
+
+
+Infantry Assault:
