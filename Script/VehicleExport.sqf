@@ -471,49 +471,9 @@
 ];
 
 
-getPropertyValue = {
-	params ["_property", "_addComma", "_configCategory", "_propertyName", "_i"];
+getClass = {
+	params ["_property", "_classBody", "_addComma", "_propertyNameLast", "_configCategory"];
 
-	private _classBody = "";
-
-	_propertyNameArray = _propertyName splitString "/";
-	_propertyNameLast = _propertyNameArray select (count _propertyNameArray - 1);
-
-	if (isText _property) then {
-		_strProperty = str _property;
-		if ((_strProperty find "CfgMagazines" != -1) && (_strProperty find "ammo" != -1)) then {
-
-			_ammoType = "Ammo/SubmunitionAmmo";
-			if (_strProperty find "submunitionAmmo" != -1 || _strProperty find "SubmunitionAmmo" != -1) then { _ammoType = "SubmunitionAmmo"; };
-			if (_strProperty find "ammo" != -1 || _strProperty find "Ammo" != -1) then { _ammoType = "Ammo"; };
-
-			diag_log(format["Looking for ammo | %1", _property]);
-
-			_ammoName = getText _property;
-			diag_log(format["Fetching ammo %1", _ammoName]);
-			_classBody = _classBody + format["%1    # %2: %3", _addComma, _ammoType, _ammoName];
-			_classBody = _classBody + format['%1    "%2": {%3        "%2": "%4"', _addComma, _propertyNameLast, _addComma splitString "," joinString "", ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];
-			_addComma = _addComma + "    ";
-
-			_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
-			{
-				_addition = [_x, _addComma, _configCategory, (((str _x) splitString "\") joinString "|"), _i] call getPropertyValue;
-				_classBody = _classBody + _addition;
-				_i = _i + 1;
-			} forEach _ammoProperties;
-			_classBody = _classBody + _addComma + "}"
-		};
-		if ((_strProperty find "CfgWeapons" != -1) && ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilProne"))) then {
-			_configDir = configFile >> "CfgRecoils" >> getText _property;
-
-			if (isClass _configDir) then { diag_log("Class recoil"); };
-			if (isArray _configDir) then { diag_log("Array recoil"); };
-		}
-		else {_i = _i + 1; _classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];};
-	};
-	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getNumber _property]; };
-	if (isArray _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; };
-	if (isClass _property) then {
 		//diag_log(format["Class here: %1", _property]);
 
 		//Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
@@ -556,6 +516,65 @@ getPropertyValue = {
 			_i = _i + 1;
 		} foreach _classProperties;  //For each property in class
 		_classBody = _classBody + "\n" + (_addComma splitString ",\n" joinString "") + "}";
+		_classBody
+};
+
+getPropertyValue = {
+	params ["_property", "_addComma", "_configCategory", "_propertyName", "_i"];
+
+	private _classBody = "";
+
+	_propertyNameArray = _propertyName splitString "/";
+	_propertyNameLast = _propertyNameArray select (count _propertyNameArray - 1);
+
+	if (isText _property) then {
+		_strProperty = str _property;
+		if ((_strProperty find "CfgMagazines" != -1) && (_strProperty find "ammo" != -1)) then {
+
+			_ammoType = "Ammo/SubmunitionAmmo";
+			if (_strProperty find "submunitionAmmo" != -1 || _strProperty find "SubmunitionAmmo" != -1) then { _ammoType = "SubmunitionAmmo"; };
+			if (_strProperty find "ammo" != -1 || _strProperty find "Ammo" != -1) then { _ammoType = "Ammo"; };
+
+			diag_log(format["Looking for ammo | %1", _property]);
+
+			_ammoName = getText _property;
+			diag_log(format["Fetching ammo %1", _ammoName]);
+			_classBody = _classBody + format["%1    # %2: %3", _addComma, _ammoType, _ammoName];
+			_classBody = _classBody + format['%1    "%2": {%3        "%2": "%4"', _addComma, _propertyNameLast, _addComma splitString "," joinString "", ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];
+			_addComma = _addComma + "    ";
+
+			_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
+			{
+				_addition = [_x, _addComma, _configCategory, (((str _x) splitString "\") joinString "|"), _i] call getPropertyValue;
+				_classBody = _classBody + _addition;
+				_i = _i + 1;
+			} forEach _ammoProperties;
+			_classBody = _classBody + _addComma + "}"
+		};
+		if ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilProne")) then {
+			  //diag_log(format["Found recoil: %1 | %2", _strProperty, getText _property]);
+
+			_configDir = configFile >> "CfgRecoils" >> getText _property;
+
+			  //diag_log(format["_configDir = %1", _configDir]);
+
+			if (isClass _configDir) then {
+				  //diag_log(format["Class recoil (%1)", _propertyName]);
+				_classBody = _classBody + format["%1    # Recoil Class: %2", _addComma, _propertyNameLast];
+				_classBody = [_configDir, _classBody, _addComma, _propertyNameLast, "CfgRecoils"] call getClass;
+			};
+			if (isArray _configDir) then {
+				  //diag_log(format["Array recoil (%1)", _propertyName]);
+				_classBody = _classBody + format["%1    # Recoil Array: %2", _addComma, _propertyNameLast];
+				_classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getArray _configDir];
+			};
+		}
+		else {_i = _i + 1; _classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];};
+	};
+	if (isNumber _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getNumber _property]; };
+	if (isArray _property) then { _classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; };
+	if (isClass _property) then {
+		_classBody = [_property, _classBody, _addComma, _propertyNameLast, _configCategory] call getClass;
 	};
 	_classBody
 };
@@ -631,11 +650,12 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 					_classBody = _classBody + ",";
 				};
 
-				//seperate lines in .rpt by a line
-				diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
 				//Write class to its own file
 				diag_log(format["Wrote to %1", _path]);
+
+				//seperate lines in .rpt by a line
+				diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
 				//add final brace
 				_classBody = _classBody + "\n}";
@@ -657,8 +677,3 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		"make_file" callExtension (_combinedPath + "|" + "empty");
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
-
-
-while {alive player} do {
-    diag_log(eyeDirection player);
-};
