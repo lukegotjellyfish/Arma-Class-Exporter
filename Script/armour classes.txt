@@ -105,17 +105,20 @@ rhs_6b23_6sh116_od
 rhs_beanie_green
 
 Spetsnaz Marksman:
-
-
-
+rhs_uniform_gorka_r_g
+rhs_6sh92_digi_vog_headset
+rhs_Booniehat_digi
 
 Spetsnaz:
-
-
-
+rhs_uniform_gorka_r_g
+rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz
+rhs_6b47
 
 Infantry Assault:
-
+rhs_uniform_gorka_r_g
+rhs_6b43
+rhs_altyn_visordown
+rhs_balaclava1_olive
 
 
 
@@ -188,39 +191,42 @@ rhsusf_iotv_ucp
 rhsusf_cvc_ess
 
 Helicopter Crew (OCP):
-
-
-
+rhs_uniform_cu_ocp
+rhsusf_spcs_ocp
+rhsusf_hgu56p_visor_green
 
 Helicopter Crew (UCP):
-
-
-
+rhs_uniform_cu_ucp
+rhsusf_spcs_ucp
+rhsusf_hgu56p_saf
 
 Pilot:
-
-
-
+U_B_HeliPilotCoveralls
+V_TacVest_oli
+H_Cap_headphones
+G_Aviator
 
 Jet Pilot:
+U_B_PilotCoveralls
 
-
-
+RHS_jetpilot_usaf
 
 USMC Officer (Desert):
-
-
-
+rhs_uniform_FROG01_d
+rhsusf_spc
+rhs_8point_marpatd
 
 USMC Recon (Woodland):
-
-
-
+rhs_uniform_FROG01_wd
+rhsusf_mbav_mg
+rhsusf_mich_bare_norotos_arc_semi_headset
+rhsusf_shemagh_tan
 
 USMC Recon (Desert):
-
-
-
+rhs_uniform_FROG01_d
+rhsusf_mbav_mg
+rhsusf_mich_bare_norotos_tan_headset
+rhsusf_shemagh_tan
 
 SOC (Woodland):
 rhs_uniform_g3_rgr
