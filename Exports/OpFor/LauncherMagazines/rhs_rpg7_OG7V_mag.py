@@ -12,6 +12,10 @@ rhs_rpg7_OG7V_mag = {
         "warheadName": "HE",
         "AIAmmoUsageFlags": "64+128+256",
         "model": "rhsafrf|addons|rhs_weapons|rpg7|projectiles|og7v",
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "hit": 75,
         "indirectHit": 20,
@@ -79,12 +83,13 @@ rhs_rpg7_OG7V_mag = {
         "soundHit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,1800],
         "soundHit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,1800],
         "multiSoundHit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
-        "SoundSetExplosion": ["RocketsLight_Exp_SoundSet","RocketsLight_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "SoundSetExplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
+        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["",1,1,20],
+        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -92,6 +97,7 @@ rhs_rpg7_OG7V_mag = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
+        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -209,7 +215,7 @@ rhs_rpg7_OG7V_mag = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
-        "minDamageForCamShakeHit": "rhs_rpg7v2_og7v",
+    "minDamageForCamShakeHit": "rhs_rpg7v2_og7v",
     "initSpeed": 152,
     "mass": 28.6,
     "scope": 2,

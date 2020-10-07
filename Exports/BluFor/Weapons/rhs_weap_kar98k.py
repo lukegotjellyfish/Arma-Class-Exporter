@@ -114,7 +114,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_kar98k_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -170,7 +170,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_kar98k_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -222,7 +222,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_kar98k_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -274,7 +274,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_kar98k_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -349,11 +349,15 @@ rhs_weap_kar98k = {
     "ffFrequency": 11,
     "ffCount": 3,
     "weaponPoolAvailable": 1,
-    "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

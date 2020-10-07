@@ -84,6 +84,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -401,6 +405,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -684,6 +692,7 @@ rhs_weap_9k121_Launcher = {
             },
             "aimTransitionSpeed": 1
         },
+        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "nameSound": "MissileLauncher",
@@ -694,6 +703,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -1045,6 +1058,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -1362,6 +1379,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -1645,6 +1666,7 @@ rhs_weap_9k121_Launcher = {
             },
             "aimTransitionSpeed": 1
         },
+        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "nameSound": "MissileLauncher",
@@ -1655,6 +1677,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -1988,6 +2014,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -2305,6 +2335,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -2588,6 +2622,7 @@ rhs_weap_9k121_Launcher = {
         },
         "aimTransitionSpeed": 1
     },
+    "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,500],
     "scope": 1,
     "type": 65536,
     "nameSound": "MissileLauncher",
@@ -2598,6 +2633,10 @@ rhs_weap_9k121_Launcher = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorAimOn": "",
     "laser": 0,

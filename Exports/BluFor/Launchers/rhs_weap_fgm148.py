@@ -264,6 +264,7 @@ rhs_weap_fgm148 = {
         }
     },
     "hiddenSelections": ["camo_launcher","camo_tube"],
+    "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|SoundFly1.ogg",1,1.5,500],
     "htMin": 1,
     "htMax": 460,
     "afMax": 0,
@@ -272,7 +273,6 @@ rhs_weap_fgm148 = {
     "tBody": 100,
     "swayCoef": 0.5,
     "sound": ["A3|Sounds_F|weapons|Launcher|rocket_launcher_5",1,1,800],
-    "soundFly": ["A3|sounds_f|weapons|rockets|rocket_fly_1",0.316228,1.5,700],
     "weaponPoolAvailable": 1,
     "textureType": "semi",
     "opticsDisablePeripherialVision": 1,
@@ -294,6 +294,10 @@ rhs_weap_fgm148 = {
     "type": 4,
     "count": 1,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

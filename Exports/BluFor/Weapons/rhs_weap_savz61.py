@@ -85,57 +85,17 @@ rhs_weap_savz61 = {
         "maxRangeProbab": 0.05,
         "aiRateOfFire": 2,
         "aiRateOfFireDistance": 500,
-        "sounds": ["StandardSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons\rhs_weap_savz61\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_scorp_Shot_SoundSet","RHSGREF_pistol1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_sting9_shot_soundset","jsrs_9mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons\rhs_weap_savz61\Single\silencedsound [Indent level: 2],
+        "silencedsound": {
+            "soundsetshot": ["jsrs_sting9_shot_silenced_soundset","jsrs_9mm_sd_reverb_soundset"]
         },
         # Class: CfgWeapons\SMG_01_Base\Single\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
-            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
-            "soundClosure": ["closure1",0.5,"closure2",0.5]
-        },
-        # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound [Indent level: 2],
-        "SilencedSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_01",0.891251,1,400],
-            "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_02",0.891251,1,400],
-            "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_03",0.891251,1,400],
-            "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails [Indent level: 3],
-            "SoundTails": {
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailInterior [Indent level: 4]
-                "TailInterior": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailTrees [Indent level: 4],
-                "TailTrees": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailForest [Indent level: 4],
-                "TailForest": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|silencer_Vermin_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailMeadows [Indent level: 4],
-                "TailMeadows": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\SMG_01_Base\Single\SilencedSound\SoundTails\TailHouses [Indent level: 4],
-                "TailHouses": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "SoundSetShot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"],
             "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
@@ -187,57 +147,17 @@ rhs_weap_savz61 = {
         "maxRangeProbab": 0.05,
         "aiRateOfFire": 0.2,
         "aiRateOfFireDistance": 50,
-        "sounds": ["StandardSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons\rhs_weap_savz61\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_scorp_Shot_SoundSet","RHSGREF_pistol1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_sting9_shot_soundset","jsrs_9mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons\rhs_weap_savz61\FullAuto\silencedsound [Indent level: 2],
+        "silencedsound": {
+            "soundsetshot": ["jsrs_sting9_shot_silenced_soundset","jsrs_9mm_sd_reverb_soundset"]
         },
         # Class: CfgWeapons\SMG_01_Base\FullAuto\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
-            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
-            "soundClosure": ["closure1",0.5,"closure2",0.5]
-        },
-        # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound [Indent level: 2],
-        "SilencedSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_01",0.891251,1,400],
-            "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_02",0.891251,1,400],
-            "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_short_03",0.891251,1,400],
-            "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails [Indent level: 3],
-            "SoundTails": {
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailInterior [Indent level: 4]
-                "TailInterior": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailTrees [Indent level: 4],
-                "TailTrees": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailForest [Indent level: 4],
-                "TailForest": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|silencer_Vermin_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailMeadows [Indent level: 4],
-                "TailMeadows": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\SMG_01_Base\FullAuto\SilencedSound\SoundTails\TailHouses [Indent level: 4],
-                "TailHouses": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Silencer_Vermin_Tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "SoundSetShot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"],
             "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
@@ -278,6 +198,19 @@ rhs_weap_savz61 = {
         "aiRateOfFireDispersion": 1
     },
     "baseWeapon": "rhs_weap_savz61",
+    "bullet1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_1.ogg",2.0099,1,10],
+    "bullet2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_2.ogg",2.0099,1,10],
+    "bullet3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_3.ogg",2.0099,1,10],
+    "bullet4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_4.ogg",2.0099,1,10],
+    "bullet5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_1.ogg",2.0099,1,10],
+    "bullet6": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_2.ogg",2.0099,1,10],
+    "bullet7": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_3.ogg",2.0099,1,10],
+    "bullet8": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_4.ogg",2.0099,1,10],
+    "bullet9": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_1.ogg",2.0099,1,10],
+    "bullet10": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_2.ogg",2.0099,1,10],
+    "bullet11": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_3.ogg",2.0099,1,10],
+    "bullet12": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_4.ogg",2.0099,1,10],
+    "soundbullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
     "_generalMacro": "SMG_01_F",
     "inertia": 0.3,
     "aimTransitionSpeed": 1.4,
@@ -300,19 +233,6 @@ rhs_weap_savz61 = {
     "aiDispersionCoefX": 9,
     "hiddenSelections": ["camo1","camo2","camo3"],
     "hiddenSelectionsTextures": ["|a3|weapons_f_beta|smgs|smg_01|data|smg_01_co.paa","|a3|weapons_f|data|vectoratt_co.paa","|a3|weapons_f|acc|data|battlesight_co.paa"],
-    "bullet1": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_01",0.501187,1,15],
-    "bullet2": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_02",0.501187,1,15],
-    "bullet3": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_03",0.501187,1,15],
-    "bullet4": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_04",0.501187,1,15],
-    "bullet5": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_01",0.562341,1,15],
-    "bullet6": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_02",0.562341,1,15],
-    "bullet7": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_03",0.562341,1,15],
-    "bullet8": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_04",0.562341,1,15],
-    "bullet9": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_01",0.398107,1,15],
-    "bullet10": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_02",0.398107,1,15],
-    "bullet11": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_03",0.398107,1,15],
-    "bullet12": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_04",0.398107,1,15],
-    "soundBullet": ["bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083],
     "drySound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|Dry_Vermin",0.501187,1,10],
     "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|reload_vermin",1,1,10],
     "changeFiremodeSound": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|firemode_Vermin",0.251189,1,5],
@@ -364,7 +284,7 @@ rhs_weap_savz61 = {
                     "volume": "(1-interior/1.4)*houses"
                 }
             },
-            "SoundSetShot": ["SMGVermin_Shot_SoundSet","SMGVermin_Tail_SoundSet","SMGVermin_InteriorTail_SoundSet"],
+            "SoundSetShot": ["jsrs_smg45_shot_soundset","jsrs_cal45_reverb_soundset"],
             "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
@@ -408,7 +328,7 @@ rhs_weap_savz61 = {
                     "volume": "(1-interior/1.4)*houses"
                 }
             },
-            "SoundSetShot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"],
+            "SoundSetShot": ["jsrs_smg45_shot_silenced_soundset","jsrs_cal45_sd_reverb_soundset"],
             "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_01",0.562341,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|Vermin|closure_Vermin_02",0.562341,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
@@ -487,11 +407,15 @@ rhs_weap_savz61 = {
     "ffFrequency": 11,
     "ffCount": 3,
     "weaponPoolAvailable": 1,
-    "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

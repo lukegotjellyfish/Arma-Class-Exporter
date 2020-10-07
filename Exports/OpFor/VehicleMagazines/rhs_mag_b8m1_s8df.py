@@ -6,6 +6,10 @@ rhs_mag_b8m1_s8df = {
         "ammo": "rhs_ammo_s8df",
         "AIAmmoUsageFlags": "64+128",
         "cost": 100,
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "hit": 210,
         "indirectHit": 85,
@@ -66,12 +70,13 @@ rhs_mag_b8m1_s8df = {
             "frequency": 20,
             "distance": 1
         },
-        "SoundSetExplosion": ["RocketsMedium_Exp_SoundSet","RocketsMedium_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "SoundSetExplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
+        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["",1,1,20],
+        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "CraterEffects": "HERocketCrater",
@@ -79,6 +84,7 @@ rhs_mag_b8m1_s8df = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
+        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -202,7 +208,7 @@ rhs_mag_b8m1_s8df = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
-        "minDamageForCamShakeHit": "rhs_ammo_s8df",
+    "minDamageForCamShakeHit": "rhs_ammo_s8df",
     "mass": 418,
     "weight": 418,
     "pylonWeapon": "rhs_weap_s8df",
@@ -218,37 +224,17 @@ rhs_mag_b8m1_s8df = {
             },
             # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw [Indent level: 3],
             "Draw": {
-                # Ammo: PylonSelected
-                "condition": {
-                    "condition": "PylonSelected"
-                }
-                    "condition": "PylonSelected",
+                "condition": "PylonSelected",
                 "color": [0.15,1,0.15],
                 "alpha": 1,
                 # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: static,
-                    "source": {
-                        "source": "static",
-                    },
-                        "source": "static",
-                    # Ammo: С8КОМ,
-                    "text": {
-                        "text": "С8КОМ",
-                    },
-                        "text": "С8КОМ",
+                    "type": "text",
+                    "source": "static",
+                    "text": "С8КОМ",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: center,
-                    "align": {
-                        "align": "center",
-                    },
-                        "align": "center",
+                    "align": "center",
                     "pos": [[-0.005,0.02],1],
                     "right": [[0.045,0.02],1],
                     "down": [[-0.005,0.065],1]
@@ -262,37 +248,17 @@ rhs_mag_b8m1_s8df = {
             },
             # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw [Indent level: 3],
             "Draw": {
-                # Ammo: PylonSelected
-                "condition": {
-                    "condition": "PylonSelected"
-                }
-                    "condition": "PylonSelected",
+                "condition": "PylonSelected",
                 "color": [0.15,1,0.15],
                 "alpha": 1,
                 # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: static,
-                    "source": {
-                        "source": "static",
-                    },
-                        "source": "static",
-                    # Ammo: С8КОМ,
-                    "text": {
-                        "text": "С8КОМ",
-                    },
-                        "text": "С8КОМ",
+                    "type": "text",
+                    "source": "static",
+                    "text": "С8КОМ",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: right,
-                    "align": {
-                        "align": "right",
-                    },
-                        "align": "right",
+                    "align": "right",
                     "pos": [[-0.005,0.02],1],
                     "right": [[0.045,0.02],1],
                     "down": [[-0.005,0.065],1]

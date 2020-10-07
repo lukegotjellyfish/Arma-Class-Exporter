@@ -32,6 +32,10 @@ rhs_weap_mk82 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorAimOn": "",
     "laser": 0,

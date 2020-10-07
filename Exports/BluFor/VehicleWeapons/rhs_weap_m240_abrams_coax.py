@@ -21,8 +21,8 @@ rhs_weap_m240_abrams_coax = {
         "StandardSound": {
             "soundSetShot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
         },
+        "sounds": ["standardsound"],
         "displayName": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "soundBurst": 0,
         "dispersion": 0.0016,
@@ -53,6 +53,10 @@ rhs_weap_m240_abrams_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -337,7 +341,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadTime": 0.0631,
         # Class: CfgWeapons\rhs_weap_m240veh\close\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons\rhs_weap_m240veh\close\BaseSoundModeType [Indent level: 2],
+        "BaseSoundModeType": {
         },
         "aiBurstTerminable": 1,
         "showToPlayer": 0,
@@ -353,7 +360,7 @@ rhs_weap_m240_abrams_coax = {
         "maxRange": 50,
         "maxRangeProbab": 0.2,
         "displayName": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "soundBurst": 0,
         "dispersion": 0.0016,
@@ -376,6 +383,10 @@ rhs_weap_m240_abrams_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -657,7 +668,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadTime": 0.0631,
         # Class: CfgWeapons\rhs_weap_m240veh\short\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons\rhs_weap_m240veh\short\BaseSoundModeType [Indent level: 2],
+        "BaseSoundModeType": {
         },
         "aiBurstTerminable": 1,
         "showToPlayer": 0,
@@ -673,7 +687,7 @@ rhs_weap_m240_abrams_coax = {
         "maxRange": 300,
         "maxRangeProbab": 0.2,
         "displayName": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "soundBurst": 0,
         "dispersion": 0.0016,
@@ -696,6 +710,10 @@ rhs_weap_m240_abrams_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -977,7 +995,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadTime": 0.0631,
         # Class: CfgWeapons\rhs_weap_m240veh\medium\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons\rhs_weap_m240veh\medium\BaseSoundModeType [Indent level: 2],
+        "BaseSoundModeType": {
         },
         "aiBurstTerminable": 1,
         "showToPlayer": 0,
@@ -993,7 +1014,7 @@ rhs_weap_m240_abrams_coax = {
         "maxRange": 800,
         "maxRangeProbab": 0.1,
         "displayName": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "soundBurst": 0,
         "dispersion": 0.0016,
@@ -1016,6 +1037,10 @@ rhs_weap_m240_abrams_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1297,7 +1322,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadTime": 0.0631,
         # Class: CfgWeapons\rhs_weap_m240veh\far\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons\rhs_weap_m240veh\far\BaseSoundModeType [Indent level: 2],
+        "BaseSoundModeType": {
         },
         "aiBurstTerminable": 1,
         "showToPlayer": 0,
@@ -1313,7 +1341,7 @@ rhs_weap_m240_abrams_coax = {
         "maxRange": 1200,
         "maxRangeProbab": 0.1,
         "displayName": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "soundBurst": 0,
         "dispersion": 0.0016,
@@ -1336,6 +1364,10 @@ rhs_weap_m240_abrams_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1661,6 +1693,10 @@ rhs_weap_m240_abrams_coax = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

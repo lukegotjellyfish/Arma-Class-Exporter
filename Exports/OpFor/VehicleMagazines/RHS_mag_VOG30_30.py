@@ -58,7 +58,7 @@ RHS_mag_VOG30_30 = {
         "soundHit3": ["A3|Sounds_F|arsenal|explosives|Grenades|Explosion_gng_grenades_03",3.16228,1,1500],
         "soundHit4": ["A3|Sounds_F|arsenal|explosives|Grenades|Explosion_gng_grenades_04",3.16228,1,1500],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        "SoundSetExplosion": ["GrenadeHe_Exp_SoundSet","GrenadeHe_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "SoundSetExplosion": ["jsrs_grenade_explosion_soundset","jsrs_40mm_explosion_stereo_soundset","jsrs_grenade_explosion_reverb_soundset"],
         "soundHit5": ["A3|Sounds_F|weapons|Explosion|gr_explosion_5",3.16228,1,1400],
         "soundHit6": ["A3|Sounds_F|weapons|Explosion|gr_explosion_6",3.16228,1,1400],
         "supersonicCrackNear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.316228,1,50],
@@ -172,6 +172,10 @@ RHS_mag_VOG30_30 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -197,7 +201,7 @@ RHS_mag_VOG30_30 = {
         "EventHandlers": {
         },
     },
-        "EventHandlers": "rhs_ammo_VOG30",
+    "EventHandlers": "rhs_ammo_VOG30",
     "initSpeed": 185,
     "nameSound": "handgrenade",
     "author": "Bohemia Interactive",

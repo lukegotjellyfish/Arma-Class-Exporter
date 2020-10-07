@@ -316,11 +316,11 @@ rhs_weap_SCARH_STD = {
         "sounds": ["Standardsound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_SCAR_H_Base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_SCARH_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_scar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_SCAR_H_Base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSUSF_sd_SCARH_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mx_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "minRange": 2,
         "minRangeProbab": 0.5,
@@ -372,11 +372,11 @@ rhs_weap_SCARH_STD = {
         "sounds": ["Standardsound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_SCAR_H_Base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_SCARH_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_scar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_SCAR_H_Base\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSUSF_sd_SCARH_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mx_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "minRange": 0,
         "minRangeProbab": 0.9,
@@ -490,9 +490,11 @@ rhs_weap_SCARH_STD = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_SCAR_Base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
+            "soundsetshot": ["jsrs_scar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_SCAR_Base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
+            "soundsetshot": ["jsrs_mx_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.075,
         "dispersion": 0.0008727,
@@ -546,9 +548,11 @@ rhs_weap_SCARH_STD = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_SCAR_Base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
+            "soundsetshot": ["jsrs_scar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_SCAR_Base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
+            "soundsetshot": ["jsrs_mx_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.075,
         "dispersion": 0.0008727,
@@ -600,9 +604,11 @@ rhs_weap_SCARH_STD = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_SCAR_Base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
+            "soundsetshot": ["jsrs_scar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_SCAR_Base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
+            "soundsetshot": ["jsrs_mx_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.075,
         "dispersion": 0.0008727,
@@ -652,9 +658,11 @@ rhs_weap_SCARH_STD = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_SCAR_Base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
+            "soundsetshot": ["jsrs_scar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_SCAR_Base\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
+            "soundsetshot": ["jsrs_mx_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.075,
         "dispersion": 0.0022,
@@ -854,7 +862,7 @@ rhs_weap_SCARH_STD = {
             },
             "allowedSlots": [901]
         },
-        "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "aiRateOfFire": 0.5,
@@ -863,6 +871,10 @@ rhs_weap_SCARH_STD = {
         "access": 3,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1289,7 +1301,7 @@ rhs_weap_SCARH_STD = {
             },
             "allowedSlots": [901]
         },
-        "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "aiRateOfFire": 0.5,
@@ -1298,6 +1310,10 @@ rhs_weap_SCARH_STD = {
         "access": 3,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1611,7 +1627,7 @@ rhs_weap_SCARH_STD = {
         "modes": ["Single"],
         # Class: CfgWeapons\UGL_F\Single [Indent level: 1],
         "Single": {
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\UGL_F\Single\BaseSoundModeType [Indent level: 2],
             "BaseSoundModeType": {
                 "closure1": ["A3|Sounds_F|arsenal|weapons|UGL|Closure_UGL",1,1,10],
@@ -1622,7 +1638,7 @@ rhs_weap_SCARH_STD = {
                 "begin1": ["A3|Sounds_F|arsenal|weapons|UGL|UGL_01",0.707946,1,200],
                 "begin2": ["A3|Sounds_F|arsenal|weapons|UGL|UGL_02",0.707946,1,200],
                 "soundBegin": ["begin1",0.5,"begin2",0.5],
-                "soundSetShot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+                "soundSetShot": ["jsrs_ugl_shot_soundset","jsrs_12x7mm_reverb_soundset"],
                 "closure1": ["A3|Sounds_F|arsenal|weapons|UGL|Closure_UGL",1,1,10],
                 "soundClosure": ["closure1",1]
             },
@@ -1689,6 +1705,7 @@ rhs_weap_SCARH_STD = {
         "opticsZoomMax": 1.25,
         "opticsZoomInit": 0.75,
         "weaponInfoType": "RscWeaponZeroing",
+        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursorAim": "gl",
         "cursor": "EmptyCursor",
         "value": 3,
@@ -1718,6 +1735,10 @@ rhs_weap_SCARH_STD = {
         "scope": 0,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -2012,11 +2033,15 @@ rhs_weap_SCARH_STD = {
     "ffFrequency": 11,
     "ffCount": 3,
     "weaponPoolAvailable": 1,
-    "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

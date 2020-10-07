@@ -9,7 +9,7 @@ rhs_mag_gbu12 = {
         "proxyShape": "rhsusf|addons|rhsusf_airweapons|proxyammo|rhsusf_b_gbu12",
         "initTime": 0.2,
         "maverickWeaponIndexOffset": 8,
-        "SoundSetExplosion": ["BombsHeavy_Exp_SoundSet","BombsHeavy_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "SoundSetExplosion": ["jsrs_bomb_explosion_soundset","jsrs_bomb_explosion_stereo_soundset","jsrs_bomb_explosion_reverb_soundset"],
         "hit": 5000,
         "indirectHit": 1100,
         "indirectHitRange": 12,
@@ -225,6 +225,10 @@ rhs_mag_gbu12 = {
         "shootDistraction": -1,
         "visibleFireTime": 0,
         "icon": "",
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -251,7 +255,7 @@ rhs_mag_gbu12 = {
         "EventHandlers": {
         },
     },
-        "EventHandlers": "rhs_ammo_gbu12",
+    "EventHandlers": "rhs_ammo_gbu12",
     "model": "A3|Weapons_F|DynamicLoadout|PylonMissile_1x_Bomb_02_F.p3d",
     "hardpoints": ["RHS_HP_LGB_500"],
     "pylonWeapon": "rhs_weap_gbu12",
@@ -269,28 +273,12 @@ rhs_mag_gbu12 = {
                 "alpha": 1,
                 # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: static,
-                    "source": {
-                        "source": "static",
-                    },
-                        "source": "static",
-                    # Ammo: GBU,
-                    "text": {
-                        "text": "GBU",
-                    },
-                        "text": "GBU",
+                    "type": "text",
+                    "source": "static",
+                    "text": "GBU",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: center,
-                    "align": {
-                        "align": "center",
-                    },
-                        "align": "center",
+                    "align": "center",
                     "pos": [[0.005,0.02],1],
                     "right": [[0.05,0.02],1],
                     "down": [[0.005,0.105],1]

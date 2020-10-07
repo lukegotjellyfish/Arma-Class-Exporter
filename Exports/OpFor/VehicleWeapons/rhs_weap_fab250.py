@@ -29,6 +29,10 @@ rhs_weap_fab250 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",

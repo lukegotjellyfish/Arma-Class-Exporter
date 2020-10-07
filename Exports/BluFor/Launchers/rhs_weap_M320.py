@@ -90,7 +90,13 @@ rhs_weap_M320 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_M320_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+            "soundSetShot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
+            "soundClosure": [],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_1.ogg",1.8,1,800],
+            "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_2.ogg",1.8,1,800],
+            "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_3.ogg",1.8,1,800],
+            "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_4.ogg",1.8,1,800],
+            "soundBegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
         },
         "multiplier": 1,
         "burst": 1,
@@ -146,7 +152,13 @@ rhs_weap_M320 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_M320_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+            "soundSetShot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
+            "soundClosure": [],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_1.ogg",1.8,1,800],
+            "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_2.ogg",1.8,1,800],
+            "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_3.ogg",1.8,1,800],
+            "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_4.ogg",1.8,1,800],
+            "soundBegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
         },
         "multiplier": 1,
         "burst": 1,
@@ -198,7 +210,13 @@ rhs_weap_M320 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_M320_Base_F\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+            "soundSetShot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
+            "soundClosure": [],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_1.ogg",1.8,1,800],
+            "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_2.ogg",1.8,1,800],
+            "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_3.ogg",1.8,1,800],
+            "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_4.ogg",1.8,1,800],
+            "soundBegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
         },
         "multiplier": 1,
         "burst": 1,
@@ -402,7 +420,7 @@ rhs_weap_M320 = {
             },
             "allowedSlots": [901]
         },
-        "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "aiRateOfFire": 0.5,
@@ -411,6 +429,10 @@ rhs_weap_M320 = {
         "access": 3,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -714,6 +736,10 @@ rhs_weap_M320 = {
     "canLock": 0,
     "access": 3,
     "value": 2,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

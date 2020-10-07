@@ -53,6 +53,10 @@ rhs_weap_gbu12 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -347,6 +351,10 @@ rhs_weap_gbu12 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorAimOn": "",
     "laser": 0,

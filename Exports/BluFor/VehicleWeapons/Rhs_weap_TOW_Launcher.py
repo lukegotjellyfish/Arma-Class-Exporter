@@ -57,6 +57,10 @@ Rhs_weap_TOW_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -376,6 +380,10 @@ Rhs_weap_TOW_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -664,7 +672,7 @@ Rhs_weap_TOW_Launcher = {
     },
     # Class: CfgWeapons\missiles_titan\StandardSound [Indent level: 1],
     "StandardSound": {
-        "soundSetShot": ["Static_Launcher_Titan_ATAA_Shot_SoundSet","Static_Launcher_Titan_ATAA_Tail_SoundSet"]
+        "soundSetShot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"]
     },
     "type": 65536,
     "nameSound": "MissileLauncher",
@@ -676,6 +684,10 @@ Rhs_weap_TOW_Launcher = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",

@@ -35,7 +35,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons\RHS_MK19\manual\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazineReloadTime": 10,
@@ -67,6 +67,10 @@ RHS_MK19 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -362,7 +366,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons\RHS_MK19\manual\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazineReloadTime": 10,
@@ -392,6 +396,10 @@ RHS_MK19 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -685,7 +693,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons\RHS_MK19\manual\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazineReloadTime": 10,
@@ -715,6 +723,10 @@ RHS_MK19 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1008,7 +1020,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons\RHS_MK19\manual\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazineReloadTime": 10,
@@ -1038,6 +1050,10 @@ RHS_MK19 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1331,7 +1347,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons\RHS_MK19\manual\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazineReloadTime": 10,
@@ -1361,6 +1377,10 @@ RHS_MK19 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1642,6 +1662,7 @@ RHS_MK19 = {
     },
     "modes": ["manual","close","short","medium","far"],
     "drySound": ["A3|Sounds_F|arsenal|weapons_static|Static_GMG|GMG20mm_static_dry",1,1,10],
+    "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
     "aiRateOfFire": 4,
     "aiRateOfFireDistance": 500,
     "minRange": 8,
@@ -1677,6 +1698,10 @@ RHS_MK19 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

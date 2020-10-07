@@ -38,7 +38,7 @@ rhs_mag_fab250 = {
             }
         },
         "maverickWeaponIndexOffset": 8,
-        "SoundSetExplosion": ["BombsHeavy_Exp_SoundSet","BombsHeavy_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "SoundSetExplosion": ["jsrs_bomb_explosion_soundset","jsrs_bomb_explosion_stereo_soundset","jsrs_bomb_explosion_reverb_soundset"],
         "maneuvrability": 10,
         "fuseDistance": 50,
         "trackLead": 0.95,
@@ -166,6 +166,10 @@ rhs_mag_fab250 = {
         "shootDistraction": -1,
         "visibleFireTime": 0,
         "icon": "",
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -192,7 +196,7 @@ rhs_mag_fab250 = {
         "EventHandlers": {
         },
     },
-        "EventHandlers": "rhs_ammo_fab250",
+    "EventHandlers": "rhs_ammo_fab250",
     "count": 1,
     "displayname": "FAB-250",
     "displayNameShort": "HE",
@@ -212,37 +216,17 @@ rhs_mag_fab250 = {
             },
             # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Draw [Indent level: 3],
             "Draw": {
-                # Ammo: PylonSelected
-                "condition": {
-                    "condition": "PylonSelected"
-                }
-                    "condition": "PylonSelected",
+                "condition": "PylonSelected",
                 "color": [0.15,1,0.15],
                 "alpha": 1,
                 # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: static,
-                    "source": {
-                        "source": "static",
-                    },
-                        "source": "static",
-                    # Ammo: АБ250,
-                    "text": {
-                        "text": "АБ250",
-                    },
-                        "text": "АБ250",
+                    "type": "text",
+                    "source": "static",
+                    "text": "АБ250",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: center,
-                    "align": {
-                        "align": "center",
-                    },
-                        "align": "center",
+                    "align": "center",
                     "pos": [[-0.005,0.02],1],
                     "right": [[0.045,0.02],1],
                     "down": [[-0.005,0.065],1]
@@ -256,37 +240,17 @@ rhs_mag_fab250 = {
             },
             # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Draw [Indent level: 3],
             "Draw": {
-                # Ammo: PylonSelected
-                "condition": {
-                    "condition": "PylonSelected"
-                }
-                    "condition": "PylonSelected",
+                "condition": "PylonSelected",
                 "color": [0.15,1,0.15],
                 "alpha": 1,
                 # Class: CfgMagazines\rhs_mag_fab250\mfdElements\rhs_rus_ammoname_right\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: static,
-                    "source": {
-                        "source": "static",
-                    },
-                        "source": "static",
-                    # Ammo: АБ250,
-                    "text": {
-                        "text": "АБ250",
-                    },
-                        "text": "АБ250",
+                    "type": "text",
+                    "source": "static",
+                    "text": "АБ250",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: right,
-                    "align": {
-                        "align": "right",
-                    },
-                        "align": "right",
+                    "align": "right",
                     "pos": [[-0.005,0.02],1],
                     "right": [[0.045,0.02],1],
                     "down": [[-0.005,0.065],1]

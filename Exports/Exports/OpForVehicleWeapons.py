@@ -47,6 +47,10 @@ rhs_weap_2A14 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -349,6 +353,10 @@ rhs_weap_2A14 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -638,6 +646,10 @@ rhs_weap_2A14 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -927,6 +939,10 @@ rhs_weap_2A14 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -1216,6 +1232,10 @@ rhs_weap_2A14 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -1477,6 +1497,10 @@ rhs_weap_2A14 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "laser": 0,
@@ -1746,7 +1770,7 @@ rhs_weap_2a28 = {
         "scope": 1,
         "cursor": "EmptyCursor",
         "displayName": "2A28",
-        "reloadSound": ["A3|sounds_f|vehicles|armor|noises|reload_tank_cannon_3",3.16228,1,10],
+        "reloadSound": ["A3\\sounds_f\\vehicles\\armor\\noises\\reload_tank_cannon_3",3.16228,1,10],
         "magazines": ["rhs_mag_pg15v_24","rhs_mag_pg15v_20","rhs_mag_pg15v_12","rhs_mag_og15v_16","rhs_mag_og15v_20","rhs_mag_og15v_8"],
         "minRange": 1,
         "minRangeProbab": 0.1,
@@ -1771,12 +1795,12 @@ rhs_weap_2a28 = {
         # Class: CfgWeapons\rhs_weap_2a28_base\player [Indent level: 1],
         "player": {
             "dispersion": "0.00025*15",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -1839,12 +1863,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.8,
             "maxRange": 1000,
             "maxRangeProbab": 0.85,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -1895,12 +1919,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.85,
             "maxRange": 1500,
             "maxRangeProbab": 0.85,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -1951,12 +1975,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.85,
             "maxRange": 2000,
             "maxRangeProbab": 0.8,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2007,12 +2031,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.8,
             "maxRange": 3500,
             "maxRangeProbab": 0.05,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2052,14 +2076,14 @@ rhs_weap_2a28 = {
         # Class: CfgWeapons\rhs_weap_2a28_base\StandardSound [Indent level: 1],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|2a28|2a28_1",3.15,1,2700],
-            "begin2": ["rhsafrf|addons|rhs_sounds|2a28|2a28_2",3.15,1,2700],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\2a28\\2a28_1",3.15,1,2700],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\2a28\\2a28_2",3.15,1,2700],
             "soundBegin": ["begin1",0.5,"begin2",0.5]
         },
         "cursorAim": "cannon",
         "showAimCursorInternal": 0,
         "nameSound": "cannon",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|Cannon_120mm_Reload_01",2.51189,1,10],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\Cannon_120mm_Reload_01",2.51189,1,10],
         "autoReload": 1,
         "FCSMaxLeadSpeed": 25,
         "FCSZeroingDelay": 1,
@@ -2075,12 +2099,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.95,
             "maxRange": 8000,
             "maxRangeProbab": 0.95,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2121,6 +2145,7 @@ rhs_weap_2a28 = {
             "requiredOpticType": -1,
             "aiRateOfFireDispersion": 1
         },
+        "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
         "type": 65536,
         # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
         "GunClouds": {
@@ -2129,6 +2154,10 @@ rhs_weap_2a28 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "cursorAimOn": "",
@@ -2387,7 +2416,7 @@ rhs_weap_2a28 = {
         "scope": 1,
         "cursor": "EmptyCursor",
         "displayName": "2A28",
-        "reloadSound": ["A3|sounds_f|vehicles|armor|noises|reload_tank_cannon_3",3.16228,1,10],
+        "reloadSound": ["A3\\sounds_f\\vehicles\\armor\\noises\\reload_tank_cannon_3",3.16228,1,10],
         "minRange": 1,
         "minRangeProbab": 0.1,
         "midRange": 765,
@@ -2411,12 +2440,12 @@ rhs_weap_2a28 = {
         # Class: CfgWeapons\rhs_weap_2a28_base\player [Indent level: 1],
         "player": {
             "dispersion": "0.00025*15",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2479,12 +2508,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.8,
             "maxRange": 1000,
             "maxRangeProbab": 0.85,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2535,12 +2564,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.85,
             "maxRange": 1500,
             "maxRangeProbab": 0.85,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2591,12 +2620,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.85,
             "maxRange": 2000,
             "maxRangeProbab": 0.8,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2647,12 +2676,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.8,
             "maxRange": 3500,
             "maxRangeProbab": 0.05,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2692,14 +2721,14 @@ rhs_weap_2a28 = {
         # Class: CfgWeapons\rhs_weap_2a28_base\StandardSound [Indent level: 1],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|2a28|2a28_1",3.15,1,2700],
-            "begin2": ["rhsafrf|addons|rhs_sounds|2a28|2a28_2",3.15,1,2700],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\2a28\\2a28_1",3.15,1,2700],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\2a28\\2a28_2",3.15,1,2700],
             "soundBegin": ["begin1",0.5,"begin2",0.5]
         },
         "cursorAim": "cannon",
         "showAimCursorInternal": 0,
         "nameSound": "cannon",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|Cannon_120mm_Reload_01",2.51189,1,10],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\Cannon_120mm_Reload_01",2.51189,1,10],
         "autoReload": 1,
         "FCSMaxLeadSpeed": 25,
         "FCSZeroingDelay": 1,
@@ -2714,12 +2743,12 @@ rhs_weap_2a28 = {
             "midRangeProbab": 0.95,
             "maxRange": 8000,
             "maxRangeProbab": 0.95,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundBegin": ["begin1",1],
-                "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+                "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
             },
             "soundContinuous": 0,
             "reloadTime": 6,
@@ -2760,6 +2789,7 @@ rhs_weap_2a28 = {
             "requiredOpticType": -1,
             "aiRateOfFireDispersion": 1
         },
+        "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
         "type": 65536,
         # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
         "GunClouds": {
@@ -2768,6 +2798,10 @@ rhs_weap_2a28 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "cursorAimOn": "",
@@ -3022,7 +3056,7 @@ rhs_weap_2a28 = {
     "scope": 1,
     "cursor": "EmptyCursor",
     "displayName": "2A28",
-    "reloadSound": ["A3|sounds_f|vehicles|armor|noises|reload_tank_cannon_3",3.16228,1,10],
+    "reloadSound": ["A3\\sounds_f\\vehicles\\armor\\noises\\reload_tank_cannon_3",3.16228,1,10],
     "magazines": ["rhs_mag_pg15v_24","rhs_mag_pg15v_20","rhs_mag_pg15v_12","rhs_mag_og15v_16","rhs_mag_og15v_20","rhs_mag_og15v_8"],
     "minRange": 1,
     "minRangeProbab": 0.1,
@@ -3047,12 +3081,12 @@ rhs_weap_2a28 = {
     # Class: CfgWeapons\rhs_weap_2a28_base\player [Indent level: 1],
     "player": {
         "dispersion": "0.00025*15",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -3115,12 +3149,12 @@ rhs_weap_2a28 = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -3171,12 +3205,12 @@ rhs_weap_2a28 = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -3227,12 +3261,12 @@ rhs_weap_2a28 = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -3283,12 +3317,12 @@ rhs_weap_2a28 = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -3328,14 +3362,14 @@ rhs_weap_2a28 = {
     # Class: CfgWeapons\rhs_weap_2a28_base\StandardSound [Indent level: 1],
     "StandardSound": {
         "weaponSoundEffect": "DefaultRifle",
-        "begin1": ["rhsafrf|addons|rhs_sounds|2a28|2a28_1",3.15,1,2700],
-        "begin2": ["rhsafrf|addons|rhs_sounds|2a28|2a28_2",3.15,1,2700],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\2a28\\2a28_1",3.15,1,2700],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\2a28\\2a28_2",3.15,1,2700],
         "soundBegin": ["begin1",0.5,"begin2",0.5]
     },
     "cursorAim": "cannon",
     "showAimCursorInternal": 0,
     "nameSound": "cannon",
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|Cannon_120mm_Reload_01",2.51189,1,10],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\Cannon_120mm_Reload_01",2.51189,1,10],
     "autoReload": 1,
     "FCSMaxLeadSpeed": 25,
     "FCSZeroingDelay": 1,
@@ -3351,12 +3385,12 @@ rhs_weap_2a28 = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -3397,6 +3431,7 @@ rhs_weap_2a28 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -3405,6 +3440,10 @@ rhs_weap_2a28 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",
@@ -4033,15 +4072,11 @@ rhs_weap_2a42 = {
             # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],
             "player": {
                 "dispersion": 0.0018,
-                "sounds": ["StandardSound"],
-                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
-                "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
-                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],
+                "standardsound": {
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
+                "sounds": ["StandardSound"],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 1,
@@ -4103,7 +4138,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4156,7 +4191,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4209,7 +4244,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.7,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4262,7 +4297,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.05,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4303,7 +4338,7 @@ rhs_weap_2a42 = {
             "cursorAim": "cannon",
             "showAimCursorInternal": 0,
             "nameSound": "cannon",
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "reloadTime": 0.3,
             "aiRateOfFire": 0.6,
@@ -4338,6 +4373,10 @@ rhs_weap_2a42 = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "cursorAimOn": "",
@@ -4604,7 +4643,7 @@ rhs_weap_2a42 = {
                 "dispersion": 0.00108,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "sounds": ["StandardSound"],
                 "soundContinuous": 0,
@@ -4668,7 +4707,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -4721,7 +4760,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -4774,7 +4813,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.7,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -4827,7 +4866,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.05,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -4868,7 +4907,7 @@ rhs_weap_2a42 = {
             "cursorAim": "cannon",
             "showAimCursorInternal": 0,
             "nameSound": "cannon",
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "reloadTime": 0.3,
             "aiRateOfFire": 0.6,
@@ -4903,6 +4942,10 @@ rhs_weap_2a42 = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "cursorAimOn": "",
@@ -5160,7 +5203,7 @@ rhs_weap_2a42 = {
             "aimTransitionSpeed": 1
         },
         "showAimCursorInternal": 0,
-        "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+        "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
         "soundContinuous": 0,
         "autoReload": 1,
         "FCSMaxLeadSpeed": 30.5556,
@@ -5171,11 +5214,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -5240,11 +5283,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -5297,11 +5340,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -5354,11 +5397,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -5411,11 +5454,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -5458,6 +5501,10 @@ rhs_weap_2a42 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -6089,15 +6136,11 @@ rhs_weap_2a42 = {
             # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],
             "player": {
                 "dispersion": 0.0018,
-                "sounds": ["StandardSound"],
-                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
-                "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
-                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],
+                "standardsound": {
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
+                "sounds": ["StandardSound"],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 1,
@@ -6159,7 +6202,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6212,7 +6255,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6265,7 +6308,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.7,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6318,7 +6361,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.05,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6359,7 +6402,7 @@ rhs_weap_2a42 = {
             "cursorAim": "cannon",
             "showAimCursorInternal": 0,
             "nameSound": "cannon",
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "reloadTime": 0.3,
             "aiRateOfFire": 0.6,
@@ -6394,6 +6437,10 @@ rhs_weap_2a42 = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "cursorAimOn": "",
@@ -6660,7 +6707,7 @@ rhs_weap_2a42 = {
                 "dispersion": 0.00108,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "sounds": ["StandardSound"],
                 "soundContinuous": 0,
@@ -6724,7 +6771,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -6777,7 +6824,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.8,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -6830,7 +6877,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.7,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -6883,7 +6930,7 @@ rhs_weap_2a42 = {
                 "maxRangeProbab": 0.05,
                 # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],
                 "StandardSound": {
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -6924,7 +6971,7 @@ rhs_weap_2a42 = {
             "cursorAim": "cannon",
             "showAimCursorInternal": 0,
             "nameSound": "cannon",
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "reloadTime": 0.3,
             "aiRateOfFire": 0.6,
@@ -6959,6 +7006,10 @@ rhs_weap_2a42 = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "cursorAimOn": "",
@@ -7216,7 +7267,7 @@ rhs_weap_2a42 = {
             "aimTransitionSpeed": 1
         },
         "showAimCursorInternal": 0,
-        "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+        "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
         "soundContinuous": 0,
         "autoReload": 1,
         "FCSMaxLeadSpeed": 30.5556,
@@ -7227,11 +7278,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -7296,11 +7347,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -7353,11 +7404,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -7410,11 +7461,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -7467,11 +7518,11 @@ rhs_weap_2a42 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -7514,6 +7565,10 @@ rhs_weap_2a42 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -8135,7 +8190,7 @@ rhs_weap_2a42 = {
         "requiredOpticType": -1
     },
     "showAimCursorInternal": 0,
-    "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+    "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
     "soundContinuous": 0,
     "autoReload": 1,
     "FCSMaxLeadSpeed": 30.5556,
@@ -8146,11 +8201,11 @@ rhs_weap_2a42 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -8215,11 +8270,11 @@ rhs_weap_2a42 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -8272,11 +8327,11 @@ rhs_weap_2a42 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -8329,11 +8384,11 @@ rhs_weap_2a42 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -8386,11 +8441,11 @@ rhs_weap_2a42 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -8433,6 +8488,10 @@ rhs_weap_2a42 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorAimOn": "",
     "laser": 0,
@@ -8724,7 +8783,7 @@ rhs_weap_2a46m = {
         "StandardSound": {
             "soundSetShot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -8787,7 +8846,7 @@ rhs_weap_2a46m = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -8841,7 +8900,7 @@ rhs_weap_2a46m = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -8896,7 +8955,7 @@ rhs_weap_2a46m = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -8950,7 +9009,7 @@ rhs_weap_2a46m = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -9007,12 +9066,12 @@ rhs_weap_2a46m = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -9053,6 +9112,7 @@ rhs_weap_2a46m = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -9061,6 +9121,10 @@ rhs_weap_2a46m = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "laser": 0,
@@ -9347,7 +9411,7 @@ rhs_weap_2a46m_4 = {
         "StandardSound": {
             "soundSetShot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -9410,7 +9474,7 @@ rhs_weap_2a46m_4 = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -9464,7 +9528,7 @@ rhs_weap_2a46m_4 = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -9519,7 +9583,7 @@ rhs_weap_2a46m_4 = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -9573,7 +9637,7 @@ rhs_weap_2a46m_4 = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -9630,12 +9694,12 @@ rhs_weap_2a46m_4 = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -9676,6 +9740,7 @@ rhs_weap_2a46m_4 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -9684,6 +9749,10 @@ rhs_weap_2a46m_4 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "laser": 0,
@@ -9945,7 +10014,7 @@ rhs_weap_2a46m_5 = {
         "StandardSound": {
             "soundSetShot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoFire": 0,
@@ -10008,7 +10077,7 @@ rhs_weap_2a46m_5 = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -10062,7 +10131,7 @@ rhs_weap_2a46m_5 = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -10117,7 +10186,7 @@ rhs_weap_2a46m_5 = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -10171,7 +10240,7 @@ rhs_weap_2a46m_5 = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -10253,12 +10322,12 @@ rhs_weap_2a46m_5 = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -10299,6 +10368,7 @@ rhs_weap_2a46m_5 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -10307,6 +10377,10 @@ rhs_weap_2a46m_5 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "laser": 0,
@@ -10593,7 +10667,7 @@ rhs_weap_2a46_2 = {
         "StandardSound": {
             "soundSetShot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -10656,7 +10730,7 @@ rhs_weap_2a46_2 = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -10710,7 +10784,7 @@ rhs_weap_2a46_2 = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -10765,7 +10839,7 @@ rhs_weap_2a46_2 = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -10819,7 +10893,7 @@ rhs_weap_2a46_2 = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "reloadTime": 6,
         "magazineReloadTime": 6,
@@ -10876,12 +10950,12 @@ rhs_weap_2a46_2 = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -10922,6 +10996,7 @@ rhs_weap_2a46_2 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -10930,6 +11005,10 @@ rhs_weap_2a46_2 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "laser": 0,
@@ -11189,7 +11268,7 @@ rhs_weap_2a70 = {
     "midRangeProbab": 0.7,
     "maxRange": 2500,
     "maxRangeProbab": 0.1,
-    "reloadSound": ["|rhsafrf|addons|rhs_c_heavyweapons|sounds|autoloader",3.16228,1,200],
+    "reloadSound": ["\\rhsafrf\\addons\\rhs_c_heavyweapons\\sounds\\autoloader",3.16228,1,200],
     # Class: CfgWeapons\rhs_weap_2a70\gunParticles [Indent level: 1],
     "gunParticles": {
         # Class: CfgWeapons\rhs_weap_2a70\gunParticles\Effect [Indent level: 2]
@@ -11210,7 +11289,7 @@ rhs_weap_2a70 = {
         "StandardSound": {
             "soundSetShot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoFire": 0,
@@ -11273,7 +11352,7 @@ rhs_weap_2a70 = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -11327,7 +11406,7 @@ rhs_weap_2a70 = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -11381,7 +11460,7 @@ rhs_weap_2a70 = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -11435,7 +11514,7 @@ rhs_weap_2a70 = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -11499,12 +11578,12 @@ rhs_weap_2a70 = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -11545,6 +11624,7 @@ rhs_weap_2a70 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -11553,6 +11633,10 @@ rhs_weap_2a70 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "laser": 0,
@@ -11832,63 +11916,21 @@ rhs_weap_2a72 = {
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            # Class: CfgWeapons\rhs_weap_2a42_base\farBMD2 [Indent level: 1],            "farBMD2": {                "burst": 4,                "burstRangeMax": 9,                "aiRateOfFire": 6,                "aiRateOfFireDistance": 1000,                "aiRateOfFireDispersion": 3,                "minRange": 2000,                "minRangeProbab": 0.05,                "midRange": 2500,                "midRangeProbab": 0.4,                "maxRange": 3000,                "maxRangeProbab": 0.01,                "showToPlayer": 0,                "soundBurst": 0,                "displayName": "300 rpm",                "displayNameShort": "300 rpm",                "reloadTime": 0.2,                "soundContinuous": 0,                "flash": "gunfire",                "flashSize": 0.1,                "aiBurstTerminable": 1,                "dispersion": 0.0009375,                "textureType": "burst",                "sounds": ["StandardSound"],                # Class: CfgWeapons\rhs_weap_2a42_base\LowROFBMD2\StandardSound [Indent level: 2],                "StandardSound": {                    "soundSetShot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                    "StandardSound": {                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
-                    },                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
-                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
-                    }
-                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
-                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
-                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
-                        }
-                    }
-                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],                    "standardsound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
                     },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
                     }
                 },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
                 },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
                 },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
                         },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
@@ -11916,18 +11958,60 @@ rhs_weap_2a72 = {
                         }
                     }
                 },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            "showAimCursorInternal": 0,            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
+                    }
+                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
+                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
+                        }
+                    }
+                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
+            },            "showAimCursorInternal": 0,            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "aiRateOfFire": 1,                "aiRateOfFireDistance": 10,                "minRange": 0,                "minRangeProbab": 0.01,                "midRange": 1,                "midRangeProbab": 0.01,                "maxRange": 2,                "maxRangeProbab": 0.01,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "burst": 1,                "burstRangeMax": -1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "showToPlayer": 1,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1,                "aiRateOfFireDispersion": 1
-            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            "type": 65536,            # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],            "GunClouds": {
-            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
+            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            # Ammo: ,            "ammo": {                "ammo": "",            },            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
             },            "backgroundReload": 0,            "reloadAction": "",            "useAction": 0,            "useActionTitle": "",            "canDrop": 1,            "weaponLockDelay": 0,            "weaponLockSystem": 0,            "cmImmunity": 1,            "weight": 0,            "minRange": 1,            "minRangeProbab": 0.3,            "midRange": 150,            "midRangeProbab": 0.58,            "maxRange": 500,            "maxRangeProbab": 0.04,            "handAnim": [],            "lockingTargetSound": ["",0.000316228,2],            "lockedTargetSound": ["",0.000316228,6],            "detectRange": 0,            "artilleryDispersion": 1,            "artilleryCharge": 1,            "fireAnims": [],            # Class: CfgWeapons\Default\Library [Indent level: 1],            "Library": {                "libTextDesc": ""
             },            "descriptionShort": "",            # Class: CfgWeapons\Default\GunFire [Indent level: 1],            "GunFire": {                "access": 0,                "cloudletDuration": 0.2,                "cloudletAnimPeriod": 1,                "cloudletSize": 1,                "cloudletAlpha": 1,                "cloudletGrowUp": 0.2,                "cloudletFadeIn": 0.01,                "cloudletFadeOut": 0.5,                "cloudletAccY": 0,                "cloudletMinYSpeed": -100,                "cloudletMaxYSpeed": 100,                "cloudletShape": "cloudletFire",                "cloudletColor": [1,1,1,0],                "cloudletDensityCoef": -1,                "interval": -0.01,                "size": 3,                "sourceSize": 0.5,                "timeToLive": 0,                "initT": 4500,                "deltaT": -3000,                # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                "Table": {                    # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                    "T0": {                        "maxT": 0,                        "color": [0.82,0.95,0.93,0]
                     },                    # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                    "T1": {                        "maxT": 200,                        "color": [0.75,0.77,0.9,0]
@@ -11972,63 +12056,21 @@ rhs_weap_2a72 = {
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            # Class: CfgWeapons\rhs_weap_2a42_base\farBMD2 [Indent level: 1],            "farBMD2": {                "burst": 4,                "burstRangeMax": 9,                "aiRateOfFire": 6,                "aiRateOfFireDistance": 1000,                "aiRateOfFireDispersion": 3,                "minRange": 2000,                "minRangeProbab": 0.05,                "midRange": 2500,                "midRangeProbab": 0.4,                "maxRange": 3000,                "maxRangeProbab": 0.01,                "showToPlayer": 0,                "soundBurst": 0,                "displayName": "300 rpm",                "displayNameShort": "300 rpm",                "reloadTime": 0.2,                "soundContinuous": 0,                "flash": "gunfire",                "flashSize": 0.1,                "aiBurstTerminable": 1,                "dispersion": 0.0009375,                "textureType": "burst",                "sounds": ["StandardSound"],                # Class: CfgWeapons\rhs_weap_2a42_base\LowROFBMD2\StandardSound [Indent level: 2],                "StandardSound": {                    "soundSetShot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                    "StandardSound": {                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
-                    },                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
-                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
-                    }
-                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
-                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
-                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
-                        }
-                    }
-                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],                    "standardsound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
                     },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
                     }
                 },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
                 },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
                 },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
                         },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
@@ -12056,18 +12098,60 @@ rhs_weap_2a72 = {
                         }
                     }
                 },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            "showAimCursorInternal": 0,            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
+                    }
+                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
+                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
+                        }
+                    }
+                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
+            },            "showAimCursorInternal": 0,            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "aiRateOfFire": 1,                "aiRateOfFireDistance": 10,                "minRange": 0,                "minRangeProbab": 0.01,                "midRange": 1,                "midRangeProbab": 0.01,                "maxRange": 2,                "maxRangeProbab": 0.01,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "burst": 1,                "burstRangeMax": -1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "showToPlayer": 1,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1,                "aiRateOfFireDispersion": 1
-            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            "type": 65536,            # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],            "GunClouds": {
-            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
+            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            # Ammo: ,            "ammo": {                "ammo": "",            },            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
             },            "backgroundReload": 0,            "reloadAction": "",            "useAction": 0,            "useActionTitle": "",            "canDrop": 1,            "weaponLockDelay": 0,            "weaponLockSystem": 0,            "cmImmunity": 1,            "weight": 0,            "minRange": 1,            "minRangeProbab": 0.3,            "midRange": 150,            "midRangeProbab": 0.58,            "maxRange": 500,            "maxRangeProbab": 0.04,            "handAnim": [],            "lockingTargetSound": ["",0.000316228,2],            "lockedTargetSound": ["",0.000316228,6],            "detectRange": 0,            "artilleryDispersion": 1,            "artilleryCharge": 1,            "fireAnims": [],            # Class: CfgWeapons\Default\Library [Indent level: 1],            "Library": {                "libTextDesc": ""
             },            "descriptionShort": "",            # Class: CfgWeapons\Default\GunFire [Indent level: 1],            "GunFire": {                "access": 0,                "cloudletDuration": 0.2,                "cloudletAnimPeriod": 1,                "cloudletSize": 1,                "cloudletAlpha": 1,                "cloudletGrowUp": 0.2,                "cloudletFadeIn": 0.01,                "cloudletFadeOut": 0.5,                "cloudletAccY": 0,                "cloudletMinYSpeed": -100,                "cloudletMaxYSpeed": 100,                "cloudletShape": "cloudletFire",                "cloudletColor": [1,1,1,0],                "cloudletDensityCoef": -1,                "interval": -0.01,                "size": 3,                "sourceSize": 0.5,                "timeToLive": 0,                "initT": 4500,                "deltaT": -3000,                # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                "Table": {                    # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                    "T0": {                        "maxT": 0,                        "color": [0.82,0.95,0.93,0]
                     },                    # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                    "T1": {                        "maxT": 200,                        "color": [0.75,0.77,0.9,0]
@@ -12095,18 +12179,18 @@ rhs_weap_2a72 = {
                     }
                 }
             },            "textureType": "default",            "inertia": 0.5,            "aimTransitionSpeed": 1
-        },        "aiDispersioncoefX": 2,        "aiDispersioncoefY": 3,        "airateoffire": 1,        "airateoffiredistance": 1000,        "scope": 1,        "nameSound": "cannon",        "reloadTime": 0.02,        "magazinereloadtime": 0.2,        "autoFire": 1,        "canLock": 0,        "magazines": [],        "magazineWell": ["RHS_AutoCannon_30mm_2A42_AP","RHS_AutoCannon_30mm_2A42_HE"],        "modes": ["LowROFBMD2","HighROFBMD2","closeBMD2","shortBMD2","mediumBMD2","farBMD2"],        "showAimCursorInternal": 0,        "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],        "soundContinuous": 0,        "autoReload": 1,        "FCSMaxLeadSpeed": 30.5556,        "FCSZeroingDelay": 1,        "shotFromTurret": 1,        # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],        "player": {            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        "aiDispersioncoefX": 2,        "aiDispersioncoefY": 3,        "airateoffire": 1,        "airateoffiredistance": 1000,        "scope": 1,        "nameSound": "cannon",        "reloadTime": 0.02,        "magazinereloadtime": 0.2,        "autoFire": 1,        "canLock": 0,        "magazines": [],        "magazineWell": ["RHS_AutoCannon_30mm_2A42_AP","RHS_AutoCannon_30mm_2A42_HE"],        "modes": ["LowROFBMD2","HighROFBMD2","closeBMD2","shortBMD2","mediumBMD2","farBMD2"],        "showAimCursorInternal": 0,        "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],        "soundContinuous": 0,        "autoReload": 1,        "FCSMaxLeadSpeed": 30.5556,        "FCSZeroingDelay": 1,        "shotFromTurret": 1,        # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],        "player": {            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "aiRateOfFire": 1,            "aiRateOfFireDistance": 10,            "minRange": 0,            "minRangeProbab": 0.01,            "midRange": 1,            "midRangeProbab": 0.01,            "maxRange": 2,            "maxRangeProbab": 0.01,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "burst": 1,            "burstRangeMax": -1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "showToPlayer": 1,            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1,            "aiRateOfFireDispersion": 1
-        },        # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],        "close": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 3,            "burstRangeMax": 6,            "aiRateOfFire": 1,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 200,            "minRange": 0,            "minRangeProbab": 0.1,            "midRange": 400,            "midRangeProbab": 0.7,            "maxRange": 800,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],        "close": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 3,            "burstRangeMax": 6,            "aiRateOfFire": 1,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 200,            "minRange": 0,            "minRangeProbab": 0.1,            "midRange": 400,            "midRangeProbab": 0.7,            "maxRange": 800,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
-        },        # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],        "short": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 5,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 600,            "minRange": 600,            "minRangeProbab": 0.75,            "midRange": 800,            "midRangeProbab": 0.8,            "maxRange": 1200,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],        "short": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 5,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 600,            "minRange": 600,            "minRangeProbab": 0.75,            "midRange": 800,            "midRangeProbab": 0.8,            "maxRange": 1200,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
-        },        # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],        "medium": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 3,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 3,            "aiRateOfFireDistance": 1000,            "minRange": 1000,            "minRangeProbab": 0.8,            "midRange": 1500,            "midRangeProbab": 0.8,            "maxRange": 2000,            "maxRangeProbab": 0.7,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],        "medium": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 3,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 3,            "aiRateOfFireDistance": 1000,            "minRange": 1000,            "minRangeProbab": 0.8,            "midRange": 1500,            "midRangeProbab": 0.8,            "maxRange": 2000,            "maxRangeProbab": 0.7,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
-        },        # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],        "far": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 1,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 4,            "aiRateOfFireDistance": 1800,            "minRange": 1800,            "minRangeProbab": 0.74,            "midRange": 2400,            "midRangeProbab": 0.65,            "maxRange": 3000,            "maxRangeProbab": 0.05,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],        "far": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 1,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 4,            "aiRateOfFireDistance": 1800,            "minRange": 1800,            "minRangeProbab": 0.74,            "midRange": 2400,            "midRangeProbab": 0.65,            "maxRange": 3000,            "maxRangeProbab": 0.05,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
         },        "type": 65536,        # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],        "GunClouds": {
-        },        "access": 3,        "value": 2,        "picture": "",        "uiPicture": "",        "ammo": "",        "cursorAimOn": "",        "laser": 0,        "hiddenSelections": [],        "hiddenSelectionsTextures": [],        "hiddenUnderwaterSelections": [],        "shownUnderwaterSelections": [],        "hiddenUnderwaterSelectionsTextures": [],        "simulation": "Weapon",        "count": 0,        "multiplier": 1,        "burst": 1,        "magazineReloadSwitchPhase": 1,        "soundBegin": ["sound",1],        "soundBeginWater": ["sound",1],        "soundClosure": ["sound",1],        "soundEnd": ["sound",1],        "soundLoop": ["sound",1],        "weaponSoundEffect": "",        "soundBurst": 1,        "drySound": ["",1,1],        "zeroingSound": ["",1,1],        "reloadSound": ["",1,1],        "changeFiremodeSound": ["",1,1],        "reloadMagazineSound": ["",1,1],        "emptySound": ["",1,1],        "soundBullet": ["emptySound",1],        "initSpeed": 0,        "irDistance": 0,        "irDotIntensity": 0.001,        "dispersion": 0.002,        "lockAcquire": 1,        "enableAttack": 1,        "ffMagnitude": 0,        "ffFrequency": 1,        "ffCount": 1,        # Recoil Array: recoil,        "recoil": [],        "maxRecoilSway": 0.008,        "swayDecaySpeed": 2,        "model": "",        "modelSpecial": "",        "modelMagazine": "",        "muzzlePos": "usti hlavne",        "muzzleEnd": "konec hlavne",        "irLaserPos": "laser pos",        "irLaserEnd": "laser dir",        "cartridgePos": "nabojnicestart",        "cartridgeVel": "nabojniceend",        "selectionFireAnim": "zasleh",        "memoryPointCamera": "eye",        "fireSpreadAngle": 3,        "useModelOptics": 1,        "opticsID": 0,        "modelOptics": "",        "opticsPPEffects": [],        "opticsFlare": 1,        "optics": 1,        "forceOptics": 0,        "useAsBinocular": 0,        "opticsDisablePeripherialVision": 0.67,        "opticsZoomMin": 0.25,        "opticsZoomMax": 1.25,        "opticsZoomInit": 0.75,        "distanceZoomMin": 400,        "distanceZoomMax": 400,        "primary": 10,        "showSwitchAction": 0,        "showEmpty": 1,        "showToPlayer": 1,        "canShootInWater": 0,        "aiRateOfFireDispersion": 0,        "fireLightDuration": 0.05,        "fireLightIntensity": 0.2,        "fireLightDiffuse": [0.937,0.631,0.259],        "fireLightAmbient": [0,0,0],        # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],        "Eventhandlers": {
+        },        "access": 3,        "value": 2,        "picture": "",        "uiPicture": "",        # Ammo: ,        "ammo": {            "ammo": "",        },        "ammo": "",        "cursorAimOn": "",        "laser": 0,        "hiddenSelections": [],        "hiddenSelectionsTextures": [],        "hiddenUnderwaterSelections": [],        "shownUnderwaterSelections": [],        "hiddenUnderwaterSelectionsTextures": [],        "simulation": "Weapon",        "count": 0,        "multiplier": 1,        "burst": 1,        "magazineReloadSwitchPhase": 1,        "soundBegin": ["sound",1],        "soundBeginWater": ["sound",1],        "soundClosure": ["sound",1],        "soundEnd": ["sound",1],        "soundLoop": ["sound",1],        "weaponSoundEffect": "",        "soundBurst": 1,        "drySound": ["",1,1],        "zeroingSound": ["",1,1],        "reloadSound": ["",1,1],        "changeFiremodeSound": ["",1,1],        "reloadMagazineSound": ["",1,1],        "emptySound": ["",1,1],        "soundBullet": ["emptySound",1],        "initSpeed": 0,        "irDistance": 0,        "irDotIntensity": 0.001,        "dispersion": 0.002,        "lockAcquire": 1,        "enableAttack": 1,        "ffMagnitude": 0,        "ffFrequency": 1,        "ffCount": 1,        # Recoil Array: recoil,        "recoil": [],        "maxRecoilSway": 0.008,        "swayDecaySpeed": 2,        "model": "",        "modelSpecial": "",        "modelMagazine": "",        "muzzlePos": "usti hlavne",        "muzzleEnd": "konec hlavne",        "irLaserPos": "laser pos",        "irLaserEnd": "laser dir",        "cartridgePos": "nabojnicestart",        "cartridgeVel": "nabojniceend",        "selectionFireAnim": "zasleh",        "memoryPointCamera": "eye",        "fireSpreadAngle": 3,        "useModelOptics": 1,        "opticsID": 0,        "modelOptics": "",        "opticsPPEffects": [],        "opticsFlare": 1,        "optics": 1,        "forceOptics": 0,        "useAsBinocular": 0,        "opticsDisablePeripherialVision": 0.67,        "opticsZoomMin": 0.25,        "opticsZoomMax": 1.25,        "opticsZoomInit": 0.75,        "distanceZoomMin": 400,        "distanceZoomMax": 400,        "primary": 10,        "showSwitchAction": 0,        "showEmpty": 1,        "showToPlayer": 1,        "canShootInWater": 0,        "aiRateOfFireDispersion": 0,        "fireLightDuration": 0.05,        "fireLightIntensity": 0.2,        "fireLightDiffuse": [0.937,0.631,0.259],        "fireLightAmbient": [0,0,0],        # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],        "Eventhandlers": {
         },        "backgroundReload": 0,        "reloadAction": "",        "useAction": 0,        "useActionTitle": "",        "canDrop": 1,        "weaponLockDelay": 0,        "weaponLockSystem": 0,        "cmImmunity": 1,        "weight": 0,        "minRange": 1,        "minRangeProbab": 0.3,        "midRange": 150,        "midRangeProbab": 0.58,        "maxRange": 500,        "maxRangeProbab": 0.04,        "handAnim": [],        "lockingTargetSound": ["",0.000316228,2],        "lockedTargetSound": ["",0.000316228,6],        "detectRange": 0,        "artilleryDispersion": 1,        "artilleryCharge": 1,        "fireAnims": [],        # Class: CfgWeapons\Default\Library [Indent level: 1],        "Library": {            "libTextDesc": ""
         },        "descriptionShort": "",        # Class: CfgWeapons\Default\GunFire [Indent level: 1],        "GunFire": {            "access": 0,            "cloudletDuration": 0.2,            "cloudletAnimPeriod": 1,            "cloudletSize": 1,            "cloudletAlpha": 1,            "cloudletGrowUp": 0.2,            "cloudletFadeIn": 0.01,            "cloudletFadeOut": 0.5,            "cloudletAccY": 0,            "cloudletMinYSpeed": -100,            "cloudletMaxYSpeed": 100,            "cloudletShape": "cloudletFire",            "cloudletColor": [1,1,1,0],            "cloudletDensityCoef": -1,            "interval": -0.01,            "size": 3,            "sourceSize": 0.5,            "timeToLive": 0,            "initT": 4500,            "deltaT": -3000,            # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],            "Table": {                # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                "T0": {                    "maxT": 0,                    "color": [0.82,0.95,0.93,0]
                 },                # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                "T1": {                    "maxT": 200,                    "color": [0.75,0.77,0.9,0]
@@ -12864,15 +12948,11 @@ rhs_weap_2a72 = {
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    "sounds": ["StandardSound"],
-                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
-                    "StandardSound": {
-                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
-                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],
+                    "standardsound": {
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
+                    "sounds": ["StandardSound"],
                     "soundContinuous": 0,
                     "reloadTime": 0.3,
                     "aiRateOfFire": 1,
@@ -12934,7 +13014,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -12987,7 +13067,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -13040,7 +13120,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -13093,7 +13173,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -13134,7 +13214,7 @@ rhs_weap_2a72 = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -13169,6 +13249,10 @@ rhs_weap_2a72 = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -13435,7 +13519,7 @@ rhs_weap_2a72 = {
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "sounds": ["StandardSound"],
                     "soundContinuous": 0,
@@ -13499,7 +13583,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13552,7 +13636,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13605,7 +13689,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13658,7 +13742,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13699,7 +13783,7 @@ rhs_weap_2a72 = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -13734,6 +13818,10 @@ rhs_weap_2a72 = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -13991,7 +14079,7 @@ rhs_weap_2a72 = {
                 "aimTransitionSpeed": 1
             },
             "showAimCursorInternal": 0,
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "autoReload": 1,
             "FCSMaxLeadSpeed": 30.5556,
@@ -14002,11 +14090,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -14071,11 +14159,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -14128,11 +14216,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -14185,11 +14273,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -14242,11 +14330,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -14289,6 +14377,10 @@ rhs_weap_2a72 = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorAimOn": "",
             "laser": 0,
@@ -14920,15 +15012,11 @@ rhs_weap_2a72 = {
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    "sounds": ["StandardSound"],
-                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
-                    "StandardSound": {
-                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
-                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],
+                    "standardsound": {
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
+                    "sounds": ["StandardSound"],
                     "soundContinuous": 0,
                     "reloadTime": 0.3,
                     "aiRateOfFire": 1,
@@ -14990,7 +15078,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -15043,7 +15131,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -15096,7 +15184,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -15149,7 +15237,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -15190,7 +15278,7 @@ rhs_weap_2a72 = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -15225,6 +15313,10 @@ rhs_weap_2a72 = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -15491,7 +15583,7 @@ rhs_weap_2a72 = {
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "sounds": ["StandardSound"],
                     "soundContinuous": 0,
@@ -15555,7 +15647,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15608,7 +15700,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15661,7 +15753,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15714,7 +15806,7 @@ rhs_weap_2a72 = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15755,7 +15847,7 @@ rhs_weap_2a72 = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -15790,6 +15882,10 @@ rhs_weap_2a72 = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -16047,7 +16143,7 @@ rhs_weap_2a72 = {
                 "aimTransitionSpeed": 1
             },
             "showAimCursorInternal": 0,
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "autoReload": 1,
             "FCSMaxLeadSpeed": 30.5556,
@@ -16058,11 +16154,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -16127,11 +16223,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -16184,11 +16280,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -16241,11 +16337,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -16298,11 +16394,11 @@ rhs_weap_2a72 = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -16345,6 +16441,10 @@ rhs_weap_2a72 = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorAimOn": "",
             "laser": 0,
@@ -16608,7 +16708,7 @@ rhs_weap_2a72 = {
         "canLock": 0,
         "magazines": [],
         "showAimCursorInternal": 0,
-        "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+        "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
         "soundContinuous": 0,
         "autoReload": 1,
         "FCSMaxLeadSpeed": 30.5556,
@@ -16619,11 +16719,11 @@ rhs_weap_2a72 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -16688,11 +16788,11 @@ rhs_weap_2a72 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -16745,11 +16845,11 @@ rhs_weap_2a72 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -16802,11 +16902,11 @@ rhs_weap_2a72 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -16859,11 +16959,11 @@ rhs_weap_2a72 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -16906,6 +17006,10 @@ rhs_weap_2a72 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -17516,7 +17620,7 @@ rhs_weap_2a72 = {
     "magazineWell": ["RHS_AutoCannon_30mm_2A42_AP","RHS_AutoCannon_30mm_2A42_HE"],
     "modes": ["LowROFBMD2","HighROFBMD2","closeBMD2","shortBMD2","mediumBMD2","farBMD2"],
     "showAimCursorInternal": 0,
-    "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+    "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
     "soundContinuous": 0,
     "autoReload": 1,
     "FCSMaxLeadSpeed": 30.5556,
@@ -17527,11 +17631,11 @@ rhs_weap_2a72 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -17596,11 +17700,11 @@ rhs_weap_2a72 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -17653,11 +17757,11 @@ rhs_weap_2a72 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -17710,11 +17814,11 @@ rhs_weap_2a72 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -17767,11 +17871,11 @@ rhs_weap_2a72 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -17814,6 +17918,10 @@ rhs_weap_2a72 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorAimOn": "",
     "laser": 0,
@@ -18098,63 +18206,21 @@ rhs_weap_2a72_btr = {
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            # Class: CfgWeapons\rhs_weap_2a42_base\farBMD2 [Indent level: 1],            "farBMD2": {                "burst": 4,                "burstRangeMax": 9,                "aiRateOfFire": 6,                "aiRateOfFireDistance": 1000,                "aiRateOfFireDispersion": 3,                "minRange": 2000,                "minRangeProbab": 0.05,                "midRange": 2500,                "midRangeProbab": 0.4,                "maxRange": 3000,                "maxRangeProbab": 0.01,                "showToPlayer": 0,                "soundBurst": 0,                "displayName": "300 rpm",                "displayNameShort": "300 rpm",                "reloadTime": 0.2,                "soundContinuous": 0,                "flash": "gunfire",                "flashSize": 0.1,                "aiBurstTerminable": 1,                "dispersion": 0.0009375,                "textureType": "burst",                "sounds": ["StandardSound"],                # Class: CfgWeapons\rhs_weap_2a42_base\LowROFBMD2\StandardSound [Indent level: 2],                "StandardSound": {                    "soundSetShot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                    "StandardSound": {                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
-                    },                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
-                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
-                    }
-                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
-                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
-                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
-                        }
-                    }
-                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],                    "standardsound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
                     },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
                     }
                 },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
                 },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
                 },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
                         },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
@@ -18182,18 +18248,60 @@ rhs_weap_2a72_btr = {
                         }
                     }
                 },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            "showAimCursorInternal": 0,            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
+                    }
+                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
+                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
+                        }
+                    }
+                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
+            },            "showAimCursorInternal": 0,            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "aiRateOfFire": 1,                "aiRateOfFireDistance": 10,                "minRange": 0,                "minRangeProbab": 0.01,                "midRange": 1,                "midRangeProbab": 0.01,                "maxRange": 2,                "maxRangeProbab": 0.01,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "burst": 1,                "burstRangeMax": -1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "showToPlayer": 1,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1,                "aiRateOfFireDispersion": 1
-            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            "type": 65536,            # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],            "GunClouds": {
-            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
+            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            # Ammo: ,            "ammo": {                "ammo": "",            },            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
             },            "backgroundReload": 0,            "reloadAction": "",            "useAction": 0,            "useActionTitle": "",            "canDrop": 1,            "weaponLockDelay": 0,            "weaponLockSystem": 0,            "cmImmunity": 1,            "weight": 0,            "minRange": 1,            "minRangeProbab": 0.3,            "midRange": 150,            "midRangeProbab": 0.58,            "maxRange": 500,            "maxRangeProbab": 0.04,            "handAnim": [],            "lockingTargetSound": ["",0.000316228,2],            "lockedTargetSound": ["",0.000316228,6],            "detectRange": 0,            "artilleryDispersion": 1,            "artilleryCharge": 1,            "fireAnims": [],            # Class: CfgWeapons\Default\Library [Indent level: 1],            "Library": {                "libTextDesc": ""
             },            "descriptionShort": "",            # Class: CfgWeapons\Default\GunFire [Indent level: 1],            "GunFire": {                "access": 0,                "cloudletDuration": 0.2,                "cloudletAnimPeriod": 1,                "cloudletSize": 1,                "cloudletAlpha": 1,                "cloudletGrowUp": 0.2,                "cloudletFadeIn": 0.01,                "cloudletFadeOut": 0.5,                "cloudletAccY": 0,                "cloudletMinYSpeed": -100,                "cloudletMaxYSpeed": 100,                "cloudletShape": "cloudletFire",                "cloudletColor": [1,1,1,0],                "cloudletDensityCoef": -1,                "interval": -0.01,                "size": 3,                "sourceSize": 0.5,                "timeToLive": 0,                "initT": 4500,                "deltaT": -3000,                # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                "Table": {                    # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                    "T0": {                        "maxT": 0,                        "color": [0.82,0.95,0.93,0]
                     },                    # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                    "T1": {                        "maxT": 200,                        "color": [0.75,0.77,0.9,0]
@@ -18238,63 +18346,21 @@ rhs_weap_2a72_btr = {
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            # Class: CfgWeapons\rhs_weap_2a42_base\farBMD2 [Indent level: 1],            "farBMD2": {                "burst": 4,                "burstRangeMax": 9,                "aiRateOfFire": 6,                "aiRateOfFireDistance": 1000,                "aiRateOfFireDispersion": 3,                "minRange": 2000,                "minRangeProbab": 0.05,                "midRange": 2500,                "midRangeProbab": 0.4,                "maxRange": 3000,                "maxRangeProbab": 0.01,                "showToPlayer": 0,                "soundBurst": 0,                "displayName": "300 rpm",                "displayNameShort": "300 rpm",                "reloadTime": 0.2,                "soundContinuous": 0,                "flash": "gunfire",                "flashSize": 0.1,                "aiBurstTerminable": 1,                "dispersion": 0.0009375,                "textureType": "burst",                "sounds": ["StandardSound"],                # Class: CfgWeapons\rhs_weap_2a42_base\LowROFBMD2\StandardSound [Indent level: 2],                "StandardSound": {                    "soundSetShot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                    "StandardSound": {                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
-                    },                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
-                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
-                    }
-                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
-                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
-                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
-                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
-                        }
-                    }
-                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+            },            "muzzles": ["HE","AP"],            # Class: CfgWeapons\autocannon_30mm_CTWS\HE [Indent level: 1],            "HE": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["140Rnd_30mm_MP_shells","140Rnd_30mm_MP_shells_Tracer_Red","140Rnd_30mm_MP_shells_Tracer_Green","140Rnd_30mm_MP_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],                "player": {                    "dispersion": 0.0018,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],                    "standardsound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
-                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
-                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.0018,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
                     },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
                     }
                 },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
-                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
                 },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
                 },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
                         },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
@@ -18322,18 +18388,60 @@ rhs_weap_2a72_btr = {
                         }
                     }
                 },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
-            },            "showAimCursorInternal": 0,            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_30mm_CTWS\AP [Indent level: 1],            "AP": {                "displayName": "CTWS Cannon 30Â mm",                "magazines": ["60Rnd_30mm_APFSDS_shells","60Rnd_30mm_APFSDS_shells_Tracer_Red","60Rnd_30mm_APFSDS_shells_Tracer_Green","60Rnd_30mm_APFSDS_shells_Tracer_Yellow"],                "magazineReloadTime": 40,                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player [Indent level: 2],                "player": {                    "dispersion": 0.00108,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "aiRateOfFire": 1,                    "aiRateOfFireDistance": 10,                    "minRange": 0,                    "minRangeProbab": 0.01,                    "midRange": 1,                    "midRangeProbab": 0.01,                    "maxRange": 2,                    "maxRangeProbab": 0.01,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "burst": 1,                    "burstRangeMax": -1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "showToPlayer": 1,                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1,                    "aiRateOfFireDispersion": 1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close [Indent level: 2],                "close": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 3,                    "burstRangeMax": 6,                    "aiRateOfFire": 1,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 200,                    "minRange": 0,                    "minRangeProbab": 0.1,                    "midRange": 400,                    "midRangeProbab": 0.7,                    "maxRange": 800,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short [Indent level: 2],                "short": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 5,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 2,                    "aiRateOfFireDistance": 600,                    "minRange": 600,                    "minRangeProbab": 0.75,                    "midRange": 800,                    "midRangeProbab": 0.8,                    "maxRange": 1200,                    "maxRangeProbab": 0.8,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium [Indent level: 2],                "medium": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 3,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 3,                    "aiRateOfFireDistance": 1000,                    "minRange": 1000,                    "minRangeProbab": 0.8,                    "midRange": 1500,                    "midRangeProbab": 0.8,                    "maxRange": 2000,                    "maxRangeProbab": 0.7,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far [Indent level: 2],                "far": {                    "aiBurstTerminable": 1,                    "showToPlayer": 0,                    "burst": 1,                    "burstRangeMax": 1,                    "aiRateOfFire": 2,                    "aiRateOfFireDispersion": 4,                    "aiRateOfFireDistance": 1800,                    "minRange": 1800,                    "minRangeProbab": 0.74,                    "midRange": 2400,                    "midRangeProbab": 0.65,                    "maxRange": 3000,                    "maxRangeProbab": 0.05,                    # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],                    "StandardSound": {                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    },                    "dispersion": 0.00108,                    "sounds": ["StandardSound"],                    "soundContinuous": 0,                    "reloadTime": 0.3,                    "sound": ["",10,1],                    "soundEnd": ["sound",1],                    "autoFire": 1,                    "displayName": "Full",                    "textureType": "fullAuto",                    # Recoil Array: recoil,                    "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                    # Recoil Array: recoilProne,                    "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                    "aiDispersionCoefY": 3,                    "aiDispersionCoefX": 2,                    "soundBurst": 0,                    "multiplier": 1,                    "soundBegin": ["sound",1],                    "soundBeginWater": ["sound",1],                    "soundClosure": ["sound",1],                    "soundLoop": [],                    "weaponSoundEffect": "",                    "ffCount": 1,                    "ffMagnitude": 0.5,                    "ffFrequency": 11,                    "flash": "gunfire",                    "flashSize": 0.1,                    "useAction": 0,                    "useActionTitle": "",                    "artilleryDispersion": 1,                    "artilleryCharge": 1,                    "canShootInWater": 0,                    "requiredOpticType": -1
+                },                "scope": 1,                "cursor": "EmptyCursor",                "cursorAim": "cannon",                "showAimCursorInternal": 0,                "nameSound": "cannon",                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],                "soundContinuous": 0,                "reloadTime": 0.3,                "aiRateOfFire": 0.6,                "autoReload": 1,                "canLock": 0,                "ballisticsComputer": "2 + 16",                "FCSMaxLeadSpeed": 30.5556,                "FCSZeroingDelay": 1,                "autoFire": 1,                "modes": ["player","close","short","medium","far"],                "shotFromTurret": 1,                # Class: CfgWeapons\autocannon_Base_F\GunParticles [Indent level: 1],                "GunParticles": {                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Effect [Indent level: 2]                    "Effect": {                        "effectName": "AutoCannonFired",                        "positionName": "Usti hlavne",                        "directionName": "Konec hlavne"
+                    },                    # Class: CfgWeapons\autocannon_Base_F\GunParticles\Shell [Indent level: 2],                    "Shell": {                        "positionName": "shell_eject_pos",                        "directionName": "shell_eject_dir",                        "effectName": "HeavyGunCartridge1"
+                    }
+                },                "type": 65536,                # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],                "GunClouds": {
+                },                "access": 3,                "value": 2,                "picture": "",                "uiPicture": "",                # Ammo: ,                "ammo": {                    "ammo": "",                },                "ammo": "",                "cursorSize": 1,                "cursorAimOn": "",                "laser": 0,                "hiddenSelections": [],                "hiddenSelectionsTextures": [],                "hiddenUnderwaterSelections": [],                "shownUnderwaterSelections": [],                "hiddenUnderwaterSelectionsTextures": [],                "simulation": "Weapon",                "count": 0,                "multiplier": 1,                "burst": 1,                "magazineReloadSwitchPhase": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundEnd": ["sound",1],                "soundLoop": ["sound",1],                "weaponSoundEffect": "",                "soundBurst": 1,                "drySound": ["",1,1],                "zeroingSound": ["",1,1],                "reloadSound": ["",1,1],                "changeFiremodeSound": ["",1,1],                "reloadMagazineSound": ["",1,1],                "emptySound": ["",1,1],                "soundBullet": ["emptySound",1],                "initSpeed": 0,                "irDistance": 0,                "irDotIntensity": 0.001,                "dispersion": 0.002,                "aiDispersionCoefX": 1,                "aiDispersionCoefY": 1,                "lockAcquire": 1,                "enableAttack": 1,                "ffMagnitude": 0,                "ffFrequency": 1,                "ffCount": 1,                # Recoil Array: recoil,                "recoil": [],                "maxRecoilSway": 0.008,                "swayDecaySpeed": 2,                "model": "",                "modelSpecial": "",                "modelMagazine": "",                "muzzlePos": "usti hlavne",                "muzzleEnd": "konec hlavne",                "irLaserPos": "laser pos",                "irLaserEnd": "laser dir",                "cartridgePos": "nabojnicestart",                "cartridgeVel": "nabojniceend",                "selectionFireAnim": "zasleh",                "memoryPointCamera": "eye",                "fireSpreadAngle": 3,                "useModelOptics": 1,                "opticsID": 0,                "modelOptics": "",                "opticsPPEffects": [],                "opticsFlare": 1,                "optics": 1,                "forceOptics": 0,                "useAsBinocular": 0,                "opticsDisablePeripherialVision": 0.67,                "opticsZoomMin": 0.25,                "opticsZoomMax": 1.25,                "opticsZoomInit": 0.75,                "distanceZoomMin": 400,                "distanceZoomMax": 400,                "primary": 10,                "showSwitchAction": 0,                "showEmpty": 1,                "showToPlayer": 1,                "canShootInWater": 0,                "aiRateOfFireDistance": 500,                "aiRateOfFireDispersion": 0,                "fireLightDuration": 0.05,                "fireLightIntensity": 0.2,                "fireLightDiffuse": [0.937,0.631,0.259],                "fireLightAmbient": [0,0,0],                # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],                "Eventhandlers": {
+                },                "backgroundReload": 0,                "reloadAction": "",                "muzzles": ["this"],                "useAction": 0,                "useActionTitle": "",                "canDrop": 1,                "weaponLockDelay": 0,                "weaponLockSystem": 0,                "cmImmunity": 1,                "weight": 0,                "minRange": 1,                "minRangeProbab": 0.3,                "midRange": 150,                "midRangeProbab": 0.58,                "maxRange": 500,                "maxRangeProbab": 0.04,                "handAnim": [],                "lockingTargetSound": ["",0.000316228,2],                "lockedTargetSound": ["",0.000316228,6],                "detectRange": 0,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "fireAnims": [],                # Class: CfgWeapons\Default\Library [Indent level: 1],                "Library": {                    "libTextDesc": ""
+                },                "descriptionShort": "",                # Class: CfgWeapons\Default\GunFire [Indent level: 1],                "GunFire": {                    "access": 0,                    "cloudletDuration": 0.2,                    "cloudletAnimPeriod": 1,                    "cloudletSize": 1,                    "cloudletAlpha": 1,                    "cloudletGrowUp": 0.2,                    "cloudletFadeIn": 0.01,                    "cloudletFadeOut": 0.5,                    "cloudletAccY": 0,                    "cloudletMinYSpeed": -100,                    "cloudletMaxYSpeed": 100,                    "cloudletShape": "cloudletFire",                    "cloudletColor": [1,1,1,0],                    "cloudletDensityCoef": -1,                    "interval": -0.01,                    "size": 3,                    "sourceSize": 0.5,                    "timeToLive": 0,                    "initT": 4500,                    "deltaT": -3000,                    # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                    "Table": {                        # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                        "T0": {                            "maxT": 0,                            "color": [0.82,0.95,0.93,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                        "T1": {                            "maxT": 200,                            "color": [0.75,0.77,0.9,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],                        "T2": {                            "maxT": 400,                            "color": [0.56,0.62,0.67,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],                        "T3": {                            "maxT": 600,                            "color": [0.39,0.46,0.47,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],                        "T4": {                            "maxT": 800,                            "color": [0.24,0.31,0.31,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],                        "T5": {                            "maxT": 1000,                            "color": [0.23,0.31,0.29,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],                        "T6": {                            "maxT": 1500,                            "color": [0.21,0.29,0.27,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],                        "T7": {                            "maxT": 2000,                            "color": [0.19,0.23,0.21,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],                        "T8": {                            "maxT": 2300,                            "color": [0.22,0.19,0.1,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],                        "T9": {                            "maxT": 2500,                            "color": [0.35,0.2,0.02,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],                        "T10": {                            "maxT": 2600,                            "color": [0.62,0.29,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],                        "T11": {                            "maxT": 2650,                            "color": [0.59,0.35,0.05,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],                        "T12": {                            "maxT": 2700,                            "color": [0.75,0.37,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],                        "T13": {                            "maxT": 2750,                            "color": [0.88,0.34,0.03,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],                        "T14": {                            "maxT": 2800,                            "color": [0.91,0.5,0.17,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],                        "T15": {                            "maxT": 2850,                            "color": [1,0.6,0.2,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],                        "T16": {                            "maxT": 2900,                            "color": [1,0.71,0.3,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],                        "T17": {                            "maxT": 2950,                            "color": [0.98,0.83,0.41,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],                        "T18": {                            "maxT": 3000,                            "color": [0.98,0.91,0.54,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],                        "T19": {                            "maxT": 3100,                            "color": [0.98,0.99,0.6,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],                        "T20": {                            "maxT": 3300,                            "color": [0.96,0.99,0.72,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],                        "T21": {                            "maxT": 3600,                            "color": [1,0.98,0.91,0]
+                        },                        # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],                        "T22": {                            "maxT": 4200,                            "color": [1,1,1,0]
+                        }
+                    }
+                },                "textureType": "default",                "inertia": 0.5,                "aimTransitionSpeed": 1
+            },            "showAimCursorInternal": 0,            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],            "soundContinuous": 0,            "autoReload": 1,            "FCSMaxLeadSpeed": 30.5556,            "FCSZeroingDelay": 1,            "shotFromTurret": 1,            # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],            "player": {                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "aiRateOfFire": 1,                "aiRateOfFireDistance": 10,                "minRange": 0,                "minRangeProbab": 0.01,                "midRange": 1,                "midRangeProbab": 0.01,                "maxRange": 2,                "maxRangeProbab": 0.01,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "burst": 1,                "burstRangeMax": -1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "showToPlayer": 1,                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1,                "aiRateOfFireDispersion": 1
-            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],            "close": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 3,                "burstRangeMax": 6,                "aiRateOfFire": 1,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 200,                "minRange": 0,                "minRangeProbab": 0.1,                "midRange": 400,                "midRangeProbab": 0.7,                "maxRange": 800,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],            "short": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 5,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 2,                "aiRateOfFireDistance": 600,                "minRange": 600,                "minRangeProbab": 0.75,                "midRange": 800,                "midRangeProbab": 0.8,                "maxRange": 1200,                "maxRangeProbab": 0.8,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],            "medium": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 3,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 3,                "aiRateOfFireDistance": 1000,                "minRange": 1000,                "minRangeProbab": 0.8,                "midRange": 1500,                "midRangeProbab": 0.8,                "maxRange": 2000,                "maxRangeProbab": 0.7,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
-            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            },            # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],            "far": {                "aiBurstTerminable": 1,                "showToPlayer": 0,                "burst": 1,                "burstRangeMax": 1,                "aiRateOfFire": 2,                "aiRateOfFireDispersion": 4,                "aiRateOfFireDistance": 1800,                "minRange": 1800,                "minRangeProbab": 0.74,                "midRange": 2400,                "midRangeProbab": 0.65,                "maxRange": 3000,                "maxRangeProbab": 0.05,                "sounds": ["StandardSound"],                # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],                "StandardSound": {                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                    "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },                "soundContinuous": 0,                "reloadTime": 0.3,                "dispersion": 0.0009,                "sound": ["",10,1],                "soundEnd": ["sound",1],                "autoFire": 1,                "displayName": "Full",                "textureType": "fullAuto",                # Recoil Array: recoil,                "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],                # Recoil Array: recoilProne,                "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],                "aiDispersionCoefY": 3,                "aiDispersionCoefX": 2,                "soundBurst": 0,                "multiplier": 1,                "soundBegin": ["sound",1],                "soundBeginWater": ["sound",1],                "soundClosure": ["sound",1],                "soundLoop": [],                "weaponSoundEffect": "",                "ffCount": 1,                "ffMagnitude": 0.5,                "ffFrequency": 11,                "flash": "gunfire",                "flashSize": 0.1,                "useAction": 0,                "useActionTitle": "",                "artilleryDispersion": 1,                "artilleryCharge": 1,                "canShootInWater": 0,                "requiredOpticType": -1
             },            "type": 65536,            # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],            "GunClouds": {
-            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
+            },            "access": 3,            "value": 2,            "picture": "",            "uiPicture": "",            # Ammo: ,            "ammo": {                "ammo": "",            },            "ammo": "",            "cursorAimOn": "",            "laser": 0,            "hiddenSelections": [],            "hiddenSelectionsTextures": [],            "hiddenUnderwaterSelections": [],            "shownUnderwaterSelections": [],            "hiddenUnderwaterSelectionsTextures": [],            "simulation": "Weapon",            "count": 0,            "multiplier": 1,            "burst": 1,            "magazineReloadSwitchPhase": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundEnd": ["sound",1],            "soundLoop": ["sound",1],            "weaponSoundEffect": "",            "soundBurst": 1,            "drySound": ["",1,1],            "zeroingSound": ["",1,1],            "reloadSound": ["",1,1],            "changeFiremodeSound": ["",1,1],            "reloadMagazineSound": ["",1,1],            "emptySound": ["",1,1],            "soundBullet": ["emptySound",1],            "initSpeed": 0,            "irDistance": 0,            "irDotIntensity": 0.001,            "dispersion": 0.002,            "lockAcquire": 1,            "enableAttack": 1,            "ffMagnitude": 0,            "ffFrequency": 1,            "ffCount": 1,            # Recoil Array: recoil,            "recoil": [],            "maxRecoilSway": 0.008,            "swayDecaySpeed": 2,            "model": "",            "modelSpecial": "",            "modelMagazine": "",            "muzzlePos": "usti hlavne",            "muzzleEnd": "konec hlavne",            "irLaserPos": "laser pos",            "irLaserEnd": "laser dir",            "cartridgePos": "nabojnicestart",            "cartridgeVel": "nabojniceend",            "selectionFireAnim": "zasleh",            "memoryPointCamera": "eye",            "fireSpreadAngle": 3,            "useModelOptics": 1,            "opticsID": 0,            "modelOptics": "",            "opticsPPEffects": [],            "opticsFlare": 1,            "optics": 1,            "forceOptics": 0,            "useAsBinocular": 0,            "opticsDisablePeripherialVision": 0.67,            "opticsZoomMin": 0.25,            "opticsZoomMax": 1.25,            "opticsZoomInit": 0.75,            "distanceZoomMin": 400,            "distanceZoomMax": 400,            "primary": 10,            "showSwitchAction": 0,            "showEmpty": 1,            "showToPlayer": 1,            "canShootInWater": 0,            "aiRateOfFireDispersion": 0,            "fireLightDuration": 0.05,            "fireLightIntensity": 0.2,            "fireLightDiffuse": [0.937,0.631,0.259],            "fireLightAmbient": [0,0,0],            # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],            "Eventhandlers": {
             },            "backgroundReload": 0,            "reloadAction": "",            "useAction": 0,            "useActionTitle": "",            "canDrop": 1,            "weaponLockDelay": 0,            "weaponLockSystem": 0,            "cmImmunity": 1,            "weight": 0,            "minRange": 1,            "minRangeProbab": 0.3,            "midRange": 150,            "midRangeProbab": 0.58,            "maxRange": 500,            "maxRangeProbab": 0.04,            "handAnim": [],            "lockingTargetSound": ["",0.000316228,2],            "lockedTargetSound": ["",0.000316228,6],            "detectRange": 0,            "artilleryDispersion": 1,            "artilleryCharge": 1,            "fireAnims": [],            # Class: CfgWeapons\Default\Library [Indent level: 1],            "Library": {                "libTextDesc": ""
             },            "descriptionShort": "",            # Class: CfgWeapons\Default\GunFire [Indent level: 1],            "GunFire": {                "access": 0,                "cloudletDuration": 0.2,                "cloudletAnimPeriod": 1,                "cloudletSize": 1,                "cloudletAlpha": 1,                "cloudletGrowUp": 0.2,                "cloudletFadeIn": 0.01,                "cloudletFadeOut": 0.5,                "cloudletAccY": 0,                "cloudletMinYSpeed": -100,                "cloudletMaxYSpeed": 100,                "cloudletShape": "cloudletFire",                "cloudletColor": [1,1,1,0],                "cloudletDensityCoef": -1,                "interval": -0.01,                "size": 3,                "sourceSize": 0.5,                "timeToLive": 0,                "initT": 4500,                "deltaT": -3000,                # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],                "Table": {                    # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                    "T0": {                        "maxT": 0,                        "color": [0.82,0.95,0.93,0]
                     },                    # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                    "T1": {                        "maxT": 200,                        "color": [0.75,0.77,0.9,0]
@@ -18361,18 +18469,18 @@ rhs_weap_2a72_btr = {
                     }
                 }
             },            "textureType": "default",            "inertia": 0.5,            "aimTransitionSpeed": 1
-        },        "aiDispersioncoefX": 2,        "aiDispersioncoefY": 3,        "airateoffire": 1,        "airateoffiredistance": 1000,        "scope": 1,        "nameSound": "cannon",        "reloadTime": 0.02,        "magazinereloadtime": 0.2,        "autoFire": 1,        "canLock": 0,        "magazines": [],        "magazineWell": ["RHS_AutoCannon_30mm_2A42_AP","RHS_AutoCannon_30mm_2A42_HE"],        "modes": ["LowROFBMD2","HighROFBMD2","closeBMD2","shortBMD2","mediumBMD2","farBMD2"],        "showAimCursorInternal": 0,        "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],        "soundContinuous": 0,        "autoReload": 1,        "FCSMaxLeadSpeed": 30.5556,        "FCSZeroingDelay": 1,        "shotFromTurret": 1,        # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],        "player": {            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        "aiDispersioncoefX": 2,        "aiDispersioncoefY": 3,        "airateoffire": 1,        "airateoffiredistance": 1000,        "scope": 1,        "nameSound": "cannon",        "reloadTime": 0.02,        "magazinereloadtime": 0.2,        "autoFire": 1,        "canLock": 0,        "magazines": [],        "magazineWell": ["RHS_AutoCannon_30mm_2A42_AP","RHS_AutoCannon_30mm_2A42_HE"],        "modes": ["LowROFBMD2","HighROFBMD2","closeBMD2","shortBMD2","mediumBMD2","farBMD2"],        "showAimCursorInternal": 0,        "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],        "soundContinuous": 0,        "autoReload": 1,        "FCSMaxLeadSpeed": 30.5556,        "FCSZeroingDelay": 1,        "shotFromTurret": 1,        # Class: CfgWeapons\autocannon_Base_F\player [Indent level: 1],        "player": {            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "aiRateOfFire": 1,            "aiRateOfFireDistance": 10,            "minRange": 0,            "minRangeProbab": 0.01,            "midRange": 1,            "midRangeProbab": 0.01,            "maxRange": 2,            "maxRangeProbab": 0.01,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "burst": 1,            "burstRangeMax": -1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "showToPlayer": 1,            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1,            "aiRateOfFireDispersion": 1
-        },        # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],        "close": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 3,            "burstRangeMax": 6,            "aiRateOfFire": 1,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 200,            "minRange": 0,            "minRangeProbab": 0.1,            "midRange": 400,            "midRangeProbab": 0.7,            "maxRange": 800,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\close [Indent level: 1],        "close": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 3,            "burstRangeMax": 6,            "aiRateOfFire": 1,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 200,            "minRange": 0,            "minRangeProbab": 0.1,            "midRange": 400,            "midRangeProbab": 0.7,            "maxRange": 800,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
-        },        # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],        "short": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 5,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 600,            "minRange": 600,            "minRangeProbab": 0.75,            "midRange": 800,            "midRangeProbab": 0.8,            "maxRange": 1200,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\short [Indent level: 1],        "short": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 5,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 2,            "aiRateOfFireDistance": 600,            "minRange": 600,            "minRangeProbab": 0.75,            "midRange": 800,            "midRangeProbab": 0.8,            "maxRange": 1200,            "maxRangeProbab": 0.8,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
-        },        # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],        "medium": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 3,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 3,            "aiRateOfFireDistance": 1000,            "minRange": 1000,            "minRangeProbab": 0.8,            "midRange": 1500,            "midRangeProbab": 0.8,            "maxRange": 2000,            "maxRangeProbab": 0.7,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\medium [Indent level: 1],        "medium": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 3,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 3,            "aiRateOfFireDistance": 1000,            "minRange": 1000,            "minRangeProbab": 0.8,            "midRange": 1500,            "midRangeProbab": 0.8,            "maxRange": 2000,            "maxRangeProbab": 0.7,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
-        },        # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],        "far": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 1,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 4,            "aiRateOfFireDistance": 1800,            "minRange": 1800,            "minRangeProbab": 0.74,            "midRange": 2400,            "midRangeProbab": 0.65,            "maxRange": 3000,            "maxRangeProbab": 0.05,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+        },        # Class: CfgWeapons\autocannon_Base_F\far [Indent level: 1],        "far": {            "aiBurstTerminable": 1,            "showToPlayer": 0,            "burst": 1,            "burstRangeMax": 1,            "aiRateOfFire": 2,            "aiRateOfFireDispersion": 4,            "aiRateOfFireDistance": 1800,            "minRange": 1800,            "minRangeProbab": 0.74,            "midRange": 2400,            "midRangeProbab": 0.65,            "maxRange": 3000,            "maxRangeProbab": 0.05,            "sounds": ["StandardSound"],            # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],            "StandardSound": {                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],                "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },            "soundContinuous": 0,            "reloadTime": 0.3,            "dispersion": 0.0009,            "sound": ["",10,1],            "soundEnd": ["sound",1],            "autoFire": 1,            "displayName": "Full",            "textureType": "fullAuto",            # Recoil Array: recoil,            "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],            # Recoil Array: recoilProne,            "recoilProne": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],            "aiDispersionCoefY": 3,            "aiDispersionCoefX": 2,            "soundBurst": 0,            "multiplier": 1,            "soundBegin": ["sound",1],            "soundBeginWater": ["sound",1],            "soundClosure": ["sound",1],            "soundLoop": [],            "weaponSoundEffect": "",            "ffCount": 1,            "ffMagnitude": 0.5,            "ffFrequency": 11,            "flash": "gunfire",            "flashSize": 0.1,            "useAction": 0,            "useActionTitle": "",            "artilleryDispersion": 1,            "artilleryCharge": 1,            "canShootInWater": 0,            "requiredOpticType": -1
         },        "type": 65536,        # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],        "GunClouds": {
-        },        "access": 3,        "value": 2,        "picture": "",        "uiPicture": "",        "ammo": "",        "cursorAimOn": "",        "laser": 0,        "hiddenSelections": [],        "hiddenSelectionsTextures": [],        "hiddenUnderwaterSelections": [],        "shownUnderwaterSelections": [],        "hiddenUnderwaterSelectionsTextures": [],        "simulation": "Weapon",        "count": 0,        "multiplier": 1,        "burst": 1,        "magazineReloadSwitchPhase": 1,        "soundBegin": ["sound",1],        "soundBeginWater": ["sound",1],        "soundClosure": ["sound",1],        "soundEnd": ["sound",1],        "soundLoop": ["sound",1],        "weaponSoundEffect": "",        "soundBurst": 1,        "drySound": ["",1,1],        "zeroingSound": ["",1,1],        "reloadSound": ["",1,1],        "changeFiremodeSound": ["",1,1],        "reloadMagazineSound": ["",1,1],        "emptySound": ["",1,1],        "soundBullet": ["emptySound",1],        "initSpeed": 0,        "irDistance": 0,        "irDotIntensity": 0.001,        "dispersion": 0.002,        "lockAcquire": 1,        "enableAttack": 1,        "ffMagnitude": 0,        "ffFrequency": 1,        "ffCount": 1,        # Recoil Array: recoil,        "recoil": [],        "maxRecoilSway": 0.008,        "swayDecaySpeed": 2,        "model": "",        "modelSpecial": "",        "modelMagazine": "",        "muzzlePos": "usti hlavne",        "muzzleEnd": "konec hlavne",        "irLaserPos": "laser pos",        "irLaserEnd": "laser dir",        "cartridgePos": "nabojnicestart",        "cartridgeVel": "nabojniceend",        "selectionFireAnim": "zasleh",        "memoryPointCamera": "eye",        "fireSpreadAngle": 3,        "useModelOptics": 1,        "opticsID": 0,        "modelOptics": "",        "opticsPPEffects": [],        "opticsFlare": 1,        "optics": 1,        "forceOptics": 0,        "useAsBinocular": 0,        "opticsDisablePeripherialVision": 0.67,        "opticsZoomMin": 0.25,        "opticsZoomMax": 1.25,        "opticsZoomInit": 0.75,        "distanceZoomMin": 400,        "distanceZoomMax": 400,        "primary": 10,        "showSwitchAction": 0,        "showEmpty": 1,        "showToPlayer": 1,        "canShootInWater": 0,        "aiRateOfFireDispersion": 0,        "fireLightDuration": 0.05,        "fireLightIntensity": 0.2,        "fireLightDiffuse": [0.937,0.631,0.259],        "fireLightAmbient": [0,0,0],        # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],        "Eventhandlers": {
+        },        "access": 3,        "value": 2,        "picture": "",        "uiPicture": "",        # Ammo: ,        "ammo": {            "ammo": "",        },        "ammo": "",        "cursorAimOn": "",        "laser": 0,        "hiddenSelections": [],        "hiddenSelectionsTextures": [],        "hiddenUnderwaterSelections": [],        "shownUnderwaterSelections": [],        "hiddenUnderwaterSelectionsTextures": [],        "simulation": "Weapon",        "count": 0,        "multiplier": 1,        "burst": 1,        "magazineReloadSwitchPhase": 1,        "soundBegin": ["sound",1],        "soundBeginWater": ["sound",1],        "soundClosure": ["sound",1],        "soundEnd": ["sound",1],        "soundLoop": ["sound",1],        "weaponSoundEffect": "",        "soundBurst": 1,        "drySound": ["",1,1],        "zeroingSound": ["",1,1],        "reloadSound": ["",1,1],        "changeFiremodeSound": ["",1,1],        "reloadMagazineSound": ["",1,1],        "emptySound": ["",1,1],        "soundBullet": ["emptySound",1],        "initSpeed": 0,        "irDistance": 0,        "irDotIntensity": 0.001,        "dispersion": 0.002,        "lockAcquire": 1,        "enableAttack": 1,        "ffMagnitude": 0,        "ffFrequency": 1,        "ffCount": 1,        # Recoil Array: recoil,        "recoil": [],        "maxRecoilSway": 0.008,        "swayDecaySpeed": 2,        "model": "",        "modelSpecial": "",        "modelMagazine": "",        "muzzlePos": "usti hlavne",        "muzzleEnd": "konec hlavne",        "irLaserPos": "laser pos",        "irLaserEnd": "laser dir",        "cartridgePos": "nabojnicestart",        "cartridgeVel": "nabojniceend",        "selectionFireAnim": "zasleh",        "memoryPointCamera": "eye",        "fireSpreadAngle": 3,        "useModelOptics": 1,        "opticsID": 0,        "modelOptics": "",        "opticsPPEffects": [],        "opticsFlare": 1,        "optics": 1,        "forceOptics": 0,        "useAsBinocular": 0,        "opticsDisablePeripherialVision": 0.67,        "opticsZoomMin": 0.25,        "opticsZoomMax": 1.25,        "opticsZoomInit": 0.75,        "distanceZoomMin": 400,        "distanceZoomMax": 400,        "primary": 10,        "showSwitchAction": 0,        "showEmpty": 1,        "showToPlayer": 1,        "canShootInWater": 0,        "aiRateOfFireDispersion": 0,        "fireLightDuration": 0.05,        "fireLightIntensity": 0.2,        "fireLightDiffuse": [0.937,0.631,0.259],        "fireLightAmbient": [0,0,0],        # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],        "Eventhandlers": {
         },        "backgroundReload": 0,        "reloadAction": "",        "useAction": 0,        "useActionTitle": "",        "canDrop": 1,        "weaponLockDelay": 0,        "weaponLockSystem": 0,        "cmImmunity": 1,        "weight": 0,        "minRange": 1,        "minRangeProbab": 0.3,        "midRange": 150,        "midRangeProbab": 0.58,        "maxRange": 500,        "maxRangeProbab": 0.04,        "handAnim": [],        "lockingTargetSound": ["",0.000316228,2],        "lockedTargetSound": ["",0.000316228,6],        "detectRange": 0,        "artilleryDispersion": 1,        "artilleryCharge": 1,        "fireAnims": [],        # Class: CfgWeapons\Default\Library [Indent level: 1],        "Library": {            "libTextDesc": ""
         },        "descriptionShort": "",        # Class: CfgWeapons\Default\GunFire [Indent level: 1],        "GunFire": {            "access": 0,            "cloudletDuration": 0.2,            "cloudletAnimPeriod": 1,            "cloudletSize": 1,            "cloudletAlpha": 1,            "cloudletGrowUp": 0.2,            "cloudletFadeIn": 0.01,            "cloudletFadeOut": 0.5,            "cloudletAccY": 0,            "cloudletMinYSpeed": -100,            "cloudletMaxYSpeed": 100,            "cloudletShape": "cloudletFire",            "cloudletColor": [1,1,1,0],            "cloudletDensityCoef": -1,            "interval": -0.01,            "size": 3,            "sourceSize": 0.5,            "timeToLive": 0,            "initT": 4500,            "deltaT": -3000,            # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],            "Table": {                # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]                "T0": {                    "maxT": 0,                    "color": [0.82,0.95,0.93,0]
                 },                # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],                "T1": {                    "maxT": 200,                    "color": [0.75,0.77,0.9,0]
@@ -19130,15 +19238,11 @@ rhs_weap_2a72_btr = {
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    "sounds": ["StandardSound"],
-                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
-                    "StandardSound": {
-                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
-                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],
+                    "standardsound": {
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
+                    "sounds": ["StandardSound"],
                     "soundContinuous": 0,
                     "reloadTime": 0.3,
                     "aiRateOfFire": 1,
@@ -19200,7 +19304,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -19253,7 +19357,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -19306,7 +19410,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -19359,7 +19463,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -19400,7 +19504,7 @@ rhs_weap_2a72_btr = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -19435,6 +19539,10 @@ rhs_weap_2a72_btr = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -19701,7 +19809,7 @@ rhs_weap_2a72_btr = {
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "sounds": ["StandardSound"],
                     "soundContinuous": 0,
@@ -19765,7 +19873,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -19818,7 +19926,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -19871,7 +19979,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -19924,7 +20032,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -19965,7 +20073,7 @@ rhs_weap_2a72_btr = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -20000,6 +20108,10 @@ rhs_weap_2a72_btr = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -20257,7 +20369,7 @@ rhs_weap_2a72_btr = {
                 "aimTransitionSpeed": 1
             },
             "showAimCursorInternal": 0,
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "autoReload": 1,
             "FCSMaxLeadSpeed": 30.5556,
@@ -20268,11 +20380,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -20337,11 +20449,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -20394,11 +20506,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -20451,11 +20563,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -20508,11 +20620,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -20555,6 +20667,10 @@ rhs_weap_2a72_btr = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorAimOn": "",
             "laser": 0,
@@ -21186,15 +21302,11 @@ rhs_weap_2a72_btr = {
                 # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    "sounds": ["StandardSound"],
-                    # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
-                    "StandardSound": {
-                        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
-                        "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    # Class: CfgWeapons\autocannon_30mm_CTWS\HE\player\standardsound [Indent level: 3],
+                    "standardsound": {
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
+                    "sounds": ["StandardSound"],
                     "soundContinuous": 0,
                     "reloadTime": 0.3,
                     "aiRateOfFire": 1,
@@ -21256,7 +21368,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -21309,7 +21421,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -21362,7 +21474,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -21415,7 +21527,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\HE\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -21456,7 +21568,7 @@ rhs_weap_2a72_btr = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -21491,6 +21603,10 @@ rhs_weap_2a72_btr = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -21757,7 +21873,7 @@ rhs_weap_2a72_btr = {
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\player\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "sounds": ["StandardSound"],
                     "soundContinuous": 0,
@@ -21821,7 +21937,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\close\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -21874,7 +21990,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.8,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\short\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -21927,7 +22043,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.7,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\medium\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -21980,7 +22096,7 @@ rhs_weap_2a72_btr = {
                     "maxRangeProbab": 0.05,
                     # Class: CfgWeapons\autocannon_30mm_CTWS\AP\far\StandardSound [Indent level: 3],
                     "StandardSound": {
-                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
+                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -22021,7 +22137,7 @@ rhs_weap_2a72_btr = {
                 "cursorAim": "cannon",
                 "showAimCursorInternal": 0,
                 "nameSound": "cannon",
-                "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+                "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
                 "aiRateOfFire": 0.6,
@@ -22056,6 +22172,10 @@ rhs_weap_2a72_btr = {
                 "value": 2,
                 "picture": "",
                 "uiPicture": "",
+                # Ammo: ,
+                "ammo": {
+                    "ammo": "",
+                },
                 "ammo": "",
                 "cursorSize": 1,
                 "cursorAimOn": "",
@@ -22313,7 +22433,7 @@ rhs_weap_2a72_btr = {
                 "aimTransitionSpeed": 1
             },
             "showAimCursorInternal": 0,
-            "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+            "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
             "soundContinuous": 0,
             "autoReload": 1,
             "FCSMaxLeadSpeed": 30.5556,
@@ -22324,11 +22444,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -22393,11 +22513,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -22450,11 +22570,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -22507,11 +22627,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -22564,11 +22684,11 @@ rhs_weap_2a72_btr = {
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                    "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                    "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
                 },
                 "soundContinuous": 0,
                 "reloadTime": 0.3,
@@ -22611,6 +22731,10 @@ rhs_weap_2a72_btr = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorAimOn": "",
             "laser": 0,
@@ -22874,7 +22998,7 @@ rhs_weap_2a72_btr = {
         "canLock": 0,
         "magazines": [],
         "showAimCursorInternal": 0,
-        "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+        "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
         "soundContinuous": 0,
         "autoReload": 1,
         "FCSMaxLeadSpeed": 30.5556,
@@ -22885,11 +23009,11 @@ rhs_weap_2a72_btr = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -22954,11 +23078,11 @@ rhs_weap_2a72_btr = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -23011,11 +23135,11 @@ rhs_weap_2a72_btr = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -23068,11 +23192,11 @@ rhs_weap_2a72_btr = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -23125,11 +23249,11 @@ rhs_weap_2a72_btr = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-                "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-                "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
             },
             "soundContinuous": 0,
             "reloadTime": 0.3,
@@ -23172,6 +23296,10 @@ rhs_weap_2a72_btr = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -23782,7 +23910,7 @@ rhs_weap_2a72_btr = {
     "magazineWell": ["RHS_AutoCannon_30mm_2A42_AP","RHS_AutoCannon_30mm_2A42_HE"],
     "modes": ["LowROFBMD2","HighROFBMD2","closeBMD2","shortBMD2","mediumBMD2","farBMD2"],
     "showAimCursorInternal": 0,
-    "sound": ["A3|sounds_f|dummysound",2.51189,1,1800],
+    "sound": ["A3\\sounds_f\\dummysound",2.51189,1,1800],
     "soundContinuous": 0,
     "autoReload": 1,
     "FCSMaxLeadSpeed": 30.5556,
@@ -23793,11 +23921,11 @@ rhs_weap_2a72_btr = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -23862,11 +23990,11 @@ rhs_weap_2a72_btr = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -23919,11 +24047,11 @@ rhs_weap_2a72_btr = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -23976,11 +24104,11 @@ rhs_weap_2a72_btr = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -24033,11 +24161,11 @@ rhs_weap_2a72_btr = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\autocannon_Base_F\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_01",1.99526,1,1500],
-            "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
-            "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+            "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+            "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
         },
         "soundContinuous": 0,
         "reloadTime": 0.3,
@@ -24080,6 +24208,10 @@ rhs_weap_2a72_btr = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorAimOn": "",
     "laser": 0,
@@ -24348,7 +24480,7 @@ rhs_weap_2a75 = {
         "StandardSound": {
             "soundSetShot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoFire": 0,
@@ -24411,7 +24543,7 @@ rhs_weap_2a75 = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -24465,7 +24597,7 @@ rhs_weap_2a75 = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -24519,7 +24651,7 @@ rhs_weap_2a75 = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -24573,7 +24705,7 @@ rhs_weap_2a75 = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -24654,12 +24786,12 @@ rhs_weap_2a75 = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -24700,6 +24832,7 @@ rhs_weap_2a75 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -24708,6 +24841,10 @@ rhs_weap_2a75 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "laser": 0,
@@ -24966,8 +25103,8 @@ rhs_weap_902a = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\rhs_weap_902a\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["rhsafrf|addons|rhs_sounds|smoke|902A_1",2.8,1,600],
-        "begin2": ["rhsafrf|addons|rhs_sounds|smoke|902A_2",2.8,1,600],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_1",2.8,1,600],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_2",2.8,1,600],
         "soundBegin": ["begin1",0.5,"begin2",0.5]
     },
     "magazineReloadTime": 60,
@@ -24979,7 +25116,7 @@ rhs_weap_902a = {
     "cursoraim": "mg",
     "nameSound": "mgun",
     "reloadAction": "ManActReloadMagazine",
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
     "soundContinuous": 0,
     "initSpeed": 0,
     "flash": "gunfire",
@@ -24993,6 +25130,10 @@ rhs_weap_902a = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -25290,8 +25431,8 @@ rhs_weap_902b = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_902b\Double\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["rhsafrf|addons|rhs_sounds|smoke|902A_1",2.8,1,600],
-            "begin2": ["rhsafrf|addons|rhs_sounds|smoke|902A_2",2.8,1,600],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_1",2.8,1,600],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_2",2.8,1,600],
             "soundBegin": ["begin1",0.5,"begin2",0.5]
         },
         "scope": 2,
@@ -25305,7 +25446,7 @@ rhs_weap_902b = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -25319,6 +25460,10 @@ rhs_weap_902b = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -25610,8 +25755,8 @@ rhs_weap_902b = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_902b\Double\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["rhsafrf|addons|rhs_sounds|smoke|902A_1",2.8,1,600],
-            "begin2": ["rhsafrf|addons|rhs_sounds|smoke|902A_2",2.8,1,600],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_1",2.8,1,600],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_2",2.8,1,600],
             "soundBegin": ["begin1",0.5,"begin2",0.5]
         },
         "scope": 2,
@@ -25625,7 +25770,7 @@ rhs_weap_902b = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -25639,6 +25784,10 @@ rhs_weap_902b = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -25930,8 +26079,8 @@ rhs_weap_902b = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_902b\Double\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["rhsafrf|addons|rhs_sounds|smoke|902A_1",2.8,1,600],
-            "begin2": ["rhsafrf|addons|rhs_sounds|smoke|902A_2",2.8,1,600],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_1",2.8,1,600],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_2",2.8,1,600],
             "soundBegin": ["begin1",0.5,"begin2",0.5]
         },
         "scope": 2,
@@ -25945,7 +26094,7 @@ rhs_weap_902b = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -25959,6 +26108,10 @@ rhs_weap_902b = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -26250,8 +26403,8 @@ rhs_weap_902b = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_902b\Double\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["rhsafrf|addons|rhs_sounds|smoke|902A_1",2.8,1,600],
-            "begin2": ["rhsafrf|addons|rhs_sounds|smoke|902A_2",2.8,1,600],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_1",2.8,1,600],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_2",2.8,1,600],
             "soundBegin": ["begin1",0.5,"begin2",0.5]
         },
         "scope": 2,
@@ -26265,7 +26418,7 @@ rhs_weap_902b = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -26279,6 +26432,10 @@ rhs_weap_902b = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -26566,8 +26723,8 @@ rhs_weap_902b = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\rhs_weap_902a\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["rhsafrf|addons|rhs_sounds|smoke|902A_1",2.8,1,600],
-        "begin2": ["rhsafrf|addons|rhs_sounds|smoke|902A_2",2.8,1,600],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_1",2.8,1,600],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\smoke\\902A_2",2.8,1,600],
         "soundBegin": ["begin1",0.5,"begin2",0.5]
     },
     "magazineReloadTime": 60,
@@ -26579,7 +26736,7 @@ rhs_weap_902b = {
     "cursoraim": "mg",
     "nameSound": "mgun",
     "reloadAction": "ManActReloadMagazine",
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
     "soundContinuous": 0,
     "initSpeed": 0,
     "flash": "gunfire",
@@ -26593,6 +26750,10 @@ rhs_weap_902b = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -26883,10 +27044,10 @@ rhs_weap_9k11 = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\rhs_weap_9k11\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundBegin": ["begin1",0.5,"begin2",0.5],
         "weaponSoundEffect": "DefaultRifle",
-        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
         "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
     },
     "reloadTime": 3,
@@ -26908,6 +27069,10 @@ rhs_weap_9k11 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -27232,8 +27397,8 @@ rhs_weap_9k121_Launcher = {
         # Class: CfgWeapons\rhs_weap_kh25_Launcher\StandardSound [Indent level: 1],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -27241,8 +27406,8 @@ rhs_weap_9k121_Launcher = {
         "magazineReloadTime": 0.1,
         "showAimCursorInternal": 0,
         "textureType": "semi",
-        "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-        "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+        "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+        "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
         # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct [Indent level: 1],
         "Direct": {
             "textureType": "semi",
@@ -27252,11 +27417,11 @@ rhs_weap_9k121_Launcher = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F_EPC|Weapons|missile_epc_1",1.77828,1,3500],
+                "begin1": ["A3\\Sounds_F_EPC\\Weapons\\missile_epc_1",1.77828,1,3500],
                 "soundBegin": ["begin1",1]
             },
-            "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-            "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+            "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+            "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
             "minRange": 360,
             "minRangeProbab": 0.4,
             "midRange": 1500,
@@ -27277,6 +27442,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -27569,11 +27738,11 @@ rhs_weap_9k121_Launcher = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F_EPC|Weapons|missile_epc_1",1.77828,1,3500],
+                "begin1": ["A3\\Sounds_F_EPC\\Weapons\\missile_epc_1",1.77828,1,3500],
                 "soundBegin": ["begin1",1]
             },
-            "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-            "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+            "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+            "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
             "minRange": 360,
             "minRangeProbab": 0.4,
             "midRange": 1500,
@@ -27594,6 +27763,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -27877,6 +28050,7 @@ rhs_weap_9k121_Launcher = {
             },
             "aimTransitionSpeed": 1
         },
+        "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "nameSound": "MissileLauncher",
@@ -27887,6 +28061,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -28194,16 +28372,16 @@ rhs_weap_9k121_Launcher = {
         # Class: CfgWeapons\rhs_weap_kh25_Launcher\StandardSound [Indent level: 1],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
         "holdsterAnimValue": 3,
         "magazineReloadTime": 0.1,
         "showAimCursorInternal": 0,
-        "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-        "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+        "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+        "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
         # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct [Indent level: 1],
         "Direct": {
             "textureType": "semi",
@@ -28213,11 +28391,11 @@ rhs_weap_9k121_Launcher = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F_EPC|Weapons|missile_epc_1",1.77828,1,3500],
+                "begin1": ["A3\\Sounds_F_EPC\\Weapons\\missile_epc_1",1.77828,1,3500],
                 "soundBegin": ["begin1",1]
             },
-            "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-            "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+            "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+            "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
             "minRange": 360,
             "minRangeProbab": 0.4,
             "midRange": 1500,
@@ -28238,6 +28416,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -28530,11 +28712,11 @@ rhs_weap_9k121_Launcher = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F_EPC|Weapons|missile_epc_1",1.77828,1,3500],
+                "begin1": ["A3\\Sounds_F_EPC\\Weapons\\missile_epc_1",1.77828,1,3500],
                 "soundBegin": ["begin1",1]
             },
-            "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-            "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+            "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+            "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
             "minRange": 360,
             "minRangeProbab": 0.4,
             "midRange": 1500,
@@ -28555,6 +28737,10 @@ rhs_weap_9k121_Launcher = {
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -28838,6 +29024,7 @@ rhs_weap_9k121_Launcher = {
             },
             "aimTransitionSpeed": 1
         },
+        "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "nameSound": "MissileLauncher",
@@ -28848,6 +29035,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorAimOn": "",
         "laser": 0,
@@ -29137,16 +29328,16 @@ rhs_weap_9k121_Launcher = {
     # Class: CfgWeapons\rhs_weap_kh25_Launcher\StandardSound [Indent level: 1],
     "StandardSound": {
         "weaponSoundEffect": "DefaultRifle",
-        "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
         "soundBegin": ["begin1",0.5,"begin2",0.5],
         "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
     },
     "magazineReloadTime": 0.1,
     "showAimCursorInternal": 0,
     "textureType": "semi",
-    "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-    "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+    "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+    "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
     # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct [Indent level: 1],
     "Direct": {
         "textureType": "semi",
@@ -29156,11 +29347,11 @@ rhs_weap_9k121_Launcher = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F_EPC|Weapons|missile_epc_1",1.77828,1,3500],
+            "begin1": ["A3\\Sounds_F_EPC\\Weapons\\missile_epc_1",1.77828,1,3500],
             "soundBegin": ["begin1",1]
         },
-        "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-        "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+        "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+        "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
         "minRange": 360,
         "minRangeProbab": 0.4,
         "midRange": 1500,
@@ -29181,6 +29372,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -29473,11 +29668,11 @@ rhs_weap_9k121_Launcher = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\Missile_AGM_02_Plane_CAS_01_F\Direct\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F_EPC|Weapons|missile_epc_1",1.77828,1,3500],
+            "begin1": ["A3\\Sounds_F_EPC\\Weapons\\missile_epc_1",1.77828,1,3500],
             "soundBegin": ["begin1",1]
         },
-        "lockingTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
-        "lockedTargetSound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
+        "lockingTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_1",0.562341,1],
+        "lockedTargetSound": ["\\A3\\Sounds_F\\weapons\\Rockets\\locked_3",0.562341,2.5],
         "minRange": 360,
         "minRangeProbab": 0.4,
         "midRange": 1500,
@@ -29498,6 +29693,10 @@ rhs_weap_9k121_Launcher = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -29781,6 +29980,7 @@ rhs_weap_9k121_Launcher = {
         },
         "aimTransitionSpeed": 1
     },
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,500],
     "scope": 1,
     "type": 65536,
     "nameSound": "MissileLauncher",
@@ -29791,6 +29991,10 @@ rhs_weap_9k121_Launcher = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorAimOn": "",
     "laser": 0,
@@ -30067,10 +30271,10 @@ rhs_weap_9k133 = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\rhs_weap_9k133\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundBegin": ["begin1",0.5,"begin2",0.5],
         "weaponSoundEffect": "DefaultRifle",
-        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
     },
     "magazines": ["rhs_mag_9m133_2"],
     "reloadTime": 0.1,
@@ -30099,6 +30303,10 @@ rhs_weap_9k133 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -30398,10 +30606,10 @@ rhs_weap_9m113 = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\rhs_weap_9m111\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundBegin": ["begin1",0.5,"begin2",0.5],
         "weaponSoundEffect": "DefaultRifle",
-        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
     },
     "aiRateOfFire": 5,
     "holdsterAnimValue": 1,
@@ -30418,6 +30626,10 @@ rhs_weap_9m113 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -30720,8 +30932,8 @@ rhs_weap_9m120_launcher = {
     # Class: CfgWeapons\rhs_weap_9K114_launcher\StandardSound [Indent level: 1],
     "StandardSound": {
         "weaponSoundEffect": "DefaultRifle",
-        "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
         "soundsetshot": ["RocketsMedium_Shot_SoundSet"],
         "soundBegin": ["begin1",0.5,"begin2",0.5]
     },
@@ -30736,6 +30948,10 @@ rhs_weap_9m120_launcher = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -31050,10 +31266,10 @@ rhs_weap_9P148 = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\rhs_weap_9m111\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundBegin": ["begin1",0.5,"begin2",0.5],
         "weaponSoundEffect": "DefaultRifle",
-        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
     },
     "magazines": ["rhs_mag_9m111","rhs_mag_9m111_3","rhs_mag_9m111_4","rhs_mag_9m111_5","rhs_mag_9m111m","rhs_mag_9m111m_3","rhs_mag_9m111m_4","rhs_mag_9m111m_5","rhs_mag_9m113","rhs_mag_9m113_3","rhs_mag_9m113_4","rhs_mag_9m113_5"],
     "aiRateOfFire": 5,
@@ -31071,6 +31287,10 @@ rhs_weap_9P148 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -31409,7 +31629,7 @@ RHS_weap_AGS30 = {
         "type": 65536,
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -31423,6 +31643,10 @@ RHS_weap_AGS30 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -31735,7 +31959,7 @@ RHS_weap_AGS30 = {
         "type": 65536,
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -31749,6 +31973,10 @@ RHS_weap_AGS30 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -32058,7 +32286,7 @@ RHS_weap_AGS30 = {
         "type": 65536,
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -32072,6 +32300,10 @@ RHS_weap_AGS30 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -32381,7 +32613,7 @@ RHS_weap_AGS30 = {
         "type": 65536,
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -32395,6 +32627,10 @@ RHS_weap_AGS30 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -32704,7 +32940,7 @@ RHS_weap_AGS30 = {
         "type": 65536,
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -32718,6 +32954,10 @@ RHS_weap_AGS30 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -32990,12 +33230,13 @@ RHS_weap_AGS30 = {
         },
         "aimTransitionSpeed": 1
     },
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_GMG|GMG20mm_static_reload",1,1,10],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_GMG\\GMG20mm_static_reload",1,1,10],
     # Class: CfgWeapons\GMG_20mm\GunClouds [Indent level: 1],
     "GunClouds": {
     },
     "maxZeroing": 2000,
-    "drySound": ["A3|Sounds_F|arsenal|weapons_static|Static_GMG|GMG20mm_static_dry",1,1,10],
+    "drySound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_GMG\\GMG20mm_static_dry",1,1,10],
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "aiRateOfFire": 4,
     "aiRateOfFireDistance": 500,
     "minRange": 8,
@@ -33014,9 +33255,9 @@ RHS_weap_AGS30 = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -33032,6 +33273,10 @@ RHS_weap_AGS30 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -33374,6 +33619,10 @@ RHS_weap_AZP23 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -33665,6 +33914,10 @@ RHS_weap_AZP23 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -33954,6 +34207,10 @@ RHS_weap_AZP23 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -34243,6 +34500,10 @@ RHS_weap_AZP23 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -34532,6 +34793,10 @@ RHS_weap_AZP23 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursor": "",
         "cursorAim": "",
@@ -34794,6 +35059,10 @@ RHS_weap_AZP23 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "laser": 0,
@@ -35070,7 +35339,7 @@ rhs_weap_DSHKM = {
             "effectName": "MachineGunCartridge2"
         }
     },
-    "reloadMagazineSound": ["a3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",1,1,10],
+    "reloadMagazineSound": ["a3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",1,1,10],
     "scope": 2,
     "autoFire": 1,
     "displayName": "DShKM",
@@ -35119,7 +35388,7 @@ rhs_weap_DSHKM = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -35134,6 +35403,10 @@ rhs_weap_DSHKM = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -35440,7 +35713,7 @@ rhs_weap_DSHKM = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -35455,6 +35728,10 @@ rhs_weap_DSHKM = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -35761,7 +36038,7 @@ rhs_weap_DSHKM = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -35776,6 +36053,10 @@ rhs_weap_DSHKM = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -36081,7 +36362,7 @@ rhs_weap_DSHKM = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -36096,6 +36377,10 @@ rhs_weap_DSHKM = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -36401,7 +36686,7 @@ rhs_weap_DSHKM = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -36416,6 +36701,10 @@ rhs_weap_DSHKM = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -36695,18 +36984,18 @@ rhs_weap_DSHKM = {
     # Class: CfgWeapons\LMG_RCWS\GunClouds [Indent level: 1],
     "GunClouds": {
     },
-    "bullet1": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_01",0.281838,1,10],
-    "bullet2": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_02",0.281838,1,10],
-    "bullet3": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_03",0.281838,1,10],
-    "bullet4": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_04",0.281838,1,10],
-    "bullet5": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_01",0.281838,1,10],
-    "bullet6": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_02",0.281838,1,10],
-    "bullet7": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_03",0.281838,1,10],
-    "bullet8": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_04",0.281838,1,10],
-    "bullet9": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_01",0.281838,1,10],
-    "bullet10": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_02",0.281838,1,10],
-    "bullet11": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_03",0.281838,1,10],
-    "bullet12": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_04",0.281838,1,10],
+    "bullet1": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_01",0.281838,1,10],
+    "bullet2": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_02",0.281838,1,10],
+    "bullet3": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_03",0.281838,1,10],
+    "bullet4": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_04",0.281838,1,10],
+    "bullet5": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_01",0.281838,1,10],
+    "bullet6": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_02",0.281838,1,10],
+    "bullet7": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_03",0.281838,1,10],
+    "bullet8": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_04",0.281838,1,10],
+    "bullet9": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_01",0.281838,1,10],
+    "bullet10": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_02",0.281838,1,10],
+    "bullet11": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_03",0.281838,1,10],
+    "bullet12": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_04",0.281838,1,10],
     "soundBullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
     "FCSMaxLeadSpeed": 0,
     "FCSZeroingDelay": 1,
@@ -36718,9 +37007,9 @@ rhs_weap_DSHKM = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -36735,6 +37024,10 @@ rhs_weap_DSHKM = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -37008,6 +37301,10 @@ rhs_weap_fab250 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -37327,9 +37624,9 @@ rhs_weap_gi2 = {
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "showToPlayer": 1,
             "sound": ["",10,1],
@@ -37385,9 +37682,9 @@ rhs_weap_gi2 = {
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
@@ -37440,9 +37737,9 @@ rhs_weap_gi2 = {
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
@@ -37495,9 +37792,9 @@ rhs_weap_gi2 = {
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
@@ -37550,9 +37847,9 @@ rhs_weap_gi2 = {
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
@@ -37610,13 +37907,12 @@ rhs_weap_gi2 = {
                 "dispersion": 0.0066,
                 "displayName": "300rpm",
                 "burst": 5,
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -37633,6 +37929,7 @@ rhs_weap_gi2 = {
                 "midRangeProbab": 0.01,
                 "maxRange": 2,
                 "maxRangeProbab": 0.01,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -37700,13 +37997,12 @@ rhs_weap_gi2 = {
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -37716,6 +38012,7 @@ rhs_weap_gi2 = {
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -37755,13 +38052,12 @@ ear [Indent level: 1],
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -37771,6 +38067,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -37809,13 +38106,12 @@ ear [Indent level: 1],
                 "maxRange": 1000,
                 "maxRangeProbab": 0.7,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -37825,6 +38121,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -37863,13 +38160,12 @@ ear [Indent level: 1],
                 "maxRange": 1800,
                 "maxRangeProbab": 0.15,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -37879,6 +38175,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -37917,13 +38214,12 @@ ear [Indent level: 1],
                 "maxRange": 2500,
                 "maxRangeProbab": 0.05,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -37933,6 +38229,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -37963,6 +38260,10 @@ ear [Indent level: 1],
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -38255,13 +38556,12 @@ ear [Indent level: 1],
             "LowROF": {
                 "displayName": "300rpm",
                 "burst": 5,
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -38279,6 +38579,7 @@ ear [Indent level: 1],
                 "midRangeProbab": 0.01,
                 "maxRange": 2,
                 "maxRangeProbab": 0.01,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -38320,13 +38621,12 @@ ear [Indent level: 1],
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -38336,6 +38636,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -38375,13 +38676,12 @@ ear [Indent level: 1],
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -38391,6 +38691,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -38429,13 +38730,12 @@ ear [Indent level: 1],
                 "maxRange": 1000,
                 "maxRangeProbab": 0.7,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -38445,6 +38745,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -38483,13 +38784,12 @@ ear [Indent level: 1],
                 "maxRange": 1800,
                 "maxRangeProbab": 0.15,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -38499,6 +38799,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -38537,13 +38838,12 @@ ear [Indent level: 1],
                 "maxRange": 2500,
                 "maxRangeProbab": 0.05,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -38553,6 +38853,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -38583,6 +38884,10 @@ ear [Indent level: 1],
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -38852,13 +39157,12 @@ ear [Indent level: 1],
         "LowROF": {
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -38876,6 +39180,7 @@ ear [Indent level: 1],
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -38918,13 +39223,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -38934,6 +39238,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -38964,6 +39269,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "showAimCursorInternal": 1,
         "cursorAimOn": "",
@@ -39253,9 +39562,9 @@ ear [Indent level: 1],
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "reloadTime": 0.06,
             "dispersion": 0.0085,
@@ -39320,9 +39629,9 @@ ear [Indent level: 1],
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "reloadTime": 0.06,
             "dispersion": 0.0085,
@@ -39375,9 +39684,9 @@ ear [Indent level: 1],
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "reloadTime": 0.06,
             "dispersion": 0.0085,
@@ -39430,9 +39739,9 @@ ear [Indent level: 1],
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "reloadTime": 0.06,
             "dispersion": 0.0085,
@@ -39485,9 +39794,9 @@ ear [Indent level: 1],
             # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
             "StandardSound": {
                 "weaponSoundEffect": "DefaultRifle",
-                "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+                "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundBegin": ["begin1",1],
-                "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+                "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
             },
             "reloadTime": 0.06,
             "dispersion": 0.0085,
@@ -39528,13 +39837,12 @@ ear [Indent level: 1],
                 "dispersion": 0.0066,
                 "displayName": "300rpm",
                 "burst": 5,
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -39551,6 +39859,7 @@ ear [Indent level: 1],
                 "midRangeProbab": 0.01,
                 "maxRange": 2,
                 "maxRangeProbab": 0.01,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -39618,13 +39927,12 @@ ear [Indent level: 1],
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -39634,6 +39942,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -39673,13 +39982,12 @@ ear [Indent level: 1],
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -39689,6 +39997,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -39727,13 +40036,12 @@ ear [Indent level: 1],
                 "maxRange": 1000,
                 "maxRangeProbab": 0.7,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -39743,6 +40051,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -39781,13 +40090,12 @@ ear [Indent level: 1],
                 "maxRange": 1800,
                 "maxRangeProbab": 0.15,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -39797,6 +40105,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -39835,13 +40144,12 @@ ear [Indent level: 1],
                 "maxRange": 2500,
                 "maxRangeProbab": 0.05,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -39851,6 +40159,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -39881,6 +40190,10 @@ ear [Indent level: 1],
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -40173,13 +40486,12 @@ ear [Indent level: 1],
             "LowROF": {
                 "displayName": "300rpm",
                 "burst": 5,
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -40197,6 +40509,7 @@ ear [Indent level: 1],
                 "midRangeProbab": 0.01,
                 "maxRange": 2,
                 "maxRangeProbab": 0.01,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -40238,13 +40551,12 @@ ear [Indent level: 1],
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -40254,6 +40566,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -40293,13 +40606,12 @@ ear [Indent level: 1],
                 "maxRange": 400,
                 "maxRangeProbab": 0.75,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -40309,6 +40621,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -40347,13 +40660,12 @@ ear [Indent level: 1],
                 "maxRange": 1000,
                 "maxRangeProbab": 0.7,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -40363,6 +40675,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -40401,13 +40714,12 @@ ear [Indent level: 1],
                 "maxRange": 1800,
                 "maxRangeProbab": 0.15,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -40417,6 +40729,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -40455,13 +40768,12 @@ ear [Indent level: 1],
                 "maxRange": 2500,
                 "maxRangeProbab": 0.05,
                 "displayName": "300rpm",
-                "sounds": ["StandardSound"],
+                "sounds": ["standardsound"],
                 # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
                 "StandardSound": {
-                    "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                     "soundBegin": ["begin1",1]
                 },
-                "soundContinuous": 1,
                 "flash": "gunfire",
                 "flashSize": 0.1,
                 # Recoil Array: recoil,
@@ -40471,6 +40783,7 @@ ear [Indent level: 1],
                 "ffCount": 6,
                 "reloadTime": 0.08,
                 "dispersion": 0.0044,
+                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundEnd": ["sound",1],
                 "autoFire": 1,
@@ -40501,6 +40814,10 @@ ear [Indent level: 1],
             "value": 2,
             "picture": "",
             "uiPicture": "",
+            # Ammo: ,
+            "ammo": {
+                "ammo": "",
+            },
             "ammo": "",
             "cursorSize": 1,
             "showAimCursorInternal": 1,
@@ -40771,13 +41088,12 @@ ear [Indent level: 1],
         "LowROF": {
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -40795,6 +41111,7 @@ ear [Indent level: 1],
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -40837,13 +41154,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -40853,6 +41169,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -40883,6 +41200,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "showAimCursorInternal": 1,
         "cursorAimOn": "",
@@ -41158,9 +41479,9 @@ ear [Indent level: 1],
         # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+            "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "reloadTime": 0.06,
         "dispersion": 0.0085,
@@ -41225,9 +41546,9 @@ ear [Indent level: 1],
         # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+            "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "reloadTime": 0.06,
         "dispersion": 0.0085,
@@ -41280,9 +41601,9 @@ ear [Indent level: 1],
         # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+            "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "reloadTime": 0.06,
         "dispersion": 0.0085,
@@ -41335,9 +41656,9 @@ ear [Indent level: 1],
         # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+            "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "reloadTime": 0.06,
         "dispersion": 0.0085,
@@ -41390,9 +41711,9 @@ ear [Indent level: 1],
         # Class: CfgWeapons\rhs_weap_M197\manual\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|a10vulcanVII",3.16228,1,1100],
+            "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundSetShot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "reloadTime": 0.06,
         "dispersion": 0.0085,
@@ -41436,13 +41757,12 @@ ear [Indent level: 1],
     "LowROF": {
         "displayName": "300rpm",
         "burst": 5,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -41460,6 +41780,7 @@ ear [Indent level: 1],
         "midRangeProbab": 0.01,
         "maxRange": 2,
         "maxRangeProbab": 0.01,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -41502,13 +41823,12 @@ ear [Indent level: 1],
         "maxRange": 400,
         "maxRangeProbab": 0.75,
         "displayName": "300rpm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -41518,6 +41838,7 @@ ear [Indent level: 1],
         "ffCount": 6,
         "reloadTime": 0.08,
         "dispersion": 0.0044,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -41548,6 +41869,10 @@ ear [Indent level: 1],
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -42169,13 +42494,12 @@ rhs_weap_gsh23l = {
             "dispersion": 0.0066,
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42192,6 +42516,7 @@ rhs_weap_gsh23l = {
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42259,13 +42584,12 @@ rhs_weap_gsh23l = {
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42275,6 +42599,7 @@ rhs_weap_gsh23l = {
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42314,13 +42639,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42330,6 +42654,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42368,13 +42693,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42384,6 +42708,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42422,13 +42747,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42438,6 +42762,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42476,13 +42801,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42492,6 +42816,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42522,6 +42847,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -42814,13 +43143,12 @@ ear [Indent level: 1],
         "LowROF": {
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42838,6 +43166,7 @@ ear [Indent level: 1],
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42879,13 +43208,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42895,6 +43223,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42934,13 +43263,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -42950,6 +43278,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -42988,13 +43317,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -43004,6 +43332,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -43042,13 +43371,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -43058,6 +43386,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -43096,13 +43425,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -43112,6 +43440,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -43142,6 +43471,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -43413,13 +43746,12 @@ ear [Indent level: 1],
     "LowROF": {
         "displayName": "300rpm",
         "burst": 5,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -43437,6 +43769,7 @@ ear [Indent level: 1],
         "midRangeProbab": 0.01,
         "maxRange": 2,
         "maxRangeProbab": 0.01,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -43479,13 +43812,12 @@ ear [Indent level: 1],
         "maxRange": 400,
         "maxRangeProbab": 0.75,
         "displayName": "300rpm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -43495,6 +43827,7 @@ ear [Indent level: 1],
         "ffCount": 6,
         "reloadTime": 0.08,
         "dispersion": 0.0044,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -43525,6 +43858,10 @@ ear [Indent level: 1],
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -44132,13 +44469,12 @@ rhs_weap_gsh30 = {
             "dispersion": 0.0066,
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44155,6 +44491,7 @@ rhs_weap_gsh30 = {
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44222,13 +44559,12 @@ rhs_weap_gsh30 = {
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44238,6 +44574,7 @@ rhs_weap_gsh30 = {
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44277,13 +44614,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44293,6 +44629,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44331,13 +44668,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44347,6 +44683,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44385,13 +44722,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44401,6 +44737,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44439,13 +44776,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44455,6 +44791,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44485,6 +44822,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -44777,13 +45118,12 @@ ear [Indent level: 1],
         "LowROF": {
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44801,6 +45141,7 @@ ear [Indent level: 1],
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44842,13 +45183,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44858,6 +45198,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44897,13 +45238,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44913,6 +45253,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -44951,13 +45292,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -44967,6 +45307,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -45005,13 +45346,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -45021,6 +45361,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -45059,13 +45400,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -45075,6 +45415,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -45105,6 +45446,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -45376,13 +45721,12 @@ ear [Indent level: 1],
     "LowROF": {
         "displayName": "300rpm",
         "burst": 5,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -45400,6 +45744,7 @@ ear [Indent level: 1],
         "midRangeProbab": 0.01,
         "maxRange": 2,
         "maxRangeProbab": 0.01,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -45442,13 +45787,12 @@ ear [Indent level: 1],
         "maxRange": 400,
         "maxRangeProbab": 0.75,
         "displayName": "300rpm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -45458,6 +45802,7 @@ ear [Indent level: 1],
         "ffCount": 6,
         "reloadTime": 0.08,
         "dispersion": 0.0044,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -45488,6 +45833,10 @@ ear [Indent level: 1],
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -46095,13 +46444,12 @@ rhs_weap_GSh302 = {
             "dispersion": 0.0066,
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46118,6 +46466,7 @@ rhs_weap_GSh302 = {
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46185,13 +46534,12 @@ rhs_weap_GSh302 = {
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46201,6 +46549,7 @@ rhs_weap_GSh302 = {
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46240,13 +46589,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46256,6 +46604,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46294,13 +46643,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46310,6 +46658,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46348,13 +46697,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46364,6 +46712,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46402,13 +46751,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46418,6 +46766,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46448,6 +46797,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -46740,13 +47093,12 @@ ear [Indent level: 1],
         "LowROF": {
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46764,6 +47116,7 @@ ear [Indent level: 1],
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46805,13 +47158,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46821,6 +47173,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46860,13 +47213,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46876,6 +47228,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46914,13 +47267,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46930,6 +47282,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -46968,13 +47321,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -46984,6 +47336,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -47022,13 +47375,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -47038,6 +47390,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -47068,6 +47421,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -47339,13 +47696,12 @@ ear [Indent level: 1],
     "LowROF": {
         "displayName": "300rpm",
         "burst": 5,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -47363,6 +47719,7 @@ ear [Indent level: 1],
         "midRangeProbab": 0.01,
         "maxRange": 2,
         "maxRangeProbab": 0.01,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -47405,13 +47762,12 @@ ear [Indent level: 1],
         "maxRange": 400,
         "maxRangeProbab": 0.75,
         "displayName": "300rpm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -47421,6 +47777,7 @@ ear [Indent level: 1],
         "ffCount": 6,
         "reloadTime": 0.08,
         "dispersion": 0.0044,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -47451,6 +47808,10 @@ ear [Indent level: 1],
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -47735,7 +48096,7 @@ rhs_weap_kpvt = {
     "aiDispersionCoefY": 10,
     "aiDispersionCoefX": 8,
     "selectionFireAnim": "zasleh3",
-    "reloadMagazineSound": ["a3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",1,1,10],
+    "reloadMagazineSound": ["a3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",1,1,10],
     "modes": ["manual","close","short","medium","far"],
     # Class: CfgWeapons\rhs_weap_kpvt\manual [Indent level: 1],
     "manual": {
@@ -47764,7 +48125,7 @@ rhs_weap_kpvt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -47778,6 +48139,10 @@ rhs_weap_kpvt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -48085,7 +48450,7 @@ rhs_weap_kpvt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -48099,6 +48464,10 @@ rhs_weap_kpvt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -48406,7 +48775,7 @@ rhs_weap_kpvt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -48420,6 +48789,10 @@ rhs_weap_kpvt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -48726,7 +49099,7 @@ rhs_weap_kpvt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -48740,6 +49113,10 @@ rhs_weap_kpvt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -49046,7 +49423,7 @@ rhs_weap_kpvt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "soundContinuous": 0,
         "initSpeed": 0,
         "flash": "gunfire",
@@ -49060,6 +49437,10 @@ rhs_weap_kpvt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -49343,9 +49724,9 @@ rhs_weap_kpvt = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -49362,6 +49743,10 @@ rhs_weap_kpvt = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -49702,7 +50087,7 @@ rhs_weap_nsvt_t72 = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -49717,6 +50102,10 @@ rhs_weap_nsvt_t72 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -50022,7 +50411,7 @@ rhs_weap_nsvt_t72 = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -50037,6 +50426,10 @@ rhs_weap_nsvt_t72 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -50342,7 +50735,7 @@ rhs_weap_nsvt_t72 = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -50357,6 +50750,10 @@ rhs_weap_nsvt_t72 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -50661,7 +51058,7 @@ rhs_weap_nsvt_t72 = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -50676,6 +51073,10 @@ rhs_weap_nsvt_t72 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -50980,7 +51381,7 @@ rhs_weap_nsvt_t72 = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "sounds": ["StandardSound"],
         "soundContinuous": 0,
         "initSpeed": 0,
@@ -50995,6 +51396,10 @@ rhs_weap_nsvt_t72 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -51272,7 +51677,7 @@ rhs_weap_nsvt_t72 = {
         "aimTransitionSpeed": 1
     },
     "initSpeed": 0,
-    "reloadMagazineSound": ["a3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",1,1,10],
+    "reloadMagazineSound": ["a3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",1,1,10],
     "autoFire": 1,
     "ballisticscomputer": 2,
     "soundServo": ["",0.0001,1],
@@ -51288,18 +51693,18 @@ rhs_weap_nsvt_t72 = {
     # Class: CfgWeapons\LMG_RCWS\GunClouds [Indent level: 1],
     "GunClouds": {
     },
-    "bullet1": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_01",0.281838,1,10],
-    "bullet2": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_02",0.281838,1,10],
-    "bullet3": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_03",0.281838,1,10],
-    "bullet4": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Metal_04",0.281838,1,10],
-    "bullet5": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_01",0.281838,1,10],
-    "bullet6": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_02",0.281838,1,10],
-    "bullet7": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_03",0.281838,1,10],
-    "bullet8": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Dirt_04",0.281838,1,10],
-    "bullet9": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_01",0.281838,1,10],
-    "bullet10": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_02",0.281838,1,10],
-    "bullet11": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_03",0.281838,1,10],
-    "bullet12": ["A3|sounds_f|weapons|shells|5_56|Shellcase_556_Grass_04",0.281838,1,10],
+    "bullet1": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_01",0.281838,1,10],
+    "bullet2": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_02",0.281838,1,10],
+    "bullet3": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_03",0.281838,1,10],
+    "bullet4": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Metal_04",0.281838,1,10],
+    "bullet5": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_01",0.281838,1,10],
+    "bullet6": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_02",0.281838,1,10],
+    "bullet7": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_03",0.281838,1,10],
+    "bullet8": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Dirt_04",0.281838,1,10],
+    "bullet9": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_01",0.281838,1,10],
+    "bullet10": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_02",0.281838,1,10],
+    "bullet11": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_03",0.281838,1,10],
+    "bullet12": ["A3\\sounds_f\\weapons\\shells\\5_56\\Shellcase_556_Grass_04",0.281838,1,10],
     "soundBullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
     "FCSMaxLeadSpeed": 0,
     "FCSZeroingDelay": 1,
@@ -51311,9 +51716,9 @@ rhs_weap_nsvt_t72 = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -51326,6 +51731,10 @@ rhs_weap_nsvt_t72 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -51606,7 +52015,7 @@ rhs_weap_pkt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -51619,6 +52028,10 @@ rhs_weap_pkt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -51927,7 +52340,7 @@ rhs_weap_pkt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -51940,6 +52353,10 @@ rhs_weap_pkt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -52246,7 +52663,7 @@ rhs_weap_pkt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -52259,6 +52676,10 @@ rhs_weap_pkt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -52565,7 +52986,7 @@ rhs_weap_pkt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -52578,6 +52999,10 @@ rhs_weap_pkt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -52884,7 +53309,7 @@ rhs_weap_pkt = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -52897,6 +53322,10 @@ rhs_weap_pkt = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -53190,13 +53619,13 @@ rhs_weap_pkt = {
     "cursoraim": "mg",
     "nameSound": "mgun",
     "reloadAction": "ManActReloadMagazine",
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -53212,6 +53641,10 @@ rhs_weap_pkt = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",
@@ -53526,7 +53959,7 @@ rhs_weap_pkt_bmd_coax = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -53539,6 +53972,10 @@ rhs_weap_pkt_bmd_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -53847,7 +54284,7 @@ rhs_weap_pkt_bmd_coax = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -53860,6 +54297,10 @@ rhs_weap_pkt_bmd_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -54166,7 +54607,7 @@ rhs_weap_pkt_bmd_coax = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -54179,6 +54620,10 @@ rhs_weap_pkt_bmd_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -54485,7 +54930,7 @@ rhs_weap_pkt_bmd_coax = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -54498,6 +54943,10 @@ rhs_weap_pkt_bmd_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -54804,7 +55253,7 @@ rhs_weap_pkt_bmd_coax = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -54817,6 +55266,10 @@ rhs_weap_pkt_bmd_coax = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -55110,13 +55563,13 @@ rhs_weap_pkt_bmd_coax = {
     "cursoraim": "mg",
     "nameSound": "mgun",
     "reloadAction": "ManActReloadMagazine",
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -55132,6 +55585,10 @@ rhs_weap_pkt_bmd_coax = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",
@@ -55446,7 +55903,7 @@ rhs_weap_pkt_btr = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -55459,6 +55916,10 @@ rhs_weap_pkt_btr = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -55767,7 +56228,7 @@ rhs_weap_pkt_btr = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -55780,6 +56241,10 @@ rhs_weap_pkt_btr = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -56086,7 +56551,7 @@ rhs_weap_pkt_btr = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -56099,6 +56564,10 @@ rhs_weap_pkt_btr = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -56405,7 +56874,7 @@ rhs_weap_pkt_btr = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -56418,6 +56887,10 @@ rhs_weap_pkt_btr = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -56724,7 +57197,7 @@ rhs_weap_pkt_btr = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -56737,6 +57210,10 @@ rhs_weap_pkt_btr = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -57030,13 +57507,13 @@ rhs_weap_pkt_btr = {
     "cursoraim": "mg",
     "nameSound": "mgun",
     "reloadAction": "ManActReloadMagazine",
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -57052,6 +57529,10 @@ rhs_weap_pkt_btr = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",
@@ -57367,7 +57848,7 @@ rhs_weap_pkt_btr80a = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -57380,6 +57861,10 @@ rhs_weap_pkt_btr80a = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -57688,7 +58173,7 @@ rhs_weap_pkt_btr80a = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -57701,6 +58186,10 @@ rhs_weap_pkt_btr80a = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -58007,7 +58496,7 @@ rhs_weap_pkt_btr80a = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -58020,6 +58509,10 @@ rhs_weap_pkt_btr80a = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -58326,7 +58819,7 @@ rhs_weap_pkt_btr80a = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -58339,6 +58832,10 @@ rhs_weap_pkt_btr80a = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -58645,7 +59142,7 @@ rhs_weap_pkt_btr80a = {
         "cursoraim": "mg",
         "nameSound": "mgun",
         "reloadAction": "ManActReloadMagazine",
-        "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+        "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
         "initSpeed": 0,
         "flash": "gunfire",
         "flashSize": 0.5,
@@ -58658,6 +59155,10 @@ rhs_weap_pkt_btr80a = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -58951,13 +59452,13 @@ rhs_weap_pkt_btr80a = {
     "cursoraim": "mg",
     "nameSound": "mgun",
     "reloadAction": "ManActReloadMagazine",
-    "reloadMagazineSound": ["A3|Sounds_F|arsenal|weapons_static|Static_HMG|reload_static_HMG",10,1,20],
+    "reloadMagazineSound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",10,1,20],
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\MGun\StandardSound [Indent level: 1],
     "StandardSound": {
-        "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_01",1.58489,1,2100],
-        "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_02",1.58489,1,2100],
-        "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_050|HMG_050_03",1.58489,1,2100],
+        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_01",1.58489,1,2100],
+        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_02",1.58489,1,2100],
+        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\HMG_050\\HMG_050_03",1.58489,1,2100],
         "soundBegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
         "soundsetshot": ["HMG050_Shot_SoundSet","HMG050_Tail_SoundSet"]
     },
@@ -58973,6 +59474,10 @@ rhs_weap_pkt_btr80a = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",
@@ -59270,6 +59775,10 @@ rhs_weap_PL1 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "hiddenSelections": [],
@@ -59573,8 +60082,8 @@ rhs_weap_s8 = {
         # Class: CfgWeapons\rhs_weap_s5\Far_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -59604,6 +60113,10 @@ rhs_weap_s8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -59895,8 +60408,8 @@ rhs_weap_s8 = {
         # Class: CfgWeapons\rhs_weap_s5\Medium_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -59926,6 +60439,10 @@ rhs_weap_s8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -60217,8 +60734,8 @@ rhs_weap_s8 = {
         # Class: CfgWeapons\rhs_weap_s5\Close_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -60248,6 +60765,10 @@ rhs_weap_s8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -60556,6 +61077,10 @@ rhs_weap_s8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -60854,8 +61379,8 @@ rhs_weap_s8 = {
         # Class: CfgWeapons\rhs_weap_s5\Burst\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -60880,6 +61405,10 @@ rhs_weap_s8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -61161,7 +61690,7 @@ rhs_weap_s8 = {
     "cursor": "missile",
     "cursoraim": "EmptyCursor",
     "cursorsize": 0,
-    "proxyShape": "rhsafrf|addons|rhs_a2port_air|data|proxy|ub16",
+    "proxyShape": "rhsafrf\\addons\\rhs_a2port_air\\data\\proxy\\ub16",
     # Class: CfgWeapons\rhs_weap_s5\gunClouds [Indent level: 1],
     "gunClouds": {
     },
@@ -61179,8 +61708,8 @@ rhs_weap_s8 = {
         # Class: CfgWeapons\rhs_weap_s5\Burst_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -61211,6 +61740,10 @@ rhs_weap_s8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -61494,6 +62027,7 @@ rhs_weap_s8 = {
         "aimTransitionSpeed": 1
     },
     "ballisticsComputer": 8,
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,700],
     "scope": 1,
     "type": 65536,
     "reloadTime": 0.2,
@@ -61515,6 +62049,10 @@ rhs_weap_s8 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -61774,8 +62312,8 @@ rhs_weap_s8df = {
         # Class: CfgWeapons\rhs_weap_s5\Far_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -61805,6 +62343,10 @@ rhs_weap_s8df = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -62096,8 +62638,8 @@ rhs_weap_s8df = {
         # Class: CfgWeapons\rhs_weap_s5\Medium_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -62127,6 +62669,10 @@ rhs_weap_s8df = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -62418,8 +62964,8 @@ rhs_weap_s8df = {
         # Class: CfgWeapons\rhs_weap_s5\Close_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -62449,6 +62995,10 @@ rhs_weap_s8df = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -62757,6 +63307,10 @@ rhs_weap_s8df = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -63055,8 +63609,8 @@ rhs_weap_s8df = {
         # Class: CfgWeapons\rhs_weap_s5\Burst\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -63081,6 +63635,10 @@ rhs_weap_s8df = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -63362,7 +63920,7 @@ rhs_weap_s8df = {
     "cursor": "missile",
     "cursoraim": "EmptyCursor",
     "cursorsize": 0,
-    "proxyShape": "rhsafrf|addons|rhs_a2port_air|data|proxy|ub16",
+    "proxyShape": "rhsafrf\\addons\\rhs_a2port_air\\data\\proxy\\ub16",
     # Class: CfgWeapons\rhs_weap_s5\gunClouds [Indent level: 1],
     "gunClouds": {
     },
@@ -63380,8 +63938,8 @@ rhs_weap_s8df = {
         # Class: CfgWeapons\rhs_weap_s5\Burst_AI\StandardSound [Indent level: 2],
         "StandardSound": {
             "weaponSoundEffect": "DefaultRifle",
-            "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
-            "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
+            "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+            "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundBegin": ["begin1",0.5,"begin2",0.5],
             "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
@@ -63412,6 +63970,10 @@ rhs_weap_s8df = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -63695,6 +64257,7 @@ rhs_weap_s8df = {
         "aimTransitionSpeed": 1
     },
     "ballisticsComputer": 8,
+    "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,700],
     "scope": 1,
     "type": 65536,
     "reloadTime": 0.2,
@@ -63716,6 +64279,10 @@ rhs_weap_s8df = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -63970,11 +64537,11 @@ rhs_weap_SPG9 = {
     # Class: CfgWeapons\rhs_weap_SPG9\StandardSound [Indent level: 1],
     "StandardSound": {
         "weaponSoundEffect": "DefaultRifle",
-        "begin1": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,1100],
-        "begin2": ["rhsafrf|addons|rhs_sounds|rpg|rpg_2",2.35,1,1100],
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,1100],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100],
         "soundBegin": ["begin1",0.5,"begin2",0.5]
     },
-    "reloadMagazineSound": ["|rhsafrf|addons|rhs_c_heavyweapons|sounds|flare_reload",0.000316228,1,20],
+    "reloadMagazineSound": ["\\rhsafrf\\addons\\rhs_c_heavyweapons\\sounds\\flare_reload",0.000316228,1,20],
     # Recoil Array: recoil,
     "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
     "aiRateOfFire": 10,
@@ -64000,6 +64567,10 @@ rhs_weap_SPG9 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "cursorAimOn": "",
@@ -64577,13 +65148,12 @@ rhs_weap_yakB = {
             "dispersion": 0.0066,
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -64600,6 +65170,7 @@ rhs_weap_yakB = {
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -64667,13 +65238,12 @@ rhs_weap_yakB = {
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -64683,6 +65253,7 @@ rhs_weap_yakB = {
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -64722,13 +65293,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -64738,6 +65308,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -64776,13 +65347,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -64792,6 +65362,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -64830,13 +65401,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -64846,6 +65416,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -64884,13 +65455,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -64900,6 +65470,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -64930,6 +65501,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -65222,13 +65797,12 @@ ear [Indent level: 1],
         "LowROF": {
             "displayName": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -65246,6 +65820,7 @@ ear [Indent level: 1],
             "midRangeProbab": 0.01,
             "maxRange": 2,
             "maxRangeProbab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -65287,13 +65862,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -65303,6 +65877,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -65342,13 +65917,12 @@ ear [Indent level: 1],
             "maxRange": 400,
             "maxRangeProbab": 0.75,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -65358,6 +65932,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -65396,13 +65971,12 @@ ear [Indent level: 1],
             "maxRange": 1000,
             "maxRangeProbab": 0.7,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -65412,6 +65986,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -65450,13 +66025,12 @@ ear [Indent level: 1],
             "maxRange": 1800,
             "maxRangeProbab": 0.15,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -65466,6 +66040,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -65504,13 +66079,12 @@ ear [Indent level: 1],
             "maxRange": 2500,
             "maxRangeProbab": 0.05,
             "displayName": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
             "StandardSound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
                 "soundBegin": ["begin1",1]
             },
-            "soundContinuous": 1,
             "flash": "gunfire",
             "flashSize": 0.1,
             # Recoil Array: recoil,
@@ -65520,6 +66094,7 @@ ear [Indent level: 1],
             "ffCount": 6,
             "reloadTime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundEnd": ["sound",1],
             "autoFire": 1,
@@ -65550,6 +66125,10 @@ ear [Indent level: 1],
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -65821,13 +66400,12 @@ ear [Indent level: 1],
     "LowROF": {
         "displayName": "300rpm",
         "burst": 5,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -65845,6 +66423,7 @@ ear [Indent level: 1],
         "midRangeProbab": 0.01,
         "maxRange": 2,
         "maxRangeProbab": 0.01,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -65887,13 +66466,12 @@ ear [Indent level: 1],
         "maxRange": 400,
         "maxRangeProbab": 0.75,
         "displayName": "300rpm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\gatling_30mm_base\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
             "soundBegin": ["begin1",1]
         },
-        "soundContinuous": 1,
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -65903,6 +66481,7 @@ ear [Indent level: 1],
         "ffCount": 6,
         "reloadTime": 0.08,
         "dispersion": 0.0044,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
         "autoFire": 1,
@@ -65933,6 +66512,10 @@ ear [Indent level: 1],
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",

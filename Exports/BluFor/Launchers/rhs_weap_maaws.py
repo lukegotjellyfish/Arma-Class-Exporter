@@ -165,6 +165,10 @@ rhs_weap_maaws = {
     "type": 4,
     "count": 1,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

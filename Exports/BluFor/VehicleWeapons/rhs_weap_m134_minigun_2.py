@@ -10,11 +10,11 @@ rhs_weap_m134_minigun_2 = {
     "LowROF": {
         # Class: CfgWeapons\rhs_weap_m134_minigun_1\LowROF\StandardSound [Indent level: 2]
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_m134_Shot_SoundSet","RHSUSF_rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m134_shot_soundset","jsrs_5x56mm_reverb_soundset"]
         },
         "soundContinuous": 0,
         "displayName": "2x M134 Minigun 7.62 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "flash": "gunfire",
         "flashSize": 0.1,
         # Recoil Array: recoil,
@@ -62,11 +62,11 @@ rhs_weap_m134_minigun_2 = {
     "HighROF": {
         # Class: CfgWeapons\rhs_weap_m134_minigun_1\HighROF\StandardSound [Indent level: 2]
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_m134_Shot_SoundSet","RHSUSF_rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m134_shot_soundset","jsrs_5x56mm_reverb_soundset"]
         },
         "soundContinuous": 0,
         "displayName": "2x M134 Minigun 7.62 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "showToPlayer": 1,
         "multiplier": 3,
         "flash": "gunfire",
@@ -114,7 +114,7 @@ rhs_weap_m134_minigun_2 = {
     "close": {
         # Class: CfgWeapons\rhs_weap_m134_minigun_1\close\StandardSound [Indent level: 2]
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_m134_Shot_SoundSet","RHSUSF_rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m134_shot_soundset","jsrs_5x56mm_reverb_soundset"]
         },
         "soundContinuous": 0,
         "soundBurst": 0,
@@ -132,7 +132,7 @@ rhs_weap_m134_minigun_2 = {
         "maxRange": 300,
         "maxRangeProbab": 0.2,
         "displayName": "2x M134 Minigun 7.62 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "multiplier": 3,
         "flash": "gunfire",
         "flashSize": 0.1,
@@ -167,7 +167,7 @@ rhs_weap_m134_minigun_2 = {
     "short": {
         # Class: CfgWeapons\rhs_weap_m134_minigun_1\short\StandardSound [Indent level: 2]
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_m134_Shot_SoundSet","RHSUSF_rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m134_shot_soundset","jsrs_5x56mm_reverb_soundset"]
         },
         "soundContinuous": 0,
         "aiBurstTerminable": 1,
@@ -185,7 +185,7 @@ rhs_weap_m134_minigun_2 = {
         "maxRangeProbab": 0.2,
         "soundBurst": 0,
         "displayName": "2x M134 Minigun 7.62 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "multiplier": 3,
         "flash": "gunfire",
         "flashSize": 0.1,
@@ -220,7 +220,7 @@ rhs_weap_m134_minigun_2 = {
     "medium": {
         # Class: CfgWeapons\rhs_weap_m134_minigun_1\medium\StandardSound [Indent level: 2]
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_m134_Shot_SoundSet","RHSUSF_rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m134_shot_soundset","jsrs_5x56mm_reverb_soundset"]
         },
         "soundContinuous": 0,
         "aiBurstTerminable": 1,
@@ -238,7 +238,7 @@ rhs_weap_m134_minigun_2 = {
         "maxRangeProbab": 0.1,
         "soundBurst": 0,
         "displayName": "2x M134 Minigun 7.62 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "multiplier": 3,
         "flash": "gunfire",
         "flashSize": 0.1,
@@ -273,7 +273,7 @@ rhs_weap_m134_minigun_2 = {
     "far": {
         # Class: CfgWeapons\rhs_weap_m134_minigun_1\far\StandardSound [Indent level: 2]
         "StandardSound": {
-            "soundSetShot": ["RHSUSF_m134_Shot_SoundSet","RHSUSF_rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m134_shot_soundset","jsrs_5x56mm_reverb_soundset"]
         },
         "soundContinuous": 0,
         "aiBurstTerminable": 1,
@@ -291,7 +291,7 @@ rhs_weap_m134_minigun_2 = {
         "maxRangeProbab": 0.05,
         "soundBurst": 0,
         "displayName": "2x M134 Minigun 7.62 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "multiplier": 3,
         "flash": "gunfire",
         "flashSize": 0.1,
@@ -340,6 +340,10 @@ rhs_weap_m134_minigun_2 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

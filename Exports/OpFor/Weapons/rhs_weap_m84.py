@@ -94,7 +94,7 @@ rhs_weap_m84 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
@@ -159,7 +159,7 @@ rhs_weap_m84 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
@@ -214,7 +214,7 @@ rhs_weap_m84 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
@@ -269,7 +269,7 @@ rhs_weap_m84 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
@@ -325,7 +325,7 @@ rhs_weap_m84 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
@@ -380,7 +380,7 @@ rhs_weap_m84 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
@@ -464,11 +464,15 @@ rhs_weap_m84 = {
     "ffFrequency": 11,
     "ffCount": 3,
     "weaponPoolAvailable": 1,
-    "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

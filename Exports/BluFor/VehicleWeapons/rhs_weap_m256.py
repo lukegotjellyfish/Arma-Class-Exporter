@@ -35,7 +35,7 @@ rhs_weap_m256 = {
         "StandardSound": {
             "soundSetShot": ["RHSUSF_120mm_Shot_SoundSet","RHSUSF_120mm_Int_Shot_SoundSet","RHSUSF_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -101,7 +101,7 @@ rhs_weap_m256 = {
         "midRangeProbab": 0.8,
         "maxRange": 1000,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -155,7 +155,7 @@ rhs_weap_m256 = {
         "midRangeProbab": 0.85,
         "maxRange": 1500,
         "maxRangeProbab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -210,7 +210,7 @@ rhs_weap_m256 = {
         "midRangeProbab": 0.85,
         "maxRange": 2000,
         "maxRangeProbab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -264,7 +264,7 @@ rhs_weap_m256 = {
         "midRangeProbab": 0.8,
         "maxRange": 3500,
         "maxRangeProbab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundContinuous": 0,
         "magazineReloadTime": 6,
         "autoReload": 1,
@@ -328,12 +328,12 @@ rhs_weap_m256 = {
         "midRangeProbab": 0.95,
         "maxRange": 8000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\cannon_120mm\player\StandardSound [Indent level: 2],
         "StandardSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
             "soundBegin": ["begin1",1],
-            "SoundSetShot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "SoundSetShot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundContinuous": 0,
         "reloadTime": 6,
@@ -374,6 +374,7 @@ rhs_weap_m256 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
+    "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\CannonCore\GunClouds [Indent level: 1],
     "GunClouds": {
@@ -382,6 +383,10 @@ rhs_weap_m256 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "laser": 0,

@@ -67,10 +67,10 @@ RHS_weap_m134_pylon = {
         "maxRangeProbab": 0.004,
         "showToPlayer": 1,
         "multiplier": 1,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\M134_minigun\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_762mm|762mm_01_burst",3.98107,1,1300,[2,36879]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|m134|minigun_s1.ogg",0.5,1,2200,[2,36879]],
             "soundBegin": ["begin1",1]
         },
         "ffMagnitude": 0.5,
@@ -120,10 +120,10 @@ RHS_weap_m134_pylon = {
         "maxRangeProbab": 0.004,
         "showToPlayer": 1,
         "multiplier": 1,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\M134_minigun\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_762mm|762mm_01_burst",3.98107,1,1300,[2,36879]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|m134|minigun_s1.ogg",0.5,1,2200,[2,36879]],
             "soundBegin": ["begin1",1]
         },
         "ffMagnitude": 0.5,
@@ -177,10 +177,10 @@ RHS_weap_m134_pylon = {
         "aiDispersionCoefY": 3,
         "dispersion": 0.0055,
         "multiplier": 1,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\M134_minigun\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_762mm|762mm_01_burst",3.98107,1,1300,[2,36879]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|m134|minigun_s1.ogg",0.5,1,2200,[2,36879]],
             "soundBegin": ["begin1",1]
         },
         "ffMagnitude": 0.5,
@@ -231,10 +231,10 @@ RHS_weap_m134_pylon = {
         "aiDispersionCoefY": 3,
         "dispersion": 0.0055,
         "multiplier": 1,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\M134_minigun\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_762mm|762mm_01_burst",3.98107,1,1300,[2,36879]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|m134|minigun_s1.ogg",0.5,1,2200,[2,36879]],
             "soundBegin": ["begin1",1]
         },
         "ffMagnitude": 0.5,
@@ -284,10 +284,10 @@ RHS_weap_m134_pylon = {
         "reloadTime": 0.03,
         "dispersion": 0.0055,
         "multiplier": 1,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\M134_minigun\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_762mm|762mm_01_burst",3.98107,1,1300,[2,36879]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|m134|minigun_s1.ogg",0.5,1,2200,[2,36879]],
             "soundBegin": ["begin1",1]
         },
         "ffMagnitude": 0.5,
@@ -337,10 +337,10 @@ RHS_weap_m134_pylon = {
         "reloadTime": 0.03,
         "dispersion": 0.0055,
         "multiplier": 1,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\M134_minigun\LowROF\StandardSound [Indent level: 2],
         "StandardSound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_762mm|762mm_01_burst",3.98107,1,1300,[2,36879]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|m134|minigun_s1.ogg",0.5,1,2200,[2,36879]],
             "soundBegin": ["begin1",1]
         },
         "ffMagnitude": 0.5,
@@ -376,6 +376,10 @@ RHS_weap_m134_pylon = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

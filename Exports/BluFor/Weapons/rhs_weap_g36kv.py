@@ -492,7 +492,7 @@ rhs_weap_g36kv = {
             },
             "allowedSlots": [901]
         },
-        "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "aiRateOfFire": 0.5,
@@ -501,6 +501,10 @@ rhs_weap_g36kv = {
         "access": 3,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -867,6 +871,7 @@ rhs_weap_g36kv = {
         "opticsZoomMax": 1.25,
         "opticsZoomInit": 0.75,
         "weaponInfoType": "RscWeaponZeroing",
+        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursor": "EmptyCursor",
         "value": 3,
         "type": 0,
@@ -895,6 +900,10 @@ rhs_weap_g36kv = {
         "scope": 0,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1173,11 +1182,11 @@ rhs_weap_g36kv = {
         "maxRangeProbab": 0.1,
         # Class: CfgWeapons\rhs_weap_g36_base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_G36_Shot_SoundSet","RHSSAF_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_g36_base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_G36_Shot_SoundSet","RHSSAF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1228,11 +1237,11 @@ rhs_weap_g36kv = {
         "maxRangeProbab": 0.1,
         # Class: CfgWeapons\rhs_weap_g36_base\Burst\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_G36_Shot_SoundSet","RHSSAF_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_g36_base\Burst\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_G36_Shot_SoundSet","RHSSAF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundLoop": ["sound",1],
@@ -1285,11 +1294,11 @@ rhs_weap_g36kv = {
         "maxRangeProbab": 0.1,
         # Class: CfgWeapons\rhs_weap_g36_base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_G36_Shot_SoundSet","RHSSAF_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_g36_base\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_G36_Shot_SoundSet","RHSSAF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
@@ -1342,11 +1351,11 @@ rhs_weap_g36kv = {
         "maxRangeProbab": 0.1,
         # Class: CfgWeapons\rhs_weap_g36_base\Burst\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_G36_Shot_SoundSet","RHSSAF_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_g36_base\Burst\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_G36_Shot_SoundSet","RHSSAF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundLoop": ["sound",1],
@@ -1399,11 +1408,11 @@ rhs_weap_g36kv = {
         "reloadtime": 0.08,
         # Class: CfgWeapons\rhs_weap_g36_base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_G36_Shot_SoundSet","RHSSAF_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_g36_base\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_G36_Shot_SoundSet","RHSSAF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
@@ -1455,11 +1464,11 @@ rhs_weap_g36kv = {
         "reloadtime": 0.08,
         # Class: CfgWeapons\rhs_weap_g36_base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_G36_Shot_SoundSet","RHSSAF_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_g36_base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_G36_Shot_SoundSet","RHSSAF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1511,11 +1520,11 @@ rhs_weap_g36kv = {
         "reloadtime": 0.08,
         # Class: CfgWeapons\rhs_weap_g36_base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_G36_Shot_SoundSet","RHSSAF_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_g36_base\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_G36_Shot_SoundSet","RHSSAF_sd_Rifle1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_g36_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1592,11 +1601,15 @@ rhs_weap_g36kv = {
     "ffFrequency": 11,
     "ffCount": 3,
     "weaponPoolAvailable": 1,
-    "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

@@ -16,10 +16,15 @@ rhsusf_weap_M257_8 = {
         "magazines": ["rhsusf_mag_L8A3_8"],
         "magazineReloadTime": 60,
         "autoReload": 0,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\SmokeLauncher\StandardSound [Indent level: 1],
         "StandardSound": {
-            "soundSetShot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+            "soundSetShot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_1.ogg",1,1,800],
+            "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_2.ogg",1,1,800],
+            "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_3.ogg",1,1,800],
+            "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_4.ogg",1,1,800],
+            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
         },
         "canLock": 0,
         "simulation": "cmlauncher",
@@ -43,6 +48,10 @@ rhsusf_weap_M257_8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -334,10 +343,15 @@ rhsusf_weap_M257_8 = {
         "magazines": ["rhsusf_mag_L8A3_8"],
         "magazineReloadTime": 60,
         "autoReload": 0,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\SmokeLauncher\StandardSound [Indent level: 1],
         "StandardSound": {
-            "soundSetShot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+            "soundSetShot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_1.ogg",1,1,800],
+            "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_2.ogg",1,1,800],
+            "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_3.ogg",1,1,800],
+            "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_4.ogg",1,1,800],
+            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
         },
         "canLock": 0,
         "simulation": "cmlauncher",
@@ -361,6 +375,10 @@ rhsusf_weap_M257_8 = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -639,10 +657,15 @@ rhsusf_weap_M257_8 = {
     },
     "scope": 2,
     "displayName": "Smoke Screen",
-    "sounds": ["StandardSound"],
+    "sounds": ["standardsound"],
     # Class: CfgWeapons\SmokeLauncher\StandardSound [Indent level: 1],
     "StandardSound": {
-        "soundSetShot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+        "soundSetShot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+        "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_1.ogg",1,1,800],
+        "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_2.ogg",1,1,800],
+        "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_3.ogg",1,1,800],
+        "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_4.ogg",1,1,800],
+        "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
     },
     "reloadTime": 3,
     "magazineReloadTime": 60,
@@ -672,6 +695,10 @@ rhsusf_weap_M257_8 = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

@@ -89,7 +89,7 @@ rhs_weap_fim92 = {
     "modes": ["Single","TopDown"],
     # Class: CfgWeapons\launch_Titan_base\Single [Indent level: 1],
     "Single": {
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\launch_Titan_base\Single\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
         },
@@ -97,7 +97,7 @@ rhs_weap_fim92 = {
         "StandardSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Titan",3.16228,1,2000],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -156,7 +156,7 @@ rhs_weap_fim92 = {
         "midRangeProbab": 0.95,
         "maxRange": 2000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\launch_Titan_base\Single\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
         },
@@ -164,7 +164,7 @@ rhs_weap_fim92 = {
         "StandardSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Titan",3.16228,1,2000],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -240,6 +240,10 @@ rhs_weap_fim92 = {
     "type": 4,
     "count": 1,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

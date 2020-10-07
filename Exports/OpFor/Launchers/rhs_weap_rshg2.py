@@ -146,6 +146,10 @@ rhs_weap_rshg2 = {
     "count": 1,
     "inertia": 1,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

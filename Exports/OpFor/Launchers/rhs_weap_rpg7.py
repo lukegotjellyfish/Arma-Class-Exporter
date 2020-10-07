@@ -303,6 +303,10 @@ rhs_weap_rpg7 = {
     "type": 4,
     "count": 1,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

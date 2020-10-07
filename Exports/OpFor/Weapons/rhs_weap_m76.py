@@ -9,11 +9,11 @@ rhs_weap_m76 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_m76\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M76_Shot_SoundSet","RHSSAF_Rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m76_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m76\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_M76_Shot_SoundSet","RHSSAF_sd_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m70_shot_silenced_soundset","jsrs_7x62mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.1,
         "dispersion": 0.00095,
@@ -76,11 +76,11 @@ rhs_weap_m76 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_m76\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M76_Shot_SoundSet","RHSSAF_Rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m76_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m76\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_M76_Shot_SoundSet","RHSSAF_sd_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m70_shot_silenced_soundset","jsrs_7x62mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.1,
         "dispersion": 0.00095,
@@ -132,11 +132,11 @@ rhs_weap_m76 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_m76\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M76_Shot_SoundSet","RHSSAF_Rifle2_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m76_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m76\Single\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_M76_Shot_SoundSet","RHSSAF_sd_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m70_shot_silenced_soundset","jsrs_7x62mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.1,
         "dispersion": 0.00095,
@@ -478,7 +478,7 @@ rhs_weap_m76 = {
             },
             "allowedSlots": [901]
         },
-        "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "aiRateOfFire": 0.5,
@@ -487,6 +487,10 @@ rhs_weap_m76 = {
         "access": 3,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -846,6 +850,7 @@ rhs_weap_m76 = {
         "opticsZoomMax": 1.25,
         "opticsZoomInit": 0.75,
         "weaponInfoType": "RscWeaponZeroing",
+        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursorAim": "gl",
         "cursor": "EmptyCursor",
         "value": 3,
@@ -875,6 +880,10 @@ rhs_weap_m76 = {
         "scope": 0,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1156,11 +1165,11 @@ rhs_weap_m76 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_m70_base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M70_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m70_base\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_M70_Shot_SoundSet","RHSSAF_sd_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m70_shot_silenced_soundset","jsrs_7x62mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.1,
         "dispersion": 0.0021,
@@ -1224,11 +1233,11 @@ rhs_weap_m76 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\rhs_weap_m70_base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSSAF_M70_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons\rhs_weap_m70_base\FullAuto\SilencedSound [Indent level: 2],
         "SilencedSound": {
-            "soundSetShot": ["RHSSAF_sd_M70_Shot_SoundSet","RHSSAF_sd_MMG1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_m70_shot_silenced_soundset","jsrs_7x62mm_sd_reverb_soundset"]
         },
         "reloadTime": 0.1,
         "dispersion": 0.0021,
@@ -1365,6 +1374,7 @@ rhs_weap_m76 = {
         "opticsZoomMax": 1.25,
         "opticsZoomInit": 0.75,
         "weaponInfoType": "RscWeaponZeroing",
+        "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursorAim": "gl",
         "cursor": "EmptyCursor",
         "value": 3,
@@ -1394,6 +1404,10 @@ rhs_weap_m76 = {
         "scope": 0,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -1685,11 +1699,15 @@ rhs_weap_m76 = {
     "ffCount": 3,
     "weaponPoolAvailable": 1,
     "maxZeroing": 1000,
-    "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

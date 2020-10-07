@@ -238,7 +238,7 @@ rhs_weap_MP44 = {
             },
             "allowedSlots": [901]
         },
-        "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "aiRateOfFire": 0.5,
@@ -247,6 +247,10 @@ rhs_weap_MP44 = {
         "access": 3,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -543,7 +547,7 @@ rhs_weap_MP44 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_MP44_base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_STG44_Shot_SoundSet","RHSGREF_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_rook40_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -596,7 +600,7 @@ rhs_weap_MP44 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_MP44_base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_STG44_Shot_SoundSet","RHSGREF_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_rook40_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
@@ -651,7 +655,7 @@ rhs_weap_MP44 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_MP44_base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_STG44_Shot_SoundSet","RHSGREF_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_rook40_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -703,7 +707,7 @@ rhs_weap_MP44 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_MP44_base\Single\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_STG44_Shot_SoundSet","RHSGREF_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_rook40_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -755,7 +759,7 @@ rhs_weap_MP44 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\rhs_weap_MP44_base\FullAuto\StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["RHSGREF_STG44_Shot_SoundSet","RHSGREF_mmg1_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_rook40_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundEnd": ["sound",1],
@@ -821,11 +825,15 @@ rhs_weap_MP44 = {
     "ffCount": 3,
     "weaponPoolAvailable": 1,
     "maxZeroing": 1000,
-    "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

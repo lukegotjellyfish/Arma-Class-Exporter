@@ -53,6 +53,10 @@ rhs_weap_tow_launcher_static = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -372,6 +376,10 @@ rhs_weap_tow_launcher_static = {
         "value": 2,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -660,7 +668,7 @@ rhs_weap_tow_launcher_static = {
     },
     # Class: CfgWeapons\missiles_titan\StandardSound [Indent level: 1],
     "StandardSound": {
-        "soundSetShot": ["Static_Launcher_Titan_ATAA_Shot_SoundSet","Static_Launcher_Titan_ATAA_Tail_SoundSet"]
+        "soundSetShot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"]
     },
     "holdsterAnimValue": 1,
     "scope": 1,
@@ -676,6 +684,10 @@ rhs_weap_tow_launcher_static = {
     "value": 2,
     "picture": "",
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "cursorAimOn": "",

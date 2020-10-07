@@ -209,7 +209,7 @@ rhs_weap_type94_new = {
             },
             "allowedSlots": [901]
         },
-        "zeroingSound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingSound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "aiRateOfFire": 0.5,
@@ -218,6 +218,10 @@ rhs_weap_type94_new = {
         "access": 3,
         "picture": "",
         "uiPicture": "",
+        # Ammo: ,
+        "ammo": {
+            "ammo": "",
+        },
         "ammo": "",
         "cursorSize": 1,
         "showAimCursorInternal": 1,
@@ -557,7 +561,7 @@ rhs_weap_type94_new = {
                     "volume": "(1-interior/1.4)*houses"
                 }
             },
-            "soundSetShot": ["Rook40_Shot_SoundSet","Rook40_Tail_SoundSet","Rook40_InteriorTail_SoundSet"],
+            "soundSetShot": ["jsrs_rook40_shot_soundset","jsrs_9mm_reverb_soundset"],
             "closure1": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_01",0.158489,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_02",0.158489,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
@@ -601,7 +605,7 @@ rhs_weap_type94_new = {
                     "volume": "(1-interior/1.4)*houses"
                 }
             },
-            "SoundSetShot": ["Rook40_silencerShot_SoundSet","Rook40_silencerTail_SoundSet","Rook40_silencerInteriorTail_SoundSet"],
+            "SoundSetShot": ["jsrs_rook40_shot_silenced_soundset","jsrs_9mm_sd_reverb_soundset"],
             "closure1": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_01",0.158489,1,10],
             "closure2": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_02",0.158489,1.1,10],
             "soundClosure": ["closure1",0.5,"closure2",0.5]
@@ -664,19 +668,19 @@ rhs_weap_type94_new = {
         "muzzleInner": [0,0,0.1,0.1],
         "permanent": 0.1
     },
-    "bullet1": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_01",0.562341,1,15],
-    "bullet2": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_02",0.562341,1,15],
-    "bullet3": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_03",0.562341,1,15],
-    "bullet4": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_04",0.562341,1,15],
-    "bullet5": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_01",0.562341,1,15],
-    "bullet6": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_02",0.562341,1,15],
-    "bullet7": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_03",0.562341,1,15],
-    "bullet8": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_04",0.562341,1,15],
-    "bullet9": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_01",0.562341,1,15],
-    "bullet10": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_02",0.562341,1,15],
-    "bullet11": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_03",0.562341,1,15],
-    "bullet12": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_04",0.562341,1,15],
-    "soundBullet": ["bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083],
+    "bullet1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_1.ogg",2.0099,1,10],
+    "bullet2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_2.ogg",2.0099,1,10],
+    "bullet3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_3.ogg",2.0099,1,10],
+    "bullet4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_4.ogg",2.0099,1,10],
+    "bullet5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_1.ogg",2.0099,1,10],
+    "bullet6": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_2.ogg",2.0099,1,10],
+    "bullet7": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_3.ogg",2.0099,1,10],
+    "bullet8": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_4.ogg",2.0099,1,10],
+    "bullet9": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_1.ogg",2.0099,1,10],
+    "bullet10": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_2.ogg",2.0099,1,10],
+    "bullet11": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_3.ogg",2.0099,1,10],
+    "bullet12": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_4.ogg",2.0099,1,10],
+    "soundbullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
     "opticsZoomMin": 0.25,
     "opticsZoomMax": 1.25,
     "opticsZoomInit": 0.75,
@@ -710,6 +714,10 @@ rhs_weap_type94_new = {
     "access": 3,
     "value": 2,
     "uiPicture": "",
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

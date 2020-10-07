@@ -102,7 +102,7 @@ rhs_weap_igla = {
     "modes": ["Single","TopDown"],
     # Class: CfgWeapons\launch_Titan_base\Single [Indent level: 1],
     "Single": {
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\launch_Titan_base\Single\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
         },
@@ -110,7 +110,7 @@ rhs_weap_igla = {
         "StandardSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Titan",3.16228,1,2000],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -169,7 +169,7 @@ rhs_weap_igla = {
         "midRangeProbab": 0.95,
         "maxRange": 2000,
         "maxRangeProbab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons\launch_Titan_base\Single\BaseSoundModeType [Indent level: 2],
         "BaseSoundModeType": {
         },
@@ -177,7 +177,7 @@ rhs_weap_igla = {
         "StandardSound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Titan",3.16228,1,2000],
             "soundBegin": ["begin1",1],
-            "soundSetShot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
+            "soundSetShot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -225,9 +225,9 @@ rhs_weap_igla = {
         "priority": 3
     },
     "hiddenSelections": ["camo_launcher","camo_tube"],
+    "soundFly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|SoundFly1.ogg",1,1.5,500],
     "swayCoef": 0.5,
     "sound": ["A3|Sounds_F|weapons|Launcher|rocket_launcher_5",1,1,800],
-    "soundFly": ["A3|sounds_f|weapons|rockets|rocket_fly_1",0.316228,1.5,700],
     "weaponPoolAvailable": 1,
     "textureType": "semi",
     "autoAimEnabled": 0,
@@ -249,6 +249,10 @@ rhs_weap_igla = {
     "type": 4,
     "count": 1,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "showAimCursorInternal": 1,
     "laser": 0,

@@ -36,8 +36,18 @@ for side in sides:
 						else:
 							ignore += 1
 						print("        Ignore level: " + str(ignore))
-				outFile.write(joinedFile)
+				outFile.write(joinedFile.replace("|", "\\\\"))
 				print("      Written to " + output + "\n")
 
+sideOut = cwd + "\\" + "Exports" + "\\"
+with open(sideOut + "CombinedBluFor.py", "w", encoding="utf-8") as BluFor,  open(sideOut + "CombinedOpFor.py", "w", encoding="utf-8") as OpFor:
+	for root, dirs, files in os.walk(cwd + "\\" + "Exports", topdown = False):
+		for file in files:
+			print(file)
+			with open(os.path.join(root, file), "r", encoding="latin-1") as catDict:
+				if file[:3] == "Blu":
+					BluFor.write(catDict.read() + "\n")
+				elif file[:2] == "Op":
+					OpFor.write(catDict.read() + "\n")
 
 input("HALT")

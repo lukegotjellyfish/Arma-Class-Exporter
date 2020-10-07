@@ -57,7 +57,7 @@ rhs_mag_M441_HE = {
             "frequency": 20,
             "distance": 1
         },
-        "SoundSetExplosion": ["GrenadeHe_Exp_SoundSet","GrenadeHe_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "SoundSetExplosion": ["jsrs_grenade_explosion_soundset","jsrs_40mm_explosion_stereo_soundset","jsrs_grenade_explosion_reverb_soundset"],
         "soundHit5": ["A3|Sounds_F|weapons|Explosion|gr_explosion_5",3.16228,1,1400],
         "soundHit6": ["A3|Sounds_F|weapons|Explosion|gr_explosion_6",3.16228,1,1400],
         "supersonicCrackNear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.316228,1,50],
@@ -171,6 +171,10 @@ rhs_mag_M441_HE = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -196,7 +200,7 @@ rhs_mag_M441_HE = {
         "EventHandlers": {
         },
     },
-        "EventHandlers": "rhsusf_40mm_HE",
+    "EventHandlers": "rhsusf_40mm_HE",
     "displayName": "M441 HE Grenade Round",
     "displaynameshort": "HE Grenade",
     "descriptionshort": "Type: High Explosive Grenade<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: M203, M320, M79",

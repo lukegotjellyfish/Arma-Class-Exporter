@@ -91,7 +91,11 @@ rhs_weap_M136_hedp = {
     # Class: CfgWeapons\rhs_weap_M136\StandardSound [Indent level: 1],
     "StandardSound": {
         "begin1": ["rhsusf|addons|rhsusf_weapons2|smaw|sound|smaw_s2.wav","db20",1,1200],
-        "soundBegin": ["begin1",1]
+        "soundBegin": ["begin1",1],
+        "soundsetshot": ["jsrs_smaw_shot_soundset","jsrs_warhead_reverb_soundset"]
+    },
+    # Class: CfgWeapons\rhs_weap_M136\BaseSoundModeType [Indent level: 1],
+    "BaseSoundModeType": {
     },
     "htMin": 1,
     "htMax": 460,
@@ -131,6 +135,10 @@ rhs_weap_M136_hedp = {
     "count": 1,
     "inertia": 1,
     "access": 3,
+    # Ammo: ,
+    "ammo": {
+        "ammo": "",
+    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,

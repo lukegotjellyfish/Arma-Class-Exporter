@@ -73,7 +73,7 @@ rhs_mag_maaws_HE = {
         "suppressionRadiusHit": 30,
         "soundHit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["",1,1,20],
+        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
@@ -81,6 +81,9 @@ rhs_mag_maaws_HE = {
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
+        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
+        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
+        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -183,6 +186,10 @@ rhs_mag_maaws_HE = {
         "shootDistraction": -1,
         "explosionTime": 0,
         "icon": "",
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -202,7 +209,7 @@ rhs_mag_maaws_HE = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
-        "minDamageForCamShakeHit": "rhs_ammo_maaws_HE",
+    "minDamageForCamShakeHit": "rhs_ammo_maaws_HE",
     "type": "2*        256",
     "mass": "68,36",
     "value": 5,

@@ -686,28 +686,12 @@ rhs_mag_M151_19_green = {
                 "alpha": 1,
                 # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: static,
-                    "source": {
-                        "source": "static",
-                    },
-                        "source": "static",
-                    # Ammo: RKT,
-                    "text": {
-                        "text": "RKT",
-                    },
-                        "text": "RKT",
+                    "type": "text",
+                    "source": "static",
+                    "text": "RKT",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: center,
-                    "align": {
-                        "align": "center",
-                    },
-                        "align": "center",
+                    "align": "center",
                     "pos": [[0.005,0.02],1],
                     "right": [[0.05,0.02],1],
                     "down": [[0.005,0.105],1]
@@ -768,58 +752,26 @@ rhs_mag_M151_19_green = {
             },
             # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw [Indent level: 3],
             "Draw": {
-                # Ammo: pylonSelected
-                "condition": {
-                    "condition": "pylonSelected"
-                }
-                    "condition": "pylonSelected",
+                "condition": "pylonSelected",
                 # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonText1 [Indent level: 4],
                 "PylonText1": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: static,
-                    "source": {
-                        "source": "static",
-                    },
-                        "source": "static",
-                    # Ammo: 6PD,
-                    "text": {
-                        "text": "6PD",
-                    },
-                        "text": "6PD",
+                    "type": "text",
+                    "source": "static",
+                    "text": "6PD",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: center,
-                    "align": {
-                        "align": "center",
-                    },
-                        "align": "center",
+                    "align": "center",
                     "pos": [[0.005,0.02],1],
                     "right": [[0.05,0.02],1],
                     "down": [[0.005,0.105],1]
                 },
                 # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonAmmo [Indent level: 4],
                 "PylonAmmo": {
-                    # Ammo: text
-                    "type": {
-                        "type": "text"
-                    }
-                        "type": "text",
-                    # Ammo: ammo,
-                    "source": {
-                        "source": "ammo",
-                    },
-                        "source": "ammo",
+                    "type": "text",
+                    "source": "ammo",
                     "scale": 1,
                     "sourceScale": 1,
-                    # Ammo: center,
-                    "align": {
-                        "align": "center",
-                    },
-                        "align": "center",
+                    "align": "center",
                     "pos": [[0.015,0.02],1],
                     "right": [[0.06,0.02],1],
                     "down": [[0.015,0.105],1]
@@ -894,14 +846,14 @@ rhs_mag_M151_19_green = {
             "frequency": 20,
             "distance": 1
         },
-        "SoundSetExplosion": ["RocketsLight_Exp_SoundSet","RocketsLight_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "SoundSetExplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
         "simulationStep": 0.01,
         "soundHit1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_01",2.51189,1,2000],
         "soundHit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,2000],
         "soundHit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,2000],
         "multiSoundHit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
         "explosionSoundEffect": "DefaultExplosion",
-        "soundEngine": ["",1,1,50],
+        "soundEngine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
         "supersonicCrackNear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.398107,1,20],
         "supersonicCrackFar": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_50meters",0.316228,1,50],
         "CraterEffects": "ATMissileCrater",
@@ -924,6 +876,8 @@ rhs_mag_M151_19_green = {
         "mfMax": 100,
         "mFact": 0,
         "tBody": 0,
+        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
+        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
         "EventHandlers": {
             # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
@@ -1021,6 +975,10 @@ rhs_mag_M151_19_green = {
         "shootDistraction": -1,
         "explosionTime": 0,
         "icon": "",
+        # Ammo: ,
+        "submunitionAmmo": {
+            "submunitionAmmo": "",
+        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -1039,7 +997,7 @@ rhs_mag_M151_19_green = {
         },
         "minDamageForCamShakeHit": 0.55,
     },
-        "minDamageForCamShakeHit": "rhs_ammo_Hydra_M151",
+    "minDamageForCamShakeHit": "rhs_ammo_Hydra_M151",
     "displayNameShort": "HE",
     "pylonWeapon": "rhs_weap_FFARLauncher",
     "displayNameMFDFormat": "RKT|%2|%1",
