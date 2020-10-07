@@ -483,7 +483,7 @@ getClass = {
 
 		_countSplitClass = count _splitClass;
 		//Add comment showing class
-		_classBody = _classBody + format["%1    # Class: %2 [Indent level: %3]", _addComma, (_splitClass joinString "\"), str (_countSplitClass - 2)];
+		_classBody = _classBody + format["%1    # Class: %2 [Indent level: %3]", _addComma, (_splitClass joinString "|"), str (_countSplitClass - 2)];
 		_classBody = _classBody + format['%1    "%2": {', _addComma, _propertyNameLast];
 
 		//create _classProperties to assign array to
