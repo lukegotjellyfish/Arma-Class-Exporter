@@ -467,6 +467,136 @@
 			"rhs_mag_upk23_mixed"                               ,
 			"RHS_mag_VOG30_30"
 		]
+	]                                                     ,
+	//infantry uniform matrix
+	[
+		//BluFor
+		[
+			"BluFor\Uniforms",
+			"CfgWeapons",
+			"G_Aviator",
+			"G_Bandanna_blk",
+			"H_Cap_headphones",
+			"rhs_8point_marpatd",
+			"rhs_8point_marpatwd",
+			"rhs_Booniehat_ucp",
+			"rhs_ess_black",
+			"RHS_jetpilot_usaf",
+			"rhs_uniform_acu_ocp",
+			"rhs_uniform_acu_ucp",
+			"rhs_uniform_cu_ocp",
+			"rhs_uniform_cu_ucp",
+			"rhs_uniform_FROG01_d",
+			"rhs_uniform_FROG01_wd",
+			"rhs_uniform_g3_blk",
+			"rhs_uniform_g3_rgr",
+			"rhs_uniform_g3_tan",
+			"rhsgref_alice_webbing",
+			"rhsgref_Booniehat_alpen",
+			"rhsgref_uniform_alpenflage",
+			"rhsusf_ach_helmet_camo_ocp",
+			"rhsusf_ach_helmet_ocp",
+			"rhsusf_ach_helmet_ucp",
+			"rhsusf_cvc_ess",
+			"rhsusf_cvc_green_ess",
+			"rhsusf_falconii",
+			"rhsusf_hgu56p_saf",
+			"rhsusf_hgu56p_visor_green",
+			"rhsusf_iotv_ocp",
+			"rhsusf_iotv_ocp_SAW",
+			"rhsusf_iotv_ocp_Teamleader",
+			"rhsusf_iotv_ucp",
+			"rhsusf_iotv_ucp_SAW",
+			"rhsusf_iotv_ucp_Teamleader",
+			"rhsusf_lwh_helmet_marpatd_headset",
+			"rhsusf_lwh_helmet_marpatwd_headset",
+			"rhsusf_mbav_mg",
+			"rhsusf_mich_bare_norotos_arc_semi_headset",
+			"rhsusf_mich_bare_norotos_tan_headset",
+			"rhsusf_opscore_bk_pelt",
+			"rhsusf_opscore_mar_fg_pelt",
+			"rhsusf_opscore_mar_ut_pelt",
+			"rhsusf_patrolcap_ocp",
+			"rhsusf_patrolcap_ucp",
+			"rhsusf_shemagh_tan",
+			"rhsusf_shemagh2_gogg_grn",
+			"rhsusf_shemagh2_gogg_od",
+			"rhsusf_shemagh2_gogg_tan",
+			"rhsusf_spc",
+			"rhsusf_spc_teamleader",
+			"rhsusf_spcs_ocp",
+			"rhsusf_spcs_ucp",
+			"U_B_HeliPilotCoveralls",
+			"U_B_PilotCoveralls",
+			"U_O_FullGhillie_ard",
+			"U_O_FullGhillie_lsh",
+			"U_O_FullGhillie_sard",
+			"V_Chestrig_khk",
+			"V_PlateCarrier2_blk",
+			"V_PlateCarrier2_rgr",
+			"V_TacVest_khk",
+			"V_TacVest_oli"
+		],
+		//OpFor
+		[
+			"OpFor\Uniforms",
+			"CfgWeapons",
+			"rhs_6b13_EMR_6sh92",
+			"rhs_6b13_Flora_6sh92",
+			"rhs_6b23",
+			"rhs_6b23_6sh116_od",
+			"rhs_6b23_digi_6sh92_Spetsnaz",
+			"rhs_6b23_digi_6sh92_spetsnaz2",
+			"rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz",
+			"rhs_6b23_digi_rifleman",
+			"rhs_6b23_ML_rifleman",
+			"rhs_6b23_rifleman",
+			"rhs_6b27m_ess",
+			"rhs_6b27m_ml_ess",
+			"rhs_6b28_ess",
+			"rhs_6b43",
+			"rhs_6b47",
+			"rhs_6b5_rifleman_khaki",
+			"rhs_6b7_1m_bala1_flora",
+			"rhs_6b7_1m_emr_ess_bala",
+			"rhs_6sh92",
+			"rhs_6sh92_digi_vog_headset",
+			"rhs_6sh92_vsr",
+			"rhs_altyn_visordown",
+			"rhs_assault_umbts",
+			"rhs_balaclava1_olive",
+			"rhs_beanie_green",
+			"rhs_beret_mp1",
+			"rhs_beret_vdv3",
+			"rhs_Booniehat_digi",
+			"rhs_fieldcap_digi2",
+			"rhs_fieldcap_vsr",
+			"rhs_sidor",
+			"rhs_ssh68",
+			"rhs_tsh4",
+			"rhs_uniform_df15",
+			"rhs_uniform_df15_tan",
+			"rhs_uniform_emr_patchless",
+			"rhs_uniform_flora_patchless",
+			"rhs_uniform_flora_patchless_alt",
+			"rhs_uniform_gorka_r_g",
+			"rhs_uniform_gorka_r_y",
+			"rhs_uniform_m88_patchless",
+			"rhs_uniform_mflora_patchless",
+			"rhs_uniform_vdv_emr",
+			"rhs_uniform_vdv_emr_des",
+			"rhs_uniform_vdv_flora",
+			"rhs_uniform_vmf_flora",
+			"rhs_vest_commander",
+			"rhs_vydra_3m",
+			"rhs_zsh7a_alt",
+			"rhs_zsh7a_mike_alt",
+			"rhsgref_ttsko_alicepack",
+			"U_O_FullGhillie_ard",
+			"U_O_FullGhillie_lsh",
+			"U_O_FullGhillie_sard",
+			"V_Chestrig_khk"
+		]
 	]
 ];
 
@@ -484,6 +614,8 @@ getClass = {
 		_countSplitClass = count _splitClass;
 		//Add comment showing class
 		_classBody = _classBody + format["%1    # Class: %2 [Indent level: %3]", _addComma, (_splitClass joinString "|"), str (_countSplitClass - 2)];
+		//Classes with "ammo" first will not have a ,\n for whatever reason - adding it here
+		if (_addComma find ",\n" == -1) then {_addComma = ",\n" + _addComma};
 		_classBody = _classBody + format['%1    "%2": {', _addComma, _propertyNameLast];
 
 		//create _classProperties to assign array to
@@ -528,14 +660,12 @@ getPropertyValue = {
 	_propertyNameLast = _propertyNameArray select (count _propertyNameArray - 1);
 
 	if (isText _property) then {
-		diag_log(format["_addComma = [%1]", _addComma]);
-
 		_strProperty = str _property;
 
 		  //diag_log(format["Before if it contains ammo: _property: %1 | _propertyNameLast: %2", _property, _propertyNameLast]);
 
 		_propertyNameLastLower = toLower _propertyNameLast;
-		if ((_propertyNameLastLower == "ammo") || (_propertyNameLastLower == "submunitionammo")) then {
+		if (((_propertyNameLastLower == "ammo") || (_propertyNameLastLower == "submunitionammo")) && getText _property != "") then {
 
 			_ammoType = "Ammo/SubmunitionAmmo";
 			if ((_propertyNameLast find "submunitionAmmo" != -1) || (_propertyNameLast find "SubmunitionAmmo" != -1)) then {
@@ -550,10 +680,20 @@ getPropertyValue = {
 			  //diag_log(format["Looking for ammo | %1", _property]);
 
 			_ammoName = getText _property;
-			diag_log(format["%1 = `%2`", _ammoType, _ammoName]);
-			_classBody = _classBody + format["%1    # %2: %3", _addComma, _ammoType, _ammoName];
-			_classBody = _classBody + format['%1    "%2": {%3        "%2": "%4"', _addComma, _propertyNameLast, _addComma splitString "," joinString "", ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];
 
+			diag_log(format["%1 = `%2`", _ammoType, _ammoName]);
+
+			//Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
+			_splitClass = str _property splitString "\/";
+			//Remove "bin" and "config.bin"
+			_splitClass deleteRange [0, 2];
+
+			_countSplitClass = count _splitClass;
+			//Add comment showing class
+			_classBody = _classBody + format["%1    # %2: %3 [Indent level: %4]", _addComma, _ammoType, (_splitClass joinString "|"), str (_countSplitClass - 2)];
+			//Classes with "ammo" first will not have a ,\n for whatever reason - adding it here
+			if (_addComma find ",\n" == -1) then {_addComma = ",\n" + _addComma};
+			_classBody = _classBody + format['%1    "%2": {%3        "%2": "%4"', _addComma, _propertyNameLast, _addComma splitString "," joinString "", ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];
 
 			_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
 			{
@@ -565,17 +705,13 @@ getPropertyValue = {
 
 		};
 		if ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilProne")) then {
-			diag_log(format["Found recoil: %1 | %2", _strProperty, getText _property]);
-
 			_configDir = configFile >> "CfgRecoils" >> getText _property;
 
 			if (isClass _configDir) then {
-				diag_log(format["Class recoil (%1)", _propertyName]);
 				_classBody = _classBody + format["%1    # Recoil Class: %2", _addComma, _propertyNameLast];
 				_classBody = [_configDir, _classBody, _addComma, _propertyNameLast, "CfgRecoils"] call getClass;
 			};
 			if (isArray _configDir) then {
-				diag_log(format["Array recoil (%1)", _propertyName]);
 				_classBody = _classBody + format["%1    # Recoil Array: %2", _addComma, _propertyNameLast];
 				_classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getArray _configDir];
 			};
