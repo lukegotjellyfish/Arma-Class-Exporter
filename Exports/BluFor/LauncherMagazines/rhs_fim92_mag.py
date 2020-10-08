@@ -4,7 +4,7 @@ rhs_fim92_mag = {
     "mass": 120,
     "displayName": "FIM-92F",
     "descriptionshort": "Type: Surface-to-air<br />Caliber: 70 mm<br />Used in: FIM-92",
-    # Ammo: rhs_ammo_fim92_missile,
+    # Ammo: CfgMagazines|rhs_fim92_mag|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_fim92_missile",
         "model": "rhsusf|addons|rhsusf_weapons|FIM92|Stinger_Rocket",
@@ -36,7 +36,7 @@ rhs_fim92_mag = {
         "effectsMissileInit": "RocketBackEffectsRPG",
         "submunitionConeType": ["randomcenter",30],
         "submunitionConeAngle": 65,
-        # Ammo: rhs_ammo_he_fragments,
+        # Ammo: CfgAmmo|rhs_ammo_fim92_missile|submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_he_fragments",
             "caliber": 0.888889,
@@ -263,10 +263,10 @@ rhs_fim92_mag = {
             "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
             "supersonicCrackNear": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_close",3.16228,1,200],
             "supersonicCrackFar": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_middle",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack [Indent level: 1],
             "SuperSonicCrack": {
                 "superSonicCrack": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackForest [Indent level: 2],
                 "SCrackForest": {
                     "range": [0,500],
                     "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_forest1",1,1,500],
@@ -276,7 +276,7 @@ rhs_fim92_mag = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "forest"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackTrees [Indent level: 2],
                 "SCrackTrees": {
                     "range": [0,500],
                     "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_trees1",1,1,500],
@@ -286,7 +286,7 @@ rhs_fim92_mag = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "trees"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackMeadow [Indent level: 2],
                 "SCrackMeadow": {
                     "range": [0,500],
                     "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",1,1,500],
@@ -296,7 +296,7 @@ rhs_fim92_mag = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "meadow max sea"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackHouses [Indent level: 2],
                 "SCrackHouses": {
                     "range": [0,500],
                     "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_houses1",1,1,500],
@@ -307,7 +307,7 @@ rhs_fim92_mag = {
                     "trigger": "houses max interior"
                 }
             },
-            # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+            # Class: CfgAmmo|BulletBase|HitEffects [Indent level: 1],
             "HitEffects": {
                 "Hit_Foliage_green": "ImpactLeavesGreen",
                 "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -333,28 +333,28 @@ rhs_fim92_mag = {
                 "hitWater": "ImpactEffectsWater",
                 "hitVirtual": "ImpactMetal"
             },
-            # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo|BulletBase|CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 1.73205,
                 "duration": 0.4,
                 "frequency": 20,
                 "distance": 5.19615
             },
-            # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo|BulletBase|CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 3,
                 "duration": 0.2,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo|BulletBase|CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 0,
                 "duration": 0,
                 "frequency": 0,
                 "distance": 0
             },
-            # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo|BulletBase|CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0,
                 "duration": 0,
@@ -944,10 +944,6 @@ rhs_fim92_mag = {
             "thrust": 210,
             "airFriction": -0.0005,
             "icon": "",
-            # Ammo: ,
-            "submunitionAmmo": {
-                "submunitionAmmo": "",
-            },
             "submunitionAmmo": "",
             "explosionType": "explosive",
             "mineTrigger": "RangeTrigger",
@@ -959,11 +955,11 @@ rhs_fim92_mag = {
             "minePlaceDist": 0.5,
             "whistleDist": 0,
             "whistleOnFire": 0,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -980,44 +976,145 @@ rhs_fim92_mag = {
         "missileLockCone": 12,
         "missileKeepLockedCone": 70,
         "weaponLockSystem": "2 + 16",
-        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_fim92_missile|Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo|rhs_ammo_fim92_missile|Components|SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo|rhs_ammo_fim92_missile|Components|SensorsManagerComponent|Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo|rhs_ammo_fim92_missile|Components|SensorsManagerComponent|Components|IRSensorComponent [Indent level: 4],
+
+
+
                     "IRSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo|rhs_ammo_fim92_missile|Components|SensorsManagerComponent|Components|IRSensorComponent|AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 6500,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo|rhs_ammo_fim92_missile|Components|SensorsManagerComponent|Components|IRSensorComponent|GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 1000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "typeRecognitionDistance": -1,
+
+
+
                         "angleRangeHorizontal": 35,
+
+
+
                         "angleRangeVertical": 35,
+
+
+
                         "groundNoiseDistanceCoef": 0.02,
+
+
+
                         "maxGroundNoiseDistance": 40,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": -1,
+
+
+
                         "maxFogSeeThrough": 0.8,
+
+
+
                         "minTrackableSpeed": 0,
+
+
+
                         "maxTrackableSpeed": 330,
+
+
+
                         "minTrackableATL": 20,
+
+
+
                         "maxTrackableATL": 4000,
+
+
+
                         "componentType": "IRSensorComponent",
+
+
+
                         "color": [1,0,0,1],
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0
                     }
                 }
@@ -1031,28 +1128,28 @@ rhs_fim92_mag = {
         "soundHit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,1900],
         "soundHit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,1900],
         "multiSoundHit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
-        # Class: CfgAmmo\M_Titan_AA\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AA|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 147.905
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AA|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AA|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AA|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -1071,7 +1168,7 @@ rhs_fim92_mag = {
         "deflecting": 0,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|MissileBase|HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -1083,10 +1180,12 @@ rhs_fim92_mag = {
         "mFact": 0,
         "tBody": 0,
         "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|MissileBase|EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
+            # Class: CfgAmmo|MissileBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2],
+
             "RHS_APS_FiredEH": {
+
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
@@ -1190,7 +1289,7 @@ rhs_fim92_mag = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -1214,10 +1313,10 @@ rhs_fim92_mag = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

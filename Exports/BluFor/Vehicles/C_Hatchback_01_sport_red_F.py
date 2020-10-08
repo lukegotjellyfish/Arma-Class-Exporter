@@ -1,6 +1,6 @@
 C_Hatchback_01_sport_red_F = {
     "author": "Bohemia Interactive",
-    # Class: CfgVehicles\C_Hatchback_01_sport_red_F\SimpleObject [Indent level: 1],
+    # Class: CfgVehicles|C_Hatchback_01_sport_red_F|SimpleObject [Indent level: 1],
     "SimpleObject": {
         "eden": 0,
         "animate": [["damagehide",0],["damagehidevez",0],["damagehidehlaven",0],["wheel_1_1_destruct",0],["wheel_1_2_destruct",0],["wheel_1_3_destruct",0],["wheel_1_4_destruct",0],["wheel_2_1_destruct",0],["wheel_2_2_destruct",0],["wheel_2_3_destruct",0],["wheel_2_4_destruct",0],["wheel_1_1_destruct_unhide",0],["wheel_1_2_destruct_unhide",0],["wheel_1_3_destruct_unhide",0],["wheel_1_4_destruct_unhide",0],["wheel_2_1_destruct_unhide",0],["wheel_2_2_destruct_unhide",0],["wheel_2_3_destruct_unhide",0],["wheel_2_4_destruct_unhide",0],["glass1_destruct",0],["glass2_destruct",0],["glass3_destruct",0],["glass4_destruct",0],["glass6_destruct",0],["wheel_1_1",0],["wheel_2_1",0],["wheel_1_2",0],["wheel_2_2",0],["pedal_thrust",0],["pedal_brake",0],["wheel_1_1_damage",0],["wheel_1_2_damage",0],["wheel_2_1_damage",0],["wheel_2_2_damage",0],["wheel_1_1_damper_damage_backanim",0],["wheel_1_2_damper_damage_backanim",0],["wheel_2_1_damper_damage_backanim",0],["wheel_2_2_damper_damage_backanim",0],["drivingwheel",0],["steering_1_1",0],["steering_2_1",0],["indicatorrpm",0],["fuel",1],["prop_01",0],["daylights",0],["reverse_light",1],["damagehidedoor1",0],["damagehidedoor2",0],["glass5_destruct",0],["wheel_1_1_damper",0],["wheel_2_1_damper",0],["wheel_1_2_damper",0],["wheel_2_2_damper",0]],
@@ -20,45 +20,68 @@ C_Hatchback_01_sport_red_F = {
     "side": 3,
     "faction": "CIV_F",
     "hiddenSelectionsTextures": ["|A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_ext_SPORT01_CO.paa"],
-    # Class: CfgVehicles\C_Hatchback_01_sport_F\EventHandlers [Indent level: 1],
+    # Class: CfgVehicles|C_Hatchback_01_sport_F|EventHandlers [Indent level: 1],
     "EventHandlers": {
         "init": "if (local (_this select 0)) then {[(_this select 0), `, [], false] call bis_fnc_initVehicle;};",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers [Indent level: 0],
+        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
         "RHS_DefaultEventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
-    # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors [Indent level: 1],
+    # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors [Indent level: 1],
     "Reflectors": {
-        # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadL01 [Indent level: 2]
+        # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadL01 [Indent level: 2],
+
         "LightCarHeadL01": {
+
             "color": [1300,1300,2200],
+
             "ambient": [5,5,7],
+
             "innerAngle": 30,
+
             "outerAngle": 100,
+
             "coneFadeCoef": 10,
+
             "intensity": 2,
-            # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadL01\Attenuation [Indent level: 3],
+
+            # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadL01|Attenuation [Indent level: 3],
+
             "Attenuation": {
+
                 "start": 2,
+
                 "constant": 0,
+
                 "linear": 0.1,
+
                 "quadratic": 0.01,
+
                 "hardLimitStart": 90,
+
                 "hardLimitEnd": 150
             },
+
             "position": "LightCarHeadL01",
+
             "direction": "LightCarHeadL01_end",
+
             "hitpoint": "Light_L",
+
             "selection": "Light_L",
+
             "size": 1,
+
             "useFlare": 1,
+
             "dayLight": 0,
+
             "flareSize": 1
         },
-        # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadL02 [Indent level: 2],
+        # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadL02 [Indent level: 2],
         "LightCarHeadL02": {
             "position": "LightCarHeadL02",
             "direction": "LightCarHeadL02_end",
@@ -69,7 +92,7 @@ C_Hatchback_01_sport_red_F = {
             "outerAngle": 100,
             "coneFadeCoef": 10,
             "intensity": 2,
-            # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadL01\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadL01|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 2,
                 "constant": 0,
@@ -84,7 +107,7 @@ C_Hatchback_01_sport_red_F = {
             "useFlare": 1,
             "dayLight": 0
         },
-        # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadR01 [Indent level: 2],
+        # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadR01 [Indent level: 2],
         "LightCarHeadR01": {
             "position": "LightCarHeadR01",
             "direction": "LightCarHeadR01_end",
@@ -96,7 +119,7 @@ C_Hatchback_01_sport_red_F = {
             "outerAngle": 100,
             "coneFadeCoef": 10,
             "intensity": 2,
-            # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadL01\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadL01|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 2,
                 "constant": 0,
@@ -110,7 +133,7 @@ C_Hatchback_01_sport_red_F = {
             "dayLight": 0,
             "flareSize": 1
         },
-        # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadR02 [Indent level: 2],
+        # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadR02 [Indent level: 2],
         "LightCarHeadR02": {
             "position": "LightCarHeadR02",
             "direction": "LightCarHeadR02_end",
@@ -121,7 +144,7 @@ C_Hatchback_01_sport_red_F = {
             "outerAngle": 100,
             "coneFadeCoef": 10,
             "intensity": 2,
-            # Class: CfgVehicles\C_Hatchback_01_sport_F\Reflectors\LightCarHeadL01\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors|LightCarHeadL01|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 2,
                 "constant": 0,
@@ -185,7 +208,7 @@ C_Hatchback_01_sport_red_F = {
     "BushCrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,1,50],
     "BushCrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,0.8,50],
     "soundBushCrash": ["BushCrash1",0.25,"BushCrash2",0.25,"BushCrash3",0.25,"BushCrash4",0.25],
-    # Class: CfgVehicles\Hatchback_01_sport_base_F\Sounds [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_sport_base_F|Sounds [Indent level: 1],
     "Sounds": {
         "soundSetsInt": ["jsrs_hatchback_sport_01_idle_interior_soundset","jsrs_hatchback_sport_01_low_interior_soundset","jsrs_hatchback_sport_01_high_interior_soundset","jsrs_hatchback_sport_01_low_off_interior_soundset","jsrs_hatchback_sport_01_high_off_interior_soundset","jsrs_hatchback_sport_01_start_interior_soundset","jsrs_vehicle_interior_silent_soundset","jsrs_wheeled_driving_noises_soundset","jsrs_wheeled_offroad_driving_noises_soundset","jsrs_light_vehicle_rain_int_soundset","jsrs_wheeled_light_rattle_int_soundset","jsrs_wheeled_light_offroad_rattle_int_soundset","jsrs_tires_asphalt_slow_int_soundset","jsrs_tires_asphalt_fast_int_soundset","jsrs_tires_offroad_slow_int_soundset","jsrs_tires_offroad_fast_int_soundset","jsrs_tires_grass_int_soundset","jsrs_light_vehicle_water_moving_int_soundset"],
         "soundSetsExt": ["jsrs_hatchback_sport_01_idle_exterior_soundset","jsrs_hatchback_sport_01_low_exterior_soundset","jsrs_hatchback_sport_01_high_exterior_soundset","jsrs_hatchback_sport_01_low_off_exterior_soundset","jsrs_hatchback_sport_01_high_off_exterior_soundset","jsrs_hatchback_sport_01_start_exterior_soundset","jsrs_hatchback_sport_01_distance_soundset","jsrs_light_vehicle_rain_ext_soundset","jsrs_wheeled_light_rattle_ext_soundset","jsrs_wheeled_light_offroad_rattle_ext_soundset","jsrs_tires_asphalt_slow_ext_soundset","jsrs_tires_asphalt_fast_ext_soundset","jsrs_tires_offroad_slow_ext_soundset","jsrs_tires_offroad_fast_ext_soundset","jsrs_tires_grass_ext_soundset","jsrs_tires_close_dry_soundset","jsrs_tires_close_wet_soundset","jsrs_tires_distance_soundset","jsrs_light_vehicle_water_moving_ext_soundset"]
@@ -217,7 +240,7 @@ C_Hatchback_01_sport_red_F = {
     "centreBias": 1.3,
     "changeGearType": "rpmratio",
     "changeGearOmegaRatios": [1,0.142857,0.228571,0.142857,0.928571,0.214286,0.928571,0.642857,0.928571,0.642857,0.928571,0.642857,0.928571,0.642857,1,0.642857],
-    # Class: CfgVehicles\Hatchback_01_sport_base_F\complexGearbox [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_sport_base_F|complexGearbox [Indent level: 1],
     "complexGearbox": {
         "GearboxRatios": ["R1",-3.8,"N",0,"D1",3.6,"D2",2.15,"D3",1.55,"D4",1.15,"D5",0.9,"D6",0.67],
         "TransmissionRatios": ["High",4.7],
@@ -230,37 +253,63 @@ C_Hatchback_01_sport_red_F = {
     "antiRollbarForceCoef": 8,
     "antiRollbarForceLimit": 6,
     "antiRollbarSpeedMax": 160,
-    # Class: CfgVehicles\Hatchback_01_sport_base_F\Wheels [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_sport_base_F|Wheels [Indent level: 1],
     "Wheels": {
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\Wheels\LF [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|Wheels|LF [Indent level: 2],
+
         "LF": {
+
             "width": 0.25,
+
             "MOI": 1.13677,
+
             "dampingRate": 0.15,
+
             "springStrength": 42000,
+
             "springDamperRate": 5600,
+
             "maxBrakeTorque": 3600,
+
             "latStiffY": 31.5127,
+
             "longitudinalStiffnessPerUnitGravity": 6000,
+
             "frictionVsSlipGraph": [[0,1],[0.06,1.8],[0.7,1]],
+
             "side": "left",
+
             "suspTravelDirection": [-0.125,-1,0],
+
             "boneName": "wheel_1_1_damper",
+
             "center": "wheel_1_1_axis",
+
             "boundary": "wheel_1_1_bound",
+
             "suspForceAppPointOffset": "wheel_1_1_axis",
+
             "tireForceAppPointOffset": "wheel_1_1_axis",
+
             "steering": 1,
+
             "mass": 20,
+
             "dampingRateDamaged": 1,
+
             "dampingRateDestroyed": 1000,
+
             "maxDroop": 0.0915,
+
             "maxCompression": 0.0915,
+
             "sprungMass": 340,
+
             "maxHandBrakeTorque": 0,
+
             "latStiffX": 2
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\Wheels\LR [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|Wheels|LR [Indent level: 2],
         "LR": {
             "maxBrakeTorque": 3000,
             "maxHandBrakeTorque": 3000,
@@ -288,7 +337,7 @@ C_Hatchback_01_sport_red_F = {
             "latStiffX": 2,
             "longitudinalStiffnessPerUnitGravity": 5000
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\Wheels\RF [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|Wheels|RF [Indent level: 2],
         "RF": {
             "side": "right",
             "suspTravelDirection": [0.125,-1,0],
@@ -316,7 +365,7 @@ C_Hatchback_01_sport_red_F = {
             "longitudinalStiffnessPerUnitGravity": 5000,
             "frictionVsSlipGraph": [[0,0.85],[0.1,1.4],[0.6,0.9]]
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\Wheels\RR [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|Wheels|RR [Indent level: 2],
         "RR": {
             "maxBrakeTorque": 3000,
             "maxHandBrakeTorque": 3000,
@@ -345,7 +394,7 @@ C_Hatchback_01_sport_red_F = {
             "longitudinalStiffnessPerUnitGravity": 5000
         }
     },
-    # Class: CfgVehicles\Hatchback_01_sport_base_F\PlayerSteeringCoefficients [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_sport_base_F|PlayerSteeringCoefficients [Indent level: 1],
     "PlayerSteeringCoefficients": {
         "turnIncreaseConst": 2,
         "turnIncreaseLinear": 6,
@@ -355,81 +404,108 @@ C_Hatchback_01_sport_red_F = {
         "turnDecreaseTime": 0,
         "maxTurnHundred": 1
     },
-    # Class: CfgVehicles\Hatchback_01_sport_base_F\Components [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_sport_base_F|Components [Indent level: 1],
     "Components": {
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\Components\AICarSteeringComponent [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|Components|AICarSteeringComponent [Indent level: 2],
+
         "AICarSteeringComponent": {
+
             "maxWheelAngleDiff": 0.25,
+
             "wheelAngleCoef": 0,
+
             "forwardAngleCoef": 3,
+
             "steeringAngleCoef": 0.5,
+
             "differenceAngleCoef": 1.5,
+
             "doRemapSpeed": 0,
+
             "allowDrifting": 1,
+
             "steeringPIDWeights": [8.5,0.003,0.4],
+
             "speedPIDWeights": [0.7,0.2,0],
+
             "convoyPIDWeights": [1,0.01,0.01],
+
             "remapSpeedRange": [30,70],
+
             "remapSpeedScalar": [1,0.35],
+
             "doPredictForward": 1,
+
             "predictForwardRange": [1,20],
+
             "steerAheadSaturation": [0.01,0.4],
+
             "speedPredictionMethod": 2,
+
             "stuckMaxTime": 3,
+
             "allowOvertaking": 1,
+
             "allowCollisionAvoidance": 1,
+
             "minSpeedToKeep": 0.1,
+
             "commandTurnFactor": 1
         },
-        # Class: CfgVehicles\LandVehicle\Components\TransportCountermeasuresComponent [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|Components|TransportCountermeasuresComponent [Indent level: 2],
         "TransportCountermeasuresComponent": {
         }
     },
-    # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources [Indent level: 1],
     "TextureSources": {
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources\Red [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources|Red [Indent level: 2],
+
         "Red": {
+
             "displayName": "Red",
+
             "author": "Bohemia Interactive",
+
             "textures": ["|A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_ext_SPORT01_CO.paa"],
+
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources\Blue [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources|Blue [Indent level: 2],
         "Blue": {
             "displayName": "Blue",
             "author": "Bohemia Interactive",
             "textures": ["|A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_ext_SPORT02_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources\Orange [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources|Orange [Indent level: 2],
         "Orange": {
             "displayName": "Orange",
             "author": "Bohemia Interactive",
             "textures": ["|A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_ext_SPORT03_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources\White [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources|White [Indent level: 2],
         "White": {
             "displayName": "White",
             "author": "Bohemia Interactive",
             "textures": ["|A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_ext_SPORT04_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources\Beige [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources|Beige [Indent level: 2],
         "Beige": {
             "displayName": "Beige",
             "author": "Bohemia Interactive",
             "textures": ["|A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_ext_SPORT05_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources\Green [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources|Green [Indent level: 2],
         "Green": {
             "displayName": "Green",
             "author": "Bohemia Interactive",
             "textures": ["|A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_ext_SPORT06_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Hatchback_01_sport_base_F\TextureSources\Grey [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_sport_base_F|TextureSources|Grey [Indent level: 2],
         "Grey": {
             "displayName": "Grey",
             "author": "Bohemia Interactive",
@@ -448,7 +524,7 @@ C_Hatchback_01_sport_red_F = {
     "memoryPointTaskMarker": "TaskMarker_1_pos",
     "slingLoadCargoMemoryPoints": ["SlingLoadCargo1","SlingLoadCargo2","SlingLoadCargo3","SlingLoadCargo4"],
     "unitInfoType": "RscUnitInfoNoWeapon",
-    # Class: CfgVehicles\Hatchback_01_base_F\Library [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|Library [Indent level: 1],
     "Library": {
         "libTextDesc": "A four-seat hatchback car mass-produced in the Far East to satisfy increasing demand for family cars. Economical operation, enhanced safety and a roomy trunk made these cars widely popular in the whole of Europe. Also comes in a sporty version."
     },
@@ -467,32 +543,45 @@ C_Hatchback_01_sport_red_F = {
     "cost": 50000,
     "transportMaxBackpacks": 0,
     "transportSoldier": 3,
-    # Class: CfgVehicles\Hatchback_01_base_F\TransportItems [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|TransportItems [Indent level: 1],
     "TransportItems": {
-        # Class: CfgVehicles\Hatchback_01_base_F\TransportItems\_xx_FirstAidKit [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_base_F|TransportItems|_xx_FirstAidKit [Indent level: 2],
+
         "_xx_FirstAidKit": {
+
             "name": "FirstAidKit",
+
             "count": 4
         }
     },
-    # Class: CfgVehicles\Hatchback_01_base_F\Turrets [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|Turrets [Indent level: 1],
     "Turrets": {
     },
-    # Class: CfgVehicles\Hatchback_01_base_F\HitPoints [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|HitPoints [Indent level: 1],
     "HitPoints": {
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitLFWheel [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitLFWheel [Indent level: 2],
+
         "HitLFWheel": {
+
             "radius": 0.25,
+
             "visual": "wheel_1_1_damage",
+
             "armorComponent": "wheel_1_1_hide",
+
             "armor": -80,
+
             "minimalHit": 0,
+
             "explosionShielding": 4,
+
             "passThrough": 0,
+
             "material": -1,
+
             "name": "wheel_1_1_steering"
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitLF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitLF2Wheel [Indent level: 2],
         "HitLF2Wheel": {
             "radius": 0.25,
             "visual": "wheel_1_2_damage",
@@ -504,7 +593,7 @@ C_Hatchback_01_sport_red_F = {
             "material": -1,
             "name": "wheel_1_2_steering"
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitRFWheel [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitRFWheel [Indent level: 2],
         "HitRFWheel": {
             "radius": 0.25,
             "visual": "wheel_2_1_damage",
@@ -516,7 +605,7 @@ C_Hatchback_01_sport_red_F = {
             "material": -1,
             "name": "wheel_2_1_steering"
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitRF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitRF2Wheel [Indent level: 2],
         "HitRF2Wheel": {
             "radius": 0.25,
             "visual": "wheel_2_2_damage",
@@ -528,7 +617,7 @@ C_Hatchback_01_sport_red_F = {
             "material": -1,
             "name": "wheel_2_2_steering"
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitFuel [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitFuel [Indent level: 2],
         "HitFuel": {
             "name": "fuel",
             "armor": 0.5,
@@ -537,7 +626,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0.1,
             "explosionShielding": 1.5
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitEngine [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitEngine [Indent level: 2],
         "HitEngine": {
             "name": "engine",
             "armor": 0.5,
@@ -546,7 +635,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0.5,
             "explosionShielding": 0.5
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitBody [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitBody [Indent level: 2],
         "HitBody": {
             "visual": "camo1",
             "passThrough": 0.6,
@@ -555,7 +644,7 @@ C_Hatchback_01_sport_red_F = {
             "name": "karoserie",
             "explosionShielding": 1.5
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitGlass1 [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "armor": 0.25,
             "material": -1,
@@ -564,7 +653,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitGlass2 [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "armor": 0.25,
             "material": -1,
@@ -573,7 +662,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitGlass3 [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "armor": 0.25,
             "material": -1,
@@ -582,7 +671,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\HitPoints\HitGlass4 [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|HitPoints|HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "armor": 0.25,
             "material": -1,
@@ -591,7 +680,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRGlass [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRGlass [Indent level: 2],
         "HitRGlass": {
             "armor": 0.2,
             "material": -1,
@@ -599,7 +688,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLGlass [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLGlass [Indent level: 2],
         "HitLGlass": {
             "armor": 0.2,
             "material": -1,
@@ -607,7 +696,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass5 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "armor": 0.1,
             "material": -1,
@@ -616,7 +705,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass6 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "armor": 0.1,
             "material": -1,
@@ -625,7 +714,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLBWheel [Indent level: 2],
         "HitLBWheel": {
             "armor": 0.2,
             "material": -1,
@@ -634,7 +723,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLMWheel [Indent level: 2],
         "HitLMWheel": {
             "armor": 0.2,
             "material": -1,
@@ -643,7 +732,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRBWheel [Indent level: 2],
         "HitRBWheel": {
             "armor": 0.2,
             "material": -1,
@@ -652,7 +741,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRMWheel [Indent level: 2],
         "HitRMWheel": {
             "armor": 0.2,
             "material": -1,
@@ -661,7 +750,7 @@ C_Hatchback_01_sport_red_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitHull [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitHull [Indent level: 2],
         "HitHull": {
             "armor": 1.5,
             "material": -1,
@@ -683,24 +772,33 @@ C_Hatchback_01_sport_red_F = {
     "cargoGetOutAction": ["GetOutLow"],
     "extCameraPosition": [0,2,-7.8],
     "camShakeCoef": 0.8,
-    # Class: CfgVehicles\Hatchback_01_base_F\RenderTargets [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|RenderTargets [Indent level: 1],
     "RenderTargets": {
-        # Class: CfgVehicles\Hatchback_01_base_F\RenderTargets\LeftMirror [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_base_F|RenderTargets|LeftMirror [Indent level: 2],
+
         "LeftMirror": {
+
             "renderTarget": "rendertarget0",
-            # Class: CfgVehicles\Hatchback_01_base_F\RenderTargets\LeftMirror\CameraView1 [Indent level: 3],
+
+            # Class: CfgVehicles|Hatchback_01_base_F|RenderTargets|LeftMirror|CameraView1 [Indent level: 3],
+
             "CameraView1": {
+
                 "pointPosition": "PIP0_pos",
+
                 "pointDirection": "PIP0_dir",
+
                 "renderQuality": 2,
+
                 "renderVisionMode": 0,
+
                 "fov": 0.7
             }
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\RenderTargets\RearCam [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|RenderTargets|RearCam [Indent level: 2],
         "RearCam": {
             "renderTarget": "rendertarget1",
-            # Class: CfgVehicles\Hatchback_01_base_F\RenderTargets\RearCam\CameraView1 [Indent level: 3],
+            # Class: CfgVehicles|Hatchback_01_base_F|RenderTargets|RearCam|CameraView1 [Indent level: 3],
             "CameraView1": {
                 "pointPosition": "PIP1_pos",
                 "pointDirection": "PIP1_dir",
@@ -709,10 +807,10 @@ C_Hatchback_01_sport_red_F = {
                 "fov": 0.7
             }
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\RenderTargets\FrontCam [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|RenderTargets|FrontCam [Indent level: 2],
         "FrontCam": {
             "renderTarget": "rendertarget2",
-            # Class: CfgVehicles\Hatchback_01_base_F\RenderTargets\FrontCam\CameraView1 [Indent level: 3],
+            # Class: CfgVehicles|Hatchback_01_base_F|RenderTargets|FrontCam|CameraView1 [Indent level: 3],
             "CameraView1": {
                 "pointPosition": "PIP2_pos",
                 "pointDirection": "PIP2_dir",
@@ -732,68 +830,111 @@ C_Hatchback_01_sport_red_F = {
     "accelAidForceSpd": 2.2,
     "dampersBumpCoef": 3,
     "antiRollbarSpeedMin": 0,
-    # Class: CfgVehicles\Hatchback_01_base_F\MFD [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|MFD [Indent level: 1],
     "MFD": {
-        # Class: CfgVehicles\Hatchback_01_base_F\MFD\Dashboard [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_base_F|MFD|Dashboard [Indent level: 2],
+
         "Dashboard": {
+
             "topLeft": "MFD_1_TL",
+
             "topRight": "MFD_1_TR",
+
             "bottomLeft": "MFD_1_BL",
+
             "borderLeft": 0,
+
             "borderRight": 0,
+
             "borderTop": 0,
+
             "borderBottom": 0,
+
             "color": [0.15,0.15,1,1],
+
             "enableParallax": 0,
-            # Class: CfgVehicles\Hatchback_01_base_F\MFD\Dashboard\Bones [Indent level: 3],
+
+            # Class: CfgVehicles|Hatchback_01_base_F|MFD|Dashboard|Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgVehicles\Hatchback_01_base_F\MFD\Dashboard\Draw [Indent level: 3],
+
+            # Class: CfgVehicles|Hatchback_01_base_F|MFD|Dashboard|Draw [Indent level: 3],
+
             "Draw": {
+
                 "color": [0.05,1,0.05],
+
                 "alpha": 1,
+
                 "condition": "on",
-                # Class: CfgVehicles\Hatchback_01_base_F\MFD\Dashboard\Draw\SpeedStatic [Indent level: 4],
+
+                # Class: CfgVehicles|Hatchback_01_base_F|MFD|Dashboard|Draw|SpeedStatic [Indent level: 4],
+
                 "SpeedStatic": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "KM/H",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "right",
+
                     "pos": [[0.74,0.59],1],
+
                     "right": [[0.8,0.59],1],
+
                     "down": [[0.74,0.65],1]
                 },
-                # Class: CfgVehicles\Hatchback_01_base_F\MFD\Dashboard\Draw\Speed [Indent level: 4],
+
+                # Class: CfgVehicles|Hatchback_01_base_F|MFD|Dashboard|Draw|Speed [Indent level: 4],
+
                 "Speed": {
+
                     "type": "text",
+
                     "source": "speed",
+
                     "sourceScale": 3.6,
+
                     "sourceLength": 1,
+
                     "align": "left",
+
                     "scale": 2,
+
                     "pos": [[0.71,0.46],1],
+
                     "right": [[0.95,0.46],1],
+
                     "down": [[0.71,0.7],1]
                 }
             }
         }
     },
-    # Class: CfgVehicles\Hatchback_01_base_F\Damage [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|Damage [Indent level: 1],
     "Damage": {
         "tex": [],
         "mat": ["A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_mlod.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_mlod.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_lod1.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_intbase_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_LOD1.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_mlod.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_INTboard_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_wheel_rim.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_destruct.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_wheel_rubber.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_paint_destruct.rvmat","A3|data_f|glass_veh_int.rvmat","A3|data_f|Glass_veh_damage.rvmat","A3|data_f|Glass_veh_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_glass_window_mlod.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_glass_window_damage.rvmat","A3|soft_f_gamma|Hatchback_01|data|Hatchback_01_glass_window_damage.rvmat","A3|data_f|glass_veh.rvmat","A3|data_f|Glass_veh_damage.rvmat","A3|data_f|Glass_veh_damage.rvmat"]
     },
-    # Class: CfgVehicles\Hatchback_01_base_F\Exhausts [Indent level: 1],
+    # Class: CfgVehicles|Hatchback_01_base_F|Exhausts [Indent level: 1],
     "Exhausts": {
-        # Class: CfgVehicles\Hatchback_01_base_F\Exhausts\Exhaust1 [Indent level: 2]
+        # Class: CfgVehicles|Hatchback_01_base_F|Exhausts|Exhaust1 [Indent level: 2],
+
         "Exhaust1": {
+
             "position": "exhaust",
+
             "direction": "exhaust_dir",
+
             "effect": "ExhaustsEffect"
         },
-        # Class: CfgVehicles\Hatchback_01_base_F\Exhausts\Exhaust2 [Indent level: 2],
+        # Class: CfgVehicles|Hatchback_01_base_F|Exhausts|Exhaust2 [Indent level: 2],
         "Exhaust2": {
             "position": "exhaust2_pos",
             "direction": "exhaust2_dir",
@@ -822,7 +963,7 @@ C_Hatchback_01_sport_red_F = {
     "driverCanSee": "1 + 2 + 4 + 8 + 32",
     "gunnerCanSee": "1 + 2 + 4 + 8 + 32",
     "commanderCanSee": "1 + 2 + 4 + 8 + 32",
-    # Class: CfgVehicles\Car_F\ViewPilot [Indent level: 1],
+    # Class: CfgVehicles|Car_F|ViewPilot [Indent level: 1],
     "ViewPilot": {
         "initFov": 0.9,
         "minFov": 0.25,
@@ -843,7 +984,7 @@ C_Hatchback_01_sport_red_F = {
         "speedZoomMaxFOV": 0
     },
     "headGforceLeaningFactor": [0.01,0.01,0.015],
-    # Class: CfgVehicles\Car_F\NewTurret [Indent level: 1],
+    # Class: CfgVehicles|Car_F|NewTurret [Indent level: 1],
     "NewTurret": {
         "body": "mainTurret",
         "gun": "mainGun",
@@ -886,7 +1027,7 @@ C_Hatchback_01_sport_red_F = {
         "gunnerGetOutAction": "",
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -907,7 +1048,7 @@ C_Hatchback_01_sport_red_F = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -948,11 +1089,11 @@ C_Hatchback_01_sport_red_F = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -973,126 +1114,129 @@ C_Hatchback_01_sport_red_F = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -1113,16 +1257,19 @@ C_Hatchback_01_sport_red_F = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -1143,27 +1290,37 @@ C_Hatchback_01_sport_red_F = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -1173,10 +1330,10 @@ C_Hatchback_01_sport_red_F = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -1214,11 +1371,11 @@ C_Hatchback_01_sport_red_F = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -1239,14 +1396,20 @@ C_Hatchback_01_sport_red_F = {
     "driverRightLegAnimName": "pedal_thrust",
     "holdOffroadFormation": 1,
     "waterLeakiness": 10,
-    # Class: CfgVehicles\Car_F\NVGMarkers [Indent level: 1],
+    # Class: CfgVehicles|Car_F|NVGMarkers [Indent level: 1],
     "NVGMarkers": {
-        # Class: CfgVehicles\Car_F\NVGMarkers\NVGMarker01 [Indent level: 2]
+        # Class: CfgVehicles|Car_F|NVGMarkers|NVGMarker01 [Indent level: 2],
+
         "NVGMarker01": {
+
             "name": "nvg_marker",
+
             "color": [0.03,0.003,0.003,1],
+
             "ambient": [0.003,0.0003,0.0003,1],
+
             "brightness": 0.001,
+
             "blinking": 1
         }
     },
@@ -1263,87 +1426,91 @@ C_Hatchback_01_sport_red_F = {
     "soundGear": ["",1e-005,1],
     "collisionEffect": "collisionEffect",
     "hideUnitInfo": 0,
-    # Class: CfgVehicles\Car_F\AnimationSources [Indent level: 1],
+    # Class: CfgVehicles|Car_F|AnimationSources [Indent level: 1],
     "AnimationSources": {
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLFWheel [Indent level: 2]
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLFWheel [Indent level: 2],
+
         "HitLFWheel": {
+
             "source": "Hit",
+
             "hitpoint": "HitLFWheel",
+
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRFWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRFWheel [Indent level: 2],
         "HitRFWheel": {
             "hitpoint": "HitRFWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLBWheel [Indent level: 2],
         "HitLBWheel": {
             "hitpoint": "HitLF2Wheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRBWheel [Indent level: 2],
         "HitRBWheel": {
             "hitpoint": "HitRF2Wheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLF2Wheel [Indent level: 2],
         "HitLF2Wheel": {
             "hitpoint": "HitLBWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRF2Wheel [Indent level: 2],
         "HitRF2Wheel": {
             "hitpoint": "HitRBWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLMWheel [Indent level: 2],
         "HitLMWheel": {
             "hitpoint": "HitLMWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRMWheel [Indent level: 2],
         "HitRMWheel": {
             "hitpoint": "HitRMWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass1 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "source": "Hit",
             "hitpoint": "HitGlass1",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass2 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "hitpoint": "HitGlass2",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass3 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "hitpoint": "HitGlass3",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass4 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "hitpoint": "HitGlass4",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass5 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "hitpoint": "HitGlass5",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass6 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "hitpoint": "HitGlass6",
             "source": "Hit",
@@ -1355,13 +1522,13 @@ C_Hatchback_01_sport_red_F = {
     "maximumLoad": 2000,
     "supplyRadius": -1,
     "memoryPointSupply": "doplnovani",
-    # Class: CfgVehicles\Car_F\TransportBackpacks [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportBackpacks [Indent level: 1],
     "TransportBackpacks": {
     },
-    # Class: CfgVehicles\Car_F\TransportMagazines [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportMagazines [Indent level: 1],
     "TransportMagazines": {
     },
-    # Class: CfgVehicles\Car_F\TransportWeapons [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportWeapons [Indent level: 1],
     "TransportWeapons": {
     },
     "brakeTorque": 6000,
@@ -1371,7 +1538,7 @@ C_Hatchback_01_sport_red_F = {
     "wheelMask": "wheel_X_X",
     "numberPhysicalWheels": 4,
     "maxGForce": 3,
-    # Class: CfgVehicles\Car_F\camShakeGForce [Indent level: 1],
+    # Class: CfgVehicles|Car_F|camShakeGForce [Indent level: 1],
     "camShakeGForce": {
         "power": 2,
         "frequency": 60,
@@ -1382,7 +1549,7 @@ C_Hatchback_01_sport_red_F = {
     "canFloat": 0,
     "limitedSpeedCoef": 0.5,
     "hullDamageCauseExplosion": 1,
-    # Class: CfgVehicles\Car\PlateInfos [Indent level: 1],
+    # Class: CfgVehicles|Car|PlateInfos [Indent level: 1],
     "PlateInfos": {
         "name": "spz",
         "color": [0,0,0,0.75]
@@ -1416,11 +1583,14 @@ C_Hatchback_01_sport_red_F = {
     "inputTurnCurve": [[0,[0,0,1,1]],[30,[0,0,0.2,0.008,0.4,0.032,0.6,0.216,0.8,0.512,1,1]]],
     "enableGPS": 0,
     "soundEngine": ["",1.77828,0.9],
-    # Class: CfgVehicles\Car\SpeechVariants [Indent level: 1],
+    # Class: CfgVehicles|Car|SpeechVariants [Indent level: 1],
     "SpeechVariants": {
-        # Class: CfgVehicles\Car\SpeechVariants\Default [Indent level: 2]
+        # Class: CfgVehicles|Car|SpeechVariants|Default [Indent level: 2],
+
         "Default": {
+
             "speechSingular": ["veh_vehicle_car_s"],
+
             "speechPlural": ["veh_vehicle_car_p"]
         }
     },
@@ -1430,19 +1600,27 @@ C_Hatchback_01_sport_red_F = {
     "memoryPointTaskMarkerOffset": [0,0.3,0],
     "rightDustEffects": [["GdtKLDirt","RDustEffects"],["GdtKLGrass1","RDustEffects"],["GdtKLGrass1","RGrassEffects"],["GdtKLGrass2","RDustEffects"],["GdtKLGrass2","RGrassEffects"],["GdtKLForestCon","RDustEffects"],["GdtKLForestDec","RDustEffects"],["GdtKlMud","RDustEffects"],["GdtKlSoil","RDustEffects"],["GdtKlTarmac","RDustEffects"],["GdtKlStubble","RDustEffects"],["GdtKlStones","RStonesEffects"],["SurfRoadDirt_Enoch","RDustEffects"],["SurfTrailDirt_Enoch","RDustEffects"],["SurfRoadTarmac1_Enoch","RDustEffects"],["SurfRoadTarmac2_Enoch","RDustEffects"],["SurfRoadTarmac3_Enoch","RDustEffects"],["GdtGrassShort","RDustEffects"],["GdtGrassShort","RGrassEffects"],["GdtGrassTall","RDustEffects"],["GdtGrassTall","RGrassEffects"],["GdtRedDirt","RDustEffectsRed"],["GdtField","RDustEffects"],["GdtForest","RDustEffects"],["GdtVolcano","RDustEffects"],["GdtVolcano","RStonesEffects"],["GdtCliff","RDustEffects"],["GdtVolcanoBeach","RDustEffects"],["SurfRoadDirt_exp","RDustEffectsRed"],["SurfRoadConcrete_exp","RDustEffects"],["SurfRoadTarmac_exp","RDustEffects"],["GdtStratisConcrete","RDustEffects"],["GdtStratisConcrete","RDirtEffects"],["GdtStratisBeach","RDustEffects"],["GdtStratisBeach","RStonesEffects"],["GdtStratisDirt","RDustEffects"],["GdtStratisDirt","RDirtEffects"],["GdtStratisSeabedCluttered","RDustEffects"],["GdtStratisSeabed","RDustEffects"],["GdtStratisDryGrass","RDustEffects"],["GdtStratisDryGrass","RGrassDryEffects"],["GdtStratisDryGrass","RDirtEffects"],["GdtStratisGreenGrass","RDustEffects"],["GdtStratisGreenGrass","RGrassEffects"],["GdtStratisGreenGrass","RDirtEffects"],["GdtStratisRocky","RDustEffects"],["GdtStratisRocky","RGrassEffects"],["GdtStratisRocky","RDirtEffects"],["GdtStratisThistles","RDustEffects"],["GdtStratisThistles","RGrassEffects"],["GdtStratisThistles","RDirtEffects"],["GdtConcrete","RDustEffects"],["GdtConcrete","RDirtEffects"],["GdtAsphalt","RDustEffects"],["GdtAsphalt","RDirtEffects"],["GdtRubble","RDustEffects"],["GdtRubble","RDirtEffects"],["GdtSoil","RDustEffects"],["GdtSoil","RDirtEffects"],["GdtBeach","RDustEffects"],["GdtBeach","RStonesEffects"],["GdtRock","RDustEffects"],["GdtRock","RDirtEffects"],["GdtDead","RDustEffects"],["GdtDead","RDirtEffects"],["Default","RDustEffects"],["GdtDesert","RDustEffects"],["GdtDesert","RStonesEffects"],["GdtDesert1","RDustEffects"],["GdtDesert1","RSandEffects"],["GdtDesert1","RDirtEffects"],["GdtDesert1","RStonesEffects"],["GdtDesert2","RDustEffects"],["GdtDesert2","RSandEffects"],["GdtDesert2","RGrassEffects"],["GdtDesert2","RDirtEffects"],["GdtDirt","RDustEffects"],["GdtDirt","RDirtEffects"],["GdtGrassGreen","RDustEffects"],["GdtGrassGreen","RGrassEffects"],["GdtGrassGreen","RDirtEffects"],["GdtGrassDry","RDustEffects"],["GdtGrassDry","RGrassDryEffects"],["GdtGrassDry","RDirtEffects"],["GdtGrassWild","RDustEffects"],["GdtGrassWild","RGrassEffects"],["GdtGrassWild","RDirtEffects"],["GdtWildField","RDustEffects"],["GdtWildField","RGrassEffects"],["GdtWildField","RDirtEffects"],["GdtWeed1","RDustEffects"],["GdtWeed1","RGrassEffects"],["GdtWeed1","RDirtEffects"],["GdtWeed2","RDustEffects"],["GdtWeed2","RGrassEffects"],["GdtWeed2","RDirtEffects"],["GdtThorn","RDustEffects"],["GdtThorn","RGrassEffects"],["GdtThorn","RDirtEffects"],["GdtStony","RDustEffects"],["GdtStony","RGrassEffects"],["GdtStony","RDirtEffects"],["GdtStonyGreen","RDustEffects"],["GdtStonyGreen","RGrassEffects"],["GdtStonyGreen","RDirtEffects"],["GdtStonyThistle","RDustEffects"],["GdtStonyThistle","RGrassEffects"],["GdtStonyThistle","RDirtEffects"],["GdtSeabedDeep","RDustEffects"],["GdtSeabed","RDustEffects"],["SurfRoadDirt","RDustEffects"],["SurfRoadConcrete","RDustEffects"],["SurfRoadTarmac","RDustEffects"],["SurfWood","RDustEffects"],["SurfMetal","RDustEffects"],["SurfRoofTin","RDustEffects"],["SurfRoofTiles","RDustEffects"],["SurfIntWood","RDustEffects"],["SurfIntConcrete","RDustEffects"],["SurfIntTiles","RDustEffects"],["SurfIntMetal","RDustEffects"],["dirtrunway","RDustEffects"]],
     "leftDustEffects": [["GdtKLDirt","LDustEffects"],["GdtKLGrass1","LDustEffects"],["GdtKLGrass1","LGrassEffects"],["GdtKLGrass2","LDustEffects"],["GdtKLGrass2","LGrassEffects"],["GdtKLForestCon","LDustEffects"],["GdtKLForestDec","LDustEffects"],["GdtKlMud","LDustEffects"],["GdtKlSoil","LDustEffects"],["GdtKlTarmac","LDustEffects"],["GdtKlStubble","LDustEffects"],["GdtKlStones","LStonesEffects"],["SurfRoadDirt_Enoch","LDustEffects"],["SurfTrailDirt_Enoch","LDustEffects"],["SurfRoadTarmac1_Enoch","LDustEffects"],["SurfRoadTarmac2_Enoch","LDustEffects"],["SurfRoadTarmac3_Enoch","LDustEffects"],["GdtGrassShort","LDustEffects"],["GdtGrassShort","LGrassEffects"],["GdtGrassTall","LDustEffects"],["GdtGrassTall","LGrassEffects"],["GdtRedDirt","LDustEffectsRed"],["GdtField","LDustEffects"],["GdtForest","LDustEffects"],["GdtVolcano","LDustEffects"],["GdtVolcano","LStonesEffects"],["GdtCliff","LDustEffects"],["GdtVolcanoBeach","LDustEffects"],["SurfRoadDirt_exp","LDustEffectsRed"],["SurfRoadConcrete_exp","LDustEffects"],["SurfRoadTarmac_exp","LDustEffects"],["GdtStratisConcrete","LDustEffects"],["GdtStratisConcrete","LDirtEffects"],["GdtStratisBeach","LDustEffects"],["GdtStratisBeach","LStonesEffects"],["GdtStratisDirt","LDustEffects"],["GdtStratisDirt","LDirtEffects"],["GdtStratisSeabedCluttered","LDustEffects"],["GdtStratisSeabed","LDustEffects"],["GdtStratisDryGrass","LDustEffects"],["GdtStratisDryGrass","LGrassDryEffects"],["GdtStratisDryGrass","LDirtEffects"],["GdtStratisGreenGrass","LDustEffects"],["GdtStratisGreenGrass","LGrassEffects"],["GdtStratisGreenGrass","LDirtEffects"],["GdtStratisRocky","LDustEffects"],["GdtStratisRocky","LGrassEffects"],["GdtStratisRocky","LDirtEffects"],["GdtStratisThistles","LDustEffects"],["GdtStratisThistles","LGrassEffects"],["GdtStratisThistles","LDirtEffects"],["GdtConcrete","LDustEffects"],["GdtConcrete","LDirtEffects"],["GdtAsphalt","LDustEffects"],["GdtAsphalt","LDirtEffects"],["GdtRubble","LDustEffects"],["GdtRubble","LGrassEffects"],["GdtRubble","LDirtEffects"],["GdtSoil","LDustEffects"],["GdtSoil","LDirtEffects"],["GdtBeach","LDustEffects"],["GdtBeach","LStonesEffects"],["GdtRock","LDustEffects"],["GdtRock","LDirtEffects"],["GdtDead","LDustEffects"],["GdtDead","LDirtEffects"],["Default","LDustEffects"],["GdtDesert","LDustEffects"],["GdtDesert","LStonesEffects"],["GdtDesert1","LDustEffects"],["GdtDesert1","LSandEffects"],["GdtDesert1","LDirtEffects"],["GdtDesert1","LStonesEffects"],["GdtDesert2","LDustEffects"],["GdtDesert2","LSandEffects"],["GdtDesert2","LGrassEffects"],["GdtDesert2","LDirtEffects"],["GdtDirt","LDustEffects"],["GdtDirt","LDirtEffects"],["GdtGrassGreen","LDustEffects"],["GdtGrassGreen","LGrassEffects"],["GdtGrassGreen","LDirtEffects"],["GdtGrassDry","LDustEffects"],["GdtGrassDry","LGrassDryEffects"],["GdtGrassDry","LDirtEffects"],["GdtGrassWild","LDustEffects"],["GdtGrassWild","LGrassEffects"],["GdtGrassWild","LDirtEffects"],["GdtWildField","LDustEffects"],["GdtWildField","LGrassEffects"],["GdtWildField","LDirtEffects"],["GdtWeed1","LDustEffects"],["GdtWeed1","LGrassEffects"],["GdtWeed1","LDirtEffects"],["GdtWeed2","LDustEffects"],["GdtWeed2","LGrassEffects"],["GdtWeed2","LDirtEffects"],["GdtThorn","LDustEffects"],["GdtThorn","LGrassEffects"],["GdtThorn","LDirtEffects"],["GdtStony","LDustEffects"],["GdtStony","LGrassEffects"],["GdtStony","LDirtEffects"],["GdtStonyGreen","LDustEffects"],["GdtStonyGreen","LGrassEffects"],["GdtStonyGreen","LDirtEffects"],["GdtStonyThistle","LDustEffects"],["GdtStonyThistle","LGrassEffects"],["GdtStonyThistle","LDirtEffects"],["GdtSeabedDeep","LDustEffects"],["GdtSeabed","LDustEffects"],["SurfRoadDirt","LDustEffects"],["SurfRoadConcrete","LDustEffects"],["SurfRoadTarmac","LDustEffects"],["SurfWood","LDustEffects"],["SurfMetal","LDustEffects"],["SurfRoofTin","LDustEffects"],["SurfRoofTiles","LDustEffects"],["SurfIntWood","LDustEffects"],["SurfIntConcrete","LDustEffects"],["SurfIntTiles","LDustEffects"],["SurfIntMetal","LDustEffects"],["dirtrunway","LDustEffects"]],
-    # Class: CfgVehicles\Car\DestructionEffects [Indent level: 1],
+    # Class: CfgVehicles|Car|DestructionEffects [Indent level: 1],
     "DestructionEffects": {
-        # Class: CfgVehicles\Car\DestructionEffects\Light1 [Indent level: 2]
+        # Class: CfgVehicles|Car|DestructionEffects|Light1 [Indent level: 2],
+
         "Light1": {
+
             "simulation": "light",
+
             "type": "ObjectDestructionLight",
+
             "position": "destructionEffect1",
+
             "intensity": 0.001,
+
             "interval": 1,
+
             "lifeTime": 3,
+
             "enabled": "distToWater"
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Sound [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Sound [Indent level: 2],
         "Sound": {
             "simulation": "sound",
             "position": "destructionEffect1",
@@ -1451,7 +1629,7 @@ C_Hatchback_01_sport_red_F = {
             "lifeTime": 1,
             "type": "Fire"
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Fire1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Fire1 [Indent level: 2],
         "Fire1": {
             "simulation": "particles",
             "type": "ObjectDestructionFire1Small",
@@ -1460,7 +1638,7 @@ C_Hatchback_01_sport_red_F = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Refract1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Refract1 [Indent level: 2],
         "Refract1": {
             "simulation": "particles",
             "type": "ObjectDestructionRefractSmall",
@@ -1469,7 +1647,7 @@ C_Hatchback_01_sport_red_F = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Smoke1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Smoke1 [Indent level: 2],
         "Smoke1": {
             "simulation": "particles",
             "type": "ObjectDestructionSmokeSmall",
@@ -1478,7 +1656,7 @@ C_Hatchback_01_sport_red_F = {
             "interval": 1,
             "lifeTime": 3.5
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Sparks1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Sparks1 [Indent level: 2],
         "Sparks1": {
             "simulation": "particles",
             "type": "ObjectDestructionSparks",
@@ -1487,7 +1665,7 @@ C_Hatchback_01_sport_red_F = {
             "interval": 1,
             "lifeTime": 0
         },
-        # Class: CfgVehicles\Car\DestructionEffects\FireSparks1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|FireSparks1 [Indent level: 2],
         "FireSparks1": {
             "simulation": "particles",
             "type": "FireSparks",
@@ -1496,7 +1674,7 @@ C_Hatchback_01_sport_red_F = {
             "interval": 1,
             "lifeTime": 2.8
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Fire2 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Fire2 [Indent level: 2],
         "Fire2": {
             "simulation": "particles",
             "type": "ObjectDestructionFire2Small",
@@ -1505,7 +1683,7 @@ C_Hatchback_01_sport_red_F = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Smoke1_2 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Smoke1_2 [Indent level: 2],
         "Smoke1_2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke1_2Small",
@@ -1514,7 +1692,7 @@ C_Hatchback_01_sport_red_F = {
             "interval": 1,
             "lifeTime": 3.5
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Smoke2 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Smoke2 [Indent level: 2],
         "Smoke2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke2",
@@ -1540,7 +1718,7 @@ C_Hatchback_01_sport_red_F = {
     "selectionLeftOffset": "PasOffsetL",
     "selectionRightOffset": "PasOffsetP",
     "explosionEffect": "FuelExplosion",
-    # Class: CfgVehicles\LandVehicle\CommanderOptics [Indent level: 1],
+    # Class: CfgVehicles|LandVehicle|CommanderOptics [Indent level: 1],
     "CommanderOptics": {
         "proxyType": "CPCommander",
         "proxyIndex": 1,
@@ -1582,7 +1760,7 @@ C_Hatchback_01_sport_red_F = {
         "gunnerGetOutAction": "GetOutHigh",
         "memoryPointGun": "gun_muzzle",
         "selectionFireAnim": "zasleh_1",
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -1602,7 +1780,7 @@ C_Hatchback_01_sport_red_F = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -1641,7 +1819,7 @@ C_Hatchback_01_sport_red_F = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -1671,11 +1849,11 @@ C_Hatchback_01_sport_red_F = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -1696,126 +1874,129 @@ C_Hatchback_01_sport_red_F = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -1836,16 +2017,19 @@ C_Hatchback_01_sport_red_F = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -1866,27 +2050,37 @@ C_Hatchback_01_sport_red_F = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -1896,7 +2090,7 @@ C_Hatchback_01_sport_red_F = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
         "forceNVG": 0,
@@ -1917,11 +2111,11 @@ C_Hatchback_01_sport_red_F = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -1934,7 +2128,7 @@ C_Hatchback_01_sport_red_F = {
     "weaponsGroup2": "2 + 		4",
     "weaponsGroup3": "8 + 	16 + 	32",
     "weaponsGroup4": "64 + 		128",
-    # Class: CfgVehicles\AllVehicles\SquadTitles [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SquadTitles [Indent level: 1],
     "SquadTitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
@@ -1954,7 +2148,7 @@ C_Hatchback_01_sport_red_F = {
     "selectionDashboard": "podsvit pristroju",
     "selectionShowDamage": "poskozeni",
     "selectionBackLights": "zadni svetlo",
-    # Class: CfgVehicles\AllVehicles\ViewCargo [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewCargo [Indent level: 1],
     "ViewCargo": {
         "initAngleX": 5,
         "minAngleX": -75,
@@ -1974,7 +2168,7 @@ C_Hatchback_01_sport_red_F = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\ViewOptics [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewOptics [Indent level: 1],
     "ViewOptics": {
         "initAngleX": 0,
         "minAngleX": -30,
@@ -1994,18 +2188,20 @@ C_Hatchback_01_sport_red_F = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\PilotSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|PilotSpec [Indent level: 1],
     "PilotSpec": {
         "showHeadPhones": 0
     },
-    # Class: CfgVehicles\AllVehicles\CargoSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoSpec [Indent level: 1],
     "CargoSpec": {
-        # Class: CfgVehicles\AllVehicles\CargoSpec\Cargo1 [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoSpec|Cargo1 [Indent level: 2],
+
         "Cargo1": {
+
             "showHeadPhones": 0
         }
     },
-    # Class: CfgVehicles\AllVehicles\SoundEvents [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SoundEvents [Indent level: 1],
     "SoundEvents": {
     },
     "cargoProxyIndexes": [],
@@ -2020,29 +2216,47 @@ C_Hatchback_01_sport_red_F = {
     "impactEffectsSea": "ImpactEffectsSea",
     "impactEffectSpeedLimit": 8,
     "showCrewAim": 0,
-    # Class: CfgVehicles\AllVehicles\CargoTurret [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoTurret [Indent level: 1],
     "CargoTurret": {
-        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
+
         "ViewGunner": {
+
             "initAngleX": 5,
+
             "minAngleX": -75,
+
             "maxAngleX": 85,
+
             "initAngleY": 0,
+
             "minAngleY": -150,
+
             "maxAngleY": 150,
+
             "minFov": 0.25,
+
             "maxFov": 1.25,
+
             "initFov": 0.75,
+
             "minMoveX": 0,
+
             "maxMoveX": 0,
+
             "minMoveY": 0,
+
             "maxMoveY": 0,
+
             "minMoveZ": 0,
+
             "maxMoveZ": 0,
+
             "speedZoomMaxSpeed": 1e+010,
+
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|CargoTurret|Hitpoints [Indent level: 2],
         "Hitpoints": {
         },
         "animationSourceBody": "",
@@ -2099,7 +2313,7 @@ C_Hatchback_01_sport_red_F = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -2136,11 +2350,11 @@ C_Hatchback_01_sport_red_F = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -2161,126 +2375,129 @@ C_Hatchback_01_sport_red_F = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -2301,16 +2518,19 @@ C_Hatchback_01_sport_red_F = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -2331,19 +2551,22 @@ C_Hatchback_01_sport_red_F = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -2376,11 +2599,11 @@ C_Hatchback_01_sport_red_F = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -2480,10 +2703,10 @@ C_Hatchback_01_sport_red_F = {
     "showNVGCargo": [0],
     "soundAttenuationCargo": [1],
     "countsForScoreboard": 1,
-    # Class: CfgVehicles\All\MarkerLights [Indent level: 1],
+    # Class: CfgVehicles|All|MarkerLights [Indent level: 1],
     "MarkerLights": {
     },
-    # Class: CfgVehicles\All\NVGMarker [Indent level: 1],
+    # Class: CfgVehicles|All|NVGMarker [Indent level: 1],
     "NVGMarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
@@ -2491,7 +2714,7 @@ C_Hatchback_01_sport_red_F = {
         "blinking": 0,
         "onlyInNvg": 0
     },
-    # Class: CfgVehicles\All\HeadLimits [Indent level: 1],
+    # Class: CfgVehicles|All|HeadLimits [Indent level: 1],
     "HeadLimits": {
         "initAngleX": 5,
         "minAngleX": -30,
@@ -2512,46 +2735,46 @@ C_Hatchback_01_sport_red_F = {
     "attendant": 0,
     "engineer": 0,
     "uavHacker": 0,
-    # Class: CfgVehicles\All\SoundEnvironExt [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEnvironExt [Indent level: 1],
     "SoundEnvironExt": {
     },
-    # Class: CfgVehicles\All\SoundEquipment [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEquipment [Indent level: 1],
     "SoundEquipment": {
     },
-    # Class: CfgVehicles\All\SoundBreath [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreath [Indent level: 1],
     "SoundBreath": {
     },
-    # Class: CfgVehicles\All\SoundBreathSwimming [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathSwimming [Indent level: 1],
     "SoundBreathSwimming": {
     },
-    # Class: CfgVehicles\All\SoundBreathInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathInjured [Indent level: 1],
     "SoundBreathInjured": {
     },
-    # Class: CfgVehicles\All\SoundHitScream [Indent level: 1],
+    # Class: CfgVehicles|All|SoundHitScream [Indent level: 1],
     "SoundHitScream": {
     },
-    # Class: CfgVehicles\All\SoundInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundInjured [Indent level: 1],
     "SoundInjured": {
     },
-    # Class: CfgVehicles\All\SoundBreathAutomatic [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathAutomatic [Indent level: 1],
     "SoundBreathAutomatic": {
     },
-    # Class: CfgVehicles\All\SoundDrown [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrown [Indent level: 1],
     "SoundDrown": {
     },
-    # Class: CfgVehicles\All\SoundChoke [Indent level: 1],
+    # Class: CfgVehicles|All|SoundChoke [Indent level: 1],
     "SoundChoke": {
     },
-    # Class: CfgVehicles\All\SoundRecovered [Indent level: 1],
+    # Class: CfgVehicles|All|SoundRecovered [Indent level: 1],
     "SoundRecovered": {
     },
-    # Class: CfgVehicles\All\SoundBurning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBurning [Indent level: 1],
     "SoundBurning": {
     },
-    # Class: CfgVehicles\All\PulsationSound [Indent level: 1],
+    # Class: CfgVehicles|All|PulsationSound [Indent level: 1],
     "PulsationSound": {
     },
-    # Class: CfgVehicles\All\SoundDrowning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrowning [Indent level: 1],
     "SoundDrowning": {
     },
     "soundLandCrash": ["",1,1],
@@ -2594,11 +2817,11 @@ C_Hatchback_01_sport_red_F = {
     "hiddenUnderwaterSelections": [],
     "shownUnderWaterSelections": [],
     "hiddenUnderwaterSelectionsTextures": [],
-    # Class: CfgVehicles\All\FxExplo [Indent level: 1],
+    # Class: CfgVehicles|All|FxExplo [Indent level: 1],
     "FxExplo": {
         "access": 1
     },
-    # Class: CfgVehicles\All\GunFire [Indent level: 1],
+    # Class: CfgVehicles|All|GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -2619,126 +2842,129 @@ C_Hatchback_01_sport_red_F = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: WeaponFireGun\Table [Indent level: 0],
+        # Class: WeaponFireGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+            # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\GunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletDuration": 0.3,
@@ -2759,16 +2985,19 @@ C_Hatchback_01_sport_red_F = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsGun\Table [Indent level: 0],
+        # Class: WeaponCloudsGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\MGunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|MGunClouds [Indent level: 1],
     "MGunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -2789,11 +3018,14 @@ C_Hatchback_01_sport_red_F = {
         "sourceSize": 0.02,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsMGun\Table [Indent level: 0],
+        # Class: WeaponCloudsMGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
@@ -2814,7 +3046,7 @@ C_Hatchback_01_sport_red_F = {
     "damageFull": [],
     "minGForce": 0.2,
     "gForceShakeAttenuation": 0.5,
-    # Class: CfgVehicles\All\camShakeDamage [Indent level: 1],
+    # Class: CfgVehicles|All|camShakeDamage [Indent level: 1],
     "camShakeDamage": {
         "power": 0.5,
         "frequency": 60,

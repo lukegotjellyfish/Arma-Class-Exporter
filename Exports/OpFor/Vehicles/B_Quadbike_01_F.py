@@ -1,6 +1,6 @@
 B_Quadbike_01_F = {
     "author": "Bohemia Interactive",
-    # Class: CfgVehicles\B_Quadbike_01_F\SimpleObject [Indent level: 1],
+    # Class: CfgVehicles|B_Quadbike_01_F|SimpleObject [Indent level: 1],
     "SimpleObject": {
         "eden": 1,
         "animate": [["damagehide",0],["damagehidevez",0],["damagehidehlaven",0],["wheel_1_1_destruct",0],["wheel_1_2_destruct",0],["wheel_1_3_destruct",0],["wheel_1_4_destruct",0],["wheel_2_1_destruct",0],["wheel_2_2_destruct",0],["wheel_2_3_destruct",0],["wheel_2_4_destruct",0],["wheel_1_1_destruct_unhide",0],["wheel_1_2_destruct_unhide",0],["wheel_1_3_destruct_unhide",0],["wheel_1_4_destruct_unhide",0],["wheel_2_1_destruct_unhide",0],["wheel_2_2_destruct_unhide",0],["wheel_2_3_destruct_unhide",0],["wheel_2_4_destruct_unhide",0],["wheel_1_4_damage",0],["wheel_2_4_damage",0],["wheel_1_4_damper_damage_backanim",0],["wheel_2_4_damper_damage_backanim",0],["wheel_1_1",0],["wheel_2_1",0],["wheel_1_2",0],["wheel_2_2",0],["daylights",0],["reverse_light",1],["wheel_1_1_damage",0],["wheel_1_2_damage",0],["wheel_1_3_damage",0],["wheel_2_1_damage",0],["wheel_2_2_damage",0],["wheel_2_3_damage",0],["wheel_1_1_damper_damage_backanim",0],["wheel_1_2_damper_damage_backanim",0],["wheel_1_3_damper_damage_backanim",0],["wheel_2_1_damper_damage_backanim",0],["wheel_2_2_damper_damage_backanim",0],["wheel_2_3_damper_damage_backanim",0],["drivingwheel",0],["steering_1_1",0],["steering_2_1",0],["wheel_1_1_damper",0],["wheel_2_1_damper",0],["wheel_1_2_damper",0],["wheel_2_2_damper",0]],
@@ -66,7 +66,7 @@ B_Quadbike_01_F = {
     "BushCrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,1,50],
     "BushCrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,0.8,50],
     "soundBushCrash": ["BushCrash1",0.25,"BushCrash2",0.25,"BushCrash3",0.25,"BushCrash4",0.25],
-    # Class: CfgVehicles\Quadbike_01_base_F\Sounds [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|Sounds [Indent level: 1],
     "Sounds": {
         "soundSetsInt": ["jsrs_quadbike_01_idle_interior_soundset","jsrs_quadbike_01_low_interior_soundset","jsrs_quadbike_01_high_interior_soundset","jsrs_quadbike_01_start_interior_soundset","jsrs_vehicle_interior_silent_soundset","jsrs_windy_open_driving_soundset","jsrs_light_vehicle_rain_int_soundset","jsrs_wheeled_light_rattle_int_soundset","jsrs_wheeled_light_offroad_rattle_int_soundset","jsrs_tires_asphalt_slow_int_soundset","jsrs_tires_asphalt_fast_int_soundset","jsrs_tires_offroad_slow_int_soundset","jsrs_tires_offroad_fast_int_soundset","jsrs_tires_grass_int_soundset","jsrs_light_vehicle_water_moving_int_soundset"],
         "soundSetsExt": ["jsrs_quadbike_01_idle_exterior_soundset","jsrs_quadbike_01_low_exterior_soundset","jsrs_quadbike_01_high_exterior_soundset","jsrs_quadbike_01_start_exterior_soundset","jsrs_quadbike_01_distance_soundset","jsrs_light_vehicle_rain_ext_soundset","jsrs_wheeled_light_rattle_ext_soundset","jsrs_wheeled_light_offroad_rattle_ext_soundset","jsrs_tires_asphalt_slow_ext_soundset","jsrs_tires_asphalt_fast_ext_soundset","jsrs_tires_offroad_slow_ext_soundset","jsrs_tires_offroad_fast_ext_soundset","jsrs_tires_grass_ext_soundset","jsrs_tires_close_dry_soundset","jsrs_tires_close_wet_soundset","jsrs_tires_distance_soundset","jsrs_light_vehicle_water_moving_ext_soundset"]
@@ -74,7 +74,7 @@ B_Quadbike_01_F = {
     "features": "Randomization: No 						<br />Camo selections: 2 - the body, wheels						<br />Script door sources: None						<br />Script animations: None						<br />Executed scripts: None						<br />Firing from vehicles: No						<br />Slingload: Slingloadable						<br />Cargo proxy indexes: 1",
     "mapSize": 3.56,
     "displayName": "Quad Bike",
-    # Class: CfgVehicles\Quadbike_01_base_F\Library [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|Library [Indent level: 1],
     "Library": {
         "libTextDesc": "$str_a3_cfgvehicles_Quadbike_Base_F_library0"
     },
@@ -101,7 +101,7 @@ B_Quadbike_01_F = {
     "antiRollbarSpeedMax": 50,
     "idleRpm": 600,
     "redRpm": 2000,
-    # Class: CfgVehicles\Quadbike_01_base_F\complexGearbox [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|complexGearbox [Indent level: 1],
     "complexGearbox": {
         "GearboxRatios": ["R1",-2.351,"N",0,"D1",2.081,"D2",1.257,"D3",0.737],
         "TransmissionRatios": ["High",4],
@@ -130,37 +130,63 @@ B_Quadbike_01_F = {
     "changeGearMinEffectivity": [0.95,0.15,0.98,0.98,0.95],
     "switchTime": 0.1,
     "latency": 1,
-    # Class: CfgVehicles\Quadbike_01_base_F\Wheels [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|Wheels [Indent level: 1],
     "Wheels": {
-        # Class: CfgVehicles\Quadbike_01_base_F\Wheels\LF [Indent level: 2]
+        # Class: CfgVehicles|Quadbike_01_base_F|Wheels|LF [Indent level: 2],
+
         "LF": {
+
             "side": "left",
+
             "suspTravelDirection": [-0.125,-1,0],
+
             "suspForceAppPointOffset": "wheel_1_1_axis",
+
             "tireForceAppPointOffset": "wheel_1_1_axis",
+
             "boneName": "wheel_1_1_damper",
+
             "center": "wheel_1_1_axis",
+
             "boundary": "wheel_1_1_bound",
+
             "steering": 1,
+
             "width": 0.22,
+
             "mass": 20,
+
             "MOI": 10.3,
+
             "dampingRate": 0.5,
+
             "dampingRateDamaged": 5,
+
             "dampingRateDestroyed": 2500,
+
             "maxBrakeTorque": 1000,
+
             "maxHandBrakeTorque": 0,
+
             "maxCompression": 0.05,
+
             "maxDroop": 0.2,
+
             "sprungMass": 50,
+
             "springStrength": 9050,
+
             "springDamperRate": 1000,
+
             "longitudinalStiffnessPerUnitGravity": 15000,
+
             "latStiffX": 2.5,
+
             "latStiffY": 80,
+
             "frictionVsSlipGraph": [[0,0.8],[0.25,1.85],[0.55,1.7]]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\Wheels\LR [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|Wheels|LR [Indent level: 2],
         "LR": {
             "boneName": "wheel_1_2_damper",
             "steering": 0,
@@ -188,7 +214,7 @@ B_Quadbike_01_F = {
             "latStiffY": 80,
             "frictionVsSlipGraph": [[0,0.8],[0.25,1.85],[0.55,1.7]]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\Wheels\RF [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|Wheels|RF [Indent level: 2],
         "RF": {
             "side": "right",
             "suspTravelDirection": [0.125,-1,0],
@@ -216,7 +242,7 @@ B_Quadbike_01_F = {
             "latStiffY": 80,
             "frictionVsSlipGraph": [[0,0.8],[0.25,1.85],[0.55,1.7]]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\Wheels\RR [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|Wheels|RR [Indent level: 2],
         "RR": {
             "boneName": "wheel_2_2_damper",
             "steering": 0,
@@ -247,7 +273,7 @@ B_Quadbike_01_F = {
     },
     "transportSoldier": 1,
     "turnCoef": 4.5,
-    # Class: CfgVehicles\Quadbike_01_base_F\PlayerSteeringCoefficients [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|PlayerSteeringCoefficients [Indent level: 1],
     "PlayerSteeringCoefficients": {
         "turnIncreaseConst": 0.8,
         "turnIncreaseLinear": 2,
@@ -266,26 +292,36 @@ B_Quadbike_01_F = {
     "fuelExplosionPower": 0,
     "maxFordingDepth": -0.45,
     "maximumLoad": 600,
-    # Class: CfgVehicles\Quadbike_01_base_F\TransportItems [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|TransportItems [Indent level: 1],
     "TransportItems": {
-        # Class: CfgVehicles\Quadbike_01_base_F\TransportItems\_xx_FirstAidKit [Indent level: 2]
+        # Class: CfgVehicles|Quadbike_01_base_F|TransportItems|_xx_FirstAidKit [Indent level: 2],
+
         "_xx_FirstAidKit": {
+
             "name": "FirstAidKit",
+
             "count": 4
         }
     },
-    # Class: CfgVehicles\Quadbike_01_base_F\DestructionEffects [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|DestructionEffects [Indent level: 1],
     "DestructionEffects": {
-        # Class: CfgVehicles\Quadbike_01_base_F\DestructionEffects\UAVCrashSmoke [Indent level: 2]
+        # Class: CfgVehicles|Quadbike_01_base_F|DestructionEffects|UAVCrashSmoke [Indent level: 2],
+
         "UAVCrashSmoke": {
+
             "simulation": "particles",
+
             "type": "UAVCrashSmoke",
+
             "position": "[0,0,0]",
+
             "intensity": 0.15,
+
             "interval": 1,
+
             "lifeTime": 0.012
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\DestructionEffects\Light1 [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|DestructionEffects|Light1 [Indent level: 2],
         "Light1": {
             "simulation": "light",
             "type": "ObjectDestructionLightSmall",
@@ -295,7 +331,7 @@ B_Quadbike_01_F = {
             "lifeTime": 3,
             "enabled": "distToWater"
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\DestructionEffects\Sound [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|DestructionEffects|Sound [Indent level: 2],
         "Sound": {
             "simulation": "sound",
             "position": "destructionEffect1",
@@ -304,7 +340,7 @@ B_Quadbike_01_F = {
             "lifeTime": 1,
             "type": "Fire"
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\DestructionEffects\Fire1 [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|DestructionEffects|Fire1 [Indent level: 2],
         "Fire1": {
             "simulation": "particles",
             "type": "ObjectDestructionFire1Tiny",
@@ -313,7 +349,7 @@ B_Quadbike_01_F = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\DestructionEffects\Refract1 [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|DestructionEffects|Refract1 [Indent level: 2],
         "Refract1": {
             "simulation": "particles",
             "type": "SmallFireFRefract",
@@ -322,7 +358,7 @@ B_Quadbike_01_F = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\DestructionEffects\Smoke1 [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|DestructionEffects|Smoke1 [Indent level: 2],
         "Smoke1": {
             "simulation": "particles",
             "type": "SmallWreckSmoke",
@@ -332,7 +368,7 @@ B_Quadbike_01_F = {
             "lifeTime": 3.5
         }
     },
-    # Class: CfgVehicles\Quadbike_01_base_F\Turrets [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|Turrets [Indent level: 1],
     "Turrets": {
     },
     "showNVGCargo": [1],
@@ -351,18 +387,25 @@ B_Quadbike_01_F = {
     "cargoPreciseGetInOut": [1],
     "extCameraPosition": [0,1.6,-4.5],
     "camShakeCoef": 1,
-    # Class: CfgVehicles\Quadbike_01_base_F\HitPoints [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|HitPoints [Indent level: 1],
     "HitPoints": {
-        # Class: CfgVehicles\Quadbike_01_base_F\HitPoints\HitEngine [Indent level: 2]
+        # Class: CfgVehicles|Quadbike_01_base_F|HitPoints|HitEngine [Indent level: 2],
+
         "HitEngine": {
+
             "armor": 4,
+
             "material": -1,
+
             "name": "motor",
+
             "visual": "motor",
+
             "passThrough": 0,
+
             "radius": 0.25
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\HitPoints\HitFuel [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|HitPoints|HitFuel [Indent level: 2],
         "HitFuel": {
             "armor": 2,
             "material": -1,
@@ -370,7 +413,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "radius": 0.25
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\HitPoints\HitLFWheel [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|HitPoints|HitLFWheel [Indent level: 2],
         "HitLFWheel": {
             "radius": 0.25,
             "visual": "wheel_1_1_damage",
@@ -382,7 +425,7 @@ B_Quadbike_01_F = {
             "material": -1,
             "name": "wheel_1_1_steering"
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\HitPoints\HitLF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|HitPoints|HitLF2Wheel [Indent level: 2],
         "HitLF2Wheel": {
             "radius": 0.25,
             "visual": "wheel_1_2_damage",
@@ -394,7 +437,7 @@ B_Quadbike_01_F = {
             "material": -1,
             "name": "wheel_1_2_steering"
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\HitPoints\HitRFWheel [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|HitPoints|HitRFWheel [Indent level: 2],
         "HitRFWheel": {
             "radius": 0.25,
             "visual": "wheel_2_1_damage",
@@ -406,7 +449,7 @@ B_Quadbike_01_F = {
             "material": -1,
             "name": "wheel_2_1_steering"
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\HitPoints\HitRF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|HitPoints|HitRF2Wheel [Indent level: 2],
         "HitRF2Wheel": {
             "radius": 0.25,
             "visual": "wheel_2_2_damage",
@@ -418,7 +461,7 @@ B_Quadbike_01_F = {
             "material": -1,
             "name": "wheel_2_2_steering"
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRGlass [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRGlass [Indent level: 2],
         "HitRGlass": {
             "armor": 0.2,
             "material": -1,
@@ -426,7 +469,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLGlass [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLGlass [Indent level: 2],
         "HitLGlass": {
             "armor": 0.2,
             "material": -1,
@@ -434,7 +477,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass1 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "armor": 0.1,
             "material": -1,
@@ -443,7 +486,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass2 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "armor": 0.1,
             "material": -1,
@@ -452,7 +495,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass3 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "armor": 0.1,
             "material": -1,
@@ -461,7 +504,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass4 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "armor": 0.1,
             "material": -1,
@@ -470,7 +513,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass5 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "armor": 0.1,
             "material": -1,
@@ -479,7 +522,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitGlass6 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "armor": 0.1,
             "material": -1,
@@ -488,7 +531,7 @@ B_Quadbike_01_F = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitBody [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitBody [Indent level: 2],
         "HitBody": {
             "armor": 1,
             "material": -1,
@@ -497,7 +540,7 @@ B_Quadbike_01_F = {
             "passThrough": 1,
             "explosionShielding": 1.5
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLBWheel [Indent level: 2],
         "HitLBWheel": {
             "armor": 0.2,
             "material": -1,
@@ -506,7 +549,7 @@ B_Quadbike_01_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLMWheel [Indent level: 2],
         "HitLMWheel": {
             "armor": 0.2,
             "material": -1,
@@ -515,7 +558,7 @@ B_Quadbike_01_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRBWheel [Indent level: 2],
         "HitRBWheel": {
             "armor": 0.2,
             "material": -1,
@@ -524,7 +567,7 @@ B_Quadbike_01_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRMWheel [Indent level: 2],
         "HitRMWheel": {
             "armor": 0.2,
             "material": -1,
@@ -533,7 +576,7 @@ B_Quadbike_01_F = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitHull [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitHull [Indent level: 2],
         "HitHull": {
             "armor": 1.5,
             "material": -1,
@@ -547,40 +590,63 @@ B_Quadbike_01_F = {
     "wheelDamageThreshold": 0.025,
     "wheelDamageRadiusCoef": 0.8,
     "wheelDestroyRadiusCoef": 0.65,
-    # Class: CfgVehicles\Quadbike_01_base_F\Damage [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|Damage [Indent level: 1],
     "Damage": {
         "tex": [],
         "mat": ["A3|soft_F|Quadbike_01|Data|Quadbike_01_base.rvmat","A3|soft_F|Quadbike_01|Data|Quadbike_01_base_damage.rvmat","A3|soft_F|Quadbike_01|Data|Quadbike_01_base_destruct.rvmat"]
     },
-    # Class: CfgVehicles\Quadbike_01_base_F\Reflectors [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|Reflectors [Indent level: 1],
     "Reflectors": {
-        # Class: CfgVehicles\Quadbike_01_base_F\Reflectors\Left [Indent level: 2]
+        # Class: CfgVehicles|Quadbike_01_base_F|Reflectors|Left [Indent level: 2],
+
         "Left": {
+
             "color": [1.9,1.8,1.7],
+
             "ambient": [5,5,5],
+
             "position": "Light_L",
+
             "direction": "Light_L_end",
+
             "hitpoint": "Light_L",
+
             "selection": "Light_L",
+
             "size": 1,
+
             "innerAngle": 30,
+
             "outerAngle": 179,
+
             "coneFadeCoef": 10,
+
             "intensity": 70,
+
             "useFlare": 0,
+
             "dayLight": 0,
+
             "flareSize": 1,
-            # Class: CfgVehicles\Quadbike_01_base_F\Reflectors\Left\Attenuation [Indent level: 3],
+
+            # Class: CfgVehicles|Quadbike_01_base_F|Reflectors|Left|Attenuation [Indent level: 3],
+
             "Attenuation": {
+
                 "start": 1,
+
                 "constant": 0,
+
                 "linear": 0,
+
                 "quadratic": 0.1,
+
                 "hardLimitStart": 50,
+
                 "hardLimitEnd": 80
             }
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\Reflectors\Right [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|Reflectors|Right [Indent level: 2],
         "Right": {
             "position": "Light_R",
             "direction": "Light_R_end",
@@ -596,7 +662,7 @@ B_Quadbike_01_F = {
             "useFlare": 0,
             "dayLight": 0,
             "flareSize": 1,
-            # Class: CfgVehicles\Quadbike_01_base_F\Reflectors\Left\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|Quadbike_01_base_F|Reflectors|Left|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 1,
                 "constant": 0,
@@ -609,103 +675,108 @@ B_Quadbike_01_F = {
     },
     "aggregateReflectors": [["Left","Right"]],
     "hiddenSelections": ["camo1","camo2"],
-    # Class: CfgVehicles\Quadbike_01_base_F\EventHandlers [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|EventHandlers [Indent level: 1],
     "EventHandlers": {
         "init": "if (local (_this select 0)) then {[(_this select 0), `, [], false] call bis_fnc_initVehicle;};",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers [Indent level: 0],
+        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
         "RHS_DefaultEventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
-    # Class: CfgVehicles\Quadbike_01_base_F\TextureSources [Indent level: 1],
+    # Class: CfgVehicles|Quadbike_01_base_F|TextureSources [Indent level: 1],
     "TextureSources": {
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Black [Indent level: 2]
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Black [Indent level: 2],
+
         "Black": {
+
             "displayName": "Black",
+
             "author": "Bohemia Interactive",
+
             "textures": ["|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_CIV_BLACK_CO.paa","|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_wheel_CIVBLACK_CO.paa"],
+
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Blue [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Blue [Indent level: 2],
         "Blue": {
             "displayName": "Blue",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_CIV_BLUE_CO.paa","|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_wheel_CIVBLUE_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Red [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Red [Indent level: 2],
         "Red": {
             "displayName": "Red",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_CIV_RED_CO.paa","|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_wheel_CIVRED_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\White [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|White [Indent level: 2],
         "White": {
             "displayName": "White",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_CIV_WHITE_CO.paa","|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_wheel_CIVWHITE_CO.paa"],
             "factions": ["CIV_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Blufor [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Blufor [Indent level: 2],
         "Blufor": {
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F|Quadbike_01|Data|Quadbike_01_co.paa","|A3|Soft_F|Quadbike_01|Data|Quadbike_01_wheel_co.paa"],
             "factions": ["BLU_F"],
             "displayName": "Sand"
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Opfor [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Opfor [Indent level: 2],
         "Opfor": {
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F|Quadbike_01|Data|Quadbike_01_OPFOR_CO.paa","|A3|Soft_F|Quadbike_01|Data|Quadbike_01_wheel_OPFOR_CO.paa"],
             "factions": ["OPF_F"],
             "displayName": "Hex"
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Indep [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Indep [Indent level: 2],
         "Indep": {
             "displayName": "AAF",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_INDP_CO.paa","|A3|Soft_F_Beta|Quadbike_01|Data|Quadbike_01_wheel_INDP_CO.paa"],
             "factions": ["IND_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Guerrilla_01 [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Guerrilla_01 [Indent level: 2],
         "Guerrilla_01": {
             "displayName": "FIA 1",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Bootcamp|Quadbike_01|Data|Quadbike_01_IG_CO.paa","|A3|soft_f_gamma|Quadbike_01|Data|Quadbike_01_wheel_IG_CO.paa"],
             "factions": ["BLU_G_F","OPF_G_F","IND_G_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Guerrilla_02 [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Guerrilla_02 [Indent level: 2],
         "Guerrilla_02": {
             "displayName": "FIA 2",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Bootcamp|Quadbike_01|Data|Quadbike_01_INDP_Hunter_CO.paa","|A3|soft_f_gamma|Quadbike_01|Data|Quadbike_01_wheel_INDP_Hunter_CO.paa"],
             "factions": ["BLU_G_F","OPF_G_F","IND_G_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\GreenHex [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|GreenHex [Indent level: 2],
         "GreenHex": {
             "displayName": "Green Hex",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Exp|Quadbike_01|Data|Quadbike_01_ghex_CO.paa","|A3|Soft_F_Exp|Quadbike_01|Data|Quadbike_01_wheel_ghex_CO.paa"],
             "factions": ["OPF_T_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\Olive [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|Olive [Indent level: 2],
         "Olive": {
             "displayName": "Olive",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Exp|Quadbike_01|Data|Quadbike_01_olive_CO.paa","|A3|Soft_F_Exp|Quadbike_01|Data|Quadbike_01_wheel_olive_CO.paa"],
             "factions": ["BLU_T_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\LDF [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|LDF [Indent level: 2],
         "LDF": {
             "displayName": "LDF",
             "author": "Bohemia Interactive",
             "textures": ["|A3|Soft_F_Enoch|Quadbike_01|Data|Quadbike_01_eaf_CO.paa","|A3|Soft_F_Enoch|Quadbike_01|Data|Quadbike_01_wheel_eaf_CO.paa"],
             "factions": ["IND_E_F"]
         },
-        # Class: CfgVehicles\Quadbike_01_base_F\TextureSources\ParkRanger [Indent level: 2],
+        # Class: CfgVehicles|Quadbike_01_base_F|TextureSources|ParkRanger [Indent level: 2],
         "ParkRanger": {
             "displayName": "Forest Rangers",
             "author": "Bohemia Interactive",
@@ -733,7 +804,7 @@ B_Quadbike_01_F = {
     "driverCanSee": "1 + 2 + 4 + 8 + 32",
     "gunnerCanSee": "1 + 2 + 4 + 8 + 32",
     "commanderCanSee": "1 + 2 + 4 + 8 + 32",
-    # Class: CfgVehicles\Car_F\ViewPilot [Indent level: 1],
+    # Class: CfgVehicles|Car_F|ViewPilot [Indent level: 1],
     "ViewPilot": {
         "initFov": 0.9,
         "minFov": 0.25,
@@ -754,7 +825,7 @@ B_Quadbike_01_F = {
         "speedZoomMaxFOV": 0
     },
     "headGforceLeaningFactor": [0.01,0.01,0.015],
-    # Class: CfgVehicles\Car_F\NewTurret [Indent level: 1],
+    # Class: CfgVehicles|Car_F|NewTurret [Indent level: 1],
     "NewTurret": {
         "body": "mainTurret",
         "gun": "mainGun",
@@ -797,7 +868,7 @@ B_Quadbike_01_F = {
         "gunnerGetOutAction": "",
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -818,7 +889,7 @@ B_Quadbike_01_F = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -859,11 +930,11 @@ B_Quadbike_01_F = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -884,126 +955,129 @@ B_Quadbike_01_F = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -1024,16 +1098,19 @@ B_Quadbike_01_F = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -1054,27 +1131,37 @@ B_Quadbike_01_F = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -1084,10 +1171,10 @@ B_Quadbike_01_F = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -1125,11 +1212,11 @@ B_Quadbike_01_F = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -1150,14 +1237,20 @@ B_Quadbike_01_F = {
     "driverRightLegAnimName": "pedal_thrust",
     "holdOffroadFormation": 1,
     "waterLeakiness": 10,
-    # Class: CfgVehicles\Car_F\NVGMarkers [Indent level: 1],
+    # Class: CfgVehicles|Car_F|NVGMarkers [Indent level: 1],
     "NVGMarkers": {
-        # Class: CfgVehicles\Car_F\NVGMarkers\NVGMarker01 [Indent level: 2]
+        # Class: CfgVehicles|Car_F|NVGMarkers|NVGMarker01 [Indent level: 2],
+
         "NVGMarker01": {
+
             "name": "nvg_marker",
+
             "color": [0.03,0.003,0.003,1],
+
             "ambient": [0.003,0.0003,0.0003,1],
+
             "brightness": 0.001,
+
             "blinking": 1
         }
     },
@@ -1173,87 +1266,91 @@ B_Quadbike_01_F = {
     "soundGear": ["",1e-005,1],
     "collisionEffect": "collisionEffect",
     "hideUnitInfo": 0,
-    # Class: CfgVehicles\Car_F\AnimationSources [Indent level: 1],
+    # Class: CfgVehicles|Car_F|AnimationSources [Indent level: 1],
     "AnimationSources": {
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLFWheel [Indent level: 2]
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLFWheel [Indent level: 2],
+
         "HitLFWheel": {
+
             "source": "Hit",
+
             "hitpoint": "HitLFWheel",
+
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRFWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRFWheel [Indent level: 2],
         "HitRFWheel": {
             "hitpoint": "HitRFWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLBWheel [Indent level: 2],
         "HitLBWheel": {
             "hitpoint": "HitLF2Wheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRBWheel [Indent level: 2],
         "HitRBWheel": {
             "hitpoint": "HitRF2Wheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLF2Wheel [Indent level: 2],
         "HitLF2Wheel": {
             "hitpoint": "HitLBWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRF2Wheel [Indent level: 2],
         "HitRF2Wheel": {
             "hitpoint": "HitRBWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitLMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitLMWheel [Indent level: 2],
         "HitLMWheel": {
             "hitpoint": "HitLMWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitRMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitRMWheel [Indent level: 2],
         "HitRMWheel": {
             "hitpoint": "HitRMWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass1 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "source": "Hit",
             "hitpoint": "HitGlass1",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass2 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "hitpoint": "HitGlass2",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass3 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "hitpoint": "HitGlass3",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass4 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "hitpoint": "HitGlass4",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass5 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "hitpoint": "HitGlass5",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\Car_F\AnimationSources\HitGlass6 [Indent level: 2],
+        # Class: CfgVehicles|Car_F|AnimationSources|HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "hitpoint": "HitGlass6",
             "source": "Hit",
@@ -1271,13 +1368,13 @@ B_Quadbike_01_F = {
     "transportMaxBackpacks": 12,
     "supplyRadius": -1,
     "memoryPointSupply": "doplnovani",
-    # Class: CfgVehicles\Car_F\TransportBackpacks [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportBackpacks [Indent level: 1],
     "TransportBackpacks": {
     },
-    # Class: CfgVehicles\Car_F\TransportMagazines [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportMagazines [Indent level: 1],
     "TransportMagazines": {
     },
-    # Class: CfgVehicles\Car_F\TransportWeapons [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportWeapons [Indent level: 1],
     "TransportWeapons": {
     },
     "brakeTorque": 6000,
@@ -1285,51 +1382,77 @@ B_Quadbike_01_F = {
     "latStiffX": 2000,
     "latStiffY": 18000,
     "wheelMask": "wheel_X_X",
-    # Class: CfgVehicles\Car_F\Exhausts [Indent level: 1],
+    # Class: CfgVehicles|Car_F|Exhausts [Indent level: 1],
     "Exhausts": {
-        # Class: CfgVehicles\Car_F\Exhausts\Exhaust1 [Indent level: 2]
+        # Class: CfgVehicles|Car_F|Exhausts|Exhaust1 [Indent level: 2],
+
         "Exhaust1": {
+
             "position": "exhaust",
+
             "direction": "exhaust_dir",
+
             "effect": "ExhaustsEffect"
         }
     },
     "numberPhysicalWheels": 4,
     "maxGForce": 3,
-    # Class: CfgVehicles\Car_F\camShakeGForce [Indent level: 1],
+    # Class: CfgVehicles|Car_F|camShakeGForce [Indent level: 1],
     "camShakeGForce": {
         "power": 2,
         "frequency": 60,
         "distance": 0,
         "minSpeed": 60
     },
-    # Class: CfgVehicles\Car_F\Components [Indent level: 1],
+    # Class: CfgVehicles|Car_F|Components [Indent level: 1],
     "Components": {
-        # Class: CfgVehicles\Car\Components\AICarSteeringComponent [Indent level: 2]
+        # Class: CfgVehicles|Car|Components|AICarSteeringComponent [Indent level: 2],
+
         "AICarSteeringComponent": {
+
             "steeringPIDWeights": [2.9,0.1,0.2],
+
             "speedPIDWeights": [0.7,0.2,0],
+
             "convoyPIDWeights": [1,0.01,0.01],
+
             "doRemapSpeed": 1,
+
             "remapSpeedRange": [30,70],
+
             "remapSpeedScalar": [1,0.35],
+
             "doPredictForward": 1,
+
             "predictForwardRange": [1,20],
+
             "steerAheadSaturation": [0.01,0.4],
+
             "speedPredictionMethod": 2,
+
             "wheelAngleCoef": 0.7,
+
             "forwardAngleCoef": 0.7,
+
             "steeringAngleCoef": 1,
+
             "differenceAngleCoef": 0.4,
+
             "stuckMaxTime": 3,
+
             "allowOvertaking": 1,
+
             "allowDrifting": 0,
+
             "allowCollisionAvoidance": 1,
+
             "maxWheelAngleDiff": 0.2616,
+
             "minSpeedToKeep": 0.1,
+
             "commandTurnFactor": 1
         },
-        # Class: CfgVehicles\LandVehicle\Components\TransportCountermeasuresComponent [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|Components|TransportCountermeasuresComponent [Indent level: 2],
         "TransportCountermeasuresComponent": {
         }
     },
@@ -1337,7 +1460,7 @@ B_Quadbike_01_F = {
     "canFloat": 0,
     "limitedSpeedCoef": 0.5,
     "hullDamageCauseExplosion": 1,
-    # Class: CfgVehicles\Car\PlateInfos [Indent level: 1],
+    # Class: CfgVehicles|Car|PlateInfos [Indent level: 1],
     "PlateInfos": {
         "name": "spz",
         "color": [0,0,0,0.75]
@@ -1371,11 +1494,14 @@ B_Quadbike_01_F = {
     "inputTurnCurve": [[0,[0,0,1,1]],[30,[0,0,0.2,0.008,0.4,0.032,0.6,0.216,0.8,0.512,1,1]]],
     "enableGPS": 0,
     "soundEngine": ["",1.77828,0.9],
-    # Class: CfgVehicles\Car\SpeechVariants [Indent level: 1],
+    # Class: CfgVehicles|Car|SpeechVariants [Indent level: 1],
     "SpeechVariants": {
-        # Class: CfgVehicles\Car\SpeechVariants\Default [Indent level: 2]
+        # Class: CfgVehicles|Car|SpeechVariants|Default [Indent level: 2],
+
         "Default": {
+
             "speechSingular": ["veh_vehicle_car_s"],
+
             "speechPlural": ["veh_vehicle_car_p"]
         }
     },
@@ -1401,7 +1527,7 @@ B_Quadbike_01_F = {
     "selectionLeftOffset": "PasOffsetL",
     "selectionRightOffset": "PasOffsetP",
     "explosionEffect": "FuelExplosion",
-    # Class: CfgVehicles\LandVehicle\CommanderOptics [Indent level: 1],
+    # Class: CfgVehicles|LandVehicle|CommanderOptics [Indent level: 1],
     "CommanderOptics": {
         "proxyType": "CPCommander",
         "proxyIndex": 1,
@@ -1443,7 +1569,7 @@ B_Quadbike_01_F = {
         "gunnerGetOutAction": "GetOutHigh",
         "memoryPointGun": "gun_muzzle",
         "selectionFireAnim": "zasleh_1",
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -1463,7 +1589,7 @@ B_Quadbike_01_F = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -1502,7 +1628,7 @@ B_Quadbike_01_F = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -1532,11 +1658,11 @@ B_Quadbike_01_F = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -1557,126 +1683,129 @@ B_Quadbike_01_F = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -1697,16 +1826,19 @@ B_Quadbike_01_F = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -1727,27 +1859,37 @@ B_Quadbike_01_F = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -1757,7 +1899,7 @@ B_Quadbike_01_F = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
         "forceNVG": 0,
@@ -1778,11 +1920,11 @@ B_Quadbike_01_F = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -1795,7 +1937,7 @@ B_Quadbike_01_F = {
     "weaponsGroup2": "2 + 		4",
     "weaponsGroup3": "8 + 	16 + 	32",
     "weaponsGroup4": "64 + 		128",
-    # Class: CfgVehicles\AllVehicles\SquadTitles [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SquadTitles [Indent level: 1],
     "SquadTitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
@@ -1815,7 +1957,7 @@ B_Quadbike_01_F = {
     "selectionDashboard": "podsvit pristroju",
     "selectionShowDamage": "poskozeni",
     "selectionBackLights": "zadni svetlo",
-    # Class: CfgVehicles\AllVehicles\ViewCargo [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewCargo [Indent level: 1],
     "ViewCargo": {
         "initAngleX": 5,
         "minAngleX": -75,
@@ -1835,7 +1977,7 @@ B_Quadbike_01_F = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\ViewOptics [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewOptics [Indent level: 1],
     "ViewOptics": {
         "initAngleX": 0,
         "minAngleX": -30,
@@ -1855,24 +1997,26 @@ B_Quadbike_01_F = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\PilotSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|PilotSpec [Indent level: 1],
     "PilotSpec": {
         "showHeadPhones": 0
     },
-    # Class: CfgVehicles\AllVehicles\CargoSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoSpec [Indent level: 1],
     "CargoSpec": {
-        # Class: CfgVehicles\AllVehicles\CargoSpec\Cargo1 [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoSpec|Cargo1 [Indent level: 2],
+
         "Cargo1": {
+
             "showHeadPhones": 0
         }
     },
-    # Class: CfgVehicles\AllVehicles\MFD [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|MFD [Indent level: 1],
     "MFD": {
     },
-    # Class: CfgVehicles\AllVehicles\SoundEvents [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SoundEvents [Indent level: 1],
     "SoundEvents": {
     },
-    # Class: CfgVehicles\AllVehicles\RenderTargets [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|RenderTargets [Indent level: 1],
     "RenderTargets": {
     },
     "cargoProxyIndexes": [],
@@ -1885,29 +2029,47 @@ B_Quadbike_01_F = {
     "impactEffectsSea": "ImpactEffectsSea",
     "impactEffectSpeedLimit": 8,
     "showCrewAim": 0,
-    # Class: CfgVehicles\AllVehicles\CargoTurret [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoTurret [Indent level: 1],
     "CargoTurret": {
-        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
+
         "ViewGunner": {
+
             "initAngleX": 5,
+
             "minAngleX": -75,
+
             "maxAngleX": 85,
+
             "initAngleY": 0,
+
             "minAngleY": -150,
+
             "maxAngleY": 150,
+
             "minFov": 0.25,
+
             "maxFov": 1.25,
+
             "initFov": 0.75,
+
             "minMoveX": 0,
+
             "maxMoveX": 0,
+
             "minMoveY": 0,
+
             "maxMoveY": 0,
+
             "minMoveZ": 0,
+
             "maxMoveZ": 0,
+
             "speedZoomMaxSpeed": 1e+010,
+
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|CargoTurret|Hitpoints [Indent level: 2],
         "Hitpoints": {
         },
         "animationSourceBody": "",
@@ -1964,7 +2126,7 @@ B_Quadbike_01_F = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -2001,11 +2163,11 @@ B_Quadbike_01_F = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -2026,126 +2188,129 @@ B_Quadbike_01_F = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -2166,16 +2331,19 @@ B_Quadbike_01_F = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -2196,19 +2364,22 @@ B_Quadbike_01_F = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -2241,11 +2412,11 @@ B_Quadbike_01_F = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -2341,10 +2512,10 @@ B_Quadbike_01_F = {
     "showNVGCommander": 0,
     "showNVGGunner": 0,
     "countsForScoreboard": 1,
-    # Class: CfgVehicles\All\MarkerLights [Indent level: 1],
+    # Class: CfgVehicles|All|MarkerLights [Indent level: 1],
     "MarkerLights": {
     },
-    # Class: CfgVehicles\All\NVGMarker [Indent level: 1],
+    # Class: CfgVehicles|All|NVGMarker [Indent level: 1],
     "NVGMarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
@@ -2352,7 +2523,7 @@ B_Quadbike_01_F = {
         "blinking": 0,
         "onlyInNvg": 0
     },
-    # Class: CfgVehicles\All\HeadLimits [Indent level: 1],
+    # Class: CfgVehicles|All|HeadLimits [Indent level: 1],
     "HeadLimits": {
         "initAngleX": 5,
         "minAngleX": -30,
@@ -2373,46 +2544,46 @@ B_Quadbike_01_F = {
     "attendant": 0,
     "engineer": 0,
     "uavHacker": 0,
-    # Class: CfgVehicles\All\SoundEnvironExt [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEnvironExt [Indent level: 1],
     "SoundEnvironExt": {
     },
-    # Class: CfgVehicles\All\SoundEquipment [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEquipment [Indent level: 1],
     "SoundEquipment": {
     },
-    # Class: CfgVehicles\All\SoundBreath [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreath [Indent level: 1],
     "SoundBreath": {
     },
-    # Class: CfgVehicles\All\SoundBreathSwimming [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathSwimming [Indent level: 1],
     "SoundBreathSwimming": {
     },
-    # Class: CfgVehicles\All\SoundBreathInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathInjured [Indent level: 1],
     "SoundBreathInjured": {
     },
-    # Class: CfgVehicles\All\SoundHitScream [Indent level: 1],
+    # Class: CfgVehicles|All|SoundHitScream [Indent level: 1],
     "SoundHitScream": {
     },
-    # Class: CfgVehicles\All\SoundInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundInjured [Indent level: 1],
     "SoundInjured": {
     },
-    # Class: CfgVehicles\All\SoundBreathAutomatic [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathAutomatic [Indent level: 1],
     "SoundBreathAutomatic": {
     },
-    # Class: CfgVehicles\All\SoundDrown [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrown [Indent level: 1],
     "SoundDrown": {
     },
-    # Class: CfgVehicles\All\SoundChoke [Indent level: 1],
+    # Class: CfgVehicles|All|SoundChoke [Indent level: 1],
     "SoundChoke": {
     },
-    # Class: CfgVehicles\All\SoundRecovered [Indent level: 1],
+    # Class: CfgVehicles|All|SoundRecovered [Indent level: 1],
     "SoundRecovered": {
     },
-    # Class: CfgVehicles\All\SoundBurning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBurning [Indent level: 1],
     "SoundBurning": {
     },
-    # Class: CfgVehicles\All\PulsationSound [Indent level: 1],
+    # Class: CfgVehicles|All|PulsationSound [Indent level: 1],
     "PulsationSound": {
     },
-    # Class: CfgVehicles\All\SoundDrowning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrowning [Indent level: 1],
     "SoundDrowning": {
     },
     "soundLandCrash": ["",1,1],
@@ -2453,11 +2624,11 @@ B_Quadbike_01_F = {
     "hiddenUnderwaterSelections": [],
     "shownUnderWaterSelections": [],
     "hiddenUnderwaterSelectionsTextures": [],
-    # Class: CfgVehicles\All\FxExplo [Indent level: 1],
+    # Class: CfgVehicles|All|FxExplo [Indent level: 1],
     "FxExplo": {
         "access": 1
     },
-    # Class: CfgVehicles\All\GunFire [Indent level: 1],
+    # Class: CfgVehicles|All|GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -2478,126 +2649,129 @@ B_Quadbike_01_F = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: WeaponFireGun\Table [Indent level: 0],
+        # Class: WeaponFireGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+            # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\GunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletDuration": 0.3,
@@ -2618,16 +2792,19 @@ B_Quadbike_01_F = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsGun\Table [Indent level: 0],
+        # Class: WeaponCloudsGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\MGunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|MGunClouds [Indent level: 1],
     "MGunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -2648,11 +2825,14 @@ B_Quadbike_01_F = {
         "sourceSize": 0.02,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsMGun\Table [Indent level: 0],
+        # Class: WeaponCloudsMGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
@@ -2673,7 +2853,7 @@ B_Quadbike_01_F = {
     "damageFull": [],
     "minGForce": 0.2,
     "gForceShakeAttenuation": 0.5,
-    # Class: CfgVehicles\All\camShakeDamage [Indent level: 1],
+    # Class: CfgVehicles|All|camShakeDamage [Indent level: 1],
     "camShakeDamage": {
         "power": 0.5,
         "frequency": 60,

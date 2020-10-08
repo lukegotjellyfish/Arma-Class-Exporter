@@ -1,6 +1,6 @@
 rhs_mag_1150Rnd_30x173_mixed = {
     "count": 1150,
-    # Ammo: rhs_ammo_30x173mm_GAU8_mixed,
+    # Ammo: CfgMagazines|rhs_mag_1150Rnd_30x173_mixed|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_30x173mm_GAU8_mixed",
         "hit": 180,
@@ -28,28 +28,28 @@ rhs_mag_1150Rnd_30x173_mixed = {
         "triggerTime": 0.01,
         "submunitionAmmo": ["rhs_ammo_PGU14B_API",0.8,"rhs_ammo_PGU13B_HE",0.2],
         "model": "A3|Weapons_f|empty",
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_30x173mm_GAU8_mixed|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 6,
             "duration": 1,
             "frequency": 20,
             "distance": 83.8178
         },
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_30x173mm_GAU8_mixed|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 30,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_30x173mm_GAU8_mixed|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.34035,
             "duration": 1,
             "frequency": 20,
             "distance": 43.8178
         },
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_30x173mm_GAU8_mixed|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 30,
             "duration": 0.1,
@@ -179,18 +179,18 @@ rhs_mag_1150Rnd_30x173_mixed = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|Default|HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
         },
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -217,10 +217,10 @@ rhs_mag_1150Rnd_30x173_mixed = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -1,7 +1,7 @@
 rhs_mag_M441_HE = {
     "author": "Red Hammer Studios",
     "mass": 5.06,
-    # Ammo: rhsusf_40mm_HE,
+    # Ammo: CfgMagazines|rhs_mag_M441_HE|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhsusf_40mm_HE",
         "hit": 20,
@@ -29,28 +29,28 @@ rhs_mag_M441_HE = {
         "soundHit3": ["A3|Sounds_F|arsenal|explosives|Grenades|Explosion_gng_grenades_03",3.16228,1,1500],
         "soundHit4": ["A3|Sounds_F|arsenal|explosives|Grenades|Explosion_gng_grenades_04",3.16228,1,1500],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\G_40mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|G_40mm_HE|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 8,
             "duration": 1.2,
             "frequency": 20,
             "distance": 74.5964
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|G_40mm_HE|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|G_40mm_HE|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0.2,
             "frequency": 20,
             "distance": 0
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|G_40mm_HE|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0.1,
@@ -171,10 +171,6 @@ rhs_mag_M441_HE = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -184,7 +180,7 @@ rhs_mag_M441_HE = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|Default|HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -192,11 +188,11 @@ rhs_mag_M441_HE = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -223,10 +219,10 @@ rhs_mag_M441_HE = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

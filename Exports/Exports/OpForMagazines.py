@@ -1,4 +1,4 @@
-rhsgref_10Rnd_792x57_m76 = {
+"rhsgref_10Rnd_792x57_m76": {
     "magazineGroup": ["rhs_m76_mag_group"],
     "dlc": "RHS_SAF",
     "author": "Red Hammer Studios",
@@ -7,7 +7,7 @@ rhsgref_10Rnd_792x57_m76 = {
     "displayName": "10rnd M76 7.9x57mm M75",
     "displaynameshort": "M75Â Ball",
     "picture": "rhssaf\\addons\\rhssaf_c_weapons\\icons\\m_m76mag_icon_ca.paa",
-    # Ammo: rhs_ammo_792x57_Ball,
+    # Ammo: CfgMagazines\\rhsgref_10Rnd_792x57_m76\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_792x57_Ball",
         "hit": 11.55,
@@ -238,10 +238,10 @@ rhsgref_10Rnd_792x57_m76 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -251,7 +251,7 @@ rhsgref_10Rnd_792x57_m76 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -261,7 +261,7 @@ rhsgref_10Rnd_792x57_m76 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -271,7 +271,7 @@ rhsgref_10Rnd_792x57_m76 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -282,7 +282,7 @@ rhsgref_10Rnd_792x57_m76 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -308,28 +308,28 @@ rhsgref_10Rnd_792x57_m76 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -917,10 +917,6 @@ rhsgref_10Rnd_792x57_m76 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -932,11 +928,11 @@ rhsgref_10Rnd_792x57_m76 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -960,10 +956,10 @@ rhsgref_10Rnd_792x57_m76 = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -972,7 +968,7 @@ rhsgref_10Rnd_792x57_m76 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhsgref_1Rnd_00Buck = {
+"rhsgref_1Rnd_00Buck": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayName": "1Rnd 00 Buckshot",
@@ -982,7 +978,7 @@ rhsgref_1Rnd_00Buck = {
     "model": "rhsusf\\addons\\rhsusf_weapons\\magazines\\12g\\12g_buckshot_single",
     "modelSpecial": "rhsusf\\addons\\rhsusf_weapons\\mag_proxies\\rhs_mag_12ga_buckshot_1rnd.p3d",
     "modelSpecialIsProxy": 1,
-    # Ammo: rhs_ammo_12g_00buckshot,
+    # Ammo: CfgMagazines\\rhsgref_1Rnd_00Buck\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_12g_00buckshot",
         "hit": 20,
@@ -990,7 +986,7 @@ rhsgref_1Rnd_00Buck = {
         "simulationStep": 0.0001,
         "triggerTime": 0.0001,
         "triggerSpeedCoef": [0.84,1],
-        # Ammo: rhs_ammo_12g_00buckshot_pellet,
+        # Ammo: CfgAmmo\\rhs_ammo_12g_00buckshot\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_12g_00buckshot_pellet",
             "hit": 4.75,
@@ -999,7 +995,7 @@ rhsgref_1Rnd_00Buck = {
             "caliber": 0.24,
             "typicalSpeed": 403.86,
             "airFriction": -0.00634,
-            # Class: CfgAmmo\rhs_ammo_12g_00buckshot_pellet\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\rhs_ammo_12g_00buckshot_pellet\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "Hit_Foliage_green": "ImpactLeavesGreen",
                 "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -1241,10 +1237,10 @@ rhsgref_1Rnd_00Buck = {
             "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
             "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
             "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
             "SuperSonicCrack": {
                 "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                 "SCrackForest": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -1254,7 +1250,7 @@ rhsgref_1Rnd_00Buck = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "forest"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                 "SCrackTrees": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -1264,7 +1260,7 @@ rhsgref_1Rnd_00Buck = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "trees"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                 "SCrackMeadow": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -1274,7 +1270,7 @@ rhsgref_1Rnd_00Buck = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "meadow max sea"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                 "SCrackHouses": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -1285,28 +1281,28 @@ rhsgref_1Rnd_00Buck = {
                     "trigger": "houses max interior"
                 }
             },
-            # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 1.73205,
                 "duration": 0.4,
                 "frequency": 20,
                 "distance": 5.19615
             },
-            # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 3,
                 "duration": 0.2,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 0,
                 "duration": 0,
                 "frequency": 0,
                 "distance": 0
             },
-            # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0,
                 "duration": 0,
@@ -1895,10 +1891,6 @@ rhsgref_1Rnd_00Buck = {
             "thrustTime": 1.5,
             "thrust": 210,
             "icon": "",
-            # Ammo: ,
-            "submunitionAmmo": {
-                "submunitionAmmo": "",
-            },
             "submunitionAmmo": "",
             "explosionType": "explosive",
             "mineTrigger": "RangeTrigger",
@@ -1910,11 +1902,11 @@ rhsgref_1Rnd_00Buck = {
             "minePlaceDist": 0.5,
             "whistleDist": 0,
             "whistleOnFire": 0,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -1931,20 +1923,20 @@ rhsgref_1Rnd_00Buck = {
         "airFriction": -0.008,
         "caliber": 1,
         "deflecting": 30,
-        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\B_12Gauge_Pellets\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 3,
             "duration": 0.5,
             "frequency": 20,
             "distance": 10
         },
-        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\B_12Gauge_Pellets\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 1,
             "duration": 0.1,
             "frequency": 20
         },
-        # Class: CfgAmmo\B_12Gauge_Pellets\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_12Gauge_Pellets\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 10,
             "duration": 1,
@@ -1955,7 +1947,7 @@ rhsgref_1Rnd_00Buck = {
         "dangerRadiusHit": 8,
         "suppressionRadiusBulletClose": 2,
         "suppressionRadiusHit": 4,
-        # Class: CfgAmmo\ShotgunBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\ShotgunBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -2115,11 +2107,11 @@ rhsgref_1Rnd_00Buck = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -2139,10 +2131,10 @@ rhsgref_1Rnd_00Buck = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -2151,7 +2143,7 @@ rhsgref_1Rnd_00Buck = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhsgref_1Rnd_Slug = {
+"rhsgref_1Rnd_Slug": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayName": "1Rnd 12g Slug",
@@ -2160,7 +2152,7 @@ rhsgref_1Rnd_Slug = {
     "model": "rhsusf\\addons\\rhsusf_weapons\\magazines\\12g\\12g_slug_single",
     "modelSpecial": "rhsusf\\addons\\rhsusf_weapons\\mag_proxies\\rhs_mag_12ga_slug_1rnd.p3d",
     "modelSpecialIsProxy": 1,
-    # Ammo: rhs_ammo_12g_slug,
+    # Ammo: CfgMagazines\\rhsgref_1Rnd_Slug\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_12g_slug",
         "hit": 34.51,
@@ -2442,10 +2434,10 @@ rhsgref_1Rnd_Slug = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -2455,7 +2447,7 @@ rhsgref_1Rnd_Slug = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -2465,7 +2457,7 @@ rhsgref_1Rnd_Slug = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -2475,7 +2467,7 @@ rhsgref_1Rnd_Slug = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -2486,7 +2478,7 @@ rhsgref_1Rnd_Slug = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -2512,28 +2504,28 @@ rhsgref_1Rnd_Slug = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -3069,10 +3061,6 @@ rhsgref_1Rnd_Slug = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -3084,11 +3072,11 @@ rhsgref_1Rnd_Slug = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -3109,10 +3097,10 @@ rhsgref_1Rnd_Slug = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -3121,13 +3109,13 @@ rhsgref_1Rnd_Slug = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhsgref_30rnd_556x45_vhs2 = {
+"rhsgref_30rnd_556x45_vhs2": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayName": "30rnd VHS-2 M855A1",
     "displaynameshort": "M855A1",
     "picture": "rhsgref\\addons\\rhsgref_weapons\\icons\\m_m21mag_icon_ca.paa",
-    # Ammo: rhs_ammo_556x45_M855A1_Ball,
+    # Ammo: CfgMagazines\\rhsgref_30rnd_556x45_vhs2\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_556x45_M855A1_Ball",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
@@ -3152,14 +3140,14 @@ rhsgref_30rnd_556x45_vhs2 = {
         "suppressionRadiusBulletClose": 6,
         "suppressionRadiusHit": 8,
         "aiAmmoUsageFlags": 64,
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.23607,
             "duration": 0.4,
             "frequency": 20,
             "distance": 6.7082
         },
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -3453,10 +3441,10 @@ rhsgref_30rnd_556x45_vhs2 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -3466,7 +3454,7 @@ rhsgref_30rnd_556x45_vhs2 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -3476,7 +3464,7 @@ rhsgref_30rnd_556x45_vhs2 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -3486,7 +3474,7 @@ rhsgref_30rnd_556x45_vhs2 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -3497,7 +3485,7 @@ rhsgref_30rnd_556x45_vhs2 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -3523,14 +3511,14 @@ rhsgref_30rnd_556x45_vhs2 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -4038,10 +4026,6 @@ rhsgref_30rnd_556x45_vhs2 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -4053,11 +4037,11 @@ rhsgref_30rnd_556x45_vhs2 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -4083,10 +4067,10 @@ rhsgref_30rnd_556x45_vhs2 = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -4095,13 +4079,13 @@ rhsgref_30rnd_556x45_vhs2 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhsgref_5Rnd_762x54_m38 = {
+"rhsgref_5Rnd_762x54_m38": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayName": "5rndÂ 7.62x54Rmm clip",
     "model": "rhsgref\\addons\\rhsgref_weapons\\m38\\762x54clip",
     "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
-    # Ammo: rhs_B_762x54_Ball,
+    # Ammo: CfgMagazines\\rhsgref_5Rnd_762x54_m38\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_762x54_Ball",
         "cartridge": "RHS_Cartridge_762x54r",
@@ -4124,14 +4108,14 @@ rhsgref_5Rnd_762x54_m38 = {
         "cost": 1.2,
         "airLock": 1,
         "tracerScale": 0.6,
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.82843,
             "duration": 0.6,
             "frequency": 20,
             "distance": 8.48528
         },
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -4348,10 +4332,10 @@ rhsgref_5Rnd_762x54_m38 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -4361,7 +4345,7 @@ rhsgref_5Rnd_762x54_m38 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -4371,7 +4355,7 @@ rhsgref_5Rnd_762x54_m38 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -4381,7 +4365,7 @@ rhsgref_5Rnd_762x54_m38 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -4392,7 +4376,7 @@ rhsgref_5Rnd_762x54_m38 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -4418,14 +4402,14 @@ rhsgref_5Rnd_762x54_m38 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -5011,10 +4995,6 @@ rhsgref_5Rnd_762x54_m38 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -5026,11 +5006,11 @@ rhsgref_5Rnd_762x54_m38 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -5054,10 +5034,10 @@ rhsgref_5Rnd_762x54_m38 = {
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -5066,10 +5046,10 @@ rhsgref_5Rnd_762x54_m38 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhssaf_250Rnd_762x54R = {
+"rhssaf_250Rnd_762x54R": {
     "displayName": "250Rnd M84 Belt 7.62x54mm M30",
     "descriptionshort": "Caliber: 7.62x54Rmm <br />Rounds: 250<br />Used in: M84 LMG",
-    # Ammo: rhs_B_762x54_Ball,
+    # Ammo: CfgMagazines\\rhssaf_250Rnd_762x54R\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_762x54_Ball",
         "cartridge": "RHS_Cartridge_762x54r",
@@ -5092,14 +5072,14 @@ rhssaf_250Rnd_762x54R = {
         "cost": 1.2,
         "airLock": 1,
         "tracerScale": 0.6,
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.82843,
             "duration": 0.6,
             "frequency": 20,
             "distance": 8.48528
         },
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -5316,10 +5296,10 @@ rhssaf_250Rnd_762x54R = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -5329,7 +5309,7 @@ rhssaf_250Rnd_762x54R = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -5339,7 +5319,7 @@ rhssaf_250Rnd_762x54R = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -5349,7 +5329,7 @@ rhssaf_250Rnd_762x54R = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -5360,7 +5340,7 @@ rhssaf_250Rnd_762x54R = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -5386,14 +5366,14 @@ rhssaf_250Rnd_762x54R = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -5979,10 +5959,6 @@ rhssaf_250Rnd_762x54R = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -5994,11 +5970,11 @@ rhssaf_250Rnd_762x54R = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -6027,10 +6003,10 @@ rhssaf_250Rnd_762x54R = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -6039,12 +6015,12 @@ rhssaf_250Rnd_762x54R = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhsusf_5Rnd_762x51_m62_Mag = {
+"rhsusf_5Rnd_762x51_m62_Mag": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rnd M62 (Tracer)",
     "displayNameShort": "M62 Tracer",
-    # Ammo: rhs_ammo_762x51_M62_tracer,
+    # Ammo: CfgMagazines\\rhsusf_5Rnd_762x51_m62_Mag\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_762x51_M62_tracer",
         "hit": 11,
@@ -6275,10 +6251,10 @@ rhsusf_5Rnd_762x51_m62_Mag = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -6288,7 +6264,7 @@ rhsusf_5Rnd_762x51_m62_Mag = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -6298,7 +6274,7 @@ rhsusf_5Rnd_762x51_m62_Mag = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -6308,7 +6284,7 @@ rhsusf_5Rnd_762x51_m62_Mag = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -6319,7 +6295,7 @@ rhsusf_5Rnd_762x51_m62_Mag = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -6345,28 +6321,28 @@ rhsusf_5Rnd_762x51_m62_Mag = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -6954,10 +6930,6 @@ rhsusf_5Rnd_762x51_m62_Mag = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -6969,11 +6941,11 @@ rhsusf_5Rnd_762x51_m62_Mag = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -6998,10 +6970,10 @@ rhsusf_5Rnd_762x51_m62_Mag = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -7010,14 +6982,14 @@ rhsusf_5Rnd_762x51_m62_Mag = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_100Rnd_762x54mmR = {
+"rhs_100Rnd_762x54mmR": {
     "author": "Red Hammer Studios",
     "displayName": "100rnd PKM 57-N-323S",
     "descriptionShort": "Caliber: 7.62x54mmR FMJ<br />Rounds: 100<br />Every 5 Rounds: 1x 7T2 Tracer<br />Used in: PKM, PKP",
     "displayNameShort": "57-N-323S",
     "model": "rhsafrf\\addons\\rhs_weapons\\magazines\\rhs_pk_mag",
     "picture": "rhsafrf\\addons\\rhs_weapons\\icons\\pkpbox_ca.paa",
-    # Ammo: rhs_B_762x54_Ball,
+    # Ammo: CfgMagazines\\rhs_100Rnd_762x54mmR\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_762x54_Ball",
         "cartridge": "RHS_Cartridge_762x54r",
@@ -7040,14 +7012,14 @@ rhs_100Rnd_762x54mmR = {
         "cost": 1.2,
         "airLock": 1,
         "tracerScale": 0.6,
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.82843,
             "duration": 0.6,
             "frequency": 20,
             "distance": 8.48528
         },
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -7264,10 +7236,10 @@ rhs_100Rnd_762x54mmR = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -7277,7 +7249,7 @@ rhs_100Rnd_762x54mmR = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -7287,7 +7259,7 @@ rhs_100Rnd_762x54mmR = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -7297,7 +7269,7 @@ rhs_100Rnd_762x54mmR = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -7308,7 +7280,7 @@ rhs_100Rnd_762x54mmR = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -7334,14 +7306,14 @@ rhs_100Rnd_762x54mmR = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -7927,10 +7899,6 @@ rhs_100Rnd_762x54mmR = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -7942,11 +7910,11 @@ rhs_100Rnd_762x54mmR = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -7970,10 +7938,10 @@ rhs_100Rnd_762x54mmR = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -7982,12 +7950,12 @@ rhs_100Rnd_762x54mmR = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_10Rnd_762x54mmR_7N14 = {
+"rhs_10Rnd_762x54mmR_7N14": {
     "author": "Red Hammer Studios",
     "displayName": "10rnd SVD 7N14",
     "descriptionShort": "7N14 10rnd SVD Mag",
     "displayNameShort": "7N14 AP",
-    # Ammo: rhs_B_762x54_7N14_Ball,
+    # Ammo: CfgMagazines\\rhs_10Rnd_762x54mmR_7N14\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_762x54_7N14_Ball",
         "hit": 13.61,
@@ -8010,14 +7978,14 @@ rhs_10Rnd_762x54mmR_7N14 = {
         "cost": 1.2,
         "airLock": 1,
         "tracerScale": 0.6,
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.82843,
             "duration": 0.6,
             "frequency": 20,
             "distance": 8.48528
         },
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -8234,10 +8202,10 @@ rhs_10Rnd_762x54mmR_7N14 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -8247,7 +8215,7 @@ rhs_10Rnd_762x54mmR_7N14 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -8257,7 +8225,7 @@ rhs_10Rnd_762x54mmR_7N14 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -8267,7 +8235,7 @@ rhs_10Rnd_762x54mmR_7N14 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -8278,7 +8246,7 @@ rhs_10Rnd_762x54mmR_7N14 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -8304,14 +8272,14 @@ rhs_10Rnd_762x54mmR_7N14 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -8897,10 +8865,6 @@ rhs_10Rnd_762x54mmR_7N14 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -8912,11 +8876,11 @@ rhs_10Rnd_762x54mmR_7N14 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -8942,10 +8906,10 @@ rhs_10Rnd_762x54mmR_7N14 = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -8954,7 +8918,7 @@ rhs_10Rnd_762x54mmR_7N14 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_10rnd_9x39mm_SP5 = {
+"rhs_10rnd_9x39mm_SP5": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_10rnd_9x39mm_SP5_ca.paa",
     "count": 10,
@@ -8963,7 +8927,7 @@ rhs_10rnd_9x39mm_SP5 = {
     "modelSpecial": "rhsafrf\\addons\\rhs_weapons\\mag_proxies\\rhs_mag_9x39_6l24_10rnd",
     "displayName": "10rnd AS Val SP-5",
     "descriptionShort": "Caliber: 9x39mm FMJ<br />Rounds: 10<br />Used in: VSS, AS Val",
-    # Ammo: rhs_B_9x39_SP5,
+    # Ammo: CfgMagazines\\rhs_20rnd_9x39mm_SP5\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_9x39_SP5",
         "cartridge": "FxCartridge_9mm",
@@ -8986,14 +8950,14 @@ rhs_10rnd_9x39mm_SP5 = {
         "tracerScale": 0.6,
         "tracerStartTime": 0.0075,
         "tracerEndTime": 5,
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.82843,
             "duration": 0.6,
             "frequency": 20,
             "distance": 8.48528
         },
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -9210,10 +9174,10 @@ rhs_10rnd_9x39mm_SP5 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -9223,7 +9187,7 @@ rhs_10rnd_9x39mm_SP5 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -9233,7 +9197,7 @@ rhs_10rnd_9x39mm_SP5 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -9243,7 +9207,7 @@ rhs_10rnd_9x39mm_SP5 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -9254,7 +9218,7 @@ rhs_10rnd_9x39mm_SP5 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -9280,14 +9244,14 @@ rhs_10rnd_9x39mm_SP5 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -9873,10 +9837,6 @@ rhs_10rnd_9x39mm_SP5 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -9888,11 +9848,11 @@ rhs_10rnd_9x39mm_SP5 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -9914,10 +9874,10 @@ rhs_10rnd_9x39mm_SP5 = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -9926,10 +9886,10 @@ rhs_10rnd_9x39mm_SP5 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_20rnd_9x39mm_SP6 = {
+"rhs_20rnd_9x39mm_SP6": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_20rnd_9x39mm_SP6_ca.paa",
-    # Ammo: rhs_B_9x39_SP6,
+    # Ammo: CfgMagazines\\rhs_20rnd_9x39mm_SP6\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_9x39_SP6",
         "hit": 11.3,
@@ -9952,14 +9912,14 @@ rhs_20rnd_9x39mm_SP6 = {
         "tracerScale": 0.6,
         "tracerStartTime": 0.0075,
         "tracerEndTime": 5,
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.82843,
             "duration": 0.6,
             "frequency": 20,
             "distance": 8.48528
         },
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -10176,10 +10136,10 @@ rhs_20rnd_9x39mm_SP6 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -10189,7 +10149,7 @@ rhs_20rnd_9x39mm_SP6 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -10199,7 +10159,7 @@ rhs_20rnd_9x39mm_SP6 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -10209,7 +10169,7 @@ rhs_20rnd_9x39mm_SP6 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -10220,7 +10180,7 @@ rhs_20rnd_9x39mm_SP6 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -10246,14 +10206,14 @@ rhs_20rnd_9x39mm_SP6 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -10839,10 +10799,6 @@ rhs_20rnd_9x39mm_SP6 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -10854,11 +10810,11 @@ rhs_20rnd_9x39mm_SP6 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -10886,10 +10842,10 @@ rhs_20rnd_9x39mm_SP6 = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -10898,14 +10854,14 @@ rhs_20rnd_9x39mm_SP6 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_30Rnd_545x39_7N10_AK = {
+"rhs_30Rnd_545x39_7N10_AK": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_30Rnd_545x39_7N10_AK_ca.paa",
     "displayName": "30rnd AK-74 7N10",
     "displayNameShort": "7N10",
     "modelSpecial": "rhsafrf\\addons\\rhs_weapons\\mag_proxies\\rhs_mag_545x39_6l23_30rnd.p3d",
     "model": "rhsafrf\\addons\\rhs_weapons\\magazines\\rhs_ak_mag",
-    # Ammo: rhs_B_545x39_7N10_Ball,
+    # Ammo: CfgMagazines\\rhs_30Rnd_545x39_7N10_AK\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_545x39_7N10_Ball",
         "hit": 9.5,
@@ -10932,14 +10888,14 @@ rhs_30Rnd_545x39_7N10_AK = {
         "suppressionRadiusBulletClose": 6,
         "suppressionRadiusHit": 8,
         "aiAmmoUsageFlags": 64,
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.23607,
             "duration": 0.4,
             "frequency": 20,
             "distance": 6.7082
         },
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -11233,10 +11189,10 @@ rhs_30Rnd_545x39_7N10_AK = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -11246,7 +11202,7 @@ rhs_30Rnd_545x39_7N10_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -11256,7 +11212,7 @@ rhs_30Rnd_545x39_7N10_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -11266,7 +11222,7 @@ rhs_30Rnd_545x39_7N10_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -11277,7 +11233,7 @@ rhs_30Rnd_545x39_7N10_AK = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -11303,14 +11259,14 @@ rhs_30Rnd_545x39_7N10_AK = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -11818,10 +11774,6 @@ rhs_30Rnd_545x39_7N10_AK = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -11833,11 +11785,11 @@ rhs_30Rnd_545x39_7N10_AK = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -11861,10 +11813,10 @@ rhs_30Rnd_545x39_7N10_AK = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -11873,13 +11825,13 @@ rhs_30Rnd_545x39_7N10_AK = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_30Rnd_545x39_7N22_AK = {
+"rhs_30Rnd_545x39_7N22_AK": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_30Rnd_545x39_7N22_AK_ca.paa",
     "displayName": "30rnd AK-74 7N22",
     "descriptionShort": "Caliber: 5.45x39mm AP<br />Rounds: 30<br />Used in: AK-74M, AK-105",
     "displayNameShort": "7N22 - AP",
-    # Ammo: rhs_B_545x39_7N22_Ball,
+    # Ammo: CfgMagazines\\rhs_30Rnd_545x39_7N22_AK\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_545x39_7N22_Ball",
         "hit": 9.8,
@@ -11906,14 +11858,14 @@ rhs_30Rnd_545x39_7N22_AK = {
         "suppressionRadiusBulletClose": 6,
         "suppressionRadiusHit": 8,
         "aiAmmoUsageFlags": 64,
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.23607,
             "duration": 0.4,
             "frequency": 20,
             "distance": 6.7082
         },
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -12207,10 +12159,10 @@ rhs_30Rnd_545x39_7N22_AK = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -12220,7 +12172,7 @@ rhs_30Rnd_545x39_7N22_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -12230,7 +12182,7 @@ rhs_30Rnd_545x39_7N22_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -12240,7 +12192,7 @@ rhs_30Rnd_545x39_7N22_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -12251,7 +12203,7 @@ rhs_30Rnd_545x39_7N22_AK = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -12277,14 +12229,14 @@ rhs_30Rnd_545x39_7N22_AK = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -12792,10 +12744,6 @@ rhs_30Rnd_545x39_7N22_AK = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -12807,11 +12755,11 @@ rhs_30Rnd_545x39_7N22_AK = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -12836,10 +12784,10 @@ rhs_30Rnd_545x39_7N22_AK = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -12848,12 +12796,12 @@ rhs_30Rnd_545x39_7N22_AK = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_30Rnd_545x39_7N6M_AK = {
+"rhs_30Rnd_545x39_7N6M_AK": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_30Rnd_545x39_AK_ca.paa",
     "displayName": "30rnd AK-74 (Bakelite) 7N6M",
     "displayNameShort": "7N6M",
-    # Ammo: rhs_B_545x39_7N6_Ball,
+    # Ammo: CfgMagazines\\rhs_30Rnd_545x39_7N6M_AK\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_545x39_7N6_Ball",
         "hit": 9.3,
@@ -12879,14 +12827,14 @@ rhs_30Rnd_545x39_7N6M_AK = {
         "suppressionRadiusBulletClose": 6,
         "suppressionRadiusHit": 8,
         "aiAmmoUsageFlags": 64,
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.23607,
             "duration": 0.4,
             "frequency": 20,
             "distance": 6.7082
         },
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -13180,10 +13128,10 @@ rhs_30Rnd_545x39_7N6M_AK = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -13193,7 +13141,7 @@ rhs_30Rnd_545x39_7N6M_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -13203,7 +13151,7 @@ rhs_30Rnd_545x39_7N6M_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -13213,7 +13161,7 @@ rhs_30Rnd_545x39_7N6M_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -13224,7 +13172,7 @@ rhs_30Rnd_545x39_7N6M_AK = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -13250,14 +13198,14 @@ rhs_30Rnd_545x39_7N6M_AK = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -13765,10 +13713,6 @@ rhs_30Rnd_545x39_7N6M_AK = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -13780,11 +13724,11 @@ rhs_30Rnd_545x39_7N6M_AK = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -13810,10 +13754,10 @@ rhs_30Rnd_545x39_7N6M_AK = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -13822,7 +13766,7 @@ rhs_30Rnd_545x39_7N6M_AK = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_30Rnd_545x39_7N6_AK = {
+"rhs_30Rnd_545x39_7N6_AK": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_30Rnd_545x39_AK_ca.paa",
     "scope": 2,
@@ -13832,7 +13776,7 @@ rhs_30Rnd_545x39_7N6_AK = {
     "model": "rhsafrf\\addons\\rhs_weapons3\\magazines\\rhs_ak_bklt_mag",
     "modelSpecial": "rhsafrf\\addons\\rhs_weapons\\mag_proxies\\rhs_mag_545x39_6l20_30rnd.p3d",
     "modelSpecialIsProxy": 1,
-    # Ammo: rhs_B_545x39_Ball,
+    # Ammo: CfgMagazines\\rhs_30Rnd_545x39_AK\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_545x39_Ball",
         "cartridge": "RHS_Cartridge_545x39",
@@ -13858,14 +13802,14 @@ rhs_30Rnd_545x39_7N6_AK = {
         "suppressionRadiusBulletClose": 6,
         "suppressionRadiusHit": 8,
         "aiAmmoUsageFlags": 64,
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.23607,
             "duration": 0.4,
             "frequency": 20,
             "distance": 6.7082
         },
-        # Class: CfgAmmo\B_556x45_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_556x45_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -14159,10 +14103,10 @@ rhs_30Rnd_545x39_7N6_AK = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -14172,7 +14116,7 @@ rhs_30Rnd_545x39_7N6_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -14182,7 +14126,7 @@ rhs_30Rnd_545x39_7N6_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -14192,7 +14136,7 @@ rhs_30Rnd_545x39_7N6_AK = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -14203,7 +14147,7 @@ rhs_30Rnd_545x39_7N6_AK = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -14229,14 +14173,14 @@ rhs_30Rnd_545x39_7N6_AK = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -14744,10 +14688,6 @@ rhs_30Rnd_545x39_7N6_AK = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -14759,11 +14699,11 @@ rhs_30Rnd_545x39_7N6_AK = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -14784,10 +14724,10 @@ rhs_30Rnd_545x39_7N6_AK = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -14796,7 +14736,7 @@ rhs_30Rnd_545x39_7N6_AK = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_30Rnd_762x39mm = {
+"rhs_30Rnd_762x39mm": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_30Rnd_762x39mm_tracer_ca.paa",
     "displayName": "30rnd AKM 57-N-231",
@@ -14805,7 +14745,7 @@ rhs_30Rnd_762x39mm = {
     "modelSpecial": "rhsafrf\\addons\\rhs_weapons\\mag_proxies\\rhs_mag_762x39_steel_30rnd",
     "model": "rhsafrf\\addons\\rhs_weapons\\magazines\\rhs_ak762_steel_mag",
     "modelSpecialIsProxy": 1,
-    # Ammo: rhs_B_762x39_Ball,
+    # Ammo: CfgMagazines\\rhs_30Rnd_762x39mm\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_B_762x39_Ball",
         "cartridge": "FxCartridge_762x39",
@@ -14828,14 +14768,14 @@ rhs_30Rnd_762x39mm = {
         "tracerScale": 0.6,
         "tracerStartTime": 0.0075,
         "tracerEndTime": 5,
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 2.82843,
             "duration": 0.6,
             "frequency": 20,
             "distance": 8.48528
         },
-        # Class: CfgAmmo\B_762x51_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_762x51_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 5,
             "duration": 0.2,
@@ -15052,10 +14992,10 @@ rhs_30Rnd_762x39mm = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -15065,7 +15005,7 @@ rhs_30Rnd_762x39mm = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -15075,7 +15015,7 @@ rhs_30Rnd_762x39mm = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -15085,7 +15025,7 @@ rhs_30Rnd_762x39mm = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -15096,7 +15036,7 @@ rhs_30Rnd_762x39mm = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -15122,14 +15062,14 @@ rhs_30Rnd_762x39mm = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -15715,10 +15655,6 @@ rhs_30Rnd_762x39mm = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -15730,11 +15666,11 @@ rhs_30Rnd_762x39mm = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -15756,10 +15692,10 @@ rhs_30Rnd_762x39mm = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -15768,14 +15704,14 @@ rhs_30Rnd_762x39mm = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0
 },
-rhs_5Rnd_338lapua_t5000 = {
+"rhs_5Rnd_338lapua_t5000": {
     "author": "Red Hammer Studios",
     "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
     "model": "rhsafrf\\addons\\rhs_weapons3\\magazines\\rhs_t5000_mag",
     "displayName": "5rnd T-5000 .338",
     "descriptionShort": "Caliber: .338 Lapua<br />Rounds: 5<br />Used in: T-5000",
     "displayNameShort": ".338 Lapua",
-    # Ammo: B_338_Ball,
+    # Ammo: CfgMagazines\\rhs_5Rnd_338lapua_t5000\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "B_338_Ball",
         "hit": 16,
@@ -15798,14 +15734,14 @@ rhs_5Rnd_338lapua_t5000 = {
         "tracerStartTime": 0.075,
         "tracerEndTime": 1,
         "airFriction": -0.00061,
-        # Class: CfgAmmo\B_338_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_338_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 3.16228,
             "duration": 0.6,
             "frequency": 20,
             "distance": 9.48683
         },
-        # Class: CfgAmmo\B_338_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_338_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 10,
             "duration": 0.4,
@@ -16022,10 +15958,10 @@ rhs_5Rnd_338lapua_t5000 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -16035,7 +15971,7 @@ rhs_5Rnd_338lapua_t5000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -16045,7 +15981,7 @@ rhs_5Rnd_338lapua_t5000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -16055,7 +15991,7 @@ rhs_5Rnd_338lapua_t5000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -16066,7 +16002,7 @@ rhs_5Rnd_338lapua_t5000 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -16092,14 +16028,14 @@ rhs_5Rnd_338lapua_t5000 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -16685,10 +16621,6 @@ rhs_5Rnd_338lapua_t5000 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -16700,11 +16632,11 @@ rhs_5Rnd_338lapua_t5000 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -16728,10 +16660,10 @@ rhs_5Rnd_338lapua_t5000 = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

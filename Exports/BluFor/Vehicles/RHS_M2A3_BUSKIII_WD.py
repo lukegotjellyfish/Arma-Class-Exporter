@@ -9,23 +9,28 @@ RHS_M2A3_BUSKIII_WD = {
     "model": "rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|M2A3_ERA2",
     "picture": "rhsusf|addons|rhsusf_a2port_armor|pictures|rhs_m2a3b_pic_ca.paa",
     "hiddenSelections": ["camo1","camo2","camo3","camo4","duke_tex"],
-    # Class: CfgVehicles\RHS_M2A3_BUSKIII\textureSources [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3_BUSKIII|textureSources [Indent level: 1],
     "textureSources": {
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\textureSources\standard [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|textureSources|standard [Indent level: 2],
+
         "standard": {
+
             "displayName": "Woodland",
+
             "author": "Red Hammer Studios",
+
             "textures": ["|rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|woodland|base_buskiii_co.paa","|rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|woodland|a3_buskiii_co.paa","|rhsusf|addons|rhsusf_a2port_armor|m2a2_bradley|data|woodland|ultralp_co.paa","|rhsusf|addons|rhsusf_a2port_armor|m2a2_bradley|data|woodland|BUSKIII_co.paa","|rhsusf|addons|rhsusf_m1a1|duke|data|duke_antennae_wd_co.paa"],
+
             "factions": ["rhs_faction_usarmy_wd"]
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\textureSources\Desert [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|textureSources|Desert [Indent level: 2],
         "Desert": {
             "displayName": "Desert",
             "author": "Red Hammer Studios",
             "textures": ["|rhsusf|addons|rhsusf_a2port_armor|m2a2_bradley|data|buskiii|base_co.paa","|rhsusf|addons|rhsusf_a2port_armor|m2a2_bradley|data|buskiii|a3_co.paa","|rhsusf|addons|rhsusf_a2port_armor|m2a2_bradley|data|ultralp_co.paa","|rhsusf|addons|rhsusf_a2port_armor|m2a2_bradley|data|buskiii_co.paa","|rhsusf|addons|rhsusf_m1a1|duke|data|duke_antennae_d_co.paa"],
             "factions": ["rhs_faction_usarmy_d"]
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\textureSources\Olive [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|textureSources|Olive [Indent level: 2],
         "Olive": {
             "displayName": "Olive",
             "author": "Red Hammer Studios",
@@ -34,79 +39,82 @@ RHS_M2A3_BUSKIII_WD = {
         }
     },
     "damageResistance": 0.01189,
-    # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources [Indent level: 1],
     "AnimationSources": {
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_46_source [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_46_source [Indent level: 2],
+
         "era_46_source": {
+
             "source": "Hit",
+
             "hitpoint": "era_46_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_47_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_47_source [Indent level: 2],
         "era_47_source": {
             "source": "Hit",
             "hitpoint": "era_47_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_48_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_48_source [Indent level: 2],
         "era_48_source": {
             "source": "Hit",
             "hitpoint": "era_48_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_49_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_49_source [Indent level: 2],
         "era_49_source": {
             "source": "Hit",
             "hitpoint": "era_49_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_50_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_50_source [Indent level: 2],
         "era_50_source": {
             "source": "Hit",
             "hitpoint": "era_50_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_51_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_51_source [Indent level: 2],
         "era_51_source": {
             "source": "Hit",
             "hitpoint": "era_51_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_52_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_52_source [Indent level: 2],
         "era_52_source": {
             "source": "Hit",
             "hitpoint": "era_52_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_53_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_53_source [Indent level: 2],
         "era_53_source": {
             "source": "Hit",
             "hitpoint": "era_53_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_54_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_54_source [Indent level: 2],
         "era_54_source": {
             "source": "Hit",
             "hitpoint": "era_54_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_55_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_55_source [Indent level: 2],
         "era_55_source": {
             "source": "Hit",
             "hitpoint": "era_55_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_56_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_56_source [Indent level: 2],
         "era_56_source": {
             "source": "Hit",
             "hitpoint": "era_56_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_57_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_57_source [Indent level: 2],
         "era_57_source": {
             "source": "Hit",
             "hitpoint": "era_57_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_58_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_58_source [Indent level: 2],
         "era_58_source": {
             "source": "Hit",
             "hitpoint": "era_58_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\AnimationSources\era_59_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|AnimationSources|era_59_source [Indent level: 2],
         "era_59_source": {
             "source": "Hit",
             "hitpoint": "era_59_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\DUKE_Hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|DUKE_Hide [Indent level: 2],
         "DUKE_Hide": {
             "source": "user",
             "mass": -20,
@@ -115,259 +123,259 @@ RHS_M2A3_BUSKIII_WD = {
             "initPhase": 0,
             "onPhaseChanged": "_this + ([[0,0]]) call rhs_fnc_duke_vg;"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\HitDuke1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|HitDuke1 [Indent level: 2],
         "HitDuke1": {
             "source": "Hit",
             "hitpoint": "HitDuke1"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\HitDuke2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|HitDuke2 [Indent level: 2],
         "HitDuke2": {
             "hitpoint": "HitDuke2",
             "source": "Hit"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_1_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_1_source [Indent level: 2],
         "era_1_source": {
             "source": "Hit",
             "hitpoint": "era_1_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_2_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_2_source [Indent level: 2],
         "era_2_source": {
             "source": "Hit",
             "hitpoint": "era_2_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_3_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_3_source [Indent level: 2],
         "era_3_source": {
             "source": "Hit",
             "hitpoint": "era_3_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_4_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_4_source [Indent level: 2],
         "era_4_source": {
             "source": "Hit",
             "hitpoint": "era_4_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_5_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_5_source [Indent level: 2],
         "era_5_source": {
             "source": "Hit",
             "hitpoint": "era_5_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_6_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_6_source [Indent level: 2],
         "era_6_source": {
             "source": "Hit",
             "hitpoint": "era_6_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_7_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_7_source [Indent level: 2],
         "era_7_source": {
             "source": "Hit",
             "hitpoint": "era_7_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_8_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_8_source [Indent level: 2],
         "era_8_source": {
             "source": "Hit",
             "hitpoint": "era_8_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_9_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_9_source [Indent level: 2],
         "era_9_source": {
             "source": "Hit",
             "hitpoint": "era_9_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_10_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_10_source [Indent level: 2],
         "era_10_source": {
             "source": "Hit",
             "hitpoint": "era_10_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_11_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_11_source [Indent level: 2],
         "era_11_source": {
             "source": "Hit",
             "hitpoint": "era_11_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_12_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_12_source [Indent level: 2],
         "era_12_source": {
             "source": "Hit",
             "hitpoint": "era_12_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_13_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_13_source [Indent level: 2],
         "era_13_source": {
             "source": "Hit",
             "hitpoint": "era_13_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_14_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_14_source [Indent level: 2],
         "era_14_source": {
             "source": "Hit",
             "hitpoint": "era_14_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_15_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_15_source [Indent level: 2],
         "era_15_source": {
             "source": "Hit",
             "hitpoint": "era_15_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_16_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_16_source [Indent level: 2],
         "era_16_source": {
             "source": "Hit",
             "hitpoint": "era_16_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_17_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_17_source [Indent level: 2],
         "era_17_source": {
             "source": "Hit",
             "hitpoint": "era_17_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_18_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_18_source [Indent level: 2],
         "era_18_source": {
             "source": "Hit",
             "hitpoint": "era_18_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_19_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_19_source [Indent level: 2],
         "era_19_source": {
             "source": "Hit",
             "hitpoint": "era_19_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_20_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_20_source [Indent level: 2],
         "era_20_source": {
             "source": "Hit",
             "hitpoint": "era_20_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_21_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_21_source [Indent level: 2],
         "era_21_source": {
             "source": "Hit",
             "hitpoint": "era_21_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_22_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_22_source [Indent level: 2],
         "era_22_source": {
             "source": "Hit",
             "hitpoint": "era_22_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_23_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_23_source [Indent level: 2],
         "era_23_source": {
             "source": "Hit",
             "hitpoint": "era_23_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_24_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_24_source [Indent level: 2],
         "era_24_source": {
             "source": "Hit",
             "hitpoint": "era_24_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_25_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_25_source [Indent level: 2],
         "era_25_source": {
             "source": "Hit",
             "hitpoint": "era_25_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_26_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_26_source [Indent level: 2],
         "era_26_source": {
             "source": "Hit",
             "hitpoint": "era_26_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_27_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_27_source [Indent level: 2],
         "era_27_source": {
             "source": "Hit",
             "hitpoint": "era_27_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_28_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_28_source [Indent level: 2],
         "era_28_source": {
             "source": "Hit",
             "hitpoint": "era_28_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_29_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_29_source [Indent level: 2],
         "era_29_source": {
             "source": "Hit",
             "hitpoint": "era_29_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_30_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_30_source [Indent level: 2],
         "era_30_source": {
             "source": "Hit",
             "hitpoint": "era_30_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_31_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_31_source [Indent level: 2],
         "era_31_source": {
             "source": "Hit",
             "hitpoint": "era_31_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_32_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_32_source [Indent level: 2],
         "era_32_source": {
             "source": "Hit",
             "hitpoint": "era_32_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_33_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_33_source [Indent level: 2],
         "era_33_source": {
             "source": "Hit",
             "hitpoint": "era_33_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_34_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_34_source [Indent level: 2],
         "era_34_source": {
             "source": "Hit",
             "hitpoint": "era_34_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_35_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_35_source [Indent level: 2],
         "era_35_source": {
             "source": "Hit",
             "hitpoint": "era_35_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_36_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_36_source [Indent level: 2],
         "era_36_source": {
             "source": "Hit",
             "hitpoint": "era_36_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_37_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_37_source [Indent level: 2],
         "era_37_source": {
             "source": "Hit",
             "hitpoint": "era_37_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_38_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_38_source [Indent level: 2],
         "era_38_source": {
             "source": "Hit",
             "hitpoint": "era_38_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_39_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_39_source [Indent level: 2],
         "era_39_source": {
             "source": "Hit",
             "hitpoint": "era_39_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_40_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_40_source [Indent level: 2],
         "era_40_source": {
             "source": "Hit",
             "hitpoint": "era_40_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_41_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_41_source [Indent level: 2],
         "era_41_source": {
             "source": "Hit",
             "hitpoint": "era_41_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_42_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_42_source [Indent level: 2],
         "era_42_source": {
             "source": "Hit",
             "hitpoint": "era_42_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_43_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_43_source [Indent level: 2],
         "era_43_source": {
             "source": "Hit",
             "hitpoint": "era_43_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_44_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_44_source [Indent level: 2],
         "era_44_source": {
             "source": "Hit",
             "hitpoint": "era_44_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\AnimationSources\era_45_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|AnimationSources|era_45_source [Indent level: 2],
         "era_45_source": {
             "source": "Hit",
             "hitpoint": "era_45_hitpoint"
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\smoke_revolving_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|smoke_revolving_source [Indent level: 2],
         "smoke_revolving_source": {
             "source": "revolving",
             "weapon": "rhsusf_weap_M257_8"
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\cargolights_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|cargolights_hide [Indent level: 2],
         "cargolights_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\cabinlights_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|cabinlights_hide [Indent level: 2],
         "cabinlights_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\IFF_Panels_Hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|IFF_Panels_Hide [Indent level: 2],
         "IFF_Panels_Hide": {
             "source": "user",
             "mass": -20,
@@ -376,42 +384,42 @@ RHS_M2A3_BUSKIII_WD = {
             "animPeriod": 1e-005,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\recoil_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|recoil_source [Indent level: 2],
         "recoil_source": {
             "source": "reload",
             "weapon": "RHS_weap_M242BC"
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\muzzle_hide_hmg [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|muzzle_hide_hmg [Indent level: 2],
         "muzzle_hide_hmg": {
             "source": "reload",
             "weapon": "RHS_weap_M242BC"
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\muzzle_rot_hmg [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|muzzle_rot_hmg [Indent level: 2],
         "muzzle_rot_hmg": {
             "source": "ammorandom",
             "weapon": "RHS_weap_M242BC"
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\muzzle_rot_hmg2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|muzzle_rot_hmg2 [Indent level: 2],
         "muzzle_rot_hmg2": {
             "weapon": "rhs_weap_m240_bradley_coax",
             "source": "ammorandom"
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\HatchC [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|HatchC [Indent level: 2],
         "HatchC": {
             "source": "door",
             "animPeriod": 2.1
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\HatchG [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|HatchG [Indent level: 2],
         "HatchG": {
             "source": "door",
             "animPeriod": 2.1
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\HatchD [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|HatchD [Indent level: 2],
         "HatchD": {
             "source": "door",
             "animPeriod": 2.1
         },
-        # Class: CfgVehicles\RHS_M2A3\AnimationSources\ramp [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|AnimationSources|ramp [Indent level: 2],
         "ramp": {
             "source": "door",
             "animPeriod": 5,
@@ -420,64 +428,112 @@ RHS_M2A3_BUSKIII_WD = {
             "soundPosition": "ramp_axis"
         }
     },
-    # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints [Indent level: 1],
     "HitPoints": {
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_46_hitpoint [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_46_hitpoint [Indent level: 2],
+
         "era_46_hitpoint": {
+
             "simulation": "RHS_ERA_BUSK",
+
             "armor": -150,
+
             "material": -1,
+
             "name": "e46",
+
             "armorComponent": "e46",
+
             "passThrough": 0,
+
             "minimalHit": -0.4,
+
             "explosionShielding": 0.007,
+
             "radius": 0.16,
+
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_46_hitpoint\DestructionEffects [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_46_hitpoint|DestructionEffects [Indent level: 3],
+
             "DestructionEffects": {
+
                 "ammoExplosionEffect": "",
+
                 "effectRadius": 1,
+
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_46_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_46_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
+
                 "RHS_ERA_Flash": {
+
                     "simulation": "particles",
+
                     "type": "RHS_ERA_Flash",
+
                     "position": "fx_e46",
+
                     "intensity": 0.5,
+
                     "interval": 1,
+
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_46_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_46_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
+
                 "RHS_ERA_Sound": {
+
                     "simulation": "sound",
+
                     "type": "RHS_ERA_Explosion_Sound",
+
                     "position": "fx_e46",
+
                     "intensity": 1,
+
                     "interval": 1,
+
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_46_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_46_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
+
                 "RHS_ERA_Smoke": {
+
                     "simulation": "particles",
+
                     "type": "RHS_ERA_Smoke",
+
                     "position": "fx_e46",
+
                     "intensity": 0.1,
+
                     "interval": 1,
+
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_46_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_46_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
+
                 "RHS_ERA_Shard": {
+
                     "simulation": "particles",
+
                     "type": "RHS_ERA_Shard",
+
                     "position": "fx_e46",
+
                     "intensity": 1,
+
                     "interval": 1,
+
                     "lifeTime": 0.03
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_47_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_47_hitpoint [Indent level: 2],
         "era_47_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -489,12 +545,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_47_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_47_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_47_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_47_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -503,7 +559,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_47_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_47_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -512,7 +568,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_47_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_47_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -521,7 +577,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_47_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_47_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -532,7 +588,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_48_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_48_hitpoint [Indent level: 2],
         "era_48_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -544,12 +600,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_48_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_48_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_48_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_48_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -558,7 +614,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_48_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_48_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -567,7 +623,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_48_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_48_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -576,7 +632,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_48_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_48_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -587,7 +643,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_49_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_49_hitpoint [Indent level: 2],
         "era_49_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -599,12 +655,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_49_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_49_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_49_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_49_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -613,7 +669,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_49_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_49_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -622,7 +678,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_49_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_49_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -631,7 +687,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_49_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_49_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -642,7 +698,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_50_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_50_hitpoint [Indent level: 2],
         "era_50_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -654,12 +710,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_50_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_50_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_50_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_50_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -668,7 +724,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_50_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_50_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -677,7 +733,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_50_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_50_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -686,7 +742,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_50_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_50_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -697,7 +753,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_51_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_51_hitpoint [Indent level: 2],
         "era_51_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -709,12 +765,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_51_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_51_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_51_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_51_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -723,7 +779,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_51_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_51_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -732,7 +788,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_51_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_51_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -741,7 +797,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_51_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_51_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -752,7 +808,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_52_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_52_hitpoint [Indent level: 2],
         "era_52_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -764,12 +820,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_52_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_52_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_52_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_52_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -778,7 +834,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_52_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_52_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -787,7 +843,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_52_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_52_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -796,7 +852,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_52_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_52_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -807,7 +863,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_53_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_53_hitpoint [Indent level: 2],
         "era_53_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -819,12 +875,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_53_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_53_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_53_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_53_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -833,7 +889,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_53_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_53_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -842,7 +898,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_53_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_53_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -851,7 +907,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_53_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_53_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -862,7 +918,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_54_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_54_hitpoint [Indent level: 2],
         "era_54_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -874,12 +930,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_54_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_54_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_54_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_54_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -888,7 +944,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_54_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_54_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -897,7 +953,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_54_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_54_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -906,7 +962,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_54_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_54_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -917,7 +973,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_55_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_55_hitpoint [Indent level: 2],
         "era_55_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -929,12 +985,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_55_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_55_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_55_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_55_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -943,7 +999,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_55_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_55_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -952,7 +1008,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_55_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_55_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -961,7 +1017,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_55_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_55_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -972,7 +1028,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_56_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_56_hitpoint [Indent level: 2],
         "era_56_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -984,12 +1040,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_56_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_56_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_56_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_56_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -998,7 +1054,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_56_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_56_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1007,7 +1063,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_56_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_56_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1016,7 +1072,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_56_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_56_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1027,7 +1083,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_57_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_57_hitpoint [Indent level: 2],
         "era_57_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1039,12 +1095,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_57_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_57_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_57_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_57_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1053,7 +1109,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_57_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_57_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1062,7 +1118,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_57_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_57_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1071,7 +1127,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_57_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_57_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1082,7 +1138,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_58_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_58_hitpoint [Indent level: 2],
         "era_58_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1094,12 +1150,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_58_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_58_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_58_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_58_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1108,7 +1164,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_58_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_58_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1117,7 +1173,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_58_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_58_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1126,7 +1182,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_58_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_58_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1137,7 +1193,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_59_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_59_hitpoint [Indent level: 2],
         "era_59_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1149,12 +1205,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_59_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_59_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_59_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_59_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1163,7 +1219,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_59_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_59_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1172,7 +1228,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_59_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_59_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1181,7 +1237,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKIII\HitPoints\era_59_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKIII|HitPoints|era_59_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1192,7 +1248,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\HitDuke1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|HitDuke1 [Indent level: 2],
         "HitDuke1": {
             "armor": 0.75,
             "material": -1,
@@ -1203,7 +1259,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.01,
             "radius": 0.15
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\HitDuke2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|HitDuke2 [Indent level: 2],
         "HitDuke2": {
             "name": "duke2",
             "visual": "-",
@@ -1214,7 +1270,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.01,
             "radius": 0.15
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_1_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_1_hitpoint [Indent level: 2],
         "era_1_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1226,12 +1282,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_1_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_1_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_1_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_1_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1240,7 +1296,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_1_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_1_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1249,7 +1305,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_1_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_1_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1258,7 +1314,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_1_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_1_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1269,7 +1325,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_2_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_2_hitpoint [Indent level: 2],
         "era_2_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1281,12 +1337,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_2_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_2_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_2_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_2_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1295,7 +1351,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_2_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_2_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1304,7 +1360,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_2_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_2_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1313,7 +1369,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_2_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_2_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1324,7 +1380,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_3_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_3_hitpoint [Indent level: 2],
         "era_3_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1336,12 +1392,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_3_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_3_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_3_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_3_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1350,7 +1406,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_3_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_3_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1359,7 +1415,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_3_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_3_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1368,7 +1424,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_3_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_3_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1379,7 +1435,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_4_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_4_hitpoint [Indent level: 2],
         "era_4_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1391,12 +1447,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_4_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_4_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_4_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_4_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1405,7 +1461,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_4_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_4_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1414,7 +1470,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_4_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_4_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1423,7 +1479,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_4_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_4_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1434,7 +1490,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_5_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_5_hitpoint [Indent level: 2],
         "era_5_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1446,12 +1502,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_5_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_5_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_5_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_5_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1460,7 +1516,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_5_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_5_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1469,7 +1525,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_5_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_5_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1478,7 +1534,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_5_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_5_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1489,7 +1545,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_6_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_6_hitpoint [Indent level: 2],
         "era_6_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1501,12 +1557,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_6_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_6_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_6_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_6_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1515,7 +1571,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_6_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_6_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1524,7 +1580,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_6_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_6_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1533,7 +1589,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_6_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_6_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1544,7 +1600,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_7_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_7_hitpoint [Indent level: 2],
         "era_7_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1556,12 +1612,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_7_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_7_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_7_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_7_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1570,7 +1626,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_7_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_7_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1579,7 +1635,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_7_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_7_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1588,7 +1644,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_7_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_7_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1599,7 +1655,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_8_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_8_hitpoint [Indent level: 2],
         "era_8_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1611,12 +1667,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_8_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_8_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_8_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_8_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1625,7 +1681,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_8_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_8_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1634,7 +1690,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_8_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_8_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1643,7 +1699,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_8_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_8_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1654,7 +1710,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_9_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_9_hitpoint [Indent level: 2],
         "era_9_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1666,12 +1722,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_9_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_9_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_9_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_9_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1680,7 +1736,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_9_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_9_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1689,7 +1745,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_9_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_9_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1698,7 +1754,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_9_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_9_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1709,7 +1765,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_10_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_10_hitpoint [Indent level: 2],
         "era_10_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1721,12 +1777,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_10_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_10_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_10_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_10_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1735,7 +1791,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_10_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_10_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1744,7 +1800,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_10_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_10_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1753,7 +1809,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_10_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_10_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1764,7 +1820,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_11_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_11_hitpoint [Indent level: 2],
         "era_11_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1776,12 +1832,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_11_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_11_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_11_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_11_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1790,7 +1846,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_11_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_11_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1799,7 +1855,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_11_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_11_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1808,7 +1864,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_11_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_11_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1819,7 +1875,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_12_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_12_hitpoint [Indent level: 2],
         "era_12_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1831,12 +1887,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_12_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_12_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_12_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_12_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1845,7 +1901,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_12_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_12_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1854,7 +1910,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_12_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_12_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1863,7 +1919,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_12_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_12_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1874,7 +1930,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_13_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_13_hitpoint [Indent level: 2],
         "era_13_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1886,12 +1942,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_13_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_13_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_13_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_13_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1900,7 +1956,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_13_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_13_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1909,7 +1965,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_13_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_13_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1918,7 +1974,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_13_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_13_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1929,7 +1985,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_14_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_14_hitpoint [Indent level: 2],
         "era_14_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1941,12 +1997,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_14_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_14_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_14_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_14_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -1955,7 +2011,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_14_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_14_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -1964,7 +2020,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_14_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_14_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -1973,7 +2029,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_14_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_14_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -1984,7 +2040,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_15_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_15_hitpoint [Indent level: 2],
         "era_15_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -1996,12 +2052,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_15_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_15_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_15_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_15_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2010,7 +2066,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_15_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_15_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2019,7 +2075,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_15_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_15_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2028,7 +2084,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_15_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_15_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2039,7 +2095,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_16_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_16_hitpoint [Indent level: 2],
         "era_16_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2051,12 +2107,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_16_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_16_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_16_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_16_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2065,7 +2121,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_16_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_16_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2074,7 +2130,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_16_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_16_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2083,7 +2139,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_16_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_16_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2094,7 +2150,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_17_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_17_hitpoint [Indent level: 2],
         "era_17_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2106,12 +2162,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_17_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_17_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_17_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_17_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2120,7 +2176,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_17_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_17_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2129,7 +2185,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_17_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_17_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2138,7 +2194,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_17_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_17_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2149,7 +2205,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_18_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_18_hitpoint [Indent level: 2],
         "era_18_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2161,12 +2217,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_18_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_18_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_18_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_18_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2175,7 +2231,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_18_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_18_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2184,7 +2240,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_18_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_18_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2193,7 +2249,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_18_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_18_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2204,7 +2260,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_19_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_19_hitpoint [Indent level: 2],
         "era_19_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2216,12 +2272,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_19_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_19_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_19_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_19_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2230,7 +2286,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_19_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_19_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2239,7 +2295,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_19_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_19_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2248,7 +2304,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_19_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_19_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2259,7 +2315,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_20_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_20_hitpoint [Indent level: 2],
         "era_20_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2271,12 +2327,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_20_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_20_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_20_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_20_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2285,7 +2341,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_20_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_20_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2294,7 +2350,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_20_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_20_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2303,7 +2359,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_20_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_20_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2314,7 +2370,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_21_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_21_hitpoint [Indent level: 2],
         "era_21_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2326,12 +2382,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_21_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_21_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_21_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_21_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2340,7 +2396,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_21_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_21_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2349,7 +2405,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_21_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_21_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2358,7 +2414,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_21_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_21_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2369,7 +2425,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_22_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_22_hitpoint [Indent level: 2],
         "era_22_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2381,12 +2437,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_22_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_22_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_22_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_22_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2395,7 +2451,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_22_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_22_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2404,7 +2460,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_22_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_22_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2413,7 +2469,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_22_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_22_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2424,7 +2480,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_23_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_23_hitpoint [Indent level: 2],
         "era_23_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2436,12 +2492,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_23_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_23_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_23_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_23_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2450,7 +2506,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_23_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_23_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2459,7 +2515,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_23_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_23_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2468,7 +2524,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_23_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_23_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2479,7 +2535,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_24_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_24_hitpoint [Indent level: 2],
         "era_24_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2491,12 +2547,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_24_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_24_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_24_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_24_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2505,7 +2561,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_24_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_24_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2514,7 +2570,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_24_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_24_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2523,7 +2579,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_24_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_24_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2534,7 +2590,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_25_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_25_hitpoint [Indent level: 2],
         "era_25_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2546,12 +2602,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_25_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_25_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_25_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_25_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2560,7 +2616,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_25_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_25_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2569,7 +2625,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_25_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_25_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2578,7 +2634,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_25_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_25_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2589,7 +2645,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_26_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_26_hitpoint [Indent level: 2],
         "era_26_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2601,12 +2657,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_26_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_26_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_26_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_26_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2615,7 +2671,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_26_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_26_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2624,7 +2680,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_26_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_26_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2633,7 +2689,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_26_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_26_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2644,7 +2700,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_27_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_27_hitpoint [Indent level: 2],
         "era_27_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2656,12 +2712,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_27_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_27_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_27_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_27_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2670,7 +2726,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_27_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_27_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2679,7 +2735,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_27_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_27_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2688,7 +2744,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_27_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_27_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2699,7 +2755,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_28_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_28_hitpoint [Indent level: 2],
         "era_28_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2711,12 +2767,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_28_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_28_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_28_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_28_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2725,7 +2781,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_28_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_28_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2734,7 +2790,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_28_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_28_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2743,7 +2799,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_28_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_28_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2754,7 +2810,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_29_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_29_hitpoint [Indent level: 2],
         "era_29_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2766,12 +2822,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_29_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_29_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_29_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_29_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2780,7 +2836,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_29_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_29_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2789,7 +2845,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_29_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_29_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2798,7 +2854,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_29_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_29_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2809,7 +2865,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_30_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_30_hitpoint [Indent level: 2],
         "era_30_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2821,12 +2877,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_30_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_30_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_30_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_30_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2835,7 +2891,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_30_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_30_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2844,7 +2900,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_30_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_30_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2853,7 +2909,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_30_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_30_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2864,7 +2920,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_31_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_31_hitpoint [Indent level: 2],
         "era_31_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2876,12 +2932,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_31_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_31_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_31_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_31_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2890,7 +2946,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_31_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_31_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2899,7 +2955,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_31_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_31_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2908,7 +2964,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_31_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_31_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2919,7 +2975,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_32_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_32_hitpoint [Indent level: 2],
         "era_32_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2931,12 +2987,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_32_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_32_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_32_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_32_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -2945,7 +3001,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_32_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_32_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -2954,7 +3010,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_32_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_32_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -2963,7 +3019,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_32_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_32_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -2974,7 +3030,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_33_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_33_hitpoint [Indent level: 2],
         "era_33_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -2986,12 +3042,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_33_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_33_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_33_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_33_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3000,7 +3056,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_33_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_33_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3009,7 +3065,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_33_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_33_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3018,7 +3074,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_33_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_33_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3029,7 +3085,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_34_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_34_hitpoint [Indent level: 2],
         "era_34_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3041,12 +3097,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_34_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_34_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_34_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_34_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3055,7 +3111,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_34_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_34_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3064,7 +3120,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_34_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_34_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3073,7 +3129,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_34_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_34_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3084,7 +3140,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_35_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_35_hitpoint [Indent level: 2],
         "era_35_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3096,12 +3152,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_35_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_35_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_35_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_35_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3110,7 +3166,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_35_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_35_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3119,7 +3175,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_35_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_35_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3128,7 +3184,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_35_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_35_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3139,7 +3195,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_36_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_36_hitpoint [Indent level: 2],
         "era_36_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3151,12 +3207,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_36_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_36_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_36_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_36_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3165,7 +3221,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_36_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_36_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3174,7 +3230,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_36_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_36_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3183,7 +3239,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_36_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_36_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3194,7 +3250,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_37_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_37_hitpoint [Indent level: 2],
         "era_37_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3206,12 +3262,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_37_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_37_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_37_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_37_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3220,7 +3276,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_37_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_37_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3229,7 +3285,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_37_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_37_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3238,7 +3294,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_37_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_37_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3249,7 +3305,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_38_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_38_hitpoint [Indent level: 2],
         "era_38_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3261,12 +3317,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_38_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_38_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_38_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_38_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3275,7 +3331,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_38_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_38_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3284,7 +3340,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_38_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_38_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3293,7 +3349,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_38_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_38_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3304,7 +3360,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_39_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_39_hitpoint [Indent level: 2],
         "era_39_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3316,12 +3372,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_39_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_39_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_39_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_39_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3330,7 +3386,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_39_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_39_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3339,7 +3395,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_39_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_39_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3348,7 +3404,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_39_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_39_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3359,7 +3415,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_40_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_40_hitpoint [Indent level: 2],
         "era_40_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3371,12 +3427,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_40_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_40_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_40_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_40_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3385,7 +3441,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_40_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_40_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3394,7 +3450,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_40_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_40_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3403,7 +3459,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_40_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_40_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3414,7 +3470,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_41_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_41_hitpoint [Indent level: 2],
         "era_41_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3426,12 +3482,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_41_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_41_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_41_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_41_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3440,7 +3496,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_41_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_41_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3449,7 +3505,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_41_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_41_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3458,7 +3514,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_41_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_41_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3469,7 +3525,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_42_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_42_hitpoint [Indent level: 2],
         "era_42_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3481,12 +3537,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_42_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_42_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_42_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_42_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3495,7 +3551,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_42_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_42_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3504,7 +3560,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_42_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_42_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3513,7 +3569,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_42_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_42_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3524,7 +3580,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_43_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_43_hitpoint [Indent level: 2],
         "era_43_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3536,12 +3592,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_43_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_43_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_43_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_43_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3550,7 +3606,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_43_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_43_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3559,7 +3615,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_43_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_43_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3568,7 +3624,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_43_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_43_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3579,7 +3635,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_44_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_44_hitpoint [Indent level: 2],
         "era_44_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3591,12 +3647,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_44_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_44_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_44_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_44_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3605,7 +3661,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_44_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_44_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3614,7 +3670,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_44_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_44_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3623,7 +3679,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_44_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_44_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3634,7 +3690,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_45_hitpoint [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_45_hitpoint [Indent level: 2],
         "era_45_hitpoint": {
             "simulation": "RHS_ERA_BUSK",
             "armor": -150,
@@ -3646,12 +3702,12 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.007,
             "radius": 0.16,
             "visual": "-",
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_45_hitpoint\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_45_hitpoint|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
                 "effectRadius": 1,
                 "ignoreFuel": 1,
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_45_hitpoint\DestructionEffects\RHS_ERA_Flash [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_45_hitpoint|DestructionEffects|RHS_ERA_Flash [Indent level: 4],
                 "RHS_ERA_Flash": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Flash",
@@ -3660,7 +3716,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.006
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_45_hitpoint\DestructionEffects\RHS_ERA_Sound [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_45_hitpoint|DestructionEffects|RHS_ERA_Sound [Indent level: 4],
                 "RHS_ERA_Sound": {
                     "simulation": "sound",
                     "type": "RHS_ERA_Explosion_Sound",
@@ -3669,7 +3725,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 1
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_45_hitpoint\DestructionEffects\RHS_ERA_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_45_hitpoint|DestructionEffects|RHS_ERA_Smoke [Indent level: 4],
                 "RHS_ERA_Smoke": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Smoke",
@@ -3678,7 +3734,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 0.04
                 },
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\HitPoints\era_45_hitpoint\DestructionEffects\RHS_ERA_Shard [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|HitPoints|era_45_hitpoint|DestructionEffects|RHS_ERA_Shard [Indent level: 4],
                 "RHS_ERA_Shard": {
                     "simulation": "particles",
                     "type": "RHS_ERA_Shard",
@@ -3689,7 +3745,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_M2A3\HitPoints\Hit_Optics_Dvr_DVE [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|HitPoints|Hit_Optics_Dvr_DVE [Indent level: 2],
         "Hit_Optics_Dvr_DVE": {
             "armor": -40,
             "explosionShielding": 0,
@@ -3698,7 +3754,7 @@ RHS_M2A3_BUSKIII_WD = {
             "armorComponent": "Hit_Optics_Dvr_DVE",
             "passThrough": 0
         },
-        # Class: CfgVehicles\RHS_M2A3\HitPoints\Hit_Optics_Dvr_RearCam [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|HitPoints|Hit_Optics_Dvr_RearCam [Indent level: 2],
         "Hit_Optics_Dvr_RearCam": {
             "armor": -40,
             "explosionShielding": 0,
@@ -3707,7 +3763,7 @@ RHS_M2A3_BUSKIII_WD = {
             "armorComponent": "Hit_Optics_Dvr_RearCam",
             "passThrough": 0
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitHull_Structural [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitHull_Structural [Indent level: 2],
         "HitHull_Structural": {
             "armor": -600,
             "name": "Hit_Engine",
@@ -3717,7 +3773,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0,
             "radius": 0
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitHull [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitHull [Indent level: 2],
         "HitHull": {
             "armor": -110,
             "name": "Hit_Hull",
@@ -3730,7 +3786,7 @@ RHS_M2A3_BUSKIII_WD = {
             "depends": "HitHull_Structural",
             "material": -1
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine [Indent level: 2],
         "HitEngine": {
             "armor": -100,
             "name": "Hit_Engine",
@@ -3740,10 +3796,10 @@ RHS_M2A3_BUSKIII_WD = {
             "minimalHit": 0.14,
             "explosionShielding": 0.009,
             "radius": 0.17,
-            # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke [Indent level: 4],
                 "RHS_Engine_Smoke": {
                     "simulation": "particles",
                     "type": "SmallWreckSmoke",
@@ -3752,7 +3808,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Fire [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Fire [Indent level: 4],
                 "RHS_Engine_Fire": {
                     "type": "SmallFireFPlace",
                     "simulation": "particles",
@@ -3761,7 +3817,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Sparks [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sparks [Indent level: 4],
                 "RHS_Engine_Sparks": {
                     "type": "RHS_FireSparks",
                     "simulation": "particles",
@@ -3770,7 +3826,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Sounds [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sounds [Indent level: 4],
                 "RHS_Engine_Sounds": {
                     "simulation": "sound",
                     "type": "Fire",
@@ -3779,7 +3835,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Smoke_small1 [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small1 [Indent level: 4],
                 "RHS_Engine_Smoke_small1": {
                     "type": "WeaponWreckSmoke",
                     "position": "engine_smoke2",
@@ -3788,7 +3844,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Smoke_small2 [Indent level: 4],
+                # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small2 [Indent level: 4],
                 "RHS_Engine_Smoke_small2": {
                     "position": "engine_smoke3",
                     "type": "WeaponWreckSmoke",
@@ -3800,7 +3856,7 @@ RHS_M2A3_BUSKIII_WD = {
             },
             "material": -1
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitLTrack [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitLTrack [Indent level: 2],
         "HitLTrack": {
             "armor": -150,
             "armorComponent": "Hit_TrackL",
@@ -3812,7 +3868,7 @@ RHS_M2A3_BUSKIII_WD = {
             "material": -1,
             "visual": "pas_L"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\HitRTrack [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|HitRTrack [Indent level: 2],
         "HitRTrack": {
             "armor": -150,
             "armorComponent": "Hit_TrackR",
@@ -3824,7 +3880,7 @@ RHS_M2A3_BUSKIII_WD = {
             "material": -1,
             "visual": "pas_P"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\Hit_LightL [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|Hit_LightL [Indent level: 2],
         "Hit_LightL": {
             "armor": -10,
             "name": "l svetlo",
@@ -3834,7 +3890,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 1,
             "radius": 0
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\Hit_LightR [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|Hit_LightR [Indent level: 2],
         "Hit_LightR": {
             "name": "p svetlo",
             "armor": -10,
@@ -3844,7 +3900,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 1,
             "radius": 0
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\HitPoints\Hit_Optics_Dvr_Peri [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|HitPoints|Hit_Optics_Dvr_Peri [Indent level: 2],
         "Hit_Optics_Dvr_Peri": {
             "armor": -40,
             "explosionShielding": 0,
@@ -3853,7 +3909,7 @@ RHS_M2A3_BUSKIII_WD = {
             "armorComponent": "Hit_Optics_Dvr_Peri",
             "passThrough": 0
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitFuel [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitFuel [Indent level: 2],
         "HitFuel": {
             "armor": 0.5,
             "material": -1,
@@ -3865,7 +3921,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 0.6,
             "radius": 0.3
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_Left_1 [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_Left_1 [Indent level: 2],
         "HitSLAT_Left_1": {
             "simulation": "Armor_SLAT",
             "armorComponent": "cage_left_1_geo",
@@ -3877,7 +3933,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_Left_2 [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_Left_2 [Indent level: 2],
         "HitSLAT_Left_2": {
             "armorComponent": "cage_left_2_geo",
             "name": "cage_left_2_point",
@@ -3889,7 +3945,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_Left_3 [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_Left_3 [Indent level: 2],
         "HitSLAT_Left_3": {
             "armorComponent": "cage_left_3_geo",
             "name": "cage_left_3_point",
@@ -3901,7 +3957,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_Right_1 [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_Right_1 [Indent level: 2],
         "HitSLAT_Right_1": {
             "armorComponent": "cage_right_1_geo",
             "name": "cage_right_1_point",
@@ -3913,7 +3969,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_Right_2 [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_Right_2 [Indent level: 2],
         "HitSLAT_Right_2": {
             "armorComponent": "cage_right_2_geo",
             "name": "cage_right_2_point",
@@ -3925,7 +3981,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_Right_3 [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_Right_3 [Indent level: 2],
         "HitSLAT_Right_3": {
             "armorComponent": "cage_right_3_geo",
             "name": "cage_right_3_point",
@@ -3937,7 +3993,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_top_back [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_top_back [Indent level: 2],
         "HitSLAT_top_back": {
             "armorComponent": "cage_top_back_geo",
             "name": "cage_top_back_point",
@@ -3949,7 +4005,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_top_left [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_top_left [Indent level: 2],
         "HitSLAT_top_left": {
             "armorComponent": "cage_top_left_geo",
             "name": "cage_top_left_point",
@@ -3961,7 +4017,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_top_right [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_top_right [Indent level: 2],
         "HitSLAT_top_right": {
             "armorComponent": "cage_top_right_geo",
             "name": "cage_top_right_point",
@@ -3973,7 +4029,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_back [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_back [Indent level: 2],
         "HitSLAT_back": {
             "armorComponent": "cage_back_geo",
             "name": "cage_back_point",
@@ -3985,7 +4041,7 @@ RHS_M2A3_BUSKIII_WD = {
             "explosionShielding": 2,
             "radius": 0.25
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\HitPoints\HitSLAT_front [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|HitPoints|HitSLAT_front [Indent level: 2],
         "HitSLAT_front": {
             "armorComponent": "cage_front_geo",
             "name": "cage_front_point",
@@ -3998,1262 +4054,3804 @@ RHS_M2A3_BUSKIII_WD = {
             "radius": 0.25
         }
     },
-    # Class: CfgVehicles\RHS_M2A3_BUSKIII\Damage [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3_BUSKIII|Damage [Indent level: 1],
     "Damage": {
         "tex": [],
         "mat": ["rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV1.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV1_damage.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV1_destruct.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV2.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV2_damage.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV2_destruct.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV2_ERAon.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV2_ERAon_damage.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|brad_UV2_ERAon_destruct.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|BUSKIII.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|BUSKIII_damage.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|BUSKIII_destruct.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|M2_tracks.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|M2_tracks_damage.rvmat","rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|data|M2_tracks_destruct.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","a3|data_f|default_destruct.rvmat"]
     },
-    # Class: CfgVehicles\RHS_M2A3_BUSKI\Turrets [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3_BUSKI|Turrets [Indent level: 1],
     "Turrets": {
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\Turrets\MainTurret [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|Turrets|MainTurret [Indent level: 2],
+
         "MainTurret": {
-            # Class: CfgVehicles\RHS_M2A3_BUSKI\Turrets\MainTurret\Turrets [Indent level: 3]
+
+            # Class: CfgVehicles|RHS_M2A3_BUSKI|Turrets|MainTurret|Turrets [Indent level: 3],
+
+
             "Turrets": {
-                # Class: CfgVehicles\RHS_M2A3_BUSKI\Turrets\MainTurret\Turrets\CommanderOptics [Indent level: 4]
+
+
+                # Class: CfgVehicles|RHS_M2A3_BUSKI|Turrets|MainTurret|Turrets|CommanderOptics [Indent level: 4],
+
+
+
                 "CommanderOptics": {
+
+
+
                     "isPersonTurret": 0,
+
+
+
                     "gunnerInAction": "RHS_M2A3_Commander",
+
+
+
                     "weapons": ["rhsusf_weap_M257_8","rhsusf_weap_duke"],
+
+
+
                     "magazines": ["rhsusf_mag_L8A3_8","rhsusf_mag_duke"],
+
+
+
                     "turretInfoType": "RHS_RscCIV",
+
+
+
                     "stabilizedInAxes": "StabilizedInAxesBoth",
+
+
+
                     "gunnerOpticsModel": "rhsusf|addons|rhsusf_a2port_armor|M2A2_Bradley|comTI_M2A2",
+
+
+
                     "gunnerOpticsEffect": [],
-                    # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\ViewOptics [Indent level: 5],
+
+
+
+                    # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|ViewOptics [Indent level: 5],
+
+
+
                     "ViewOptics": {
+
+
+
                         "initFov": 0.466,
+
+
+
                         "minFov": 0.015,
+
+
+
                         "maxFov": 0.466,
+
+
+
                         "visionMode": ["Normal","NVG","Ti"],
+
+
+
                         "thermalMode": [0,1],
+
+
+
                         "initAngleX": 0,
+
+
+
                         "minAngleX": -30,
+
+
+
                         "maxAngleX": 30,
+
+
+
                         "initAngleY": 0,
+
+
+
                         "minAngleY": -100,
+
+
+
                         "maxAngleY": 100
                     },
+
+
+
                     "minElev": -22,
+
+
+
                     "maxElev": 60,
+
+
+
                     "minTurn": -360,
+
+
+
                     "maxTurn": 360,
-                    # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\OpticsIn [Indent level: 5],
+
+
+
+                    # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn [Indent level: 5],
+
+
+
                     "OpticsIn": {
-                        # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\OpticsIn\Ultrawide [Indent level: 6]
+
+
+
+                        # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn|Ultrawide [Indent level: 6],
+
+
+
+
                         "Ultrawide": {
+
+
+
+
                             "opticsDisplayName": "60HZ",
+
+
+
+
                             "initAngleX": 0,
+
+
+
+
                             "minAngleX": -30,
+
+
+
+
                             "maxAngleX": 30,
+
+
+
+
                             "initAngleY": 0,
+
+
+
+
                             "minAngleY": -100,
+
+
+
+
                             "maxAngleY": 100,
+
+
+
+
                             "initFov": 0.7,
+
+
+
+
                             "minFov": 0.7,
+
+
+
+
                             "maxFov": 0.7,
+
+
+
+
                             "visionMode": ["Normal","Ti"],
+
+
+
+
                             "thermalMode": [0,1],
+
+
+
+
                             "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_1x",
+
+
+
+
                             "gunnerOpticsEffect": [],
+
+
+
+
                             "hitPoint": "Hit_Optics_Cdr_CIV"
                         },
-                        # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\OpticsIn\Wide [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn|Wide [Indent level: 6],
+
+
+
                         "Wide": {
+
+
+
                             "opticsDisplayName": "60HZ",
+
+
+
                             "initFov": 0.175,
+
+
+
                             "minFov": 0.175,
+
+
+
                             "maxFov": 0.175,
+
+
+
                             "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_4x",
+
+
+
                             "initAngleX": 0,
+
+
+
                             "minAngleX": -30,
+
+
+
                             "maxAngleX": 30,
+
+
+
                             "initAngleY": 0,
+
+
+
                             "minAngleY": -100,
+
+
+
                             "maxAngleY": 100,
+
+
+
                             "visionMode": ["Normal","Ti"],
+
+
+
                             "thermalMode": [0,1],
+
+
+
                             "gunnerOpticsEffect": [],
+
+
+
                             "hitPoint": "Hit_Optics_Cdr_CIV"
                         },
-                        # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\OpticsIn\Narrow [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn|Narrow [Indent level: 6],
+
+
+
                         "Narrow": {
+
+
+
                             "opticsDisplayName": "60HZ",
+
+
+
                             "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_12x",
+
+
+
                             "initFov": 0.0583333,
+
+
+
                             "minFov": 0.0583333,
+
+
+
                             "maxFov": 0.0583333,
+
+
+
                             "initAngleX": 0,
+
+
+
                             "minAngleX": -30,
+
+
+
                             "maxAngleX": 30,
+
+
+
                             "initAngleY": 0,
+
+
+
                             "minAngleY": -100,
+
+
+
                             "maxAngleY": 100,
+
+
+
                             "visionMode": ["Normal","Ti"],
+
+
+
                             "thermalMode": [0,1],
+
+
+
                             "gunnerOpticsEffect": [],
+
+
+
                             "hitPoint": "Hit_Optics_Cdr_CIV"
                         },
-                        # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\OpticsIn\Narrow2x [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn|Narrow2x [Indent level: 6],
+
+
+
                         "Narrow2x": {
+
+
+
                             "opticsDisplayName": "60HZ 2X",
+
+
+
                             "initFov": 0.0291667,
+
+
+
                             "minFov": 0.0291667,
+
+
+
                             "maxFov": 0.0291667,
+
+
+
                             "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_12x",
+
+
+
                             "initAngleX": 0,
+
+
+
                             "minAngleX": -30,
+
+
+
                             "maxAngleX": 30,
+
+
+
                             "initAngleY": 0,
+
+
+
                             "minAngleY": -100,
+
+
+
                             "maxAngleY": 100,
+
+
+
                             "visionMode": ["Normal","Ti"],
+
+
+
                             "thermalMode": [0,1],
+
+
+
                             "gunnerOpticsEffect": [],
+
+
+
                             "hitPoint": "Hit_Optics_Cdr_CIV"
                         },
-                        # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\OpticsIn\Narrow4x [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn|Narrow4x [Indent level: 6],
+
+
+
                         "Narrow4x": {
+
+
+
                             "opticsDisplayName": "60HZ 4X",
+
+
+
                             "initFov": 0.0145833,
+
+
+
                             "minFov": 0.0145833,
+
+
+
                             "maxFov": 0.0145833,
+
+
+
                             "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_12x",
+
+
+
                             "initAngleX": 0,
+
+
+
                             "minAngleX": -30,
+
+
+
                             "maxAngleX": 30,
+
+
+
                             "initAngleY": 0,
+
+
+
                             "minAngleY": -100,
+
+
+
                             "maxAngleY": 100,
+
+
+
                             "visionMode": ["Normal","Ti"],
+
+
+
                             "thermalMode": [0,1],
+
+
+
                             "gunnerOpticsEffect": [],
+
+
+
                             "hitPoint": "Hit_Optics_Cdr_CIV"
                         }
                     },
-                    # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\HitPoints [Indent level: 5],
+
+
+
+                    # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|HitPoints [Indent level: 5],
+
+
+
                     "HitPoints": {
-                        # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\Turrets\CommanderOptics\HitPoints\Hit_Optics_Cdr_CIV [Indent level: 6]
+
+
+
+                        # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|Turrets|CommanderOptics|HitPoints|Hit_Optics_Cdr_CIV [Indent level: 6],
+
+
+
+
                         "Hit_Optics_Cdr_CIV": {
+
+
+
+
                             "armor": -40,
+
+
+
+
                             "explosionShielding": 0,
+
+
+
+
                             "name": "",
+
+
+
+
                             "visual": "vis_optics_Cdr_CIV",
+
+
+
+
                             "armorComponent": "Hit_Optics_Cdr_CIV",
+
+
+
+
                             "passThrough": 0
                         },
-                        # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\HitPoints\HitTurretCom [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|HitPoints|HitTurretCom [Indent level: 6],
+
+
+
                         "HitTurretCom": {
+
+
+
                             "armor": 0.3,
+
+
+
                             "material": -1,
+
+
+
                             "name": "vezVelitele",
+
+
+
                             "visual": "vezVelitele",
+
+
+
                             "passThrough": 0,
+
+
+
                             "minimalHit": 0.03,
+
+
+
                             "explosionShielding": 0.001,
+
+
+
                             "radius": 0.25,
+
+
+
                             "isTurret": 1
                         },
-                        # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\HitPoints\HitGunCom [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|HitPoints|HitGunCom [Indent level: 6],
+
+
+
                         "HitGunCom": {
+
+
+
                             "armor": 0.3,
+
+
+
                             "material": -1,
+
+
+
                             "name": "zbranVelitele",
+
+
+
                             "visual": "zbranVelitele",
+
+
+
                             "passThrough": 0,
+
+
+
                             "minimalHit": 0.03,
+
+
+
                             "explosionShielding": 0.001,
+
+
+
                             "radius": 0.25,
+
+
+
                             "isGun": 1
                         },
-                        # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\HitPoints\Hit_Optics_Cdr_Peri [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|HitPoints|Hit_Optics_Cdr_Peri [Indent level: 6],
+
+
+
                         "Hit_Optics_Cdr_Peri": {
+
+
+
                             "armor": -40,
+
+
+
                             "explosionShielding": 0,
+
+
+
                             "name": "",
+
+
+
                             "visual": "vis_optics_Cdr_Peri",
+
+
+
                             "armorComponent": "Hit_Optics_Cdr_Peri",
+
+
+
                             "passThrough": 0
                         }
                     },
+
+
+
                     "body": "obsTurret",
+
+
+
                     "gun": "obsGun",
+
+
+
                     "animationSourceBody": "obsTurret",
+
+
+
                     "animationSourceGun": "obsGun",
+
+
+
                     "memoryPointGunnerOptics": "commanderview",
+
+
+
                     "initElev": 0,
+
+
+
                     "initTurn": 0,
+
+
+
                     "hideWeaponsGunner": 1,
+
+
+
                     "gunnerAction": "RHS_M2A2_CommanderOut",
+
+
+
                     "gunnerGetInAction": "GetInHigh",
+
+
+
                     "gunnerGetOutAction": "GetOutHigh",
+
+
+
                     "gunnerForceOptics": 1,
+
+
+
                     "gunnerDoor": "hatchC",
+
+
+
                     "startEngine": 0,
+
+
+
                     "gunnerHasFlares": 1,
+
+
+
                     "viewGunnerInExternal": 1,
+
+
+
                     "outGunnerMayFire": 1,
+
+
+
                     "inGunnerMayFire": 1,
+
+
+
                     "showCrewAim": 0,
+
+
+
                     "allowTabLock": 0,
-                    # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\Reflectors [Indent level: 5],
+
+
+
+                    # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|Reflectors [Indent level: 5],
+
+
+
                     "Reflectors": {
-                        # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\Reflectors\cabin [Indent level: 6]
+
+
+
+                        # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|Reflectors|cabin [Indent level: 6],
+
+
+
+
                         "cabin": {
+
+
+
+
                             "color": [800,900,650],
+
+
+
+
                             "ambient": [5,5,5],
+
+
+
+
                             "intensity": 0.3,
+
+
+
+
                             "size": 1,
+
+
+
+
                             "innerAngle": 90,
+
+
+
+
                             "outerAngle": 165,
+
+
+
+
                             "coneFadeCoef": 1,
+
+
+
+
                             "position": "cabin_light",
+
+
+
+
                             "direction": "cabin_light_dir",
+
+
+
+
                             "hitpoint": "cabin_light",
+
+
+
+
                             "selection": "cabin_light",
+
+
+
+
                             "useFlare": 1,
+
+
+
+
                             "flareSize": 1,
+
+
+
+
                             "flareMaxDistance": 5,
+
+
+
+
                             "dayLight": 1,
+
+
+
+
                             "blinking": 0,
-                            # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\Reflectors\cabin\Attenuation [Indent level: 7],
+
+
+
+
+                            # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|Reflectors|cabin|Attenuation [Indent level: 7],
+
+
+
+
                             "Attenuation": {
+
+
+
+
                                 "start": 0,
+
+
+
+
                                 "constant": 0,
+
+
+
+
                                 "linear": 1,
+
+
+
+
                                 "quadratic": 50,
+
+
+
+
                                 "hardLimitStart": 1,
+
+
+
+
                                 "hardLimitEnd": 1.5
                             }
                         },
-                        # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\Reflectors\cargo_light_1 [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|Reflectors|cargo_light_1 [Indent level: 6],
+
+
+
                         "cargo_light_1": {
+
+
+
                             "color": [800,900,650],
+
+
+
                             "position": "cargo_light_1",
+
+
+
                             "direction": "cargo_light_1_dir",
+
+
+
                             "hitpoint": "cargo_light_1",
+
+
+
                             "selection": "cargo_light_1",
+
+
+
                             "intensity": 3,
+
+
+
                             "useFlare": 0,
+
+
+
                             "coneFadeCoef": 0.1,
+
+
+
                             "innerAngle": 140,
+
+
+
                             "outerAngle": 175,
-                            # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\Turrets\CommanderOptics\Reflectors\cargo_light_1\Attenuation [Indent level: 7],
+
+
+
+                            # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|Turrets|CommanderOptics|Reflectors|cargo_light_1|Attenuation [Indent level: 7],
+
+
+
                             "Attenuation": {
+
+
+
                                 "start": 0,
+
+
+
                                 "constant": 0,
+
+
+
                                 "linear": 1,
+
+
+
                                 "quadratic": 70,
+
+
+
                                 "hardLimitStart": 1.4,
+
+
+
                                 "hardLimitEnd": 2
                             },
+
+
+
                             "ambient": [5,5,5],
+
+
+
                             "size": 1,
+
+
+
                             "flareSize": 1,
+
+
+
                             "flareMaxDistance": 5,
+
+
+
                             "dayLight": 1,
+
+
+
                             "blinking": 0
                         }
                     },
+
+
+
                     "memoryPointGunnerOutOptics": "commanderview",
+
+
+
                     "soundServo": ["A3|Sounds_F|vehicles|armor|APC|noises|servo_APC_comm",0.562341,1,30],
+
+
+
                     "soundServoVertical": ["A3|Sounds_F|vehicles|armor|APC|noises|servo_APC_comm",0.562341,1,30],
+
+
+
                     "gunnerOutOpticsModel": "",
+
+
+
                     "personTurretAction": "vehicle_turnout_1",
+
+
+
                     "minOutElev": -10,
+
+
+
                     "maxOutElev": 15,
+
+
+
                     "initOutElev": 0,
+
+
+
                     "minOutTurn": -45,
+
+
+
                     "maxOutTurn": 90,
+
+
+
                     "initOutTurn": 0,
+
+
+
                     "usePip": 2,
+
+
+
                     "animationSourceStickX": "com_turret_control_x",
+
+
+
                     "animationSourceStickY": "com_turret_control_y",
+
+
+
                     "gunnerRightHandAnimName": "com_turret_control",
+
+
+
                     "turretFollowFreeLook": 2,
+
+
+
                     "viewGunnerShadowAmb": 0.5,
+
+
+
                     "viewGunnerShadowDiff": 0.05,
+
+
+
                     "LODTurnedIn": 1000,
+
+
+
                     "LODOpticsIn": 0,
-                    # Class: CfgVehicles\APC_Tracked_03_base_F\Turrets\MainTurret\Turrets\CommanderOptics\ViewGunner [Indent level: 5],
+
+
+
+                    # Class: CfgVehicles|APC_Tracked_03_base_F|Turrets|MainTurret|Turrets|CommanderOptics|ViewGunner [Indent level: 5],
+
+
+
                     "ViewGunner": {
+
+
+
                         "initAngleX": -5,
+
+
+
                         "initAngleY": 0,
+
+
+
                         "initFov": 0.9,
+
+
+
                         "minFov": 0.25,
+
+
+
                         "maxFov": 1.25,
+
+
+
                         "minAngleX": -65,
+
+
+
                         "maxAngleX": 85,
+
+
+
                         "minAngleY": -150,
+
+
+
                         "maxAngleY": 150,
+
+
+
                         "minMoveX": -0.075,
+
+
+
                         "maxMoveX": 0.075,
+
+
+
                         "minMoveY": -0.075,
+
+
+
                         "maxMoveY": 0.075,
+
+
+
                         "minMoveZ": -0.075,
+
+
+
                         "maxMoveZ": 0.1,
+
+
+
                         "speedZoomMaxSpeed": 1e+010,
+
+
+
                         "speedZoomMaxFOV": 0
                     },
+
+
+
                     "maxHorizontalRotSpeed": 1.8,
+
+
+
                     "maxVerticalRotSpeed": 1.8,
-                    # Class: CfgVehicles\Tank_F\Turrets\MainTurret\Turrets\CommanderOptics\Components [Indent level: 5],
+
+
+
+                    # Class: CfgVehicles|Tank_F|Turrets|MainTurret|Turrets|CommanderOptics|Components [Indent level: 5],
+
+
+
                     "Components": {
-                        # Class: CfgVehicles\Tank_F\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 6]
+
+
+
+                        # Class: CfgVehicles|Tank_F|Turrets|MainTurret|Turrets|CommanderOptics|Components|VehicleSystemsDisplayManagerComponentLeft [Indent level: 6],
+
+
+
+
                         "VehicleSystemsDisplayManagerComponentLeft": {
-                            # Class: VehicleSystemsTemplateLeftCommander\Components [Indent level: 0]
+
+
+
+
+                            # Class: VehicleSystemsTemplateLeftCommander|Components [Indent level: 0],
+
+
+
+
+
                             "Components": {
-                                # Class: VehicleSystemsTemplateLeftCommander\Components\VehicleDriverDisplay [Indent level: 1]
+
+
+
+
+
+                                # Class: VehicleSystemsTemplateLeftCommander|Components|VehicleDriverDisplay [Indent level: 1],
+
+
+
+
+
+
                                 "VehicleDriverDisplay": {
+
+
+
+
+
+
                                     "componentType": "TransportFeedDisplayComponent",
+
+
+
+
+
+
                                     "source": "Driver"
                                 },
-                                # Class: VehicleSystemsTemplateLeftCommander\Components\VehiclePrimaryGunnerDisplay [Indent level: 1],
+
+
+
+
+
+                                # Class: VehicleSystemsTemplateLeftCommander|Components|VehiclePrimaryGunnerDisplay [Indent level: 1],
+
+
+
+
+
                                 "VehiclePrimaryGunnerDisplay": {
+
+
+
+
+
                                     "componentType": "TransportFeedDisplayComponent",
+
+
+
+
+
                                     "source": "PrimaryGunner"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\EmptyDisplay [Indent level: 1],
+
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|EmptyDisplay [Indent level: 1],
+
+
+
+
+
                                 "EmptyDisplay": {
+
+
+
+
+
                                     "componentType": "EmptyDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\MinimapDisplay [Indent level: 1],
+
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|MinimapDisplay [Indent level: 1],
+
+
+
+
+
                                 "MinimapDisplay": {
+
+
+
+
+
                                     "componentType": "MinimapDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\MineDetectorDisplay [Indent level: 1],
+
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|MineDetectorDisplay [Indent level: 1],
+
+
+
+
+
                                 "MineDetectorDisplay": {
+
+
+
+
+
                                     "componentType": "MineDetectorDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\CrewDisplay [Indent level: 1],
+
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|CrewDisplay [Indent level: 1],
+
+
+
+
+
                                 "CrewDisplay": {
+
+
+
+
+
                                     "componentType": "CrewDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\UAVDisplay [Indent level: 1],
+
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|UAVDisplay [Indent level: 1],
+
+
+
+
+
                                 "UAVDisplay": {
+
+
+
+
+
                                     "componentType": "UAVFeedDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\SlingLoadDisplay [Indent level: 1],
+
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|SlingLoadDisplay [Indent level: 1],
+
+
+
+
+
                                 "SlingLoadDisplay": {
+
+
+
+
+
                                     "componentType": "SlingLoadDisplayComponent"
                                 }
                             },
+
+
+
+
                             "componentType": "VehicleSystemsDisplayManager",
+
+
+
+
                             "left": 1,
+
+
+
+
                             "defaultDisplay": "EmptyDisplay",
+
+
+
+
                             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
+
+
+
+
                             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                         },
-                        # Class: CfgVehicles\Tank_F\Turrets\MainTurret\Turrets\CommanderOptics\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 6],
+
+
+
+                        # Class: CfgVehicles|Tank_F|Turrets|MainTurret|Turrets|CommanderOptics|Components|VehicleSystemsDisplayManagerComponentRight [Indent level: 6],
+
+
+
                         "VehicleSystemsDisplayManagerComponentRight": {
-                            # Class: VehicleSystemsTemplateRightCommander\Components [Indent level: 0]
+
+
+
+                            # Class: VehicleSystemsTemplateRightCommander|Components [Indent level: 0],
+
+
+
+
                             "Components": {
-                                # Class: VehicleSystemsTemplateRightCommander\Components\VehicleDriverDisplay [Indent level: 1]
+
+
+
+
+                                # Class: VehicleSystemsTemplateRightCommander|Components|VehicleDriverDisplay [Indent level: 1],
+
+
+
+
+
                                 "VehicleDriverDisplay": {
+
+
+
+
+
                                     "componentType": "TransportFeedDisplayComponent",
+
+
+
+
+
                                     "source": "Driver"
                                 },
-                                # Class: VehicleSystemsTemplateRightCommander\Components\VehiclePrimaryGunnerDisplay [Indent level: 1],
+
+
+
+
+                                # Class: VehicleSystemsTemplateRightCommander|Components|VehiclePrimaryGunnerDisplay [Indent level: 1],
+
+
+
+
                                 "VehiclePrimaryGunnerDisplay": {
+
+
+
+
                                     "componentType": "TransportFeedDisplayComponent",
+
+
+
+
                                     "source": "PrimaryGunner"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\EmptyDisplay [Indent level: 1],
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|EmptyDisplay [Indent level: 1],
+
+
+
+
                                 "EmptyDisplay": {
+
+
+
+
                                     "componentType": "EmptyDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\MinimapDisplay [Indent level: 1],
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|MinimapDisplay [Indent level: 1],
+
+
+
+
                                 "MinimapDisplay": {
+
+
+
+
                                     "componentType": "MinimapDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\MineDetectorDisplay [Indent level: 1],
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|MineDetectorDisplay [Indent level: 1],
+
+
+
+
                                 "MineDetectorDisplay": {
+
+
+
+
                                     "componentType": "MineDetectorDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\CrewDisplay [Indent level: 1],
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|CrewDisplay [Indent level: 1],
+
+
+
+
                                 "CrewDisplay": {
+
+
+
+
                                     "componentType": "CrewDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\UAVDisplay [Indent level: 1],
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|UAVDisplay [Indent level: 1],
+
+
+
+
                                 "UAVDisplay": {
+
+
+
+
                                     "componentType": "UAVFeedDisplayComponent"
                                 },
-                                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\SlingLoadDisplay [Indent level: 1],
+
+
+
+
+                                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|SlingLoadDisplay [Indent level: 1],
+
+
+
+
                                 "SlingLoadDisplay": {
+
+
+
+
                                     "componentType": "SlingLoadDisplayComponent"
                                 }
                             },
+
+
+
                             "componentType": "VehicleSystemsDisplayManager",
+
+
+
                             "right": 1,
+
+
+
                             "defaultDisplay": "EmptyDisplay",
+
+
+
                             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_X`,	((safezoneX + safezoneW) - (		(10 * 			(			((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40)))])",
+
+
+
                             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                         }
                     },
+
+
+
                     "proxyType": "CPCommander",
+
+
+
                     "proxyIndex": 1,
+
+
+
                     "gunnerName": "Commander",
+
+
+
                     "primaryGunner": 0,
+
+
+
                     "primaryObserver": 1,
+
+
+
                     "animationSourceHatch": "hatchCommander",
+
+
+
                     "animationSourceCamElev": "camElev",
+
+
+
                     "gunBeg": "",
+
+
+
                     "gunEnd": "",
+
+
+
                     "commanding": 2,
+
+
+
                     "gunnerOutOpticsColor": [0,0,0,1],
+
+
+
                     "gunnerOutForceOptics": 0,
+
+
+
                     "gunnerOutOpticsShowCursor": 0,
+
+
+
                     "gunnerOutOpticsEffect": [],
+
+
+
                     "memoryPointsGetInGunner": "pos commander",
+
+
+
                     "memoryPointsGetInGunnerDir": "pos commander dir",
+
+
+
                     "memoryPointGun": "gun_muzzle",
+
+
+
                     "selectionFireAnim": "zasleh_1",
+
+
+
                     "gunnerType": "",
+
+
+
                     "soundElevation": ["",0.00316228,1],
+
+
+
                     "minCamElev": -90,
+
+
+
                     "maxCamElev": 90,
+
+
+
                     "initCamElev": 0,
+
+
+
                     "primary": 1,
+
+
+
                     "hasGunner": 1,
+
+
+
                     "turretCanSee": 0,
+
+
+
                     "canUseScanners": 1,
-                    # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+
+
+
+                    # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
+
+
+
                     "TurretSpec": {
+
+
+
                         "showHeadPhones": 0
                     },
+
+
+
                     "gunnerOpticsColor": [0,0,0,1],
+
+
+
                     "gunnerOpticsShowCursor": 0,
+
+
+
                     "gunnerFireAlsoInInternalCamera": 1,
+
+
+
                     "gunnerOutFireAlsoInInternalCamera": 1,
+
+
+
                     "gunnerUsesPilotView": 0,
+
+
+
                     "castGunnerShadow": 0,
+
+
+
                     "viewGunnerShadow": 1,
+
+
+
                     "ejectDeadGunner": 0,
+
+
+
                     "canHideGunner": -1,
+
+
+
                     "forceHideGunner": 0,
+
+
+
                     "showHMD": 0,
+
+
+
                     "lockWhenDriverOut": 0,
+
+
+
                     "lockWhenVehicleSpeed": -1,
+
+
+
                     "gunnerCompartments": "Compartment1",
+
+
+
                     "LODTurnedOut": -1,
+
+
+
                     "memoryPointsGetInGunnerPrecise": "",
+
+
+
                     "missileBeg": "spice rakety",
+
+
+
                     "missileEnd": "konec rakety",
+
+
+
                     "armorLights": 0.4,
+
+
+
                     "aggregateReflectors": [],
-                    # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+
+
+
+                    # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
+
+
+
                     "GunFire": {
+
+
+
                         "access": 0,
+
+
+
                         "cloudletDuration": 0.2,
+
+
+
                         "cloudletAnimPeriod": 1,
+
+
+
                         "cloudletSize": 1,
+
+
+
                         "cloudletAlpha": 1,
+
+
+
                         "cloudletGrowUp": 0.2,
+
+
+
                         "cloudletFadeIn": 0.01,
+
+
+
                         "cloudletFadeOut": 0.5,
+
+
+
                         "cloudletAccY": 0,
+
+
+
                         "cloudletMinYSpeed": -100,
+
+
+
                         "cloudletMaxYSpeed": 100,
+
+
+
                         "cloudletShape": "cloudletFire",
+
+
+
                         "cloudletColor": [1,1,1,0],
+
+
+
                         "interval": 0.01,
+
+
+
                         "size": 3,
+
+
+
                         "sourceSize": 0.5,
+
+
+
                         "timeToLive": 0,
+
+
+
                         "initT": 4500,
+
+
+
                         "deltaT": -3000,
-                        # Class: WeaponFireGun\Table [Indent level: 0],
+
+
+
+                        # Class: WeaponFireGun|Table [Indent level: 0],
+
+
+
                         "Table": {
-                            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+
+
+
+                            # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
+
+
+
                             "T0": {
+
+
+
+
                                 "maxT": 0,
+
+
+
+
                                 "color": [0.82,0.95,0.93,0]
                             },
-                            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T1 [Indent level: 1],
+
+
+
                             "T1": {
+
+
+
                                 "maxT": 200,
+
+
+
                                 "color": [0.75,0.77,0.9,0]
                             },
-                            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T2 [Indent level: 1],
+
+
+
                             "T2": {
+
+
+
                                 "maxT": 400,
+
+
+
                                 "color": [0.56,0.62,0.67,0]
                             },
-                            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T3 [Indent level: 1],
+
+
+
                             "T3": {
+
+
+
                                 "maxT": 600,
+
+
+
                                 "color": [0.39,0.46,0.47,0]
                             },
-                            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T4 [Indent level: 1],
+
+
+
                             "T4": {
+
+
+
                                 "maxT": 800,
+
+
+
                                 "color": [0.24,0.31,0.31,0]
                             },
-                            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T5 [Indent level: 1],
+
+
+
                             "T5": {
+
+
+
                                 "maxT": 1000,
+
+
+
                                 "color": [0.23,0.31,0.29,0]
                             },
-                            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T6 [Indent level: 1],
+
+
+
                             "T6": {
+
+
+
                                 "maxT": 1500,
+
+
+
                                 "color": [0.21,0.29,0.27,0]
                             },
-                            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T7 [Indent level: 1],
+
+
+
                             "T7": {
+
+
+
                                 "maxT": 2000,
+
+
+
                                 "color": [0.19,0.23,0.21,0]
                             },
-                            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T8 [Indent level: 1],
+
+
+
                             "T8": {
+
+
+
                                 "maxT": 2300,
+
+
+
                                 "color": [0.22,0.19,0.1,0]
                             },
-                            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T9 [Indent level: 1],
+
+
+
                             "T9": {
+
+
+
                                 "maxT": 2500,
+
+
+
                                 "color": [0.35,0.2,0.02,0]
                             },
-                            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T10 [Indent level: 1],
+
+
+
                             "T10": {
+
+
+
                                 "maxT": 2600,
+
+
+
                                 "color": [0.62,0.29,0.03,0]
                             },
-                            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T11 [Indent level: 1],
+
+
+
                             "T11": {
+
+
+
                                 "maxT": 2650,
+
+
+
                                 "color": [0.59,0.35,0.05,0]
                             },
-                            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T12 [Indent level: 1],
+
+
+
                             "T12": {
+
+
+
                                 "maxT": 2700,
+
+
+
                                 "color": [0.75,0.37,0.03,0]
                             },
-                            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T13 [Indent level: 1],
+
+
+
                             "T13": {
+
+
+
                                 "maxT": 2750,
+
+
+
                                 "color": [0.88,0.34,0.03,0]
                             },
-                            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T14 [Indent level: 1],
+
+
+
                             "T14": {
+
+
+
                                 "maxT": 2800,
+
+
+
                                 "color": [0.91,0.5,0.17,0]
                             },
-                            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T15 [Indent level: 1],
+
+
+
                             "T15": {
+
+
+
                                 "maxT": 2850,
+
+
+
                                 "color": [1,0.6,0.2,0]
                             },
-                            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T16 [Indent level: 1],
+
+
+
                             "T16": {
+
+
+
                                 "maxT": 2900,
+
+
+
                                 "color": [1,0.71,0.3,0]
                             },
-                            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T17 [Indent level: 1],
+
+
+
                             "T17": {
+
+
+
                                 "maxT": 2950,
+
+
+
                                 "color": [0.98,0.83,0.41,0]
                             },
-                            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T18 [Indent level: 1],
+
+
+
                             "T18": {
+
+
+
                                 "maxT": 3000,
+
+
+
                                 "color": [0.98,0.91,0.54,0]
                             },
-                            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T19 [Indent level: 1],
+
+
+
                             "T19": {
+
+
+
                                 "maxT": 3100,
+
+
+
                                 "color": [0.98,0.99,0.6,0]
                             },
-                            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T20 [Indent level: 1],
+
+
+
                             "T20": {
+
+
+
                                 "maxT": 3300,
+
+
+
                                 "color": [0.96,0.99,0.72,0]
                             },
-                            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T21 [Indent level: 1],
+
+
+
                             "T21": {
+
+
+
                                 "maxT": 3600,
+
+
+
                                 "color": [1,0.98,0.91,0]
                             },
-                            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+
+
+
+                            # Class: WeaponFireGun|Table|T22 [Indent level: 1],
+
+
+
                             "T22": {
+
+
+
                                 "maxT": 4200,
+
+
+
                                 "color": [1,1,1,0]
                             }
                         }
                     },
-                    # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+
+
+
+                    # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
+
+
+
                     "GunClouds": {
+
+
+
                         "access": 0,
+
+
+
                         "cloudletDuration": 0.3,
+
+
+
                         "cloudletAnimPeriod": 1,
+
+
+
                         "cloudletSize": 1,
+
+
+
                         "cloudletAlpha": 1,
+
+
+
                         "cloudletGrowUp": 1,
+
+
+
                         "cloudletFadeIn": 0.01,
+
+
+
                         "cloudletFadeOut": 1,
+
+
+
                         "cloudletAccY": 0.4,
+
+
+
                         "cloudletMinYSpeed": 0.2,
+
+
+
                         "cloudletMaxYSpeed": 0.8,
+
+
+
                         "cloudletShape": "cloudletClouds",
+
+
+
                         "cloudletColor": [1,1,1,0],
+
+
+
                         "interval": 0.05,
+
+
+
                         "size": 3,
+
+
+
                         "sourceSize": 0.5,
+
+
+
                         "timeToLive": 0,
+
+
+
                         "initT": 0,
+
+
+
                         "deltaT": 0,
-                        # Class: WeaponCloudsGun\Table [Indent level: 0],
+
+
+
+                        # Class: WeaponCloudsGun|Table [Indent level: 0],
+
+
+
                         "Table": {
-                            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+
+
+
+                            # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
+
+
+
                             "T0": {
+
+
+
+
                                 "maxT": 0,
+
+
+
+
                                 "color": [1,1,1,0]
                             }
                         }
                     },
-                    # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+
+
+
+                    # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
+
+
+
                     "MGunClouds": {
+
+
+
                         "access": 0,
+
+
+
                         "cloudletGrowUp": 0.05,
+
+
+
                         "cloudletFadeIn": 0,
+
+
+
                         "cloudletFadeOut": 0.1,
+
+
+
                         "cloudletDuration": 0.05,
+
+
+
                         "cloudletAnimPeriod": 1,
+
+
+
                         "cloudletSize": 1,
+
+
+
                         "cloudletAlpha": 0.3,
+
+
+
                         "cloudletAccY": 0,
+
+
+
                         "cloudletMinYSpeed": -100,
+
+
+
                         "cloudletMaxYSpeed": 100,
+
+
+
                         "cloudletShape": "cloudletClouds",
+
+
+
                         "cloudletColor": [1,1,1,0],
+
+
+
                         "timeToLive": 0,
+
+
+
                         "interval": 0.02,
+
+
+
                         "size": 0.3,
+
+
+
                         "sourceSize": 0.02,
+
+
+
                         "initT": 0,
+
+
+
                         "deltaT": 0,
-                        # Class: WeaponCloudsMGun\Table [Indent level: 0],
+
+
+
+                        # Class: WeaponCloudsMGun|Table [Indent level: 0],
+
+
+
                         "Table": {
-                            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+
+
+
+                            # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
+
+
+
                             "T0": {
+
+
+
+
                                 "maxT": 0,
+
+
+
+
                                 "color": [1,1,1,0]
                             }
                         }
                     },
-                    # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+
+
+
+                    # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
+
+
+
                     "Turrets": {
                     },
+
+
+
                     "forceNVG": 0,
+
+
+
                     "isCopilot": 0,
+
+
+
                     "canEject": 1,
+
+
+
                     "gunnerLeftHandAnimName": "",
+
+
+
                     "gunnerLeftLegAnimName": "",
+
+
+
                     "gunnerRightLegAnimName": "",
+
+
+
                     "preciseGetInOut": 0,
+
+
+
                     "showAllTargets": 0,
+
+
+
                     "dontCreateAI": 0,
+
+
+
                     "disableSoundAttenuation": 0,
+
+
+
                     "slingLoadOperator": 0,
+
+
+
                     "playerPosition": 0,
+
+
+
                     "allowLauncherIn": 0,
+
+
+
                     "allowLauncherOut": 0,
-                    # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+
+
+
+                    # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
+
+
+
                     "TurnIn": {
+
+
+
                         "turnOffset": 0
                     },
-                    # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+
+
+
+                    # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
+
+
+
                     "TurnOut": {
+
+
+
                         "turnOffset": 0
                     }
                 }
             },
+
             "turretInfoType": "RHS_RscIBAS",
+
             "magazines": ["rhs_mag_1100Rnd_762x51_M240","rhs_mag_1100Rnd_762x51_M240","rhs_mag_230Rnd_25mm_M242_HEI","rhs_mag_230Rnd_25mm_M242_HEI","rhs_mag_230Rnd_25mm_M242_HEI","rhs_mag_70Rnd_25mm_M242_APFSDS","rhs_mag_70Rnd_25mm_M242_APFSDS","rhs_mag_70Rnd_25mm_M242_APFSDS","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2A","rhs_mag_2Rnd_TOW2BB","rhs_laserfcsmag"],
-            # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\OpticsIn [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|OpticsIn [Indent level: 3],
+
             "OpticsIn": {
-                # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\OpticsIn\Wide [Indent level: 4]
+
+                # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|OpticsIn|Wide [Indent level: 4],
+
+
                 "Wide": {
+
+
                     "opticsDisplayName": "60HZ",
+
+
                     "initAngleX": 0,
+
+
                     "minAngleX": -30,
+
+
                     "maxAngleX": 30,
+
+
                     "initAngleY": 0,
+
+
                     "minAngleY": -100,
+
+
                     "maxAngleY": 100,
+
+
                     "initFov": 0.175,
+
+
                     "minFov": 0.175,
+
+
                     "maxFov": 0.175,
+
+
                     "visionMode": ["Normal","Ti"],
+
+
                     "thermalMode": [0,1],
+
+
                     "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_4x",
+
+
                     "gunnerOpticsEffect": [],
+
+
                     "hitPoint": "Hit_Optics_Gnr"
                 },
-                # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\OpticsIn\Narrow [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|OpticsIn|Narrow [Indent level: 4],
+
                 "Narrow": {
+
                     "opticsDisplayName": "60HZ",
+
                     "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_12x",
+
                     "initFov": 0.0583333,
+
                     "minFov": 0.0583333,
+
                     "maxFov": 0.0583333,
+
                     "initAngleX": 0,
+
                     "minAngleX": -30,
+
                     "maxAngleX": 30,
+
                     "initAngleY": 0,
+
                     "minAngleY": -100,
+
                     "maxAngleY": 100,
+
                     "visionMode": ["Normal","Ti"],
+
                     "thermalMode": [0,1],
+
                     "gunnerOpticsEffect": [],
+
                     "hitPoint": "Hit_Optics_Gnr"
                 },
-                # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\OpticsIn\Narrow2x [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|OpticsIn|Narrow2x [Indent level: 4],
+
                 "Narrow2x": {
+
                     "opticsDisplayName": "60HZ 2X",
+
                     "initFov": 0.0291667,
+
                     "minFov": 0.0291667,
+
                     "maxFov": 0.0291667,
+
                     "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_12x",
+
                     "initAngleX": 0,
+
                     "minAngleX": -30,
+
                     "maxAngleX": 30,
+
                     "initAngleY": 0,
+
                     "minAngleY": -100,
+
                     "maxAngleY": 100,
+
                     "visionMode": ["Normal","Ti"],
+
                     "thermalMode": [0,1],
+
                     "gunnerOpticsEffect": [],
+
                     "hitPoint": "Hit_Optics_Gnr"
                 },
-                # Class: CfgVehicles\RHS_M2A3\Turrets\MainTurret\OpticsIn\Narrow4x [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A3|Turrets|MainTurret|OpticsIn|Narrow4x [Indent level: 4],
+
                 "Narrow4x": {
+
                     "opticsDisplayName": "60HZ 4X",
+
                     "initFov": 0.0145833,
+
                     "minFov": 0.0145833,
+
                     "maxFov": 0.0145833,
+
                     "gunnerOpticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_IBAS_12x",
+
                     "initAngleX": 0,
+
                     "minAngleX": -30,
+
                     "maxAngleX": 30,
+
                     "initAngleY": 0,
+
                     "minAngleY": -100,
+
                     "maxAngleY": 100,
+
                     "visionMode": ["Normal","Ti"],
+
                     "thermalMode": [0,1],
+
                     "gunnerOpticsEffect": [],
+
                     "hitPoint": "Hit_Optics_Gnr"
                 }
             },
+
             "lockWhenDriverOut": 1,
+
             "discreteDistance": [0,200,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+
             "discreteDistanceInitIndex": 2,
+
             "gunnerHasFlares": 0,
+
             "gunnerForceOptics": 1,
+
             "gunnerAction": "RHS_M2A2_GunnerOut",
+
             "gunnerInAction": "RHS_M2A2_Gunner",
+
             "gunnerGetInAction": "GetInHigh",
+
             "gunnerGetOutAction": "GetOutHigh",
+
             "gunnerDoor": "hatchG",
+
             "minElev": -9,
+
             "maxElev": 57,
+
             "initElev": 0,
+
             "viewGunnerInExternal": 1,
+
             "showCrewAim": 0,
+
             "allowTabLock": 0,
+
             "maxhorizontalrotspeed": 1.04,
+
             "maxverticalrotspeed": 1.04,
+
             "stabilizedinaxes": 3,
+
             "startengine": 0,
+
             "hideWeaponsGunner": 1,
+
             "selectionFireAnim": "zasleh2",
+
             "weapons": ["RHS_weap_M242BC","rhs_weap_m240_bradley_coax","Rhs_weap_TOW_Launcher","rhs_weap_fcs_ammo"],
-            # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\HitPoints [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|HitPoints [Indent level: 3],
+
             "HitPoints": {
-                # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\HitPoints\HitTurret [Indent level: 4]
+
+                # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|HitPoints|HitTurret [Indent level: 4],
+
+
                 "HitTurret": {
+
+
                     "armor": -60,
+
+
                     "armorComponent": "Hit_Turret",
+
+
                     "name": "vez",
+
+
                     "visual": "vez",
+
+
                     "passThrough": 0,
+
+
                     "minimalHit": -0.3,
+
+
                     "explosionShielding": 0.001,
+
+
                     "radius": 0.08,
+
+
                     "isTurret": 1
                 },
-                # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\HitPoints\HitGun [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|HitPoints|HitGun [Indent level: 4],
+
                 "HitGun": {
+
                     "armor": -60,
+
                     "armorComponent": "Hit_Gun",
+
                     "name": "zbran",
+
                     "visual": "-",
+
                     "passThrough": 0,
+
                     "minimalHit": -0.3,
+
                     "explosionShielding": 0.001,
+
                     "radius": 0.1,
+
                     "isGun": 1
                 },
-                # Class: CfgVehicles\RHS_M2A2_Base\Turrets\MainTurret\HitPoints\Hit_Optics_Gnr [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_M2A2_Base|Turrets|MainTurret|HitPoints|Hit_Optics_Gnr [Indent level: 4],
+
                 "Hit_Optics_Gnr": {
+
                     "armor": -40,
+
                     "explosionShielding": 0,
+
                     "name": "",
+
                     "visual": "vis_optics_Gnr",
+
                     "armorComponent": "Hit_Optics_Gnr",
+
                     "passThrough": 0
                 }
             },
+
             "gunBeg": "Usti hlavne",
+
             "gunEnd": "Konec hlavne",
+
             "soundServo": ["A3|Sounds_F|vehicles|armor|APC|noises|servo_APC_gunner",0.562341,1,30],
+
             "soundServoVertical": ["A3|Sounds_F|vehicles|armor|APC|noises|servo_APC_gunner_vertical",0.562341,1,30],
+
             "forceHideGunner": 0,
+
             "memoryPointGunnerOptics": "gunnerview",
+
             "gunnerOutOpticsModel": "",
+
             "gunnerOutOpticsEffect": [],
+
             "gunnerOpticsEffect": [],
+
             "usePip": 2,
+
             "animationSourceStickX": "turret_control_x",
+
             "animationSourceStickY": "turret_control_y",
+
             "gunnerLeftHandAnimName": "turret_control",
+
             "LODTurnedIn": 1000,
+
             "LODOpticsIn": 0,
+
             "viewGunnerShadowAmb": 0.5,
+
             "viewGunnerShadowDiff": 0.05,
+
             "inGunnerMayFire": 1,
+
             "commanding": 1,
-            # Class: CfgVehicles\APC_Tracked_03_base_F\Turrets\MainTurret\ViewGunner [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|Turrets|MainTurret|ViewGunner [Indent level: 3],
+
             "ViewGunner": {
+
                 "initAngleX": -5,
+
                 "initAngleY": 0,
+
                 "initFov": 0.9,
+
                 "minFov": 0.25,
+
                 "maxFov": 1.25,
+
                 "minAngleX": -65,
+
                 "maxAngleX": 85,
+
                 "minAngleY": -150,
+
                 "maxAngleY": 150,
+
                 "minMoveX": -0.075,
+
                 "maxMoveX": 0.075,
+
                 "minMoveY": -0.075,
+
                 "maxMoveY": 0.075,
+
                 "minMoveZ": -0.075,
+
                 "maxMoveZ": 0.1,
+
                 "continuous": 0,
+
                 "speedZoomMaxSpeed": 1e+010,
+
                 "speedZoomMaxFOV": 0
             },
+
             "gunnerOpticsModel": "A3|weapons_f|reticle|optics_empty",
+
             "memoryPointsGetInGunner": "pos gunner",
+
             "memoryPointsGetInGunnerDir": "pos gunner dir",
+
             "primaryGunner": 1,
-            # Class: CfgVehicles\Tank_F\Turrets\MainTurret\Components [Indent level: 3],
+
+            # Class: CfgVehicles|Tank_F|Turrets|MainTurret|Components [Indent level: 3],
+
             "Components": {
-                # Class: CfgVehicles\Tank_F\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 4]
+
+                # Class: CfgVehicles|Tank_F|Turrets|MainTurret|Components|VehicleSystemsDisplayManagerComponentLeft [Indent level: 4],
+
+
                 "VehicleSystemsDisplayManagerComponentLeft": {
-                    # Class: VehicleSystemsTemplateLeftGunner\Components [Indent level: 0]
+
+
+                    # Class: VehicleSystemsTemplateLeftGunner|Components [Indent level: 0],
+
+
+
                     "Components": {
-                        # Class: VehicleSystemsTemplateLeftGunner\Components\VehicleDriverDisplay [Indent level: 1]
+
+
+
+                        # Class: VehicleSystemsTemplateLeftGunner|Components|VehicleDriverDisplay [Indent level: 1],
+
+
+
+
                         "VehicleDriverDisplay": {
+
+
+
+
                             "componentType": "TransportFeedDisplayComponent",
+
+
+
+
                             "source": "Driver"
                         },
-                        # Class: VehicleSystemsTemplateLeftGunner\Components\VehicleCommanderDisplay [Indent level: 1],
+
+
+
+                        # Class: VehicleSystemsTemplateLeftGunner|Components|VehicleCommanderDisplay [Indent level: 1],
+
+
+
                         "VehicleCommanderDisplay": {
+
+
+
                             "componentType": "TransportFeedDisplayComponent",
+
+
+
                             "source": "Commander"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\EmptyDisplay [Indent level: 1],
+
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|EmptyDisplay [Indent level: 1],
+
+
+
                         "EmptyDisplay": {
+
+
+
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\MinimapDisplay [Indent level: 1],
+
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|MinimapDisplay [Indent level: 1],
+
+
+
                         "MinimapDisplay": {
+
+
+
                             "componentType": "MinimapDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\MineDetectorDisplay [Indent level: 1],
+
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|MineDetectorDisplay [Indent level: 1],
+
+
+
                         "MineDetectorDisplay": {
+
+
+
                             "componentType": "MineDetectorDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\CrewDisplay [Indent level: 1],
+
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|CrewDisplay [Indent level: 1],
+
+
+
                         "CrewDisplay": {
+
+
+
                             "componentType": "CrewDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\UAVDisplay [Indent level: 1],
+
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|UAVDisplay [Indent level: 1],
+
+
+
                         "UAVDisplay": {
+
+
+
                             "componentType": "UAVFeedDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\SlingLoadDisplay [Indent level: 1],
+
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|SlingLoadDisplay [Indent level: 1],
+
+
+
                         "SlingLoadDisplay": {
+
+
+
                             "componentType": "SlingLoadDisplayComponent"
                         }
                     },
+
+
                     "componentType": "VehicleSystemsDisplayManager",
+
+
                     "left": 1,
+
+
                     "defaultDisplay": "EmptyDisplay",
+
+
                     "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
+
+
                     "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                 },
-                # Class: CfgVehicles\Tank_F\Turrets\MainTurret\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 4],
+
+                # Class: CfgVehicles|Tank_F|Turrets|MainTurret|Components|VehicleSystemsDisplayManagerComponentRight [Indent level: 4],
+
                 "VehicleSystemsDisplayManagerComponentRight": {
-                    # Class: VehicleSystemsTemplateRightGunner\Components [Indent level: 0]
+
+                    # Class: VehicleSystemsTemplateRightGunner|Components [Indent level: 0],
+
+
                     "Components": {
-                        # Class: VehicleSystemsTemplateRightGunner\Components\VehicleDriverDisplay [Indent level: 1]
+
+
+                        # Class: VehicleSystemsTemplateRightGunner|Components|VehicleDriverDisplay [Indent level: 1],
+
+
+
                         "VehicleDriverDisplay": {
+
+
+
                             "componentType": "TransportFeedDisplayComponent",
+
+
+
                             "source": "Driver"
                         },
-                        # Class: VehicleSystemsTemplateRightGunner\Components\VehicleCommanderDisplay [Indent level: 1],
+
+
+                        # Class: VehicleSystemsTemplateRightGunner|Components|VehicleCommanderDisplay [Indent level: 1],
+
+
                         "VehicleCommanderDisplay": {
+
+
                             "componentType": "TransportFeedDisplayComponent",
+
+
                             "source": "Commander"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerRight\Components\EmptyDisplay [Indent level: 1],
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerRight|Components|EmptyDisplay [Indent level: 1],
+
+
                         "EmptyDisplay": {
+
+
                             "componentType": "EmptyDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerRight\Components\MinimapDisplay [Indent level: 1],
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerRight|Components|MinimapDisplay [Indent level: 1],
+
+
                         "MinimapDisplay": {
+
+
                             "componentType": "MinimapDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerRight\Components\MineDetectorDisplay [Indent level: 1],
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerRight|Components|MineDetectorDisplay [Indent level: 1],
+
+
                         "MineDetectorDisplay": {
+
+
                             "componentType": "MineDetectorDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerRight\Components\CrewDisplay [Indent level: 1],
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerRight|Components|CrewDisplay [Indent level: 1],
+
+
                         "CrewDisplay": {
+
+
                             "componentType": "CrewDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerRight\Components\UAVDisplay [Indent level: 1],
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerRight|Components|UAVDisplay [Indent level: 1],
+
+
                         "UAVDisplay": {
+
+
                             "componentType": "UAVFeedDisplayComponent"
                         },
-                        # Class: DefaultVehicleSystemsDisplayManagerRight\Components\SlingLoadDisplay [Indent level: 1],
+
+
+                        # Class: DefaultVehicleSystemsDisplayManagerRight|Components|SlingLoadDisplay [Indent level: 1],
+
+
                         "SlingLoadDisplay": {
+
+
                             "componentType": "SlingLoadDisplayComponent"
                         }
                     },
+
                     "componentType": "VehicleSystemsDisplayManager",
+
                     "right": 1,
+
                     "defaultDisplay": "EmptyDisplay",
+
                     "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_X`,	((safezoneX + safezoneW) - (		(10 * 			(			((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40)))])",
+
                     "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
                 }
             },
+
             "body": "mainTurret",
+
             "gun": "mainGun",
+
             "animationSourceBody": "mainTurret",
+
             "animationSourceGun": "mainGun",
+
             "animationSourceHatch": "hatchGunner",
+
             "animationSourceCamElev": "camElev",
+
             "proxyType": "CPGunner",
+
             "proxyIndex": 1,
+
             "gunnerName": "Gunner",
+
             "gunnerType": "",
+
             "primaryObserver": 0,
+
             "soundElevation": ["",0.00316228,1],
+
             "minTurn": -360,
+
             "maxTurn": 360,
+
             "initTurn": 0,
+
             "minOutElev": -4,
+
             "maxOutElev": 20,
+
             "initOutElev": 0,
+
             "minOutTurn": -60,
+
             "maxOutTurn": 60,
+
             "initOutTurn": 0,
+
             "minCamElev": -90,
+
             "maxCamElev": 90,
+
             "initCamElev": 0,
+
             "primary": 1,
+
             "hasGunner": 1,
+
             "turretCanSee": 0,
+
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
+
             "TurretSpec": {
+
                 "showHeadPhones": 0
             },
+
             "gunnerOpticsColor": [0,0,0,1],
+
             "gunnerOpticsShowCursor": 0,
+
             "gunnerOutOpticsColor": [0,0,0,1],
+
             "memoryPointGunnerOutOptics": "",
+
             "gunnerOutForceOptics": 0,
+
             "gunnerOutOpticsShowCursor": 0,
+
             "gunnerFireAlsoInInternalCamera": 1,
+
             "gunnerOutFireAlsoInInternalCamera": 1,
+
             "gunnerUsesPilotView": 0,
+
             "castGunnerShadow": 0,
+
             "viewGunnerShadow": 1,
+
             "ejectDeadGunner": 0,
+
             "canHideGunner": -1,
+
             "outGunnerMayFire": 0,
+
             "showHMD": 0,
+
             "lockWhenVehicleSpeed": -1,
+
             "gunnerCompartments": "Compartment1",
+
             "LODTurnedOut": -1,
+
             "memoryPointsGetInGunnerPrecise": "",
+
             "missileBeg": "spice rakety",
+
             "missileEnd": "konec rakety",
+
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
+
             "Reflectors": {
             },
+
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
+
             "GunFire": {
+
                 "access": 0,
+
                 "cloudletDuration": 0.2,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 1,
+
                 "cloudletGrowUp": 0.2,
+
                 "cloudletFadeIn": 0.01,
+
                 "cloudletFadeOut": 0.5,
+
                 "cloudletAccY": 0,
+
                 "cloudletMinYSpeed": -100,
+
                 "cloudletMaxYSpeed": 100,
+
                 "cloudletShape": "cloudletFire",
+
                 "cloudletColor": [1,1,1,0],
+
                 "interval": 0.01,
+
                 "size": 3,
+
                 "sourceSize": 0.5,
+
                 "timeToLive": 0,
+
                 "initT": 4500,
+
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table [Indent level: 0],
+
+                # Class: WeaponFireGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T1 [Indent level: 1],
+
                     "T1": {
+
                         "maxT": 200,
+
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T2 [Indent level: 1],
+
                     "T2": {
+
                         "maxT": 400,
+
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T3 [Indent level: 1],
+
                     "T3": {
+
                         "maxT": 600,
+
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T4 [Indent level: 1],
+
                     "T4": {
+
                         "maxT": 800,
+
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T5 [Indent level: 1],
+
                     "T5": {
+
                         "maxT": 1000,
+
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T6 [Indent level: 1],
+
                     "T6": {
+
                         "maxT": 1500,
+
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T7 [Indent level: 1],
+
                     "T7": {
+
                         "maxT": 2000,
+
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T8 [Indent level: 1],
+
                     "T8": {
+
                         "maxT": 2300,
+
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T9 [Indent level: 1],
+
                     "T9": {
+
                         "maxT": 2500,
+
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T10 [Indent level: 1],
+
                     "T10": {
+
                         "maxT": 2600,
+
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T11 [Indent level: 1],
+
                     "T11": {
+
                         "maxT": 2650,
+
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T12 [Indent level: 1],
+
                     "T12": {
+
                         "maxT": 2700,
+
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T13 [Indent level: 1],
+
                     "T13": {
+
                         "maxT": 2750,
+
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T14 [Indent level: 1],
+
                     "T14": {
+
                         "maxT": 2800,
+
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T15 [Indent level: 1],
+
                     "T15": {
+
                         "maxT": 2850,
+
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T16 [Indent level: 1],
+
                     "T16": {
+
                         "maxT": 2900,
+
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T17 [Indent level: 1],
+
                     "T17": {
+
                         "maxT": 2950,
+
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T18 [Indent level: 1],
+
                     "T18": {
+
                         "maxT": 3000,
+
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T19 [Indent level: 1],
+
                     "T19": {
+
                         "maxT": 3100,
+
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T20 [Indent level: 1],
+
                     "T20": {
+
                         "maxT": 3300,
+
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T21 [Indent level: 1],
+
                     "T21": {
+
                         "maxT": 3600,
+
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T22 [Indent level: 1],
+
                     "T22": {
+
                         "maxT": 4200,
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
+
             "GunClouds": {
+
                 "access": 0,
+
                 "cloudletDuration": 0.3,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 1,
+
                 "cloudletGrowUp": 1,
+
                 "cloudletFadeIn": 0.01,
+
                 "cloudletFadeOut": 1,
+
                 "cloudletAccY": 0.4,
+
                 "cloudletMinYSpeed": 0.2,
+
                 "cloudletMaxYSpeed": 0.8,
+
                 "cloudletShape": "cloudletClouds",
+
                 "cloudletColor": [1,1,1,0],
+
                 "interval": 0.05,
+
                 "size": 3,
+
                 "sourceSize": 0.5,
+
                 "timeToLive": 0,
+
                 "initT": 0,
+
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table [Indent level: 0],
+
+                # Class: WeaponCloudsGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
+
             "MGunClouds": {
+
                 "access": 0,
+
                 "cloudletGrowUp": 0.05,
+
                 "cloudletFadeIn": 0,
+
                 "cloudletFadeOut": 0.1,
+
                 "cloudletDuration": 0.05,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 0.3,
+
                 "cloudletAccY": 0,
+
                 "cloudletMinYSpeed": -100,
+
                 "cloudletMaxYSpeed": 100,
+
                 "cloudletShape": "cloudletClouds",
+
                 "cloudletColor": [1,1,1,0],
+
                 "timeToLive": 0,
+
                 "interval": 0.02,
+
                 "size": 0.3,
+
                 "sourceSize": 0.02,
+
                 "initT": 0,
+
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table [Indent level: 0],
+
+                # Class: WeaponCloudsMGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
+
             "ViewOptics": {
+
                 "initAngleX": 0,
+
                 "minAngleX": -30,
+
                 "maxAngleX": 30,
+
                 "initAngleY": 0,
+
                 "minAngleY": -100,
+
                 "maxAngleY": 100,
+
                 "initFov": 0.3,
+
                 "minFov": 0.07,
+
                 "maxFov": 0.35,
+
                 "minMoveX": 0,
+
                 "maxMoveX": 0,
+
                 "minMoveY": 0,
+
                 "maxMoveY": 0,
+
                 "minMoveZ": 0,
+
                 "maxMoveZ": 0,
+
                 "speedZoomMaxSpeed": 1e+010,
+
                 "speedZoomMaxFOV": 0
             },
+
             "forceNVG": 0,
+
             "isCopilot": 0,
+
             "canEject": 1,
+
             "gunnerRightHandAnimName": "",
+
             "gunnerLeftLegAnimName": "",
+
             "gunnerRightLegAnimName": "",
+
             "preciseGetInOut": 0,
+
             "turretFollowFreeLook": 0,
+
             "showAllTargets": 0,
+
             "dontCreateAI": 0,
+
             "disableSoundAttenuation": 0,
+
             "slingLoadOperator": 0,
+
             "playerPosition": 0,
+
             "allowLauncherIn": 0,
+
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
+
             "TurnIn": {
+
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
+
             "TurnOut": {
+
                 "turnOffset": 0
             },
+
             "memoryPointGun": "kulas"
         }
     },
-    # Class: CfgVehicles\RHS_M2A3_BUSKI\Attributes [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3_BUSKI|Attributes [Indent level: 1],
     "Attributes": {
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\Attributes\ObjectTexture [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|Attributes|ObjectTexture [Indent level: 2],
+
         "ObjectTexture": {
+
             "control": "ObjectTexture",
+
             "data": "ObjectTexture",
+
             "displayName": "Skin",
+
             "tooltip": "Texture and material set applied on the object."
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\Attributes\rhs_hideIFFPanel [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|Attributes|rhs_hideIFFPanel [Indent level: 2],
         "rhs_hideIFFPanel": {
             "displayName": "Hide IFF Panel",
             "property": "rhs_hideIFFPanel",
@@ -5261,7 +7859,7 @@ RHS_M2A3_BUSKIII_WD = {
             "expression": "_this animate ['IFF_Panels_Hide',_value,true]",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\Attributes\rhs_hideDUKE [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|Attributes|rhs_hideDUKE [Indent level: 2],
         "rhs_hideDUKE": {
             "displayName": "hide DUKE antennas",
             "property": "rhs_hideDUKE",
@@ -5269,7 +7867,7 @@ RHS_M2A3_BUSKIII_WD = {
             "control": "CheckboxNumber",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\Attributes\OpenRamp [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|Attributes|OpenRamp [Indent level: 2],
         "OpenRamp": {
             "control": "CheckboxNumber",
             "defaultValue": "0",
@@ -5278,13 +7876,15 @@ RHS_M2A3_BUSKIII_WD = {
             "expression": "_this animateDoor ['ramp', _value,true];_this setVariable ['ramp_handler',_value,true]"
         }
     },
-    # Class: CfgVehicles\RHS_M2A3_BUSKI\EventHandlers [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3_BUSKI|EventHandlers [Indent level: 1],
     "EventHandlers": {
-        # Class: CfgVehicles\RHS_M2A3_BUSKI\EventHandlers\rhs_duke [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A3_BUSKI|EventHandlers|rhs_duke [Indent level: 2],
+
         "rhs_duke": {
+
             "handleDamage": "_this call rhs_fnc_duke_destruction"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\EventHandlers\RHSUSF_EventHandlers [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|EventHandlers|RHSUSF_EventHandlers [Indent level: 2],
         "RHSUSF_EventHandlers": {
             "hitpart": "_this call rhsusf_fnc_hitSpall",
             "getIn": "_this call rhs_fnc_m2_doors",
@@ -5294,38 +7894,60 @@ RHS_M2A3_BUSKIII_WD = {
         "init": "",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers [Indent level: 0],
+        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
         "RHS_DefaultEventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
-    # Class: CfgVehicles\RHS_M2A3\DriverOpticsIn [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A3|DriverOpticsIn [Indent level: 1],
     "DriverOpticsIn": {
-        # Class: CfgVehicles\RHS_M2A3\DriverOpticsIn\Wide [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A3|DriverOpticsIn|Wide [Indent level: 2],
+
         "Wide": {
+
             "camPos": "view_driver",
+
             "opticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_vision_block",
+
             "visionMode": ["Normal"],
+
             "hitpoint": "Hit_Optics_Dvr_Peri",
+
             "initFov": 0.7,
+
             "minFov": 0.7,
+
             "maxFov": 0.7,
+
             "initAngleX": 0,
+
             "minAngleX": -30,
+
             "maxAngleX": 30,
+
             "initAngleY": 0,
+
             "minAngleY": -100,
+
             "maxAngleY": 100,
+
             "minMoveX": 0,
+
             "maxMoveX": 0,
+
             "minMoveY": 0,
+
             "maxMoveY": 0,
+
             "minMoveZ": 0,
+
             "maxMoveZ": 0,
+
             "speedZoomMaxSpeed": 1e+010,
+
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\RHS_M2A3\DriverOpticsIn\DVE_Wide [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|DriverOpticsIn|DVE_Wide [Indent level: 2],
         "DVE_Wide": {
             "camPos": "view_DVE",
             "opticsModel": "rhsusf|addons|rhsusf_optics|data|rhsusf_DVE_4x3",
@@ -5350,7 +7972,7 @@ RHS_M2A3_BUSKIII_WD = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\RHS_M2A3\DriverOpticsIn\DVS_Rear [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A3|DriverOpticsIn|DVS_Rear [Indent level: 2],
         "DVS_Rear": {
             "camPos": "view_rear",
             "camDir": "view_rear_dir",
@@ -5379,7 +8001,7 @@ RHS_M2A3_BUSKIII_WD = {
     },
     "scope": 2,
     "side": 1,
-    # Class: CfgVehicles\RHS_M2A2\Library [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2|Library [Indent level: 1],
     "Library": {
         "libTextDesc": "The M2 Bradley IFV (Infantry Fighting Vehicle) is an US infantry fighting vehicle. It is designed to transport infantry with armor protection while providing covering fire to suppressing enemy troops and armored vehicles.<br/>The A2 variant features improvements based on lessons learned during Gulf War in 1991."
     },
@@ -5411,279 +8033,283 @@ RHS_M2A3_BUSKIII_WD = {
     "ArmorCrash2": ["A3|sounds_f|Vehicles|crashes|crash_10",1,1,200],
     "ArmorCrash3": ["A3|sounds_f|Vehicles|crashes|crash_11",1,1,200],
     "soundArmorCrash": ["ArmorCrash0",0.25,"ArmorCrash1",0.25,"ArmorCrash2",0.25,"ArmorCrash3",0.25],
-    # Class: CfgVehicles\RHS_M2A2_Base\Sounds [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|Sounds [Indent level: 1],
     "Sounds": {
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Idle_ext [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Idle_ext [Indent level: 2],
+
         "Idle_ext": {
+
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_engine_1",0.562341,1,160],
+
             "frequency": "0.3	+	((rpm/	2600) factor[(100/	2600),(250/	2600)])*0.1",
+
             "volume": "engineOn*camPos*(((rpm/	2600) factor[(100/	2600),(400/	2600)])	*	((rpm/	2600) factor[(730/	2600),(610/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine [Indent level: 2],
         "Engine": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_engine_2",0.794328,1,200],
             "frequency": "0.8	+	((rpm/	2600) factor[(600/	2600),(1100/	2600)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	2600) factor[(550/	2600),(700/	2600)])	*	((rpm/	2600) factor[(1100/	2600),(760/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine1_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine1_ext [Indent level: 2],
         "Engine1_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_engine_3",0.891251,1,260],
             "frequency": "0.8	+	((rpm/	2600) factor[(770/	2600),(1400/	2600)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	2600) factor[(720/	2600),(1060/	2600)])	*	((rpm/	2600) factor[(1400/	2600),(1180/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine2_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine2_ext [Indent level: 2],
         "Engine2_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_engine_4",1,1,280],
             "frequency": "0.8	+	((rpm/	2600) factor[(1150/	2600),(1700/	2600)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	2600) factor[(1130/	2600),(1370/	2600)])	*	((rpm/	2600) factor[(1700/	2600),(1500/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine3_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine3_ext [Indent level: 2],
         "Engine3_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_engine_5",1.12202,1,300],
             "frequency": "0.8	+	((rpm/	2600) factor[(1500/	2600),(2100/	2600)])*0.1",
             "volume": "engineOn*camPos*(((rpm/	2600) factor[(1460/	2600),(1670/	2600)])	*	((rpm/	2600) factor[(2100/	2600),(1800/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine4_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine4_ext [Indent level: 2],
         "Engine4_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_engine_6",1.25893,1,320],
             "frequency": "0.8	+	((rpm/	2600) factor[(1800/	2600),(2600/	2600)])*0.1",
             "volume": "engineOn*camPos*((rpm/	2600) factor[(1750/	2600),(2050/	2600)])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\IdleThrust [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|IdleThrust [Indent level: 2],
         "IdleThrust": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_exhaust_1",1,1,250],
             "frequency": "0.8	+	((rpm/	2600) factor[(500/	2600),(650/	2600)])*0.15",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(100/	2600),(400/	2600)])	*	((rpm/	2600) factor[(730/	2600),(610/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\EngineThrust [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|EngineThrust [Indent level: 2],
         "EngineThrust": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_exhaust_2",1.12202,1,280],
             "frequency": "0.8	+	((rpm/	2600) factor[(600/	2600),(1100/	2600)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(550/	2600),(700/	2600)])	*	((rpm/	2600) factor[(1100/	2600),(760/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine1_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine1_Thrust_ext [Indent level: 2],
         "Engine1_Thrust_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_exhaust_3",1.25893,1,300],
             "frequency": "0.8	+	((rpm/	2600) factor[(770/	2600),(1400/	2600)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(720/	2600),(1060/	2600)])	*	((rpm/	2600) factor[(1400/	2600),(1180/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine2_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine2_Thrust_ext [Indent level: 2],
         "Engine2_Thrust_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_exhaust_4",1.41254,1,340],
             "frequency": "0.8	+	((rpm/	2600) factor[(1150/	2600),(1700/	2600)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(1130/	2600),(1370/	2600)])	*	((rpm/	2600) factor[(1700/	2600),(1500/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine3_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine3_Thrust_ext [Indent level: 2],
         "Engine3_Thrust_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_exhaust_5",1.77828,1,360],
             "frequency": "0.8	+	((rpm/	2600) factor[(1500/	2600),(2100/	2600)])*0.1",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(1460/	2600),(1670/	2600)])	*	((rpm/	2600) factor[(2100/	2600),(1800/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine4_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine4_Thrust_ext [Indent level: 2],
         "Engine4_Thrust_ext": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|ext_exhaust_6",1.99526,1,380],
             "frequency": "0.8	+	((rpm/	2600) factor[(1800/	2600),(2600/	2600)])*0.1",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	2600) factor[(1750/	2600),(2050/	2600)])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Idle_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Idle_int [Indent level: 2],
         "Idle_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_engine_1",0.316228,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(500/	2600),(650/	2600)])*0.15",
             "volume": "engineOn*(1-camPos)*(((rpm/	2600) factor[(100/	2600),(400/	2600)])	*	((rpm/	2600) factor[(730/	2600),(610/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine_int [Indent level: 2],
         "Engine_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_engine_2",0.354813,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(600/	2600),(1100/	2600)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	2600) factor[(550/	2600),(700/	2600)])	*	((rpm/	2600) factor[(1100/	2600),(760/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine1_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine1_int [Indent level: 2],
         "Engine1_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_engine_3",0.398107,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(770/	2600),(1400/	2600)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	2600) factor[(720/	2600),(1060/	2600)])	*	((rpm/	2600) factor[(1400/	2600),(1180/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine2_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine2_int [Indent level: 2],
         "Engine2_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_engine_4",0.446684,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(1150/	2600),(1700/	2600)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	2600) factor[(1130/	2600),(1370/	2600)])	*	((rpm/	2600) factor[(1700/	2600),(1500/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine3_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine3_int [Indent level: 2],
         "Engine3_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_engine_5",0.501187,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(1500/	2600),(2100/	2600)])*0.1",
             "volume": "engineOn*(1-camPos)*(((rpm/	2600) factor[(1460/	2600),(1670/	2600)])	*	((rpm/	2600) factor[(2100/	2600),(1800/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine4_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine4_int [Indent level: 2],
         "Engine4_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_engine_6",0.562341,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(1800/	2600),(2600/	2600)])*0.1",
             "volume": "engineOn*(1-camPos)*((rpm/	2600) factor[(1750/	2600),(2050/	2600)])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\IdleThrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|IdleThrust_int [Indent level: 2],
         "IdleThrust_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_exhaust_1",0.354813,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(500/	2600),(650/	2600)])*0.15",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(100/	2600),(400/	2600)])	*	((rpm/	2600) factor[(730/	2600),(610/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\EngineThrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|EngineThrust_int [Indent level: 2],
         "EngineThrust_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_exhaust_2",0.398107,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(600/	2600),(1100/	2600)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(550/	2600),(700/	2600)])	*	((rpm/	2600) factor[(1100/	2600),(760/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine1_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine1_Thrust_int [Indent level: 2],
         "Engine1_Thrust_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_exhaust_3",0.446684,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(770/	2600),(1400/	2600)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(720/	2600),(1060/	2600)])	*	((rpm/	2600) factor[(1400/	2600),(1180/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine2_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine2_Thrust_int [Indent level: 2],
         "Engine2_Thrust_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_exhaust_4",0.446684,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(1150/	2600),(1700/	2600)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(1130/	2600),(1370/	2600)])	*	((rpm/	2600) factor[(1700/	2600),(1500/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine3_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine3_Thrust_int [Indent level: 2],
         "Engine3_Thrust_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_exhaust_5",0.501187,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(1500/	2600),(2100/	2600)])*0.1",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2600) factor[(1460/	2600),(1670/	2600)])	*	((rpm/	2600) factor[(2100/	2600),(1800/	2600)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\Engine4_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|Engine4_Thrust_int [Indent level: 2],
         "Engine4_Thrust_int": {
             "sound": ["A3|Sounds_F|vehicles|armor|APC|APC3|int_exhaust_6",0.562341,1],
             "frequency": "0.8	+	((rpm/	2600) factor[(1800/	2600),(2600/	2600)])*0.1",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	2600) factor[(1750/	2600),(2050/	2600)])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\NoiseInt [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|NoiseInt [Indent level: 2],
         "NoiseInt": {
             "sound": ["A3|sounds_f|vehicles|armor|noises|noise_tank_int_1",3.16228,1],
             "frequency": "1",
             "volume": "(1-camPos)*(angVelocity max 0.04)*(speed factor[4, 15])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\NoiseExt [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|NoiseExt [Indent level: 2],
         "NoiseExt": {
             "sound": ["A3|sounds_f|vehicles|armor|noises|noise_tank_ext_1",3.16228,1,250],
             "frequency": "1",
             "volume": "camPos*(angVelocity max 0.04)*(speed factor[4, 15])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutH0 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutH0 [Indent level: 2],
         "ThreadsOutH0": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_hard_01",0.398107,1,140],
             "frequency": "1",
             "volume": "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-0) max 0)/	95),(((-10) max 10)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-25) max 25)/	95),(((-15) max 15)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutH1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutH1 [Indent level: 2],
         "ThreadsOutH1": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_hard_02",0.446684,1,160],
             "frequency": "1",
             "volume": "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-20) max 20)/	95),(((-35) max 35)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-55) max 55)/	95),(((-40) max 40)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutH2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutH2 [Indent level: 2],
         "ThreadsOutH2": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_hard_03",0.501187,1,180],
             "frequency": "1",
             "volume": "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-45) max 45)/	95),(((-55) max 55)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-70) max 70)/	95),(((-60) max 60)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutH3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutH3 [Indent level: 2],
         "ThreadsOutH3": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_hard_04",0.562341,1,200],
             "frequency": "1",
             "volume": "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-65) max 65)/	95),(((-70) max 70)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-85) max 85)/	95),(((-80) max 80)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutH4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutH4 [Indent level: 2],
         "ThreadsOutH4": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_hard_05",0.562341,1,220],
             "frequency": "1",
             "volume": "engineOn*camPos*(1-grass)*((((-speed*3.6) max speed*3.6)/	95) factor[(((-80) max 80)/	95),(((-90) max 90)/	95)])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutS0 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutS0 [Indent level: 2],
         "ThreadsOutS0": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_soft_01",0.316228,1,120],
             "frequency": "1",
             "volume": "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-0) max 0)/	95),(((-10) max 10)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-25) max 25)/	95),(((-15) max 15)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutS1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutS1 [Indent level: 2],
         "ThreadsOutS1": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_soft_02",0.354813,1,140],
             "frequency": "1",
             "volume": "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-20) max 20)/	95),(((-35) max 35)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-55) max 55)/	95),(((-40) max 40)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutS2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutS2 [Indent level: 2],
         "ThreadsOutS2": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_soft_03",0.398107,1,160],
             "frequency": "1",
             "volume": "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-45) max 45)/	95),(((-55) max 55)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-70) max 70)/	95),(((-60) max 60)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutS3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutS3 [Indent level: 2],
         "ThreadsOutS3": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_soft_04",0.446684,1,180],
             "frequency": "1",
             "volume": "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-65) max 65)/	95),(((-70) max 70)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-85) max 85)/	95),(((-80) max 80)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsOutS4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsOutS4 [Indent level: 2],
         "ThreadsOutS4": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|ext_treads_soft_05",0.501187,1,200],
             "frequency": "1",
             "volume": "engineOn*(camPos)*(grass)*((((-speed*3.6) max speed*3.6)/	95) factor[(((-80) max 80)/	95),(((-90) max 90)/	95)])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInH0 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInH0 [Indent level: 2],
         "ThreadsInH0": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_hard_01",0.446684,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-0) max 0)/	95),(((-10) max 10)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-25) max 25)/	95),(((-15) max 15)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInH1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInH1 [Indent level: 2],
         "ThreadsInH1": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_hard_02",0.501187,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-20) max 20)/	95),(((-35) max 35)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-55) max 55)/	95),(((-40) max 40)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInH2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInH2 [Indent level: 2],
         "ThreadsInH2": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_hard_03",0.562341,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-45) max 45)/	95),(((-55) max 55)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-70) max 70)/	95),(((-60) max 60)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInH3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInH3 [Indent level: 2],
         "ThreadsInH3": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_hard_04",0.630957,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-65) max 65)/	95),(((-70) max 70)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-85) max 85)/	95),(((-80) max 80)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInH4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInH4 [Indent level: 2],
         "ThreadsInH4": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_hard_05",0.707946,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*(1-grass)*((((-speed*3.6) max speed*3.6)/	95) factor[(((-80) max 80)/	95),(((-90) max 90)/	95)])"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInS0 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInS0 [Indent level: 2],
         "ThreadsInS0": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_soft_01",0.398107,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-0) max 0)/	95),(((-10) max 10)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-25) max 25)/	95),(((-15) max 15)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInS1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInS1 [Indent level: 2],
         "ThreadsInS1": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_soft_02",0.446684,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-20) max 20)/	95),(((-35) max 35)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-55) max 55)/	95),(((-40) max 40)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInS2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInS2 [Indent level: 2],
         "ThreadsInS2": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_soft_03",0.501187,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-45) max 45)/	95),(((-55) max 55)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-70) max 70)/	95),(((-60) max 60)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInS3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInS3 [Indent level: 2],
         "ThreadsInS3": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_soft_04",0.630957,1],
             "frequency": "1",
             "volume": "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/	95) factor[(((-65) max 65)/	95),(((-70) max 70)/	95)])	*	((((-speed*3.6) max speed*3.6)/	95) factor[(((-85) max 85)/	95),(((-80) max 80)/	95)]))"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Sounds\ThreadsInS4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Sounds|ThreadsInS4 [Indent level: 2],
         "ThreadsInS4": {
             "sound": ["A3|sounds_f|vehicles|armor|treads|int_treads_soft_05",0.707946,1],
             "frequency": "1",
@@ -5724,7 +8350,7 @@ RHS_M2A3_BUSKIII_WD = {
     "transmissionLosses": 15,
     "changeGearType": "rpmratio",
     "changeGearOmegaRatios": [1,0.384615,0.384615,0,0.923077,0.384615,0.961538,0.538462,0.961538,0.576923,1,0.692308],
-    # Class: CfgVehicles\RHS_M2A2_Base\complexGearbox [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|complexGearbox [Indent level: 1],
     "complexGearbox": {
         "GearboxRatios": ["R1",-2.2,"N",0,"D1",4.2,"D2",2.23,"D3",1.22,"D4",0.839],
         "TransmissionRatios": ["High",14.75],
@@ -5734,35 +8360,59 @@ RHS_M2A3_BUSKIII_WD = {
         "neutralString": "N",
         "reverseString": "R"
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\Wheels [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|Wheels [Indent level: 1],
     "Wheels": {
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L2 [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L2 [Indent level: 2],
+
         "L2": {
+
             "suspTravelDirection": [-0.125,-1,0],
+
             "boneName": "wheel_podkoloL1",
+
             "center": "wheel_1_2_axis",
+
             "boundary": "wheel_1_2_bound",
+
             "side": "left",
+
             "steering": 0,
+
             "width": 0.4,
+
             "mass": 130,
+
             "MOI": 10.0392,
+
             "maxDroop": 0.18,
+
             "maxCompression": 0.18,
+
             "maxBrakeTorque": 6520,
+
             "sprungMass": 2500,
+
             "springStrength": 256250,
+
             "springDamperRate": 14811,
+
             "dampingRate": 1088,
+
             "dampingRateInAir": 1088,
+
             "dampingRateDamaged": 10,
+
             "dampingRateDestroyed": 10000,
+
             "latStiffX": 3.5,
+
             "latStiffY": 45,
+
             "longitudinalStiffnessPerUnitGravity": 14000,
+
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L3 [Indent level: 2],
         "L3": {
             "boneName": "wheel_podkolol2",
             "center": "wheel_1_3_axis",
@@ -5788,7 +8438,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L4 [Indent level: 2],
         "L4": {
             "boneName": "wheel_podkolol3",
             "center": "wheel_1_4_axis",
@@ -5814,7 +8464,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L5 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L5 [Indent level: 2],
         "L5": {
             "boneName": "wheel_podkolol4",
             "center": "wheel_1_5_axis",
@@ -5840,7 +8490,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L6 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L6 [Indent level: 2],
         "L6": {
             "boneName": "wheel_podkolol5",
             "center": "wheel_1_6_axis",
@@ -5866,7 +8516,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L7 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L7 [Indent level: 2],
         "L7": {
             "boneName": "wheel_podkolol6",
             "center": "wheel_1_7_axis",
@@ -5892,7 +8542,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L9 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L9 [Indent level: 2],
         "L9": {
             "boneName": "wheel_podkolol9",
             "center": "wheel_1_9_axis",
@@ -5918,7 +8568,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\L1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|L1 [Indent level: 2],
         "L1": {
             "boneName": "",
             "center": "wheel_1_1_axis",
@@ -5944,7 +8594,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R2 [Indent level: 2],
         "R2": {
             "suspTravelDirection": [0.125,-1,0],
             "boneName": "wheel_podkolop1",
@@ -5970,7 +8620,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R3 [Indent level: 2],
         "R3": {
             "boneName": "wheel_podkolop2",
             "center": "wheel_2_3_axis",
@@ -5996,7 +8646,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R4 [Indent level: 2],
         "R4": {
             "boneName": "wheel_podkolop3",
             "center": "wheel_2_4_axis",
@@ -6022,7 +8672,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R5 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R5 [Indent level: 2],
         "R5": {
             "boneName": "wheel_podkolop4",
             "center": "wheel_2_5_axis",
@@ -6048,7 +8698,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R6 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R6 [Indent level: 2],
         "R6": {
             "boneName": "wheel_podkolop5",
             "center": "wheel_2_6_axis",
@@ -6074,7 +8724,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R7 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R7 [Indent level: 2],
         "R7": {
             "boneName": "wheel_podkolop6",
             "center": "wheel_2_7_axis",
@@ -6100,7 +8750,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R9 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R9 [Indent level: 2],
         "R9": {
             "boneName": "wheel_podkolop9",
             "center": "wheel_2_9_axis",
@@ -6126,7 +8776,7 @@ RHS_M2A3_BUSKIII_WD = {
             "longitudinalStiffnessPerUnitGravity": 14000,
             "frictionVsSlipGraph": [[0,0.45],[0.32,1],[0.6,0.86]]
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Wheels\R1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Wheels|R1 [Indent level: 2],
         "R1": {
             "boneName": "",
             "center": "wheel_2_1_axis",
@@ -6155,11 +8805,14 @@ RHS_M2A3_BUSKIII_WD = {
     },
     "vehicleClass": "rhs_vehclass_ifv",
     "editorSubcategory": "rhs_EdSubcat_ifv",
-    # Class: CfgVehicles\RHS_M2A2_Base\SpeechVariants [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|SpeechVariants [Indent level: 1],
     "SpeechVariants": {
-        # Class: CfgVehicles\RHS_M2A2_Base\SpeechVariants\Default [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|SpeechVariants|Default [Indent level: 2],
+
         "Default": {
+
             "speechSingular": ["veh_vehicle_APC_s"],
+
             "speechPlural": ["veh_vehicle_APC_p"]
         }
     },
@@ -6192,7 +8845,7 @@ RHS_M2A3_BUSKIII_WD = {
     "viewCargoShadowDiff": 0.05,
     "viewCargoShadowAmb": 0.5,
     "headGforceLeaningFactor": [0.015,0.011,0.015],
-    # Class: CfgVehicles\RHS_M2A2_Base\RenderTargets [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|RenderTargets [Indent level: 1],
     "RenderTargets": {
     },
     "driverLeftHandAnimName": "yoke",
@@ -6219,16 +8872,20 @@ RHS_M2A3_BUSKIII_WD = {
     "driverInAction": "RHS_M2A2_Driver",
     "cargoAction": ["RHS_M113_Cargo03","RHS_M113_Cargo03","RHS_M113_Cargo03","RHS_M113_Cargo02","RHS_M113_Cargo02","RHS_M113_Cargo02"],
     "insideSoundCoef": 0.9,
-    # Class: CfgVehicles\RHS_M2A2_Base\Exhausts [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|Exhausts [Indent level: 1],
     "Exhausts": {
-        # Class: CfgVehicles\RHS_M2A2_Base\Exhausts\Exhaust1 [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|Exhausts|Exhaust1 [Indent level: 2],
+
         "Exhaust1": {
+
             "position": "vyfuk start",
+
             "direction": "vyfuk konec",
+
             "effect": "ExhaustEffectTankSide"
         }
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\ViewPilot [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|ViewPilot [Indent level: 1],
     "ViewPilot": {
         "initAngleX": 7,
         "minAngleX": -15,
@@ -6248,7 +8905,7 @@ RHS_M2A3_BUSKIII_WD = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\ViewOptics [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|ViewOptics [Indent level: 1],
     "ViewOptics": {
         "visionMode": ["Normal","NVG"],
         "initFov": 0.7,
@@ -6269,132 +8926,167 @@ RHS_M2A3_BUSKIII_WD = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\TransportBackpacks [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|TransportBackpacks [Indent level: 1],
     "TransportBackpacks": {
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportBackpacks\_xx_rhsusf_falconii [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportBackpacks|_xx_rhsusf_falconii [Indent level: 2],
+
         "_xx_rhsusf_falconii": {
+
             "backpack": "rhsusf_falconii",
+
             "count": 8
         }
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines [Indent level: 1],
     "TransportMagazines": {
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag [Indent level: 2],
+
         "_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag": {
+
             "magazine": "rhs_mag_30Rnd_556x45_M855A1_Stanag",
+
             "count": 75
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhsusf_100Rnd_556x45_soft_pouch [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhsusf_100Rnd_556x45_soft_pouch [Indent level: 2],
         "_xx_rhsusf_100Rnd_556x45_soft_pouch": {
             "magazine": "rhsusf_100Rnd_556x45_soft_pouch",
             "count": 11
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhsusf_100Rnd_762x51 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhsusf_100Rnd_762x51 [Indent level: 2],
         "_xx_rhsusf_100Rnd_762x51": {
             "magazine": "rhsusf_100Rnd_762x51",
             "count": 11
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_fgm148_magazine_AT [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_fgm148_magazine_AT [Indent level: 2],
         "_xx_rhs_fgm148_magazine_AT": {
             "magazine": "rhs_fgm148_magazine_AT",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_M441_HE [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_M441_HE [Indent level: 2],
         "_xx_rhs_mag_M441_HE": {
             "magazine": "rhs_mag_M441_HE",
             "count": 20
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_M714_white [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_M714_white [Indent level: 2],
         "_xx_rhs_mag_M714_white": {
             "magazine": "rhs_mag_M714_white",
             "count": 8
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_M662_red [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_M662_red [Indent level: 2],
         "_xx_rhs_mag_M662_red": {
             "magazine": "rhs_mag_M662_red",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_m67 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_m67 [Indent level: 2],
         "_xx_rhs_mag_m67": {
             "magazine": "rhs_mag_m67",
             "count": 10
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_m18_green [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_m18_green [Indent level: 2],
         "_xx_rhs_mag_m18_green": {
             "magazine": "rhs_mag_m18_green",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_m18_red [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_m18_red [Indent level: 2],
         "_xx_rhs_mag_m18_red": {
             "magazine": "rhs_mag_m18_red",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportMagazines\_xx_rhs_mag_an_m8hc [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportMagazines|_xx_rhs_mag_an_m8hc [Indent level: 2],
         "_xx_rhs_mag_an_m8hc": {
             "magazine": "rhs_mag_an_m8hc",
             "count": 10
         }
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\TransportItems [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|TransportItems [Indent level: 1],
     "TransportItems": {
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportItems\_xx_FirstAidKit [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportItems|_xx_FirstAidKit [Indent level: 2],
+
         "_xx_FirstAidKit": {
+
             "name": "FirstAidKit",
+
             "count": 10
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportItems\_xx_Medikit [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportItems|_xx_Medikit [Indent level: 2],
         "_xx_Medikit": {
             "name": "Medikit",
             "count": 2
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportItems\_xx_Toolkit [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportItems|_xx_Toolkit [Indent level: 2],
         "_xx_Toolkit": {
             "name": "Toolkit",
             "count": 1
         }
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\TransportWeapons [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|TransportWeapons [Indent level: 1],
     "TransportWeapons": {
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportWeapons\_xx_rhs_weap_m4_carryhandle_pmag [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportWeapons|_xx_rhs_weap_m4_carryhandle_pmag [Indent level: 2],
+
         "_xx_rhs_weap_m4_carryhandle_pmag": {
+
             "weapon": "rhs_weap_m4_carryhandle_pmag",
+
             "count": 4
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\TransportWeapons\_xx_rhs_weap_fgm148 [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|TransportWeapons|_xx_rhs_weap_fgm148 [Indent level: 2],
         "_xx_rhs_weap_fgm148": {
             "weapon": "rhs_weap_fgm148",
             "count": 2
         }
     },
-    # Class: CfgVehicles\RHS_M2A2_Base\Reflectors [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|Reflectors [Indent level: 1],
     "Reflectors": {
-        # Class: CfgVehicles\RHS_M2A2_Base\Reflectors\Left [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|Reflectors|Left [Indent level: 2],
+
         "Left": {
+
             "color": [1900,1300,950],
+
             "ambient": [5,5,5],
+
             "position": "l svetlo",
+
             "direction": "konec l svetla",
+
             "hitpointClass": "Hit_LightL",
+
             "selection": "L svetlo",
+
             "size": 1,
+
             "innerAngle": 30,
+
             "outerAngle": 100,
+
             "coneFadeCoef": 10,
+
             "intensity": 1,
+
             "useFlare": 1,
+
             "dayLight": 0,
+
             "flareSize": 1,
-            # Class: CfgVehicles\RHS_M2A2_Base\Reflectors\Left\Attenuation [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_M2A2_Base|Reflectors|Left|Attenuation [Indent level: 3],
+
             "Attenuation": {
+
                 "start": 1,
+
                 "constant": 0,
+
                 "linear": 0,
+
                 "quadratic": 0.25,
+
                 "hardLimitStart": 30,
+
                 "hardLimitEnd": 60
             }
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\Reflectors\Right [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|Reflectors|Right [Indent level: 2],
         "Right": {
             "position": "p svetlo",
             "direction": "konec p svetla",
@@ -6410,7 +9102,7 @@ RHS_M2A3_BUSKIII_WD = {
             "useFlare": 1,
             "dayLight": 0,
             "flareSize": 1,
-            # Class: CfgVehicles\RHS_M2A2_Base\Reflectors\Left\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_M2A2_Base|Reflectors|Left|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 1,
                 "constant": 0,
@@ -6423,20 +9115,29 @@ RHS_M2A3_BUSKIII_WD = {
     },
     "aggregateReflectors": [["Left"],["Right"]],
     "armorLights": 0.1,
-    # Class: CfgVehicles\RHS_M2A2_Base\UserActions [Indent level: 1],
+    # Class: CfgVehicles|RHS_M2A2_Base|UserActions [Indent level: 1],
     "UserActions": {
-        # Class: CfgVehicles\RHS_M2A2_Base\UserActions\OpenCargoDoor [Indent level: 2]
+        # Class: CfgVehicles|RHS_M2A2_Base|UserActions|OpenCargoDoor [Indent level: 2],
+
         "OpenCargoDoor": {
+
             "displayName": "Open ramp",
+
             "position": "pos driver",
+
             "radius": 15,
+
             "showwindow": 0,
+
             "condition": "this doorPhase 'ramp' == 0 and {(call rhsusf_fnc_findPlayer) in this};",
+
             "statement": "this animateDoor ['ramp', 1];this setVariable ['ramp_handler',1,true]",
+
             "onlyforplayer": 1,
+
             "shortcut": "user12"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\UserActions\CloseCargoDoor [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|UserActions|CloseCargoDoor [Indent level: 2],
         "CloseCargoDoor": {
             "displayName": "Close ramp",
             "condition": "this doorPhase 'ramp' > 0 and {(call rhsusf_fnc_findPlayer) in this};",
@@ -6447,7 +9148,7 @@ RHS_M2A3_BUSKIII_WD = {
             "onlyforplayer": 1,
             "shortcut": "user12"
         },
-        # Class: CfgVehicles\RHS_M2A2_Base\UserActions\ToggleLight [Indent level: 2],
+        # Class: CfgVehicles|RHS_M2A2_Base|UserActions|ToggleLight [Indent level: 2],
         "ToggleLight": {
             "displayName": "Toggle interior light",
             "position": "pos driver",
@@ -6479,51 +9180,87 @@ RHS_M2A3_BUSKIII_WD = {
     "antiRollbarForceLimit": 12,
     "antiRollbarSpeedMin": 30,
     "antiRollbarSpeedMax": 55,
-    # Class: CfgVehicles\APC_Tracked_03_base_F\MFD [Indent level: 1],
+    # Class: CfgVehicles|APC_Tracked_03_base_F|MFD [Indent level: 1],
     "MFD": {
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading [Indent level: 2]
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading [Indent level: 2],
+
         "MFD_Driver_Heading": {
+
             "topLeft": "MFD_1_TL",
+
             "topRight": "MFD_1_TR",
+
             "bottomLeft": "MFD_1_BL",
+
             "borderLeft": 0,
+
             "borderRight": 0,
+
             "borderTop": 0,
+
             "borderBottom": 0,
+
             "color": [0.84,0.86,0.84],
+
             "alpha": 0.5,
+
             "enableParallax": 0,
+
             "font": "LCD14",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading\material [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading|material [Indent level: 3],
+
             "material": {
+
                 "ambient": [1,1,1,1],
+
                 "diffuse": [1,1,1,1],
+
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading\Bones [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading|Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading\Draw [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading|Draw [Indent level: 3],
+
             "Draw": {
+
                 "color": [0.61,0.62,0],
+
                 "alpha": 1,
+
                 "condition": "on",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading\Draw\Driver_Heading [Indent level: 4],
+
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading|Draw|Driver_Heading [Indent level: 4],
+
                 "Driver_Heading": {
+
                     "type": "text",
+
                     "source": "heading",
+
                     "sourceScale": 1,
+
                     "sourceLength": 3,
+
                     "scale": 1,
+
                     "align": "center",
+
                     "refreshRate": 0.1,
+
                     "pos": [[0.5,0],1],
+
                     "right": [[1,0],1],
+
                     "down": [[0.5,0.81],1]
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_text [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_text [Indent level: 2],
         "MFD_Driver_Heading_text": {
             "topLeft": "MFD_Driver_1_TL",
             "topRight": "MFD_Driver_1_TR",
@@ -6536,21 +9273,21 @@ RHS_M2A3_BUSKIII_WD = {
             "alpha": 0.5,
             "enableParallax": 0,
             "font": "RobotoCondensedLight",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_text\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_text|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_text\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_text|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_text\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_text|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_text\Draw\Driver_Heading [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_text|Draw|Driver_Heading [Indent level: 4],
                 "Driver_Heading": {
                     "type": "text",
                     "source": "static",
@@ -6566,7 +9303,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_second [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_second [Indent level: 2],
         "MFD_Driver_Heading_second": {
             "topLeft": "MFD_Driver_2_TL",
             "topRight": "MFD_Driver_2_TR",
@@ -6579,21 +9316,21 @@ RHS_M2A3_BUSKIII_WD = {
             "alpha": 0.5,
             "enableParallax": 0,
             "font": "RobotoCondensedLight",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_second\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_second|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_second\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_second|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_second\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_second|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Driver_Heading_second\Draw\Driver_Heading [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Driver_Heading_second|Draw|Driver_Heading [Indent level: 4],
                 "Driver_Heading": {
                     "type": "text",
                     "source": "heading",
@@ -6608,7 +9345,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage [Indent level: 2],
         "MFD_Commander_Display_Damage": {
             "topLeft": "mfd_com_TL",
             "topRight": "mfd_com_TR",
@@ -6622,21 +9359,21 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0,0],
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Draw\Damage_Hull [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Draw|Damage_Hull [Indent level: 4],
                 "Damage_Hull": {
                     "type": "text",
                     "source": "static",
@@ -6650,7 +9387,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.065,0.18],1],
                     "down": [[0.04,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Draw\Damage_Engine [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Draw|Damage_Engine [Indent level: 4],
                 "Damage_Engine": {
                     "type": "text",
                     "source": "static",
@@ -6664,7 +9401,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.135,0.18],1],
                     "down": [[0.11,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Draw\Damage_Fuel [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Draw|Damage_Fuel [Indent level: 4],
                 "Damage_Fuel": {
                     "type": "text",
                     "source": "static",
@@ -6678,7 +9415,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.203,0.18],1],
                     "down": [[0.178,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Draw\Damage_Wheels [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Draw|Damage_Wheels [Indent level: 4],
                 "Damage_Wheels": {
                     "type": "text",
                     "source": "static",
@@ -6692,7 +9429,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.065,0.55],1],
                     "down": [[0.04,0.81],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Draw\Damage_Gun [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Draw|Damage_Gun [Indent level: 4],
                 "Damage_Gun": {
                     "type": "text",
                     "source": "static",
@@ -6706,7 +9443,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.135,0.55],1],
                     "down": [[0.11,0.81],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_Damage\Draw\Damage_Turret [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_Damage|Draw|Damage_Turret [Indent level: 4],
                 "Damage_Turret": {
                     "type": "text",
                     "source": "static",
@@ -6722,7 +9459,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display [Indent level: 2],
         "MFD_Commander_Display": {
             "topLeft": "mfd_com_TL",
             "topRight": "mfd_com_TR",
@@ -6736,32 +9473,41 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0],
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Bones [Indent level: 3],
             "Bones": {
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Bones\FuelScale [Indent level: 4]
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Bones|FuelScale [Indent level: 4],
+
                 "FuelScale": {
+
                     "type": "linear",
+
                     "source": "fuel",
+
                     "sourceIndex": 1,
+
                     "sourceScale": 1,
+
                     "min": 0,
+
                     "max": 1,
+
                     "minPos": [0,0],
+
                     "maxPos": [-0.09,0]
                 }
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Main_Gun [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Main_Gun [Indent level: 4],
                 "Main_Gun": {
                     "type": "text",
                     "source": "static",
@@ -6775,7 +9521,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.298,0.18],1],
                     "down": [[0.273,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Main_Gun_Ammo_count [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Main_Gun_Ammo_count [Indent level: 4],
                 "Main_Gun_Ammo_count": {
                     "type": "text",
                     "source": "ammo",
@@ -6789,7 +9535,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.298,0.55],1],
                     "down": [[0.273,0.81],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Main_Gun_Ammo_Type_text [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Main_Gun_Ammo_Type_text [Indent level: 4],
                 "Main_Gun_Ammo_Type_text": {
                     "type": "text",
                     "source": "static",
@@ -6803,7 +9549,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.41,0.18],1],
                     "down": [[0.385,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Main_Gun_Ammo_Type [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Main_Gun_Ammo_Type [Indent level: 4],
                 "Main_Gun_Ammo_Type": {
                     "type": "text",
                     "source": "ammoFormat",
@@ -6816,7 +9562,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.41,0.55],1],
                     "down": [[0.385,0.81],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Coax [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Coax [Indent level: 4],
                 "Coax": {
                     "type": "text",
                     "source": "static",
@@ -6830,7 +9576,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.523,0.18],1],
                     "down": [[0.498,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Coax_Ammo_count [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Coax_Ammo_count [Indent level: 4],
                 "Coax_Ammo_count": {
                     "type": "text",
                     "source": "ammo",
@@ -6844,7 +9590,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.518,0.55],1],
                     "down": [[0.493,0.81],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Azimuth [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Azimuth [Indent level: 4],
                 "Azimuth": {
                     "type": "text",
                     "source": "static",
@@ -6858,7 +9604,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.63,0.18],1],
                     "down": [[0.605,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Azimuth_number [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Azimuth_number [Indent level: 4],
                 "Azimuth_number": {
                     "type": "text",
                     "source": "[x]turretworld",
@@ -6871,7 +9617,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.635,0.55],1],
                     "down": [[0.61,0.81],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Smoke [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Smoke [Indent level: 4],
                 "Smoke": {
                     "type": "text",
                     "source": "static",
@@ -6885,48 +9631,48 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.742,0.18],1],
                     "down": [[0.717,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_white [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_white [Indent level: 4],
                 "Fuel_background_white": {
                     "color": [0.2,0.2,0.2],
                     "alpha": 0.1,
                     "condition": "1",
-                    # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_white\Background [Indent level: 5],
+                    # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_white|Background [Indent level: 5],
                     "Background": {
                         "type": "polygon",
                         "points": [[[[0.787,0.7],1],[[0.877,0.7],1],[[0.877,0.9],1],[[0.787,0.9],1]]]
                     }
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_green [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_green [Indent level: 4],
                 "Fuel_background_green": {
                     "color": [0,0.7,0],
                     "condition": "fuel>=0.5",
-                    # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_green\Background [Indent level: 5],
+                    # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_green|Background [Indent level: 5],
                     "Background": {
                         "type": "polygon",
                         "points": [[[[0.787,0.7],1],["FuelScale",[0.877,0.7],1],["FuelScale",[0.877,0.9],1],[[0.787,0.9],1]]]
                     }
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_yellow [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_yellow [Indent level: 4],
                 "Fuel_background_yellow": {
                     "color": [0.9,0.7,0],
                     "condition": "fuel<0.5",
-                    # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_yellow\Background [Indent level: 5],
+                    # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_yellow|Background [Indent level: 5],
                     "Background": {
                         "type": "polygon",
                         "points": [[[[0.787,0.7],1],["FuelScale",[0.877,0.7],1],["FuelScale",[0.877,0.9],1],[[0.787,0.9],1]]]
                     }
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_red [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_red [Indent level: 4],
                 "Fuel_background_red": {
                     "color": [0.7,0,0],
                     "condition": "fuel<0.3",
-                    # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_background_red\Background [Indent level: 5],
+                    # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_background_red|Background [Indent level: 5],
                     "Background": {
                         "type": "polygon",
                         "points": [[[[0.787,0.7],1],["FuelScale",[0.877,0.7],1],["FuelScale",[0.877,0.9],1],[[0.787,0.9],1]]]
                     }
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel [Indent level: 4],
                 "Fuel": {
                     "type": "text",
                     "source": "static",
@@ -6940,7 +9686,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.855,0.18],1],
                     "down": [[0.83,0.44],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_number [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_number [Indent level: 4],
                 "Fuel_number": {
                     "type": "text",
                     "source": "fuel",
@@ -6953,7 +9699,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.86,0.4],1],
                     "down": [[0.835,0.66],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display\Draw\Fuel_percent_sign [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display|Draw|Fuel_percent_sign [Indent level: 4],
                 "Fuel_percent_sign": {
                     "type": "text",
                     "source": "static",
@@ -6969,7 +9715,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen [Indent level: 2],
         "MFD_Commander_OnScreen": {
             "topLeft": "PIP_COM_TL",
             "topRight": "PIP_COM_TR",
@@ -6983,21 +9729,21 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0,0],
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Draw\Azimuth_number [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Draw|Azimuth_number [Indent level: 4],
                 "Azimuth_number": {
                     "type": "text",
                     "source": "[x]turretworld",
@@ -7010,7 +9756,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.245,0.435],1],
                     "down": [[0.22,0.472],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Draw\Elevation_Text [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Draw|Elevation_Text [Indent level: 4],
                 "Elevation_Text": {
                     "type": "text",
                     "source": "static",
@@ -7024,7 +9770,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.225,0.28],1],
                     "down": [[0.2,0.317],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Draw\Elevation_Number [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Draw|Elevation_Number [Indent level: 4],
                 "Elevation_Number": {
                     "type": "text",
                     "source": "[y]turretworld",
@@ -7038,7 +9784,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.255,0.28],1],
                     "down": [[0.23,0.317],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Draw\Lased_Range [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Draw|Lased_Range [Indent level: 4],
                 "Lased_Range": {
                     "type": "text",
                     "source": "laserDist",
@@ -7051,7 +9797,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.775,0.28],1],
                     "down": [[0.75,0.317],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Draw\VisionMode_Text [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Draw|VisionMode_Text [Indent level: 4],
                 "VisionMode_Text": {
                     "type": "text",
                     "source": "static",
@@ -7065,7 +9811,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.775,0.65],1],
                     "down": [[0.75,0.687],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_OnScreen\Draw\VisionMode_String [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_OnScreen|Draw|VisionMode_String [Indent level: 4],
                 "VisionMode_String": {
                     "type": "text",
                     "source": "visionMode",
@@ -7080,7 +9826,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_MainTurret [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_MainTurret [Indent level: 2],
         "MFD_Commander_Display_MainTurret": {
             "topLeft": "mfd_com_TL",
             "topRight": "mfd_com_TR",
@@ -7094,21 +9840,21 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0,0],
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_MainTurret\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_MainTurret|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_MainTurret\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_MainTurret|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_MainTurret\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_MainTurret|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Display_MainTurret\Draw\Smoke_ammo [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Display_MainTurret|Draw|Smoke_ammo [Indent level: 4],
                 "Smoke_ammo": {
                     "type": "text",
                     "source": "ammo",
@@ -7124,7 +9870,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Heading [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Heading [Indent level: 2],
         "MFD_Commander_Heading": {
             "topLeft": "mfd_com_dir_TL",
             "topRight": "mfd_com_dir_TR",
@@ -7138,21 +9884,21 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0,0],
             "font": "LCD14",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Heading\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Heading|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Heading\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Heading|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Heading\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Heading|Draw [Indent level: 3],
             "Draw": {
                 "color": [0.61,0.62,0],
                 "alpha": 1,
                 "condition": "on",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Commander_Heading\Draw\Driver_Heading [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Commander_Heading|Draw|Driver_Heading [Indent level: 4],
                 "Driver_Heading": {
                     "type": "text",
                     "source": "[x]turretworld",
@@ -7167,7 +9913,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Ready_To_Fire [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Ready_To_Fire [Indent level: 2],
         "MFD_Gunner_Ready_To_Fire": {
             "topLeft": "mfd_gun_cli_TL",
             "topRight": "mfd_gun_cli_TR",
@@ -7180,21 +9926,21 @@ RHS_M2A3_BUSKIII_WD = {
             "alpha": 0.5,
             "enableParallax": 0,
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Ready_To_Fire\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Ready_To_Fire|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Ready_To_Fire\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Ready_To_Fire|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Ready_To_Fire\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Ready_To_Fire|Draw [Indent level: 3],
             "Draw": {
                 "color": [0,0,0],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Ready_To_Fire\Draw\Top_text [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Ready_To_Fire|Draw|Top_text [Indent level: 4],
                 "Top_text": {
                     "type": "text",
                     "source": "static",
@@ -7208,7 +9954,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.67,0.05],1],
                     "down": [[0.45,0.55],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Ready_To_Fire\Draw\Bottom_text [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Ready_To_Fire|Draw|Bottom_text [Indent level: 4],
                 "Bottom_text": {
                     "type": "text",
                     "source": "static",
@@ -7224,7 +9970,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display [Indent level: 2],
         "MFD_Gunner_Display": {
             "topLeft": "mfd_gun_TL",
             "topRight": "mfd_gun_TR",
@@ -7238,21 +9984,21 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0],
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Main_armament [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Main_armament [Indent level: 4],
                 "Main_armament": {
                     "type": "text",
                     "source": "static",
@@ -7266,7 +10012,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.075,-0.003],1],
                     "down": [[0.015,0.075],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Machinegun [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Machinegun [Indent level: 4],
                 "Machinegun": {
                     "type": "text",
                     "source": "static",
@@ -7280,7 +10026,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.075,0.31],1],
                     "down": [[0.015,0.388],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Main_armament_ammo_type [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Main_armament_ammo_type [Indent level: 4],
                 "Main_armament_ammo_type": {
                     "type": "text",
                     "source": "static",
@@ -7294,7 +10040,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.605,-0.003],1],
                     "down": [[0.545,0.075],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Lased_distance_elevation [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Lased_distance_elevation [Indent level: 4],
                 "Lased_distance_elevation": {
                     "type": "text",
                     "source": "static",
@@ -7308,7 +10054,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.075,0.84],1],
                     "down": [[0.015,0.918],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Azimut [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Azimut [Indent level: 4],
                 "Azimut": {
                     "type": "text",
                     "source": "static",
@@ -7322,7 +10068,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.085,0.915],1],
                     "down": [[0.025,0.993],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Damage [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Damage [Indent level: 4],
                 "Damage": {
                     "type": "text",
                     "source": "static",
@@ -7336,7 +10082,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.075,0.39],1],
                     "down": [[0.015,0.468],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Heading [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Heading [Indent level: 4],
                 "Heading": {
                     "type": "text",
                     "source": "[x]turretworld",
@@ -7349,7 +10095,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.4,0.915],1],
                     "down": [[0.34,0.993],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Display\Draw\Lased_Range [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Display|Draw|Lased_Range [Indent level: 4],
                 "Lased_Range": {
                     "type": "text",
                     "source": "laserDist",
@@ -7364,7 +10110,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Main_Armament_Ammo_Type [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Main_Armament_Ammo_Type [Indent level: 2],
         "MFD_Gunner_Main_Armament_Ammo_Type": {
             "topLeft": "mfd_gun_TL",
             "topRight": "mfd_gun_TR",
@@ -7378,21 +10124,21 @@ RHS_M2A3_BUSKIII_WD = {
             "turret": [0],
             "enableParallax": 0,
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Main_Armament_Ammo_Type\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Main_Armament_Ammo_Type|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Main_Armament_Ammo_Type\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Main_Armament_Ammo_Type|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Main_Armament_Ammo_Type\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Main_Armament_Ammo_Type|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Main_Armament_Ammo_Type\Draw\Gunner_AmmoType [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Main_Armament_Ammo_Type|Draw|Gunner_AmmoType [Indent level: 4],
                 "Gunner_AmmoType": {
                     "type": "text",
                     "source": "ammoFormat",
@@ -7407,7 +10153,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Coax_Ammo [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Coax_Ammo [Indent level: 2],
         "MFD_Gunner_Coax_Ammo": {
             "topLeft": "mfd_gun_TL",
             "topRight": "mfd_gun_TR",
@@ -7421,21 +10167,21 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0],
             "font": "EtelkaMonospaceProBold",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Coax_Ammo\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Coax_Ammo|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Coax_Ammo\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Coax_Ammo|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Coax_Ammo\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Coax_Ammo|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Coax_Ammo\Draw\Gunner_Text_1 [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Coax_Ammo|Draw|Gunner_Text_1 [Indent level: 4],
                 "Gunner_Text_1": {
                     "type": "text",
                     "source": "ammo",
@@ -7451,7 +10197,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament [Indent level: 2],
         "MFD_Gunner_AmmoIndicator_Main_Armament": {
             "topLeft": "mfd_gun_TL",
             "topRight": "mfd_gun_TR",
@@ -7465,21 +10211,21 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0],
             "font": "EtelkaMonospacePro",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament\material [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament|material [Indent level: 3],
             "material": {
                 "ambient": [1,1,1,1],
                 "diffuse": [1,1,1,1],
                 "emissive": [1000,1000,1000,1]
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament\Draw\Main_Armament_Ammo_Type_1 [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament|Draw|Main_Armament_Ammo_Type_1 [Indent level: 4],
                 "Main_Armament_Ammo_Type_1": {
                     "type": "text",
                     "source": "static",
@@ -7493,7 +10239,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.075,0.065],1],
                     "down": [[0.015,0.143],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament\Draw\Gunner_Text_1 [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament|Draw|Gunner_Text_1 [Indent level: 4],
                 "Gunner_Text_1": {
                     "type": "text",
                     "source": "ammo",
@@ -7507,7 +10253,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.435,0.065],1],
                     "down": [[0.375,0.143],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament\Draw\Main_Armament_Ammo_Type_2 [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament|Draw|Main_Armament_Ammo_Type_2 [Indent level: 4],
                 "Main_Armament_Ammo_Type_2": {
                     "type": "text",
                     "source": "static",
@@ -7521,7 +10267,7 @@ RHS_M2A3_BUSKIII_WD = {
                     "right": [[0.06,0.125],1],
                     "down": [[0.015,0.203],1]
                 },
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoIndicator_Main_Armament\Draw\Gunner_Text_2 [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoIndicator_Main_Armament|Draw|Gunner_Text_2 [Indent level: 4],
                 "Gunner_Text_2": {
                     "type": "text",
                     "source": "ammo",
@@ -7538,7 +10284,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Range [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Range [Indent level: 2],
         "MFD_Gunner_Range": {
             "topLeft": "MFD_5_TL",
             "topRight": "MFD_5_TR",
@@ -7552,15 +10298,15 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "turret": [0],
             "font": "LCD14",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Range\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Range|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Range\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Range|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Range\Draw\Gunner_Range [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Range|Draw|Gunner_Range [Indent level: 4],
                 "Gunner_Range": {
                     "type": "text",
                     "source": "laserDist",
@@ -7575,7 +10321,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoType [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoType [Indent level: 2],
         "MFD_Gunner_AmmoType": {
             "topLeft": "MFD_4_TL",
             "topRight": "MFD_4_TR",
@@ -7589,15 +10335,15 @@ RHS_M2A3_BUSKIII_WD = {
             "turret": [0],
             "enableParallax": 0,
             "font": "LCD14",
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoType\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoType|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoType\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoType|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_AmmoType\Draw\Gunner_AmmoType [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_AmmoType|Draw|Gunner_AmmoType [Indent level: 4],
                 "Gunner_AmmoType": {
                     "type": "text",
                     "source": "ammoFormat",
@@ -7612,7 +10358,7 @@ RHS_M2A3_BUSKIII_WD = {
                 }
             }
         },
-        # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Heading [Indent level: 2],
+        # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Heading [Indent level: 2],
         "MFD_Gunner_Heading": {
             "topLeft": "MFD_Gunner_heading_TL",
             "topRight": "MFD_Gunner_heading_TR",
@@ -7626,15 +10372,15 @@ RHS_M2A3_BUSKIII_WD = {
             "enableParallax": 0,
             "font": "LCD14",
             "turret": [0],
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Heading\Bones [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Heading|Bones [Indent level: 3],
             "Bones": {
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Heading\Draw [Indent level: 3],
+            # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Heading|Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
                 "condition": "1",
-                # Class: CfgVehicles\APC_Tracked_03_base_F\MFD\MFD_Gunner_Heading\Draw\Heading [Indent level: 4],
+                # Class: CfgVehicles|APC_Tracked_03_base_F|MFD|MFD_Gunner_Heading|Draw|Heading [Indent level: 4],
                 "Heading": {
                     "type": "text",
                     "source": "[x]turretworld",
@@ -7665,139 +10411,279 @@ RHS_M2A3_BUSKIII_WD = {
     "animationSourceHatch": "",
     "selectionFireAnim": "",
     "cost": 1e+006,
-    # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights [Indent level: 1],
+    # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights [Indent level: 1],
     "compartmentsLights": {
-        # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1 [Indent level: 2]
+        # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1 [Indent level: 2],
+
         "Comp1": {
-            # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light1 [Indent level: 3]
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light1 [Indent level: 3],
+
+
             "Light1": {
+
+
                 "color": [25,22,16],
+
+
                 "ambient": [0,0,0],
+
+
                 "intensity": 0.3,
+
+
                 "size": 0,
+
+
                 "useFlare": 0,
+
+
                 "flareSize": 0,
+
+
                 "flareMaxDistance": 0,
+
+
                 "dayLight": 0,
+
+
                 "blinking": 0,
-                # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light1\Attenuation [Indent level: 4],
+
+
+                # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light1|Attenuation [Indent level: 4],
+
+
                 "Attenuation": {
+
+
                     "start": 0,
+
+
                     "constant": 0,
+
+
                     "linear": 1,
+
+
                     "quadratic": 70,
+
+
                     "hardLimitStart": 0.15,
+
+
                     "hardLimitEnd": 1.15
                 },
+
+
                 "point": "light_interior1"
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light2 [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light2 [Indent level: 3],
+
             "Light2": {
+
                 "point": "light_interior2",
+
                 "color": [25,22,16],
+
                 "ambient": [0,0,0],
+
                 "intensity": 0.6,
+
                 "size": 0,
+
                 "useFlare": 0,
+
                 "flareSize": 0,
+
                 "flareMaxDistance": 0,
+
                 "dayLight": 0,
+
                 "blinking": 0,
-                # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light1\Attenuation [Indent level: 4],
+
+                # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light1|Attenuation [Indent level: 4],
+
                 "Attenuation": {
+
                     "start": 0,
+
                     "constant": 0,
+
                     "linear": 1,
+
                     "quadratic": 70,
+
                     "hardLimitStart": 0.15,
+
                     "hardLimitEnd": 1.15
                 }
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light3 [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light3 [Indent level: 3],
+
             "Light3": {
+
                 "point": "light_interior3",
+
                 "color": [25,22,16],
+
                 "ambient": [0,0,0],
+
                 "intensity": 0.6,
+
                 "size": 0,
+
                 "useFlare": 0,
+
                 "flareSize": 0,
+
                 "flareMaxDistance": 0,
+
                 "dayLight": 0,
+
                 "blinking": 0,
-                # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light1\Attenuation [Indent level: 4],
+
+                # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light1|Attenuation [Indent level: 4],
+
                 "Attenuation": {
+
                     "start": 0,
+
                     "constant": 0,
+
                     "linear": 1,
+
                     "quadratic": 70,
+
                     "hardLimitStart": 0.15,
+
                     "hardLimitEnd": 1.15
                 }
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light4 [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light4 [Indent level: 3],
+
             "Light4": {
+
                 "point": "light_interior4",
+
                 "color": [25,25,25],
+
                 "ambient": [0,0,0],
+
                 "intensity": 5,
+
                 "size": 0,
+
                 "useFlare": 0,
+
                 "flareSize": 0,
+
                 "flareMaxDistance": 0,
+
                 "dayLight": 0,
+
                 "blinking": 0,
-                # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light1\Attenuation [Indent level: 4],
+
+                # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light1|Attenuation [Indent level: 4],
+
                 "Attenuation": {
+
                     "start": 0,
+
                     "constant": 0,
+
                     "linear": 1,
+
                     "quadratic": 70,
+
                     "hardLimitStart": 0.15,
+
                     "hardLimitEnd": 1.15
                 }
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light5 [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light5 [Indent level: 3],
+
             "Light5": {
+
                 "point": "light_interior5",
+
                 "color": [25,25,25],
+
                 "ambient": [0,0,0],
+
                 "intensity": 5,
+
                 "size": 0,
+
                 "useFlare": 0,
+
                 "flareSize": 0,
+
                 "flareMaxDistance": 0,
+
                 "dayLight": 0,
+
                 "blinking": 0,
-                # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light1\Attenuation [Indent level: 4],
+
+                # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light1|Attenuation [Indent level: 4],
+
                 "Attenuation": {
+
                     "start": 0,
+
                     "constant": 0,
+
                     "linear": 1,
+
                     "quadratic": 70,
+
                     "hardLimitStart": 0.15,
+
                     "hardLimitEnd": 1.15
                 }
             },
-            # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light6 [Indent level: 3],
+
+            # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light6 [Indent level: 3],
+
             "Light6": {
+
                 "point": "light_interior6",
+
                 "color": [25,25,25],
+
                 "ambient": [0,0,0],
+
                 "intensity": 10,
+
                 "size": 0,
+
                 "useFlare": 0,
+
                 "flareSize": 0,
+
                 "flareMaxDistance": 0,
+
                 "dayLight": 0,
+
                 "blinking": 0,
-                # Class: CfgVehicles\APC_Tracked_03_base_F\compartmentsLights\Comp1\Light1\Attenuation [Indent level: 4],
+
+                # Class: CfgVehicles|APC_Tracked_03_base_F|compartmentsLights|Comp1|Light1|Attenuation [Indent level: 4],
+
                 "Attenuation": {
+
                     "start": 0,
+
                     "constant": 0,
+
                     "linear": 1,
+
                     "quadratic": 70,
+
                     "hardLimitStart": 0.15,
+
                     "hardLimitEnd": 1.15
                 }
             }
@@ -7853,7 +10739,7 @@ RHS_M2A3_BUSKIII_WD = {
     "maximumLoad": 3000,
     "supplyRadius": -1,
     "memoryPointSupply": "doplnovani",
-    # Class: CfgVehicles\Tank_F\CamShake [Indent level: 1],
+    # Class: CfgVehicles|Tank_F|CamShake [Indent level: 1],
     "CamShake": {
         "power": 5,
         "frequency": 20,
@@ -7861,89 +10747,183 @@ RHS_M2A3_BUSKIII_WD = {
         "minSpeed": 5
     },
     "camShakeCoef": 0,
-    # Class: CfgVehicles\Tank_F\Components [Indent level: 1],
+    # Class: CfgVehicles|Tank_F|Components [Indent level: 1],
     "Components": {
-        # Class: CfgVehicles\Tank_F\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 2]
+        # Class: CfgVehicles|Tank_F|Components|VehicleSystemsDisplayManagerComponentLeft [Indent level: 2],
+
         "VehicleSystemsDisplayManagerComponentLeft": {
-            # Class: VehicleSystemsTemplateLeftDriver\Components [Indent level: 0]
+
+            # Class: VehicleSystemsTemplateLeftDriver|Components [Indent level: 0],
+
+
             "Components": {
-                # Class: VehicleSystemsTemplateLeftDriver\Components\VehiclePrimaryGunnerDisplay [Indent level: 1]
+
+
+                # Class: VehicleSystemsTemplateLeftDriver|Components|VehiclePrimaryGunnerDisplay [Indent level: 1],
+
+
+
                 "VehiclePrimaryGunnerDisplay": {
+
+
+
                     "componentType": "TransportFeedDisplayComponent",
+
+
+
                     "source": "PrimaryGunner"
                 },
-                # Class: VehicleSystemsTemplateLeftDriver\Components\VehicleCommanderDisplay [Indent level: 1],
+
+
+                # Class: VehicleSystemsTemplateLeftDriver|Components|VehicleCommanderDisplay [Indent level: 1],
+
+
                 "VehicleCommanderDisplay": {
+
+
                     "componentType": "TransportFeedDisplayComponent",
+
+
                     "source": "Commander"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\EmptyDisplay [Indent level: 1],
+
+
+                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|EmptyDisplay [Indent level: 1],
+
+
                 "EmptyDisplay": {
+
+
                     "componentType": "EmptyDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\MinimapDisplay [Indent level: 1],
+
+
+                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|MinimapDisplay [Indent level: 1],
+
+
                 "MinimapDisplay": {
+
+
                     "componentType": "MinimapDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\MineDetectorDisplay [Indent level: 1],
+
+
+                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|MineDetectorDisplay [Indent level: 1],
+
+
                 "MineDetectorDisplay": {
+
+
                     "componentType": "MineDetectorDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\CrewDisplay [Indent level: 1],
+
+
+                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|CrewDisplay [Indent level: 1],
+
+
                 "CrewDisplay": {
+
+
                     "componentType": "CrewDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\UAVDisplay [Indent level: 1],
+
+
+                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|UAVDisplay [Indent level: 1],
+
+
                 "UAVDisplay": {
+
+
                     "componentType": "UAVFeedDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerLeft\Components\SlingLoadDisplay [Indent level: 1],
+
+
+                # Class: DefaultVehicleSystemsDisplayManagerLeft|Components|SlingLoadDisplay [Indent level: 1],
+
+
                 "SlingLoadDisplay": {
+
+
                     "componentType": "SlingLoadDisplayComponent"
                 }
             },
+
             "componentType": "VehicleSystemsDisplayManager",
+
             "left": 1,
+
             "defaultDisplay": "EmptyDisplay",
+
             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
+
             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
         },
-        # Class: CfgVehicles\Tank_F\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 2],
+        # Class: CfgVehicles|Tank_F|Components|VehicleSystemsDisplayManagerComponentRight [Indent level: 2],
         "VehicleSystemsDisplayManagerComponentRight": {
-            # Class: VehicleSystemsTemplateRightDriver\Components [Indent level: 0]
+            # Class: VehicleSystemsTemplateRightDriver|Components [Indent level: 0],
+
             "Components": {
-                # Class: VehicleSystemsTemplateRightDriver\Components\VehiclePrimaryGunnerDisplay [Indent level: 1]
+
+                # Class: VehicleSystemsTemplateRightDriver|Components|VehiclePrimaryGunnerDisplay [Indent level: 1],
+
+
                 "VehiclePrimaryGunnerDisplay": {
+
+
                     "componentType": "TransportFeedDisplayComponent",
+
+
                     "source": "PrimaryGunner"
                 },
-                # Class: VehicleSystemsTemplateRightDriver\Components\VehicleCommanderDisplay [Indent level: 1],
+
+                # Class: VehicleSystemsTemplateRightDriver|Components|VehicleCommanderDisplay [Indent level: 1],
+
                 "VehicleCommanderDisplay": {
+
                     "componentType": "TransportFeedDisplayComponent",
+
                     "source": "Commander"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\EmptyDisplay [Indent level: 1],
+
+                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|EmptyDisplay [Indent level: 1],
+
                 "EmptyDisplay": {
+
                     "componentType": "EmptyDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\MinimapDisplay [Indent level: 1],
+
+                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|MinimapDisplay [Indent level: 1],
+
                 "MinimapDisplay": {
+
                     "componentType": "MinimapDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\MineDetectorDisplay [Indent level: 1],
+
+                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|MineDetectorDisplay [Indent level: 1],
+
                 "MineDetectorDisplay": {
+
                     "componentType": "MineDetectorDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\CrewDisplay [Indent level: 1],
+
+                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|CrewDisplay [Indent level: 1],
+
                 "CrewDisplay": {
+
                     "componentType": "CrewDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\UAVDisplay [Indent level: 1],
+
+                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|UAVDisplay [Indent level: 1],
+
                 "UAVDisplay": {
+
                     "componentType": "UAVFeedDisplayComponent"
                 },
-                # Class: DefaultVehicleSystemsDisplayManagerRight\Components\SlingLoadDisplay [Indent level: 1],
+
+                # Class: DefaultVehicleSystemsDisplayManagerRight|Components|SlingLoadDisplay [Indent level: 1],
+
                 "SlingLoadDisplay": {
+
                     "componentType": "SlingLoadDisplayComponent"
                 }
             },
@@ -7953,7 +10933,7 @@ RHS_M2A3_BUSKIII_WD = {
             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_X`,	((safezoneX + safezoneW) - (		(10 * 			(			((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40)))])",
             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
         },
-        # Class: CfgVehicles\Tank_F\Components\AITankSteeringComponent [Indent level: 2],
+        # Class: CfgVehicles|Tank_F|Components|AITankSteeringComponent [Indent level: 2],
         "AITankSteeringComponent": {
             "steeringPIDWeights": [2.9,0.1,0.2],
             "speedPIDWeights": [0.7,0.2,0],
@@ -7979,18 +10959,24 @@ RHS_M2A3_BUSKIII_WD = {
             "convoyPIDWeights": [1,0,0],
             "predictForwardMaxSpeed": 15
         },
-        # Class: CfgVehicles\LandVehicle\Components\TransportCountermeasuresComponent [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|Components|TransportCountermeasuresComponent [Indent level: 2],
         "TransportCountermeasuresComponent": {
         }
     },
-    # Class: CfgVehicles\Tank_F\NVGMarkers [Indent level: 1],
+    # Class: CfgVehicles|Tank_F|NVGMarkers [Indent level: 1],
     "NVGMarkers": {
-        # Class: CfgVehicles\Tank_F\NVGMarkers\NVGMarker01 [Indent level: 2]
+        # Class: CfgVehicles|Tank_F|NVGMarkers|NVGMarker01 [Indent level: 2],
+
         "NVGMarker01": {
+
             "name": "nvg_marker",
+
             "color": [0.03,0.003,0.003,1],
+
             "ambient": [0.003,0.0003,0.0003,1],
+
             "brightness": 0.001,
+
             "blinking": 1
         }
     },
@@ -8026,7 +11012,7 @@ RHS_M2A3_BUSKIII_WD = {
     "type": 1,
     "camouflage": 8,
     "driverOpticsColor": [1,1,1,1],
-    # Class: CfgVehicles\Tank\CargoLight [Indent level: 1],
+    # Class: CfgVehicles|Tank|CargoLight [Indent level: 1],
     "CargoLight": {
         "color": [0,0,0,0],
         "ambient": [0.6,0,0.15,1],
@@ -8036,19 +11022,27 @@ RHS_M2A3_BUSKIII_WD = {
     "memoryPointTaskMarkerOffset": [0,0.3,0],
     "rightDustEffects": [["GdtKLDirt","RDustEffects"],["GdtKLGrass1","RDustEffects"],["GdtKLGrass1","RGrassEffects"],["GdtKLGrass2","RDustEffects"],["GdtKLGrass2","RGrassEffects"],["GdtKLForestCon","RDustEffects"],["GdtKLForestDec","RDustEffects"],["GdtKlMud","RDustEffects"],["GdtKlSoil","RDustEffects"],["GdtKlTarmac","RDustEffects"],["GdtKlStubble","RDustEffects"],["GdtKlStones","RStonesEffects"],["SurfRoadDirt_Enoch","RDustEffects"],["SurfTrailDirt_Enoch","RDustEffects"],["SurfRoadTarmac1_Enoch","RDustEffects"],["SurfRoadTarmac2_Enoch","RDustEffects"],["SurfRoadTarmac3_Enoch","RDustEffects"],["GdtGrassShort","RDustEffects"],["GdtGrassShort","RGrassEffectsBig"],["GdtGrassTall","RDustEffects"],["GdtGrassTall","RGrassEffectsBig"],["GdtRedDirt","RDustEffectsRed"],["GdtField","RDustEffects"],["GdtForest","RDustEffects"],["GdtVolcano","RDustEffects"],["GdtVolcano","RStonesEffectsBig"],["GdtCliff","RDustEffects"],["GdtVolcanoBeach","RDustEffects"],["SurfRoadDirt_exp","RDustEffectsRed"],["SurfRoadConcrete_exp","RDustEffects"],["SurfRoadTarmac_exp","RDustEffects"],["GdtStratisConcrete","RDustEffects"],["GdtStratisConcrete","RDirtEffectsBig"],["GdtStratisBeach","RDustEffects"],["GdtStratisBeach","RStonesEffectsBig"],["GdtStratisDirt","RDustEffects"],["GdtStratisDirt","RDirtEffectsBig"],["GdtStratisSeabedCluttered","RDustEffects"],["GdtStratisSeabed","RDustEffects"],["GdtStratisDryGrass","RDustEffects"],["GdtStratisDryGrass","RGrassEffectsDryBig"],["GdtStratisDryGrass","RDirtEffectsBig"],["GdtStratisGreenGrass","RDustEffects"],["GdtStratisGreenGrass","RGrassEffectsBig"],["GdtStratisGreenGrass","RDirtEffectsBig"],["GdtStratisRocky","RDustEffects"],["GdtStratisRocky","RGrassEffectsBig"],["GdtStratisRocky","RDirtEffectsBig"],["GdtStratisThistles","RDustEffects"],["GdtStratisThistles","RGrassEffectsBig"],["GdtStratisThistles","RDirtEffectsBig"],["GdtConcrete","RDustEffects"],["GdtConcrete","RDirtEffectsBig"],["GdtAsphalt","RDustEffects"],["GdtAsphalt","RDirtEffectsBig"],["GdtRubble","RDustEffects"],["GdtRubble","RDirtEffectsBig"],["GdtSoil","RDustEffects"],["GdtSoil","RDirtEffectsBig"],["GdtBeach","RDustEffects"],["GdtBeach","RStonesEffectsBig"],["GdtRock","RDustEffects"],["GdtRock","RDirtEffectsBig"],["GdtDead","RDustEffects"],["GdtDead","RDirtEffectsBig"],["Default","RDustEffects"],["GdtDesert","RDustEffects"],["GdtDesert","RDirtEffectsBig"],["GdtDesert","RStonesEffects"],["GdtDesert1","RDustEffects"],["GdtDesert1","RDirtEffectsBig"],["GdtDesert1","RStonesEffectsBig"],["GdtDesert2","RDustEffects"],["GdtDesert2","RGrassEffectsBig"],["GdtDesert2","RDirtEffectsBig"],["GdtDirt","RDustEffects"],["GdtDirt","RDirtEffectsBig"],["GdtGrassGreen","RDustEffects"],["GdtGrassGreen","RGrassEffectsBig"],["GdtGrassGreen","RDirtEffectsBig"],["GdtGrassDry","RDustEffects"],["GdtGrassDry","RGrassEffectsDryBig"],["GdtGrassDry","RDirtEffectsBig"],["GdtGrassWild","RDustEffects"],["GdtGrassWild","RGrassEffectsBig"],["GdtGrassWild","RDirtEffectsBig"],["GdtWildField","RDustEffects"],["GdtWildField","RGrassEffectsBig"],["GdtWildField","RDirtEffectsBig"],["GdtWeed1","RDustEffects"],["GdtWeed1","RGrassEffectsBig"],["GdtWeed1","RDirtEffectsBig"],["GdtWeed2","RDustEffects"],["GdtWeed2","RGrassEffectsBig"],["GdtWeed2","RDirtEffectsBig"],["GdtThorn","RDustEffects"],["GdtThorn","RGrassEffectsBig"],["GdtThorn","RDirtEffectsBig"],["GdtStony","RDustEffects"],["GdtStony","RGrassEffectsBig"],["GdtStony","RDirtEffectsBig"],["GdtStonyGreen","RDustEffects"],["GdtStonyGreen","RGrassEffectsBig"],["GdtStonyGreen","RDirtEffectsBig"],["GdtStonyThistle","RDustEffects"],["GdtStonyThistle","RGrassEffectsBig"],["GdtStonyThistle","RDirtEffectsBig"],["GdtSeabedDeep","RDustEffects"],["GdtSeabed","RDustEffects"],["SurfRoadDirt","RDustEffects"],["SurfRoadConcrete","RDustEffects"],["SurfRoadTarmac","RDustEffects"],["SurfWood","RDustEffects"],["SurfMetal","RDustEffects"],["SurfRoofTin","RDustEffects"],["SurfRoofTiles","RDustEffects"],["SurfIntWood","RDustEffects"],["SurfIntConcrete","RDustEffects"],["SurfIntTiles","RDustEffects"],["SurfIntMetal","RDustEffects"],["dirtrunway","RDustEffects"]],
     "leftDustEffects": [["GdtKLDirt","LDustEffects"],["GdtKLGrass1","LDustEffects"],["GdtKLGrass1","LGrassEffects"],["GdtKLGrass2","LDustEffects"],["GdtKLGrass2","LGrassEffects"],["GdtKLForestCon","LDustEffects"],["GdtKLForestDec","LDustEffects"],["GdtKlMud","LDustEffects"],["GdtKlSoil","LDustEffects"],["GdtKlTarmac","LDustEffects"],["GdtKlStubble","LDustEffects"],["GdtKlStones","LStonesEffects"],["SurfRoadDirt_Enoch","LDustEffects"],["SurfTrailDirt_Enoch","LDustEffects"],["SurfRoadTarmac1_Enoch","LDustEffects"],["SurfRoadTarmac2_Enoch","LDustEffects"],["SurfRoadTarmac3_Enoch","LDustEffects"],["GdtGrassShort","LDustEffects"],["GdtGrassShort","LGrassEffectsBig"],["GdtGrassTall","LDustEffects"],["GdtGrassTall","LGrassEffectsBig"],["GdtRedDirt","LDustEffectsRed"],["GdtField","LDustEffects"],["GdtForest","LDustEffects"],["GdtVolcano","LDustEffects"],["GdtVolcano","LStonesEffectsBig"],["GdtCliff","LDustEffects"],["GdtVolcanoBeach","LDustEffects"],["SurfRoadDirt_exp","LDustEffectsRed"],["SurfRoadConcrete_exp","LDustEffects"],["SurfRoadTarmac_exp","LDustEffects"],["GdtStratisConcrete","LDustEffects"],["GdtStratisConcrete","LDirtEffectsBig"],["GdtStratisBeach","LDustEffects"],["GdtStratisBeach","LStonesEffectsBig"],["GdtStratisDirt","LDustEffects"],["GdtStratisDirt","LDirtEffectsBig"],["GdtStratisSeabedCluttered","LDustEffects"],["GdtStratisSeabed","LDustEffects"],["GdtStratisDryGrass","LDustEffects"],["GdtStratisDryGrass","LGrassEffectsDryBig"],["GdtStratisDryGrass","LDirtEffectsBig"],["GdtStratisGreenGrass","LDustEffects"],["GdtStratisGreenGrass","LGrassEffectsBig"],["GdtStratisGreenGrass","LDirtEffectsBig"],["GdtStratisRocky","LDustEffects"],["GdtStratisRocky","LGrassEffectsBig"],["GdtStratisRocky","LDirtEffectsBig"],["GdtStratisThistles","LDustEffects"],["GdtStratisThistles","LGrassEffectsBig"],["GdtStratisThistles","LDirtEffectsBig"],["GdtConcrete","LDustEffects"],["GdtConcrete","LDirtEffectsBig"],["GdtAsphalt","LDustEffects"],["GdtAsphalt","LDirtEffectsBig"],["GdtRubble","LDustEffects"],["GdtRubble","LGrassEffectsBig"],["GdtRubble","LDirtEffectsBig"],["GdtSoil","LDustEffects"],["GdtSoil","LDirtEffectsBig"],["GdtBeach","LDustEffects"],["GdtBeach","LStonesEffectsBig"],["GdtRock","LDustEffects"],["GdtRock","LDirtEffectsBig"],["GdtDead","LDustEffects"],["GdtDead","LDirtEffectsBig"],["Default","LDustEffects"],["GdtDesert","LDustEffects"],["GdtDesert","LDirtEffectsBig"],["GdtDesert","LStonesEffects"],["GdtDesert1","LDustEffects"],["GdtDesert1","LDirtEffectsBig"],["GdtDesert1","LStonesEffectsBig"],["GdtDesert2","LDustEffects"],["GdtDesert2","LGrassEffectsBig"],["GdtDesert2","LDirtEffectsBig"],["GdtDirt","LDustEffects"],["GdtDirt","LDirtEffectsBig"],["GdtGrassGreen","LDustEffects"],["GdtGrassGreen","LGrassEffectsBig"],["GdtGrassGreen","LDirtEffectsBig"],["GdtGrassDry","LDustEffects"],["GdtGrassDry","LGrassEffectsDryBig"],["GdtGrassDry","LDirtEffectsBig"],["GdtGrassWild","LDustEffects"],["GdtGrassWild","LGrassEffectsBig"],["GdtGrassWild","LDirtEffectsBig"],["GdtWildField","LDustEffects"],["GdtWildField","LGrassEffectsBig"],["GdtWildField","LDirtEffectsBig"],["GdtWeed1","LDustEffects"],["GdtWeed1","LGrassEffectsBig"],["GdtWeed1","LDirtEffectsBig"],["GdtWeed2","LDustEffects"],["GdtWeed2","LGrassEffectsBig"],["GdtWeed2","LDirtEffectsBig"],["GdtThorn","LDustEffects"],["GdtThorn","LGrassEffectsBig"],["GdtThorn","LDirtEffectsBig"],["GdtStony","LDustEffects"],["GdtStony","LGrassEffectsBig"],["GdtStony","LDirtEffectsBig"],["GdtStonyGreen","LDustEffects"],["GdtStonyGreen","LGrassEffectsBig"],["GdtStonyGreen","LDirtEffectsBig"],["GdtStonyThistle","LDustEffects"],["GdtStonyThistle","LGrassEffectsBig"],["GdtStonyThistle","LDirtEffectsBig"],["GdtSeabedDeep","LDustEffects"],["GdtSeabed","LDustEffects"],["SurfRoadDirt","LDustEffects"],["SurfRoadConcrete","LDustEffects"],["SurfRoadTarmac","LDustEffects"],["SurfWood","LDustEffects"],["SurfMetal","LDustEffects"],["SurfRoofTin","LDustEffects"],["SurfRoofTiles","LDustEffects"],["SurfIntWood","LDustEffects"],["SurfIntConcrete","LDustEffects"],["SurfIntTiles","LDustEffects"],["SurfIntMetal","LDustEffects"],["dirtrunway","RDustEffects"]],
-    # Class: CfgVehicles\Tank\DestructionEffects [Indent level: 1],
+    # Class: CfgVehicles|Tank|DestructionEffects [Indent level: 1],
     "DestructionEffects": {
-        # Class: CfgVehicles\Tank\DestructionEffects\LightBig1 [Indent level: 2]
+        # Class: CfgVehicles|Tank|DestructionEffects|LightBig1 [Indent level: 2],
+
         "LightBig1": {
+
             "simulation": "light",
+
             "type": "ObjectDestructionLight",
+
             "position": "destructionEffect1",
+
             "intensity": 0.001,
+
             "interval": 1,
+
             "lifeTime": 3,
+
             "enabled": "distToWater"
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\Sound [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|Sound [Indent level: 2],
         "Sound": {
             "simulation": "sound",
             "position": "destructionEffect1",
@@ -8057,7 +11051,7 @@ RHS_M2A3_BUSKIII_WD = {
             "lifeTime": 1,
             "type": "Fire"
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\FireBig1 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|FireBig1 [Indent level: 2],
         "FireBig1": {
             "simulation": "particles",
             "type": "ObjectDestructionFire1",
@@ -8066,7 +11060,7 @@ RHS_M2A3_BUSKIII_WD = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\Refract1 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|Refract1 [Indent level: 2],
         "Refract1": {
             "simulation": "particles",
             "type": "ObjectDestructionRefract",
@@ -8075,7 +11069,7 @@ RHS_M2A3_BUSKIII_WD = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\SmokeBig1 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|SmokeBig1 [Indent level: 2],
         "SmokeBig1": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke",
@@ -8084,7 +11078,7 @@ RHS_M2A3_BUSKIII_WD = {
             "interval": 1,
             "lifeTime": 3.5
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\SparksBig1 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|SparksBig1 [Indent level: 2],
         "SparksBig1": {
             "simulation": "particles",
             "type": "ObjectDestructionSparks",
@@ -8093,7 +11087,7 @@ RHS_M2A3_BUSKIII_WD = {
             "interval": 1,
             "lifeTime": 0
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\FireSparksBig1 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|FireSparksBig1 [Indent level: 2],
         "FireSparksBig1": {
             "simulation": "particles",
             "type": "FireSparks",
@@ -8102,7 +11096,7 @@ RHS_M2A3_BUSKIII_WD = {
             "interval": 1,
             "lifeTime": 2.8
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\FireBig2 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|FireBig2 [Indent level: 2],
         "FireBig2": {
             "simulation": "particles",
             "type": "ObjectDestructionFire2",
@@ -8111,7 +11105,7 @@ RHS_M2A3_BUSKIII_WD = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\SmokeBig1_2 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|SmokeBig1_2 [Indent level: 2],
         "SmokeBig1_2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke1_2",
@@ -8120,7 +11114,7 @@ RHS_M2A3_BUSKIII_WD = {
             "interval": 1,
             "lifeTime": 3.5
         },
-        # Class: CfgVehicles\Tank\DestructionEffects\SmokeBig2 [Indent level: 2],
+        # Class: CfgVehicles|Tank|DestructionEffects|SmokeBig2 [Indent level: 2],
         "SmokeBig2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke2",
@@ -8141,7 +11135,7 @@ RHS_M2A3_BUSKIII_WD = {
     "rightFastWaterEffect": "RWaterEffects",
     "selectionLeftOffset": "PasOffsetL",
     "selectionRightOffset": "PasOffsetP",
-    # Class: CfgVehicles\LandVehicle\CommanderOptics [Indent level: 1],
+    # Class: CfgVehicles|LandVehicle|CommanderOptics [Indent level: 1],
     "CommanderOptics": {
         "proxyType": "CPCommander",
         "proxyIndex": 1,
@@ -8183,7 +11177,7 @@ RHS_M2A3_BUSKIII_WD = {
         "gunnerGetOutAction": "GetOutHigh",
         "memoryPointGun": "gun_muzzle",
         "selectionFireAnim": "zasleh_1",
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -8203,7 +11197,7 @@ RHS_M2A3_BUSKIII_WD = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -8242,7 +11236,7 @@ RHS_M2A3_BUSKIII_WD = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -8272,11 +11266,11 @@ RHS_M2A3_BUSKIII_WD = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -8297,126 +11291,129 @@ RHS_M2A3_BUSKIII_WD = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -8437,16 +11434,19 @@ RHS_M2A3_BUSKIII_WD = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -8467,27 +11467,37 @@ RHS_M2A3_BUSKIII_WD = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -8497,7 +11507,7 @@ RHS_M2A3_BUSKIII_WD = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
         "forceNVG": 0,
@@ -8518,11 +11528,11 @@ RHS_M2A3_BUSKIII_WD = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -8538,7 +11548,7 @@ RHS_M2A3_BUSKIII_WD = {
     "weaponsGroup2": "2 + 		4",
     "weaponsGroup3": "8 + 	16 + 	32",
     "weaponsGroup4": "64 + 		128",
-    # Class: CfgVehicles\AllVehicles\SquadTitles [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SquadTitles [Indent level: 1],
     "SquadTitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
@@ -8555,7 +11565,7 @@ RHS_M2A3_BUSKIII_WD = {
     "selectionDashboard": "podsvit pristroju",
     "selectionShowDamage": "poskozeni",
     "selectionBackLights": "zadni svetlo",
-    # Class: CfgVehicles\AllVehicles\NewTurret [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|NewTurret [Indent level: 1],
     "NewTurret": {
         "body": "mainTurret",
         "gun": "mainGun",
@@ -8598,7 +11608,7 @@ RHS_M2A3_BUSKIII_WD = {
         "gunnerGetOutAction": "",
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -8619,7 +11629,7 @@ RHS_M2A3_BUSKIII_WD = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -8660,11 +11670,11 @@ RHS_M2A3_BUSKIII_WD = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -8685,126 +11695,129 @@ RHS_M2A3_BUSKIII_WD = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -8825,16 +11838,19 @@ RHS_M2A3_BUSKIII_WD = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -8855,27 +11871,37 @@ RHS_M2A3_BUSKIII_WD = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -8885,10 +11911,10 @@ RHS_M2A3_BUSKIII_WD = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -8926,11 +11952,11 @@ RHS_M2A3_BUSKIII_WD = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -8945,7 +11971,7 @@ RHS_M2A3_BUSKIII_WD = {
         "selectionFireAnim": "zasleh",
         "showCrewAim": 0
     },
-    # Class: CfgVehicles\AllVehicles\ViewCargo [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewCargo [Indent level: 1],
     "ViewCargo": {
         "initAngleX": 5,
         "minAngleX": -75,
@@ -8965,18 +11991,20 @@ RHS_M2A3_BUSKIII_WD = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\PilotSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|PilotSpec [Indent level: 1],
     "PilotSpec": {
         "showHeadPhones": 0
     },
-    # Class: CfgVehicles\AllVehicles\CargoSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoSpec [Indent level: 1],
     "CargoSpec": {
-        # Class: CfgVehicles\AllVehicles\CargoSpec\Cargo1 [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoSpec|Cargo1 [Indent level: 2],
+
         "Cargo1": {
+
             "showHeadPhones": 0
         }
     },
-    # Class: CfgVehicles\AllVehicles\SoundEvents [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SoundEvents [Indent level: 1],
     "SoundEvents": {
     },
     "hasTerminal": 0,
@@ -8988,29 +12016,47 @@ RHS_M2A3_BUSKIII_WD = {
     "impactEffectsSea": "ImpactEffectsSea",
     "impactEffectSpeedLimit": 8,
     "showCrewAim": 0,
-    # Class: CfgVehicles\AllVehicles\CargoTurret [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoTurret [Indent level: 1],
     "CargoTurret": {
-        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
+
         "ViewGunner": {
+
             "initAngleX": 5,
+
             "minAngleX": -75,
+
             "maxAngleX": 85,
+
             "initAngleY": 0,
+
             "minAngleY": -150,
+
             "maxAngleY": 150,
+
             "minFov": 0.25,
+
             "maxFov": 1.25,
+
             "initFov": 0.75,
+
             "minMoveX": 0,
+
             "maxMoveX": 0,
+
             "minMoveY": 0,
+
             "maxMoveY": 0,
+
             "minMoveZ": 0,
+
             "maxMoveZ": 0,
+
             "speedZoomMaxSpeed": 1e+010,
+
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|CargoTurret|Hitpoints [Indent level: 2],
         "Hitpoints": {
         },
         "animationSourceBody": "",
@@ -9067,7 +12113,7 @@ RHS_M2A3_BUSKIII_WD = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -9104,11 +12150,11 @@ RHS_M2A3_BUSKIII_WD = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -9129,126 +12175,129 @@ RHS_M2A3_BUSKIII_WD = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -9269,16 +12318,19 @@ RHS_M2A3_BUSKIII_WD = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -9299,19 +12351,22 @@ RHS_M2A3_BUSKIII_WD = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -9344,11 +12399,11 @@ RHS_M2A3_BUSKIII_WD = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -9432,10 +12487,10 @@ RHS_M2A3_BUSKIII_WD = {
     "showNVGCargo": [0],
     "soundAttenuationCargo": [1],
     "countsForScoreboard": 1,
-    # Class: CfgVehicles\All\MarkerLights [Indent level: 1],
+    # Class: CfgVehicles|All|MarkerLights [Indent level: 1],
     "MarkerLights": {
     },
-    # Class: CfgVehicles\All\NVGMarker [Indent level: 1],
+    # Class: CfgVehicles|All|NVGMarker [Indent level: 1],
     "NVGMarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
@@ -9443,7 +12498,7 @@ RHS_M2A3_BUSKIII_WD = {
         "blinking": 0,
         "onlyInNvg": 0
     },
-    # Class: CfgVehicles\All\HeadLimits [Indent level: 1],
+    # Class: CfgVehicles|All|HeadLimits [Indent level: 1],
     "HeadLimits": {
         "initAngleX": 5,
         "minAngleX": -30,
@@ -9466,46 +12521,46 @@ RHS_M2A3_BUSKIII_WD = {
     "uavHacker": 0,
     "soundEngine": ["",1,1],
     "soundEnviron": ["",1,1],
-    # Class: CfgVehicles\All\SoundEnvironExt [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEnvironExt [Indent level: 1],
     "SoundEnvironExt": {
     },
-    # Class: CfgVehicles\All\SoundEquipment [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEquipment [Indent level: 1],
     "SoundEquipment": {
     },
-    # Class: CfgVehicles\All\SoundBreath [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreath [Indent level: 1],
     "SoundBreath": {
     },
-    # Class: CfgVehicles\All\SoundBreathSwimming [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathSwimming [Indent level: 1],
     "SoundBreathSwimming": {
     },
-    # Class: CfgVehicles\All\SoundBreathInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathInjured [Indent level: 1],
     "SoundBreathInjured": {
     },
-    # Class: CfgVehicles\All\SoundHitScream [Indent level: 1],
+    # Class: CfgVehicles|All|SoundHitScream [Indent level: 1],
     "SoundHitScream": {
     },
-    # Class: CfgVehicles\All\SoundInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundInjured [Indent level: 1],
     "SoundInjured": {
     },
-    # Class: CfgVehicles\All\SoundBreathAutomatic [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathAutomatic [Indent level: 1],
     "SoundBreathAutomatic": {
     },
-    # Class: CfgVehicles\All\SoundDrown [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrown [Indent level: 1],
     "SoundDrown": {
     },
-    # Class: CfgVehicles\All\SoundChoke [Indent level: 1],
+    # Class: CfgVehicles|All|SoundChoke [Indent level: 1],
     "SoundChoke": {
     },
-    # Class: CfgVehicles\All\SoundRecovered [Indent level: 1],
+    # Class: CfgVehicles|All|SoundRecovered [Indent level: 1],
     "SoundRecovered": {
     },
-    # Class: CfgVehicles\All\SoundBurning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBurning [Indent level: 1],
     "SoundBurning": {
     },
-    # Class: CfgVehicles\All\PulsationSound [Indent level: 1],
+    # Class: CfgVehicles|All|PulsationSound [Indent level: 1],
     "PulsationSound": {
     },
-    # Class: CfgVehicles\All\SoundDrowning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrowning [Indent level: 1],
     "SoundDrowning": {
     },
     "soundCrash": ["",0.316228,1],
@@ -9540,11 +12595,11 @@ RHS_M2A3_BUSKIII_WD = {
     "hiddenUnderwaterSelections": [],
     "shownUnderWaterSelections": [],
     "hiddenUnderwaterSelectionsTextures": [],
-    # Class: CfgVehicles\All\FxExplo [Indent level: 1],
+    # Class: CfgVehicles|All|FxExplo [Indent level: 1],
     "FxExplo": {
         "access": 1
     },
-    # Class: CfgVehicles\All\GunFire [Indent level: 1],
+    # Class: CfgVehicles|All|GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -9565,126 +12620,129 @@ RHS_M2A3_BUSKIII_WD = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: WeaponFireGun\Table [Indent level: 0],
+        # Class: WeaponFireGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+            # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\GunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletDuration": 0.3,
@@ -9705,16 +12763,19 @@ RHS_M2A3_BUSKIII_WD = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsGun\Table [Indent level: 0],
+        # Class: WeaponCloudsGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\MGunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|MGunClouds [Indent level: 1],
     "MGunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -9735,11 +12796,14 @@ RHS_M2A3_BUSKIII_WD = {
         "sourceSize": 0.02,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsMGun\Table [Indent level: 0],
+        # Class: WeaponCloudsMGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
@@ -9759,7 +12823,7 @@ RHS_M2A3_BUSKIII_WD = {
     "slingLoadCargoMemoryPointsDir": [],
     "damageHalf": [],
     "damageFull": [],
-    # Class: CfgVehicles\All\camShakeGForce [Indent level: 1],
+    # Class: CfgVehicles|All|camShakeGForce [Indent level: 1],
     "camShakeGForce": {
         "power": 1,
         "frequency": 20,
@@ -9770,7 +12834,7 @@ RHS_M2A3_BUSKIII_WD = {
     "minGForce": 0.2,
     "maxGForce": 2,
     "gForceShakeAttenuation": 0.5,
-    # Class: CfgVehicles\All\camShakeDamage [Indent level: 1],
+    # Class: CfgVehicles|All|camShakeDamage [Indent level: 1],
     "camShakeDamage": {
         "power": 0.5,
         "frequency": 60,

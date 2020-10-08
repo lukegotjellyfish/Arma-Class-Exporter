@@ -7,6 +7,7 @@ MKDIR BluFor\VehicleMagazines
 MKDIR BluFor\Vehicles
 MKDIR BluFor\VehicleWeapons
 MKDIR BluFor\Weapons
+MKDIR BluFor\Uniforms
 
 MKDIR OpFor\LauncherMagazines
 MKDIR OpFor\Launchers
@@ -15,6 +16,7 @@ MKDIR OpFor\VehicleMagazines
 MKDIR OpFor\Vehicles
 MKDIR OpFor\VehicleWeapons
 MKDIR OpFor\Weapons
+MKDIR OpFor\Uniforms
 
 MKDIR Exports
 

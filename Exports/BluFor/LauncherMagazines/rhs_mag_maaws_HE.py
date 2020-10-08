@@ -7,7 +7,7 @@ rhs_mag_maaws_HE = {
     "initSpeed": 255,
     "descriptionShort": "High Explosive",
     "displaynameshort": "441 HE",
-    # Ammo: rhs_ammo_maaws_HE,
+    # Ammo: CfgMagazines|rhs_mag_maaws_HE|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_maaws_HE",
         "EffectFly": "ArtilleryTrails",
@@ -39,28 +39,28 @@ rhs_mag_maaws_HE = {
         "timeToLive": 25,
         "maneuvrability": 0,
         "allowAgainstInfantry": 1,
-        # Class: CfgAmmo\rhs_ammo_maaws_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_maaws_HE|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": "(55*0.2)",
             "duration": "((round (55^0.5))*0.2 max 0.2)",
             "frequency": 20,
             "distance": "((5 + 55^0.5)*8)"
         },
-        # Class: CfgAmmo\rhs_ammo_maaws_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_maaws_HE|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": "((round (110^0.25))*0.2 max 0.2)",
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\rhs_ammo_maaws_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_maaws_HE|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 5,
             "duration": "((round (20^0.5))*0.2 max 0.2)",
             "frequency": 20,
             "distance": "((20^0.5)*8)"
         },
-        # Class: CfgAmmo\rhs_ammo_maaws_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_maaws_HE|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 2,
             "duration": 0.2,
@@ -77,17 +77,19 @@ rhs_mag_maaws_HE = {
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "muzzleEffect": "BIS_fnc_effectFiredRocket",
-        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|RocketBase|HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
         "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
         "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_shell_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
-        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|RocketBase|EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
+            # Class: CfgAmmo|RocketBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2],
+
             "RHS_APS_FiredEH": {
+
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
@@ -186,10 +188,6 @@ rhs_mag_maaws_HE = {
         "shootDistraction": -1,
         "explosionTime": 0,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -204,7 +202,7 @@ rhs_mag_maaws_HE = {
         "caliber": 1,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -225,10 +223,10 @@ rhs_mag_maaws_HE = {
     "weaponpoolavailable": 1,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -2,7 +2,7 @@ rhs_mag_3UOF17_22 = {
     "scope": 2,
     "displayName": "HEF-T 3UOF17",
     "displayNameShort": "3UOF17",
-    # Ammo: rhs_ammo_3UOF17,
+    # Ammo: CfgMagazines|rhs_mag_3UOF17_22|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_3UOF17",
         "hit": 210,
@@ -37,28 +37,28 @@ rhs_mag_3UOF17_22 = {
         "soundHit3": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_03",1.77828,1,1800],
         "soundHit4": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_04",1.77828,1,1800],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\Sh_120mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|Sh_120mm_HE|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 24,
             "duration": 2.2,
             "frequency": 20,
             "distance": 143.636
         },
-        # Class: CfgAmmo\Sh_120mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|Sh_120mm_HE|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 120,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Sh_120mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|Sh_120mm_HE|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 3.30975,
             "duration": 2.2,
             "frequency": 20,
             "distance": 87.6356
         },
-        # Class: CfgAmmo\Sh_120mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|Sh_120mm_HE|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.02,
             "duration": 0.1,
@@ -73,7 +73,7 @@ rhs_mag_3UOF17_22 = {
         "deflectionDirDistribution": 0.39,
         "penetrationDirDistribution": 0.26,
         "aiAmmoUsageFlags": "64 + 128 + 256",
-        # Class: CfgAmmo\ShellBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|ShellBase|HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -190,10 +190,6 @@ rhs_mag_3UOF17_22 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -205,11 +201,11 @@ rhs_mag_3UOF17_22 = {
         "minePlaceDist": 0.5,
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -234,10 +230,10 @@ rhs_mag_3UOF17_22 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

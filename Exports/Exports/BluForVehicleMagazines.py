@@ -1,7 +1,7 @@
-rhsusf_mag_L8A3_8 = {
+"rhsusf_mag_L8A3_8": {
     "count": 8,
     "scope": 2,
-    # Ammo: rhsusf_ammo_L8A3,
+    # Ammo: CfgMagazines\\rhsusf_mag_L8A3_8\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhsusf_ammo_L8A3",
         "rhs_smokeShell": "rhsusf_ammo_L8A3_shell",
@@ -12,10 +12,12 @@ rhsusf_mag_L8A3_8 = {
         "hit": 0,
         "indirectHit": 0,
         "indirectHitRange": 0,
-        # Class: CfgAmmo\rhsusf_ammo_L8A3\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\rhsusf_ammo_L8A3\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\rhsusf_ammo_L8A3\EventHandlers\RHS_CM [Indent level: 2]
+            # Class: CfgAmmo\\rhsusf_ammo_L8A3\\EventHandlers\\RHS_CM [Indent level: 2],
+
             "RHS_CM": {
+
                 "fired": "_this call RHSUSF_fnc_effectFiredSmokeLauncher"
             }
         },
@@ -242,10 +244,10 @@ rhsusf_mag_L8A3_8 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -255,7 +257,7 @@ rhsusf_mag_L8A3_8 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -265,7 +267,7 @@ rhsusf_mag_L8A3_8 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -275,7 +277,7 @@ rhsusf_mag_L8A3_8 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -286,7 +288,7 @@ rhsusf_mag_L8A3_8 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -312,28 +314,28 @@ rhsusf_mag_L8A3_8 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -917,10 +919,6 @@ rhsusf_mag_L8A3_8 = {
         "fuseDistance": 0,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -932,7 +930,7 @@ rhsusf_mag_L8A3_8 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -957,10 +955,10 @@ rhsusf_mag_L8A3_8 = {
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -970,14 +968,14 @@ rhsusf_mag_L8A3_8 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0
 },
-RHS_48Rnd_40mm_MK19_M1001 = {
+"RHS_48Rnd_40mm_MK19_M1001": {
     "displayName": "Mk. 19 40mm M1001 Canister",
     "displaynameshort": "M1001 Canister",
-    # Ammo: rhs_ammo_mk19m3_M1001,
+    # Ammo: CfgMagazines\\RHS_48Rnd_40mm_MK19_M1001\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_mk19m3_M1001",
         "simulation": "shotSubmunitions",
-        # Ammo: rhs_ammo_flechettes,
+        # Ammo: CfgAmmo\\rhs_ammo_mk19m3_M1001\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_flechettes",
             "hit": 4,
@@ -1204,10 +1202,10 @@ RHS_48Rnd_40mm_MK19_M1001 = {
             "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
             "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
             "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
             "SuperSonicCrack": {
                 "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                 "SCrackForest": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -1217,7 +1215,7 @@ RHS_48Rnd_40mm_MK19_M1001 = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "forest"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                 "SCrackTrees": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -1227,7 +1225,7 @@ RHS_48Rnd_40mm_MK19_M1001 = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "trees"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                 "SCrackMeadow": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -1237,7 +1235,7 @@ RHS_48Rnd_40mm_MK19_M1001 = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "meadow max sea"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                 "SCrackHouses": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -1248,7 +1246,7 @@ RHS_48Rnd_40mm_MK19_M1001 = {
                     "trigger": "houses max interior"
                 }
             },
-            # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "Hit_Foliage_green": "ImpactLeavesGreen",
                 "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -1274,28 +1272,28 @@ RHS_48Rnd_40mm_MK19_M1001 = {
                 "hitWater": "ImpactEffectsWater",
                 "hitVirtual": "ImpactMetal"
             },
-            # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 1.73205,
                 "duration": 0.4,
                 "frequency": 20,
                 "distance": 5.19615
             },
-            # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 3,
                 "duration": 0.2,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 0,
                 "duration": 0,
                 "frequency": 0,
                 "distance": 0
             },
-            # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0,
                 "duration": 0,
@@ -1885,10 +1883,6 @@ RHS_48Rnd_40mm_MK19_M1001 = {
             "thrust": 210,
             "airFriction": -0.0005,
             "icon": "",
-            # Ammo: ,
-            "submunitionAmmo": {
-                "submunitionAmmo": "",
-            },
             "submunitionAmmo": "",
             "explosionType": "explosive",
             "mineTrigger": "RangeTrigger",
@@ -1900,11 +1894,11 @@ RHS_48Rnd_40mm_MK19_M1001 = {
             "minePlaceDist": 0.5,
             "whistleDist": 0,
             "whistleOnFire": 0,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -1936,28 +1930,28 @@ RHS_48Rnd_40mm_MK19_M1001 = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\Grenades\\Explosion_gng_grenades_03",3.16228,1,1500],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\Grenades\\Explosion_gng_grenades_04",3.16228,1,1500],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\G_40mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 8,
             "duration": 1.2,
             "frequency": 20,
             "distance": 74.5964
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0.2,
             "frequency": 20,
             "distance": 0
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0.1,
@@ -2086,7 +2080,7 @@ RHS_48Rnd_40mm_MK19_M1001 = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Default\\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -2094,11 +2088,11 @@ RHS_48Rnd_40mm_MK19_M1001 = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -2122,10 +2116,10 @@ RHS_48Rnd_40mm_MK19_M1001 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -2135,14 +2129,14 @@ RHS_48Rnd_40mm_MK19_M1001 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-RHS_48Rnd_40mm_MK19_M430A1 = {
+"RHS_48Rnd_40mm_MK19_M430A1": {
     "displayName": "Mk. 19 40mm M430A1 HEDP",
     "displaynameshort": "M430A1 HEDP",
-    # Ammo: rhs_ammo_mk19m3_M430A1,
+    # Ammo: CfgMagazines\\RHS_48Rnd_40mm_MK19_M430A1\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_mk19m3_M430A1",
         "hit": 35,
-        # Ammo: rhs_ammo_mk19m3_M430A1_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_mk19m3_M430A1\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_mk19m3_M430A1_penetrator",
             "hit": 90,
@@ -2161,7 +2155,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -2392,10 +2386,10 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -2405,7 +2399,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -2415,7 +2409,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -2425,7 +2419,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -2436,7 +2430,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -2462,28 +2456,28 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -3071,10 +3065,6 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -3086,11 +3076,11 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -3119,7 +3109,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -3131,28 +3121,28 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -3287,11 +3277,11 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -3326,28 +3316,28 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\Grenades\\Explosion_gng_grenades_03",3.16228,1,1500],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\Grenades\\Explosion_gng_grenades_04",3.16228,1,1500],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\G_40mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 8,
             "duration": 1.2,
             "frequency": 20,
             "distance": 74.5964
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0.2,
             "frequency": 20,
             "distance": 0
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0.1,
@@ -3476,7 +3466,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Default\\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -3484,11 +3474,11 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -3512,10 +3502,10 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -3525,15 +3515,15 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-RHS_96Rnd_40mm_MK19_M430A1 = {
+"RHS_96Rnd_40mm_MK19_M430A1": {
     "count": 96,
     "displayName": "Mk. 19 40mm M430A1 HEDP",
     "displaynameshort": "M430A1 HEDP",
-    # Ammo: rhs_ammo_mk19m3_M430A1,
+    # Ammo: CfgMagazines\\RHS_48Rnd_40mm_MK19_M430A1\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_mk19m3_M430A1",
         "hit": 35,
-        # Ammo: rhs_ammo_mk19m3_M430A1_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_mk19m3_M430A1\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_mk19m3_M430A1_penetrator",
             "hit": 90,
@@ -3552,7 +3542,7 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -3783,10 +3773,10 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -3796,7 +3786,7 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -3806,7 +3796,7 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -3816,7 +3806,7 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -3827,7 +3817,7 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -3853,28 +3843,28 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -4462,10 +4452,6 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -4477,11 +4463,11 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -4510,7 +4496,7 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -4522,28 +4508,28 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -4678,11 +4664,11 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -4717,28 +4703,28 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\Grenades\\Explosion_gng_grenades_03",3.16228,1,1500],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\Grenades\\Explosion_gng_grenades_04",3.16228,1,1500],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\G_40mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 8,
             "duration": 1.2,
             "frequency": 20,
             "distance": 74.5964
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0.2,
             "frequency": 20,
             "distance": 0
         },
-        # Class: CfgAmmo\G_40mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\G_40mm_HE\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0.1,
@@ -4867,7 +4853,7 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Default\\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -4875,11 +4861,11 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -4902,10 +4888,10 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -4915,20 +4901,937 @@ RHS_96Rnd_40mm_MK19_M430A1 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_100rnd_127x99_mag_Tracer_Red = {
-    # Ammo: rhs_ammo_127x99_Ball_Tracer_Red    "ammo": {        "ammo": "rhs_ammo_127x99_Ball_Tracer_Red"        "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red"        "tracerEndTime": 3        "caliber": 2.34848        # Class: CfgAmmo\rhs_ammo_127x99_Ball\CamShakeFire [Indent level: 1]        "CamShakeFire": {            "power": 1,            "duration": 0.2,            "frequency": 20,            "distance": 8
-        }        # Class: CfgAmmo\rhs_ammo_127x99_Ball\CamShakePlayerFire [Indent level: 1]        "CamShakePlayerFire": {            "power": 1,            "duration": 0.1,            "frequency": 20,            "distance": 1
-        }        "hit": 30        "indirectHit": 0        "indirectHitRange": 0        "cartridge": "FxCartridge_127"        "visibleFire": 8        "audibleFire": 120        "dangerRadiusBulletClose": 12        "dangerRadiusHit": 16        "suppressionRadiusBulletClose": 8        "suppressionRadiusHit": 12        "cost": 5        "airLock": 1        "typicalSpeed": 880        "timeToLive": 10        "tracerScale": 1.2        "tracerStartTime": 0.075        "airFriction": -0.00086        # Class: CfgAmmo\B_127x99_Ball\CamShakeExplode [Indent level: 1]        "CamShakeExplode": {            "power": 3.60555,            "duration": 0.8,            "frequency": 20,            "distance": 10.8167
-        }        # Class: CfgAmmo\B_127x99_Ball\CamShakeHit [Indent level: 1]        "CamShakeHit": {            "power": 13,            "duration": 0.4,            "frequency": 20,            "distance": 1
-        }        "soundsetbulletfly": ["jsrs_sc_bullet_flyby_soundset"]        "soundsetsoniccrack": ["jsrs_sc_127x99mm_soundset"]        "sounddefault1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_1.ogg",2.5,1,75]        "sounddefault2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_2.ogg",2.5,1,75]        "sounddefault3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_3.ogg",2.5,1,75]        "sounddefault4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_4.ogg",2.5,1,75]        "sounddefault5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_5.ogg",2.5,1,75]        "sounddefault6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_6.ogg",2.5,1,75]        "sounddefault7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_7.ogg",2.5,1,75]        "sounddefault8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_8.ogg",2.5,1,75]        "soundbody1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_1.ogg",1,2,50]        "soundbody2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_2.ogg",1,2,50]        "soundbody3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_3.ogg",1,2,50]        "soundbody4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_4.ogg",1,2,50]        "soundbody5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_5.ogg",1,2,50]        "soundbody6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_6.ogg",1,2,50]        "soundbody7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_7.ogg",1,2,50]        "soundbody8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_8.ogg",1,2,50]        "soundmetallight1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75]        "soundmetallight2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75]        "soundmetallight3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75]        "soundmetallight4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75]        "soundmetallight5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75]        "soundmetallight6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75]        "soundmetallight7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75]        "soundmetallight8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75]        "soundmetalheavy1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75]        "soundmetalheavy2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75]        "soundmetalheavy3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75]        "soundmetalheavy4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75]        "soundmetalheavy5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75]        "soundmetalheavy6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75]        "soundmetalheavy7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75]        "soundmetalheavy8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75]        "soundrubber1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_1.ogg",2.5,1,75]        "soundrubber2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_2.ogg",2.5,1,75]        "soundrubber3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_3.ogg",2.5,1,75]        "soundrubber4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_4.ogg",2.5,1,75]        "soundrubber5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_5.ogg",2.5,1,75]        "soundrubber6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_6.ogg",2.5,1,75]        "soundrubber7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_7.ogg",2.5,1,75]        "soundrubber8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_8.ogg",2.5,1,75]        "soundglass1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_1.ogg",2.5,1,75]        "soundglass2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_2.ogg",2.5,1,75]        "soundglass3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_3.ogg",2.5,1,75]        "soundglass4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_4.ogg",2.5,1,75]        "soundglass5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_5.ogg",2.5,1,75]        "soundglass6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_6.ogg",2.5,1,75]        "soundglass7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_7.ogg",2.5,1,75]        "soundglass8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_8.ogg",2.5,1,75]        "soundglassarmor1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_1.ogg",2.5,1,75]        "soundglassarmor2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_2.ogg",2.5,1,75]        "soundglassarmor3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_3.ogg",2.5,1,75]        "soundglassarmor4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_4.ogg",2.5,1,75]        "soundglassarmor5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_5.ogg",2.5,1,75]        "soundglassarmor6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_6.ogg",2.5,1,75]        "soundglassarmor7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_7.ogg",2.5,1,75]        "soundglassarmor8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_8.ogg",2.5,1,75]        "soundwood1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_1.ogg",2.5,1,75]        "soundwood2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_2.ogg",2.5,1,75]        "soundwood3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_3.ogg",2.5,1,75]        "soundwood4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_4.ogg",2.5,1,75]        "soundwood5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_5.ogg",2.5,1,75]        "soundwood6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_6.ogg",2.5,1,75]        "soundwood7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_7.ogg",2.5,1,75]        "soundwood8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_8.ogg",2.5,1,75]        "soundfoliage1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_1.ogg",2.5,1,75]        "soundfoliage2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_2.ogg",2.5,1,75]        "soundfoliage3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_3.ogg",2.5,1,75]        "soundfoliage4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_4.ogg",2.5,1,75]        "soundfoliage5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_5.ogg",2.5,1,75]        "soundfoliage6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_6.ogg",2.5,1,75]        "soundfoliage7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_7.ogg",2.5,1,75]        "soundfoliage8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_8.ogg",2.5,1,75]        "soundbuilding1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_1.ogg",2.5,1,75]        "soundbuilding2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_2.ogg",2.5,1,75]        "soundbuilding3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_3.ogg",2.5,1,75]        "soundbuilding4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_4.ogg",2.5,1,75]        "soundbuilding5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_5.ogg",2.5,1,75]        "soundbuilding6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_6.ogg",2.5,1,75]        "soundbuilding7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_7.ogg",2.5,1,75]        "soundbuilding8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_8.ogg",2.5,1,75]        "soundarmorint1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75]        "soundarmorint2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75]        "soundarmorint3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75]        "soundarmorint4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75]        "soundarmorint5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75]        "soundarmorint6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75]        "soundarmorint7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75]        "soundarmorint8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75]        "soundmetalint1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75]        "soundmetalint2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75]        "soundmetalint3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75]        "soundmetalint4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75]        "soundmetalint5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75]        "soundmetalint6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75]        "soundmetalint7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75]        "soundmetalint8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75]        "soundbulletwizz1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_1.ogg",2,1,150]        "soundbulletwizz2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_2.ogg",2,1,150]        "soundbulletwizz3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_3.ogg",2,1,150]        "soundbulletwizz4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_4.ogg",2,1,150]        "soundbulletwizz5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_5.ogg",2,1,150]        "soundbulletwizz6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_6.ogg",2,1,150]        "soundbulletwizz7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_7.ogg",2,1,150]        "soundbulletwizz8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_8.ogg",2,1,150]        "soundbulletwizz9": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_9.ogg",2,1,150]        "soundbulletwizz10": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_10.ogg",2,1,150]        "soundbulletwizz11": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_11.ogg",2,1,150]        "soundbulletwizz12": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_12.ogg",2,1,150]        "soundbulletwizz13": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_13.ogg",2,1,150]        "soundbulletwizz14": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_14.ogg",2,1,150]        "soundbulletwizz15": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_15.ogg",2,1,150]        "soundbulletwizz16": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_16.ogg",2,1,150]        "soundbulletwizz17": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_17.ogg",2,1,150]        "hitarmorint": ["soundarmorint1",0.125,"soundarmorint2",0.125,"soundarmorint3",0.125,"soundarmorint4",0.125,"soundarmorint5",0.125,"soundarmorint6",0.125,"soundarmorint7",0.125,"soundarmorint8",0.125,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitmetalint": ["soundmetalint1",0.125,"soundmetalint2",0.125,"soundmetalint3",0.125,"soundmetalint4",0.125,"soundmetalint5",0.125,"soundmetalint6",0.125,"soundmetalint7",0.125,"soundmetalint8",0.125]        "hitgroundsoft": ["sounddefault1",0.125,"sounddefault2",0.125,"sounddefault3",0.125,"sounddefault4",0.125,"sounddefault5",0.125,"sounddefault6",0.125,"sounddefault7",0.125,"sounddefault8",0.125]        "hitgroundhard": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitman": ["soundbody1",0.125,"soundbody2",0.125,"soundbody3",0.125,"soundbody4",0.125,"soundbody5",0.125,"soundbody6",0.125,"soundbody7",0.125,"soundbody8",0.125]        "hitarmor": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitiron": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitbuilding": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitfoliage": ["soundfoliage1",0.125,"soundfoliage2",0.125,"soundfoliage3",0.125,"soundfoliage4",0.125,"soundfoliage5",0.125,"soundfoliage6",0.125,"soundfoliage7",0.125,"soundfoliage8",0.125]        "hitwood": ["soundwood1",0.075,"soundwood2",0.075,"soundwood3",0.075,"soundwood4",0.075,"soundwood5",0.075,"soundwood6",0.075,"soundwood7",0.075,"soundwood8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitglass": ["soundglass1",0.125,"soundglass2",0.125,"soundglass3",0.125,"soundglass4",0.125,"soundglass5",0.125,"soundglass6",0.125,"soundglass7",0.125,"soundglass8",0.125]        "hitglassarmored": ["soundglassarmor1",0.125,"soundglassarmor2",0.125,"soundglassarmor3",0.125,"soundglassarmor4",0.125,"soundglassarmor5",0.125,"soundglassarmor6",0.125,"soundglassarmor7",0.125,"soundglassarmor8",0.125]        "hitconcrete": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitrubber": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125]        "hitplastic": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125]        "hitdefault": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitmetal": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitmetalplate": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "visibleFireTime": 2        "deflecting": 15        "muzzleEffect": ""        "waterEffectOffset": 0.8        "effectFly": "AmmoClassic"        "aiAmmoUsageFlags": "64 + 128 + 256"        "soundImpactDefault1": ["A3\\Sounds_F\\weapons\\Grenades\\Grenade_Roll",2.51189,1,200]        "impactGroundSoft": ["soundImpactDefault1",1]        "impactGroundHard": ["soundImpactDefault1",1]        "impactMan": ["soundImpactDefault1",1]        "impactIron": ["soundImpactDefault1",1]        "impactArmor": ["soundImpactDefault1",1]        "impactBuilding": ["soundImpactDefault1",1]        "impactFoliage": ["soundImpactDefault1",1]        "impactWood": ["soundImpactDefault1",1]        "impactGlass": ["soundImpactDefault1",1]        "impactGlassArmored": ["soundImpactDefault1",1]        "impactConcrete": ["soundImpactDefault1",1]        "impactTyre": ["soundImpactDefault1",1]        "impactRubber": ["soundImpactDefault1",1]        "impactPlastic": ["soundImpactDefault1",1]        "impactDefault": ["soundImpactDefault1",1]        "impactMetal": ["soundImpactDefault1",1]        "impactMetalplate": ["soundImpactDefault1",1]        "impactWater": ["soundImpactDefault1",1]        "soundGroundSoft1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_01",2.81838,1,75]        "soundGroundSoft2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_02",2.81838,1,75]        "soundGroundSoft3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_03",2.81838,1,75]        "soundGroundSoft4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_04",2.81838,1,75]        "soundGroundSoft5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_05",2.81838,1,75]        "soundGroundSoft6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_06",2.81838,1,75]        "soundGroundSoft7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_07",2.81838,1,75]        "soundGroundSoft8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_08",2.81838,1,75]        "soundGroundHard1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_01",2.81838,1,75]        "soundGroundHard2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_02",2.81838,1,75]        "soundGroundHard3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_03",2.81838,1,75]        "soundGroundHard4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_04",2.81838,1,75]        "soundGroundHard5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_05",2.81838,1,75]        "soundGroundHard6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_06",2.81838,1,75]        "soundGroundHard7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_07",2.81838,1,75]        "soundGroundHard8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_08",2.81838,1,75]        "soundGlassArmored1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_01",2.23872,1,75]        "soundGlassArmored2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_02",2.23872,1,75]        "soundGlassArmored3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_03",2.23872,1,75]        "soundGlassArmored4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_04",2.23872,1,75]        "soundGlassArmored5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_05",2.23872,1,75]        "soundGlassArmored6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_06",2.23872,1,75]        "soundGlassArmored7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_07",2.23872,1,75]        "soundGlassArmored8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_08",2.23872,1,75]        "soundMetal1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_01",2.23872,1,75]        "soundMetal2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_02",2.23872,1,75]        "soundMetal3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_03",2.23872,1,75]        "soundMetal4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_04",2.23872,1,75]        "soundMetal5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_05",2.23872,1,75]        "soundMetal6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_06",2.23872,1,75]        "soundMetal7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_07",2.23872,1,75]        "soundMetal8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_08",2.23872,1,75]        "soundVehiclePlate1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_01",2.23872,1,75]        "soundVehiclePlate2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_02",2.23872,1,75]        "soundVehiclePlate3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_03",2.23872,1,75]        "soundVehiclePlate4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_04",2.23872,1,75]        "soundVehiclePlate5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_05",2.23872,1,75]        "soundVehiclePlate6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_06",2.23872,1,75]        "soundVehiclePlate7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_07",2.23872,1,75]        "soundVehiclePlate8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_08",2.23872,1,75]        "soundHitBody1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_01",1,1,75]        "soundHitBody2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_02",1,1,75]        "soundHitBody3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_03",1,1,75]        "soundHitBody4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_04",1,1,75]        "soundHitBody5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_05",1,1,75]        "soundHitBody6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_06",1,1,75]        "soundHitBody7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_07",1,1,75]        "soundHitBody8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_08",1,1,75]        "soundHitBuilding1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_01",3.98107,1,75]        "soundHitBuilding2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_02",3.98107,1,75]        "soundHitBuilding3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_03",3.98107,1,75]        "soundHitBuilding4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_04",3.98107,1,75]        "soundHitBuilding5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_05",3.98107,1,75]        "soundHitBuilding6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_06",3.98107,1,75]        "soundHitBuilding7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_07",3.98107,1,75]        "soundHitBuilding8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_08",3.98107,1,75]        "soundHitFoliage1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_01",1,1,75]        "soundHitFoliage2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_02",1,1,75]        "soundHitFoliage3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_03",1,1,75]        "soundHitFoliage4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_04",1,1,75]        "soundHitFoliage5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_05",1,1,75]        "soundHitFoliage6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_06",1,1,75]        "soundHitFoliage7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_07",1,1,75]        "soundHitFoliage8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_08",1,1,75]        "soundPlastic1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_01",1.41254,1,75]        "soundPlastic2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_02",1.41254,1,75]        "soundPlastic3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_03",1.41254,1,75]        "soundPlastic4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_04",1.41254,1,75]        "soundPlastic5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_05",1.41254,1,75]        "soundPlastic6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_06",1.41254,1,75]        "soundPlastic7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_07",1.41254,1,75]        "soundPlastic8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_08",1.41254,1,75]        "soundConcrete1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_01",1.99526,1,75]        "soundConcrete2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_02",1.99526,1,75]        "soundConcrete3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_03",1.99526,1,75]        "soundConcrete4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_04",1.99526,1,75]        "soundConcrete5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_05",1.99526,1,75]        "soundConcrete6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_06",1.99526,1,75]        "soundConcrete7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_07",1.99526,1,75]        "soundConcrete8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_08",1.99526,1,75]        "soundTyre1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_01",1.77828,1,75]        "soundTyre2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_02",1.77828,1,75]        "soundTyre3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_03",1.77828,1,75]        "soundTyre4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_04",1.77828,1,75]        "soundTyre5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_05",1.77828,1,75]        "soundTyre6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_06",1.77828,1,75]        "soundTyre7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_07",1.77828,1,75]        "soundTyre8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_08",1.77828,1,75]        "soundWater1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_01",1.41254,1,75]        "soundWater2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_02",1.41254,1,75]        "soundWater3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_03",1.41254,1,75]        "soundWater4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_04",1.41254,1,75]        "soundWater5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_05",1.41254,1,75]        "soundWater6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_06",1.41254,1,75]        "soundWater7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_07",1.41254,1,75]        "soundWater8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_08",1.41254,1,75]        "soundVehiclePlateInt1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_01",1.4,1,35]        "soundVehiclePlateInt2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_02",1.4,1,35]        "soundVehiclePlateInt3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_03",1.4,1,35]        "soundVehiclePlateInt4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_04",1.4,1,35]        "soundVehiclePlateInt5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_05",1.4,1,35]        "soundVehiclePlateInt6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_06",1.4,1,35]        "soundVehiclePlateInt7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_07",1.4,1,35]        "soundVehiclePlateInt8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_08",1.4,1,35]        "soundVehiclePlateInt9": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_09",1.4,1,35]        "soundVehiclePlateInt10": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_10",1.4,1,35]        "soundVehiclePlateInt11": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_11",1.4,1,35]        "soundVehiclePlateInt12": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_12",1.4,1,35]        "soundVehiclePlateInt13": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_13",1.4,1,35]        "soundVehiclePlateInt14": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_14",1.4,1,35]        "soundVehiclePlateInt15": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_15",1.4,1,35]        "hitTyre": ["soundTyre1",0.125,"soundTyre2",0.125,"soundTyre3",0.125,"soundTyre4",0.125,"soundTyre5",0.125,"soundTyre6",0.125,"soundTyre7",0.125,"soundTyre8",0.125]        "hitWater": ["soundWater1",0.125,"soundWater2",0.125,"soundWater3",0.125,"soundWater4",0.125,"soundWater5",0.125,"soundWater6",0.125,"soundWater7",0.125,"soundWater8",0.125]        "soundBell1": ["A3\\Sounds_F\\ambient\\objects\\bell_small",1.41254,1,500]        "hitBell": ["soundBell1",1]        "bulletFly1": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby01",2.23872,1,75]        "bulletFly2": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby02",2.23872,1,75]        "bulletFly3": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby03",2.23872,1,75]        "bulletFly4": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby04",2.23872,1,75]        "bulletFly5": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby05",2.23872,1,75]        "bulletFly6": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby06",2.23872,1,75]        "bulletFly7": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby07",2.23872,1,75]        "bulletFly8": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby08",2.23872,1,75]        "bulletFly9": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby09",2.23872,1,75]        "bulletFly10": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby10",2.23872,1,75]        "bulletFly11": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby11",2.23872,1,75]        "bulletFly12": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby12",2.23872,1,75]        "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083]        "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200]        "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200]        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1]        "SuperSonicCrack": {            "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],            "SCrackForest": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "forest"
-            },            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],            "SCrackTrees": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "trees"
-            },            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],            "SCrackMeadow": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "meadow max sea"
-            },            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],            "SCrackHouses": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "houses max interior"
+"rhs_mag_100rnd_127x99_mag_Tracer_Red": {
+    # Ammo: CfgMagazines\\rhs_mag_100rnd_127x99_mag_Tracer_Red\\ammo [Indent level: 1],
+    "ammo": {
+        "ammo": "rhs_ammo_127x99_Ball_Tracer_Red",
+        "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
+        "tracerEndTime": 3,
+        "caliber": 2.34848,
+        # Class: CfgAmmo\\rhs_ammo_127x99_Ball\\CamShakeFire [Indent level: 1],
+        "CamShakeFire": {
+            "power": 1,
+            "duration": 0.2,
+            "frequency": 20,
+            "distance": 8
+        },
+        # Class: CfgAmmo\\rhs_ammo_127x99_Ball\\CamShakePlayerFire [Indent level: 1],
+        "CamShakePlayerFire": {
+            "power": 1,
+            "duration": 0.1,
+            "frequency": 20,
+            "distance": 1
+        },
+        "hit": 30,
+        "indirectHit": 0,
+        "indirectHitRange": 0,
+        "cartridge": "FxCartridge_127",
+        "visibleFire": 8,
+        "audibleFire": 120,
+        "dangerRadiusBulletClose": 12,
+        "dangerRadiusHit": 16,
+        "suppressionRadiusBulletClose": 8,
+        "suppressionRadiusHit": 12,
+        "cost": 5,
+        "airLock": 1,
+        "typicalSpeed": 880,
+        "timeToLive": 10,
+        "tracerScale": 1.2,
+        "tracerStartTime": 0.075,
+        "airFriction": -0.00086,
+        # Class: CfgAmmo\\B_127x99_Ball\\CamShakeExplode [Indent level: 1],
+        "CamShakeExplode": {
+            "power": 3.60555,
+            "duration": 0.8,
+            "frequency": 20,
+            "distance": 10.8167
+        },
+        # Class: CfgAmmo\\B_127x99_Ball\\CamShakeHit [Indent level: 1],
+        "CamShakeHit": {
+            "power": 13,
+            "duration": 0.4,
+            "frequency": 20,
+            "distance": 1
+        },
+        "soundsetbulletfly": ["jsrs_sc_bullet_flyby_soundset"],
+        "soundsetsoniccrack": ["jsrs_sc_127x99mm_soundset"],
+        "sounddefault1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_1.ogg",2.5,1,75],
+        "sounddefault2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_2.ogg",2.5,1,75],
+        "sounddefault3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_3.ogg",2.5,1,75],
+        "sounddefault4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_4.ogg",2.5,1,75],
+        "sounddefault5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_5.ogg",2.5,1,75],
+        "sounddefault6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_6.ogg",2.5,1,75],
+        "sounddefault7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_7.ogg",2.5,1,75],
+        "sounddefault8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\concrete_8.ogg",2.5,1,75],
+        "soundbody1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_1.ogg",1,2,50],
+        "soundbody2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_2.ogg",1,2,50],
+        "soundbody3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_3.ogg",1,2,50],
+        "soundbody4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_4.ogg",1,2,50],
+        "soundbody5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_5.ogg",1,2,50],
+        "soundbody6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_6.ogg",1,2,50],
+        "soundbody7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_7.ogg",1,2,50],
+        "soundbody8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\body_8.ogg",1,2,50],
+        "soundmetallight1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75],
+        "soundmetallight2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75],
+        "soundmetallight3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75],
+        "soundmetallight4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75],
+        "soundmetallight5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75],
+        "soundmetallight6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75],
+        "soundmetallight7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75],
+        "soundmetallight8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75],
+        "soundmetalheavy1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75],
+        "soundmetalheavy2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75],
+        "soundmetalheavy3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75],
+        "soundmetalheavy4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75],
+        "soundmetalheavy5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75],
+        "soundmetalheavy6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75],
+        "soundmetalheavy7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75],
+        "soundmetalheavy8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75],
+        "soundrubber1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_1.ogg",2.5,1,75],
+        "soundrubber2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_2.ogg",2.5,1,75],
+        "soundrubber3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_3.ogg",2.5,1,75],
+        "soundrubber4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_4.ogg",2.5,1,75],
+        "soundrubber5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_5.ogg",2.5,1,75],
+        "soundrubber6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_6.ogg",2.5,1,75],
+        "soundrubber7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_7.ogg",2.5,1,75],
+        "soundrubber8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\rubber_8.ogg",2.5,1,75],
+        "soundglass1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_1.ogg",2.5,1,75],
+        "soundglass2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_2.ogg",2.5,1,75],
+        "soundglass3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_3.ogg",2.5,1,75],
+        "soundglass4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_4.ogg",2.5,1,75],
+        "soundglass5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_5.ogg",2.5,1,75],
+        "soundglass6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_6.ogg",2.5,1,75],
+        "soundglass7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_7.ogg",2.5,1,75],
+        "soundglass8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glass_8.ogg",2.5,1,75],
+        "soundglassarmor1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_1.ogg",2.5,1,75],
+        "soundglassarmor2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_2.ogg",2.5,1,75],
+        "soundglassarmor3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_3.ogg",2.5,1,75],
+        "soundglassarmor4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_4.ogg",2.5,1,75],
+        "soundglassarmor5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_5.ogg",2.5,1,75],
+        "soundglassarmor6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_6.ogg",2.5,1,75],
+        "soundglassarmor7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_7.ogg",2.5,1,75],
+        "soundglassarmor8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\glassarmor_8.ogg",2.5,1,75],
+        "soundwood1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_1.ogg",2.5,1,75],
+        "soundwood2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_2.ogg",2.5,1,75],
+        "soundwood3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_3.ogg",2.5,1,75],
+        "soundwood4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_4.ogg",2.5,1,75],
+        "soundwood5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_5.ogg",2.5,1,75],
+        "soundwood6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_6.ogg",2.5,1,75],
+        "soundwood7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_7.ogg",2.5,1,75],
+        "soundwood8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\wood_8.ogg",2.5,1,75],
+        "soundfoliage1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_1.ogg",2.5,1,75],
+        "soundfoliage2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_2.ogg",2.5,1,75],
+        "soundfoliage3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_3.ogg",2.5,1,75],
+        "soundfoliage4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_4.ogg",2.5,1,75],
+        "soundfoliage5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_5.ogg",2.5,1,75],
+        "soundfoliage6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_6.ogg",2.5,1,75],
+        "soundfoliage7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_7.ogg",2.5,1,75],
+        "soundfoliage8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\foliage_8.ogg",2.5,1,75],
+        "soundbuilding1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_1.ogg",2.5,1,75],
+        "soundbuilding2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_2.ogg",2.5,1,75],
+        "soundbuilding3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_3.ogg",2.5,1,75],
+        "soundbuilding4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_4.ogg",2.5,1,75],
+        "soundbuilding5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_5.ogg",2.5,1,75],
+        "soundbuilding6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_6.ogg",2.5,1,75],
+        "soundbuilding7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_7.ogg",2.5,1,75],
+        "soundbuilding8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\building_8.ogg",2.5,1,75],
+        "soundarmorint1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75],
+        "soundarmorint2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75],
+        "soundarmorint3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75],
+        "soundarmorint4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75],
+        "soundarmorint5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75],
+        "soundarmorint6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75],
+        "soundarmorint7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75],
+        "soundarmorint8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75],
+        "soundmetalint1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_1.ogg",2.5,1,75],
+        "soundmetalint2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_2.ogg",2.5,1,75],
+        "soundmetalint3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_3.ogg",2.5,1,75],
+        "soundmetalint4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_4.ogg",2.5,1,75],
+        "soundmetalint5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_5.ogg",2.5,1,75],
+        "soundmetalint6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_6.ogg",2.5,1,75],
+        "soundmetalint7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_7.ogg",2.5,1,75],
+        "soundmetalint8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_big\\metal_8.ogg",2.5,1,75],
+        "soundbulletwizz1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_1.ogg",2,1,150],
+        "soundbulletwizz2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_2.ogg",2,1,150],
+        "soundbulletwizz3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_3.ogg",2,1,150],
+        "soundbulletwizz4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_4.ogg",2,1,150],
+        "soundbulletwizz5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_5.ogg",2,1,150],
+        "soundbulletwizz6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_6.ogg",2,1,150],
+        "soundbulletwizz7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_7.ogg",2,1,150],
+        "soundbulletwizz8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_8.ogg",2,1,150],
+        "soundbulletwizz9": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_9.ogg",2,1,150],
+        "soundbulletwizz10": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_10.ogg",2,1,150],
+        "soundbulletwizz11": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_11.ogg",2,1,150],
+        "soundbulletwizz12": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_12.ogg",2,1,150],
+        "soundbulletwizz13": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_13.ogg",2,1,150],
+        "soundbulletwizz14": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_14.ogg",2,1,150],
+        "soundbulletwizz15": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_15.ogg",2,1,150],
+        "soundbulletwizz16": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_16.ogg",2,1,150],
+        "soundbulletwizz17": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_17.ogg",2,1,150],
+        "hitarmorint": ["soundarmorint1",0.125,"soundarmorint2",0.125,"soundarmorint3",0.125,"soundarmorint4",0.125,"soundarmorint5",0.125,"soundarmorint6",0.125,"soundarmorint7",0.125,"soundarmorint8",0.125,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitmetalint": ["soundmetalint1",0.125,"soundmetalint2",0.125,"soundmetalint3",0.125,"soundmetalint4",0.125,"soundmetalint5",0.125,"soundmetalint6",0.125,"soundmetalint7",0.125,"soundmetalint8",0.125],
+        "hitgroundsoft": ["sounddefault1",0.125,"sounddefault2",0.125,"sounddefault3",0.125,"sounddefault4",0.125,"sounddefault5",0.125,"sounddefault6",0.125,"sounddefault7",0.125,"sounddefault8",0.125],
+        "hitgroundhard": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitman": ["soundbody1",0.125,"soundbody2",0.125,"soundbody3",0.125,"soundbody4",0.125,"soundbody5",0.125,"soundbody6",0.125,"soundbody7",0.125,"soundbody8",0.125],
+        "hitarmor": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitiron": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitbuilding": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitfoliage": ["soundfoliage1",0.125,"soundfoliage2",0.125,"soundfoliage3",0.125,"soundfoliage4",0.125,"soundfoliage5",0.125,"soundfoliage6",0.125,"soundfoliage7",0.125,"soundfoliage8",0.125],
+        "hitwood": ["soundwood1",0.075,"soundwood2",0.075,"soundwood3",0.075,"soundwood4",0.075,"soundwood5",0.075,"soundwood6",0.075,"soundwood7",0.075,"soundwood8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitglass": ["soundglass1",0.125,"soundglass2",0.125,"soundglass3",0.125,"soundglass4",0.125,"soundglass5",0.125,"soundglass6",0.125,"soundglass7",0.125,"soundglass8",0.125],
+        "hitglassarmored": ["soundglassarmor1",0.125,"soundglassarmor2",0.125,"soundglassarmor3",0.125,"soundglassarmor4",0.125,"soundglassarmor5",0.125,"soundglassarmor6",0.125,"soundglassarmor7",0.125,"soundglassarmor8",0.125],
+        "hitconcrete": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitrubber": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125],
+        "hitplastic": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125],
+        "hitdefault": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitmetal": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitmetalplate": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "visibleFireTime": 2,
+        "deflecting": 15,
+        "muzzleEffect": "",
+        "waterEffectOffset": 0.8,
+        "effectFly": "AmmoClassic",
+        "aiAmmoUsageFlags": "64 + 128 + 256",
+        "soundImpactDefault1": ["A3\\Sounds_F\\weapons\\Grenades\\Grenade_Roll",2.51189,1,200],
+        "impactGroundSoft": ["soundImpactDefault1",1],
+        "impactGroundHard": ["soundImpactDefault1",1],
+        "impactMan": ["soundImpactDefault1",1],
+        "impactIron": ["soundImpactDefault1",1],
+        "impactArmor": ["soundImpactDefault1",1],
+        "impactBuilding": ["soundImpactDefault1",1],
+        "impactFoliage": ["soundImpactDefault1",1],
+        "impactWood": ["soundImpactDefault1",1],
+        "impactGlass": ["soundImpactDefault1",1],
+        "impactGlassArmored": ["soundImpactDefault1",1],
+        "impactConcrete": ["soundImpactDefault1",1],
+        "impactTyre": ["soundImpactDefault1",1],
+        "impactRubber": ["soundImpactDefault1",1],
+        "impactPlastic": ["soundImpactDefault1",1],
+        "impactDefault": ["soundImpactDefault1",1],
+        "impactMetal": ["soundImpactDefault1",1],
+        "impactMetalplate": ["soundImpactDefault1",1],
+        "impactWater": ["soundImpactDefault1",1],
+        "soundGroundSoft1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_01",2.81838,1,75],
+        "soundGroundSoft2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_02",2.81838,1,75],
+        "soundGroundSoft3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_03",2.81838,1,75],
+        "soundGroundSoft4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_04",2.81838,1,75],
+        "soundGroundSoft5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_05",2.81838,1,75],
+        "soundGroundSoft6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_06",2.81838,1,75],
+        "soundGroundSoft7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_07",2.81838,1,75],
+        "soundGroundSoft8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_08",2.81838,1,75],
+        "soundGroundHard1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_01",2.81838,1,75],
+        "soundGroundHard2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_02",2.81838,1,75],
+        "soundGroundHard3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_03",2.81838,1,75],
+        "soundGroundHard4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_04",2.81838,1,75],
+        "soundGroundHard5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_05",2.81838,1,75],
+        "soundGroundHard6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_06",2.81838,1,75],
+        "soundGroundHard7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_07",2.81838,1,75],
+        "soundGroundHard8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_08",2.81838,1,75],
+        "soundGlassArmored1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_01",2.23872,1,75],
+        "soundGlassArmored2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_02",2.23872,1,75],
+        "soundGlassArmored3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_03",2.23872,1,75],
+        "soundGlassArmored4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_04",2.23872,1,75],
+        "soundGlassArmored5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_05",2.23872,1,75],
+        "soundGlassArmored6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_06",2.23872,1,75],
+        "soundGlassArmored7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_07",2.23872,1,75],
+        "soundGlassArmored8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_08",2.23872,1,75],
+        "soundMetal1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_01",2.23872,1,75],
+        "soundMetal2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_02",2.23872,1,75],
+        "soundMetal3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_03",2.23872,1,75],
+        "soundMetal4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_04",2.23872,1,75],
+        "soundMetal5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_05",2.23872,1,75],
+        "soundMetal6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_06",2.23872,1,75],
+        "soundMetal7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_07",2.23872,1,75],
+        "soundMetal8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_08",2.23872,1,75],
+        "soundVehiclePlate1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_01",2.23872,1,75],
+        "soundVehiclePlate2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_02",2.23872,1,75],
+        "soundVehiclePlate3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_03",2.23872,1,75],
+        "soundVehiclePlate4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_04",2.23872,1,75],
+        "soundVehiclePlate5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_05",2.23872,1,75],
+        "soundVehiclePlate6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_06",2.23872,1,75],
+        "soundVehiclePlate7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_07",2.23872,1,75],
+        "soundVehiclePlate8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_08",2.23872,1,75],
+        "soundHitBody1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_01",1,1,75],
+        "soundHitBody2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_02",1,1,75],
+        "soundHitBody3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_03",1,1,75],
+        "soundHitBody4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_04",1,1,75],
+        "soundHitBody5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_05",1,1,75],
+        "soundHitBody6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_06",1,1,75],
+        "soundHitBody7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_07",1,1,75],
+        "soundHitBody8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_08",1,1,75],
+        "soundHitBuilding1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_01",3.98107,1,75],
+        "soundHitBuilding2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_02",3.98107,1,75],
+        "soundHitBuilding3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_03",3.98107,1,75],
+        "soundHitBuilding4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_04",3.98107,1,75],
+        "soundHitBuilding5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_05",3.98107,1,75],
+        "soundHitBuilding6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_06",3.98107,1,75],
+        "soundHitBuilding7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_07",3.98107,1,75],
+        "soundHitBuilding8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_08",3.98107,1,75],
+        "soundHitFoliage1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_01",1,1,75],
+        "soundHitFoliage2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_02",1,1,75],
+        "soundHitFoliage3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_03",1,1,75],
+        "soundHitFoliage4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_04",1,1,75],
+        "soundHitFoliage5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_05",1,1,75],
+        "soundHitFoliage6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_06",1,1,75],
+        "soundHitFoliage7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_07",1,1,75],
+        "soundHitFoliage8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_08",1,1,75],
+        "soundPlastic1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_01",1.41254,1,75],
+        "soundPlastic2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_02",1.41254,1,75],
+        "soundPlastic3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_03",1.41254,1,75],
+        "soundPlastic4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_04",1.41254,1,75],
+        "soundPlastic5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_05",1.41254,1,75],
+        "soundPlastic6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_06",1.41254,1,75],
+        "soundPlastic7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_07",1.41254,1,75],
+        "soundPlastic8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_08",1.41254,1,75],
+        "soundConcrete1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_01",1.99526,1,75],
+        "soundConcrete2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_02",1.99526,1,75],
+        "soundConcrete3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_03",1.99526,1,75],
+        "soundConcrete4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_04",1.99526,1,75],
+        "soundConcrete5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_05",1.99526,1,75],
+        "soundConcrete6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_06",1.99526,1,75],
+        "soundConcrete7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_07",1.99526,1,75],
+        "soundConcrete8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_08",1.99526,1,75],
+        "soundTyre1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_01",1.77828,1,75],
+        "soundTyre2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_02",1.77828,1,75],
+        "soundTyre3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_03",1.77828,1,75],
+        "soundTyre4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_04",1.77828,1,75],
+        "soundTyre5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_05",1.77828,1,75],
+        "soundTyre6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_06",1.77828,1,75],
+        "soundTyre7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_07",1.77828,1,75],
+        "soundTyre8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_08",1.77828,1,75],
+        "soundWater1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_01",1.41254,1,75],
+        "soundWater2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_02",1.41254,1,75],
+        "soundWater3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_03",1.41254,1,75],
+        "soundWater4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_04",1.41254,1,75],
+        "soundWater5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_05",1.41254,1,75],
+        "soundWater6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_06",1.41254,1,75],
+        "soundWater7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_07",1.41254,1,75],
+        "soundWater8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_08",1.41254,1,75],
+        "soundVehiclePlateInt1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_01",1.4,1,35],
+        "soundVehiclePlateInt2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_02",1.4,1,35],
+        "soundVehiclePlateInt3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_03",1.4,1,35],
+        "soundVehiclePlateInt4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_04",1.4,1,35],
+        "soundVehiclePlateInt5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_05",1.4,1,35],
+        "soundVehiclePlateInt6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_06",1.4,1,35],
+        "soundVehiclePlateInt7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_07",1.4,1,35],
+        "soundVehiclePlateInt8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_08",1.4,1,35],
+        "soundVehiclePlateInt9": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_09",1.4,1,35],
+        "soundVehiclePlateInt10": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_10",1.4,1,35],
+        "soundVehiclePlateInt11": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_11",1.4,1,35],
+        "soundVehiclePlateInt12": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_12",1.4,1,35],
+        "soundVehiclePlateInt13": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_13",1.4,1,35],
+        "soundVehiclePlateInt14": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_14",1.4,1,35],
+        "soundVehiclePlateInt15": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_15",1.4,1,35],
+        "hitTyre": ["soundTyre1",0.125,"soundTyre2",0.125,"soundTyre3",0.125,"soundTyre4",0.125,"soundTyre5",0.125,"soundTyre6",0.125,"soundTyre7",0.125,"soundTyre8",0.125],
+        "hitWater": ["soundWater1",0.125,"soundWater2",0.125,"soundWater3",0.125,"soundWater4",0.125,"soundWater5",0.125,"soundWater6",0.125,"soundWater7",0.125,"soundWater8",0.125],
+        "soundBell1": ["A3\\Sounds_F\\ambient\\objects\\bell_small",1.41254,1,500],
+        "hitBell": ["soundBell1",1],
+        "bulletFly1": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby01",2.23872,1,75],
+        "bulletFly2": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby02",2.23872,1,75],
+        "bulletFly3": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby03",2.23872,1,75],
+        "bulletFly4": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby04",2.23872,1,75],
+        "bulletFly5": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby05",2.23872,1,75],
+        "bulletFly6": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby06",2.23872,1,75],
+        "bulletFly7": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby07",2.23872,1,75],
+        "bulletFly8": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby08",2.23872,1,75],
+        "bulletFly9": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby09",2.23872,1,75],
+        "bulletFly10": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby10",2.23872,1,75],
+        "bulletFly11": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby11",2.23872,1,75],
+        "bulletFly12": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby12",2.23872,1,75],
+        "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
+        "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
+        "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
+        "SuperSonicCrack": {
+            "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
+            "SCrackForest": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "forest"
+            },
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
+            "SCrackTrees": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "trees"
+            },
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
+            "SCrackMeadow": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "meadow max sea"
+            },
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
+            "SCrackHouses": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "houses max interior"
             }
-        }        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1]        "HitEffects": {            "Hit_Foliage_green": "ImpactLeavesGreen",            "Hit_Foliage_Dead": "ImpactLeavesDead",            "Hit_Foliage_Green_big": "ImpactLeavesGreenBig",            "Hit_Foliage_Palm": "ImpactLeavesPalm",            "Hit_Foliage_Pine": "ImpactLeavesPine",            "hitFoliage": "ImpactLeaves",            "hitGlass": "ImpactGlass",            "hitGlassArmored": "ImpactGlassThin",            "hitWood": "ImpactWood",            "hitHay": "ImpactHay",            "hitMetal": "ImpactMetal",            "hitMetalPlate": "ImpactMetal",            "hitBuilding": "ImpactPlaster",            "hitPlastic": "ImpactPlastic",            "hitRubber": "ImpactRubber",            "hitTyre": "ImpactTyre",            "hitConcrete": "ImpactConcrete",            "hitMan": "ImpactEffectsBlood",            "hitGroundSoft": "ImpactEffectsSmall",            "hitGroundRed": "ImpactEffectsRed",            "hitGroundHard": "ImpactEffectsHardGround",            "hitWater": "ImpactEffectsWater",            "hitVirtual": "ImpactMetal"
-        }        "soundGroundSoft9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75]        "soundGroundSoft10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75]        "soundGroundSoft11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75]        "soundGroundSoft12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75]        "soundGroundSoft13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75]        "soundGroundSoft14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75]        "soundGroundSoft15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75]        "soundGroundSoft16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75]        "soundGroundSoft17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75]        "soundGroundSoft18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75]        "soundGroundSoft19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75]        "soundGroundSoft20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75]        "soundGroundSoft21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75]        "soundGroundSoft22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75]        "soundGroundSoft23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75]        "soundGroundSoft24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75]        "soundGroundSoft25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75]        "soundGroundSoft26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75]        "soundGroundSoft27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75]        "soundGroundSoft28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75]        "soundGroundHard9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75]        "soundGroundHard10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75]        "soundGroundHard11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75]        "soundGroundHard12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75]        "soundGroundHard13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75]        "soundGroundHard14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75]        "soundGroundHard15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75]        "soundGroundHard16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75]        "soundGroundHard17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75]        "soundGroundHard18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75]        "soundGroundHard19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75]        "soundGroundHard20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75]        "soundGroundHard21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75]        "soundGroundHard22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75]        "soundGroundHard23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75]        "soundGroundHard24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75]        "soundGroundHard25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75]        "soundGroundHard26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75]        "soundGroundHard27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75]        "soundGroundHard28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75]        "soundMetal9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",2.81838,1,75]        "soundMetal10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",2.81838,1,75]        "soundMetal11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",2.81838,1,75]        "soundMetal12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",2.81838,1,75]        "soundMetal13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",2.81838,1,75]        "soundMetal14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",2.81838,1,75]        "soundMetal15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",2.81838,1,75]        "soundMetal16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",2.81838,1,75]        "soundMetal17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",2.81838,1,75]        "soundMetal18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",2.81838,1,75]        "soundMetal19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",2.81838,1,75]        "soundMetal20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",2.81838,1,75]        "soundMetal21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",2.81838,1,75]        "soundMetal22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",2.81838,1,75]        "soundMetal23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",2.81838,1,75]        "soundMetal24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",2.81838,1,75]        "soundMetal25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",2.81838,1,75]        "soundMetal26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",2.81838,1,75]        "soundMetal27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",2.81838,1,75]        "soundMetal28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",2.81838,1,75]        "soundMetal29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",2.81838,1,75]        "soundMetal30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",2.81838,1,75]        "soundMetal31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",2.81838,1,75]        "soundMetal32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",2.81838,1,75]        "soundMetal33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",2.81838,1,75]        "soundMetal34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",2.81838,1,75]        "soundMetal35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",2.81838,1,75]        "soundMetal36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",2.81838,1,75]        "soundMetal37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",2.81838,1,75]        "soundMetal38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",2.81838,1,75]        "soundMetal39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75]        "soundMetal40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75]        "soundMetal41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75]        "soundMetal42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75]        "soundMetal43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75]        "soundMetal44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75]        "soundMetal45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75]        "soundMetal46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75]        "soundMetal47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75]        "soundMetal48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75]        "soundMetal49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75]        "soundMetal50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75]        "soundMetal51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75]        "soundMetal52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75]        "soundMetal53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75]        "soundMetal54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75]        "soundMetal55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75]        "soundMetal56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75]        "soundMetal57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75]        "soundMetal58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",2.81838,1,75]        "soundMetal59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",2.81838,1,75]        "soundMetal60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",2.81838,1,75]        "soundMetal61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",2.81838,1,75]        "soundMetal62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",2.81838,1,75]        "soundMetal63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",2.81838,1,75]        "soundMetal64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",2.81838,1,75]        "soundMetal65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",2.81838,1,75]        "soundMetal66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",2.81838,1,75]        "soundMetal67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",2.81838,1,75]        "soundMetal68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",2.81838,1,75]        "soundMetal69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",2.81838,1,75]        "soundMetal70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",2.81838,1,75]        "soundMetal71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",2.81838,1,75]        "soundVehiclePlate9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1,1,75]        "soundVehiclePlate10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1,1,75]        "soundVehiclePlate11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1,1,75]        "soundVehiclePlate12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1,1,75]        "soundVehiclePlate13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1,1,75]        "soundVehiclePlate14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1,1,75]        "soundVehiclePlate15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1,1,75]        "soundVehiclePlate16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1,1,75]        "soundVehiclePlate17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1,1,75]        "soundVehiclePlate18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1,1,75]        "soundVehiclePlate19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1,1,75]        "soundVehiclePlate20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1,1,75]        "soundVehiclePlate21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1,1,75]        "soundVehiclePlate22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1,1,75]        "soundVehiclePlate23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1,1,75]        "soundVehiclePlate24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1,1,75]        "soundVehiclePlate25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1,1,75]        "soundVehiclePlate26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1,1,75]        "soundVehiclePlate27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1,1,75]        "soundVehiclePlate28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1,1,75]        "soundVehiclePlate29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1,1,75]        "soundVehiclePlate30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1,1,75]        "soundVehiclePlate31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1,1,75]        "soundVehiclePlate32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1,1,75]        "soundVehiclePlate33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1,1,75]        "soundVehiclePlate34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1,1,75]        "soundVehiclePlate35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1,1,75]        "soundVehiclePlate36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1,1,75]        "soundVehiclePlate37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1,1,75]        "soundVehiclePlate38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1,1,75]        "soundVehiclePlate39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75]        "soundVehiclePlate40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75]        "soundVehiclePlate41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75]        "soundVehiclePlate42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75]        "soundVehiclePlate43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75]        "soundVehiclePlate44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75]        "soundVehiclePlate45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75]        "soundVehiclePlate46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75]        "soundVehiclePlate47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75]        "soundVehiclePlate48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75]        "soundVehiclePlate49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75]        "soundVehiclePlate50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75]        "soundVehiclePlate51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75]        "soundVehiclePlate52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75]        "soundVehiclePlate53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75]        "soundVehiclePlate54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75]        "soundVehiclePlate55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75]        "soundVehiclePlate56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75]        "soundVehiclePlate57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75]        "soundVehiclePlate58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1,1,75]        "soundVehiclePlate59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1,1,75]        "soundVehiclePlate60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1,1,75]        "soundVehiclePlate61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1,1,75]        "soundVehiclePlate62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1,1,75]        "soundVehiclePlate63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1,1,75]        "soundVehiclePlate64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1,1,75]        "soundVehiclePlate65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1,1,75]        "soundVehiclePlate66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1,1,75]        "soundVehiclePlate67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1,1,75]        "soundVehiclePlate68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1,1,75]        "soundVehiclePlate69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1,1,75]        "soundVehiclePlate70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1,1,75]        "soundVehiclePlate71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1,1,75]        "soundWood9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_01",0.501187,1,75]        "soundWood10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_02",0.501187,1,75]        "soundWood11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_03",0.501187,1,75]        "soundWood12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_04",1.77828,1,75]        "soundWood13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_05",1.41254,1,75]        "soundWood14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.23872,0.8,75]        "soundWood15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.23872,0.8,75]        "soundWood16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.23872,0.8,75]        "soundWood17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_09",2.81838,1,75]        "soundWood18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_10",2.81838,1,75]        "soundWood19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_11",2.81838,1,75]        "soundWood20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_12",2.81838,1,90]        "soundWood21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_13",2.81838,1,75]        "soundWood22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_14",2.81838,1,75]        "soundWood23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_15",2.81838,1,87]        "soundWood24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_16",2.81838,1,75]        "soundWood25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_17",2.81838,1,75]        "soundWood26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.81838,1,85]        "soundWood27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.81838,1,75]        "soundWood28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.81838,1,75]        "soundWood29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_21",2.81838,1,75]        "soundWood30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_22",2.81838,1,75]        "soundWood31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_23",0.501187,1,75]        "soundWood32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_24",0.501187,1,75]        "soundWood33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_25",0.501187,1,75]        "soundWood34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_26",0.501187,1,75]        "soundWood35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_27",2.81838,1,75]        "soundWood36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_28",2.81838,1,75]        "soundWood37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_29",2.81838,1,75]        "soundWood38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_30",2.81838,1,75]        "soundWood39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_31",2.81838,1,75]        "soundWood40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_32",2.81838,1,75]        "soundWood41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_33",2.81838,1,90]        "soundWood42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_34",2.81838,1,75]        "soundWood43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_35",2.81838,1,95]        "soundWood44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_36",2.81838,1,75]        "soundWood45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_37",2.81838,1,75]        "soundWood46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_38",1.77828,1,75]        "soundWood47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_39",1.77828,1,75]        "soundWood48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_40",2.81838,1,75]        "soundWood49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_41",2.81838,1,76]        "soundWood50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_42",2.81838,1,75]        "soundWood51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75]        "soundWood52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,93]        "soundWood53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75]        "soundWood54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75]        "soundWood55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,95]        "soundWood56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75]        "soundWood58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75]        "soundWood59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75]        "soundWood60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75]        "soundWood62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,91]        "soundWood63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75]        "soundWood64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75]        "soundWood65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75]        "soundWood66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,89]        "soundWood67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75]        "soundWood68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75]        "soundWood69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75]        "soundWood70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,89]        "soundWood72": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75]        "soundWood74": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75]        "soundWood75": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,85]        "soundWood76": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75]        "soundWood77": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75]        "soundWood78": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1.41254,1,75]        "soundWood79": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1.41254,1,75]        "soundWood80": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75]        "soundWood81": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,99]        "soundWood82": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75]        "soundWood83": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75]        "soundHitBuilding9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75]        "soundHitBuilding10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75]        "soundHitBuilding11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75]        "soundHitBuilding12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75]        "soundHitBuilding13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75]        "soundHitBuilding14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75]        "soundHitBuilding15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75]        "soundHitBuilding16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75]        "soundHitBuilding17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75]        "soundHitBuilding18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75]        "soundHitBuilding19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75]        "soundHitBuilding20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75]        "soundHitBuilding21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75]        "soundHitBuilding22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75]        "soundHitBuilding23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75]        "soundHitBuilding24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75]        "soundHitBuilding25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75]        "soundHitBuilding26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75]        "soundHitBuilding27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75]        "soundHitBuilding28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,75]        "soundHitBuilding29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",2.81838,1,75]        "soundHitBuilding30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75]        "soundHitBuilding31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",2.81838,1,75]        "soundHitBuilding32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75]        "soundHitBuilding33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,75]        "soundHitBuilding34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75]        "soundHitBuilding35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75]        "soundHitBuilding36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",2.81838,1,75]        "soundHitBuilding37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",2.81838,1,75]        "soundHitBuilding38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75]        "soundHitBuilding39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,75]        "soundHitBuilding40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75]        "soundHitBuilding41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75]        "soundConcrete9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75]        "soundConcrete10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75]        "soundConcrete11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75]        "soundConcrete12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75]        "soundConcrete13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75]        "soundConcrete14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75]        "soundConcrete15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75]        "soundConcrete16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75]        "soundConcrete17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75]        "soundConcrete18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75]        "soundConcrete19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75]        "soundConcrete20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75]        "soundConcrete21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75]        "soundConcrete22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75]        "soundConcrete23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75]        "soundConcrete24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75]        "soundConcrete25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75]        "soundConcrete26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75]        "soundConcrete27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75]        "soundConcrete28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",1,1,75]        "soundConcrete29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",1,1,75]        "soundConcrete30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",1,1,75]        "soundConcrete31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",1,1,75]        "soundConcrete32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",1,1,75]        "soundConcrete33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",1,1,75]        "soundConcrete34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",1,1,75]        "soundConcrete35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",1,1,75]        "soundConcrete36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1,1,75]        "soundConcrete37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1,1,75]        "soundConcrete38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",1,1,75]        "soundConcrete39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",1,1,75]        "soundConcrete40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",1,1,75]        "soundConcrete41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",1,1,75]        "soundMetalInt9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1.41254,1,35]        "soundMetalInt10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1.41254,1,35]        "soundMetalInt11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1.41254,1,35]        "soundMetalInt12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1.41254,1,35]        "soundMetalInt13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1.41254,1,35]        "soundMetalInt14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1.41254,1,35]        "soundMetalInt15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1.41254,1,35]        "soundMetalInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.41254,1,35]        "soundMetalInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.41254,1,35]        "soundMetalInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.41254,1,35]        "soundMetalInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.41254,1,35]        "soundMetalInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.41254,1,35]        "soundMetalInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.41254,1,35]        "soundMetalInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.41254,1,35]        "soundMetalInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.41254,1,35]        "soundMetalInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.41254,1,35]        "soundMetalInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.41254,1,35]        "soundMetalInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.41254,1,35]        "soundMetalInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.41254,1,35]        "soundMetalInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.41254,1,35]        "soundMetalInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.41254,1,35]        "soundMetalInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.41254,1,35]        "soundMetalInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.41254,1,35]        "soundMetalInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.41254,1,35]        "soundMetalInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.41254,1,35]        "soundMetalInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.41254,1,35]        "soundMetalInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.41254,1,35]        "soundMetalInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.41254,1,35]        "soundMetalInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.41254,1,35]        "soundMetalInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.41254,1,35]        "soundMetalInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,35]        "soundMetalInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,35]        "soundMetalInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,35]        "soundMetalInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,35]        "soundMetalInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,35]        "soundMetalInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,35]        "soundMetalInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,35]        "soundMetalInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,35]        "soundMetalInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,35]        "soundMetalInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,35]        "soundMetalInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,35]        "soundMetalInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,35]        "soundMetalInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,35]        "soundMetalInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,35]        "soundMetalInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,35]        "soundMetalInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,35]        "soundMetalInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,35]        "soundMetalInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,35]        "soundMetalInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,35]        "soundMetalInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01","",1,35]        "soundMetalInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02","",1,35]        "soundMetalInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03","",1,35]        "soundMetalInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04","",1,35]        "soundMetalInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05","",1,35]        "soundMetalInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06","",1,35]        "soundMetalInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07","",1,35]        "soundMetalInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08","",1,35]        "soundMetalInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09","",1,35]        "soundMetalInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10","",1,35]        "soundMetalInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11","",1,35]        "soundMetalInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12","",1,35]        "soundMetalInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13","",1,35]        "soundMetalInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14","",1,35]        "soundVehiclePlateInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.2,1,35]        "soundVehiclePlateInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.2,1,35]        "soundVehiclePlateInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.2,1,35]        "soundVehiclePlateInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.2,1,35]        "soundVehiclePlateInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.2,1,35]        "soundVehiclePlateInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.2,1,35]        "soundVehiclePlateInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.2,1,35]        "soundVehiclePlateInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.2,1,35]        "soundVehiclePlateInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.2,1,35]        "soundVehiclePlateInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.2,1,35]        "soundVehiclePlateInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.2,1,35]        "soundVehiclePlateInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.2,1,35]        "soundVehiclePlateInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.2,1,35]        "soundVehiclePlateInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.2,1,35]        "soundVehiclePlateInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.2,1,35]        "soundVehiclePlateInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.2,1,35]        "soundVehiclePlateInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.2,1,35]        "soundVehiclePlateInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.2,1,35]        "soundVehiclePlateInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.2,1,35]        "soundVehiclePlateInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.2,1,35]        "soundVehiclePlateInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.2,1,35]        "soundVehiclePlateInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.2,1,35]        "soundVehiclePlateInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.2,1,35]        "soundVehiclePlateInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1.2,1,35]        "soundVehiclePlateInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1.2,1,35]        "soundVehiclePlateInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1.2,1,35]        "soundVehiclePlateInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1.2,1,35]        "soundVehiclePlateInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1.2,1,35]        "soundVehiclePlateInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1.2,1,35]        "soundVehiclePlateInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1.2,1,35]        "soundVehiclePlateInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1.2,1,35]        "soundVehiclePlateInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1.2,1,35]        "soundVehiclePlateInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1.2,1,35]        "soundVehiclePlateInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1.2,1,35]        "soundVehiclePlateInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1.2,1,35]        "soundVehiclePlateInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1.2,1,35]        "soundVehiclePlateInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1.2,1,35]        "soundVehiclePlateInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1.2,1,35]        "soundVehiclePlateInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1.2,1,35]        "soundVehiclePlateInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1.2,1,35]        "soundVehiclePlateInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1.2,1,35]        "soundVehiclePlateInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1.2,1,35]        "soundVehiclePlateInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1.2,1,35]        "soundVehiclePlateInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1.2,1,35]        "soundVehiclePlateInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1.2,1,35]        "soundVehiclePlateInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1.2,1,35]        "soundVehiclePlateInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1.2,1,35]        "soundVehiclePlateInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1.2,1,35]        "soundVehiclePlateInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1.2,1,35]        "soundVehiclePlateInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1.2,1,35]        "soundVehiclePlateInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1.2,1,35]        "soundVehiclePlateInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1.2,1,35]        "soundVehiclePlateInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1.2,1,35]        "soundVehiclePlateInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1.2,1,35]        "soundVehiclePlateInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1.2,1,35]        "soundVehiclePlateInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1.2,1,35]        "simulation": "shotBullet"        "simulationStep": 0.05        "soundFly": ["",0.251189,0.7]        "explosive": 0        "soundHit1": ["",0.0316228,1]        "soundHit2": ["",0.0316228,1]        "soundHit3": ["",0.0316228,1]        "soundHitMan1": ["",0.0125893,1]        "soundHitMan2": ["",0.0125893,1]        "soundHitArmor1": ["",0.0316228,1]        "soundHitArmor2": ["",0.0316228,1]        "hitGround": ["soundHit1",0.33,"soundHit2",0.33,"soundHit3",0.33]        "access": 3        "underwaterHitRangeCoef": 1        "explosionForceCoef": 1        "isCraterOriented": 0        "proxyShape": ""        "craterShape": ""        "weaponType": "Default"        "animated": 0        "shadow": 0        "maxSpeed": 0        "tracerColor": [0.7,0.7,0.5,0.04]        "tracerColorR": [0.7,0.7,0.5,0.04]        "soundEngine": ["",1,1]        "soundHit": ["",1,1]        "soundFall": ["",1,1]        "soundFakeFall": ["soundFall",1]        "soundImpact": ["",1,1]        "grenadeFireSound": []        "grenadeBurningSound": []        "deflectionSlowDown": 0.8        "explosionEffects": "ExplosionEffects"        "craterEffects": "ImpactEffectsMedium"        "craterWaterEffects": "ImpactEffectsWater"        "effectsMissile": "ExplosionEffects"        "effectsMissileInit": ""        "effectsSmoke": "SmokeShellWhite"        "effectsFire": "CannonFire"        "effectFlare": "FlareShell"        "mineJumpEffects": ""        "directionalExplosion": 0        "explosionAngle": 60        "explosionDir": "explosionDir"        "explosionPos": "explosionPos"        "explosionEffectsDir": "explosionDir"        "minimumSafeZone": 0.1        "soundTrigger": []        "soundActivation": []        "soundDeactivation": []        "explosionSoundEffect": ""        "minTimeToLive": 0        "irLock": 0        "laserLock": 0        "nvLock": 0        "artilleryLock": 0        "hitOnWater": 0        "lockSeekRadius": 100        "manualControl": 0        "maxControlRange": 350        "maneuvrability": 1        "trackLead": 1        "trackOversteer": 1        "missileLockCone": 0        "weaponLockSystem": 0        "cmImmunity": 1        "lockType": 0        "maverickweaponIndexOffset": 0        "sideAirFriction": 1        "artilleryDispersion": 1        "artilleryCharge": 1        "autoSeekTarget": 0        "shootDistraction": -1        "explosionTime": 0        "fuseDistance": 0        "initTime": 0        "thrustTime": 1.5        "thrust": 210        "icon": ""        # Ammo:         "submunitionAmmo": {            "submunitionAmmo": ""        }        "submunitionAmmo": ""        "explosionType": "explosive"        "mineTrigger": "RangeTrigger"        "mineBoundingTime": 3        "mineBoundingDist": 3        "mineInconspicuousness": 10        "mineFloating": -1        "mineDiveSpeed": 1        "minePlaceDist": 0.5        "whistleDist": 0        "whistleOnFire": 0        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1]        "NVGMarkers": {
-        }        "minDamageForCamShakeHit": 0.55        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1]        "EventHandlers": {
-        }    }    "EventHandlers": "rhs_ammo_127x99_Ball_Tracer_Red",
+        },
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
+        "HitEffects": {
+            "Hit_Foliage_green": "ImpactLeavesGreen",
+            "Hit_Foliage_Dead": "ImpactLeavesDead",
+            "Hit_Foliage_Green_big": "ImpactLeavesGreenBig",
+            "Hit_Foliage_Palm": "ImpactLeavesPalm",
+            "Hit_Foliage_Pine": "ImpactLeavesPine",
+            "hitFoliage": "ImpactLeaves",
+            "hitGlass": "ImpactGlass",
+            "hitGlassArmored": "ImpactGlassThin",
+            "hitWood": "ImpactWood",
+            "hitHay": "ImpactHay",
+            "hitMetal": "ImpactMetal",
+            "hitMetalPlate": "ImpactMetal",
+            "hitBuilding": "ImpactPlaster",
+            "hitPlastic": "ImpactPlastic",
+            "hitRubber": "ImpactRubber",
+            "hitTyre": "ImpactTyre",
+            "hitConcrete": "ImpactConcrete",
+            "hitMan": "ImpactEffectsBlood",
+            "hitGroundSoft": "ImpactEffectsSmall",
+            "hitGroundRed": "ImpactEffectsRed",
+            "hitGroundHard": "ImpactEffectsHardGround",
+            "hitWater": "ImpactEffectsWater",
+            "hitVirtual": "ImpactMetal"
+        },
+        "soundGroundSoft9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75],
+        "soundGroundSoft10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75],
+        "soundGroundSoft11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75],
+        "soundGroundSoft12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75],
+        "soundGroundSoft13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75],
+        "soundGroundSoft14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75],
+        "soundGroundSoft15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75],
+        "soundGroundSoft16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75],
+        "soundGroundSoft17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75],
+        "soundGroundSoft18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75],
+        "soundGroundSoft19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75],
+        "soundGroundSoft20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75],
+        "soundGroundSoft21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75],
+        "soundGroundSoft22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75],
+        "soundGroundSoft23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75],
+        "soundGroundSoft24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75],
+        "soundGroundSoft25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75],
+        "soundGroundSoft26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75],
+        "soundGroundSoft27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75],
+        "soundGroundSoft28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75],
+        "soundGroundHard9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75],
+        "soundGroundHard10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75],
+        "soundGroundHard11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75],
+        "soundGroundHard12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75],
+        "soundGroundHard13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75],
+        "soundGroundHard14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75],
+        "soundGroundHard15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75],
+        "soundGroundHard16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75],
+        "soundGroundHard17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75],
+        "soundGroundHard18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75],
+        "soundGroundHard19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75],
+        "soundGroundHard20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75],
+        "soundGroundHard21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75],
+        "soundGroundHard22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75],
+        "soundGroundHard23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75],
+        "soundGroundHard24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75],
+        "soundGroundHard25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75],
+        "soundGroundHard26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75],
+        "soundGroundHard27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75],
+        "soundGroundHard28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75],
+        "soundMetal9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",2.81838,1,75],
+        "soundMetal10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",2.81838,1,75],
+        "soundMetal11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",2.81838,1,75],
+        "soundMetal12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",2.81838,1,75],
+        "soundMetal13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",2.81838,1,75],
+        "soundMetal14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",2.81838,1,75],
+        "soundMetal15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",2.81838,1,75],
+        "soundMetal16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",2.81838,1,75],
+        "soundMetal17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",2.81838,1,75],
+        "soundMetal18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",2.81838,1,75],
+        "soundMetal19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",2.81838,1,75],
+        "soundMetal20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",2.81838,1,75],
+        "soundMetal21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",2.81838,1,75],
+        "soundMetal22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",2.81838,1,75],
+        "soundMetal23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",2.81838,1,75],
+        "soundMetal24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",2.81838,1,75],
+        "soundMetal25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",2.81838,1,75],
+        "soundMetal26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",2.81838,1,75],
+        "soundMetal27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",2.81838,1,75],
+        "soundMetal28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",2.81838,1,75],
+        "soundMetal29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",2.81838,1,75],
+        "soundMetal30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",2.81838,1,75],
+        "soundMetal31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",2.81838,1,75],
+        "soundMetal32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",2.81838,1,75],
+        "soundMetal33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",2.81838,1,75],
+        "soundMetal34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",2.81838,1,75],
+        "soundMetal35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",2.81838,1,75],
+        "soundMetal36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",2.81838,1,75],
+        "soundMetal37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",2.81838,1,75],
+        "soundMetal38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",2.81838,1,75],
+        "soundMetal39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75],
+        "soundMetal40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75],
+        "soundMetal41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75],
+        "soundMetal42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75],
+        "soundMetal43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75],
+        "soundMetal44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75],
+        "soundMetal45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75],
+        "soundMetal46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75],
+        "soundMetal47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75],
+        "soundMetal48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75],
+        "soundMetal49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75],
+        "soundMetal50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75],
+        "soundMetal51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75],
+        "soundMetal52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75],
+        "soundMetal53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75],
+        "soundMetal54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75],
+        "soundMetal55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75],
+        "soundMetal56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75],
+        "soundMetal57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75],
+        "soundMetal58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",2.81838,1,75],
+        "soundMetal59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",2.81838,1,75],
+        "soundMetal60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",2.81838,1,75],
+        "soundMetal61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",2.81838,1,75],
+        "soundMetal62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",2.81838,1,75],
+        "soundMetal63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",2.81838,1,75],
+        "soundMetal64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",2.81838,1,75],
+        "soundMetal65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",2.81838,1,75],
+        "soundMetal66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",2.81838,1,75],
+        "soundMetal67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",2.81838,1,75],
+        "soundMetal68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",2.81838,1,75],
+        "soundMetal69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",2.81838,1,75],
+        "soundMetal70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",2.81838,1,75],
+        "soundMetal71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",2.81838,1,75],
+        "soundVehiclePlate9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1,1,75],
+        "soundVehiclePlate10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1,1,75],
+        "soundVehiclePlate11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1,1,75],
+        "soundVehiclePlate12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1,1,75],
+        "soundVehiclePlate13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1,1,75],
+        "soundVehiclePlate14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1,1,75],
+        "soundVehiclePlate15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1,1,75],
+        "soundVehiclePlate16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1,1,75],
+        "soundVehiclePlate17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1,1,75],
+        "soundVehiclePlate18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1,1,75],
+        "soundVehiclePlate19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1,1,75],
+        "soundVehiclePlate20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1,1,75],
+        "soundVehiclePlate21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1,1,75],
+        "soundVehiclePlate22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1,1,75],
+        "soundVehiclePlate23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1,1,75],
+        "soundVehiclePlate24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1,1,75],
+        "soundVehiclePlate25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1,1,75],
+        "soundVehiclePlate26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1,1,75],
+        "soundVehiclePlate27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1,1,75],
+        "soundVehiclePlate28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1,1,75],
+        "soundVehiclePlate29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1,1,75],
+        "soundVehiclePlate30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1,1,75],
+        "soundVehiclePlate31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1,1,75],
+        "soundVehiclePlate32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1,1,75],
+        "soundVehiclePlate33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1,1,75],
+        "soundVehiclePlate34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1,1,75],
+        "soundVehiclePlate35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1,1,75],
+        "soundVehiclePlate36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1,1,75],
+        "soundVehiclePlate37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1,1,75],
+        "soundVehiclePlate38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1,1,75],
+        "soundVehiclePlate39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75],
+        "soundVehiclePlate40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75],
+        "soundVehiclePlate41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75],
+        "soundVehiclePlate42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75],
+        "soundVehiclePlate43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75],
+        "soundVehiclePlate44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75],
+        "soundVehiclePlate45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75],
+        "soundVehiclePlate46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75],
+        "soundVehiclePlate47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75],
+        "soundVehiclePlate48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75],
+        "soundVehiclePlate49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75],
+        "soundVehiclePlate50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75],
+        "soundVehiclePlate51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75],
+        "soundVehiclePlate52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75],
+        "soundVehiclePlate53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75],
+        "soundVehiclePlate54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75],
+        "soundVehiclePlate55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75],
+        "soundVehiclePlate56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75],
+        "soundVehiclePlate57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75],
+        "soundVehiclePlate58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1,1,75],
+        "soundVehiclePlate59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1,1,75],
+        "soundVehiclePlate60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1,1,75],
+        "soundVehiclePlate61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1,1,75],
+        "soundVehiclePlate62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1,1,75],
+        "soundVehiclePlate63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1,1,75],
+        "soundVehiclePlate64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1,1,75],
+        "soundVehiclePlate65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1,1,75],
+        "soundVehiclePlate66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1,1,75],
+        "soundVehiclePlate67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1,1,75],
+        "soundVehiclePlate68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1,1,75],
+        "soundVehiclePlate69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1,1,75],
+        "soundVehiclePlate70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1,1,75],
+        "soundVehiclePlate71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1,1,75],
+        "soundWood9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_01",0.501187,1,75],
+        "soundWood10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_02",0.501187,1,75],
+        "soundWood11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_03",0.501187,1,75],
+        "soundWood12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_04",1.77828,1,75],
+        "soundWood13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_05",1.41254,1,75],
+        "soundWood14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.23872,0.8,75],
+        "soundWood15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.23872,0.8,75],
+        "soundWood16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.23872,0.8,75],
+        "soundWood17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_09",2.81838,1,75],
+        "soundWood18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_10",2.81838,1,75],
+        "soundWood19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_11",2.81838,1,75],
+        "soundWood20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_12",2.81838,1,90],
+        "soundWood21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_13",2.81838,1,75],
+        "soundWood22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_14",2.81838,1,75],
+        "soundWood23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_15",2.81838,1,87],
+        "soundWood24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_16",2.81838,1,75],
+        "soundWood25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_17",2.81838,1,75],
+        "soundWood26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.81838,1,85],
+        "soundWood27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.81838,1,75],
+        "soundWood28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.81838,1,75],
+        "soundWood29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_21",2.81838,1,75],
+        "soundWood30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_22",2.81838,1,75],
+        "soundWood31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_23",0.501187,1,75],
+        "soundWood32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_24",0.501187,1,75],
+        "soundWood33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_25",0.501187,1,75],
+        "soundWood34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_26",0.501187,1,75],
+        "soundWood35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_27",2.81838,1,75],
+        "soundWood36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_28",2.81838,1,75],
+        "soundWood37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_29",2.81838,1,75],
+        "soundWood38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_30",2.81838,1,75],
+        "soundWood39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_31",2.81838,1,75],
+        "soundWood40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_32",2.81838,1,75],
+        "soundWood41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_33",2.81838,1,90],
+        "soundWood42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_34",2.81838,1,75],
+        "soundWood43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_35",2.81838,1,95],
+        "soundWood44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_36",2.81838,1,75],
+        "soundWood45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_37",2.81838,1,75],
+        "soundWood46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_38",1.77828,1,75],
+        "soundWood47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_39",1.77828,1,75],
+        "soundWood48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_40",2.81838,1,75],
+        "soundWood49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_41",2.81838,1,76],
+        "soundWood50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_42",2.81838,1,75],
+        "soundWood51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75],
+        "soundWood52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,93],
+        "soundWood53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75],
+        "soundWood54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75],
+        "soundWood55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,95],
+        "soundWood56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75],
+        "soundWood58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75],
+        "soundWood59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75],
+        "soundWood60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75],
+        "soundWood62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,91],
+        "soundWood63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75],
+        "soundWood64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75],
+        "soundWood65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75],
+        "soundWood66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,89],
+        "soundWood67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75],
+        "soundWood68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75],
+        "soundWood69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75],
+        "soundWood70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,89],
+        "soundWood72": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75],
+        "soundWood74": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75],
+        "soundWood75": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,85],
+        "soundWood76": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75],
+        "soundWood77": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75],
+        "soundWood78": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1.41254,1,75],
+        "soundWood79": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1.41254,1,75],
+        "soundWood80": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75],
+        "soundWood81": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,99],
+        "soundWood82": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75],
+        "soundWood83": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75],
+        "soundHitBuilding9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75],
+        "soundHitBuilding10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75],
+        "soundHitBuilding11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75],
+        "soundHitBuilding12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75],
+        "soundHitBuilding13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75],
+        "soundHitBuilding14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75],
+        "soundHitBuilding15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75],
+        "soundHitBuilding16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75],
+        "soundHitBuilding17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75],
+        "soundHitBuilding18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75],
+        "soundHitBuilding19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75],
+        "soundHitBuilding20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75],
+        "soundHitBuilding21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75],
+        "soundHitBuilding22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75],
+        "soundHitBuilding23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75],
+        "soundHitBuilding24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75],
+        "soundHitBuilding25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75],
+        "soundHitBuilding26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75],
+        "soundHitBuilding27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75],
+        "soundHitBuilding28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,75],
+        "soundHitBuilding29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",2.81838,1,75],
+        "soundHitBuilding30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75],
+        "soundHitBuilding31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",2.81838,1,75],
+        "soundHitBuilding32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75],
+        "soundHitBuilding33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,75],
+        "soundHitBuilding34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75],
+        "soundHitBuilding35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75],
+        "soundHitBuilding36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",2.81838,1,75],
+        "soundHitBuilding37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",2.81838,1,75],
+        "soundHitBuilding38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75],
+        "soundHitBuilding39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,75],
+        "soundHitBuilding40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75],
+        "soundHitBuilding41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75],
+        "soundConcrete9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75],
+        "soundConcrete10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75],
+        "soundConcrete11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75],
+        "soundConcrete12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75],
+        "soundConcrete13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75],
+        "soundConcrete14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75],
+        "soundConcrete15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75],
+        "soundConcrete16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75],
+        "soundConcrete17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75],
+        "soundConcrete18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75],
+        "soundConcrete19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75],
+        "soundConcrete20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75],
+        "soundConcrete21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75],
+        "soundConcrete22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75],
+        "soundConcrete23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75],
+        "soundConcrete24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75],
+        "soundConcrete25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75],
+        "soundConcrete26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75],
+        "soundConcrete27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75],
+        "soundConcrete28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",1,1,75],
+        "soundConcrete29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",1,1,75],
+        "soundConcrete30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",1,1,75],
+        "soundConcrete31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",1,1,75],
+        "soundConcrete32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",1,1,75],
+        "soundConcrete33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",1,1,75],
+        "soundConcrete34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",1,1,75],
+        "soundConcrete35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",1,1,75],
+        "soundConcrete36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1,1,75],
+        "soundConcrete37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1,1,75],
+        "soundConcrete38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",1,1,75],
+        "soundConcrete39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",1,1,75],
+        "soundConcrete40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",1,1,75],
+        "soundConcrete41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",1,1,75],
+        "soundMetalInt9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1.41254,1,35],
+        "soundMetalInt10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1.41254,1,35],
+        "soundMetalInt11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1.41254,1,35],
+        "soundMetalInt12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1.41254,1,35],
+        "soundMetalInt13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1.41254,1,35],
+        "soundMetalInt14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1.41254,1,35],
+        "soundMetalInt15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1.41254,1,35],
+        "soundMetalInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.41254,1,35],
+        "soundMetalInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.41254,1,35],
+        "soundMetalInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.41254,1,35],
+        "soundMetalInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.41254,1,35],
+        "soundMetalInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.41254,1,35],
+        "soundMetalInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.41254,1,35],
+        "soundMetalInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.41254,1,35],
+        "soundMetalInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.41254,1,35],
+        "soundMetalInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.41254,1,35],
+        "soundMetalInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.41254,1,35],
+        "soundMetalInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.41254,1,35],
+        "soundMetalInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.41254,1,35],
+        "soundMetalInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.41254,1,35],
+        "soundMetalInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.41254,1,35],
+        "soundMetalInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.41254,1,35],
+        "soundMetalInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.41254,1,35],
+        "soundMetalInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.41254,1,35],
+        "soundMetalInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.41254,1,35],
+        "soundMetalInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.41254,1,35],
+        "soundMetalInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.41254,1,35],
+        "soundMetalInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.41254,1,35],
+        "soundMetalInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.41254,1,35],
+        "soundMetalInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.41254,1,35],
+        "soundMetalInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,35],
+        "soundMetalInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,35],
+        "soundMetalInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,35],
+        "soundMetalInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,35],
+        "soundMetalInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,35],
+        "soundMetalInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,35],
+        "soundMetalInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,35],
+        "soundMetalInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,35],
+        "soundMetalInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,35],
+        "soundMetalInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,35],
+        "soundMetalInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,35],
+        "soundMetalInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,35],
+        "soundMetalInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,35],
+        "soundMetalInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,35],
+        "soundMetalInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,35],
+        "soundMetalInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,35],
+        "soundMetalInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,35],
+        "soundMetalInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,35],
+        "soundMetalInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,35],
+        "soundMetalInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01","",1,35],
+        "soundMetalInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02","",1,35],
+        "soundMetalInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03","",1,35],
+        "soundMetalInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04","",1,35],
+        "soundMetalInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05","",1,35],
+        "soundMetalInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06","",1,35],
+        "soundMetalInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07","",1,35],
+        "soundMetalInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08","",1,35],
+        "soundMetalInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09","",1,35],
+        "soundMetalInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10","",1,35],
+        "soundMetalInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11","",1,35],
+        "soundMetalInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12","",1,35],
+        "soundMetalInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13","",1,35],
+        "soundMetalInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14","",1,35],
+        "soundVehiclePlateInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.2,1,35],
+        "soundVehiclePlateInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.2,1,35],
+        "soundVehiclePlateInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.2,1,35],
+        "soundVehiclePlateInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.2,1,35],
+        "soundVehiclePlateInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.2,1,35],
+        "soundVehiclePlateInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.2,1,35],
+        "soundVehiclePlateInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.2,1,35],
+        "soundVehiclePlateInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.2,1,35],
+        "soundVehiclePlateInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.2,1,35],
+        "soundVehiclePlateInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.2,1,35],
+        "soundVehiclePlateInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.2,1,35],
+        "soundVehiclePlateInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.2,1,35],
+        "soundVehiclePlateInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.2,1,35],
+        "soundVehiclePlateInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.2,1,35],
+        "soundVehiclePlateInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.2,1,35],
+        "soundVehiclePlateInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.2,1,35],
+        "soundVehiclePlateInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.2,1,35],
+        "soundVehiclePlateInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.2,1,35],
+        "soundVehiclePlateInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.2,1,35],
+        "soundVehiclePlateInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.2,1,35],
+        "soundVehiclePlateInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.2,1,35],
+        "soundVehiclePlateInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.2,1,35],
+        "soundVehiclePlateInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.2,1,35],
+        "soundVehiclePlateInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1.2,1,35],
+        "soundVehiclePlateInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1.2,1,35],
+        "soundVehiclePlateInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1.2,1,35],
+        "soundVehiclePlateInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1.2,1,35],
+        "soundVehiclePlateInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1.2,1,35],
+        "soundVehiclePlateInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1.2,1,35],
+        "soundVehiclePlateInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1.2,1,35],
+        "soundVehiclePlateInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1.2,1,35],
+        "soundVehiclePlateInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1.2,1,35],
+        "soundVehiclePlateInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1.2,1,35],
+        "soundVehiclePlateInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1.2,1,35],
+        "soundVehiclePlateInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1.2,1,35],
+        "soundVehiclePlateInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1.2,1,35],
+        "soundVehiclePlateInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1.2,1,35],
+        "soundVehiclePlateInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1.2,1,35],
+        "soundVehiclePlateInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1.2,1,35],
+        "soundVehiclePlateInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1.2,1,35],
+        "soundVehiclePlateInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1.2,1,35],
+        "soundVehiclePlateInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1.2,1,35],
+        "soundVehiclePlateInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1.2,1,35],
+        "soundVehiclePlateInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1.2,1,35],
+        "soundVehiclePlateInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1.2,1,35],
+        "soundVehiclePlateInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1.2,1,35],
+        "soundVehiclePlateInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1.2,1,35],
+        "soundVehiclePlateInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1.2,1,35],
+        "soundVehiclePlateInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1.2,1,35],
+        "soundVehiclePlateInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1.2,1,35],
+        "soundVehiclePlateInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1.2,1,35],
+        "soundVehiclePlateInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1.2,1,35],
+        "soundVehiclePlateInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1.2,1,35],
+        "soundVehiclePlateInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1.2,1,35],
+        "soundVehiclePlateInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1.2,1,35],
+        "soundVehiclePlateInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1.2,1,35],
+        "simulation": "shotBullet",
+        "simulationStep": 0.05,
+        "soundFly": ["",0.251189,0.7],
+        "explosive": 0,
+        "soundHit1": ["",0.0316228,1],
+        "soundHit2": ["",0.0316228,1],
+        "soundHit3": ["",0.0316228,1],
+        "soundHitMan1": ["",0.0125893,1],
+        "soundHitMan2": ["",0.0125893,1],
+        "soundHitArmor1": ["",0.0316228,1],
+        "soundHitArmor2": ["",0.0316228,1],
+        "hitGround": ["soundHit1",0.33,"soundHit2",0.33,"soundHit3",0.33],
+        "access": 3,
+        "underwaterHitRangeCoef": 1,
+        "explosionForceCoef": 1,
+        "isCraterOriented": 0,
+        "proxyShape": "",
+        "craterShape": "",
+        "weaponType": "Default",
+        "animated": 0,
+        "shadow": 0,
+        "maxSpeed": 0,
+        "tracerColor": [0.7,0.7,0.5,0.04],
+        "tracerColorR": [0.7,0.7,0.5,0.04],
+        "soundEngine": ["",1,1],
+        "soundHit": ["",1,1],
+        "soundFall": ["",1,1],
+        "soundFakeFall": ["soundFall",1],
+        "soundImpact": ["",1,1],
+        "grenadeFireSound": [],
+        "grenadeBurningSound": [],
+        "deflectionSlowDown": 0.8,
+        "explosionEffects": "ExplosionEffects",
+        "craterEffects": "ImpactEffectsMedium",
+        "craterWaterEffects": "ImpactEffectsWater",
+        "effectsMissile": "ExplosionEffects",
+        "effectsMissileInit": "",
+        "effectsSmoke": "SmokeShellWhite",
+        "effectsFire": "CannonFire",
+        "effectFlare": "FlareShell",
+        "mineJumpEffects": "",
+        "directionalExplosion": 0,
+        "explosionAngle": 60,
+        "explosionDir": "explosionDir",
+        "explosionPos": "explosionPos",
+        "explosionEffectsDir": "explosionDir",
+        "minimumSafeZone": 0.1,
+        "soundTrigger": [],
+        "soundActivation": [],
+        "soundDeactivation": [],
+        "explosionSoundEffect": "",
+        "minTimeToLive": 0,
+        "irLock": 0,
+        "laserLock": 0,
+        "nvLock": 0,
+        "artilleryLock": 0,
+        "hitOnWater": 0,
+        "lockSeekRadius": 100,
+        "manualControl": 0,
+        "maxControlRange": 350,
+        "maneuvrability": 1,
+        "trackLead": 1,
+        "trackOversteer": 1,
+        "missileLockCone": 0,
+        "weaponLockSystem": 0,
+        "cmImmunity": 1,
+        "lockType": 0,
+        "maverickweaponIndexOffset": 0,
+        "sideAirFriction": 1,
+        "artilleryDispersion": 1,
+        "artilleryCharge": 1,
+        "autoSeekTarget": 0,
+        "shootDistraction": -1,
+        "explosionTime": 0,
+        "fuseDistance": 0,
+        "initTime": 0,
+        "thrustTime": 1.5,
+        "thrust": 210,
+        "icon": "",
+        "submunitionAmmo": "",
+        "explosionType": "explosive",
+        "mineTrigger": "RangeTrigger",
+        "mineBoundingTime": 3,
+        "mineBoundingDist": 3,
+        "mineInconspicuousness": 10,
+        "mineFloating": -1,
+        "mineDiveSpeed": 1,
+        "minePlaceDist": 0.5,
+        "whistleDist": 0,
+        "whistleOnFire": 0,
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
+        "NVGMarkers": {
+        },
+        "minDamageForCamShakeHit": 0.55,
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
+        "EventHandlers": {
+        },
+    },
+    "EventHandlers": "rhs_ammo_127x99_Ball_Tracer_Red",
     "displayName": "12.7mm M2 HMG Tracer (Red) Belt",
     "descriptionShort": "Caliber: 12.7x99 mm Tracer - Red<br/>Rounds: 100<br />Used in: Mounted M2",
     "scope": 2,
@@ -4952,10 +5855,10 @@ rhs_mag_100rnd_127x99_mag_Tracer_Red = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -4964,9 +5867,9 @@ rhs_mag_100rnd_127x99_mag_Tracer_Red = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_1100Rnd_762x51_M240 = {
+"rhs_mag_1100Rnd_762x51_M240": {
     "scope": 2,
-    # Ammo: rhs_ammo_762x51_M80A1EPR_Ball,
+    # Ammo: CfgMagazines\\rhs_mag_1100Rnd_762x51_M240\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_762x51_M80A1EPR_Ball",
         "hit": 10.5,
@@ -5197,10 +6100,10 @@ rhs_mag_1100Rnd_762x51_M240 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -5210,7 +6113,7 @@ rhs_mag_1100Rnd_762x51_M240 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -5220,7 +6123,7 @@ rhs_mag_1100Rnd_762x51_M240 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -5230,7 +6133,7 @@ rhs_mag_1100Rnd_762x51_M240 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -5241,7 +6144,7 @@ rhs_mag_1100Rnd_762x51_M240 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -5267,28 +6170,28 @@ rhs_mag_1100Rnd_762x51_M240 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -5876,10 +6779,6 @@ rhs_mag_1100Rnd_762x51_M240 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -5891,11 +6790,11 @@ rhs_mag_1100Rnd_762x51_M240 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -5921,10 +6820,10 @@ rhs_mag_1100Rnd_762x51_M240 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -5934,9 +6833,9 @@ rhs_mag_1100Rnd_762x51_M240 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_1150Rnd_30x173_mixed = {
+"rhs_mag_1150Rnd_30x173_mixed": {
     "count": 1150,
-    # Ammo: rhs_ammo_30x173mm_GAU8_mixed,
+    # Ammo: CfgMagazines\\rhs_mag_1150Rnd_30x173_mixed\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_30x173mm_GAU8_mixed",
         "hit": 180,
@@ -5964,28 +6863,28 @@ rhs_mag_1150Rnd_30x173_mixed = {
         "triggerTime": 0.01,
         "submunitionAmmo": ["rhs_ammo_PGU14B_API",0.8,"rhs_ammo_PGU13B_HE",0.2],
         "model": "A3\\Weapons_f\\empty",
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_30x173mm_GAU8_mixed\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 6,
             "duration": 1,
             "frequency": 20,
             "distance": 83.8178
         },
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_30x173mm_GAU8_mixed\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 30,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_30x173mm_GAU8_mixed\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.34035,
             "duration": 1,
             "frequency": 20,
             "distance": 43.8178
         },
-        # Class: CfgAmmo\rhs_ammo_30x173mm_GAU8_mixed\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_30x173mm_GAU8_mixed\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 30,
             "duration": 0.1,
@@ -6115,18 +7014,18 @@ rhs_mag_1150Rnd_30x173_mixed = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Default\\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
         },
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -6153,10 +7052,10 @@ rhs_mag_1150Rnd_30x173_mixed = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -6166,24 +7065,24 @@ rhs_mag_1150Rnd_30x173_mixed = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_200rnd_127x99_mag_Tracer_Red = {
+"rhs_mag_200rnd_127x99_mag_Tracer_Red": {
     "scope": 2,
     "count": 200,
     "descriptionShort": "Caliber: 12.7x99 mm Tracer - Red<br/>Rounds: 200<br />Used in: Mounted M2",
-    # Ammo: rhs_ammo_127x99_Ball_Tracer_Red,
+    # Ammo: CfgMagazines\\rhs_mag_100rnd_127x99_mag_Tracer_Red\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_127x99_Ball_Tracer_Red",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "tracerEndTime": 3,
         "caliber": 2.34848,
-        # Class: CfgAmmo\rhs_ammo_127x99_Ball\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_Ball\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 1,
             "duration": 0.2,
             "frequency": 20,
             "distance": 8
         },
-        # Class: CfgAmmo\rhs_ammo_127x99_Ball\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_Ball\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 1,
             "duration": 0.1,
@@ -6207,14 +7106,14 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
         "tracerScale": 1.2,
         "tracerStartTime": 0.075,
         "airFriction": -0.00086,
-        # Class: CfgAmmo\B_127x99_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 3.60555,
             "duration": 0.8,
             "frequency": 20,
             "distance": 10.8167
         },
-        # Class: CfgAmmo\B_127x99_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 13,
             "duration": 0.4,
@@ -6509,10 +7408,10 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -6522,7 +7421,7 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -6532,7 +7431,7 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -6542,7 +7441,7 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -6553,7 +7452,7 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -7080,10 +7979,6 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -7095,11 +7990,11 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -7124,10 +8019,10 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -7136,24 +8031,24 @@ rhs_mag_200rnd_127x99_mag_Tracer_Red = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
+"rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red": {
     "scope": 2,
     "count": 200,
     "descriptionShort": "Caliber: 12.7x99 mm SLAP Tracer - Red<br/>Rounds: 200<br />Used in: Mounted M2",
-    # Ammo: rhs_ammo_127x99_SLAP_Tracer_Red,
+    # Ammo: CfgMagazines\\rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Red\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_127x99_SLAP_Tracer_Red",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "tracerEndTime": 3,
         "caliber": 2.80992,
-        # Class: CfgAmmo\rhs_ammo_127x99_SLAP\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_SLAP\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 1,
             "duration": 0.2,
             "frequency": 20,
             "distance": 8
         },
-        # Class: CfgAmmo\rhs_ammo_127x99_SLAP\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_SLAP\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 1,
             "duration": 0.1,
@@ -7166,14 +8061,14 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
         "typicalSpeed": 1215,
         "airFriction": -0.00036,
         "cost": 15,
-        # Class: CfgAmmo\B_127x99_SLAP\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_SLAP\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 4.47214,
             "duration": 0.8,
             "frequency": 20,
             "distance": 13.4164
         },
-        # Class: CfgAmmo\B_127x99_SLAP\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_SLAP\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
@@ -7479,10 +8374,10 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -7492,7 +8387,7 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -7502,7 +8397,7 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -7512,7 +8407,7 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -7523,7 +8418,7 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -8050,10 +8945,6 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -8065,11 +8956,11 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -8094,10 +8985,10 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -8106,9 +8997,9 @@ rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_230Rnd_25mm_M242_HEI = {
+"rhs_mag_230Rnd_25mm_M242_HEI": {
     "scope": 2,
-    # Ammo: RHS_ammo_M792_HEI,
+    # Ammo: CfgMagazines\\rhs_mag_230Rnd_25mm_M242_HEI\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "RHS_ammo_M792_HEI",
         "timeToLive": 7.5,
@@ -8141,28 +9032,28 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_03",1.77828,1,1600],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_04",1.77828,1,1600],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\B_30mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 6,
             "duration": 1,
             "frequency": 20,
             "distance": 67.8178
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 30,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.23607,
             "duration": 1,
             "frequency": 20,
             "distance": 40
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.01,
             "duration": 0.1,
@@ -8384,10 +9275,10 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -8397,7 +9288,7 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -8407,7 +9298,7 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -8417,7 +9308,7 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -8428,7 +9319,7 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -9022,10 +9913,6 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -9037,11 +9924,11 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -9070,10 +9957,10 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -9083,13 +9970,13 @@ rhs_mag_230Rnd_25mm_M242_HEI = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_2Rnd_TOW2A = {
+"rhs_mag_2Rnd_TOW2A": {
     "scope": 2,
-    # Ammo: rhs_ammo_TOW2A_AT,
+    # Ammo: CfgMagazines\\rhs_mag_2Rnd_TOW2A\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_TOW2A_AT",
         "warheadName": "TandemHEAT",
-        # Ammo: rhs_ammo_TOW2A_AT_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_TOW2A_AT\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_TOW2A_AT_penetrator",
             "warheadName": "TandemHEAT",
@@ -9108,7 +9995,7 @@ rhs_mag_2Rnd_TOW2A = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -9339,10 +10226,10 @@ rhs_mag_2Rnd_TOW2A = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -9352,7 +10239,7 @@ rhs_mag_2Rnd_TOW2A = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -9362,7 +10249,7 @@ rhs_mag_2Rnd_TOW2A = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -9372,7 +10259,7 @@ rhs_mag_2Rnd_TOW2A = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -9383,7 +10270,7 @@ rhs_mag_2Rnd_TOW2A = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -9409,28 +10296,28 @@ rhs_mag_2Rnd_TOW2A = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -10018,10 +10905,6 @@ rhs_mag_2Rnd_TOW2A = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -10033,11 +10916,11 @@ rhs_mag_2Rnd_TOW2A = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -10066,7 +10949,7 @@ rhs_mag_2Rnd_TOW2A = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -10078,28 +10961,28 @@ rhs_mag_2Rnd_TOW2A = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -10234,11 +11117,11 @@ rhs_mag_2Rnd_TOW2A = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -10282,60 +11165,166 @@ rhs_mag_2Rnd_TOW2A = {
         "rhs_saclos": 1,
         "rhs_guideMode": "WIRE",
         "flightProfiles": ["Direct"],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Direct [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Direct [Indent level: 1],
         "Direct": {
         },
         "soundFly": ["rhsusf\\addons\\rhsusf_heavyweapons\\Sounds\\TOW",1.1,0.7,550],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers\RHS_Guidance [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers\\RHS_Guidance [Indent level: 2],
+
             "RHS_Guidance": {
+
                 "fired": "_this call RHS_fnc_saclosGuide"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent [Indent level: 4],
+
+
+
                     "VisualSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 5000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 5000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "maxTrackableSpeed": 35,
+
+
+
                         "nightRangeCoef": 0.8,
+
+
+
                         "angleRangeHorizontal": 5,
+
+
+
                         "angleRangeVertical": 5,
+
+
+
                         "componentType": "VisualSensorComponent",
+
+
+
                         "maxFogSeeThrough": 0.94,
+
+
+
                         "color": [1,1,0.5,0.8],
+
+
+
                         "typeRecognitionDistance": 2000,
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "maxGroundNoiseDistance": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": 0,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0,
+
+
+
                         "minTrackableSpeed": -1e+010,
+
+
+
                         "minTrackableATL": -1e+010,
+
+
+
                         "maxTrackableATL": 1e+010
                     }
                 }
@@ -10354,35 +11343,35 @@ rhs_mag_2Rnd_TOW2A = {
         "missileLockMinDistance": 50,
         "missileLockMaxSpeed": 35,
         "cmImmunity": 0.4,
-        # Class: CfgAmmo\M_Titan_AT\TopDown [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\TopDown [Indent level: 1],
         "TopDown": {
             "ascendHeight": 150,
             "descendDistance": 180,
             "minDistance": 180,
             "ascendAngle": 30
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 11,
             "duration": 1.4,
             "frequency": 20,
             "distance": 91.3296
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -10402,7 +11391,7 @@ rhs_mag_2Rnd_TOW2A = {
         "explosionEffects": "ATMissileExplosion",
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -10512,7 +11501,7 @@ rhs_mag_2Rnd_TOW2A = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -10539,10 +11528,10 @@ rhs_mag_2Rnd_TOW2A = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -10552,12 +11541,12 @@ rhs_mag_2Rnd_TOW2A = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_2Rnd_TOW2B = {
+"rhs_mag_2Rnd_TOW2B": {
     "scope": 2,
-    # Ammo: rhs_ammo_TOW2B_AT,
+    # Ammo: CfgMagazines\\rhs_mag_2Rnd_TOW2B\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_TOW2B_AT",
-        # Ammo: rhs_ammo_TOW2B_AT_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_TOW2B_AT\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_TOW2B_AT_penetrator",
             "warheadName": "TandemHEAT",
@@ -10576,7 +11565,7 @@ rhs_mag_2Rnd_TOW2B = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -10807,10 +11796,10 @@ rhs_mag_2Rnd_TOW2B = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -10820,7 +11809,7 @@ rhs_mag_2Rnd_TOW2B = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -10830,7 +11819,7 @@ rhs_mag_2Rnd_TOW2B = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -10840,7 +11829,7 @@ rhs_mag_2Rnd_TOW2B = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -10851,7 +11840,7 @@ rhs_mag_2Rnd_TOW2B = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -10877,28 +11866,28 @@ rhs_mag_2Rnd_TOW2B = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -11486,10 +12475,6 @@ rhs_mag_2Rnd_TOW2B = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -11501,11 +12486,11 @@ rhs_mag_2Rnd_TOW2B = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -11534,7 +12519,7 @@ rhs_mag_2Rnd_TOW2B = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -11546,28 +12531,28 @@ rhs_mag_2Rnd_TOW2B = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -11702,11 +12687,11 @@ rhs_mag_2Rnd_TOW2B = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -11751,60 +12736,166 @@ rhs_mag_2Rnd_TOW2B = {
         "rhs_saclos": 1,
         "rhs_guideMode": "WIRE",
         "flightProfiles": ["Direct"],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Direct [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Direct [Indent level: 1],
         "Direct": {
         },
         "soundFly": ["rhsusf\\addons\\rhsusf_heavyweapons\\Sounds\\TOW",1.1,0.7,550],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers\RHS_Guidance [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers\\RHS_Guidance [Indent level: 2],
+
             "RHS_Guidance": {
+
                 "fired": "_this call RHS_fnc_saclosGuide"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent [Indent level: 4],
+
+
+
                     "VisualSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 5000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 5000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "maxTrackableSpeed": 35,
+
+
+
                         "nightRangeCoef": 0.8,
+
+
+
                         "angleRangeHorizontal": 5,
+
+
+
                         "angleRangeVertical": 5,
+
+
+
                         "componentType": "VisualSensorComponent",
+
+
+
                         "maxFogSeeThrough": 0.94,
+
+
+
                         "color": [1,1,0.5,0.8],
+
+
+
                         "typeRecognitionDistance": 2000,
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "maxGroundNoiseDistance": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": 0,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0,
+
+
+
                         "minTrackableSpeed": -1e+010,
+
+
+
                         "minTrackableATL": -1e+010,
+
+
+
                         "maxTrackableATL": 1e+010
                     }
                 }
@@ -11823,35 +12914,35 @@ rhs_mag_2Rnd_TOW2B = {
         "missileLockMinDistance": 50,
         "missileLockMaxSpeed": 35,
         "cmImmunity": 0.4,
-        # Class: CfgAmmo\M_Titan_AT\TopDown [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\TopDown [Indent level: 1],
         "TopDown": {
             "ascendHeight": 150,
             "descendDistance": 180,
             "minDistance": 180,
             "ascendAngle": 30
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 11,
             "duration": 1.4,
             "frequency": 20,
             "distance": 91.3296
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -11871,7 +12962,7 @@ rhs_mag_2Rnd_TOW2B = {
         "explosionEffects": "ATMissileExplosion",
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -11981,7 +13072,7 @@ rhs_mag_2Rnd_TOW2B = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -12008,10 +13099,10 @@ rhs_mag_2Rnd_TOW2B = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -12021,13 +13112,13 @@ rhs_mag_2Rnd_TOW2B = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_2Rnd_TOW2BB = {
+"rhs_mag_2Rnd_TOW2BB": {
     "scope": 2,
-    # Ammo: rhs_ammo_TOW2_BB,
+    # Ammo: CfgMagazines\\rhs_mag_2Rnd_TOW2BB\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_TOW2_BB",
         "AIAmmoUsageFlags": "64+128+256",
-        # Ammo: rhs_ammo_TOW2_BB_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_TOW2_BB\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_TOW2_BB_penetrator",
             "caliber": 13.3333,
@@ -12035,7 +13126,7 @@ rhs_mag_2Rnd_TOW2BB = {
             "timeToLive": 0.01,
             "triggerTime": 0.0015,
             "deleteParentWhenTriggered": 1,
-            # Ammo: rhs_ammo_TOW2_BB_explosive,
+            # Ammo: CfgAmmo\\rhs_ammo_TOW2_BB_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_TOW2_BB_explosive",
                 "hit": 120,
@@ -12045,28 +13136,28 @@ rhs_mag_2Rnd_TOW2BB = {
                 "CraterEffects": "ArtyShellCrater",
                 "explosionEffects": "MortarExplosion",
                 "effectsMissile": "missile2",
-                # Class: CfgAmmo\rhs_ammo_TOW2_BB_explosive\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\rhs_ammo_TOW2_BB_explosive\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 22,
                     "duration": 2,
                     "frequency": 20,
                     "distance": 227.905
                 },
-                # Class: CfgAmmo\rhs_ammo_TOW2_BB_explosive\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\rhs_ammo_TOW2_BB_explosive\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 110,
                     "duration": 0.6,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\rhs_ammo_TOW2_BB_explosive\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\rhs_ammo_TOW2_BB_explosive\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 3.23853,
                     "duration": 2,
                     "frequency": 20,
                     "distance": 83.9047
                 },
-                # Class: CfgAmmo\rhs_ammo_TOW2_BB_explosive\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\rhs_ammo_TOW2_BB_explosive\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 5,
                     "duration": 0.1,
@@ -12075,7 +13166,7 @@ rhs_mag_2Rnd_TOW2BB = {
                 },
                 "submunitionConeType": ["randomcenter",15],
                 "submunitionConeAngle": 120,
-                # Ammo: rhs_ammo_thermobaric_wave,
+                # Ammo: CfgAmmo\\rhs_ammo_TOW2_BB_explosive\\submunitionAmmo [Indent level: 1],
                 "submunitionAmmo": {
                     "submunitionAmmo": "rhs_ammo_thermobaric_wave",
                     "caliber": 6.66667,
@@ -12307,10 +13398,10 @@ rhs_mag_2Rnd_TOW2BB = {
                     "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                     "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                     "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                     "SuperSonicCrack": {
                         "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                        # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                         "SCrackForest": {
                             "range": [0,500],
                             "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -12320,7 +13411,7 @@ rhs_mag_2Rnd_TOW2BB = {
                             "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                             "trigger": "forest"
                         },
-                        # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                         "SCrackTrees": {
                             "range": [0,500],
                             "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -12330,7 +13421,7 @@ rhs_mag_2Rnd_TOW2BB = {
                             "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                             "trigger": "trees"
                         },
-                        # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                         "SCrackMeadow": {
                             "range": [0,500],
                             "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -12340,7 +13431,7 @@ rhs_mag_2Rnd_TOW2BB = {
                             "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                             "trigger": "meadow max sea"
                         },
-                        # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                         "SCrackHouses": {
                             "range": [0,500],
                             "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -12351,7 +13442,7 @@ rhs_mag_2Rnd_TOW2BB = {
                             "trigger": "houses max interior"
                         }
                     },
-                    # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                    # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                     "HitEffects": {
                         "Hit_Foliage_green": "ImpactLeavesGreen",
                         "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -12377,28 +13468,28 @@ rhs_mag_2Rnd_TOW2BB = {
                         "hitWater": "ImpactEffectsWater",
                         "hitVirtual": "ImpactMetal"
                     },
-                    # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                    # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                     "CamShakeExplode": {
                         "power": 1.73205,
                         "duration": 0.4,
                         "frequency": 20,
                         "distance": 5.19615
                     },
-                    # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                    # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                     "CamShakeHit": {
                         "power": 3,
                         "duration": 0.2,
                         "frequency": 20,
                         "distance": 1
                     },
-                    # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                    # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                     "CamShakeFire": {
                         "power": 0,
                         "duration": 0,
                         "frequency": 0,
                         "distance": 0
                     },
-                    # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                    # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                     "CamShakePlayerFire": {
                         "power": 0,
                         "duration": 0,
@@ -12985,10 +14076,6 @@ rhs_mag_2Rnd_TOW2BB = {
                     "thrustTime": 1.5,
                     "thrust": 210,
                     "icon": "",
-                    # Ammo: ,
-                    "submunitionAmmo": {
-                        "submunitionAmmo": "",
-                    },
                     "submunitionAmmo": "",
                     "explosionType": "explosive",
                     "mineTrigger": "RangeTrigger",
@@ -13000,11 +14087,11 @@ rhs_mag_2Rnd_TOW2BB = {
                     "minePlaceDist": 0.5,
                     "whistleDist": 0,
                     "whistleOnFire": 0,
-                    # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                    # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                     "NVGMarkers": {
                     },
                     "minDamageForCamShakeHit": 0.55,
-                    # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                    # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                     "EventHandlers": {
                     },
                 },
@@ -13045,60 +14132,166 @@ rhs_mag_2Rnd_TOW2BB = {
                 "rhs_saclos": 1,
                 "rhs_guideMode": "WIRE",
                 "flightProfiles": ["Direct"],
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\Direct [Indent level: 1],
+                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Direct [Indent level: 1],
                 "Direct": {
                 },
                 "soundFly": ["rhsusf\\addons\\rhsusf_heavyweapons\\Sounds\\TOW",1.1,0.7,550],
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
-                    # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers\RHS_Guidance [Indent level: 2]
+                    # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers\\RHS_Guidance [Indent level: 2],
+
                     "RHS_Guidance": {
+
                         "fired": "_this call RHS_fnc_saclosGuide"
                     },
-                    # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+                    # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
                     "RHS_APS_FiredEH": {
                         "fired": "_this spawn rhs_fnc_aps_missileFired"
                     }
                 },
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components [Indent level: 1],
+                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components [Indent level: 1],
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent [Indent level: 2]
+                    # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent [Indent level: 2],
+
                     "SensorsManagerComponent": {
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                         "Components": {
-                            # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent [Indent level: 4]
+
+
+                            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent [Indent level: 4],
+
+
+
                             "VisualSensorComponent": {
-                                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                                 "AirTarget": {
+
+
+
+
                                     "minRange": 500,
+
+
+
+
                                     "maxRange": 5000,
+
+
+
+
                                     "objectDistanceLimitCoef": -1,
+
+
+
+
                                     "viewDistanceLimitCoef": 1
                                 },
-                                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                                 "GroundTarget": {
+
+
+
                                     "minRange": 500,
+
+
+
                                     "maxRange": 5000,
+
+
+
                                     "objectDistanceLimitCoef": 1,
+
+
+
                                     "viewDistanceLimitCoef": 1
                                 },
+
+
+
                                 "maxTrackableSpeed": 35,
+
+
+
                                 "nightRangeCoef": 0.8,
+
+
+
                                 "angleRangeHorizontal": 5,
+
+
+
                                 "angleRangeVertical": 5,
+
+
+
                                 "componentType": "VisualSensorComponent",
+
+
+
                                 "maxFogSeeThrough": 0.94,
+
+
+
                                 "color": [1,1,0.5,0.8],
+
+
+
                                 "typeRecognitionDistance": 2000,
+
+
+
                                 "allowsMarking": 1,
+
+
+
                                 "groundNoiseDistanceCoef": -1,
+
+
+
                                 "maxGroundNoiseDistance": -1,
+
+
+
                                 "minSpeedThreshold": 0,
+
+
+
                                 "maxSpeedThreshold": 0,
+
+
+
                                 "animDirection": "",
+
+
+
                                 "aimDown": 0,
+
+
+
                                 "minTrackableSpeed": -1e+010,
+
+
+
                                 "minTrackableATL": -1e+010,
+
+
+
                                 "maxTrackableATL": 1e+010
                             }
                         }
@@ -13117,7 +14310,7 @@ rhs_mag_2Rnd_TOW2BB = {
                 "missileLockMinDistance": 50,
                 "missileLockMaxSpeed": 35,
                 "cmImmunity": 0.4,
-                # Class: CfgAmmo\M_Titan_AT\TopDown [Indent level: 1],
+                # Class: CfgAmmo\\M_Titan_AT\\TopDown [Indent level: 1],
                 "TopDown": {
                     "ascendHeight": 150,
                     "descendDistance": 180,
@@ -13135,7 +14328,7 @@ rhs_mag_2Rnd_TOW2BB = {
                 "supersonicCrackFar": ["A3\\Sounds_F\\weapons\\Explosion\\supersonic_crack_50meters",0.316228,1,50],
                 "dangerRadiusHit": -1,
                 "suppressionRadiusHit": 30,
-                # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "hitWater": "ImpactEffectsWaterRocket"
                 },
@@ -13245,7 +14438,7 @@ rhs_mag_2Rnd_TOW2BB = {
                 "dangerRadiusBulletClose": -1,
                 "caliber": 1,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
@@ -13286,7 +14479,7 @@ rhs_mag_2Rnd_TOW2BB = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -13298,28 +14491,28 @@ rhs_mag_2Rnd_TOW2BB = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -13454,11 +14647,11 @@ rhs_mag_2Rnd_TOW2BB = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -13504,60 +14697,166 @@ rhs_mag_2Rnd_TOW2BB = {
         "rhs_saclos": 1,
         "rhs_guideMode": "WIRE",
         "flightProfiles": ["Direct"],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Direct [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Direct [Indent level: 1],
         "Direct": {
         },
         "soundFly": ["rhsusf\\addons\\rhsusf_heavyweapons\\Sounds\\TOW",1.1,0.7,550],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers\RHS_Guidance [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers\\RHS_Guidance [Indent level: 2],
+
             "RHS_Guidance": {
+
                 "fired": "_this call RHS_fnc_saclosGuide"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent [Indent level: 4],
+
+
+
                     "VisualSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 5000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 5000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "maxTrackableSpeed": 35,
+
+
+
                         "nightRangeCoef": 0.8,
+
+
+
                         "angleRangeHorizontal": 5,
+
+
+
                         "angleRangeVertical": 5,
+
+
+
                         "componentType": "VisualSensorComponent",
+
+
+
                         "maxFogSeeThrough": 0.94,
+
+
+
                         "color": [1,1,0.5,0.8],
+
+
+
                         "typeRecognitionDistance": 2000,
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "maxGroundNoiseDistance": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": 0,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0,
+
+
+
                         "minTrackableSpeed": -1e+010,
+
+
+
                         "minTrackableATL": -1e+010,
+
+
+
                         "maxTrackableATL": 1e+010
                     }
                 }
@@ -13575,35 +14874,35 @@ rhs_mag_2Rnd_TOW2BB = {
         "missileLockMinDistance": 50,
         "missileLockMaxSpeed": 35,
         "cmImmunity": 0.4,
-        # Class: CfgAmmo\M_Titan_AT\TopDown [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\TopDown [Indent level: 1],
         "TopDown": {
             "ascendHeight": 150,
             "descendDistance": 180,
             "minDistance": 180,
             "ascendAngle": 30
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 11,
             "duration": 1.4,
             "frequency": 20,
             "distance": 91.3296
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -13623,7 +14922,7 @@ rhs_mag_2Rnd_TOW2BB = {
         "explosionEffects": "ATMissileExplosion",
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -13733,7 +15032,7 @@ rhs_mag_2Rnd_TOW2BB = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -13760,10 +15059,10 @@ rhs_mag_2Rnd_TOW2BB = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -13773,14 +15072,14 @@ rhs_mag_2Rnd_TOW2BB = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_2Rnd_TOW2B_AERO = {
+"rhs_mag_2Rnd_TOW2B_AERO": {
     "scope": 2,
-    # Ammo: rhs_ammo_TOW2B_AERO_AT,
+    # Ammo: CfgMagazines\\rhs_mag_2Rnd_TOW2B_AERO\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_TOW2B_AERO_AT",
         "model": "rhsusf\\addons\\rhsusf_heavyweapons\\atgm\\TOW2BAERO",
         "maxControlRange": 4000,
-        # Ammo: rhs_ammo_TOW2B_AT_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_TOW2B_AT\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_TOW2B_AT_penetrator",
             "warheadName": "TandemHEAT",
@@ -13799,7 +15098,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -14030,10 +15329,10 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -14043,7 +15342,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -14053,7 +15352,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -14063,7 +15362,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -14074,7 +15373,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -14100,28 +15399,28 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -14709,10 +16008,6 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -14724,11 +16019,11 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -14757,7 +16052,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -14769,28 +16064,28 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -14925,11 +16220,11 @@ rhs_mag_2Rnd_TOW2B_AERO = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -14972,60 +16267,166 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "rhs_saclos": 1,
         "rhs_guideMode": "WIRE",
         "flightProfiles": ["Direct"],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Direct [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Direct [Indent level: 1],
         "Direct": {
         },
         "soundFly": ["rhsusf\\addons\\rhsusf_heavyweapons\\Sounds\\TOW",1.1,0.7,550],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers\RHS_Guidance [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\EventHandlers\\RHS_Guidance [Indent level: 2],
+
             "RHS_Guidance": {
+
                 "fired": "_this call RHS_fnc_saclosGuide"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent [Indent level: 4],
+
+
+
                     "VisualSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 5000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_TOW_AT\\Components\\SensorsManagerComponent\\Components\\VisualSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 5000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "maxTrackableSpeed": 35,
+
+
+
                         "nightRangeCoef": 0.8,
+
+
+
                         "angleRangeHorizontal": 5,
+
+
+
                         "angleRangeVertical": 5,
+
+
+
                         "componentType": "VisualSensorComponent",
+
+
+
                         "maxFogSeeThrough": 0.94,
+
+
+
                         "color": [1,1,0.5,0.8],
+
+
+
                         "typeRecognitionDistance": 2000,
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "maxGroundNoiseDistance": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": 0,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0,
+
+
+
                         "minTrackableSpeed": -1e+010,
+
+
+
                         "minTrackableATL": -1e+010,
+
+
+
                         "maxTrackableATL": 1e+010
                     }
                 }
@@ -15044,35 +16445,35 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "missileLockMinDistance": 50,
         "missileLockMaxSpeed": 35,
         "cmImmunity": 0.4,
-        # Class: CfgAmmo\M_Titan_AT\TopDown [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\TopDown [Indent level: 1],
         "TopDown": {
             "ascendHeight": 150,
             "descendDistance": 180,
             "minDistance": 180,
             "ascendAngle": 30
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 11,
             "duration": 1.4,
             "frequency": 20,
             "distance": 91.3296
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AT\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -15092,7 +16493,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "explosionEffects": "ATMissileExplosion",
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -15202,7 +16603,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -15229,10 +16630,10 @@ rhs_mag_2Rnd_TOW2B_AERO = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -15242,10 +16643,10 @@ rhs_mag_2Rnd_TOW2B_AERO = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_30x113mm_M789_HEDP_1200 = {
+"rhs_mag_30x113mm_M789_HEDP_1200": {
     "scope": 1,
     "displayName": "30x113mm M789 HEDP-T",
-    # Ammo: rhs_ammo_30x113mm_M789_HEDP,
+    # Ammo: CfgMagazines\\rhs_mag_30x113mm_M789_HEDP_1200\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_30x113mm_M789_HEDP",
         "allowagainstinfantry": 1,
@@ -15260,7 +16661,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "caliber": 2,
         "airFriction": -0.00078,
         "timeToLive": 12,
-        # Ammo: rhs_ammo_30x113mm_M789_HEDP_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_30x113mm_M789_HEDP\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_30x113mm_M789_HEDP_penetrator",
             "hit": 90,
@@ -15279,7 +16680,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
             "airFriction": -0.5,
             "whistleOnFire": 0,
             "whistleDist": 0,
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -15510,10 +16911,10 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -15523,7 +16924,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -15533,7 +16934,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -15543,7 +16944,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -15554,7 +16955,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -15580,28 +16981,28 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -16189,10 +17590,6 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -16204,11 +17601,11 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -16237,7 +17634,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -16249,28 +17646,28 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -16405,11 +17802,11 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -16438,28 +17835,28 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_03",1.77828,1,1600],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_04",1.77828,1,1600],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\B_30mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 6,
             "duration": 1,
             "frequency": 20,
             "distance": 67.8178
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 30,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.23607,
             "duration": 1,
             "frequency": 20,
             "distance": 40
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\B_30mm_HE\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.01,
             "duration": 0.1,
@@ -16681,10 +18078,10 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -16694,7 +18091,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -16704,7 +18101,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -16714,7 +18111,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -16725,7 +18122,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -17330,11 +18727,11 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -17360,10 +18757,10 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -17373,24 +18770,24 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_400rnd_127x99_mag_Tracer_Red = {
+"rhs_mag_400rnd_127x99_mag_Tracer_Red": {
     "scope": 2,
     "count": 400,
     "descriptionShort": "Caliber: 12.7x99 mm Tracer - Red<br/>Rounds: 400<br />Used in: Mounted M2",
-    # Ammo: rhs_ammo_127x99_Ball_Tracer_Red,
+    # Ammo: CfgMagazines\\rhs_mag_100rnd_127x99_mag_Tracer_Red\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_127x99_Ball_Tracer_Red",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "tracerEndTime": 3,
         "caliber": 2.34848,
-        # Class: CfgAmmo\rhs_ammo_127x99_Ball\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_Ball\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 1,
             "duration": 0.2,
             "frequency": 20,
             "distance": 8
         },
-        # Class: CfgAmmo\rhs_ammo_127x99_Ball\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_Ball\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 1,
             "duration": 0.1,
@@ -17414,14 +18811,14 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
         "tracerScale": 1.2,
         "tracerStartTime": 0.075,
         "airFriction": -0.00086,
-        # Class: CfgAmmo\B_127x99_Ball\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_Ball\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 3.60555,
             "duration": 0.8,
             "frequency": 20,
             "distance": 10.8167
         },
-        # Class: CfgAmmo\B_127x99_Ball\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_Ball\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 13,
             "duration": 0.4,
@@ -17716,10 +19113,10 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -17729,7 +19126,7 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -17739,7 +19136,7 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -17749,7 +19146,7 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -17760,7 +19157,7 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -18287,10 +19684,6 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -18302,11 +19695,11 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -18331,10 +19724,10 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -18343,9 +19736,9 @@ rhs_mag_400rnd_127x99_mag_Tracer_Red = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-Rhs_mag_4Rnd_stinger = {
+"Rhs_mag_4Rnd_stinger": {
     "scope": 2,
-    # Ammo: rhs_ammo_fim92_missile,
+    # Ammo: CfgMagazines\\rhs_mag_4Rnd_stinger\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_fim92_missile",
         "model": "rhsusf\\addons\\rhsusf_weapons\\FIM92\\Stinger_Rocket",
@@ -18377,7 +19770,7 @@ Rhs_mag_4Rnd_stinger = {
         "effectsMissileInit": "RocketBackEffectsRPG",
         "submunitionConeType": ["randomcenter",30],
         "submunitionConeAngle": 65,
-        # Ammo: rhs_ammo_he_fragments,
+        # Ammo: CfgAmmo\\rhs_ammo_fim92_missile\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_he_fragments",
             "caliber": 0.888889,
@@ -18604,10 +19997,10 @@ Rhs_mag_4Rnd_stinger = {
             "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
             "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
             "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
             "SuperSonicCrack": {
                 "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                 "SCrackForest": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -18617,7 +20010,7 @@ Rhs_mag_4Rnd_stinger = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "forest"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                 "SCrackTrees": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -18627,7 +20020,7 @@ Rhs_mag_4Rnd_stinger = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "trees"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                 "SCrackMeadow": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -18637,7 +20030,7 @@ Rhs_mag_4Rnd_stinger = {
                     "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                     "trigger": "meadow max sea"
                 },
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                 "SCrackHouses": {
                     "range": [0,500],
                     "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -18648,7 +20041,7 @@ Rhs_mag_4Rnd_stinger = {
                     "trigger": "houses max interior"
                 }
             },
-            # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "Hit_Foliage_green": "ImpactLeavesGreen",
                 "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -18674,28 +20067,28 @@ Rhs_mag_4Rnd_stinger = {
                 "hitWater": "ImpactEffectsWater",
                 "hitVirtual": "ImpactMetal"
             },
-            # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 1.73205,
                 "duration": 0.4,
                 "frequency": 20,
                 "distance": 5.19615
             },
-            # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 3,
                 "duration": 0.2,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 0,
                 "duration": 0,
                 "frequency": 0,
                 "distance": 0
             },
-            # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0,
                 "duration": 0,
@@ -19285,10 +20678,6 @@ Rhs_mag_4Rnd_stinger = {
             "thrust": 210,
             "airFriction": -0.0005,
             "icon": "",
-            # Ammo: ,
-            "submunitionAmmo": {
-                "submunitionAmmo": "",
-            },
             "submunitionAmmo": "",
             "explosionType": "explosive",
             "mineTrigger": "RangeTrigger",
@@ -19300,11 +20689,11 @@ Rhs_mag_4Rnd_stinger = {
             "minePlaceDist": 0.5,
             "whistleDist": 0,
             "whistleOnFire": 0,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -19321,44 +20710,145 @@ Rhs_mag_4Rnd_stinger = {
         "missileLockCone": 12,
         "missileKeepLockedCone": 70,
         "weaponLockSystem": "2 + 16",
-        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_fim92_missile\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_fim92_missile\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\rhs_ammo_fim92_missile\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\rhs_ammo_fim92_missile\\Components\\SensorsManagerComponent\\Components\\IRSensorComponent [Indent level: 4],
+
+
+
                     "IRSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_fim92_missile\\Components\\SensorsManagerComponent\\Components\\IRSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 6500,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_fim92_missile\Components\SensorsManagerComponent\Components\IRSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_fim92_missile\\Components\\SensorsManagerComponent\\Components\\IRSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 1000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "typeRecognitionDistance": -1,
+
+
+
                         "angleRangeHorizontal": 35,
+
+
+
                         "angleRangeVertical": 35,
+
+
+
                         "groundNoiseDistanceCoef": 0.02,
+
+
+
                         "maxGroundNoiseDistance": 40,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": -1,
+
+
+
                         "maxFogSeeThrough": 0.8,
+
+
+
                         "minTrackableSpeed": 0,
+
+
+
                         "maxTrackableSpeed": 330,
+
+
+
                         "minTrackableATL": 20,
+
+
+
                         "maxTrackableATL": 4000,
+
+
+
                         "componentType": "IRSensorComponent",
+
+
+
                         "color": [1,0,0,1],
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0
                     }
                 }
@@ -19372,28 +20862,28 @@ Rhs_mag_4Rnd_stinger = {
         "soundHit2": ["A3\\Sounds_F\\arsenal\\weapons\\Launchers\\Titan\\Explosion_titan_missile_02",2.51189,1,1900],
         "soundHit3": ["A3\\Sounds_F\\arsenal\\weapons\\Launchers\\Titan\\Explosion_titan_missile_03",2.51189,1,1900],
         "multiSoundHit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
-        # Class: CfgAmmo\M_Titan_AA\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AA\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 147.905
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AA\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AA\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AA\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\M_Titan_AA\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -19412,7 +20902,7 @@ Rhs_mag_4Rnd_stinger = {
         "deflecting": 0,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -19424,10 +20914,12 @@ Rhs_mag_4Rnd_stinger = {
         "mFact": 0,
         "tBody": 0,
         "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
+
             "RHS_APS_FiredEH": {
+
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
@@ -19531,7 +21023,7 @@ Rhs_mag_4Rnd_stinger = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -19557,10 +21049,10 @@ Rhs_mag_4Rnd_stinger = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -19570,20 +21062,941 @@ Rhs_mag_4Rnd_stinger = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_70Rnd_25mm_M242_APFSDS = {
-    # Ammo: RHS_ammo_M919_APFSDS    "ammo": {        "ammo": "RHS_ammo_M919_APFSDS"        "hit": 90        "caliber": 4.46009        "typicalspeed": 1385        "maxSpeed": 1385        "airfriction": -0.0002        "tracerEndTime": 3.1        "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red"        "soundsetbulletfly": ["jsrs_sc_bullet_flyby_soundset"]        "soundsetsoniccrack": ["jsrs_sc_30x90mm_soundset"]        "soundsetexplosion": ["jsrs_20mm_ap_soundset"]        "indirectHit": 8        "indirectHitRange": 0.2        "deflecting": 15        "cost": 75        "soundHit1": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_01",1.77828,1,1600]        "soundHit2": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_02",1.77828,1,1600]        "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_03",1.77828,1,1600]        "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_04",1.77828,1,1600]        "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25]        # Class: CfgAmmo\B_30mm_APFSDS\HitEffects [Indent level: 1]        "HitEffects": {            "hitMetal": "ImpactMetalSabotSmall",            "hitMetalPlate": "ImpactMetalSabotSmall",            "hitBuilding": "ImpactConcreteSabotSmall",            "hitConcrete": "ImpactConcreteSabotSmall",            "hitGroundSoft": "ImpactEffectsGroundSabot",            "hitGroundHard": "ImpactEffectsGroundSabot",            "Hit_Foliage_green": "ImpactLeavesGreen",            "Hit_Foliage_Dead": "ImpactLeavesDead",            "Hit_Foliage_Green_big": "ImpactLeavesGreenBig",            "Hit_Foliage_Palm": "ImpactLeavesPalm",            "Hit_Foliage_Pine": "ImpactLeavesPine",            "hitFoliage": "ImpactLeaves",            "hitGlass": "ImpactGlass",            "hitGlassArmored": "ImpactGlassThin",            "hitWood": "ImpactWood",            "hitHay": "ImpactHay",            "hitPlastic": "ImpactPlastic",            "hitRubber": "ImpactRubber",            "hitTyre": "ImpactTyre",            "hitMan": "ImpactEffectsBlood",            "hitWater": "ImpactEffectsWater",            "default_mat": "ImpactEffectsGroundSabot"
-        }        # Class: CfgAmmo\B_30mm_APFSDS\CamShakeExplode [Indent level: 1]        "CamShakeExplode": {            "power": 6.7082,            "duration": 1.4,            "frequency": 20,            "distance": 20.1246
-        }        # Class: CfgAmmo\B_30mm_APFSDS\CamShakeHit [Indent level: 1]        "CamShakeHit": {            "power": 45,            "duration": 0.6,            "frequency": 20,            "distance": 1
-        }        # Class: CfgAmmo\B_30mm_APFSDS\CamShakeFire [Indent level: 1]        "CamShakeFire": {            "power": 2.34035,            "duration": 1,            "frequency": 20,            "distance": 43.8178
-        }        # Class: CfgAmmo\B_30mm_APFSDS\CamShakePlayerFire [Indent level: 1]        "CamShakePlayerFire": {            "power": 0.01,            "duration": 0.1,            "frequency": 20,            "distance": 1
-        }        "weaponType": "cannon"        "warheadName": "AP"        "visibleFire": 32        "audibleFire": 200        "visibleFireTime": 3        "dangerRadiusBulletClose": 16        "dangerRadiusHit": 40        "suppressionRadiusBulletClose": 10        "suppressionRadiusHit": 14        "tracerScale": 2.5        "tracerStartTime": 0.1        "muzzleEffect": ""        "airlock": 1        "aiAmmoUsageFlags": "128 + 512"        "allowAgainstInfantry": 1        "cartridge": "FxCartridge_556"        "timeToLive": 6        "waterEffectOffset": 0.8        "effectFly": "AmmoClassic"        "soundImpactDefault1": ["A3\\Sounds_F\\weapons\\Grenades\\Grenade_Roll",2.51189,1,200]        "impactGroundSoft": ["soundImpactDefault1",1]        "impactGroundHard": ["soundImpactDefault1",1]        "impactMan": ["soundImpactDefault1",1]        "impactIron": ["soundImpactDefault1",1]        "impactArmor": ["soundImpactDefault1",1]        "impactBuilding": ["soundImpactDefault1",1]        "impactFoliage": ["soundImpactDefault1",1]        "impactWood": ["soundImpactDefault1",1]        "impactGlass": ["soundImpactDefault1",1]        "impactGlassArmored": ["soundImpactDefault1",1]        "impactConcrete": ["soundImpactDefault1",1]        "impactTyre": ["soundImpactDefault1",1]        "impactRubber": ["soundImpactDefault1",1]        "impactPlastic": ["soundImpactDefault1",1]        "impactDefault": ["soundImpactDefault1",1]        "impactMetal": ["soundImpactDefault1",1]        "impactMetalplate": ["soundImpactDefault1",1]        "impactWater": ["soundImpactDefault1",1]        "soundDefault1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_1.ogg",2.5,1,75]        "soundDefault2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_2.ogg",2.5,1,75]        "soundDefault3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_3.ogg",2.5,1,75]        "soundDefault4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_4.ogg",2.5,1,75]        "soundDefault5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_5.ogg",2.5,1,75]        "soundDefault6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_6.ogg",2.5,1,75]        "soundDefault7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_7.ogg",2.5,1,75]        "soundDefault8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_8.ogg",2.5,1,75]        "soundGroundSoft1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_01",2.81838,1,75]        "soundGroundSoft2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_02",2.81838,1,75]        "soundGroundSoft3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_03",2.81838,1,75]        "soundGroundSoft4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_04",2.81838,1,75]        "soundGroundSoft5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_05",2.81838,1,75]        "soundGroundSoft6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_06",2.81838,1,75]        "soundGroundSoft7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_07",2.81838,1,75]        "soundGroundSoft8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_08",2.81838,1,75]        "soundGroundHard1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_01",2.81838,1,75]        "soundGroundHard2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_02",2.81838,1,75]        "soundGroundHard3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_03",2.81838,1,75]        "soundGroundHard4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_04",2.81838,1,75]        "soundGroundHard5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_05",2.81838,1,75]        "soundGroundHard6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_06",2.81838,1,75]        "soundGroundHard7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_07",2.81838,1,75]        "soundGroundHard8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_08",2.81838,1,75]        "soundGlass1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_1.ogg",2.5,1,75]        "soundGlass2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_2.ogg",2.5,1,75]        "soundGlass3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_3.ogg",2.5,1,75]        "soundGlass4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_4.ogg",2.5,1,75]        "soundGlass5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_5.ogg",2.5,1,75]        "soundGlass6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_6.ogg",2.5,1,75]        "soundGlass7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_7.ogg",2.5,1,75]        "soundGlass8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_8.ogg",2.5,1,75]        "soundGlassArmored1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_01",2.23872,1,75]        "soundGlassArmored2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_02",2.23872,1,75]        "soundGlassArmored3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_03",2.23872,1,75]        "soundGlassArmored4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_04",2.23872,1,75]        "soundGlassArmored5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_05",2.23872,1,75]        "soundGlassArmored6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_06",2.23872,1,75]        "soundGlassArmored7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_07",2.23872,1,75]        "soundGlassArmored8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_08",2.23872,1,75]        "soundMetal1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_01",2.23872,1,75]        "soundMetal2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_02",2.23872,1,75]        "soundMetal3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_03",2.23872,1,75]        "soundMetal4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_04",2.23872,1,75]        "soundMetal5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_05",2.23872,1,75]        "soundMetal6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_06",2.23872,1,75]        "soundMetal7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_07",2.23872,1,75]        "soundMetal8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_08",2.23872,1,75]        "soundVehiclePlate1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_01",2.23872,1,75]        "soundVehiclePlate2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_02",2.23872,1,75]        "soundVehiclePlate3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_03",2.23872,1,75]        "soundVehiclePlate4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_04",2.23872,1,75]        "soundVehiclePlate5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_05",2.23872,1,75]        "soundVehiclePlate6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_06",2.23872,1,75]        "soundVehiclePlate7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_07",2.23872,1,75]        "soundVehiclePlate8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_08",2.23872,1,75]        "soundWood1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_1.ogg",2.5,1,75]        "soundWood2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_2.ogg",2.5,1,75]        "soundWood3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_3.ogg",2.5,1,75]        "soundWood4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_4.ogg",2.5,1,75]        "soundWood5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_5.ogg",2.5,1,75]        "soundWood6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_6.ogg",2.5,1,75]        "soundWood7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_7.ogg",2.5,1,75]        "soundWood8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_8.ogg",2.5,1,75]        "soundHitBody1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_01",1,1,75]        "soundHitBody2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_02",1,1,75]        "soundHitBody3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_03",1,1,75]        "soundHitBody4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_04",1,1,75]        "soundHitBody5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_05",1,1,75]        "soundHitBody6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_06",1,1,75]        "soundHitBody7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_07",1,1,75]        "soundHitBody8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_08",1,1,75]        "soundHitBuilding1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_01",3.98107,1,75]        "soundHitBuilding2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_02",3.98107,1,75]        "soundHitBuilding3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_03",3.98107,1,75]        "soundHitBuilding4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_04",3.98107,1,75]        "soundHitBuilding5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_05",3.98107,1,75]        "soundHitBuilding6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_06",3.98107,1,75]        "soundHitBuilding7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_07",3.98107,1,75]        "soundHitBuilding8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_08",3.98107,1,75]        "soundHitFoliage1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_01",1,1,75]        "soundHitFoliage2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_02",1,1,75]        "soundHitFoliage3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_03",1,1,75]        "soundHitFoliage4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_04",1,1,75]        "soundHitFoliage5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_05",1,1,75]        "soundHitFoliage6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_06",1,1,75]        "soundHitFoliage7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_07",1,1,75]        "soundHitFoliage8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_08",1,1,75]        "soundPlastic1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_01",1.41254,1,75]        "soundPlastic2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_02",1.41254,1,75]        "soundPlastic3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_03",1.41254,1,75]        "soundPlastic4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_04",1.41254,1,75]        "soundPlastic5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_05",1.41254,1,75]        "soundPlastic6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_06",1.41254,1,75]        "soundPlastic7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_07",1.41254,1,75]        "soundPlastic8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_08",1.41254,1,75]        "soundConcrete1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_01",1.99526,1,75]        "soundConcrete2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_02",1.99526,1,75]        "soundConcrete3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_03",1.99526,1,75]        "soundConcrete4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_04",1.99526,1,75]        "soundConcrete5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_05",1.99526,1,75]        "soundConcrete6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_06",1.99526,1,75]        "soundConcrete7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_07",1.99526,1,75]        "soundConcrete8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_08",1.99526,1,75]        "soundTyre1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_01",1.77828,1,75]        "soundTyre2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_02",1.77828,1,75]        "soundTyre3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_03",1.77828,1,75]        "soundTyre4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_04",1.77828,1,75]        "soundTyre5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_05",1.77828,1,75]        "soundTyre6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_06",1.77828,1,75]        "soundTyre7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_07",1.77828,1,75]        "soundTyre8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_08",1.77828,1,75]        "soundRubber1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_1.ogg",2.5,1,75]        "soundRubber2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_2.ogg",2.5,1,75]        "soundRubber3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_3.ogg",2.5,1,75]        "soundRubber4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_4.ogg",2.5,1,75]        "soundRubber5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_5.ogg",2.5,1,75]        "soundRubber6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_6.ogg",2.5,1,75]        "soundWater1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_01",1.41254,1,75]        "soundWater2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_02",1.41254,1,75]        "soundWater3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_03",1.41254,1,75]        "soundWater4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_04",1.41254,1,75]        "soundWater5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_05",1.41254,1,75]        "soundWater6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_06",1.41254,1,75]        "soundWater7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_07",1.41254,1,75]        "soundWater8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_08",1.41254,1,75]        "soundMetalInt1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75]        "soundMetalInt2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75]        "soundMetalInt3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75]        "soundMetalInt4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75]        "soundMetalInt5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75]        "soundMetalInt6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75]        "soundVehiclePlateInt1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_01",1.4,1,35]        "soundVehiclePlateInt2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_02",1.4,1,35]        "soundVehiclePlateInt3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_03",1.4,1,35]        "soundVehiclePlateInt4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_04",1.4,1,35]        "soundVehiclePlateInt5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_05",1.4,1,35]        "soundVehiclePlateInt6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_06",1.4,1,35]        "soundVehiclePlateInt7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_07",1.4,1,35]        "soundVehiclePlateInt8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_08",1.4,1,35]        "soundVehiclePlateInt9": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_09",1.4,1,35]        "soundVehiclePlateInt10": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_10",1.4,1,35]        "soundVehiclePlateInt11": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_11",1.4,1,35]        "soundVehiclePlateInt12": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_12",1.4,1,35]        "soundVehiclePlateInt13": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_13",1.4,1,35]        "soundVehiclePlateInt14": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_14",1.4,1,35]        "soundVehiclePlateInt15": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_15",1.4,1,35]        "hitArmorInt": ["soundarmorint1",0.125,"soundarmorint2",0.125,"soundarmorint3",0.125,"soundarmorint4",0.125,"soundarmorint5",0.125,"soundarmorint6",0.125,"soundarmorint7",0.125,"soundarmorint8",0.125,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitMetalInt": ["soundmetalint1",0.125,"soundmetalint2",0.125,"soundmetalint3",0.125,"soundmetalint4",0.125,"soundmetalint5",0.125,"soundmetalint6",0.125,"soundmetalint7",0.125,"soundmetalint8",0.125]        "hitGroundSoft": ["sounddefault1",0.125,"sounddefault2",0.125,"sounddefault3",0.125,"sounddefault4",0.125,"sounddefault5",0.125,"sounddefault6",0.125,"sounddefault7",0.125,"sounddefault8",0.125]        "hitGroundHard": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitMan": ["soundbody1",0.125,"soundbody2",0.125,"soundbody3",0.125,"soundbody4",0.125,"soundbody5",0.125,"soundbody6",0.125,"soundbody7",0.125,"soundbody8",0.125]        "hitArmor": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitBuilding": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitFoliage": ["soundfoliage1",0.125,"soundfoliage2",0.125,"soundfoliage3",0.125,"soundfoliage4",0.125,"soundfoliage5",0.125,"soundfoliage6",0.125,"soundfoliage7",0.125,"soundfoliage8",0.125]        "hitWood": ["soundwood1",0.075,"soundwood2",0.075,"soundwood3",0.075,"soundwood4",0.075,"soundwood5",0.075,"soundwood6",0.075,"soundwood7",0.075,"soundwood8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitGlass": ["soundglass1",0.125,"soundglass2",0.125,"soundglass3",0.125,"soundglass4",0.125,"soundglass5",0.125,"soundglass6",0.125,"soundglass7",0.125,"soundglass8",0.125]        "hitGlassArmored": ["soundglassarmor1",0.125,"soundglassarmor2",0.125,"soundglassarmor3",0.125,"soundglassarmor4",0.125,"soundglassarmor5",0.125,"soundglassarmor6",0.125,"soundglassarmor7",0.125,"soundglassarmor8",0.125]        "hitConcrete": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitTyre": ["soundTyre1",0.125,"soundTyre2",0.125,"soundTyre3",0.125,"soundTyre4",0.125,"soundTyre5",0.125,"soundTyre6",0.125,"soundTyre7",0.125,"soundTyre8",0.125]        "hitRubber": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125]        "hitPlastic": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125]        "hitDefault": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitMetal": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitMetalplate": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "hitWater": ["soundWater1",0.125,"soundWater2",0.125,"soundWater3",0.125,"soundWater4",0.125,"soundWater5",0.125,"soundWater6",0.125,"soundWater7",0.125,"soundWater8",0.125]        "soundBell1": ["A3\\Sounds_F\\ambient\\objects\\bell_small",1.41254,1,500]        "hitBell": ["soundBell1",1]        "bulletFly1": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby01",2.23872,1,75]        "bulletFly2": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby02",2.23872,1,75]        "bulletFly3": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby03",2.23872,1,75]        "bulletFly4": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby04",2.23872,1,75]        "bulletFly5": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby05",2.23872,1,75]        "bulletFly6": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby06",2.23872,1,75]        "bulletFly7": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby07",2.23872,1,75]        "bulletFly8": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby08",2.23872,1,75]        "bulletFly9": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby09",2.23872,1,75]        "bulletFly10": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby10",2.23872,1,75]        "bulletFly11": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby11",2.23872,1,75]        "bulletFly12": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby12",2.23872,1,75]        "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083]        "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200]        "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200]        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1]        "SuperSonicCrack": {            "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],            "SCrackForest": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "forest"
-            },            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],            "SCrackTrees": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "trees"
-            },            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],            "SCrackMeadow": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "meadow max sea"
-            },            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],            "SCrackHouses": {                "range": [0,500],                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses2",1,1,500],                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses3",1,1,500],                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",                "trigger": "houses max interior"
+"rhs_mag_70Rnd_25mm_M242_APFSDS": {
+    # Ammo: CfgMagazines\\rhs_mag_70Rnd_25mm_M242_APFSDS\\ammo [Indent level: 1],
+    "ammo": {
+        "ammo": "RHS_ammo_M919_APFSDS",
+        "hit": 90,
+        "caliber": 4.46009,
+        "typicalspeed": 1385,
+        "maxSpeed": 1385,
+        "airfriction": -0.0002,
+        "tracerEndTime": 3.1,
+        "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
+        "soundsetbulletfly": ["jsrs_sc_bullet_flyby_soundset"],
+        "soundsetsoniccrack": ["jsrs_sc_30x90mm_soundset"],
+        "soundsetexplosion": ["jsrs_20mm_ap_soundset"],
+        "indirectHit": 8,
+        "indirectHitRange": 0.2,
+        "deflecting": 15,
+        "cost": 75,
+        "soundHit1": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_01",1.77828,1,1600],
+        "soundHit2": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_02",1.77828,1,1600],
+        "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_03",1.77828,1,1600],
+        "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_04",1.77828,1,1600],
+        "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
+        # Class: CfgAmmo\\B_30mm_APFSDS\\HitEffects [Indent level: 1],
+        "HitEffects": {
+            "hitMetal": "ImpactMetalSabotSmall",
+            "hitMetalPlate": "ImpactMetalSabotSmall",
+            "hitBuilding": "ImpactConcreteSabotSmall",
+            "hitConcrete": "ImpactConcreteSabotSmall",
+            "hitGroundSoft": "ImpactEffectsGroundSabot",
+            "hitGroundHard": "ImpactEffectsGroundSabot",
+            "Hit_Foliage_green": "ImpactLeavesGreen",
+            "Hit_Foliage_Dead": "ImpactLeavesDead",
+            "Hit_Foliage_Green_big": "ImpactLeavesGreenBig",
+            "Hit_Foliage_Palm": "ImpactLeavesPalm",
+            "Hit_Foliage_Pine": "ImpactLeavesPine",
+            "hitFoliage": "ImpactLeaves",
+            "hitGlass": "ImpactGlass",
+            "hitGlassArmored": "ImpactGlassThin",
+            "hitWood": "ImpactWood",
+            "hitHay": "ImpactHay",
+            "hitPlastic": "ImpactPlastic",
+            "hitRubber": "ImpactRubber",
+            "hitTyre": "ImpactTyre",
+            "hitMan": "ImpactEffectsBlood",
+            "hitWater": "ImpactEffectsWater",
+            "default_mat": "ImpactEffectsGroundSabot"
+        },
+        # Class: CfgAmmo\\B_30mm_APFSDS\\CamShakeExplode [Indent level: 1],
+        "CamShakeExplode": {
+            "power": 6.7082,
+            "duration": 1.4,
+            "frequency": 20,
+            "distance": 20.1246
+        },
+        # Class: CfgAmmo\\B_30mm_APFSDS\\CamShakeHit [Indent level: 1],
+        "CamShakeHit": {
+            "power": 45,
+            "duration": 0.6,
+            "frequency": 20,
+            "distance": 1
+        },
+        # Class: CfgAmmo\\B_30mm_APFSDS\\CamShakeFire [Indent level: 1],
+        "CamShakeFire": {
+            "power": 2.34035,
+            "duration": 1,
+            "frequency": 20,
+            "distance": 43.8178
+        },
+        # Class: CfgAmmo\\B_30mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
+        "CamShakePlayerFire": {
+            "power": 0.01,
+            "duration": 0.1,
+            "frequency": 20,
+            "distance": 1
+        },
+        "weaponType": "cannon",
+        "warheadName": "AP",
+        "visibleFire": 32,
+        "audibleFire": 200,
+        "visibleFireTime": 3,
+        "dangerRadiusBulletClose": 16,
+        "dangerRadiusHit": 40,
+        "suppressionRadiusBulletClose": 10,
+        "suppressionRadiusHit": 14,
+        "tracerScale": 2.5,
+        "tracerStartTime": 0.1,
+        "muzzleEffect": "",
+        "airlock": 1,
+        "aiAmmoUsageFlags": "128 + 512",
+        "allowAgainstInfantry": 1,
+        "cartridge": "FxCartridge_556",
+        "timeToLive": 6,
+        "waterEffectOffset": 0.8,
+        "effectFly": "AmmoClassic",
+        "soundImpactDefault1": ["A3\\Sounds_F\\weapons\\Grenades\\Grenade_Roll",2.51189,1,200],
+        "impactGroundSoft": ["soundImpactDefault1",1],
+        "impactGroundHard": ["soundImpactDefault1",1],
+        "impactMan": ["soundImpactDefault1",1],
+        "impactIron": ["soundImpactDefault1",1],
+        "impactArmor": ["soundImpactDefault1",1],
+        "impactBuilding": ["soundImpactDefault1",1],
+        "impactFoliage": ["soundImpactDefault1",1],
+        "impactWood": ["soundImpactDefault1",1],
+        "impactGlass": ["soundImpactDefault1",1],
+        "impactGlassArmored": ["soundImpactDefault1",1],
+        "impactConcrete": ["soundImpactDefault1",1],
+        "impactTyre": ["soundImpactDefault1",1],
+        "impactRubber": ["soundImpactDefault1",1],
+        "impactPlastic": ["soundImpactDefault1",1],
+        "impactDefault": ["soundImpactDefault1",1],
+        "impactMetal": ["soundImpactDefault1",1],
+        "impactMetalplate": ["soundImpactDefault1",1],
+        "impactWater": ["soundImpactDefault1",1],
+        "soundDefault1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_1.ogg",2.5,1,75],
+        "soundDefault2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_2.ogg",2.5,1,75],
+        "soundDefault3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_3.ogg",2.5,1,75],
+        "soundDefault4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_4.ogg",2.5,1,75],
+        "soundDefault5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_5.ogg",2.5,1,75],
+        "soundDefault6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_6.ogg",2.5,1,75],
+        "soundDefault7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_7.ogg",2.5,1,75],
+        "soundDefault8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\concrete_8.ogg",2.5,1,75],
+        "soundGroundSoft1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_01",2.81838,1,75],
+        "soundGroundSoft2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_02",2.81838,1,75],
+        "soundGroundSoft3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_03",2.81838,1,75],
+        "soundGroundSoft4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_04",2.81838,1,75],
+        "soundGroundSoft5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_05",2.81838,1,75],
+        "soundGroundSoft6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_06",2.81838,1,75],
+        "soundGroundSoft7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_07",2.81838,1,75],
+        "soundGroundSoft8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\soft_ground_08",2.81838,1,75],
+        "soundGroundHard1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_01",2.81838,1,75],
+        "soundGroundHard2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_02",2.81838,1,75],
+        "soundGroundHard3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_03",2.81838,1,75],
+        "soundGroundHard4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_04",2.81838,1,75],
+        "soundGroundHard5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_05",2.81838,1,75],
+        "soundGroundHard6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_06",2.81838,1,75],
+        "soundGroundHard7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_07",2.81838,1,75],
+        "soundGroundHard8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\hard_ground_08",2.81838,1,75],
+        "soundGlass1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_1.ogg",2.5,1,75],
+        "soundGlass2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_2.ogg",2.5,1,75],
+        "soundGlass3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_3.ogg",2.5,1,75],
+        "soundGlass4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_4.ogg",2.5,1,75],
+        "soundGlass5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_5.ogg",2.5,1,75],
+        "soundGlass6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_6.ogg",2.5,1,75],
+        "soundGlass7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_7.ogg",2.5,1,75],
+        "soundGlass8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glass_8.ogg",2.5,1,75],
+        "soundGlassArmored1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_01",2.23872,1,75],
+        "soundGlassArmored2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_02",2.23872,1,75],
+        "soundGlassArmored3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_03",2.23872,1,75],
+        "soundGlassArmored4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_04",2.23872,1,75],
+        "soundGlassArmored5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_05",2.23872,1,75],
+        "soundGlassArmored6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_06",2.23872,1,75],
+        "soundGlassArmored7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_07",2.23872,1,75],
+        "soundGlassArmored8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\glass_arm_08",2.23872,1,75],
+        "soundMetal1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_01",2.23872,1,75],
+        "soundMetal2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_02",2.23872,1,75],
+        "soundMetal3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_03",2.23872,1,75],
+        "soundMetal4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_04",2.23872,1,75],
+        "soundMetal5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_05",2.23872,1,75],
+        "soundMetal6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_06",2.23872,1,75],
+        "soundMetal7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_07",2.23872,1,75],
+        "soundMetal8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_08",2.23872,1,75],
+        "soundVehiclePlate1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_01",2.23872,1,75],
+        "soundVehiclePlate2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_02",2.23872,1,75],
+        "soundVehiclePlate3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_03",2.23872,1,75],
+        "soundVehiclePlate4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_04",2.23872,1,75],
+        "soundVehiclePlate5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_05",2.23872,1,75],
+        "soundVehiclePlate6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_06",2.23872,1,75],
+        "soundVehiclePlate7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_07",2.23872,1,75],
+        "soundVehiclePlate8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\metal_plate_08",2.23872,1,75],
+        "soundWood1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_1.ogg",2.5,1,75],
+        "soundWood2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_2.ogg",2.5,1,75],
+        "soundWood3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_3.ogg",2.5,1,75],
+        "soundWood4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_4.ogg",2.5,1,75],
+        "soundWood5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_5.ogg",2.5,1,75],
+        "soundWood6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_6.ogg",2.5,1,75],
+        "soundWood7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_7.ogg",2.5,1,75],
+        "soundWood8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\wood_8.ogg",2.5,1,75],
+        "soundHitBody1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_01",1,1,75],
+        "soundHitBody2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_02",1,1,75],
+        "soundHitBody3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_03",1,1,75],
+        "soundHitBody4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_04",1,1,75],
+        "soundHitBody5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_05",1,1,75],
+        "soundHitBody6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_06",1,1,75],
+        "soundHitBody7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_07",1,1,75],
+        "soundHitBody8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\body_08",1,1,75],
+        "soundHitBuilding1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_01",3.98107,1,75],
+        "soundHitBuilding2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_02",3.98107,1,75],
+        "soundHitBuilding3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_03",3.98107,1,75],
+        "soundHitBuilding4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_04",3.98107,1,75],
+        "soundHitBuilding5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_05",3.98107,1,75],
+        "soundHitBuilding6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_06",3.98107,1,75],
+        "soundHitBuilding7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_07",3.98107,1,75],
+        "soundHitBuilding8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\building_08",3.98107,1,75],
+        "soundHitFoliage1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_01",1,1,75],
+        "soundHitFoliage2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_02",1,1,75],
+        "soundHitFoliage3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_03",1,1,75],
+        "soundHitFoliage4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_04",1,1,75],
+        "soundHitFoliage5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_05",1,1,75],
+        "soundHitFoliage6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_06",1,1,75],
+        "soundHitFoliage7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_07",1,1,75],
+        "soundHitFoliage8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\foliage_08",1,1,75],
+        "soundPlastic1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_01",1.41254,1,75],
+        "soundPlastic2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_02",1.41254,1,75],
+        "soundPlastic3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_03",1.41254,1,75],
+        "soundPlastic4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_04",1.41254,1,75],
+        "soundPlastic5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_05",1.41254,1,75],
+        "soundPlastic6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_06",1.41254,1,75],
+        "soundPlastic7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_07",1.41254,1,75],
+        "soundPlastic8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\plastic_08",1.41254,1,75],
+        "soundConcrete1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_01",1.99526,1,75],
+        "soundConcrete2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_02",1.99526,1,75],
+        "soundConcrete3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_03",1.99526,1,75],
+        "soundConcrete4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_04",1.99526,1,75],
+        "soundConcrete5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_05",1.99526,1,75],
+        "soundConcrete6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_06",1.99526,1,75],
+        "soundConcrete7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_07",1.99526,1,75],
+        "soundConcrete8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\concrete_08",1.99526,1,75],
+        "soundTyre1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_01",1.77828,1,75],
+        "soundTyre2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_02",1.77828,1,75],
+        "soundTyre3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_03",1.77828,1,75],
+        "soundTyre4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_04",1.77828,1,75],
+        "soundTyre5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_05",1.77828,1,75],
+        "soundTyre6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_06",1.77828,1,75],
+        "soundTyre7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_07",1.77828,1,75],
+        "soundTyre8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\tyre_08",1.77828,1,75],
+        "soundRubber1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_1.ogg",2.5,1,75],
+        "soundRubber2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_2.ogg",2.5,1,75],
+        "soundRubber3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_3.ogg",2.5,1,75],
+        "soundRubber4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_4.ogg",2.5,1,75],
+        "soundRubber5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_5.ogg",2.5,1,75],
+        "soundRubber6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_6.ogg",2.5,1,75],
+        "soundWater1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_01",1.41254,1,75],
+        "soundWater2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_02",1.41254,1,75],
+        "soundWater3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_03",1.41254,1,75],
+        "soundWater4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_04",1.41254,1,75],
+        "soundWater5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_05",1.41254,1,75],
+        "soundWater6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_06",1.41254,1,75],
+        "soundWater7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_07",1.41254,1,75],
+        "soundWater8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hits\\water_08",1.41254,1,75],
+        "soundMetalInt1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75],
+        "soundMetalInt2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75],
+        "soundMetalInt3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75],
+        "soundMetalInt4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75],
+        "soundMetalInt5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75],
+        "soundMetalInt6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75],
+        "soundVehiclePlateInt1": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_01",1.4,1,35],
+        "soundVehiclePlateInt2": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_02",1.4,1,35],
+        "soundVehiclePlateInt3": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_03",1.4,1,35],
+        "soundVehiclePlateInt4": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_04",1.4,1,35],
+        "soundVehiclePlateInt5": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_05",1.4,1,35],
+        "soundVehiclePlateInt6": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_06",1.4,1,35],
+        "soundVehiclePlateInt7": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_07",1.4,1,35],
+        "soundVehiclePlateInt8": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_08",1.4,1,35],
+        "soundVehiclePlateInt9": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_09",1.4,1,35],
+        "soundVehiclePlateInt10": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_10",1.4,1,35],
+        "soundVehiclePlateInt11": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_11",1.4,1,35],
+        "soundVehiclePlateInt12": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_12",1.4,1,35],
+        "soundVehiclePlateInt13": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_13",1.4,1,35],
+        "soundVehiclePlateInt14": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_14",1.4,1,35],
+        "soundVehiclePlateInt15": ["A3\\Sounds_F\\arsenal\\sfx\\bullet_hitsInt\\metal_plate_15",1.4,1,35],
+        "hitArmorInt": ["soundarmorint1",0.125,"soundarmorint2",0.125,"soundarmorint3",0.125,"soundarmorint4",0.125,"soundarmorint5",0.125,"soundarmorint6",0.125,"soundarmorint7",0.125,"soundarmorint8",0.125,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitMetalInt": ["soundmetalint1",0.125,"soundmetalint2",0.125,"soundmetalint3",0.125,"soundmetalint4",0.125,"soundmetalint5",0.125,"soundmetalint6",0.125,"soundmetalint7",0.125,"soundmetalint8",0.125],
+        "hitGroundSoft": ["sounddefault1",0.125,"sounddefault2",0.125,"sounddefault3",0.125,"sounddefault4",0.125,"sounddefault5",0.125,"sounddefault6",0.125,"sounddefault7",0.125,"sounddefault8",0.125],
+        "hitGroundHard": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitMan": ["soundbody1",0.125,"soundbody2",0.125,"soundbody3",0.125,"soundbody4",0.125,"soundbody5",0.125,"soundbody6",0.125,"soundbody7",0.125,"soundbody8",0.125],
+        "hitArmor": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitBuilding": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitFoliage": ["soundfoliage1",0.125,"soundfoliage2",0.125,"soundfoliage3",0.125,"soundfoliage4",0.125,"soundfoliage5",0.125,"soundfoliage6",0.125,"soundfoliage7",0.125,"soundfoliage8",0.125],
+        "hitWood": ["soundwood1",0.075,"soundwood2",0.075,"soundwood3",0.075,"soundwood4",0.075,"soundwood5",0.075,"soundwood6",0.075,"soundwood7",0.075,"soundwood8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitGlass": ["soundglass1",0.125,"soundglass2",0.125,"soundglass3",0.125,"soundglass4",0.125,"soundglass5",0.125,"soundglass6",0.125,"soundglass7",0.125,"soundglass8",0.125],
+        "hitGlassArmored": ["soundglassarmor1",0.125,"soundglassarmor2",0.125,"soundglassarmor3",0.125,"soundglassarmor4",0.125,"soundglassarmor5",0.125,"soundglassarmor6",0.125,"soundglassarmor7",0.125,"soundglassarmor8",0.125],
+        "hitConcrete": ["soundbuilding1",0.075,"soundbuilding2",0.075,"soundbuilding3",0.075,"soundbuilding4",0.075,"soundbuilding5",0.075,"soundbuilding6",0.075,"soundbuilding7",0.075,"soundbuilding8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitTyre": ["soundTyre1",0.125,"soundTyre2",0.125,"soundTyre3",0.125,"soundTyre4",0.125,"soundTyre5",0.125,"soundTyre6",0.125,"soundTyre7",0.125,"soundTyre8",0.125],
+        "hitRubber": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125],
+        "hitPlastic": ["soundrubber1",0.125,"soundrubber2",0.125,"soundrubber3",0.125,"soundrubber4",0.125,"soundrubber5",0.125,"soundrubber6",0.125,"soundrubber7",0.125,"soundrubber8",0.125],
+        "hitDefault": ["sounddefault1",0.075,"sounddefault2",0.075,"sounddefault3",0.075,"sounddefault4",0.075,"sounddefault5",0.075,"sounddefault6",0.075,"sounddefault7",0.075,"sounddefault8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitMetal": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitMetalplate": ["soundmetalheavy1",0.075,"soundmetalheavy2",0.075,"soundmetalheavy3",0.075,"soundmetalheavy4",0.075,"soundmetalheavy5",0.075,"soundmetalheavy6",0.075,"soundmetalheavy7",0.075,"soundmetalheavy8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "hitWater": ["soundWater1",0.125,"soundWater2",0.125,"soundWater3",0.125,"soundWater4",0.125,"soundWater5",0.125,"soundWater6",0.125,"soundWater7",0.125,"soundWater8",0.125],
+        "soundBell1": ["A3\\Sounds_F\\ambient\\objects\\bell_small",1.41254,1,500],
+        "hitBell": ["soundBell1",1],
+        "bulletFly1": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby01",2.23872,1,75],
+        "bulletFly2": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby02",2.23872,1,75],
+        "bulletFly3": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby03",2.23872,1,75],
+        "bulletFly4": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby04",2.23872,1,75],
+        "bulletFly5": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby05",2.23872,1,75],
+        "bulletFly6": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby06",2.23872,1,75],
+        "bulletFly7": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby07",2.23872,1,75],
+        "bulletFly8": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby08",2.23872,1,75],
+        "bulletFly9": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby09",2.23872,1,75],
+        "bulletFly10": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby10",2.23872,1,75],
+        "bulletFly11": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby11",2.23872,1,75],
+        "bulletFly12": ["A3\\sounds_f\\arsenal\\sfx\\bullet_flyby\\bullet_flyby12",2.23872,1,75],
+        "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
+        "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
+        "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
+        "SuperSonicCrack": {
+            "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
+            "SCrackForest": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "forest"
+            },
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
+            "SCrackTrees": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "trees"
+            },
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
+            "SCrackMeadow": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "meadow max sea"
+            },
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
+            "SCrackHouses": {
+                "range": [0,500],
+                "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
+                "sound2": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses2",1,1,500],
+                "sound3": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses3",1,1,500],
+                "sounds": ["sound1",0.333,"sound2",0.333,"sound3",0.333],
+                "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
+                "trigger": "houses max interior"
             }
-        }        "soundGroundSoft9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75]        "soundGroundSoft10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75]        "soundGroundSoft11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75]        "soundGroundSoft12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75]        "soundGroundSoft13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75]        "soundGroundSoft14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75]        "soundGroundSoft15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75]        "soundGroundSoft16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75]        "soundGroundSoft17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75]        "soundGroundSoft18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75]        "soundGroundSoft19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75]        "soundGroundSoft20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75]        "soundGroundSoft21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75]        "soundGroundSoft22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75]        "soundGroundSoft23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75]        "soundGroundSoft24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75]        "soundGroundSoft25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75]        "soundGroundSoft26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75]        "soundGroundSoft27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75]        "soundGroundSoft28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75]        "soundGroundHard9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75]        "soundGroundHard10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75]        "soundGroundHard11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75]        "soundGroundHard12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75]        "soundGroundHard13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75]        "soundGroundHard14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75]        "soundGroundHard15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75]        "soundGroundHard16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75]        "soundGroundHard17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75]        "soundGroundHard18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75]        "soundGroundHard19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75]        "soundGroundHard20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75]        "soundGroundHard21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75]        "soundGroundHard22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75]        "soundGroundHard23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75]        "soundGroundHard24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75]        "soundGroundHard25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75]        "soundGroundHard26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75]        "soundGroundHard27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75]        "soundGroundHard28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75]        "soundMetal9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",2.81838,1,75]        "soundMetal10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",2.81838,1,75]        "soundMetal11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",2.81838,1,75]        "soundMetal12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",2.81838,1,75]        "soundMetal13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",2.81838,1,75]        "soundMetal14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",2.81838,1,75]        "soundMetal15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",2.81838,1,75]        "soundMetal16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",2.81838,1,75]        "soundMetal17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",2.81838,1,75]        "soundMetal18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",2.81838,1,75]        "soundMetal19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",2.81838,1,75]        "soundMetal20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",2.81838,1,75]        "soundMetal21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",2.81838,1,75]        "soundMetal22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",2.81838,1,75]        "soundMetal23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",2.81838,1,75]        "soundMetal24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",2.81838,1,75]        "soundMetal25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",2.81838,1,75]        "soundMetal26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",2.81838,1,75]        "soundMetal27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",2.81838,1,75]        "soundMetal28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",2.81838,1,75]        "soundMetal29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",2.81838,1,75]        "soundMetal30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",2.81838,1,75]        "soundMetal31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",2.81838,1,75]        "soundMetal32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",2.81838,1,75]        "soundMetal33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",2.81838,1,75]        "soundMetal34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",2.81838,1,75]        "soundMetal35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",2.81838,1,75]        "soundMetal36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",2.81838,1,75]        "soundMetal37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",2.81838,1,75]        "soundMetal38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",2.81838,1,75]        "soundMetal39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75]        "soundMetal40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75]        "soundMetal41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75]        "soundMetal42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75]        "soundMetal43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75]        "soundMetal44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75]        "soundMetal45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75]        "soundMetal46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75]        "soundMetal47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75]        "soundMetal48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75]        "soundMetal49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75]        "soundMetal50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75]        "soundMetal51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75]        "soundMetal52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75]        "soundMetal53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75]        "soundMetal54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75]        "soundMetal55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75]        "soundMetal56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75]        "soundMetal57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75]        "soundMetal58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",2.81838,1,75]        "soundMetal59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",2.81838,1,75]        "soundMetal60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",2.81838,1,75]        "soundMetal61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",2.81838,1,75]        "soundMetal62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",2.81838,1,75]        "soundMetal63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",2.81838,1,75]        "soundMetal64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",2.81838,1,75]        "soundMetal65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",2.81838,1,75]        "soundMetal66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",2.81838,1,75]        "soundMetal67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",2.81838,1,75]        "soundMetal68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",2.81838,1,75]        "soundMetal69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",2.81838,1,75]        "soundMetal70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",2.81838,1,75]        "soundMetal71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",2.81838,1,75]        "soundVehiclePlate9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1,1,75]        "soundVehiclePlate10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1,1,75]        "soundVehiclePlate11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1,1,75]        "soundVehiclePlate12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1,1,75]        "soundVehiclePlate13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1,1,75]        "soundVehiclePlate14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1,1,75]        "soundVehiclePlate15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1,1,75]        "soundVehiclePlate16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1,1,75]        "soundVehiclePlate17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1,1,75]        "soundVehiclePlate18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1,1,75]        "soundVehiclePlate19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1,1,75]        "soundVehiclePlate20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1,1,75]        "soundVehiclePlate21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1,1,75]        "soundVehiclePlate22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1,1,75]        "soundVehiclePlate23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1,1,75]        "soundVehiclePlate24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1,1,75]        "soundVehiclePlate25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1,1,75]        "soundVehiclePlate26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1,1,75]        "soundVehiclePlate27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1,1,75]        "soundVehiclePlate28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1,1,75]        "soundVehiclePlate29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1,1,75]        "soundVehiclePlate30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1,1,75]        "soundVehiclePlate31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1,1,75]        "soundVehiclePlate32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1,1,75]        "soundVehiclePlate33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1,1,75]        "soundVehiclePlate34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1,1,75]        "soundVehiclePlate35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1,1,75]        "soundVehiclePlate36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1,1,75]        "soundVehiclePlate37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1,1,75]        "soundVehiclePlate38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1,1,75]        "soundVehiclePlate39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75]        "soundVehiclePlate40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75]        "soundVehiclePlate41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75]        "soundVehiclePlate42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75]        "soundVehiclePlate43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75]        "soundVehiclePlate44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75]        "soundVehiclePlate45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75]        "soundVehiclePlate46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75]        "soundVehiclePlate47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75]        "soundVehiclePlate48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75]        "soundVehiclePlate49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75]        "soundVehiclePlate50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75]        "soundVehiclePlate51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75]        "soundVehiclePlate52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75]        "soundVehiclePlate53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75]        "soundVehiclePlate54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75]        "soundVehiclePlate55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75]        "soundVehiclePlate56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75]        "soundVehiclePlate57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75]        "soundVehiclePlate58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1,1,75]        "soundVehiclePlate59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1,1,75]        "soundVehiclePlate60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1,1,75]        "soundVehiclePlate61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1,1,75]        "soundVehiclePlate62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1,1,75]        "soundVehiclePlate63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1,1,75]        "soundVehiclePlate64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1,1,75]        "soundVehiclePlate65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1,1,75]        "soundVehiclePlate66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1,1,75]        "soundVehiclePlate67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1,1,75]        "soundVehiclePlate68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1,1,75]        "soundVehiclePlate69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1,1,75]        "soundVehiclePlate70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1,1,75]        "soundVehiclePlate71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1,1,75]        "soundWood9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_01",0.501187,1,75]        "soundWood10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_02",0.501187,1,75]        "soundWood11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_03",0.501187,1,75]        "soundWood12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_04",1.77828,1,75]        "soundWood13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_05",1.41254,1,75]        "soundWood14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.23872,0.8,75]        "soundWood15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.23872,0.8,75]        "soundWood16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.23872,0.8,75]        "soundWood17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_09",2.81838,1,75]        "soundWood18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_10",2.81838,1,75]        "soundWood19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_11",2.81838,1,75]        "soundWood20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_12",2.81838,1,90]        "soundWood21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_13",2.81838,1,75]        "soundWood22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_14",2.81838,1,75]        "soundWood23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_15",2.81838,1,87]        "soundWood24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_16",2.81838,1,75]        "soundWood25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_17",2.81838,1,75]        "soundWood26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.81838,1,85]        "soundWood27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.81838,1,75]        "soundWood28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.81838,1,75]        "soundWood29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_21",2.81838,1,75]        "soundWood30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_22",2.81838,1,75]        "soundWood31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_23",0.501187,1,75]        "soundWood32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_24",0.501187,1,75]        "soundWood33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_25",0.501187,1,75]        "soundWood34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_26",0.501187,1,75]        "soundWood35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_27",2.81838,1,75]        "soundWood36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_28",2.81838,1,75]        "soundWood37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_29",2.81838,1,75]        "soundWood38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_30",2.81838,1,75]        "soundWood39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_31",2.81838,1,75]        "soundWood40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_32",2.81838,1,75]        "soundWood41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_33",2.81838,1,90]        "soundWood42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_34",2.81838,1,75]        "soundWood43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_35",2.81838,1,95]        "soundWood44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_36",2.81838,1,75]        "soundWood45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_37",2.81838,1,75]        "soundWood46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_38",1.77828,1,75]        "soundWood47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_39",1.77828,1,75]        "soundWood48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_40",2.81838,1,75]        "soundWood49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_41",2.81838,1,76]        "soundWood50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_42",2.81838,1,75]        "soundWood51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75]        "soundWood52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,93]        "soundWood53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75]        "soundWood54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75]        "soundWood55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,95]        "soundWood56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75]        "soundWood58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75]        "soundWood59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75]        "soundWood60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75]        "soundWood62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,91]        "soundWood63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75]        "soundWood64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75]        "soundWood65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75]        "soundWood66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,89]        "soundWood67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75]        "soundWood68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75]        "soundWood69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75]        "soundWood70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,89]        "soundWood72": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75]        "soundWood74": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75]        "soundWood75": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,85]        "soundWood76": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75]        "soundWood77": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75]        "soundWood78": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1.41254,1,75]        "soundWood79": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1.41254,1,75]        "soundWood80": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75]        "soundWood81": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,99]        "soundWood82": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75]        "soundWood83": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75]        "soundHitBuilding9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75]        "soundHitBuilding10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75]        "soundHitBuilding11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75]        "soundHitBuilding12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75]        "soundHitBuilding13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75]        "soundHitBuilding14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75]        "soundHitBuilding15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75]        "soundHitBuilding16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75]        "soundHitBuilding17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75]        "soundHitBuilding18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75]        "soundHitBuilding19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75]        "soundHitBuilding20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75]        "soundHitBuilding21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75]        "soundHitBuilding22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75]        "soundHitBuilding23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75]        "soundHitBuilding24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75]        "soundHitBuilding25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75]        "soundHitBuilding26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75]        "soundHitBuilding27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75]        "soundHitBuilding28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,75]        "soundHitBuilding29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",2.81838,1,75]        "soundHitBuilding30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75]        "soundHitBuilding31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",2.81838,1,75]        "soundHitBuilding32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75]        "soundHitBuilding33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,75]        "soundHitBuilding34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75]        "soundHitBuilding35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75]        "soundHitBuilding36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",2.81838,1,75]        "soundHitBuilding37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",2.81838,1,75]        "soundHitBuilding38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75]        "soundHitBuilding39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,75]        "soundHitBuilding40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75]        "soundHitBuilding41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75]        "soundConcrete9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75]        "soundConcrete10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75]        "soundConcrete11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75]        "soundConcrete12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75]        "soundConcrete13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75]        "soundConcrete14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75]        "soundConcrete15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75]        "soundConcrete16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75]        "soundConcrete17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75]        "soundConcrete18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75]        "soundConcrete19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75]        "soundConcrete20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75]        "soundConcrete21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75]        "soundConcrete22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75]        "soundConcrete23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75]        "soundConcrete24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75]        "soundConcrete25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75]        "soundConcrete26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75]        "soundConcrete27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75]        "soundConcrete28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",1,1,75]        "soundConcrete29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",1,1,75]        "soundConcrete30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",1,1,75]        "soundConcrete31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",1,1,75]        "soundConcrete32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",1,1,75]        "soundConcrete33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",1,1,75]        "soundConcrete34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",1,1,75]        "soundConcrete35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",1,1,75]        "soundConcrete36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1,1,75]        "soundConcrete37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1,1,75]        "soundConcrete38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",1,1,75]        "soundConcrete39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",1,1,75]        "soundConcrete40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",1,1,75]        "soundConcrete41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",1,1,75]        "soundMetalInt7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75]        "soundMetalInt8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75]        "soundMetalInt9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1.41254,1,35]        "soundMetalInt10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1.41254,1,35]        "soundMetalInt11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1.41254,1,35]        "soundMetalInt12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1.41254,1,35]        "soundMetalInt13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1.41254,1,35]        "soundMetalInt14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1.41254,1,35]        "soundMetalInt15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1.41254,1,35]        "soundMetalInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.41254,1,35]        "soundMetalInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.41254,1,35]        "soundMetalInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.41254,1,35]        "soundMetalInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.41254,1,35]        "soundMetalInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.41254,1,35]        "soundMetalInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.41254,1,35]        "soundMetalInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.41254,1,35]        "soundMetalInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.41254,1,35]        "soundMetalInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.41254,1,35]        "soundMetalInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.41254,1,35]        "soundMetalInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.41254,1,35]        "soundMetalInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.41254,1,35]        "soundMetalInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.41254,1,35]        "soundMetalInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.41254,1,35]        "soundMetalInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.41254,1,35]        "soundMetalInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.41254,1,35]        "soundMetalInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.41254,1,35]        "soundMetalInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.41254,1,35]        "soundMetalInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.41254,1,35]        "soundMetalInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.41254,1,35]        "soundMetalInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.41254,1,35]        "soundMetalInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.41254,1,35]        "soundMetalInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.41254,1,35]        "soundMetalInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,35]        "soundMetalInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,35]        "soundMetalInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,35]        "soundMetalInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,35]        "soundMetalInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,35]        "soundMetalInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,35]        "soundMetalInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,35]        "soundMetalInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,35]        "soundMetalInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,35]        "soundMetalInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,35]        "soundMetalInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,35]        "soundMetalInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,35]        "soundMetalInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,35]        "soundMetalInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,35]        "soundMetalInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,35]        "soundMetalInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,35]        "soundMetalInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,35]        "soundMetalInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,35]        "soundMetalInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,35]        "soundMetalInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01","",1,35]        "soundMetalInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02","",1,35]        "soundMetalInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03","",1,35]        "soundMetalInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04","",1,35]        "soundMetalInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05","",1,35]        "soundMetalInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06","",1,35]        "soundMetalInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07","",1,35]        "soundMetalInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08","",1,35]        "soundMetalInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09","",1,35]        "soundMetalInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10","",1,35]        "soundMetalInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11","",1,35]        "soundMetalInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12","",1,35]        "soundMetalInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13","",1,35]        "soundMetalInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14","",1,35]        "soundVehiclePlateInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.2,1,35]        "soundVehiclePlateInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.2,1,35]        "soundVehiclePlateInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.2,1,35]        "soundVehiclePlateInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.2,1,35]        "soundVehiclePlateInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.2,1,35]        "soundVehiclePlateInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.2,1,35]        "soundVehiclePlateInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.2,1,35]        "soundVehiclePlateInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.2,1,35]        "soundVehiclePlateInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.2,1,35]        "soundVehiclePlateInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.2,1,35]        "soundVehiclePlateInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.2,1,35]        "soundVehiclePlateInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.2,1,35]        "soundVehiclePlateInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.2,1,35]        "soundVehiclePlateInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.2,1,35]        "soundVehiclePlateInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.2,1,35]        "soundVehiclePlateInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.2,1,35]        "soundVehiclePlateInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.2,1,35]        "soundVehiclePlateInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.2,1,35]        "soundVehiclePlateInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.2,1,35]        "soundVehiclePlateInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.2,1,35]        "soundVehiclePlateInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.2,1,35]        "soundVehiclePlateInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.2,1,35]        "soundVehiclePlateInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.2,1,35]        "soundVehiclePlateInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1.2,1,35]        "soundVehiclePlateInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1.2,1,35]        "soundVehiclePlateInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1.2,1,35]        "soundVehiclePlateInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1.2,1,35]        "soundVehiclePlateInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1.2,1,35]        "soundVehiclePlateInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1.2,1,35]        "soundVehiclePlateInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1.2,1,35]        "soundVehiclePlateInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1.2,1,35]        "soundVehiclePlateInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1.2,1,35]        "soundVehiclePlateInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1.2,1,35]        "soundVehiclePlateInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1.2,1,35]        "soundVehiclePlateInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1.2,1,35]        "soundVehiclePlateInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1.2,1,35]        "soundVehiclePlateInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1.2,1,35]        "soundVehiclePlateInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1.2,1,35]        "soundVehiclePlateInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1.2,1,35]        "soundVehiclePlateInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1.2,1,35]        "soundVehiclePlateInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1.2,1,35]        "soundVehiclePlateInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1.2,1,35]        "soundVehiclePlateInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1.2,1,35]        "soundVehiclePlateInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1.2,1,35]        "soundVehiclePlateInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1.2,1,35]        "soundVehiclePlateInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1.2,1,35]        "soundVehiclePlateInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1.2,1,35]        "soundVehiclePlateInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1.2,1,35]        "soundVehiclePlateInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1.2,1,35]        "soundVehiclePlateInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1.2,1,35]        "soundVehiclePlateInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1.2,1,35]        "soundVehiclePlateInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1.2,1,35]        "soundVehiclePlateInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1.2,1,35]        "soundVehiclePlateInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1.2,1,35]        "soundVehiclePlateInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1.2,1,35]        "soundVehiclePlateInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1.2,1,35]        "soundbody1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_1.ogg",1,2,50]        "soundbody2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_2.ogg",1,2,50]        "soundbody3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_3.ogg",1,2,50]        "soundbody4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_4.ogg",1,2,50]        "soundbody5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_5.ogg",1,2,50]        "soundbody6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_6.ogg",1,2,50]        "soundbody7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_7.ogg",1,2,50]        "soundbody8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_8.ogg",1,2,50]        "soundmetallight1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75]        "soundmetallight2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75]        "soundmetallight3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75]        "soundmetallight4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75]        "soundmetallight5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75]        "soundmetallight6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75]        "soundmetallight7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75]        "soundmetallight8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75]        "soundmetalheavy1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75]        "soundmetalheavy2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75]        "soundmetalheavy3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75]        "soundmetalheavy4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75]        "soundmetalheavy5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75]        "soundmetalheavy6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75]        "soundmetalheavy7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75]        "soundmetalheavy8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75]        "soundrubber7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_7.ogg",2.5,1,75]        "soundrubber8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_8.ogg",2.5,1,75]        "soundglassarmor1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_1.ogg",2.5,1,75]        "soundglassarmor2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_2.ogg",2.5,1,75]        "soundglassarmor3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_3.ogg",2.5,1,75]        "soundglassarmor4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_4.ogg",2.5,1,75]        "soundglassarmor5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_5.ogg",2.5,1,75]        "soundglassarmor6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_6.ogg",2.5,1,75]        "soundglassarmor7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_7.ogg",2.5,1,75]        "soundglassarmor8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_8.ogg",2.5,1,75]        "soundfoliage1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_1.ogg",2.5,1,75]        "soundfoliage2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_2.ogg",2.5,1,75]        "soundfoliage3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_3.ogg",2.5,1,75]        "soundfoliage4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_4.ogg",2.5,1,75]        "soundfoliage5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_5.ogg",2.5,1,75]        "soundfoliage6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_6.ogg",2.5,1,75]        "soundfoliage7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_7.ogg",2.5,1,75]        "soundfoliage8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_8.ogg",2.5,1,75]        "soundbuilding1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_1.ogg",2.5,1,75]        "soundbuilding2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_2.ogg",2.5,1,75]        "soundbuilding3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_3.ogg",2.5,1,75]        "soundbuilding4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_4.ogg",2.5,1,75]        "soundbuilding5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_5.ogg",2.5,1,75]        "soundbuilding6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_6.ogg",2.5,1,75]        "soundbuilding7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_7.ogg",2.5,1,75]        "soundbuilding8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_8.ogg",2.5,1,75]        "soundarmorint1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75]        "soundarmorint2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75]        "soundarmorint3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75]        "soundarmorint4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75]        "soundarmorint5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75]        "soundarmorint6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75]        "soundarmorint7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75]        "soundarmorint8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75]        "soundbulletwizz1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_1.ogg",2,1,150]        "soundbulletwizz2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_2.ogg",2,1,150]        "soundbulletwizz3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_3.ogg",2,1,150]        "soundbulletwizz4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_4.ogg",2,1,150]        "soundbulletwizz5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_5.ogg",2,1,150]        "soundbulletwizz6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_6.ogg",2,1,150]        "soundbulletwizz7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_7.ogg",2,1,150]        "soundbulletwizz8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_8.ogg",2,1,150]        "soundbulletwizz9": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_9.ogg",2,1,150]        "soundbulletwizz10": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_10.ogg",2,1,150]        "soundbulletwizz11": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_11.ogg",2,1,150]        "soundbulletwizz12": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_12.ogg",2,1,150]        "soundbulletwizz13": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_13.ogg",2,1,150]        "soundbulletwizz14": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_14.ogg",2,1,150]        "soundbulletwizz15": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_15.ogg",2,1,150]        "soundbulletwizz16": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_16.ogg",2,1,150]        "soundbulletwizz17": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_17.ogg",2,1,150]        "hitiron": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235]        "simulation": "shotBullet"        "simulationStep": 0.05        "soundFly": ["",0.251189,0.7]        "explosive": 0        "soundHitMan1": ["",0.0125893,1]        "soundHitMan2": ["",0.0125893,1]        "soundHitArmor1": ["",0.0316228,1]        "soundHitArmor2": ["",0.0316228,1]        "hitGround": ["soundHit1",0.33,"soundHit2",0.33,"soundHit3",0.33]        "access": 3        "underwaterHitRangeCoef": 1        "explosionForceCoef": 1        "isCraterOriented": 0        "proxyShape": ""        "craterShape": ""        "animated": 0        "shadow": 0        "tracerColor": [0.7,0.7,0.5,0.04]        "tracerColorR": [0.7,0.7,0.5,0.04]        "soundEngine": ["",1,1]        "soundHit": ["",1,1]        "soundFall": ["",1,1]        "soundFakeFall": ["soundFall",1]        "soundImpact": ["",1,1]        "grenadeFireSound": []        "grenadeBurningSound": []        "deflectionSlowDown": 0.8        "explosionEffects": "ExplosionEffects"        "craterEffects": "ImpactEffectsMedium"        "craterWaterEffects": "ImpactEffectsWater"        "effectsMissile": "ExplosionEffects"        "effectsMissileInit": ""        "effectsSmoke": "SmokeShellWhite"        "effectsFire": "CannonFire"        "effectFlare": "FlareShell"        "mineJumpEffects": ""        "directionalExplosion": 0        "explosionAngle": 60        "explosionDir": "explosionDir"        "explosionPos": "explosionPos"        "explosionEffectsDir": "explosionDir"        "minimumSafeZone": 0.1        "soundTrigger": []        "soundActivation": []        "soundDeactivation": []        "explosionSoundEffect": ""        "minTimeToLive": 0        "irLock": 0        "laserLock": 0        "nvLock": 0        "artilleryLock": 0        "hitOnWater": 0        "lockSeekRadius": 100        "manualControl": 0        "maxControlRange": 350        "maneuvrability": 1        "trackLead": 1        "trackOversteer": 1        "missileLockCone": 0        "weaponLockSystem": 0        "cmImmunity": 1        "lockType": 0        "maverickweaponIndexOffset": 0        "sideAirFriction": 1        "artilleryDispersion": 1        "artilleryCharge": 1        "autoSeekTarget": 0        "shootDistraction": -1        "explosionTime": 0        "fuseDistance": 0        "initTime": 0        "thrustTime": 1.5        "thrust": 210        "icon": ""        # Ammo:         "submunitionAmmo": {            "submunitionAmmo": ""        }        "submunitionAmmo": ""        "explosionType": "explosive"        "mineTrigger": "RangeTrigger"        "mineBoundingTime": 3        "mineBoundingDist": 3        "mineInconspicuousness": 10        "mineFloating": -1        "mineDiveSpeed": 1        "minePlaceDist": 0.5        "whistleDist": 0        "whistleOnFire": 0        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1]        "NVGMarkers": {
-        }        "minDamageForCamShakeHit": 0.55        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1]        "EventHandlers": {
-        }    }    "EventHandlers": "RHS_ammo_M919_APFSDS",
+        },
+        "soundGroundSoft9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75],
+        "soundGroundSoft10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75],
+        "soundGroundSoft11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75],
+        "soundGroundSoft12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75],
+        "soundGroundSoft13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75],
+        "soundGroundSoft14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75],
+        "soundGroundSoft15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75],
+        "soundGroundSoft16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75],
+        "soundGroundSoft17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75],
+        "soundGroundSoft18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75],
+        "soundGroundSoft19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75],
+        "soundGroundSoft20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75],
+        "soundGroundSoft21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75],
+        "soundGroundSoft22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75],
+        "soundGroundSoft23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75],
+        "soundGroundSoft24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75],
+        "soundGroundSoft25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75],
+        "soundGroundSoft26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75],
+        "soundGroundSoft27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75],
+        "soundGroundSoft28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75],
+        "soundGroundHard9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_01",2.81838,1,75],
+        "soundGroundHard10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_02",2.81838,1,75],
+        "soundGroundHard11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_03",2.81838,1,75],
+        "soundGroundHard12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_04",2.81838,1,75],
+        "soundGroundHard13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_05",2.81838,1,75],
+        "soundGroundHard14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_06",2.81838,1,75],
+        "soundGroundHard15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_07",2.81838,1,75],
+        "soundGroundHard16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_08",2.81838,1,75],
+        "soundGroundHard17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_09",2.81838,1,75],
+        "soundGroundHard18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_10",2.81838,1,75],
+        "soundGroundHard19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_11",2.81838,1,75],
+        "soundGroundHard20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_12",2.81838,1,75],
+        "soundGroundHard21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_13",2.81838,1,75],
+        "soundGroundHard22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_14",2.81838,1,75],
+        "soundGroundHard23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_15",2.81838,1,75],
+        "soundGroundHard24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_16",2.81838,1,75],
+        "soundGroundHard25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_17",2.81838,1,75],
+        "soundGroundHard26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_18",2.81838,1,75],
+        "soundGroundHard27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_19",2.81838,1,75],
+        "soundGroundHard28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Dirt_20",2.81838,1,75],
+        "soundMetal9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",2.81838,1,75],
+        "soundMetal10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",2.81838,1,75],
+        "soundMetal11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",2.81838,1,75],
+        "soundMetal12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",2.81838,1,75],
+        "soundMetal13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",2.81838,1,75],
+        "soundMetal14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",2.81838,1,75],
+        "soundMetal15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",2.81838,1,75],
+        "soundMetal16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",2.81838,1,75],
+        "soundMetal17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",2.81838,1,75],
+        "soundMetal18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",2.81838,1,75],
+        "soundMetal19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",2.81838,1,75],
+        "soundMetal20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",2.81838,1,75],
+        "soundMetal21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",2.81838,1,75],
+        "soundMetal22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",2.81838,1,75],
+        "soundMetal23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",2.81838,1,75],
+        "soundMetal24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",2.81838,1,75],
+        "soundMetal25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",2.81838,1,75],
+        "soundMetal26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",2.81838,1,75],
+        "soundMetal27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",2.81838,1,75],
+        "soundMetal28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",2.81838,1,75],
+        "soundMetal29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",2.81838,1,75],
+        "soundMetal30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",2.81838,1,75],
+        "soundMetal31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",2.81838,1,75],
+        "soundMetal32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",2.81838,1,75],
+        "soundMetal33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",2.81838,1,75],
+        "soundMetal34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",2.81838,1,75],
+        "soundMetal35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",2.81838,1,75],
+        "soundMetal36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",2.81838,1,75],
+        "soundMetal37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",2.81838,1,75],
+        "soundMetal38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",2.81838,1,75],
+        "soundMetal39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75],
+        "soundMetal40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75],
+        "soundMetal41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75],
+        "soundMetal42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75],
+        "soundMetal43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75],
+        "soundMetal44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75],
+        "soundMetal45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75],
+        "soundMetal46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75],
+        "soundMetal47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75],
+        "soundMetal48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75],
+        "soundMetal49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75],
+        "soundMetal50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75],
+        "soundMetal51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75],
+        "soundMetal52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75],
+        "soundMetal53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75],
+        "soundMetal54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75],
+        "soundMetal55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75],
+        "soundMetal56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75],
+        "soundMetal57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75],
+        "soundMetal58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",2.81838,1,75],
+        "soundMetal59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",2.81838,1,75],
+        "soundMetal60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",2.81838,1,75],
+        "soundMetal61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",2.81838,1,75],
+        "soundMetal62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",2.81838,1,75],
+        "soundMetal63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",2.81838,1,75],
+        "soundMetal64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",2.81838,1,75],
+        "soundMetal65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",2.81838,1,75],
+        "soundMetal66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",2.81838,1,75],
+        "soundMetal67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",2.81838,1,75],
+        "soundMetal68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",2.81838,1,75],
+        "soundMetal69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",2.81838,1,75],
+        "soundMetal70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",2.81838,1,75],
+        "soundMetal71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",2.81838,1,75],
+        "soundVehiclePlate9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1,1,75],
+        "soundVehiclePlate10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1,1,75],
+        "soundVehiclePlate11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1,1,75],
+        "soundVehiclePlate12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1,1,75],
+        "soundVehiclePlate13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1,1,75],
+        "soundVehiclePlate14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1,1,75],
+        "soundVehiclePlate15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1,1,75],
+        "soundVehiclePlate16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1,1,75],
+        "soundVehiclePlate17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1,1,75],
+        "soundVehiclePlate18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1,1,75],
+        "soundVehiclePlate19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1,1,75],
+        "soundVehiclePlate20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1,1,75],
+        "soundVehiclePlate21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1,1,75],
+        "soundVehiclePlate22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1,1,75],
+        "soundVehiclePlate23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1,1,75],
+        "soundVehiclePlate24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1,1,75],
+        "soundVehiclePlate25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1,1,75],
+        "soundVehiclePlate26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1,1,75],
+        "soundVehiclePlate27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1,1,75],
+        "soundVehiclePlate28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1,1,75],
+        "soundVehiclePlate29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1,1,75],
+        "soundVehiclePlate30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1,1,75],
+        "soundVehiclePlate31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1,1,75],
+        "soundVehiclePlate32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1,1,75],
+        "soundVehiclePlate33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1,1,75],
+        "soundVehiclePlate34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1,1,75],
+        "soundVehiclePlate35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1,1,75],
+        "soundVehiclePlate36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1,1,75],
+        "soundVehiclePlate37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1,1,75],
+        "soundVehiclePlate38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1,1,75],
+        "soundVehiclePlate39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75],
+        "soundVehiclePlate40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75],
+        "soundVehiclePlate41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75],
+        "soundVehiclePlate42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75],
+        "soundVehiclePlate43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75],
+        "soundVehiclePlate44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75],
+        "soundVehiclePlate45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75],
+        "soundVehiclePlate46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75],
+        "soundVehiclePlate47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75],
+        "soundVehiclePlate48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75],
+        "soundVehiclePlate49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75],
+        "soundVehiclePlate50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75],
+        "soundVehiclePlate51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75],
+        "soundVehiclePlate52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75],
+        "soundVehiclePlate53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75],
+        "soundVehiclePlate54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75],
+        "soundVehiclePlate55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75],
+        "soundVehiclePlate56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75],
+        "soundVehiclePlate57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75],
+        "soundVehiclePlate58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1,1,75],
+        "soundVehiclePlate59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1,1,75],
+        "soundVehiclePlate60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1,1,75],
+        "soundVehiclePlate61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1,1,75],
+        "soundVehiclePlate62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1,1,75],
+        "soundVehiclePlate63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1,1,75],
+        "soundVehiclePlate64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1,1,75],
+        "soundVehiclePlate65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1,1,75],
+        "soundVehiclePlate66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1,1,75],
+        "soundVehiclePlate67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1,1,75],
+        "soundVehiclePlate68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1,1,75],
+        "soundVehiclePlate69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1,1,75],
+        "soundVehiclePlate70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1,1,75],
+        "soundVehiclePlate71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1,1,75],
+        "soundWood9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_01",0.501187,1,75],
+        "soundWood10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_02",0.501187,1,75],
+        "soundWood11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_03",0.501187,1,75],
+        "soundWood12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_04",1.77828,1,75],
+        "soundWood13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_05",1.41254,1,75],
+        "soundWood14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.23872,0.8,75],
+        "soundWood15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.23872,0.8,75],
+        "soundWood16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.23872,0.8,75],
+        "soundWood17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_09",2.81838,1,75],
+        "soundWood18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_10",2.81838,1,75],
+        "soundWood19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_11",2.81838,1,75],
+        "soundWood20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_12",2.81838,1,90],
+        "soundWood21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_13",2.81838,1,75],
+        "soundWood22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_14",2.81838,1,75],
+        "soundWood23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_15",2.81838,1,87],
+        "soundWood24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_16",2.81838,1,75],
+        "soundWood25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_17",2.81838,1,75],
+        "soundWood26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_18",2.81838,1,85],
+        "soundWood27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_19",2.81838,1,75],
+        "soundWood28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_20",2.81838,1,75],
+        "soundWood29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_21",2.81838,1,75],
+        "soundWood30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_22",2.81838,1,75],
+        "soundWood31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_23",0.501187,1,75],
+        "soundWood32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_24",0.501187,1,75],
+        "soundWood33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_25",0.501187,1,75],
+        "soundWood34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_26",0.501187,1,75],
+        "soundWood35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_27",2.81838,1,75],
+        "soundWood36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_28",2.81838,1,75],
+        "soundWood37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_29",2.81838,1,75],
+        "soundWood38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_30",2.81838,1,75],
+        "soundWood39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_31",2.81838,1,75],
+        "soundWood40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_32",2.81838,1,75],
+        "soundWood41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_33",2.81838,1,90],
+        "soundWood42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_34",2.81838,1,75],
+        "soundWood43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_35",2.81838,1,95],
+        "soundWood44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_36",2.81838,1,75],
+        "soundWood45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_37",2.81838,1,75],
+        "soundWood46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_38",1.77828,1,75],
+        "soundWood47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_39",1.77828,1,75],
+        "soundWood48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_40",2.81838,1,75],
+        "soundWood49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_41",2.81838,1,76],
+        "soundWood50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Wood_42",2.81838,1,75],
+        "soundWood51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75],
+        "soundWood52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,93],
+        "soundWood53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75],
+        "soundWood54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75],
+        "soundWood55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,95],
+        "soundWood56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75],
+        "soundWood58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75],
+        "soundWood59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75],
+        "soundWood60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75],
+        "soundWood62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,91],
+        "soundWood63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75],
+        "soundWood64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75],
+        "soundWood65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75],
+        "soundWood66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,89],
+        "soundWood67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75],
+        "soundWood68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75],
+        "soundWood69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75],
+        "soundWood70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,89],
+        "soundWood72": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75],
+        "soundWood74": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75],
+        "soundWood75": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,85],
+        "soundWood76": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75],
+        "soundWood77": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75],
+        "soundWood78": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1.41254,1,75],
+        "soundWood79": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1.41254,1,75],
+        "soundWood80": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75],
+        "soundWood81": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,99],
+        "soundWood82": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75],
+        "soundWood83": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75],
+        "soundHitBuilding9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",2.81838,1,75],
+        "soundHitBuilding10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",2.81838,1,75],
+        "soundHitBuilding11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",2.81838,1,75],
+        "soundHitBuilding12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",2.81838,1,75],
+        "soundHitBuilding13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",2.81838,1,75],
+        "soundHitBuilding14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",2.81838,1,75],
+        "soundHitBuilding15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",2.81838,1,75],
+        "soundHitBuilding16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",2.81838,1,75],
+        "soundHitBuilding17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",2.81838,1,75],
+        "soundHitBuilding18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",2.81838,1,75],
+        "soundHitBuilding19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",2.81838,1,75],
+        "soundHitBuilding20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",2.81838,1,75],
+        "soundHitBuilding21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",2.81838,1,75],
+        "soundHitBuilding22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",2.81838,1,75],
+        "soundHitBuilding23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",2.81838,1,75],
+        "soundHitBuilding24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",2.81838,1,75],
+        "soundHitBuilding25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",2.81838,1,75],
+        "soundHitBuilding26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",2.81838,1,75],
+        "soundHitBuilding27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",2.81838,1,75],
+        "soundHitBuilding28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",2.81838,1,75],
+        "soundHitBuilding29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",2.81838,1,75],
+        "soundHitBuilding30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",2.81838,1,75],
+        "soundHitBuilding31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",2.81838,1,75],
+        "soundHitBuilding32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",2.81838,1,75],
+        "soundHitBuilding33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",2.81838,1,75],
+        "soundHitBuilding34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",2.81838,1,75],
+        "soundHitBuilding35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",2.81838,1,75],
+        "soundHitBuilding36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",2.81838,1,75],
+        "soundHitBuilding37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",2.81838,1,75],
+        "soundHitBuilding38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",2.81838,1,75],
+        "soundHitBuilding39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",2.81838,1,75],
+        "soundHitBuilding40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",2.81838,1,75],
+        "soundHitBuilding41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",2.81838,1,75],
+        "soundConcrete9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,75],
+        "soundConcrete10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,75],
+        "soundConcrete11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,75],
+        "soundConcrete12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,75],
+        "soundConcrete13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,75],
+        "soundConcrete14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,75],
+        "soundConcrete15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,75],
+        "soundConcrete16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,75],
+        "soundConcrete17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,75],
+        "soundConcrete18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,75],
+        "soundConcrete19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,75],
+        "soundConcrete20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,75],
+        "soundConcrete21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,75],
+        "soundConcrete22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,75],
+        "soundConcrete23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,75],
+        "soundConcrete24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,75],
+        "soundConcrete25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,75],
+        "soundConcrete26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,75],
+        "soundConcrete27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,75],
+        "soundConcrete28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_01",1,1,75],
+        "soundConcrete29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_02",1,1,75],
+        "soundConcrete30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_03",1,1,75],
+        "soundConcrete31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_04",1,1,75],
+        "soundConcrete32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_05",1,1,75],
+        "soundConcrete33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_06",1,1,75],
+        "soundConcrete34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_07",1,1,75],
+        "soundConcrete35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_08",1,1,75],
+        "soundConcrete36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_09",1,1,75],
+        "soundConcrete37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_10",1,1,75],
+        "soundConcrete38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_11",1,1,75],
+        "soundConcrete39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_12",1,1,75],
+        "soundConcrete40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_13",1,1,75],
+        "soundConcrete41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_14",1,1,75],
+        "soundMetalInt7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75],
+        "soundMetalInt8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75],
+        "soundMetalInt9": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_01",1.41254,1,35],
+        "soundMetalInt10": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_02",1.41254,1,35],
+        "soundMetalInt11": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_03",1.41254,1,35],
+        "soundMetalInt12": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_04",1.41254,1,35],
+        "soundMetalInt13": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_05",1.41254,1,35],
+        "soundMetalInt14": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_06",1.41254,1,35],
+        "soundMetalInt15": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_07",1.41254,1,35],
+        "soundMetalInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.41254,1,35],
+        "soundMetalInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.41254,1,35],
+        "soundMetalInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.41254,1,35],
+        "soundMetalInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.41254,1,35],
+        "soundMetalInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.41254,1,35],
+        "soundMetalInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.41254,1,35],
+        "soundMetalInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.41254,1,35],
+        "soundMetalInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.41254,1,35],
+        "soundMetalInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.41254,1,35],
+        "soundMetalInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.41254,1,35],
+        "soundMetalInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.41254,1,35],
+        "soundMetalInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.41254,1,35],
+        "soundMetalInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.41254,1,35],
+        "soundMetalInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.41254,1,35],
+        "soundMetalInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.41254,1,35],
+        "soundMetalInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.41254,1,35],
+        "soundMetalInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.41254,1,35],
+        "soundMetalInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.41254,1,35],
+        "soundMetalInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.41254,1,35],
+        "soundMetalInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.41254,1,35],
+        "soundMetalInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.41254,1,35],
+        "soundMetalInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.41254,1,35],
+        "soundMetalInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.41254,1,35],
+        "soundMetalInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1,1,35],
+        "soundMetalInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1,1,35],
+        "soundMetalInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1,1,35],
+        "soundMetalInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1,1,35],
+        "soundMetalInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1,1,35],
+        "soundMetalInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1,1,35],
+        "soundMetalInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1,1,35],
+        "soundMetalInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1,1,35],
+        "soundMetalInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1,1,35],
+        "soundMetalInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1,1,35],
+        "soundMetalInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1,1,35],
+        "soundMetalInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1,1,35],
+        "soundMetalInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1,1,35],
+        "soundMetalInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1,1,35],
+        "soundMetalInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1,1,35],
+        "soundMetalInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1,1,35],
+        "soundMetalInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1,1,35],
+        "soundMetalInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1,1,35],
+        "soundMetalInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1,1,35],
+        "soundMetalInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01","",1,35],
+        "soundMetalInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02","",1,35],
+        "soundMetalInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03","",1,35],
+        "soundMetalInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04","",1,35],
+        "soundMetalInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05","",1,35],
+        "soundMetalInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06","",1,35],
+        "soundMetalInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07","",1,35],
+        "soundMetalInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08","",1,35],
+        "soundMetalInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09","",1,35],
+        "soundMetalInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10","",1,35],
+        "soundMetalInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11","",1,35],
+        "soundMetalInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12","",1,35],
+        "soundMetalInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13","",1,35],
+        "soundMetalInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14","",1,35],
+        "soundVehiclePlateInt16": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_08",1.2,1,35],
+        "soundVehiclePlateInt17": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_09",1.2,1,35],
+        "soundVehiclePlateInt18": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_10",1.2,1,35],
+        "soundVehiclePlateInt19": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_11",1.2,1,35],
+        "soundVehiclePlateInt20": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_12",1.2,1,35],
+        "soundVehiclePlateInt21": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_13",1.2,1,35],
+        "soundVehiclePlateInt22": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_14",1.2,1,35],
+        "soundVehiclePlateInt23": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_15",1.2,1,35],
+        "soundVehiclePlateInt24": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_16",1.2,1,35],
+        "soundVehiclePlateInt25": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_18",1.2,1,35],
+        "soundVehiclePlateInt26": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_19",1.2,1,35],
+        "soundVehiclePlateInt27": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_20",1.2,1,35],
+        "soundVehiclePlateInt28": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_21",1.2,1,35],
+        "soundVehiclePlateInt29": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_22",1.2,1,35],
+        "soundVehiclePlateInt30": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_23",1.2,1,35],
+        "soundVehiclePlateInt31": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_24",1.2,1,35],
+        "soundVehiclePlateInt32": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_25",1.2,1,35],
+        "soundVehiclePlateInt33": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_26",1.2,1,35],
+        "soundVehiclePlateInt34": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_27",1.2,1,35],
+        "soundVehiclePlateInt35": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_28",1.2,1,35],
+        "soundVehiclePlateInt36": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_29",1.2,1,35],
+        "soundVehiclePlateInt37": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_30",1.2,1,35],
+        "soundVehiclePlateInt38": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Impact_Metal_31",1.2,1,35],
+        "soundVehiclePlateInt39": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_01",1.2,1,35],
+        "soundVehiclePlateInt40": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_02",1.2,1,35],
+        "soundVehiclePlateInt41": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_03",1.2,1,35],
+        "soundVehiclePlateInt42": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_04",1.2,1,35],
+        "soundVehiclePlateInt43": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_05",1.2,1,35],
+        "soundVehiclePlateInt44": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_06",1.2,1,35],
+        "soundVehiclePlateInt45": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_07",1.2,1,35],
+        "soundVehiclePlateInt46": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_08",1.2,1,35],
+        "soundVehiclePlateInt47": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_09",1.2,1,35],
+        "soundVehiclePlateInt48": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_10",1.2,1,35],
+        "soundVehiclePlateInt49": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_11",1.2,1,35],
+        "soundVehiclePlateInt50": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_12",1.2,1,35],
+        "soundVehiclePlateInt51": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_13",1.2,1,35],
+        "soundVehiclePlateInt52": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_14",1.2,1,35],
+        "soundVehiclePlateInt53": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_15",1.2,1,35],
+        "soundVehiclePlateInt54": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_16",1.2,1,35],
+        "soundVehiclePlateInt55": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_17",1.2,1,35],
+        "soundVehiclePlateInt56": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_18",1.2,1,35],
+        "soundVehiclePlateInt57": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Generic_Distant_19",1.2,1,35],
+        "soundVehiclePlateInt58": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_01",1.2,1,35],
+        "soundVehiclePlateInt59": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_02",1.2,1,35],
+        "soundVehiclePlateInt60": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_03",1.2,1,35],
+        "soundVehiclePlateInt61": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_04",1.2,1,35],
+        "soundVehiclePlateInt62": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_05",1.2,1,35],
+        "soundVehiclePlateInt63": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_06",1.2,1,35],
+        "soundVehiclePlateInt64": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_07",1.2,1,35],
+        "soundVehiclePlateInt65": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_08",1.2,1,35],
+        "soundVehiclePlateInt66": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_09",1.2,1,35],
+        "soundVehiclePlateInt67": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_10",1.2,1,35],
+        "soundVehiclePlateInt68": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_11",1.2,1,35],
+        "soundVehiclePlateInt69": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_12",1.2,1,35],
+        "soundVehiclePlateInt70": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_13",1.2,1,35],
+        "soundVehiclePlateInt71": ["A3\\Sounds_F_Enoch\\Assets\\Arsenal\\Bullet_Impacts\\Ricochet_Metal_14",1.2,1,35],
+        "soundbody1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_1.ogg",1,2,50],
+        "soundbody2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_2.ogg",1,2,50],
+        "soundbody3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_3.ogg",1,2,50],
+        "soundbody4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_4.ogg",1,2,50],
+        "soundbody5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_5.ogg",1,2,50],
+        "soundbody6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_6.ogg",1,2,50],
+        "soundbody7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_7.ogg",1,2,50],
+        "soundbody8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\body_8.ogg",1,2,50],
+        "soundmetallight1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75],
+        "soundmetallight2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75],
+        "soundmetallight3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75],
+        "soundmetallight4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75],
+        "soundmetallight5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75],
+        "soundmetallight6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75],
+        "soundmetallight7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75],
+        "soundmetallight8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75],
+        "soundmetalheavy1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75],
+        "soundmetalheavy2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75],
+        "soundmetalheavy3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75],
+        "soundmetalheavy4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75],
+        "soundmetalheavy5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75],
+        "soundmetalheavy6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75],
+        "soundmetalheavy7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75],
+        "soundmetalheavy8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75],
+        "soundrubber7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_7.ogg",2.5,1,75],
+        "soundrubber8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\rubber_8.ogg",2.5,1,75],
+        "soundglassarmor1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_1.ogg",2.5,1,75],
+        "soundglassarmor2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_2.ogg",2.5,1,75],
+        "soundglassarmor3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_3.ogg",2.5,1,75],
+        "soundglassarmor4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_4.ogg",2.5,1,75],
+        "soundglassarmor5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_5.ogg",2.5,1,75],
+        "soundglassarmor6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_6.ogg",2.5,1,75],
+        "soundglassarmor7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_7.ogg",2.5,1,75],
+        "soundglassarmor8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\glassarmor_8.ogg",2.5,1,75],
+        "soundfoliage1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_1.ogg",2.5,1,75],
+        "soundfoliage2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_2.ogg",2.5,1,75],
+        "soundfoliage3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_3.ogg",2.5,1,75],
+        "soundfoliage4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_4.ogg",2.5,1,75],
+        "soundfoliage5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_5.ogg",2.5,1,75],
+        "soundfoliage6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_6.ogg",2.5,1,75],
+        "soundfoliage7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_7.ogg",2.5,1,75],
+        "soundfoliage8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\foliage_8.ogg",2.5,1,75],
+        "soundbuilding1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_1.ogg",2.5,1,75],
+        "soundbuilding2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_2.ogg",2.5,1,75],
+        "soundbuilding3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_3.ogg",2.5,1,75],
+        "soundbuilding4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_4.ogg",2.5,1,75],
+        "soundbuilding5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_5.ogg",2.5,1,75],
+        "soundbuilding6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_6.ogg",2.5,1,75],
+        "soundbuilding7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_7.ogg",2.5,1,75],
+        "soundbuilding8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\building_8.ogg",2.5,1,75],
+        "soundarmorint1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_1.ogg",2.5,1,75],
+        "soundarmorint2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_2.ogg",2.5,1,75],
+        "soundarmorint3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_3.ogg",2.5,1,75],
+        "soundarmorint4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_4.ogg",2.5,1,75],
+        "soundarmorint5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_5.ogg",2.5,1,75],
+        "soundarmorint6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_6.ogg",2.5,1,75],
+        "soundarmorint7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_7.ogg",2.5,1,75],
+        "soundarmorint8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_normal\\metal_8.ogg",2.5,1,75],
+        "soundbulletwizz1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_1.ogg",2,1,150],
+        "soundbulletwizz2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_2.ogg",2,1,150],
+        "soundbulletwizz3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_3.ogg",2,1,150],
+        "soundbulletwizz4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_4.ogg",2,1,150],
+        "soundbulletwizz5": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_5.ogg",2,1,150],
+        "soundbulletwizz6": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_6.ogg",2,1,150],
+        "soundbulletwizz7": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_7.ogg",2,1,150],
+        "soundbulletwizz8": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_8.ogg",2,1,150],
+        "soundbulletwizz9": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_9.ogg",2,1,150],
+        "soundbulletwizz10": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_10.ogg",2,1,150],
+        "soundbulletwizz11": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_11.ogg",2,1,150],
+        "soundbulletwizz12": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_12.ogg",2,1,150],
+        "soundbulletwizz13": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_13.ogg",2,1,150],
+        "soundbulletwizz14": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_14.ogg",2,1,150],
+        "soundbulletwizz15": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_15.ogg",2,1,150],
+        "soundbulletwizz16": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_16.ogg",2,1,150],
+        "soundbulletwizz17": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\bullet_wizz\\bullet_wizz_17.ogg",2,1,150],
+        "hitiron": ["soundmetallight1",0.075,"soundmetallight2",0.075,"soundmetallight3",0.075,"soundmetallight4",0.075,"soundmetallight5",0.075,"soundmetallight6",0.075,"soundmetallight7",0.075,"soundmetallight8",0.075,"soundbulletwizz1",0.0235,"soundbulletwizz2",0.0235,"soundbulletwizz3",0.0235,"soundbulletwizz4",0.0235,"soundbulletwizz5",0.0235,"soundbulletwizz6",0.0235,"soundbulletwizz7",0.0235,"soundbulletwizz8",0.0235,"soundbulletwizz9",0.0235,"soundbulletwizz10",0.0235,"soundbulletwizz11",0.0235,"soundbulletwizz12",0.0235,"soundbulletwizz13",0.0235,"soundbulletwizz14",0.0235,"soundbulletwizz15",0.0235,"soundbulletwizz16",0.0235,"soundbulletwizz17",0.0235],
+        "simulation": "shotBullet",
+        "simulationStep": 0.05,
+        "soundFly": ["",0.251189,0.7],
+        "explosive": 0,
+        "soundHitMan1": ["",0.0125893,1],
+        "soundHitMan2": ["",0.0125893,1],
+        "soundHitArmor1": ["",0.0316228,1],
+        "soundHitArmor2": ["",0.0316228,1],
+        "hitGround": ["soundHit1",0.33,"soundHit2",0.33,"soundHit3",0.33],
+        "access": 3,
+        "underwaterHitRangeCoef": 1,
+        "explosionForceCoef": 1,
+        "isCraterOriented": 0,
+        "proxyShape": "",
+        "craterShape": "",
+        "animated": 0,
+        "shadow": 0,
+        "tracerColor": [0.7,0.7,0.5,0.04],
+        "tracerColorR": [0.7,0.7,0.5,0.04],
+        "soundEngine": ["",1,1],
+        "soundHit": ["",1,1],
+        "soundFall": ["",1,1],
+        "soundFakeFall": ["soundFall",1],
+        "soundImpact": ["",1,1],
+        "grenadeFireSound": [],
+        "grenadeBurningSound": [],
+        "deflectionSlowDown": 0.8,
+        "explosionEffects": "ExplosionEffects",
+        "craterEffects": "ImpactEffectsMedium",
+        "craterWaterEffects": "ImpactEffectsWater",
+        "effectsMissile": "ExplosionEffects",
+        "effectsMissileInit": "",
+        "effectsSmoke": "SmokeShellWhite",
+        "effectsFire": "CannonFire",
+        "effectFlare": "FlareShell",
+        "mineJumpEffects": "",
+        "directionalExplosion": 0,
+        "explosionAngle": 60,
+        "explosionDir": "explosionDir",
+        "explosionPos": "explosionPos",
+        "explosionEffectsDir": "explosionDir",
+        "minimumSafeZone": 0.1,
+        "soundTrigger": [],
+        "soundActivation": [],
+        "soundDeactivation": [],
+        "explosionSoundEffect": "",
+        "minTimeToLive": 0,
+        "irLock": 0,
+        "laserLock": 0,
+        "nvLock": 0,
+        "artilleryLock": 0,
+        "hitOnWater": 0,
+        "lockSeekRadius": 100,
+        "manualControl": 0,
+        "maxControlRange": 350,
+        "maneuvrability": 1,
+        "trackLead": 1,
+        "trackOversteer": 1,
+        "missileLockCone": 0,
+        "weaponLockSystem": 0,
+        "cmImmunity": 1,
+        "lockType": 0,
+        "maverickweaponIndexOffset": 0,
+        "sideAirFriction": 1,
+        "artilleryDispersion": 1,
+        "artilleryCharge": 1,
+        "autoSeekTarget": 0,
+        "shootDistraction": -1,
+        "explosionTime": 0,
+        "fuseDistance": 0,
+        "initTime": 0,
+        "thrustTime": 1.5,
+        "thrust": 210,
+        "icon": "",
+        "submunitionAmmo": "",
+        "explosionType": "explosive",
+        "mineTrigger": "RangeTrigger",
+        "mineBoundingTime": 3,
+        "mineBoundingDist": 3,
+        "mineInconspicuousness": 10,
+        "mineFloating": -1,
+        "mineDiveSpeed": 1,
+        "minePlaceDist": 0.5,
+        "whistleDist": 0,
+        "whistleOnFire": 0,
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
+        "NVGMarkers": {
+        },
+        "minDamageForCamShakeHit": 0.55,
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
+        "EventHandlers": {
+        },
+    },
+    "EventHandlers": "RHS_ammo_M919_APFSDS",
     "count": 70,
     "displayname": "25x137mm M919 APFSDS-T",
     "displaynameshort": "M919 APFSDS-T",
@@ -19607,10 +22020,10 @@ rhs_mag_70Rnd_25mm_M242_APFSDS = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -19620,10 +22033,10 @@ rhs_mag_70Rnd_25mm_M242_APFSDS = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_762x51_M240_1200 = {
+"rhs_mag_762x51_M240_1200": {
     "count": 1200,
     "scope": 2,
-    # Ammo: rhs_ammo_762x51_M80A1EPR_Ball,
+    # Ammo: CfgMagazines\\rhs_mag_1100Rnd_762x51_M240\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_762x51_M80A1EPR_Ball",
         "hit": 10.5,
@@ -19854,10 +22267,10 @@ rhs_mag_762x51_M240_1200 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -19867,7 +22280,7 @@ rhs_mag_762x51_M240_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -19877,7 +22290,7 @@ rhs_mag_762x51_M240_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -19887,7 +22300,7 @@ rhs_mag_762x51_M240_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -19898,7 +22311,7 @@ rhs_mag_762x51_M240_1200 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -19924,28 +22337,28 @@ rhs_mag_762x51_M240_1200 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -20533,10 +22946,6 @@ rhs_mag_762x51_M240_1200 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -20548,11 +22957,11 @@ rhs_mag_762x51_M240_1200 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -20577,10 +22986,10 @@ rhs_mag_762x51_M240_1200 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -20590,11 +22999,11 @@ rhs_mag_762x51_M240_1200 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_762x51_m80a1_4000 = {
+"rhs_mag_762x51_m80a1_4000": {
     "count": 4000,
     "weight": 84,
     "scope": 2,
-    # Ammo: rhs_ammo_762x51_M80A1EPR_Ball,
+    # Ammo: CfgMagazines\\rhs_mag_1100Rnd_762x51_M240\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_762x51_M80A1EPR_Ball",
         "hit": 10.5,
@@ -20825,10 +23234,10 @@ rhs_mag_762x51_m80a1_4000 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -20838,7 +23247,7 @@ rhs_mag_762x51_m80a1_4000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -20848,7 +23257,7 @@ rhs_mag_762x51_m80a1_4000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -20858,7 +23267,7 @@ rhs_mag_762x51_m80a1_4000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -20869,7 +23278,7 @@ rhs_mag_762x51_m80a1_4000 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -20895,28 +23304,28 @@ rhs_mag_762x51_m80a1_4000 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -21504,10 +23913,6 @@ rhs_mag_762x51_m80a1_4000 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -21519,11 +23924,11 @@ rhs_mag_762x51_m80a1_4000 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -21547,10 +23952,10 @@ rhs_mag_762x51_m80a1_4000 = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -21560,7 +23965,7 @@ rhs_mag_762x51_m80a1_4000 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_AGM114K_4 = {
+"rhs_mag_AGM114K_4": {
     "model": "rhsusf\\addons\\rhsusf_airweapons\\proxypylon\\rhsusf_pylon_m_agm114_4x",
     "count": 4,
     "displayName": "AGM-114K (M299)",
@@ -21568,216 +23973,397 @@ rhs_mag_AGM114K_4 = {
     "weight": 180,
     "hardpoints": ["RHS_HP_HELLFIRE_RACK","RHS_HP_LONGBOW_RACK"],
     "mirrorMissilesIndexes": [2,1,4,3],
-    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements [Indent level: 1],
+    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD [Indent level: 2]
+        # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD [Indent level: 2],
+
         "RHS_AH64_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Bones [Indent level: 3]
+
+            # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Bones [Indent level: 3],
+
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw [Indent level: 3],
+
+            # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw [Indent level: 3],
+
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup [Indent level: 4]
+
+                # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\BackgroundGroup [Indent level: 4],
+
+
                 "BackgroundGroup": {
+
+
                     "color": [0,0,0],
+
+
                     "alpha": 1,
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup\Background [Indent level: 5],
+
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\BackgroundGroup\\Background [Indent level: 5],
+
+
                     "Background": {
+
+
                         "type": "polygon",
+
+
                         "points": [[[[-0.045,-0.05],1],[[0.045,-0.05],1],[[0.045,0.17],1],[[-0.045,0.17],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default [Indent level: 4],
+
                 "Default": {
+
                     "condition": "PylonAmmoRelative>0",
+
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "type": "line",
+
                         "width": 4,
+
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.01],1],
+
                         "right": [[0.05,0.01],1],
+
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText2 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText2 [Indent level: 5],
+
                     "PylonText2": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.14],1],
+
                         "right": [[0.05,0.14],1],
+
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText3 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText3 [Indent level: 5],
+
                     "PylonText3": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.01],1],
+
                         "right": [[0.005,0.01],1],
+
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText4 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText4 [Indent level: 5],
+
                     "PylonText4": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.14],1],
+
                         "right": [[0.005,0.14],1],
+
                         "down": [[-0.025,0.165],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected [Indent level: 4],
+
                 "Selected": {
+
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
+
                     "color": [0.99,0.94,0.59],
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "type": "line",
+
                         "width": 4,
+
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.01],1],
+
                         "right": [[0.05,0.01],1],
+
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText2 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText2 [Indent level: 5],
+
                     "PylonText2": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.14],1],
+
                         "right": [[0.05,0.14],1],
+
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText3 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText3 [Indent level: 5],
+
                     "PylonText3": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.01],1],
+
                         "right": [[0.005,0.01],1],
+
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText4 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText4 [Indent level: 5],
+
                     "PylonText4": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.14],1],
+
                         "right": [[0.005,0.14],1],
+
                         "down": [[-0.025,0.165],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty [Indent level: 4],
+
                 "Empty": {
+
                     "condition": "PylonAmmoRelative <= 0",
+
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "type": "line",
+
                         "width": 4,
+
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.01],1],
+
                         "right": [[0.05,0.01],1],
+
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText2 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText2 [Indent level: 5],
+
                     "PylonText2": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.14],1],
+
                         "right": [[0.05,0.14],1],
+
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText3 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText3 [Indent level: 5],
+
                     "PylonText3": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.01],1],
+
                         "right": [[0.005,0.01],1],
+
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText4 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText4 [Indent level: 5],
+
                     "PylonText4": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "L",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.14],1],
+
                         "right": [[0.005,0.14],1],
+
                         "down": [[-0.025,0.165],1]
                     }
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
         "RHS_AH64_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_AGM114K_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_AGM114K_4\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Draw [Indent level: 3],
             "Draw": {
             }
         }
     },
     "displaynameshort": "LG",
-    # Ammo: RHS_ammo_AGM_114K,
+    # Ammo: CfgMagazines\\rhs_mag_AGM114K\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "RHS_ammo_AGM_114K",
         "model": "rhsusf\\addons\\rhsusf_airweapons\\proxyammo\\rhsusf_m_AGM114K_fly",
@@ -21802,50 +24388,151 @@ rhs_mag_AGM114K_4 = {
         "weaponLockSystem": "4 + 16",
         "lockSeekRadius": 1000,
         "weaponType": "missileAA",
-        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components [Indent level: 1],
+        # Class: CfgAmmo\\RHS_ammo_AGM_114K\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\RHS_ammo_AGM_114K\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\RHS_ammo_AGM_114K\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\RHS_ammo_AGM_114K\\Components\\SensorsManagerComponent\\Components\\LaserSensorComponent [Indent level: 4],
+
+
+
                     "LaserSensorComponent": {
-                        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\RHS_ammo_AGM_114K\\Components\\SensorsManagerComponent\\Components\\LaserSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 7000,
+
+
+
+
                             "maxRange": 7000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": -1
                         },
-                        # Class: CfgAmmo\RHS_ammo_AGM_114K\Components\SensorsManagerComponent\Components\LaserSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\RHS_ammo_AGM_114K\\Components\\SensorsManagerComponent\\Components\\LaserSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 7000,
+
+
+
                             "maxRange": 7000,
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
                             "viewDistanceLimitCoef": -1
                         },
+
+
+
                         "angleRangeHorizontal": 30,
+
+
+
                         "angleRangeVertical": 50,
+
+
+
                         "typeRecognitionDistance": -1,
+
+
+
                         "maxGroundNoiseDistance": 0,
+
+
+
                         "maxFogSeeThrough": 0.3,
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "componentType": "LaserSensorComponent",
+
+
+
                         "color": [1,1,1,0],
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": 0,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0,
+
+
+
                         "minTrackableSpeed": -1e+010,
+
+
+
                         "maxTrackableSpeed": 1e+010,
+
+
+
                         "minTrackableATL": -1e+010,
+
+
+
                         "maxTrackableATL": 1e+010
                     }
                 }
             }
         },
-        # Ammo: rhs_ammo_Hellfire_AT_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_Hellfire_AT\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_Hellfire_AT_penetrator",
             "warheadName": "TandemHEAT",
@@ -21864,7 +24551,7 @@ rhs_mag_AGM114K_4 = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -22095,10 +24782,10 @@ rhs_mag_AGM114K_4 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -22108,7 +24795,7 @@ rhs_mag_AGM114K_4 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -22118,7 +24805,7 @@ rhs_mag_AGM114K_4 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -22128,7 +24815,7 @@ rhs_mag_AGM114K_4 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -22139,7 +24826,7 @@ rhs_mag_AGM114K_4 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -22165,28 +24852,28 @@ rhs_mag_AGM114K_4 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -22774,10 +25461,6 @@ rhs_mag_AGM114K_4 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -22789,11 +25472,11 @@ rhs_mag_AGM114K_4 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -22822,7 +25505,7 @@ rhs_mag_AGM114K_4 = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -22834,28 +25517,28 @@ rhs_mag_AGM114K_4 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -22990,11 +25673,11 @@ rhs_mag_AGM114K_4 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -23023,32 +25706,34 @@ rhs_mag_AGM114K_4 = {
         "autoSeekTarget": 1,
         "maneuvDependsOnSpeedCoef": 0.018,
         "flightProfiles": ["TopDown","LoalDistance","Cruise"],
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Direct [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Direct [Indent level: 1],
         "Direct": {
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\TopDown [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\TopDown [Indent level: 1],
         "TopDown": {
             "ascendAngle": 39,
             "ascendHeight": 360,
             "minDistance": 600,
             "descendDistance": 3000
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\LoalDistance [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\LoalDistance [Indent level: 1],
         "LoalDistance": {
             "lockSeekDistanceFromParent": 1000
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Cruise [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Cruise [Indent level: 1],
         "Cruise": {
             "preferredFlightAltitude": 500,
             "lockDistanceToTarget": 500
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Eventhandlers [Indent level: 1],
         "Eventhandlers": {
-            # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers\RHS_EH [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Eventhandlers\\RHS_EH [Indent level: 2],
+
             "RHS_EH": {
+
                 "fired": "_this call rhs_fnc_agm114_helper"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -23061,28 +25746,28 @@ rhs_mag_AGM114K_4 = {
         "craterEffects": "AAMissileCrater",
         "explosionEffects": "AAMissileExplosion",
         "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\soundfly1.ogg",1,1.5,400],
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 163.905
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 4,
             "duration": 0.1,
@@ -23102,7 +25787,7 @@ rhs_mag_AGM114K_4 = {
         "deflecting": 0,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -23209,7 +25894,7 @@ rhs_mag_AGM114K_4 = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -23232,10 +25917,10 @@ rhs_mag_AGM114K_4 = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -23244,7 +25929,7 @@ rhs_mag_AGM114K_4 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_AGM114L_4 = {
+"rhs_mag_AGM114L_4": {
     "model": "rhsusf\\addons\\rhsusf_airweapons\\proxypylon\\rhsusf_pylon_m_agm114_4x",
     "count": 4,
     "displayName": "AGM-114L (M299)",
@@ -23252,229 +25937,410 @@ rhs_mag_AGM114L_4 = {
     "weight": 180,
     "hardpoints": ["RHS_HP_LONGBOW_RACK"],
     "mirrorMissilesIndexes": [2,1,4,3],
-    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements [Indent level: 1],
+    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD [Indent level: 2]
+        # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD [Indent level: 2],
+
         "RHS_AH64_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Bones [Indent level: 3]
+
+            # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Bones [Indent level: 3],
+
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw [Indent level: 3],
+
+            # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw [Indent level: 3],
+
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup [Indent level: 4]
+
+                # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\BackgroundGroup [Indent level: 4],
+
+
                 "BackgroundGroup": {
+
+
                     "color": [0,0,0],
+
+
                     "alpha": 1,
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\BackgroundGroup\Background [Indent level: 5],
+
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\BackgroundGroup\\Background [Indent level: 5],
+
+
                     "Background": {
+
+
                         "type": "polygon",
+
+
                         "points": [[[[-0.045,-0.05],1],[[0.045,-0.05],1],[[0.045,0.17],1],[[-0.045,0.17],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default [Indent level: 4],
+
                 "Default": {
+
                     "condition": "PylonAmmoRelative>0",
+
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "type": "line",
+
                         "width": 4,
+
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.01],1],
+
                         "right": [[0.05,0.01],1],
+
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText2 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText2 [Indent level: 5],
+
                     "PylonText2": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.14],1],
+
                         "right": [[0.05,0.14],1],
+
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText3 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText3 [Indent level: 5],
+
                     "PylonText3": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.01],1],
+
                         "right": [[0.005,0.01],1],
+
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText4 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText4 [Indent level: 5],
+
                     "PylonText4": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.14],1],
+
                         "right": [[0.005,0.14],1],
+
                         "down": [[-0.025,0.165],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected [Indent level: 4],
+
                 "Selected": {
+
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
+
                     "color": [0.99,0.94,0.59],
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "type": "line",
+
                         "width": 4,
+
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.01],1],
+
                         "right": [[0.05,0.01],1],
+
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText2 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText2 [Indent level: 5],
+
                     "PylonText2": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.14],1],
+
                         "right": [[0.05,0.14],1],
+
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText3 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText3 [Indent level: 5],
+
                     "PylonText3": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.01],1],
+
                         "right": [[0.005,0.01],1],
+
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\PylonText4 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\PylonText4 [Indent level: 5],
+
                     "PylonText4": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.14],1],
+
                         "right": [[0.005,0.14],1],
+
                         "down": [[-0.025,0.165],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty [Indent level: 4],
+
                 "Empty": {
+
                     "condition": "PylonAmmoRelative <= 0",
+
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "type": "line",
+
                         "width": 4,
+
                         "points": [[[-0.011,-0.0586752],1],[[-0.029,-0.0468804],1],[[-0.048,-0.0586752],1],[],[[-0.011,0.0415812],1],[[-0.011,-0.0586752],1],[[-0.011,-0.0645727],1],[[-0.013,-0.0694872],1],[[-0.015,-0.0734188],1],[[-0.019,-0.0753846],1],[[-0.023,-0.0773505],1],[[-0.026,-0.0783333],1],[[-0.029,-0.0793162],1],[[-0.03,-0.0793162],1],[[-0.033,-0.0783333],1],[[-0.036,-0.0773505],1],[[-0.04,-0.0753846],1],[[-0.043,-0.0734188],1],[[-0.046,-0.0694872],1],[[-0.047,-0.0645727],1],[[-0.048,-0.0586752],1],[[-0.048,0.0415812],1],[[-0.011,0.0415812],1],[],[[0.039,-0.0586752],1],[[0.021,-0.0468804],1],[[0.00200001,-0.0586752],1],[],[[0.039,0.0415812],1],[[0.039,-0.0586752],1],[[0.039,-0.0645727],1],[[0.037,-0.0694872],1],[[0.035,-0.0734188],1],[[0.031,-0.0753846],1],[[0.027,-0.0773505],1],[[0.024,-0.0783333],1],[[0.021,-0.0793162],1],[[0.02,-0.0793162],1],[[0.017,-0.0783333],1],[[0.014,-0.0773505],1],[[0.01,-0.0753846],1],[[0.007,-0.0734188],1],[[0.004,-0.0694872],1],[[0.00300001,-0.0645727],1],[[0.00200001,-0.0586752],1],[[0.00200001,0.0415812],1],[[0.039,0.0415812],1],[],[[-0.011,0.0743248],1],[[-0.029,0.0861197],1],[[-0.048,0.0743248],1],[],[[-0.011,0.174581],1],[[-0.011,0.0743248],1],[[-0.011,0.0684274],1],[[-0.013,0.0635128],1],[[-0.015,0.0595812],1],[[-0.019,0.0576154],1],[[-0.023,0.0556496],1],[[-0.026,0.0546667],1],[[-0.029,0.0536838],1],[[-0.03,0.0536838],1],[[-0.033,0.0546667],1],[[-0.036,0.0556496],1],[[-0.04,0.0576154],1],[[-0.043,0.0595812],1],[[-0.046,0.0635128],1],[[-0.047,0.0684274],1],[[-0.048,0.0743248],1],[[-0.048,0.174581],1],[[-0.011,0.174581],1],[],[[0.039,0.0743248],1],[[0.021,0.0861197],1],[[0.00200001,0.0743248],1],[],[[0.039,0.174581],1],[[0.039,0.0743248],1],[[0.039,0.0684274],1],[[0.037,0.0635128],1],[[0.035,0.0595812],1],[[0.031,0.0576154],1],[[0.027,0.0556496],1],[[0.024,0.0546667],1],[[0.021,0.0536838],1],[[0.02,0.0536838],1],[[0.017,0.0546667],1],[[0.014,0.0556496],1],[[0.01,0.0576154],1],[[0.007,0.0595812],1],[[0.004,0.0635128],1],[[0.00300001,0.0684274],1],[[0.00200001,0.0743248],1],[[0.00200001,0.174581],1],[[0.039,0.174581],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.01],1],
+
                         "right": [[0.05,0.01],1],
+
                         "down": [[0.02,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText2 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText2 [Indent level: 5],
+
                     "PylonText2": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[0.02,0.14],1],
+
                         "right": [[0.05,0.14],1],
+
                         "down": [[0.02,0.165],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText3 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText3 [Indent level: 5],
+
                     "PylonText3": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.01],1],
+
                         "right": [[0.005,0.01],1],
+
                         "down": [[-0.025,0.035],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\PylonText4 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\PylonText4 [Indent level: 5],
+
                     "PylonText4": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "R",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [[-0.025,0.14],1],
+
                         "right": [[0.005,0.14],1],
+
                         "down": [[-0.025,0.165],1]
                     }
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
         "RHS_AH64_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_AGM114L_4\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_AGM114L_4\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Draw [Indent level: 3],
             "Draw": {
             }
         }
     },
-    # Ammo: rhs_ammo_AGM_114L,
+    # Ammo: CfgMagazines\\rhs_mag_AGM114L\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_AGM_114L",
         "activeSensorAlwaysOn": 0,
         "missileLockCone": 90,
         "missileKeepLockedCone": 90,
         "flightProfiles": ["TopDown","LoalDistance"],
-        # Class: CfgAmmo\RHS_ammo_AGM_114L\TopDown [Indent level: 1],
+        # Class: CfgAmmo\\RHS_ammo_AGM_114L\\TopDown [Indent level: 1],
         "TopDown": {
             "ascendAngle": 26.5,
             "ascendHeight": 850,
             "minDistance": 1000,
             "descendDistance": 1200
         },
-        # Ammo: rhs_ammo_Hellfire_AT_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_Hellfire_AT\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_Hellfire_AT_penetrator",
             "warheadName": "TandemHEAT",
@@ -23493,7 +26359,7 @@ rhs_mag_AGM114L_4 = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -23724,10 +26590,10 @@ rhs_mag_AGM114L_4 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -23737,7 +26603,7 @@ rhs_mag_AGM114L_4 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -23747,7 +26613,7 @@ rhs_mag_AGM114L_4 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -23757,7 +26623,7 @@ rhs_mag_AGM114L_4 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -23768,7 +26634,7 @@ rhs_mag_AGM114L_4 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -23794,28 +26660,28 @@ rhs_mag_AGM114L_4 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -24403,10 +27269,6 @@ rhs_mag_AGM114L_4 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -24418,11 +27280,11 @@ rhs_mag_AGM114L_4 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -24451,7 +27313,7 @@ rhs_mag_AGM114L_4 = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -24463,28 +27325,28 @@ rhs_mag_AGM114L_4 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -24619,11 +27481,11 @@ rhs_mag_AGM114L_4 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -24667,68 +27529,171 @@ rhs_mag_AGM114L_4 = {
         "autoSeekTarget": 1,
         "weaponLockSystem": "2 + 16",
         "maneuvDependsOnSpeedCoef": 0.018,
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Direct [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Direct [Indent level: 1],
         "Direct": {
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\LoalDistance [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\LoalDistance [Indent level: 1],
         "LoalDistance": {
             "lockSeekDistanceFromParent": 1000
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Cruise [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Cruise [Indent level: 1],
         "Cruise": {
             "preferredFlightAltitude": 500,
             "lockDistanceToTarget": 500
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Components [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Components\SensorsManagerComponent\Components\RadarSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Components\\SensorsManagerComponent\\Components\\RadarSensorComponent [Indent level: 4],
+
+
+
                     "RadarSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Components\SensorsManagerComponent\Components\RadarSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Components\\SensorsManagerComponent\\Components\\RadarSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 8000,
+
+
+
+
                             "maxRange": 8000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": -1
                         },
-                        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Components\SensorsManagerComponent\Components\RadarSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Components\\SensorsManagerComponent\\Components\\RadarSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 8000,
+
+
+
                             "maxRange": 8000,
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
                             "viewDistanceLimitCoef": -1
                         },
+
+
+
                         "typeRecognitionDistance": -1,
+
+
+
                         "angleRangeHorizontal": 90,
+
+
+
                         "angleRangeVertical": 90,
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "maxGroundNoiseDistance": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": -1,
+
+
+
                         "maxFogSeeThrough": 0.8,
+
+
+
                         "minTrackableSpeed": 0,
+
+
+
                         "maxTrackableSpeed": 56,
+
+
+
                         "minTrackableATL": -1,
+
+
+
                         "maxTrackableATL": 1000,
+
+
+
                         "componentType": "ActiveRadarSensorComponent",
+
+
+
                         "color": [0,1,1,1],
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0
                     }
                 }
             }
         },
-        # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Eventhandlers [Indent level: 1],
         "Eventhandlers": {
-            # Class: CfgAmmo\rhs_ammo_Hellfire_AT\Eventhandlers\RHS_EH [Indent level: 2]
+            # Class: CfgAmmo\\rhs_ammo_Hellfire_AT\\Eventhandlers\\RHS_EH [Indent level: 2],
+
             "RHS_EH": {
+
                 "fired": "_this call rhs_fnc_agm114_helper"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
@@ -24743,28 +27708,28 @@ rhs_mag_AGM114L_4 = {
         "explosionEffects": "AAMissileExplosion",
         "muzzleEffect": "",
         "soundFly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\soundfly1.ogg",1,1.5,400],
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 163.905
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\Missile_AGM_02_F\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\Missile_AGM_02_F\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 4,
             "duration": 0.1,
@@ -24784,7 +27749,7 @@ rhs_mag_AGM114L_4 = {
         "deflecting": 0,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -24892,7 +27857,7 @@ rhs_mag_AGM114L_4 = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -24916,10 +27881,10 @@ rhs_mag_AGM114L_4 = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -24928,11 +27893,11 @@ rhs_mag_AGM114L_4 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-RHS_mag_AZP23_100 = {
+"RHS_mag_AZP23_100": {
     "count": 100,
     "scope": 2,
     "displayName": "AZP-23",
-    # Ammo: RHS_ammo_23mm_AA,
+    # Ammo: CfgMagazines\\rhs_mag_AZP23_250\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "RHS_ammo_23mm_AA",
         "hit": 60,
@@ -24967,28 +27932,28 @@ RHS_mag_AZP23_100 = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_03",1.77828,1,1600],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\30mm40mm_shell_explosion_04",1.77828,1,1600],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\B_35mm_AA\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_35mm_AA\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 3.6,
             "duration": 0.8,
             "frequency": 20,
             "distance": 41.9411
         },
-        # Class: CfgAmmo\B_35mm_AA\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_35mm_AA\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 18,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\B_35mm_AA\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\B_35mm_AA\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 1.49535,
             "duration": 0.4,
             "frequency": 20,
             "distance": 17.8885
         },
-        # Class: CfgAmmo\B_35mm_AA\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\B_35mm_AA\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.001,
             "duration": 0.1,
@@ -25204,10 +28169,10 @@ RHS_mag_AZP23_100 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -25217,7 +28182,7 @@ RHS_mag_AZP23_100 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -25227,7 +28192,7 @@ RHS_mag_AZP23_100 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -25237,7 +28202,7 @@ RHS_mag_AZP23_100 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -25248,7 +28213,7 @@ RHS_mag_AZP23_100 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -25846,10 +28811,6 @@ RHS_mag_AZP23_100 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -25861,11 +28822,11 @@ RHS_mag_AZP23_100 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -25889,10 +28850,10 @@ RHS_mag_AZP23_100 = {
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -25902,22 +28863,22 @@ RHS_mag_AZP23_100 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_gau19_air_base = {
+"rhs_mag_gau19_air_base": {
     "scope": 0,
-    # Ammo: rhs_ammo_127x99_SLAP_Tracer_Red,
+    # Ammo: CfgMagazines\\rhs_mag_gau19_air_base\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_127x99_SLAP_Tracer_Red",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "tracerEndTime": 3,
         "caliber": 2.80992,
-        # Class: CfgAmmo\rhs_ammo_127x99_SLAP\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_SLAP\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 1,
             "duration": 0.2,
             "frequency": 20,
             "distance": 8
         },
-        # Class: CfgAmmo\rhs_ammo_127x99_SLAP\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\rhs_ammo_127x99_SLAP\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 1,
             "duration": 0.1,
@@ -25930,14 +28891,14 @@ rhs_mag_gau19_air_base = {
         "typicalSpeed": 1215,
         "airFriction": -0.00036,
         "cost": 15,
-        # Class: CfgAmmo\B_127x99_SLAP\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_SLAP\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 4.47214,
             "duration": 0.8,
             "frequency": 20,
             "distance": 13.4164
         },
-        # Class: CfgAmmo\B_127x99_SLAP\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_127x99_SLAP\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
@@ -26243,10 +29204,10 @@ rhs_mag_gau19_air_base = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -26256,7 +29217,7 @@ rhs_mag_gau19_air_base = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -26266,7 +29227,7 @@ rhs_mag_gau19_air_base = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -26276,7 +29237,7 @@ rhs_mag_gau19_air_base = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -26287,7 +29248,7 @@ rhs_mag_gau19_air_base = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -26814,10 +29775,6 @@ rhs_mag_gau19_air_base = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -26829,11 +29786,11 @@ rhs_mag_gau19_air_base = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -26863,10 +29820,10 @@ rhs_mag_gau19_air_base = {
     "selectionFireAnim": "zasleh",
     "nameSound": "magazine",
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -26875,11 +29832,11 @@ rhs_mag_gau19_air_base = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_gbu12 = {
+"rhs_mag_gbu12": {
     "count": 1,
     "displayName": "GBU-12",
     "descriptionShort": "500lb Paveway II",
-    # Ammo: rhs_ammo_gbu12,
+    # Ammo: CfgMagazines\\rhs_mag_gbu12\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_gbu12",
         "model": "rhsusf\\addons\\rhsusf_airweapons\\proxyammo\\rhsusf_b_gbu12_fly",
@@ -26920,80 +29877,243 @@ rhs_mag_gbu12 = {
         "weaponLockSystem": 4,
         "cmImmunity": 0.3,
         "flightProfiles": ["LoalAltitude"],
-        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\LoalAltitude [Indent level: 1],
+        # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\LoalAltitude [Indent level: 1],
         "LoalAltitude": {
             "lockSeekAltitude": 500
         },
-        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components [Indent level: 1],
+        # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent\\Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent\Components\NVSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent\\Components\\NVSensorComponent [Indent level: 4],
+
+
+
                     "NVSensorComponent": {
-                        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent\Components\NVSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent\\Components\\NVSensorComponent\\AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 5000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent\Components\NVSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent\\Components\\NVSensorComponent\\GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 5000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "maxTrackableSpeed": 30,
+
+
+
                         "angleRangeHorizontal": 120,
+
+
+
                         "angleRangeVertical": 120,
+
+
+
                         "componentType": "NVSensorComponent",
+
+
+
                         "color": [1,1,1,0],
+
+
+
                         "typeRecognitionDistance": 0,
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "maxGroundNoiseDistance": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": 0,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0,
+
+
+
                         "minTrackableSpeed": -1e+010,
+
+
+
                         "minTrackableATL": -1e+010,
+
+
+
                         "maxTrackableATL": 1e+010
                     },
-                    # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent\Components\LaserSensorComponent [Indent level: 4],
+
+
+                    # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent\\Components\\LaserSensorComponent [Indent level: 4],
+
+
                     "LaserSensorComponent": {
-                        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent\Components\LaserSensorComponent\AirTarget [Indent level: 5]
+
+
+                        # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent\\Components\\LaserSensorComponent\\AirTarget [Indent level: 5],
+
+
+
                         "AirTarget": {
+
+
+
                             "minRange": 5000,
+
+
+
                             "maxRange": 5000,
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
                             "viewDistanceLimitCoef": -1
                         },
-                        # Class: CfgAmmo\ammo_Bomb_LaserGuidedBase\Components\SensorsManagerComponent\Components\LaserSensorComponent\GroundTarget [Indent level: 5],
+
+
+                        # Class: CfgAmmo\\ammo_Bomb_LaserGuidedBase\\Components\\SensorsManagerComponent\\Components\\LaserSensorComponent\\GroundTarget [Indent level: 5],
+
+
                         "GroundTarget": {
+
+
                             "minRange": 5000,
+
+
                             "maxRange": 5000,
+
+
                             "objectDistanceLimitCoef": -1,
+
+
                             "viewDistanceLimitCoef": -1
                         },
+
+
                         "maxTrackableSpeed": 30,
+
+
                         "angleRangeHorizontal": 120,
+
+
                         "angleRangeVertical": 120,
+
+
                         "componentType": "LaserSensorComponent",
+
+
                         "typeRecognitionDistance": 0,
+
+
                         "color": [1,1,1,0],
+
+
                         "allowsMarking": 1,
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
                         "maxGroundNoiseDistance": -1,
+
+
                         "minSpeedThreshold": 0,
+
+
                         "maxSpeedThreshold": 0,
+
+
                         "animDirection": "",
+
+
                         "aimDown": 0,
+
+
                         "minTrackableSpeed": -1e+010,
+
+
                         "minTrackableATL": -1e+010,
+
+
                         "maxTrackableATL": 1e+010
                     }
                 }
@@ -27102,10 +30222,6 @@ rhs_mag_gbu12 = {
         "shootDistraction": -1,
         "visibleFireTime": 0,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -27115,7 +30231,7 @@ rhs_mag_gbu12 = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Default\\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -27124,11 +30240,11 @@ rhs_mag_gbu12 = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -27137,70 +30253,90 @@ rhs_mag_gbu12 = {
     "hardpoints": ["RHS_HP_LGB_500"],
     "pylonWeapon": "rhs_weap_gbu12",
     "displayNameMFDFormat": "GBU12\\%1",
-    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements [Indent level: 1],
+    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_ammoname [Indent level: 2]
+        # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_ammoname [Indent level: 2],
+
         "rhs_a10a_ammoname": {
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_ammoname\Bones [Indent level: 3]
+
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_ammoname\\Bones [Indent level: 3],
+
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_ammoname\Draw [Indent level: 3],
+
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_ammoname\\Draw [Indent level: 3],
+
             "Draw": {
+
                 "color": [1,1,1],
+
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_ammoname\Draw\PylonText1 [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_ammoname\\Draw\\PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "GBU",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "center",
+
                     "pos": [[0.005,0.02],1],
+
                     "right": [[0.05,0.02],1],
+
                     "down": [[0.005,0.105],1]
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box [Indent level: 2],
         "rhs_a10a_box": {
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Draw\Default [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Draw\\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>=0.001",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Draw\Default\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Draw\\Default\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,-0.04],1],[[0.015,-0.04],1],[[0.015,0.04],1],[[-0.015,0.04],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Draw\\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Draw\\Selected\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,0.05],1],[[0.015,0.05],1],[[0.015,0.13],1],[[-0.015,0.13],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Draw\\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative<=0",
                     "color": [0.87,0,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\rhs_a10a_box\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\rhs_a10a_box\\Draw\\Empty\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -27209,49 +30345,56 @@ rhs_mag_gbu12 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD [Indent level: 2],
         "RHS_A29_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\BackgroundGroup [Indent level: 4]
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\BackgroundGroup [Indent level: 4],
+
                 "BackgroundGroup": {
+
                     "color": [0,0,0],
-                    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\BackgroundGroup\Background [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\BackgroundGroup\\Background [Indent level: 5],
+
                     "Background": {
+
                         "type": "polygon",
+
                         "points": [[[[-0.02,-0.08],1],[[0.03,-0.08],1],[[0.03,0.06],1],[[-0.02,0.06],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\Default [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>0",
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[0.00825,0.0265625],1],[[0.0123125,0.0265625],1],[],[[-0.0051875,0.0265625],1],[[-0.001125,0.0265625],1],[],[[-0.0105,-0.0575],1],[[0.017625,-0.0575],1],[],[[-0.0105,0.00749999],1],[[0.017625,0.00749999],1],[],[[-0.000812501,0.050625],1],[[-0.000812501,0.0178125],1],[[0.0016875,0.01625],1],[[0.0035625,0.015625],1],[[0.00825,0.02],1],[[0.007625,0.0503125],1],[],[[0.0035625,0.0578125],1],[[0.0066875,0.0565625],1],[[0.007625,0.0534375],1],[[0.007625,0.0503125],1],[[0.0210625,0.055],1],[[0.0210625,0.0303125],1],[[0.0123125,0.0265625],1],[[0.017625,0.0078125],1],[[0.017625,-0.056875],1],[[0.017625,-0.0646875],1],[[0.0160625,-0.070625],1],[[0.0141875,-0.0740625],1],[[0.0110625,-0.076875],1],[[0.0079375,-0.0784375],1],[[0.0035625,-0.0790625],1],[[-0.000812501,-0.0784375],1],[[-0.00393751,-0.0765625],1],[[-0.0070625,-0.07375],1],[[-0.0089375,-0.0703125],1],[[-0.0105,-0.0646875],1],[[-0.0105,-0.056875],1],[[-0.0105,0.0078125],1],[[-0.0051875,0.0265625],1],[[-0.013625,0.030625],1],[[-0.013625,0.054375],1],[[-0.000812501,0.050625],1],[[0.0035625,0.0578125],1]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
                     "color": [0.99,0.94,0.59],
-                    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[0.00825,0.0265625],1],[[0.0123125,0.0265625],1],[],[[-0.0051875,0.0265625],1],[[-0.001125,0.0265625],1],[],[[-0.0105,-0.0575],1],[[0.017625,-0.0575],1],[],[[-0.0105,0.00749999],1],[[0.017625,0.00749999],1],[],[[-0.000812501,0.050625],1],[[-0.000812501,0.0178125],1],[[0.0016875,0.01625],1],[[0.0035625,0.015625],1],[[0.00825,0.02],1],[[0.007625,0.0503125],1],[],[[0.0035625,0.0578125],1],[[0.0066875,0.0565625],1],[[0.007625,0.0534375],1],[[0.007625,0.0503125],1],[[0.0210625,0.055],1],[[0.0210625,0.0303125],1],[[0.0123125,0.0265625],1],[[0.017625,0.0078125],1],[[0.017625,-0.056875],1],[[0.017625,-0.0646875],1],[[0.0160625,-0.070625],1],[[0.0141875,-0.0740625],1],[[0.0110625,-0.076875],1],[[0.0079375,-0.0784375],1],[[0.0035625,-0.0790625],1],[[-0.000812501,-0.0784375],1],[[-0.00393751,-0.0765625],1],[[-0.0070625,-0.07375],1],[[-0.0089375,-0.0703125],1],[[-0.0105,-0.0646875],1],[[-0.0105,-0.056875],1],[[-0.0105,0.0078125],1],[[-0.0051875,0.0265625],1],[[-0.013625,0.030625],1],[[-0.013625,0.054375],1],[[-0.000812501,0.050625],1],[[0.0035625,0.0578125],1]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative <= 0",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
@@ -27260,26 +30403,37 @@ rhs_mag_gbu12 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD_Inventory [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD_Inventory [Indent level: 2],
         "RHS_A29_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD_Inventory\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText1 [Indent level: 4]
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw\\PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "GBU-12",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "right",
+
                     "pos": [[0,0.02],1],
+
                     "right": [[0.025,0.02],1],
+
                     "down": [[0,0.04],1]
                 },
-                # Class: CfgMagazines\rhs_mag_gbu12\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText2 [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_gbu12\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw\\PylonText2 [Indent level: 4],
                 "PylonText2": {
                     "type": "text",
                     "source": "static",
@@ -27312,10 +30466,10 @@ rhs_mag_gbu12 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -27324,12 +30478,12 @@ rhs_mag_gbu12 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_m134_pylon_3000 = {
+"rhs_mag_m134_pylon_3000": {
     "descriptionShort": "Ã3000 7.62Ã51mm M61/M62 (AP/T)",
     "scope": 2,
     "hardpoints": ["RHS_HP_MELB_M134"],
     "count": 3000,
-    # Ammo: rhs_ammo_762x51_M61_AP,
+    # Ammo: CfgMagazines\\rhs_mag_m134_pylon_base\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_762x51_M61_AP",
         "hit": 12.55,
@@ -27560,10 +30714,10 @@ rhs_mag_m134_pylon_3000 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -27573,7 +30727,7 @@ rhs_mag_m134_pylon_3000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -27583,7 +30737,7 @@ rhs_mag_m134_pylon_3000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -27593,7 +30747,7 @@ rhs_mag_m134_pylon_3000 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -27604,7 +30758,7 @@ rhs_mag_m134_pylon_3000 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -27630,28 +30784,28 @@ rhs_mag_m134_pylon_3000 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -28239,10 +31393,6 @@ rhs_mag_m134_pylon_3000 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -28254,11 +31404,11 @@ rhs_mag_m134_pylon_3000 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -28287,10 +31437,10 @@ rhs_mag_m134_pylon_3000 = {
     "selectionFireAnim": "zasleh",
     "nameSound": "magazine",
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -28299,326 +31449,626 @@ rhs_mag_m134_pylon_3000 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_M151_19_green = {
+"rhs_mag_M151_19_green": {
     "model": "rhsusf\\addons\\rhsusf_airweapons\\proxypylon\\rhsusf_pylon_r_FFAR_19x_green",
     "displayname": "M151 Hydra (LAU-61)",
     "hardpoints": ["RHS_HP_FFAR_USMC"],
     "count": 19,
     "weight": 131,
     "descriptionShort": "Ã19 10lb HE Hydra",
-    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements [Indent level: 1],
+    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD [Indent level: 2]
+        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD [Indent level: 2],
+
         "RHS_AH64_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Bones [Indent level: 3]
+
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Bones [Indent level: 3],
+
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw [Indent level: 3],
+
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw [Indent level: 3],
+
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default [Indent level: 4]
+
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default [Indent level: 4],
+
+
                 "Default": {
+
+
                     "condition": "PylonAmmoRelative>0",
+
+
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
+
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\BackgroundGroup [Indent level: 5],
+
+
                     "BackgroundGroup": {
+
+
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
+
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\BackgroundGroup\\Background [Indent level: 6],
+
+
                         "Background": {
+
+
                             "type": "polygon",
+
+
                             "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
+
+
                     "Shape": {
+
+
                         "type": "line",
+
+
                         "width": 4,
+
+
                         "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
+
+
                     "PylonText1": {
+
+
                         "type": "text",
+
+
                         "source": "static",
+
+
                         "text": "6PD",
+
+
                         "scale": 1,
+
+
                         "sourceScale": 1,
+
+
                         "align": "center",
+
+
                         "pos": [["0.03+-0.03",0.02],1],
+
+
                         "right": [[0.025,0.02],1],
+
+
                         "down": [["0.03+-0.03",0.045],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected [Indent level: 4],
+
                 "Selected": {
+
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "width": 8,
+
                         "type": "line",
+
                         "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BackgroundGroup [Indent level: 5],
+
                     "BackgroundGroup": {
+
                         "color": [0,0.12,0],
+
                         "alpha": 0.3,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BackgroundGroup\\Background [Indent level: 6],
+
                         "Background": {
+
                             "type": "polygon",
+
                             "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BlackText [Indent level: 5],
+
                     "BlackText": {
+
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText1 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText1 [Indent level: 6],
+
                         "PylonText1": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText2 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText2 [Indent level: 6],
+
                         "PylonText2": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText3 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText3 [Indent level: 6],
+
                         "PylonText3": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText4 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText4 [Indent level: 6],
+
                         "PylonText4": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText5 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText5 [Indent level: 6],
+
                         "PylonText5": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BlackText\PylonText6 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText6 [Indent level: 6],
+
                         "PylonText6": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
+
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\BackgroundGroup [Indent level: 5],
+
                         "BackgroundGroup": {
+
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
+
+                            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\BackgroundGroup\\Background [Indent level: 6],
+
                             "Background": {
+
                                 "type": "polygon",
+
                                 "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
+
                         "Shape": {
+
                             "type": "line",
+
                             "width": 4,
+
                             "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                         }
                     },
+
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "6PD",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [["0.03+-0.03",0.02],1],
+
                         "right": [[0.025,0.02],1],
+
                         "down": [["0.03+-0.03",0.045],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty [Indent level: 4],
+
                 "Empty": {
+
                     "condition": "PylonAmmoRelative <= 0",
+
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "width": 8,
+
                         "type": "line",
+
                         "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\BlackText [Indent level: 5],
+
                     "BlackText": {
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText1 [Indent level: 6]
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText1 [Indent level: 6],
+
+
                         "PylonText1": {
+
+
                             "type": "text",
+
+
                             "source": "static",
+
+
                             "text": "6PD",
+
+
                             "scale": 1,
+
+
                             "sourceScale": 1,
+
+
                             "align": "center",
+
+
                             "pos": [["0.03+-0.03",0.02],1],
+
+
                             "right": [[0.025,0.02],1],
+
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText2 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText2 [Indent level: 6],
+
                         "PylonText2": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText3 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText3 [Indent level: 6],
+
                         "PylonText3": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText4 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText4 [Indent level: 6],
+
                         "PylonText4": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText5 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText5 [Indent level: 6],
+
                         "PylonText5": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Empty\BlackText\PylonText6 [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText6 [Indent level: 6],
+
                         "PylonText6": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",0.02],1],
+
                             "right": [[0.025,0.02],1],
+
                             "down": [["0.03+-0.03",0.045],1]
                         },
+
                         "color": [0,0,0],
+
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\BackgroundGroup [Indent level: 5],
+
                         "BackgroundGroup": {
+
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
+
+                            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\BackgroundGroup\\Background [Indent level: 6],
+
                             "Background": {
+
                                 "type": "polygon",
+
                                 "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
+
                         "Shape": {
+
                             "type": "line",
+
                             "width": 4,
+
                             "points": [[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1],[[-0.035,-0.04],1],[],[[-0.035,-0.04],1],[[-0.0315,-0.04625],1],[[-0.028,-0.0475],1],[[-0.0245,-0.04625],1],[[-0.021,-0.04],1],[],[[-0.021,-0.04],1],[[-0.0175,-0.04625],1],[[-0.014,-0.0475],1],[[-0.0105,-0.04625],1],[[-0.007,-0.04],1],[],[[-0.007,-0.04],1],[[-0.0035,-0.04625],1],[[0,-0.0475],1],[[0.0035,-0.04625],1],[[0.007,-0.04],1],[],[[0.007,-0.04],1],[[0.0105,-0.04625],1],[[0.014,-0.0475],1],[[0.0175,-0.04625],1],[[0.021,-0.04],1],[],[[0.021,-0.04],1],[[0.0245,-0.04625],1],[[0.028,-0.0475],1],[[0.0315,-0.04625],1],[[0.035,-0.04],1],[]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BackgroundGroup [Indent level: 5],
+
                     "BackgroundGroup": {
+
                         "color": [0,0.12,0],
+
                         "alpha": 0.3,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Selected\\BackgroundGroup\\Background [Indent level: 6],
+
                         "Background": {
+
                             "type": "polygon",
+
                             "points": [[[[-0.035,-0.04],1],[[0.035,-0.04],1],[[0.035,0.15],1],[[-0.035,0.15],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "6PD",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [["0.03+-0.03",0.02],1],
+
                         "right": [[0.025,0.02],1],
+
                         "down": [["0.03+-0.03",0.045],1]
                     }
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD_Inventory [Indent level: 2],
         "RHS_AH64_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonText1 [Indent level: 4]
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Draw\\PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "6PD",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "right",
+
                     "pos": [[0,0.02],1],
+
                     "right": [[0.03,0.02],1],
+
                     "down": [[0,0.05],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonAmo [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Draw\\PylonAmo [Indent level: 4],
                 "PylonAmo": {
                     "type": "text",
                     "source": "pylonammo",
@@ -28629,10 +32079,10 @@ rhs_mag_M151_19_green = {
                     "right": [[0.03,0.054],1],
                     "down": [[0,0.084],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonSelected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Draw\\PylonSelected [Indent level: 4],
                 "PylonSelected": {
                     "condition": "PylonSelected",
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_AH64_Weap_MFD_Inventory\Draw\PylonSelected\Static [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_AH64_Weap_MFD_Inventory\\Draw\\PylonSelected\\Static [Indent level: 5],
                     "Static": {
                         "type": "line",
                         "width": 4,
@@ -28641,69 +32091,96 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD [Indent level: 2],
         "RHS_A29_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default [Indent level: 4]
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default [Indent level: 4],
+
                 "Default": {
+
                     "condition": "PylonAmmoRelative>0",
+
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\BackgroundGroup [Indent level: 5],
+
                     "BackgroundGroup": {
+
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
+
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\BackgroundGroup\\Background [Indent level: 6],
+
                         "Background": {
+
                             "type": "polygon",
+
                             "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
+
                     "Shape": {
+
                         "type": "line",
+
                         "width": 4,
+
                         "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
+
                     "PylonText1": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "6PD",
+
                         "scale": 1,
+
                         "sourceScale": 1,
+
                         "align": "center",
+
                         "pos": [["0.03+-0.03",-0.01],1],
+
                         "right": [[0.015,-0.01],1],
+
                         "down": [["0.03+-0.03",0.005],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
                     "color": [0.99,0.94,0.59],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\Shape [Indent level: 5],
                     "Shape": {
                         "width": 8,
                         "type": "line",
                         "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0.99,0.94,0.59],
                         "alpha": 0.1,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BackgroundGroup\\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BlackText [Indent level: 5],
                     "BlackText": {
                         "color": [0,0,0],
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText1 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText1 [Indent level: 6],
                         "PylonText1": {
                             "type": "text",
                             "source": "static",
@@ -28715,7 +32192,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText2 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText2 [Indent level: 6],
                         "PylonText2": {
                             "type": "text",
                             "source": "static",
@@ -28727,7 +32204,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText3 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText3 [Indent level: 6],
                         "PylonText3": {
                             "type": "text",
                             "source": "static",
@@ -28739,7 +32216,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText4 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText4 [Indent level: 6],
                         "PylonText4": {
                             "type": "text",
                             "source": "static",
@@ -28751,7 +32228,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText5 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText5 [Indent level: 6],
                         "PylonText5": {
                             "type": "text",
                             "source": "static",
@@ -28763,7 +32240,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BlackText\PylonText6 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BlackText\\PylonText6 [Indent level: 6],
                         "PylonText6": {
                             "type": "text",
                             "source": "static",
@@ -28776,23 +32253,23 @@ rhs_mag_M151_19_green = {
                             "down": [["0.03+-0.03",0.005],1]
                         },
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\BackgroundGroup [Indent level: 5],
                         "BackgroundGroup": {
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
+                            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\BackgroundGroup\\Background [Indent level: 6],
                             "Background": {
                                 "type": "polygon",
                                 "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
                         "Shape": {
                             "type": "line",
                             "width": 4,
                             "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -28805,31 +32282,41 @@ rhs_mag_M151_19_green = {
                         "down": [["0.03+-0.03",0.005],1]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative <= 0",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\Shape [Indent level: 5],
                     "Shape": {
                         "width": 8,
                         "type": "line",
                         "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\BlackText [Indent level: 5],
                     "BlackText": {
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText1 [Indent level: 6]
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText1 [Indent level: 6],
+
                         "PylonText1": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "6PD",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "align": "center",
+
                             "pos": [["0.03+-0.03",-0.01],1],
+
                             "right": [[0.015,-0.01],1],
+
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText2 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText2 [Indent level: 6],
                         "PylonText2": {
                             "type": "text",
                             "source": "static",
@@ -28841,7 +32328,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText3 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText3 [Indent level: 6],
                         "PylonText3": {
                             "type": "text",
                             "source": "static",
@@ -28853,7 +32340,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText4 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText4 [Indent level: 6],
                         "PylonText4": {
                             "type": "text",
                             "source": "static",
@@ -28865,7 +32352,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText5 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText5 [Indent level: 6],
                         "PylonText5": {
                             "type": "text",
                             "source": "static",
@@ -28877,7 +32364,7 @@ rhs_mag_M151_19_green = {
                             "right": [[0.015,-0.01],1],
                             "down": [["0.03+-0.03",0.005],1]
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\BlackText\PylonText6 [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\BlackText\\PylonText6 [Indent level: 6],
                         "PylonText6": {
                             "type": "text",
                             "source": "static",
@@ -28891,33 +32378,33 @@ rhs_mag_M151_19_green = {
                         },
                         "color": [0,0,0],
                         "condition": "PylonAmmoRelative>0",
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup [Indent level: 5],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\BackgroundGroup [Indent level: 5],
                         "BackgroundGroup": {
                             "color": [0,0,0],
-                            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\BackgroundGroup\Background [Indent level: 6],
+                            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\BackgroundGroup\\Background [Indent level: 6],
                             "Background": {
                                 "type": "polygon",
                                 "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                             }
                         },
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
                         "Shape": {
                             "type": "line",
                             "width": 4,
                             "points": [[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1],[[-0.0225,-0.06],1],[],[[-0.0225,-0.06],1],[[-0.02025,-0.06625],1],[[-0.018,-0.0675],1],[[-0.01575,-0.06625],1],[[-0.0135,-0.06],1],[],[[-0.0135,-0.06],1],[[-0.01125,-0.06625],1],[[-0.009,-0.0675],1],[[-0.00675,-0.06625],1],[[-0.0045,-0.06],1],[],[[-0.0045,-0.06],1],[[-0.00225,-0.06625],1],[[-1.86265e-009,-0.0675],1],[[0.00225,-0.06625],1],[[0.0045,-0.06],1],[],[[0.0045,-0.06],1],[[0.00675,-0.06625],1],[[0.009,-0.0675],1],[[0.01125,-0.06625],1],[[0.0135,-0.06],1],[],[[0.0135,-0.06],1],[[0.01575,-0.06625],1],[[0.018,-0.0675],1],[[0.02025,-0.06625],1],[[0.0225,-0.06],1],[]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BackgroundGroup [Indent level: 5],
                     "BackgroundGroup": {
                         "color": [0.99,0.94,0.59],
                         "alpha": 0.1,
-                        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\BackgroundGroup\Background [Indent level: 6],
+                        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\BackgroundGroup\\Background [Indent level: 6],
                         "Background": {
                             "type": "polygon",
                             "points": [[[[-0.0225,-0.06],1],[[0.0225,-0.06],1],[[0.0225,0.03],1],[[-0.0225,0.03],1]]]
                         }
                     },
-                    # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD\Draw\Default\PylonText1 [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -28932,26 +32419,37 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD_Inventory [Indent level: 2],
         "RHS_A29_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText1 [Indent level: 4]
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw\\PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "M151",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "right",
+
                     "pos": [[0,0.02],1],
+
                     "right": [[0.025,0.02],1],
+
                     "down": [[0,0.04],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText2 [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw\\PylonText2 [Indent level: 4],
                 "PylonText2": {
                     "type": "text",
                     "source": "static",
@@ -28963,7 +32461,7 @@ rhs_mag_M151_19_green = {
                     "right": [[0.025,0.054],1],
                     "down": [[0,0.074],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_19\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonAmo [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_19\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw\\PylonAmo [Indent level: 4],
                 "PylonAmo": {
                     "type": "text",
                     "source": "pylonammo",
@@ -28976,16 +32474,17 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname [Indent level: 2],
         "rhs_a10a_ammoname": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname\\Draw [Indent level: 3],
             "Draw": {
                 "color": [1,1,1],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw\PylonText1 [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname\\Draw\\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     "type": "text",
                     "source": "static",
@@ -28999,45 +32498,46 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box [Indent level: 2],
         "rhs_a10a_box": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>=0.001",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Default\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,-0.04],1],[[0.015,-0.04],1],[[0.015,0.04],1],[[-0.015,0.04],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Selected\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,0.05],1],[[0.015,0.05],1],[[0.015,0.13],1],[[-0.015,0.13],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative<=0",
                     "color": [0.87,0,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Empty\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -29046,15 +32546,16 @@ rhs_mag_M151_19_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname [Indent level: 2],
         "rhs_ah64_ammoname": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Draw [Indent level: 3],
             "Draw": {
                 "condition": "pylonSelected",
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonText1 [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Draw\\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     "type": "text",
                     "source": "static",
@@ -29066,7 +32567,7 @@ rhs_mag_M151_19_green = {
                     "right": [[0.05,0.02],1],
                     "down": [[0.005,0.105],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonAmmo [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Draw\\PylonAmmo [Indent level: 4],
                 "PylonAmmo": {
                     "type": "text",
                     "source": "ammo",
@@ -29084,7 +32585,7 @@ rhs_mag_M151_19_green = {
     "initSpeed": 44,
     "maxLeadSpeed": 200,
     "nameSound": "rockets",
-    # Ammo: rhs_ammo_Hydra_M151,
+    # Ammo: CfgMagazines\\rhs_mag_M151_7\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_Hydra_M151",
         "maverickweapon": 1,
@@ -29119,28 +32620,28 @@ rhs_mag_M151_19_green = {
         "effectsMissileInit": "PylonBackEffectsFFAR",
         "muzzleEffect": "",
         "soundFly": ["A3\\Sounds_F\\weapons\\Rockets\\rocket_fly_1",0.630957,1.2,1700],
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 16,
             "duration": 1.8,
             "frequency": 20,
             "distance": 191.554
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 80,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 2,
             "duration": 0.1,
@@ -29164,11 +32665,11 @@ rhs_mag_M151_19_green = {
         "cmImmunity": 0.9,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\MissileBase\Components [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\Components [Indent level: 1],
         "Components": {
         },
         "htMin": 60,
@@ -29179,10 +32680,12 @@ rhs_mag_M151_19_green = {
         "tBody": 0,
         "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
         "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
+
             "RHS_APS_FiredEH": {
+
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
@@ -29276,10 +32779,6 @@ rhs_mag_M151_19_green = {
         "shootDistraction": -1,
         "explosionTime": 0,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -29293,7 +32792,7 @@ rhs_mag_M151_19_green = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -29314,10 +32813,10 @@ rhs_mag_M151_19_green = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -29326,7 +32825,7 @@ rhs_mag_M151_19_green = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_M151_7_green = {
+"rhs_mag_M151_7_green": {
     "model": "rhsusf\\addons\\rhsusf_airweapons\\proxypylon\\rhsusf_pylon_r_FFAR_7x_green",
     "displayname": "M151 Hydra (LAU-68)",
     "hardpoints": ["RHS_HP_FFAR_USMC"],
@@ -29336,7 +32835,7 @@ rhs_mag_M151_7_green = {
     "maxLeadSpeed": 200,
     "nameSound": "rockets",
     "weight": 48,
-    # Ammo: rhs_ammo_Hydra_M151,
+    # Ammo: CfgMagazines\\rhs_mag_M151_7\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_Hydra_M151",
         "maverickweapon": 1,
@@ -29371,28 +32870,28 @@ rhs_mag_M151_7_green = {
         "effectsMissileInit": "PylonBackEffectsFFAR",
         "muzzleEffect": "",
         "soundFly": ["A3\\Sounds_F\\weapons\\Rockets\\rocket_fly_1",0.630957,1.2,1700],
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 16,
             "duration": 1.8,
             "frequency": 20,
             "distance": 191.554
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 80,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\Rocket_04_HE_F\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\Rocket_04_HE_F\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 2,
             "duration": 0.1,
@@ -29416,11 +32915,11 @@ rhs_mag_M151_7_green = {
         "cmImmunity": 0.9,
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
-        # Class: CfgAmmo\MissileBase\Components [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\Components [Indent level: 1],
         "Components": {
         },
         "htMin": 60,
@@ -29431,10 +32930,12 @@ rhs_mag_M151_7_green = {
         "tBody": 0,
         "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
         "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        # Class: CfgAmmo\MissileBase\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\MissileBase\\EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
+            # Class: CfgAmmo\\MissileBase\\EventHandlers\\RHS_APS_FiredEH [Indent level: 2],
+
             "RHS_APS_FiredEH": {
+
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
@@ -29528,10 +33029,6 @@ rhs_mag_M151_7_green = {
         "shootDistraction": -1,
         "explosionTime": 0,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -29545,7 +33042,7 @@ rhs_mag_M151_7_green = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -29555,70 +33052,90 @@ rhs_mag_M151_7_green = {
     "descriptionShort": "Ã7 10lb HE Hydra",
     "pylonWeapon": "rhs_weap_FFARLauncher",
     "displayNameMFDFormat": "RKT\\%2\\%1",
-    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements [Indent level: 1],
+    # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname [Indent level: 2]
+        # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname [Indent level: 2],
+
         "rhs_a10a_ammoname": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Bones [Indent level: 3]
+
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname\\Bones [Indent level: 3],
+
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw [Indent level: 3],
+
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname\\Draw [Indent level: 3],
+
             "Draw": {
+
                 "color": [1,1,1],
+
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_ammoname\Draw\PylonText1 [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_ammoname\\Draw\\PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "RKT",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "center",
+
                     "pos": [[0.005,0.02],1],
+
                     "right": [[0.05,0.02],1],
+
                     "down": [[0.005,0.105],1]
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box [Indent level: 2],
         "rhs_a10a_box": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>=0.001",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Default\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Default\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,-0.04],1],[[0.015,-0.04],1],[[0.015,0.04],1],[[-0.015,0.04],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Selected\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,0.05],1],[[0.015,0.05],1],[[0.015,0.13],1],[[-0.015,0.13],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative<=0",
                     "color": [0.87,0,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_a10a_box\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_a10a_box\\Draw\\Empty\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -29627,15 +33144,16 @@ rhs_mag_M151_7_green = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname [Indent level: 2],
         "rhs_ah64_ammoname": {
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Draw [Indent level: 3],
             "Draw": {
                 "condition": "pylonSelected",
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonText1 [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Draw\\PylonText1 [Indent level: 4],
                 "PylonText1": {
                     "type": "text",
                     "source": "static",
@@ -29647,7 +33165,7 @@ rhs_mag_M151_7_green = {
                     "right": [[0.05,0.02],1],
                     "down": [[0.005,0.105],1]
                 },
-                # Class: CfgMagazines\rhs_mag_M151_7\mfdElements\rhs_ah64_ammoname\Draw\PylonAmmo [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_M151_7\\mfdElements\\rhs_ah64_ammoname\\Draw\\PylonAmmo [Indent level: 4],
                 "PylonAmmo": {
                     "type": "text",
                     "source": "ammo",
@@ -29673,10 +33191,10 @@ rhs_mag_M151_7_green = {
     "selectionFireAnim": "zasleh",
     "mass": 8,
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -29685,11 +33203,11 @@ rhs_mag_M151_7_green = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_M197_750 = {
+"rhs_mag_M197_750": {
     "scope": 2,
     "displayname": "20x102mm PGU-28/B SAPHEI-T",
     "displaynameshort": "SAPHEI-T",
-    # Ammo: rhs_ammo_20mm_AP,
+    # Ammo: CfgMagazines\\rhs_mag_M197_750\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_20mm_AP",
         "hit": 45,
@@ -29726,28 +33244,28 @@ rhs_mag_M197_750 = {
         "CraterEffects": "ExploAmmoCrater",
         "explosionEffects": "ExploAmmoExplosion",
         "muzzleEffect": "",
-        # Class: CfgAmmo\B_20mm\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 4,
             "duration": 0.8,
             "frequency": 20,
             "distance": 43.7771
         },
-        # Class: CfgAmmo\B_20mm\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\B_20mm\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.11474,
             "duration": 0.8,
             "frequency": 20,
             "distance": 35.7771
         },
-        # Class: CfgAmmo\B_20mm\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.01,
             "duration": 0.1,
@@ -29963,10 +33481,10 @@ rhs_mag_M197_750 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -29976,7 +33494,7 @@ rhs_mag_M197_750 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -29986,7 +33504,7 @@ rhs_mag_M197_750 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -29996,7 +33514,7 @@ rhs_mag_M197_750 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -30007,7 +33525,7 @@ rhs_mag_M197_750 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -30604,10 +34122,6 @@ rhs_mag_M197_750 = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -30619,11 +34133,11 @@ rhs_mag_M197_750 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -30647,10 +34161,10 @@ rhs_mag_M197_750 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -30660,14 +34174,14 @@ rhs_mag_M197_750 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_M829A1 = {
+"rhs_mag_M829A1": {
     "displayName": "M829A1 APFSDS-T",
     "displayNameShort": "M829A1",
-    # Ammo: rhs_ammo_M829A1,
+    # Ammo: CfgMagazines\\rhs_mag_M829A1\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_M829A1",
         "caliber": 0.1,
-        # Ammo: rhs_ammo_M829A1_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_M829A1\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_M829A1_penetrator",
             "hit": 240,
@@ -30690,7 +34204,7 @@ rhs_mag_M829A1 = {
             "timetolive": 5,
             "simulationStep": 0.0005,
             "airFriction": -0.08,
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhs_ammo_ap_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -30921,10 +34435,10 @@ rhs_mag_M829A1 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -30934,7 +34448,7 @@ rhs_mag_M829A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -30944,7 +34458,7 @@ rhs_mag_M829A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -30954,7 +34468,7 @@ rhs_mag_M829A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -30965,7 +34479,7 @@ rhs_mag_M829A1 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -30991,28 +34505,28 @@ rhs_mag_M829A1 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -31600,10 +35114,6 @@ rhs_mag_M829A1 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -31615,11 +35125,11 @@ rhs_mag_M829A1 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -31648,7 +35158,7 @@ rhs_mag_M829A1 = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -31660,28 +35170,28 @@ rhs_mag_M829A1 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -31818,11 +35328,11 @@ rhs_mag_M829A1 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -31861,7 +35371,7 @@ rhs_mag_M829A1 = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitMetal": "ImpactMetalSabotBig",
             "hitMetalPlate": "ImpactMetalSabotBig",
@@ -31873,28 +35383,28 @@ rhs_mag_M829A1 = {
             "default_mat": "ImpactEffectsGroundSabot"
         },
         "aiAmmoUsageFlags": "128 + 512",
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 13.4164,
             "duration": 2.6,
             "frequency": 20,
             "distance": 40.2492
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 180,
             "duration": 0.8,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 3.30975,
             "duration": 2.2,
             "frequency": 20,
             "distance": 87.6356
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.02,
             "duration": 0.1,
@@ -32033,11 +35543,11 @@ rhs_mag_M829A1 = {
         "minePlaceDist": 0.5,
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -32064,10 +35574,10 @@ rhs_mag_M829A1 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -32077,16 +35587,16 @@ rhs_mag_M829A1 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_M830A1 = {
+"rhs_mag_M830A1": {
     "displayName": "M830A1 MPAT",
     "displayNameShort": "M830A1",
-    # Ammo: rhs_ammo_M830A1,
+    # Ammo: CfgMagazines\\rhs_mag_M830A1\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_M830A1",
         "explosive": 0.8,
         "indirectHit": 24,
         "indirectHitRange": 3.15,
-        # Ammo: rhs_ammo_M830A1_penetrator,
+        # Ammo: CfgAmmo\\rhs_ammo_M830A1\\submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_M830A1_penetrator",
             "caliber": 30,
@@ -32105,7 +35615,7 @@ rhs_mag_M830A1 = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -32336,10 +35846,10 @@ rhs_mag_M830A1 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -32349,7 +35859,7 @@ rhs_mag_M830A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -32359,7 +35869,7 @@ rhs_mag_M830A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -32369,7 +35879,7 @@ rhs_mag_M830A1 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -32380,7 +35890,7 @@ rhs_mag_M830A1 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -32406,28 +35916,28 @@ rhs_mag_M830A1 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo\\BulletBase\\CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -33015,10 +36525,6 @@ rhs_mag_M830A1 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -33030,11 +36536,11 @@ rhs_mag_M830A1 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -33063,7 +36569,7 @@ rhs_mag_M830A1 = {
             "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -33075,28 +36581,28 @@ rhs_mag_M830A1 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -33231,11 +36737,11 @@ rhs_mag_M830A1 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -33272,7 +36778,7 @@ rhs_mag_M830A1 = {
         "soundHit3": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_03",1.77828,1,1800],
         "soundHit4": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Tank_shell_explosion_04",1.77828,1,1800],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\HitEffects [Indent level: 1],
         "HitEffects": {
             "hitMetal": "ImpactMetalSabotBig",
             "hitMetalPlate": "ImpactMetalSabotBig",
@@ -33283,28 +36789,28 @@ rhs_mag_M830A1 = {
             "hitWater": "ImpactEffectsWater",
             "default_mat": "ImpactEffectsGroundSabot"
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 13.4164,
             "duration": 2.6,
             "frequency": 20,
             "distance": 40.2492
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 180,
             "duration": 0.8,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 3.30975,
             "duration": 2.2,
             "frequency": 20,
             "distance": 87.6356
         },
-        # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\Sh_120mm_APFSDS\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.02,
             "duration": 0.1,
@@ -33444,11 +36950,11 @@ rhs_mag_M830A1 = {
         "minePlaceDist": 0.5,
         "suppressionRadiusBulletClose": -1,
         "dangerRadiusBulletClose": -1,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -33475,10 +36981,10 @@ rhs_mag_M830A1 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -33488,11 +36994,11 @@ rhs_mag_M830A1 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_mk82 = {
+"rhs_mag_mk82": {
     "count": 1,
     "displayName": "Mk82",
     "descriptionShort": "500lb bomb",
-    # Ammo: rhs_ammo_mk82,
+    # Ammo: CfgMagazines\\rhs_mag_mk82\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_mk82",
         "hit": 5000,
@@ -33631,10 +37137,6 @@ rhs_mag_mk82 = {
         "explosionTime": 0,
         "fuseDistance": 0,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -33644,7 +37146,7 @@ rhs_mag_mk82 = {
         "mineFloating": -1,
         "mineDiveSpeed": 1,
         "minePlaceDist": 0.5,
-        # Class: CfgAmmo\Default\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\Default\\HitEffects [Indent level: 1],
         "HitEffects": {
             "vehicle": "ImpactMetal",
             "object": "ImpactConcrete"
@@ -33653,11 +37155,11 @@ rhs_mag_mk82 = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -33666,70 +37168,90 @@ rhs_mag_mk82 = {
     "hardpoints": ["RHS_HP_BOMB_500","RHS_HP_LGB_500","RHS_HP_JDAM_500"],
     "pylonWeapon": "rhs_weap_mk82",
     "displayNameMFDFormat": "MK82\\%1",
-    # Class: CfgMagazines\rhs_mag_mk82\mfdElements [Indent level: 1],
+    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_ammoname [Indent level: 2]
+        # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_ammoname [Indent level: 2],
+
         "rhs_a10a_ammoname": {
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_ammoname\Bones [Indent level: 3]
+
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_ammoname\\Bones [Indent level: 3],
+
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_ammoname\Draw [Indent level: 3],
+
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_ammoname\\Draw [Indent level: 3],
+
             "Draw": {
+
                 "color": [1,1,1],
+
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_ammoname\Draw\PylonText1 [Indent level: 4],
+
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_ammoname\\Draw\\PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "BOMB",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "center",
+
                     "pos": [[0.005,0.02],1],
+
                     "right": [[0.05,0.02],1],
+
                     "down": [[0.005,0.105],1]
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box [Indent level: 2],
         "rhs_a10a_box": {
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Draw\Default [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Draw\\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>=0.001",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Draw\Default\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Draw\\Default\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,-0.04],1],[[0.015,-0.04],1],[[0.015,0.04],1],[[-0.015,0.04],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Draw\\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Draw\\Selected\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
                         "points": [[[[-0.015,0.05],1],[[0.015,0.05],1],[[0.015,0.13],1],[[-0.015,0.13],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Draw\\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative<=0",
                     "color": [0.87,0,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_mk82\mfdElements\rhs_a10a_box\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\rhs_a10a_box\\Draw\\Empty\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -33738,49 +37260,56 @@ rhs_mag_mk82 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD [Indent level: 2],
         "RHS_A29_Weap_MFD": {
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\BackgroundGroup [Indent level: 4]
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\BackgroundGroup [Indent level: 4],
+
                 "BackgroundGroup": {
+
                     "color": [0,0,0],
-                    # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\BackgroundGroup\Background [Indent level: 5],
+
+                    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\BackgroundGroup\\Background [Indent level: 5],
+
                     "Background": {
+
                         "type": "polygon",
+
                         "points": [[[[-0.019,-0.07],1],[[0.029,-0.07],1],[[0.029,0.05],1],[[-0.019,0.05],1]]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\Default [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default [Indent level: 4],
                 "Default": {
                     "condition": "PylonAmmoRelative>0",
                     "color": [0,0.12,0],
-                    # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\Default\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Default\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[0.00859459,0.0258108],1],[[0.0121081,0.0258108],1],[],[[-0.00302703,0.0258108],1],[[0.000486486,0.0258108],1],[],[[-0.00762162,-0.0468919],1],[[0.0167027,-0.0468919],1],[],[[-0.00762162,0.00932432],1],[[0.0167027,0.00932432],1],[],[[0.000756755,0.0466216],1],[[0.000756755,0.0182432],1],[[0.00291892,0.0168919],1],[[0.00454054,0.0163513],1],[[0.00859459,0.0201351],1],[[0.00805406,0.0463514],1],[],[[0.00454054,0.0528378],1],[[0.00724325,0.0517568],1],[[0.00805406,0.049054],1],[[0.00805406,0.0463514],1],[[0.0196757,0.0504054],1],[[0.0196757,0.0290541],1],[[0.0121081,0.0258108],1],[[0.0167027,0.00959459],1],[[0.0167027,-0.0463514],1],[[0.0167027,-0.0531081],1],[[0.0153514,-0.0582432],1],[[0.0137297,-0.0612162],1],[[0.011027,-0.0636486],1],[[0.00832433,-0.065],1],[[0.00454054,-0.0655405],1],[[0.000756755,-0.065],1],[[-0.00194594,-0.0633784],1],[[-0.00464865,-0.060946],1],[[-0.00627027,-0.057973],1],[[-0.00762162,-0.0531081],1],[[-0.00762162,-0.0463514],1],[[-0.00762162,0.00959459],1],[[-0.00302703,0.0258108],1],[[-0.0103243,0.0293243],1],[[-0.0103243,0.0498649],1],[[0.000756755,0.0466216],1],[[0.00454054,0.0528378],1],[]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected [Indent level: 4],
                 "Selected": {
                     "condition": "(PylonSelected +  PylonAmmoRelative)/2",
                     "color": [0.99,0.94,0.59],
-                    # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Selected\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [[[0.00859459,0.0258108],1],[[0.0121081,0.0258108],1],[],[[-0.00302703,0.0258108],1],[[0.000486486,0.0258108],1],[],[[-0.00762162,-0.0468919],1],[[0.0167027,-0.0468919],1],[],[[-0.00762162,0.00932432],1],[[0.0167027,0.00932432],1],[],[[0.000756755,0.0466216],1],[[0.000756755,0.0182432],1],[[0.00291892,0.0168919],1],[[0.00454054,0.0163513],1],[[0.00859459,0.0201351],1],[[0.00805406,0.0463514],1],[],[[0.00454054,0.0528378],1],[[0.00724325,0.0517568],1],[[0.00805406,0.049054],1],[[0.00805406,0.0463514],1],[[0.0196757,0.0504054],1],[[0.0196757,0.0290541],1],[[0.0121081,0.0258108],1],[[0.0167027,0.00959459],1],[[0.0167027,-0.0463514],1],[[0.0167027,-0.0531081],1],[[0.0153514,-0.0582432],1],[[0.0137297,-0.0612162],1],[[0.011027,-0.0636486],1],[[0.00832433,-0.065],1],[[0.00454054,-0.0655405],1],[[0.000756755,-0.065],1],[[-0.00194594,-0.0633784],1],[[-0.00464865,-0.060946],1],[[-0.00627027,-0.057973],1],[[-0.00762162,-0.0531081],1],[[-0.00762162,-0.0463514],1],[[-0.00762162,0.00959459],1],[[-0.00302703,0.0258108],1],[[-0.0103243,0.0293243],1],[[-0.0103243,0.0498649],1],[[0.000756755,0.0466216],1],[[0.00454054,0.0528378],1],[]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty [Indent level: 4],
                 "Empty": {
                     "condition": "PylonAmmoRelative <= 0",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD\\Draw\\Empty\\Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
@@ -33789,26 +37318,37 @@ rhs_mag_mk82 = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD_Inventory [Indent level: 2],
+        # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD_Inventory [Indent level: 2],
         "RHS_A29_Weap_MFD_Inventory": {
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD_Inventory\Bones [Indent level: 3]
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw [Indent level: 3],
+            # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw [Indent level: 3],
             "Draw": {
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText1 [Indent level: 4]
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw\\PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "MK-82",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "right",
+
                     "pos": [[0,0.02],1],
+
                     "right": [[0.025,0.02],1],
+
                     "down": [[0,0.04],1]
                 },
-                # Class: CfgMagazines\rhs_mag_mk82\mfdElements\RHS_A29_Weap_MFD_Inventory\Draw\PylonText2 [Indent level: 4],
+                # Class: CfgMagazines\\rhs_mag_mk82\\mfdElements\\RHS_A29_Weap_MFD_Inventory\\Draw\\PylonText2 [Indent level: 4],
                 "PylonText2": {
                     "type": "text",
                     "source": "static",
@@ -33841,10 +37381,10 @@ rhs_mag_mk82 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },
@@ -33853,10 +37393,10 @@ rhs_mag_mk82 = {
     "maxThrowIntensityCoef": 1.4,
     "quickReload": 0,
 },
-rhs_mag_zpl20_mixed = {
+"rhs_mag_zpl20_mixed": {
     "displayname": "20x139mm Mixed",
     "displaynameshort": "Mixed",
-    # Ammo: B_20mm,
+    # Ammo: CfgMagazines\\rhs_mag_zpl20_mixed\\ammo [Indent level: 1],
     "ammo": {
         "ammo": "B_20mm",
         "hit": 60,
@@ -33892,28 +37432,28 @@ rhs_mag_zpl20_mixed = {
         "explosionEffects": "ExploAmmoExplosion",
         "airFriction": -0.00078,
         "muzzleEffect": "",
-        # Class: CfgAmmo\B_20mm\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 4,
             "duration": 0.8,
             "frequency": 20,
             "distance": 43.7771
         },
-        # Class: CfgAmmo\B_20mm\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 20,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\B_20mm\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.11474,
             "duration": 0.8,
             "frequency": 20,
             "distance": 35.7771
         },
-        # Class: CfgAmmo\B_20mm\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo\\B_20mm\\CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.01,
             "duration": 0.1,
@@ -34130,10 +37670,10 @@ rhs_mag_zpl20_mixed = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_forest1",1,1,500],
@@ -34143,7 +37683,7 @@ rhs_mag_zpl20_mixed = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_trees1",1,1,500],
@@ -34153,7 +37693,7 @@ rhs_mag_zpl20_mixed = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_meadow1",1,1,500],
@@ -34163,7 +37703,7 @@ rhs_mag_zpl20_mixed = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo\\BulletBase\\SuperSonicCrack\\SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3\\sounds_f\\arsenal\\sfx\\supersonic_crack\\sc_houses1",1,1,500],
@@ -34174,7 +37714,7 @@ rhs_mag_zpl20_mixed = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo\\BulletBase\\HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -34771,10 +38311,6 @@ rhs_mag_zpl20_mixed = {
         "thrustTime": 1.5,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -34786,11 +38322,11 @@ rhs_mag_zpl20_mixed = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo\\Default\\EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -34819,10 +38355,10 @@ rhs_mag_zpl20_mixed = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines\\Default\\InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines\\Default\\Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

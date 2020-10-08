@@ -81,7 +81,7 @@ RHS_C130J = {
     "driverCompartments": "Compartment1",
     "cargoCompartments": ["Compartment1"],
     "attenuationEffectType": "OpenHeliAttenuation",
-    # Class: CfgVehicles\RHS_C130J_Base\Damage [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Damage [Indent level: 1],
     "Damage": {
         "tex": [],
         "mat": ["rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_sklo.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_sklo_damage.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_sklo_damage.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_sklo_in.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_sklo_in_damage.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_sklo_in_damage.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_body.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_body_damage.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_body_destruct.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_interior.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_interior_damage.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_interior_destruct.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_wings.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_wings_damage.rvmat","rhsusf|addons|rhsusf_a2port_air|C130J|data|c130j_wings_destruct.rvmat"]
@@ -89,84 +89,180 @@ RHS_C130J = {
     "selectionDamage": "zbytek",
     "selectionShowDamage": "zbytek",
     "reportOwnPosition": 1,
-    # Class: CfgVehicles\RHS_C130J_Base\Components [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Components [Indent level: 1],
     "Components": {
-        # Class: CfgVehicles\RHS_C130J_Base\Components\TransportPylonsComponent [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|Components|TransportPylonsComponent [Indent level: 2],
+
         "TransportPylonsComponent": {
+
             "UIPicture": "rhsusf|addons|rhsusf_a2port_air|data|loadouts|RHS_C130_EDEN_CA.paa",
-            # Class: CfgVehicles\RHS_C130J_Base\Components\TransportPylonsComponent\pylons [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|Components|TransportPylonsComponent|pylons [Indent level: 3],
+
             "pylons": {
-                # Class: CfgVehicles\RHS_C130J_Base\Components\TransportPylonsComponent\pylons\cmDispenser [Indent level: 4]
+
+                # Class: CfgVehicles|RHS_C130J_Base|Components|TransportPylonsComponent|pylons|cmDispenser [Indent level: 4],
+
+
                 "cmDispenser": {
+
+
                     "hardpoints": ["RHSUSF_cm_ANALE40_x2","RHSUSF_cm_ANALE40_x4","RHSUSF_cm_ANALE40_x8","RHSUSF_cm_ANALE40_x16"],
+
+
                     "priority": 1,
+
+
                     "attachment": "rhsusf_ANALE40_CMFlare_Chaff_Magazine_x16",
+
+
                     "maxweight": 800,
+
+
                     "UIposition": [0.33,0]
                 }
             }
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Components\SensorsManagerComponent [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Components|SensorsManagerComponent [Indent level: 2],
         "SensorsManagerComponent": {
-            # Class: CfgVehicles\RHS_C130J_Base\Components\SensorsManagerComponent\Components [Indent level: 3]
+            # Class: CfgVehicles|RHS_C130J_Base|Components|SensorsManagerComponent|Components [Indent level: 3],
+
             "Components": {
-                # Class: CfgVehicles\RHS_C130J_Base\Components\SensorsManagerComponent\Components\PassiveRadarSensorComponent [Indent level: 4]
+
+                # Class: CfgVehicles|RHS_C130J_Base|Components|SensorsManagerComponent|Components|PassiveRadarSensorComponent [Indent level: 4],
+
+
                 "PassiveRadarSensorComponent": {
+
+
                     "componentType": "PassiveRadarSensorComponent",
-                    # Class: SensorTemplatePassiveRadar\AirTarget [Indent level: 0],
+
+
+                    # Class: SensorTemplatePassiveRadar|AirTarget [Indent level: 0],
+
+
                     "AirTarget": {
+
+
                         "minRange": 16000,
+
+
                         "maxRange": 16000,
+
+
                         "objectDistanceLimitCoef": -1,
+
+
                         "viewDistanceLimitCoef": -1
                     },
-                    # Class: SensorTemplatePassiveRadar\GroundTarget [Indent level: 0],
+
+
+                    # Class: SensorTemplatePassiveRadar|GroundTarget [Indent level: 0],
+
+
                     "GroundTarget": {
+
+
                         "minRange": 16000,
+
+
                         "maxRange": 16000,
+
+
                         "objectDistanceLimitCoef": -1,
+
+
                         "viewDistanceLimitCoef": -1
                     },
+
+
                     "typeRecognitionDistance": 12000,
+
+
                     "angleRangeHorizontal": 360,
+
+
                     "angleRangeVertical": 360,
+
+
                     "groundNoiseDistanceCoef": -1,
+
+
                     "maxGroundNoiseDistance": -1,
+
+
                     "minSpeedThreshold": 0,
+
+
                     "maxSpeedThreshold": 0,
+
+
                     "animDirection": "",
+
+
                     "aimDown": 0,
+
+
                     "color": [0.5,1,0.5,0.5],
+
+
                     "minTrackableSpeed": -1e+010,
+
+
                     "maxTrackableSpeed": 1e+010,
+
+
                     "minTrackableATL": -1e+010,
+
+
                     "maxTrackableATL": 1e+010,
+
+
                     "allowsMarking": 0
                 }
             }
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentLeft [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentLeft [Indent level: 2],
         "VehicleSystemsDisplayManagerComponentLeft": {
-            # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentLeft\Components [Indent level: 3]
+            # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentLeft|Components [Indent level: 3],
+
             "Components": {
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\EmptyDisplay [Indent level: 4]
+
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentLeft|Components|EmptyDisplay [Indent level: 4],
+
+
                 "EmptyDisplay": {
+
+
                     "componentType": "EmptyDisplayComponent"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\MinimapDisplay [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentLeft|Components|MinimapDisplay [Indent level: 4],
+
                 "MinimapDisplay": {
+
                     "componentType": "MinimapDisplayComponent",
+
                     "resource": "RscCustomInfoMiniMap"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\CrewDisplay [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentLeft|Components|CrewDisplay [Indent level: 4],
+
                 "CrewDisplay": {
+
                     "componentType": "CrewDisplayComponent",
+
                     "resource": "RscCustomInfoCrew"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentLeft\Components\SensorDisplay [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentLeft|Components|SensorDisplay [Indent level: 4],
+
                 "SensorDisplay": {
+
                     "componentType": "SensorsDisplayComponent",
+
                     "resource": "RscCustomInfoSensors",
+
                     "range": [3000,8000,16000,35000]
                 }
             },
@@ -176,26 +272,28 @@ RHS_C130J = {
             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_X`,	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])",
             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFOLEFT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentRight [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentRight [Indent level: 2],
         "VehicleSystemsDisplayManagerComponentRight": {
             "defaultDisplay": "SensorDisplay",
-            # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentRight\Components [Indent level: 3],
+            # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentRight|Components [Indent level: 3],
             "Components": {
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentRight\Components\EmptyDisplay [Indent level: 4]
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentRight|Components|EmptyDisplay [Indent level: 4],
+
                 "EmptyDisplay": {
+
                     "componentType": "EmptyDisplayComponent"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentRight\Components\MinimapDisplay [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentRight|Components|MinimapDisplay [Indent level: 4],
                 "MinimapDisplay": {
                     "componentType": "MinimapDisplayComponent",
                     "resource": "RscCustomInfoMiniMap"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentRight\Components\CrewDisplay [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentRight|Components|CrewDisplay [Indent level: 4],
                 "CrewDisplay": {
                     "componentType": "CrewDisplayComponent",
                     "resource": "RscCustomInfoCrew"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Components\VehicleSystemsDisplayManagerComponentRight\Components\SensorDisplay [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|Components|VehicleSystemsDisplayManagerComponentRight|Components|SensorDisplay [Indent level: 4],
                 "SensorDisplay": {
                     "componentType": "SensorsDisplayComponent",
                     "resource": "RscCustomInfoSensors",
@@ -207,104 +305,119 @@ RHS_C130J = {
             "x": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_X`,	((safezoneX + safezoneW) - (		(10 * 			(			((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40)))])",
             "y": "(profilenamespace getvariable [`IGUI_GRID_CUSTOMINFORIGHT_Y`,	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])"
         },
-        # Class: CfgVehicles\Air\Components\TransportCountermeasuresComponent [Indent level: 2],
+        # Class: CfgVehicles|Air|Components|TransportCountermeasuresComponent [Indent level: 2],
         "TransportCountermeasuresComponent": {
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\EventHandlers [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|EventHandlers [Indent level: 1],
     "EventHandlers": {
-        # Class: CfgVehicles\RHS_C130J_Base\EventHandlers\RHSUSF_EventHandlers [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|EventHandlers|RHSUSF_EventHandlers [Indent level: 2],
+
         "RHSUSF_EventHandlers": {
+
             "getIn": "_this call rhs_fnc_C130_doors",
+
             "getOut": "_this call rhs_fnc_C130_doors"
         },
         "init": "",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers [Indent level: 0],
+        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
         "RHS_DefaultEventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines [Indent level: 1],
     "TransportMagazines": {
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag [Indent level: 2],
+
         "_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag": {
+
             "magazine": "rhs_mag_30Rnd_556x45_M855A1_Stanag",
+
             "count": 30
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhsusf_100Rnd_556x45_soft_pouch [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhsusf_100Rnd_556x45_soft_pouch [Indent level: 2],
         "_xx_rhsusf_100Rnd_556x45_soft_pouch": {
             "magazine": "rhsusf_100Rnd_556x45_soft_pouch",
             "count": 8
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_M441_HE [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_M441_HE [Indent level: 2],
         "_xx_rhs_mag_M441_HE": {
             "magazine": "rhs_mag_M441_HE",
             "count": 16
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_M714_white [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_M714_white [Indent level: 2],
         "_xx_rhs_mag_M714_white": {
             "magazine": "rhs_mag_M714_white",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_M662_red [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_M662_red [Indent level: 2],
         "_xx_rhs_mag_M662_red": {
             "magazine": "rhs_mag_M662_red",
             "count": 2
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_m67 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_m67 [Indent level: 2],
         "_xx_rhs_mag_m67": {
             "magazine": "rhs_mag_m67",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_m18_green [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_m18_green [Indent level: 2],
         "_xx_rhs_mag_m18_green": {
             "magazine": "rhs_mag_m18_green",
             "count": 2
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_m18_red [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_m18_red [Indent level: 2],
         "_xx_rhs_mag_m18_red": {
             "magazine": "rhs_mag_m18_red",
             "count": 2
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportMagazines\_xx_rhs_mag_an_m8hc [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportMagazines|_xx_rhs_mag_an_m8hc [Indent level: 2],
         "_xx_rhs_mag_an_m8hc": {
             "magazine": "rhs_mag_an_m8hc",
             "count": 4
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\TransportItems [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|TransportItems [Indent level: 1],
     "TransportItems": {
-        # Class: CfgVehicles\RHS_C130J_Base\TransportItems\_xx_FirstAidKit [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|TransportItems|_xx_FirstAidKit [Indent level: 2],
+
         "_xx_FirstAidKit": {
+
             "name": "FirstAidKit",
+
             "count": 20
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportItems\_xx_Medikit [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportItems|_xx_Medikit [Indent level: 2],
         "_xx_Medikit": {
             "name": "Medikit",
             "count": 4
         },
-        # Class: CfgVehicles\RHS_C130J_Base\TransportItems\_xx_Toolkit [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|TransportItems|_xx_Toolkit [Indent level: 2],
         "_xx_Toolkit": {
             "name": "Toolkit",
             "count": 1
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\TransportWeapons [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|TransportWeapons [Indent level: 1],
     "TransportWeapons": {
-        # Class: CfgVehicles\RHS_C130J_Base\TransportWeapons\_xx_rhs_weap_m4_carryhandle [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|TransportWeapons|_xx_rhs_weap_m4_carryhandle [Indent level: 2],
+
         "_xx_rhs_weap_m4_carryhandle": {
+
             "weapon": "rhs_weap_m4_carryhandle",
+
             "count": 2
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\TransportBackpacks [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|TransportBackpacks [Indent level: 1],
     "TransportBackpacks": {
-        # Class: CfgVehicles\RHS_C130J_Base\TransportBackpacks\_xx_B_Parachute [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|TransportBackpacks|_xx_B_Parachute [Indent level: 2],
+
         "_xx_B_Parachute": {
+
             "backpack": "B_Parachute",
+
             "count": 14
         }
     },
@@ -316,85 +429,110 @@ RHS_C130J = {
     "soundEngineOffInt": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|int_stop_1",0.398107,1],
     "soundEngineOffExt": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|ext_stop_1",0.398107,1,700],
     "soundIncommingMissile": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.1,1.5],
-    # Class: CfgVehicles\RHS_C130J_Base\Sounds [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Sounds [Indent level: 1],
     "Sounds": {
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\EngineLowOut [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|EngineLowOut [Indent level: 2],
+
         "EngineLowOut": {
+
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|ext_engine_low",1.77828,1,900],
+
             "frequency": "1.0 min (rpm + 0.5)",
+
             "volume": "camPos*engineOn*(rpm factor[0.85, 0])"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\EngineHighOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|EngineHighOut [Indent level: 2],
         "EngineHighOut": {
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|ext_engine_hi",1.77828,1,1100],
             "frequency": "1",
             "volume": "camPos*engineOn*(rpm factor[0.55, 1.0])"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\ForsageOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|ForsageOut [Indent level: 2],
         "ForsageOut": {
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|ext_forsage_1",1.41254,1,1500],
             "frequency": "1",
             "volume": "camPos*engineOn*(thrust factor[0.5, 1.0])",
             "cone": [1.14,3.92,2,0.4]
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\WindNoiseOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|WindNoiseOut [Indent level: 2],
         "WindNoiseOut": {
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|ext-wind1",0.001,0.6,150],
             "frequency": "(0.1+(1.2*(speed factor[1, 100])))",
             "volume": "camPos*(speed factor[1, 100])"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\EngineLowIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|EngineLowIn [Indent level: 2],
         "EngineLowIn": {
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|int_engine_low",1,1],
             "frequency": "1.0 min (rpm + 0.5)",
             "volume": "(1-camPos)*(engineOn*(rpm factor[0.85, 0]))"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\EngineHighIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|EngineHighIn [Indent level: 2],
         "EngineHighIn": {
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|int_engine_hi",1,1],
             "frequency": "1",
             "volume": "(1-camPos)*(engineOn*(rpm factor[0.55, 1.0]))"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\ForsageIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|ForsageIn [Indent level: 2],
         "ForsageIn": {
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|int_forsage_1",1.41254,1.1],
             "frequency": "1",
             "volume": "(1-camPos)*(engineOn*(thrust factor[0.5, 1.0]))"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Sounds\WindNoiseIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Sounds|WindNoiseIn [Indent level: 2],
         "WindNoiseIn": {
             "sound": ["|rhsusf|addons|rhsusf_a2port_air|data|sounds|c130|int-wind1",0.001,0.6],
             "frequency": "(0.1+(1.2*(speed factor[1, 100])))",
             "volume": "(1-camPos)*(speed factor[1, 100])"
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\Reflectors [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Reflectors [Indent level: 1],
     "Reflectors": {
-        # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Left [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Left [Indent level: 2],
+
         "Left": {
+
             "color": [7000,7500,10000],
+
             "ambient": [70,75,100],
+
             "position": "L svetlo",
+
             "direction": "konec L svetla",
+
             "hitpoint": "L svetlo",
+
             "selection": "L svetlo",
+
             "size": 1,
+
             "brightness": 50,
+
             "useFlare": 1,
+
             "innerAngle": 5,
+
             "outerAngle": 75,
+
             "coneFadeCoef": 10,
-            # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Left\Attenuation [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Left|Attenuation [Indent level: 3],
+
             "Attenuation": {
+
                 "start": 0,
+
                 "constant": 0,
+
                 "linear": 1,
+
                 "quadratic": 0,
+
                 "hardLimitStart": 200,
+
                 "hardLimitEnd": 250
             }
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Right [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Right [Indent level: 2],
         "Right": {
             "color": [7000,7500,10000],
             "ambient": [70,75,100],
@@ -408,7 +546,7 @@ RHS_C130J = {
             "innerAngle": 5,
             "outerAngle": 75,
             "coneFadeCoef": 10,
-            # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Right\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Right|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 0,
                 "constant": 0,
@@ -418,7 +556,7 @@ RHS_C130J = {
                 "hardLimitEnd": 250
             }
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Left2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Left2 [Indent level: 2],
         "Left2": {
             "color": [7000,7500,10000],
             "ambient": [70,75,100],
@@ -432,7 +570,7 @@ RHS_C130J = {
             "innerAngle": 5,
             "outerAngle": 75,
             "coneFadeCoef": 10,
-            # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Left2\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Left2|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 0,
                 "constant": 0,
@@ -442,7 +580,7 @@ RHS_C130J = {
                 "hardLimitEnd": 250
             }
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Right2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Right2 [Indent level: 2],
         "Right2": {
             "color": [7000,7500,10000],
             "ambient": [70,75,100],
@@ -456,7 +594,7 @@ RHS_C130J = {
             "innerAngle": 5,
             "outerAngle": 75,
             "coneFadeCoef": 10,
-            # Class: CfgVehicles\RHS_C130J_Base\Reflectors\Right2\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_C130J_Base|Reflectors|Right2|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 0,
                 "constant": 0,
@@ -480,27 +618,31 @@ RHS_C130J = {
     "canFloat": "false",
     "waterResistanceCoef": 0.004,
     "waterLeakiness": 25,
-    # Class: CfgVehicles\RHS_C130J_Base\AnimationSources [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|AnimationSources [Indent level: 1],
     "AnimationSources": {
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\jumplight [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|jumplight [Indent level: 2],
+
         "jumplight": {
+
             "source": "user",
+
             "animPeriod": 1e-006,
+
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\cabinlights_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|cabinlights_hide [Indent level: 2],
         "cabinlights_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\cargolights_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|cargolights_hide [Indent level: 2],
         "cargolights_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\ramp [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|ramp [Indent level: 2],
         "ramp": {
             "source": "user",
             "initPhase": 0,
@@ -508,7 +650,7 @@ RHS_C130J = {
             "sound": "ServoRampSound_2",
             "soundPosition": "ramp_bottom_axis"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\hide_cargo [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|hide_cargo [Indent level: 2],
         "hide_cargo": {
             "source": "user",
             "mass": -20,
@@ -517,7 +659,7 @@ RHS_C130J = {
             "initPhase": 0,
             "onPhaseChanged": "for '_i' from 1 to 24 do {(_this select 0) lockCargo [_i,(_this select 1)==1]}"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\door_2_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|door_2_2 [Indent level: 2],
         "door_2_2": {
             "animPeriod": 4,
             "source": "door",
@@ -525,7 +667,7 @@ RHS_C130J = {
             "soundPosition": "door_2_2_axis2",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\door_2_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|door_2_1 [Indent level: 2],
         "door_2_1": {
             "soundPosition": "door_2_1_axis2",
             "animPeriod": 4,
@@ -533,7 +675,7 @@ RHS_C130J = {
             "sound": "ServoRampSound_2",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\door_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|door_1 [Indent level: 2],
         "door_1": {
             "soundPosition": "Door_1_axis",
             "animPeriod": 4,
@@ -541,81 +683,90 @@ RHS_C130J = {
             "sound": "ServoRampSound_2",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\CollisionLightRed_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|CollisionLightRed_source [Indent level: 2],
         "CollisionLightRed_source": {
             "source": "MarkerLight",
             "markerLight": "CollisionRed"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\CollisionLightWhite_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|CollisionLightWhite_source [Indent level: 2],
         "CollisionLightWhite_source": {
             "source": "MarkerLight",
             "markerLight": "CollisionWhite"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Damper_1_1_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Damper_1_1_source [Indent level: 2],
         "Damper_1_1_source": {
             "source": "damper",
             "wheel": "Wheel_1_1"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Damper_2_1_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Damper_2_1_source [Indent level: 2],
         "Damper_2_1_source": {
             "source": "damper",
             "wheel": "Wheel_2_1"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Damper_2_2_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Damper_2_2_source [Indent level: 2],
         "Damper_2_2_source": {
             "source": "damper",
             "wheel": "Wheel_2_2"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Damper_3_1_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Damper_3_1_source [Indent level: 2],
         "Damper_3_1_source": {
             "source": "damper",
             "wheel": "Wheel_3_1"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Damper_3_2_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Damper_3_2_source [Indent level: 2],
         "Damper_3_2_source": {
             "source": "damper",
             "wheel": "Wheel_3_2"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Wheel_1_1_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Wheel_1_1_source [Indent level: 2],
         "Wheel_1_1_source": {
             "source": "wheel",
             "wheel": "Wheel_1_1"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Wheel_2_1_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Wheel_2_1_source [Indent level: 2],
         "Wheel_2_1_source": {
             "source": "wheel",
             "wheel": "Wheel_2_1"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Wheel_2_2_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Wheel_2_2_source [Indent level: 2],
         "Wheel_2_2_source": {
             "source": "wheel",
             "wheel": "Wheel_2_2"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Wheel_3_1_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Wheel_3_1_source [Indent level: 2],
         "Wheel_3_1_source": {
             "source": "wheel",
             "wheel": "Wheel_3_1"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\AnimationSources\Wheel_3_2_source [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|AnimationSources|Wheel_3_2_source [Indent level: 2],
         "Wheel_3_2_source": {
             "source": "wheel",
             "wheel": "Wheel_3_2"
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\UserActions [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|UserActions [Indent level: 1],
     "UserActions": {
-        # Class: CfgVehicles\RHS_C130J_Base\UserActions\OpenRamp [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|UserActions|OpenRamp [Indent level: 2],
+
         "OpenRamp": {
+
             "displayName": "Open Cargo Ramp",
+
             "position": "pos_gunner",
+
             "onlyforplayer": 1,
+
             "showWindow": 0,
+
             "radius": 6,
+
             "condition": "(this animationSourcePhase 'ramp' <= 0.65) AND Alive(this)",
+
             "statement": "this animateSource ['ramp',1];{if(not(_x isKindOf 'Man'))then{detach _x}}foreach attachedObjects this",
+
             "shortcut": "user12"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\UserActions\LevelRamp [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|UserActions|LevelRamp [Indent level: 2],
         "LevelRamp": {
             "displayName": "Level Ramp",
             "condition": "this animationSourcePhase 'ramp' != 0.65 and (alive this)",
@@ -626,7 +777,7 @@ RHS_C130J = {
             "showWindow": 0,
             "radius": 6
         },
-        # Class: CfgVehicles\RHS_C130J_Base\UserActions\CloseRamp [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|UserActions|CloseRamp [Indent level: 2],
         "CloseRamp": {
             "displayName": "Close Cargo Ramp",
             "condition": "(this animationSourcePhase 'ramp' >= 0.65) AND Alive(this)",
@@ -637,7 +788,7 @@ RHS_C130J = {
             "showWindow": 0,
             "radius": 6
         },
-        # Class: CfgVehicles\RHS_C130J_Base\UserActions\VehicleParadrop [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|UserActions|VehicleParadrop [Indent level: 2],
         "VehicleParadrop": {
             "displayName": "Paradrop cargo",
             "condition": "(count (attachedObjects this) > 0) AND ('man' countType (attachedObjects this) == 0) AND Alive(this)",
@@ -648,7 +799,7 @@ RHS_C130J = {
             "showWindow": 0,
             "radius": 6
         },
-        # Class: CfgVehicles\RHS_C130J_Base\UserActions\OpenMenu [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|UserActions|OpenMenu [Indent level: 2],
         "OpenMenu": {
             "userActionID": 74,
             "priority": 11.008,
@@ -661,23 +812,35 @@ RHS_C130J = {
             "statement": "[this] call rhs_fnc_c130j_openMenu"
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\MarkerLights [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|MarkerLights [Indent level: 1],
     "MarkerLights": {
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\PositionRed [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|PositionRed [Indent level: 2],
+
         "PositionRed": {
+
             "color": [0.8,0,0],
+
             "ambient": [0.08,0,0],
+
             "intensity": 75,
+
             "name": "PositionLight_Red_1_pos",
+
             "drawLight": 1,
+
             "drawLightSize": 0.4,
+
             "drawLightCenterSize": 0.04,
+
             "activeLight": 0,
+
             "blinking": 0,
+
             "dayLight": 1,
+
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\PositionGreen [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|PositionGreen [Indent level: 2],
         "PositionGreen": {
             "color": [0,0.8,0],
             "ambient": [0,0.08,0],
@@ -691,7 +854,7 @@ RHS_C130J = {
             "dayLight": 1,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\PositionWhite [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|PositionWhite [Indent level: 2],
         "PositionWhite": {
             "color": [1,1,1],
             "ambient": [0.1,0.1,0.1],
@@ -705,7 +868,7 @@ RHS_C130J = {
             "dayLight": 1,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\PositionWhite2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|PositionWhite2 [Indent level: 2],
         "PositionWhite2": {
             "color": [1,1,1],
             "ambient": [0.1,0.1,0.1],
@@ -719,7 +882,7 @@ RHS_C130J = {
             "dayLight": 1,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\PositionWhite3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|PositionWhite3 [Indent level: 2],
         "PositionWhite3": {
             "color": [1,1,1],
             "ambient": [0.1,0.1,0.1],
@@ -733,7 +896,7 @@ RHS_C130J = {
             "dayLight": 1,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\PositionWhite4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|PositionWhite4 [Indent level: 2],
         "PositionWhite4": {
             "color": [1,1,1],
             "ambient": [0.1,0.1,0.1],
@@ -747,7 +910,7 @@ RHS_C130J = {
             "dayLight": 1,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\CollisionRed [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|CollisionRed [Indent level: 2],
         "CollisionRed": {
             "color": [0.9,0.15,0.1],
             "ambient": [0.09,0.015,0.01],
@@ -763,7 +926,7 @@ RHS_C130J = {
             "dayLight": 1,
             "useFlare": 0
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MarkerLights\CollisionWhite [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MarkerLights|CollisionWhite [Indent level: 2],
         "CollisionWhite": {
             "color": [1,1,1],
             "ambient": [0.1,0.1,0.1],
@@ -781,21 +944,31 @@ RHS_C130J = {
         }
     },
     "armor": 50,
-    # Class: CfgVehicles\RHS_C130J_Base\Hitpoints [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Hitpoints [Indent level: 1],
     "Hitpoints": {
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitHull [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitHull [Indent level: 2],
+
         "HitHull": {
+
             "armor": 999,
+
             "explosionShielding": 0,
+
             "passThrough": 0.01,
+
             "minimalHit": 1,
+
             "radius": 0.15,
+
             "material": -1,
+
             "name": "hit_hull",
+
             "visual": "",
+
             "depends": "Total"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitAvionics [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitAvionics [Indent level: 2],
         "HitAvionics": {
             "armor": 1,
             "explosionShielding": 0.6,
@@ -807,7 +980,7 @@ RHS_C130J = {
             "visual": "vis_avionics",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitEngine_L1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitEngine_L1 [Indent level: 2],
         "HitEngine_L1": {
             "armor": 0.5,
             "explosionShielding": 1.25,
@@ -819,7 +992,7 @@ RHS_C130J = {
             "visual": "vis_engine_l",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitEngine_L2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitEngine_L2 [Indent level: 2],
         "HitEngine_L2": {
             "armor": 0.5,
             "explosionShielding": 1.25,
@@ -831,7 +1004,7 @@ RHS_C130J = {
             "visual": "vis_engine_2",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitEngine_R1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitEngine_R1 [Indent level: 2],
         "HitEngine_R1": {
             "armor": 0.5,
             "explosionShielding": 1.25,
@@ -843,7 +1016,7 @@ RHS_C130J = {
             "visual": "vis_engine_3",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitEngine_R2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitEngine_R2 [Indent level: 2],
         "HitEngine_R2": {
             "armor": 0.5,
             "explosionShielding": 1.25,
@@ -855,7 +1028,7 @@ RHS_C130J = {
             "visual": "vis_engine_4",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitEngine [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitEngine [Indent level: 2],
         "HitEngine": {
             "armor": 999,
             "explosionShielding": 0.25,
@@ -867,7 +1040,7 @@ RHS_C130J = {
             "visual": "vis_engine_1",
             "depends": "(HitEngine_L1 + HitEngine_L1)*0.5"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitEngine2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitEngine2 [Indent level: 2],
         "HitEngine2": {
             "armor": 999,
             "explosionShielding": 0.25,
@@ -879,7 +1052,7 @@ RHS_C130J = {
             "visual": "vis_engine_3",
             "depends": "(HitEngine_R1 + HitEngine_R1)*0.5"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitFuel [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitFuel [Indent level: 2],
         "HitFuel": {
             "armor": 0.3,
             "explosionShielding": 0.2,
@@ -891,7 +1064,7 @@ RHS_C130J = {
             "visual": "vis_wing_l",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitFuel2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitFuel2 [Indent level: 2],
         "HitFuel2": {
             "armor": 0.3,
             "explosionShielding": 0.2,
@@ -903,7 +1076,7 @@ RHS_C130J = {
             "visual": "vis_wing_r",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLAileron_link [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLAileron_link [Indent level: 2],
         "HitLAileron_link": {
             "armor": 0.3,
             "explosionShielding": 0.9,
@@ -915,7 +1088,7 @@ RHS_C130J = {
             "visual": "",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitRAileron_link [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitRAileron_link [Indent level: 2],
         "HitRAileron_link": {
             "armor": 0.3,
             "explosionShielding": 0.9,
@@ -927,7 +1100,7 @@ RHS_C130J = {
             "visual": "",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLAileron [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLAileron [Indent level: 2],
         "HitLAileron": {
             "armor": 0.3,
             "explosionShielding": 1.6,
@@ -939,7 +1112,7 @@ RHS_C130J = {
             "visual": "vis_wing_l",
             "depends": "HitLAileron_link*0.7"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitRAileron [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitRAileron [Indent level: 2],
         "HitRAileron": {
             "armor": 0.3,
             "explosionShielding": 1.6,
@@ -951,7 +1124,7 @@ RHS_C130J = {
             "visual": "vis_wing_r",
             "depends": "HitRAileron_link*0.7"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitControlRear [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitControlRear [Indent level: 2],
         "HitControlRear": {
             "armor": 0.3,
             "explosionShielding": 0.1,
@@ -963,7 +1136,7 @@ RHS_C130J = {
             "visual": "",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLCElevator [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLCElevator [Indent level: 2],
         "HitLCElevator": {
             "armor": 0.3,
             "explosionShielding": 2,
@@ -975,7 +1148,7 @@ RHS_C130J = {
             "visual": "vis_elevator_l",
             "depends": "HitControlRear"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitRElevator [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitRElevator [Indent level: 2],
         "HitRElevator": {
             "armor": 0.3,
             "explosionShielding": 2,
@@ -987,7 +1160,7 @@ RHS_C130J = {
             "visual": "vis_elevator_r",
             "depends": "HitControlRear"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLCRudder [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLCRudder [Indent level: 2],
         "HitLCRudder": {
             "armor": 0.35,
             "explosionShielding": 2,
@@ -999,7 +1172,7 @@ RHS_C130J = {
             "visual": "vis_rudder",
             "depends": "HitControlRear"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLFWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLFWheel [Indent level: 2],
         "HitLFWheel": {
             "armor": 1,
             "explosionShielding": 1,
@@ -1011,7 +1184,7 @@ RHS_C130J = {
             "visual": "wheel_1_1",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLF2Wheel [Indent level: 2],
         "HitLF2Wheel": {
             "armor": 1,
             "explosionShielding": 1,
@@ -1023,7 +1196,7 @@ RHS_C130J = {
             "visual": "wheel_2_1",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLRF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLRF2Wheel [Indent level: 2],
         "HitLRF2Wheel": {
             "armor": 1,
             "explosionShielding": 1,
@@ -1035,7 +1208,7 @@ RHS_C130J = {
             "visual": "wheel_2_2",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitLBWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitLBWheel [Indent level: 2],
         "HitLBWheel": {
             "armor": 1,
             "explosionShielding": 1,
@@ -1047,7 +1220,7 @@ RHS_C130J = {
             "visual": "wheel_3_1",
             "depends": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Hitpoints\HitRBWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Hitpoints|HitRBWheel [Indent level: 2],
         "HitRBWheel": {
             "armor": 1,
             "explosionShielding": 1,
@@ -1060,1061 +1233,1996 @@ RHS_C130J = {
             "depends": "0"
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\MFD [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|MFD [Indent level: 1],
     "MFD": {
-        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD [Indent level: 2],
+
         "AirplaneHUD": {
+
             "borderLeft": 0.09,
+
             "borderRight": 0.02,
+
             "borderTop": 0.02,
+
             "borderBottom": 0.1,
+
             "helmetMountedDisplay": 0,
+
             "helmetPosition": [-0.025,0.025,0.1],
+
             "helmetRight": [0.05,0,0],
+
             "helmetDown": [0,-0.05,0],
-            # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Pos10Vector [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Pos10Vector [Indent level: 3],
+
             "Pos10Vector": {
+
                 "type": "vector",
+
                 "pos0": [0.5,0.3],
+
                 "pos10": [0.9,0.75]
             },
+
             "topLeft": "HUD LH",
+
             "topRight": "HUD PH",
+
             "bottomLeft": "HUD LD",
+
             "color": [0,1,0,0.1],
-            # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones [Indent level: 3],
+
             "Bones": {
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\PlaneW [Indent level: 4]
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|PlaneW [Indent level: 4],
+
+
                 "PlaneW": {
+
+
                     "type": "fixed",
+
+
                     "pos": [0.5,0.34]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\WeaponAim [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|WeaponAim [Indent level: 4],
+
                 "WeaponAim": {
+
                     "source": "weapon",
+
                     "type": "vector",
+
                     "pos0": [0.5,0.3],
+
                     "pos10": [0.9,0.75]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\Target [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|Target [Indent level: 4],
+
                 "Target": {
+
                     "source": "target",
+
                     "type": "vector",
+
                     "pos0": [0.5,0.3],
+
                     "pos10": [0.9,0.75]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\Velocity [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|Velocity [Indent level: 4],
+
                 "Velocity": {
+
                     "type": "vector",
+
                     "source": "velocity",
+
                     "pos0": [0.5,0.3],
+
                     "pos10": [0.9,0.75]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\ILS_H [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|ILS_H [Indent level: 4],
+
                 "ILS_H": {
+
                     "type": "ils",
+
                     "pos0": [0.5,0.3],
+
                     "pos3": [0.62,0.3]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\ILS_W [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|ILS_W [Indent level: 4],
+
                 "ILS_W": {
+
                     "pos3": [0.5,0.435],
+
                     "type": "ils",
+
                     "pos0": [0.5,0.3]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\Level0 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|Level0 [Indent level: 4],
+
                 "Level0": {
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon",
+
                     "angle": 0
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP5 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP5 [Indent level: 4],
+
                 "LevelP5": {
+
                     "angle": 5,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM5 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM5 [Indent level: 4],
+
                 "LevelM5": {
+
                     "angle": -5,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP10 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP10 [Indent level: 4],
+
                 "LevelP10": {
+
                     "angle": 10,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM10 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM10 [Indent level: 4],
+
                 "LevelM10": {
+
                     "angle": -10,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP15 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP15 [Indent level: 4],
+
                 "LevelP15": {
+
                     "angle": 15,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM15 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM15 [Indent level: 4],
+
                 "LevelM15": {
+
                     "angle": -15,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP20 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP20 [Indent level: 4],
+
                 "LevelP20": {
+
                     "angle": 20,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM20 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM20 [Indent level: 4],
+
                 "LevelM20": {
+
                     "angle": -20,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP25 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP25 [Indent level: 4],
+
                 "LevelP25": {
+
                     "angle": 25,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM25 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM25 [Indent level: 4],
+
                 "LevelM25": {
+
                     "angle": -25,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP30 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP30 [Indent level: 4],
+
                 "LevelP30": {
+
                     "angle": 30,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM30 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM30 [Indent level: 4],
+
                 "LevelM30": {
+
                     "angle": -30,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP35 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP35 [Indent level: 4],
+
                 "LevelP35": {
+
                     "angle": 35,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM35 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM35 [Indent level: 4],
+
                 "LevelM35": {
+
                     "angle": -35,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP40 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP40 [Indent level: 4],
+
                 "LevelP40": {
+
                     "angle": 40,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM40 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM40 [Indent level: 4],
+
                 "LevelM40": {
+
                     "angle": -40,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP45 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP45 [Indent level: 4],
+
                 "LevelP45": {
+
                     "angle": 45,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM45 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM45 [Indent level: 4],
+
                 "LevelM45": {
+
                     "angle": -45,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP50 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP50 [Indent level: 4],
+
                 "LevelP50": {
+
                     "angle": 50,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM50 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM50 [Indent level: 4],
+
                 "LevelM50": {
+
                     "angle": -50,
+
                     "pos0": [0.5,0.34],
+
                     "pos10": [0.9,0.79],
+
                     "type": "horizon"
                 }
             },
-            # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw [Indent level: 3],
+
             "Draw": {
+
                 "alpha": 0.95,
+
                 "color": [0,0.3,0.05],
+
                 "condition": "on",
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\PlaneW [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|PlaneW [Indent level: 4],
+
                 "PlaneW": {
+
                     "clipTL": [0,1],
+
                     "clipBR": [1,0],
+
                     "type": "line",
+
                     "points": [["PlaneW",[-0.08,0],1],["PlaneW",[-0.03,0],1],["PlaneW",[-0.015,0.03375],1],["PlaneW",[0,0],1],["PlaneW",[0.015,0.03375],1],["PlaneW",[0.03,0],1],["PlaneW",[0.08,0],1]]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\PlaneHeading [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|PlaneHeading [Indent level: 4],
+
                 "PlaneHeading": {
+
                     "clipTL": [0,1],
+
                     "clipBR": [1,0],
+
                     "type": "line",
+
                     "points": [["Velocity",[0,-0.0225],1],["Velocity",[0.014,-0.01575],1],["Velocity",[0.02,0],1],["Velocity",[0.014,0.01575],1],["Velocity",[0,0.0225],1],["Velocity",[-0.014,0.01575],1],["Velocity",[-0.02,0],1],["Velocity",[-0.014,-0.01575],1],["Velocity",[0,-0.0225],1],[],["Velocity",[0.04,0],1],["Velocity",[0.02,0],1],[],["Velocity",[-0.04,0],1],["Velocity",[-0.02,0],1],[],["Velocity",[0,-0.045],1],["Velocity",[0,-0.0225],1],[]]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Static [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Static [Indent level: 4],
+
                 "Static": {
+
                     "clipTL": [0,0.1],
+
                     "clipBR": [1,0],
+
                     "type": "line",
+
                     "points": [[[0.21,0.52],1],[[0.19,0.5],1],[[0.21,0.48],1],[],[[0.18,0.2],1],[[0.18,0.85],1],[],[[0.79,0.52],1],[[0.81,0.5],1],[[0.79,0.48],1],[],[[0.82,0.2],1],[[0.82,0.85],1],[],[[0.52,0.09],1],[[0.5,0.07],1],[[0.48,0.09],1],[],[[0.2,0.065],1],[[0.8,0.065],1],[]]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont [Indent level: 4],
+
                 "Horizont": {
+
                     "clipTL": [0,0],
+
                     "clipBR": [1,1],
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed [Indent level: 5],
+
                     "Dimmed": {
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\Level0 [Indent level: 6]
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|Level0 [Indent level: 6],
+
+
                         "Level0": {
+
+
                             "type": "line",
+
+
                             "points": [["Level0",[-0.2,0],1],["Level0",[-0.05,0],1],[],["Level0",[0.05,0],1],["Level0",[0.2,0],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_0 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_0 [Indent level: 6],
+
                         "VALM_1_0": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": 0,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["Level0",[-0.23,-0.025],1],
+
                             "right": ["Level0",[-0.13,-0.025],1],
+
                             "down": ["Level0",[-0.23,0.025],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_0 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_0 [Indent level: 6],
+
                         "VALM_2_0": {
+
                             "align": "right",
+
                             "pos": ["Level0",[0.22,-0.025],1],
+
                             "right": ["Level0",[0.32,-0.025],1],
+
                             "down": ["Level0",[0.22,0.025],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": 0,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM5 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM5 [Indent level: 6],
+
                         "LevelM5": {
+
                             "type": "line",
+
                             "points": [["LevelM5",[-0.2,-0.03],1],["LevelM5",[-0.2,0],1],["LevelM5",[-0.15,0],1],[],["LevelM5",[-0.1,0],1],["LevelM5",[-0.05,0],1],[],["LevelM5",[0.05,0],1],["LevelM5",[0.1,0],1],[],["LevelM5",[0.15,0],1],["LevelM5",[0.2,0],1],["LevelM5",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_5 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_5 [Indent level: 6],
+
                         "VALM_1_5": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -5,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM5",[-0.23,-0.085],1],
+
                             "right": ["LevelM5",[-0.13,-0.085],1],
+
                             "down": ["LevelM5",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_5 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_5 [Indent level: 6],
+
                         "VALM_2_5": {
+
                             "align": "right",
+
                             "pos": ["LevelM5",[0.22,-0.085],1],
+
                             "right": ["LevelM5",[0.32,-0.085],1],
+
                             "down": ["LevelM5",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -5,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP5 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP5 [Indent level: 6],
+
                         "LevelP5": {
+
                             "type": "line",
+
                             "points": [["LevelP5",[-0.2,0.03],1],["LevelP5",[-0.2,0],1],["LevelP5",[-0.05,0],1],[],["LevelP5",[0.05,0],1],["LevelP5",[0.2,0],1],["LevelP5",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_5 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_5 [Indent level: 6],
+
                         "VALP_1_5": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "5",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP5",[-0.23,0.035],1],
+
                             "right": ["LevelP5",[-0.13,0.035],1],
+
                             "down": ["LevelP5",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_5 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_5 [Indent level: 6],
+
                         "VALP_2_5": {
+
                             "align": "right",
+
                             "pos": ["LevelP5",[0.22,0.035],1],
+
                             "right": ["LevelP5",[0.32,0.035],1],
+
                             "down": ["LevelP5",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "5",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM10 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM10 [Indent level: 6],
+
                         "LevelM10": {
+
                             "type": "line",
+
                             "points": [["LevelM10",[-0.2,-0.03],1],["LevelM10",[-0.2,0],1],["LevelM10",[-0.15,0],1],[],["LevelM10",[-0.1,0],1],["LevelM10",[-0.05,0],1],[],["LevelM10",[0.05,0],1],["LevelM10",[0.1,0],1],[],["LevelM10",[0.15,0],1],["LevelM10",[0.2,0],1],["LevelM10",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_10 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_10 [Indent level: 6],
+
                         "VALM_1_10": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -10,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM10",[-0.23,-0.085],1],
+
                             "right": ["LevelM10",[-0.13,-0.085],1],
+
                             "down": ["LevelM10",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_10 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_10 [Indent level: 6],
+
                         "VALM_2_10": {
+
                             "align": "right",
+
                             "pos": ["LevelM10",[0.22,-0.085],1],
+
                             "right": ["LevelM10",[0.32,-0.085],1],
+
                             "down": ["LevelM10",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -10,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP10 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP10 [Indent level: 6],
+
                         "LevelP10": {
+
                             "type": "line",
+
                             "points": [["LevelP10",[-0.2,0.03],1],["LevelP10",[-0.2,0],1],["LevelP10",[-0.05,0],1],[],["LevelP10",[0.05,0],1],["LevelP10",[0.2,0],1],["LevelP10",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_10 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_10 [Indent level: 6],
+
                         "VALP_1_10": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "10",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP10",[-0.23,0.035],1],
+
                             "right": ["LevelP10",[-0.13,0.035],1],
+
                             "down": ["LevelP10",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_10 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_10 [Indent level: 6],
+
                         "VALP_2_10": {
+
                             "align": "right",
+
                             "pos": ["LevelP10",[0.22,0.035],1],
+
                             "right": ["LevelP10",[0.32,0.035],1],
+
                             "down": ["LevelP10",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "10",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM15 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM15 [Indent level: 6],
+
                         "LevelM15": {
+
                             "type": "line",
+
                             "points": [["LevelM15",[-0.2,-0.03],1],["LevelM15",[-0.2,0],1],["LevelM15",[-0.15,0],1],[],["LevelM15",[-0.1,0],1],["LevelM15",[-0.05,0],1],[],["LevelM15",[0.05,0],1],["LevelM15",[0.1,0],1],[],["LevelM15",[0.15,0],1],["LevelM15",[0.2,0],1],["LevelM15",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_15 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_15 [Indent level: 6],
+
                         "VALM_1_15": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -15,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM15",[-0.23,-0.085],1],
+
                             "right": ["LevelM15",[-0.13,-0.085],1],
+
                             "down": ["LevelM15",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_15 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_15 [Indent level: 6],
+
                         "VALM_2_15": {
+
                             "align": "right",
+
                             "pos": ["LevelM15",[0.22,-0.085],1],
+
                             "right": ["LevelM15",[0.32,-0.085],1],
+
                             "down": ["LevelM15",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -15,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP15 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP15 [Indent level: 6],
+
                         "LevelP15": {
+
                             "type": "line",
+
                             "points": [["LevelP15",[-0.2,0.03],1],["LevelP15",[-0.2,0],1],["LevelP15",[-0.05,0],1],[],["LevelP15",[0.05,0],1],["LevelP15",[0.2,0],1],["LevelP15",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_15 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_15 [Indent level: 6],
+
                         "VALP_1_15": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "15",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP15",[-0.23,0.035],1],
+
                             "right": ["LevelP15",[-0.13,0.035],1],
+
                             "down": ["LevelP15",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_15 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_15 [Indent level: 6],
+
                         "VALP_2_15": {
+
                             "align": "right",
+
                             "pos": ["LevelP15",[0.22,0.035],1],
+
                             "right": ["LevelP15",[0.32,0.035],1],
+
                             "down": ["LevelP15",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "15",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM20 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM20 [Indent level: 6],
+
                         "LevelM20": {
+
                             "type": "line",
+
                             "points": [["LevelM20",[-0.2,-0.03],1],["LevelM20",[-0.2,0],1],["LevelM20",[-0.15,0],1],[],["LevelM20",[-0.1,0],1],["LevelM20",[-0.05,0],1],[],["LevelM20",[0.05,0],1],["LevelM20",[0.1,0],1],[],["LevelM20",[0.15,0],1],["LevelM20",[0.2,0],1],["LevelM20",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_20 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_20 [Indent level: 6],
+
                         "VALM_1_20": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -20,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM20",[-0.23,-0.085],1],
+
                             "right": ["LevelM20",[-0.13,-0.085],1],
+
                             "down": ["LevelM20",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_20 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_20 [Indent level: 6],
+
                         "VALM_2_20": {
+
                             "align": "right",
+
                             "pos": ["LevelM20",[0.22,-0.085],1],
+
                             "right": ["LevelM20",[0.32,-0.085],1],
+
                             "down": ["LevelM20",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -20,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP20 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP20 [Indent level: 6],
+
                         "LevelP20": {
+
                             "type": "line",
+
                             "points": [["LevelP20",[-0.2,0.03],1],["LevelP20",[-0.2,0],1],["LevelP20",[-0.05,0],1],[],["LevelP20",[0.05,0],1],["LevelP20",[0.2,0],1],["LevelP20",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_20 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_20 [Indent level: 6],
+
                         "VALP_1_20": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "20",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP20",[-0.23,0.035],1],
+
                             "right": ["LevelP20",[-0.13,0.035],1],
+
                             "down": ["LevelP20",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_20 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_20 [Indent level: 6],
+
                         "VALP_2_20": {
+
                             "align": "right",
+
                             "pos": ["LevelP20",[0.22,0.035],1],
+
                             "right": ["LevelP20",[0.32,0.035],1],
+
                             "down": ["LevelP20",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "20",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM25 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM25 [Indent level: 6],
+
                         "LevelM25": {
+
                             "type": "line",
+
                             "points": [["LevelM25",[-0.2,-0.03],1],["LevelM25",[-0.2,0],1],["LevelM25",[-0.15,0],1],[],["LevelM25",[-0.1,0],1],["LevelM25",[-0.05,0],1],[],["LevelM25",[0.05,0],1],["LevelM25",[0.1,0],1],[],["LevelM25",[0.15,0],1],["LevelM25",[0.2,0],1],["LevelM25",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_25 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_25 [Indent level: 6],
+
                         "VALM_1_25": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -25,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM25",[-0.23,-0.085],1],
+
                             "right": ["LevelM25",[-0.13,-0.085],1],
+
                             "down": ["LevelM25",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_25 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_25 [Indent level: 6],
+
                         "VALM_2_25": {
+
                             "align": "right",
+
                             "pos": ["LevelM25",[0.22,-0.085],1],
+
                             "right": ["LevelM25",[0.32,-0.085],1],
+
                             "down": ["LevelM25",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -25,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP25 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP25 [Indent level: 6],
+
                         "LevelP25": {
+
                             "type": "line",
+
                             "points": [["LevelP25",[-0.2,0.03],1],["LevelP25",[-0.2,0],1],["LevelP25",[-0.05,0],1],[],["LevelP25",[0.05,0],1],["LevelP25",[0.2,0],1],["LevelP25",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_25 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_25 [Indent level: 6],
+
                         "VALP_1_25": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "25",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP25",[-0.23,0.035],1],
+
                             "right": ["LevelP25",[-0.13,0.035],1],
+
                             "down": ["LevelP25",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_25 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_25 [Indent level: 6],
+
                         "VALP_2_25": {
+
                             "align": "right",
+
                             "pos": ["LevelP25",[0.22,0.035],1],
+
                             "right": ["LevelP25",[0.32,0.035],1],
+
                             "down": ["LevelP25",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "25",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM30 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM30 [Indent level: 6],
+
                         "LevelM30": {
+
                             "type": "line",
+
                             "points": [["LevelM30",[-0.2,-0.03],1],["LevelM30",[-0.2,0],1],["LevelM30",[-0.15,0],1],[],["LevelM30",[-0.1,0],1],["LevelM30",[-0.05,0],1],[],["LevelM30",[0.05,0],1],["LevelM30",[0.1,0],1],[],["LevelM30",[0.15,0],1],["LevelM30",[0.2,0],1],["LevelM30",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_30 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_30 [Indent level: 6],
+
                         "VALM_1_30": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -30,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM30",[-0.23,-0.085],1],
+
                             "right": ["LevelM30",[-0.13,-0.085],1],
+
                             "down": ["LevelM30",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_30 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_30 [Indent level: 6],
+
                         "VALM_2_30": {
+
                             "align": "right",
+
                             "pos": ["LevelM30",[0.22,-0.085],1],
+
                             "right": ["LevelM30",[0.32,-0.085],1],
+
                             "down": ["LevelM30",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -30,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP30 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP30 [Indent level: 6],
+
                         "LevelP30": {
+
                             "type": "line",
+
                             "points": [["LevelP30",[-0.2,0.03],1],["LevelP30",[-0.2,0],1],["LevelP30",[-0.05,0],1],[],["LevelP30",[0.05,0],1],["LevelP30",[0.2,0],1],["LevelP30",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_30 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_30 [Indent level: 6],
+
                         "VALP_1_30": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "30",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP30",[-0.23,0.035],1],
+
                             "right": ["LevelP30",[-0.13,0.035],1],
+
                             "down": ["LevelP30",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_30 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_30 [Indent level: 6],
+
                         "VALP_2_30": {
+
                             "align": "right",
+
                             "pos": ["LevelP30",[0.22,0.035],1],
+
                             "right": ["LevelP30",[0.32,0.035],1],
+
                             "down": ["LevelP30",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "30",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM35 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM35 [Indent level: 6],
+
                         "LevelM35": {
+
                             "type": "line",
+
                             "points": [["LevelM35",[-0.2,-0.03],1],["LevelM35",[-0.2,0],1],["LevelM35",[-0.15,0],1],[],["LevelM35",[-0.1,0],1],["LevelM35",[-0.05,0],1],[],["LevelM35",[0.05,0],1],["LevelM35",[0.1,0],1],[],["LevelM35",[0.15,0],1],["LevelM35",[0.2,0],1],["LevelM35",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_35 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_35 [Indent level: 6],
+
                         "VALM_1_35": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -35,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM35",[-0.23,-0.085],1],
+
                             "right": ["LevelM35",[-0.13,-0.085],1],
+
                             "down": ["LevelM35",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_35 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_35 [Indent level: 6],
+
                         "VALM_2_35": {
+
                             "align": "right",
+
                             "pos": ["LevelM35",[0.22,-0.085],1],
+
                             "right": ["LevelM35",[0.32,-0.085],1],
+
                             "down": ["LevelM35",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -35,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP35 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP35 [Indent level: 6],
+
                         "LevelP35": {
+
                             "type": "line",
+
                             "points": [["LevelP35",[-0.2,0.03],1],["LevelP35",[-0.2,0],1],["LevelP35",[-0.05,0],1],[],["LevelP35",[0.05,0],1],["LevelP35",[0.2,0],1],["LevelP35",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_35 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_35 [Indent level: 6],
+
                         "VALP_1_35": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "35",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP35",[-0.23,0.035],1],
+
                             "right": ["LevelP35",[-0.13,0.035],1],
+
                             "down": ["LevelP35",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_35 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_35 [Indent level: 6],
+
                         "VALP_2_35": {
+
                             "align": "right",
+
                             "pos": ["LevelP35",[0.22,0.035],1],
+
                             "right": ["LevelP35",[0.32,0.035],1],
+
                             "down": ["LevelP35",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "35",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM40 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM40 [Indent level: 6],
+
                         "LevelM40": {
+
                             "type": "line",
+
                             "points": [["LevelM40",[-0.2,-0.03],1],["LevelM40",[-0.2,0],1],["LevelM40",[-0.15,0],1],[],["LevelM40",[-0.1,0],1],["LevelM40",[-0.05,0],1],[],["LevelM40",[0.05,0],1],["LevelM40",[0.1,0],1],[],["LevelM40",[0.15,0],1],["LevelM40",[0.2,0],1],["LevelM40",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_40 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_40 [Indent level: 6],
+
                         "VALM_1_40": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -40,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM40",[-0.23,-0.085],1],
+
                             "right": ["LevelM40",[-0.13,-0.085],1],
+
                             "down": ["LevelM40",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_40 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_40 [Indent level: 6],
+
                         "VALM_2_40": {
+
                             "align": "right",
+
                             "pos": ["LevelM40",[0.22,-0.085],1],
+
                             "right": ["LevelM40",[0.32,-0.085],1],
+
                             "down": ["LevelM40",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -40,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP40 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP40 [Indent level: 6],
+
                         "LevelP40": {
+
                             "type": "line",
+
                             "points": [["LevelP40",[-0.2,0.03],1],["LevelP40",[-0.2,0],1],["LevelP40",[-0.05,0],1],[],["LevelP40",[0.05,0],1],["LevelP40",[0.2,0],1],["LevelP40",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_40 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_40 [Indent level: 6],
+
                         "VALP_1_40": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "40",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP40",[-0.23,0.035],1],
+
                             "right": ["LevelP40",[-0.13,0.035],1],
+
                             "down": ["LevelP40",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_40 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_40 [Indent level: 6],
+
                         "VALP_2_40": {
+
                             "align": "right",
+
                             "pos": ["LevelP40",[0.22,0.035],1],
+
                             "right": ["LevelP40",[0.32,0.035],1],
+
                             "down": ["LevelP40",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "40",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM45 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM45 [Indent level: 6],
+
                         "LevelM45": {
+
                             "type": "line",
+
                             "points": [["LevelM45",[-0.2,-0.03],1],["LevelM45",[-0.2,0],1],["LevelM45",[-0.15,0],1],[],["LevelM45",[-0.1,0],1],["LevelM45",[-0.05,0],1],[],["LevelM45",[0.05,0],1],["LevelM45",[0.1,0],1],[],["LevelM45",[0.15,0],1],["LevelM45",[0.2,0],1],["LevelM45",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_45 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_45 [Indent level: 6],
+
                         "VALM_1_45": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -45,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM45",[-0.23,-0.085],1],
+
                             "right": ["LevelM45",[-0.13,-0.085],1],
+
                             "down": ["LevelM45",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_45 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_45 [Indent level: 6],
+
                         "VALM_2_45": {
+
                             "align": "right",
+
                             "pos": ["LevelM45",[0.22,-0.085],1],
+
                             "right": ["LevelM45",[0.32,-0.085],1],
+
                             "down": ["LevelM45",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -45,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP45 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP45 [Indent level: 6],
+
                         "LevelP45": {
+
                             "type": "line",
+
                             "points": [["LevelP45",[-0.2,0.03],1],["LevelP45",[-0.2,0],1],["LevelP45",[-0.05,0],1],[],["LevelP45",[0.05,0],1],["LevelP45",[0.2,0],1],["LevelP45",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_45 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_45 [Indent level: 6],
+
                         "VALP_1_45": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "45",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP45",[-0.23,0.035],1],
+
                             "right": ["LevelP45",[-0.13,0.035],1],
+
                             "down": ["LevelP45",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_45 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_45 [Indent level: 6],
+
                         "VALP_2_45": {
+
                             "align": "right",
+
                             "pos": ["LevelP45",[0.22,0.035],1],
+
                             "right": ["LevelP45",[0.32,0.035],1],
+
                             "down": ["LevelP45",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "45",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM50 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM50 [Indent level: 6],
+
                         "LevelM50": {
+
                             "type": "line",
+
                             "points": [["LevelM50",[-0.2,-0.03],1],["LevelM50",[-0.2,0],1],["LevelM50",[-0.15,0],1],[],["LevelM50",[-0.1,0],1],["LevelM50",[-0.05,0],1],[],["LevelM50",[0.05,0],1],["LevelM50",[0.1,0],1],[],["LevelM50",[0.15,0],1],["LevelM50",[0.2,0],1],["LevelM50",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_50 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_50 [Indent level: 6],
+
                         "VALM_1_50": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -50,
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelM50",[-0.23,-0.085],1],
+
                             "right": ["LevelM50",[-0.13,-0.085],1],
+
                             "down": ["LevelM50",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_50 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_50 [Indent level: 6],
+
                         "VALM_2_50": {
+
                             "align": "right",
+
                             "pos": ["LevelM50",[0.22,-0.085],1],
+
                             "right": ["LevelM50",[0.32,-0.085],1],
+
                             "down": ["LevelM50",[0.22,-0.035],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": -50,
+
                             "scale": 1,
+
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP50 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP50 [Indent level: 6],
+
                         "LevelP50": {
+
                             "type": "line",
+
                             "points": [["LevelP50",[-0.2,0.03],1],["LevelP50",[-0.2,0],1],["LevelP50",[-0.05,0],1],[],["LevelP50",[0.05,0],1],["LevelP50",[0.2,0],1],["LevelP50",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_50 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_50 [Indent level: 6],
+
                         "VALP_1_50": {
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "50",
+
                             "align": "left",
+
                             "scale": 1,
+
                             "sourceScale": 1,
+
                             "pos": ["LevelP50",[-0.23,0.035],1],
+
                             "right": ["LevelP50",[-0.13,0.035],1],
+
                             "down": ["LevelP50",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_50 [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_50 [Indent level: 6],
+
                         "VALP_2_50": {
+
                             "align": "right",
+
                             "pos": ["LevelP50",[0.22,0.035],1],
+
                             "right": ["LevelP50",[0.32,0.035],1],
+
                             "down": ["LevelP50",[0.22,0.085],1],
+
                             "type": "text",
+
                             "source": "static",
+
                             "text": "50",
+
                             "scale": 1,
+
                             "sourceScale": 1
                         }
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\MGun [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|MGun [Indent level: 4],
+
                 "MGun": {
+
                     "condition": "mgun",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\MGun\Circle [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|MGun|Circle [Indent level: 5],
+
                     "Circle": {
+
                         "type": "line",
+
                         "points": [["WeaponAim",[0.01,0],1],["WeaponAim",[-0.01,0],1],[],["WeaponAim",[0,0.01125],1],["WeaponAim",[0,-0.01125],1],[],["WeaponAim",[0,-0.07875],1],["WeaponAim",[0.049,-0.055125],1],["WeaponAim",[0.07,0],1],["WeaponAim",[0.049,0.055125],1],["WeaponAim",[0,0.07875],1],["WeaponAim",[-0.049,0.055125],1],["WeaponAim",[-0.07,0],1],["WeaponAim",[-0.049,-0.055125],1],["WeaponAim",[0,-0.07875],1],[],["WeaponAim",[0,-0.1575],1],["WeaponAim",[0.07,-0.137025],1],["WeaponAim",[0.1218,-0.07875],1],["WeaponAim",[0.14,0],1],["WeaponAim",[0.1218,0.07875],1],["WeaponAim",[0.07,0.137025],1],["WeaponAim",[0,0.1575],1],["WeaponAim",[-0.07,0.137025],1],["WeaponAim",[-0.1218,0.07875],1],["WeaponAim",[-0.14,0],1],["WeaponAim",[-0.1218,-0.07875],1],["WeaponAim",[-0.07,-0.137025],1],["WeaponAim",[0,-0.1575],1],[],["WeaponAim",[0,-0.1575],1],["WeaponAim",[0,-0.18],1],[],["WeaponAim",[-0.07,-0.136399],1],["WeaponAim",[-0.08,-0.155885],1],[],["WeaponAim",[-0.121244,-0.07875],1],["WeaponAim",[-0.138564,-0.09],1],[],["WeaponAim",[-0.14,6.88454e-009],1],["WeaponAim",[-0.16,7.86805e-009],1],[],["WeaponAim",[-0.121244,0.07875],1],["WeaponAim",[-0.138564,0.09],1],[],["WeaponAim",[-0.07,0.136399],1],["WeaponAim",[-0.08,0.155885],1],[],["WeaponAim",[1.22392e-008,0.1575],1],["WeaponAim",[1.39876e-008,0.18],1],[],["WeaponAim",[0.07,0.136399],1],["WeaponAim",[0.08,0.155885],1],[],["WeaponAim",[0.121244,0.07875],1],["WeaponAim",[0.138564,0.09],1],[],["WeaponAim",[0.14,-1.87817e-009],1],["WeaponAim",[0.16,-2.14648e-009],1],[],["WeaponAim",[0.121244,-0.07875],1],["WeaponAim",[0.138564,-0.09],1],[],["WeaponAim",[0.07,-0.136399],1],["WeaponAim",[0.08,-0.155885],1],[]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Bomb [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Bomb [Indent level: 4],
+
                 "Bomb": {
+
                     "condition": "bomb",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Bomb\Circle [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Bomb|Circle [Indent level: 5],
+
                     "Circle": {
+
                         "type": "line",
+
                         "points": [["WeaponAim",[0,-0.1125],1],["WeaponAim",[0.05,-0.097875],1],["WeaponAim",[0.087,-0.05625],1],["WeaponAim",[0.1,0],1],["WeaponAim",[0.087,0.05625],1],["WeaponAim",[0.05,0.097875],1],["WeaponAim",[0,0.1125],1],["WeaponAim",[-0.05,0.097875],1],["WeaponAim",[-0.087,0.05625],1],["WeaponAim",[-0.1,0],1],["WeaponAim",[-0.087,-0.05625],1],["WeaponAim",[-0.05,-0.097875],1],["WeaponAim",[0,-0.1125],1],[],["Velocity",0.001,"WeaponAim",[0,0],1],["Velocity",[0,0],1],[],["Target",[0,-0.07875],1],["Target",[0.07,0],1],["Target",[0,0.07875],1],["Target",[-0.07,0],1],["Target",[0,-0.07875],1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\AAMissile [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|AAMissile [Indent level: 4],
+
                 "AAMissile": {
+
                     "condition": "AAmissile",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\AAMissile\Circle [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|AAMissile|Circle [Indent level: 5],
+
                     "Circle": {
+
                         "type": "line",
+
                         "points": [["WeaponAim",[0,-0.28125],1],["WeaponAim",[0.125,-0.244687],1],["WeaponAim",[0.2175,-0.140625],1],["WeaponAim",[0.25,0],1],["WeaponAim",[0.2175,0.140625],1],["WeaponAim",[0.125,0.244687],1],["WeaponAim",[0,0.28125],1],["WeaponAim",[-0.125,0.244687],1],["WeaponAim",[-0.2175,0.140625],1],["WeaponAim",[-0.25,0],1],["WeaponAim",[-0.2175,-0.140625],1],["WeaponAim",[-0.125,-0.244687],1],["WeaponAim",[0,-0.28125],1],[],["Target",[0,-0.07875],1],["Target",[0.07,0],1],["Target",[0,0.07875],1],["Target",[-0.07,0],1],["Target",[0,-0.07875],1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ATMissile [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ATMissile [Indent level: 4],
+
                 "ATMissile": {
+
                     "condition": "ATmissile",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ATMissile\Circle [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ATMissile|Circle [Indent level: 5],
+
                     "Circle": {
+
                         "type": "line",
+
                         "points": [["WeaponAim",[0,-0.2025],1],["WeaponAim",[0.09,-0.176175],1],["WeaponAim",[0.1566,-0.10125],1],["WeaponAim",[0.18,0],1],["WeaponAim",[0.1566,0.10125],1],["WeaponAim",[0.09,0.176175],1],["WeaponAim",[0,0.2025],1],["WeaponAim",[-0.09,0.176175],1],["WeaponAim",[-0.1566,0.10125],1],["WeaponAim",[-0.18,0],1],["WeaponAim",[-0.1566,-0.10125],1],["WeaponAim",[-0.09,-0.176175],1],["WeaponAim",[0,-0.2025],1],[],["Target",[0,-0.07875],1],["Target",[0.07,0],1],["Target",[0,0.07875],1],["Target",[-0.07,0],1],["Target",[0,-0.07875],1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Rockets [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Rockets [Indent level: 4],
+
                 "Rockets": {
+
                     "condition": "Rocket",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Rockets\Circle [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Rockets|Circle [Indent level: 5],
+
                     "Circle": {
+
                         "type": "line",
+
                         "points": [["WeaponAim",[0.01,0],1],["WeaponAim",[-0.01,0],1],[],["WeaponAim",[0,0.01125],1],["WeaponAim",[0,-0.01125],1],[],["WeaponAim",[0,-0.135],1],["WeaponAim",[0.06,-0.11745],1],["WeaponAim",[0.1044,-0.0675],1],["WeaponAim",[0.12,0],1],["WeaponAim",[0.1044,0.0675],1],["WeaponAim",[0.06,0.11745],1],["WeaponAim",[0,0.135],1],["WeaponAim",[-0.06,0.11745],1],["WeaponAim",[-0.1044,0.0675],1],["WeaponAim",[-0.12,0],1],["WeaponAim",[-0.1044,-0.0675],1],["WeaponAim",[-0.06,-0.11745],1],["WeaponAim",[0,-0.135],1],[]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\AltScale [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|AltScale [Indent level: 4],
+
                 "AltScale": {
+
                     "type": "scale",
+
                     "scale": 1,
+
                     "source": "altitudeASL",
+
                     "sourceScale": 1,
+
                     "align": "right",
+
                     "pos": [0.86,0.82],
+
                     "right": [0.94,0.82],
+
                     "down": [0.86,0.87],
+
                     "lineXleft": 0.825,
+
                     "lineYright": 0.835,
+
                     "lineXleftMajor": 0.825,
+
                     "lineYrightMajor": 0.845,
+
                     "bottom": 0.2,
+
                     "top": 0.85,
+
                     "center": 0.5,
+
                     "step": 20,
+
                     "StepSize": 0.0325,
+
                     "horizontal": "false",
+
                     "min": "none",
+
                     "max": "none",
+
                     "numberEach": 5,
+
                     "majorLineEach": 5
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\SpeedScale [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|SpeedScale [Indent level: 4],
+
                 "SpeedScale": {
+
                     "type": "scale",
+
                     "scale": 1,
+
                     "source": "speed",
+
                     "sourceScale": 3.6,
+
                     "align": "right",
+
                     "pos": [0.06,0.17],
+
                     "right": [0.14,0.17],
+
                     "down": [0.06,0.22],
+
                     "lineXleft": 0.175,
+
                     "lineYright": 0.165,
+
                     "lineXleftMajor": 0.175,
+
                     "lineYrightMajor": 0.155,
+
                     "bottom": 0.85,
+
                     "center": 0.5,
+
                     "top": 0.2,
+
                     "step": 20,
+
                     "StepSize": 0.0325,
+
                     "horizontal": "false",
+
                     "min": "none",
+
                     "max": "none",
+
                     "numberEach": 5,
+
                     "majorLineEach": 5
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Gear [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Gear [Indent level: 4],
+
                 "Gear": {
+
                     "condition": "ils",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Gear\text [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Gear|text [Indent level: 5],
+
                     "text": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "GEAR",
+
                         "align": "right",
+
                         "scale": 0.5,
+
                         "sourceScale": 1,
+
                         "pos": [[0.84,0.88],1],
+
                         "right": [[0.9,0.88],1],
+
                         "down": [[0.84,0.92],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Flaps [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Flaps [Indent level: 4],
+
                 "Flaps": {
+
                     "condition": "flaps",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Flaps\text [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Flaps|text [Indent level: 5],
+
                     "text": {
+
                         "type": "text",
+
                         "source": "static",
+
                         "text": "FLAPS",
+
                         "align": "right",
+
                         "scale": 0.5,
+
                         "sourceScale": 1,
+
                         "pos": [[0.84,0.93],1],
+
                         "right": [[0.9,0.93],1],
+
                         "down": [[0.84,0.97],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\weapons [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|weapons [Indent level: 4],
+
                 "weapons": {
+
                     "type": "text",
+
                     "source": "weapon",
+
                     "align": "right",
+
                     "scale": 0.5,
+
                     "sourceScale": 1,
+
                     "pos": [[0.1,0.88],1],
+
                     "right": [[0.16,0.88],1],
+
                     "down": [[0.1,0.92],1]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ammo [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ammo [Indent level: 4],
+
                 "ammo": {
+
                     "type": "text",
+
                     "source": "ammo",
+
                     "align": "right",
+
                     "scale": 0.5,
+
                     "sourceScale": 1,
+
                     "pos": [[0.1,0.93],1],
+
                     "right": [[0.16,0.93],1],
+
                     "down": [[0.1,0.97],1]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\VspeedNumber [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|VspeedNumber [Indent level: 4],
+
                 "VspeedNumber": {
+
                     "type": "text",
+
                     "align": "right",
+
                     "scale": 1,
+
                     "source": "vspeed",
+
                     "sourceScale": 1,
+
                     "pos": [[0.86,0.12],1],
+
                     "right": [[0.94,0.12],1],
+
                     "down": [[0.86,0.17],1]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\HeadingScale [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|HeadingScale [Indent level: 4],
+
                 "HeadingScale": {
+
                     "type": "scale",
+
                     "scale": 1,
+
                     "source": "Heading",
+
                     "sourceScale": 1,
+
                     "align": "center",
+
                     "pos": [0.2,0],
+
                     "right": [0.28,0],
+
                     "down": [0.2,0.05],
+
                     "lineXleft": 0.06,
+
                     "lineYright": 0.05,
+
                     "lineXleftMajor": 0.06,
+
                     "lineYrightMajor": 0.04,
+
                     "bottom": 0.8,
+
                     "center": 0.5,
+
                     "top": 0.2,
+
                     "step": 2,
+
                     "StepSize": 0.03,
+
                     "horizontal": "true",
+
                     "min": "none",
+
                     "max": "none",
+
                     "numberEach": 5,
+
                     "majorLineEach": 5
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ILS [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ILS [Indent level: 4],
+
                 "ILS": {
+
                     "condition": "ils",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ILS\Glideslope [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ILS|Glideslope [Indent level: 5],
+
                     "Glideslope": {
+
                         "clipTL": [0,0],
+
                         "clipBR": [1,1],
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ILS\Glideslope\ILS [Indent level: 6],
+
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ILS|Glideslope|ILS [Indent level: 6],
+
                         "ILS": {
+
                             "type": "line",
+
                             "points": [["ILS_W",[-0.24,0],1],["ILS_W",[0.24,0],1],[],["ILS_W",[0,0.027],1],["ILS_W",[0,-0.027],1],[],["ILS_W",[0.12,0.027],1],["ILS_W",[0.12,-0.027],1],[],["ILS_W",[0.24,0.027],1],["ILS_W",[0.24,-0.027],1],[],["ILS_W",[-0.12,0.027],1],["ILS_W",[-0.12,-0.027],1],[],["ILS_W",[-0.24,0.027],1],["ILS_W",[-0.24,-0.027],1],[],["ILS_H",[0,-0.27],1],["ILS_H",[0,0.27],1],[],["ILS_H",[0.024,0],1],["ILS_H",[-0.024,0],1],[],["ILS_H",[0.024,0.135],1],["ILS_H",[-0.024,0.135],1],[],["ILS_H",[0.024,0.27],1],["ILS_H",[-0.024,0.27],1],[],["ILS_H",[0.024,-0.135],1],["ILS_H",[-0.024,-0.135],1],[],["ILS_H",[0.024,-0.27],1],["ILS_H",[-0.024,-0.27],1]]
                         }
                     }
                 }
             }
         },
-        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD2 [Indent level: 2],
         "AirplaneHUD2": {
             "topLeft": "HUD2 LH",
             "topRight": "HUD2 PH",
@@ -2128,194 +3236,197 @@ RHS_C130J = {
             "helmetPosition": [-0.025,0.025,0.1],
             "helmetRight": [0.05,0,0],
             "helmetDown": [0,-0.05,0],
-            # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Pos10Vector [Indent level: 3],
+            # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Pos10Vector [Indent level: 3],
             "Pos10Vector": {
                 "type": "vector",
                 "pos0": [0.5,0.3],
                 "pos10": [0.9,0.75]
             },
             "color": [0,1,0,0.1],
-            # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones [Indent level: 3],
+            # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones [Indent level: 3],
             "Bones": {
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\PlaneW [Indent level: 4]
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|PlaneW [Indent level: 4],
+
                 "PlaneW": {
+
                     "type": "fixed",
+
                     "pos": [0.5,0.34]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\WeaponAim [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|WeaponAim [Indent level: 4],
                 "WeaponAim": {
                     "source": "weapon",
                     "type": "vector",
                     "pos0": [0.5,0.3],
                     "pos10": [0.9,0.75]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\Target [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|Target [Indent level: 4],
                 "Target": {
                     "source": "target",
                     "type": "vector",
                     "pos0": [0.5,0.3],
                     "pos10": [0.9,0.75]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\Velocity [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|Velocity [Indent level: 4],
                 "Velocity": {
                     "type": "vector",
                     "source": "velocity",
                     "pos0": [0.5,0.3],
                     "pos10": [0.9,0.75]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\ILS_H [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|ILS_H [Indent level: 4],
                 "ILS_H": {
                     "type": "ils",
                     "pos0": [0.5,0.3],
                     "pos3": [0.62,0.3]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\ILS_W [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|ILS_W [Indent level: 4],
                 "ILS_W": {
                     "pos3": [0.5,0.435],
                     "type": "ils",
                     "pos0": [0.5,0.3]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\Level0 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|Level0 [Indent level: 4],
                 "Level0": {
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon",
                     "angle": 0
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP5 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP5 [Indent level: 4],
                 "LevelP5": {
                     "angle": 5,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM5 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM5 [Indent level: 4],
                 "LevelM5": {
                     "angle": -5,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP10 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP10 [Indent level: 4],
                 "LevelP10": {
                     "angle": 10,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM10 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM10 [Indent level: 4],
                 "LevelM10": {
                     "angle": -10,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP15 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP15 [Indent level: 4],
                 "LevelP15": {
                     "angle": 15,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM15 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM15 [Indent level: 4],
                 "LevelM15": {
                     "angle": -15,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP20 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP20 [Indent level: 4],
                 "LevelP20": {
                     "angle": 20,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM20 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM20 [Indent level: 4],
                 "LevelM20": {
                     "angle": -20,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP25 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP25 [Indent level: 4],
                 "LevelP25": {
                     "angle": 25,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM25 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM25 [Indent level: 4],
                 "LevelM25": {
                     "angle": -25,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP30 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP30 [Indent level: 4],
                 "LevelP30": {
                     "angle": 30,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM30 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM30 [Indent level: 4],
                 "LevelM30": {
                     "angle": -30,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP35 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP35 [Indent level: 4],
                 "LevelP35": {
                     "angle": 35,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM35 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM35 [Indent level: 4],
                 "LevelM35": {
                     "angle": -35,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP40 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP40 [Indent level: 4],
                 "LevelP40": {
                     "angle": 40,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM40 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM40 [Indent level: 4],
                 "LevelM40": {
                     "angle": -40,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP45 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP45 [Indent level: 4],
                 "LevelP45": {
                     "angle": 45,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM45 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM45 [Indent level: 4],
                 "LevelM45": {
                     "angle": -45,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelP50 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelP50 [Indent level: 4],
                 "LevelP50": {
                     "angle": 50,
                     "pos0": [0.5,0.34],
                     "pos10": [0.9,0.79],
                     "type": "horizon"
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Bones\LevelM50 [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Bones|LevelM50 [Indent level: 4],
                 "LevelM50": {
                     "angle": -50,
                     "pos0": [0.5,0.34],
@@ -2323,44 +3434,47 @@ RHS_C130J = {
                     "type": "horizon"
                 }
             },
-            # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw [Indent level: 3],
+            # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw [Indent level: 3],
             "Draw": {
                 "alpha": 0.95,
                 "color": [0,0.3,0.05],
                 "condition": "on",
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\PlaneW [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|PlaneW [Indent level: 4],
                 "PlaneW": {
                     "clipTL": [0,1],
                     "clipBR": [1,0],
                     "type": "line",
                     "points": [["PlaneW",[-0.08,0],1],["PlaneW",[-0.03,0],1],["PlaneW",[-0.015,0.03375],1],["PlaneW",[0,0],1],["PlaneW",[0.015,0.03375],1],["PlaneW",[0.03,0],1],["PlaneW",[0.08,0],1]]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\PlaneHeading [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|PlaneHeading [Indent level: 4],
                 "PlaneHeading": {
                     "clipTL": [0,1],
                     "clipBR": [1,0],
                     "type": "line",
                     "points": [["Velocity",[0,-0.0225],1],["Velocity",[0.014,-0.01575],1],["Velocity",[0.02,0],1],["Velocity",[0.014,0.01575],1],["Velocity",[0,0.0225],1],["Velocity",[-0.014,0.01575],1],["Velocity",[-0.02,0],1],["Velocity",[-0.014,-0.01575],1],["Velocity",[0,-0.0225],1],[],["Velocity",[0.04,0],1],["Velocity",[0.02,0],1],[],["Velocity",[-0.04,0],1],["Velocity",[-0.02,0],1],[],["Velocity",[0,-0.045],1],["Velocity",[0,-0.0225],1],[]]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Static [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Static [Indent level: 4],
                 "Static": {
                     "clipTL": [0,0.1],
                     "clipBR": [1,0],
                     "type": "line",
                     "points": [[[0.21,0.52],1],[[0.19,0.5],1],[[0.21,0.48],1],[],[[0.18,0.2],1],[[0.18,0.85],1],[],[[0.79,0.52],1],[[0.81,0.5],1],[[0.79,0.48],1],[],[[0.82,0.2],1],[[0.82,0.85],1],[],[[0.52,0.09],1],[[0.5,0.07],1],[[0.48,0.09],1],[],[[0.2,0.065],1],[[0.8,0.065],1],[]]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont [Indent level: 4],
                 "Horizont": {
                     "clipTL": [0,0],
                     "clipBR": [1,1],
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed [Indent level: 5],
                     "Dimmed": {
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\Level0 [Indent level: 6]
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|Level0 [Indent level: 6],
+
                         "Level0": {
+
                             "type": "line",
+
                             "points": [["Level0",[-0.2,0],1],["Level0",[-0.05,0],1],[],["Level0",[0.05,0],1],["Level0",[0.2,0],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_0 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_0 [Indent level: 6],
                         "VALM_1_0": {
                             "type": "text",
                             "source": "static",
@@ -2372,7 +3486,7 @@ RHS_C130J = {
                             "right": ["Level0",[-0.13,-0.025],1],
                             "down": ["Level0",[-0.23,0.025],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_0 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_0 [Indent level: 6],
                         "VALM_2_0": {
                             "align": "right",
                             "pos": ["Level0",[0.22,-0.025],1],
@@ -2384,12 +3498,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM5 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM5 [Indent level: 6],
                         "LevelM5": {
                             "type": "line",
                             "points": [["LevelM5",[-0.2,-0.03],1],["LevelM5",[-0.2,0],1],["LevelM5",[-0.15,0],1],[],["LevelM5",[-0.1,0],1],["LevelM5",[-0.05,0],1],[],["LevelM5",[0.05,0],1],["LevelM5",[0.1,0],1],[],["LevelM5",[0.15,0],1],["LevelM5",[0.2,0],1],["LevelM5",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_5 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_5 [Indent level: 6],
                         "VALM_1_5": {
                             "type": "text",
                             "source": "static",
@@ -2401,7 +3515,7 @@ RHS_C130J = {
                             "right": ["LevelM5",[-0.13,-0.085],1],
                             "down": ["LevelM5",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_5 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_5 [Indent level: 6],
                         "VALM_2_5": {
                             "align": "right",
                             "pos": ["LevelM5",[0.22,-0.085],1],
@@ -2413,12 +3527,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP5 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP5 [Indent level: 6],
                         "LevelP5": {
                             "type": "line",
                             "points": [["LevelP5",[-0.2,0.03],1],["LevelP5",[-0.2,0],1],["LevelP5",[-0.05,0],1],[],["LevelP5",[0.05,0],1],["LevelP5",[0.2,0],1],["LevelP5",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_5 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_5 [Indent level: 6],
                         "VALP_1_5": {
                             "type": "text",
                             "source": "static",
@@ -2430,7 +3544,7 @@ RHS_C130J = {
                             "right": ["LevelP5",[-0.13,0.035],1],
                             "down": ["LevelP5",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_5 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_5 [Indent level: 6],
                         "VALP_2_5": {
                             "align": "right",
                             "pos": ["LevelP5",[0.22,0.035],1],
@@ -2442,12 +3556,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM10 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM10 [Indent level: 6],
                         "LevelM10": {
                             "type": "line",
                             "points": [["LevelM10",[-0.2,-0.03],1],["LevelM10",[-0.2,0],1],["LevelM10",[-0.15,0],1],[],["LevelM10",[-0.1,0],1],["LevelM10",[-0.05,0],1],[],["LevelM10",[0.05,0],1],["LevelM10",[0.1,0],1],[],["LevelM10",[0.15,0],1],["LevelM10",[0.2,0],1],["LevelM10",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_10 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_10 [Indent level: 6],
                         "VALM_1_10": {
                             "type": "text",
                             "source": "static",
@@ -2459,7 +3573,7 @@ RHS_C130J = {
                             "right": ["LevelM10",[-0.13,-0.085],1],
                             "down": ["LevelM10",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_10 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_10 [Indent level: 6],
                         "VALM_2_10": {
                             "align": "right",
                             "pos": ["LevelM10",[0.22,-0.085],1],
@@ -2471,12 +3585,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP10 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP10 [Indent level: 6],
                         "LevelP10": {
                             "type": "line",
                             "points": [["LevelP10",[-0.2,0.03],1],["LevelP10",[-0.2,0],1],["LevelP10",[-0.05,0],1],[],["LevelP10",[0.05,0],1],["LevelP10",[0.2,0],1],["LevelP10",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_10 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_10 [Indent level: 6],
                         "VALP_1_10": {
                             "type": "text",
                             "source": "static",
@@ -2488,7 +3602,7 @@ RHS_C130J = {
                             "right": ["LevelP10",[-0.13,0.035],1],
                             "down": ["LevelP10",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_10 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_10 [Indent level: 6],
                         "VALP_2_10": {
                             "align": "right",
                             "pos": ["LevelP10",[0.22,0.035],1],
@@ -2500,12 +3614,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM15 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM15 [Indent level: 6],
                         "LevelM15": {
                             "type": "line",
                             "points": [["LevelM15",[-0.2,-0.03],1],["LevelM15",[-0.2,0],1],["LevelM15",[-0.15,0],1],[],["LevelM15",[-0.1,0],1],["LevelM15",[-0.05,0],1],[],["LevelM15",[0.05,0],1],["LevelM15",[0.1,0],1],[],["LevelM15",[0.15,0],1],["LevelM15",[0.2,0],1],["LevelM15",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_15 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_15 [Indent level: 6],
                         "VALM_1_15": {
                             "type": "text",
                             "source": "static",
@@ -2517,7 +3631,7 @@ RHS_C130J = {
                             "right": ["LevelM15",[-0.13,-0.085],1],
                             "down": ["LevelM15",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_15 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_15 [Indent level: 6],
                         "VALM_2_15": {
                             "align": "right",
                             "pos": ["LevelM15",[0.22,-0.085],1],
@@ -2529,12 +3643,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP15 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP15 [Indent level: 6],
                         "LevelP15": {
                             "type": "line",
                             "points": [["LevelP15",[-0.2,0.03],1],["LevelP15",[-0.2,0],1],["LevelP15",[-0.05,0],1],[],["LevelP15",[0.05,0],1],["LevelP15",[0.2,0],1],["LevelP15",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_15 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_15 [Indent level: 6],
                         "VALP_1_15": {
                             "type": "text",
                             "source": "static",
@@ -2546,7 +3660,7 @@ RHS_C130J = {
                             "right": ["LevelP15",[-0.13,0.035],1],
                             "down": ["LevelP15",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_15 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_15 [Indent level: 6],
                         "VALP_2_15": {
                             "align": "right",
                             "pos": ["LevelP15",[0.22,0.035],1],
@@ -2558,12 +3672,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM20 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM20 [Indent level: 6],
                         "LevelM20": {
                             "type": "line",
                             "points": [["LevelM20",[-0.2,-0.03],1],["LevelM20",[-0.2,0],1],["LevelM20",[-0.15,0],1],[],["LevelM20",[-0.1,0],1],["LevelM20",[-0.05,0],1],[],["LevelM20",[0.05,0],1],["LevelM20",[0.1,0],1],[],["LevelM20",[0.15,0],1],["LevelM20",[0.2,0],1],["LevelM20",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_20 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_20 [Indent level: 6],
                         "VALM_1_20": {
                             "type": "text",
                             "source": "static",
@@ -2575,7 +3689,7 @@ RHS_C130J = {
                             "right": ["LevelM20",[-0.13,-0.085],1],
                             "down": ["LevelM20",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_20 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_20 [Indent level: 6],
                         "VALM_2_20": {
                             "align": "right",
                             "pos": ["LevelM20",[0.22,-0.085],1],
@@ -2587,12 +3701,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP20 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP20 [Indent level: 6],
                         "LevelP20": {
                             "type": "line",
                             "points": [["LevelP20",[-0.2,0.03],1],["LevelP20",[-0.2,0],1],["LevelP20",[-0.05,0],1],[],["LevelP20",[0.05,0],1],["LevelP20",[0.2,0],1],["LevelP20",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_20 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_20 [Indent level: 6],
                         "VALP_1_20": {
                             "type": "text",
                             "source": "static",
@@ -2604,7 +3718,7 @@ RHS_C130J = {
                             "right": ["LevelP20",[-0.13,0.035],1],
                             "down": ["LevelP20",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_20 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_20 [Indent level: 6],
                         "VALP_2_20": {
                             "align": "right",
                             "pos": ["LevelP20",[0.22,0.035],1],
@@ -2616,12 +3730,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM25 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM25 [Indent level: 6],
                         "LevelM25": {
                             "type": "line",
                             "points": [["LevelM25",[-0.2,-0.03],1],["LevelM25",[-0.2,0],1],["LevelM25",[-0.15,0],1],[],["LevelM25",[-0.1,0],1],["LevelM25",[-0.05,0],1],[],["LevelM25",[0.05,0],1],["LevelM25",[0.1,0],1],[],["LevelM25",[0.15,0],1],["LevelM25",[0.2,0],1],["LevelM25",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_25 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_25 [Indent level: 6],
                         "VALM_1_25": {
                             "type": "text",
                             "source": "static",
@@ -2633,7 +3747,7 @@ RHS_C130J = {
                             "right": ["LevelM25",[-0.13,-0.085],1],
                             "down": ["LevelM25",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_25 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_25 [Indent level: 6],
                         "VALM_2_25": {
                             "align": "right",
                             "pos": ["LevelM25",[0.22,-0.085],1],
@@ -2645,12 +3759,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP25 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP25 [Indent level: 6],
                         "LevelP25": {
                             "type": "line",
                             "points": [["LevelP25",[-0.2,0.03],1],["LevelP25",[-0.2,0],1],["LevelP25",[-0.05,0],1],[],["LevelP25",[0.05,0],1],["LevelP25",[0.2,0],1],["LevelP25",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_25 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_25 [Indent level: 6],
                         "VALP_1_25": {
                             "type": "text",
                             "source": "static",
@@ -2662,7 +3776,7 @@ RHS_C130J = {
                             "right": ["LevelP25",[-0.13,0.035],1],
                             "down": ["LevelP25",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_25 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_25 [Indent level: 6],
                         "VALP_2_25": {
                             "align": "right",
                             "pos": ["LevelP25",[0.22,0.035],1],
@@ -2674,12 +3788,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM30 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM30 [Indent level: 6],
                         "LevelM30": {
                             "type": "line",
                             "points": [["LevelM30",[-0.2,-0.03],1],["LevelM30",[-0.2,0],1],["LevelM30",[-0.15,0],1],[],["LevelM30",[-0.1,0],1],["LevelM30",[-0.05,0],1],[],["LevelM30",[0.05,0],1],["LevelM30",[0.1,0],1],[],["LevelM30",[0.15,0],1],["LevelM30",[0.2,0],1],["LevelM30",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_30 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_30 [Indent level: 6],
                         "VALM_1_30": {
                             "type": "text",
                             "source": "static",
@@ -2691,7 +3805,7 @@ RHS_C130J = {
                             "right": ["LevelM30",[-0.13,-0.085],1],
                             "down": ["LevelM30",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_30 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_30 [Indent level: 6],
                         "VALM_2_30": {
                             "align": "right",
                             "pos": ["LevelM30",[0.22,-0.085],1],
@@ -2703,12 +3817,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP30 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP30 [Indent level: 6],
                         "LevelP30": {
                             "type": "line",
                             "points": [["LevelP30",[-0.2,0.03],1],["LevelP30",[-0.2,0],1],["LevelP30",[-0.05,0],1],[],["LevelP30",[0.05,0],1],["LevelP30",[0.2,0],1],["LevelP30",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_30 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_30 [Indent level: 6],
                         "VALP_1_30": {
                             "type": "text",
                             "source": "static",
@@ -2720,7 +3834,7 @@ RHS_C130J = {
                             "right": ["LevelP30",[-0.13,0.035],1],
                             "down": ["LevelP30",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_30 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_30 [Indent level: 6],
                         "VALP_2_30": {
                             "align": "right",
                             "pos": ["LevelP30",[0.22,0.035],1],
@@ -2732,12 +3846,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM35 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM35 [Indent level: 6],
                         "LevelM35": {
                             "type": "line",
                             "points": [["LevelM35",[-0.2,-0.03],1],["LevelM35",[-0.2,0],1],["LevelM35",[-0.15,0],1],[],["LevelM35",[-0.1,0],1],["LevelM35",[-0.05,0],1],[],["LevelM35",[0.05,0],1],["LevelM35",[0.1,0],1],[],["LevelM35",[0.15,0],1],["LevelM35",[0.2,0],1],["LevelM35",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_35 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_35 [Indent level: 6],
                         "VALM_1_35": {
                             "type": "text",
                             "source": "static",
@@ -2749,7 +3863,7 @@ RHS_C130J = {
                             "right": ["LevelM35",[-0.13,-0.085],1],
                             "down": ["LevelM35",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_35 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_35 [Indent level: 6],
                         "VALM_2_35": {
                             "align": "right",
                             "pos": ["LevelM35",[0.22,-0.085],1],
@@ -2761,12 +3875,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP35 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP35 [Indent level: 6],
                         "LevelP35": {
                             "type": "line",
                             "points": [["LevelP35",[-0.2,0.03],1],["LevelP35",[-0.2,0],1],["LevelP35",[-0.05,0],1],[],["LevelP35",[0.05,0],1],["LevelP35",[0.2,0],1],["LevelP35",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_35 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_35 [Indent level: 6],
                         "VALP_1_35": {
                             "type": "text",
                             "source": "static",
@@ -2778,7 +3892,7 @@ RHS_C130J = {
                             "right": ["LevelP35",[-0.13,0.035],1],
                             "down": ["LevelP35",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_35 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_35 [Indent level: 6],
                         "VALP_2_35": {
                             "align": "right",
                             "pos": ["LevelP35",[0.22,0.035],1],
@@ -2790,12 +3904,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM40 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM40 [Indent level: 6],
                         "LevelM40": {
                             "type": "line",
                             "points": [["LevelM40",[-0.2,-0.03],1],["LevelM40",[-0.2,0],1],["LevelM40",[-0.15,0],1],[],["LevelM40",[-0.1,0],1],["LevelM40",[-0.05,0],1],[],["LevelM40",[0.05,0],1],["LevelM40",[0.1,0],1],[],["LevelM40",[0.15,0],1],["LevelM40",[0.2,0],1],["LevelM40",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_40 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_40 [Indent level: 6],
                         "VALM_1_40": {
                             "type": "text",
                             "source": "static",
@@ -2807,7 +3921,7 @@ RHS_C130J = {
                             "right": ["LevelM40",[-0.13,-0.085],1],
                             "down": ["LevelM40",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_40 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_40 [Indent level: 6],
                         "VALM_2_40": {
                             "align": "right",
                             "pos": ["LevelM40",[0.22,-0.085],1],
@@ -2819,12 +3933,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP40 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP40 [Indent level: 6],
                         "LevelP40": {
                             "type": "line",
                             "points": [["LevelP40",[-0.2,0.03],1],["LevelP40",[-0.2,0],1],["LevelP40",[-0.05,0],1],[],["LevelP40",[0.05,0],1],["LevelP40",[0.2,0],1],["LevelP40",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_40 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_40 [Indent level: 6],
                         "VALP_1_40": {
                             "type": "text",
                             "source": "static",
@@ -2836,7 +3950,7 @@ RHS_C130J = {
                             "right": ["LevelP40",[-0.13,0.035],1],
                             "down": ["LevelP40",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_40 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_40 [Indent level: 6],
                         "VALP_2_40": {
                             "align": "right",
                             "pos": ["LevelP40",[0.22,0.035],1],
@@ -2848,12 +3962,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM45 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM45 [Indent level: 6],
                         "LevelM45": {
                             "type": "line",
                             "points": [["LevelM45",[-0.2,-0.03],1],["LevelM45",[-0.2,0],1],["LevelM45",[-0.15,0],1],[],["LevelM45",[-0.1,0],1],["LevelM45",[-0.05,0],1],[],["LevelM45",[0.05,0],1],["LevelM45",[0.1,0],1],[],["LevelM45",[0.15,0],1],["LevelM45",[0.2,0],1],["LevelM45",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_45 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_45 [Indent level: 6],
                         "VALM_1_45": {
                             "type": "text",
                             "source": "static",
@@ -2865,7 +3979,7 @@ RHS_C130J = {
                             "right": ["LevelM45",[-0.13,-0.085],1],
                             "down": ["LevelM45",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_45 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_45 [Indent level: 6],
                         "VALM_2_45": {
                             "align": "right",
                             "pos": ["LevelM45",[0.22,-0.085],1],
@@ -2877,12 +3991,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP45 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP45 [Indent level: 6],
                         "LevelP45": {
                             "type": "line",
                             "points": [["LevelP45",[-0.2,0.03],1],["LevelP45",[-0.2,0],1],["LevelP45",[-0.05,0],1],[],["LevelP45",[0.05,0],1],["LevelP45",[0.2,0],1],["LevelP45",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_45 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_45 [Indent level: 6],
                         "VALP_1_45": {
                             "type": "text",
                             "source": "static",
@@ -2894,7 +4008,7 @@ RHS_C130J = {
                             "right": ["LevelP45",[-0.13,0.035],1],
                             "down": ["LevelP45",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_45 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_45 [Indent level: 6],
                         "VALP_2_45": {
                             "align": "right",
                             "pos": ["LevelP45",[0.22,0.035],1],
@@ -2906,12 +4020,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelM50 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelM50 [Indent level: 6],
                         "LevelM50": {
                             "type": "line",
                             "points": [["LevelM50",[-0.2,-0.03],1],["LevelM50",[-0.2,0],1],["LevelM50",[-0.15,0],1],[],["LevelM50",[-0.1,0],1],["LevelM50",[-0.05,0],1],[],["LevelM50",[0.05,0],1],["LevelM50",[0.1,0],1],[],["LevelM50",[0.15,0],1],["LevelM50",[0.2,0],1],["LevelM50",[0.2,-0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_1_50 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_1_50 [Indent level: 6],
                         "VALM_1_50": {
                             "type": "text",
                             "source": "static",
@@ -2923,7 +4037,7 @@ RHS_C130J = {
                             "right": ["LevelM50",[-0.13,-0.085],1],
                             "down": ["LevelM50",[-0.23,-0.035],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALM_2_50 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALM_2_50 [Indent level: 6],
                         "VALM_2_50": {
                             "align": "right",
                             "pos": ["LevelM50",[0.22,-0.085],1],
@@ -2935,12 +4049,12 @@ RHS_C130J = {
                             "scale": 1,
                             "sourceScale": 1
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\LevelP50 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|LevelP50 [Indent level: 6],
                         "LevelP50": {
                             "type": "line",
                             "points": [["LevelP50",[-0.2,0.03],1],["LevelP50",[-0.2,0],1],["LevelP50",[-0.05,0],1],[],["LevelP50",[0.05,0],1],["LevelP50",[0.2,0],1],["LevelP50",[0.2,0.03],1]]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_1_50 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_1_50 [Indent level: 6],
                         "VALP_1_50": {
                             "type": "text",
                             "source": "static",
@@ -2952,7 +4066,7 @@ RHS_C130J = {
                             "right": ["LevelP50",[-0.13,0.035],1],
                             "down": ["LevelP50",[-0.23,0.085],1]
                         },
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Horizont\Dimmed\VALP_2_50 [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Horizont|Dimmed|VALP_2_50 [Indent level: 6],
                         "VALP_2_50": {
                             "align": "right",
                             "pos": ["LevelP50",[0.22,0.035],1],
@@ -2966,52 +4080,52 @@ RHS_C130J = {
                         }
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\MGun [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|MGun [Indent level: 4],
                 "MGun": {
                     "condition": "mgun",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\MGun\Circle [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|MGun|Circle [Indent level: 5],
                     "Circle": {
                         "type": "line",
                         "points": [["WeaponAim",[0.01,0],1],["WeaponAim",[-0.01,0],1],[],["WeaponAim",[0,0.01125],1],["WeaponAim",[0,-0.01125],1],[],["WeaponAim",[0,-0.07875],1],["WeaponAim",[0.049,-0.055125],1],["WeaponAim",[0.07,0],1],["WeaponAim",[0.049,0.055125],1],["WeaponAim",[0,0.07875],1],["WeaponAim",[-0.049,0.055125],1],["WeaponAim",[-0.07,0],1],["WeaponAim",[-0.049,-0.055125],1],["WeaponAim",[0,-0.07875],1],[],["WeaponAim",[0,-0.1575],1],["WeaponAim",[0.07,-0.137025],1],["WeaponAim",[0.1218,-0.07875],1],["WeaponAim",[0.14,0],1],["WeaponAim",[0.1218,0.07875],1],["WeaponAim",[0.07,0.137025],1],["WeaponAim",[0,0.1575],1],["WeaponAim",[-0.07,0.137025],1],["WeaponAim",[-0.1218,0.07875],1],["WeaponAim",[-0.14,0],1],["WeaponAim",[-0.1218,-0.07875],1],["WeaponAim",[-0.07,-0.137025],1],["WeaponAim",[0,-0.1575],1],[],["WeaponAim",[0,-0.1575],1],["WeaponAim",[0,-0.18],1],[],["WeaponAim",[-0.07,-0.136399],1],["WeaponAim",[-0.08,-0.155885],1],[],["WeaponAim",[-0.121244,-0.07875],1],["WeaponAim",[-0.138564,-0.09],1],[],["WeaponAim",[-0.14,6.88454e-009],1],["WeaponAim",[-0.16,7.86805e-009],1],[],["WeaponAim",[-0.121244,0.07875],1],["WeaponAim",[-0.138564,0.09],1],[],["WeaponAim",[-0.07,0.136399],1],["WeaponAim",[-0.08,0.155885],1],[],["WeaponAim",[1.22392e-008,0.1575],1],["WeaponAim",[1.39876e-008,0.18],1],[],["WeaponAim",[0.07,0.136399],1],["WeaponAim",[0.08,0.155885],1],[],["WeaponAim",[0.121244,0.07875],1],["WeaponAim",[0.138564,0.09],1],[],["WeaponAim",[0.14,-1.87817e-009],1],["WeaponAim",[0.16,-2.14648e-009],1],[],["WeaponAim",[0.121244,-0.07875],1],["WeaponAim",[0.138564,-0.09],1],[],["WeaponAim",[0.07,-0.136399],1],["WeaponAim",[0.08,-0.155885],1],[]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Bomb [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Bomb [Indent level: 4],
                 "Bomb": {
                     "condition": "bomb",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Bomb\Circle [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Bomb|Circle [Indent level: 5],
                     "Circle": {
                         "type": "line",
                         "points": [["WeaponAim",[0,-0.1125],1],["WeaponAim",[0.05,-0.097875],1],["WeaponAim",[0.087,-0.05625],1],["WeaponAim",[0.1,0],1],["WeaponAim",[0.087,0.05625],1],["WeaponAim",[0.05,0.097875],1],["WeaponAim",[0,0.1125],1],["WeaponAim",[-0.05,0.097875],1],["WeaponAim",[-0.087,0.05625],1],["WeaponAim",[-0.1,0],1],["WeaponAim",[-0.087,-0.05625],1],["WeaponAim",[-0.05,-0.097875],1],["WeaponAim",[0,-0.1125],1],[],["Velocity",0.001,"WeaponAim",[0,0],1],["Velocity",[0,0],1],[],["Target",[0,-0.07875],1],["Target",[0.07,0],1],["Target",[0,0.07875],1],["Target",[-0.07,0],1],["Target",[0,-0.07875],1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\AAMissile [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|AAMissile [Indent level: 4],
                 "AAMissile": {
                     "condition": "AAmissile",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\AAMissile\Circle [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|AAMissile|Circle [Indent level: 5],
                     "Circle": {
                         "type": "line",
                         "points": [["WeaponAim",[0,-0.28125],1],["WeaponAim",[0.125,-0.244687],1],["WeaponAim",[0.2175,-0.140625],1],["WeaponAim",[0.25,0],1],["WeaponAim",[0.2175,0.140625],1],["WeaponAim",[0.125,0.244687],1],["WeaponAim",[0,0.28125],1],["WeaponAim",[-0.125,0.244687],1],["WeaponAim",[-0.2175,0.140625],1],["WeaponAim",[-0.25,0],1],["WeaponAim",[-0.2175,-0.140625],1],["WeaponAim",[-0.125,-0.244687],1],["WeaponAim",[0,-0.28125],1],[],["Target",[0,-0.07875],1],["Target",[0.07,0],1],["Target",[0,0.07875],1],["Target",[-0.07,0],1],["Target",[0,-0.07875],1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ATMissile [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ATMissile [Indent level: 4],
                 "ATMissile": {
                     "condition": "ATmissile",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ATMissile\Circle [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ATMissile|Circle [Indent level: 5],
                     "Circle": {
                         "type": "line",
                         "points": [["WeaponAim",[0,-0.2025],1],["WeaponAim",[0.09,-0.176175],1],["WeaponAim",[0.1566,-0.10125],1],["WeaponAim",[0.18,0],1],["WeaponAim",[0.1566,0.10125],1],["WeaponAim",[0.09,0.176175],1],["WeaponAim",[0,0.2025],1],["WeaponAim",[-0.09,0.176175],1],["WeaponAim",[-0.1566,0.10125],1],["WeaponAim",[-0.18,0],1],["WeaponAim",[-0.1566,-0.10125],1],["WeaponAim",[-0.09,-0.176175],1],["WeaponAim",[0,-0.2025],1],[],["Target",[0,-0.07875],1],["Target",[0.07,0],1],["Target",[0,0.07875],1],["Target",[-0.07,0],1],["Target",[0,-0.07875],1]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Rockets [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Rockets [Indent level: 4],
                 "Rockets": {
                     "condition": "Rocket",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Rockets\Circle [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Rockets|Circle [Indent level: 5],
                     "Circle": {
                         "type": "line",
                         "points": [["WeaponAim",[0.01,0],1],["WeaponAim",[-0.01,0],1],[],["WeaponAim",[0,0.01125],1],["WeaponAim",[0,-0.01125],1],[],["WeaponAim",[0,-0.135],1],["WeaponAim",[0.06,-0.11745],1],["WeaponAim",[0.1044,-0.0675],1],["WeaponAim",[0.12,0],1],["WeaponAim",[0.1044,0.0675],1],["WeaponAim",[0.06,0.11745],1],["WeaponAim",[0,0.135],1],["WeaponAim",[-0.06,0.11745],1],["WeaponAim",[-0.1044,0.0675],1],["WeaponAim",[-0.12,0],1],["WeaponAim",[-0.1044,-0.0675],1],["WeaponAim",[-0.06,-0.11745],1],["WeaponAim",[0,-0.135],1],[]]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\AltScale [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|AltScale [Indent level: 4],
                 "AltScale": {
                     "type": "scale",
                     "scale": 1,
@@ -3036,7 +4150,7 @@ RHS_C130J = {
                     "numberEach": 5,
                     "majorLineEach": 5
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\SpeedScale [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|SpeedScale [Indent level: 4],
                 "SpeedScale": {
                     "type": "scale",
                     "scale": 1,
@@ -3061,10 +4175,10 @@ RHS_C130J = {
                     "numberEach": 5,
                     "majorLineEach": 5
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Gear [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Gear [Indent level: 4],
                 "Gear": {
                     "condition": "ils",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Gear\text [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Gear|text [Indent level: 5],
                     "text": {
                         "type": "text",
                         "source": "static",
@@ -3077,10 +4191,10 @@ RHS_C130J = {
                         "down": [[0.84,0.92],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Flaps [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Flaps [Indent level: 4],
                 "Flaps": {
                     "condition": "flaps",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\Flaps\text [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|Flaps|text [Indent level: 5],
                     "text": {
                         "type": "text",
                         "source": "static",
@@ -3093,7 +4207,7 @@ RHS_C130J = {
                         "down": [[0.84,0.97],1]
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\weapons [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|weapons [Indent level: 4],
                 "weapons": {
                     "type": "text",
                     "source": "weapon",
@@ -3104,7 +4218,7 @@ RHS_C130J = {
                     "right": [[0.16,0.88],1],
                     "down": [[0.1,0.92],1]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ammo [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ammo [Indent level: 4],
                 "ammo": {
                     "type": "text",
                     "source": "ammo",
@@ -3115,7 +4229,7 @@ RHS_C130J = {
                     "right": [[0.16,0.93],1],
                     "down": [[0.1,0.97],1]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\VspeedNumber [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|VspeedNumber [Indent level: 4],
                 "VspeedNumber": {
                     "type": "text",
                     "align": "right",
@@ -3126,7 +4240,7 @@ RHS_C130J = {
                     "right": [[0.94,0.12],1],
                     "down": [[0.86,0.17],1]
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\HeadingScale [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|HeadingScale [Indent level: 4],
                 "HeadingScale": {
                     "type": "scale",
                     "scale": 1,
@@ -3151,14 +4265,14 @@ RHS_C130J = {
                     "numberEach": 5,
                     "majorLineEach": 5
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ILS [Indent level: 4],
+                # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ILS [Indent level: 4],
                 "ILS": {
                     "condition": "ils",
-                    # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ILS\Glideslope [Indent level: 5],
+                    # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ILS|Glideslope [Indent level: 5],
                     "Glideslope": {
                         "clipTL": [0,0],
                         "clipBR": [1,1],
-                        # Class: CfgVehicles\RHS_C130J_Base\MFD\AirplaneHUD\Draw\ILS\Glideslope\ILS [Indent level: 6],
+                        # Class: CfgVehicles|RHS_C130J_Base|MFD|AirplaneHUD|Draw|ILS|Glideslope|ILS [Indent level: 6],
                         "ILS": {
                             "type": "line",
                             "points": [["ILS_W",[-0.24,0],1],["ILS_W",[0.24,0],1],[],["ILS_W",[0,0.027],1],["ILS_W",[0,-0.027],1],[],["ILS_W",[0.12,0.027],1],["ILS_W",[0.12,-0.027],1],[],["ILS_W",[0.24,0.027],1],["ILS_W",[0.24,-0.027],1],[],["ILS_W",[-0.12,0.027],1],["ILS_W",[-0.12,-0.027],1],[],["ILS_W",[-0.24,0.027],1],["ILS_W",[-0.24,-0.027],1],[],["ILS_H",[0,-0.27],1],["ILS_H",[0,0.27],1],[],["ILS_H",[0.024,0],1],["ILS_H",[-0.024,0],1],[],["ILS_H",[0.024,0.135],1],["ILS_H",[-0.024,0.135],1],[],["ILS_H",[0.024,0.27],1],["ILS_H",[-0.024,0.27],1],[],["ILS_H",[0.024,-0.135],1],["ILS_H",[-0.024,-0.135],1],[],["ILS_H",[0.024,-0.27],1],["ILS_H",[-0.024,-0.27],1]]
@@ -3169,10 +4283,10 @@ RHS_C130J = {
         }
     },
     "maxOmega": 2000,
-    # Class: CfgVehicles\RHS_C130J_Base\Wheels [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Wheels [Indent level: 1],
     "Wheels": {
         "disableWheelsWhenDestroyed": 1,
-        # Class: CfgVehicles\RHS_C130J_Base\Wheels\Wheel_1_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Wheels|Wheel_1_1 [Indent level: 2],
         "Wheel_1_1": {
             "steering": 1,
             "side": "left",
@@ -3200,7 +4314,7 @@ RHS_C130J = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Wheels\Wheel_1_1_fake [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Wheels|Wheel_1_1_fake [Indent level: 2],
         "Wheel_1_1_fake": {
             "steering": 1,
             "side": "left",
@@ -3228,7 +4342,7 @@ RHS_C130J = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Wheels\Wheel_2_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Wheels|Wheel_2_1 [Indent level: 2],
         "Wheel_2_1": {
             "steering": 0,
             "boneName": "Wheel_2_1",
@@ -3256,7 +4370,7 @@ RHS_C130J = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Wheels\Wheel_2_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Wheels|Wheel_2_2 [Indent level: 2],
         "Wheel_2_2": {
             "side": "right",
             "boneName": "Wheel_2_2",
@@ -3284,7 +4398,7 @@ RHS_C130J = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Wheels\Wheel_3_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Wheels|Wheel_3_1 [Indent level: 2],
         "Wheel_3_1": {
             "boneName": "Wheel_3_1",
             "center": "Wheel_3_1_center",
@@ -3312,7 +4426,7 @@ RHS_C130J = {
             "latStiffY": 180,
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Wheels\Wheel_3_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Wheels|Wheel_3_2 [Indent level: 2],
         "Wheel_3_2": {
             "side": "right",
             "boneName": "Wheel_3_2",
@@ -3341,545 +4455,1051 @@ RHS_C130J = {
             "frictionVsSlipGraph": [[0,1],[0.5,1],[1,1]]
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\Turrets [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Turrets [Indent level: 1],
     "Turrets": {
-        # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret [Indent level: 2],
+
         "CopilotTurret": {
+
             "isCopilot": 1,
+
             "primaryGunner": 0,
+
             "canEject": 0,
+
             "body": "",
+
             "gun": "",
+
             "animationSourceBody": "",
+
             "animationSourceGun": "",
+
             "weapons": [],
+
             "magazines": [],
+
             "gunnerAction": "RHS_C130_Pilot",
+
             "gunnerInAction": "RHS_C130_Pilot",
+
             "gunnerName": "Copilot",
+
             "gunnerDoor": "Door_1",
+
             "gunnerNotSpawned": 0,
+
             "gunnerUsesPilotView": 1,
+
             "hasGunner": 1,
+
             "memoryPointsGetInGunner": "pos driver",
+
             "memoryPointsGetInGunnerDir": "pos driver dir",
+
             "minElev": -50,
+
             "maxElev": 30,
+
             "initElev": 11,
+
             "minTurn": -170,
+
             "maxTurn": 170,
+
             "initTurn": 0,
+
             "maxHorizontalRotSpeed": 3,
+
             "maxVerticalRotSpeed": 3,
-            # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\ViewGunner [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|ViewGunner [Indent level: 3],
+
             "ViewGunner": {
+
                 "initAngleX": -5,
+
                 "initAngleY": 0,
+
                 "initFov": 0.9,
+
                 "minFov": 0.25,
+
                 "maxFov": 1.25,
+
                 "minAngleX": -65,
+
                 "maxAngleX": 85,
+
                 "minAngleY": -150,
+
                 "maxAngleY": 150,
+
                 "minMoveX": -0.075,
+
                 "maxMoveX": 0.075,
+
                 "minMoveY": -0.075,
+
                 "maxMoveY": 0.075,
+
                 "minMoveZ": -0.075,
+
                 "maxMoveZ": 0.1,
+
                 "continuous": 0,
+
                 "speedZoomMaxSpeed": 1e+010,
+
                 "speedZoomMaxFOV": 0
             },
+
             "commanding": -1,
+
             "gunnerLeftHandAnimName": "copilot_control",
+
             "gunnerRightHandAnimName": "copilot_control",
+
             "gunnerLeftLegAnimName": "",
+
             "gunnerRightLegAnimName": "",
+
             "gunnerForceOptics": 0,
+
             "turretCanSee": 15,
-            # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors [Indent level: 3],
+
             "Reflectors": {
-                # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cabin [Indent level: 4]
+
+                # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cabin [Indent level: 4],
+
+
                 "cabin": {
+
+
                     "color": [830,100,100],
+
+
                     "ambient": [5,0,0],
+
+
                     "intensity": 9,
+
+
                     "size": 1,
+
+
                     "innerAngle": 90,
+
+
                     "outerAngle": 165,
+
+
                     "coneFadeCoef": 1,
+
+
                     "position": "cabin_light",
+
+
                     "direction": "cabin_light_dir",
+
+
                     "hitpoint": "cabin_light",
+
+
                     "selection": "cabin_light",
+
+
                     "useFlare": 1,
+
+
                     "flareSize": 1,
+
+
                     "flareMaxDistance": 5,
+
+
                     "dayLight": 1,
+
+
                     "blinking": 0,
-                    # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cabin\Attenuation [Indent level: 5],
+
+
+                    # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cabin|Attenuation [Indent level: 5],
+
+
                     "Attenuation": {
+
+
                         "start": 0,
+
+
                         "constant": 0,
+
+
                         "linear": 1,
+
+
                         "quadratic": 50,
+
+
                         "hardLimitStart": 3,
+
+
                         "hardLimitEnd": 3.5
                     }
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_1 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_1 [Indent level: 4],
+
                 "cargo_light_1": {
+
                     "color": [830,100,100],
+
                     "position": "cargo_light_1",
+
                     "direction": "cargo_light_1_dir",
+
                     "hitpoint": "cargo_light_1",
+
                     "selection": "cargo_light_1",
+
                     "intensity": 21,
+
                     "useFlare": 0,
+
                     "coneFadeCoef": 0.1,
-                    # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_1|Attenuation [Indent level: 5],
+
                     "Attenuation": {
+
                         "start": 0,
+
                         "constant": 0,
+
                         "linear": 1,
+
                         "quadratic": 70,
+
                         "hardLimitStart": 3,
+
                         "hardLimitEnd": 3.5
                     },
+
                     "ambient": [5,0,0],
+
                     "size": 1,
+
                     "innerAngle": 90,
+
                     "outerAngle": 165,
+
                     "flareSize": 1,
+
                     "flareMaxDistance": 5,
+
                     "dayLight": 1,
+
                     "blinking": 0
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_2 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_2 [Indent level: 4],
+
                 "cargo_light_2": {
+
                     "position": "cargo_light_2",
+
                     "direction": "cargo_light_2_dir",
+
                     "hitpoint": "cargo_light_2",
+
                     "selection": "cargo_light_2",
+
                     "color": [830,100,100],
+
                     "intensity": 21,
+
                     "useFlare": 0,
+
                     "coneFadeCoef": 0.1,
-                    # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_1|Attenuation [Indent level: 5],
+
                     "Attenuation": {
+
                         "start": 0,
+
                         "constant": 0,
+
                         "linear": 1,
+
                         "quadratic": 70,
+
                         "hardLimitStart": 3,
+
                         "hardLimitEnd": 3.5
                     },
+
                     "ambient": [5,0,0],
+
                     "size": 1,
+
                     "innerAngle": 90,
+
                     "outerAngle": 165,
+
                     "flareSize": 1,
+
                     "flareMaxDistance": 5,
+
                     "dayLight": 1,
+
                     "blinking": 0
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_3 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_3 [Indent level: 4],
+
                 "cargo_light_3": {
+
                     "position": "cargo_light_3",
+
                     "direction": "cargo_light_3_dir",
+
                     "hitpoint": "cargo_light_3",
+
                     "selection": "cargo_light_3",
+
                     "color": [830,100,100],
+
                     "intensity": 21,
+
                     "useFlare": 0,
+
                     "coneFadeCoef": 0.1,
-                    # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_1|Attenuation [Indent level: 5],
+
                     "Attenuation": {
+
                         "start": 0,
+
                         "constant": 0,
+
                         "linear": 1,
+
                         "quadratic": 70,
+
                         "hardLimitStart": 3,
+
                         "hardLimitEnd": 3.5
                     },
+
                     "ambient": [5,0,0],
+
                     "size": 1,
+
                     "innerAngle": 90,
+
                     "outerAngle": 165,
+
                     "flareSize": 1,
+
                     "flareMaxDistance": 5,
+
                     "dayLight": 1,
+
                     "blinking": 0
                 },
-                # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_4 [Indent level: 4],
+
+                # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_4 [Indent level: 4],
+
                 "cargo_light_4": {
+
                     "position": "cargo_light_4",
+
                     "direction": "cargo_light_4_dir",
+
                     "hitpoint": "cargo_light_4",
+
                     "selection": "cargo_light_4",
+
                     "color": [830,100,100],
+
                     "intensity": 21,
+
                     "useFlare": 0,
+
                     "coneFadeCoef": 0.1,
-                    # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Reflectors\cargo_light_1\Attenuation [Indent level: 5],
+
+                    # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Reflectors|cargo_light_1|Attenuation [Indent level: 5],
+
                     "Attenuation": {
+
                         "start": 0,
+
                         "constant": 0,
+
                         "linear": 1,
+
                         "quadratic": 70,
+
                         "hardLimitStart": 3,
+
                         "hardLimitEnd": 3.5
                     },
+
                     "ambient": [5,0,0],
+
                     "size": 1,
+
                     "innerAngle": 90,
+
                     "outerAngle": 165,
+
                     "flareSize": 1,
+
                     "flareMaxDistance": 5,
+
                     "dayLight": 1,
+
                     "blinking": 0
                 }
             },
-            # Class: CfgVehicles\RHS_C130J_Base\Turrets\CopilotTurret\Hitpoints [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_C130J_Base|Turrets|CopilotTurret|Hitpoints [Indent level: 3],
+
             "Hitpoints": {
             },
+
             "animationSourceHatch": "hatchGunner",
+
             "animationSourceCamElev": "camElev",
+
             "proxyType": "CPGunner",
+
             "proxyIndex": 1,
+
             "gunnerType": "",
+
             "primaryObserver": 0,
+
             "soundServo": ["",0.00316228,1],
+
             "soundElevation": ["",0.00316228,1],
+
             "minOutElev": -4,
+
             "maxOutElev": 20,
+
             "initOutElev": 0,
+
             "minOutTurn": -60,
+
             "maxOutTurn": 60,
+
             "initOutTurn": 0,
+
             "minCamElev": -90,
+
             "maxCamElev": 90,
+
             "initCamElev": 0,
+
             "stabilizedInAxes": 3,
+
             "primary": 1,
+
             "gunnerGetInAction": "",
+
             "gunnerGetOutAction": "",
+
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
+
             "TurretSpec": {
+
                 "showHeadPhones": 0
             },
+
             "gunnerOpticsModel": "",
+
             "gunnerOpticsColor": [0,0,0,1],
+
             "gunnerOpticsShowCursor": 0,
+
             "turretInfoType": "",
+
             "gunnerOutOpticsModel": "",
+
             "gunnerOutOpticsColor": [0,0,0,1],
+
             "gunnerOpticsEffect": [],
+
             "gunnerOutOpticsEffect": [],
+
             "memoryPointGunnerOutOptics": "",
+
             "gunnerOutForceOptics": 0,
+
             "gunnerOutOpticsShowCursor": 0,
+
             "gunnerFireAlsoInInternalCamera": 1,
+
             "gunnerOutFireAlsoInInternalCamera": 1,
+
             "castGunnerShadow": 0,
+
             "viewGunnerShadow": 1,
+
             "viewGunnerShadowDiff": 1,
+
             "viewGunnerShadowAmb": 1,
+
             "ejectDeadGunner": 0,
+
             "hideWeaponsGunner": 1,
+
             "canHideGunner": -1,
+
             "forceHideGunner": 0,
+
             "outGunnerMayFire": 0,
+
             "inGunnerMayFire": 1,
+
             "showHMD": 0,
+
             "viewGunnerInExternal": 0,
+
             "lockWhenDriverOut": 0,
+
             "lockWhenVehicleSpeed": -1,
+
             "gunnerCompartments": "Compartment1",
+
             "LODTurnedIn": -1,
+
             "LODTurnedOut": -1,
+
             "startEngine": 1,
+
             "memoryPointsGetInGunnerPrecise": "",
+
             "missileBeg": "spice rakety",
+
             "missileEnd": "konec rakety",
+
             "armorLights": 0.4,
+
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
+
             "GunFire": {
+
                 "access": 0,
+
                 "cloudletDuration": 0.2,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 1,
+
                 "cloudletGrowUp": 0.2,
+
                 "cloudletFadeIn": 0.01,
+
                 "cloudletFadeOut": 0.5,
+
                 "cloudletAccY": 0,
+
                 "cloudletMinYSpeed": -100,
+
                 "cloudletMaxYSpeed": 100,
+
                 "cloudletShape": "cloudletFire",
+
                 "cloudletColor": [1,1,1,0],
+
                 "interval": 0.01,
+
                 "size": 3,
+
                 "sourceSize": 0.5,
+
                 "timeToLive": 0,
+
                 "initT": 4500,
+
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table [Indent level: 0],
+
+                # Class: WeaponFireGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T1 [Indent level: 1],
+
                     "T1": {
+
                         "maxT": 200,
+
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T2 [Indent level: 1],
+
                     "T2": {
+
                         "maxT": 400,
+
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T3 [Indent level: 1],
+
                     "T3": {
+
                         "maxT": 600,
+
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T4 [Indent level: 1],
+
                     "T4": {
+
                         "maxT": 800,
+
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T5 [Indent level: 1],
+
                     "T5": {
+
                         "maxT": 1000,
+
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T6 [Indent level: 1],
+
                     "T6": {
+
                         "maxT": 1500,
+
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T7 [Indent level: 1],
+
                     "T7": {
+
                         "maxT": 2000,
+
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T8 [Indent level: 1],
+
                     "T8": {
+
                         "maxT": 2300,
+
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T9 [Indent level: 1],
+
                     "T9": {
+
                         "maxT": 2500,
+
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T10 [Indent level: 1],
+
                     "T10": {
+
                         "maxT": 2600,
+
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T11 [Indent level: 1],
+
                     "T11": {
+
                         "maxT": 2650,
+
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T12 [Indent level: 1],
+
                     "T12": {
+
                         "maxT": 2700,
+
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T13 [Indent level: 1],
+
                     "T13": {
+
                         "maxT": 2750,
+
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T14 [Indent level: 1],
+
                     "T14": {
+
                         "maxT": 2800,
+
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T15 [Indent level: 1],
+
                     "T15": {
+
                         "maxT": 2850,
+
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T16 [Indent level: 1],
+
                     "T16": {
+
                         "maxT": 2900,
+
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T17 [Indent level: 1],
+
                     "T17": {
+
                         "maxT": 2950,
+
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T18 [Indent level: 1],
+
                     "T18": {
+
                         "maxT": 3000,
+
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T19 [Indent level: 1],
+
                     "T19": {
+
                         "maxT": 3100,
+
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T20 [Indent level: 1],
+
                     "T20": {
+
                         "maxT": 3300,
+
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T21 [Indent level: 1],
+
                     "T21": {
+
                         "maxT": 3600,
+
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T22 [Indent level: 1],
+
                     "T22": {
+
                         "maxT": 4200,
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
+
             "GunClouds": {
+
                 "access": 0,
+
                 "cloudletDuration": 0.3,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 1,
+
                 "cloudletGrowUp": 1,
+
                 "cloudletFadeIn": 0.01,
+
                 "cloudletFadeOut": 1,
+
                 "cloudletAccY": 0.4,
+
                 "cloudletMinYSpeed": 0.2,
+
                 "cloudletMaxYSpeed": 0.8,
+
                 "cloudletShape": "cloudletClouds",
+
                 "cloudletColor": [1,1,1,0],
+
                 "interval": 0.05,
+
                 "size": 3,
+
                 "sourceSize": 0.5,
+
                 "timeToLive": 0,
+
                 "initT": 0,
+
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table [Indent level: 0],
+
+                # Class: WeaponCloudsGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
+
             "MGunClouds": {
+
                 "access": 0,
+
                 "cloudletGrowUp": 0.05,
+
                 "cloudletFadeIn": 0,
+
                 "cloudletFadeOut": 0.1,
+
                 "cloudletDuration": 0.05,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 0.3,
+
                 "cloudletAccY": 0,
+
                 "cloudletMinYSpeed": -100,
+
                 "cloudletMaxYSpeed": 100,
+
                 "cloudletShape": "cloudletClouds",
+
                 "cloudletColor": [1,1,1,0],
+
                 "timeToLive": 0,
+
                 "interval": 0.02,
+
                 "size": 0.3,
+
                 "sourceSize": 0.02,
+
                 "initT": 0,
+
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table [Indent level: 0],
+
+                # Class: WeaponCloudsMGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
+
             "Turrets": {
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
+
             "ViewOptics": {
+
                 "initAngleX": 0,
+
                 "minAngleX": -30,
+
                 "maxAngleX": 30,
+
                 "initAngleY": 0,
+
                 "minAngleY": -100,
+
                 "maxAngleY": 100,
+
                 "initFov": 0.3,
+
                 "minFov": 0.07,
+
                 "maxFov": 0.35,
+
                 "minMoveX": 0,
+
                 "maxMoveX": 0,
+
                 "minMoveY": 0,
+
                 "maxMoveY": 0,
+
                 "minMoveZ": 0,
+
                 "maxMoveZ": 0,
+
                 "speedZoomMaxSpeed": 1e+010,
+
                 "speedZoomMaxFOV": 0
             },
+
             "forceNVG": 0,
+
             "preciseGetInOut": 0,
+
             "turretFollowFreeLook": 0,
+
             "allowTabLock": 1,
+
             "showAllTargets": 0,
+
             "dontCreateAI": 0,
+
             "disableSoundAttenuation": 0,
+
             "slingLoadOperator": 0,
+
             "playerPosition": 0,
+
             "allowLauncherIn": 0,
+
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
+
             "TurnIn": {
+
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
+
             "TurnOut": {
+
                 "turnOffset": 0
             },
+
             "gunBeg": "usti hlavne",
+
             "gunEnd": "konec hlavne",
+
             "memoryPointGunnerOptics": "gunnerview",
+
             "memoryPointGun": "kulas",
+
             "selectionFireAnim": "zasleh",
+
             "showCrewAim": 0
         }
     },
     "hiddenSelections": ["camo1","camo2"],
     "hiddenSelectionsTextures": ["rhsusf|addons|rhsusf_a2port_air|c130j|data|c130j_body_co.paa","rhsusf|addons|rhsusf_a2port_air|c130j|data|c130j_wings_co.paa"],
-    # Class: CfgVehicles\RHS_C130J_Base\textureSources [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|textureSources [Indent level: 1],
     "textureSources": {
-        # Class: CfgVehicles\RHS_C130J_Base\textureSources\standard [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|textureSources|standard [Indent level: 2],
+
         "standard": {
+
             "displayName": "Standard",
+
             "author": "Red Hammer Studios",
+
             "textures": ["rhsusf|addons|rhsusf_a2port_air|c130j|data|c130j_body_co.paa","rhsusf|addons|rhsusf_a2port_air|c130j|data|c130j_wings_co.paa"],
+
             "factions": ["rhs_faction_usaf"]
         }
     },
     "textureList": ["standard",1],
-    # Class: CfgVehicles\RHS_C130J_Base\Attributes [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|Attributes [Indent level: 1],
     "Attributes": {
-        # Class: CfgVehicles\RHS_C130J_Base\Attributes\ObjectTexture [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|Attributes|ObjectTexture [Indent level: 2],
+
         "ObjectTexture": {
+
             "control": "ObjectTexture",
+
             "data": "ObjectTexture",
+
             "displayName": "Skin",
+
             "tooltip": "Texture and material set applied on the object."
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Attributes\door_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Attributes|door_1 [Indent level: 2],
         "door_1": {
             "displayName": "Open crew door",
             "property": "door_1",
@@ -3887,7 +5507,7 @@ RHS_C130J = {
             "defaultValue": "0",
             "expression": "_this animateDoor ['%s',_value,true]"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Attributes\door_2_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Attributes|door_2_1 [Indent level: 2],
         "door_2_1": {
             "displayName": "Open left door",
             "property": "door_2_1",
@@ -3895,7 +5515,7 @@ RHS_C130J = {
             "defaultValue": "0",
             "expression": "_this animateDoor ['%s',_value,true]"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Attributes\door_2_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Attributes|door_2_2 [Indent level: 2],
         "door_2_2": {
             "displayName": "Open right door",
             "property": "door_2_2",
@@ -3903,7 +5523,7 @@ RHS_C130J = {
             "defaultValue": "0",
             "expression": "_this animateDoor ['%s',_value,true]"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Attributes\Ramp [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Attributes|Ramp [Indent level: 2],
         "Ramp": {
             "displayName": "Open cargo bay",
             "property": "Ramp",
@@ -3911,7 +5531,7 @@ RHS_C130J = {
             "expression": "_this animateSource ['%s',_value,true]",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Attributes\hide_cargo [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Attributes|hide_cargo [Indent level: 2],
         "hide_cargo": {
             "displayName": "Hide cargo benches",
             "property": "hide_cargo",
@@ -3919,7 +5539,7 @@ RHS_C130J = {
             "control": "CheckboxNumber",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_C130J_Base\Attributes\rhs_attachCargo [Indent level: 2],
+        # Class: CfgVehicles|RHS_C130J_Base|Attributes|rhs_attachCargo [Indent level: 2],
         "rhs_attachCargo": {
             "displayName": "Attach cargo",
             "tooltip": "Attaching cargo (using attachTo command) just like when you use ramp action",
@@ -3929,20 +5549,32 @@ RHS_C130J = {
             "defaultValue": "0"
         }
     },
-    # Class: CfgVehicles\RHS_C130J_Base\VehicleTransport [Indent level: 1],
+    # Class: CfgVehicles|RHS_C130J_Base|VehicleTransport [Indent level: 1],
     "VehicleTransport": {
-        # Class: CfgVehicles\RHS_C130J_Base\VehicleTransport\Carrier [Indent level: 2]
+        # Class: CfgVehicles|RHS_C130J_Base|VehicleTransport|Carrier [Indent level: 2],
+
         "Carrier": {
+
             "cargoBayDimensions": ["VTV_limit_1","VTV_limit_2_mini"],
+
             "disableHeightLimit": 0,
+
             "maxLoadMass": 28000,
+
             "cargoAlignment": ["front","center"],
+
             "cargoSpacing": [0,0.1,0],
+
             "exits": ["VTV_exit_1"],
+
             "unloadingInterval": 2,
+
             "loadingDistance": 15,
+
             "loadingAngle": 60,
+
             "parachuteClassDefault": "B_Parachute_02_F",
+
             "parachuteHeightLimitDefault": 25
         }
     },
@@ -3958,7 +5590,7 @@ RHS_C130J = {
     "maximumLoad": 500,
     "supplyRadius": 2,
     "memoryPointSupply": "doplnovani",
-    # Class: CfgVehicles\Plane_Base_F\camShakeGForce [Indent level: 1],
+    # Class: CfgVehicles|Plane_Base_F|camShakeGForce [Indent level: 1],
     "camShakeGForce": {
         "power": 1,
         "frequency": 20,
@@ -3968,7 +5600,7 @@ RHS_C130J = {
     "minGForce": 0.3,
     "maxGForce": 3,
     "gForceShakeAttenuation": 0.5,
-    # Class: CfgVehicles\Plane_Base_F\NewTurret [Indent level: 1],
+    # Class: CfgVehicles|Plane_Base_F|NewTurret [Indent level: 1],
     "NewTurret": {
         "body": "mainTurret",
         "gun": "mainGun",
@@ -4011,7 +5643,7 @@ RHS_C130J = {
         "gunnerGetOutAction": "",
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -4032,7 +5664,7 @@ RHS_C130J = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -4073,11 +5705,11 @@ RHS_C130J = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -4098,126 +5730,129 @@ RHS_C130J = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -4238,16 +5873,19 @@ RHS_C130J = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -4268,27 +5906,37 @@ RHS_C130J = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -4298,10 +5946,10 @@ RHS_C130J = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -4339,11 +5987,11 @@ RHS_C130J = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -4383,7 +6031,7 @@ RHS_C130J = {
     "VTOLYawInfluence": 2,
     "VTOLPitchInfluence": 2,
     "VTOLRollInfluence": 2,
-    # Class: CfgVehicles\Plane\ViewPilot [Indent level: 1],
+    # Class: CfgVehicles|Plane|ViewPilot [Indent level: 1],
     "ViewPilot": {
         "initFov": 0.75,
         "minFov": 0.25,
@@ -4403,7 +6051,7 @@ RHS_C130J = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\Plane\ViewOptics [Indent level: 1],
+    # Class: CfgVehicles|Plane|ViewOptics [Indent level: 1],
     "ViewOptics": {
         "initAngleX": 0,
         "minAngleX": 0,
@@ -4434,20 +6082,23 @@ RHS_C130J = {
     "rightDustEffect": "RDustEffects",
     "dustEffect": "HeliDust",
     "waterEffect": "HeliWater",
-    # Class: CfgVehicles\Plane\WingVortices [Indent level: 1],
+    # Class: CfgVehicles|Plane|WingVortices [Indent level: 1],
     "WingVortices": {
-        # Class: CfgVehicles\Plane\WingVortices\WingTipLeft [Indent level: 2]
+        # Class: CfgVehicles|Plane|WingVortices|WingTipLeft [Indent level: 2],
+
         "WingTipLeft": {
+
             "effectName": "WingVortices",
+
             "position": "cerveny pozicni"
         },
-        # Class: CfgVehicles\Plane\WingVortices\WingTipRight [Indent level: 2],
+        # Class: CfgVehicles|Plane|WingVortices|WingTipRight [Indent level: 2],
         "WingTipRight": {
             "effectName": "WingVortices",
             "position": "zeleny pozicni"
         }
     },
-    # Class: CfgVehicles\Plane\GunFire [Indent level: 1],
+    # Class: CfgVehicles|Plane|GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -4468,126 +6119,129 @@ RHS_C130J = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: WeaponFireGun\Table [Indent level: 0],
+        # Class: WeaponFireGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+            # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\Plane\GunClouds [Indent level: 1],
+    # Class: CfgVehicles|Plane|GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletDuration": 0.3,
@@ -4608,16 +6262,19 @@ RHS_C130J = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsGun\Table [Indent level: 0],
+        # Class: WeaponCloudsGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\Plane\MGunFire [Indent level: 1],
+    # Class: CfgVehicles|Plane|MGunFire [Indent level: 1],
     "MGunFire": {
         "cloudletDuration": 0,
         "cloudletGrowUp": 0.06,
@@ -4638,126 +6295,129 @@ RHS_C130J = {
         "cloudletShape": "cloudletFire",
         "cloudletColor": [1,1,1,0],
         "timeToLive": 0,
-        # Class: WeaponFireGun\Table [Indent level: 0],
+        # Class: WeaponFireGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+            # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\Plane\MGunClouds [Indent level: 1],
+    # Class: CfgVehicles|Plane|MGunClouds [Indent level: 1],
     "MGunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -4778,21 +6438,27 @@ RHS_C130J = {
         "sourceSize": 0.02,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsMGun\Table [Indent level: 0],
+        # Class: WeaponCloudsMGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
     },
     "numberPhysicalWheels": 3,
-    # Class: CfgVehicles\Plane\SpeechVariants [Indent level: 1],
+    # Class: CfgVehicles|Plane|SpeechVariants [Indent level: 1],
     "SpeechVariants": {
-        # Class: CfgVehicles\Plane\SpeechVariants\Default [Indent level: 2]
+        # Class: CfgVehicles|Plane|SpeechVariants|Default [Indent level: 2],
+
         "Default": {
+
             "speechSingular": ["veh_air_plane_s"],
+
             "speechPlural": ["veh_air_plane_p"]
         }
     },
@@ -4809,7 +6475,7 @@ RHS_C130J = {
     "gunnerGetOutAction": "GetOutHigh",
     "camouflage": 100,
     "audible": 60,
-    # Class: CfgVehicles\Plane\CamShake [Indent level: 1],
+    # Class: CfgVehicles|Plane|CamShake [Indent level: 1],
     "CamShake": {
         "power": 50,
         "frequency": 20,
@@ -4821,7 +6487,7 @@ RHS_C130J = {
     "armorStructural": 1,
     "explosionShielding": 2,
     "minTotalDamageThreshold": 0.005,
-    # Class: CfgVehicles\Plane\DestructionEffects [Indent level: 1],
+    # Class: CfgVehicles|Plane|DestructionEffects [Indent level: 1],
     "DestructionEffects": {
     },
     "formationTime": 10,
@@ -4857,22 +6523,26 @@ RHS_C130J = {
     "memoryPointCMDir": ["flare_launcher1_dir","flare_launcher2_dir"],
     "radarType": 4,
     "countermeasureActivationRadius": 10000,
-    # Class: CfgVehicles\Air\Exhausts [Indent level: 1],
+    # Class: CfgVehicles|Air|Exhausts [Indent level: 1],
     "Exhausts": {
-        # Class: CfgVehicles\Air\Exhausts\Exhaust1 [Indent level: 2]
+        # Class: CfgVehicles|Air|Exhausts|Exhaust1 [Indent level: 2],
+
         "Exhaust1": {
+
             "position": "exhaust1",
+
             "direction": "exhaust1_dir",
+
             "effect": "ExhaustsEffectPlane"
         },
-        # Class: CfgVehicles\Air\Exhausts\Exhaust2 [Indent level: 2],
+        # Class: CfgVehicles|Air|Exhausts|Exhaust2 [Indent level: 2],
         "Exhaust2": {
             "position": "exhaust2",
             "direction": "exhaust2_dir",
             "effect": "ExhaustsEffectPlane"
         }
     },
-    # Class: CfgVehicles\Air\camShakeDamage [Indent level: 1],
+    # Class: CfgVehicles|Air|camShakeDamage [Indent level: 1],
     "camShakeDamage": {
         "power": 0.5,
         "frequency": 60,
@@ -4882,7 +6552,7 @@ RHS_C130J = {
         "duration": 3
     },
     "secondaryExplosion": -1,
-    # Class: CfgVehicles\AllVehicles\SquadTitles [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SquadTitles [Indent level: 1],
     "SquadTitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
@@ -4900,7 +6570,7 @@ RHS_C130J = {
     "selectionClan": "clan",
     "selectionDashboard": "podsvit pristroju",
     "selectionBackLights": "zadni svetlo",
-    # Class: CfgVehicles\AllVehicles\ViewCargo [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewCargo [Indent level: 1],
     "ViewCargo": {
         "initAngleX": 5,
         "minAngleX": -75,
@@ -4920,24 +6590,26 @@ RHS_C130J = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\PilotSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|PilotSpec [Indent level: 1],
     "PilotSpec": {
         "showHeadPhones": 0
     },
-    # Class: CfgVehicles\AllVehicles\CargoSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoSpec [Indent level: 1],
     "CargoSpec": {
-        # Class: CfgVehicles\AllVehicles\CargoSpec\Cargo1 [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoSpec|Cargo1 [Indent level: 2],
+
         "Cargo1": {
+
             "showHeadPhones": 0
         }
     },
-    # Class: CfgVehicles\AllVehicles\SoundEvents [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SoundEvents [Indent level: 1],
     "SoundEvents": {
     },
     "tracksSpeed": 0,
     "selectionLeftOffset": "",
     "selectionRightOffset": "",
-    # Class: CfgVehicles\AllVehicles\RenderTargets [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|RenderTargets [Indent level: 1],
     "RenderTargets": {
     },
     "cargoProxyIndexes": [],
@@ -4957,29 +6629,47 @@ RHS_C130J = {
     "tBody": 150,
     "impactEffectSpeedLimit": 8,
     "showCrewAim": 0,
-    # Class: CfgVehicles\AllVehicles\CargoTurret [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoTurret [Indent level: 1],
     "CargoTurret": {
-        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
+
         "ViewGunner": {
+
             "initAngleX": 5,
+
             "minAngleX": -75,
+
             "maxAngleX": 85,
+
             "initAngleY": 0,
+
             "minAngleY": -150,
+
             "maxAngleY": 150,
+
             "minFov": 0.25,
+
             "maxFov": 1.25,
+
             "initFov": 0.75,
+
             "minMoveX": 0,
+
             "maxMoveX": 0,
+
             "minMoveY": 0,
+
             "maxMoveY": 0,
+
             "minMoveZ": 0,
+
             "maxMoveZ": 0,
+
             "speedZoomMaxSpeed": 1e+010,
+
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|CargoTurret|Hitpoints [Indent level: 2],
         "Hitpoints": {
         },
         "animationSourceBody": "",
@@ -5036,7 +6726,7 @@ RHS_C130J = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -5073,11 +6763,11 @@ RHS_C130J = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -5098,126 +6788,129 @@ RHS_C130J = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -5238,16 +6931,19 @@ RHS_C130J = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -5268,19 +6964,22 @@ RHS_C130J = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -5313,11 +7012,11 @@ RHS_C130J = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -5416,10 +7115,10 @@ RHS_C130J = {
     "soundAttenuationCargo": [1],
     "countsForScoreboard": 1,
     "hullDamageCauseExplosion": 0,
-    # Class: CfgVehicles\All\NVGMarkers [Indent level: 1],
+    # Class: CfgVehicles|All|NVGMarkers [Indent level: 1],
     "NVGMarkers": {
     },
-    # Class: CfgVehicles\All\NVGMarker [Indent level: 1],
+    # Class: CfgVehicles|All|NVGMarker [Indent level: 1],
     "NVGMarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
@@ -5427,7 +7126,7 @@ RHS_C130J = {
         "blinking": 0,
         "onlyInNvg": 0
     },
-    # Class: CfgVehicles\All\HeadLimits [Indent level: 1],
+    # Class: CfgVehicles|All|HeadLimits [Indent level: 1],
     "HeadLimits": {
         "initAngleX": 5,
         "minAngleX": -30,
@@ -5450,49 +7149,49 @@ RHS_C130J = {
     "uavHacker": 0,
     "soundEngine": ["",1,1],
     "soundEnviron": ["",1,1],
-    # Class: CfgVehicles\All\SoundEnvironExt [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEnvironExt [Indent level: 1],
     "SoundEnvironExt": {
     },
-    # Class: CfgVehicles\All\SoundEquipment [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEquipment [Indent level: 1],
     "SoundEquipment": {
     },
-    # Class: CfgVehicles\All\SoundGear [Indent level: 1],
+    # Class: CfgVehicles|All|SoundGear [Indent level: 1],
     "SoundGear": {
     },
-    # Class: CfgVehicles\All\SoundBreath [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreath [Indent level: 1],
     "SoundBreath": {
     },
-    # Class: CfgVehicles\All\SoundBreathSwimming [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathSwimming [Indent level: 1],
     "SoundBreathSwimming": {
     },
-    # Class: CfgVehicles\All\SoundBreathInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathInjured [Indent level: 1],
     "SoundBreathInjured": {
     },
-    # Class: CfgVehicles\All\SoundHitScream [Indent level: 1],
+    # Class: CfgVehicles|All|SoundHitScream [Indent level: 1],
     "SoundHitScream": {
     },
-    # Class: CfgVehicles\All\SoundInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundInjured [Indent level: 1],
     "SoundInjured": {
     },
-    # Class: CfgVehicles\All\SoundBreathAutomatic [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathAutomatic [Indent level: 1],
     "SoundBreathAutomatic": {
     },
-    # Class: CfgVehicles\All\SoundDrown [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrown [Indent level: 1],
     "SoundDrown": {
     },
-    # Class: CfgVehicles\All\SoundChoke [Indent level: 1],
+    # Class: CfgVehicles|All|SoundChoke [Indent level: 1],
     "SoundChoke": {
     },
-    # Class: CfgVehicles\All\SoundRecovered [Indent level: 1],
+    # Class: CfgVehicles|All|SoundRecovered [Indent level: 1],
     "SoundRecovered": {
     },
-    # Class: CfgVehicles\All\SoundBurning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBurning [Indent level: 1],
     "SoundBurning": {
     },
-    # Class: CfgVehicles\All\PulsationSound [Indent level: 1],
+    # Class: CfgVehicles|All|PulsationSound [Indent level: 1],
     "PulsationSound": {
     },
-    # Class: CfgVehicles\All\SoundDrowning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrowning [Indent level: 1],
     "SoundDrowning": {
     },
     "soundCrash": ["",0.316228,1],
@@ -5540,7 +7239,7 @@ RHS_C130J = {
     "hiddenUnderwaterSelections": [],
     "shownUnderWaterSelections": [],
     "hiddenUnderwaterSelectionsTextures": [],
-    # Class: CfgVehicles\All\FxExplo [Indent level: 1],
+    # Class: CfgVehicles|All|FxExplo [Indent level: 1],
     "FxExplo": {
         "access": 1
     },

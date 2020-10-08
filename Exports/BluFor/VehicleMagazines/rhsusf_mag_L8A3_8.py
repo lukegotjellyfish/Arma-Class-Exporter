@@ -1,7 +1,7 @@
 rhsusf_mag_L8A3_8 = {
     "count": 8,
     "scope": 2,
-    # Ammo: rhsusf_ammo_L8A3,
+    # Ammo: CfgMagazines|rhsusf_mag_L8A3_8|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhsusf_ammo_L8A3",
         "rhs_smokeShell": "rhsusf_ammo_L8A3_shell",
@@ -12,10 +12,12 @@ rhsusf_mag_L8A3_8 = {
         "hit": 0,
         "indirectHit": 0,
         "indirectHitRange": 0,
-        # Class: CfgAmmo\rhsusf_ammo_L8A3\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|rhsusf_ammo_L8A3|EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\rhsusf_ammo_L8A3\EventHandlers\RHS_CM [Indent level: 2]
+            # Class: CfgAmmo|rhsusf_ammo_L8A3|EventHandlers|RHS_CM [Indent level: 2],
+
             "RHS_CM": {
+
                 "fired": "_this call RHSUSF_fnc_effectFiredSmokeLauncher"
             }
         },
@@ -242,10 +244,10 @@ rhsusf_mag_L8A3_8 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_forest1",1,1,500],
@@ -255,7 +257,7 @@ rhsusf_mag_L8A3_8 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_trees1",1,1,500],
@@ -265,7 +267,7 @@ rhsusf_mag_L8A3_8 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",1,1,500],
@@ -275,7 +277,7 @@ rhsusf_mag_L8A3_8 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_houses1",1,1,500],
@@ -286,7 +288,7 @@ rhsusf_mag_L8A3_8 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -312,28 +314,28 @@ rhsusf_mag_L8A3_8 = {
             "hitWater": "ImpactEffectsWater",
             "hitVirtual": "ImpactMetal"
         },
-        # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 1.73205,
             "duration": 0.4,
             "frequency": 20,
             "distance": 5.19615
         },
-        # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 3,
             "duration": 0.2,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 0,
             "duration": 0,
             "frequency": 0,
             "distance": 0
         },
-        # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0,
             "duration": 0,
@@ -917,10 +919,6 @@ rhsusf_mag_L8A3_8 = {
         "fuseDistance": 0,
         "thrust": 210,
         "icon": "",
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "explosionType": "explosive",
         "mineTrigger": "RangeTrigger",
@@ -932,7 +930,7 @@ rhsusf_mag_L8A3_8 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -957,10 +955,10 @@ rhsusf_mag_L8A3_8 = {
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -1,7 +1,7 @@
 rhs_mag_30x113mm_M789_HEDP_1200 = {
     "scope": 1,
     "displayName": "30x113mm M789 HEDP-T",
-    # Ammo: rhs_ammo_30x113mm_M789_HEDP,
+    # Ammo: CfgMagazines|rhs_mag_30x113mm_M789_HEDP_1200|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_30x113mm_M789_HEDP",
         "allowagainstinfantry": 1,
@@ -16,7 +16,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "caliber": 2,
         "airFriction": -0.00078,
         "timeToLive": 12,
-        # Ammo: rhs_ammo_30x113mm_M789_HEDP_penetrator,
+        # Ammo: CfgAmmo|rhs_ammo_30x113mm_M789_HEDP|submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_30x113mm_M789_HEDP_penetrator",
             "hit": 90,
@@ -35,7 +35,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
             "airFriction": -0.5,
             "whistleOnFire": 0,
             "whistleDist": 0,
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -266,10 +266,10 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_forest1",1,1,500],
@@ -279,7 +279,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_trees1",1,1,500],
@@ -289,7 +289,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",1,1,500],
@@ -299,7 +299,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_houses1",1,1,500],
@@ -310,7 +310,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -336,28 +336,28 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -945,10 +945,6 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -960,11 +956,11 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -993,7 +989,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
             "soundHit3": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -1005,28 +1001,28 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -1161,11 +1157,11 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -1194,28 +1190,28 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "soundHit3": ["A3|Sounds_F|arsenal|explosives|shells|30mm40mm_shell_explosion_03",1.77828,1,1600],
         "soundHit4": ["A3|Sounds_F|arsenal|explosives|shells|30mm40mm_shell_explosion_04",1.77828,1,1600],
         "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        # Class: CfgAmmo\B_30mm_HE\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|B_30mm_HE|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 6,
             "duration": 1,
             "frequency": 20,
             "distance": 67.8178
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|B_30mm_HE|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 30,
             "duration": 0.4,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|B_30mm_HE|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.23607,
             "duration": 1,
             "frequency": 20,
             "distance": 40
         },
-        # Class: CfgAmmo\B_30mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|B_30mm_HE|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 0.01,
             "duration": 0.1,
@@ -1437,10 +1433,10 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
         "supersonicCrackNear": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_close",3.16228,1,200],
         "supersonicCrackFar": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_middle",3.16228,1,200],
-        # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|SuperSonicCrack [Indent level: 1],
         "SuperSonicCrack": {
             "superSonicCrack": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",3.16228,1,200],
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackForest [Indent level: 2],
             "SCrackForest": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_forest1",1,1,500],
@@ -1450,7 +1446,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "forest"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackTrees [Indent level: 2],
             "SCrackTrees": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_trees1",1,1,500],
@@ -1460,7 +1456,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "trees"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackMeadow [Indent level: 2],
             "SCrackMeadow": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",1,1,500],
@@ -1470,7 +1466,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                 "trigger": "meadow max sea"
             },
-            # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+            # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackHouses [Indent level: 2],
             "SCrackHouses": {
                 "range": [0,500],
                 "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_houses1",1,1,500],
@@ -1481,7 +1477,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
                 "trigger": "houses max interior"
             }
         },
-        # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|BulletBase|HitEffects [Indent level: 1],
         "HitEffects": {
             "Hit_Foliage_green": "ImpactLeavesGreen",
             "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -2086,11 +2082,11 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "minePlaceDist": 0.5,
         "whistleDist": 0,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
-        # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
         "EventHandlers": {
         },
     },
@@ -2116,10 +2112,10 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "displayNameShort": "",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

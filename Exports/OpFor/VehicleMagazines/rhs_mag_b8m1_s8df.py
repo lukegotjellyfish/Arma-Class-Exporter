@@ -1,29 +1,25 @@
 rhs_mag_b8m1_s8df = {
     "displayName": "S-8 DF FAE",
     "displayNameShort": "S-8 DF",
-    # Ammo: rhs_ammo_s8df,
+    # Ammo: CfgMagazines|rhs_mag_b8m1_s8df|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_s8df",
         "AIAmmoUsageFlags": "64+128",
         "cost": 100,
-        # Ammo: ,
-        "submunitionAmmo": {
-            "submunitionAmmo": "",
-        },
         "submunitionAmmo": "",
         "hit": 210,
         "indirectHit": 85,
         "indirectHitRange": 20,
         "explosive": 1,
         "allowAgainstInfantry": 1,
-        # Class: CfgAmmo\rhs_ammo_s8DF\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_s8DF|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 22,
             "duration": 2,
             "frequency": 20,
             "distance": 123.905
         },
-        # Class: CfgAmmo\rhs_ammo_s8DF\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_s8DF|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
@@ -56,14 +52,14 @@ rhs_mag_b8m1_s8df = {
         "timeToLive": 15,
         "muzzleEffect": "",
         "simulation": "shotMissile",
-        # Class: CfgAmmo\R_80mm_HE\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|R_80mm_HE|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.9907,
             "duration": 1.8,
             "frequency": 20,
             "distance": 71.5542
         },
-        # Class: CfgAmmo\R_80mm_HE\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|R_80mm_HE|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 2,
             "duration": 0.1,
@@ -80,15 +76,17 @@ rhs_mag_b8m1_s8df = {
         "supersonicCrackNear": ["",1,1,50],
         "supersonicCrackFar": ["",1,1,150],
         "CraterEffects": "HERocketCrater",
-        # Class: CfgAmmo\RocketBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|RocketBase|HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
         "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
-        # Class: CfgAmmo\RocketBase\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|RocketBase|EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\RocketBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2]
+            # Class: CfgAmmo|RocketBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2],
+
             "RHS_APS_FiredEH": {
+
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
@@ -203,7 +201,7 @@ rhs_mag_b8m1_s8df = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -215,43 +213,64 @@ rhs_mag_b8m1_s8df = {
     "model": "rhsafrf|addons|rhs_airweapons|rhs_pylon_r_b8m1.p3d",
     "count": 20,
     "hardpoints": ["RHS_HP_B8M1"],
-    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements [Indent level: 1],
+    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements [Indent level: 1],
     "mfdElements": {
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname [Indent level: 2]
+        # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname [Indent level: 2],
+
         "rhs_rus_ammoname": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Bones [Indent level: 3]
+
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname|Bones [Indent level: 3],
+
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw [Indent level: 3],
+
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname|Draw [Indent level: 3],
+
             "Draw": {
+
                 "condition": "PylonSelected",
+
                 "color": [0.15,1,0.15],
+
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname\Draw\PylonText1 [Indent level: 4],
+
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname|Draw|PylonText1 [Indent level: 4],
+
                 "PylonText1": {
+
                     "type": "text",
+
                     "source": "static",
+
                     "text": "С8КОМ",
+
                     "scale": 1,
+
                     "sourceScale": 1,
+
                     "align": "center",
+
                     "pos": [[-0.005,0.02],1],
+
                     "right": [[0.045,0.02],1],
+
                     "down": [[-0.005,0.065],1]
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right [Indent level: 2],
+        # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname_right [Indent level: 2],
         "rhs_rus_ammoname_right": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Bones [Indent level: 3]
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname_right|Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw [Indent level: 3],
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname_right|Draw [Indent level: 3],
             "Draw": {
                 "condition": "PylonSelected",
                 "color": [0.15,1,0.15],
                 "alpha": 1,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_ammoname_right\Draw\PylonText1 [Indent level: 4],
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_ammoname_right|Draw|PylonText1 [Indent level: 4],
                 "PylonText1": {
                     "type": "text",
                     "source": "static",
@@ -265,28 +284,29 @@ rhs_mag_b8m1_s8df = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box [Indent level: 2],
+        # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_su25_box [Indent level: 2],
         "rhs_su25_box": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Bones [Indent level: 3]
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_su25_box|Bones [Indent level: 3],
+
             "Bones": {
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw [Indent level: 3],
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_su25_box|Draw [Indent level: 3],
             "Draw": {
                 "condition": "1-pylonMagazineEmpty",
                 "color": [0.15,1,0.15,1],
                 "alpha": 0.22,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Shape [Indent level: 4],
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_su25_box|Draw|Shape [Indent level: 4],
                 "Shape": {
                     "type": "polygon",
                     "width": 4,
                     "points": [[[[-0.022,-0.04],1],[[0.022,-0.04],1],[[0.022,0.04],1],[[-0.022,0.04],1]]]
                 },
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_su25_box|Draw|Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.58,0.23,0],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_su25_box\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_su25_box|Draw|Selected|Shape [Indent level: 5],
                     "Shape": {
                         "type": "polygon",
                         "width": 4,
@@ -295,25 +315,33 @@ rhs_mag_b8m1_s8df = {
                 }
             }
         },
-        # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle [Indent level: 2],
+        # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle [Indent level: 2],
         "rhs_rus_circle": {
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Bones [Indent level: 3]
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Bones [Indent level: 3],
+
             "Bones": {
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Bones\Center [Indent level: 4]
+
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Bones|Center [Indent level: 4],
+
+
                 "Center": {
+
+
                     "type": "fixed",
+
+
                     "pos": [0,0]
                 }
             },
-            # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw [Indent level: 3],
+            # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw [Indent level: 3],
             "Draw": {
                 "color": [0.15,1,0.15,1],
                 "alpha": 0.22,
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default [Indent level: 4],
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Default [Indent level: 4],
                 "Default": {
                     "condition": "1-PylonSelected-pylonMagazineEmpty",
                     "color": [1,1,1],
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\PylonValue1 [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Default|PylonValue1 [Indent level: 5],
                     "PylonValue1": {
                         "type": "text",
                         "source": "pylonAmmo",
@@ -324,7 +352,7 @@ rhs_mag_b8m1_s8df = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\PylonText1 [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Default|PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -336,19 +364,19 @@ rhs_mag_b8m1_s8df = {
                         "right": [[0.035,0.12],1],
                         "down": [[-0.005,0.16],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Default\Shape [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Default|Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [["Center",[0,-0.0339416],1],["Center",[0.015,-0.0293934],1],["Center",[0.02598,-0.0169708],1],["Center",[0.03,0],1],["Center",[0.02598,0.0169708],1],["Center",[0.015,0.0293934],1],["Center",[0,0.0339416],1],["Center",[-0.015,0.0293934],1],["Center",[-0.02598,0.0169708],1],["Center",[-0.03,0],1],["Center",[-0.02598,-0.0169708],1],["Center",[-0.015,-0.0293934],1],["Center",[0,-0.0339416],1],[],["Center",[0.0137886,-0.0156002],1],["Center",[0.0116673,-0.0132002],1],[],["Center",[0.0195,9.64363e-010],1],["Center",[0.0165,8.15999e-010],1],[],["Center",[0.0137886,0.0156002],1],["Center",[0.0116673,0.0132002],1],[],["Center",[-1.70474e-009,0.022062],1],["Center",[-1.44248e-009,0.0186679],1],[],["Center",[-0.0137886,0.0156002],1],["Center",[-0.0116673,0.0132002],1],[],["Center",[-0.0195,-2.63087e-010],1],["Center",[-0.0165,-2.22612e-010],1],[],["Center",[-0.0137886,-0.0156002],1],["Center",[-0.0116673,-0.0132002],1],[],["Center",[3.40949e-009,-0.022062],1],["Center",[2.88495e-009,-0.0186679],1],[],["Center",[0.00742462,-0.00840012],1],["Center",[0.0053033,-0.00600008],1],[],["Center",[0.00742462,0.00840012],1],["Center",[0.0053033,0.00600008],1],[],["Center",[-0.00742462,0.00840012],1],["Center",[-0.0053033,0.00600009],1],[],["Center",[-0.00742462,-0.00840012],1],["Center",[-0.0053033,-0.00600008],1],[]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected [Indent level: 4],
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Selected [Indent level: 4],
                 "Selected": {
                     "condition": "PylonSelected*(PylonAmmoRelative>=0.001)",
                     "color": [0.15,1,0.15,1],
                     "alpha": 0.22,
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\PylonText1 [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Selected|PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -360,7 +388,7 @@ rhs_mag_b8m1_s8df = {
                         "right": [[0.035,0.12],1],
                         "down": [[-0.005,0.16],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\PylonValue1 [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Selected|PylonValue1 [Indent level: 5],
                     "PylonValue1": {
                         "type": "text",
                         "source": "pylonAmmo",
@@ -371,18 +399,18 @@ rhs_mag_b8m1_s8df = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Selected\Shape [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Selected|Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
                         "points": [["Center",[0,-0.0339416],1],["Center",[0.015,-0.0293934],1],["Center",[0.02598,-0.0169708],1],["Center",[0.03,0],1],["Center",[0.02598,0.0169708],1],["Center",[0.015,0.0293934],1],["Center",[0,0.0339416],1],["Center",[-0.015,0.0293934],1],["Center",[-0.02598,0.0169708],1],["Center",[-0.03,0],1],["Center",[-0.02598,-0.0169708],1],["Center",[-0.015,-0.0293934],1],["Center",[0,-0.0339416],1],[],["Center",[0.0137886,-0.0156002],1],["Center",[0.0116673,-0.0132002],1],[],["Center",[0.0195,9.64363e-010],1],["Center",[0.0165,8.15999e-010],1],[],["Center",[0.0137886,0.0156002],1],["Center",[0.0116673,0.0132002],1],[],["Center",[-1.70474e-009,0.022062],1],["Center",[-1.44248e-009,0.0186679],1],[],["Center",[-0.0137886,0.0156002],1],["Center",[-0.0116673,0.0132002],1],[],["Center",[-0.0195,-2.63087e-010],1],["Center",[-0.0165,-2.22612e-010],1],[],["Center",[-0.0137886,-0.0156002],1],["Center",[-0.0116673,-0.0132002],1],[],["Center",[3.40949e-009,-0.022062],1],["Center",[2.88495e-009,-0.0186679],1],[],["Center",[0.00742462,-0.00840012],1],["Center",[0.0053033,-0.00600008],1],[],["Center",[0.00742462,0.00840012],1],["Center",[0.0053033,0.00600008],1],[],["Center",[-0.00742462,0.00840012],1],["Center",[-0.0053033,0.00600009],1],[],["Center",[-0.00742462,-0.00840012],1],["Center",[-0.0053033,-0.00600008],1],[]]
                     }
                 },
-                # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty [Indent level: 4],
+                # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Empty [Indent level: 4],
                 "Empty": {
                     "condition": "pylonMagazineEmpty",
                     "color": [1,0,0,1],
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\PylonText1 [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Empty|PylonText1 [Indent level: 5],
                     "PylonText1": {
                         "type": "text",
                         "source": "static",
@@ -394,7 +422,7 @@ rhs_mag_b8m1_s8df = {
                         "right": [[0.035,0.12],1],
                         "down": [[-0.005,0.16],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\PylonValue1 [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Empty|PylonValue1 [Indent level: 5],
                     "PylonValue1": {
                         "type": "text",
                         "source": "pylonAmmo",
@@ -405,7 +433,7 @@ rhs_mag_b8m1_s8df = {
                         "right": [[0.04,0.06],1],
                         "down": [[-0.005,0.105],1]
                     },
-                    # Class: CfgMagazines\rhs_mag_b8m1_s8kom\mfdElements\rhs_rus_circle\Draw\Empty\Shape [Indent level: 5],
+                    # Class: CfgMagazines|rhs_mag_b8m1_s8kom|mfdElements|rhs_rus_circle|Draw|Empty|Shape [Indent level: 5],
                     "Shape": {
                         "type": "line",
                         "width": 4,
@@ -432,10 +460,10 @@ rhs_mag_b8m1_s8df = {
     "useActionTitle": "",
     "selectionFireAnim": "zasleh",
     "simulation": "ProxyMagazines",
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

@@ -1,21 +1,14 @@
 import os
 
 
-def writeToFile(file, root, side, left):
+def writeToFile(file, root, side):
 	print(file)
-	fileContents = '"' + file.replace(".py", "") + '" = {\n'
+	fileContents = file.replace(".py", "") + ' = {\n'
 	with open(os.path.join(root, file), "r", encoding="latin-1") as catDict:
 		lines = catDict.readlines()
 		for line in lines:
-			if line == lines[0]:
-				fileContents += "    " + line.replace(" =", ":")
-			else:
-				fileContents += "    " + line
-	fileContents += "\n}"
-	if (left == 1):
-		fileContents += ","
-	fileContents += "\n"
-	side.write(fileContents)
+			fileContents += "    " + line
+	side.write(fileContents + "\n}\n")
 	return
 
 sides = ["BluFor", "OpFor"]
@@ -48,7 +41,9 @@ for side in sides:
 										joinedFile += ","
 										ignore -= 1
 								joinedFile += "\n"
-							joinedFile += ''.join(f.readlines())
+							readLines = f.readlines()
+							readLines[0] = '"' + readLines[0].replace(" = ", '": ')
+							joinedFile += ''.join(readLines)
 							folderIterate += 1
 						else:
 							ignore += 1
@@ -64,16 +59,8 @@ with open("CombinedBluFor.py", "a", encoding="utf-8") as BluFor,  open("Combined
 	for root, dirs, files in os.walk(cwd + "\\" + "Exports", topdown = False):
 		x = 0
 		for file in files:
-			if file[:2] == files[x][:2]:
-				left = 1
-			else:
-				left = 0
 			if file[:3] == "Blu":
-				writeToFile(file, root, BluFor, left)
+				writeToFile(file, root, BluFor)
 			if file[:2] == "Op":
-				writeToFile(file, root, OpFor, left)
+				writeToFile(file, root, OpFor)
 			x += 1
-
-	BluFor.write
-
-input("HALT")

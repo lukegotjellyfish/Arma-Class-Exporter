@@ -20,44 +20,49 @@ RHS_UAZ_MSV_01 = {
     "tf_hasLRradio_api": 0,
     "hiddenSelections": ["camo1","camo2g","n1","n2","n3","n4","i1","i2","i3","i4"],
     "hiddenSelectionsTextures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_ind_co.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa"],
-    # Class: CfgVehicles\RHS_UAZ_Base\textureSources [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|textureSources [Indent level: 1],
     "textureSources": {
-        # Class: CfgVehicles\RHS_UAZ_Base\textureSources\standard [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|textureSources|standard [Indent level: 2],
+
         "standard": {
+
             "displayName": "Standard",
+
             "author": "Red Hammer Studios",
+
             "textures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_ind_co.paa"],
+
             "factions": ["rhs_faction_msv","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_vdv","rhs_faction_vv"]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\textureSources\Camo [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|textureSources|Camo [Indent level: 2],
         "Camo": {
             "displayName": "Camo",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_co.paa"],
             "factions": ["rhs_faction_msv","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_vdv","rhs_faction_vv"]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\textureSources\Camo1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|textureSources|Camo1 [Indent level: 2],
         "Camo1": {
             "displayName": "Chedaki",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_001_co.paa"],
             "factions": ["rhs_faction_msv","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_vdv","rhs_faction_vv"]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\textureSources\Camo2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|textureSources|Camo2 [Indent level: 2],
         "Camo2": {
             "displayName": "CDF",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_002_co.paa"],
             "factions": ["rhs_faction_msv","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_vdv","rhs_faction_vv"]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\textureSources\Camo3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|textureSources|Camo3 [Indent level: 2],
         "Camo3": {
             "displayName": "Civil",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_civil_co.paa"],
             "factions": ["rhs_faction_msv","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_vdv","rhs_faction_vv"]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\textureSources\Camo4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|textureSources|Camo4 [Indent level: 2],
         "Camo4": {
             "displayName": "UN",
             "author": "Red Hammer Studios",
@@ -66,16 +71,21 @@ RHS_UAZ_MSV_01 = {
         }
     },
     "textureList": [],
-    # Class: CfgVehicles\RHS_UAZ_Base\Attributes [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|Attributes [Indent level: 1],
     "Attributes": {
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\ObjectTexture [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|ObjectTexture [Indent level: 2],
+
         "ObjectTexture": {
+
             "control": "ObjectTexture",
+
             "data": "ObjectTexture",
+
             "displayName": "Skin",
+
             "tooltip": "Texture and material set applied on the object."
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type [Indent level: 2],
         "rhs_decalNumber_type": {
             "displayName": "Define font type of plate number",
             "tooltip": "Define kind of font that will be drawn on vehicle.",
@@ -84,52 +94,56 @@ RHS_UAZ_MSV_01 = {
             "expression": "_this setVariable ['%s', _value];[_this,[['Number', cDecals4CarsNumberPlaces, _value]]] call rhs_fnc_decalsInit",
             "defaultValue": 0,
             "typeName": "STRING",
-            # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values [Indent level: 3],
             "values": {
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\Default [Indent level: 4]
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|Default [Indent level: 4],
+
                 "Default": {
+
                     "name": "Default",
+
                     "value": "Default",
+
                     "defaultValue": "Default"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\DefaultRed [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|DefaultRed [Indent level: 4],
                 "DefaultRed": {
                     "name": "Default (Red)",
                     "value": "DefaultRed"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\BoldRed [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|BoldRed [Indent level: 4],
                 "BoldRed": {
                     "name": "Bold Red",
                     "value": "BoldRed"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\CDF [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|CDF [Indent level: 4],
                 "CDF": {
                     "name": "CDF",
                     "value": "CDF"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\Handpaint [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|Handpaint [Indent level: 4],
                 "Handpaint": {
                     "name": "Handpaint",
                     "value": "Handpaint"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\HandpaintBlack [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|HandpaintBlack [Indent level: 4],
                 "HandpaintBlack": {
                     "name": "Handpaint Black",
                     "value": "HandpaintBlack"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\Iraqi [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|Iraqi [Indent level: 4],
                 "Iraqi": {
                     "name": "Iraqi",
                     "value": "Iraqi"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber_type\values\LicensePlate [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber_type|values|LicensePlate [Indent level: 4],
                 "LicensePlate": {
                     "name": "License Plate",
                     "value": "LicensePlate"
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalNumber [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalNumber [Indent level: 2],
         "rhs_decalNumber": {
             "collapsed": 1,
             "displayName": "Set plate number",
@@ -141,7 +155,7 @@ RHS_UAZ_MSV_01 = {
             "defaultValue": "-1",
             "expression": "if(_value >= 0)then{[_this,[['Number', cDecals4CarsNumberPlaces, _this getVariable ['rhs_decalNumber_type','LicensePlate'], _value]]] call rhs_fnc_decalsInit};"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type [Indent level: 2],
         "rhs_decalArmy_type": {
             "displayName": "Define large door roundel type",
             "tooltip": "Decal type",
@@ -150,42 +164,46 @@ RHS_UAZ_MSV_01 = {
             "expression": "_this setVariable ['%s', _value];",
             "defaultValue": "0",
             "typeName": "STRING",
-            # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values [Indent level: 3],
             "values": {
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\Army [Indent level: 4]
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|Army [Indent level: 4],
+
                 "Army": {
+
                     "name": "Army",
+
                     "value": "Army",
+
                     "defaultValue": "Army"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\Honor [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|Honor [Indent level: 4],
                 "Honor": {
                     "name": "Honor",
                     "value": "Honor"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\HonorGDR [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|HonorGDR [Indent level: 4],
                 "HonorGDR": {
                     "name": "Honor GDR",
                     "value": "HonorGDR"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\Platoon [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|Platoon [Indent level: 4],
                 "Platoon": {
                     "name": "Platoon",
                     "value": "Platoon"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\PlatoonGDR [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|PlatoonGDR [Indent level: 4],
                 "PlatoonGDR": {
                     "name": "Platoon GDR",
                     "value": "PlatoonGDR"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\PlatoonVDV [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|PlatoonVDV [Indent level: 4],
                 "PlatoonVDV": {
                     "name": "Platoon VDV",
                     "value": "PlatoonVDV"
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy [Indent level: 2],
         "rhs_decalArmy": {
             "displayName": "Set large door roundel symbol",
             "tooltip": "Set large door roundel located on both sides. Usually used for army symbols. -1 leaves current symbol & 0 clears decal.",
@@ -195,7 +213,7 @@ RHS_UAZ_MSV_01 = {
             "defaultValue": "-1",
             "expression": "if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalPlatoon_type [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalPlatoon_type [Indent level: 2],
         "rhs_decalPlatoon_type": {
             "displayName": "Define small door roundel type",
             "property": "rhs_decalPlatoon_type",
@@ -204,42 +222,46 @@ RHS_UAZ_MSV_01 = {
             "tooltip": "Decal type",
             "control": "Combo",
             "typeName": "STRING",
-            # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values [Indent level: 3],
             "values": {
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\Army [Indent level: 4]
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|Army [Indent level: 4],
+
                 "Army": {
+
                     "name": "Army",
+
                     "value": "Army",
+
                     "defaultValue": "Army"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\Honor [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|Honor [Indent level: 4],
                 "Honor": {
                     "name": "Honor",
                     "value": "Honor"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\HonorGDR [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|HonorGDR [Indent level: 4],
                 "HonorGDR": {
                     "name": "Honor GDR",
                     "value": "HonorGDR"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\Platoon [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|Platoon [Indent level: 4],
                 "Platoon": {
                     "name": "Platoon",
                     "value": "Platoon"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\PlatoonGDR [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|PlatoonGDR [Indent level: 4],
                 "PlatoonGDR": {
                     "name": "Platoon GDR",
                     "value": "PlatoonGDR"
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalArmy_type\values\PlatoonVDV [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalArmy_type|values|PlatoonVDV [Indent level: 4],
                 "PlatoonVDV": {
                     "name": "Platoon VDV",
                     "value": "PlatoonVDV"
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_decalPlatoon [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_decalPlatoon [Indent level: 2],
         "rhs_decalPlatoon": {
             "displayName": "Set small door roundel symbol",
             "tooltip": "Define small door roundel located on both sides. Usually used for platoon symbols. -1 leaves current symbol & 0 clears decal.",
@@ -249,7 +271,7 @@ RHS_UAZ_MSV_01 = {
             "validate": "none",
             "defaultValue": "-1"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_hideLightCover [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_hideLightCover [Indent level: 2],
         "rhs_hideLightCover": {
             "displayName": "Hide light covers",
             "property": "rhs_hideLightCover",
@@ -257,7 +279,7 @@ RHS_UAZ_MSV_01 = {
             "expression": "_this animate ['light_hide',_value,true]",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\rhs_hidespare [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|rhs_hidespare [Indent level: 2],
         "rhs_hidespare": {
             "displayName": "Remove spare wheel",
             "property": "rhs_hidespare",
@@ -265,7 +287,7 @@ RHS_UAZ_MSV_01 = {
             "control": "CheckboxNumber",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\Door_LF [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|Door_LF [Indent level: 2],
         "Door_LF": {
             "displayName": "Open front left door",
             "property": "Door_LF",
@@ -273,7 +295,7 @@ RHS_UAZ_MSV_01 = {
             "control": "CheckboxNumber",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\Door_RF [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|Door_RF [Indent level: 2],
         "Door_RF": {
             "displayName": "Open front right door",
             "property": "Door_RF",
@@ -281,7 +303,7 @@ RHS_UAZ_MSV_01 = {
             "control": "CheckboxNumber",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\Door_LB [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|Door_LB [Indent level: 2],
         "Door_LB": {
             "displayName": "Open left back door",
             "property": "Door_LB",
@@ -289,7 +311,7 @@ RHS_UAZ_MSV_01 = {
             "control": "CheckboxNumber",
             "defaultValue": "0"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Attributes\Door_RB [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Attributes|Door_RB [Indent level: 2],
         "Door_RB": {
             "displayName": "Open right back door",
             "property": "Door_RB",
@@ -318,363 +340,367 @@ RHS_UAZ_MSV_01 = {
     "soundEngineOnExt": ["rhsafrf|addons|rhs_vehiclesounds|sounds|soft|uaz469|uaz469_engine_ext_start1",1.41254,1,200],
     "soundEngineOffInt": ["rhsafrf|addons|rhs_vehiclesounds|sounds|soft|uaz469|uaz469_engine_int_stop1",1.58489,1],
     "soundEngineOffExt": ["rhsafrf|addons|rhs_vehiclesounds|sounds|soft|uaz469|uaz469_engine_ext_stop1",1.41254,1,200],
-    # Class: CfgVehicles\RHS_UAZ_Base\Sounds [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|Sounds [Indent level: 1],
     "Sounds": {
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Idle_ext [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Idle_ext [Indent level: 2],
+
         "Idle_ext": {
+
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_idle",1.58489,1,150],
+
             "frequency": "0.9	+	((rpm/	4000) factor[(200/	4000),(1150/	4000)])*0.2",
+
             "volume": "engineOn*camPos*(((rpm/	4000) factor[(450/	4000),(590/	4000)])	*	((rpm/	4000) factor[(900/	4000),(690/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine [Indent level: 2],
         "Engine": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_acceleration",1.41254,1,200],
             "frequency": "0.8	+	((rpm/	4000) factor[(900/	4000),(2100/	4000)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	4000) factor[(870/	4000),(1100/	4000)])	*	((rpm/	4000) factor[(2100/	4000),(1300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine1_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine1_ext [Indent level: 2],
         "Engine1_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_low1",1.41254,1,240],
             "frequency": "0.8	+		((rpm/	4000) factor[(1300/	4000),(3100/	4000)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	4000) factor[(1250/	4000),(2050/	4000)])	*	((rpm/	4000) factor[(3100/	4000),(2300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine2_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine2_ext [Indent level: 2],
         "Engine2_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1",1.25893,1,280],
             "frequency": "0.8	+	((rpm/	4000) factor[(2200/	4000),(4100/	4000)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	4000) factor[(2250/	4000),(3050/	4000)])	*	((rpm/	4000) factor[(4100/	4000),(3300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine3_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine3_ext [Indent level: 2],
         "Engine3_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1",1.25893,1,320],
             "frequency": "0.8	+	((rpm/	4000) factor[(3300/	4000),(4900/	4000)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	4000) factor[(3250/	4000),(4050/	4000)])	*	((rpm/	4000) factor[(4870/	4000),(4200/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine4_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine4_ext [Indent level: 2],
         "Engine4_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1",1.12202,1,360],
             "frequency": "0.8	+	((rpm/	4000) factor[(4200/	4000),(6200/	4000)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	4000) factor[(4150/	4000),(4800/	4000)])	*	((rpm/	4000) factor[(6150/	4000),(5150/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine5_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine5_ext [Indent level: 2],
         "Engine5_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1",1.12202,1,420],
             "frequency": "0.95	+	((rpm/	4000) factor[(5100/	4000),(6900/	4000)])*0.15",
             "volume": "engineOn*camPos*((rpm/	4000) factor[(5100/	4000),(6100/	4000)])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\IdleThrust [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|IdleThrust [Indent level: 2],
         "IdleThrust": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_idle_exhaust",1.25893,1,200],
             "frequency": "0.9	+	((rpm/	4000) factor[(200/	4000),(1150/	4000)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(450/	4000),(590/	4000)])	*	((rpm/	4000) factor[(900/	4000),(690/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\EngineThrust [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|EngineThrust [Indent level: 2],
         "EngineThrust": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_low1_exhaust",1.12202,1,250],
             "frequency": "0.8	+	((rpm/	4000) factor[(900/	4000),(2100/	4000)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(870/	4000),(1100/	4000)])	*	((rpm/	4000) factor[(2100/	4000),(1300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine1_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine1_Thrust_ext [Indent level: 2],
         "Engine1_Thrust_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_low1_exhaust",1.12202,1,280],
             "frequency": "0.8	+		((rpm/	4000) factor[(1300/	4000),(3100/	4000)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(1250/	4000),(2050/	4000)])	*	((rpm/	4000) factor[(3100/	4000),(2300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine2_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine2_Thrust_ext [Indent level: 2],
         "Engine2_Thrust_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1_exhaust",1.12202,1,320],
             "frequency": "0.8	+	((rpm/	4000) factor[(2200/	4000),(4100/	4000)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(2250/	4000),(3050/	4000)])	*	((rpm/	4000) factor[(4100/	4000),(3300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine3_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine3_Thrust_ext [Indent level: 2],
         "Engine3_Thrust_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1_exhaust",1.12202,1,360],
             "frequency": "0.8	+	((rpm/	4000) factor[(3300/	4000),(4900/	4000)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(3250/	4000),(4050/	4000)])	*	((rpm/	4000) factor[(4870/	4000),(4200/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine4_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine4_Thrust_ext [Indent level: 2],
         "Engine4_Thrust_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1_exhaust",1,1,400],
             "frequency": "0.8	+	((rpm/	4000) factor[(4200/	4000),(6200/	4000)])*0.3",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(4150/	4000),(4800/	4000)])	*	((rpm/	4000) factor[(6150/	4000),(5150/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine5_Thrust_ext [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine5_Thrust_ext [Indent level: 2],
         "Engine5_Thrust_ext": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_ext_high1_exhaust",1.25893,1,450],
             "frequency": "0.9	+	((rpm/	4000) factor[(5100/	4000),(6900/	4000)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	4000) factor[(5100/	4000),(6100/	4000)])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Idle_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Idle_int [Indent level: 2],
         "Idle_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_idle",1.25893,1],
             "frequency": "0.9	+	((rpm/	4000) factor[(200/	4000),(1150/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	4000) factor[(450/	4000),(590/	4000)])	*	((rpm/	4000) factor[(900/	4000),(690/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine_int [Indent level: 2],
         "Engine_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_acceleration",1.41254,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(900/	4000),(2100/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	4000) factor[(870/	4000),(1100/	4000)])	*	((rpm/	4000) factor[(2100/	4000),(1300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine1_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine1_int [Indent level: 2],
         "Engine1_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_low1",1.41254,1],
             "frequency": "0.8	+		((rpm/	4000) factor[(1300/	4000),(3100/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	4000) factor[(1250/	4000),(2050/	4000)])	*	((rpm/	4000) factor[(3100/	4000),(2300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine2_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine2_int [Indent level: 2],
         "Engine2_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1",1.25893,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(2200/	4000),(4100/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	4000) factor[(2250/	4000),(3050/	4000)])	*	((rpm/	4000) factor[(4100/	4000),(3300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine3_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine3_int [Indent level: 2],
         "Engine3_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1",1.25893,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(3300/	4000),(4900/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	4000) factor[(3250/	4000),(4050/	4000)])	*	((rpm/	4000) factor[(4870/	4000),(4200/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine4_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine4_int [Indent level: 2],
         "Engine4_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1",1.25893,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(4200/	4000),(6200/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	4000) factor[(4150/	4000),(4800/	4000)])	*	((rpm/	4000) factor[(6150/	4000),(5150/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine5_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine5_int [Indent level: 2],
         "Engine5_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1",1.25893,1],
             "frequency": "0.95	+	((rpm/	4000) factor[(5100/	4000),(6900/	4000)])*0.15",
             "volume": "engineOn*(1-camPos)*((rpm/	4000) factor[(5100/	4000),(6100/	4000)])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\IdleThrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|IdleThrust_int [Indent level: 2],
         "IdleThrust_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_idle_exhaust",1.25893,1],
             "frequency": "0.9	+	((rpm/	4000) factor[(200/	4000),(1150/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(450/	4000),(590/	4000)])	*	((rpm/	4000) factor[(900/	4000),(690/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\EngineThrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|EngineThrust_int [Indent level: 2],
         "EngineThrust_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_low1_exhaust",1.41254,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(900/	4000),(2100/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(870/	4000),(1100/	4000)])	*	((rpm/	4000) factor[(2100/	4000),(1300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine1_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine1_Thrust_int [Indent level: 2],
         "Engine1_Thrust_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_low1_exhaust",1.25893,1],
             "frequency": "0.8	+		((rpm/	4000) factor[(1300/	4000),(3100/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(1250/	4000),(2050/	4000)])	*	((rpm/	4000) factor[(3100/	4000),(2300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine2_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine2_Thrust_int [Indent level: 2],
         "Engine2_Thrust_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1_exhaust",1.25893,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(2200/	4000),(4100/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(2250/	4000),(3050/	4000)])	*	((rpm/	4000) factor[(4100/	4000),(3300/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine3_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine3_Thrust_int [Indent level: 2],
         "Engine3_Thrust_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1_exhaust",1.12202,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(3300/	4000),(4900/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(3250/	4000),(4050/	4000)])	*	((rpm/	4000) factor[(4870/	4000),(4200/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine4_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine4_Thrust_int [Indent level: 2],
         "Engine4_Thrust_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1_exhaust",1.12202,1],
             "frequency": "0.8	+	((rpm/	4000) factor[(4200/	4000),(6200/	4000)])*0.3",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	4000) factor[(4150/	4000),(4800/	4000)])	*	((rpm/	4000) factor[(6150/	4000),(5150/	4000)]))"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\Engine5_Thrust_int [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|Engine5_Thrust_int [Indent level: 2],
         "Engine5_Thrust_int": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|UAZ|uaz_int_high1_exhaust",1.12202,1],
             "frequency": "0.9	+	((rpm/	4000) factor[(5100/	4000),(6900/	4000)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	4000) factor[(5100/	4000),(6100/	4000)])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\RainIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|RainIn [Indent level: 2],
         "RainIn": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|rain.wss",1.41254,1],
             "frequency": 1,
             "volume": "rain*(1-camPos)"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\RainExt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|RainExt [Indent level: 2],
         "RainExt": {
             "sound": ["rhsafrf|addons|rhs_a2port_car|sounds|rain.wss",1.41254,1],
             "frequency": 1,
             "volume": "rain*camPos"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresRockOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresRockOut [Indent level: 2],
         "TiresRockOut": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_dirt_soft_1",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*rock*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresSandOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresSandOut [Indent level: 2],
         "TiresSandOut": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext-tires-sand1",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*sand*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresGrassOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresGrassOut [Indent level: 2],
         "TiresGrassOut": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_dirt_soft_2",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*grass*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresMudOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresMudOut [Indent level: 2],
         "TiresMudOut": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext-tires-mud2",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*mud*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresGravelOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresGravelOut [Indent level: 2],
         "TiresGravelOut": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_gravel_1",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*gravel*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresAsphaltOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresAsphaltOut [Indent level: 2],
         "TiresAsphaltOut": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_asfalt_2",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*asphalt*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\NoiseOut [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|NoiseOut [Indent level: 2],
         "NoiseOut": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|noise_ext_car_3",1.58489,1,90],
             "frequency": "1",
             "volume": "camPos*(damper0 max 0.02)*(speed factor[0, 8])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresRockIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresRockIn [Indent level: 2],
         "TiresRockIn": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_dirt_soft_1",1.12202,1],
             "frequency": "1",
             "volume": "(1-camPos)*rock*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresSandIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresSandIn [Indent level: 2],
         "TiresSandIn": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int-tires-sand2",1.12202,1],
             "frequency": "1",
             "volume": "(1-camPos)*sand*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresGrassIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresGrassIn [Indent level: 2],
         "TiresGrassIn": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_dirt_soft_2",1.12202,1],
             "frequency": "1",
             "volume": "(1-camPos)*grass*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresMudIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresMudIn [Indent level: 2],
         "TiresMudIn": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int-tires-mud2",1.12202,1],
             "frequency": "1",
             "volume": "(1-camPos)*mud*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresGravelIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresGravelIn [Indent level: 2],
         "TiresGravelIn": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_gravel_1",1.12202,1],
             "frequency": "1",
             "volume": "(1-camPos)*gravel*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\TiresAsphaltIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|TiresAsphaltIn [Indent level: 2],
         "TiresAsphaltIn": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_asfalt_2",1.12202,1],
             "frequency": "1",
             "volume": "(1-camPos)*asphalt*(speed factor[2, 20])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\NoiseIn [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|NoiseIn [Indent level: 2],
         "NoiseIn": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|noise_int_car_3",1,1],
             "frequency": "1",
             "volume": "(damper0 max 0.1)*(speed factor[0, 8])*(1-camPos)"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\breaking_ext_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|breaking_ext_road [Indent level: 2],
         "breaking_ext_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_04",1.41254,1,80],
             "frequency": 1,
             "volume": "engineOn*camPos*asphalt*(LongSlipDrive Factor[-0.1, -0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\acceleration_ext_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|acceleration_ext_road [Indent level: 2],
         "acceleration_ext_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_02",1.41254,1,80],
             "frequency": 1,
             "volume": "engineOn*camPos*asphalt*(LongSlipDrive Factor[0.1, 0.4])*(Speed Factor[15, 2])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_left_ext_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_left_ext_road [Indent level: 2],
         "turn_left_ext_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_02",1.41254,1,80],
             "frequency": 1,
             "volume": "engineOn*camPos*asphalt*(latSlipDrive Factor[0.1, 0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_right_ext_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_right_ext_road [Indent level: 2],
         "turn_right_ext_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_02",1.41254,1,80],
             "frequency": 1,
             "volume": "engineOn*camPos*asphalt*(latSlipDrive Factor[-0.1, -0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\breaking_ext_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|breaking_ext_dirt [Indent level: 2],
         "breaking_ext_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_14_dirt_breaking",1.12202,1,60],
             "frequency": 1,
             "volume": "engineOn*camPos*(1-asphalt)*(LongSlipDrive Factor[-0.1, -0.4])*(Speed Factor[1, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\acceleration_ext_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|acceleration_ext_dirt [Indent level: 2],
         "acceleration_ext_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_16_dirt_acceleration",1.12202,1,60],
             "frequency": 1,
             "volume": "engineOn*camPos*(1-asphalt)*(LongSlipDrive Factor[0.1, 0.4])*(Speed Factor[15, 1])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_left_ext_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_left_ext_dirt [Indent level: 2],
         "turn_left_ext_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_18_dirt",1.12202,1,60],
             "frequency": 1,
             "volume": "engineOn*camPos*(1-asphalt)*(latSlipDrive Factor[0.1, 0.4])*(Speed Factor[1, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_right_ext_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_right_ext_dirt [Indent level: 2],
         "turn_right_ext_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_18_dirt",1,1,60],
             "frequency": 1,
             "volume": "engineOn*camPos*(1-asphalt)*(latSlipDrive Factor[-0.1, -0.4])*(Speed Factor[1, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\breaking_int_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|breaking_int_road [Indent level: 2],
         "breaking_int_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_04_int",3.16228,1],
             "frequency": 1,
             "volume": "engineOn*asphalt*(1-camPos)*(LongSlipDrive Factor[-0.1, -0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\acceleration_int_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|acceleration_int_road [Indent level: 2],
         "acceleration_int_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_02_int",3.16228,1],
             "frequency": 1,
             "volume": "engineOn*asphalt*(1-camPos)*(LongSlipDrive Factor[0.1, 0.4])*(Speed Factor[15, 2])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_left_int_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_left_int_road [Indent level: 2],
         "turn_left_int_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_02_int",3.16228,1],
             "frequency": 1,
             "volume": "engineOn*asphalt*(1-camPos)*(latSlipDrive Factor[0.1, 0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_right_int_road [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_right_int_road [Indent level: 2],
         "turn_right_int_road": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_loop_02_int",3.16228,1],
             "frequency": 1,
             "volume": "engineOn*asphalt*(1-camPos)*(latSlipDrive Factor[-0.1, -0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\breaking_int_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|breaking_int_dirt [Indent level: 2],
         "breaking_int_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_14_dirt_breaking_int",3.16228,1],
             "frequency": 1,
             "volume": "engineOn*(1-asphalt)*(1-camPos)*(LongSlipDrive Factor[-0.1, -0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\acceleration_int_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|acceleration_int_dirt [Indent level: 2],
         "acceleration_int_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_16_dirt_acceleration_int",3.16228,1],
             "frequency": 1,
             "volume": "engineOn*(1-asphalt)*(1-camPos)*(LongSlipDrive Factor[0.1, 0.4])*(Speed Factor[15, 2])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_left_int_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_left_int_dirt [Indent level: 2],
         "turn_left_int_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_18_dirt_int",3.16228,1],
             "frequency": 1,
             "volume": "engineOn*(1-asphalt)*(1-camPos)*(latSlipDrive Factor[0.1, 0.4])*(Speed Factor[2, 15])"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Sounds\turn_right_int_dirt [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Sounds|turn_right_int_dirt [Indent level: 2],
         "turn_right_int_dirt": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|slipping_tires_18_dirt_int",3.16228,1],
             "frequency": 1,
@@ -683,400 +709,766 @@ RHS_UAZ_MSV_01 = {
         "soundSetsInt": ["RHS_UAZ469_Engine_RPM0_INT_SoundSet","RHS_UAZ469_Engine_RPM1_INT_SoundSet","RHS_UAZ469_Engine_RPM2_INT_SoundSet","RHS_UAZ469_Engine_RPM3_INT_SoundSet","RHS_UAZ469_Engine_INT_Burst_SoundSet","UAZ469_Rattling_INT_SoundSet","UAZ469_Stress_INT_SoundSet","UAZ469_Rain_INT_SoundSet","RHS_UAZ469_Tires_Rock_Fast_INT_SoundSet","RHS_UAZ469_Tires_Grass_Fast_INT_SoundSet","RHS_UAZ469_Tires_Sand_Fast_INT_SoundSet","RHS_UAZ469_Tires_Gravel_Fast_INT_SoundSet","RHS_UAZ469_Tires_Mud_Fast_INT_SoundSet","RHS_UAZ469_Tires_Asphalt_Fast_INT_SoundSet","RHS_UAZ469_Tires_Water_Fast_INT_SoundSet","RHS_UAZ469_Tires_Rock_Slow_INT_SoundSet","RHS_UAZ469_Tires_Grass_Slow_INT_SoundSet","RHS_UAZ469_Tires_Sand_Slow_INT_SoundSet","RHS_UAZ469_Tires_Gravel_Slow_INT_SoundSet","RHS_UAZ469_Tires_Mud_Slow_INT_SoundSet","RHS_UAZ469_Tires_Asphalt_Slow_INT_SoundSet","RHS_UAZ469_Tires_Water_Slow_INT_SoundSet","RHS_UAZ469_Tires_Turn_Hard_INT_SoundSet","RHS_UAZ469_Tires_Turn_Soft_INT_SoundSet","RHS_UAZ469_Tires_Brake_Hard_INT_SoundSet","RHS_UAZ469_Tires_Brake_Soft_INT_SoundSet","","Tires_Movement_Dirt_Int_01_SoundSet"],
         "soundSetsExt": ["RHS_UAZ469_Engine_RPM0_EXT_SoundSet","RHS_UAZ469_Engine_RPM1_EXT_SoundSet","RHS_UAZ469_Engine_RPM2_EXT_SoundSet","RHS_UAZ469_Engine_RPM3_EXT_SoundSet","RHS_UAZ469_Engine_EXT_Burst_SoundSet","UAZ469_Rattling_EXT_SoundSet","UAZ469_Stress_EXT_SoundSet","UAZ469_Rain_EXT_SoundSet","RHS_UAZ469_Tires_Rock_Fast_EXT_SoundSet","RHS_UAZ469_Tires_Grass_Fast_EXT_SoundSet","RHS_UAZ469_Tires_Sand_Fast_EXT_SoundSet","RHS_UAZ469_Tires_Gravel_Fast_EXT_SoundSet","RHS_UAZ469_Tires_Mud_Fast_EXT_SoundSet","RHS_UAZ469_Tires_Asphalt_Fast_EXT_SoundSet","RHS_UAZ469_Tires_Water_Fast_EXT_SoundSet","RHS_UAZ469_Tires_Rock_Slow_EXT_SoundSet","RHS_UAZ469_Tires_Grass_Slow_EXT_SoundSet","RHS_UAZ469_Tires_Sand_Slow_EXT_SoundSet","RHS_UAZ469_Tires_Gravel_Slow_EXT_SoundSet","RHS_UAZ469_Tires_Mud_Slow_EXT_SoundSet","RHS_UAZ469_Tires_Asphalt_Slow_EXT_SoundSet","RHS_UAZ469_Tires_Water_Slow_EXT_SoundSet","RHS_UAZ469_Tires_Turn_Hard_EXT_SoundSet","RHS_UAZ469_Tires_Turn_Soft_EXT_SoundSet","RHS_UAZ469_Tires_Brake_Hard_EXT_SoundSet","RHS_UAZ469_Tires_Brake_Soft_EXT_SoundSet","","Tires_Movement_Dirt_Ext_01_SoundSet"]
     },
-    # Class: CfgVehicles\RHS_UAZ_Base\Turrets [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|Turrets [Indent level: 1],
     "Turrets": {
-        # Class: CfgVehicles\Car_F\Turrets\MainTurret [Indent level: 2]
+        # Class: CfgVehicles|Car_F|Turrets|MainTurret [Indent level: 2],
+
         "MainTurret": {
+
             "stabilizedInAxes": 4,
+
             "outGunnerMayFire": 1,
+
             "memoryPointGun": "machinegun",
+
             "body": "",
+
             "gun": "",
+
             "gunnerAction": "ManActTestDriverOut",
+
             "gunnerGetInAction": "GetInLow",
+
             "gunnerGetOutAction": "GetOutLow",
+
             "gunBeg": "usti hlavne",
+
             "gunEnd": "konec hlavne",
+
             "soundServo": ["A3|sounds_f|dummysound",0.316228,1,15],
+
             "minElev": -5,
+
             "maxElev": 40,
+
             "minTurn": -360,
+
             "maxTurn": 360,
+
             "gunnerOpticsModel": "A3|weapons_f|reticle|optics_empty",
+
             "primaryGunner": 1,
+
             "enableManualFire": 0,
+
             "gunnerForceOptics": 0,
+
             "startEngine": 0,
-            # Class: CfgVehicles\Car_F\Turrets\MainTurret\HitPoints [Indent level: 3],
+
+            # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints [Indent level: 3],
+
             "HitPoints": {
-                # Class: CfgVehicles\Car_F\Turrets\MainTurret\HitPoints\HitTurret [Indent level: 4]
+
+                # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints|HitTurret [Indent level: 4],
+
+
                 "HitTurret": {
+
+
                     "armor": 0.8,
+
+
                     "material": -1,
+
+
                     "name": "vez",
+
+
                     "visual": "vez",
+
+
                     "passThrough": 0.5,
+
+
                     "explosionShielding": 0.4
                 },
-                # Class: CfgVehicles\Car_F\Turrets\MainTurret\HitPoints\HitGun [Indent level: 4],
+
+                # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints|HitGun [Indent level: 4],
+
                 "HitGun": {
+
                     "armor": 0.4,
+
                     "material": -1,
+
                     "name": "zbran",
+
                     "visual": "zbran",
+
                     "passThrough": 0,
+
                     "explosionShielding": 0.2
                 }
             },
-            # Class: CfgVehicles\Car_F\Turrets\MainTurret\ViewOptics [Indent level: 3],
+
+            # Class: CfgVehicles|Car_F|Turrets|MainTurret|ViewOptics [Indent level: 3],
+
             "ViewOptics": {
+
                 "initAngleX": 0,
+
                 "minAngleX": -30,
+
                 "maxAngleX": 30,
+
                 "initAngleY": 0,
+
                 "minAngleY": -100,
+
                 "maxAngleY": 100,
+
                 "initFov": 0.3,
+
                 "minFov": 0.07,
+
                 "maxFov": 0.35,
+
                 "minMoveX": 0,
+
                 "maxMoveX": 0,
+
                 "minMoveY": 0,
+
                 "maxMoveY": 0,
+
                 "minMoveZ": 0,
+
                 "maxMoveZ": 0,
+
                 "speedZoomMaxSpeed": 1e+010,
+
                 "speedZoomMaxFOV": 0
             },
-            # Class: CfgVehicles\Car_F\Turrets\MainTurret\ViewGunner [Indent level: 3],
+
+            # Class: CfgVehicles|Car_F|Turrets|MainTurret|ViewGunner [Indent level: 3],
+
             "ViewGunner": {
+
                 "initAngleX": 5,
+
                 "minAngleX": -75,
+
                 "maxAngleX": 85,
+
                 "initAngleY": 0,
+
                 "minAngleY": -150,
+
                 "maxAngleY": 150,
+
                 "minFov": 0.25,
+
                 "maxFov": 1.25,
+
                 "initFov": 0.75,
+
                 "minMoveX": 0,
+
                 "maxMoveX": 0,
+
                 "minMoveY": 0,
+
                 "maxMoveY": 0,
+
                 "minMoveZ": 0,
+
                 "maxMoveZ": 0,
+
                 "continuous": 0,
+
                 "speedZoomMaxSpeed": 1e+010,
+
                 "speedZoomMaxFOV": 0
             },
-            # Class: CfgVehicles\Car_F\Turrets\MainTurret\Components [Indent level: 3],
+
+            # Class: CfgVehicles|Car_F|Turrets|MainTurret|Components [Indent level: 3],
+
             "Components": {
             },
+
             "disableSoundAttenuation": 0,
+
             "animationSourceBody": "mainTurret",
+
             "animationSourceGun": "mainGun",
+
             "animationSourceHatch": "hatchGunner",
+
             "animationSourceCamElev": "camElev",
+
             "proxyType": "CPGunner",
+
             "proxyIndex": 1,
+
             "gunnerName": "Gunner",
+
             "gunnerType": "",
+
             "primaryObserver": 0,
+
             "weapons": [],
+
             "magazines": [],
+
             "soundElevation": ["",0.00316228,1],
+
             "initElev": 0,
+
             "initTurn": 0,
+
             "minOutElev": -4,
+
             "maxOutElev": 20,
+
             "initOutElev": 0,
+
             "minOutTurn": -60,
+
             "maxOutTurn": 60,
+
             "initOutTurn": 0,
+
             "maxHorizontalRotSpeed": 1.2,
+
             "maxVerticalRotSpeed": 1.2,
+
             "minCamElev": -90,
+
             "maxCamElev": 90,
+
             "initCamElev": 0,
+
             "primary": 1,
+
             "hasGunner": 1,
+
             "commanding": 1,
+
             "turretCanSee": 0,
+
             "canUseScanners": 1,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
+
             "TurretSpec": {
+
                 "showHeadPhones": 0
             },
+
             "gunnerOpticsColor": [0,0,0,1],
+
             "gunnerOpticsShowCursor": 0,
+
             "turretInfoType": "",
+
             "gunnerOutOpticsModel": "",
+
             "gunnerOutOpticsColor": [0,0,0,1],
+
             "gunnerOpticsEffect": [],
+
             "gunnerOutOpticsEffect": [],
+
             "memoryPointGunnerOutOptics": "",
+
             "gunnerOutForceOptics": 0,
+
             "gunnerOutOpticsShowCursor": 0,
+
             "gunnerFireAlsoInInternalCamera": 1,
+
             "gunnerOutFireAlsoInInternalCamera": 1,
+
             "gunnerUsesPilotView": 0,
+
             "castGunnerShadow": 0,
+
             "viewGunnerShadow": 1,
+
             "viewGunnerShadowDiff": 1,
+
             "viewGunnerShadowAmb": 1,
+
             "ejectDeadGunner": 0,
+
             "hideWeaponsGunner": 1,
+
             "canHideGunner": -1,
+
             "forceHideGunner": 0,
+
             "inGunnerMayFire": 1,
+
             "showHMD": 0,
+
             "viewGunnerInExternal": 0,
+
             "lockWhenDriverOut": 0,
+
             "lockWhenVehicleSpeed": -1,
+
             "gunnerCompartments": "Compartment1",
+
             "LODTurnedIn": -1,
+
             "LODTurnedOut": -1,
+
             "memoryPointsGetInGunnerPrecise": "",
+
             "missileBeg": "spice rakety",
+
             "missileEnd": "konec rakety",
+
             "armorLights": 0.4,
-            # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
+
             "Reflectors": {
             },
+
             "aggregateReflectors": [],
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
+
             "GunFire": {
+
                 "access": 0,
+
                 "cloudletDuration": 0.2,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 1,
+
                 "cloudletGrowUp": 0.2,
+
                 "cloudletFadeIn": 0.01,
+
                 "cloudletFadeOut": 0.5,
+
                 "cloudletAccY": 0,
+
                 "cloudletMinYSpeed": -100,
+
                 "cloudletMaxYSpeed": 100,
+
                 "cloudletShape": "cloudletFire",
+
                 "cloudletColor": [1,1,1,0],
+
                 "interval": 0.01,
+
                 "size": 3,
+
                 "sourceSize": 0.5,
+
                 "timeToLive": 0,
+
                 "initT": 4500,
+
                 "deltaT": -3000,
-                # Class: WeaponFireGun\Table [Indent level: 0],
+
+                # Class: WeaponFireGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [0.82,0.95,0.93,0]
                     },
-                    # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T1 [Indent level: 1],
+
                     "T1": {
+
                         "maxT": 200,
+
                         "color": [0.75,0.77,0.9,0]
                     },
-                    # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T2 [Indent level: 1],
+
                     "T2": {
+
                         "maxT": 400,
+
                         "color": [0.56,0.62,0.67,0]
                     },
-                    # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T3 [Indent level: 1],
+
                     "T3": {
+
                         "maxT": 600,
+
                         "color": [0.39,0.46,0.47,0]
                     },
-                    # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T4 [Indent level: 1],
+
                     "T4": {
+
                         "maxT": 800,
+
                         "color": [0.24,0.31,0.31,0]
                     },
-                    # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T5 [Indent level: 1],
+
                     "T5": {
+
                         "maxT": 1000,
+
                         "color": [0.23,0.31,0.29,0]
                     },
-                    # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T6 [Indent level: 1],
+
                     "T6": {
+
                         "maxT": 1500,
+
                         "color": [0.21,0.29,0.27,0]
                     },
-                    # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T7 [Indent level: 1],
+
                     "T7": {
+
                         "maxT": 2000,
+
                         "color": [0.19,0.23,0.21,0]
                     },
-                    # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T8 [Indent level: 1],
+
                     "T8": {
+
                         "maxT": 2300,
+
                         "color": [0.22,0.19,0.1,0]
                     },
-                    # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T9 [Indent level: 1],
+
                     "T9": {
+
                         "maxT": 2500,
+
                         "color": [0.35,0.2,0.02,0]
                     },
-                    # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T10 [Indent level: 1],
+
                     "T10": {
+
                         "maxT": 2600,
+
                         "color": [0.62,0.29,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T11 [Indent level: 1],
+
                     "T11": {
+
                         "maxT": 2650,
+
                         "color": [0.59,0.35,0.05,0]
                     },
-                    # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T12 [Indent level: 1],
+
                     "T12": {
+
                         "maxT": 2700,
+
                         "color": [0.75,0.37,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T13 [Indent level: 1],
+
                     "T13": {
+
                         "maxT": 2750,
+
                         "color": [0.88,0.34,0.03,0]
                     },
-                    # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T14 [Indent level: 1],
+
                     "T14": {
+
                         "maxT": 2800,
+
                         "color": [0.91,0.5,0.17,0]
                     },
-                    # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T15 [Indent level: 1],
+
                     "T15": {
+
                         "maxT": 2850,
+
                         "color": [1,0.6,0.2,0]
                     },
-                    # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T16 [Indent level: 1],
+
                     "T16": {
+
                         "maxT": 2900,
+
                         "color": [1,0.71,0.3,0]
                     },
-                    # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T17 [Indent level: 1],
+
                     "T17": {
+
                         "maxT": 2950,
+
                         "color": [0.98,0.83,0.41,0]
                     },
-                    # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T18 [Indent level: 1],
+
                     "T18": {
+
                         "maxT": 3000,
+
                         "color": [0.98,0.91,0.54,0]
                     },
-                    # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T19 [Indent level: 1],
+
                     "T19": {
+
                         "maxT": 3100,
+
                         "color": [0.98,0.99,0.6,0]
                     },
-                    # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T20 [Indent level: 1],
+
                     "T20": {
+
                         "maxT": 3300,
+
                         "color": [0.96,0.99,0.72,0]
                     },
-                    # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T21 [Indent level: 1],
+
                     "T21": {
+
                         "maxT": 3600,
+
                         "color": [1,0.98,0.91,0]
                     },
-                    # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+
+                    # Class: WeaponFireGun|Table|T22 [Indent level: 1],
+
                     "T22": {
+
                         "maxT": 4200,
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
+
             "GunClouds": {
+
                 "access": 0,
+
                 "cloudletDuration": 0.3,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 1,
+
                 "cloudletGrowUp": 1,
+
                 "cloudletFadeIn": 0.01,
+
                 "cloudletFadeOut": 1,
+
                 "cloudletAccY": 0.4,
+
                 "cloudletMinYSpeed": 0.2,
+
                 "cloudletMaxYSpeed": 0.8,
+
                 "cloudletShape": "cloudletClouds",
+
                 "cloudletColor": [1,1,1,0],
+
                 "interval": 0.05,
+
                 "size": 3,
+
                 "sourceSize": 0.5,
+
                 "timeToLive": 0,
+
                 "initT": 0,
+
                 "deltaT": 0,
-                # Class: WeaponCloudsGun\Table [Indent level: 0],
+
+                # Class: WeaponCloudsGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
+
             "MGunClouds": {
+
                 "access": 0,
+
                 "cloudletGrowUp": 0.05,
+
                 "cloudletFadeIn": 0,
+
                 "cloudletFadeOut": 0.1,
+
                 "cloudletDuration": 0.05,
+
                 "cloudletAnimPeriod": 1,
+
                 "cloudletSize": 1,
+
                 "cloudletAlpha": 0.3,
+
                 "cloudletAccY": 0,
+
                 "cloudletMinYSpeed": -100,
+
                 "cloudletMaxYSpeed": 100,
+
                 "cloudletShape": "cloudletClouds",
+
                 "cloudletColor": [1,1,1,0],
+
                 "timeToLive": 0,
+
                 "interval": 0.02,
+
                 "size": 0.3,
+
                 "sourceSize": 0.02,
+
                 "initT": 0,
+
                 "deltaT": 0,
-                # Class: WeaponCloudsMGun\Table [Indent level: 0],
+
+                # Class: WeaponCloudsMGun|Table [Indent level: 0],
+
                 "Table": {
-                    # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+
+                    # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
+
                     "T0": {
+
+
                         "maxT": 0,
+
+
                         "color": [1,1,1,0]
                     }
                 }
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
+
             "Turrets": {
             },
+
             "forceNVG": 0,
+
             "isCopilot": 0,
+
             "canEject": 1,
+
             "gunnerLeftHandAnimName": "",
+
             "gunnerRightHandAnimName": "",
+
             "gunnerLeftLegAnimName": "",
+
             "gunnerRightLegAnimName": "",
+
             "gunnerDoor": "",
+
             "preciseGetInOut": 0,
+
             "turretFollowFreeLook": 0,
+
             "allowTabLock": 1,
+
             "showAllTargets": 0,
+
             "dontCreateAI": 0,
+
             "slingLoadOperator": 0,
+
             "playerPosition": 0,
+
             "allowLauncherIn": 0,
+
             "allowLauncherOut": 0,
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
+
             "TurnIn": {
+
                 "turnOffset": 0
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+
+            # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
+
             "TurnOut": {
+
                 "turnOffset": 0
             },
+
             "gunnerInAction": "ManActTestDriver",
+
             "memoryPointGunnerOptics": "gunnerview",
+
             "memoryPointsGetInGunner": "pos gunner",
+
             "memoryPointsGetInGunnerDir": "pos gunner dir",
+
             "selectionFireAnim": "zasleh",
+
             "showCrewAim": 0
         }
     },
@@ -1086,212 +1478,216 @@ RHS_UAZ_MSV_01 = {
     "cargoDoors": ["Door_RF","Door_LB","Door_LB","Door_RB"],
     "driverCompartments": "Compartment1",
     "cargoCompartments": ["Compartment1","Compartment2","Compartment2","Compartment2","Compartment2","Compartment2"],
-    # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources [Indent level: 1],
     "AnimationSources": {
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\longlights_hide [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|longlights_hide [Indent level: 2],
+
         "longlights_hide": {
+
             "source": "user",
+
             "animPeriod": 1e-006,
+
             "initPhase": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\shortlights_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|shortlights_hide [Indent level: 2],
         "shortlights_hide": {
             "initPhase": 0,
             "source": "user",
             "animPeriod": 1e-006
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\lights_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|lights_hide [Indent level: 2],
         "lights_hide": {
             "initPhase": 0,
             "source": "user",
             "animPeriod": 1e-006
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\searchlight_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|searchlight_hide [Indent level: 2],
         "searchlight_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\cabinlights_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|cabinlights_hide [Indent level: 2],
         "cabinlights_hide": {
             "source": "user",
             "animPeriod": 1e-006,
             "initPhase": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\searchlight_rot [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|searchlight_rot [Indent level: 2],
         "searchlight_rot": {
             "source": "user",
             "animPeriod": 1,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitLFWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitLFWheel [Indent level: 2],
         "HitLFWheel": {
             "source": "Hit",
             "hitpoint": "HitLFWheel",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitRFWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitRFWheel [Indent level: 2],
         "HitRFWheel": {
             "hitpoint": "HitRFWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitLBWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitLBWheel [Indent level: 2],
         "HitLBWheel": {
             "hitpoint": "HitLF2Wheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitRBWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitRBWheel [Indent level: 2],
         "HitRBWheel": {
             "hitpoint": "HitRF2Wheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitLF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitLF2Wheel [Indent level: 2],
         "HitLF2Wheel": {
             "hitpoint": "HitLBWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitRF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitRF2Wheel [Indent level: 2],
         "HitRF2Wheel": {
             "hitpoint": "HitRBWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitLMWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitLMWheel [Indent level: 2],
         "HitLMWheel": {
             "hitpoint": "HitLMWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitRMWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitRMWheel [Indent level: 2],
         "HitRMWheel": {
             "hitpoint": "HitRMWheel",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitSpare [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitSpare [Indent level: 2],
         "HitSpare": {
             "hitpoint": "HitSpare",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\UseSpare [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|UseSpare [Indent level: 2],
         "UseSpare": {
             "hitpoint": "UseSpare",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitGlass1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "source": "Hit",
             "hitpoint": "HitGlass1",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitGlass2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "hitpoint": "HitGlass2",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitGlass3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "hitpoint": "HitGlass3",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitGlass4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "hitpoint": "HitGlass4",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitGlass5 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "hitpoint": "HitGlass5",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitGlass6 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "hitpoint": "HitGlass6",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitDoor_1_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitDoor_1_1 [Indent level: 2],
         "HitDoor_1_1": {
             "hitpoint": "HitDoor_1_1",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitDoor_1_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitDoor_1_2 [Indent level: 2],
         "HitDoor_1_2": {
             "hitpoint": "HitDoor_1_2",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitDoor_2_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitDoor_2_1 [Indent level: 2],
         "HitDoor_2_1": {
             "hitpoint": "HitDoor_2_1",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitDoor_2_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitDoor_2_2 [Indent level: 2],
         "HitDoor_2_2": {
             "hitpoint": "HitDoor_2_2",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\HitHood [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|HitHood [Indent level: 2],
         "HitHood": {
             "hitpoint": "HitHood",
             "source": "Hit",
             "raw": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\Door_LF [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|Door_LF [Indent level: 2],
         "Door_LF": {
             "source": "door",
             "animPeriod": 0.8,
             "sound": "RHS_UAZ_Door",
             "soundPosition": "osa_dvere_lp"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\Door_RF [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|Door_RF [Indent level: 2],
         "Door_RF": {
             "soundPosition": "osa_dvere_pp",
             "source": "door",
             "animPeriod": 0.8,
             "sound": "RHS_UAZ_Door"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\Door_LB [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|Door_LB [Indent level: 2],
         "Door_LB": {
             "soundPosition": "osa_dvere_lz",
             "source": "door",
             "animPeriod": 0.8,
             "sound": "RHS_UAZ_Door"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\Door_RB [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|Door_RB [Indent level: 2],
         "Door_RB": {
             "soundPosition": "osa_dvere_pz",
             "source": "door",
             "animPeriod": 0.8,
             "sound": "RHS_UAZ_Door"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\gearbox [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|gearbox [Indent level: 2],
         "gearbox": {
             "sound": "RHS_gearbox",
             "soundPosition": "gear_axis",
             "source": "door",
             "animPeriod": 0.8
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\wiper [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|wiper [Indent level: 2],
         "wiper": {
             "source": "user",
             "animPeriod": 1,
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\spare_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|spare_hide [Indent level: 2],
         "spare_hide": {
             "mass": 1,
             "animPeriod": 1e-011,
@@ -1299,7 +1695,7 @@ RHS_UAZ_MSV_01 = {
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\light_hide [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|light_hide [Indent level: 2],
         "light_hide": {
             "displayName": "hide light covers",
             "onPhaseChanged": "(_this select 0) animateSource ['light_hide',(_this select 1),true];",
@@ -1308,7 +1704,7 @@ RHS_UAZ_MSV_01 = {
             "source": "user",
             "initPhase": 0
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\AnimationSources\wipers [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|AnimationSources|wipers [Indent level: 2],
         "wipers": {
             "animPeriod": 1,
             "sound": "RHS_Wipers",
@@ -1322,21 +1718,31 @@ RHS_UAZ_MSV_01 = {
     "wheelDestroyRadiusCoef": 0.4,
     "crewCrashProtection": 0.25,
     "fuelExplosionPower": 0.1,
-    # Class: CfgVehicles\RHS_UAZ_Base\HitPoints [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|HitPoints [Indent level: 1],
     "HitPoints": {
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitLFWheel [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitLFWheel [Indent level: 2],
+
         "HitLFWheel": {
+
             "radius": 0.15,
+
             "armor": 0.175,
+
             "passThrough": 0.3,
+
             "visual": "wheel_1_1_damage",
+
             "armorComponent": "wheel_1_1_hide",
+
             "minimalHit": -0.00833333,
+
             "explosionShielding": 4,
+
             "material": -1,
+
             "name": "wheel_1_1_steering"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitLF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitLF2Wheel [Indent level: 2],
         "HitLF2Wheel": {
             "radius": 0.15,
             "armor": 0.175,
@@ -1348,7 +1754,7 @@ RHS_UAZ_MSV_01 = {
             "material": -1,
             "name": "wheel_1_2_steering"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitRFWheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitRFWheel [Indent level: 2],
         "HitRFWheel": {
             "radius": 0.15,
             "armor": 0.175,
@@ -1360,7 +1766,7 @@ RHS_UAZ_MSV_01 = {
             "material": -1,
             "name": "wheel_2_1_steering"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitRF2Wheel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitRF2Wheel [Indent level: 2],
         "HitRF2Wheel": {
             "radius": 0.15,
             "armor": 0.175,
@@ -1372,7 +1778,7 @@ RHS_UAZ_MSV_01 = {
             "material": -1,
             "name": "wheel_2_2_steering"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitSpare [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitSpare [Indent level: 2],
         "HitSpare": {
             "name": "spare1",
             "visual": "-",
@@ -1384,7 +1790,7 @@ RHS_UAZ_MSV_01 = {
             "explosionShielding": 4,
             "material": -1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\UseSpare [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|UseSpare [Indent level: 2],
         "UseSpare": {
             "name": "",
             "visual": "-",
@@ -1396,7 +1802,7 @@ RHS_UAZ_MSV_01 = {
             "explosionShielding": 4,
             "material": -1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitLightL [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitLightL [Indent level: 2],
         "HitLightL": {
             "armor": 0.02,
             "minimalHit": 0.1,
@@ -1406,7 +1812,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "radius": 0.1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitLightR [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitLightR [Indent level: 2],
         "HitLightR": {
             "name": "P svetlo",
             "armor": 0.02,
@@ -1416,7 +1822,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "radius": 0.1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitSearchlight [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitSearchlight [Indent level: 2],
         "HitSearchlight": {
             "name": "searchlight",
             "armor": 0.02,
@@ -1426,7 +1832,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "radius": 0.1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitHull [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitHull [Indent level: 2],
         "HitHull": {
             "armor": 0.5,
             "material": -1,
@@ -1435,7 +1841,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0.2,
             "radius": 0.1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitFuel [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitFuel [Indent level: 2],
         "HitFuel": {
             "armor": 0.5,
             "material": -1,
@@ -1444,7 +1850,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0.2,
             "radius": 0.1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitEngine [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitEngine [Indent level: 2],
         "HitEngine": {
             "armor": 0.5,
             "material": -1,
@@ -1453,10 +1859,10 @@ RHS_UAZ_MSV_01 = {
             "visual": "zbytek",
             "passThrough": 0.2,
             "radius": 0.16,
-            # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitEngine\DestructionEffects [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitEngine|DestructionEffects [Indent level: 3],
             "DestructionEffects": {
                 "ammoExplosionEffect": "",
-                # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Smoke [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke [Indent level: 4],
                 "RHS_Engine_Smoke": {
                     "simulation": "particles",
                     "type": "SmallWreckSmoke",
@@ -1465,7 +1871,7 @@ RHS_UAZ_MSV_01 = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Smoke_small1 [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small1 [Indent level: 4],
                 "RHS_Engine_Smoke_small1": {
                     "type": "WeaponWreckSmoke",
                     "position": "engine_smoke2",
@@ -1474,7 +1880,7 @@ RHS_UAZ_MSV_01 = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Smoke_small2 [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small2 [Indent level: 4],
                 "RHS_Engine_Smoke_small2": {
                     "position": "engine_smoke3",
                     "type": "WeaponWreckSmoke",
@@ -1483,7 +1889,7 @@ RHS_UAZ_MSV_01 = {
                     "interval": 1,
                     "lifeTime": 60
                 },
-                # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitEngine\DestructionEffects\RHS_Engine_Sounds [Indent level: 4],
+                # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sounds [Indent level: 4],
                 "RHS_Engine_Sounds": {
                     "simulation": "sound",
                     "type": "SmokeWreck1",
@@ -1494,7 +1900,7 @@ RHS_UAZ_MSV_01 = {
                 }
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitBody [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitBody [Indent level: 2],
         "HitBody": {
             "name": "karoserie",
             "visual": "camo1",
@@ -1504,7 +1910,7 @@ RHS_UAZ_MSV_01 = {
             "material": -1,
             "explosionShielding": 1.5
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitGlass1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitGlass1 [Indent level: 2],
         "HitGlass1": {
             "armor": 0.1,
             "radius": 0.2,
@@ -1514,7 +1920,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitGlass2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitGlass2 [Indent level: 2],
         "HitGlass2": {
             "armor": 0.05,
             "radius": 0.2,
@@ -1524,7 +1930,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitGlass3 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitGlass3 [Indent level: 2],
         "HitGlass3": {
             "armor": 0.05,
             "radius": 0.2,
@@ -1534,7 +1940,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitGlass4 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitGlass4 [Indent level: 2],
         "HitGlass4": {
             "visual": "glass4",
             "armor": 0.05,
@@ -1544,7 +1950,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitGlass5 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitGlass5 [Indent level: 2],
         "HitGlass5": {
             "armor": 0.05,
             "radius": 0.2,
@@ -1554,7 +1960,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitGlass6 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitGlass6 [Indent level: 2],
         "HitGlass6": {
             "armor": 0.05,
             "radius": 0.2,
@@ -1564,7 +1970,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitDoor_1_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitDoor_1_1 [Indent level: 2],
         "HitDoor_1_1": {
             "armor": 0.2,
             "minimalHit": 0.075,
@@ -1575,7 +1981,7 @@ RHS_UAZ_MSV_01 = {
             "radius": 0.17,
             "explosionShielding": 0.5
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitDoor_1_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitDoor_1_2 [Indent level: 2],
         "HitDoor_1_2": {
             "name": "door12",
             "armor": 0.2,
@@ -1586,7 +1992,7 @@ RHS_UAZ_MSV_01 = {
             "radius": 0.17,
             "explosionShielding": 0.5
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitDoor_2_1 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitDoor_2_1 [Indent level: 2],
         "HitDoor_2_1": {
             "name": "door21",
             "armor": 0.2,
@@ -1597,7 +2003,7 @@ RHS_UAZ_MSV_01 = {
             "radius": 0.17,
             "explosionShielding": 0.5
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\HitDoor_2_2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|HitDoor_2_2 [Indent level: 2],
         "HitDoor_2_2": {
             "name": "door22",
             "armor": 0.2,
@@ -1608,7 +2014,7 @@ RHS_UAZ_MSV_01 = {
             "radius": 0.17,
             "explosionShielding": 0.5
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\HitPoints\Hithood [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|HitPoints|Hithood [Indent level: 2],
         "Hithood": {
             "armor": 0.3,
             "name": "hood1",
@@ -1619,7 +2025,7 @@ RHS_UAZ_MSV_01 = {
             "radius": 0.17,
             "explosionShielding": 0.5
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRGlass [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRGlass [Indent level: 2],
         "HitRGlass": {
             "armor": 0.2,
             "material": -1,
@@ -1627,7 +2033,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLGlass [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLGlass [Indent level: 2],
         "HitLGlass": {
             "armor": 0.2,
             "material": -1,
@@ -1635,7 +2041,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0,
             "explosionShielding": 2
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLBWheel [Indent level: 2],
         "HitLBWheel": {
             "armor": 0.2,
             "material": -1,
@@ -1644,7 +2050,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitLMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitLMWheel [Indent level: 2],
         "HitLMWheel": {
             "armor": 0.2,
             "material": -1,
@@ -1653,7 +2059,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRBWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRBWheel [Indent level: 2],
         "HitRBWheel": {
             "armor": 0.2,
             "material": -1,
@@ -1662,7 +2068,7 @@ RHS_UAZ_MSV_01 = {
             "passThrough": 0.3,
             "explosionShielding": 4
         },
-        # Class: CfgVehicles\Car_F\HitPoints\HitRMWheel [Indent level: 2],
+        # Class: CfgVehicles|Car_F|HitPoints|HitRMWheel [Indent level: 2],
         "HitRMWheel": {
             "armor": 0.2,
             "material": -1,
@@ -1685,50 +2091,78 @@ RHS_UAZ_MSV_01 = {
     "memoryPointTrackFRR": "TrackFRR",
     "memoryPointTrackBRL": "TrackBRL",
     "memoryPointTrackBRR": "TrackBRR",
-    # Class: CfgVehicles\RHS_UAZ_Base\Damage [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|Damage [Indent level: 1],
     "Damage": {
         "tex": [],
         "mat": ["rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_skla.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_skla_in.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_main_metal.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_main_metal_damage.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_main_metal_destruct.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_other_metal.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_other_metal_damage.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_other_metal_destruct.rvmat","rhsafrf|addons|rhs_a2port_car|data|drziaky.rvmat","rhsafrf|addons|rhs_a2port_car|data|drziaky.rvmat","rhsafrf|addons|rhs_a2port_car|data|drziaky_destruct.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_mount.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_mount_damage.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|uaz_mount_destruct.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|rhs_uaz_wheels.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|rhs_uaz_wheels_damage.rvmat","rhsafrf|addons|rhs_a2port_car|UAZ|Data|rhs_uaz_wheels_damage.rvmat"]
     },
-    # Class: CfgVehicles\RHS_UAZ_Base\Exhausts [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|Exhausts [Indent level: 1],
     "Exhausts": {
-        # Class: CfgVehicles\RHS_UAZ_Base\Exhausts\Exhaust1 [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|Exhausts|Exhaust1 [Indent level: 2],
+
         "Exhaust1": {
+
             "position": "vyfuk start",
+
             "direction": "vyfuk konec",
+
             "effect": "ExhaustEffectOffroad"
         }
     },
-    # Class: CfgVehicles\RHS_UAZ_Base\Reflectors [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|Reflectors [Indent level: 1],
     "Reflectors": {
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\LSvetla [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|LSvetla [Indent level: 2],
+
         "LSvetla": {
+
             "color": [800,900,650],
+
             "ambient": [2,2,2],
+
             "position": "L svetlo",
+
             "direction": "konec L svetla",
+
             "hitpoint": "L svetlo",
+
             "hitPointClass": "HitLightL",
+
             "selection": "L svetlo",
+
             "size": 1,
+
             "innerAngle": 30,
+
             "outerAngle": 100,
+
             "coneFadeCoef": 10,
+
             "intensity": 1.5,
+
             "useFlare": 1,
+
             "dayLight": 0,
+
             "flareSize": 0.85,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\LSvetla\Attenuation [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|LSvetla|Attenuation [Indent level: 3],
+
             "Attenuation": {
+
                 "start": 1,
+
                 "constant": 0,
+
                 "linear": 0,
+
                 "quadratic": 0.25,
+
                 "hardLimitStart": 30,
+
                 "hardLimitEnd": 60
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\RSvetla [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|RSvetla [Indent level: 2],
         "RSvetla": {
             "position": "P svetlo",
             "direction": "konec P svetla",
@@ -1745,7 +2179,7 @@ RHS_UAZ_MSV_01 = {
             "useFlare": 1,
             "dayLight": 0,
             "flareSize": 0.85,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\LSvetla\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|LSvetla|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 1,
                 "constant": 0,
@@ -1755,7 +2189,7 @@ RHS_UAZ_MSV_01 = {
                 "hardLimitEnd": 60
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Right2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Right2 [Indent level: 2],
         "Right2": {
             "position": "Light_R_Flare",
             "direction": "Light_R_Flare_end",
@@ -1764,7 +2198,7 @@ RHS_UAZ_MSV_01 = {
             "outerAngle": 179,
             "coneFadeCoef": 51,
             "intensity": 1,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Right2\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Right2|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 0,
                 "constant": 0,
@@ -1782,7 +2216,7 @@ RHS_UAZ_MSV_01 = {
             "dayLight": 0,
             "flareSize": 0.85
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Left2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Left2 [Indent level: 2],
         "Left2": {
             "position": "Light_L_Flare",
             "direction": "Light_L_Flare_end",
@@ -1791,7 +2225,7 @@ RHS_UAZ_MSV_01 = {
             "outerAngle": 179,
             "coneFadeCoef": 51,
             "intensity": 1,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Left2\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Left2|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 0,
                 "constant": 0,
@@ -1809,7 +2243,7 @@ RHS_UAZ_MSV_01 = {
             "dayLight": 0,
             "flareSize": 0.85
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Searchlight [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Searchlight [Indent level: 2],
         "Searchlight": {
             "position": "Searchlight_pos",
             "direction": "Searchlight_dir",
@@ -1826,7 +2260,7 @@ RHS_UAZ_MSV_01 = {
             "intensity": 1.5,
             "dayLight": 0,
             "flareSize": 0.85,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\LSvetla\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|LSvetla|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 1,
                 "constant": 0,
@@ -1836,7 +2270,7 @@ RHS_UAZ_MSV_01 = {
                 "hardLimitEnd": 60
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Left [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Left [Indent level: 2],
         "Long_Left": {
             "color": [800,900,650],
             "ambient": [5,5,5],
@@ -1854,7 +2288,7 @@ RHS_UAZ_MSV_01 = {
             "dayLight": 0,
             "flareSize": 1.5,
             "flareMaxDistance": 750,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Left\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Left|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 1,
                 "constant": 0,
@@ -1864,7 +2298,7 @@ RHS_UAZ_MSV_01 = {
                 "hardLimitEnd": 750
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Right [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Right [Indent level: 2],
         "Long_Right": {
             "position": "Light_R_Long",
             "direction": "Light_R_Long_end",
@@ -1882,7 +2316,7 @@ RHS_UAZ_MSV_01 = {
             "dayLight": 0,
             "flareSize": 1.5,
             "flareMaxDistance": 750,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Left\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Left|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 1,
                 "constant": 0,
@@ -1892,7 +2326,7 @@ RHS_UAZ_MSV_01 = {
                 "hardLimitEnd": 750
             }
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Right2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Right2 [Indent level: 2],
         "Long_Right2": {
             "useFlare": 1,
             "position": "light_R_Long_flare",
@@ -1901,7 +2335,7 @@ RHS_UAZ_MSV_01 = {
             "coneFadeCoef": 51,
             "flareSize": 1,
             "intensity": 1,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Right2\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Right2|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 0,
                 "constant": 0,
@@ -1920,7 +2354,7 @@ RHS_UAZ_MSV_01 = {
             "dayLight": 0,
             "flareMaxDistance": 750
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Left2 [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Left2 [Indent level: 2],
         "Long_Left2": {
             "useFlare": 1,
             "position": "light_L_Long_flare",
@@ -1929,7 +2363,7 @@ RHS_UAZ_MSV_01 = {
             "coneFadeCoef": 51,
             "flareSize": 1,
             "intensity": 1,
-            # Class: CfgVehicles\RHS_UAZ_Base\Reflectors\Long_Left2\Attenuation [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|Reflectors|Long_Left2|Attenuation [Indent level: 3],
             "Attenuation": {
                 "start": 0,
                 "constant": 0,
@@ -1951,25 +2385,35 @@ RHS_UAZ_MSV_01 = {
     },
     "aggregateReflectors": [["LSvetla"],["Left2"],["RSvetla"],["Right2"],["Long_Left2","Long_Right2"]],
     "armorLights": 0.05,
-    # Class: CfgVehicles\RHS_UAZ_Base\RenderTargets [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|RenderTargets [Indent level: 1],
     "RenderTargets": {
-        # Class: CfgVehicles\RHS_UAZ_Base\RenderTargets\LeftMirror [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|RenderTargets|LeftMirror [Indent level: 2],
+
         "LeftMirror": {
+
             "renderTarget": "rendertarget0",
-            # Class: CfgVehicles\RHS_UAZ_Base\RenderTargets\LeftMirror\CameraView1 [Indent level: 3],
+
+            # Class: CfgVehicles|RHS_UAZ_Base|RenderTargets|LeftMirror|CameraView1 [Indent level: 3],
+
             "CameraView1": {
+
                 "pointPosition": "m1p",
+
                 "pointDirection": "m1d",
+
                 "renderQuality": 2,
+
                 "renderVisionMode": 4,
+
                 "fov": 0.7
             },
+
             "BBoxes": ["PIP_1_TL","PIP_1_TR","PIP_1_BL","PIP_1_BR"]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\RenderTargets\RightMirror [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|RenderTargets|RightMirror [Indent level: 2],
         "RightMirror": {
             "renderTarget": "rendertarget1",
-            # Class: CfgVehicles\RHS_UAZ_Base\RenderTargets\RightMirror\CameraView1 [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|RenderTargets|RightMirror|CameraView1 [Indent level: 3],
             "CameraView1": {
                 "pointPosition": "m2p",
                 "pointDirection": "m2d",
@@ -1979,10 +2423,10 @@ RHS_UAZ_MSV_01 = {
             },
             "BBoxes": ["PIP_2_TL","PIP_2_TR","PIP_2_BL","PIP_2_BR"]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\RenderTargets\BackMirror [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|RenderTargets|BackMirror [Indent level: 2],
         "BackMirror": {
             "renderTarget": "rendertarget2",
-            # Class: CfgVehicles\RHS_UAZ_Base\RenderTargets\BackMirror\CameraView1 [Indent level: 3],
+            # Class: CfgVehicles|RHS_UAZ_Base|RenderTargets|BackMirror|CameraView1 [Indent level: 3],
             "CameraView1": {
                 "pointPosition": "m3p",
                 "pointDirection": "m3d",
@@ -1993,20 +2437,29 @@ RHS_UAZ_MSV_01 = {
             "BBoxes": ["PIP_3_TL","PIP_3_TR","PIP_3_BL","PIP_3_BR"]
         }
     },
-    # Class: CfgVehicles\RHS_UAZ_Base\UserActions [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|UserActions [Indent level: 1],
     "UserActions": {
-        # Class: CfgVehicles\RHS_UAZ_Base\UserActions\wiperson [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|UserActions|wiperson [Indent level: 2],
+
         "wiperson": {
+
             "displayName": "Wipers on",
+
             "position": "",
+
             "radius": 2,
+
             "priority": 1.5,
+
             "showWindow": 0,
+
             "onlyForplayer": 1,
+
             "condition": "(player == driver this) AND isengineon (this) AND this animationPhase 'wipers' < 0.5",
+
             "statement": "[this,0] spawn rhs_fnc_wipers"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\UserActions\wipersoff [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|UserActions|wipersoff [Indent level: 2],
         "wipersoff": {
             "displayName": "Wipers off",
             "condition": "(player == driver this) AND this animationPhase 'wipers' > 0.5",
@@ -2017,7 +2470,7 @@ RHS_UAZ_MSV_01 = {
             "showWindow": 0,
             "onlyForplayer": 1
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\UserActions\lights_toggle [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|UserActions|lights_toggle [Indent level: 2],
         "lights_toggle": {
             "displayName": "Toggle short/long lights",
             "position": "",
@@ -2029,7 +2482,7 @@ RHS_UAZ_MSV_01 = {
             "condition": "((call rhs_fnc_findPlayer) == driver this) AND (isLightOn this)",
             "statement": "[this,2] call rhs_fnc_carLightToggle"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\UserActions\searchlight_toggle [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|UserActions|searchlight_toggle [Indent level: 2],
         "searchlight_toggle": {
             "shortcut": "lockTarget",
             "displayName": "Toggle searchlight",
@@ -2041,7 +2494,7 @@ RHS_UAZ_MSV_01 = {
             "onlyForplayer": 1,
             "condition": "((call rhs_fnc_findPlayer) == driver this) AND (isLightOn this)"
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\UserActions\searchlight_adjust [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|UserActions|searchlight_adjust [Indent level: 2],
         "searchlight_adjust": {
             "shortcut": "",
             "displayName": "Adjust searchlight",
@@ -2074,7 +2527,7 @@ RHS_UAZ_MSV_01 = {
     "waterResistance": 1,
     "waterResistanceCoef": 0.2,
     "waterLeakiness": 10,
-    # Class: CfgVehicles\RHS_UAZ_Base\complexGearbox [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|complexGearbox [Indent level: 1],
     "complexGearbox": {
         "GearboxRatios": ["R1",-5.224,"N",0,"D1",3.78,"D2",2.6,"D3",1.55,"D4",1],
         "TransmissionRatios": ["High",5.125],
@@ -2115,37 +2568,63 @@ RHS_UAZ_MSV_01 = {
     "antiRollbarForceLimit": 0.5,
     "antiRollbarSpeedMin": 10,
     "antiRollbarSpeedMax": 80,
-    # Class: CfgVehicles\RHS_UAZ_Base\Wheels [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|Wheels [Indent level: 1],
     "Wheels": {
-        # Class: CfgVehicles\RHS_UAZ_Base\Wheels\LF [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|Wheels|LF [Indent level: 2],
+
         "LF": {
+
             "side": "left",
+
             "boneName": "wheel_1_1_damper",
+
             "center": "wheel_1_1_axis",
+
             "boundary": "wheel_1_1_bound",
+
             "suspForceAppPointOffset": "wheel_1_1_axis",
+
             "tireForceAppPointOffset": "wheel_1_1_axis",
+
             "suspTravelDirection": [-0.125,-1,0],
+
             "steering": 1,
+
             "width": 0.16,
+
             "mass": 20,
+
             "MOI": 24,
+
             "dampingRate": 0.1,
+
             "dampingRateDamaged": 1,
+
             "dampingRateDestroyed": 1000,
+
             "maxBrakeTorque": 2000,
+
             "maxHandBrakeTorque": 0,
+
             "maxCompression": 0.2,
+
             "maxDroop": 0.1,
+
             "sprungMass": -1,
+
             "springStrength": 14000,
+
             "springDamperRate": 2400,
+
             "longitudinalStiffnessPerUnitGravity": 10000,
+
             "latStiffX": 2.5,
+
             "latStiffY": 18,
+
             "frictionVsSlipGraph": [[0,1.2],[0.5,1.13],[1,1]]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Wheels\LR [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Wheels|LR [Indent level: 2],
         "LR": {
             "boneName": "wheel_1_2_damper",
             "steering": 0,
@@ -2173,7 +2652,7 @@ RHS_UAZ_MSV_01 = {
             "latStiffY": 18,
             "frictionVsSlipGraph": [[0,1.2],[0.5,1.13],[1,1]]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Wheels\RF [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Wheels|RF [Indent level: 2],
         "RF": {
             "boneName": "wheel_2_1_damper",
             "center": "wheel_2_1_axis",
@@ -2201,7 +2680,7 @@ RHS_UAZ_MSV_01 = {
             "latStiffY": 18,
             "frictionVsSlipGraph": [[0,1.2],[0.5,1.13],[1,1]]
         },
-        # Class: CfgVehicles\RHS_UAZ_Base\Wheels\RR [Indent level: 2],
+        # Class: CfgVehicles|RHS_UAZ_Base|Wheels|RR [Indent level: 2],
         "RR": {
             "boneName": "wheel_2_2_damper",
             "steering": 0,
@@ -2230,18 +2709,22 @@ RHS_UAZ_MSV_01 = {
             "frictionVsSlipGraph": [[0,1.2],[0.5,1.13],[1,1]]
         }
     },
-    # Class: CfgVehicles\RHS_UAZ_Base\EventHandlers [Indent level: 1],
+    # Class: CfgVehicles|RHS_UAZ_Base|EventHandlers [Indent level: 1],
     "EventHandlers": {
-        # Class: CfgVehicles\RHS_UAZ_Base\EventHandlers\RHS_EventHandlers [Indent level: 2]
+        # Class: CfgVehicles|RHS_UAZ_Base|EventHandlers|RHS_EventHandlers [Indent level: 2],
+
         "RHS_EventHandlers": {
+
             "init": "_this call rhs_fnc_a2port_car_init",
+
             "engine": "if(_this select 1)then{_this call RHS_fnc_gearSound};",
+
             "dammaged": "_this call rhs_fnc_wheelDamaged"
         },
         "init": "",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers\RHS_DefaultEventhandlers [Indent level: 0],
+        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
         "RHS_DefaultEventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
@@ -2291,7 +2774,7 @@ RHS_UAZ_MSV_01 = {
     "soundBushCrash": ["BushCrash1",0.25,"BushCrash2",0.25,"BushCrash3",0.25,"BushCrash4",0.25],
     "_generalMacro": "Offroad_01_base_F",
     "nameSound": "veh_car",
-    # Class: CfgVehicles\Offroad_01_base_F\Library [Indent level: 1],
+    # Class: CfgVehicles|Offroad_01_base_F|Library [Indent level: 1],
     "Library": {
         "libTextDesc": "The 4x4 pickup by Generic Motors is a perfect choice for farmers and hunters. The durable chassis and powerful engine have been designed to withstand anything from the cratered highways of Central Europe to the rugged terrain of the Mediterranean. The armed version is fitted either with a .50 caliber heavy machine gun or an anti-tank recoilless rifle. It provides the combination of mobility and firepower to many paramilitary and guerilla forces in local conflicts around the globe. Specialized versions, which sport a hard rear cover and rack-mounted communications equipment, are in use by law enforcement, national park rangers, and armed forces. These vehicles feature a large floodlight, loudspeakers, and long-range antennas."
     },
@@ -2299,11 +2782,14 @@ RHS_UAZ_MSV_01 = {
     "memoryPointTaskMarker": "TaskMarker_1_pos",
     "unitInfoType": "RscUnitInfoNoWeapon",
     "maximumLoad": 2500,
-    # Class: CfgVehicles\Offroad_01_base_F\TransportItems [Indent level: 1],
+    # Class: CfgVehicles|Offroad_01_base_F|TransportItems [Indent level: 1],
     "TransportItems": {
-        # Class: CfgVehicles\Offroad_01_base_F\TransportItems\_xx_FirstAidKit [Indent level: 2]
+        # Class: CfgVehicles|Offroad_01_base_F|TransportItems|_xx_FirstAidKit [Indent level: 2],
+
         "_xx_FirstAidKit": {
+
             "name": "FirstAidKit",
+
             "count": 4
         }
     },
@@ -2311,7 +2797,7 @@ RHS_UAZ_MSV_01 = {
     "extCameraPosition": [0,2,-8.75],
     "camShakeCoef": 0.8,
     "wheelDamageThreshold": 0.0416667,
-    # Class: CfgVehicles\Offroad_01_base_F\PlayerSteeringCoefficients [Indent level: 1],
+    # Class: CfgVehicles|Offroad_01_base_F|PlayerSteeringCoefficients [Indent level: 1],
     "PlayerSteeringCoefficients": {
         "turnIncreaseConst": 0.7,
         "turnIncreaseLinear": 2.5,
@@ -2342,7 +2828,7 @@ RHS_UAZ_MSV_01 = {
     "driverCanSee": "1 + 2 + 4 + 8 + 32",
     "gunnerCanSee": "1 + 2 + 4 + 8 + 32",
     "commanderCanSee": "1 + 2 + 4 + 8 + 32",
-    # Class: CfgVehicles\Car_F\ViewPilot [Indent level: 1],
+    # Class: CfgVehicles|Car_F|ViewPilot [Indent level: 1],
     "ViewPilot": {
         "initFov": 0.9,
         "minFov": 0.25,
@@ -2363,7 +2849,7 @@ RHS_UAZ_MSV_01 = {
         "speedZoomMaxFOV": 0
     },
     "headGforceLeaningFactor": [0.01,0.01,0.015],
-    # Class: CfgVehicles\Car_F\NewTurret [Indent level: 1],
+    # Class: CfgVehicles|Car_F|NewTurret [Indent level: 1],
     "NewTurret": {
         "body": "mainTurret",
         "gun": "mainGun",
@@ -2406,7 +2892,7 @@ RHS_UAZ_MSV_01 = {
         "gunnerGetOutAction": "",
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -2427,7 +2913,7 @@ RHS_UAZ_MSV_01 = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -2468,11 +2954,11 @@ RHS_UAZ_MSV_01 = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -2493,126 +2979,129 @@ RHS_UAZ_MSV_01 = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -2633,16 +3122,19 @@ RHS_UAZ_MSV_01 = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -2663,27 +3155,37 @@ RHS_UAZ_MSV_01 = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -2693,10 +3195,10 @@ RHS_UAZ_MSV_01 = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -2734,11 +3236,11 @@ RHS_UAZ_MSV_01 = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -2754,14 +3256,20 @@ RHS_UAZ_MSV_01 = {
         "showCrewAim": 0
     },
     "holdOffroadFormation": 1,
-    # Class: CfgVehicles\Car_F\NVGMarkers [Indent level: 1],
+    # Class: CfgVehicles|Car_F|NVGMarkers [Indent level: 1],
     "NVGMarkers": {
-        # Class: CfgVehicles\Car_F\NVGMarkers\NVGMarker01 [Indent level: 2]
+        # Class: CfgVehicles|Car_F|NVGMarkers|NVGMarker01 [Indent level: 2],
+
         "NVGMarker01": {
+
             "name": "nvg_marker",
+
             "color": [0.03,0.003,0.003,1],
+
             "ambient": [0.003,0.0003,0.0003,1],
+
             "brightness": 0.001,
+
             "blinking": 1
         }
     },
@@ -2784,13 +3292,13 @@ RHS_UAZ_MSV_01 = {
     "transportMaxMagazines": 64,
     "supplyRadius": -1,
     "memoryPointSupply": "doplnovani",
-    # Class: CfgVehicles\Car_F\TransportBackpacks [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportBackpacks [Indent level: 1],
     "TransportBackpacks": {
     },
-    # Class: CfgVehicles\Car_F\TransportMagazines [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportMagazines [Indent level: 1],
     "TransportMagazines": {
     },
-    # Class: CfgVehicles\Car_F\TransportWeapons [Indent level: 1],
+    # Class: CfgVehicles|Car_F|TransportWeapons [Indent level: 1],
     "TransportWeapons": {
     },
     "brakeTorque": 6000,
@@ -2800,40 +3308,62 @@ RHS_UAZ_MSV_01 = {
     "wheelMask": "wheel_X_X",
     "numberPhysicalWheels": 4,
     "maxGForce": 3,
-    # Class: CfgVehicles\Car_F\camShakeGForce [Indent level: 1],
+    # Class: CfgVehicles|Car_F|camShakeGForce [Indent level: 1],
     "camShakeGForce": {
         "power": 2,
         "frequency": 60,
         "distance": 0,
         "minSpeed": 60
     },
-    # Class: CfgVehicles\Car_F\Components [Indent level: 1],
+    # Class: CfgVehicles|Car_F|Components [Indent level: 1],
     "Components": {
-        # Class: CfgVehicles\Car\Components\AICarSteeringComponent [Indent level: 2]
+        # Class: CfgVehicles|Car|Components|AICarSteeringComponent [Indent level: 2],
+
         "AICarSteeringComponent": {
+
             "steeringPIDWeights": [2.9,0.1,0.2],
+
             "speedPIDWeights": [0.7,0.2,0],
+
             "convoyPIDWeights": [1,0.01,0.01],
+
             "doRemapSpeed": 1,
+
             "remapSpeedRange": [30,70],
+
             "remapSpeedScalar": [1,0.35],
+
             "doPredictForward": 1,
+
             "predictForwardRange": [1,20],
+
             "steerAheadSaturation": [0.01,0.4],
+
             "speedPredictionMethod": 2,
+
             "wheelAngleCoef": 0.7,
+
             "forwardAngleCoef": 0.7,
+
             "steeringAngleCoef": 1,
+
             "differenceAngleCoef": 0.4,
+
             "stuckMaxTime": 3,
+
             "allowOvertaking": 1,
+
             "allowDrifting": 0,
+
             "allowCollisionAvoidance": 1,
+
             "maxWheelAngleDiff": 0.2616,
+
             "minSpeedToKeep": 0.1,
+
             "commandTurnFactor": 1
         },
-        # Class: CfgVehicles\LandVehicle\Components\TransportCountermeasuresComponent [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|Components|TransportCountermeasuresComponent [Indent level: 2],
         "TransportCountermeasuresComponent": {
         }
     },
@@ -2841,7 +3371,7 @@ RHS_UAZ_MSV_01 = {
     "canFloat": 0,
     "limitedSpeedCoef": 0.5,
     "hullDamageCauseExplosion": 1,
-    # Class: CfgVehicles\Car\PlateInfos [Indent level: 1],
+    # Class: CfgVehicles|Car|PlateInfos [Indent level: 1],
     "PlateInfos": {
         "name": "spz",
         "color": [0,0,0,0.75]
@@ -2862,11 +3392,14 @@ RHS_UAZ_MSV_01 = {
     "inputTurnCurve": [[0,[0,0,1,1]],[30,[0,0,0.2,0.008,0.4,0.032,0.6,0.216,0.8,0.512,1,1]]],
     "enableGPS": 0,
     "soundEngine": ["",1.77828,0.9],
-    # Class: CfgVehicles\Car\SpeechVariants [Indent level: 1],
+    # Class: CfgVehicles|Car|SpeechVariants [Indent level: 1],
     "SpeechVariants": {
-        # Class: CfgVehicles\Car\SpeechVariants\Default [Indent level: 2]
+        # Class: CfgVehicles|Car|SpeechVariants|Default [Indent level: 2],
+
         "Default": {
+
             "speechSingular": ["veh_vehicle_car_s"],
+
             "speechPlural": ["veh_vehicle_car_p"]
         }
     },
@@ -2875,19 +3408,27 @@ RHS_UAZ_MSV_01 = {
     "memoryPointTaskMarkerOffset": [0,0.3,0],
     "rightDustEffects": [["GdtKLDirt","RDustEffects"],["GdtKLGrass1","RDustEffects"],["GdtKLGrass1","RGrassEffects"],["GdtKLGrass2","RDustEffects"],["GdtKLGrass2","RGrassEffects"],["GdtKLForestCon","RDustEffects"],["GdtKLForestDec","RDustEffects"],["GdtKlMud","RDustEffects"],["GdtKlSoil","RDustEffects"],["GdtKlTarmac","RDustEffects"],["GdtKlStubble","RDustEffects"],["GdtKlStones","RStonesEffects"],["SurfRoadDirt_Enoch","RDustEffects"],["SurfTrailDirt_Enoch","RDustEffects"],["SurfRoadTarmac1_Enoch","RDustEffects"],["SurfRoadTarmac2_Enoch","RDustEffects"],["SurfRoadTarmac3_Enoch","RDustEffects"],["GdtGrassShort","RDustEffects"],["GdtGrassShort","RGrassEffects"],["GdtGrassTall","RDustEffects"],["GdtGrassTall","RGrassEffects"],["GdtRedDirt","RDustEffectsRed"],["GdtField","RDustEffects"],["GdtForest","RDustEffects"],["GdtVolcano","RDustEffects"],["GdtVolcano","RStonesEffects"],["GdtCliff","RDustEffects"],["GdtVolcanoBeach","RDustEffects"],["SurfRoadDirt_exp","RDustEffectsRed"],["SurfRoadConcrete_exp","RDustEffects"],["SurfRoadTarmac_exp","RDustEffects"],["GdtStratisConcrete","RDustEffects"],["GdtStratisConcrete","RDirtEffects"],["GdtStratisBeach","RDustEffects"],["GdtStratisBeach","RStonesEffects"],["GdtStratisDirt","RDustEffects"],["GdtStratisDirt","RDirtEffects"],["GdtStratisSeabedCluttered","RDustEffects"],["GdtStratisSeabed","RDustEffects"],["GdtStratisDryGrass","RDustEffects"],["GdtStratisDryGrass","RGrassDryEffects"],["GdtStratisDryGrass","RDirtEffects"],["GdtStratisGreenGrass","RDustEffects"],["GdtStratisGreenGrass","RGrassEffects"],["GdtStratisGreenGrass","RDirtEffects"],["GdtStratisRocky","RDustEffects"],["GdtStratisRocky","RGrassEffects"],["GdtStratisRocky","RDirtEffects"],["GdtStratisThistles","RDustEffects"],["GdtStratisThistles","RGrassEffects"],["GdtStratisThistles","RDirtEffects"],["GdtConcrete","RDustEffects"],["GdtConcrete","RDirtEffects"],["GdtAsphalt","RDustEffects"],["GdtAsphalt","RDirtEffects"],["GdtRubble","RDustEffects"],["GdtRubble","RDirtEffects"],["GdtSoil","RDustEffects"],["GdtSoil","RDirtEffects"],["GdtBeach","RDustEffects"],["GdtBeach","RStonesEffects"],["GdtRock","RDustEffects"],["GdtRock","RDirtEffects"],["GdtDead","RDustEffects"],["GdtDead","RDirtEffects"],["Default","RDustEffects"],["GdtDesert","RDustEffects"],["GdtDesert","RStonesEffects"],["GdtDesert1","RDustEffects"],["GdtDesert1","RSandEffects"],["GdtDesert1","RDirtEffects"],["GdtDesert1","RStonesEffects"],["GdtDesert2","RDustEffects"],["GdtDesert2","RSandEffects"],["GdtDesert2","RGrassEffects"],["GdtDesert2","RDirtEffects"],["GdtDirt","RDustEffects"],["GdtDirt","RDirtEffects"],["GdtGrassGreen","RDustEffects"],["GdtGrassGreen","RGrassEffects"],["GdtGrassGreen","RDirtEffects"],["GdtGrassDry","RDustEffects"],["GdtGrassDry","RGrassDryEffects"],["GdtGrassDry","RDirtEffects"],["GdtGrassWild","RDustEffects"],["GdtGrassWild","RGrassEffects"],["GdtGrassWild","RDirtEffects"],["GdtWildField","RDustEffects"],["GdtWildField","RGrassEffects"],["GdtWildField","RDirtEffects"],["GdtWeed1","RDustEffects"],["GdtWeed1","RGrassEffects"],["GdtWeed1","RDirtEffects"],["GdtWeed2","RDustEffects"],["GdtWeed2","RGrassEffects"],["GdtWeed2","RDirtEffects"],["GdtThorn","RDustEffects"],["GdtThorn","RGrassEffects"],["GdtThorn","RDirtEffects"],["GdtStony","RDustEffects"],["GdtStony","RGrassEffects"],["GdtStony","RDirtEffects"],["GdtStonyGreen","RDustEffects"],["GdtStonyGreen","RGrassEffects"],["GdtStonyGreen","RDirtEffects"],["GdtStonyThistle","RDustEffects"],["GdtStonyThistle","RGrassEffects"],["GdtStonyThistle","RDirtEffects"],["GdtSeabedDeep","RDustEffects"],["GdtSeabed","RDustEffects"],["SurfRoadDirt","RDustEffects"],["SurfRoadConcrete","RDustEffects"],["SurfRoadTarmac","RDustEffects"],["SurfWood","RDustEffects"],["SurfMetal","RDustEffects"],["SurfRoofTin","RDustEffects"],["SurfRoofTiles","RDustEffects"],["SurfIntWood","RDustEffects"],["SurfIntConcrete","RDustEffects"],["SurfIntTiles","RDustEffects"],["SurfIntMetal","RDustEffects"],["dirtrunway","RDustEffects"]],
     "leftDustEffects": [["GdtKLDirt","LDustEffects"],["GdtKLGrass1","LDustEffects"],["GdtKLGrass1","LGrassEffects"],["GdtKLGrass2","LDustEffects"],["GdtKLGrass2","LGrassEffects"],["GdtKLForestCon","LDustEffects"],["GdtKLForestDec","LDustEffects"],["GdtKlMud","LDustEffects"],["GdtKlSoil","LDustEffects"],["GdtKlTarmac","LDustEffects"],["GdtKlStubble","LDustEffects"],["GdtKlStones","LStonesEffects"],["SurfRoadDirt_Enoch","LDustEffects"],["SurfTrailDirt_Enoch","LDustEffects"],["SurfRoadTarmac1_Enoch","LDustEffects"],["SurfRoadTarmac2_Enoch","LDustEffects"],["SurfRoadTarmac3_Enoch","LDustEffects"],["GdtGrassShort","LDustEffects"],["GdtGrassShort","LGrassEffects"],["GdtGrassTall","LDustEffects"],["GdtGrassTall","LGrassEffects"],["GdtRedDirt","LDustEffectsRed"],["GdtField","LDustEffects"],["GdtForest","LDustEffects"],["GdtVolcano","LDustEffects"],["GdtVolcano","LStonesEffects"],["GdtCliff","LDustEffects"],["GdtVolcanoBeach","LDustEffects"],["SurfRoadDirt_exp","LDustEffectsRed"],["SurfRoadConcrete_exp","LDustEffects"],["SurfRoadTarmac_exp","LDustEffects"],["GdtStratisConcrete","LDustEffects"],["GdtStratisConcrete","LDirtEffects"],["GdtStratisBeach","LDustEffects"],["GdtStratisBeach","LStonesEffects"],["GdtStratisDirt","LDustEffects"],["GdtStratisDirt","LDirtEffects"],["GdtStratisSeabedCluttered","LDustEffects"],["GdtStratisSeabed","LDustEffects"],["GdtStratisDryGrass","LDustEffects"],["GdtStratisDryGrass","LGrassDryEffects"],["GdtStratisDryGrass","LDirtEffects"],["GdtStratisGreenGrass","LDustEffects"],["GdtStratisGreenGrass","LGrassEffects"],["GdtStratisGreenGrass","LDirtEffects"],["GdtStratisRocky","LDustEffects"],["GdtStratisRocky","LGrassEffects"],["GdtStratisRocky","LDirtEffects"],["GdtStratisThistles","LDustEffects"],["GdtStratisThistles","LGrassEffects"],["GdtStratisThistles","LDirtEffects"],["GdtConcrete","LDustEffects"],["GdtConcrete","LDirtEffects"],["GdtAsphalt","LDustEffects"],["GdtAsphalt","LDirtEffects"],["GdtRubble","LDustEffects"],["GdtRubble","LGrassEffects"],["GdtRubble","LDirtEffects"],["GdtSoil","LDustEffects"],["GdtSoil","LDirtEffects"],["GdtBeach","LDustEffects"],["GdtBeach","LStonesEffects"],["GdtRock","LDustEffects"],["GdtRock","LDirtEffects"],["GdtDead","LDustEffects"],["GdtDead","LDirtEffects"],["Default","LDustEffects"],["GdtDesert","LDustEffects"],["GdtDesert","LStonesEffects"],["GdtDesert1","LDustEffects"],["GdtDesert1","LSandEffects"],["GdtDesert1","LDirtEffects"],["GdtDesert1","LStonesEffects"],["GdtDesert2","LDustEffects"],["GdtDesert2","LSandEffects"],["GdtDesert2","LGrassEffects"],["GdtDesert2","LDirtEffects"],["GdtDirt","LDustEffects"],["GdtDirt","LDirtEffects"],["GdtGrassGreen","LDustEffects"],["GdtGrassGreen","LGrassEffects"],["GdtGrassGreen","LDirtEffects"],["GdtGrassDry","LDustEffects"],["GdtGrassDry","LGrassDryEffects"],["GdtGrassDry","LDirtEffects"],["GdtGrassWild","LDustEffects"],["GdtGrassWild","LGrassEffects"],["GdtGrassWild","LDirtEffects"],["GdtWildField","LDustEffects"],["GdtWildField","LGrassEffects"],["GdtWildField","LDirtEffects"],["GdtWeed1","LDustEffects"],["GdtWeed1","LGrassEffects"],["GdtWeed1","LDirtEffects"],["GdtWeed2","LDustEffects"],["GdtWeed2","LGrassEffects"],["GdtWeed2","LDirtEffects"],["GdtThorn","LDustEffects"],["GdtThorn","LGrassEffects"],["GdtThorn","LDirtEffects"],["GdtStony","LDustEffects"],["GdtStony","LGrassEffects"],["GdtStony","LDirtEffects"],["GdtStonyGreen","LDustEffects"],["GdtStonyGreen","LGrassEffects"],["GdtStonyGreen","LDirtEffects"],["GdtStonyThistle","LDustEffects"],["GdtStonyThistle","LGrassEffects"],["GdtStonyThistle","LDirtEffects"],["GdtSeabedDeep","LDustEffects"],["GdtSeabed","LDustEffects"],["SurfRoadDirt","LDustEffects"],["SurfRoadConcrete","LDustEffects"],["SurfRoadTarmac","LDustEffects"],["SurfWood","LDustEffects"],["SurfMetal","LDustEffects"],["SurfRoofTin","LDustEffects"],["SurfRoofTiles","LDustEffects"],["SurfIntWood","LDustEffects"],["SurfIntConcrete","LDustEffects"],["SurfIntTiles","LDustEffects"],["SurfIntMetal","LDustEffects"],["dirtrunway","LDustEffects"]],
-    # Class: CfgVehicles\Car\DestructionEffects [Indent level: 1],
+    # Class: CfgVehicles|Car|DestructionEffects [Indent level: 1],
     "DestructionEffects": {
-        # Class: CfgVehicles\Car\DestructionEffects\Light1 [Indent level: 2]
+        # Class: CfgVehicles|Car|DestructionEffects|Light1 [Indent level: 2],
+
         "Light1": {
+
             "simulation": "light",
+
             "type": "ObjectDestructionLight",
+
             "position": "destructionEffect1",
+
             "intensity": 0.001,
+
             "interval": 1,
+
             "lifeTime": 3,
+
             "enabled": "distToWater"
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Sound [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Sound [Indent level: 2],
         "Sound": {
             "simulation": "sound",
             "position": "destructionEffect1",
@@ -2896,7 +3437,7 @@ RHS_UAZ_MSV_01 = {
             "lifeTime": 1,
             "type": "Fire"
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Fire1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Fire1 [Indent level: 2],
         "Fire1": {
             "simulation": "particles",
             "type": "ObjectDestructionFire1Small",
@@ -2905,7 +3446,7 @@ RHS_UAZ_MSV_01 = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Refract1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Refract1 [Indent level: 2],
         "Refract1": {
             "simulation": "particles",
             "type": "ObjectDestructionRefractSmall",
@@ -2914,7 +3455,7 @@ RHS_UAZ_MSV_01 = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Smoke1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Smoke1 [Indent level: 2],
         "Smoke1": {
             "simulation": "particles",
             "type": "ObjectDestructionSmokeSmall",
@@ -2923,7 +3464,7 @@ RHS_UAZ_MSV_01 = {
             "interval": 1,
             "lifeTime": 3.5
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Sparks1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Sparks1 [Indent level: 2],
         "Sparks1": {
             "simulation": "particles",
             "type": "ObjectDestructionSparks",
@@ -2932,7 +3473,7 @@ RHS_UAZ_MSV_01 = {
             "interval": 1,
             "lifeTime": 0
         },
-        # Class: CfgVehicles\Car\DestructionEffects\FireSparks1 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|FireSparks1 [Indent level: 2],
         "FireSparks1": {
             "simulation": "particles",
             "type": "FireSparks",
@@ -2941,7 +3482,7 @@ RHS_UAZ_MSV_01 = {
             "interval": 1,
             "lifeTime": 2.8
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Fire2 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Fire2 [Indent level: 2],
         "Fire2": {
             "simulation": "particles",
             "type": "ObjectDestructionFire2Small",
@@ -2950,7 +3491,7 @@ RHS_UAZ_MSV_01 = {
             "interval": 1,
             "lifeTime": 3
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Smoke1_2 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Smoke1_2 [Indent level: 2],
         "Smoke1_2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke1_2Small",
@@ -2959,7 +3500,7 @@ RHS_UAZ_MSV_01 = {
             "interval": 1,
             "lifeTime": 3.5
         },
-        # Class: CfgVehicles\Car\DestructionEffects\Smoke2 [Indent level: 2],
+        # Class: CfgVehicles|Car|DestructionEffects|Smoke2 [Indent level: 2],
         "Smoke2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke2",
@@ -2985,7 +3526,7 @@ RHS_UAZ_MSV_01 = {
     "selectionLeftOffset": "PasOffsetL",
     "selectionRightOffset": "PasOffsetP",
     "explosionEffect": "FuelExplosion",
-    # Class: CfgVehicles\LandVehicle\CommanderOptics [Indent level: 1],
+    # Class: CfgVehicles|LandVehicle|CommanderOptics [Indent level: 1],
     "CommanderOptics": {
         "proxyType": "CPCommander",
         "proxyIndex": 1,
@@ -3027,7 +3568,7 @@ RHS_UAZ_MSV_01 = {
         "gunnerGetOutAction": "GetOutHigh",
         "memoryPointGun": "gun_muzzle",
         "selectionFireAnim": "zasleh_1",
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -3047,7 +3588,7 @@ RHS_UAZ_MSV_01 = {
             "speedZoomMaxSpeed": 1e+010,
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\LandVehicle\CommanderOptics\ViewGunner [Indent level: 2],
+        # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewGunner [Indent level: 2],
         "ViewGunner": {
             "initAngleX": 5,
             "minAngleX": -75,
@@ -3086,7 +3627,7 @@ RHS_UAZ_MSV_01 = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -3116,11 +3657,11 @@ RHS_UAZ_MSV_01 = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -3141,126 +3682,129 @@ RHS_UAZ_MSV_01 = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -3281,16 +3825,19 @@ RHS_UAZ_MSV_01 = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -3311,27 +3858,37 @@ RHS_UAZ_MSV_01 = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
         "HitPoints": {
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitTurret [Indent level: 3]
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3],
+
             "HitTurret": {
+
                 "armor": 0.8,
+
                 "material": 51,
+
                 "name": "turret",
+
                 "visual": "turret",
+
                 "passThrough": 1,
+
                 "explosionShielding": 1
             },
-            # Class: CfgVehicles\AllVehicles\NewTurret\HitPoints\HitGun [Indent level: 3],
+            # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
             "HitGun": {
                 "armor": 0.6,
                 "material": 52,
@@ -3341,7 +3898,7 @@ RHS_UAZ_MSV_01 = {
                 "explosionShielding": 1
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
         "forceNVG": 0,
@@ -3362,11 +3919,11 @@ RHS_UAZ_MSV_01 = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -3379,7 +3936,7 @@ RHS_UAZ_MSV_01 = {
     "weaponsGroup2": "2 + 		4",
     "weaponsGroup3": "8 + 	16 + 	32",
     "weaponsGroup4": "64 + 		128",
-    # Class: CfgVehicles\AllVehicles\SquadTitles [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SquadTitles [Indent level: 1],
     "SquadTitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
@@ -3397,7 +3954,7 @@ RHS_UAZ_MSV_01 = {
     "selectionDashboard": "podsvit pristroju",
     "selectionShowDamage": "poskozeni",
     "selectionBackLights": "zadni svetlo",
-    # Class: CfgVehicles\AllVehicles\ViewCargo [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewCargo [Indent level: 1],
     "ViewCargo": {
         "initAngleX": 5,
         "minAngleX": -75,
@@ -3417,7 +3974,7 @@ RHS_UAZ_MSV_01 = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\ViewOptics [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|ViewOptics [Indent level: 1],
     "ViewOptics": {
         "initAngleX": 0,
         "minAngleX": -30,
@@ -3437,21 +3994,23 @@ RHS_UAZ_MSV_01 = {
         "speedZoomMaxSpeed": 1e+010,
         "speedZoomMaxFOV": 0
     },
-    # Class: CfgVehicles\AllVehicles\PilotSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|PilotSpec [Indent level: 1],
     "PilotSpec": {
         "showHeadPhones": 0
     },
-    # Class: CfgVehicles\AllVehicles\CargoSpec [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoSpec [Indent level: 1],
     "CargoSpec": {
-        # Class: CfgVehicles\AllVehicles\CargoSpec\Cargo1 [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoSpec|Cargo1 [Indent level: 2],
+
         "Cargo1": {
+
             "showHeadPhones": 0
         }
     },
-    # Class: CfgVehicles\AllVehicles\MFD [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|MFD [Indent level: 1],
     "MFD": {
     },
-    # Class: CfgVehicles\AllVehicles\SoundEvents [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|SoundEvents [Indent level: 1],
     "SoundEvents": {
     },
     "cargoProxyIndexes": [],
@@ -3464,29 +4023,47 @@ RHS_UAZ_MSV_01 = {
     "impactEffectsSea": "ImpactEffectsSea",
     "impactEffectSpeedLimit": 8,
     "showCrewAim": 0,
-    # Class: CfgVehicles\AllVehicles\CargoTurret [Indent level: 1],
+    # Class: CfgVehicles|AllVehicles|CargoTurret [Indent level: 1],
     "CargoTurret": {
-        # Class: CfgVehicles\AllVehicles\CargoTurret\ViewGunner [Indent level: 2]
+        # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
+
         "ViewGunner": {
+
             "initAngleX": 5,
+
             "minAngleX": -75,
+
             "maxAngleX": 85,
+
             "initAngleY": 0,
+
             "minAngleY": -150,
+
             "maxAngleY": 150,
+
             "minFov": 0.25,
+
             "maxFov": 1.25,
+
             "initFov": 0.75,
+
             "minMoveX": 0,
+
             "maxMoveX": 0,
+
             "minMoveY": 0,
+
             "maxMoveY": 0,
+
             "minMoveZ": 0,
+
             "maxMoveZ": 0,
+
             "speedZoomMaxSpeed": 1e+010,
+
             "speedZoomMaxFOV": 0
         },
-        # Class: CfgVehicles\AllVehicles\CargoTurret\Hitpoints [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|CargoTurret|Hitpoints [Indent level: 2],
         "Hitpoints": {
         },
         "animationSourceBody": "",
@@ -3543,7 +4120,7 @@ RHS_UAZ_MSV_01 = {
         "hasGunner": 1,
         "turretCanSee": 0,
         "canUseScanners": 1,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurretSpec [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
         "TurretSpec": {
             "showHeadPhones": 0
         },
@@ -3580,11 +4157,11 @@ RHS_UAZ_MSV_01 = {
         "missileBeg": "spice rakety",
         "missileEnd": "konec rakety",
         "armorLights": 0.4,
-        # Class: CfgVehicles\AllVehicles\NewTurret\Reflectors [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
         "Reflectors": {
         },
         "aggregateReflectors": [],
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunFire [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
         "GunFire": {
             "access": 0,
             "cloudletDuration": 0.2,
@@ -3605,126 +4182,129 @@ RHS_UAZ_MSV_01 = {
             "timeToLive": 0,
             "initT": 4500,
             "deltaT": -3000,
-            # Class: WeaponFireGun\Table [Indent level: 0],
+            # Class: WeaponFireGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+                # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [0.82,0.95,0.93,0]
                 },
-                # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T1 [Indent level: 1],
                 "T1": {
                     "maxT": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
-                # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T2 [Indent level: 1],
                 "T2": {
                     "maxT": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
-                # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T3 [Indent level: 1],
                 "T3": {
                     "maxT": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
-                # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T4 [Indent level: 1],
                 "T4": {
                     "maxT": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
-                # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T5 [Indent level: 1],
                 "T5": {
                     "maxT": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
-                # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T6 [Indent level: 1],
                 "T6": {
                     "maxT": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
-                # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T7 [Indent level: 1],
                 "T7": {
                     "maxT": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
-                # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T8 [Indent level: 1],
                 "T8": {
                     "maxT": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
-                # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T9 [Indent level: 1],
                 "T9": {
                     "maxT": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
-                # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T10 [Indent level: 1],
                 "T10": {
                     "maxT": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T11 [Indent level: 1],
                 "T11": {
                     "maxT": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
-                # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T12 [Indent level: 1],
                 "T12": {
                     "maxT": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T13 [Indent level: 1],
                 "T13": {
                     "maxT": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
-                # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T14 [Indent level: 1],
                 "T14": {
                     "maxT": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
-                # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T15 [Indent level: 1],
                 "T15": {
                     "maxT": 2850,
                     "color": [1,0.6,0.2,0]
                 },
-                # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T16 [Indent level: 1],
                 "T16": {
                     "maxT": 2900,
                     "color": [1,0.71,0.3,0]
                 },
-                # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T17 [Indent level: 1],
                 "T17": {
                     "maxT": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
-                # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T18 [Indent level: 1],
                 "T18": {
                     "maxT": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
-                # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T19 [Indent level: 1],
                 "T19": {
                     "maxT": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
-                # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T20 [Indent level: 1],
                 "T20": {
                     "maxT": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
-                # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T21 [Indent level: 1],
                 "T21": {
                     "maxT": 3600,
                     "color": [1,0.98,0.91,0]
                 },
-                # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+                # Class: WeaponFireGun|Table|T22 [Indent level: 1],
                 "T22": {
                     "maxT": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\GunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
         "GunClouds": {
             "access": 0,
             "cloudletDuration": 0.3,
@@ -3745,16 +4325,19 @@ RHS_UAZ_MSV_01 = {
             "timeToLive": 0,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsGun\Table [Indent level: 0],
+            # Class: WeaponCloudsGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\MGunClouds [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
         "MGunClouds": {
             "access": 0,
             "cloudletGrowUp": 0.05,
@@ -3775,19 +4358,22 @@ RHS_UAZ_MSV_01 = {
             "sourceSize": 0.02,
             "initT": 0,
             "deltaT": 0,
-            # Class: WeaponCloudsMGun\Table [Indent level: 0],
+            # Class: WeaponCloudsMGun|Table [Indent level: 0],
             "Table": {
-                # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+                # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
                 "T0": {
+
                     "maxT": 0,
+
                     "color": [1,1,1,0]
                 }
             }
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\Turrets [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
         "Turrets": {
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\ViewOptics [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
         "ViewOptics": {
             "initAngleX": 0,
             "minAngleX": -30,
@@ -3820,11 +4406,11 @@ RHS_UAZ_MSV_01 = {
         "playerPosition": 0,
         "allowLauncherIn": 0,
         "allowLauncherOut": 0,
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnIn [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
         "TurnIn": {
             "turnOffset": 0
         },
-        # Class: CfgVehicles\AllVehicles\NewTurret\TurnOut [Indent level: 2],
+        # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
         "TurnOut": {
             "turnOffset": 0
         },
@@ -3921,10 +4507,10 @@ RHS_UAZ_MSV_01 = {
     "showNVGCommander": 0,
     "showNVGGunner": 0,
     "countsForScoreboard": 1,
-    # Class: CfgVehicles\All\MarkerLights [Indent level: 1],
+    # Class: CfgVehicles|All|MarkerLights [Indent level: 1],
     "MarkerLights": {
     },
-    # Class: CfgVehicles\All\NVGMarker [Indent level: 1],
+    # Class: CfgVehicles|All|NVGMarker [Indent level: 1],
     "NVGMarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
@@ -3932,7 +4518,7 @@ RHS_UAZ_MSV_01 = {
         "blinking": 0,
         "onlyInNvg": 0
     },
-    # Class: CfgVehicles\All\HeadLimits [Indent level: 1],
+    # Class: CfgVehicles|All|HeadLimits [Indent level: 1],
     "HeadLimits": {
         "initAngleX": 5,
         "minAngleX": -30,
@@ -3953,46 +4539,46 @@ RHS_UAZ_MSV_01 = {
     "attendant": 0,
     "engineer": 0,
     "uavHacker": 0,
-    # Class: CfgVehicles\All\SoundEnvironExt [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEnvironExt [Indent level: 1],
     "SoundEnvironExt": {
     },
-    # Class: CfgVehicles\All\SoundEquipment [Indent level: 1],
+    # Class: CfgVehicles|All|SoundEquipment [Indent level: 1],
     "SoundEquipment": {
     },
-    # Class: CfgVehicles\All\SoundBreath [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreath [Indent level: 1],
     "SoundBreath": {
     },
-    # Class: CfgVehicles\All\SoundBreathSwimming [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathSwimming [Indent level: 1],
     "SoundBreathSwimming": {
     },
-    # Class: CfgVehicles\All\SoundBreathInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathInjured [Indent level: 1],
     "SoundBreathInjured": {
     },
-    # Class: CfgVehicles\All\SoundHitScream [Indent level: 1],
+    # Class: CfgVehicles|All|SoundHitScream [Indent level: 1],
     "SoundHitScream": {
     },
-    # Class: CfgVehicles\All\SoundInjured [Indent level: 1],
+    # Class: CfgVehicles|All|SoundInjured [Indent level: 1],
     "SoundInjured": {
     },
-    # Class: CfgVehicles\All\SoundBreathAutomatic [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBreathAutomatic [Indent level: 1],
     "SoundBreathAutomatic": {
     },
-    # Class: CfgVehicles\All\SoundDrown [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrown [Indent level: 1],
     "SoundDrown": {
     },
-    # Class: CfgVehicles\All\SoundChoke [Indent level: 1],
+    # Class: CfgVehicles|All|SoundChoke [Indent level: 1],
     "SoundChoke": {
     },
-    # Class: CfgVehicles\All\SoundRecovered [Indent level: 1],
+    # Class: CfgVehicles|All|SoundRecovered [Indent level: 1],
     "SoundRecovered": {
     },
-    # Class: CfgVehicles\All\SoundBurning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundBurning [Indent level: 1],
     "SoundBurning": {
     },
-    # Class: CfgVehicles\All\PulsationSound [Indent level: 1],
+    # Class: CfgVehicles|All|PulsationSound [Indent level: 1],
     "PulsationSound": {
     },
-    # Class: CfgVehicles\All\SoundDrowning [Indent level: 1],
+    # Class: CfgVehicles|All|SoundDrowning [Indent level: 1],
     "SoundDrowning": {
     },
     "soundLandCrash": ["",1,1],
@@ -4028,11 +4614,11 @@ RHS_UAZ_MSV_01 = {
     "hiddenUnderwaterSelections": [],
     "shownUnderWaterSelections": [],
     "hiddenUnderwaterSelectionsTextures": [],
-    # Class: CfgVehicles\All\FxExplo [Indent level: 1],
+    # Class: CfgVehicles|All|FxExplo [Indent level: 1],
     "FxExplo": {
         "access": 1
     },
-    # Class: CfgVehicles\All\GunFire [Indent level: 1],
+    # Class: CfgVehicles|All|GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -4053,126 +4639,129 @@ RHS_UAZ_MSV_01 = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: WeaponFireGun\Table [Indent level: 0],
+        # Class: WeaponFireGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponFireGun\Table\T0 [Indent level: 1]
+            # Class: WeaponFireGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: WeaponFireGun\Table\T1 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T1 [Indent level: 1],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: WeaponFireGun\Table\T2 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T2 [Indent level: 1],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: WeaponFireGun\Table\T3 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T3 [Indent level: 1],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: WeaponFireGun\Table\T4 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T4 [Indent level: 1],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: WeaponFireGun\Table\T5 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T5 [Indent level: 1],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: WeaponFireGun\Table\T6 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T6 [Indent level: 1],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: WeaponFireGun\Table\T7 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T7 [Indent level: 1],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: WeaponFireGun\Table\T8 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T8 [Indent level: 1],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: WeaponFireGun\Table\T9 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T9 [Indent level: 1],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: WeaponFireGun\Table\T10 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T10 [Indent level: 1],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T11 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T11 [Indent level: 1],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: WeaponFireGun\Table\T12 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T12 [Indent level: 1],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T13 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T13 [Indent level: 1],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: WeaponFireGun\Table\T14 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T14 [Indent level: 1],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: WeaponFireGun\Table\T15 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T15 [Indent level: 1],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: WeaponFireGun\Table\T16 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T16 [Indent level: 1],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: WeaponFireGun\Table\T17 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T17 [Indent level: 1],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: WeaponFireGun\Table\T18 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T18 [Indent level: 1],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: WeaponFireGun\Table\T19 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T19 [Indent level: 1],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: WeaponFireGun\Table\T20 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T20 [Indent level: 1],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: WeaponFireGun\Table\T21 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T21 [Indent level: 1],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: WeaponFireGun\Table\T22 [Indent level: 1],
+            # Class: WeaponFireGun|Table|T22 [Indent level: 1],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\GunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletDuration": 0.3,
@@ -4193,16 +4782,19 @@ RHS_UAZ_MSV_01 = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsGun\Table [Indent level: 0],
+        # Class: WeaponCloudsGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgVehicles\All\MGunClouds [Indent level: 1],
+    # Class: CfgVehicles|All|MGunClouds [Indent level: 1],
     "MGunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -4223,11 +4815,14 @@ RHS_UAZ_MSV_01 = {
         "sourceSize": 0.02,
         "initT": 0,
         "deltaT": 0,
-        # Class: WeaponCloudsMGun\Table [Indent level: 0],
+        # Class: WeaponCloudsMGun|Table [Indent level: 0],
         "Table": {
-            # Class: WeaponCloudsMGun\Table\T0 [Indent level: 1]
+            # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
@@ -4248,7 +4843,7 @@ RHS_UAZ_MSV_01 = {
     "damageFull": [],
     "minGForce": 0.2,
     "gForceShakeAttenuation": 0.5,
-    # Class: CfgVehicles\All\camShakeDamage [Indent level: 1],
+    # Class: CfgVehicles|All|camShakeDamage [Indent level: 1],
     "camShakeDamage": {
         "power": 0.5,
         "frequency": 60,

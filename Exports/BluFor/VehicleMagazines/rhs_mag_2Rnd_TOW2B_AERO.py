@@ -1,11 +1,11 @@
 rhs_mag_2Rnd_TOW2B_AERO = {
     "scope": 2,
-    # Ammo: rhs_ammo_TOW2B_AERO_AT,
+    # Ammo: CfgMagazines|rhs_mag_2Rnd_TOW2B_AERO|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhs_ammo_TOW2B_AERO_AT",
         "model": "rhsusf|addons|rhsusf_heavyweapons|atgm|TOW2BAERO",
         "maxControlRange": 4000,
-        # Ammo: rhs_ammo_TOW2B_AT_penetrator,
+        # Ammo: CfgAmmo|rhs_ammo_TOW2B_AT|submunitionAmmo [Indent level: 1],
         "submunitionAmmo": {
             "submunitionAmmo": "rhs_ammo_TOW2B_AT_penetrator",
             "warheadName": "TandemHEAT",
@@ -24,7 +24,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
             "whistleOnFire": 0,
             "whistleDist": 0,
             "submunitionConeType": ["randomcenter",30],
-            # Ammo: rhs_ammo_spall,
+            # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionAmmo": {
                 "submunitionAmmo": "rhs_ammo_spall",
                 "caliber": 10,
@@ -255,10 +255,10 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "bulletFly": ["bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083],
                 "supersonicCrackNear": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_close",3.16228,1,200],
                 "supersonicCrackFar": ["A3|sounds_f|arsenal|sfx|supersonic_crack|scrack_middle",3.16228,1,200],
-                # Class: CfgAmmo\BulletBase\SuperSonicCrack [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|SuperSonicCrack [Indent level: 1],
                 "SuperSonicCrack": {
                     "superSonicCrack": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",3.16228,1,200],
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackForest [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackForest [Indent level: 2],
                     "SCrackForest": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_forest1",1,1,500],
@@ -268,7 +268,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "forest"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackTrees [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackTrees [Indent level: 2],
                     "SCrackTrees": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_trees1",1,1,500],
@@ -278,7 +278,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "trees"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackMeadow [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackMeadow [Indent level: 2],
                     "SCrackMeadow": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_meadow1",1,1,500],
@@ -288,7 +288,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "frequency": "((speed factor [330, 930]) * 0.1) + 1.05",
                         "trigger": "meadow max sea"
                     },
-                    # Class: CfgAmmo\BulletBase\SuperSonicCrack\SCrackHouses [Indent level: 2],
+                    # Class: CfgAmmo|BulletBase|SuperSonicCrack|SCrackHouses [Indent level: 2],
                     "SCrackHouses": {
                         "range": [0,500],
                         "sound1": ["A3|sounds_f|arsenal|sfx|supersonic_crack|sc_houses1",1,1,500],
@@ -299,7 +299,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                         "trigger": "houses max interior"
                     }
                 },
-                # Class: CfgAmmo\BulletBase\HitEffects [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|HitEffects [Indent level: 1],
                 "HitEffects": {
                     "Hit_Foliage_green": "ImpactLeavesGreen",
                     "Hit_Foliage_Dead": "ImpactLeavesDead",
@@ -325,28 +325,28 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                     "hitWater": "ImpactEffectsWater",
                     "hitVirtual": "ImpactMetal"
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeExplode [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakeExplode [Indent level: 1],
                 "CamShakeExplode": {
                     "power": 1.73205,
                     "duration": 0.4,
                     "frequency": 20,
                     "distance": 5.19615
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeHit [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakeHit [Indent level: 1],
                 "CamShakeHit": {
                     "power": 3,
                     "duration": 0.2,
                     "frequency": 20,
                     "distance": 1
                 },
-                # Class: CfgAmmo\BulletBase\CamShakeFire [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakeFire [Indent level: 1],
                 "CamShakeFire": {
                     "power": 0,
                     "duration": 0,
                     "frequency": 0,
                     "distance": 0
                 },
-                # Class: CfgAmmo\BulletBase\CamShakePlayerFire [Indent level: 1],
+                # Class: CfgAmmo|BulletBase|CamShakePlayerFire [Indent level: 1],
                 "CamShakePlayerFire": {
                     "power": 0,
                     "duration": 0,
@@ -934,10 +934,6 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "thrustTime": 1.5,
                 "thrust": 210,
                 "icon": "",
-                # Ammo: ,
-                "submunitionAmmo": {
-                    "submunitionAmmo": "",
-                },
                 "submunitionAmmo": "",
                 "explosionType": "explosive",
                 "mineTrigger": "RangeTrigger",
@@ -949,11 +945,11 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "minePlaceDist": 0.5,
                 "whistleDist": 0,
                 "whistleOnFire": 0,
-                # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+                # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
                 "NVGMarkers": {
                 },
                 "minDamageForCamShakeHit": 0.55,
-                # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+                # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
                 "EventHandlers": {
                 },
             },
@@ -982,7 +978,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
             "soundHit3": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_03",1.77828,1,1800],
             "soundHit4": ["A3|Sounds_F|arsenal|explosives|shells|Tank_shell_explosion_04",1.77828,1,1800],
             "multiSoundHit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-            # Class: CfgAmmo\Sh_120mm_APFSDS\HitEffects [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|HitEffects [Indent level: 1],
             "HitEffects": {
                 "hitMetal": "ImpactMetalSabotBig",
                 "hitMetalPlate": "ImpactMetalSabotBig",
@@ -994,28 +990,28 @@ rhs_mag_2Rnd_TOW2B_AERO = {
                 "default_mat": "ImpactEffectsGroundSabot"
             },
             "aiAmmoUsageFlags": "128 + 512",
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeExplode [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakeExplode [Indent level: 1],
             "CamShakeExplode": {
                 "power": 13.4164,
                 "duration": 2.6,
                 "frequency": 20,
                 "distance": 40.2492
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeHit [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakeHit [Indent level: 1],
             "CamShakeHit": {
                 "power": 180,
                 "duration": 0.8,
                 "frequency": 20,
                 "distance": 1
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakeFire [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakeFire [Indent level: 1],
             "CamShakeFire": {
                 "power": 3.30975,
                 "duration": 2.2,
                 "frequency": 20,
                 "distance": 87.6356
             },
-            # Class: CfgAmmo\Sh_120mm_APFSDS\CamShakePlayerFire [Indent level: 1],
+            # Class: CfgAmmo|Sh_120mm_APFSDS|CamShakePlayerFire [Indent level: 1],
             "CamShakePlayerFire": {
                 "power": 0.02,
                 "duration": 0.1,
@@ -1150,11 +1146,11 @@ rhs_mag_2Rnd_TOW2B_AERO = {
             "minePlaceDist": 0.5,
             "suppressionRadiusBulletClose": -1,
             "dangerRadiusBulletClose": -1,
-            # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+            # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
             "NVGMarkers": {
             },
             "minDamageForCamShakeHit": 0.55,
-            # Class: CfgAmmo\Default\EventHandlers [Indent level: 1],
+            # Class: CfgAmmo|Default|EventHandlers [Indent level: 1],
             "EventHandlers": {
             },
         },
@@ -1197,60 +1193,166 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "rhs_saclos": 1,
         "rhs_guideMode": "WIRE",
         "flightProfiles": ["Direct"],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Direct [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_TOW_AT|Direct [Indent level: 1],
         "Direct": {
         },
         "soundFly": ["rhsusf|addons|rhsusf_heavyweapons|Sounds|TOW",1.1,0.7,550],
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_TOW_AT|EventHandlers [Indent level: 1],
         "EventHandlers": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\EventHandlers\RHS_Guidance [Indent level: 2]
+            # Class: CfgAmmo|rhs_ammo_TOW_AT|EventHandlers|RHS_Guidance [Indent level: 2],
+
             "RHS_Guidance": {
+
                 "fired": "_this call RHS_fnc_saclosGuide"
             },
-            # Class: CfgAmmo\MissileBase\EventHandlers\RHS_APS_FiredEH [Indent level: 2],
+            # Class: CfgAmmo|MissileBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2],
             "RHS_APS_FiredEH": {
                 "fired": "_this spawn rhs_fnc_aps_missileFired"
             }
         },
-        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components [Indent level: 1],
+        # Class: CfgAmmo|rhs_ammo_TOW_AT|Components [Indent level: 1],
         "Components": {
-            # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent [Indent level: 2]
+            # Class: CfgAmmo|rhs_ammo_TOW_AT|Components|SensorsManagerComponent [Indent level: 2],
+
             "SensorsManagerComponent": {
-                # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components [Indent level: 3]
+
+                # Class: CfgAmmo|rhs_ammo_TOW_AT|Components|SensorsManagerComponent|Components [Indent level: 3],
+
+
                 "Components": {
-                    # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent [Indent level: 4]
+
+
+                    # Class: CfgAmmo|rhs_ammo_TOW_AT|Components|SensorsManagerComponent|Components|VisualSensorComponent [Indent level: 4],
+
+
+
                     "VisualSensorComponent": {
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\AirTarget [Indent level: 5]
+
+
+
+                        # Class: CfgAmmo|rhs_ammo_TOW_AT|Components|SensorsManagerComponent|Components|VisualSensorComponent|AirTarget [Indent level: 5],
+
+
+
+
                         "AirTarget": {
+
+
+
+
                             "minRange": 500,
+
+
+
+
                             "maxRange": 5000,
+
+
+
+
                             "objectDistanceLimitCoef": -1,
+
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
-                        # Class: CfgAmmo\rhs_ammo_TOW_AT\Components\SensorsManagerComponent\Components\VisualSensorComponent\GroundTarget [Indent level: 5],
+
+
+
+                        # Class: CfgAmmo|rhs_ammo_TOW_AT|Components|SensorsManagerComponent|Components|VisualSensorComponent|GroundTarget [Indent level: 5],
+
+
+
                         "GroundTarget": {
+
+
+
                             "minRange": 500,
+
+
+
                             "maxRange": 5000,
+
+
+
                             "objectDistanceLimitCoef": 1,
+
+
+
                             "viewDistanceLimitCoef": 1
                         },
+
+
+
                         "maxTrackableSpeed": 35,
+
+
+
                         "nightRangeCoef": 0.8,
+
+
+
                         "angleRangeHorizontal": 5,
+
+
+
                         "angleRangeVertical": 5,
+
+
+
                         "componentType": "VisualSensorComponent",
+
+
+
                         "maxFogSeeThrough": 0.94,
+
+
+
                         "color": [1,1,0.5,0.8],
+
+
+
                         "typeRecognitionDistance": 2000,
+
+
+
                         "allowsMarking": 1,
+
+
+
                         "groundNoiseDistanceCoef": -1,
+
+
+
                         "maxGroundNoiseDistance": -1,
+
+
+
                         "minSpeedThreshold": 0,
+
+
+
                         "maxSpeedThreshold": 0,
+
+
+
                         "animDirection": "",
+
+
+
                         "aimDown": 0,
+
+
+
                         "minTrackableSpeed": -1e+010,
+
+
+
                         "minTrackableATL": -1e+010,
+
+
+
                         "maxTrackableATL": 1e+010
                     }
                 }
@@ -1269,35 +1371,35 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "missileLockMinDistance": 50,
         "missileLockMaxSpeed": 35,
         "cmImmunity": 0.4,
-        # Class: CfgAmmo\M_Titan_AT\TopDown [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AT|TopDown [Indent level: 1],
         "TopDown": {
             "ascendHeight": 150,
             "descendDistance": 180,
             "minDistance": 180,
             "ascendAngle": 30
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeExplode [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AT|CamShakeExplode [Indent level: 1],
         "CamShakeExplode": {
             "power": 11,
             "duration": 1.4,
             "frequency": 20,
             "distance": 91.3296
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeHit [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AT|CamShakeHit [Indent level: 1],
         "CamShakeHit": {
             "power": 110,
             "duration": 0.6,
             "frequency": 20,
             "distance": 1
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakeFire [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AT|CamShakeFire [Indent level: 1],
         "CamShakeFire": {
             "power": 2.78316,
             "duration": 1.6,
             "frequency": 20,
             "distance": 61.9677
         },
-        # Class: CfgAmmo\M_Titan_AT\CamShakePlayerFire [Indent level: 1],
+        # Class: CfgAmmo|M_Titan_AT|CamShakePlayerFire [Indent level: 1],
         "CamShakePlayerFire": {
             "power": 3,
             "duration": 0.1,
@@ -1317,7 +1419,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "explosionEffects": "ATMissileExplosion",
         "dangerRadiusHit": -1,
         "suppressionRadiusHit": 30,
-        # Class: CfgAmmo\MissileBase\HitEffects [Indent level: 1],
+        # Class: CfgAmmo|MissileBase|HitEffects [Indent level: 1],
         "HitEffects": {
             "hitWater": "ImpactEffectsWaterRocket"
         },
@@ -1427,7 +1529,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
         "dangerRadiusBulletClose": -1,
         "caliber": 1,
         "whistleOnFire": 0,
-        # Class: CfgAmmo\Default\NVGMarkers [Indent level: 1],
+        # Class: CfgAmmo|Default|NVGMarkers [Indent level: 1],
         "NVGMarkers": {
         },
         "minDamageForCamShakeHit": 0.55,
@@ -1454,10 +1556,10 @@ rhs_mag_2Rnd_TOW2B_AERO = {
     "mass": 8,
     "simulation": "ProxyMagazines",
     "weight": 0,
-    # Class: CfgMagazines\Default\InventoryPlacements [Indent level: 1],
+    # Class: CfgMagazines|Default|InventoryPlacements [Indent level: 1],
     "InventoryPlacements": {
     },
-    # Class: CfgMagazines\Default\Library [Indent level: 1],
+    # Class: CfgMagazines|Default|Library [Indent level: 1],
     "Library": {
         "libTextDesc": ""
     },

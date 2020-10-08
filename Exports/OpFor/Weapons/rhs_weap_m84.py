@@ -9,7 +9,7 @@ rhs_weap_m84 = {
     "magazineWell": ["PK_762x54R"],
     "reloadAction": "GestureReloadM200",
     # Recoil Class: recoil,
-    # Class: CfgRecoils\recoil_zafir [Indent level: 0],
+    # Class: CfgRecoils|recoil_zafir [Indent level: 0],
     "recoil": {
         "muzzleOuter": [0.5,1,0.7,0.3],
         "kickBack": [0.02,0.08],
@@ -24,7 +24,7 @@ rhs_weap_m84 = {
     "UiPicture": "rhssaf|addons|rhssaf_c_weapons|icons|gear_m84_x_ca.paa",
     "hiddenSelections": ["camo1"],
     "hiddenSelectionsTextures": ["rhssaf|addons|rhssaf_t_weapon_m84|data|pkm_co.paa"],
-    # Class: CfgWeapons\rhs_weap_m84\Library [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|Library [Indent level: 1],
     "Library": {
         "libTextDesc": "The Zastava M84 is a general-purpose machine gun manufactured by – then – Yugoslav Zastava Arms company.<br/>The M84 is a direct copy of the Soviet PK machine gun, the sole difference being in stock, which is not hollowed like on the original and is made out of a different wood type.<br/>Machine gun M84 is intended for infantry units and its main feature is excellent precision at large distances; tripod provides easy adaptation to various terrains."
     },
@@ -33,20 +33,20 @@ rhs_weap_m84 = {
     "cursorAim": "EmptyCursor",
     "magazineReloadSwitchPhase": 0.46,
     "aimTransitionSpeed": 0.5,
-    # Class: CfgWeapons\rhs_weap_m84\WeaponSlotsInfo [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|WeaponSlotsInfo [Indent level: 1],
     "WeaponSlotsInfo": {
         "mass": 193.6,
-        # Class: CfgWeapons\rhs_weap_m84\WeaponSlotsInfo\MuzzleSlot [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|WeaponSlotsInfo|MuzzleSlot [Indent level: 2],
         "MuzzleSlot": {
         },
-        # Class: CfgWeapons\rhs_weap_m84\WeaponSlotsInfo\CowsSlot [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|WeaponSlotsInfo|CowsSlot [Indent level: 2],
         "CowsSlot": {
             "iconPosition": [0,0],
             "iconScale": 1,
             "iconPicture": "A3|Weapons_F|Data|clear_empty.paa",
             "iconPinPoint": "Left"
         },
-        # Class: CfgWeapons\rhs_weap_m84\WeaponSlotsInfo\PointerSlot [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|WeaponSlotsInfo|PointerSlot [Indent level: 2],
         "PointerSlot": {
         },
         "allowedSlots": []
@@ -83,7 +83,7 @@ rhs_weap_m84 = {
     "soundBipodDown": ["A3|Sounds_F_Mark|arsenal|sfx|bipods|Bipod_generic_down",0.707946,1,20],
     "soundBipodUp": ["A3|Sounds_F_Mark|arsenal|sfx|bipods|Bipod_generic_up",0.707946,1,20],
     "jsrs_soundeffect": "JSRS2_Distance_Effects_PK",
-    # Class: CfgWeapons\rhs_weap_m84\FullAuto [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|FullAuto [Indent level: 1],
     "FullAuto": {
         "reloadTime": 0.0857143,
         "dispersion": 0.00087,
@@ -92,11 +92,11 @@ rhs_weap_m84 = {
         # Recoil Array: recoilProne,
         "recoilProne": [0,0,0,0.06,0.0443316,0.0086088,0.06,0.0477255,0.005004,0.06,0.0335835,0.0042784,0.06,0.0140372,0.002052,0.03,-0.0007206,-0.000768,0.03,-0.001765,-0.0006768,0.03,-0.0018385,-0.0004704,0.06,0,0],
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|SilencedSound [Indent level: 2],
         "SilencedSound": {
         },
         "soundContinuous": 0,
@@ -138,7 +138,7 @@ rhs_weap_m84 = {
         "aiRateOfFireDispersion": 1,
         "aiRateOfFireDistance": 500
     },
-    # Class: CfgWeapons\rhs_weap_m84\close [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|close [Indent level: 1],
     "close": {
         "burst": 10,
         "aiRateOfFire": 0.5,
@@ -157,11 +157,11 @@ rhs_weap_m84 = {
         # Recoil Array: recoilProne,
         "recoilProne": [0,0,0,0.06,0.0443316,0.0086088,0.06,0.0477255,0.005004,0.06,0.0335835,0.0042784,0.06,0.0140372,0.002052,0.03,-0.0007206,-0.000768,0.03,-0.001765,-0.0006768,0.03,-0.0018385,-0.0004704,0.06,0,0],
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|SilencedSound [Indent level: 2],
         "SilencedSound": {
         },
         "soundContinuous": 0,
@@ -193,7 +193,7 @@ rhs_weap_m84 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
-    # Class: CfgWeapons\rhs_weap_m84\short [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|short [Indent level: 1],
     "short": {
         "burst": 8,
         "aiRateOfFire": 2,
@@ -212,11 +212,11 @@ rhs_weap_m84 = {
         # Recoil Array: recoilProne,
         "recoilProne": [0,0,0,0.06,0.0443316,0.0086088,0.06,0.0477255,0.005004,0.06,0.0335835,0.0042784,0.06,0.0140372,0.002052,0.03,-0.0007206,-0.000768,0.03,-0.001765,-0.0006768,0.03,-0.0018385,-0.0004704,0.06,0,0],
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|SilencedSound [Indent level: 2],
         "SilencedSound": {
         },
         "soundContinuous": 0,
@@ -248,7 +248,7 @@ rhs_weap_m84 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
-    # Class: CfgWeapons\rhs_weap_m84\medium [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|medium [Indent level: 1],
     "medium": {
         "burst": 7,
         "aiRateOfFire": 4,
@@ -267,11 +267,11 @@ rhs_weap_m84 = {
         # Recoil Array: recoilProne,
         "recoilProne": [0,0,0,0.06,0.0443316,0.0086088,0.06,0.0477255,0.005004,0.06,0.0335835,0.0042784,0.06,0.0140372,0.002052,0.03,-0.0007206,-0.000768,0.03,-0.001765,-0.0006768,0.03,-0.0018385,-0.0004704,0.06,0,0],
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|SilencedSound [Indent level: 2],
         "SilencedSound": {
         },
         "soundContinuous": 0,
@@ -303,7 +303,7 @@ rhs_weap_m84 = {
         "requiredOpticType": -1,
         "aiRateOfFireDispersion": 1
     },
-    # Class: CfgWeapons\rhs_weap_m84\far_optic1 [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|far_optic1 [Indent level: 1],
     "far_optic1": {
         "requiredOpticType": 1,
         "showToPlayer": 0,
@@ -323,11 +323,11 @@ rhs_weap_m84 = {
         # Recoil Array: recoilProne,
         "recoilProne": [0,0,0,0.06,0.0443316,0.0086088,0.06,0.0477255,0.005004,0.06,0.0335835,0.0042784,0.06,0.0140372,0.002052,0.03,-0.0007206,-0.000768,0.03,-0.001765,-0.0006768,0.03,-0.0018385,-0.0004704,0.06,0,0],
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|SilencedSound [Indent level: 2],
         "SilencedSound": {
         },
         "soundContinuous": 0,
@@ -358,7 +358,7 @@ rhs_weap_m84 = {
         "canShootInWater": 0,
         "aiRateOfFireDispersion": 1
     },
-    # Class: CfgWeapons\rhs_weap_m84\far_optic2 [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|far_optic2 [Indent level: 1],
     "far_optic2": {
         "burst": 3,
         "requiredOpticType": 2,
@@ -378,11 +378,11 @@ rhs_weap_m84 = {
         # Recoil Array: recoilProne,
         "recoilProne": [0,0,0,0.06,0.0443316,0.0086088,0.06,0.0477255,0.005004,0.06,0.0335835,0.0042784,0.06,0.0140372,0.002052,0.03,-0.0007206,-0.000768,0.03,-0.001765,-0.0006768,0.03,-0.0018385,-0.0004704,0.06,0,0],
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\StandardSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|StandardSound [Indent level: 2],
         "StandardSound": {
-            "soundSetShot": ["jsrs_pkm_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundSetShot": ["RHSSAF_M84_Shot_SoundSet","RHSSAF_MMG1_Tail_SoundSet"]
         },
-        # Class: CfgWeapons\rhs_weap_m84\FullAuto\SilencedSound [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|FullAuto|SilencedSound [Indent level: 2],
         "SilencedSound": {
         },
         "soundContinuous": 0,
@@ -417,21 +417,25 @@ rhs_weap_m84 = {
     "aiDispersionCoefX": 19,
     "deployedPivot": "bipod",
     "hasBipod": 1,
-    # Class: CfgWeapons\rhs_weap_m84\GunParticles [Indent level: 1],
+    # Class: CfgWeapons|rhs_weap_m84|GunParticles [Indent level: 1],
     "GunParticles": {
-        # Class: CfgWeapons\rhs_weap_m84\GunParticles\SecondEffect [Indent level: 2]
+        # Class: CfgWeapons|rhs_weap_m84|GunParticles|SecondEffect [Indent level: 2],
+
         "SecondEffect": {
+
             "positionName": "Nabojnicestart",
+
             "directionName": "Nabojniceend",
+
             "effectName": "CaselessAmmoCloud"
         },
-        # Class: CfgWeapons\rhs_weap_m84\GunParticles\RHS_BarrelRefract [Indent level: 2],
+        # Class: CfgWeapons|rhs_weap_m84|GunParticles|RHS_BarrelRefract [Indent level: 2],
         "RHS_BarrelRefract": {
             "positionName": "usti hlavne",
             "directionName": "usti hlavne up",
             "effectName": "RHS_BarrelRefract"
         },
-        # Class: CfgWeapons\Rifle_Base_F\GunParticles\FirstEffect [Indent level: 2],
+        # Class: CfgWeapons|Rifle_Base_F|GunParticles|FirstEffect [Indent level: 2],
         "FirstEffect": {
             "effectName": "RifleAssaultCloud",
             "positionName": "Usti hlavne",
@@ -469,10 +473,6 @@ rhs_weap_m84 = {
     "aiRateOfFire": 0.5,
     "aiRateOfFireDistance": 500,
     "access": 3,
-    # Ammo: ,
-    "ammo": {
-        "ammo": "",
-    },
     "ammo": "",
     "cursorSize": 1,
     "showAimCursorInternal": 1,
@@ -531,7 +531,7 @@ rhs_weap_m84 = {
     "fireLightIntensity": 0.2,
     "fireLightDiffuse": [0.937,0.631,0.259],
     "fireLightAmbient": [0,0,0],
-    # Class: CfgWeapons\Default\Eventhandlers [Indent level: 1],
+    # Class: CfgWeapons|Default|Eventhandlers [Indent level: 1],
     "Eventhandlers": {
     },
     "backgroundReload": 0,
@@ -555,7 +555,7 @@ rhs_weap_m84 = {
     "artilleryDispersion": 1,
     "artilleryCharge": 1,
     "fireAnims": [],
-    # Class: CfgWeapons\Default\GunFire [Indent level: 1],
+    # Class: CfgWeapons|Default|GunFire [Indent level: 1],
     "GunFire": {
         "access": 0,
         "cloudletDuration": 0.2,
@@ -577,126 +577,129 @@ rhs_weap_m84 = {
         "timeToLive": 0,
         "initT": 4500,
         "deltaT": -3000,
-        # Class: CfgWeapons\Default\GunFire\Table [Indent level: 2],
+        # Class: CfgWeapons|Default|GunFire|Table [Indent level: 2],
         "Table": {
-            # Class: CfgWeapons\Default\GunFire\Table\T0 [Indent level: 3]
+            # Class: CfgWeapons|Default|GunFire|Table|T0 [Indent level: 3],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [0.82,0.95,0.93,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T1 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T1 [Indent level: 3],
             "T1": {
                 "maxT": 200,
                 "color": [0.75,0.77,0.9,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T2 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T2 [Indent level: 3],
             "T2": {
                 "maxT": 400,
                 "color": [0.56,0.62,0.67,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T3 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T3 [Indent level: 3],
             "T3": {
                 "maxT": 600,
                 "color": [0.39,0.46,0.47,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T4 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T4 [Indent level: 3],
             "T4": {
                 "maxT": 800,
                 "color": [0.24,0.31,0.31,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T5 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T5 [Indent level: 3],
             "T5": {
                 "maxT": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T6 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T6 [Indent level: 3],
             "T6": {
                 "maxT": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T7 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T7 [Indent level: 3],
             "T7": {
                 "maxT": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T8 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T8 [Indent level: 3],
             "T8": {
                 "maxT": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T9 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T9 [Indent level: 3],
             "T9": {
                 "maxT": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T10 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T10 [Indent level: 3],
             "T10": {
                 "maxT": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T11 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T11 [Indent level: 3],
             "T11": {
                 "maxT": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T12 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T12 [Indent level: 3],
             "T12": {
                 "maxT": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T13 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T13 [Indent level: 3],
             "T13": {
                 "maxT": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T14 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T14 [Indent level: 3],
             "T14": {
                 "maxT": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T15 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T15 [Indent level: 3],
             "T15": {
                 "maxT": 2850,
                 "color": [1,0.6,0.2,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T16 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T16 [Indent level: 3],
             "T16": {
                 "maxT": 2900,
                 "color": [1,0.71,0.3,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T17 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T17 [Indent level: 3],
             "T17": {
                 "maxT": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T18 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T18 [Indent level: 3],
             "T18": {
                 "maxT": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T19 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T19 [Indent level: 3],
             "T19": {
                 "maxT": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T20 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T20 [Indent level: 3],
             "T20": {
                 "maxT": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T21 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T21 [Indent level: 3],
             "T21": {
                 "maxT": 3600,
                 "color": [1,0.98,0.91,0]
             },
-            # Class: CfgWeapons\Default\GunFire\Table\T22 [Indent level: 3],
+            # Class: CfgWeapons|Default|GunFire|Table|T22 [Indent level: 3],
             "T22": {
                 "maxT": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
-    # Class: CfgWeapons\Default\GunClouds [Indent level: 1],
+    # Class: CfgWeapons|Default|GunClouds [Indent level: 1],
     "GunClouds": {
         "access": 0,
         "cloudletGrowUp": 0.05,
@@ -717,11 +720,14 @@ rhs_weap_m84 = {
         "timeToLive": 0,
         "initT": 0,
         "deltaT": 0,
-        # Class: CfgWeapons\Default\GunClouds\Table [Indent level: 2],
+        # Class: CfgWeapons|Default|GunClouds|Table [Indent level: 2],
         "Table": {
-            # Class: CfgWeapons\Default\GunClouds\Table\T0 [Indent level: 3]
+            # Class: CfgWeapons|Default|GunClouds|Table|T0 [Indent level: 3],
+
             "T0": {
+
                 "maxT": 0,
+
                 "color": [1,1,1,0]
             }
         }
