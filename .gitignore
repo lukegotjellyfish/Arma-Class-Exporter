@@ -5,3 +5,4 @@ UseDicts\__pycache__\
 Script/.arma.studio.storage.bin
 Exports/Original folder tree.rar
 .vscode/launch.json
+*.pyc
