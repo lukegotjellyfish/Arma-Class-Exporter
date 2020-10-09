@@ -32,9 +32,7 @@ for side in sides:
 					with open(foundFile, "r", encoding="latin-1") as f:
 						print("        At: " + foundFile)
 						if (folderIterate > 0):
-							if (name != files[len(files) - 1]):
-								joinedFile += ","
-							joinedFile += "\n"
+							joinedFile += ",\n"
 						readLines = f.readlines()
 						readLines[0] = '"' + readLines[0].replace(" = ", '": ')
 						joinedFile += ''.join(readLines)

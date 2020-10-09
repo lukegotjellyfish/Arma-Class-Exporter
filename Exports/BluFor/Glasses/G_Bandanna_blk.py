@@ -1,0 +1,15 @@
+G_Bandanna_blk = {
+    "author": "Bohemia Interactive",
+    "_generalMacro": "G_Bandanna_blk",
+    "displayName": "Bandana (Black)",
+    "model": "A3|Characters_F_Bootcamp|Guerrilla|g_bandana_clean.p3d",
+    "picture": "A3|Characters_F_Bootcamp|Data|UI|icon_G_Bandana_clean_ca.paa",
+    "hiddenSelectionsTextures": ["|a3|characters_f_bootcamp|guerrilla|data|headgear_bandmask_blk_co.paa"],
+    "mass": 4,
+    "identityTypes": [],
+    "scope": 2,
+    "scopeCurator": 2,
+    "scopeArsenal": 2,
+    "hiddenSelections": ["camo"],
+    "name": "None",
+}

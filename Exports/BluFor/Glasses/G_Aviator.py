@@ -1,0 +1,13 @@
+G_Aviator = {
+    "author": "Bohemia Interactive",
+    "_generalMacro": "G_Aviator",
+    "displayname": "Aviator Glasses",
+    "model": "A3|characters_f_gamma|Heads|Glasses|g_aviators",
+    "picture": "A3|Characters_F|data|ui|icon_g_aviators_CA.paa",
+    "hiddenSelections": ["camo"],
+    "hiddenSelectionsTextures": ["|a3|characters_f|heads|glasses|data|glass_ca.paa"],
+    "identityTypes": ["G_CIVIL_aidworker",100,"G_CIVIL_constructionworker",60,"G_CIVIL_man",80,"NoGlasses",0,"G_NATO_default",50,"G_NATO_casual",450,"G_NATO_pilot",0,"G_NATO_recon",15,"G_NATO_SF",50,"G_NATO_sniper",0,"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",25,"G_HAF_default",25,"G_CIVIL_female",15,"G_CIVIL_male",30,"G_IRAN_officer",500],
+    "mass": 2,
+    "name": "None",
+    "scope": 2,
+}
