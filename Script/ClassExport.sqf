@@ -84,6 +84,7 @@
 			"rhsgref_20rnd_765x17_vz61"                         ,
 			"rhsgref_30rnd_1143x23_M1911B_SMG"                  ,
 			"rhsgref_30rnd_556x45_m21"                          ,
+			"rhsgref_30Rnd_792x33_SmE_StG"                      ,
 			"rhsgref_50Rnd_792x57_SmE_drum"                     ,
 			"rhsgref_5Rnd_762x54_m38"                           ,
 			"rhsgref_5Rnd_792x57_kar98k"                        ,
@@ -685,22 +686,21 @@ getPropertyValue = {
 	private _classBody = "";
 
 	_propertyNameArray = _propertyName splitString "/";
-	_propertyNameLast = _propertyNameArray select (count _propertyNameArray - 1);
+	_propertyNameLast = toLower (_propertyNameArray select (count _propertyNameArray - 1));
 
 	if (isText _property) then {
 		_strProperty = str _property;
 
 		  //diag_log(format["Before if it contains ammo: _property: %1 | _propertyNameLast: %2", _property, _propertyNameLast]);
 
-		_propertyNameLastLower = toLower _propertyNameLast;
-		if (((_propertyNameLastLower == "ammo") || (_propertyNameLastLower == "submunitionammo")) && getText _property != "") then {
+		if (((_propertyNameLast == "ammo") || (_propertyNameLast == "submunitionammo")) && getText _property != "") then {
 
 			_ammoType = "Ammo/SubmunitionAmmo";
-			if ((_propertyNameLast find "submunitionAmmo" != -1) || (_propertyNameLast find "SubmunitionAmmo" != -1)) then {
+			if (_propertyNameLast find "submunitionammo" != -1) then {
 				  //diag_log("submunitionammo");
 				_ammoType = "SubmunitionAmmo";
 			};
-			if ((_propertyNameLast find "ammo" != -1) || (_propertyNameLast find "Ammo" != -1)) then {
+			if (_propertyNameLast find "ammo" != -1) then {
 				  //diag_log("ammo");
 				_ammoType = "Ammo";
 			};
@@ -732,7 +732,7 @@ getPropertyValue = {
 			_classBody = _classBody + _addComma + "    }"
 
 		};
-		if ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilProne")) then {
+		if ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilprone")) then {
 			_configDir = configFile >> "CfgRecoils" >> getText _property;
 
 			if (isClass _configDir) then {
