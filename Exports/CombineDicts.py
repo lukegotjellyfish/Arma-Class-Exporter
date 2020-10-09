@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 
 
@@ -35,9 +36,9 @@ for side in sides:
 							joinedFile += ",\n"
 						readLines = f.readlines()
 						readLines[0] = '"' + readLines[0].replace(" = ", '": ')
-						joinedFile += ''.join(readLines).replace("ÃÂ","")
+						joinedFile += ''.join(readLines)
 						folderIterate += 1
-				outFile.write(joinedFile.replace("|", "\\\\"))
+				outFile.write(joinedFile.replace("|", "\\\\"))  #.replace("ÃÂ","")
 				print("      Written to " + output + "\n")
 
 
