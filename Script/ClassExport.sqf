@@ -16,7 +16,7 @@
 			"rhs_weap_m40a5"                                    ,
 			"rhs_weap_m24sws"                                   ,
 			"rhs_weap_kar98k"                                   ,
-			"rhs_weap_mg42_base"                                ,
+			"rhs_weap_mg42"                                     ,
 			"rhs_weap_mosin_sbr"                                ,
 			"rhs_weap_m240G"                                    ,
 			"rhs_weap_m4a1_blockII"                             ,
