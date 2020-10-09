@@ -35,7 +35,7 @@ for side in sides:
 							joinedFile += ",\n"
 						readLines = f.readlines()
 						readLines[0] = '"' + readLines[0].replace(" = ", '": ')
-						joinedFile += ''.join(readLines)
+						joinedFile += ''.join(readLines).replace("ÃÂ","")
 						folderIterate += 1
 				outFile.write(joinedFile.replace("|", "\\\\"))
 				print("      Written to " + output + "\n")

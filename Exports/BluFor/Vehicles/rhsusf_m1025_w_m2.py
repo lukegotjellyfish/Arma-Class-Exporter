@@ -1,302 +1,302 @@
 rhsusf_m1025_w_m2 = {
-    "editorPreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhsusf_m1025_w_m2.paa",
+    "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhsusf_m1025_w_m2.paa",
     "faction": "rhs_faction_usarmy_wd",
-    "vehicleClass": "rhs_vehclass_car",
+    "vehicleclass": "rhs_vehclass_car",
     "crew": "rhsusf_army_ucp_rifleman",
     "author": "Red Hammer Studios",
     "model": "rhsusf|addons|rhsusf_hmmwv|rhsusf_m1025_m2",
-    "Icon": "rhsusf|addons|rhsusf_hmmwv|icons|ico_m1025_m2.paa",
-    "Picture": "rhsusf|addons|rhsusf_hmmwv|pictures|rhsusf_m1025_m2_ca.paa",
+    "icon": "rhsusf|addons|rhsusf_hmmwv|icons|ico_m1025_m2.paa",
+    "picture": "rhsusf|addons|rhsusf_hmmwv|pictures|rhsusf_m1025_m2_ca.paa",
     "displayname": "M1025A2 (M2)",
-    "attenuationEffectType": "RHS_CarAttenuation",
+    "attenuationeffecttype": "RHS_CarAttenuation",
     # Class: CfgVehicles|rhsusf_m1025_w_m2|SpeechVariants [Indent level: 1],
-    "SpeechVariants": {
+    "speechvariants": {
         # Class: CfgVehicles|rhsusf_m1025_w_m2|SpeechVariants|Default [Indent level: 2]
-        "Default": {
-            "speechSingular": ["veh_vehicle_armedcar_s"],
-            "speechPlural": ["veh_vehicle_armedcar_p"]
+        "default": {
+            "speechsingular": ["veh_vehicle_armedcar_s"],
+            "speechplural": ["veh_vehicle_armedcar_p"]
         }
     },
-    "textSingular": "alpha victor (MRAP)",
-    "textPlural": "alpha victors",
-    "nameSound": "veh_vehicle_armedcar_s",
+    "textsingular": "alpha victor (MRAP)",
+    "textplural": "alpha victors",
+    "namesound": "veh_vehicle_armedcar_s",
     # Class: CfgVehicles|rhsusf_m1025_w_m2|AnimationSources [Indent level: 1],
-    "AnimationSources": {
+    "animationsources": {
         # Class: CfgVehicles|rhsusf_m1025_w_m2|AnimationSources|ReloadAnim [Indent level: 2]
-        "ReloadAnim": {
+        "reloadanim": {
             "source": "reload",
             "weapon": "RHS_M2"
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|AnimationSources|ReloadMagazine [Indent level: 2],
-        "ReloadMagazine": {
+        "reloadmagazine": {
             "source": "reloadmagazine",
             "weapon": "RHS_M2"
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|AnimationSources|Revolving [Indent level: 2],
-        "Revolving": {
+        "revolving": {
             "source": "revolving",
             "weapon": "RHS_M2"
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|AnimationSources|muzzle_rot_MG [Indent level: 2],
-        "muzzle_rot_MG": {
+        "muzzle_rot_mg": {
             "source": "ammorandom",
             "weapon": "RHS_M2"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|AnimationSources|trunk [Indent level: 2],
         "trunk": {
             "source": "user",
-            "animPeriod": 1.1,
-            "initPhase": 0
+            "animperiod": 1.1,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w|AnimationSources|ani_window_1 [Indent level: 2],
         "ani_window_1": {
             "source": "door",
-            "animPeriod": 1.1,
-            "initPhase": 0
+            "animperiod": 1.1,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w|AnimationSources|ani_window_2 [Indent level: 2],
         "ani_window_2": {
             "source": "door",
-            "animPeriod": 1.1,
-            "initPhase": 0
+            "animperiod": 1.1,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w|AnimationSources|ani_window_3 [Indent level: 2],
         "ani_window_3": {
             "source": "door",
-            "animPeriod": 1.1,
-            "initPhase": 0
+            "animperiod": 1.1,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w|AnimationSources|ani_window_4 [Indent level: 2],
         "ani_window_4": {
             "source": "door",
-            "animPeriod": 1.1,
-            "initPhase": 0
+            "animperiod": 1.1,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_4dr_fulltop|AnimationSources|hide_backTop [Indent level: 2],
-        "hide_backTop": {
-            "initPhase": 0,
+        "hide_backtop": {
+            "initphase": 0,
             "source": "user",
-            "animPeriod": 1e-005
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_4dr_fulltop|AnimationSources|hide_middleTop [Indent level: 2],
-        "hide_middleTop": {
-            "initPhase": 0,
+        "hide_middletop": {
+            "initphase": 0,
             "source": "user",
-            "animPeriod": 1e-005
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_4dr_halftop|AnimationSources|hide_frontTop [Indent level: 2],
-        "hide_frontTop": {
-            "initPhase": 0,
+        "hide_fronttop": {
+            "initphase": 0,
             "source": "user",
-            "animPeriod": 1e-005
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|longlights_hide [Indent level: 2],
         "longlights_hide": {
             "source": "user",
-            "animPeriod": 1e-006,
-            "initPhase": 1
+            "animperiod": 1e-006,
+            "initphase": 1
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|shortlights_hide [Indent level: 2],
         "shortlights_hide": {
-            "initPhase": 0,
+            "initphase": 0,
             "source": "user",
-            "animPeriod": 1e-006
+            "animperiod": 1e-006
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|lights_hide [Indent level: 2],
         "lights_hide": {
-            "initPhase": 0,
+            "initphase": 0,
             "source": "user",
-            "animPeriod": 1e-006
+            "animperiod": 1e-006
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|light_bo [Indent level: 2],
         "light_bo": {
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|light_stop [Indent level: 2],
         "light_stop": {
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_snorkel [Indent level: 2],
         "hide_snorkel": {
-            "initPhase": 1,
-            "displayName": "hide snorkel",
+            "initphase": 1,
+            "displayname": "hide snorkel",
             "author": "Red Hammer Studios",
             "mass": -80,
             "source": "user",
-            "animPeriod": 1e-005
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_CIP [Indent level: 2],
-        "hide_CIP": {
-            "displayName": "hide CIP",
+        "hide_cip": {
+            "displayname": "hide CIP",
             "author": "Red Hammer Studios",
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_BFT [Indent level: 2],
-        "hide_BFT": {
-            "displayName": "hide BFT",
+        "hide_bft": {
+            "displayname": "hide BFT",
             "author": "Red Hammer Studios",
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_Antenna [Indent level: 2],
-        "hide_Antenna": {
-            "displayName": "hide Antennas",
+        "hide_antenna": {
+            "displayname": "hide Antennas",
             "author": "Red Hammer Studios",
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_A2_Parts [Indent level: 2],
-        "hide_A2_Parts": {
-            "displayName": "hide A2 Parts",
+        "hide_a2_parts": {
+            "displayname": "hide A2 Parts",
             "author": "Red Hammer Studios",
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|A1_bumper [Indent level: 2],
-        "A1_bumper": {
+        "a1_bumper": {
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Hide_A2Bumper [Indent level: 2],
-        "Hide_A2Bumper": {
-            "displayName": "switch to old bumper",
+        "hide_a2bumper": {
+            "displayname": "switch to old bumper",
             "author": "Red Hammer Studios",
-            "forceAnimatePhase": 1,
-            "forceAnimate": ["A1_bumper",1],
-            "forceAnimate2": ["A1_bumper",0],
+            "forceanimatephase": 1,
+            "forceanimate": ["A1_bumper",1],
+            "forceanimate2": ["A1_bumper",0],
             "source": "user",
-            "animPeriod": 1e-005,
-            "initPhase": 0
+            "animperiod": 1e-005,
+            "initphase": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Hide_Brushguard [Indent level: 2],
-        "Hide_Brushguard": {
-            "initPhase": 1,
-            "displayName": "hide brushguard",
+        "hide_brushguard": {
+            "initphase": 1,
+            "displayname": "hide brushguard",
             "author": "Red Hammer Studios",
             "source": "user",
-            "animPeriod": 1e-005
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Door_LF [Indent level: 2],
-        "Door_LF": {
+        "door_lf": {
             "source": "door",
-            "animPeriod": 0.8,
+            "animperiod": 0.8,
             "sound": "RHS_HMMWV_Door",
-            "soundPosition": "door_1_axis"
+            "soundposition": "door_1_axis"
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Door_RF [Indent level: 2],
-        "Door_RF": {
-            "soundPosition": "door_2_axis",
+        "door_rf": {
+            "soundposition": "door_2_axis",
             "source": "door",
-            "animPeriod": 0.8,
+            "animperiod": 0.8,
             "sound": "RHS_HMMWV_Door"
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Door_LB [Indent level: 2],
-        "Door_LB": {
-            "soundPosition": "door_3_axis",
+        "door_lb": {
+            "soundposition": "door_3_axis",
             "source": "door",
-            "animPeriod": 0.8,
+            "animperiod": 0.8,
             "sound": "RHS_HMMWV_Door"
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Door_RB [Indent level: 2],
-        "Door_RB": {
-            "soundPosition": "door_4_axis",
+        "door_rb": {
+            "soundposition": "door_4_axis",
             "source": "door",
-            "animPeriod": 0.8,
+            "animperiod": 0.8,
             "sound": "RHS_HMMWV_Door"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitLFWheel [Indent level: 2],
-        "HitLFWheel": {
+        "hitlfwheel": {
             "source": "Hit",
             "hitpoint": "HitLFWheel",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitRFWheel [Indent level: 2],
-        "HitRFWheel": {
+        "hitrfwheel": {
             "hitpoint": "HitRFWheel",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitLBWheel [Indent level: 2],
-        "HitLBWheel": {
+        "hitlbwheel": {
             "hitpoint": "HitLF2Wheel",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitRBWheel [Indent level: 2],
-        "HitRBWheel": {
+        "hitrbwheel": {
             "hitpoint": "HitRF2Wheel",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitGlass1 [Indent level: 2],
-        "HitGlass1": {
+        "hitglass1": {
             "source": "Hit",
             "hitpoint": "HitGlass1",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitGlass2 [Indent level: 2],
-        "HitGlass2": {
+        "hitglass2": {
             "hitpoint": "HitGlass2",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitGlass3 [Indent level: 2],
-        "HitGlass3": {
+        "hitglass3": {
             "hitpoint": "HitGlass3",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitGlass4 [Indent level: 2],
-        "HitGlass4": {
+        "hitglass4": {
             "hitpoint": "HitGlass4",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitGlass5 [Indent level: 2],
-        "HitGlass5": {
+        "hitglass5": {
             "hitpoint": "HitGlass5",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|HitGlass6 [Indent level: 2],
-        "HitGlass6": {
+        "hitglass6": {
             "hitpoint": "HitGlass6",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|Hitwindshield_1 [Indent level: 2],
-        "Hitwindshield_1": {
+        "hitwindshield_1": {
             "hitpoint": "Hitwindshield_1",
             "source": "Hit",
             "raw": 1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|AnimationSources|Hitwindshield_2 [Indent level: 2],
-        "Hitwindshield_2": {
+        "hitwindshield_2": {
             "hitpoint": "Hitwindshield_2",
             "source": "Hit",
             "raw": 1
         }
     },
     # Class: CfgVehicles|rhsusf_m1025_w_m2|HitPoints [Indent level: 1],
-    "HitPoints": {
+    "hitpoints": {
         # Class: CfgVehicles|rhsusf_m1025_w|HitPoints|hitwindshield_1 [Indent level: 2]
         "hitwindshield_1": {
             "armor": 2.29,
             "material": -1,
             "name": "windshield_1",
-            "armorComponent": "windshield_1",
+            "armorcomponent": "windshield_1",
             "visual": "windshield_1",
-            "passThrough": 0,
+            "passthrough": 0,
             "radius": 0.4
         },
         # Class: CfgVehicles|rhsusf_m1025_w|HitPoints|hitwindshield_2 [Indent level: 2],
@@ -304,76 +304,76 @@ rhsusf_m1025_w_m2 = {
             "armor": 2.29,
             "material": -1,
             "name": "windshield_2",
-            "armorComponent": "windshield_2",
+            "armorcomponent": "windshield_2",
             "visual": "windshield_2",
-            "passThrough": 0,
+            "passthrough": 0,
             "radius": 0.4
         },
         # Class: CfgVehicles|rhsusf_m1025_w|HitPoints|HitGlass1 [Indent level: 2],
-        "HitGlass1": {
+        "hitglass1": {
             "armor": 2.09,
             "material": -1,
             "name": "glass1",
-            "armorComponent": "glass1",
+            "armorcomponent": "glass1",
             "visual": "glass1",
-            "passThrough": 0,
+            "passthrough": 0,
             "radius": 0.4
         },
         # Class: CfgVehicles|rhsusf_m1025_w|HitPoints|HitGlass2 [Indent level: 2],
-        "HitGlass2": {
+        "hitglass2": {
             "armor": 2.09,
             "name": "glass2",
-            "armorComponent": "glass2",
+            "armorcomponent": "glass2",
             "visual": "glass2",
             "radius": 0.4,
             "material": -1,
-            "passThrough": 0
+            "passthrough": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w|HitPoints|HitGlass3 [Indent level: 2],
-        "HitGlass3": {
+        "hitglass3": {
             "armor": 2.09,
             "name": "glass3",
-            "armorComponent": "glass3",
+            "armorcomponent": "glass3",
             "visual": "glass3",
             "radius": 0.4,
             "material": -1,
-            "passThrough": 0
+            "passthrough": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w|HitPoints|HitGlass4 [Indent level: 2],
-        "HitGlass4": {
+        "hitglass4": {
             "armor": 2.09,
             "name": "glass4",
-            "armorComponent": "glass4",
+            "armorcomponent": "glass4",
             "visual": "glass4",
             "radius": 0.4,
             "material": -1,
-            "passThrough": 0
+            "passthrough": 0
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitGlass5 [Indent level: 2],
-        "HitGlass5": {
+        "hitglass5": {
             "name": "glass5",
-            "armorComponent": "glass5",
+            "armorcomponent": "glass5",
             "visual": "glass5",
             "radius": 0.4,
             "armor": 0.09,
             "material": -1,
-            "passThrough": 0
+            "passthrough": 0
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitGlass6 [Indent level: 2],
-        "HitGlass6": {
+        "hitglass6": {
             "name": "glass6",
-            "armorComponent": "glass6",
+            "armorcomponent": "glass6",
             "visual": "glass6",
             "radius": 0.4,
             "armor": 0.09,
             "material": -1,
-            "passThrough": 0
+            "passthrough": 0
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitBody [Indent level: 2],
-        "HitBody": {
+        "hitbody": {
             "armor": 4.6,
             "material": -1,
-            "passThrough": 1,
+            "passthrough": 1,
             "radius": 0.2,
             "name": "vehicle",
             "visual": "damage"
@@ -381,3159 +381,3159 @@ rhsusf_m1025_w_m2 = {
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|hitfuel [Indent level: 2],
         "hitfuel": {
             "armor": -150,
-            "passThrough": 0.5,
-            "explosionShielding": 0.5,
+            "passthrough": 0.5,
+            "explosionshielding": 0.5,
             "radius": 0.2,
             "name": "fuel",
             "visual": "-"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitLFWheel [Indent level: 2],
-        "HitLFWheel": {
+        "hitlfwheel": {
             "radius": 0.2,
             "visual": "wheel_1_tire",
             "name": "wheel_1",
-            "armorComponent": "wheel_1_tire",
+            "armorcomponent": "wheel_1_tire",
             "armor": -150,
-            "minimalHit": -0.045,
-            "explosionShielding": 4,
-            "passThrough": 0,
+            "minimalhit": -0.045,
+            "explosionshielding": 4,
+            "passthrough": 0,
             "material": -1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitRFWheel [Indent level: 2],
-        "HitRFWheel": {
+        "hitrfwheel": {
             "radius": 0.2,
             "visual": "wheel_2_tire",
             "name": "wheel_2",
-            "armorComponent": "wheel_2_tire",
+            "armorcomponent": "wheel_2_tire",
             "armor": -150,
-            "minimalHit": -0.045,
-            "explosionShielding": 4,
-            "passThrough": 0,
+            "minimalhit": -0.045,
+            "explosionshielding": 4,
+            "passthrough": 0,
             "material": -1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitLF2Wheel [Indent level: 2],
-        "HitLF2Wheel": {
+        "hitlf2wheel": {
             "radius": 0.2,
             "visual": "wheel_3_tire",
             "name": "wheel_3",
-            "armorComponent": "wheel_3_tire",
+            "armorcomponent": "wheel_3_tire",
             "armor": -150,
-            "minimalHit": -0.045,
-            "explosionShielding": 4,
-            "passThrough": 0,
+            "minimalhit": -0.045,
+            "explosionshielding": 4,
+            "passthrough": 0,
             "material": -1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitRF2Wheel [Indent level: 2],
-        "HitRF2Wheel": {
+        "hitrf2wheel": {
             "radius": 0.2,
             "visual": "wheel_4_tire",
             "name": "wheel_4",
-            "armorComponent": "wheel_4_tire",
+            "armorcomponent": "wheel_4_tire",
             "armor": -150,
-            "minimalHit": -0.045,
-            "explosionShielding": 4,
-            "passThrough": 0,
+            "minimalhit": -0.045,
+            "explosionshielding": 4,
+            "passthrough": 0,
             "material": -1
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine [Indent level: 2],
-        "HitEngine": {
+        "hitengine": {
             "armor": -100,
             "minimalhit": -0.1,
-            "passThrough": 0.2,
+            "passthrough": 0.2,
             "radius": 0.15,
             "name": "engine",
             "visual": "damage",
             # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine|DestructionEffects [Indent level: 3],
-            "DestructionEffects": {
-                "ammoExplosionEffect": "",
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
                 # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke [Indent level: 4],
-                "RHS_Engine_Smoke": {
+                "rhs_engine_smoke": {
                     "simulation": "particles",
                     "type": "SmallWreckSmoke",
                     "position": "engine_smoke1",
                     "intensity": 0.5,
                     "interval": 1,
-                    "lifeTime": 60
+                    "lifetime": 60
                 },
                 # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Fire [Indent level: 4],
-                "RHS_Engine_Fire": {
+                "rhs_engine_fire": {
                     "type": "SmallFireFPlace",
                     "simulation": "particles",
                     "position": "engine_smoke1",
                     "intensity": 0.5,
                     "interval": 1,
-                    "lifeTime": 60
+                    "lifetime": 60
                 },
                 # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sparks [Indent level: 4],
-                "RHS_Engine_Sparks": {
+                "rhs_engine_sparks": {
                     "type": "RHS_FireSparks",
                     "simulation": "particles",
                     "position": "engine_smoke1",
                     "intensity": 0.5,
                     "interval": 1,
-                    "lifeTime": 60
+                    "lifetime": 60
                 },
                 # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sounds [Indent level: 4],
-                "RHS_Engine_Sounds": {
+                "rhs_engine_sounds": {
                     "simulation": "sound",
                     "type": "Fire",
                     "position": "engine_smoke1",
                     "intensity": 0.5,
                     "interval": 1,
-                    "lifeTime": 60
+                    "lifetime": 60
                 },
                 # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small1 [Indent level: 4],
-                "RHS_Engine_Smoke_small1": {
+                "rhs_engine_smoke_small1": {
                     "type": "WeaponWreckSmoke",
                     "position": "engine_smoke2",
                     "simulation": "particles",
                     "intensity": 0.5,
                     "interval": 1,
-                    "lifeTime": 60
+                    "lifetime": 60
                 },
                 # Class: CfgVehicles|rhsusf_hmmwe_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small2 [Indent level: 4],
-                "RHS_Engine_Smoke_small2": {
+                "rhs_engine_smoke_small2": {
                     "position": "engine_smoke3",
                     "type": "WeaponWreckSmoke",
                     "simulation": "particles",
                     "intensity": 0.5,
                     "interval": 1,
-                    "lifeTime": 60
+                    "lifetime": 60
                 }
             }
         },
         # Class: CfgVehicles|MRAP_01_base_F|HitPoints|HitHull [Indent level: 2],
-        "HitHull": {
+        "hithull": {
             "armor": 1,
             "material": -1,
-            "armorComponent": "hit_hull",
+            "armorcomponent": "hit_hull",
             "name": "hit_hull_point",
             "visual": "-",
-            "passThrough": 0.5,
-            "minimalHit": 0.2,
-            "explosionShielding": 0.6,
+            "passthrough": 0.5,
+            "minimalhit": 0.2,
+            "explosionshielding": 0.6,
             "radius": 0.25
         },
         # Class: CfgVehicles|Car_F|HitPoints|HitRGlass [Indent level: 2],
-        "HitRGlass": {
+        "hitrglass": {
             "armor": 0.2,
             "material": -1,
             "name": "sklo predni P",
-            "passThrough": 0,
-            "explosionShielding": 2
+            "passthrough": 0,
+            "explosionshielding": 2
         },
         # Class: CfgVehicles|Car_F|HitPoints|HitLGlass [Indent level: 2],
-        "HitLGlass": {
+        "hitlglass": {
             "armor": 0.2,
             "material": -1,
             "name": "sklo predni L",
-            "passThrough": 0,
-            "explosionShielding": 2
+            "passthrough": 0,
+            "explosionshielding": 2
         },
         # Class: CfgVehicles|Car_F|HitPoints|HitLBWheel [Indent level: 2],
-        "HitLBWheel": {
+        "hitlbwheel": {
             "armor": 0.2,
             "material": -1,
             "name": "wheel_1_4_steering",
             "visual": "-",
-            "passThrough": 0.3,
-            "explosionShielding": 4
+            "passthrough": 0.3,
+            "explosionshielding": 4
         },
         # Class: CfgVehicles|Car_F|HitPoints|HitLMWheel [Indent level: 2],
-        "HitLMWheel": {
+        "hitlmwheel": {
             "armor": 0.2,
             "material": -1,
             "name": "wheel_1_3_steering",
             "visual": "-",
-            "passThrough": 0.3,
-            "explosionShielding": 4
+            "passthrough": 0.3,
+            "explosionshielding": 4
         },
         # Class: CfgVehicles|Car_F|HitPoints|HitRBWheel [Indent level: 2],
-        "HitRBWheel": {
+        "hitrbwheel": {
             "armor": 0.2,
             "material": -1,
             "name": "wheel_2_4_steering",
             "visual": "-",
-            "passThrough": 0.3,
-            "explosionShielding": 4
+            "passthrough": 0.3,
+            "explosionshielding": 4
         },
         # Class: CfgVehicles|Car_F|HitPoints|HitRMWheel [Indent level: 2],
-        "HitRMWheel": {
+        "hitrmwheel": {
             "armor": 0.2,
             "material": -1,
             "name": "wheel_2_3_steering",
             "visual": "-",
-            "passThrough": 0.3,
-            "explosionShielding": 4
+            "passthrough": 0.3,
+            "explosionshielding": 4
         }
     },
     "threat": [0.9,0.3,0.1],
-    "showNVGGunner": 1,
+    "shownvggunner": 1,
     # Class: CfgVehicles|rhsusf_m1025_w_m2|Turrets [Indent level: 1],
-    "Turrets": {
+    "turrets": {
         # Class: CfgVehicles|rhsusf_m1025_w_m2|Turrets|M2_Turret [Indent level: 2]
-        "M2_Turret": {
-            "gunnerLeftHandAnimName": "OtocHlaven_Shake",
-            "gunnerRightHandAnimName": "OtocHlaven_Shake",
-            "gunnerLeftLegAnimName": "leg_left",
-            "gunnerRightLegAnimName": "leg_right",
+        "m2_turret": {
+            "gunnerlefthandanimname": "OtocHlaven_Shake",
+            "gunnerrighthandanimname": "OtocHlaven_Shake",
+            "gunnerleftleganimname": "leg_left",
+            "gunnerrightleganimname": "leg_right",
             "body": "mainTurret",
             "gun": "mainGun",
-            "animationSourceBody": "mainTurret",
-            "animationSourceGun": "mainGun",
-            "turretInfoType": "RscOptics_Offroad_01",
-            "discreteDistance": [100,200,300,400,500,600,800,1000,1200,1500],
-            "discreteDistanceInitIndex": 2,
-            "gunnerForceOptics": 0,
-            "gunnerOutOpticsShowCursor": 0,
+            "animationsourcebody": "mainTurret",
+            "animationsourcegun": "mainGun",
+            "turretinfotype": "RscOptics_Offroad_01",
+            "discretedistance": [100,200,300,400,500,600,800,1000,1200,1500],
+            "discretedistanceinitindex": 2,
+            "gunnerforceoptics": 0,
+            "gunneroutopticsshowcursor": 0,
             "weapons": ["RHS_M2"],
             "magazines": ["rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Red"],
-            "minElev": -10,
-            "maxElev": 40,
-            "soundServo": ["A3|sounds_f|dummysound",1e-006,1],
-            "soundAttenuationTurret": "HeliAttenuationGunner",
-            "disableSoundAttenuation": 1,
-            "gunnerAction": "RHS_HMMWV_Gunner03",
-            "gunnerInAction": "RHS_HMMWV_Gunner03a_in",
-            "lodTurnedIn": 0,
-            "lodTurnedOut": 1000,
-            "lodOpticsOut": 1000,
-            "canhideGunner": 1,
-            "inGunnerMayFire": 0,
-            "outGunnerMayFire": 1,
-            "viewGunnerInExternal": 1,
-            "gunnerDoor": "Door_RB",
-            "gunnerCompartments": "Compartment1",
-            "ejectDeadGunner": 0,
-            "castGunnerShadow": 1,
-            "stabilizedInAxes": 0,
-            "gunBeg": "usti hlavne",
-            "gunEnd": "konec hlavne",
-            "memoryPointGunnerOptics": "",
-            "memoryPointGunnerOutOptics": "gunnerview",
-            "gunnerOpticsModel": "",
-            "gunnerOutOpticsModel": "A3|weapons_f|reticle|optics_empty",
+            "minelev": -10,
+            "maxelev": 40,
+            "soundservo": ["A3|sounds_f|dummysound",1e-006,1],
+            "soundattenuationturret": "HeliAttenuationGunner",
+            "disablesoundattenuation": 1,
+            "gunneraction": "RHS_HMMWV_Gunner03",
+            "gunnerinaction": "RHS_HMMWV_Gunner03a_in",
+            "lodturnedin": 0,
+            "lodturnedout": 1000,
+            "lodopticsout": 1000,
+            "canhidegunner": 1,
+            "ingunnermayfire": 0,
+            "outgunnermayfire": 1,
+            "viewgunnerinexternal": 1,
+            "gunnerdoor": "Door_RB",
+            "gunnercompartments": "Compartment1",
+            "ejectdeadgunner": 0,
+            "castgunnershadow": 1,
+            "stabilizedinaxes": 0,
+            "gunbeg": "usti hlavne",
+            "gunend": "konec hlavne",
+            "memorypointgunneroptics": "",
+            "memorypointgunneroutoptics": "gunnerview",
+            "gunneropticsmodel": "",
+            "gunneroutopticsmodel": "A3|weapons_f|reticle|optics_empty",
             "optics": 0,
-            "memoryPointsGetInGunner": "pos_cargo_RB",
-            "memoryPointsGetInGunnerDir": "pos_cargo_RB_dir",
+            "memorypointsgetingunner": "pos_cargo_RB",
+            "memorypointsgetingunnerdir": "pos_cargo_RB_dir",
             # Class: CfgVehicles|rhsusf_m1025_w_m2|Turrets|M2_Turret|ViewOptics [Indent level: 3],
-            "ViewOptics": {
-                "initFov": 0.7,
-                "minFov": 0.25,
-                "maxFov": 1.1,
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewoptics": {
+                "initfov": 0.7,
+                "minfov": 0.25,
+                "maxfov": 1.1,
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
             # Class: CfgVehicles|rhsusf_m1025_w_m2|Turrets|M2_Turret|ViewGunner [Indent level: 3],
-            "ViewGunner": {
-                "initFov": 0.7,
-                "minFov": 0.25,
-                "maxFov": 1.1,
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewgunner": {
+                "initfov": 0.7,
+                "minfov": 0.25,
+                "maxfov": 1.1,
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "memoryPointGun": "machinegun",
-            "gunnerGetInAction": "GetInLow",
-            "gunnerGetOutAction": "GetOutLow",
-            "minTurn": -360,
-            "maxTurn": 360,
-            "primaryGunner": 1,
-            "enableManualFire": 0,
-            "startEngine": 0,
+            "memorypointgun": "machinegun",
+            "gunnergetinaction": "GetInLow",
+            "gunnergetoutaction": "GetOutLow",
+            "minturn": -360,
+            "maxturn": 360,
+            "primarygunner": 1,
+            "enablemanualfire": 0,
+            "startengine": 0,
             # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints [Indent level: 3],
-            "HitPoints": {
+            "hitpoints": {
                 # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints|HitTurret [Indent level: 4]
-                "HitTurret": {
+                "hitturret": {
                     "armor": 0.8,
                     "material": -1,
                     "name": "vez",
                     "visual": "vez",
-                    "passThrough": 0.5,
-                    "explosionShielding": 0.4
+                    "passthrough": 0.5,
+                    "explosionshielding": 0.4
                 },
                 # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints|HitGun [Indent level: 4],
-                "HitGun": {
+                "hitgun": {
                     "armor": 0.4,
                     "material": -1,
                     "name": "zbran",
                     "visual": "zbran",
-                    "passThrough": 0,
-                    "explosionShielding": 0.2
+                    "passthrough": 0,
+                    "explosionshielding": 0.2
                 }
             },
             # Class: CfgVehicles|Car_F|Turrets|MainTurret|Components [Indent level: 3],
-            "Components": {
+            "components": {
             },
-            "animationSourceHatch": "hatchGunner",
-            "animationSourceCamElev": "camElev",
-            "proxyType": "CPGunner",
-            "proxyIndex": 1,
-            "gunnerName": "Gunner",
-            "gunnerType": "",
-            "primaryObserver": 0,
-            "soundElevation": ["",0.00316228,1],
-            "initElev": 0,
-            "initTurn": 0,
-            "minOutElev": -4,
-            "maxOutElev": 20,
-            "initOutElev": 0,
-            "minOutTurn": -60,
-            "maxOutTurn": 60,
-            "initOutTurn": 0,
-            "maxHorizontalRotSpeed": 1.2,
-            "maxVerticalRotSpeed": 1.2,
-            "minCamElev": -90,
-            "maxCamElev": 90,
-            "initCamElev": 0,
+            "animationsourcehatch": "hatchGunner",
+            "animationsourcecamelev": "camElev",
+            "proxytype": "CPGunner",
+            "proxyindex": 1,
+            "gunnername": "Gunner",
+            "gunnertype": "",
+            "primaryobserver": 0,
+            "soundelevation": ["",0.00316228,1],
+            "initelev": 0,
+            "initturn": 0,
+            "minoutelev": -4,
+            "maxoutelev": 20,
+            "initoutelev": 0,
+            "minoutturn": -60,
+            "maxoutturn": 60,
+            "initoutturn": 0,
+            "maxhorizontalrotspeed": 1.2,
+            "maxverticalrotspeed": 1.2,
+            "mincamelev": -90,
+            "maxcamelev": 90,
+            "initcamelev": 0,
             "primary": 1,
-            "hasGunner": 1,
+            "hasgunner": 1,
             "commanding": 1,
-            "turretCanSee": 0,
-            "canUseScanners": 1,
+            "turretcansee": 0,
+            "canusescanners": 1,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-            "TurretSpec": {
-                "showHeadPhones": 0
+            "turretspec": {
+                "showheadphones": 0
             },
-            "gunnerOpticsColor": [0,0,0,1],
-            "gunnerOpticsShowCursor": 0,
-            "gunnerOutOpticsColor": [0,0,0,1],
-            "gunnerOpticsEffect": [],
-            "gunnerOutOpticsEffect": [],
-            "gunnerOutForceOptics": 0,
-            "gunnerFireAlsoInInternalCamera": 1,
-            "gunnerOutFireAlsoInInternalCamera": 1,
-            "gunnerUsesPilotView": 0,
-            "viewGunnerShadow": 1,
-            "viewGunnerShadowDiff": 1,
-            "viewGunnerShadowAmb": 1,
-            "hideWeaponsGunner": 1,
-            "forceHideGunner": 0,
-            "showHMD": 0,
-            "lockWhenDriverOut": 0,
-            "lockWhenVehicleSpeed": -1,
-            "memoryPointsGetInGunnerPrecise": "",
-            "missileBeg": "spice rakety",
-            "missileEnd": "konec rakety",
-            "armorLights": 0.4,
+            "gunneropticscolor": [0,0,0,1],
+            "gunneropticsshowcursor": 0,
+            "gunneroutopticscolor": [0,0,0,1],
+            "gunneropticseffect": [],
+            "gunneroutopticseffect": [],
+            "gunneroutforceoptics": 0,
+            "gunnerfirealsoininternalcamera": 1,
+            "gunneroutfirealsoininternalcamera": 1,
+            "gunnerusespilotview": 0,
+            "viewgunnershadow": 1,
+            "viewgunnershadowdiff": 1,
+            "viewgunnershadowamb": 1,
+            "hideweaponsgunner": 1,
+            "forcehidegunner": 0,
+            "showhmd": 0,
+            "lockwhendriverout": 0,
+            "lockwhenvehiclespeed": -1,
+            "memorypointsgetingunnerprecise": "",
+            "missilebeg": "spice rakety",
+            "missileend": "konec rakety",
+            "armorlights": 0.4,
             # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-            "Reflectors": {
+            "reflectors": {
             },
-            "aggregateReflectors": [],
+            "aggregatereflectors": [],
             # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-            "GunFire": {
+            "gunfire": {
                 "access": 0,
-                "cloudletDuration": 0.2,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 0.2,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 0.5,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletFire",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.2,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 0.2,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 0.5,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletFire",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.01,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 4500,
-                "deltaT": -3000,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 4500,
+                "deltat": -3000,
                 # Class: WeaponFireGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
                     # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                    "T1": {
-                        "maxT": 200,
+                    "t1": {
+                        "maxt": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
                     # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                    "T2": {
-                        "maxT": 400,
+                    "t2": {
+                        "maxt": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
                     # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                    "T3": {
-                        "maxT": 600,
+                    "t3": {
+                        "maxt": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
                     # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                    "T4": {
-                        "maxT": 800,
+                    "t4": {
+                        "maxt": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
                     # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                    "T5": {
-                        "maxT": 1000,
+                    "t5": {
+                        "maxt": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
                     # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                    "T6": {
-                        "maxT": 1500,
+                    "t6": {
+                        "maxt": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
                     # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                    "T7": {
-                        "maxT": 2000,
+                    "t7": {
+                        "maxt": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
                     # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                    "T8": {
-                        "maxT": 2300,
+                    "t8": {
+                        "maxt": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
                     # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                    "T9": {
-                        "maxT": 2500,
+                    "t9": {
+                        "maxt": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
                     # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                    "T10": {
-                        "maxT": 2600,
+                    "t10": {
+                        "maxt": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                    "T11": {
-                        "maxT": 2650,
+                    "t11": {
+                        "maxt": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
                     # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                    "T12": {
-                        "maxT": 2700,
+                    "t12": {
+                        "maxt": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                    "T13": {
-                        "maxT": 2750,
+                    "t13": {
+                        "maxt": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                    "T14": {
-                        "maxT": 2800,
+                    "t14": {
+                        "maxt": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
                     # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                    "T15": {
-                        "maxT": 2850,
+                    "t15": {
+                        "maxt": 2850,
                         "color": [1,0.6,0.2,0]
                     },
                     # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                    "T16": {
-                        "maxT": 2900,
+                    "t16": {
+                        "maxt": 2900,
                         "color": [1,0.71,0.3,0]
                     },
                     # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                    "T17": {
-                        "maxT": 2950,
+                    "t17": {
+                        "maxt": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
                     # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                    "T18": {
-                        "maxT": 3000,
+                    "t18": {
+                        "maxt": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
                     # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                    "T19": {
-                        "maxT": 3100,
+                    "t19": {
+                        "maxt": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
                     # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                    "T20": {
-                        "maxT": 3300,
+                    "t20": {
+                        "maxt": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
                     # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                    "T21": {
-                        "maxT": 3600,
+                    "t21": {
+                        "maxt": 3600,
                         "color": [1,0.98,0.91,0]
                     },
                     # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                    "T22": {
-                        "maxT": 4200,
+                    "t22": {
+                        "maxt": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-            "GunClouds": {
+            "gunclouds": {
                 "access": 0,
-                "cloudletDuration": 0.3,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 1,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 1,
-                "cloudletAccY": 0.4,
-                "cloudletMinYSpeed": 0.2,
-                "cloudletMaxYSpeed": 0.8,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.3,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 1,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 1,
+                "cloudletaccy": 0.4,
+                "cloudletminyspeed": 0.2,
+                "cloudletmaxyspeed": 0.8,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.05,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-            "MGunClouds": {
+            "mgunclouds": {
                 "access": 0,
-                "cloudletGrowUp": 0.05,
-                "cloudletFadeIn": 0,
-                "cloudletFadeOut": 0.1,
-                "cloudletDuration": 0.05,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 0.3,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
-                "timeToLive": 0,
+                "cloudletgrowup": 0.05,
+                "cloudletfadein": 0,
+                "cloudletfadeout": 0.1,
+                "cloudletduration": 0.05,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 0.3,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
+                "timetolive": 0,
                 "interval": 0.02,
                 "size": 0.3,
-                "sourceSize": 0.02,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.02,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsMGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-            "Turrets": {
+            "turrets": {
             },
-            "forceNVG": 0,
-            "isCopilot": 0,
-            "canEject": 1,
-            "preciseGetInOut": 0,
-            "turretFollowFreeLook": 0,
-            "allowTabLock": 1,
-            "showAllTargets": 0,
-            "dontCreateAI": 0,
-            "slingLoadOperator": 0,
-            "playerPosition": 0,
-            "allowLauncherIn": 0,
-            "allowLauncherOut": 0,
+            "forcenvg": 0,
+            "iscopilot": 0,
+            "caneject": 1,
+            "precisegetinout": 0,
+            "turretfollowfreelook": 0,
+            "allowtablock": 1,
+            "showalltargets": 0,
+            "dontcreateai": 0,
+            "slingloadoperator": 0,
+            "playerposition": 0,
+            "allowlauncherin": 0,
+            "allowlauncherout": 0,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-            "TurnIn": {
-                "turnOffset": 0
+            "turnin": {
+                "turnoffset": 0
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-            "TurnOut": {
-                "turnOffset": 0
+            "turnout": {
+                "turnoffset": 0
             },
-            "selectionFireAnim": "zasleh",
-            "showCrewAim": 0
+            "selectionfireanim": "zasleh",
+            "showcrewaim": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|Turrets|CargoTurret_01 [Indent level: 2],
-        "CargoTurret_01": {
+        "cargoturret_01": {
             "weapons": ["rhsusf_weap_DummyLauncher"],
-            "gunnerAction": "passenger_inside_1",
-            "gunnerName": "Passenger (Right Front)",
-            "gunnerGetInAction": "GetInLow",
-            "gunnerGetOutAction": "GetOutLow",
-            "memoryPointsGetInGunner": "pos_cargo_RF",
-            "memoryPointsGetInGunnerDir": "pos_cargo_RF_dir",
-            "memoryPointGunnerOptics": "",
-            "gunnerDoor": "Door_RF",
-            "proxyIndex": 1,
-            "maxTurn": -34,
-            "minTurn": -75,
-            "maxElev": 15,
-            "minElev": -7,
+            "gunneraction": "passenger_inside_1",
+            "gunnername": "Passenger (Right Front)",
+            "gunnergetinaction": "GetInLow",
+            "gunnergetoutaction": "GetOutLow",
+            "memorypointsgetingunner": "pos_cargo_RF",
+            "memorypointsgetingunnerdir": "pos_cargo_RF_dir",
+            "memorypointgunneroptics": "",
+            "gunnerdoor": "Door_RF",
+            "proxyindex": 1,
+            "maxturn": -34,
+            "minturn": -75,
+            "maxelev": 15,
+            "minelev": -7,
             # Class: CfgVehicles|rhsusf_m1025_w|Turrets|CargoTurret_01|dynamicViewLimits [Indent level: 3],
-            "dynamicViewLimits": {
+            "dynamicviewlimits": {
             },
-            "enabledByAnimationSource": "ani_window_2",
-            "selectionFireAnim": "",
+            "enabledbyanimationsource": "ani_window_2",
+            "selectionfireanim": "",
             # Class: CfgVehicles|rhsusf_m1025_w|Turrets|CargoTurret_01|Hitpoints [Indent level: 3],
-            "Hitpoints": {
+            "hitpoints": {
             },
             # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
-            "ViewGunner": {
-                "initAngleX": 5,
-                "minAngleX": -75,
-                "maxAngleX": 85,
-                "initAngleY": 0,
-                "minAngleY": -150,
-                "maxAngleY": 150,
-                "minFov": 0.25,
-                "maxFov": 1.25,
-                "initFov": 0.75,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewgunner": {
+                "initanglex": 5,
+                "minanglex": -75,
+                "maxanglex": 85,
+                "initangley": 0,
+                "minangley": -150,
+                "maxangley": 150,
+                "minfov": 0.25,
+                "maxfov": 1.25,
+                "initfov": 0.75,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "animationSourceBody": "",
-            "animationSourceGun": "",
+            "animationsourcebody": "",
+            "animationsourcegun": "",
             "body": "",
-            "canEject": 1,
+            "caneject": 1,
             "commanding": 0,
-            "dontCreateAI": 1,
+            "dontcreateai": 1,
             "gun": "",
-            "hideWeaponsGunner": 0,
-            "isCopilot": 0,
-            "primaryGunner": 0,
-            "proxyType": "CPCargo",
-            "startEngine": 0,
-            "turretFollowFreeLook": 0,
-            "viewGunnerInExternal": 1,
-            "disableSoundAttenuation": 1,
-            "outGunnerMayFire": 1,
-            "isPersonTurret": 1,
-            "showAsCargo": 1,
-            "animationSourceHatch": "hatchGunner",
-            "animationSourceCamElev": "camElev",
-            "gunnerType": "",
-            "primaryObserver": 0,
+            "hideweaponsgunner": 0,
+            "iscopilot": 0,
+            "primarygunner": 0,
+            "proxytype": "CPCargo",
+            "startengine": 0,
+            "turretfollowfreelook": 0,
+            "viewgunnerinexternal": 1,
+            "disablesoundattenuation": 1,
+            "outgunnermayfire": 1,
+            "ispersonturret": 1,
+            "showascargo": 1,
+            "animationsourcehatch": "hatchGunner",
+            "animationsourcecamelev": "camElev",
+            "gunnertype": "",
+            "primaryobserver": 0,
             "magazines": [],
-            "soundServo": ["",0.00316228,1],
-            "soundElevation": ["",0.00316228,1],
-            "initElev": 0,
-            "initTurn": 0,
-            "minOutElev": -4,
-            "maxOutElev": 20,
-            "initOutElev": 0,
-            "minOutTurn": -60,
-            "maxOutTurn": 60,
-            "initOutTurn": 0,
-            "maxHorizontalRotSpeed": 1.2,
-            "maxVerticalRotSpeed": 1.2,
-            "minCamElev": -90,
-            "maxCamElev": 90,
-            "initCamElev": 0,
-            "stabilizedInAxes": 3,
+            "soundservo": ["",0.00316228,1],
+            "soundelevation": ["",0.00316228,1],
+            "initelev": 0,
+            "initturn": 0,
+            "minoutelev": -4,
+            "maxoutelev": 20,
+            "initoutelev": 0,
+            "minoutturn": -60,
+            "maxoutturn": 60,
+            "initoutturn": 0,
+            "maxhorizontalrotspeed": 1.2,
+            "maxverticalrotspeed": 1.2,
+            "mincamelev": -90,
+            "maxcamelev": 90,
+            "initcamelev": 0,
+            "stabilizedinaxes": 3,
             "primary": 1,
-            "hasGunner": 1,
-            "turretCanSee": 0,
-            "canUseScanners": 1,
+            "hasgunner": 1,
+            "turretcansee": 0,
+            "canusescanners": 1,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-            "TurretSpec": {
-                "showHeadPhones": 0
+            "turretspec": {
+                "showheadphones": 0
             },
-            "gunnerOpticsModel": "",
-            "gunnerOpticsColor": [0,0,0,1],
-            "gunnerForceOptics": 1,
-            "gunnerOpticsShowCursor": 0,
-            "turretInfoType": "",
-            "gunnerOutOpticsModel": "",
-            "gunnerOutOpticsColor": [0,0,0,1],
-            "gunnerOpticsEffect": [],
-            "gunnerOutOpticsEffect": [],
-            "memoryPointGunnerOutOptics": "",
-            "gunnerOutForceOptics": 0,
-            "gunnerOutOpticsShowCursor": 0,
-            "gunnerFireAlsoInInternalCamera": 1,
-            "gunnerOutFireAlsoInInternalCamera": 1,
-            "gunnerUsesPilotView": 0,
-            "castGunnerShadow": 0,
-            "viewGunnerShadow": 1,
-            "viewGunnerShadowDiff": 1,
-            "viewGunnerShadowAmb": 1,
-            "ejectDeadGunner": 0,
-            "canHideGunner": -1,
-            "forceHideGunner": 0,
-            "inGunnerMayFire": 1,
-            "showHMD": 0,
-            "lockWhenDriverOut": 0,
-            "lockWhenVehicleSpeed": -1,
-            "gunnerCompartments": "Compartment1",
-            "LODTurnedIn": -1,
-            "LODTurnedOut": -1,
-            "memoryPointsGetInGunnerPrecise": "",
-            "missileBeg": "spice rakety",
-            "missileEnd": "konec rakety",
-            "armorLights": 0.4,
+            "gunneropticsmodel": "",
+            "gunneropticscolor": [0,0,0,1],
+            "gunnerforceoptics": 1,
+            "gunneropticsshowcursor": 0,
+            "turretinfotype": "",
+            "gunneroutopticsmodel": "",
+            "gunneroutopticscolor": [0,0,0,1],
+            "gunneropticseffect": [],
+            "gunneroutopticseffect": [],
+            "memorypointgunneroutoptics": "",
+            "gunneroutforceoptics": 0,
+            "gunneroutopticsshowcursor": 0,
+            "gunnerfirealsoininternalcamera": 1,
+            "gunneroutfirealsoininternalcamera": 1,
+            "gunnerusespilotview": 0,
+            "castgunnershadow": 0,
+            "viewgunnershadow": 1,
+            "viewgunnershadowdiff": 1,
+            "viewgunnershadowamb": 1,
+            "ejectdeadgunner": 0,
+            "canhidegunner": -1,
+            "forcehidegunner": 0,
+            "ingunnermayfire": 1,
+            "showhmd": 0,
+            "lockwhendriverout": 0,
+            "lockwhenvehiclespeed": -1,
+            "gunnercompartments": "Compartment1",
+            "lodturnedin": -1,
+            "lodturnedout": -1,
+            "memorypointsgetingunnerprecise": "",
+            "missilebeg": "spice rakety",
+            "missileend": "konec rakety",
+            "armorlights": 0.4,
             # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-            "Reflectors": {
+            "reflectors": {
             },
-            "aggregateReflectors": [],
+            "aggregatereflectors": [],
             # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-            "GunFire": {
+            "gunfire": {
                 "access": 0,
-                "cloudletDuration": 0.2,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 0.2,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 0.5,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletFire",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.2,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 0.2,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 0.5,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletFire",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.01,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 4500,
-                "deltaT": -3000,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 4500,
+                "deltat": -3000,
                 # Class: WeaponFireGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
                     # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                    "T1": {
-                        "maxT": 200,
+                    "t1": {
+                        "maxt": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
                     # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                    "T2": {
-                        "maxT": 400,
+                    "t2": {
+                        "maxt": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
                     # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                    "T3": {
-                        "maxT": 600,
+                    "t3": {
+                        "maxt": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
                     # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                    "T4": {
-                        "maxT": 800,
+                    "t4": {
+                        "maxt": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
                     # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                    "T5": {
-                        "maxT": 1000,
+                    "t5": {
+                        "maxt": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
                     # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                    "T6": {
-                        "maxT": 1500,
+                    "t6": {
+                        "maxt": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
                     # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                    "T7": {
-                        "maxT": 2000,
+                    "t7": {
+                        "maxt": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
                     # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                    "T8": {
-                        "maxT": 2300,
+                    "t8": {
+                        "maxt": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
                     # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                    "T9": {
-                        "maxT": 2500,
+                    "t9": {
+                        "maxt": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
                     # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                    "T10": {
-                        "maxT": 2600,
+                    "t10": {
+                        "maxt": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                    "T11": {
-                        "maxT": 2650,
+                    "t11": {
+                        "maxt": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
                     # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                    "T12": {
-                        "maxT": 2700,
+                    "t12": {
+                        "maxt": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                    "T13": {
-                        "maxT": 2750,
+                    "t13": {
+                        "maxt": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                    "T14": {
-                        "maxT": 2800,
+                    "t14": {
+                        "maxt": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
                     # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                    "T15": {
-                        "maxT": 2850,
+                    "t15": {
+                        "maxt": 2850,
                         "color": [1,0.6,0.2,0]
                     },
                     # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                    "T16": {
-                        "maxT": 2900,
+                    "t16": {
+                        "maxt": 2900,
                         "color": [1,0.71,0.3,0]
                     },
                     # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                    "T17": {
-                        "maxT": 2950,
+                    "t17": {
+                        "maxt": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
                     # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                    "T18": {
-                        "maxT": 3000,
+                    "t18": {
+                        "maxt": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
                     # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                    "T19": {
-                        "maxT": 3100,
+                    "t19": {
+                        "maxt": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
                     # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                    "T20": {
-                        "maxT": 3300,
+                    "t20": {
+                        "maxt": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
                     # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                    "T21": {
-                        "maxT": 3600,
+                    "t21": {
+                        "maxt": 3600,
                         "color": [1,0.98,0.91,0]
                     },
                     # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                    "T22": {
-                        "maxT": 4200,
+                    "t22": {
+                        "maxt": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-            "GunClouds": {
+            "gunclouds": {
                 "access": 0,
-                "cloudletDuration": 0.3,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 1,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 1,
-                "cloudletAccY": 0.4,
-                "cloudletMinYSpeed": 0.2,
-                "cloudletMaxYSpeed": 0.8,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.3,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 1,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 1,
+                "cloudletaccy": 0.4,
+                "cloudletminyspeed": 0.2,
+                "cloudletmaxyspeed": 0.8,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.05,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-            "MGunClouds": {
+            "mgunclouds": {
                 "access": 0,
-                "cloudletGrowUp": 0.05,
-                "cloudletFadeIn": 0,
-                "cloudletFadeOut": 0.1,
-                "cloudletDuration": 0.05,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 0.3,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
-                "timeToLive": 0,
+                "cloudletgrowup": 0.05,
+                "cloudletfadein": 0,
+                "cloudletfadeout": 0.1,
+                "cloudletduration": 0.05,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 0.3,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
+                "timetolive": 0,
                 "interval": 0.02,
                 "size": 0.3,
-                "sourceSize": 0.02,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.02,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsMGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-            "Turrets": {
+            "turrets": {
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
-            "ViewOptics": {
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "initFov": 0.3,
-                "minFov": 0.07,
-                "maxFov": 0.35,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewoptics": {
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "initfov": 0.3,
+                "minfov": 0.07,
+                "maxfov": 0.35,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "forceNVG": 0,
-            "gunnerLeftHandAnimName": "",
-            "gunnerRightHandAnimName": "",
-            "gunnerLeftLegAnimName": "",
-            "gunnerRightLegAnimName": "",
-            "preciseGetInOut": 0,
-            "allowTabLock": 1,
-            "showAllTargets": 0,
-            "slingLoadOperator": 0,
-            "playerPosition": 0,
-            "allowLauncherIn": 0,
-            "allowLauncherOut": 0,
+            "forcenvg": 0,
+            "gunnerlefthandanimname": "",
+            "gunnerrighthandanimname": "",
+            "gunnerleftleganimname": "",
+            "gunnerrightleganimname": "",
+            "precisegetinout": 0,
+            "allowtablock": 1,
+            "showalltargets": 0,
+            "slingloadoperator": 0,
+            "playerposition": 0,
+            "allowlauncherin": 0,
+            "allowlauncherout": 0,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-            "TurnIn": {
-                "turnOffset": 0
+            "turnin": {
+                "turnoffset": 0
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-            "TurnOut": {
-                "turnOffset": 0
+            "turnout": {
+                "turnoffset": 0
             },
-            "gunnerInAction": "ManActTestDriver",
-            "gunBeg": "usti hlavne",
-            "gunEnd": "konec hlavne",
-            "memoryPointGun": "kulas",
-            "showCrewAim": 0
+            "gunnerinaction": "ManActTestDriver",
+            "gunbeg": "usti hlavne",
+            "gunend": "konec hlavne",
+            "memorypointgun": "kulas",
+            "showcrewaim": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|Turrets|CargoTurret_02 [Indent level: 2],
-        "CargoTurret_02": {
-            "gunnerAction": "passenger_inside_2",
-            "gunnerName": "Passenger (Right Back)",
-            "memoryPointsGetInGunner": "pos_cargo_RB",
-            "memoryPointsGetInGunnerDir": "pos_cargo_RB_dir",
-            "proxyIndex": 2,
-            "enabledByAnimationSource": "ani_window_4",
-            "gunnerDoor": "Door_RB",
-            "maxTurn": -37,
-            "minTurn": -65,
-            "maxElev": 9,
-            "minElev": -15,
+        "cargoturret_02": {
+            "gunneraction": "passenger_inside_2",
+            "gunnername": "Passenger (Right Back)",
+            "memorypointsgetingunner": "pos_cargo_RB",
+            "memorypointsgetingunnerdir": "pos_cargo_RB_dir",
+            "proxyindex": 2,
+            "enabledbyanimationsource": "ani_window_4",
+            "gunnerdoor": "Door_RB",
+            "maxturn": -37,
+            "minturn": -65,
+            "maxelev": 9,
+            "minelev": -15,
             "weapons": ["rhsusf_weap_DummyLauncher"],
-            "gunnerGetInAction": "GetInLow",
-            "gunnerGetOutAction": "GetOutLow",
-            "memoryPointGunnerOptics": "",
+            "gunnergetinaction": "GetInLow",
+            "gunnergetoutaction": "GetOutLow",
+            "memorypointgunneroptics": "",
             # Class: CfgVehicles|rhsusf_m1025_w|Turrets|CargoTurret_01|dynamicViewLimits [Indent level: 3],
-            "dynamicViewLimits": {
+            "dynamicviewlimits": {
             },
-            "selectionFireAnim": "",
+            "selectionfireanim": "",
             # Class: CfgVehicles|rhsusf_m1025_w|Turrets|CargoTurret_01|Hitpoints [Indent level: 3],
-            "Hitpoints": {
+            "hitpoints": {
             },
             # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
-            "ViewGunner": {
-                "initAngleX": 5,
-                "minAngleX": -75,
-                "maxAngleX": 85,
-                "initAngleY": 0,
-                "minAngleY": -150,
-                "maxAngleY": 150,
-                "minFov": 0.25,
-                "maxFov": 1.25,
-                "initFov": 0.75,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewgunner": {
+                "initanglex": 5,
+                "minanglex": -75,
+                "maxanglex": 85,
+                "initangley": 0,
+                "minangley": -150,
+                "maxangley": 150,
+                "minfov": 0.25,
+                "maxfov": 1.25,
+                "initfov": 0.75,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "animationSourceBody": "",
-            "animationSourceGun": "",
+            "animationsourcebody": "",
+            "animationsourcegun": "",
             "body": "",
-            "canEject": 1,
+            "caneject": 1,
             "commanding": 0,
-            "dontCreateAI": 1,
+            "dontcreateai": 1,
             "gun": "",
-            "hideWeaponsGunner": 0,
-            "isCopilot": 0,
-            "primaryGunner": 0,
-            "proxyType": "CPCargo",
-            "startEngine": 0,
-            "turretFollowFreeLook": 0,
-            "viewGunnerInExternal": 1,
-            "disableSoundAttenuation": 1,
-            "outGunnerMayFire": 1,
-            "isPersonTurret": 1,
-            "showAsCargo": 1,
-            "animationSourceHatch": "hatchGunner",
-            "animationSourceCamElev": "camElev",
-            "gunnerType": "",
-            "primaryObserver": 0,
+            "hideweaponsgunner": 0,
+            "iscopilot": 0,
+            "primarygunner": 0,
+            "proxytype": "CPCargo",
+            "startengine": 0,
+            "turretfollowfreelook": 0,
+            "viewgunnerinexternal": 1,
+            "disablesoundattenuation": 1,
+            "outgunnermayfire": 1,
+            "ispersonturret": 1,
+            "showascargo": 1,
+            "animationsourcehatch": "hatchGunner",
+            "animationsourcecamelev": "camElev",
+            "gunnertype": "",
+            "primaryobserver": 0,
             "magazines": [],
-            "soundServo": ["",0.00316228,1],
-            "soundElevation": ["",0.00316228,1],
-            "initElev": 0,
-            "initTurn": 0,
-            "minOutElev": -4,
-            "maxOutElev": 20,
-            "initOutElev": 0,
-            "minOutTurn": -60,
-            "maxOutTurn": 60,
-            "initOutTurn": 0,
-            "maxHorizontalRotSpeed": 1.2,
-            "maxVerticalRotSpeed": 1.2,
-            "minCamElev": -90,
-            "maxCamElev": 90,
-            "initCamElev": 0,
-            "stabilizedInAxes": 3,
+            "soundservo": ["",0.00316228,1],
+            "soundelevation": ["",0.00316228,1],
+            "initelev": 0,
+            "initturn": 0,
+            "minoutelev": -4,
+            "maxoutelev": 20,
+            "initoutelev": 0,
+            "minoutturn": -60,
+            "maxoutturn": 60,
+            "initoutturn": 0,
+            "maxhorizontalrotspeed": 1.2,
+            "maxverticalrotspeed": 1.2,
+            "mincamelev": -90,
+            "maxcamelev": 90,
+            "initcamelev": 0,
+            "stabilizedinaxes": 3,
             "primary": 1,
-            "hasGunner": 1,
-            "turretCanSee": 0,
-            "canUseScanners": 1,
+            "hasgunner": 1,
+            "turretcansee": 0,
+            "canusescanners": 1,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-            "TurretSpec": {
-                "showHeadPhones": 0
+            "turretspec": {
+                "showheadphones": 0
             },
-            "gunnerOpticsModel": "",
-            "gunnerOpticsColor": [0,0,0,1],
-            "gunnerForceOptics": 1,
-            "gunnerOpticsShowCursor": 0,
-            "turretInfoType": "",
-            "gunnerOutOpticsModel": "",
-            "gunnerOutOpticsColor": [0,0,0,1],
-            "gunnerOpticsEffect": [],
-            "gunnerOutOpticsEffect": [],
-            "memoryPointGunnerOutOptics": "",
-            "gunnerOutForceOptics": 0,
-            "gunnerOutOpticsShowCursor": 0,
-            "gunnerFireAlsoInInternalCamera": 1,
-            "gunnerOutFireAlsoInInternalCamera": 1,
-            "gunnerUsesPilotView": 0,
-            "castGunnerShadow": 0,
-            "viewGunnerShadow": 1,
-            "viewGunnerShadowDiff": 1,
-            "viewGunnerShadowAmb": 1,
-            "ejectDeadGunner": 0,
-            "canHideGunner": -1,
-            "forceHideGunner": 0,
-            "inGunnerMayFire": 1,
-            "showHMD": 0,
-            "lockWhenDriverOut": 0,
-            "lockWhenVehicleSpeed": -1,
-            "gunnerCompartments": "Compartment1",
-            "LODTurnedIn": -1,
-            "LODTurnedOut": -1,
-            "memoryPointsGetInGunnerPrecise": "",
-            "missileBeg": "spice rakety",
-            "missileEnd": "konec rakety",
-            "armorLights": 0.4,
+            "gunneropticsmodel": "",
+            "gunneropticscolor": [0,0,0,1],
+            "gunnerforceoptics": 1,
+            "gunneropticsshowcursor": 0,
+            "turretinfotype": "",
+            "gunneroutopticsmodel": "",
+            "gunneroutopticscolor": [0,0,0,1],
+            "gunneropticseffect": [],
+            "gunneroutopticseffect": [],
+            "memorypointgunneroutoptics": "",
+            "gunneroutforceoptics": 0,
+            "gunneroutopticsshowcursor": 0,
+            "gunnerfirealsoininternalcamera": 1,
+            "gunneroutfirealsoininternalcamera": 1,
+            "gunnerusespilotview": 0,
+            "castgunnershadow": 0,
+            "viewgunnershadow": 1,
+            "viewgunnershadowdiff": 1,
+            "viewgunnershadowamb": 1,
+            "ejectdeadgunner": 0,
+            "canhidegunner": -1,
+            "forcehidegunner": 0,
+            "ingunnermayfire": 1,
+            "showhmd": 0,
+            "lockwhendriverout": 0,
+            "lockwhenvehiclespeed": -1,
+            "gunnercompartments": "Compartment1",
+            "lodturnedin": -1,
+            "lodturnedout": -1,
+            "memorypointsgetingunnerprecise": "",
+            "missilebeg": "spice rakety",
+            "missileend": "konec rakety",
+            "armorlights": 0.4,
             # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-            "Reflectors": {
+            "reflectors": {
             },
-            "aggregateReflectors": [],
+            "aggregatereflectors": [],
             # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-            "GunFire": {
+            "gunfire": {
                 "access": 0,
-                "cloudletDuration": 0.2,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 0.2,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 0.5,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletFire",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.2,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 0.2,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 0.5,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletFire",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.01,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 4500,
-                "deltaT": -3000,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 4500,
+                "deltat": -3000,
                 # Class: WeaponFireGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
                     # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                    "T1": {
-                        "maxT": 200,
+                    "t1": {
+                        "maxt": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
                     # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                    "T2": {
-                        "maxT": 400,
+                    "t2": {
+                        "maxt": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
                     # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                    "T3": {
-                        "maxT": 600,
+                    "t3": {
+                        "maxt": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
                     # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                    "T4": {
-                        "maxT": 800,
+                    "t4": {
+                        "maxt": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
                     # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                    "T5": {
-                        "maxT": 1000,
+                    "t5": {
+                        "maxt": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
                     # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                    "T6": {
-                        "maxT": 1500,
+                    "t6": {
+                        "maxt": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
                     # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                    "T7": {
-                        "maxT": 2000,
+                    "t7": {
+                        "maxt": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
                     # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                    "T8": {
-                        "maxT": 2300,
+                    "t8": {
+                        "maxt": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
                     # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                    "T9": {
-                        "maxT": 2500,
+                    "t9": {
+                        "maxt": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
                     # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                    "T10": {
-                        "maxT": 2600,
+                    "t10": {
+                        "maxt": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                    "T11": {
-                        "maxT": 2650,
+                    "t11": {
+                        "maxt": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
                     # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                    "T12": {
-                        "maxT": 2700,
+                    "t12": {
+                        "maxt": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                    "T13": {
-                        "maxT": 2750,
+                    "t13": {
+                        "maxt": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                    "T14": {
-                        "maxT": 2800,
+                    "t14": {
+                        "maxt": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
                     # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                    "T15": {
-                        "maxT": 2850,
+                    "t15": {
+                        "maxt": 2850,
                         "color": [1,0.6,0.2,0]
                     },
                     # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                    "T16": {
-                        "maxT": 2900,
+                    "t16": {
+                        "maxt": 2900,
                         "color": [1,0.71,0.3,0]
                     },
                     # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                    "T17": {
-                        "maxT": 2950,
+                    "t17": {
+                        "maxt": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
                     # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                    "T18": {
-                        "maxT": 3000,
+                    "t18": {
+                        "maxt": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
                     # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                    "T19": {
-                        "maxT": 3100,
+                    "t19": {
+                        "maxt": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
                     # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                    "T20": {
-                        "maxT": 3300,
+                    "t20": {
+                        "maxt": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
                     # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                    "T21": {
-                        "maxT": 3600,
+                    "t21": {
+                        "maxt": 3600,
                         "color": [1,0.98,0.91,0]
                     },
                     # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                    "T22": {
-                        "maxT": 4200,
+                    "t22": {
+                        "maxt": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-            "GunClouds": {
+            "gunclouds": {
                 "access": 0,
-                "cloudletDuration": 0.3,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 1,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 1,
-                "cloudletAccY": 0.4,
-                "cloudletMinYSpeed": 0.2,
-                "cloudletMaxYSpeed": 0.8,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.3,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 1,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 1,
+                "cloudletaccy": 0.4,
+                "cloudletminyspeed": 0.2,
+                "cloudletmaxyspeed": 0.8,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.05,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-            "MGunClouds": {
+            "mgunclouds": {
                 "access": 0,
-                "cloudletGrowUp": 0.05,
-                "cloudletFadeIn": 0,
-                "cloudletFadeOut": 0.1,
-                "cloudletDuration": 0.05,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 0.3,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
-                "timeToLive": 0,
+                "cloudletgrowup": 0.05,
+                "cloudletfadein": 0,
+                "cloudletfadeout": 0.1,
+                "cloudletduration": 0.05,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 0.3,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
+                "timetolive": 0,
                 "interval": 0.02,
                 "size": 0.3,
-                "sourceSize": 0.02,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.02,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsMGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-            "Turrets": {
+            "turrets": {
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
-            "ViewOptics": {
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "initFov": 0.3,
-                "minFov": 0.07,
-                "maxFov": 0.35,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewoptics": {
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "initfov": 0.3,
+                "minfov": 0.07,
+                "maxfov": 0.35,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "forceNVG": 0,
-            "gunnerLeftHandAnimName": "",
-            "gunnerRightHandAnimName": "",
-            "gunnerLeftLegAnimName": "",
-            "gunnerRightLegAnimName": "",
-            "preciseGetInOut": 0,
-            "allowTabLock": 1,
-            "showAllTargets": 0,
-            "slingLoadOperator": 0,
-            "playerPosition": 0,
-            "allowLauncherIn": 0,
-            "allowLauncherOut": 0,
+            "forcenvg": 0,
+            "gunnerlefthandanimname": "",
+            "gunnerrighthandanimname": "",
+            "gunnerleftleganimname": "",
+            "gunnerrightleganimname": "",
+            "precisegetinout": 0,
+            "allowtablock": 1,
+            "showalltargets": 0,
+            "slingloadoperator": 0,
+            "playerposition": 0,
+            "allowlauncherin": 0,
+            "allowlauncherout": 0,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-            "TurnIn": {
-                "turnOffset": 0
+            "turnin": {
+                "turnoffset": 0
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-            "TurnOut": {
-                "turnOffset": 0
+            "turnout": {
+                "turnoffset": 0
             },
-            "gunnerInAction": "ManActTestDriver",
-            "gunBeg": "usti hlavne",
-            "gunEnd": "konec hlavne",
-            "memoryPointGun": "kulas",
-            "showCrewAim": 0
+            "gunnerinaction": "ManActTestDriver",
+            "gunbeg": "usti hlavne",
+            "gunend": "konec hlavne",
+            "memorypointgun": "kulas",
+            "showcrewaim": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|Turrets|CargoTurret_03 [Indent level: 2],
-        "CargoTurret_03": {
-            "gunnerAction": "passenger_inside_2",
-            "gunnerName": "Passenger (Left Back)",
-            "memoryPointsGetInGunner": "pos_cargo_LB",
-            "memoryPointsGetInGunnerDir": "pos_cargo_LB_dir",
-            "proxyIndex": 3,
-            "maxTurn": 90,
-            "minTurn": 54,
-            "maxElev": 9,
-            "minElev": -15,
-            "enabledByAnimationSource": "ani_window_3",
-            "gunnerDoor": "Door_LB",
+        "cargoturret_03": {
+            "gunneraction": "passenger_inside_2",
+            "gunnername": "Passenger (Left Back)",
+            "memorypointsgetingunner": "pos_cargo_LB",
+            "memorypointsgetingunnerdir": "pos_cargo_LB_dir",
+            "proxyindex": 3,
+            "maxturn": 90,
+            "minturn": 54,
+            "maxelev": 9,
+            "minelev": -15,
+            "enabledbyanimationsource": "ani_window_3",
+            "gunnerdoor": "Door_LB",
             "weapons": ["rhsusf_weap_DummyLauncher"],
-            "gunnerGetInAction": "GetInLow",
-            "gunnerGetOutAction": "GetOutLow",
-            "memoryPointGunnerOptics": "",
+            "gunnergetinaction": "GetInLow",
+            "gunnergetoutaction": "GetOutLow",
+            "memorypointgunneroptics": "",
             # Class: CfgVehicles|rhsusf_m1025_w|Turrets|CargoTurret_01|dynamicViewLimits [Indent level: 3],
-            "dynamicViewLimits": {
+            "dynamicviewlimits": {
             },
-            "selectionFireAnim": "",
+            "selectionfireanim": "",
             # Class: CfgVehicles|rhsusf_m1025_w|Turrets|CargoTurret_01|Hitpoints [Indent level: 3],
-            "Hitpoints": {
+            "hitpoints": {
             },
             # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
-            "ViewGunner": {
-                "initAngleX": 5,
-                "minAngleX": -75,
-                "maxAngleX": 85,
-                "initAngleY": 0,
-                "minAngleY": -150,
-                "maxAngleY": 150,
-                "minFov": 0.25,
-                "maxFov": 1.25,
-                "initFov": 0.75,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewgunner": {
+                "initanglex": 5,
+                "minanglex": -75,
+                "maxanglex": 85,
+                "initangley": 0,
+                "minangley": -150,
+                "maxangley": 150,
+                "minfov": 0.25,
+                "maxfov": 1.25,
+                "initfov": 0.75,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "animationSourceBody": "",
-            "animationSourceGun": "",
+            "animationsourcebody": "",
+            "animationsourcegun": "",
             "body": "",
-            "canEject": 1,
+            "caneject": 1,
             "commanding": 0,
-            "dontCreateAI": 1,
+            "dontcreateai": 1,
             "gun": "",
-            "hideWeaponsGunner": 0,
-            "isCopilot": 0,
-            "primaryGunner": 0,
-            "proxyType": "CPCargo",
-            "startEngine": 0,
-            "turretFollowFreeLook": 0,
-            "viewGunnerInExternal": 1,
-            "disableSoundAttenuation": 1,
-            "outGunnerMayFire": 1,
-            "isPersonTurret": 1,
-            "showAsCargo": 1,
-            "animationSourceHatch": "hatchGunner",
-            "animationSourceCamElev": "camElev",
-            "gunnerType": "",
-            "primaryObserver": 0,
+            "hideweaponsgunner": 0,
+            "iscopilot": 0,
+            "primarygunner": 0,
+            "proxytype": "CPCargo",
+            "startengine": 0,
+            "turretfollowfreelook": 0,
+            "viewgunnerinexternal": 1,
+            "disablesoundattenuation": 1,
+            "outgunnermayfire": 1,
+            "ispersonturret": 1,
+            "showascargo": 1,
+            "animationsourcehatch": "hatchGunner",
+            "animationsourcecamelev": "camElev",
+            "gunnertype": "",
+            "primaryobserver": 0,
             "magazines": [],
-            "soundServo": ["",0.00316228,1],
-            "soundElevation": ["",0.00316228,1],
-            "initElev": 0,
-            "initTurn": 0,
-            "minOutElev": -4,
-            "maxOutElev": 20,
-            "initOutElev": 0,
-            "minOutTurn": -60,
-            "maxOutTurn": 60,
-            "initOutTurn": 0,
-            "maxHorizontalRotSpeed": 1.2,
-            "maxVerticalRotSpeed": 1.2,
-            "minCamElev": -90,
-            "maxCamElev": 90,
-            "initCamElev": 0,
-            "stabilizedInAxes": 3,
+            "soundservo": ["",0.00316228,1],
+            "soundelevation": ["",0.00316228,1],
+            "initelev": 0,
+            "initturn": 0,
+            "minoutelev": -4,
+            "maxoutelev": 20,
+            "initoutelev": 0,
+            "minoutturn": -60,
+            "maxoutturn": 60,
+            "initoutturn": 0,
+            "maxhorizontalrotspeed": 1.2,
+            "maxverticalrotspeed": 1.2,
+            "mincamelev": -90,
+            "maxcamelev": 90,
+            "initcamelev": 0,
+            "stabilizedinaxes": 3,
             "primary": 1,
-            "hasGunner": 1,
-            "turretCanSee": 0,
-            "canUseScanners": 1,
+            "hasgunner": 1,
+            "turretcansee": 0,
+            "canusescanners": 1,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-            "TurretSpec": {
-                "showHeadPhones": 0
+            "turretspec": {
+                "showheadphones": 0
             },
-            "gunnerOpticsModel": "",
-            "gunnerOpticsColor": [0,0,0,1],
-            "gunnerForceOptics": 1,
-            "gunnerOpticsShowCursor": 0,
-            "turretInfoType": "",
-            "gunnerOutOpticsModel": "",
-            "gunnerOutOpticsColor": [0,0,0,1],
-            "gunnerOpticsEffect": [],
-            "gunnerOutOpticsEffect": [],
-            "memoryPointGunnerOutOptics": "",
-            "gunnerOutForceOptics": 0,
-            "gunnerOutOpticsShowCursor": 0,
-            "gunnerFireAlsoInInternalCamera": 1,
-            "gunnerOutFireAlsoInInternalCamera": 1,
-            "gunnerUsesPilotView": 0,
-            "castGunnerShadow": 0,
-            "viewGunnerShadow": 1,
-            "viewGunnerShadowDiff": 1,
-            "viewGunnerShadowAmb": 1,
-            "ejectDeadGunner": 0,
-            "canHideGunner": -1,
-            "forceHideGunner": 0,
-            "inGunnerMayFire": 1,
-            "showHMD": 0,
-            "lockWhenDriverOut": 0,
-            "lockWhenVehicleSpeed": -1,
-            "gunnerCompartments": "Compartment1",
-            "LODTurnedIn": -1,
-            "LODTurnedOut": -1,
-            "memoryPointsGetInGunnerPrecise": "",
-            "missileBeg": "spice rakety",
-            "missileEnd": "konec rakety",
-            "armorLights": 0.4,
+            "gunneropticsmodel": "",
+            "gunneropticscolor": [0,0,0,1],
+            "gunnerforceoptics": 1,
+            "gunneropticsshowcursor": 0,
+            "turretinfotype": "",
+            "gunneroutopticsmodel": "",
+            "gunneroutopticscolor": [0,0,0,1],
+            "gunneropticseffect": [],
+            "gunneroutopticseffect": [],
+            "memorypointgunneroutoptics": "",
+            "gunneroutforceoptics": 0,
+            "gunneroutopticsshowcursor": 0,
+            "gunnerfirealsoininternalcamera": 1,
+            "gunneroutfirealsoininternalcamera": 1,
+            "gunnerusespilotview": 0,
+            "castgunnershadow": 0,
+            "viewgunnershadow": 1,
+            "viewgunnershadowdiff": 1,
+            "viewgunnershadowamb": 1,
+            "ejectdeadgunner": 0,
+            "canhidegunner": -1,
+            "forcehidegunner": 0,
+            "ingunnermayfire": 1,
+            "showhmd": 0,
+            "lockwhendriverout": 0,
+            "lockwhenvehiclespeed": -1,
+            "gunnercompartments": "Compartment1",
+            "lodturnedin": -1,
+            "lodturnedout": -1,
+            "memorypointsgetingunnerprecise": "",
+            "missilebeg": "spice rakety",
+            "missileend": "konec rakety",
+            "armorlights": 0.4,
             # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-            "Reflectors": {
+            "reflectors": {
             },
-            "aggregateReflectors": [],
+            "aggregatereflectors": [],
             # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-            "GunFire": {
+            "gunfire": {
                 "access": 0,
-                "cloudletDuration": 0.2,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 0.2,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 0.5,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletFire",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.2,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 0.2,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 0.5,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletFire",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.01,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 4500,
-                "deltaT": -3000,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 4500,
+                "deltat": -3000,
                 # Class: WeaponFireGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
                     # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                    "T1": {
-                        "maxT": 200,
+                    "t1": {
+                        "maxt": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
                     # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                    "T2": {
-                        "maxT": 400,
+                    "t2": {
+                        "maxt": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
                     # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                    "T3": {
-                        "maxT": 600,
+                    "t3": {
+                        "maxt": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
                     # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                    "T4": {
-                        "maxT": 800,
+                    "t4": {
+                        "maxt": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
                     # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                    "T5": {
-                        "maxT": 1000,
+                    "t5": {
+                        "maxt": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
                     # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                    "T6": {
-                        "maxT": 1500,
+                    "t6": {
+                        "maxt": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
                     # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                    "T7": {
-                        "maxT": 2000,
+                    "t7": {
+                        "maxt": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
                     # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                    "T8": {
-                        "maxT": 2300,
+                    "t8": {
+                        "maxt": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
                     # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                    "T9": {
-                        "maxT": 2500,
+                    "t9": {
+                        "maxt": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
                     # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                    "T10": {
-                        "maxT": 2600,
+                    "t10": {
+                        "maxt": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                    "T11": {
-                        "maxT": 2650,
+                    "t11": {
+                        "maxt": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
                     # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                    "T12": {
-                        "maxT": 2700,
+                    "t12": {
+                        "maxt": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                    "T13": {
-                        "maxT": 2750,
+                    "t13": {
+                        "maxt": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                    "T14": {
-                        "maxT": 2800,
+                    "t14": {
+                        "maxt": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
                     # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                    "T15": {
-                        "maxT": 2850,
+                    "t15": {
+                        "maxt": 2850,
                         "color": [1,0.6,0.2,0]
                     },
                     # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                    "T16": {
-                        "maxT": 2900,
+                    "t16": {
+                        "maxt": 2900,
                         "color": [1,0.71,0.3,0]
                     },
                     # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                    "T17": {
-                        "maxT": 2950,
+                    "t17": {
+                        "maxt": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
                     # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                    "T18": {
-                        "maxT": 3000,
+                    "t18": {
+                        "maxt": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
                     # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                    "T19": {
-                        "maxT": 3100,
+                    "t19": {
+                        "maxt": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
                     # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                    "T20": {
-                        "maxT": 3300,
+                    "t20": {
+                        "maxt": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
                     # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                    "T21": {
-                        "maxT": 3600,
+                    "t21": {
+                        "maxt": 3600,
                         "color": [1,0.98,0.91,0]
                     },
                     # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                    "T22": {
-                        "maxT": 4200,
+                    "t22": {
+                        "maxt": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-            "GunClouds": {
+            "gunclouds": {
                 "access": 0,
-                "cloudletDuration": 0.3,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 1,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 1,
-                "cloudletAccY": 0.4,
-                "cloudletMinYSpeed": 0.2,
-                "cloudletMaxYSpeed": 0.8,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.3,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 1,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 1,
+                "cloudletaccy": 0.4,
+                "cloudletminyspeed": 0.2,
+                "cloudletmaxyspeed": 0.8,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.05,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-            "MGunClouds": {
+            "mgunclouds": {
                 "access": 0,
-                "cloudletGrowUp": 0.05,
-                "cloudletFadeIn": 0,
-                "cloudletFadeOut": 0.1,
-                "cloudletDuration": 0.05,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 0.3,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
-                "timeToLive": 0,
+                "cloudletgrowup": 0.05,
+                "cloudletfadein": 0,
+                "cloudletfadeout": 0.1,
+                "cloudletduration": 0.05,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 0.3,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
+                "timetolive": 0,
                 "interval": 0.02,
                 "size": 0.3,
-                "sourceSize": 0.02,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.02,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsMGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-            "Turrets": {
+            "turrets": {
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
-            "ViewOptics": {
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "initFov": 0.3,
-                "minFov": 0.07,
-                "maxFov": 0.35,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewoptics": {
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "initfov": 0.3,
+                "minfov": 0.07,
+                "maxfov": 0.35,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "forceNVG": 0,
-            "gunnerLeftHandAnimName": "",
-            "gunnerRightHandAnimName": "",
-            "gunnerLeftLegAnimName": "",
-            "gunnerRightLegAnimName": "",
-            "preciseGetInOut": 0,
-            "allowTabLock": 1,
-            "showAllTargets": 0,
-            "slingLoadOperator": 0,
-            "playerPosition": 0,
-            "allowLauncherIn": 0,
-            "allowLauncherOut": 0,
+            "forcenvg": 0,
+            "gunnerlefthandanimname": "",
+            "gunnerrighthandanimname": "",
+            "gunnerleftleganimname": "",
+            "gunnerrightleganimname": "",
+            "precisegetinout": 0,
+            "allowtablock": 1,
+            "showalltargets": 0,
+            "slingloadoperator": 0,
+            "playerposition": 0,
+            "allowlauncherin": 0,
+            "allowlauncherout": 0,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-            "TurnIn": {
-                "turnOffset": 0
+            "turnin": {
+                "turnoffset": 0
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-            "TurnOut": {
-                "turnOffset": 0
+            "turnout": {
+                "turnoffset": 0
             },
-            "gunnerInAction": "ManActTestDriver",
-            "gunBeg": "usti hlavne",
-            "gunEnd": "konec hlavne",
-            "memoryPointGun": "kulas",
-            "showCrewAim": 0
+            "gunnerinaction": "ManActTestDriver",
+            "gunbeg": "usti hlavne",
+            "gunend": "konec hlavne",
+            "memorypointgun": "kulas",
+            "showcrewaim": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_4dr|Turrets|CargoTurret_04 [Indent level: 2],
-        "CargoTurret_04": {
-            "gunnerName": "Passenger (Right Middle)",
-            "memoryPointsGetInGunner": "pos_cargo_RB",
-            "memoryPointsGetInGunnerDir": "pos_cargo_RB_dir",
-            "proxyIndex": 2,
-            "maxTurn": -20,
-            "minTurn": -95,
-            "gunnerAction": "passenger_inside_2",
-            "gunnerGetInAction": "GetInLow",
-            "gunnerGetOutAction": "GetOutLow",
+        "cargoturret_04": {
+            "gunnername": "Passenger (Right Middle)",
+            "memorypointsgetingunner": "pos_cargo_RB",
+            "memorypointsgetingunnerdir": "pos_cargo_RB_dir",
+            "proxyindex": 2,
+            "maxturn": -20,
+            "minturn": -95,
+            "gunneraction": "passenger_inside_2",
+            "gunnergetinaction": "GetInLow",
+            "gunnergetoutaction": "GetOutLow",
             # Class: CfgVehicles|rhsusf_m998_w_4dr|Turrets|CargoTurret_03|dynamicViewLimits [Indent level: 3],
-            "dynamicViewLimits": {
+            "dynamicviewlimits": {
             },
-            "gunnerCompartments": "Compartment2",
-            "maxElev": 55,
-            "minElev": -45,
-            "isPersonTurret": 1,
+            "gunnercompartments": "Compartment2",
+            "maxelev": 55,
+            "minelev": -45,
+            "ispersonturret": 1,
             # Class: CfgVehicles|rhsusf_m998_w_4dr|Turrets|CargoTurret_01|Hitpoints [Indent level: 3],
-            "Hitpoints": {
+            "hitpoints": {
             },
             # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
-            "ViewGunner": {
-                "initAngleX": 5,
-                "minAngleX": -75,
-                "maxAngleX": 85,
-                "initAngleY": 0,
-                "minAngleY": -150,
-                "maxAngleY": 150,
-                "minFov": 0.25,
-                "maxFov": 1.25,
-                "initFov": 0.75,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewgunner": {
+                "initanglex": 5,
+                "minanglex": -75,
+                "maxanglex": 85,
+                "initangley": 0,
+                "minangley": -150,
+                "maxangley": 150,
+                "minfov": 0.25,
+                "maxfov": 1.25,
+                "initfov": 0.75,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "animationSourceBody": "",
-            "animationSourceGun": "",
+            "animationsourcebody": "",
+            "animationsourcegun": "",
             "body": "",
-            "canEject": 1,
+            "caneject": 1,
             "commanding": 0,
-            "dontCreateAI": 1,
+            "dontcreateai": 1,
             "gun": "",
-            "hideWeaponsGunner": 0,
-            "isCopilot": 0,
-            "primaryGunner": 0,
-            "proxyType": "CPCargo",
-            "startEngine": 0,
-            "turretFollowFreeLook": 0,
-            "viewGunnerInExternal": 1,
-            "disableSoundAttenuation": 1,
-            "outGunnerMayFire": 1,
-            "showAsCargo": 1,
-            "animationSourceHatch": "hatchGunner",
-            "animationSourceCamElev": "camElev",
-            "gunnerType": "",
-            "primaryObserver": 0,
+            "hideweaponsgunner": 0,
+            "iscopilot": 0,
+            "primarygunner": 0,
+            "proxytype": "CPCargo",
+            "startengine": 0,
+            "turretfollowfreelook": 0,
+            "viewgunnerinexternal": 1,
+            "disablesoundattenuation": 1,
+            "outgunnermayfire": 1,
+            "showascargo": 1,
+            "animationsourcehatch": "hatchGunner",
+            "animationsourcecamelev": "camElev",
+            "gunnertype": "",
+            "primaryobserver": 0,
             "weapons": [],
             "magazines": [],
-            "soundServo": ["",0.00316228,1],
-            "soundElevation": ["",0.00316228,1],
-            "initElev": 0,
-            "initTurn": 0,
-            "minOutElev": -4,
-            "maxOutElev": 20,
-            "initOutElev": 0,
-            "minOutTurn": -60,
-            "maxOutTurn": 60,
-            "initOutTurn": 0,
-            "maxHorizontalRotSpeed": 1.2,
-            "maxVerticalRotSpeed": 1.2,
-            "minCamElev": -90,
-            "maxCamElev": 90,
-            "initCamElev": 0,
-            "stabilizedInAxes": 3,
+            "soundservo": ["",0.00316228,1],
+            "soundelevation": ["",0.00316228,1],
+            "initelev": 0,
+            "initturn": 0,
+            "minoutelev": -4,
+            "maxoutelev": 20,
+            "initoutelev": 0,
+            "minoutturn": -60,
+            "maxoutturn": 60,
+            "initoutturn": 0,
+            "maxhorizontalrotspeed": 1.2,
+            "maxverticalrotspeed": 1.2,
+            "mincamelev": -90,
+            "maxcamelev": 90,
+            "initcamelev": 0,
+            "stabilizedinaxes": 3,
             "primary": 1,
-            "hasGunner": 1,
-            "turretCanSee": 0,
-            "canUseScanners": 1,
+            "hasgunner": 1,
+            "turretcansee": 0,
+            "canusescanners": 1,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-            "TurretSpec": {
-                "showHeadPhones": 0
+            "turretspec": {
+                "showheadphones": 0
             },
-            "gunnerOpticsModel": "",
-            "gunnerOpticsColor": [0,0,0,1],
-            "gunnerForceOptics": 1,
-            "gunnerOpticsShowCursor": 0,
-            "turretInfoType": "",
-            "gunnerOutOpticsModel": "",
-            "gunnerOutOpticsColor": [0,0,0,1],
-            "gunnerOpticsEffect": [],
-            "gunnerOutOpticsEffect": [],
-            "memoryPointGunnerOutOptics": "",
-            "gunnerOutForceOptics": 0,
-            "gunnerOutOpticsShowCursor": 0,
-            "gunnerFireAlsoInInternalCamera": 1,
-            "gunnerOutFireAlsoInInternalCamera": 1,
-            "gunnerUsesPilotView": 0,
-            "castGunnerShadow": 0,
-            "viewGunnerShadow": 1,
-            "viewGunnerShadowDiff": 1,
-            "viewGunnerShadowAmb": 1,
-            "ejectDeadGunner": 0,
-            "canHideGunner": -1,
-            "forceHideGunner": 0,
-            "inGunnerMayFire": 1,
-            "showHMD": 0,
-            "lockWhenDriverOut": 0,
-            "lockWhenVehicleSpeed": -1,
-            "LODTurnedIn": -1,
-            "LODTurnedOut": -1,
-            "memoryPointsGetInGunnerPrecise": "",
-            "missileBeg": "spice rakety",
-            "missileEnd": "konec rakety",
-            "armorLights": 0.4,
+            "gunneropticsmodel": "",
+            "gunneropticscolor": [0,0,0,1],
+            "gunnerforceoptics": 1,
+            "gunneropticsshowcursor": 0,
+            "turretinfotype": "",
+            "gunneroutopticsmodel": "",
+            "gunneroutopticscolor": [0,0,0,1],
+            "gunneropticseffect": [],
+            "gunneroutopticseffect": [],
+            "memorypointgunneroutoptics": "",
+            "gunneroutforceoptics": 0,
+            "gunneroutopticsshowcursor": 0,
+            "gunnerfirealsoininternalcamera": 1,
+            "gunneroutfirealsoininternalcamera": 1,
+            "gunnerusespilotview": 0,
+            "castgunnershadow": 0,
+            "viewgunnershadow": 1,
+            "viewgunnershadowdiff": 1,
+            "viewgunnershadowamb": 1,
+            "ejectdeadgunner": 0,
+            "canhidegunner": -1,
+            "forcehidegunner": 0,
+            "ingunnermayfire": 1,
+            "showhmd": 0,
+            "lockwhendriverout": 0,
+            "lockwhenvehiclespeed": -1,
+            "lodturnedin": -1,
+            "lodturnedout": -1,
+            "memorypointsgetingunnerprecise": "",
+            "missilebeg": "spice rakety",
+            "missileend": "konec rakety",
+            "armorlights": 0.4,
             # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-            "Reflectors": {
+            "reflectors": {
             },
-            "aggregateReflectors": [],
+            "aggregatereflectors": [],
             # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-            "GunFire": {
+            "gunfire": {
                 "access": 0,
-                "cloudletDuration": 0.2,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 0.2,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 0.5,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletFire",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.2,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 0.2,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 0.5,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletFire",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.01,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 4500,
-                "deltaT": -3000,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 4500,
+                "deltat": -3000,
                 # Class: WeaponFireGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
                     # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                    "T1": {
-                        "maxT": 200,
+                    "t1": {
+                        "maxt": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
                     # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                    "T2": {
-                        "maxT": 400,
+                    "t2": {
+                        "maxt": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
                     # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                    "T3": {
-                        "maxT": 600,
+                    "t3": {
+                        "maxt": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
                     # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                    "T4": {
-                        "maxT": 800,
+                    "t4": {
+                        "maxt": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
                     # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                    "T5": {
-                        "maxT": 1000,
+                    "t5": {
+                        "maxt": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
                     # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                    "T6": {
-                        "maxT": 1500,
+                    "t6": {
+                        "maxt": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
                     # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                    "T7": {
-                        "maxT": 2000,
+                    "t7": {
+                        "maxt": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
                     # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                    "T8": {
-                        "maxT": 2300,
+                    "t8": {
+                        "maxt": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
                     # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                    "T9": {
-                        "maxT": 2500,
+                    "t9": {
+                        "maxt": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
                     # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                    "T10": {
-                        "maxT": 2600,
+                    "t10": {
+                        "maxt": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                    "T11": {
-                        "maxT": 2650,
+                    "t11": {
+                        "maxt": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
                     # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                    "T12": {
-                        "maxT": 2700,
+                    "t12": {
+                        "maxt": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                    "T13": {
-                        "maxT": 2750,
+                    "t13": {
+                        "maxt": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                    "T14": {
-                        "maxT": 2800,
+                    "t14": {
+                        "maxt": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
                     # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                    "T15": {
-                        "maxT": 2850,
+                    "t15": {
+                        "maxt": 2850,
                         "color": [1,0.6,0.2,0]
                     },
                     # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                    "T16": {
-                        "maxT": 2900,
+                    "t16": {
+                        "maxt": 2900,
                         "color": [1,0.71,0.3,0]
                     },
                     # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                    "T17": {
-                        "maxT": 2950,
+                    "t17": {
+                        "maxt": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
                     # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                    "T18": {
-                        "maxT": 3000,
+                    "t18": {
+                        "maxt": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
                     # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                    "T19": {
-                        "maxT": 3100,
+                    "t19": {
+                        "maxt": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
                     # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                    "T20": {
-                        "maxT": 3300,
+                    "t20": {
+                        "maxt": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
                     # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                    "T21": {
-                        "maxT": 3600,
+                    "t21": {
+                        "maxt": 3600,
                         "color": [1,0.98,0.91,0]
                     },
                     # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                    "T22": {
-                        "maxT": 4200,
+                    "t22": {
+                        "maxt": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-            "GunClouds": {
+            "gunclouds": {
                 "access": 0,
-                "cloudletDuration": 0.3,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 1,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 1,
-                "cloudletAccY": 0.4,
-                "cloudletMinYSpeed": 0.2,
-                "cloudletMaxYSpeed": 0.8,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.3,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 1,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 1,
+                "cloudletaccy": 0.4,
+                "cloudletminyspeed": 0.2,
+                "cloudletmaxyspeed": 0.8,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.05,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-            "MGunClouds": {
+            "mgunclouds": {
                 "access": 0,
-                "cloudletGrowUp": 0.05,
-                "cloudletFadeIn": 0,
-                "cloudletFadeOut": 0.1,
-                "cloudletDuration": 0.05,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 0.3,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
-                "timeToLive": 0,
+                "cloudletgrowup": 0.05,
+                "cloudletfadein": 0,
+                "cloudletfadeout": 0.1,
+                "cloudletduration": 0.05,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 0.3,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
+                "timetolive": 0,
                 "interval": 0.02,
                 "size": 0.3,
-                "sourceSize": 0.02,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.02,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsMGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-            "Turrets": {
+            "turrets": {
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
-            "ViewOptics": {
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "initFov": 0.3,
-                "minFov": 0.07,
-                "maxFov": 0.35,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewoptics": {
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "initfov": 0.3,
+                "minfov": 0.07,
+                "maxfov": 0.35,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "forceNVG": 0,
-            "gunnerLeftHandAnimName": "",
-            "gunnerRightHandAnimName": "",
-            "gunnerLeftLegAnimName": "",
-            "gunnerRightLegAnimName": "",
-            "gunnerDoor": "",
-            "preciseGetInOut": 0,
-            "allowTabLock": 1,
-            "showAllTargets": 0,
-            "slingLoadOperator": 0,
-            "playerPosition": 0,
-            "allowLauncherIn": 0,
-            "allowLauncherOut": 0,
+            "forcenvg": 0,
+            "gunnerlefthandanimname": "",
+            "gunnerrighthandanimname": "",
+            "gunnerleftleganimname": "",
+            "gunnerrightleganimname": "",
+            "gunnerdoor": "",
+            "precisegetinout": 0,
+            "allowtablock": 1,
+            "showalltargets": 0,
+            "slingloadoperator": 0,
+            "playerposition": 0,
+            "allowlauncherin": 0,
+            "allowlauncherout": 0,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-            "TurnIn": {
-                "turnOffset": 0
+            "turnin": {
+                "turnoffset": 0
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-            "TurnOut": {
-                "turnOffset": 0
+            "turnout": {
+                "turnoffset": 0
             },
-            "gunnerInAction": "ManActTestDriver",
-            "gunBeg": "usti hlavne",
-            "gunEnd": "konec hlavne",
-            "memoryPointGunnerOptics": "gunnerview",
-            "memoryPointGun": "kulas",
-            "selectionFireAnim": "zasleh",
-            "showCrewAim": 0
+            "gunnerinaction": "ManActTestDriver",
+            "gunbeg": "usti hlavne",
+            "gunend": "konec hlavne",
+            "memorypointgunneroptics": "gunnerview",
+            "memorypointgun": "kulas",
+            "selectionfireanim": "zasleh",
+            "showcrewaim": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_4dr|Turrets|CargoTurret_05 [Indent level: 2],
-        "CargoTurret_05": {
-            "gunnerName": "Passenger (Left Middle)",
-            "memoryPointsGetInGunner": "pos_cargo_LB",
-            "memoryPointsGetInGunnerDir": "pos_cargo_LB_dir",
-            "proxyIndex": 3,
-            "maxTurn": 95,
-            "minTurn": 38,
-            "gunnerAction": "passenger_inside_2",
-            "gunnerGetInAction": "GetInLow",
-            "gunnerGetOutAction": "GetOutLow",
+        "cargoturret_05": {
+            "gunnername": "Passenger (Left Middle)",
+            "memorypointsgetingunner": "pos_cargo_LB",
+            "memorypointsgetingunnerdir": "pos_cargo_LB_dir",
+            "proxyindex": 3,
+            "maxturn": 95,
+            "minturn": 38,
+            "gunneraction": "passenger_inside_2",
+            "gunnergetinaction": "GetInLow",
+            "gunnergetoutaction": "GetOutLow",
             # Class: CfgVehicles|rhsusf_m998_w_4dr|Turrets|CargoTurret_03|dynamicViewLimits [Indent level: 3],
-            "dynamicViewLimits": {
+            "dynamicviewlimits": {
             },
-            "gunnerCompartments": "Compartment2",
-            "maxElev": 55,
-            "minElev": -45,
-            "isPersonTurret": 1,
+            "gunnercompartments": "Compartment2",
+            "maxelev": 55,
+            "minelev": -45,
+            "ispersonturret": 1,
             # Class: CfgVehicles|rhsusf_m998_w_4dr|Turrets|CargoTurret_01|Hitpoints [Indent level: 3],
-            "Hitpoints": {
+            "hitpoints": {
             },
             # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2],
-            "ViewGunner": {
-                "initAngleX": 5,
-                "minAngleX": -75,
-                "maxAngleX": 85,
-                "initAngleY": 0,
-                "minAngleY": -150,
-                "maxAngleY": 150,
-                "minFov": 0.25,
-                "maxFov": 1.25,
-                "initFov": 0.75,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewgunner": {
+                "initanglex": 5,
+                "minanglex": -75,
+                "maxanglex": 85,
+                "initangley": 0,
+                "minangley": -150,
+                "maxangley": 150,
+                "minfov": 0.25,
+                "maxfov": 1.25,
+                "initfov": 0.75,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "animationSourceBody": "",
-            "animationSourceGun": "",
+            "animationsourcebody": "",
+            "animationsourcegun": "",
             "body": "",
-            "canEject": 1,
+            "caneject": 1,
             "commanding": 0,
-            "dontCreateAI": 1,
+            "dontcreateai": 1,
             "gun": "",
-            "hideWeaponsGunner": 0,
-            "isCopilot": 0,
-            "primaryGunner": 0,
-            "proxyType": "CPCargo",
-            "startEngine": 0,
-            "turretFollowFreeLook": 0,
-            "viewGunnerInExternal": 1,
-            "disableSoundAttenuation": 1,
-            "outGunnerMayFire": 1,
-            "showAsCargo": 1,
-            "animationSourceHatch": "hatchGunner",
-            "animationSourceCamElev": "camElev",
-            "gunnerType": "",
-            "primaryObserver": 0,
+            "hideweaponsgunner": 0,
+            "iscopilot": 0,
+            "primarygunner": 0,
+            "proxytype": "CPCargo",
+            "startengine": 0,
+            "turretfollowfreelook": 0,
+            "viewgunnerinexternal": 1,
+            "disablesoundattenuation": 1,
+            "outgunnermayfire": 1,
+            "showascargo": 1,
+            "animationsourcehatch": "hatchGunner",
+            "animationsourcecamelev": "camElev",
+            "gunnertype": "",
+            "primaryobserver": 0,
             "weapons": [],
             "magazines": [],
-            "soundServo": ["",0.00316228,1],
-            "soundElevation": ["",0.00316228,1],
-            "initElev": 0,
-            "initTurn": 0,
-            "minOutElev": -4,
-            "maxOutElev": 20,
-            "initOutElev": 0,
-            "minOutTurn": -60,
-            "maxOutTurn": 60,
-            "initOutTurn": 0,
-            "maxHorizontalRotSpeed": 1.2,
-            "maxVerticalRotSpeed": 1.2,
-            "minCamElev": -90,
-            "maxCamElev": 90,
-            "initCamElev": 0,
-            "stabilizedInAxes": 3,
+            "soundservo": ["",0.00316228,1],
+            "soundelevation": ["",0.00316228,1],
+            "initelev": 0,
+            "initturn": 0,
+            "minoutelev": -4,
+            "maxoutelev": 20,
+            "initoutelev": 0,
+            "minoutturn": -60,
+            "maxoutturn": 60,
+            "initoutturn": 0,
+            "maxhorizontalrotspeed": 1.2,
+            "maxverticalrotspeed": 1.2,
+            "mincamelev": -90,
+            "maxcamelev": 90,
+            "initcamelev": 0,
+            "stabilizedinaxes": 3,
             "primary": 1,
-            "hasGunner": 1,
-            "turretCanSee": 0,
-            "canUseScanners": 1,
+            "hasgunner": 1,
+            "turretcansee": 0,
+            "canusescanners": 1,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-            "TurretSpec": {
-                "showHeadPhones": 0
+            "turretspec": {
+                "showheadphones": 0
             },
-            "gunnerOpticsModel": "",
-            "gunnerOpticsColor": [0,0,0,1],
-            "gunnerForceOptics": 1,
-            "gunnerOpticsShowCursor": 0,
-            "turretInfoType": "",
-            "gunnerOutOpticsModel": "",
-            "gunnerOutOpticsColor": [0,0,0,1],
-            "gunnerOpticsEffect": [],
-            "gunnerOutOpticsEffect": [],
-            "memoryPointGunnerOutOptics": "",
-            "gunnerOutForceOptics": 0,
-            "gunnerOutOpticsShowCursor": 0,
-            "gunnerFireAlsoInInternalCamera": 1,
-            "gunnerOutFireAlsoInInternalCamera": 1,
-            "gunnerUsesPilotView": 0,
-            "castGunnerShadow": 0,
-            "viewGunnerShadow": 1,
-            "viewGunnerShadowDiff": 1,
-            "viewGunnerShadowAmb": 1,
-            "ejectDeadGunner": 0,
-            "canHideGunner": -1,
-            "forceHideGunner": 0,
-            "inGunnerMayFire": 1,
-            "showHMD": 0,
-            "lockWhenDriverOut": 0,
-            "lockWhenVehicleSpeed": -1,
-            "LODTurnedIn": -1,
-            "LODTurnedOut": -1,
-            "memoryPointsGetInGunnerPrecise": "",
-            "missileBeg": "spice rakety",
-            "missileEnd": "konec rakety",
-            "armorLights": 0.4,
+            "gunneropticsmodel": "",
+            "gunneropticscolor": [0,0,0,1],
+            "gunnerforceoptics": 1,
+            "gunneropticsshowcursor": 0,
+            "turretinfotype": "",
+            "gunneroutopticsmodel": "",
+            "gunneroutopticscolor": [0,0,0,1],
+            "gunneropticseffect": [],
+            "gunneroutopticseffect": [],
+            "memorypointgunneroutoptics": "",
+            "gunneroutforceoptics": 0,
+            "gunneroutopticsshowcursor": 0,
+            "gunnerfirealsoininternalcamera": 1,
+            "gunneroutfirealsoininternalcamera": 1,
+            "gunnerusespilotview": 0,
+            "castgunnershadow": 0,
+            "viewgunnershadow": 1,
+            "viewgunnershadowdiff": 1,
+            "viewgunnershadowamb": 1,
+            "ejectdeadgunner": 0,
+            "canhidegunner": -1,
+            "forcehidegunner": 0,
+            "ingunnermayfire": 1,
+            "showhmd": 0,
+            "lockwhendriverout": 0,
+            "lockwhenvehiclespeed": -1,
+            "lodturnedin": -1,
+            "lodturnedout": -1,
+            "memorypointsgetingunnerprecise": "",
+            "missilebeg": "spice rakety",
+            "missileend": "konec rakety",
+            "armorlights": 0.4,
             # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-            "Reflectors": {
+            "reflectors": {
             },
-            "aggregateReflectors": [],
+            "aggregatereflectors": [],
             # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-            "GunFire": {
+            "gunfire": {
                 "access": 0,
-                "cloudletDuration": 0.2,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 0.2,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 0.5,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletFire",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.2,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 0.2,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 0.5,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletFire",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.01,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 4500,
-                "deltaT": -3000,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 4500,
+                "deltat": -3000,
                 # Class: WeaponFireGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
                     # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                    "T1": {
-                        "maxT": 200,
+                    "t1": {
+                        "maxt": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
                     # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                    "T2": {
-                        "maxT": 400,
+                    "t2": {
+                        "maxt": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
                     # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                    "T3": {
-                        "maxT": 600,
+                    "t3": {
+                        "maxt": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
                     # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                    "T4": {
-                        "maxT": 800,
+                    "t4": {
+                        "maxt": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
                     # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                    "T5": {
-                        "maxT": 1000,
+                    "t5": {
+                        "maxt": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
                     # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                    "T6": {
-                        "maxT": 1500,
+                    "t6": {
+                        "maxt": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
                     # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                    "T7": {
-                        "maxT": 2000,
+                    "t7": {
+                        "maxt": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
                     # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                    "T8": {
-                        "maxT": 2300,
+                    "t8": {
+                        "maxt": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
                     # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                    "T9": {
-                        "maxT": 2500,
+                    "t9": {
+                        "maxt": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
                     # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                    "T10": {
-                        "maxT": 2600,
+                    "t10": {
+                        "maxt": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                    "T11": {
-                        "maxT": 2650,
+                    "t11": {
+                        "maxt": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
                     # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                    "T12": {
-                        "maxT": 2700,
+                    "t12": {
+                        "maxt": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                    "T13": {
-                        "maxT": 2750,
+                    "t13": {
+                        "maxt": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                    "T14": {
-                        "maxT": 2800,
+                    "t14": {
+                        "maxt": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
                     # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                    "T15": {
-                        "maxT": 2850,
+                    "t15": {
+                        "maxt": 2850,
                         "color": [1,0.6,0.2,0]
                     },
                     # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                    "T16": {
-                        "maxT": 2900,
+                    "t16": {
+                        "maxt": 2900,
                         "color": [1,0.71,0.3,0]
                     },
                     # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                    "T17": {
-                        "maxT": 2950,
+                    "t17": {
+                        "maxt": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
                     # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                    "T18": {
-                        "maxT": 3000,
+                    "t18": {
+                        "maxt": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
                     # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                    "T19": {
-                        "maxT": 3100,
+                    "t19": {
+                        "maxt": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
                     # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                    "T20": {
-                        "maxT": 3300,
+                    "t20": {
+                        "maxt": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
                     # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                    "T21": {
-                        "maxT": 3600,
+                    "t21": {
+                        "maxt": 3600,
                         "color": [1,0.98,0.91,0]
                     },
                     # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                    "T22": {
-                        "maxT": 4200,
+                    "t22": {
+                        "maxt": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-            "GunClouds": {
+            "gunclouds": {
                 "access": 0,
-                "cloudletDuration": 0.3,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 1,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 1,
-                "cloudletAccY": 0.4,
-                "cloudletMinYSpeed": 0.2,
-                "cloudletMaxYSpeed": 0.8,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.3,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 1,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 1,
+                "cloudletaccy": 0.4,
+                "cloudletminyspeed": 0.2,
+                "cloudletmaxyspeed": 0.8,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.05,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-            "MGunClouds": {
+            "mgunclouds": {
                 "access": 0,
-                "cloudletGrowUp": 0.05,
-                "cloudletFadeIn": 0,
-                "cloudletFadeOut": 0.1,
-                "cloudletDuration": 0.05,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 0.3,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
-                "timeToLive": 0,
+                "cloudletgrowup": 0.05,
+                "cloudletfadein": 0,
+                "cloudletfadeout": 0.1,
+                "cloudletduration": 0.05,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 0.3,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
+                "timetolive": 0,
                 "interval": 0.02,
                 "size": 0.3,
-                "sourceSize": 0.02,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.02,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsMGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-            "Turrets": {
+            "turrets": {
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
-            "ViewOptics": {
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "initFov": 0.3,
-                "minFov": 0.07,
-                "maxFov": 0.35,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewoptics": {
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "initfov": 0.3,
+                "minfov": 0.07,
+                "maxfov": 0.35,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
-            "forceNVG": 0,
-            "gunnerLeftHandAnimName": "",
-            "gunnerRightHandAnimName": "",
-            "gunnerLeftLegAnimName": "",
-            "gunnerRightLegAnimName": "",
-            "gunnerDoor": "",
-            "preciseGetInOut": 0,
-            "allowTabLock": 1,
-            "showAllTargets": 0,
-            "slingLoadOperator": 0,
-            "playerPosition": 0,
-            "allowLauncherIn": 0,
-            "allowLauncherOut": 0,
+            "forcenvg": 0,
+            "gunnerlefthandanimname": "",
+            "gunnerrighthandanimname": "",
+            "gunnerleftleganimname": "",
+            "gunnerrightleganimname": "",
+            "gunnerdoor": "",
+            "precisegetinout": 0,
+            "allowtablock": 1,
+            "showalltargets": 0,
+            "slingloadoperator": 0,
+            "playerposition": 0,
+            "allowlauncherin": 0,
+            "allowlauncherout": 0,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-            "TurnIn": {
-                "turnOffset": 0
+            "turnin": {
+                "turnoffset": 0
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-            "TurnOut": {
-                "turnOffset": 0
+            "turnout": {
+                "turnoffset": 0
             },
-            "gunnerInAction": "ManActTestDriver",
-            "gunBeg": "usti hlavne",
-            "gunEnd": "konec hlavne",
-            "memoryPointGunnerOptics": "gunnerview",
-            "memoryPointGun": "kulas",
-            "selectionFireAnim": "zasleh",
-            "showCrewAim": 0
+            "gunnerinaction": "ManActTestDriver",
+            "gunbeg": "usti hlavne",
+            "gunend": "konec hlavne",
+            "memorypointgunneroptics": "gunnerview",
+            "memorypointgun": "kulas",
+            "selectionfireanim": "zasleh",
+            "showcrewaim": 0
         },
         # Class: CfgVehicles|Car_F|Turrets|MainTurret [Indent level: 2],
-        "MainTurret": {
-            "stabilizedInAxes": 4,
-            "outGunnerMayFire": 1,
-            "memoryPointGun": "machinegun",
+        "mainturret": {
+            "stabilizedinaxes": 4,
+            "outgunnermayfire": 1,
+            "memorypointgun": "machinegun",
             "body": "",
             "gun": "",
-            "gunnerAction": "ManActTestDriverOut",
-            "gunnerGetInAction": "GetInLow",
-            "gunnerGetOutAction": "GetOutLow",
-            "gunBeg": "usti hlavne",
-            "gunEnd": "konec hlavne",
-            "soundServo": ["A3|sounds_f|dummysound",0.316228,1,15],
-            "minElev": -5,
-            "maxElev": 40,
-            "minTurn": -360,
-            "maxTurn": 360,
-            "gunnerOpticsModel": "A3|weapons_f|reticle|optics_empty",
-            "primaryGunner": 1,
-            "enableManualFire": 0,
-            "gunnerForceOptics": 0,
-            "startEngine": 0,
+            "gunneraction": "ManActTestDriverOut",
+            "gunnergetinaction": "GetInLow",
+            "gunnergetoutaction": "GetOutLow",
+            "gunbeg": "usti hlavne",
+            "gunend": "konec hlavne",
+            "soundservo": ["A3|sounds_f|dummysound",0.316228,1,15],
+            "minelev": -5,
+            "maxelev": 40,
+            "minturn": -360,
+            "maxturn": 360,
+            "gunneropticsmodel": "A3|weapons_f|reticle|optics_empty",
+            "primarygunner": 1,
+            "enablemanualfire": 0,
+            "gunnerforceoptics": 0,
+            "startengine": 0,
             # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints [Indent level: 3],
-            "HitPoints": {
+            "hitpoints": {
                 # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints|HitTurret [Indent level: 4]
-                "HitTurret": {
+                "hitturret": {
                     "armor": 0.8,
                     "material": -1,
                     "name": "vez",
                     "visual": "vez",
-                    "passThrough": 0.5,
-                    "explosionShielding": 0.4
+                    "passthrough": 0.5,
+                    "explosionshielding": 0.4
                 },
                 # Class: CfgVehicles|Car_F|Turrets|MainTurret|HitPoints|HitGun [Indent level: 4],
-                "HitGun": {
+                "hitgun": {
                     "armor": 0.4,
                     "material": -1,
                     "name": "zbran",
                     "visual": "zbran",
-                    "passThrough": 0,
-                    "explosionShielding": 0.2
+                    "passthrough": 0,
+                    "explosionshielding": 0.2
                 }
             },
             # Class: CfgVehicles|Car_F|Turrets|MainTurret|ViewOptics [Indent level: 3],
-            "ViewOptics": {
-                "initAngleX": 0,
-                "minAngleX": -30,
-                "maxAngleX": 30,
-                "initAngleY": 0,
-                "minAngleY": -100,
-                "maxAngleY": 100,
-                "initFov": 0.3,
-                "minFov": 0.07,
-                "maxFov": 0.35,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+            "viewoptics": {
+                "initanglex": 0,
+                "minanglex": -30,
+                "maxanglex": 30,
+                "initangley": 0,
+                "minangley": -100,
+                "maxangley": 100,
+                "initfov": 0.3,
+                "minfov": 0.07,
+                "maxfov": 0.35,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
             # Class: CfgVehicles|Car_F|Turrets|MainTurret|ViewGunner [Indent level: 3],
-            "ViewGunner": {
-                "initAngleX": 5,
-                "minAngleX": -75,
-                "maxAngleX": 85,
-                "initAngleY": 0,
-                "minAngleY": -150,
-                "maxAngleY": 150,
-                "minFov": 0.25,
-                "maxFov": 1.25,
-                "initFov": 0.75,
-                "minMoveX": 0,
-                "maxMoveX": 0,
-                "minMoveY": 0,
-                "maxMoveY": 0,
-                "minMoveZ": 0,
-                "maxMoveZ": 0,
+            "viewgunner": {
+                "initanglex": 5,
+                "minanglex": -75,
+                "maxanglex": 85,
+                "initangley": 0,
+                "minangley": -150,
+                "maxangley": 150,
+                "minfov": 0.25,
+                "maxfov": 1.25,
+                "initfov": 0.75,
+                "minmovex": 0,
+                "maxmovex": 0,
+                "minmovey": 0,
+                "maxmovey": 0,
+                "minmovez": 0,
+                "maxmovez": 0,
                 "continuous": 0,
-                "speedZoomMaxSpeed": 1e+010,
-                "speedZoomMaxFOV": 0
+                "speedzoommaxspeed": 1e+010,
+                "speedzoommaxfov": 0
             },
             # Class: CfgVehicles|Car_F|Turrets|MainTurret|Components [Indent level: 3],
-            "Components": {
+            "components": {
             },
-            "disableSoundAttenuation": 0,
-            "animationSourceBody": "mainTurret",
-            "animationSourceGun": "mainGun",
-            "animationSourceHatch": "hatchGunner",
-            "animationSourceCamElev": "camElev",
-            "proxyType": "CPGunner",
-            "proxyIndex": 1,
-            "gunnerName": "Gunner",
-            "gunnerType": "",
-            "primaryObserver": 0,
+            "disablesoundattenuation": 0,
+            "animationsourcebody": "mainTurret",
+            "animationsourcegun": "mainGun",
+            "animationsourcehatch": "hatchGunner",
+            "animationsourcecamelev": "camElev",
+            "proxytype": "CPGunner",
+            "proxyindex": 1,
+            "gunnername": "Gunner",
+            "gunnertype": "",
+            "primaryobserver": 0,
             "weapons": [],
             "magazines": [],
-            "soundElevation": ["",0.00316228,1],
-            "initElev": 0,
-            "initTurn": 0,
-            "minOutElev": -4,
-            "maxOutElev": 20,
-            "initOutElev": 0,
-            "minOutTurn": -60,
-            "maxOutTurn": 60,
-            "initOutTurn": 0,
-            "maxHorizontalRotSpeed": 1.2,
-            "maxVerticalRotSpeed": 1.2,
-            "minCamElev": -90,
-            "maxCamElev": 90,
-            "initCamElev": 0,
+            "soundelevation": ["",0.00316228,1],
+            "initelev": 0,
+            "initturn": 0,
+            "minoutelev": -4,
+            "maxoutelev": 20,
+            "initoutelev": 0,
+            "minoutturn": -60,
+            "maxoutturn": 60,
+            "initoutturn": 0,
+            "maxhorizontalrotspeed": 1.2,
+            "maxverticalrotspeed": 1.2,
+            "mincamelev": -90,
+            "maxcamelev": 90,
+            "initcamelev": 0,
             "primary": 1,
-            "hasGunner": 1,
+            "hasgunner": 1,
             "commanding": 1,
-            "turretCanSee": 0,
-            "canUseScanners": 1,
+            "turretcansee": 0,
+            "canusescanners": 1,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-            "TurretSpec": {
-                "showHeadPhones": 0
+            "turretspec": {
+                "showheadphones": 0
             },
-            "gunnerOpticsColor": [0,0,0,1],
-            "gunnerOpticsShowCursor": 0,
-            "turretInfoType": "",
-            "gunnerOutOpticsModel": "",
-            "gunnerOutOpticsColor": [0,0,0,1],
-            "gunnerOpticsEffect": [],
-            "gunnerOutOpticsEffect": [],
-            "memoryPointGunnerOutOptics": "",
-            "gunnerOutForceOptics": 0,
-            "gunnerOutOpticsShowCursor": 0,
-            "gunnerFireAlsoInInternalCamera": 1,
-            "gunnerOutFireAlsoInInternalCamera": 1,
-            "gunnerUsesPilotView": 0,
-            "castGunnerShadow": 0,
-            "viewGunnerShadow": 1,
-            "viewGunnerShadowDiff": 1,
-            "viewGunnerShadowAmb": 1,
-            "ejectDeadGunner": 0,
-            "hideWeaponsGunner": 1,
-            "canHideGunner": -1,
-            "forceHideGunner": 0,
-            "inGunnerMayFire": 1,
-            "showHMD": 0,
-            "viewGunnerInExternal": 0,
-            "lockWhenDriverOut": 0,
-            "lockWhenVehicleSpeed": -1,
-            "gunnerCompartments": "Compartment1",
-            "LODTurnedIn": -1,
-            "LODTurnedOut": -1,
-            "memoryPointsGetInGunnerPrecise": "",
-            "missileBeg": "spice rakety",
-            "missileEnd": "konec rakety",
-            "armorLights": 0.4,
+            "gunneropticscolor": [0,0,0,1],
+            "gunneropticsshowcursor": 0,
+            "turretinfotype": "",
+            "gunneroutopticsmodel": "",
+            "gunneroutopticscolor": [0,0,0,1],
+            "gunneropticseffect": [],
+            "gunneroutopticseffect": [],
+            "memorypointgunneroutoptics": "",
+            "gunneroutforceoptics": 0,
+            "gunneroutopticsshowcursor": 0,
+            "gunnerfirealsoininternalcamera": 1,
+            "gunneroutfirealsoininternalcamera": 1,
+            "gunnerusespilotview": 0,
+            "castgunnershadow": 0,
+            "viewgunnershadow": 1,
+            "viewgunnershadowdiff": 1,
+            "viewgunnershadowamb": 1,
+            "ejectdeadgunner": 0,
+            "hideweaponsgunner": 1,
+            "canhidegunner": -1,
+            "forcehidegunner": 0,
+            "ingunnermayfire": 1,
+            "showhmd": 0,
+            "viewgunnerinexternal": 0,
+            "lockwhendriverout": 0,
+            "lockwhenvehiclespeed": -1,
+            "gunnercompartments": "Compartment1",
+            "lodturnedin": -1,
+            "lodturnedout": -1,
+            "memorypointsgetingunnerprecise": "",
+            "missilebeg": "spice rakety",
+            "missileend": "konec rakety",
+            "armorlights": 0.4,
             # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-            "Reflectors": {
+            "reflectors": {
             },
-            "aggregateReflectors": [],
+            "aggregatereflectors": [],
             # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-            "GunFire": {
+            "gunfire": {
                 "access": 0,
-                "cloudletDuration": 0.2,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 0.2,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 0.5,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletFire",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.2,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 0.2,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 0.5,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletFire",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.01,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 4500,
-                "deltaT": -3000,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 4500,
+                "deltat": -3000,
                 # Class: WeaponFireGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [0.82,0.95,0.93,0]
                     },
                     # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                    "T1": {
-                        "maxT": 200,
+                    "t1": {
+                        "maxt": 200,
                         "color": [0.75,0.77,0.9,0]
                     },
                     # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                    "T2": {
-                        "maxT": 400,
+                    "t2": {
+                        "maxt": 400,
                         "color": [0.56,0.62,0.67,0]
                     },
                     # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                    "T3": {
-                        "maxT": 600,
+                    "t3": {
+                        "maxt": 600,
                         "color": [0.39,0.46,0.47,0]
                     },
                     # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                    "T4": {
-                        "maxT": 800,
+                    "t4": {
+                        "maxt": 800,
                         "color": [0.24,0.31,0.31,0]
                     },
                     # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                    "T5": {
-                        "maxT": 1000,
+                    "t5": {
+                        "maxt": 1000,
                         "color": [0.23,0.31,0.29,0]
                     },
                     # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                    "T6": {
-                        "maxT": 1500,
+                    "t6": {
+                        "maxt": 1500,
                         "color": [0.21,0.29,0.27,0]
                     },
                     # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                    "T7": {
-                        "maxT": 2000,
+                    "t7": {
+                        "maxt": 2000,
                         "color": [0.19,0.23,0.21,0]
                     },
                     # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                    "T8": {
-                        "maxT": 2300,
+                    "t8": {
+                        "maxt": 2300,
                         "color": [0.22,0.19,0.1,0]
                     },
                     # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                    "T9": {
-                        "maxT": 2500,
+                    "t9": {
+                        "maxt": 2500,
                         "color": [0.35,0.2,0.02,0]
                     },
                     # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                    "T10": {
-                        "maxT": 2600,
+                    "t10": {
+                        "maxt": 2600,
                         "color": [0.62,0.29,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                    "T11": {
-                        "maxT": 2650,
+                    "t11": {
+                        "maxt": 2650,
                         "color": [0.59,0.35,0.05,0]
                     },
                     # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                    "T12": {
-                        "maxT": 2700,
+                    "t12": {
+                        "maxt": 2700,
                         "color": [0.75,0.37,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                    "T13": {
-                        "maxT": 2750,
+                    "t13": {
+                        "maxt": 2750,
                         "color": [0.88,0.34,0.03,0]
                     },
                     # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                    "T14": {
-                        "maxT": 2800,
+                    "t14": {
+                        "maxt": 2800,
                         "color": [0.91,0.5,0.17,0]
                     },
                     # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                    "T15": {
-                        "maxT": 2850,
+                    "t15": {
+                        "maxt": 2850,
                         "color": [1,0.6,0.2,0]
                     },
                     # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                    "T16": {
-                        "maxT": 2900,
+                    "t16": {
+                        "maxt": 2900,
                         "color": [1,0.71,0.3,0]
                     },
                     # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                    "T17": {
-                        "maxT": 2950,
+                    "t17": {
+                        "maxt": 2950,
                         "color": [0.98,0.83,0.41,0]
                     },
                     # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                    "T18": {
-                        "maxT": 3000,
+                    "t18": {
+                        "maxt": 3000,
                         "color": [0.98,0.91,0.54,0]
                     },
                     # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                    "T19": {
-                        "maxT": 3100,
+                    "t19": {
+                        "maxt": 3100,
                         "color": [0.98,0.99,0.6,0]
                     },
                     # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                    "T20": {
-                        "maxT": 3300,
+                    "t20": {
+                        "maxt": 3300,
                         "color": [0.96,0.99,0.72,0]
                     },
                     # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                    "T21": {
-                        "maxT": 3600,
+                    "t21": {
+                        "maxt": 3600,
                         "color": [1,0.98,0.91,0]
                     },
                     # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                    "T22": {
-                        "maxT": 4200,
+                    "t22": {
+                        "maxt": 4200,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-            "GunClouds": {
+            "gunclouds": {
                 "access": 0,
-                "cloudletDuration": 0.3,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 1,
-                "cloudletGrowUp": 1,
-                "cloudletFadeIn": 0.01,
-                "cloudletFadeOut": 1,
-                "cloudletAccY": 0.4,
-                "cloudletMinYSpeed": 0.2,
-                "cloudletMaxYSpeed": 0.8,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
+                "cloudletduration": 0.3,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 1,
+                "cloudletgrowup": 1,
+                "cloudletfadein": 0.01,
+                "cloudletfadeout": 1,
+                "cloudletaccy": 0.4,
+                "cloudletminyspeed": 0.2,
+                "cloudletmaxyspeed": 0.8,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
                 "interval": 0.05,
                 "size": 3,
-                "sourceSize": 0.5,
-                "timeToLive": 0,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.5,
+                "timetolive": 0,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-            "MGunClouds": {
+            "mgunclouds": {
                 "access": 0,
-                "cloudletGrowUp": 0.05,
-                "cloudletFadeIn": 0,
-                "cloudletFadeOut": 0.1,
-                "cloudletDuration": 0.05,
-                "cloudletAnimPeriod": 1,
-                "cloudletSize": 1,
-                "cloudletAlpha": 0.3,
-                "cloudletAccY": 0,
-                "cloudletMinYSpeed": -100,
-                "cloudletMaxYSpeed": 100,
-                "cloudletShape": "cloudletClouds",
-                "cloudletColor": [1,1,1,0],
-                "timeToLive": 0,
+                "cloudletgrowup": 0.05,
+                "cloudletfadein": 0,
+                "cloudletfadeout": 0.1,
+                "cloudletduration": 0.05,
+                "cloudletanimperiod": 1,
+                "cloudletsize": 1,
+                "cloudletalpha": 0.3,
+                "cloudletaccy": 0,
+                "cloudletminyspeed": -100,
+                "cloudletmaxyspeed": 100,
+                "cloudletshape": "cloudletClouds",
+                "cloudletcolor": [1,1,1,0],
+                "timetolive": 0,
                 "interval": 0.02,
                 "size": 0.3,
-                "sourceSize": 0.02,
-                "initT": 0,
-                "deltaT": 0,
+                "sourcesize": 0.02,
+                "initt": 0,
+                "deltat": 0,
                 # Class: WeaponCloudsMGun|Table [Indent level: 0],
-                "Table": {
+                "table": {
                     # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                    "T0": {
-                        "maxT": 0,
+                    "t0": {
+                        "maxt": 0,
                         "color": [1,1,1,0]
                     }
                 }
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-            "Turrets": {
+            "turrets": {
             },
-            "forceNVG": 0,
-            "isCopilot": 0,
-            "canEject": 1,
-            "gunnerLeftHandAnimName": "",
-            "gunnerRightHandAnimName": "",
-            "gunnerLeftLegAnimName": "",
-            "gunnerRightLegAnimName": "",
-            "gunnerDoor": "",
-            "preciseGetInOut": 0,
-            "turretFollowFreeLook": 0,
-            "allowTabLock": 1,
-            "showAllTargets": 0,
-            "dontCreateAI": 0,
-            "slingLoadOperator": 0,
-            "playerPosition": 0,
-            "allowLauncherIn": 0,
-            "allowLauncherOut": 0,
+            "forcenvg": 0,
+            "iscopilot": 0,
+            "caneject": 1,
+            "gunnerlefthandanimname": "",
+            "gunnerrighthandanimname": "",
+            "gunnerleftleganimname": "",
+            "gunnerrightleganimname": "",
+            "gunnerdoor": "",
+            "precisegetinout": 0,
+            "turretfollowfreelook": 0,
+            "allowtablock": 1,
+            "showalltargets": 0,
+            "dontcreateai": 0,
+            "slingloadoperator": 0,
+            "playerposition": 0,
+            "allowlauncherin": 0,
+            "allowlauncherout": 0,
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-            "TurnIn": {
-                "turnOffset": 0
+            "turnin": {
+                "turnoffset": 0
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-            "TurnOut": {
-                "turnOffset": 0
+            "turnout": {
+                "turnoffset": 0
             },
-            "gunnerInAction": "ManActTestDriver",
-            "memoryPointGunnerOptics": "gunnerview",
-            "memoryPointsGetInGunner": "pos gunner",
-            "memoryPointsGetInGunnerDir": "pos gunner dir",
-            "selectionFireAnim": "zasleh",
-            "showCrewAim": 0
+            "gunnerinaction": "ManActTestDriver",
+            "memorypointgunneroptics": "gunnerview",
+            "memorypointsgetingunner": "pos gunner",
+            "memorypointsgetingunnerdir": "pos gunner dir",
+            "selectionfireanim": "zasleh",
+            "showcrewaim": 0
         }
     },
-    "hiddenSelections": ["exterior","interior","A2","wheels","mainbody","hood gratting","camo1","camo2","camo3","unitdecals_1","unitdecals_2","ind_wait","ind_brake","ind_highbeam"],
-    "HiddenSelectionsTextures": ["rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_WD_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_b_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|gratting_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|tile_exmetal_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m1025_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|mk64mount_w_co.paa","rhsusf|addons|rhsusf_hmmwv|unitdecals|101stab_502reg_2ndbn_a12_w_co.paa",""],
+    "hiddenselections": ["exterior","interior","A2","wheels","mainbody","hood gratting","camo1","camo2","camo3","unitdecals_1","unitdecals_2","ind_wait","ind_brake","ind_highbeam"],
+    "hiddenselectionstextures": ["rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_WD_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_b_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|gratting_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|tile_exmetal_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m1025_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|mk64mount_w_co.paa","rhsusf|addons|rhsusf_hmmwv|unitdecals|101stab_502reg_2ndbn_a12_w_co.paa",""],
     # Class: CfgVehicles|rhsusf_m1025_w_m2|textureSources [Indent level: 1],
-    "textureSources": {
+    "texturesources": {
         # Class: CfgVehicles|rhsusf_m1025_w_m2|textureSources|standard [Indent level: 2]
         "standard": {
-            "displayName": "Woodland",
+            "displayname": "Woodland",
             "author": "Red Hammer Studios",
             "textures": ["rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_WD_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_b_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|gratting_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|tile_exmetal_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m1025_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|mk64mount_w_co.paa"],
             "factions": ["rhs_faction_usarmy_wd"]
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|textureSources|Desert [Indent level: 2],
-        "Desert": {
-            "displayName": "Desert",
+        "desert": {
+            "displayname": "Desert",
             "author": "Red Hammer Studios",
             "textures": ["rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_d_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_d_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_D_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_d_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody_d_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|gratting_d_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|tile_exmetal_d_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m1025_d_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|mk64mount_d_co.paa"],
             "factions": ["rhs_faction_usarmy_wd"]
         },
         # Class: CfgVehicles|rhsusf_m1025_w_m2|textureSources|Olive [Indent level: 2],
-        "Olive": {
-            "displayName": "Olive",
+        "olive": {
+            "displayname": "Olive",
             "author": "Red Hammer Studios",
             "textures": ["rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_g_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_g_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_b_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody_g_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|gratting_w_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|tile_exmetal_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|m1025_g_co.paa","rhsusf|addons|rhsusf_hmmwv|textures|mk64mount_w_co.paa"],
             "factions": ["rhs_faction_usarmy_wd"]
         }
     },
-    "textureList": [],
-    "normalSpeedForwardCoef": 0.7,
-    "slownSpeedForwardCoef": 0.55,
-    "turnCoef": 3,
-    "terrainCoef": 0.5,
+    "texturelist": [],
+    "normalspeedforwardcoef": 0.7,
+    "slownspeedforwardcoef": 0.55,
+    "turncoef": 3,
+    "terraincoef": 0.5,
     "simulation": "carx",
-    "dampersBumpCoef": 0,
+    "dampersbumpcoef": 0,
     "precision": 9,
-    "brakeDistance": 3,
+    "brakedistance": 3,
     "acceleration": 15,
-    "fireResistance": 5,
-    "maxSpeed": 109,
-    "fuelCapacity": 22.5,
-    "wheelCircumference": 2.95,
-    "brakeIdleSpeed": 1.8,
-    "canFloat": 0,
-    "maxFordingDepth": 0,
-    "waterSpeedFactor": 0.3,
-    "waterResistance": 1,
-    "waterResistanceCoef": 0.2,
-    "waterLeakiness": 20,
-    "switchTime": 0.5,
+    "fireresistance": 5,
+    "maxspeed": 109,
+    "fuelcapacity": 22.5,
+    "wheelcircumference": 2.95,
+    "brakeidlespeed": 1.8,
+    "canfloat": 0,
+    "maxfordingdepth": 0,
+    "waterspeedfactor": 0.3,
+    "waterresistance": 1,
+    "waterresistancecoef": 0.2,
+    "waterleakiness": 20,
+    "switchtime": 0.5,
     "latency": 1,
-    "changeGearType": "effective",
-    "changeGearOmegaRatios": [1,0.294118,0.205882,0.147059,0.926471,0.470588,0.764706,0.352941,0.852941,0.5,1,0.647059],
+    "changegeartype": "effective",
+    "changegearomegaratios": [1,0.294118,0.205882,0.147059,0.926471,0.470588,0.764706,0.352941,0.852941,0.5,1,0.647059],
     # Class: CfgVehicles|rhsusf_m1025_w|complexGearbox [Indent level: 1],
-    "complexGearbox": {
-        "GearboxRatios": ["R1",-3.07,"N",0,"D1",2.78,"D2",1.48,"D3",1,"D4",0.75],
-        "TransmissionRatios": ["High",6],
-        "gearBoxMode": "auto",
-        "moveOffGear": 1,
-        "driveString": "D",
-        "neutralString": "N",
-        "reverseString": "R"
+    "complexgearbox": {
+        "gearboxratios": ["R1",-3.07,"N",0,"D1",2.78,"D2",1.48,"D3",1,"D4",0.75],
+        "transmissionratios": ["High",6],
+        "gearboxmode": "auto",
+        "moveoffgear": 1,
+        "drivestring": "D",
+        "neutralstring": "N",
+        "reversestring": "R"
     },
-    "differentialType": "all_limited",
-    "frontRearSplit": 0.5,
-    "frontBias": 2.7,
-    "rearBias": 1.9,
-    "centreBias": 1.5,
-    "clutchStrength": 85,
-    "transmissionLosses": 20,
-    "dampingRateFullThrottle": 0.15,
-    "dampingRateZeroThrottleClutchEngaged": 2.8,
-    "dampingRateZeroThrottleClutchDisengaged": 0.35,
-    "torqueCurve": [[0.191176,0.703518],[0.294118,0.778894],[0.411765,0.911223],[0.529412,1],[0.705882,0.976549],[0.764706,0.835846],[0.941176,0.79062],[1.05971,0]],
-    "engineMOI": 7,
-    "enginePower": 160,
-    "peakTorque": 597,
-    "minOmega": 41,
-    "maxOmega": 356.05,
-    "idleRPM": 650,
-    "redRPM": 3400,
-    "engineLosses": 12,
-    "thrustDelay": 0.8,
-    "engineBrakeCoef": 0.8,
-    "antiRollbarForceCoef": 20,
-    "antiRollbarForceLimit": 5.5,
-    "antiRollbarSpeedMin": 10,
-    "antiRollbarSpeedMax": 80,
-    "accelAidForceYOffset": -1.25,
+    "differentialtype": "all_limited",
+    "frontrearsplit": 0.5,
+    "frontbias": 2.7,
+    "rearbias": 1.9,
+    "centrebias": 1.5,
+    "clutchstrength": 85,
+    "transmissionlosses": 20,
+    "dampingratefullthrottle": 0.15,
+    "dampingratezerothrottleclutchengaged": 2.8,
+    "dampingratezerothrottleclutchdisengaged": 0.35,
+    "torquecurve": [[0.191176,0.703518],[0.294118,0.778894],[0.411765,0.911223],[0.529412,1],[0.705882,0.976549],[0.764706,0.835846],[0.941176,0.79062],[1.05971,0]],
+    "enginemoi": 7,
+    "enginepower": 160,
+    "peaktorque": 597,
+    "minomega": 41,
+    "maxomega": 356.05,
+    "idlerpm": 650,
+    "redrpm": 3400,
+    "enginelosses": 12,
+    "thrustdelay": 0.8,
+    "enginebrakecoef": 0.8,
+    "antirollbarforcecoef": 20,
+    "antirollbarforcelimit": 5.5,
+    "antirollbarspeedmin": 10,
+    "antirollbarspeedmax": 80,
+    "accelaidforceyoffset": -1.25,
     # Class: CfgVehicles|rhsusf_m1025_w|Wheels [Indent level: 1],
-    "Wheels": {
+    "wheels": {
         # Class: CfgVehicles|rhsusf_m1025_w|Wheels|LF [Indent level: 2]
-        "LF": {
+        "lf": {
             "side": "left",
-            "boneName": "wheel_1_1_damper",
+            "bonename": "wheel_1_1_damper",
             "center": "axis_wheel_1_1",
             "boundary": "bound_wheel_1_1",
-            "suspForceAppPointOffset": "axis_wheel_1_1",
-            "tireForceAppPointOffset": "axis_wheel_1_1",
-            "suspTravelDirection": [-0.125,-1,0],
+            "suspforceapppointoffset": "axis_wheel_1_1",
+            "tireforceapppointoffset": "axis_wheel_1_1",
+            "susptraveldirection": [-0.125,-1,0],
             "steering": 1,
             "width": 0.25,
             "mass": 40,
-            "MOI": 10,
-            "dampingRate": 0.1,
-            "maxBrakeTorque": 9000,
-            "maxHandBrakeTorque": 0,
-            "maxCompression": 0.1,
-            "maxDroop": 0.1,
-            "sprungMass": -1,
-            "springStrength": 58550,
-            "springDamperRate": 7500,
-            "longitudinalStiffnessPerUnitGravity": 7500,
-            "latStiffX": 40,
-            "latStiffY": 180,
-            "frictionVsSlipGraph": [[0,2.5],[0.5,2.3],[1,2]]
+            "moi": 10,
+            "dampingrate": 0.1,
+            "maxbraketorque": 9000,
+            "maxhandbraketorque": 0,
+            "maxcompression": 0.1,
+            "maxdroop": 0.1,
+            "sprungmass": -1,
+            "springstrength": 58550,
+            "springdamperrate": 7500,
+            "longitudinalstiffnessperunitgravity": 7500,
+            "latstiffx": 40,
+            "latstiffy": 180,
+            "frictionvsslipgraph": [[0,2.5],[0.5,2.3],[1,2]]
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Wheels|LR [Indent level: 2],
-        "LR": {
-            "boneName": "wheel_1_2_damper",
+        "lr": {
+            "bonename": "wheel_1_2_damper",
             "steering": 0,
             "center": "axis_wheel_3_1",
             "boundary": "bound_wheel_3_1",
-            "suspForceAppPointOffset": "axis_wheel_3_1",
-            "tireForceAppPointOffset": "axis_wheel_3_1",
-            "maxHandBrakeTorque": 30000,
+            "suspforceapppointoffset": "axis_wheel_3_1",
+            "tireforceapppointoffset": "axis_wheel_3_1",
+            "maxhandbraketorque": 30000,
             "side": "left",
-            "suspTravelDirection": [-0.125,-1,0],
+            "susptraveldirection": [-0.125,-1,0],
             "width": 0.25,
             "mass": 40,
-            "MOI": 10,
-            "dampingRate": 0.1,
-            "maxBrakeTorque": 9000,
-            "maxCompression": 0.1,
-            "maxDroop": 0.1,
-            "sprungMass": -1,
-            "springStrength": 58550,
-            "springDamperRate": 7500,
-            "longitudinalStiffnessPerUnitGravity": 7500,
-            "latStiffX": 40,
-            "latStiffY": 180,
-            "frictionVsSlipGraph": [[0,2.5],[0.5,2.3],[1,2]]
+            "moi": 10,
+            "dampingrate": 0.1,
+            "maxbraketorque": 9000,
+            "maxcompression": 0.1,
+            "maxdroop": 0.1,
+            "sprungmass": -1,
+            "springstrength": 58550,
+            "springdamperrate": 7500,
+            "longitudinalstiffnessperunitgravity": 7500,
+            "latstiffx": 40,
+            "latstiffy": 180,
+            "frictionvsslipgraph": [[0,2.5],[0.5,2.3],[1,2]]
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Wheels|RF [Indent level: 2],
-        "RF": {
-            "boneName": "wheel_2_1_damper",
+        "rf": {
+            "bonename": "wheel_2_1_damper",
             "center": "axis_wheel_2_1",
             "boundary": "bound_wheel_2_1",
-            "suspForceAppPointOffset": "axis_wheel_2_1",
-            "tireForceAppPointOffset": "axis_wheel_2_1",
+            "suspforceapppointoffset": "axis_wheel_2_1",
+            "tireforceapppointoffset": "axis_wheel_2_1",
             "steering": 1,
             "side": "right",
-            "suspTravelDirection": [0.125,-1,0],
+            "susptraveldirection": [0.125,-1,0],
             "width": 0.25,
             "mass": 40,
-            "MOI": 10,
-            "dampingRate": 0.1,
-            "maxBrakeTorque": 9000,
-            "maxHandBrakeTorque": 0,
-            "maxCompression": 0.1,
-            "maxDroop": 0.1,
-            "sprungMass": -1,
-            "springStrength": 58550,
-            "springDamperRate": 7500,
-            "longitudinalStiffnessPerUnitGravity": 7500,
-            "latStiffX": 40,
-            "latStiffY": 180,
-            "frictionVsSlipGraph": [[0,2.5],[0.5,2.3],[1,2]]
+            "moi": 10,
+            "dampingrate": 0.1,
+            "maxbraketorque": 9000,
+            "maxhandbraketorque": 0,
+            "maxcompression": 0.1,
+            "maxdroop": 0.1,
+            "sprungmass": -1,
+            "springstrength": 58550,
+            "springdamperrate": 7500,
+            "longitudinalstiffnessperunitgravity": 7500,
+            "latstiffx": 40,
+            "latstiffy": 180,
+            "frictionvsslipgraph": [[0,2.5],[0.5,2.3],[1,2]]
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Wheels|RR [Indent level: 2],
-        "RR": {
-            "boneName": "wheel_2_2_damper",
+        "rr": {
+            "bonename": "wheel_2_2_damper",
             "steering": 0,
             "center": "axis_wheel_4_1",
             "boundary": "bound_wheel_4_1",
-            "suspForceAppPointOffset": "axis_wheel_4_1",
-            "tireForceAppPointOffset": "axis_wheel_4_1",
-            "maxHandBrakeTorque": 30000,
+            "suspforceapppointoffset": "axis_wheel_4_1",
+            "tireforceapppointoffset": "axis_wheel_4_1",
+            "maxhandbraketorque": 30000,
             "side": "right",
-            "suspTravelDirection": [0.125,-1,0],
+            "susptraveldirection": [0.125,-1,0],
             "width": 0.25,
             "mass": 40,
-            "MOI": 10,
-            "dampingRate": 0.1,
-            "maxBrakeTorque": 9000,
-            "maxCompression": 0.1,
-            "maxDroop": 0.1,
-            "sprungMass": -1,
-            "springStrength": 58550,
-            "springDamperRate": 7500,
-            "longitudinalStiffnessPerUnitGravity": 7500,
-            "latStiffX": 40,
-            "latStiffY": 180,
-            "frictionVsSlipGraph": [[0,2.5],[0.5,2.3],[1,2]]
+            "moi": 10,
+            "dampingrate": 0.1,
+            "maxbraketorque": 9000,
+            "maxcompression": 0.1,
+            "maxdroop": 0.1,
+            "sprungmass": -1,
+            "springstrength": 58550,
+            "springdamperrate": 7500,
+            "longitudinalstiffnessperunitgravity": 7500,
+            "latstiffx": 40,
+            "latstiffy": 180,
+            "frictionvsslipgraph": [[0,2.5],[0.5,2.3],[1,2]]
         }
     },
-    "forceHideDriver": 1,
-    "crewExplosionProtection": 0.95,
+    "forcehidedriver": 1,
+    "crewexplosionprotection": 0.95,
     # Class: CfgVehicles|rhsusf_m1025_w|UserActions [Indent level: 1],
-    "UserActions": {
+    "useractions": {
         # Class: CfgVehicles|rhsusf_m1025_w|UserActions|trunk_open [Indent level: 2]
         "trunk_open": {
-            "displayName": "Open Trunk",
+            "displayname": "Open Trunk",
             "position": "trunk_action",
             "radius": 2,
-            "onlyForplayer": 0,
+            "onlyforplayer": 0,
             "condition": "this animationPhase 'ani_trunk_1'<0.5",
             "statement": "this animate ['ani_trunk_1', 1];"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|UserActions|trunk_close [Indent level: 2],
         "trunk_close": {
-            "displayName": "Close Trunk",
+            "displayname": "Close Trunk",
             "condition": "this animationPhase 'ani_trunk_1'==1",
             "statement": "this animate ['ani_trunk_1', 0]",
             "position": "trunk_action",
             "radius": 2,
-            "onlyForplayer": 0
+            "onlyforplayer": 0
         },
         # Class: CfgVehicles|rhsusf_m1025_w|UserActions|window_action [Indent level: 2],
         "window_action": {
-            "userActionID": 101,
-            "displayName": "Raise/Lower window",
+            "useractionid": 101,
+            "displayname": "Raise/Lower window",
             "position": "pos_driverpos",
             "radius": 14,
-            "onlyForplayer": 0,
+            "onlyforplayer": 0,
             "condition": "((call rhsusf_fnc_findPlayer) in this) AND ((gunner this) != (call rhsusf_fnc_findPlayer) )",
             "statement": "this call rhs_fnc_m1025_windowHandler"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|UserActions|door_action [Indent level: 2],
         "door_action": {
-            "userActionID": 102,
-            "displayName": "Door toggle",
+            "useractionid": 102,
+            "displayname": "Door toggle",
             "condition": "((call rhsusf_fnc_findPlayer) in this)",
             "statement": "call rhs_fnc_m1025_doorToggle",
             "position": "pos_driverpos",
             "radius": 14,
-            "onlyForplayer": 0
+            "onlyforplayer": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|UserActions|light_bo_off [Indent level: 2],
         "light_bo_off": {
-            "displayName": "B.O. Light off",
+            "displayname": "B.O. Light off",
             "position": "pos_driverpos",
             "radius": 2,
-            "onlyForplayer": 0,
+            "onlyforplayer": 0,
             "condition": "(player == driver this) && this animationPhase 'light_bo'<0.5;",
             "statement": "this animate ['light_bo', 1];this animate ['light_brake_bo', 1]"
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|UserActions|light_bo_on [Indent level: 2],
         "light_bo_on": {
-            "displayName": "B.O. Light on",
+            "displayname": "B.O. Light on",
             "condition": "(player == driver this) && this animationPhase 'light_bo'==1;",
             "statement": "this animate ['light_bo', 0];this animate ['light_brake_bo', 0]",
             "position": "pos_driverpos",
             "radius": 2,
-            "onlyForplayer": 0
+            "onlyforplayer": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|UserActions|light_stop_off [Indent level: 2],
         "light_stop_off": {
-            "displayName": "Stop Light off",
+            "displayname": "Stop Light off",
             "condition": "(player == driver this) && this animationPhase 'light_stop'<0.5",
             "statement": "this animate ['light_stop', 1]",
             "position": "pos_driverpos",
             "radius": 2,
-            "onlyForplayer": 0
+            "onlyforplayer": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|UserActions|light_stop_on [Indent level: 2],
         "light_stop_on": {
-            "displayName": "Stop Light on",
+            "displayname": "Stop Light on",
             "condition": "(player == driver this) && this animationPhase 'light_stop'==1",
             "statement": "this animate ['light_stop', 0]",
             "position": "pos_driverpos",
             "radius": 2,
-            "onlyForplayer": 0
+            "onlyforplayer": 0
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|UserActions|lights_toggle [Indent level: 2],
         "lights_toggle": {
-            "displayName": "Toggle short/long lights",
+            "displayname": "Toggle short/long lights",
             "position": "",
             "shortcut": "vehLockTargets",
             "radius": 12,
             "priority": 1.5,
-            "showWindow": 0,
-            "onlyForplayer": 1,
+            "showwindow": 0,
+            "onlyforplayer": 1,
             "condition": "(player == driver this) AND (isLightOn this)",
             "statement": "[this,2] call rhsusf_fnc_carLightToggle"
         }
     },
     # Class: CfgVehicles|rhsusf_m1025_w|TransportBackpacks [Indent level: 1],
-    "TransportBackpacks": {
+    "transportbackpacks": {
         # Class: CfgVehicles|rhsusf_m1025_w|TransportBackpacks|_xx_rhsusf_falconii [Indent level: 2]
         "_xx_rhsusf_falconii": {
             "backpack": "rhsusf_falconii",
@@ -3541,34 +3541,34 @@ rhsusf_m1025_w_m2 = {
         }
     },
     # Class: CfgVehicles|rhsusf_m1025_w|TransportMagazines [Indent level: 1],
-    "TransportMagazines": {
+    "transportmagazines": {
         # Class: CfgVehicles|rhsusf_m1025_w|TransportMagazines|_xx_rhs_m136_hedp_mag [Indent level: 2]
         "_xx_rhs_m136_hedp_mag": {
             "magazine": "rhs_m136_hedp_mag",
             "count": 2
         },
         # Class: CfgVehicles|rhsusf_m1025_w|TransportMagazines|_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag [Indent level: 2],
-        "_xx_rhs_mag_30Rnd_556x45_M855A1_Stanag": {
+        "_xx_rhs_mag_30rnd_556x45_m855a1_stanag": {
             "magazine": "rhs_mag_30Rnd_556x45_M855A1_Stanag",
             "count": 20
         },
         # Class: CfgVehicles|rhsusf_m1025_w|TransportMagazines|_xx_rhsusf_100Rnd_556x45_soft_pouch [Indent level: 2],
-        "_xx_rhsusf_100Rnd_556x45_soft_pouch": {
+        "_xx_rhsusf_100rnd_556x45_soft_pouch": {
             "magazine": "rhsusf_100Rnd_556x45_soft_pouch",
             "count": 8
         },
         # Class: CfgVehicles|rhsusf_m1025_w|TransportMagazines|_xx_rhs_mag_M441_HE [Indent level: 2],
-        "_xx_rhs_mag_M441_HE": {
+        "_xx_rhs_mag_m441_he": {
             "magazine": "rhs_mag_M441_HE",
             "count": 16
         },
         # Class: CfgVehicles|rhsusf_m1025_w|TransportMagazines|_xx_rhs_mag_M714_white [Indent level: 2],
-        "_xx_rhs_mag_M714_white": {
+        "_xx_rhs_mag_m714_white": {
             "magazine": "rhs_mag_M714_white",
             "count": 4
         },
         # Class: CfgVehicles|rhsusf_m1025_w|TransportMagazines|_xx_rhs_mag_M662_red [Indent level: 2],
-        "_xx_rhs_mag_M662_red": {
+        "_xx_rhs_mag_m662_red": {
             "magazine": "rhs_mag_M662_red",
             "count": 2
         },
@@ -3594,54 +3594,54 @@ rhsusf_m1025_w_m2 = {
         }
     },
     # Class: CfgVehicles|rhsusf_m1025_w|TransportItems [Indent level: 1],
-    "TransportItems": {
+    "transportitems": {
         # Class: CfgVehicles|rhsusf_m1025_w|TransportItems|_xx_FirstAidKit [Indent level: 2]
-        "_xx_FirstAidKit": {
+        "_xx_firstaidkit": {
             "name": "FirstAidKit",
             "count": 4
         }
     },
     # Class: CfgVehicles|rhsusf_m1025_w|TransportWeapons [Indent level: 1],
-    "TransportWeapons": {
+    "transportweapons": {
         # Class: CfgVehicles|rhsusf_m1025_w|TransportWeapons|_xx_rhs_weap_m4_carryhandle [Indent level: 2]
         "_xx_rhs_weap_m4_carryhandle": {
             "weapon": "rhs_weap_m4_carryhandle",
             "count": 2
         },
         # Class: CfgVehicles|rhsusf_m1025_w|TransportWeapons|_xx_rhs_weap_M136_hedp [Indent level: 2],
-        "_xx_rhs_weap_M136_hedp": {
+        "_xx_rhs_weap_m136_hedp": {
             "weapon": "rhs_weap_M136_hedp",
             "count": 2
         }
     },
-    "transportSoldier": 0,
-    "cargoAction": ["RHS_HMMWV_Cargo","RHS_HMMWV_Cargo","RHS_HMMWV_Cargo"],
-    "memoryPointsGetInCargo": ["pos_cargo_RF","pos_cargo_RB","pos_cargo_LB"],
-    "memoryPointsGetInCargoDir": ["pos_cargo_RF_dir","pos_cargo_RB_dir","pos_cargo_LB_dir"],
-    "cargoProxyIndexes": [],
-    "getInProxyOrder": [1,2,3],
+    "transportsoldier": 0,
+    "cargoaction": ["RHS_HMMWV_Cargo","RHS_HMMWV_Cargo","RHS_HMMWV_Cargo"],
+    "memorypointsgetincargo": ["pos_cargo_RF","pos_cargo_RB","pos_cargo_LB"],
+    "memorypointsgetincargodir": ["pos_cargo_RF_dir","pos_cargo_RB_dir","pos_cargo_LB_dir"],
+    "cargoproxyindexes": [],
+    "getinproxyorder": [1,2,3],
     # Class: CfgVehicles|rhsusf_m1025_w|Attributes [Indent level: 1],
-    "Attributes": {
+    "attributes": {
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|ObjectTexture [Indent level: 2]
-        "ObjectTexture": {
+        "objecttexture": {
             "control": "ObjectTexture",
             "data": "ObjectTexture",
-            "displayName": "Skin",
+            "displayname": "Skin",
             "tooltip": "Texture and material set applied on the object."
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|rhs_decalMask [Indent level: 2],
-        "rhs_decalMask": {
-            "displayName": "Define 1st decal",
+        "rhs_decalmask": {
+            "displayname": "Define 1st decal",
             "tooltip": "Define decal located on mask & rear of vehicle",
             "property": "rhs_decalMask",
             "control": "Combo",
             "expression": "if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}",
-            "defaultValue": 0,
-            "typeName": "STRING",
+            "defaultvalue": 0,
+            "typename": "STRING",
             # Class: CfgVehicles|rhsusf_hmmwe_base|Attributes|rhs_decalMask|values [Indent level: 3],
             "values": {
                 # Class: CfgVehicles|rhsusf_hmmwe_base|Attributes|rhs_decalMask|values|NoChange [Indent level: 4]
-                "NoChange": {
+                "nochange": {
                     "name": "Default defined",
                     "value": "NoChange"
                 },
@@ -3669,7 +3669,7 @@ rhsusf_m1025_w_m2 = {
                 "101stab_502reg_2ndbn_a12_w_co": {
                     "name": "101st AB 502 regiment, 2nd BN, A12 - Woodland",
                     "value": "82ndab_505reg_1stbn_e25_w_ca",
-                    "defaultValue": "101stab_502reg_2ndbn_a12_w_co"
+                    "defaultvalue": "101stab_502reg_2ndbn_a12_w_co"
                 },
                 # Class: CfgVehicles|rhsusf_hmmwe_base|Attributes|rhs_decalMask|values|101stab_502reg_2ndbn_a12_d_co [Indent level: 4],
                 "101stab_502reg_2ndbn_a12_d_co": {
@@ -3694,15 +3694,15 @@ rhsusf_m1025_w_m2 = {
             }
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|rhs_decalDoors [Indent level: 2],
-        "rhs_decalDoors": {
-            "displayName": "Define 2nd decal",
+        "rhs_decaldoors": {
+            "displayname": "Define 2nd decal",
             "tooltip": "Define decals located on doors & vehicle rear",
             "property": "rhs_decalDoors",
             "expression": "if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}",
             # Class: CfgVehicles|rhsusf_hmmwe_base|Attributes|rhs_decalDoors|values [Indent level: 3],
             "values": {
                 # Class: CfgVehicles|rhsusf_hmmwe_base|Attributes|rhs_decalDoors|values|NoChange [Indent level: 4]
-                "NoChange": {
+                "nochange": {
                     "name": "Default defined",
                     "value": "NoChange"
                 },
@@ -3768,351 +3768,351 @@ rhsusf_m1025_w_m2 = {
                 }
             },
             "control": "Combo",
-            "defaultValue": 0,
-            "typeName": "STRING"
+            "defaultvalue": 0,
+            "typename": "STRING"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|rhs_hideCIP [Indent level: 2],
-        "rhs_hideCIP": {
-            "displayName": "Hide CIP",
+        "rhs_hidecip": {
+            "displayname": "Hide CIP",
             "property": "rhs_hideCIP",
             "control": "CheckboxNumber",
             "expression": "_this animate ['hide_CIP',_value,true]",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|rhs_hideBFT [Indent level: 2],
-        "rhs_hideBFT": {
-            "displayName": "Hide BFT",
+        "rhs_hidebft": {
+            "displayname": "Hide BFT",
             "property": "rhs_hideBFT",
             "expression": "_this animate ['hide_BFT',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|rhs_hideAntennas [Indent level: 2],
-        "rhs_hideAntennas": {
-            "displayName": "Hide antennas",
+        "rhs_hideantennas": {
+            "displayname": "Hide antennas",
             "property": "rhs_hideBFT",
             "expression": "_this animate ['hide_Antenna',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|rhs_hideA2Parts [Indent level: 2],
-        "rhs_hideA2Parts": {
-            "displayName": "Hide A2 parts",
+        "rhs_hidea2parts": {
+            "displayname": "Hide A2 parts",
             "property": "rhs_hideA2Parts",
             "expression": "_this animate ['hide_A2_Parts',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|Door_LF [Indent level: 2],
-        "Door_LF": {
-            "displayName": "Open front left door",
+        "door_lf": {
+            "displayname": "Open front left door",
             "property": "Door_LF",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|ani_window_1 [Indent level: 2],
         "ani_window_1": {
-            "displayName": "Open front left window",
+            "displayname": "Open front left window",
             "property": "ani_window_1",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|Door_RF [Indent level: 2],
-        "Door_RF": {
-            "displayName": "Open front right door",
+        "door_rf": {
+            "displayname": "Open front right door",
             "property": "Door_RF",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|ani_window_2 [Indent level: 2],
         "ani_window_2": {
-            "displayName": "Open front right window",
+            "displayname": "Open front right window",
             "property": "ani_window_2",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|Door_LB [Indent level: 2],
-        "Door_LB": {
-            "displayName": "Open back left door",
+        "door_lb": {
+            "displayname": "Open back left door",
             "property": "Door_LB",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|ani_window_3 [Indent level: 2],
         "ani_window_3": {
-            "displayName": "Open back left window",
+            "displayname": "Open back left window",
             "property": "ani_window_3",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|Door_RB [Indent level: 2],
-        "Door_RB": {
-            "displayName": "Open back right door",
+        "door_rb": {
+            "displayname": "Open back right door",
             "property": "Door_RB",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|ani_window_4 [Indent level: 2],
         "ani_window_4": {
-            "displayName": "Open back right window",
+            "displayname": "Open back right window",
             "property": "ani_window_4",
             "expression": "_this animateDoor ['%s',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_m1025_w|Attributes|ani_trunk_1 [Indent level: 2],
         "ani_trunk_1": {
-            "displayName": "Open trunk",
+            "displayname": "Open trunk",
             "property": "ani_trunk_1",
             "expression": "_this animate ['%s',_value,true]",
             "control": "Slider",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Attributes|rhs_HideA2Bumper [Indent level: 2],
-        "rhs_HideA2Bumper": {
-            "displayName": "switch to old bumper",
+        "rhs_hidea2bumper": {
+            "displayname": "switch to old bumper",
             "property": "rhs_HideA2Bumper",
             "expression": "_this animateSource ['Hide_A2Bumper',_value,true]",
             "control": "CheckboxNumber",
-            "defaultValue": "0"
+            "defaultvalue": "0"
         }
     },
     # Class: CfgVehicles|rhsusf_m1025_w|EventHandlers [Indent level: 1],
-    "EventHandlers": {
+    "eventhandlers": {
         # Class: CfgVehicles|rhsusf_m1025_w|EventHandlers|rhs_m1025_eh [Indent level: 2]
         "rhs_m1025_eh": {
-            "getOut": "_this call rhs_fnc_m1025_doorHandler"
+            "getout": "_this call rhs_fnc_m1025_doorHandler"
         },
         "init": "if (local (_this select 0)) then {[(_this select 0), `, [], false] call bis_fnc_initVehicle;};",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
         "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
         # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
-        "RHS_DefaultEventhandlers": {
+        "rhs_defaulteventhandlers": {
             "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
-    "soundAttenuationCargo": [1],
+    "soundattenuationcargo": [1],
     # Class: CfgVehicles|rhsusf_m998_w_4dr_fulltop|Sounds [Indent level: 1],
-    "Sounds": {
+    "sounds": {
         # Class: CfgVehicles|rhsusf_m998_w_4dr_fulltop|Sounds|RainIn [Indent level: 2]
-        "RainIn": {
+        "rainin": {
             "sound": ["rhsusf|addons|rhsusf_sounds|misc|rain.wss",1.41254,1],
             "frequency": 1,
             "volume": "rain*(1-camPos)"
         },
         # Class: CfgVehicles|rhsusf_m998_w_4dr_fulltop|Sounds|RainExt [Indent level: 2],
-        "RainExt": {
+        "rainext": {
             "sound": ["rhsusf|addons|rhsusf_sounds|misc|rain.wss",1.41254,1],
             "frequency": 1,
             "volume": "rain*camPos"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Idle_ext [Indent level: 2],
-        "Idle_ext": {
+        "idle_ext": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_idle",0.398107,1,150],
             "frequency": "0.95	+	((rpm/	3400) factor[(604/	3400),(1058/	3400)])*0.15",
             "volume": "engineOn*camPos*(((rpm/	3400) factor[(453/	3400),(831/	3400)])	*	((rpm/	3400) factor[(1360/	3400),(982/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine [Indent level: 2],
-        "Engine": {
+        "engine": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_low1",0.446684,1,250],
             "frequency": "0.9	+	((rpm/	3400) factor[(1058/	3400),(1587/	3400)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	3400) factor[(1058/	3400),(1360/	3400)])	*	((rpm/	3400) factor[(1738/	3400),(1511/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine1_ext [Indent level: 2],
-        "Engine1_ext": {
+        "engine1_ext": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_low2",0.562341,1,300],
             "frequency": "0.9	+		((rpm/	3400) factor[(1587/	3400),(2116/	3400)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	3400) factor[(1436/	3400),(1738/	3400)])	*	((rpm/	3400) factor[(2267/	3400),(1889/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine2_ext [Indent level: 2],
-        "Engine2_ext": {
+        "engine2_ext": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_mid",0.707946,1,350],
             "frequency": "0.9	+	((rpm/	3400) factor[(2116/	3400),(2720/	3400)])*0.2",
             "volume": "engineOn*camPos*(((rpm/	3400) factor[(1889/	3400),(2342/	3400)])	*	((rpm/	3400) factor[(2569/	3400),(2796/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine3_ext [Indent level: 2],
-        "Engine3_ext": {
+        "engine3_ext": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_high",1,1,400],
             "frequency": "0.95	+	((rpm/	3400) factor[(2720/	3400),(3400/	3400)])*0.1",
             "volume": "engineOn*camPos*((rpm/	3400) factor[(2871/	3400),(3400/	3400)])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|IdleThrust [Indent level: 2],
-        "IdleThrust": {
+        "idlethrust": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_exhaust_idle",0.562341,1,200],
             "frequency": "0.95	+	((rpm/	3400) factor[(604/	3400),(1058/	3400)])*0.15",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(453/	3400),(831/	3400)])	*	((rpm/	3400) factor[(1360/	3400),(982/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|EngineThrust [Indent level: 2],
-        "EngineThrust": {
+        "enginethrust": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_exhaust_low1",0.707946,1,350],
             "frequency": "0.9	+	((rpm/	3400) factor[(1058/	3400),(1587/	3400)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(1058/	3400),(1360/	3400)])	*	((rpm/	3400) factor[(1738/	3400),(1511/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine1_Thrust_ext [Indent level: 2],
-        "Engine1_Thrust_ext": {
+        "engine1_thrust_ext": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_exhaust_low2",0.891251,1,400],
             "frequency": "0.9	+		((rpm/	3400) factor[(1587/	3400),(2116/	3400)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(1436/	3400),(1738/	3400)])	*	((rpm/	3400) factor[(2267/	3400),(1889/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine2_Thrust_ext [Indent level: 2],
-        "Engine2_Thrust_ext": {
+        "engine2_thrust_ext": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_exhaust_mid",1.12202,1,425],
             "frequency": "0.9	+	((rpm/	3400) factor[(2116/	3400),(2720/	3400)])*0.2",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(1889/	3400),(2342/	3400)])	*	((rpm/	3400) factor[(3400/	3400),(2796/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine3_Thrust_ext [Indent level: 2],
-        "Engine3_Thrust_ext": {
+        "engine3_thrust_ext": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_ext_exhaust_high",1.25893,1,450],
             "frequency": "0.95	+	((rpm/	3400) factor[(2720/	3400),(3400/	3400)])*0.1",
             "volume": "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	3400) factor[(2871/	3400),(3400/	3400)])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Idle_int [Indent level: 2],
-        "Idle_int": {
+        "idle_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_idle",0.251189,1],
             "frequency": "0.95	+	((rpm/	3400) factor[(604/	3400),(1058/	3400)])*0.15",
             "volume": "engineOn*(1-camPos)*(((rpm/	3400) factor[(453/	3400),(831/	3400)])	*	((rpm/	3400) factor[(1360/	3400),(982/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine_int [Indent level: 2],
-        "Engine_int": {
+        "engine_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_low1",0.316228,1],
             "frequency": "0.9	+	((rpm/	3400) factor[(1058/	3400),(1587/	3400)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	3400) factor[(1058/	3400),(1360/	3400)])	*	((rpm/	3400) factor[(1738/	3400),(1511/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine1_int [Indent level: 2],
-        "Engine1_int": {
+        "engine1_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_low2",0.398107,1],
             "frequency": "0.9	+		((rpm/	3400) factor[(1587/	3400),(2116/	3400)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	3400) factor[(1436/	3400),(1738/	3400)])	*	((rpm/	3400) factor[(2267/	3400),(1889/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine2_int [Indent level: 2],
-        "Engine2_int": {
+        "engine2_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_mid",0.501187,1],
             "frequency": "0.9	+	((rpm/	3400) factor[(2116/	3400),(2720/	3400)])*0.2",
             "volume": "engineOn*(1-camPos)*(((rpm/	3400) factor[(1889/	3400),(2342/	3400)])	*	((rpm/	3400) factor[(3400/	3400),(2796/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine3_int [Indent level: 2],
-        "Engine3_int": {
+        "engine3_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_high",0.630957,1],
             "frequency": "0.95	+	((rpm/	3400) factor[(2720/	3400),(3400/	3400)])*0.1",
             "volume": "engineOn*(1-camPos)*((rpm/	3400) factor[(2871/	3400),(3400/	3400)])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|IdleThrust_int [Indent level: 2],
-        "IdleThrust_int": {
+        "idlethrust_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_exhaust_idle",0.354813,1],
             "frequency": "0.95	+	((rpm/	3400) factor[(604/	3400),(1058/	3400)])*0.15",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(453/	3400),(831/	3400)])	*	((rpm/	3400) factor[(1360/	3400),(982/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|EngineThrust_int [Indent level: 2],
-        "EngineThrust_int": {
+        "enginethrust_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_exhaust_low1",0.446684,1],
             "frequency": "0.9	+	((rpm/	3400) factor[(1058/	3400),(1587/	3400)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(1058/	3400),(1360/	3400)])	*	((rpm/	3400) factor[(1738/	3400),(1511/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine1_Thrust_int [Indent level: 2],
-        "Engine1_Thrust_int": {
+        "engine1_thrust_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_exhaust_low2",0.562341,1],
             "frequency": "0.9	+		((rpm/	3400) factor[(1587/	3400),(2116/	3400)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(1436/	3400),(1738/	3400)])	*	((rpm/	3400) factor[(2267/	3400),(1889/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine2_Thrust_int [Indent level: 2],
-        "Engine2_Thrust_int": {
+        "engine2_thrust_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_exhaust_mid",0.707946,1],
             "frequency": "0.9	+	((rpm/	3400) factor[(2116/	3400),(2720/	3400)])*0.2",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	3400) factor[(1889/	3400),(2342/	3400)])	*	((rpm/	3400) factor[(3400/	3400),(2796/	3400)]))"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|Engine3_Thrust_int [Indent level: 2],
-        "Engine3_Thrust_int": {
+        "engine3_thrust_int": {
             "sound": ["A3|Sounds_F|vehicles|soft|MRAP_01|MRAP_01_int_exhaust_high",0.794328,1],
             "frequency": "0.95	+	((rpm/	3400) factor[(2720/	3400),(3400/	3400)])*0.1",
             "volume": "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	3400) factor[(2116/	3400),(3400/	3400)])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresRockOut [Indent level: 2],
-        "TiresRockOut": {
+        "tiresrockout": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_dirt_soft_1",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*rock*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresSandOut [Indent level: 2],
-        "TiresSandOut": {
+        "tiressandout": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext-tires-sand1",1.41254,1,60],
             "frequency": "1",
             "volume": "camPos*sand*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresGrassOut [Indent level: 2],
-        "TiresGrassOut": {
+        "tiresgrassout": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_dirt_soft_2",1.25893,1,60],
             "frequency": "1",
             "volume": "camPos*grass*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresMudOut [Indent level: 2],
-        "TiresMudOut": {
+        "tiresmudout": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext-tires-mud2",1.12202,1,60],
             "frequency": "1",
             "volume": "camPos*mud*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresGravelOut [Indent level: 2],
-        "TiresGravelOut": {
+        "tiresgravelout": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_gravel_1",1.25893,1,60],
             "frequency": "1",
             "volume": "camPos*gravel*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresAsphaltOut [Indent level: 2],
-        "TiresAsphaltOut": {
+        "tiresasphaltout": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|ext_tires_asfalt_2",1.12202,1,60],
             "frequency": "1",
             "volume": "camPos*asphalt*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|NoiseOut [Indent level: 2],
-        "NoiseOut": {
+        "noiseout": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|noise_ext_car_3",1.12202,1,90],
             "frequency": "1",
             "volume": "camPos*(damper0 max 0.02)*(speed factor[0, 8])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresRockIn [Indent level: 2],
-        "TiresRockIn": {
+        "tiresrockin": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_dirt_soft_1",0.707946,1],
             "frequency": "1",
             "volume": "(1-camPos)*rock*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresSandIn [Indent level: 2],
-        "TiresSandIn": {
+        "tiressandin": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int-tires-sand2",0.707946,1],
             "frequency": "1",
             "volume": "(1-camPos)*sand*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresGrassIn [Indent level: 2],
-        "TiresGrassIn": {
+        "tiresgrassin": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_dirt_soft_2",0.707946,1],
             "frequency": "1",
             "volume": "(1-camPos)*grass*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresMudIn [Indent level: 2],
-        "TiresMudIn": {
+        "tiresmudin": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int-tires-mud2",0.707946,1],
             "frequency": "1",
             "volume": "(1-camPos)*mud*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresGravelIn [Indent level: 2],
-        "TiresGravelIn": {
+        "tiresgravelin": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_gravel_1",0.707946,1],
             "frequency": "1",
             "volume": "(1-camPos)*gravel*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|TiresAsphaltIn [Indent level: 2],
-        "TiresAsphaltIn": {
+        "tiresasphaltin": {
             "sound": ["A3|Sounds_F|vehicles|soft|tires|int_tires_asfalt_2",0.707946,1],
             "frequency": "1",
             "volume": "(1-camPos)*asphalt*(speed factor[2, 20])"
         },
         # Class: CfgVehicles|rhsusf_hmmwe_base|Sounds|NoiseIn [Indent level: 2],
-        "NoiseIn": {
+        "noisein": {
             "sound": ["A3|Sounds_F|vehicles|soft|noises|noise_int_car_3",0.562341,1],
             "frequency": "1",
             "volume": "(damper0 max 0.1)*(speed factor[0, 8])*(1-camPos)"
@@ -4214,68 +4214,68 @@ rhsusf_m1025_w_m2 = {
             "volume": "engineOn*(1-asphalt)*(1-camPos)*(latSlipDrive Factor[-0.15, -0.3])*(Speed Factor[0, 10])"
         }
     },
-    "driverDoor": "Door_LF",
-    "cargoDoors": ["Door_RF","Door_RB","Door_LB"],
+    "driverdoor": "Door_LF",
+    "cargodoors": ["Door_RF","Door_RB","Door_LB"],
     "side": 1,
     "scope": 2,
-    "typicalCargo": ["rhsusf_army_ocp_driver"],
+    "typicalcargo": ["rhsusf_army_ocp_driver"],
     # Class: CfgVehicles|rhsusf_m998_w_2dr|Library [Indent level: 1],
-    "Library": {
-        "libTextDesc": "M998, 1-1/4 ton, cargo carrier, wood (open)"
+    "library": {
+        "libtextdesc": "M998, 1-1/4 ton, cargo carrier, wood (open)"
     },
-    "damperSize": 0.15,
-    "damperForce": 1,
-    "damperDamping": 1,
-    "selectionBrakeLights": "light_brake",
-    "selectionBackLights": "light_drive",
-    "driverAction": "RHS_HMMWV_Driver",
-    "driverInAction": "RHS_HMMWV_Driver",
-    "memoryPointsGetInCoDriver": "pos_codriver",
-    "memoryPointsGetInCoDriverDir": "pos_codriver_dir",
-    "memoryPointsGetInDriver": "pos_driver",
-    "memoryPointsGetInDriverDir": "pos_driver_dir",
-    "cargoCompartments": [1,2],
-    "transportMaxBackpacks": 7,
-    "castDriverShadow": 1,
-    "castCargoShadow": 1,
+    "dampersize": 0.15,
+    "damperforce": 1,
+    "damperdamping": 1,
+    "selectionbrakelights": "light_brake",
+    "selectionbacklights": "light_drive",
+    "driveraction": "RHS_HMMWV_Driver",
+    "driverinaction": "RHS_HMMWV_Driver",
+    "memorypointsgetincodriver": "pos_codriver",
+    "memorypointsgetincodriverdir": "pos_codriver_dir",
+    "memorypointsgetindriver": "pos_driver",
+    "memorypointsgetindriverdir": "pos_driver_dir",
+    "cargocompartments": [1,2],
+    "transportmaxbackpacks": 7,
+    "castdrivershadow": 1,
+    "castcargoshadow": 1,
     # Class: CfgVehicles|rhsusf_m998_w_2dr|Damage [Indent level: 1],
-    "Damage": {
+    "damage": {
         "tex": [],
         "mat": ["rhsusf|addons|rhsusf_hmmwv|textures|A2_parts.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_4drcargo.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m1025.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m1025_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_full_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire_full_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows_half_d.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat"]
     },
     # Class: CfgVehicles|rhsusf_m998_w_2dr|RenderTargets [Indent level: 1],
-    "RenderTargets": {
+    "rendertargets": {
         # Class: CfgVehicles|rhsusf_m998_w_2dr|RenderTargets|LeftMirror [Indent level: 2]
-        "LeftMirror": {
-            "renderTarget": "rendertarget0",
+        "leftmirror": {
+            "rendertarget": "rendertarget0",
             # Class: CfgVehicles|rhsusf_m998_w_2dr|RenderTargets|LeftMirror|CameraView1 [Indent level: 3],
-            "CameraView1": {
-                "pointPosition": "m1p",
-                "pointDirection": "m1d",
-                "renderQuality": 2,
-                "renderVisionMode": 4,
+            "cameraview1": {
+                "pointposition": "m1p",
+                "pointdirection": "m1d",
+                "renderquality": 2,
+                "rendervisionmode": 4,
                 "fov": 0.7
             },
-            "BBoxes": ["PIP_1_TL","PIP_1_TR","PIP_1_BL","PIP_1_BR"]
+            "bboxes": ["PIP_1_TL","PIP_1_TR","PIP_1_BL","PIP_1_BR"]
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|RenderTargets|RightMirror [Indent level: 2],
-        "RightMirror": {
-            "renderTarget": "rendertarget1",
+        "rightmirror": {
+            "rendertarget": "rendertarget1",
             # Class: CfgVehicles|rhsusf_m998_w_2dr|RenderTargets|RightMirror|CameraView1 [Indent level: 3],
-            "CameraView1": {
-                "pointPosition": "m2p",
-                "pointDirection": "m2d",
-                "renderQuality": 2,
-                "renderVisionMode": 4,
+            "cameraview1": {
+                "pointposition": "m2p",
+                "pointdirection": "m2d",
+                "renderquality": 2,
+                "rendervisionmode": 4,
                 "fov": 0.7
             },
-            "BBoxes": ["PIP_2_TL","PIP_2_TR","PIP_2_BL","PIP_2_BR"]
+            "bboxes": ["PIP_2_TL","PIP_2_TR","PIP_2_BL","PIP_2_BR"]
         }
     },
     # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors [Indent level: 1],
-    "Reflectors": {
+    "reflectors": {
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Left [Indent level: 2]
-        "Left": {
+        "left": {
             "color": [800,900,650],
             "ambient": [2,2,2],
             "position": "light_hd_1",
@@ -4283,38 +4283,38 @@ rhsusf_m1025_w_m2 = {
             "hitpoint": "light_hd_1",
             "selection": "light_hd_1",
             "size": 1,
-            "innerAngle": 30,
-            "outerAngle": 100,
-            "coneFadeCoef": 5,
+            "innerangle": 30,
+            "outerangle": 100,
+            "conefadecoef": 5,
             "intensity": 2.5,
-            "useFlare": 0,
-            "dayLight": 0,
-            "flareSize": 0.85,
+            "useflare": 0,
+            "daylight": 0,
+            "flaresize": 0.85,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Left|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 1,
                 "constant": 0,
                 "linear": 0,
                 "quadratic": 0.25,
-                "hardLimitStart": 30,
-                "hardLimitEnd": 60
+                "hardlimitstart": 30,
+                "hardlimitend": 60
             }
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Left_Flare [Indent level: 2],
-        "Left_Flare": {
-            "useFlare": 1,
-            "innerAngle": 50,
-            "outerAngle": 179,
-            "coneFadeCoef": 51,
+        "left_flare": {
+            "useflare": 1,
+            "innerangle": 50,
+            "outerangle": 179,
+            "conefadecoef": 51,
             "intensity": 1,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Left_Flare|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 0,
                 "constant": 0,
                 "linear": 1,
                 "quadratic": 50,
-                "hardLimitStart": 0,
-                "hardLimitEnd": 3
+                "hardlimitstart": 0,
+                "hardlimitend": 3
             },
             "color": [800,900,650],
             "ambient": [2,2,2],
@@ -4323,11 +4323,11 @@ rhsusf_m1025_w_m2 = {
             "hitpoint": "light_hd_1",
             "selection": "light_hd_1",
             "size": 1,
-            "dayLight": 0,
-            "flareSize": 0.85
+            "daylight": 0,
+            "flaresize": 0.85
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Right [Indent level: 2],
-        "Right": {
+        "right": {
             "position": "light_hd_2",
             "direction": "light_hd_2_dir",
             "hitpoint": "light_hd_2",
@@ -4335,38 +4335,38 @@ rhsusf_m1025_w_m2 = {
             "color": [800,900,650],
             "ambient": [2,2,2],
             "size": 1,
-            "innerAngle": 30,
-            "outerAngle": 100,
-            "coneFadeCoef": 5,
+            "innerangle": 30,
+            "outerangle": 100,
+            "conefadecoef": 5,
             "intensity": 2.5,
-            "useFlare": 0,
-            "dayLight": 0,
-            "flareSize": 0.85,
+            "useflare": 0,
+            "daylight": 0,
+            "flaresize": 0.85,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Left|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 1,
                 "constant": 0,
                 "linear": 0,
                 "quadratic": 0.25,
-                "hardLimitStart": 30,
-                "hardLimitEnd": 60
+                "hardlimitstart": 30,
+                "hardlimitend": 60
             }
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Right_Flare [Indent level: 2],
-        "Right_Flare": {
-            "useFlare": 1,
-            "innerAngle": 50,
-            "outerAngle": 179,
-            "coneFadeCoef": 51,
+        "right_flare": {
+            "useflare": 1,
+            "innerangle": 50,
+            "outerangle": 179,
+            "conefadecoef": 51,
             "intensity": 1,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Right_Flare|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 0,
                 "constant": 0,
                 "linear": 1,
                 "quadratic": 50,
-                "hardLimitStart": 0,
-                "hardLimitEnd": 3
+                "hardlimitstart": 0,
+                "hardlimitend": 3
             },
             "position": "light_hd_2",
             "direction": "light_hd_2_dir",
@@ -4375,11 +4375,11 @@ rhsusf_m1025_w_m2 = {
             "color": [800,900,650],
             "ambient": [2,2,2],
             "size": 1,
-            "dayLight": 0,
-            "flareSize": 0.85
+            "daylight": 0,
+            "flaresize": 0.85
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Left [Indent level: 2],
-        "Long_Left": {
+        "long_left": {
             "color": [800,900,650],
             "ambient": [5,5,5],
             "position": "Light_L_Long",
@@ -4387,26 +4387,26 @@ rhsusf_m1025_w_m2 = {
             "hitpoint": "light_hd_1",
             "selection": "light_hd_1",
             "size": 1,
-            "innerAngle": 22,
-            "outerAngle": 29,
-            "coneFadeCoef": 1,
+            "innerangle": 22,
+            "outerangle": 29,
+            "conefadecoef": 1,
             "intensity": 100,
-            "useFlare": 0,
-            "dayLight": 0,
-            "flareSize": 1.5,
-            "flareMaxDistance": 750,
+            "useflare": 0,
+            "daylight": 0,
+            "flaresize": 1.5,
+            "flaremaxdistance": 750,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Left|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 1,
                 "constant": 0,
                 "linear": 0.1,
                 "quadratic": 0,
-                "hardLimitStart": 500,
-                "hardLimitEnd": 750
+                "hardlimitstart": 500,
+                "hardlimitend": 750
             }
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Right [Indent level: 2],
-        "Long_Right": {
+        "long_right": {
             "position": "Light_R_Long",
             "direction": "Light_R_Long_end",
             "hitpoint": "light_hd_2",
@@ -4414,40 +4414,40 @@ rhsusf_m1025_w_m2 = {
             "color": [800,900,650],
             "ambient": [5,5,5],
             "size": 1,
-            "innerAngle": 22,
-            "outerAngle": 29,
-            "coneFadeCoef": 1,
+            "innerangle": 22,
+            "outerangle": 29,
+            "conefadecoef": 1,
             "intensity": 100,
-            "useFlare": 0,
-            "dayLight": 0,
-            "flareSize": 1.5,
-            "flareMaxDistance": 750,
+            "useflare": 0,
+            "daylight": 0,
+            "flaresize": 1.5,
+            "flaremaxdistance": 750,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Left|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 1,
                 "constant": 0,
                 "linear": 0.1,
                 "quadratic": 0,
-                "hardLimitStart": 500,
-                "hardLimitEnd": 750
+                "hardlimitstart": 500,
+                "hardlimitend": 750
             }
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Right2 [Indent level: 2],
-        "Long_Right2": {
-            "useFlare": 1,
+        "long_right2": {
+            "useflare": 1,
             "position": "light_R_Long_flare",
-            "innerAngle": 50,
-            "outerAngle": 179,
-            "coneFadeCoef": 51,
+            "innerangle": 50,
+            "outerangle": 179,
+            "conefadecoef": 51,
             "intensity": 1,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Right2|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 0,
                 "constant": 0,
                 "linear": 1,
                 "quadratic": 50,
-                "hardLimitStart": 0,
-                "hardLimitEnd": 3
+                "hardlimitstart": 0,
+                "hardlimitend": 3
             },
             "direction": "Light_R_Long_end",
             "hitpoint": "light_hd_2",
@@ -4455,26 +4455,26 @@ rhsusf_m1025_w_m2 = {
             "color": [800,900,650],
             "ambient": [5,5,5],
             "size": 1,
-            "dayLight": 0,
-            "flareSize": 1.5,
-            "flareMaxDistance": 750
+            "daylight": 0,
+            "flaresize": 1.5,
+            "flaremaxdistance": 750
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Left2 [Indent level: 2],
-        "Long_Left2": {
-            "useFlare": 1,
+        "long_left2": {
+            "useflare": 1,
             "position": "light_L_Long_flare",
-            "innerAngle": 50,
-            "outerAngle": 179,
-            "coneFadeCoef": 51,
+            "innerangle": 50,
+            "outerangle": 179,
+            "conefadecoef": 51,
             "intensity": 1,
             # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors|Long_Left2|Attenuation [Indent level: 3],
-            "Attenuation": {
+            "attenuation": {
                 "start": 0,
                 "constant": 0,
                 "linear": 1,
                 "quadratic": 50,
-                "hardLimitStart": 0,
-                "hardLimitEnd": 3
+                "hardlimitstart": 0,
+                "hardlimitend": 3
             },
             "color": [800,900,650],
             "ambient": [5,5,5],
@@ -4482,16 +4482,16 @@ rhsusf_m1025_w_m2 = {
             "hitpoint": "light_hd_1",
             "selection": "light_hd_1",
             "size": 1,
-            "dayLight": 0,
-            "flareSize": 1.5,
-            "flareMaxDistance": 750
+            "daylight": 0,
+            "flaresize": 1.5,
+            "flaremaxdistance": 750
         }
     },
-    "aggregateReflectors": [["Left","Right"]],
+    "aggregatereflectors": [["Left","Right"]],
     # Class: CfgVehicles|rhsusf_m998_w_2dr|NVGMarkers [Indent level: 1],
-    "NVGMarkers": {
+    "nvgmarkers": {
         # Class: CfgVehicles|rhsusf_m998_w_2dr|NVGMarkers|NVGMarker01 [Indent level: 2]
-        "NVGMarker01": {
+        "nvgmarker01": {
             "name": "nvg_marker",
             "color": [0.03,0.003,0.003,1],
             "ambient": [0.003,0.0003,0.0003,1],
@@ -4501,34 +4501,34 @@ rhsusf_m1025_w_m2 = {
     },
     "dlc": "RHS_USAF",
     "category": "Car",
-    "insideSoundCoef": 0.4,
-    "tf_hasLRradio_api": 1,
-    "crewVulnerable": 1,
+    "insidesoundcoef": 0.4,
+    "tf_haslrradio_api": 1,
+    "crewvulnerable": 1,
     "armor": 80,
-    "minTotalDamageThreshold": 0.21,
-    "fuelExplosionPower": 0.1,
-    "secondaryExplosion": 0,
-    "camShakeCoef": 0.4,
-    "selectionDamage": "damage",
-    "getInAction": "GetInLow",
-    "getOutAction": "GetOutLow",
-    "cargoGetInAction": ["GetInLow"],
-    "cargoGetOutAction": ["GetOutLow"],
-    "slingLoadCargoMemoryPoints": ["SlingLoadCargo1","SlingLoadCargo2","SlingLoadCargo3","SlingLoadCargo4"],
-    "driverLeftHandAnimName": "steeringwheel",
-    "driverRightHandAnimName": "steeringwheel",
-    "driverRightLegAnimName": "pedalR",
-    "driverLeftLegAnimName": "pedalL",
-    "showNVGDriver": 1,
-    "showNVGCargo": [1],
-    "viewDriverInExternal": 1,
-    "gunnerHasFlares": 0,
-    "mapSize": 5.5,
-    "extCameraPosition": [0.5,2,-10],
-    "supplyRadius": 2,
-    "hideUnitInfo": 0,
+    "mintotaldamagethreshold": 0.21,
+    "fuelexplosionpower": 0.1,
+    "secondaryexplosion": 0,
+    "camshakecoef": 0.4,
+    "selectiondamage": "damage",
+    "getinaction": "GetInLow",
+    "getoutaction": "GetOutLow",
+    "cargogetinaction": ["GetInLow"],
+    "cargogetoutaction": ["GetOutLow"],
+    "slingloadcargomemorypoints": ["SlingLoadCargo1","SlingLoadCargo2","SlingLoadCargo3","SlingLoadCargo4"],
+    "driverlefthandanimname": "steeringwheel",
+    "driverrighthandanimname": "steeringwheel",
+    "driverrightleganimname": "pedalR",
+    "driverleftleganimname": "pedalL",
+    "shownvgdriver": 1,
+    "shownvgcargo": [1],
+    "viewdriverinexternal": 1,
+    "gunnerhasflares": 0,
+    "mapsize": 5.5,
+    "extcameraposition": [0.5,2,-10],
+    "supplyradius": 2,
+    "hideunitinfo": 0,
     # Class: CfgVehicles|rhsusf_hmmwe_base|Exhausts [Indent level: 1],
-    "Exhausts": {
+    "exhausts": {
         # Class: CfgVehicles|rhsusf_hmmwe_base|Exhausts|exhaust1 [Indent level: 2]
         "exhaust1": {
             "position": "exhaust1_1",
@@ -4537,1979 +4537,1979 @@ rhsusf_m1025_w_m2 = {
         }
     },
     # Class: CfgVehicles|rhsusf_hmmwe_base|Components [Indent level: 1],
-    "Components": {
+    "components": {
         # Class: CfgVehicles|rhsusf_hmmwe_base|Components|AICarSteeringComponent [Indent level: 2]
-        "AICarSteeringComponent": {
-            "steeringPIDWeights": [3.1,0.1,0.4],
-            "speedPIDWeights": [0.7,0.2,0],
-            "convoyPIDWeights": [1,0.01,0.01],
-            "doRemapSpeed": 1,
-            "remapSpeedRange": [30,70],
-            "remapSpeedScalar": [1,0.35],
-            "doPredictForward": 1,
-            "predictForwardRange": [1,20],
-            "steerAheadSaturation": [0.01,0.4],
-            "speedPredictionMethod": 2,
-            "wheelAngleCoef": 0.7,
-            "forwardAngleCoef": 0.7,
-            "steeringAngleCoef": 1.2,
-            "differenceAngleCoef": 0.4,
-            "stuckMaxTime": 3,
-            "allowOvertaking": 1,
-            "allowDrifting": 0,
-            "allowCollisionAvoidance": 1,
-            "maxWheelAngleDiff": 0.2616,
-            "minSpeedToKeep": 0.1,
-            "commandTurnFactor": 1
+        "aicarsteeringcomponent": {
+            "steeringpidweights": [3.1,0.1,0.4],
+            "speedpidweights": [0.7,0.2,0],
+            "convoypidweights": [1,0.01,0.01],
+            "doremapspeed": 1,
+            "remapspeedrange": [30,70],
+            "remapspeedscalar": [1,0.35],
+            "dopredictforward": 1,
+            "predictforwardrange": [1,20],
+            "steeraheadsaturation": [0.01,0.4],
+            "speedpredictionmethod": 2,
+            "wheelanglecoef": 0.7,
+            "forwardanglecoef": 0.7,
+            "steeringanglecoef": 1.2,
+            "differenceanglecoef": 0.4,
+            "stuckmaxtime": 3,
+            "allowovertaking": 1,
+            "allowdrifting": 0,
+            "allowcollisionavoidance": 1,
+            "maxwheelanglediff": 0.2616,
+            "minspeedtokeep": 0.1,
+            "commandturnfactor": 1
         },
         # Class: CfgVehicles|LandVehicle|Components|TransportCountermeasuresComponent [Indent level: 2],
-        "TransportCountermeasuresComponent": {
+        "transportcountermeasurescomponent": {
         }
     },
-    "soundGetIn": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getin|mrap_1.ogg",0.5,1],
-    "soundGetOut": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getout|mrap_1.ogg",0.5,1,40],
-    "soundDammage": [".ogg",0.5,1],
-    "soundEngineOnInt": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_start_int.ogg",1,1],
-    "soundEngineOffInt": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_shut_int.ogg",1,1],
-    "soundEngineOnExt": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_start_ext.ogg",1,1,125],
-    "soundEngineOffExt": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_shut_ext.ogg",1,1,100],
-    "buildCrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_01.ogg",1.5,1,300],
-    "buildCrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_02.ogg",1.5,1,300],
-    "buildCrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_03.ogg",1.5,1,300],
-    "buildCrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_04.ogg",1.5,1,300],
-    "buildCrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
-    "buildCrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
-    "buildCrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
-    "buildCrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundBuildingCrash": ["buildcrash0",0.25,"buildcrash1",0.25,"buildcrash2",0.25,"buildcrash3",0.25],
-    "WoodCrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_01.ogg",1.5,1,300],
-    "WoodCrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_02.ogg",1.5,1,300],
-    "WoodCrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_03.ogg",1.5,1,300],
-    "WoodCrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_04.ogg",1.5,1,300],
-    "WoodCrash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_05.ogg",1.5,1,300],
-    "WoodCrash5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_06.ogg",1.5,1,300],
-    "WoodCrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_07",1.99526,1,75],
-    "WoodCrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_08",1.99526,1,75],
-    "soundWoodCrash": ["woodcrash0",0.166,"woodcrash1",0.166,"woodcrash2",0.166,"woodcrash3",0.166,"woodcrash4",0.166,"woodcrash5",0.166],
-    "armorCrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
-    "armorCrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
-    "armorCrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
-    "armorCrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
-    "armorCrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
-    "armorCrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
-    "armorCrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
-    "armorCrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundArmorCrash": ["armorcrash0",0.25,"armorcrash1",0.25,"armorcrash2",0.25,"armorcrash3",0.25],
-    "Crash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
-    "Crash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
-    "Crash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
-    "Crash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
-    "Crash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_05.ogg",1.5,1,300],
-    "Crash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
-    "Crash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
-    "Crash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundCrashes": ["crash0",0.2,"crash1",0.2,"crash2",0.2,"crash3",0.2,"crash4",0.2],
-    "BushCrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_01",0.630957,1,50],
-    "BushCrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_02",0.630957,1,50],
-    "BushCrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,1,50],
-    "BushCrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,0.8,50],
-    "soundBushCrash": ["BushCrash1",0.25,"BushCrash2",0.25,"BushCrash3",0.25,"BushCrash4",0.25],
+    "soundgetin": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getin|mrap_1.ogg",0.5,1],
+    "soundgetout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getout|mrap_1.ogg",0.5,1,40],
+    "sounddammage": [".ogg",0.5,1],
+    "soundengineonint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_start_int.ogg",1,1],
+    "soundengineoffint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_shut_int.ogg",1,1],
+    "soundengineonext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_start_ext.ogg",1,1,125],
+    "soundengineoffext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_shut_ext.ogg",1,1,100],
+    "buildcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_01.ogg",1.5,1,300],
+    "buildcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_02.ogg",1.5,1,300],
+    "buildcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_03.ogg",1.5,1,300],
+    "buildcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_04.ogg",1.5,1,300],
+    "buildcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
+    "buildcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
+    "buildcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
+    "buildcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
+    "soundbuildingcrash": ["buildcrash0",0.25,"buildcrash1",0.25,"buildcrash2",0.25,"buildcrash3",0.25],
+    "woodcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_01.ogg",1.5,1,300],
+    "woodcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_02.ogg",1.5,1,300],
+    "woodcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_03.ogg",1.5,1,300],
+    "woodcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_04.ogg",1.5,1,300],
+    "woodcrash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_05.ogg",1.5,1,300],
+    "woodcrash5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_06.ogg",1.5,1,300],
+    "woodcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_07",1.99526,1,75],
+    "woodcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_08",1.99526,1,75],
+    "soundwoodcrash": ["woodcrash0",0.166,"woodcrash1",0.166,"woodcrash2",0.166,"woodcrash3",0.166,"woodcrash4",0.166,"woodcrash5",0.166],
+    "armorcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
+    "armorcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
+    "armorcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
+    "armorcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
+    "armorcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
+    "armorcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
+    "armorcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
+    "armorcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
+    "soundarmorcrash": ["armorcrash0",0.25,"armorcrash1",0.25,"armorcrash2",0.25,"armorcrash3",0.25],
+    "crash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
+    "crash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
+    "crash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
+    "crash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
+    "crash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_05.ogg",1.5,1,300],
+    "crash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
+    "crash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
+    "crash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
+    "soundcrashes": ["crash0",0.2,"crash1",0.2,"crash2",0.2,"crash3",0.2,"crash4",0.2],
+    "bushcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_01",0.630957,1,50],
+    "bushcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_02",0.630957,1,50],
+    "bushcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,1,50],
+    "bushcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,0.8,50],
+    "soundbushcrash": ["BushCrash1",0.25,"BushCrash2",0.25,"BushCrash3",0.25,"BushCrash4",0.25],
     "features": "Randomization: No						<br />Camo selections: 2 - the body, wheels and cover						<br />Script door sources: Door_LF, Door_RF, Door_LB, Door_RB						<br />Script animations: None						<br />Executed scripts: None						<br />Firing from vehicles: No						<br />Slingload: Slingloadable						<br />Cargo proxy indexes: 1 to 3",
-    "_generalMacro": "MRAP_01_base_F",
-    "editorSubcategory": "EdSubcat_Cars",
-    "crewCrashProtection": 1.35,
-    "enableRadio": 1,
-    "enableGPS": 1,
-    "armorStructural": 5,
+    "_generalmacro": "MRAP_01_base_F",
+    "editorsubcategory": "EdSubcat_Cars",
+    "crewcrashprotection": 1.35,
+    "enableradio": 1,
+    "enablegps": 1,
+    "armorstructural": 5,
     "cost": 500000,
-    "memoryPointTaskMarker": "TaskMarker_1_pos",
-    "wheelDamageThreshold": 0.18,
-    "wheelDamageRadiusCoef": 0.75,
-    "wheelDestroyRadiusCoef": 0.48,
-    "sensorPosition": "sensorPos",
-    "hideWeaponsDriver": 1,
-    "hideWeaponsCargo": 1,
-    "smokeLauncherGrenadeCount": 8,
-    "smokeLauncherVelocity": 14,
-    "smokeLauncherOnTurret": 0,
-    "smokeLauncherAngle": 360,
+    "memorypointtaskmarker": "TaskMarker_1_pos",
+    "wheeldamagethreshold": 0.18,
+    "wheeldamageradiuscoef": 0.75,
+    "wheeldestroyradiuscoef": 0.48,
+    "sensorposition": "sensorPos",
+    "hideweaponsdriver": 1,
+    "hideweaponscargo": 1,
+    "smokelaunchergrenadecount": 8,
+    "smokelaunchervelocity": 14,
+    "smokelauncheronturret": 0,
+    "smokelauncherangle": 360,
     "weapons": ["TruckHorn2"],
     "magazines": [],
-    "changeGearMinEffectivity": [0.95,0.15,0.95,0.95,0.95,0.95,0.95],
-    "occludeSoundsWhenIn": 0,
-    "obstructSoundsWhenIn": 0,
-    "dammageHalf": [],
-    "dammageFull": [],
-    "explosionShielding": 1,
-    "steerAheadSimul": 0.5,
-    "steerAheadPlan": 0.35,
-    "predictTurnPlan": 2,
-    "predictTurnSimul": 1.5,
-    "epeImpulseDamageCoef": 15,
-    "driverCanSee": "1 + 2 + 4 + 8 + 32",
-    "gunnerCanSee": "1 + 2 + 4 + 8 + 32",
-    "commanderCanSee": "1 + 2 + 4 + 8 + 32",
+    "changegearmineffectivity": [0.95,0.15,0.95,0.95,0.95,0.95,0.95],
+    "occludesoundswhenin": 0,
+    "obstructsoundswhenin": 0,
+    "dammagehalf": [],
+    "dammagefull": [],
+    "explosionshielding": 1,
+    "steeraheadsimul": 0.5,
+    "steeraheadplan": 0.35,
+    "predictturnplan": 2,
+    "predictturnsimul": 1.5,
+    "epeimpulsedamagecoef": 15,
+    "drivercansee": "1 + 2 + 4 + 8 + 32",
+    "gunnercansee": "1 + 2 + 4 + 8 + 32",
+    "commandercansee": "1 + 2 + 4 + 8 + 32",
     # Class: CfgVehicles|Car_F|PlayerSteeringCoefficients [Indent level: 1],
-    "PlayerSteeringCoefficients": {
-        "turnIncreaseConst": 1,
-        "turnIncreaseLinear": 1,
-        "turnIncreaseTime": 0,
-        "turnDecreaseConst": 5,
-        "turnDecreaseLinear": 0,
-        "turnDecreaseTime": 0,
-        "maxTurnHundred": 1
+    "playersteeringcoefficients": {
+        "turnincreaseconst": 1,
+        "turnincreaselinear": 1,
+        "turnincreasetime": 0,
+        "turndecreaseconst": 5,
+        "turndecreaselinear": 0,
+        "turndecreasetime": 0,
+        "maxturnhundred": 1
     },
     # Class: CfgVehicles|Car_F|ViewPilot [Indent level: 1],
-    "ViewPilot": {
-        "initFov": 0.9,
-        "minFov": 0.25,
-        "maxFov": 1.25,
-        "initAngleX": 0,
-        "initAngleY": 0,
-        "minAngleX": -65,
-        "maxAngleX": 85,
-        "minAngleY": -150,
-        "maxAngleY": 150,
-        "minMoveX": -0.2,
-        "maxMoveX": 0.2,
-        "minMoveY": -0.1,
-        "maxMoveY": 0.1,
-        "minMoveZ": -0.1,
-        "maxMoveZ": 0.2,
-        "speedZoomMaxSpeed": 1e+010,
-        "speedZoomMaxFOV": 0
+    "viewpilot": {
+        "initfov": 0.9,
+        "minfov": 0.25,
+        "maxfov": 1.25,
+        "initanglex": 0,
+        "initangley": 0,
+        "minanglex": -65,
+        "maxanglex": 85,
+        "minangley": -150,
+        "maxangley": 150,
+        "minmovex": -0.2,
+        "maxmovex": 0.2,
+        "minmovey": -0.1,
+        "maxmovey": 0.1,
+        "minmovez": -0.1,
+        "maxmovez": 0.2,
+        "speedzoommaxspeed": 1e+010,
+        "speedzoommaxfov": 0
     },
-    "headGforceLeaningFactor": [0.01,0.01,0.015],
+    "headgforceleaningfactor": [0.01,0.01,0.015],
     # Class: CfgVehicles|Car_F|NewTurret [Indent level: 1],
-    "NewTurret": {
+    "newturret": {
         "body": "mainTurret",
         "gun": "mainGun",
-        "animationSourceBody": "mainTurret",
-        "animationSourceGun": "mainGun",
-        "animationSourceHatch": "hatchGunner",
-        "animationSourceCamElev": "camElev",
-        "proxyType": "CPGunner",
-        "proxyIndex": 1,
-        "gunnerName": "Gunner",
-        "gunnerType": "",
-        "primaryGunner": 1,
-        "primaryObserver": 0,
+        "animationsourcebody": "mainTurret",
+        "animationsourcegun": "mainGun",
+        "animationsourcehatch": "hatchGunner",
+        "animationsourcecamelev": "camElev",
+        "proxytype": "CPGunner",
+        "proxyindex": 1,
+        "gunnername": "Gunner",
+        "gunnertype": "",
+        "primarygunner": 1,
+        "primaryobserver": 0,
         "weapons": [],
         "magazines": [],
-        "soundServo": ["",0.00316228,1],
-        "soundElevation": ["",0.00316228,1],
-        "minElev": -4,
-        "maxElev": 20,
-        "initElev": 0,
-        "minTurn": -360,
-        "maxTurn": 360,
-        "initTurn": 0,
-        "minOutElev": -4,
-        "maxOutElev": 20,
-        "initOutElev": 0,
-        "minOutTurn": -60,
-        "maxOutTurn": 60,
-        "initOutTurn": 0,
-        "maxHorizontalRotSpeed": 1.2,
-        "maxVerticalRotSpeed": 1.2,
-        "minCamElev": -90,
-        "maxCamElev": 90,
-        "initCamElev": 0,
-        "stabilizedInAxes": 3,
+        "soundservo": ["",0.00316228,1],
+        "soundelevation": ["",0.00316228,1],
+        "minelev": -4,
+        "maxelev": 20,
+        "initelev": 0,
+        "minturn": -360,
+        "maxturn": 360,
+        "initturn": 0,
+        "minoutelev": -4,
+        "maxoutelev": 20,
+        "initoutelev": 0,
+        "minoutturn": -60,
+        "maxoutturn": 60,
+        "initoutturn": 0,
+        "maxhorizontalrotspeed": 1.2,
+        "maxverticalrotspeed": 1.2,
+        "mincamelev": -90,
+        "maxcamelev": 90,
+        "initcamelev": 0,
+        "stabilizedinaxes": 3,
         "primary": 1,
-        "hasGunner": 1,
+        "hasgunner": 1,
         "commanding": 1,
-        "gunnerGetInAction": "",
-        "gunnerGetOutAction": "",
-        "turretCanSee": 0,
-        "canUseScanners": 1,
+        "gunnergetinaction": "",
+        "gunnergetoutaction": "",
+        "turretcansee": 0,
+        "canusescanners": 1,
         # Class: CfgVehicles|AllVehicles|NewTurret|ViewGunner [Indent level: 2],
-        "ViewGunner": {
-            "initAngleX": 5,
-            "minAngleX": -75,
-            "maxAngleX": 85,
-            "initAngleY": 0,
-            "minAngleY": -150,
-            "maxAngleY": 150,
-            "minFov": 0.25,
-            "maxFov": 1.25,
-            "initFov": 0.75,
-            "minMoveX": 0,
-            "maxMoveX": 0,
-            "minMoveY": 0,
-            "maxMoveY": 0,
-            "minMoveZ": 0,
-            "maxMoveZ": 0,
+        "viewgunner": {
+            "initanglex": 5,
+            "minanglex": -75,
+            "maxanglex": 85,
+            "initangley": 0,
+            "minangley": -150,
+            "maxangley": 150,
+            "minfov": 0.25,
+            "maxfov": 1.25,
+            "initfov": 0.75,
+            "minmovex": 0,
+            "maxmovex": 0,
+            "minmovey": 0,
+            "maxmovey": 0,
+            "minmovez": 0,
+            "maxmovez": 0,
             "continuous": 0,
-            "speedZoomMaxSpeed": 1e+010,
-            "speedZoomMaxFOV": 0
+            "speedzoommaxspeed": 1e+010,
+            "speedzoommaxfov": 0
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-        "TurretSpec": {
-            "showHeadPhones": 0
+        "turretspec": {
+            "showheadphones": 0
         },
-        "gunnerOpticsModel": "",
-        "gunnerOpticsColor": [0,0,0,1],
-        "gunnerForceOptics": 1,
-        "gunnerOpticsShowCursor": 0,
-        "turretInfoType": "",
-        "gunnerOutOpticsModel": "",
-        "gunnerOutOpticsColor": [0,0,0,1],
-        "gunnerOpticsEffect": [],
-        "gunnerOutOpticsEffect": [],
-        "memoryPointGunnerOutOptics": "",
-        "gunnerOutForceOptics": 0,
-        "gunnerOutOpticsShowCursor": 0,
-        "gunnerFireAlsoInInternalCamera": 1,
-        "gunnerOutFireAlsoInInternalCamera": 1,
-        "gunnerUsesPilotView": 0,
-        "castGunnerShadow": 0,
-        "viewGunnerShadow": 1,
-        "viewGunnerShadowDiff": 1,
-        "viewGunnerShadowAmb": 1,
-        "ejectDeadGunner": 0,
-        "hideWeaponsGunner": 1,
-        "canHideGunner": -1,
-        "forceHideGunner": 0,
-        "outGunnerMayFire": 0,
-        "inGunnerMayFire": 1,
-        "showHMD": 0,
-        "viewGunnerInExternal": 0,
-        "lockWhenDriverOut": 0,
-        "lockWhenVehicleSpeed": -1,
-        "gunnerCompartments": "Compartment1",
-        "LODTurnedIn": -1,
-        "LODTurnedOut": -1,
-        "startEngine": 1,
-        "memoryPointsGetInGunnerPrecise": "",
-        "missileBeg": "spice rakety",
-        "missileEnd": "konec rakety",
-        "armorLights": 0.4,
+        "gunneropticsmodel": "",
+        "gunneropticscolor": [0,0,0,1],
+        "gunnerforceoptics": 1,
+        "gunneropticsshowcursor": 0,
+        "turretinfotype": "",
+        "gunneroutopticsmodel": "",
+        "gunneroutopticscolor": [0,0,0,1],
+        "gunneropticseffect": [],
+        "gunneroutopticseffect": [],
+        "memorypointgunneroutoptics": "",
+        "gunneroutforceoptics": 0,
+        "gunneroutopticsshowcursor": 0,
+        "gunnerfirealsoininternalcamera": 1,
+        "gunneroutfirealsoininternalcamera": 1,
+        "gunnerusespilotview": 0,
+        "castgunnershadow": 0,
+        "viewgunnershadow": 1,
+        "viewgunnershadowdiff": 1,
+        "viewgunnershadowamb": 1,
+        "ejectdeadgunner": 0,
+        "hideweaponsgunner": 1,
+        "canhidegunner": -1,
+        "forcehidegunner": 0,
+        "outgunnermayfire": 0,
+        "ingunnermayfire": 1,
+        "showhmd": 0,
+        "viewgunnerinexternal": 0,
+        "lockwhendriverout": 0,
+        "lockwhenvehiclespeed": -1,
+        "gunnercompartments": "Compartment1",
+        "lodturnedin": -1,
+        "lodturnedout": -1,
+        "startengine": 1,
+        "memorypointsgetingunnerprecise": "",
+        "missilebeg": "spice rakety",
+        "missileend": "konec rakety",
+        "armorlights": 0.4,
         # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-        "Reflectors": {
+        "reflectors": {
         },
-        "aggregateReflectors": [],
+        "aggregatereflectors": [],
         # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-        "GunFire": {
+        "gunfire": {
             "access": 0,
-            "cloudletDuration": 0.2,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 1,
-            "cloudletGrowUp": 0.2,
-            "cloudletFadeIn": 0.01,
-            "cloudletFadeOut": 0.5,
-            "cloudletAccY": 0,
-            "cloudletMinYSpeed": -100,
-            "cloudletMaxYSpeed": 100,
-            "cloudletShape": "cloudletFire",
-            "cloudletColor": [1,1,1,0],
+            "cloudletduration": 0.2,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 1,
+            "cloudletgrowup": 0.2,
+            "cloudletfadein": 0.01,
+            "cloudletfadeout": 0.5,
+            "cloudletaccy": 0,
+            "cloudletminyspeed": -100,
+            "cloudletmaxyspeed": 100,
+            "cloudletshape": "cloudletFire",
+            "cloudletcolor": [1,1,1,0],
             "interval": 0.01,
             "size": 3,
-            "sourceSize": 0.5,
-            "timeToLive": 0,
-            "initT": 4500,
-            "deltaT": -3000,
+            "sourcesize": 0.5,
+            "timetolive": 0,
+            "initt": 4500,
+            "deltat": -3000,
             # Class: WeaponFireGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [0.82,0.95,0.93,0]
                 },
                 # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                "T1": {
-                    "maxT": 200,
+                "t1": {
+                    "maxt": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
                 # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                "T2": {
-                    "maxT": 400,
+                "t2": {
+                    "maxt": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
                 # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                "T3": {
-                    "maxT": 600,
+                "t3": {
+                    "maxt": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
                 # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                "T4": {
-                    "maxT": 800,
+                "t4": {
+                    "maxt": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
                 # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                "T5": {
-                    "maxT": 1000,
+                "t5": {
+                    "maxt": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
                 # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                "T6": {
-                    "maxT": 1500,
+                "t6": {
+                    "maxt": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
                 # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                "T7": {
-                    "maxT": 2000,
+                "t7": {
+                    "maxt": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
                 # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                "T8": {
-                    "maxT": 2300,
+                "t8": {
+                    "maxt": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
                 # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                "T9": {
-                    "maxT": 2500,
+                "t9": {
+                    "maxt": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
                 # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                "T10": {
-                    "maxT": 2600,
+                "t10": {
+                    "maxt": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                "T11": {
-                    "maxT": 2650,
+                "t11": {
+                    "maxt": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
                 # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                "T12": {
-                    "maxT": 2700,
+                "t12": {
+                    "maxt": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                "T13": {
-                    "maxT": 2750,
+                "t13": {
+                    "maxt": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                "T14": {
-                    "maxT": 2800,
+                "t14": {
+                    "maxt": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
                 # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                "T15": {
-                    "maxT": 2850,
+                "t15": {
+                    "maxt": 2850,
                     "color": [1,0.6,0.2,0]
                 },
                 # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                "T16": {
-                    "maxT": 2900,
+                "t16": {
+                    "maxt": 2900,
                     "color": [1,0.71,0.3,0]
                 },
                 # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                "T17": {
-                    "maxT": 2950,
+                "t17": {
+                    "maxt": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
                 # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                "T18": {
-                    "maxT": 3000,
+                "t18": {
+                    "maxt": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
                 # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                "T19": {
-                    "maxT": 3100,
+                "t19": {
+                    "maxt": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
                 # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                "T20": {
-                    "maxT": 3300,
+                "t20": {
+                    "maxt": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
                 # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                "T21": {
-                    "maxT": 3600,
+                "t21": {
+                    "maxt": 3600,
                     "color": [1,0.98,0.91,0]
                 },
                 # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                "T22": {
-                    "maxT": 4200,
+                "t22": {
+                    "maxt": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-        "GunClouds": {
+        "gunclouds": {
             "access": 0,
-            "cloudletDuration": 0.3,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 1,
-            "cloudletGrowUp": 1,
-            "cloudletFadeIn": 0.01,
-            "cloudletFadeOut": 1,
-            "cloudletAccY": 0.4,
-            "cloudletMinYSpeed": 0.2,
-            "cloudletMaxYSpeed": 0.8,
-            "cloudletShape": "cloudletClouds",
-            "cloudletColor": [1,1,1,0],
+            "cloudletduration": 0.3,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 1,
+            "cloudletgrowup": 1,
+            "cloudletfadein": 0.01,
+            "cloudletfadeout": 1,
+            "cloudletaccy": 0.4,
+            "cloudletminyspeed": 0.2,
+            "cloudletmaxyspeed": 0.8,
+            "cloudletshape": "cloudletClouds",
+            "cloudletcolor": [1,1,1,0],
             "interval": 0.05,
             "size": 3,
-            "sourceSize": 0.5,
-            "timeToLive": 0,
-            "initT": 0,
-            "deltaT": 0,
+            "sourcesize": 0.5,
+            "timetolive": 0,
+            "initt": 0,
+            "deltat": 0,
             # Class: WeaponCloudsGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-        "MGunClouds": {
+        "mgunclouds": {
             "access": 0,
-            "cloudletGrowUp": 0.05,
-            "cloudletFadeIn": 0,
-            "cloudletFadeOut": 0.1,
-            "cloudletDuration": 0.05,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 0.3,
-            "cloudletAccY": 0,
-            "cloudletMinYSpeed": -100,
-            "cloudletMaxYSpeed": 100,
-            "cloudletShape": "cloudletClouds",
-            "cloudletColor": [1,1,1,0],
-            "timeToLive": 0,
+            "cloudletgrowup": 0.05,
+            "cloudletfadein": 0,
+            "cloudletfadeout": 0.1,
+            "cloudletduration": 0.05,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 0.3,
+            "cloudletaccy": 0,
+            "cloudletminyspeed": -100,
+            "cloudletmaxyspeed": 100,
+            "cloudletshape": "cloudletClouds",
+            "cloudletcolor": [1,1,1,0],
+            "timetolive": 0,
             "interval": 0.02,
             "size": 0.3,
-            "sourceSize": 0.02,
-            "initT": 0,
-            "deltaT": 0,
+            "sourcesize": 0.02,
+            "initt": 0,
+            "deltat": 0,
             # Class: WeaponCloudsMGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
-        "HitPoints": {
+        "hitpoints": {
             # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3]
-            "HitTurret": {
+            "hitturret": {
                 "armor": 0.8,
                 "material": 51,
                 "name": "turret",
                 "visual": "turret",
-                "passThrough": 1,
-                "explosionShielding": 1
+                "passthrough": 1,
+                "explosionshielding": 1
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
-            "HitGun": {
+            "hitgun": {
                 "armor": 0.6,
                 "material": 52,
                 "name": "gun",
                 "visual": "gun",
-                "passThrough": 1,
-                "explosionShielding": 1
+                "passthrough": 1,
+                "explosionshielding": 1
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-        "Turrets": {
+        "turrets": {
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
-        "ViewOptics": {
-            "initAngleX": 0,
-            "minAngleX": -30,
-            "maxAngleX": 30,
-            "initAngleY": 0,
-            "minAngleY": -100,
-            "maxAngleY": 100,
-            "initFov": 0.3,
-            "minFov": 0.07,
-            "maxFov": 0.35,
-            "minMoveX": 0,
-            "maxMoveX": 0,
-            "minMoveY": 0,
-            "maxMoveY": 0,
-            "minMoveZ": 0,
-            "maxMoveZ": 0,
-            "speedZoomMaxSpeed": 1e+010,
-            "speedZoomMaxFOV": 0
+        "viewoptics": {
+            "initanglex": 0,
+            "minanglex": -30,
+            "maxanglex": 30,
+            "initangley": 0,
+            "minangley": -100,
+            "maxangley": 100,
+            "initfov": 0.3,
+            "minfov": 0.07,
+            "maxfov": 0.35,
+            "minmovex": 0,
+            "maxmovex": 0,
+            "minmovey": 0,
+            "maxmovey": 0,
+            "minmovez": 0,
+            "maxmovez": 0,
+            "speedzoommaxspeed": 1e+010,
+            "speedzoommaxfov": 0
         },
-        "forceNVG": 0,
-        "isCopilot": 0,
-        "canEject": 1,
-        "gunnerLeftHandAnimName": "",
-        "gunnerRightHandAnimName": "",
-        "gunnerLeftLegAnimName": "",
-        "gunnerRightLegAnimName": "",
-        "gunnerDoor": "",
-        "preciseGetInOut": 0,
-        "turretFollowFreeLook": 0,
-        "allowTabLock": 1,
-        "showAllTargets": 0,
-        "dontCreateAI": 0,
-        "disableSoundAttenuation": 0,
-        "slingLoadOperator": 0,
-        "playerPosition": 0,
-        "allowLauncherIn": 0,
-        "allowLauncherOut": 0,
+        "forcenvg": 0,
+        "iscopilot": 0,
+        "caneject": 1,
+        "gunnerlefthandanimname": "",
+        "gunnerrighthandanimname": "",
+        "gunnerleftleganimname": "",
+        "gunnerrightleganimname": "",
+        "gunnerdoor": "",
+        "precisegetinout": 0,
+        "turretfollowfreelook": 0,
+        "allowtablock": 1,
+        "showalltargets": 0,
+        "dontcreateai": 0,
+        "disablesoundattenuation": 0,
+        "slingloadoperator": 0,
+        "playerposition": 0,
+        "allowlauncherin": 0,
+        "allowlauncherout": 0,
         # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-        "TurnIn": {
-            "turnOffset": 0
+        "turnin": {
+            "turnoffset": 0
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-        "TurnOut": {
-            "turnOffset": 0
+        "turnout": {
+            "turnoffset": 0
         },
-        "gunnerInAction": "ManActTestDriver",
-        "gunnerAction": "ManActTestDriver",
-        "gunBeg": "usti hlavne",
-        "gunEnd": "konec hlavne",
-        "memoryPointGunnerOptics": "gunnerview",
-        "memoryPointsGetInGunner": "pos gunner",
-        "memoryPointsGetInGunnerDir": "pos gunner dir",
-        "memoryPointGun": "kulas",
-        "selectionFireAnim": "zasleh",
-        "showCrewAim": 0
+        "gunnerinaction": "ManActTestDriver",
+        "gunneraction": "ManActTestDriver",
+        "gunbeg": "usti hlavne",
+        "gunend": "konec hlavne",
+        "memorypointgunneroptics": "gunnerview",
+        "memorypointsgetingunner": "pos gunner",
+        "memorypointsgetingunnerdir": "pos gunner dir",
+        "memorypointgun": "kulas",
+        "selectionfireanim": "zasleh",
+        "showcrewaim": 0
     },
-    "holdOffroadFormation": 1,
-    "viewCargoShadowDiff": 1,
-    "viewCargoShadowAmb": 1,
+    "holdoffroadformation": 1,
+    "viewcargoshadowdiff": 1,
+    "viewcargoshadowamb": 1,
     "accuracy": 0.25,
     "audible": 5,
-    "soundEnviron": ["",0.000562341,1],
-    "soundCrash": ["A3|sounds_f|dummysound",1,1],
-    "soundGear": ["",1e-005,1],
-    "collisionEffect": "collisionEffect",
-    "htMin": 60,
-    "htMax": 1800,
-    "afMax": 100,
-    "mfMax": 80,
-    "mFact": 1,
-    "tBody": 150,
-    "transportMaxWeapons": 12,
-    "transportMaxMagazines": 64,
-    "maximumLoad": 2000,
-    "memoryPointSupply": "doplnovani",
-    "brakeTorque": 6000,
-    "longStiff": 15000,
-    "latStiffX": 2000,
-    "latStiffY": 18000,
-    "wheelMask": "wheel_X_X",
-    "numberPhysicalWheels": 4,
-    "maxGForce": 3,
+    "soundenviron": ["",0.000562341,1],
+    "soundcrash": ["A3|sounds_f|dummysound",1,1],
+    "soundgear": ["",1e-005,1],
+    "collisioneffect": "collisionEffect",
+    "htmin": 60,
+    "htmax": 1800,
+    "afmax": 100,
+    "mfmax": 80,
+    "mfact": 1,
+    "tbody": 150,
+    "transportmaxweapons": 12,
+    "transportmaxmagazines": 64,
+    "maximumload": 2000,
+    "memorypointsupply": "doplnovani",
+    "braketorque": 6000,
+    "longstiff": 15000,
+    "latstiffx": 2000,
+    "latstiffy": 18000,
+    "wheelmask": "wheel_X_X",
+    "numberphysicalwheels": 4,
+    "maxgforce": 3,
     # Class: CfgVehicles|Car_F|camShakeGForce [Indent level: 1],
-    "camShakeGForce": {
+    "camshakegforce": {
         "power": 2,
         "frequency": 60,
         "distance": 0,
-        "minSpeed": 60
+        "minspeed": 60
     },
-    "unloadInCombat": 1,
-    "limitedSpeedCoef": 0.5,
-    "hullDamageCauseExplosion": 1,
+    "unloadincombat": 1,
+    "limitedspeedcoef": 0.5,
+    "hulldamagecauseexplosion": 1,
     # Class: CfgVehicles|Car|PlateInfos [Indent level: 1],
-    "PlateInfos": {
+    "plateinfos": {
         "name": "spz",
         "color": [0,0,0,0.75]
     },
-    "selectionFireAnim": "zasleh",
-    "alphaTracks": 0.2,
-    "memoryPointTrackFLL": "Stopa PLL",
-    "memoryPointTrackFLR": "Stopa PLP",
-    "memoryPointTrackBLL": "Stopa ZLL",
-    "memoryPointTrackBLR": "Stopa ZLP",
-    "memoryPointTrackFRL": "Stopa PPL",
-    "memoryPointTrackFRR": "Stopa PPP",
-    "memoryPointTrackBRL": "Stopa ZPL",
-    "memoryPointTrackBRR": "Stopa ZPP",
-    "memoryPointCirculumReference": "circulumReference",
-    "gearBox": [-8,0,10,6.15,4.44,3.33],
-    "Scudeffect": "ScudEffect",
-    "armorLights": 0.4,
-    "preferRoads": 1,
-    "unitInfoType": "RscUnitInfo",
-    "formationX": 20,
-    "formationZ": 20,
+    "selectionfireanim": "zasleh",
+    "alphatracks": 0.2,
+    "memorypointtrackfll": "Stopa PLL",
+    "memorypointtrackflr": "Stopa PLP",
+    "memorypointtrackbll": "Stopa ZLL",
+    "memorypointtrackblr": "Stopa ZLP",
+    "memorypointtrackfrl": "Stopa PPL",
+    "memorypointtrackfrr": "Stopa PPP",
+    "memorypointtrackbrl": "Stopa ZPL",
+    "memorypointtrackbrr": "Stopa ZPP",
+    "memorypointcirculumreference": "circulumReference",
+    "gearbox": [-8,0,10,6.15,4.44,3.33],
+    "scudeffect": "ScudEffect",
+    "armorlights": 0.4,
+    "preferroads": 1,
+    "unitinfotype": "RscUnitInfo",
+    "formationx": 20,
+    "formationz": 20,
     "type": 0,
-    "scudModel": "",
-    "inputTurnCurve": [[0,[0,0,1,1]],[30,[0,0,0.2,0.008,0.4,0.032,0.6,0.216,0.8,0.512,1,1]]],
-    "soundEngine": ["",1.77828,0.9],
-    "memoryPointTaskMarkerOffset": [0,0.3,0],
-    "rightDustEffects": [["GdtKLDirt","RDustEffects"],["GdtKLGrass1","RDustEffects"],["GdtKLGrass1","RGrassEffects"],["GdtKLGrass2","RDustEffects"],["GdtKLGrass2","RGrassEffects"],["GdtKLForestCon","RDustEffects"],["GdtKLForestDec","RDustEffects"],["GdtKlMud","RDustEffects"],["GdtKlSoil","RDustEffects"],["GdtKlTarmac","RDustEffects"],["GdtKlStubble","RDustEffects"],["GdtKlStones","RStonesEffects"],["SurfRoadDirt_Enoch","RDustEffects"],["SurfTrailDirt_Enoch","RDustEffects"],["SurfRoadTarmac1_Enoch","RDustEffects"],["SurfRoadTarmac2_Enoch","RDustEffects"],["SurfRoadTarmac3_Enoch","RDustEffects"],["GdtGrassShort","RDustEffects"],["GdtGrassShort","RGrassEffects"],["GdtGrassTall","RDustEffects"],["GdtGrassTall","RGrassEffects"],["GdtRedDirt","RDustEffectsRed"],["GdtField","RDustEffects"],["GdtForest","RDustEffects"],["GdtVolcano","RDustEffects"],["GdtVolcano","RStonesEffects"],["GdtCliff","RDustEffects"],["GdtVolcanoBeach","RDustEffects"],["SurfRoadDirt_exp","RDustEffectsRed"],["SurfRoadConcrete_exp","RDustEffects"],["SurfRoadTarmac_exp","RDustEffects"],["GdtStratisConcrete","RDustEffects"],["GdtStratisConcrete","RDirtEffects"],["GdtStratisBeach","RDustEffects"],["GdtStratisBeach","RStonesEffects"],["GdtStratisDirt","RDustEffects"],["GdtStratisDirt","RDirtEffects"],["GdtStratisSeabedCluttered","RDustEffects"],["GdtStratisSeabed","RDustEffects"],["GdtStratisDryGrass","RDustEffects"],["GdtStratisDryGrass","RGrassDryEffects"],["GdtStratisDryGrass","RDirtEffects"],["GdtStratisGreenGrass","RDustEffects"],["GdtStratisGreenGrass","RGrassEffects"],["GdtStratisGreenGrass","RDirtEffects"],["GdtStratisRocky","RDustEffects"],["GdtStratisRocky","RGrassEffects"],["GdtStratisRocky","RDirtEffects"],["GdtStratisThistles","RDustEffects"],["GdtStratisThistles","RGrassEffects"],["GdtStratisThistles","RDirtEffects"],["GdtConcrete","RDustEffects"],["GdtConcrete","RDirtEffects"],["GdtAsphalt","RDustEffects"],["GdtAsphalt","RDirtEffects"],["GdtRubble","RDustEffects"],["GdtRubble","RDirtEffects"],["GdtSoil","RDustEffects"],["GdtSoil","RDirtEffects"],["GdtBeach","RDustEffects"],["GdtBeach","RStonesEffects"],["GdtRock","RDustEffects"],["GdtRock","RDirtEffects"],["GdtDead","RDustEffects"],["GdtDead","RDirtEffects"],["Default","RDustEffects"],["GdtDesert","RDustEffects"],["GdtDesert","RStonesEffects"],["GdtDesert1","RDustEffects"],["GdtDesert1","RSandEffects"],["GdtDesert1","RDirtEffects"],["GdtDesert1","RStonesEffects"],["GdtDesert2","RDustEffects"],["GdtDesert2","RSandEffects"],["GdtDesert2","RGrassEffects"],["GdtDesert2","RDirtEffects"],["GdtDirt","RDustEffects"],["GdtDirt","RDirtEffects"],["GdtGrassGreen","RDustEffects"],["GdtGrassGreen","RGrassEffects"],["GdtGrassGreen","RDirtEffects"],["GdtGrassDry","RDustEffects"],["GdtGrassDry","RGrassDryEffects"],["GdtGrassDry","RDirtEffects"],["GdtGrassWild","RDustEffects"],["GdtGrassWild","RGrassEffects"],["GdtGrassWild","RDirtEffects"],["GdtWildField","RDustEffects"],["GdtWildField","RGrassEffects"],["GdtWildField","RDirtEffects"],["GdtWeed1","RDustEffects"],["GdtWeed1","RGrassEffects"],["GdtWeed1","RDirtEffects"],["GdtWeed2","RDustEffects"],["GdtWeed2","RGrassEffects"],["GdtWeed2","RDirtEffects"],["GdtThorn","RDustEffects"],["GdtThorn","RGrassEffects"],["GdtThorn","RDirtEffects"],["GdtStony","RDustEffects"],["GdtStony","RGrassEffects"],["GdtStony","RDirtEffects"],["GdtStonyGreen","RDustEffects"],["GdtStonyGreen","RGrassEffects"],["GdtStonyGreen","RDirtEffects"],["GdtStonyThistle","RDustEffects"],["GdtStonyThistle","RGrassEffects"],["GdtStonyThistle","RDirtEffects"],["GdtSeabedDeep","RDustEffects"],["GdtSeabed","RDustEffects"],["SurfRoadDirt","RDustEffects"],["SurfRoadConcrete","RDustEffects"],["SurfRoadTarmac","RDustEffects"],["SurfWood","RDustEffects"],["SurfMetal","RDustEffects"],["SurfRoofTin","RDustEffects"],["SurfRoofTiles","RDustEffects"],["SurfIntWood","RDustEffects"],["SurfIntConcrete","RDustEffects"],["SurfIntTiles","RDustEffects"],["SurfIntMetal","RDustEffects"],["dirtrunway","RDustEffects"]],
-    "leftDustEffects": [["GdtKLDirt","LDustEffects"],["GdtKLGrass1","LDustEffects"],["GdtKLGrass1","LGrassEffects"],["GdtKLGrass2","LDustEffects"],["GdtKLGrass2","LGrassEffects"],["GdtKLForestCon","LDustEffects"],["GdtKLForestDec","LDustEffects"],["GdtKlMud","LDustEffects"],["GdtKlSoil","LDustEffects"],["GdtKlTarmac","LDustEffects"],["GdtKlStubble","LDustEffects"],["GdtKlStones","LStonesEffects"],["SurfRoadDirt_Enoch","LDustEffects"],["SurfTrailDirt_Enoch","LDustEffects"],["SurfRoadTarmac1_Enoch","LDustEffects"],["SurfRoadTarmac2_Enoch","LDustEffects"],["SurfRoadTarmac3_Enoch","LDustEffects"],["GdtGrassShort","LDustEffects"],["GdtGrassShort","LGrassEffects"],["GdtGrassTall","LDustEffects"],["GdtGrassTall","LGrassEffects"],["GdtRedDirt","LDustEffectsRed"],["GdtField","LDustEffects"],["GdtForest","LDustEffects"],["GdtVolcano","LDustEffects"],["GdtVolcano","LStonesEffects"],["GdtCliff","LDustEffects"],["GdtVolcanoBeach","LDustEffects"],["SurfRoadDirt_exp","LDustEffectsRed"],["SurfRoadConcrete_exp","LDustEffects"],["SurfRoadTarmac_exp","LDustEffects"],["GdtStratisConcrete","LDustEffects"],["GdtStratisConcrete","LDirtEffects"],["GdtStratisBeach","LDustEffects"],["GdtStratisBeach","LStonesEffects"],["GdtStratisDirt","LDustEffects"],["GdtStratisDirt","LDirtEffects"],["GdtStratisSeabedCluttered","LDustEffects"],["GdtStratisSeabed","LDustEffects"],["GdtStratisDryGrass","LDustEffects"],["GdtStratisDryGrass","LGrassDryEffects"],["GdtStratisDryGrass","LDirtEffects"],["GdtStratisGreenGrass","LDustEffects"],["GdtStratisGreenGrass","LGrassEffects"],["GdtStratisGreenGrass","LDirtEffects"],["GdtStratisRocky","LDustEffects"],["GdtStratisRocky","LGrassEffects"],["GdtStratisRocky","LDirtEffects"],["GdtStratisThistles","LDustEffects"],["GdtStratisThistles","LGrassEffects"],["GdtStratisThistles","LDirtEffects"],["GdtConcrete","LDustEffects"],["GdtConcrete","LDirtEffects"],["GdtAsphalt","LDustEffects"],["GdtAsphalt","LDirtEffects"],["GdtRubble","LDustEffects"],["GdtRubble","LGrassEffects"],["GdtRubble","LDirtEffects"],["GdtSoil","LDustEffects"],["GdtSoil","LDirtEffects"],["GdtBeach","LDustEffects"],["GdtBeach","LStonesEffects"],["GdtRock","LDustEffects"],["GdtRock","LDirtEffects"],["GdtDead","LDustEffects"],["GdtDead","LDirtEffects"],["Default","LDustEffects"],["GdtDesert","LDustEffects"],["GdtDesert","LStonesEffects"],["GdtDesert1","LDustEffects"],["GdtDesert1","LSandEffects"],["GdtDesert1","LDirtEffects"],["GdtDesert1","LStonesEffects"],["GdtDesert2","LDustEffects"],["GdtDesert2","LSandEffects"],["GdtDesert2","LGrassEffects"],["GdtDesert2","LDirtEffects"],["GdtDirt","LDustEffects"],["GdtDirt","LDirtEffects"],["GdtGrassGreen","LDustEffects"],["GdtGrassGreen","LGrassEffects"],["GdtGrassGreen","LDirtEffects"],["GdtGrassDry","LDustEffects"],["GdtGrassDry","LGrassDryEffects"],["GdtGrassDry","LDirtEffects"],["GdtGrassWild","LDustEffects"],["GdtGrassWild","LGrassEffects"],["GdtGrassWild","LDirtEffects"],["GdtWildField","LDustEffects"],["GdtWildField","LGrassEffects"],["GdtWildField","LDirtEffects"],["GdtWeed1","LDustEffects"],["GdtWeed1","LGrassEffects"],["GdtWeed1","LDirtEffects"],["GdtWeed2","LDustEffects"],["GdtWeed2","LGrassEffects"],["GdtWeed2","LDirtEffects"],["GdtThorn","LDustEffects"],["GdtThorn","LGrassEffects"],["GdtThorn","LDirtEffects"],["GdtStony","LDustEffects"],["GdtStony","LGrassEffects"],["GdtStony","LDirtEffects"],["GdtStonyGreen","LDustEffects"],["GdtStonyGreen","LGrassEffects"],["GdtStonyGreen","LDirtEffects"],["GdtStonyThistle","LDustEffects"],["GdtStonyThistle","LGrassEffects"],["GdtStonyThistle","LDirtEffects"],["GdtSeabedDeep","LDustEffects"],["GdtSeabed","LDustEffects"],["SurfRoadDirt","LDustEffects"],["SurfRoadConcrete","LDustEffects"],["SurfRoadTarmac","LDustEffects"],["SurfWood","LDustEffects"],["SurfMetal","LDustEffects"],["SurfRoofTin","LDustEffects"],["SurfRoofTiles","LDustEffects"],["SurfIntWood","LDustEffects"],["SurfIntConcrete","LDustEffects"],["SurfIntTiles","LDustEffects"],["SurfIntMetal","LDustEffects"],["dirtrunway","LDustEffects"]],
+    "scudmodel": "",
+    "inputturncurve": [[0,[0,0,1,1]],[30,[0,0,0.2,0.008,0.4,0.032,0.6,0.216,0.8,0.512,1,1]]],
+    "soundengine": ["",1.77828,0.9],
+    "memorypointtaskmarkeroffset": [0,0.3,0],
+    "rightdusteffects": [["GdtKLDirt","RDustEffects"],["GdtKLGrass1","RDustEffects"],["GdtKLGrass1","RGrassEffects"],["GdtKLGrass2","RDustEffects"],["GdtKLGrass2","RGrassEffects"],["GdtKLForestCon","RDustEffects"],["GdtKLForestDec","RDustEffects"],["GdtKlMud","RDustEffects"],["GdtKlSoil","RDustEffects"],["GdtKlTarmac","RDustEffects"],["GdtKlStubble","RDustEffects"],["GdtKlStones","RStonesEffects"],["SurfRoadDirt_Enoch","RDustEffects"],["SurfTrailDirt_Enoch","RDustEffects"],["SurfRoadTarmac1_Enoch","RDustEffects"],["SurfRoadTarmac2_Enoch","RDustEffects"],["SurfRoadTarmac3_Enoch","RDustEffects"],["GdtGrassShort","RDustEffects"],["GdtGrassShort","RGrassEffects"],["GdtGrassTall","RDustEffects"],["GdtGrassTall","RGrassEffects"],["GdtRedDirt","RDustEffectsRed"],["GdtField","RDustEffects"],["GdtForest","RDustEffects"],["GdtVolcano","RDustEffects"],["GdtVolcano","RStonesEffects"],["GdtCliff","RDustEffects"],["GdtVolcanoBeach","RDustEffects"],["SurfRoadDirt_exp","RDustEffectsRed"],["SurfRoadConcrete_exp","RDustEffects"],["SurfRoadTarmac_exp","RDustEffects"],["GdtStratisConcrete","RDustEffects"],["GdtStratisConcrete","RDirtEffects"],["GdtStratisBeach","RDustEffects"],["GdtStratisBeach","RStonesEffects"],["GdtStratisDirt","RDustEffects"],["GdtStratisDirt","RDirtEffects"],["GdtStratisSeabedCluttered","RDustEffects"],["GdtStratisSeabed","RDustEffects"],["GdtStratisDryGrass","RDustEffects"],["GdtStratisDryGrass","RGrassDryEffects"],["GdtStratisDryGrass","RDirtEffects"],["GdtStratisGreenGrass","RDustEffects"],["GdtStratisGreenGrass","RGrassEffects"],["GdtStratisGreenGrass","RDirtEffects"],["GdtStratisRocky","RDustEffects"],["GdtStratisRocky","RGrassEffects"],["GdtStratisRocky","RDirtEffects"],["GdtStratisThistles","RDustEffects"],["GdtStratisThistles","RGrassEffects"],["GdtStratisThistles","RDirtEffects"],["GdtConcrete","RDustEffects"],["GdtConcrete","RDirtEffects"],["GdtAsphalt","RDustEffects"],["GdtAsphalt","RDirtEffects"],["GdtRubble","RDustEffects"],["GdtRubble","RDirtEffects"],["GdtSoil","RDustEffects"],["GdtSoil","RDirtEffects"],["GdtBeach","RDustEffects"],["GdtBeach","RStonesEffects"],["GdtRock","RDustEffects"],["GdtRock","RDirtEffects"],["GdtDead","RDustEffects"],["GdtDead","RDirtEffects"],["Default","RDustEffects"],["GdtDesert","RDustEffects"],["GdtDesert","RStonesEffects"],["GdtDesert1","RDustEffects"],["GdtDesert1","RSandEffects"],["GdtDesert1","RDirtEffects"],["GdtDesert1","RStonesEffects"],["GdtDesert2","RDustEffects"],["GdtDesert2","RSandEffects"],["GdtDesert2","RGrassEffects"],["GdtDesert2","RDirtEffects"],["GdtDirt","RDustEffects"],["GdtDirt","RDirtEffects"],["GdtGrassGreen","RDustEffects"],["GdtGrassGreen","RGrassEffects"],["GdtGrassGreen","RDirtEffects"],["GdtGrassDry","RDustEffects"],["GdtGrassDry","RGrassDryEffects"],["GdtGrassDry","RDirtEffects"],["GdtGrassWild","RDustEffects"],["GdtGrassWild","RGrassEffects"],["GdtGrassWild","RDirtEffects"],["GdtWildField","RDustEffects"],["GdtWildField","RGrassEffects"],["GdtWildField","RDirtEffects"],["GdtWeed1","RDustEffects"],["GdtWeed1","RGrassEffects"],["GdtWeed1","RDirtEffects"],["GdtWeed2","RDustEffects"],["GdtWeed2","RGrassEffects"],["GdtWeed2","RDirtEffects"],["GdtThorn","RDustEffects"],["GdtThorn","RGrassEffects"],["GdtThorn","RDirtEffects"],["GdtStony","RDustEffects"],["GdtStony","RGrassEffects"],["GdtStony","RDirtEffects"],["GdtStonyGreen","RDustEffects"],["GdtStonyGreen","RGrassEffects"],["GdtStonyGreen","RDirtEffects"],["GdtStonyThistle","RDustEffects"],["GdtStonyThistle","RGrassEffects"],["GdtStonyThistle","RDirtEffects"],["GdtSeabedDeep","RDustEffects"],["GdtSeabed","RDustEffects"],["SurfRoadDirt","RDustEffects"],["SurfRoadConcrete","RDustEffects"],["SurfRoadTarmac","RDustEffects"],["SurfWood","RDustEffects"],["SurfMetal","RDustEffects"],["SurfRoofTin","RDustEffects"],["SurfRoofTiles","RDustEffects"],["SurfIntWood","RDustEffects"],["SurfIntConcrete","RDustEffects"],["SurfIntTiles","RDustEffects"],["SurfIntMetal","RDustEffects"],["dirtrunway","RDustEffects"]],
+    "leftdusteffects": [["GdtKLDirt","LDustEffects"],["GdtKLGrass1","LDustEffects"],["GdtKLGrass1","LGrassEffects"],["GdtKLGrass2","LDustEffects"],["GdtKLGrass2","LGrassEffects"],["GdtKLForestCon","LDustEffects"],["GdtKLForestDec","LDustEffects"],["GdtKlMud","LDustEffects"],["GdtKlSoil","LDustEffects"],["GdtKlTarmac","LDustEffects"],["GdtKlStubble","LDustEffects"],["GdtKlStones","LStonesEffects"],["SurfRoadDirt_Enoch","LDustEffects"],["SurfTrailDirt_Enoch","LDustEffects"],["SurfRoadTarmac1_Enoch","LDustEffects"],["SurfRoadTarmac2_Enoch","LDustEffects"],["SurfRoadTarmac3_Enoch","LDustEffects"],["GdtGrassShort","LDustEffects"],["GdtGrassShort","LGrassEffects"],["GdtGrassTall","LDustEffects"],["GdtGrassTall","LGrassEffects"],["GdtRedDirt","LDustEffectsRed"],["GdtField","LDustEffects"],["GdtForest","LDustEffects"],["GdtVolcano","LDustEffects"],["GdtVolcano","LStonesEffects"],["GdtCliff","LDustEffects"],["GdtVolcanoBeach","LDustEffects"],["SurfRoadDirt_exp","LDustEffectsRed"],["SurfRoadConcrete_exp","LDustEffects"],["SurfRoadTarmac_exp","LDustEffects"],["GdtStratisConcrete","LDustEffects"],["GdtStratisConcrete","LDirtEffects"],["GdtStratisBeach","LDustEffects"],["GdtStratisBeach","LStonesEffects"],["GdtStratisDirt","LDustEffects"],["GdtStratisDirt","LDirtEffects"],["GdtStratisSeabedCluttered","LDustEffects"],["GdtStratisSeabed","LDustEffects"],["GdtStratisDryGrass","LDustEffects"],["GdtStratisDryGrass","LGrassDryEffects"],["GdtStratisDryGrass","LDirtEffects"],["GdtStratisGreenGrass","LDustEffects"],["GdtStratisGreenGrass","LGrassEffects"],["GdtStratisGreenGrass","LDirtEffects"],["GdtStratisRocky","LDustEffects"],["GdtStratisRocky","LGrassEffects"],["GdtStratisRocky","LDirtEffects"],["GdtStratisThistles","LDustEffects"],["GdtStratisThistles","LGrassEffects"],["GdtStratisThistles","LDirtEffects"],["GdtConcrete","LDustEffects"],["GdtConcrete","LDirtEffects"],["GdtAsphalt","LDustEffects"],["GdtAsphalt","LDirtEffects"],["GdtRubble","LDustEffects"],["GdtRubble","LGrassEffects"],["GdtRubble","LDirtEffects"],["GdtSoil","LDustEffects"],["GdtSoil","LDirtEffects"],["GdtBeach","LDustEffects"],["GdtBeach","LStonesEffects"],["GdtRock","LDustEffects"],["GdtRock","LDirtEffects"],["GdtDead","LDustEffects"],["GdtDead","LDirtEffects"],["Default","LDustEffects"],["GdtDesert","LDustEffects"],["GdtDesert","LStonesEffects"],["GdtDesert1","LDustEffects"],["GdtDesert1","LSandEffects"],["GdtDesert1","LDirtEffects"],["GdtDesert1","LStonesEffects"],["GdtDesert2","LDustEffects"],["GdtDesert2","LSandEffects"],["GdtDesert2","LGrassEffects"],["GdtDesert2","LDirtEffects"],["GdtDirt","LDustEffects"],["GdtDirt","LDirtEffects"],["GdtGrassGreen","LDustEffects"],["GdtGrassGreen","LGrassEffects"],["GdtGrassGreen","LDirtEffects"],["GdtGrassDry","LDustEffects"],["GdtGrassDry","LGrassDryEffects"],["GdtGrassDry","LDirtEffects"],["GdtGrassWild","LDustEffects"],["GdtGrassWild","LGrassEffects"],["GdtGrassWild","LDirtEffects"],["GdtWildField","LDustEffects"],["GdtWildField","LGrassEffects"],["GdtWildField","LDirtEffects"],["GdtWeed1","LDustEffects"],["GdtWeed1","LGrassEffects"],["GdtWeed1","LDirtEffects"],["GdtWeed2","LDustEffects"],["GdtWeed2","LGrassEffects"],["GdtWeed2","LDirtEffects"],["GdtThorn","LDustEffects"],["GdtThorn","LGrassEffects"],["GdtThorn","LDirtEffects"],["GdtStony","LDustEffects"],["GdtStony","LGrassEffects"],["GdtStony","LDirtEffects"],["GdtStonyGreen","LDustEffects"],["GdtStonyGreen","LGrassEffects"],["GdtStonyGreen","LDirtEffects"],["GdtStonyThistle","LDustEffects"],["GdtStonyThistle","LGrassEffects"],["GdtStonyThistle","LDirtEffects"],["GdtSeabedDeep","LDustEffects"],["GdtSeabed","LDustEffects"],["SurfRoadDirt","LDustEffects"],["SurfRoadConcrete","LDustEffects"],["SurfRoadTarmac","LDustEffects"],["SurfWood","LDustEffects"],["SurfMetal","LDustEffects"],["SurfRoofTin","LDustEffects"],["SurfRoofTiles","LDustEffects"],["SurfIntWood","LDustEffects"],["SurfIntConcrete","LDustEffects"],["SurfIntTiles","LDustEffects"],["SurfIntMetal","LDustEffects"],["dirtrunway","LDustEffects"]],
     # Class: CfgVehicles|Car|DestructionEffects [Indent level: 1],
-    "DestructionEffects": {
+    "destructioneffects": {
         # Class: CfgVehicles|Car|DestructionEffects|Light1 [Indent level: 2]
-        "Light1": {
+        "light1": {
             "simulation": "light",
             "type": "ObjectDestructionLight",
             "position": "destructionEffect1",
             "intensity": 0.001,
             "interval": 1,
-            "lifeTime": 3,
+            "lifetime": 3,
             "enabled": "distToWater"
         },
         # Class: CfgVehicles|Car|DestructionEffects|Sound [Indent level: 2],
-        "Sound": {
+        "sound": {
             "simulation": "sound",
             "position": "destructionEffect1",
             "intensity": 1,
             "interval": 1,
-            "lifeTime": 1,
+            "lifetime": 1,
             "type": "Fire"
         },
         # Class: CfgVehicles|Car|DestructionEffects|Fire1 [Indent level: 2],
-        "Fire1": {
+        "fire1": {
             "simulation": "particles",
             "type": "ObjectDestructionFire1Small",
             "position": "destructionEffect1",
             "intensity": 0.15,
             "interval": 1,
-            "lifeTime": 3
+            "lifetime": 3
         },
         # Class: CfgVehicles|Car|DestructionEffects|Refract1 [Indent level: 2],
-        "Refract1": {
+        "refract1": {
             "simulation": "particles",
             "type": "ObjectDestructionRefractSmall",
             "position": "destructionEffect1",
             "intensity": 0.15,
             "interval": 1,
-            "lifeTime": 3
+            "lifetime": 3
         },
         # Class: CfgVehicles|Car|DestructionEffects|Smoke1 [Indent level: 2],
-        "Smoke1": {
+        "smoke1": {
             "simulation": "particles",
             "type": "ObjectDestructionSmokeSmall",
             "position": "destructionEffect1",
             "intensity": 0.15,
             "interval": 1,
-            "lifeTime": 3.5
+            "lifetime": 3.5
         },
         # Class: CfgVehicles|Car|DestructionEffects|Sparks1 [Indent level: 2],
-        "Sparks1": {
+        "sparks1": {
             "simulation": "particles",
             "type": "ObjectDestructionSparks",
             "position": "destructionEffect1",
             "intensity": 0,
             "interval": 1,
-            "lifeTime": 0
+            "lifetime": 0
         },
         # Class: CfgVehicles|Car|DestructionEffects|FireSparks1 [Indent level: 2],
-        "FireSparks1": {
+        "firesparks1": {
             "simulation": "particles",
             "type": "FireSparks",
             "position": "destructionEffect2",
             "intensity": 1,
             "interval": 1,
-            "lifeTime": 2.8
+            "lifetime": 2.8
         },
         # Class: CfgVehicles|Car|DestructionEffects|Fire2 [Indent level: 2],
-        "Fire2": {
+        "fire2": {
             "simulation": "particles",
             "type": "ObjectDestructionFire2Small",
             "position": "destructionEffect2",
             "intensity": 0.15,
             "interval": 1,
-            "lifeTime": 3
+            "lifetime": 3
         },
         # Class: CfgVehicles|Car|DestructionEffects|Smoke1_2 [Indent level: 2],
-        "Smoke1_2": {
+        "smoke1_2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke1_2Small",
             "position": "destructionEffect2",
             "intensity": 0.15,
             "interval": 1,
-            "lifeTime": 3.5
+            "lifetime": 3.5
         },
         # Class: CfgVehicles|Car|DestructionEffects|Smoke2 [Indent level: 2],
-        "Smoke2": {
+        "smoke2": {
             "simulation": "particles",
             "type": "ObjectDestructionSmoke2",
             "position": "destructionEffect2",
             "intensity": 1,
             "interval": 1,
-            "lifeTime": 3.2
+            "lifetime": 3.2
         }
     },
-    "sensitivityEar": 0.125,
+    "sensitivityear": 0.125,
     "sensitivity": 1.75,
-    "memoryPointMissile": ["spice rakety","usti hlavne"],
-    "memoryPointMissileDir": ["konec rakety","konec hlavne"],
-    "engineStartSpeed": 1.5,
-    "leftDustEffect": "LDustEffects",
-    "rightDustEffect": "RDustEffects",
-    "leftWaterEffect": "LWaterEffects",
-    "rightWaterEffect": "RWaterEffects",
-    "leftFastWaterEffect": "LWaterEffects",
-    "rightFastWaterEffect": "RWaterEffects",
-    "tracksSpeed": 0,
-    "selectionLeftOffset": "PasOffsetL",
-    "selectionRightOffset": "PasOffsetP",
-    "explosionEffect": "FuelExplosion",
+    "memorypointmissile": ["spice rakety","usti hlavne"],
+    "memorypointmissiledir": ["konec rakety","konec hlavne"],
+    "enginestartspeed": 1.5,
+    "leftdusteffect": "LDustEffects",
+    "rightdusteffect": "RDustEffects",
+    "leftwatereffect": "LWaterEffects",
+    "rightwatereffect": "RWaterEffects",
+    "leftfastwatereffect": "LWaterEffects",
+    "rightfastwatereffect": "RWaterEffects",
+    "tracksspeed": 0,
+    "selectionleftoffset": "PasOffsetL",
+    "selectionrightoffset": "PasOffsetP",
+    "explosioneffect": "FuelExplosion",
     # Class: CfgVehicles|LandVehicle|CommanderOptics [Indent level: 1],
-    "CommanderOptics": {
-        "proxyType": "CPCommander",
-        "proxyIndex": 1,
-        "gunnerName": "Commander",
-        "primaryGunner": 0,
-        "primaryObserver": 1,
-        "stabilizedInAxes": 0,
+    "commanderoptics": {
+        "proxytype": "CPCommander",
+        "proxyindex": 1,
+        "gunnername": "Commander",
+        "primarygunner": 0,
+        "primaryobserver": 1,
+        "stabilizedinaxes": 0,
         "body": "obsTurret",
         "gun": "obsGun",
-        "animationSourceBody": "obsTurret",
-        "animationSourceGun": "obsGun",
-        "animationSourceHatch": "hatchCommander",
-        "animationSourceCamElev": "camElev",
-        "soundServo": ["A3|sounds_f|dummysound",0.01,1,10],
-        "gunBeg": "",
-        "gunEnd": "",
-        "minElev": -4,
-        "maxElev": 20,
-        "initElev": 0,
-        "minTurn": -360,
-        "maxTurn": 360,
-        "initTurn": 0,
+        "animationsourcebody": "obsTurret",
+        "animationsourcegun": "obsGun",
+        "animationsourcehatch": "hatchCommander",
+        "animationsourcecamelev": "camElev",
+        "soundservo": ["A3|sounds_f|dummysound",0.01,1,10],
+        "gunbeg": "",
+        "gunend": "",
+        "minelev": -4,
+        "maxelev": 20,
+        "initelev": 0,
+        "minturn": -360,
+        "maxturn": 360,
+        "initturn": 0,
         "commanding": 2,
-        "outGunnerMayFire": 1,
-        "inGunnerMayFire": 1,
-        "viewGunnerInExternal": 0,
-        "gunnerOpticsModel": "A3|weapons_f|reticle|Optics_Commander_02_F",
-        "gunnerOutOpticsModel": "A3|weapons_f|reticle|optics_empty",
-        "gunnerOutOpticsColor": [0,0,0,1],
-        "gunnerOutForceOptics": 0,
-        "gunnerOutOpticsShowCursor": 0,
-        "gunnerOpticsEffect": [],
-        "gunnerOutOpticsEffect": [],
-        "memoryPointGunnerOutOptics": "commander_weapon_view",
-        "memoryPointGunnerOptics": "commanderview",
-        "memoryPointsGetInGunner": "pos commander",
-        "memoryPointsGetInGunnerDir": "pos commander dir",
-        "gunnerGetInAction": "GetInHigh",
-        "gunnerGetOutAction": "GetOutHigh",
-        "memoryPointGun": "gun_muzzle",
-        "selectionFireAnim": "zasleh_1",
+        "outgunnermayfire": 1,
+        "ingunnermayfire": 1,
+        "viewgunnerinexternal": 0,
+        "gunneropticsmodel": "A3|weapons_f|reticle|Optics_Commander_02_F",
+        "gunneroutopticsmodel": "A3|weapons_f|reticle|optics_empty",
+        "gunneroutopticscolor": [0,0,0,1],
+        "gunneroutforceoptics": 0,
+        "gunneroutopticsshowcursor": 0,
+        "gunneropticseffect": [],
+        "gunneroutopticseffect": [],
+        "memorypointgunneroutoptics": "commander_weapon_view",
+        "memorypointgunneroptics": "commanderview",
+        "memorypointsgetingunner": "pos commander",
+        "memorypointsgetingunnerdir": "pos commander dir",
+        "gunnergetinaction": "GetInHigh",
+        "gunnergetoutaction": "GetOutHigh",
+        "memorypointgun": "gun_muzzle",
+        "selectionfireanim": "zasleh_1",
         # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewOptics [Indent level: 2],
-        "ViewOptics": {
-            "initAngleX": 0,
-            "minAngleX": -30,
-            "maxAngleX": 30,
-            "initAngleY": 0,
-            "minAngleY": -100,
-            "maxAngleY": 100,
-            "initFov": 0.3,
-            "minFov": 0.07,
-            "maxFov": 0.35,
-            "minMoveX": 0,
-            "maxMoveX": 0,
-            "minMoveY": 0,
-            "maxMoveY": 0,
-            "minMoveZ": 0,
-            "maxMoveZ": 0,
-            "speedZoomMaxSpeed": 1e+010,
-            "speedZoomMaxFOV": 0
+        "viewoptics": {
+            "initanglex": 0,
+            "minanglex": -30,
+            "maxanglex": 30,
+            "initangley": 0,
+            "minangley": -100,
+            "maxangley": 100,
+            "initfov": 0.3,
+            "minfov": 0.07,
+            "maxfov": 0.35,
+            "minmovex": 0,
+            "maxmovex": 0,
+            "minmovey": 0,
+            "maxmovey": 0,
+            "minmovez": 0,
+            "maxmovez": 0,
+            "speedzoommaxspeed": 1e+010,
+            "speedzoommaxfov": 0
         },
         # Class: CfgVehicles|LandVehicle|CommanderOptics|ViewGunner [Indent level: 2],
-        "ViewGunner": {
-            "initAngleX": 5,
-            "minAngleX": -75,
-            "maxAngleX": 85,
-            "initAngleY": 0,
-            "minAngleY": -150,
-            "maxAngleY": 150,
-            "minFov": 0.25,
-            "maxFov": 1.25,
-            "initFov": 0.75,
-            "minMoveX": 0,
-            "maxMoveX": 0,
-            "minMoveY": 0,
-            "maxMoveY": 0,
-            "minMoveZ": 0,
-            "maxMoveZ": 0,
-            "speedZoomMaxSpeed": 1e+010,
-            "speedZoomMaxFOV": 0
+        "viewgunner": {
+            "initanglex": 5,
+            "minanglex": -75,
+            "maxanglex": 85,
+            "initangley": 0,
+            "minangley": -150,
+            "maxangley": 150,
+            "minfov": 0.25,
+            "maxfov": 1.25,
+            "initfov": 0.75,
+            "minmovex": 0,
+            "maxmovex": 0,
+            "minmovey": 0,
+            "maxmovey": 0,
+            "minmovez": 0,
+            "maxmovez": 0,
+            "speedzoommaxspeed": 1e+010,
+            "speedzoommaxfov": 0
         },
-        "gunnerType": "",
+        "gunnertype": "",
         "weapons": [],
         "magazines": [],
-        "soundElevation": ["",0.00316228,1],
-        "minOutElev": -4,
-        "maxOutElev": 20,
-        "initOutElev": 0,
-        "minOutTurn": -60,
-        "maxOutTurn": 60,
-        "initOutTurn": 0,
-        "maxHorizontalRotSpeed": 1.2,
-        "maxVerticalRotSpeed": 1.2,
-        "minCamElev": -90,
-        "maxCamElev": 90,
-        "initCamElev": 0,
+        "soundelevation": ["",0.00316228,1],
+        "minoutelev": -4,
+        "maxoutelev": 20,
+        "initoutelev": 0,
+        "minoutturn": -60,
+        "maxoutturn": 60,
+        "initoutturn": 0,
+        "maxhorizontalrotspeed": 1.2,
+        "maxverticalrotspeed": 1.2,
+        "mincamelev": -90,
+        "maxcamelev": 90,
+        "initcamelev": 0,
         "primary": 1,
-        "hasGunner": 1,
-        "turretCanSee": 0,
-        "canUseScanners": 1,
+        "hasgunner": 1,
+        "turretcansee": 0,
+        "canusescanners": 1,
         # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-        "TurretSpec": {
-            "showHeadPhones": 0
+        "turretspec": {
+            "showheadphones": 0
         },
-        "gunnerOpticsColor": [0,0,0,1],
-        "gunnerForceOptics": 1,
-        "gunnerOpticsShowCursor": 0,
-        "turretInfoType": "",
-        "gunnerFireAlsoInInternalCamera": 1,
-        "gunnerOutFireAlsoInInternalCamera": 1,
-        "gunnerUsesPilotView": 0,
-        "castGunnerShadow": 0,
-        "viewGunnerShadow": 1,
-        "viewGunnerShadowDiff": 1,
-        "viewGunnerShadowAmb": 1,
-        "ejectDeadGunner": 0,
-        "hideWeaponsGunner": 1,
-        "canHideGunner": -1,
-        "forceHideGunner": 0,
-        "showHMD": 0,
-        "lockWhenDriverOut": 0,
-        "lockWhenVehicleSpeed": -1,
-        "gunnerCompartments": "Compartment1",
-        "LODTurnedIn": -1,
-        "LODTurnedOut": -1,
-        "startEngine": 1,
-        "memoryPointsGetInGunnerPrecise": "",
-        "missileBeg": "spice rakety",
-        "missileEnd": "konec rakety",
-        "armorLights": 0.4,
+        "gunneropticscolor": [0,0,0,1],
+        "gunnerforceoptics": 1,
+        "gunneropticsshowcursor": 0,
+        "turretinfotype": "",
+        "gunnerfirealsoininternalcamera": 1,
+        "gunneroutfirealsoininternalcamera": 1,
+        "gunnerusespilotview": 0,
+        "castgunnershadow": 0,
+        "viewgunnershadow": 1,
+        "viewgunnershadowdiff": 1,
+        "viewgunnershadowamb": 1,
+        "ejectdeadgunner": 0,
+        "hideweaponsgunner": 1,
+        "canhidegunner": -1,
+        "forcehidegunner": 0,
+        "showhmd": 0,
+        "lockwhendriverout": 0,
+        "lockwhenvehiclespeed": -1,
+        "gunnercompartments": "Compartment1",
+        "lodturnedin": -1,
+        "lodturnedout": -1,
+        "startengine": 1,
+        "memorypointsgetingunnerprecise": "",
+        "missilebeg": "spice rakety",
+        "missileend": "konec rakety",
+        "armorlights": 0.4,
         # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-        "Reflectors": {
+        "reflectors": {
         },
-        "aggregateReflectors": [],
+        "aggregatereflectors": [],
         # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-        "GunFire": {
+        "gunfire": {
             "access": 0,
-            "cloudletDuration": 0.2,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 1,
-            "cloudletGrowUp": 0.2,
-            "cloudletFadeIn": 0.01,
-            "cloudletFadeOut": 0.5,
-            "cloudletAccY": 0,
-            "cloudletMinYSpeed": -100,
-            "cloudletMaxYSpeed": 100,
-            "cloudletShape": "cloudletFire",
-            "cloudletColor": [1,1,1,0],
+            "cloudletduration": 0.2,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 1,
+            "cloudletgrowup": 0.2,
+            "cloudletfadein": 0.01,
+            "cloudletfadeout": 0.5,
+            "cloudletaccy": 0,
+            "cloudletminyspeed": -100,
+            "cloudletmaxyspeed": 100,
+            "cloudletshape": "cloudletFire",
+            "cloudletcolor": [1,1,1,0],
             "interval": 0.01,
             "size": 3,
-            "sourceSize": 0.5,
-            "timeToLive": 0,
-            "initT": 4500,
-            "deltaT": -3000,
+            "sourcesize": 0.5,
+            "timetolive": 0,
+            "initt": 4500,
+            "deltat": -3000,
             # Class: WeaponFireGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [0.82,0.95,0.93,0]
                 },
                 # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                "T1": {
-                    "maxT": 200,
+                "t1": {
+                    "maxt": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
                 # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                "T2": {
-                    "maxT": 400,
+                "t2": {
+                    "maxt": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
                 # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                "T3": {
-                    "maxT": 600,
+                "t3": {
+                    "maxt": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
                 # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                "T4": {
-                    "maxT": 800,
+                "t4": {
+                    "maxt": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
                 # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                "T5": {
-                    "maxT": 1000,
+                "t5": {
+                    "maxt": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
                 # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                "T6": {
-                    "maxT": 1500,
+                "t6": {
+                    "maxt": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
                 # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                "T7": {
-                    "maxT": 2000,
+                "t7": {
+                    "maxt": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
                 # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                "T8": {
-                    "maxT": 2300,
+                "t8": {
+                    "maxt": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
                 # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                "T9": {
-                    "maxT": 2500,
+                "t9": {
+                    "maxt": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
                 # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                "T10": {
-                    "maxT": 2600,
+                "t10": {
+                    "maxt": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                "T11": {
-                    "maxT": 2650,
+                "t11": {
+                    "maxt": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
                 # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                "T12": {
-                    "maxT": 2700,
+                "t12": {
+                    "maxt": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                "T13": {
-                    "maxT": 2750,
+                "t13": {
+                    "maxt": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                "T14": {
-                    "maxT": 2800,
+                "t14": {
+                    "maxt": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
                 # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                "T15": {
-                    "maxT": 2850,
+                "t15": {
+                    "maxt": 2850,
                     "color": [1,0.6,0.2,0]
                 },
                 # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                "T16": {
-                    "maxT": 2900,
+                "t16": {
+                    "maxt": 2900,
                     "color": [1,0.71,0.3,0]
                 },
                 # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                "T17": {
-                    "maxT": 2950,
+                "t17": {
+                    "maxt": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
                 # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                "T18": {
-                    "maxT": 3000,
+                "t18": {
+                    "maxt": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
                 # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                "T19": {
-                    "maxT": 3100,
+                "t19": {
+                    "maxt": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
                 # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                "T20": {
-                    "maxT": 3300,
+                "t20": {
+                    "maxt": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
                 # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                "T21": {
-                    "maxT": 3600,
+                "t21": {
+                    "maxt": 3600,
                     "color": [1,0.98,0.91,0]
                 },
                 # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                "T22": {
-                    "maxT": 4200,
+                "t22": {
+                    "maxt": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-        "GunClouds": {
+        "gunclouds": {
             "access": 0,
-            "cloudletDuration": 0.3,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 1,
-            "cloudletGrowUp": 1,
-            "cloudletFadeIn": 0.01,
-            "cloudletFadeOut": 1,
-            "cloudletAccY": 0.4,
-            "cloudletMinYSpeed": 0.2,
-            "cloudletMaxYSpeed": 0.8,
-            "cloudletShape": "cloudletClouds",
-            "cloudletColor": [1,1,1,0],
+            "cloudletduration": 0.3,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 1,
+            "cloudletgrowup": 1,
+            "cloudletfadein": 0.01,
+            "cloudletfadeout": 1,
+            "cloudletaccy": 0.4,
+            "cloudletminyspeed": 0.2,
+            "cloudletmaxyspeed": 0.8,
+            "cloudletshape": "cloudletClouds",
+            "cloudletcolor": [1,1,1,0],
             "interval": 0.05,
             "size": 3,
-            "sourceSize": 0.5,
-            "timeToLive": 0,
-            "initT": 0,
-            "deltaT": 0,
+            "sourcesize": 0.5,
+            "timetolive": 0,
+            "initt": 0,
+            "deltat": 0,
             # Class: WeaponCloudsGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-        "MGunClouds": {
+        "mgunclouds": {
             "access": 0,
-            "cloudletGrowUp": 0.05,
-            "cloudletFadeIn": 0,
-            "cloudletFadeOut": 0.1,
-            "cloudletDuration": 0.05,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 0.3,
-            "cloudletAccY": 0,
-            "cloudletMinYSpeed": -100,
-            "cloudletMaxYSpeed": 100,
-            "cloudletShape": "cloudletClouds",
-            "cloudletColor": [1,1,1,0],
-            "timeToLive": 0,
+            "cloudletgrowup": 0.05,
+            "cloudletfadein": 0,
+            "cloudletfadeout": 0.1,
+            "cloudletduration": 0.05,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 0.3,
+            "cloudletaccy": 0,
+            "cloudletminyspeed": -100,
+            "cloudletmaxyspeed": 100,
+            "cloudletshape": "cloudletClouds",
+            "cloudletcolor": [1,1,1,0],
+            "timetolive": 0,
             "interval": 0.02,
             "size": 0.3,
-            "sourceSize": 0.02,
-            "initT": 0,
-            "deltaT": 0,
+            "sourcesize": 0.02,
+            "initt": 0,
+            "deltat": 0,
             # Class: WeaponCloudsMGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints [Indent level: 2],
-        "HitPoints": {
+        "hitpoints": {
             # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitTurret [Indent level: 3]
-            "HitTurret": {
+            "hitturret": {
                 "armor": 0.8,
                 "material": 51,
                 "name": "turret",
                 "visual": "turret",
-                "passThrough": 1,
-                "explosionShielding": 1
+                "passthrough": 1,
+                "explosionshielding": 1
             },
             # Class: CfgVehicles|AllVehicles|NewTurret|HitPoints|HitGun [Indent level: 3],
-            "HitGun": {
+            "hitgun": {
                 "armor": 0.6,
                 "material": 52,
                 "name": "gun",
                 "visual": "gun",
-                "passThrough": 1,
-                "explosionShielding": 1
+                "passthrough": 1,
+                "explosionshielding": 1
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-        "Turrets": {
+        "turrets": {
         },
-        "forceNVG": 0,
-        "isCopilot": 0,
-        "canEject": 1,
-        "gunnerLeftHandAnimName": "",
-        "gunnerRightHandAnimName": "",
-        "gunnerLeftLegAnimName": "",
-        "gunnerRightLegAnimName": "",
-        "gunnerDoor": "",
-        "preciseGetInOut": 0,
-        "turretFollowFreeLook": 0,
-        "allowTabLock": 1,
-        "showAllTargets": 0,
-        "dontCreateAI": 0,
-        "disableSoundAttenuation": 0,
-        "slingLoadOperator": 0,
-        "playerPosition": 0,
-        "allowLauncherIn": 0,
-        "allowLauncherOut": 0,
+        "forcenvg": 0,
+        "iscopilot": 0,
+        "caneject": 1,
+        "gunnerlefthandanimname": "",
+        "gunnerrighthandanimname": "",
+        "gunnerleftleganimname": "",
+        "gunnerrightleganimname": "",
+        "gunnerdoor": "",
+        "precisegetinout": 0,
+        "turretfollowfreelook": 0,
+        "allowtablock": 1,
+        "showalltargets": 0,
+        "dontcreateai": 0,
+        "disablesoundattenuation": 0,
+        "slingloadoperator": 0,
+        "playerposition": 0,
+        "allowlauncherin": 0,
+        "allowlauncherout": 0,
         # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-        "TurnIn": {
-            "turnOffset": 0
+        "turnin": {
+            "turnoffset": 0
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-        "TurnOut": {
-            "turnOffset": 0
+        "turnout": {
+            "turnoffset": 0
         },
-        "gunnerInAction": "ManActTestDriver",
-        "gunnerAction": "ManActTestDriver",
-        "showCrewAim": 0
+        "gunnerinaction": "ManActTestDriver",
+        "gunneraction": "ManActTestDriver",
+        "showcrewaim": 0
     },
-    "wheelDestroyThreshold": 0.99,
-    "weaponsGroup1": 1,
-    "weaponsGroup2": "2 + 		4",
-    "weaponsGroup3": "8 + 	16 + 	32",
-    "weaponsGroup4": "64 + 		128",
+    "wheeldestroythreshold": 0.99,
+    "weaponsgroup1": 1,
+    "weaponsgroup2": "2 + 		4",
+    "weaponsgroup3": "8 + 	16 + 	32",
+    "weaponsgroup4": "64 + 		128",
     # Class: CfgVehicles|AllVehicles|SquadTitles [Indent level: 1],
-    "SquadTitles": {
+    "squadtitles": {
         "name": "clan_sign",
         "color": [0,0,0,0.75]
     },
-    "memoryPointDriverOptics": ["driverview","pilot"],
-    "memoryPointsGetInDriverPrecise": "pos driver",
-    "memoryPointsGetInCargoPrecise": ["pos cargo"],
-    "memoryPointsLeftWaterEffect": "waterEffectL",
-    "memoryPointsRightWaterEffect": "waterEffectR",
-    "selectionClan": "clan",
-    "selectionDashboard": "podsvit pristroju",
-    "selectionShowDamage": "poskozeni",
+    "memorypointdriveroptics": ["driverview","pilot"],
+    "memorypointsgetindriverprecise": "pos driver",
+    "memorypointsgetincargoprecise": ["pos cargo"],
+    "memorypointsleftwatereffect": "waterEffectL",
+    "memorypointsrightwatereffect": "waterEffectR",
+    "selectionclan": "clan",
+    "selectiondashboard": "podsvit pristroju",
+    "selectionshowdamage": "poskozeni",
     # Class: CfgVehicles|AllVehicles|ViewCargo [Indent level: 1],
-    "ViewCargo": {
-        "initAngleX": 5,
-        "minAngleX": -75,
-        "maxAngleX": 85,
-        "initAngleY": 0,
-        "minAngleY": -150,
-        "maxAngleY": 150,
-        "minFov": 0.25,
-        "maxFov": 1.25,
-        "initFov": 0.75,
-        "minMoveX": 0,
-        "maxMoveX": 0,
-        "minMoveY": 0,
-        "maxMoveY": 0,
-        "minMoveZ": 0,
-        "maxMoveZ": 0,
-        "speedZoomMaxSpeed": 1e+010,
-        "speedZoomMaxFOV": 0
+    "viewcargo": {
+        "initanglex": 5,
+        "minanglex": -75,
+        "maxanglex": 85,
+        "initangley": 0,
+        "minangley": -150,
+        "maxangley": 150,
+        "minfov": 0.25,
+        "maxfov": 1.25,
+        "initfov": 0.75,
+        "minmovex": 0,
+        "maxmovex": 0,
+        "minmovey": 0,
+        "maxmovey": 0,
+        "minmovez": 0,
+        "maxmovez": 0,
+        "speedzoommaxspeed": 1e+010,
+        "speedzoommaxfov": 0
     },
     # Class: CfgVehicles|AllVehicles|ViewOptics [Indent level: 1],
-    "ViewOptics": {
-        "initAngleX": 0,
-        "minAngleX": -30,
-        "maxAngleX": 30,
-        "initAngleY": 0,
-        "minAngleY": -100,
-        "maxAngleY": 100,
-        "initFov": 0.7,
-        "minFov": 0.42,
-        "maxFov": 0.85,
-        "minMoveX": 0,
-        "maxMoveX": 0,
-        "minMoveY": 0,
-        "maxMoveY": 0,
-        "minMoveZ": 0,
-        "maxMoveZ": 0,
-        "speedZoomMaxSpeed": 1e+010,
-        "speedZoomMaxFOV": 0
+    "viewoptics": {
+        "initanglex": 0,
+        "minanglex": -30,
+        "maxanglex": 30,
+        "initangley": 0,
+        "minangley": -100,
+        "maxangley": 100,
+        "initfov": 0.7,
+        "minfov": 0.42,
+        "maxfov": 0.85,
+        "minmovex": 0,
+        "maxmovex": 0,
+        "minmovey": 0,
+        "maxmovey": 0,
+        "minmovez": 0,
+        "maxmovez": 0,
+        "speedzoommaxspeed": 1e+010,
+        "speedzoommaxfov": 0
     },
     # Class: CfgVehicles|AllVehicles|PilotSpec [Indent level: 1],
-    "PilotSpec": {
-        "showHeadPhones": 0
+    "pilotspec": {
+        "showheadphones": 0
     },
     # Class: CfgVehicles|AllVehicles|CargoSpec [Indent level: 1],
-    "CargoSpec": {
+    "cargospec": {
         # Class: CfgVehicles|AllVehicles|CargoSpec|Cargo1 [Indent level: 2]
-        "Cargo1": {
-            "showHeadPhones": 0
+        "cargo1": {
+            "showheadphones": 0
         }
     },
     # Class: CfgVehicles|AllVehicles|MFD [Indent level: 1],
-    "MFD": {
+    "mfd": {
     },
     # Class: CfgVehicles|AllVehicles|SoundEvents [Indent level: 1],
-    "SoundEvents": {
+    "soundevents": {
     },
-    "hasTerminal": 0,
-    "getInOutOnProxy": 0,
-    "preciseGetInOut": 0,
-    "cargoPreciseGetInOut": [0],
-    "availableForSupportTypes": [],
-    "waterPPInVehicle": 1,
-    "impactEffectsSea": "ImpactEffectsSea",
-    "impactEffectSpeedLimit": 8,
-    "showCrewAim": 0,
+    "hasterminal": 0,
+    "getinoutonproxy": 0,
+    "precisegetinout": 0,
+    "cargoprecisegetinout": [0],
+    "availableforsupporttypes": [],
+    "waterppinvehicle": 1,
+    "impacteffectssea": "ImpactEffectsSea",
+    "impacteffectspeedlimit": 8,
+    "showcrewaim": 0,
     # Class: CfgVehicles|AllVehicles|CargoTurret [Indent level: 1],
-    "CargoTurret": {
+    "cargoturret": {
         # Class: CfgVehicles|AllVehicles|CargoTurret|ViewGunner [Indent level: 2]
-        "ViewGunner": {
-            "initAngleX": 5,
-            "minAngleX": -75,
-            "maxAngleX": 85,
-            "initAngleY": 0,
-            "minAngleY": -150,
-            "maxAngleY": 150,
-            "minFov": 0.25,
-            "maxFov": 1.25,
-            "initFov": 0.75,
-            "minMoveX": 0,
-            "maxMoveX": 0,
-            "minMoveY": 0,
-            "maxMoveY": 0,
-            "minMoveZ": 0,
-            "maxMoveZ": 0,
-            "speedZoomMaxSpeed": 1e+010,
-            "speedZoomMaxFOV": 0
+        "viewgunner": {
+            "initanglex": 5,
+            "minanglex": -75,
+            "maxanglex": 85,
+            "initangley": 0,
+            "minangley": -150,
+            "maxangley": 150,
+            "minfov": 0.25,
+            "maxfov": 1.25,
+            "initfov": 0.75,
+            "minmovex": 0,
+            "maxmovex": 0,
+            "minmovey": 0,
+            "maxmovey": 0,
+            "minmovez": 0,
+            "maxmovez": 0,
+            "speedzoommaxspeed": 1e+010,
+            "speedzoommaxfov": 0
         },
         # Class: CfgVehicles|AllVehicles|CargoTurret|Hitpoints [Indent level: 2],
-        "Hitpoints": {
+        "hitpoints": {
         },
-        "animationSourceBody": "",
-        "animationSourceGun": "",
+        "animationsourcebody": "",
+        "animationsourcegun": "",
         "body": "",
-        "canEject": 1,
+        "caneject": 1,
         "commanding": 0,
-        "dontCreateAI": 1,
+        "dontcreateai": 1,
         "gun": "",
-        "gunnerGetInAction": "GetInLow",
-        "gunnerGetOutAction": "GetOutLow",
-        "gunnerName": "cargo",
-        "hideWeaponsGunner": 0,
-        "isCopilot": 0,
-        "memoryPointsGetInGunner": "pos cargo",
-        "memoryPointsGetInGunnerDir": "pos cargo dir",
-        "primaryGunner": 0,
-        "proxyType": "CPCargo",
-        "startEngine": 0,
-        "turretFollowFreeLook": 0,
-        "viewGunnerInExternal": 1,
-        "disableSoundAttenuation": 1,
-        "outGunnerMayFire": 1,
-        "isPersonTurret": 1,
-        "showAsCargo": 1,
-        "maxElev": 45,
-        "minElev": -45,
-        "maxTurn": 95,
-        "minTurn": -95,
-        "animationSourceHatch": "hatchGunner",
-        "animationSourceCamElev": "camElev",
-        "proxyIndex": 1,
-        "gunnerType": "",
-        "primaryObserver": 0,
+        "gunnergetinaction": "GetInLow",
+        "gunnergetoutaction": "GetOutLow",
+        "gunnername": "cargo",
+        "hideweaponsgunner": 0,
+        "iscopilot": 0,
+        "memorypointsgetingunner": "pos cargo",
+        "memorypointsgetingunnerdir": "pos cargo dir",
+        "primarygunner": 0,
+        "proxytype": "CPCargo",
+        "startengine": 0,
+        "turretfollowfreelook": 0,
+        "viewgunnerinexternal": 1,
+        "disablesoundattenuation": 1,
+        "outgunnermayfire": 1,
+        "ispersonturret": 1,
+        "showascargo": 1,
+        "maxelev": 45,
+        "minelev": -45,
+        "maxturn": 95,
+        "minturn": -95,
+        "animationsourcehatch": "hatchGunner",
+        "animationsourcecamelev": "camElev",
+        "proxyindex": 1,
+        "gunnertype": "",
+        "primaryobserver": 0,
         "weapons": [],
         "magazines": [],
-        "soundServo": ["",0.00316228,1],
-        "soundElevation": ["",0.00316228,1],
-        "initElev": 0,
-        "initTurn": 0,
-        "minOutElev": -4,
-        "maxOutElev": 20,
-        "initOutElev": 0,
-        "minOutTurn": -60,
-        "maxOutTurn": 60,
-        "initOutTurn": 0,
-        "maxHorizontalRotSpeed": 1.2,
-        "maxVerticalRotSpeed": 1.2,
-        "minCamElev": -90,
-        "maxCamElev": 90,
-        "initCamElev": 0,
-        "stabilizedInAxes": 3,
+        "soundservo": ["",0.00316228,1],
+        "soundelevation": ["",0.00316228,1],
+        "initelev": 0,
+        "initturn": 0,
+        "minoutelev": -4,
+        "maxoutelev": 20,
+        "initoutelev": 0,
+        "minoutturn": -60,
+        "maxoutturn": 60,
+        "initoutturn": 0,
+        "maxhorizontalrotspeed": 1.2,
+        "maxverticalrotspeed": 1.2,
+        "mincamelev": -90,
+        "maxcamelev": 90,
+        "initcamelev": 0,
+        "stabilizedinaxes": 3,
         "primary": 1,
-        "hasGunner": 1,
-        "turretCanSee": 0,
-        "canUseScanners": 1,
+        "hasgunner": 1,
+        "turretcansee": 0,
+        "canusescanners": 1,
         # Class: CfgVehicles|AllVehicles|NewTurret|TurretSpec [Indent level: 2],
-        "TurretSpec": {
-            "showHeadPhones": 0
+        "turretspec": {
+            "showheadphones": 0
         },
-        "gunnerOpticsModel": "",
-        "gunnerOpticsColor": [0,0,0,1],
-        "gunnerForceOptics": 1,
-        "gunnerOpticsShowCursor": 0,
-        "turretInfoType": "",
-        "gunnerOutOpticsModel": "",
-        "gunnerOutOpticsColor": [0,0,0,1],
-        "gunnerOpticsEffect": [],
-        "gunnerOutOpticsEffect": [],
-        "memoryPointGunnerOutOptics": "",
-        "gunnerOutForceOptics": 0,
-        "gunnerOutOpticsShowCursor": 0,
-        "gunnerFireAlsoInInternalCamera": 1,
-        "gunnerOutFireAlsoInInternalCamera": 1,
-        "gunnerUsesPilotView": 0,
-        "castGunnerShadow": 0,
-        "viewGunnerShadow": 1,
-        "viewGunnerShadowDiff": 1,
-        "viewGunnerShadowAmb": 1,
-        "ejectDeadGunner": 0,
-        "canHideGunner": -1,
-        "forceHideGunner": 0,
-        "inGunnerMayFire": 1,
-        "showHMD": 0,
-        "lockWhenDriverOut": 0,
-        "lockWhenVehicleSpeed": -1,
-        "gunnerCompartments": "Compartment1",
-        "LODTurnedIn": -1,
-        "LODTurnedOut": -1,
-        "memoryPointsGetInGunnerPrecise": "",
-        "missileBeg": "spice rakety",
-        "missileEnd": "konec rakety",
-        "armorLights": 0.4,
+        "gunneropticsmodel": "",
+        "gunneropticscolor": [0,0,0,1],
+        "gunnerforceoptics": 1,
+        "gunneropticsshowcursor": 0,
+        "turretinfotype": "",
+        "gunneroutopticsmodel": "",
+        "gunneroutopticscolor": [0,0,0,1],
+        "gunneropticseffect": [],
+        "gunneroutopticseffect": [],
+        "memorypointgunneroutoptics": "",
+        "gunneroutforceoptics": 0,
+        "gunneroutopticsshowcursor": 0,
+        "gunnerfirealsoininternalcamera": 1,
+        "gunneroutfirealsoininternalcamera": 1,
+        "gunnerusespilotview": 0,
+        "castgunnershadow": 0,
+        "viewgunnershadow": 1,
+        "viewgunnershadowdiff": 1,
+        "viewgunnershadowamb": 1,
+        "ejectdeadgunner": 0,
+        "canhidegunner": -1,
+        "forcehidegunner": 0,
+        "ingunnermayfire": 1,
+        "showhmd": 0,
+        "lockwhendriverout": 0,
+        "lockwhenvehiclespeed": -1,
+        "gunnercompartments": "Compartment1",
+        "lodturnedin": -1,
+        "lodturnedout": -1,
+        "memorypointsgetingunnerprecise": "",
+        "missilebeg": "spice rakety",
+        "missileend": "konec rakety",
+        "armorlights": 0.4,
         # Class: CfgVehicles|AllVehicles|NewTurret|Reflectors [Indent level: 2],
-        "Reflectors": {
+        "reflectors": {
         },
-        "aggregateReflectors": [],
+        "aggregatereflectors": [],
         # Class: CfgVehicles|AllVehicles|NewTurret|GunFire [Indent level: 2],
-        "GunFire": {
+        "gunfire": {
             "access": 0,
-            "cloudletDuration": 0.2,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 1,
-            "cloudletGrowUp": 0.2,
-            "cloudletFadeIn": 0.01,
-            "cloudletFadeOut": 0.5,
-            "cloudletAccY": 0,
-            "cloudletMinYSpeed": -100,
-            "cloudletMaxYSpeed": 100,
-            "cloudletShape": "cloudletFire",
-            "cloudletColor": [1,1,1,0],
+            "cloudletduration": 0.2,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 1,
+            "cloudletgrowup": 0.2,
+            "cloudletfadein": 0.01,
+            "cloudletfadeout": 0.5,
+            "cloudletaccy": 0,
+            "cloudletminyspeed": -100,
+            "cloudletmaxyspeed": 100,
+            "cloudletshape": "cloudletFire",
+            "cloudletcolor": [1,1,1,0],
             "interval": 0.01,
             "size": 3,
-            "sourceSize": 0.5,
-            "timeToLive": 0,
-            "initT": 4500,
-            "deltaT": -3000,
+            "sourcesize": 0.5,
+            "timetolive": 0,
+            "initt": 4500,
+            "deltat": -3000,
             # Class: WeaponFireGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [0.82,0.95,0.93,0]
                 },
                 # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-                "T1": {
-                    "maxT": 200,
+                "t1": {
+                    "maxt": 200,
                     "color": [0.75,0.77,0.9,0]
                 },
                 # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-                "T2": {
-                    "maxT": 400,
+                "t2": {
+                    "maxt": 400,
                     "color": [0.56,0.62,0.67,0]
                 },
                 # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-                "T3": {
-                    "maxT": 600,
+                "t3": {
+                    "maxt": 600,
                     "color": [0.39,0.46,0.47,0]
                 },
                 # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-                "T4": {
-                    "maxT": 800,
+                "t4": {
+                    "maxt": 800,
                     "color": [0.24,0.31,0.31,0]
                 },
                 # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-                "T5": {
-                    "maxT": 1000,
+                "t5": {
+                    "maxt": 1000,
                     "color": [0.23,0.31,0.29,0]
                 },
                 # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-                "T6": {
-                    "maxT": 1500,
+                "t6": {
+                    "maxt": 1500,
                     "color": [0.21,0.29,0.27,0]
                 },
                 # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-                "T7": {
-                    "maxT": 2000,
+                "t7": {
+                    "maxt": 2000,
                     "color": [0.19,0.23,0.21,0]
                 },
                 # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-                "T8": {
-                    "maxT": 2300,
+                "t8": {
+                    "maxt": 2300,
                     "color": [0.22,0.19,0.1,0]
                 },
                 # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-                "T9": {
-                    "maxT": 2500,
+                "t9": {
+                    "maxt": 2500,
                     "color": [0.35,0.2,0.02,0]
                 },
                 # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-                "T10": {
-                    "maxT": 2600,
+                "t10": {
+                    "maxt": 2600,
                     "color": [0.62,0.29,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-                "T11": {
-                    "maxT": 2650,
+                "t11": {
+                    "maxt": 2650,
                     "color": [0.59,0.35,0.05,0]
                 },
                 # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-                "T12": {
-                    "maxT": 2700,
+                "t12": {
+                    "maxt": 2700,
                     "color": [0.75,0.37,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-                "T13": {
-                    "maxT": 2750,
+                "t13": {
+                    "maxt": 2750,
                     "color": [0.88,0.34,0.03,0]
                 },
                 # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-                "T14": {
-                    "maxT": 2800,
+                "t14": {
+                    "maxt": 2800,
                     "color": [0.91,0.5,0.17,0]
                 },
                 # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-                "T15": {
-                    "maxT": 2850,
+                "t15": {
+                    "maxt": 2850,
                     "color": [1,0.6,0.2,0]
                 },
                 # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-                "T16": {
-                    "maxT": 2900,
+                "t16": {
+                    "maxt": 2900,
                     "color": [1,0.71,0.3,0]
                 },
                 # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-                "T17": {
-                    "maxT": 2950,
+                "t17": {
+                    "maxt": 2950,
                     "color": [0.98,0.83,0.41,0]
                 },
                 # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-                "T18": {
-                    "maxT": 3000,
+                "t18": {
+                    "maxt": 3000,
                     "color": [0.98,0.91,0.54,0]
                 },
                 # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-                "T19": {
-                    "maxT": 3100,
+                "t19": {
+                    "maxt": 3100,
                     "color": [0.98,0.99,0.6,0]
                 },
                 # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-                "T20": {
-                    "maxT": 3300,
+                "t20": {
+                    "maxt": 3300,
                     "color": [0.96,0.99,0.72,0]
                 },
                 # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-                "T21": {
-                    "maxT": 3600,
+                "t21": {
+                    "maxt": 3600,
                     "color": [1,0.98,0.91,0]
                 },
                 # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-                "T22": {
-                    "maxT": 4200,
+                "t22": {
+                    "maxt": 4200,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|GunClouds [Indent level: 2],
-        "GunClouds": {
+        "gunclouds": {
             "access": 0,
-            "cloudletDuration": 0.3,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 1,
-            "cloudletGrowUp": 1,
-            "cloudletFadeIn": 0.01,
-            "cloudletFadeOut": 1,
-            "cloudletAccY": 0.4,
-            "cloudletMinYSpeed": 0.2,
-            "cloudletMaxYSpeed": 0.8,
-            "cloudletShape": "cloudletClouds",
-            "cloudletColor": [1,1,1,0],
+            "cloudletduration": 0.3,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 1,
+            "cloudletgrowup": 1,
+            "cloudletfadein": 0.01,
+            "cloudletfadeout": 1,
+            "cloudletaccy": 0.4,
+            "cloudletminyspeed": 0.2,
+            "cloudletmaxyspeed": 0.8,
+            "cloudletshape": "cloudletClouds",
+            "cloudletcolor": [1,1,1,0],
             "interval": 0.05,
             "size": 3,
-            "sourceSize": 0.5,
-            "timeToLive": 0,
-            "initT": 0,
-            "deltaT": 0,
+            "sourcesize": 0.5,
+            "timetolive": 0,
+            "initt": 0,
+            "deltat": 0,
             # Class: WeaponCloudsGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|MGunClouds [Indent level: 2],
-        "MGunClouds": {
+        "mgunclouds": {
             "access": 0,
-            "cloudletGrowUp": 0.05,
-            "cloudletFadeIn": 0,
-            "cloudletFadeOut": 0.1,
-            "cloudletDuration": 0.05,
-            "cloudletAnimPeriod": 1,
-            "cloudletSize": 1,
-            "cloudletAlpha": 0.3,
-            "cloudletAccY": 0,
-            "cloudletMinYSpeed": -100,
-            "cloudletMaxYSpeed": 100,
-            "cloudletShape": "cloudletClouds",
-            "cloudletColor": [1,1,1,0],
-            "timeToLive": 0,
+            "cloudletgrowup": 0.05,
+            "cloudletfadein": 0,
+            "cloudletfadeout": 0.1,
+            "cloudletduration": 0.05,
+            "cloudletanimperiod": 1,
+            "cloudletsize": 1,
+            "cloudletalpha": 0.3,
+            "cloudletaccy": 0,
+            "cloudletminyspeed": -100,
+            "cloudletmaxyspeed": 100,
+            "cloudletshape": "cloudletClouds",
+            "cloudletcolor": [1,1,1,0],
+            "timetolive": 0,
             "interval": 0.02,
             "size": 0.3,
-            "sourceSize": 0.02,
-            "initT": 0,
-            "deltaT": 0,
+            "sourcesize": 0.02,
+            "initt": 0,
+            "deltat": 0,
             # Class: WeaponCloudsMGun|Table [Indent level: 0],
-            "Table": {
+            "table": {
                 # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-                "T0": {
-                    "maxT": 0,
+                "t0": {
+                    "maxt": 0,
                     "color": [1,1,1,0]
                 }
             }
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|Turrets [Indent level: 2],
-        "Turrets": {
+        "turrets": {
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|ViewOptics [Indent level: 2],
-        "ViewOptics": {
-            "initAngleX": 0,
-            "minAngleX": -30,
-            "maxAngleX": 30,
-            "initAngleY": 0,
-            "minAngleY": -100,
-            "maxAngleY": 100,
-            "initFov": 0.3,
-            "minFov": 0.07,
-            "maxFov": 0.35,
-            "minMoveX": 0,
-            "maxMoveX": 0,
-            "minMoveY": 0,
-            "maxMoveY": 0,
-            "minMoveZ": 0,
-            "maxMoveZ": 0,
-            "speedZoomMaxSpeed": 1e+010,
-            "speedZoomMaxFOV": 0
+        "viewoptics": {
+            "initanglex": 0,
+            "minanglex": -30,
+            "maxanglex": 30,
+            "initangley": 0,
+            "minangley": -100,
+            "maxangley": 100,
+            "initfov": 0.3,
+            "minfov": 0.07,
+            "maxfov": 0.35,
+            "minmovex": 0,
+            "maxmovex": 0,
+            "minmovey": 0,
+            "maxmovey": 0,
+            "minmovez": 0,
+            "maxmovez": 0,
+            "speedzoommaxspeed": 1e+010,
+            "speedzoommaxfov": 0
         },
-        "forceNVG": 0,
-        "gunnerLeftHandAnimName": "",
-        "gunnerRightHandAnimName": "",
-        "gunnerLeftLegAnimName": "",
-        "gunnerRightLegAnimName": "",
-        "gunnerDoor": "",
-        "preciseGetInOut": 0,
-        "allowTabLock": 1,
-        "showAllTargets": 0,
-        "slingLoadOperator": 0,
-        "playerPosition": 0,
-        "allowLauncherIn": 0,
-        "allowLauncherOut": 0,
+        "forcenvg": 0,
+        "gunnerlefthandanimname": "",
+        "gunnerrighthandanimname": "",
+        "gunnerleftleganimname": "",
+        "gunnerrightleganimname": "",
+        "gunnerdoor": "",
+        "precisegetinout": 0,
+        "allowtablock": 1,
+        "showalltargets": 0,
+        "slingloadoperator": 0,
+        "playerposition": 0,
+        "allowlauncherin": 0,
+        "allowlauncherout": 0,
         # Class: CfgVehicles|AllVehicles|NewTurret|TurnIn [Indent level: 2],
-        "TurnIn": {
-            "turnOffset": 0
+        "turnin": {
+            "turnoffset": 0
         },
         # Class: CfgVehicles|AllVehicles|NewTurret|TurnOut [Indent level: 2],
-        "TurnOut": {
-            "turnOffset": 0
+        "turnout": {
+            "turnoffset": 0
         },
-        "gunnerInAction": "ManActTestDriver",
-        "gunnerAction": "ManActTestDriver",
-        "gunBeg": "usti hlavne",
-        "gunEnd": "konec hlavne",
-        "memoryPointGunnerOptics": "gunnerview",
-        "memoryPointGun": "kulas",
-        "selectionFireAnim": "zasleh",
-        "showCrewAim": 0
+        "gunnerinaction": "ManActTestDriver",
+        "gunneraction": "ManActTestDriver",
+        "gunbeg": "usti hlavne",
+        "gunend": "konec hlavne",
+        "memorypointgunneroptics": "gunnerview",
+        "memorypointgun": "kulas",
+        "selectionfireanim": "zasleh",
+        "showcrewaim": 0
     },
-    "curatorInfoType": "RscDisplayAttributesVehicle",
-    "curatorInfoTypeEmpty": "RscDisplayAttributesVehicleEmpty",
+    "curatorinfotype": "RscDisplayAttributesVehicle",
+    "curatorinfotypeempty": "RscDisplayAttributesVehicleEmpty",
     "access": 0,
     "reversed": 1,
     "autocenter": 1,
     "animated": 1,
     "shadow": 1,
-    "featureType": 0,
-    "speechSingular": [],
-    "speechPlural": [],
-    "maxDetectRange": 20,
-    "detectSkill": 20,
-    "mineAlertIconRange": 200,
-    "killFriendlyExpCoef": 1,
-    "weaponSlots": 0,
+    "featuretype": 0,
+    "speechsingular": [],
+    "speechplural": [],
+    "maxdetectrange": 20,
+    "detectskill": 20,
+    "minealerticonrange": 200,
+    "killfriendlyexpcoef": 1,
+    "weaponslots": 0,
     "camouflage": 2,
-    "spotableDarkNightLightsOff": 0.001,
-    "spotableNightLightsOff": 0.02,
-    "spotableNightLightsOn": 4,
-    "accuracyDarkNightLightsOff": 0.001,
-    "accuracyNightLightsOff": 0.006,
-    "accuracyNightLightsOn": 0.1,
-    "outsideSoundFilter": 0,
-    "obstructSoundLFRatio": 0,
-    "occludeSoundLFRatio": 0.25,
-    "slowSpeedForwardCoef": 0.3,
-    "enableManualFire": 1,
+    "spotabledarknightlightsoff": 0.001,
+    "spotablenightlightsoff": 0.02,
+    "spotablenightlightson": 4,
+    "accuracydarknightlightsoff": 0.001,
+    "accuracynightlightsoff": 0.006,
+    "accuracynightlightson": 0.1,
+    "outsidesoundfilter": 0,
+    "obstructsoundlfratio": 0,
+    "occludesoundlfratio": 0.25,
+    "slowspeedforwardcoef": 0.3,
+    "enablemanualfire": 1,
     "portrait": "",
-    "ghostPreview": "",
-    "destrType": "DestructDefault",
-    "damageResistance": 0.004,
-    "replaceDamaged": "",
-    "replaceDamagedLimit": 0.9,
-    "replaceDamagedHitpoints": [],
-    "keepInEPESceneAfterDeath": 0,
-    "fuelConsumptionRate": 0.01,
-    "groupCameraPosition": [0,5,-30],
-    "extCameraParams": [1],
-    "cameraSmoothSpeed": 5,
-    "minFireTime": 20,
-    "indirectHitEnemyCoefAI": 10,
-    "indirectHitFriendlyCoefAI": -20,
-    "indirectHitCivilianCoefAI": -20,
-    "indirectHitUnknownCoefAI": -0.5,
-    "formationTime": 5,
-    "alwaysTarget": 0,
-    "irTarget": 1,
-    "irScanRangeMin": 0,
-    "irScanRangeMax": 0,
-    "irScanToEyeFactor": 1,
-    "irScanGround": 1,
-    "laserTarget": 0,
-    "laserScanner": 0,
-    "nvTarget": 0,
-    "nvScanner": 0,
-    "artilleryTarget": 0,
-    "artilleryScanner": 0,
-    "canUseScanners": 1,
-    "unitInfoTypeLite": 0,
-    "nightVision": 0,
-    "radarType": 0,
-    "hasDriver": 1,
-    "driverForceOptics": 0,
-    "getInRadius": 2.5,
-    "enableWatch": 0,
-    "lockDetectionSystem": 0,
-    "incomingMissileDetectionSystem": 0,
-    "usePreciseGetInAction": 0,
-    "allowTabLock": 1,
-    "showAllTargets": 0,
-    "dustFrontLeftPos": "dustFrontLeft",
-    "dustFrontRightPos": "dustFrontRight",
-    "dustBackLeftPos": "dustBackLeft",
-    "dustBackRightPos": "dustBackRight",
-    "waterLinearDampingCoefX": 0,
-    "waterLinearDampingCoefY": 0,
-    "waterAngularDampingCoef": 0,
-    "showNVGCommander": 0,
-    "countsForScoreboard": 1,
+    "ghostpreview": "",
+    "destrtype": "DestructDefault",
+    "damageresistance": 0.004,
+    "replacedamaged": "",
+    "replacedamagedlimit": 0.9,
+    "replacedamagedhitpoints": [],
+    "keepinepesceneafterdeath": 0,
+    "fuelconsumptionrate": 0.01,
+    "groupcameraposition": [0,5,-30],
+    "extcameraparams": [1],
+    "camerasmoothspeed": 5,
+    "minfiretime": 20,
+    "indirecthitenemycoefai": 10,
+    "indirecthitfriendlycoefai": -20,
+    "indirecthitciviliancoefai": -20,
+    "indirecthitunknowncoefai": -0.5,
+    "formationtime": 5,
+    "alwaystarget": 0,
+    "irtarget": 1,
+    "irscanrangemin": 0,
+    "irscanrangemax": 0,
+    "irscantoeyefactor": 1,
+    "irscanground": 1,
+    "lasertarget": 0,
+    "laserscanner": 0,
+    "nvtarget": 0,
+    "nvscanner": 0,
+    "artillerytarget": 0,
+    "artilleryscanner": 0,
+    "canusescanners": 1,
+    "unitinfotypelite": 0,
+    "nightvision": 0,
+    "radartype": 0,
+    "hasdriver": 1,
+    "driverforceoptics": 0,
+    "getinradius": 2.5,
+    "enablewatch": 0,
+    "lockdetectionsystem": 0,
+    "incomingmissiledetectionsystem": 0,
+    "useprecisegetinaction": 0,
+    "allowtablock": 1,
+    "showalltargets": 0,
+    "dustfrontleftpos": "dustFrontLeft",
+    "dustfrontrightpos": "dustFrontRight",
+    "dustbackleftpos": "dustBackLeft",
+    "dustbackrightpos": "dustBackRight",
+    "waterlineardampingcoefx": 0,
+    "waterlineardampingcoefy": 0,
+    "waterangulardampingcoef": 0,
+    "shownvgcommander": 0,
+    "countsforscoreboard": 1,
     # Class: CfgVehicles|All|MarkerLights [Indent level: 1],
-    "MarkerLights": {
+    "markerlights": {
     },
     # Class: CfgVehicles|All|NVGMarker [Indent level: 1],
-    "NVGMarker": {
+    "nvgmarker": {
         "diffuse": [1,1,1,1],
         "ambient": [1,1,1,1],
         "brightness": 1,
         "blinking": 0,
-        "onlyInNvg": 0
+        "onlyinnvg": 0
     },
     # Class: CfgVehicles|All|HeadLimits [Indent level: 1],
-    "HeadLimits": {
-        "initAngleX": 5,
-        "minAngleX": -30,
-        "maxAngleX": 40,
-        "initAngleY": 0,
-        "minAngleY": -90,
-        "maxAngleY": 90,
-        "minAngleZ": -45,
-        "maxAngleZ": 45,
-        "rotZRadius": 0.2
+    "headlimits": {
+        "initanglex": 5,
+        "minanglex": -30,
+        "maxanglex": 40,
+        "initangley": 0,
+        "minangley": -90,
+        "maxangley": 90,
+        "minanglez": -45,
+        "maxanglez": 45,
+        "rotzradius": 0.2
     },
-    "transportAmmo": 0,
+    "transportammo": 0,
     "isbackpack": 0,
-    "transportFuel": 0,
-    "transportRepair": 0,
-    "transportVehiclesCount": 0,
-    "transportVehiclesMass": 0,
+    "transportfuel": 0,
+    "transportrepair": 0,
+    "transportvehiclescount": 0,
+    "transportvehiclesmass": 0,
     "attendant": 0,
     "engineer": 0,
-    "uavHacker": 0,
+    "uavhacker": 0,
     # Class: CfgVehicles|All|SoundEnvironExt [Indent level: 1],
-    "SoundEnvironExt": {
+    "soundenvironext": {
     },
     # Class: CfgVehicles|All|SoundEquipment [Indent level: 1],
-    "SoundEquipment": {
+    "soundequipment": {
     },
     # Class: CfgVehicles|All|SoundBreath [Indent level: 1],
-    "SoundBreath": {
+    "soundbreath": {
     },
     # Class: CfgVehicles|All|SoundBreathSwimming [Indent level: 1],
-    "SoundBreathSwimming": {
+    "soundbreathswimming": {
     },
     # Class: CfgVehicles|All|SoundBreathInjured [Indent level: 1],
-    "SoundBreathInjured": {
+    "soundbreathinjured": {
     },
     # Class: CfgVehicles|All|SoundHitScream [Indent level: 1],
-    "SoundHitScream": {
+    "soundhitscream": {
     },
     # Class: CfgVehicles|All|SoundInjured [Indent level: 1],
-    "SoundInjured": {
+    "soundinjured": {
     },
     # Class: CfgVehicles|All|SoundBreathAutomatic [Indent level: 1],
-    "SoundBreathAutomatic": {
+    "soundbreathautomatic": {
     },
     # Class: CfgVehicles|All|SoundDrown [Indent level: 1],
-    "SoundDrown": {
+    "sounddrown": {
     },
     # Class: CfgVehicles|All|SoundChoke [Indent level: 1],
-    "SoundChoke": {
+    "soundchoke": {
     },
     # Class: CfgVehicles|All|SoundRecovered [Indent level: 1],
-    "SoundRecovered": {
+    "soundrecovered": {
     },
     # Class: CfgVehicles|All|SoundBurning [Indent level: 1],
-    "SoundBurning": {
+    "soundburning": {
     },
     # Class: CfgVehicles|All|PulsationSound [Indent level: 1],
-    "PulsationSound": {
+    "pulsationsound": {
     },
     # Class: CfgVehicles|All|SoundDrowning [Indent level: 1],
-    "SoundDrowning": {
+    "sounddrowning": {
     },
-    "soundLandCrash": ["",1,1],
-    "soundWaterCrash": ["",0.177828,1],
-    "soundServo": ["",0.00316228,0.5],
-    "soundElevation": ["",0.00316228,0.5],
+    "soundlandcrash": ["",1,1],
+    "soundwatercrash": ["",0.177828,1],
+    "soundservo": ["",0.00316228,0.5],
+    "soundelevation": ["",0.00316228,0.5],
     "sounddamage": ["",1,1],
-    "soundGearUp": ["",1,1],
-    "soundGearDown": ["",1,1],
-    "soundFlapsUp": ["",1,1],
-    "soundFlapsDown": ["",1,1],
-    "cabinOpenSound": ["",1,1],
-    "cabinCloseSound": ["",1,1],
-    "cabinOpenSoundInternal": ["",1,1],
-    "cabinCloseSoundInternal": ["",1,1],
-    "soundLandCrashes": ["soundLandCrash",1],
-    "soundWaterCrashes": ["soundWaterCrash",1],
-    "emptySound": ["",0,1],
-    "soundLocked": ["",1,1],
-    "soundIncommingMissile": ["",1,1],
-    "cargoIsCoDriver": [0],
-    "driverCompartments": "Compartment1",
-    "driverOpticsModel": "",
-    "driverOpticsEffect": [],
-    "driverOpticsColor": [1,1,1,1],
-    "hideProxyInCombat": 0,
-    "canHideDriver": -1,
-    "viewDriverShadow": 1,
-    "viewDriverShadowDiff": 1,
-    "viewDriverShadowAmb": 1,
-    "viewCargoShadow": 1,
-    "ejectDeadDriver": 0,
-    "ejectDeadCargo": 0,
-    "hiddenSelectionsMaterials": [],
-    "hiddenUnderwaterSelections": [],
-    "shownUnderWaterSelections": [],
-    "hiddenUnderwaterSelectionsTextures": [],
+    "soundgearup": ["",1,1],
+    "soundgeardown": ["",1,1],
+    "soundflapsup": ["",1,1],
+    "soundflapsdown": ["",1,1],
+    "cabinopensound": ["",1,1],
+    "cabinclosesound": ["",1,1],
+    "cabinopensoundinternal": ["",1,1],
+    "cabinclosesoundinternal": ["",1,1],
+    "soundlandcrashes": ["soundLandCrash",1],
+    "soundwatercrashes": ["soundWaterCrash",1],
+    "emptysound": ["",0,1],
+    "soundlocked": ["",1,1],
+    "soundincommingmissile": ["",1,1],
+    "cargoiscodriver": [0],
+    "drivercompartments": "Compartment1",
+    "driveropticsmodel": "",
+    "driveropticseffect": [],
+    "driveropticscolor": [1,1,1,1],
+    "hideproxyincombat": 0,
+    "canhidedriver": -1,
+    "viewdrivershadow": 1,
+    "viewdrivershadowdiff": 1,
+    "viewdrivershadowamb": 1,
+    "viewcargoshadow": 1,
+    "ejectdeaddriver": 0,
+    "ejectdeadcargo": 0,
+    "hiddenselectionsmaterials": [],
+    "hiddenunderwaterselections": [],
+    "shownunderwaterselections": [],
+    "hiddenunderwaterselectionstextures": [],
     # Class: CfgVehicles|All|FxExplo [Indent level: 1],
-    "FxExplo": {
+    "fxexplo": {
         "access": 1
     },
     # Class: CfgVehicles|All|GunFire [Indent level: 1],
-    "GunFire": {
+    "gunfire": {
         "access": 0,
-        "cloudletDuration": 0.2,
-        "cloudletAnimPeriod": 1,
-        "cloudletSize": 1,
-        "cloudletAlpha": 1,
-        "cloudletGrowUp": 0.2,
-        "cloudletFadeIn": 0.01,
-        "cloudletFadeOut": 0.5,
-        "cloudletAccY": 0,
-        "cloudletMinYSpeed": -100,
-        "cloudletMaxYSpeed": 100,
-        "cloudletShape": "cloudletFire",
-        "cloudletColor": [1,1,1,0],
+        "cloudletduration": 0.2,
+        "cloudletanimperiod": 1,
+        "cloudletsize": 1,
+        "cloudletalpha": 1,
+        "cloudletgrowup": 0.2,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 0.5,
+        "cloudletaccy": 0,
+        "cloudletminyspeed": -100,
+        "cloudletmaxyspeed": 100,
+        "cloudletshape": "cloudletFire",
+        "cloudletcolor": [1,1,1,0],
         "interval": 0.01,
         "size": 3,
-        "sourceSize": 0.5,
-        "timeToLive": 0,
-        "initT": 4500,
-        "deltaT": -3000,
+        "sourcesize": 0.5,
+        "timetolive": 0,
+        "initt": 4500,
+        "deltat": -3000,
         # Class: WeaponFireGun|Table [Indent level: 0],
-        "Table": {
+        "table": {
             # Class: WeaponFireGun|Table|T0 [Indent level: 1]
-            "T0": {
-                "maxT": 0,
+            "t0": {
+                "maxt": 0,
                 "color": [0.82,0.95,0.93,0]
             },
             # Class: WeaponFireGun|Table|T1 [Indent level: 1],
-            "T1": {
-                "maxT": 200,
+            "t1": {
+                "maxt": 200,
                 "color": [0.75,0.77,0.9,0]
             },
             # Class: WeaponFireGun|Table|T2 [Indent level: 1],
-            "T2": {
-                "maxT": 400,
+            "t2": {
+                "maxt": 400,
                 "color": [0.56,0.62,0.67,0]
             },
             # Class: WeaponFireGun|Table|T3 [Indent level: 1],
-            "T3": {
-                "maxT": 600,
+            "t3": {
+                "maxt": 600,
                 "color": [0.39,0.46,0.47,0]
             },
             # Class: WeaponFireGun|Table|T4 [Indent level: 1],
-            "T4": {
-                "maxT": 800,
+            "t4": {
+                "maxt": 800,
                 "color": [0.24,0.31,0.31,0]
             },
             # Class: WeaponFireGun|Table|T5 [Indent level: 1],
-            "T5": {
-                "maxT": 1000,
+            "t5": {
+                "maxt": 1000,
                 "color": [0.23,0.31,0.29,0]
             },
             # Class: WeaponFireGun|Table|T6 [Indent level: 1],
-            "T6": {
-                "maxT": 1500,
+            "t6": {
+                "maxt": 1500,
                 "color": [0.21,0.29,0.27,0]
             },
             # Class: WeaponFireGun|Table|T7 [Indent level: 1],
-            "T7": {
-                "maxT": 2000,
+            "t7": {
+                "maxt": 2000,
                 "color": [0.19,0.23,0.21,0]
             },
             # Class: WeaponFireGun|Table|T8 [Indent level: 1],
-            "T8": {
-                "maxT": 2300,
+            "t8": {
+                "maxt": 2300,
                 "color": [0.22,0.19,0.1,0]
             },
             # Class: WeaponFireGun|Table|T9 [Indent level: 1],
-            "T9": {
-                "maxT": 2500,
+            "t9": {
+                "maxt": 2500,
                 "color": [0.35,0.2,0.02,0]
             },
             # Class: WeaponFireGun|Table|T10 [Indent level: 1],
-            "T10": {
-                "maxT": 2600,
+            "t10": {
+                "maxt": 2600,
                 "color": [0.62,0.29,0.03,0]
             },
             # Class: WeaponFireGun|Table|T11 [Indent level: 1],
-            "T11": {
-                "maxT": 2650,
+            "t11": {
+                "maxt": 2650,
                 "color": [0.59,0.35,0.05,0]
             },
             # Class: WeaponFireGun|Table|T12 [Indent level: 1],
-            "T12": {
-                "maxT": 2700,
+            "t12": {
+                "maxt": 2700,
                 "color": [0.75,0.37,0.03,0]
             },
             # Class: WeaponFireGun|Table|T13 [Indent level: 1],
-            "T13": {
-                "maxT": 2750,
+            "t13": {
+                "maxt": 2750,
                 "color": [0.88,0.34,0.03,0]
             },
             # Class: WeaponFireGun|Table|T14 [Indent level: 1],
-            "T14": {
-                "maxT": 2800,
+            "t14": {
+                "maxt": 2800,
                 "color": [0.91,0.5,0.17,0]
             },
             # Class: WeaponFireGun|Table|T15 [Indent level: 1],
-            "T15": {
-                "maxT": 2850,
+            "t15": {
+                "maxt": 2850,
                 "color": [1,0.6,0.2,0]
             },
             # Class: WeaponFireGun|Table|T16 [Indent level: 1],
-            "T16": {
-                "maxT": 2900,
+            "t16": {
+                "maxt": 2900,
                 "color": [1,0.71,0.3,0]
             },
             # Class: WeaponFireGun|Table|T17 [Indent level: 1],
-            "T17": {
-                "maxT": 2950,
+            "t17": {
+                "maxt": 2950,
                 "color": [0.98,0.83,0.41,0]
             },
             # Class: WeaponFireGun|Table|T18 [Indent level: 1],
-            "T18": {
-                "maxT": 3000,
+            "t18": {
+                "maxt": 3000,
                 "color": [0.98,0.91,0.54,0]
             },
             # Class: WeaponFireGun|Table|T19 [Indent level: 1],
-            "T19": {
-                "maxT": 3100,
+            "t19": {
+                "maxt": 3100,
                 "color": [0.98,0.99,0.6,0]
             },
             # Class: WeaponFireGun|Table|T20 [Indent level: 1],
-            "T20": {
-                "maxT": 3300,
+            "t20": {
+                "maxt": 3300,
                 "color": [0.96,0.99,0.72,0]
             },
             # Class: WeaponFireGun|Table|T21 [Indent level: 1],
-            "T21": {
-                "maxT": 3600,
+            "t21": {
+                "maxt": 3600,
                 "color": [1,0.98,0.91,0]
             },
             # Class: WeaponFireGun|Table|T22 [Indent level: 1],
-            "T22": {
-                "maxT": 4200,
+            "t22": {
+                "maxt": 4200,
                 "color": [1,1,1,0]
             }
         }
     },
     # Class: CfgVehicles|All|GunClouds [Indent level: 1],
-    "GunClouds": {
+    "gunclouds": {
         "access": 0,
-        "cloudletDuration": 0.3,
-        "cloudletAnimPeriod": 1,
-        "cloudletSize": 1,
-        "cloudletAlpha": 1,
-        "cloudletGrowUp": 1,
-        "cloudletFadeIn": 0.01,
-        "cloudletFadeOut": 1,
-        "cloudletAccY": 0.4,
-        "cloudletMinYSpeed": 0.2,
-        "cloudletMaxYSpeed": 0.8,
-        "cloudletShape": "cloudletClouds",
-        "cloudletColor": [1,1,1,0],
+        "cloudletduration": 0.3,
+        "cloudletanimperiod": 1,
+        "cloudletsize": 1,
+        "cloudletalpha": 1,
+        "cloudletgrowup": 1,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 1,
+        "cloudletaccy": 0.4,
+        "cloudletminyspeed": 0.2,
+        "cloudletmaxyspeed": 0.8,
+        "cloudletshape": "cloudletClouds",
+        "cloudletcolor": [1,1,1,0],
         "interval": 0.05,
         "size": 3,
-        "sourceSize": 0.5,
-        "timeToLive": 0,
-        "initT": 0,
-        "deltaT": 0,
+        "sourcesize": 0.5,
+        "timetolive": 0,
+        "initt": 0,
+        "deltat": 0,
         # Class: WeaponCloudsGun|Table [Indent level: 0],
-        "Table": {
+        "table": {
             # Class: WeaponCloudsGun|Table|T0 [Indent level: 1]
-            "T0": {
-                "maxT": 0,
+            "t0": {
+                "maxt": 0,
                 "color": [1,1,1,0]
             }
         }
     },
     # Class: CfgVehicles|All|MGunClouds [Indent level: 1],
-    "MGunClouds": {
+    "mgunclouds": {
         "access": 0,
-        "cloudletGrowUp": 0.05,
-        "cloudletFadeIn": 0,
-        "cloudletFadeOut": 0.1,
-        "cloudletDuration": 0.05,
-        "cloudletAnimPeriod": 1,
-        "cloudletSize": 1,
-        "cloudletAlpha": 0.3,
-        "cloudletAccY": 0,
-        "cloudletMinYSpeed": -100,
-        "cloudletMaxYSpeed": 100,
-        "cloudletShape": "cloudletClouds",
-        "cloudletColor": [1,1,1,0],
-        "timeToLive": 0,
+        "cloudletgrowup": 0.05,
+        "cloudletfadein": 0,
+        "cloudletfadeout": 0.1,
+        "cloudletduration": 0.05,
+        "cloudletanimperiod": 1,
+        "cloudletsize": 1,
+        "cloudletalpha": 0.3,
+        "cloudletaccy": 0,
+        "cloudletminyspeed": -100,
+        "cloudletmaxyspeed": 100,
+        "cloudletshape": "cloudletClouds",
+        "cloudletcolor": [1,1,1,0],
+        "timetolive": 0,
         "interval": 0.02,
         "size": 0.3,
-        "sourceSize": 0.02,
-        "initT": 0,
-        "deltaT": 0,
+        "sourcesize": 0.02,
+        "initt": 0,
+        "deltat": 0,
         # Class: WeaponCloudsMGun|Table [Indent level: 0],
-        "Table": {
+        "table": {
             # Class: WeaponCloudsMGun|Table|T0 [Indent level: 1]
-            "T0": {
-                "maxT": 0,
+            "t0": {
+                "maxt": 0,
                 "color": [1,1,1,0]
             }
         }
     },
-    "HeadAimDown": 0,
-    "cargoCanEject": 1,
-    "driverCanEject": 1,
-    "airCapacity": 10,
-    "waterDamageEngine": 0.2,
-    "damageTexDelay": 0,
-    "coefInside": 2,
-    "coefInsideHeur": 2,
-    "coefSpeedInside": 2,
-    "windSockExist": 0,
-    "slingLoadCargoMemoryPointsDir": [],
-    "damageHalf": [],
-    "damageFull": [],
-    "minGForce": 0.2,
-    "gForceShakeAttenuation": 0.5,
+    "headaimdown": 0,
+    "cargocaneject": 1,
+    "drivercaneject": 1,
+    "aircapacity": 10,
+    "waterdamageengine": 0.2,
+    "damagetexdelay": 0,
+    "coefinside": 2,
+    "coefinsideheur": 2,
+    "coefspeedinside": 2,
+    "windsockexist": 0,
+    "slingloadcargomemorypointsdir": [],
+    "damagehalf": [],
+    "damagefull": [],
+    "mingforce": 0.2,
+    "gforceshakeattenuation": 0.5,
     # Class: CfgVehicles|All|camShakeDamage [Indent level: 1],
-    "camShakeDamage": {
+    "camshakedamage": {
         "power": 0.5,
         "frequency": 60,
         "distance": -1,
-        "minSpeed": 1,
+        "minspeed": 1,
         "attenuation": 0.5,
         "duration": 3
     },
-    "soundTurnIn": ["",0.000316228,1],
-    "soundTurnOut": ["",0.000316228,1],
-    "soundTurnInInternal": ["",0.000316228,1],
-    "soundTurnOutInternal": ["",0.000316228,1],
-    "insideDetectCoef": 0.05,
+    "soundturnin": ["",0.000316228,1],
+    "soundturnout": ["",0.000316228,1],
+    "soundturnininternal": ["",0.000316228,1],
+    "soundturnoutinternal": ["",0.000316228,1],
+    "insidedetectcoef": 0.05,
 }
