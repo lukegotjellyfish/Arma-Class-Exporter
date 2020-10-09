@@ -474,13 +474,10 @@
 		[
 			"BluFor\Uniforms",
 			"CfgWeapons",
-			"G_Aviator",
-			"G_Bandanna_blk",
 			"H_Cap_headphones",
 			"rhs_8point_marpatd",
 			"rhs_8point_marpatwd",
 			"rhs_Booniehat_ucp",
-			"rhs_ess_black",
 			"RHS_jetpilot_usaf",
 			"rhs_uniform_acu_ocp",
 			"rhs_uniform_acu_ucp",
@@ -499,7 +496,6 @@
 			"rhsusf_ach_helmet_ucp",
 			"rhsusf_cvc_ess",
 			"rhsusf_cvc_green_ess",
-			"rhsusf_falconii",
 			"rhsusf_hgu56p_saf",
 			"rhsusf_hgu56p_visor_green",
 			"rhsusf_iotv_ocp",
@@ -518,10 +514,6 @@
 			"rhsusf_opscore_mar_ut_pelt",
 			"rhsusf_patrolcap_ocp",
 			"rhsusf_patrolcap_ucp",
-			"rhsusf_shemagh_tan",
-			"rhsusf_shemagh2_gogg_grn",
-			"rhsusf_shemagh2_gogg_od",
-			"rhsusf_shemagh2_gogg_tan",
 			"rhsusf_spc",
 			"rhsusf_spc_teamleader",
 			"rhsusf_spcs_ocp",
@@ -563,15 +555,12 @@
 			"rhs_6sh92_digi_vog_headset",
 			"rhs_6sh92_vsr",
 			"rhs_altyn_visordown",
-			"rhs_assault_umbts",
-			"rhs_balaclava1_olive",
 			"rhs_beanie_green",
 			"rhs_beret_mp1",
 			"rhs_beret_vdv3",
 			"rhs_Booniehat_digi",
 			"rhs_fieldcap_digi2",
 			"rhs_fieldcap_vsr",
-			"rhs_sidor",
 			"rhs_ssh68",
 			"rhs_tsh4",
 			"rhs_uniform_df15",
@@ -591,11 +580,50 @@
 			"rhs_vydra_3m",
 			"rhs_zsh7a_alt",
 			"rhs_zsh7a_mike_alt",
-			"rhsgref_ttsko_alicepack",
 			"U_O_FullGhillie_ard",
 			"U_O_FullGhillie_lsh",
 			"U_O_FullGhillie_sard",
 			"V_Chestrig_khk"
+		]
+	],
+	//backpacks matrix
+	[
+		//BluFor
+		[
+			"BluFor\Backpacks",
+			"CfgVehicles",
+			"rhsusf_falconii",
+			"B_Carryall_cbr"
+		],
+		//OpFor
+		[
+			"OpFor\Backpacks",
+			"CfgVehicles",
+			"rhs_sidor",
+			"rhs_assault_umbts",
+			"rhsgref_ttsko_alicepack"
+		]
+	],
+	//glasses matrix
+	[
+		//BluFor
+		[
+			"BluFor\Glasses",
+			"CfgGlasses",
+			"G_Aviator",
+			"G_Bandanna_blk",
+			"rhs_ess_black",
+			"rhsusf_shemagh_tan",
+			"rhsusf_shemagh2_gogg_grn",
+			"rhsusf_shemagh2_gogg_od",
+			"rhsusf_shemagh2_gogg_tan"
+		],
+		//OpFor
+		[
+			"OpFor\Glasses",
+			"CfgGlasses",
+			"G_Bandanna_blk",
+			"rhs_balaclava1_olive"
 		]
 	]
 ];
@@ -615,7 +643,7 @@ getClass = {
 		//Add comment showing class
 		_classBody = _classBody + format["%1    # Class: %2 [Indent level: %3]", _addComma, (_splitClass joinString "|"), str (_countSplitClass - 2)];
 		//Classes with "ammo" first will not have a ,\n for whatever reason - adding it here
-		if (_addComma find ",\n" == -1) then {_addComma = ",\n" + _addComma};
+		if (_addComma find "\n" == -1) then {_addComma = ",\n" + _addComma splitString "," joinString ""};
 		_classBody = _classBody + format['%1    "%2": {', _addComma, _propertyNameLast];
 
 		//create _classProperties to assign array to
@@ -821,6 +849,5 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		diag_log(format["_folder             = %1", _folder]);
 		diag_log(format["_folderCategoryName = %1", _folderCategoryName]);
 		diag_log(format["Trying to write to %1", _combinedPath]);
-		"make_file" callExtension (_combinedPath + "|" + "empty");
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
