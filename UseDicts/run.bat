@@ -1,2 +1,0 @@
-Call "Script.py"
-PAUSE
