@@ -85,15 +85,15 @@ def getWeaponStats(weapon, magazine):
     name          = fetchSide(["BluForWeapons",weapon,"displayname"])
     magCapacity   = fetchSide(["BluForMagazines",magazine,"count"])
     damage        = fetchSide(["BluForMagazines",magazine,"ammo","hit"])
-    fireModes     = fetchSide(["BluForWeapons",weapon,"modes"])
-    rpm           = getRPM("BluFor",weapon,fireModes)
+    fireModes     = [x.lower() for x in fetchSide(["BluForWeapons",weapon,"modes"])]
+    rpm           = getRPM("BluForWeapons",weapon,fireModes)
     wepClass      = weapon
     magClass      = magazine
     dispersion    = fetchSide(["BluForWeapons",weapon,"dispersion"])
     initialSpeed  = fetchSide(["BluForMagazines",magazine,"initspeed"])
     airResistance = fetchSide(["BluForMagazines",magazine,"ammo","airfriction"])
     caliber       = fetchSide(["BluForMagazines",magazine,"ammo","caliber"])
-    penetration   = (initialSpeed * (caliber/1000) * 15)  #RHA
+    penetration   = str((initialSpeed * (caliber/1000) * 15)) + "mm"  #RHA
     return [name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
             dispersion, initialSpeed, airResistance, caliber, penetration]
 
@@ -161,6 +161,7 @@ opForWeapons = [
 ]
 
 # [name, magazine count, damage, fire modes, RPM, weapon classname, magazine classnames, dispersion, initspeed, bullet friction, caliber, penetration]
+
 
 for weapon in bluForWeapons:
     print("Weapon: " + weapon[0])
