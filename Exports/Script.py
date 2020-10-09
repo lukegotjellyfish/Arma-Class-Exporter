@@ -66,17 +66,6 @@ def fetchSide(array):
 # print(CombinedBluFor)
 # print(CombinedOpFor)
 
-def getFireMode(side, weapon):
-    fireModes = ["1"]
-    modes = ["burst", "fullauto"]
-    for mode in modes:
-        try:
-            fetchSide([side,weapon,mode])
-            fireModes.append(mode)
-        except KeyError:
-            pass
-    return fireModes
-
 def getRPM(side, weapon, fireModes):
     rpm = []
     try:
@@ -88,7 +77,7 @@ def getRPM(side, weapon, fireModes):
         try:
             rpm.append(fetchSide([side,weapon,mode,"reloadtime"]))
         except KeyError:
-            pass
+            continue
     return rpm
 
 
@@ -96,7 +85,7 @@ def getWeaponStats(weapon, magazine):
     name          = fetchSide(["BluForWeapons",weapon,"displayname"])
     magCapacity   = fetchSide(["BluForMagazines",magazine,"count"])
     damage        = fetchSide(["BluForMagazines",magazine,"ammo","hit"])
-    fireModes     = getFireMode("BluFor", weapon)
+    fireModes     = fetchSide(["BluForWeapons",weapon,"modes"])
     rpm           = getRPM("BluFor",weapon,fireModes)
     wepClass      = weapon
     magClass      = magazine
