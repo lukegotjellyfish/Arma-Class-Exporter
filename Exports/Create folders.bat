@@ -8,6 +8,8 @@ MKDIR BluFor\Vehicles
 MKDIR BluFor\VehicleWeapons
 MKDIR BluFor\Weapons
 MKDIR BluFor\Uniforms
+MKDIR BluFor\Backpacks
+MKDIR BluFor\Glasses
 
 MKDIR OpFor\LauncherMagazines
 MKDIR OpFor\Launchers
@@ -17,6 +19,8 @@ MKDIR OpFor\Vehicles
 MKDIR OpFor\VehicleWeapons
 MKDIR OpFor\Weapons
 MKDIR OpFor\Uniforms
+MKDIR OpFor\Backpacks
+MKDIR OpFor\Glasses
 
 MKDIR Exports
 
