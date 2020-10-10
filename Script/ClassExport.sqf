@@ -124,7 +124,7 @@
 			"rhs_30Rnd_545x39_7N6_AK"                           ,
 			"rhs_30Rnd_545x39_7N6M_AK"                          ,
 			"rhsgref_30rnd_556x45_vhs2"                         ,
-			"rhs_30Rnd_762x39mm"                                ,
+			"rhs_30Rnd_762x39mm_polymer_89"                     ,
 			"rhs_30Rnd_762x39mm"
 		]
 	]                                                     ,
