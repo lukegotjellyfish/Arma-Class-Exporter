@@ -1,0 +1,33 @@
+HK G36KV,30,9,"['single', 'burst2rnd', 'fullauto', 'single_medium_optics1', 'single_far_optics2']","[0.15, 0.08, 0.08, 0.08, 0.08, 0.08]",rhs_weap_g36kv,rhssaf_30rnd_556x45_EPR_G36,0.00029,920,-0.000772,0.65,8.969999999999999mm
+HK416 D14.5,30,9.55,"['single', 'single_ai', 'fullauto', 'single_medium_optics1', 'single_far_optics2']","[0.07, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_hk416d145,rhs_mag_30Rnd_556x45_Mk318_Stanag,0.00029,950.366,-0.00076,0.64,9.1235136mm
+Karabiner 98 Kurz,5,11.55,"['single', 'far_optic1', 'medium_optic2', 'far_optic2']","[0.15, 1.6, 1.6, 1.6, 1.6]",rhs_weap_kar98k,rhsgref_5Rnd_792x57_kar98k,0.00029,869,-0.0006814,0.45,5.86575mm
+L1A1 (Polymer),20,11.55,"['single', 'single_ai', 'single_medium_optics1', 'single_far_optics2']","[0.15, 0.0888889, 0.0888889, 0.0888889, 0.0888889]",rhs_weap_l1a1_base,rhs_mag_20Rnd_762x51_m80_fnfal,0.00029,844,-0.0006814,0.45,5.696999999999999mm
+M107,10,25.3075,"['single', 'far_optic1', 'medium_optic2', 'far_optic2']","[0.15, 0.1, 0.4, 0.4, 0.4]",rhs_weap_M107,rhsusf_mag_10Rnd_STD_50BMG_M33,0.00029,853,-0.000617,1.02533,13.11909735mm
+Mk18 ABR 7.62 mm,20,11.55,"['single', 'fullauto', 'single_close_optics1', 'single_medium_optics1', 'single_far_optics1', 'fullauto_medium']","[0.15, 0.1, 0.085, 0.085, 0.085, 0.085, 0.085]",rhs_weap_m14ebrri,rhsusf_20Rnd_762x51_m118_special_Mag,0.00029,805,-0.0007474,0.52,6.279000000000001mm
+M16A4,30,9,"['single', 'single_ai', 'burst', 'single_medium_optics1', 'single_far_optics2']","[0.15, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_m16a4,rhs_mag_30Rnd_556x45_M855_Stanag,0.00029,960,-0.00076,0.44,6.336mm
+M1 Garand,8,13.75,"['single', 'far_optic1', 'medium_optic2', 'far_optic2']","[0.15, 0.1, 0.1, 0.1, 0.1]",rhs_weap_m1garand_sa43,rhsgref_8Rnd_762x63_M2B_M1rifle,0.00029,770,-0.0006814,0.45,5.1975mm
+M21A,30,9,"['single', 'single_ai', 'fullauto', 'single_medium_optics1', 'single_far_optics2', 'fullauto_medium']","[0.15, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]",rhs_weap_m21a,rhsgref_30rnd_556x45_m21,0.00029,925,-0.00076,0.44,6.105mm
+M240G,100,11.55,"['manual', 'close', 'short', 'medium', 'far']","[0.15, 0.08, 0.08, 0.08, 0.08, 0.08]",rhs_weap_m240G,Rhsusf_100Rnd_762x51,0.00029,838,-0.0006814,0.45,5.656499999999999mm
+M249 PIP,200,9,"['fullauto', 'close', 'short', 'medium', 'far_optic1', 'far_optic2']","[0.15, 0.075, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_m249_pip,rhs_200rnd_556x45_B_SAW,0.00029,960,-0.000772,0.65,9.36mm
+M249,200,9,"['fullauto', 'close', 'short', 'medium', 'far_optic1', 'far_optic2']","[0.15, 0.075, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_m249,rhs_200rnd_556x45_B_SAW,0.00029,960,-0.000772,0.65,9.36mm
+M24 SWS,5,11.55,"['single', 'far_optic1', 'medium_optic2', 'far_optic2']","[0.15, 1.6, 1.6, 1.6, 1.6]",rhs_weap_m24sws,rhsusf_5Rnd_762x51_m993_Mag,0.00029,910,-0.0006814,1.41176,19.270524mm
+M27 IAR,30,9.55,"['single', 'single_ai', 'fullauto', 'single_medium_optics1', 'single_far_optics2']","[0.07, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_m27iar,rhs_mag_30Rnd_556x45_Mk318_Stanag,0.00029,950.366,-0.00076,0.64,9.1235136mm
+M3A1 (SD),30,5.14686,['fullauto'],"[0.15, 0.15]",rhs_weap_m3a1_specops,rhsgref_30rnd_1143x23_M1911B_SMG,0.00029,280,-0.0018,2.68097,11.260074mm
+M40A5,10,11.55,"['single', 'far_optic1', 'medium_optic2', 'far_optic2']","[0.15, 1.6, 1.6, 1.6, 1.6]",rhs_weap_m40a5,rhsusf_10Rnd_762x51_m993_Mag,0.00029,910,-0.0006814,1.41176,19.270524mm
+M4A1 Block II,30,9,"['single', 'single_ai', 'fullauto', 'single_medium_optics1', 'single_far_optics2']","[0.15, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_m4a1_blockII,rhs_mag_30Rnd_556x45_M855_Stanag,0.00029,960,-0.00076,0.44,6.336mm
+M4A1 PIP,30,10.3,"['single', 'single_ai', 'fullauto', 'single_medium_optics1', 'single_far_optics2']","[0.15, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_m4a1,rhs_mag_30Rnd_556x45_Mk262_Stanag,0.00029,838.2,-0.00066,0.677,8.511921000000001mm
+M590A1 (Short),5,20,['single'],"[0.15, 0.6]",rhs_weap_M590_5RD,rhsusf_5Rnd_00Buck,0.00029,336,-0.008,1,5.04mm
+M590A1 (Short),5,34.51,['single'],"[0.15, 0.6]",rhs_weap_M590_5RD,rhsusf_5Rnd_Slug,0.00029,395,-0.002042,0.3048,1.8059400000000003mm
+MG42,50,11.55,"['manual', 'close', 'short', 'medium', 'far']","[0.15, 0.05, 0.05, 0.05, 0.05, 0.05]",rhs_weap_mg42,rhsgref_50Rnd_792x57_SmE_drum,0.00029,770,-0.0006814,0.45,5.1975mm
+Mk 18 Mod 1,30,10.3,"['single', 'single_ai', 'fullauto', 'single_medium_optics1', 'single_far_optics2']","[0.15, 0.075, 0.075, 0.075, 0.075, 0.075]",rhs_weap_mk18,rhs_mag_30Rnd_556x45_Mk262_Stanag,0.00029,838.2,-0.00066,0.677,8.511921000000001mm
+Mosin SBR,5,11.47,"['single', 'far_optic1', 'medium_optic2', 'far_optic2']","[0.15, 1.6, 1.6, 1.6, 1.6]",rhs_weap_mosin_sbr,rhsgref_5Rnd_762x54_m38,0.00029,823,-0.0010922,0.341151,4.211509094999999mm
+MP44,30,7.5,"['single', 'fullauto', 'single_medium_optics1', 'single_far_optics2', 'fullauto_medium']","[0.15, 0.103448, 0.103448, 0.103448, 0.103448, 0.103448]",rhs_weap_MP44,rhsgref_30Rnd_792x33_SmE_StG,0.00029,685,-0.00101,0.44,4.521mm
+Sa vz. 61,20,5.07,"['single', 'fullauto']","[0.15, 0.075, 0.075]",rhs_weap_savz61,rhsgref_20rnd_765x17_vz61,0.00029,320,-0.00176715,0.838,4.0224mm
+SCAR-H (STD),20,11.55,"['single', 'single_ai', 'fullauto', 'single_medium_optics1', 'single_far_optics2', 'fullauto_medium']","[0.15, 0.1, 0.075, 0.1, 0.075, 0.075, 0.075]",rhs_weap_SCARH_STD,rhs_mag_20Rnd_SCAR_762x51_m80_ball,0.00029,794,-0.0006814,0.45,5.3595mm
+Mk 11 Mod 0,20,11.55,"['single', 'fullauto', 'single_close_optics1', 'single_medium_optics1', 'single_far_optics1', 'fullauto_medium']","[2, 0.096, 0.085, 0.096, 0.096, 0.096, 0.085]",rhs_weap_sr25,rhsusf_20Rnd_762x51_m118_special_Mag,0.00029,805,-0.0007474,0.52,6.279000000000001mm
+Type 94 Nambu,6,3.43133,['single'],"[1, 0.1]",rhs_weap_type94_new,rhs_mag_6x8mm_mhp,0.02,280,-0.0018,0.533333,2.2399986000000003mm
+M2010 ESR,5,18.5,"['single', 'far_optic1', 'medium_optic2', 'far_optic2']","[0.15, 1.6, 1.6, 1.6, 1.6]",rhs_weap_XM2010,rhsusf_5Rnd_300winmag_xm2010,0.00029,869,-0.0007034,0.79,10.29765mm
+Glock 17,17,6.94265,['single'],"[0.13, 0.12]",rhsusf_weap_glock17g4,rhsusf_mag_17Rnd_9x19_JHP,0.02,301.8,-0.001095,0.415,1.878705mm
+M1911A1,7,5.14686,['single'],"[0.13, 0.15]",rhsusf_weap_m1911a1,rhsusf_mag_7x45acp_MHP,0.02,280,-0.0018,2.68097,11.260074mm
+M9 Beretta,15,6.94265,['single'],"[0.13, 0.12]",rhsusf_weap_m9,rhsusf_mag_15Rnd_9x19_JHP,0.02,301.8,-0.001095,0.415,1.878705mm
+MP7A2,40,7.4,"['single', 'fullauto']","[0.15, 0.075, 0.075]",rhsusf_weap_MP7A2,rhsusf_mag_40Rnd_46x30_JHP,0.00029,620,-0.00348301,0.464,4.3152mm
