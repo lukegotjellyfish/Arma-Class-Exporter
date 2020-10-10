@@ -6,6 +6,18 @@ import CombinedBluFor
 import CombinedOpFor
 
 
+os.system("")
+cred     = '\33[91m'
+cgreen   = '\33[92m'
+cgrey    = '\33[90m'
+cviolet2 = '\33[95m'
+
+cbold    = '\33[1m'
+
+cend     = '\033[0m'
+
+SEPERATOR = cgreen + cbold + "======================================================================================================================" + cend
+
 #There must be a better way of doing this
 def bluFor(array, depth):
     if depth == 2:
@@ -88,21 +100,35 @@ def getWeaponStats(weapon, magazine, side):
     fireModes     = [x.lower() for x in fetchSide([side + "Weapons",weapon,"modes"])]
     rpm           = getRPM(side + "Weapons",weapon,fireModes)
     wepClass      = weapon
-    magClass      = magazine
+    magClass      = fetchSide([side + "Magazines",magazine,"displaynameshort"]) + " = " + magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
     dispersion    = fetchSide([side + "Weapons",weapon,"dispersion"])
     initialSpeed  = fetchSide([side + "Magazines",magazine,"initspeed"])
     airResistance = fetchSide([side + "Magazines",magazine,"ammo","airfriction"])
     caliber       = fetchSide([side + "Magazines",magazine,"ammo","caliber"])
-    penetration   = str((initialSpeed * (caliber/1000) * 15)) + "mm"  #RHA
+    penetration   = str((initialSpeed * (caliber/1000) * 15)) + "mm RHA"  #RHA
     return [name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
             dispersion, initialSpeed, airResistance, caliber, penetration]
 
 def writeStats(weapon, side, csvwriter):
     weaponStats = getWeaponStats(weapon[0], weapon[1], side)
     csvwriter.writerow(weaponStats)
-    print("Weapon: " + weapon[0])
-    print("stats: " + str(weaponStats))
+    print(SEPERATOR)
+    print("          Name: " + str(weaponStats[0])  + "\n"
+          "      Capacity: " + str(weaponStats[1])  + "\n"
+          "        Damage: " + str(weaponStats[2])  + "\n"
+          "    Fire Modes: " + str(weaponStats[3])  + "\n"
+          "           RPM: " + str(weaponStats[4])  + "\n"
+          "  Weapon Class: " + str(weaponStats[5])  + "\n"
+          "Magazine Class: " + str(weaponStats[6])  + "\n"
+          "    Dispersion: " + str(weaponStats[7])  + "\n"
+          " Initial Speed: " + str(weaponStats[8])  + "\n"
+          "Air Resistance: " + str(weaponStats[9])  + "\n"
+          "       Caliber: " + str(weaponStats[10]) + "\n"
+          "   Penetration: " + str(weaponStats[11]))
+    print(SEPERATOR + "\n\n")
 
+#[name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
+# dispersion, initialSpeed, airResistance, caliber, penetration]
 
 bluForWeapons = [
     ["rhs_weap_g36kv"         ,"rhssaf_30rnd_556x45_EPR_G36"          ],
@@ -140,31 +166,31 @@ bluForWeapons = [
     ["rhsusf_weap_MP7A2"      ,"rhsusf_mag_40Rnd_46x30_JHP"           ]
 ]
 opForWeapons = [
-    ["rhs_weap_ak103"        ,"rhs_30Rnd_762x39mm"],
-    ["rhs_weap_ak74"         ,"rhs_30Rnd_545x39_7N6_AK"],
-    ["rhs_weap_ak74m"        ,"rhs_30Rnd_545x39_7N10_AK"],
-    ["rhs_weap_ak74mr"       ,"rhs_30Rnd_545x39_7N22_AK"],
-    ["rhs_weap_akmn"         ,"rhs_30Rnd_762x39mm"],
-    ["rhs_weap_aks74un"      ,"rhs_30Rnd_545x39_7N6M_AK"],
-    ["rhs_weap_asval_npz"    ,"rhs_20rnd_9x39mm_SP6"],
-    ["rhs_weap_asval"        ,"rhs_20rnd_9x39mm_SP6"],
-    ["rhs_weap_dsr1"         ,"rhsusf_5Rnd_762x51_m62_Mag"],
-    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_00Buck"],
-    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_Slug"],
-    ["rhs_weap_m38_rail"     ,"rhsgref_5Rnd_762x54_m38"],
-    ["rhs_weap_m38"          ,"rhsgref_5Rnd_762x54_m38"],
-    ["rhs_weap_m76"          ,"rhsgref_10Rnd_792x57_m76"],
-    ["rhs_weap_m84"          ,"rhssaf_250Rnd_762x54R"],
-    ["rhs_weap_pkm"          ,"rhs_100Rnd_762x54mmR"],
-    ["rhs_weap_pkp"          ,"rhs_100Rnd_762x54mmR"],
-    ["rhs_weap_savz58p_rail" ,"rhs_30Rnd_762x39mm"],
-    ["rhs_weap_savz58v_fold" ,"rhs_30Rnd_762x39mm"],
-    ["rhs_weap_svdp_npz"     ,"rhs_10Rnd_762x54mmR_7N14"],
-    ["rhs_weap_svdp"         ,"rhs_10Rnd_762x54mmR_7N14"],
-    ["rhs_weap_t5000"        ,"rhs_5Rnd_338lapua_t5000"],
-    ["rhs_weap_vhsd2"        ,"rhsgref_30rnd_556x45_vhs2"],
-    ["rhs_weap_vss_npz"      ,"rhs_10rnd_9x39mm_SP5"],
-    ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_SP5"]
+    ["rhs_weap_ak103"        ,"rhs_30Rnd_762x39mm_polymer_89"],
+    ["rhs_weap_ak74"         ,"rhs_30Rnd_545x39_7N6_AK"      ],
+    ["rhs_weap_ak74m"        ,"rhs_30Rnd_545x39_7N10_AK"     ],
+    ["rhs_weap_ak74mr"       ,"rhs_30Rnd_545x39_7N22_AK"     ],
+    ["rhs_weap_akmn"         ,"rhs_30Rnd_762x39mm"           ],
+    ["rhs_weap_aks74un"      ,"rhs_30Rnd_545x39_7N6M_AK"     ],
+    ["rhs_weap_asval_npz"    ,"rhs_20rnd_9x39mm_SP6"         ],
+    ["rhs_weap_asval"        ,"rhs_20rnd_9x39mm_SP6"         ],
+    ["rhs_weap_dsr1"         ,"rhsusf_5Rnd_762x51_m62_Mag"   ],
+    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_00Buck"          ],
+    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_Slug"            ],
+    ["rhs_weap_m38_rail"     ,"rhsgref_5Rnd_762x54_m38"      ],
+    ["rhs_weap_m38"          ,"rhsgref_5Rnd_762x54_m38"      ],
+    ["rhs_weap_m76"          ,"rhsgref_10Rnd_792x57_m76"     ],
+    ["rhs_weap_m84"          ,"rhssaf_250Rnd_762x54R"        ],
+    ["rhs_weap_pkm"          ,"rhs_100Rnd_762x54mmR"         ],
+    ["rhs_weap_pkp"          ,"rhs_100Rnd_762x54mmR"         ],
+    ["rhs_weap_savz58p_rail" ,"rhs_30Rnd_762x39mm"           ],
+    ["rhs_weap_savz58v_fold" ,"rhs_30Rnd_762x39mm"           ],
+    ["rhs_weap_svdp_npz"     ,"rhs_10Rnd_762x54mmR_7N14"     ],
+    ["rhs_weap_svdp"         ,"rhs_10Rnd_762x54mmR_7N14"     ],
+    ["rhs_weap_t5000"        ,"rhs_5Rnd_338lapua_t5000"      ],
+    ["rhs_weap_vhsd2"        ,"rhsgref_30rnd_556x45_vhs2"    ],
+    ["rhs_weap_vss_npz"      ,"rhs_10rnd_9x39mm_SP5"         ],
+    ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_SP5"         ]
 ]
 
 # [name, magazine count, damage, fire modes, RPM, weapon classname, magazine classnames, dispersion, initspeed, bullet friction, caliber, penetration]
