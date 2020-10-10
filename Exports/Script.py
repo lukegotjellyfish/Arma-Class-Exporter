@@ -119,7 +119,7 @@ bluForWeapons = [
     ["rhs_weap_m4a1"          ,"rhs_mag_30Rnd_556x45_Mk262_Stanag"    ],
     ["rhs_weap_M590_5RD"      ,"rhsusf_5Rnd_00Buck"                   ],
     ["rhs_weap_M590_5RD"      ,"rhsusf_5Rnd_Slug"                     ],
-    ["rhs_weap_mg42_base"     ,"rhsgref_50Rnd_792x57_SmE_drum"        ],
+    ["rhs_weap_mg42"          ,"rhsgref_50Rnd_792x57_SmE_drum"        ],
     ["rhs_weap_mk18"          ,"rhs_mag_30Rnd_556x45_Mk262_Stanag"    ],
     ["rhs_weap_mosin_sbr"     ,"rhsgref_5Rnd_762x54_m38"              ],
     ["rhs_weap_MP44"          ,"rhsgref_30Rnd_792x33_SmE_StG"         ],
@@ -163,9 +163,13 @@ opForWeapons = [
 # [name, magazine count, damage, fire modes, RPM, weapon classname, magazine classnames, dispersion, initspeed, bullet friction, caliber, penetration]
 
 
-for weapon in bluForWeapons:
-    print("Weapon: " + weapon[0])
-    print("stats: " + str(getWeaponStats(weapon[0], weapon[1])))
+with open("BluForExport.csv", "w", newline='\n') as csvfile:
+    csvwriter = csv.writer(csvfile, delimiter=',')
+    for weapon in bluForWeapons:
+            weaponStats = getWeaponStats(weapon[0], weapon[1])
+            csvwriter.writerow(weaponStats)
+            print("Weapon: " + weapon[0])
+            print("stats: " + str(weaponStats))
 
 # for weapon in opForWeapons:
 #     opForWeapon(weapon)
@@ -187,9 +191,6 @@ for weapon in bluForWeapons:
 
 
 
-# with open("OpForExport.csv", "w", newline='\n') as csvfile:
-#     csvwriter = csv.writer(csvfile, delimiter=',')
-#     csvwriter.writerow()
 
 # search = ["BluForWeapons","rhsusf_weap_glock17g4","reloadTime"]
 # print(bluFor(search,len(search)))
