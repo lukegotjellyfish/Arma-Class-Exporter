@@ -5,10 +5,10 @@ import os
 def writeToFile(file, root, side):
 	print(file)
 	fileContents = '    "' + file.replace(".py", "") + '": {\n'
-	with open(os.path.join(root, file), "r", encoding="latin-1") as catDict:
+	with open(os.path.join(root, file), "r", encoding="utf-8") as catDict:
 		lines = catDict.readlines()
 		for line in lines:
-			fileContents += "        " + line
+			fileContents += "        " + line.replace("Â","")
 	side.write(fileContents + "\n    }")
 	return
 
