@@ -81,21 +81,27 @@ def getRPM(side, weapon, fireModes):
     return rpm
 
 
-def getWeaponStats(weapon, magazine):
-    name          = fetchSide(["BluForWeapons",weapon,"displayname"])
-    magCapacity   = fetchSide(["BluForMagazines",magazine,"count"])
-    damage        = fetchSide(["BluForMagazines",magazine,"ammo","hit"])
-    fireModes     = [x.lower() for x in fetchSide(["BluForWeapons",weapon,"modes"])]
-    rpm           = getRPM("BluForWeapons",weapon,fireModes)
+def getWeaponStats(weapon, magazine, side):
+    name          = fetchSide([side + "Weapons",weapon,"displayname"])
+    magCapacity   = fetchSide([side + "Magazines",magazine,"count"])
+    damage        = fetchSide([side + "Magazines",magazine,"ammo","hit"])
+    fireModes     = [x.lower() for x in fetchSide([side + "Weapons",weapon,"modes"])]
+    rpm           = getRPM(side + "Weapons",weapon,fireModes)
     wepClass      = weapon
     magClass      = magazine
-    dispersion    = fetchSide(["BluForWeapons",weapon,"dispersion"])
-    initialSpeed  = fetchSide(["BluForMagazines",magazine,"initspeed"])
-    airResistance = fetchSide(["BluForMagazines",magazine,"ammo","airfriction"])
-    caliber       = fetchSide(["BluForMagazines",magazine,"ammo","caliber"])
+    dispersion    = fetchSide([side + "Weapons",weapon,"dispersion"])
+    initialSpeed  = fetchSide([side + "Magazines",magazine,"initspeed"])
+    airResistance = fetchSide([side + "Magazines",magazine,"ammo","airfriction"])
+    caliber       = fetchSide([side + "Magazines",magazine,"ammo","caliber"])
     penetration   = str((initialSpeed * (caliber/1000) * 15)) + "mm"  #RHA
     return [name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
             dispersion, initialSpeed, airResistance, caliber, penetration]
+
+def writeStats(weapon, side, csvwriter):
+    weaponStats = getWeaponStats(weapon[0], weapon[1], side)
+    csvwriter.writerow(weaponStats)
+    print("Weapon: " + weapon[0])
+    print("stats: " + str(weaponStats))
 
 
 bluForWeapons = [
@@ -134,42 +140,47 @@ bluForWeapons = [
     ["rhsusf_weap_MP7A2"      ,"rhsusf_mag_40Rnd_46x30_JHP"           ]
 ]
 opForWeapons = [
-    ["rhs_weap_ak103"        ,""],
-    ["rhs_weap_ak74"         ,""],
-    ["rhs_weap_ak74m"        ,""],
-    ["rhs_weap_ak74mr"       ,""],
-    ["rhs_weap_akmn"         ,""],
-    ["rhs_weap_aks74un"      ,""],
-    ["rhs_weap_asval_npz"    ,""],
-    ["rhs_weap_asval"        ,""],
-    ["rhs_weap_dsr1"         ,""],
-    ["rhs_weap_Izh18"        ,""],
-    ["rhs_weap_m38_rail"     ,""],
-    ["rhs_weap_m38"          ,""],
-    ["rhs_weap_m76"          ,""],
-    ["rhs_weap_m84"          ,""],
-    ["rhs_weap_pkm"          ,""],
-    ["rhs_weap_pkp"          ,""],
-    ["rhs_weap_savz58p_rail" ,""],
-    ["rhs_weap_savz58v_fold" ,""],
-    ["rhs_weap_svdp_npz"     ,""],
-    ["rhs_weap_svdp"         ,""],
-    ["rhs_weap_t5000"        ,""],
-    ["rhs_weap_vhsd2"        ,""],
-    ["rhs_weap_vss_npz"      ,""],
-    ["rhs_weap_vss"          ,""]
+    ["rhs_weap_ak103"        ,"rhs_30Rnd_762x39mm"],
+    ["rhs_weap_ak74"         ,"rhs_30Rnd_545x39_7N6_AK"],
+    ["rhs_weap_ak74m"        ,"rhs_30Rnd_545x39_7N10_AK"],
+    ["rhs_weap_ak74mr"       ,"rhs_30Rnd_545x39_7N22_AK"],
+    ["rhs_weap_akmn"         ,"rhs_30Rnd_762x39mm"],
+    ["rhs_weap_aks74un"      ,"rhs_30Rnd_545x39_7N6M_AK"],
+    ["rhs_weap_asval_npz"    ,"rhs_20rnd_9x39mm_SP6"],
+    ["rhs_weap_asval"        ,"rhs_20rnd_9x39mm_SP6"],
+    ["rhs_weap_dsr1"         ,"rhsusf_5Rnd_762x51_m62_Mag"],
+    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_00Buck"],
+    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_Slug"],
+    ["rhs_weap_m38_rail"     ,"rhsgref_5Rnd_762x54_m38"],
+    ["rhs_weap_m38"          ,"rhsgref_5Rnd_762x54_m38"],
+    ["rhs_weap_m76"          ,"rhsgref_10Rnd_792x57_m76"],
+    ["rhs_weap_m84"          ,"rhssaf_250Rnd_762x54R"],
+    ["rhs_weap_pkm"          ,"rhs_100Rnd_762x54mmR"],
+    ["rhs_weap_pkp"          ,"rhs_100Rnd_762x54mmR"],
+    ["rhs_weap_savz58p_rail" ,"rhs_30Rnd_762x39mm"],
+    ["rhs_weap_savz58v_fold" ,"rhs_30Rnd_762x39mm"],
+    ["rhs_weap_svdp_npz"     ,"rhs_10Rnd_762x54mmR_7N14"],
+    ["rhs_weap_svdp"         ,"rhs_10Rnd_762x54mmR_7N14"],
+    ["rhs_weap_t5000"        ,"rhs_5Rnd_338lapua_t5000"],
+    ["rhs_weap_vhsd2"        ,"rhsgref_30rnd_556x45_vhs2"],
+    ["rhs_weap_vss_npz"      ,"rhs_10rnd_9x39mm_SP5"],
+    ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_SP5"]
 ]
 
 # [name, magazine count, damage, fire modes, RPM, weapon classname, magazine classnames, dispersion, initspeed, bullet friction, caliber, penetration]
 
 
 with open("BluForExport.csv", "w", newline='\n') as csvfile:
+    csvfile.truncate(0)
     csvwriter = csv.writer(csvfile, delimiter=',')
     for weapon in bluForWeapons:
-            weaponStats = getWeaponStats(weapon[0], weapon[1])
-            csvwriter.writerow(weaponStats)
-            print("Weapon: " + weapon[0])
-            print("stats: " + str(weaponStats))
+        writeStats(weapon, "BluFor", csvwriter)
+
+with open("OpForExport.csv", "w", newline='\n') as csvfile:
+    csvfile.truncate(0)
+    csvwriter = csv.writer(csvfile, delimiter=',')
+    for weapon in opForWeapons:
+        writeStats(weapon, "OpFor", csvwriter)
 
 # for weapon in opForWeapons:
 #     opForWeapon(weapon)
