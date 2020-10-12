@@ -664,7 +664,7 @@ Rhs_weap_TOW_Launcher = {
     },
     # Class: CfgWeapons|missiles_titan|StandardSound [Indent level: 1],
     "standardsound": {
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"]
+        "soundsetshot": ["Static_Launcher_Titan_ATAA_Shot_SoundSet","Static_Launcher_Titan_ATAA_Tail_SoundSet"]
     },
     "type": 65536,
     "namesound": "MissileLauncher",

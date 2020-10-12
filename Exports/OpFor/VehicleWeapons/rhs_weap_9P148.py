@@ -31,9 +31,8 @@ rhs_weap_9P148 = {
     "standardsound": {
         "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
         "weaponsoundeffect": "DefaultRifle",
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"]
+        "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400]
     },
     "magazines": ["rhs_mag_9m111","rhs_mag_9m111_3","rhs_mag_9m111_4","rhs_mag_9m111_5","rhs_mag_9m111m","rhs_mag_9m111m_3","rhs_mag_9m111m_4","rhs_mag_9m111m_5","rhs_mag_9m113","rhs_mag_9m113_3","rhs_mag_9m113_4","rhs_mag_9m113_5"],
     "airateoffire": 5,

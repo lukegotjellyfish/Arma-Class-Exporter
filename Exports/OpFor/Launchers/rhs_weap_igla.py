@@ -102,7 +102,7 @@ rhs_weap_igla = {
     "modes": ["Single","TopDown"],
     # Class: CfgWeapons|launch_Titan_base|Single [Indent level: 1],
     "single": {
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons|launch_Titan_base|Single|BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
         },
@@ -110,7 +110,7 @@ rhs_weap_igla = {
         "standardsound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Titan",3.16228,1,2000],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundsetshot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -169,7 +169,7 @@ rhs_weap_igla = {
         "midrangeprobab": 0.95,
         "maxrange": 2000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons|launch_Titan_base|Single|BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
         },
@@ -177,7 +177,7 @@ rhs_weap_igla = {
         "standardsound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Titan",3.16228,1,2000],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundsetshot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -225,9 +225,9 @@ rhs_weap_igla = {
         "priority": 3
     },
     "hiddenselections": ["camo_launcher","camo_tube"],
-    "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|SoundFly1.ogg",1,1.5,500],
     "swaycoef": 0.5,
     "sound": ["A3|Sounds_F|weapons|Launcher|rocket_launcher_5",1,1,800],
+    "soundfly": ["A3|sounds_f|weapons|rockets|rocket_fly_1",0.316228,1.5,700],
     "weaponpoolavailable": 1,
     "texturetype": "semi",
     "autoaimenabled": 0,

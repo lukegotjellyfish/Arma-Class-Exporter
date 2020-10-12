@@ -1937,7 +1937,6 @@ rhs_weap_s8df = {
         "aimtransitionspeed": 1
     },
     "ballisticscomputer": 8,
-    "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,700],
     "scope": 1,
     "type": 65536,
     "reloadtime": 0.2,

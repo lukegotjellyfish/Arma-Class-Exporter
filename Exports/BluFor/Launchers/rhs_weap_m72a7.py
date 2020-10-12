@@ -90,11 +90,7 @@ rhs_weap_m72a7 = {
     # Class: CfgWeapons|rhs_weap_M136|StandardSound [Indent level: 1],
     "standardsound": {
         "begin1": ["rhsusf|addons|rhsusf_weapons2|smaw|sound|smaw_s2.wav","db20",1,1200],
-        "soundbegin": ["begin1",1],
-        "soundsetshot": ["jsrs_smaw_shot_soundset","jsrs_warhead_reverb_soundset"]
-    },
-    # Class: CfgWeapons|rhs_weap_M136|BaseSoundModeType [Indent level: 1],
-    "basesoundmodetype": {
+        "soundbegin": ["begin1",1]
     },
     "htmin": 1,
     "htmax": 460,

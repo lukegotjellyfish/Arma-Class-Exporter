@@ -36,7 +36,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -338,7 +338,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -627,7 +627,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -916,7 +916,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -1205,7 +1205,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -1771,12 +1771,12 @@
         # Class: CfgWeapons\\rhs_weap_2a28_base\\player [Indent level: 1],
         "player": {
             "dispersion": "0.00025*15",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -1839,12 +1839,12 @@
             "midrangeprobab": 0.8,
             "maxrange": 1000,
             "maxrangeprobab": 0.85,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -1895,12 +1895,12 @@
             "midrangeprobab": 0.85,
             "maxrange": 1500,
             "maxrangeprobab": 0.85,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -1951,12 +1951,12 @@
             "midrangeprobab": 0.85,
             "maxrange": 2000,
             "maxrangeprobab": 0.8,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2007,12 +2007,12 @@
             "midrangeprobab": 0.8,
             "maxrange": 3500,
             "maxrangeprobab": 0.05,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2075,12 +2075,12 @@
             "midrangeprobab": 0.95,
             "maxrange": 8000,
             "maxrangeprobab": 0.95,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2121,7 +2121,6 @@
             "requiredoptictype": -1,
             "airateoffiredispersion": 1
         },
-        "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
         "gunclouds": {
@@ -2412,12 +2411,12 @@
         # Class: CfgWeapons\\rhs_weap_2a28_base\\player [Indent level: 1],
         "player": {
             "dispersion": "0.00025*15",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2480,12 +2479,12 @@
             "midrangeprobab": 0.8,
             "maxrange": 1000,
             "maxrangeprobab": 0.85,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2536,12 +2535,12 @@
             "midrangeprobab": 0.85,
             "maxrange": 1500,
             "maxrangeprobab": 0.85,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2592,12 +2591,12 @@
             "midrangeprobab": 0.85,
             "maxrange": 2000,
             "maxrangeprobab": 0.8,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2648,12 +2647,12 @@
             "midrangeprobab": 0.8,
             "maxrange": 3500,
             "maxrangeprobab": 0.05,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2715,12 +2714,12 @@
             "midrangeprobab": 0.95,
             "maxrange": 8000,
             "maxrangeprobab": 0.95,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
             "standardsound": {
                 "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+                "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 6,
@@ -2761,7 +2760,6 @@
             "requiredoptictype": -1,
             "airateoffiredispersion": 1
         },
-        "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
         "gunclouds": {
@@ -3049,12 +3047,12 @@
     # Class: CfgWeapons\\rhs_weap_2a28_base\\player [Indent level: 1],
     "player": {
         "dispersion": "0.00025*15",
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -3117,12 +3115,12 @@
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -3173,12 +3171,12 @@
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -3229,12 +3227,12 @@
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -3285,12 +3283,12 @@
         "midrangeprobab": 0.8,
         "maxrange": 3500,
         "maxrangeprobab": 0.05,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -3353,12 +3351,12 @@
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -3399,7 +3397,6 @@
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
     "gunclouds": {
@@ -3723,7 +3720,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -3773,7 +3770,7 @@
             "texturetype": "fullAuto",
             # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "flash": "gunfire",
             "flashsize": 0.1,
@@ -3833,7 +3830,7 @@
             "texturetype": "fullAuto",
             # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "flash": "gunfire",
             "flashsize": 0.1,
@@ -3888,7 +3885,7 @@
             "texturetype": "fullAuto",
             # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "flash": "gunfire",
             "flashsize": 0.1,
@@ -3946,7 +3943,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -4000,7 +3997,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -4036,11 +4033,15 @@
             # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
             "player": {
                 "dispersion": 0.0018,
-                # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                },
                 "sounds": ["StandardSound"],
+                # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                "standardsound": {
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                    "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
                 "airateoffire": 1,
@@ -4102,7 +4103,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4155,7 +4156,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4208,7 +4209,7 @@
                 "maxrangeprobab": 0.7,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4261,7 +4262,7 @@
                 "maxrangeprobab": 0.05,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -4603,7 +4604,7 @@
                 "dispersion": 0.00108,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "sounds": ["StandardSound"],
                 "soundcontinuous": 0,
@@ -4667,7 +4668,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -4720,7 +4721,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -4773,7 +4774,7 @@
                 "maxrangeprobab": 0.7,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -4826,7 +4827,7 @@
                 "maxrangeprobab": 0.05,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -5174,7 +5175,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -5243,7 +5244,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -5300,7 +5301,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -5357,7 +5358,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -5414,7 +5415,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -5775,7 +5776,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -5825,7 +5826,7 @@
             "texturetype": "fullAuto",
             # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "flash": "gunfire",
             "flashsize": 0.1,
@@ -5885,7 +5886,7 @@
             "texturetype": "fullAuto",
             # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "flash": "gunfire",
             "flashsize": 0.1,
@@ -5940,7 +5941,7 @@
             "texturetype": "fullAuto",
             # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "flash": "gunfire",
             "flashsize": 0.1,
@@ -5998,7 +5999,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -6052,7 +6053,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -6088,11 +6089,15 @@
             # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
             "player": {
                 "dispersion": 0.0018,
-                # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                },
                 "sounds": ["StandardSound"],
+                # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                "standardsound": {
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                    "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                    "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                    "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
                 "airateoffire": 1,
@@ -6154,7 +6159,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6207,7 +6212,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6260,7 +6265,7 @@
                 "maxrangeprobab": 0.7,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6313,7 +6318,7 @@
                 "maxrangeprobab": 0.05,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.0018,
                 "sounds": ["StandardSound"],
@@ -6655,7 +6660,7 @@
                 "dispersion": 0.00108,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "sounds": ["StandardSound"],
                 "soundcontinuous": 0,
@@ -6719,7 +6724,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -6772,7 +6777,7 @@
                 "maxrangeprobab": 0.8,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -6825,7 +6830,7 @@
                 "maxrangeprobab": 0.7,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -6878,7 +6883,7 @@
                 "maxrangeprobab": 0.05,
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                 },
                 "dispersion": 0.00108,
                 "sounds": ["StandardSound"],
@@ -7226,7 +7231,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -7295,7 +7300,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -7352,7 +7357,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -7409,7 +7414,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -7466,7 +7471,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -7825,7 +7830,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -7875,7 +7880,7 @@
         "texturetype": "fullAuto",
         # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "flash": "gunfire",
         "flashsize": 0.1,
@@ -7935,7 +7940,7 @@
         "texturetype": "fullAuto",
         # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "flash": "gunfire",
         "flashsize": 0.1,
@@ -7990,7 +7995,7 @@
         "texturetype": "fullAuto",
         # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "flash": "gunfire",
         "flashsize": 0.1,
@@ -8048,7 +8053,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -8102,7 +8107,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -8145,7 +8150,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -8214,7 +8219,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -8271,7 +8276,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -8328,7 +8333,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -8385,7 +8390,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -8719,7 +8724,7 @@
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -8782,7 +8787,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -8836,7 +8841,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -8891,7 +8896,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -8945,7 +8950,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 3500,
         "maxrangeprobab": 0.05,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -9002,12 +9007,12 @@
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -9048,7 +9053,6 @@
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
     "gunclouds": {
@@ -9343,7 +9347,7 @@
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -9406,7 +9410,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -9460,7 +9464,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -9515,7 +9519,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -9569,7 +9573,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 3500,
         "maxrangeprobab": 0.05,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -9626,12 +9630,12 @@
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -9672,7 +9676,6 @@
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
     "gunclouds": {
@@ -9942,7 +9945,7 @@
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autofire": 0,
@@ -10005,7 +10008,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -10059,7 +10062,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -10114,7 +10117,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -10168,7 +10171,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 3500,
         "maxrangeprobab": 0.05,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -10250,12 +10253,12 @@
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -10296,7 +10299,6 @@
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
     "gunclouds": {
@@ -10591,7 +10593,7 @@
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -10654,7 +10656,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -10708,7 +10710,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -10763,7 +10765,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -10817,7 +10819,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 3500,
         "maxrangeprobab": 0.05,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "reloadtime": 6,
         "magazinereloadtime": 6,
@@ -10874,12 +10876,12 @@
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -10920,7 +10922,6 @@
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
     "gunclouds": {
@@ -11209,7 +11210,7 @@
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autofire": 0,
@@ -11272,7 +11273,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -11326,7 +11327,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -11380,7 +11381,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -11434,7 +11435,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 3500,
         "maxrangeprobab": 0.05,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -11498,12 +11499,12 @@
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -11544,7 +11545,6 @@
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
     "gunclouds": {
@@ -11845,7 +11845,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -11899,7 +11899,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -11959,7 +11959,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -12014,7 +12014,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -12068,7 +12068,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -12122,7 +12122,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -12214,7 +12214,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -12264,7 +12264,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -12324,7 +12324,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -12379,7 +12379,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -12437,7 +12437,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -12491,7 +12491,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -12527,11 +12527,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -12593,7 +12597,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -12646,7 +12650,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -12699,7 +12703,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -12752,7 +12756,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -13094,7 +13098,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -13158,7 +13162,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13211,7 +13215,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13264,7 +13268,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13317,7 +13321,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -13665,7 +13669,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -13734,7 +13738,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -13791,7 +13795,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -13848,7 +13852,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -13905,7 +13909,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -14266,7 +14270,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -14316,7 +14320,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -14376,7 +14380,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -14431,7 +14435,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -14489,7 +14493,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -14543,7 +14547,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -14579,11 +14583,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -14645,7 +14653,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -14698,7 +14706,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -14751,7 +14759,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -14804,7 +14812,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -15146,7 +15154,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -15210,7 +15218,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15263,7 +15271,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15316,7 +15324,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15369,7 +15377,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -15717,7 +15725,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -15786,7 +15794,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -15843,7 +15851,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -15900,7 +15908,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -15957,7 +15965,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -16280,7 +16288,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -16349,7 +16357,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -16406,7 +16414,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -16463,7 +16471,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -16520,7 +16528,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -16861,7 +16869,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -16915,7 +16923,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -16975,7 +16983,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -17030,7 +17038,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -17084,7 +17092,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -17138,7 +17146,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -17230,7 +17238,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -17280,7 +17288,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -17340,7 +17348,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -17395,7 +17403,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -17453,7 +17461,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -17507,7 +17515,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -17543,11 +17551,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -17609,7 +17621,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -17662,7 +17674,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -17715,7 +17727,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -17768,7 +17780,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -18110,7 +18122,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -18174,7 +18186,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -18227,7 +18239,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -18280,7 +18292,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -18333,7 +18345,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -18681,7 +18693,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -18750,7 +18762,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -18807,7 +18819,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -18864,7 +18876,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -18921,7 +18933,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -19282,7 +19294,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -19332,7 +19344,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -19392,7 +19404,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -19447,7 +19459,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -19505,7 +19517,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -19559,7 +19571,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -19595,11 +19607,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -19661,7 +19677,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -19714,7 +19730,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -19767,7 +19783,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -19820,7 +19836,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -20162,7 +20178,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -20226,7 +20242,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -20279,7 +20295,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -20332,7 +20348,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -20385,7 +20401,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -20733,7 +20749,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -20802,7 +20818,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -20859,7 +20875,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -20916,7 +20932,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -20973,7 +20989,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -21294,7 +21310,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -21363,7 +21379,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -21420,7 +21436,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -21477,7 +21493,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -21534,7 +21550,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -21871,7 +21887,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -21925,7 +21941,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -21985,7 +22001,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -22040,7 +22056,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -22094,7 +22110,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -22148,7 +22164,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -22202,7 +22218,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -22271,7 +22287,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -22328,7 +22344,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -22385,7 +22401,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -22442,7 +22458,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -22762,7 +22778,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -22816,7 +22832,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -22896,7 +22912,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -22951,7 +22967,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -23005,7 +23021,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -23059,7 +23075,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -23151,7 +23167,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -23201,7 +23217,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -23261,7 +23277,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -23316,7 +23332,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -23374,7 +23390,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -23428,7 +23444,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -23464,11 +23480,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -23530,7 +23550,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -23583,7 +23603,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -23636,7 +23656,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -23689,7 +23709,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -24031,7 +24051,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -24095,7 +24115,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -24148,7 +24168,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -24201,7 +24221,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -24254,7 +24274,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -24602,7 +24622,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -24671,7 +24691,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -24728,7 +24748,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -24785,7 +24805,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -24842,7 +24862,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -25203,7 +25223,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -25253,7 +25273,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -25313,7 +25333,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -25368,7 +25388,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -25426,7 +25446,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -25480,7 +25500,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -25516,11 +25536,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -25582,7 +25606,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -25635,7 +25659,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -25688,7 +25712,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -25741,7 +25765,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -26083,7 +26107,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -26147,7 +26171,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -26200,7 +26224,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -26253,7 +26277,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -26306,7 +26330,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -26654,7 +26678,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -26723,7 +26747,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -26780,7 +26804,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -26837,7 +26861,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -26894,7 +26918,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -27217,7 +27241,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -27286,7 +27310,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -27343,7 +27367,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -27400,7 +27424,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -27457,7 +27481,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -27776,7 +27800,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -27830,7 +27854,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -27912,7 +27936,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -27967,7 +27991,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -28021,7 +28045,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -28075,7 +28099,7 @@
             "sounds": ["StandardSound"],
             # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -28167,7 +28191,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -28217,7 +28241,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -28277,7 +28301,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -28332,7 +28356,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -28390,7 +28414,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -28444,7 +28468,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -28480,11 +28504,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -28546,7 +28574,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -28599,7 +28627,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -28652,7 +28680,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -28705,7 +28733,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -29047,7 +29075,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -29111,7 +29139,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -29164,7 +29192,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -29217,7 +29245,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -29270,7 +29298,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -29618,7 +29646,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -29687,7 +29715,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -29744,7 +29772,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -29801,7 +29829,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -29858,7 +29886,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -30219,7 +30247,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -30269,7 +30297,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -30329,7 +30357,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -30384,7 +30412,7 @@
                 "texturetype": "fullAuto",
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\HighROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "flash": "gunfire",
                 "flashsize": 0.1,
@@ -30442,7 +30470,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -30496,7 +30524,7 @@
                 "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
                 },
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
@@ -30532,11 +30560,15 @@
                 # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player [Indent level: 2],
                 "player": {
                     "dispersion": 0.0018,
-                    # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\player\\standardsound [Indent level: 3],
-                    "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
-                    },
                     "sounds": ["StandardSound"],
+                    # Class: CfgWeapons\\autocannon_Base_F\\player\\StandardSound [Indent level: 2],
+                    "standardsound": {
+                        "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_01",1.99526,1,1500],
+                        "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
+                        "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
+                        "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
+                    },
                     "soundcontinuous": 0,
                     "reloadtime": 0.3,
                     "airateoffire": 1,
@@ -30598,7 +30630,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -30651,7 +30683,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -30704,7 +30736,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -30757,7 +30789,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\HE\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.0018,
                     "sounds": ["StandardSound"],
@@ -31099,7 +31131,7 @@
                     "dispersion": 0.00108,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\player\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "sounds": ["StandardSound"],
                     "soundcontinuous": 0,
@@ -31163,7 +31195,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\close\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -31216,7 +31248,7 @@
                     "maxrangeprobab": 0.8,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\short\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -31269,7 +31301,7 @@
                     "maxrangeprobab": 0.7,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\medium\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -31322,7 +31354,7 @@
                     "maxrangeprobab": 0.05,
                     # Class: CfgWeapons\\autocannon_30mm_CTWS\\AP\\far\\StandardSound [Indent level: 3],
                     "standardsound": {
-                        "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_autocannon_casing"]
+                        "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmTurret_Tail_SoundSet"]
                     },
                     "dispersion": 0.00108,
                     "sounds": ["StandardSound"],
@@ -31670,7 +31702,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -31739,7 +31771,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -31796,7 +31828,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -31853,7 +31885,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -31910,7 +31942,7 @@
                     "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                     "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                     "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                    "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                    "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
                 },
                 "soundcontinuous": 0,
                 "reloadtime": 0.3,
@@ -32231,7 +32263,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -32300,7 +32332,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -32357,7 +32389,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -32414,7 +32446,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -32471,7 +32503,7 @@
                 "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
                 "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
                 "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-                "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+                "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
             },
             "soundcontinuous": 0,
             "reloadtime": 0.3,
@@ -32808,7 +32840,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -32862,7 +32894,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -32922,7 +32954,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -32977,7 +33009,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -33031,7 +33063,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -33085,7 +33117,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_2a42_base\\LowROFBMD2\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_autocannon_Shot_SoundSet","RHS_autocannon_int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -33139,7 +33171,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -33208,7 +33240,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -33265,7 +33297,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -33322,7 +33354,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -33379,7 +33411,7 @@
             "begin2": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_30mm\\autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -33690,7 +33722,7 @@
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autofire": 0,
@@ -33753,7 +33785,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -33807,7 +33839,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -33861,7 +33893,7 @@
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -33915,7 +33947,7 @@
         "midrangeprobab": 0.8,
         "maxrange": 3500,
         "maxrangeprobab": 0.05,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -33996,12 +34028,12 @@
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\cannon_120mm\\player\\StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\cannon_120mm\\slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
+            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -34042,7 +34074,6 @@
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
     "gunclouds": {
@@ -36228,9 +36259,9 @@
     "standardsound": {
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
+        "weaponsoundeffect": "DefaultRifle",
         "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"],
-        "weaponsoundeffect": "DefaultRifle"
+        "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
     },
     "reloadtime": 3,
     "magazinereloadtime": 30,
@@ -36574,11 +36605,11 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kh25_Launcher\\StandardSound [Indent level: 1],
         "standardsound": {
+            "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
             "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "soundsetshot": ["jsrs_missile_big_1_shot_soundset","jsrs_pods_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
         "holdsteranimvalue": 3,
         "magazinereloadtime": 0.1,
@@ -37220,7 +37251,6 @@
             },
             "aimtransitionspeed": 1
         },
-        "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "namesound": "MissileLauncher",
@@ -37537,11 +37567,11 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kh25_Launcher\\StandardSound [Indent level: 1],
         "standardsound": {
+            "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
             "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "soundsetshot": ["jsrs_missile_big_1_shot_soundset","jsrs_pods_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
         },
         "holdsteranimvalue": 3,
         "magazinereloadtime": 0.1,
@@ -38182,7 +38212,6 @@
             },
             "aimtransitionspeed": 1
         },
-        "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "namesound": "MissileLauncher",
@@ -38481,11 +38510,11 @@
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\\rhs_weap_kh25_Launcher\\StandardSound [Indent level: 1],
     "standardsound": {
+        "weaponsoundeffect": "DefaultRifle",
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "soundsetshot": ["jsrs_missile_big_1_shot_soundset","jsrs_pods_reverb_soundset"],
-        "weaponsoundeffect": "DefaultRifle"
+        "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
     },
     "magazinereloadtime": 0.1,
     "showaimcursorinternal": 0,
@@ -39126,7 +39155,6 @@
         },
         "aimtransitionspeed": 1
     },
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,500],
     "scope": 1,
     "type": 65536,
     "namesound": "MissileLauncher",
@@ -39415,9 +39443,8 @@
     "standardsound": {
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
         "weaponsoundeffect": "DefaultRifle",
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
     },
     "magazines": ["rhs_mag_9m133_2"],
     "reloadtime": 0.1,
@@ -39747,9 +39774,8 @@
     "standardsound": {
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
         "weaponsoundeffect": "DefaultRifle",
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
     },
     "airateoffire": 5,
     "holdsteranimvalue": 1,
@@ -40067,11 +40093,11 @@
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\\rhs_weap_9K114_launcher\\StandardSound [Indent level: 1],
     "standardsound": {
+        "weaponsoundeffect": "DefaultRifle",
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"],
-        "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "weaponsoundeffect": "DefaultRifle"
+        "soundsetshot": ["RocketsMedium_Shot_SoundSet"],
+        "soundbegin": ["begin1",0.5,"begin2",0.5]
     },
     "scope": 1,
     "type": 65536,
@@ -40400,9 +40426,8 @@
     "standardsound": {
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
         "weaponsoundeffect": "DefaultRifle",
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
     },
     "magazines": ["rhs_mag_9m111","rhs_mag_9m111_3","rhs_mag_9m111_4","rhs_mag_9m111_5","rhs_mag_9m111m","rhs_mag_9m111m_3","rhs_mag_9m111m_4","rhs_mag_9m111m_5","rhs_mag_9m113","rhs_mag_9m113_3","rhs_mag_9m113_4","rhs_mag_9m113_5"],
     "airateoffire": 5,
@@ -42345,7 +42370,6 @@
     },
     "maxzeroing": 2000,
     "drysound": ["A3\\Sounds_F\\arsenal\\weapons_static\\Static_GMG\\GMG20mm_static_dry",1,1,10],
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\mortar_fly.ogg",1,1.5,500],
     "airateoffire": 4,
     "airateoffiredistance": 500,
     "minrange": 8,
@@ -42713,7 +42737,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -43004,7 +43028,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -43293,7 +43317,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -43582,7 +43606,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -43871,7 +43895,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_azp23\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons\\CannonCore\\GunClouds [Indent level: 1],
@@ -44462,7 +44486,7 @@
         "maxrangeprobab": 0.01,
         # Class: CfgWeapons\\rhs_weap_DSHKM\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -44783,7 +44807,7 @@
         "aiburstterminable": 1,
         # Class: CfgWeapons\\rhs_weap_DSHKM\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -45104,7 +45128,7 @@
         "aiburstterminable": 1,
         # Class: CfgWeapons\\rhs_weap_DSHKM\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -45424,7 +45448,7 @@
         "aiburstterminable": 1,
         # Class: CfgWeapons\\rhs_weap_DSHKM\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -45744,7 +45768,7 @@
         "aiburstterminable": 1,
         # Class: CfgWeapons\\rhs_weap_DSHKM\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -46679,7 +46703,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "showtoplayer": 1,
             "sound": ["",10,1],
@@ -46737,7 +46761,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -46792,7 +46816,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -46847,7 +46871,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -46902,7 +46926,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "sound": ["",10,1],
             "soundend": ["sound",1],
@@ -46960,12 +46984,13 @@
                 "dispersion": 0.0066,
                 "displayname": "300rpm",
                 "burst": 5,
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -46982,7 +47007,6 @@
                 "midrangeprobab": 0.01,
                 "maxrange": 2,
                 "maxrangeprobab": 0.01,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47050,12 +47074,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47065,7 +47090,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47104,12 +47128,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47119,7 +47144,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47158,12 +47182,13 @@
                 "maxrange": 1000,
                 "maxrangeprobab": 0.7,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47173,7 +47198,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47212,12 +47236,13 @@
                 "maxrange": 1800,
                 "maxrangeprobab": 0.15,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47227,7 +47252,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47266,12 +47290,13 @@
                 "maxrange": 2500,
                 "maxrangeprobab": 0.05,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47281,7 +47306,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47604,12 +47628,13 @@
             "lowrof": {
                 "displayname": "300rpm",
                 "burst": 5,
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47627,7 +47652,6 @@
                 "midrangeprobab": 0.01,
                 "maxrange": 2,
                 "maxrangeprobab": 0.01,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47669,12 +47693,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47684,7 +47709,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47723,12 +47747,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47738,7 +47763,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47777,12 +47801,13 @@
                 "maxrange": 1000,
                 "maxrangeprobab": 0.7,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47792,7 +47817,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47831,12 +47855,13 @@
                 "maxrange": 1800,
                 "maxrangeprobab": 0.15,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47846,7 +47871,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -47885,12 +47909,13 @@
                 "maxrange": 2500,
                 "maxrangeprobab": 0.05,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -47900,7 +47925,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -48200,12 +48224,13 @@
         "lowrof": {
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -48223,7 +48248,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -48265,12 +48289,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -48280,7 +48305,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -48602,7 +48626,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "reloadtime": 0.06,
             "dispersion": 0.0085,
@@ -48669,7 +48693,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "reloadtime": 0.06,
             "dispersion": 0.0085,
@@ -48724,7 +48748,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "reloadtime": 0.06,
             "dispersion": 0.0085,
@@ -48779,7 +48803,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "reloadtime": 0.06,
             "dispersion": 0.0085,
@@ -48834,7 +48858,7 @@
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
                 "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
             },
             "reloadtime": 0.06,
             "dispersion": 0.0085,
@@ -48875,12 +48899,13 @@
                 "dispersion": 0.0066,
                 "displayname": "300rpm",
                 "burst": 5,
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -48897,7 +48922,6 @@
                 "midrangeprobab": 0.01,
                 "maxrange": 2,
                 "maxrangeprobab": 0.01,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -48965,12 +48989,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -48980,7 +49005,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49019,12 +49043,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49034,7 +49059,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49073,12 +49097,13 @@
                 "maxrange": 1000,
                 "maxrangeprobab": 0.7,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49088,7 +49113,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49127,12 +49151,13 @@
                 "maxrange": 1800,
                 "maxrangeprobab": 0.15,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49142,7 +49167,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49181,12 +49205,13 @@
                 "maxrange": 2500,
                 "maxrangeprobab": 0.05,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49196,7 +49221,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49519,12 +49543,13 @@
             "lowrof": {
                 "displayname": "300rpm",
                 "burst": 5,
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49542,7 +49567,6 @@
                 "midrangeprobab": 0.01,
                 "maxrange": 2,
                 "maxrangeprobab": 0.01,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49584,12 +49608,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49599,7 +49624,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49638,12 +49662,13 @@
                 "maxrange": 400,
                 "maxrangeprobab": 0.75,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49653,7 +49678,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49692,12 +49716,13 @@
                 "maxrange": 1000,
                 "maxrangeprobab": 0.7,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49707,7 +49732,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49746,12 +49770,13 @@
                 "maxrange": 1800,
                 "maxrangeprobab": 0.15,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49761,7 +49786,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -49800,12 +49824,13 @@
                 "maxrange": 2500,
                 "maxrangeprobab": 0.05,
                 "displayname": "300rpm",
-                "sounds": ["standardsound"],
+                "sounds": ["StandardSound"],
                 # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
                 "standardsound": {
-                    "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                    "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                     "soundbegin": ["begin1",1]
                 },
+                "soundcontinuous": 1,
                 "flash": "gunfire",
                 "flashsize": 0.1,
                 # Recoil Array: recoil,
@@ -49815,7 +49840,6 @@
                 "ffcount": 6,
                 "reloadtime": 0.08,
                 "dispersion": 0.0044,
-                "soundcontinuous": 0,
                 "sound": ["",10,1],
                 "soundend": ["sound",1],
                 "autofire": 1,
@@ -50116,12 +50140,13 @@
         "lowrof": {
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -50139,7 +50164,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -50181,12 +50205,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -50196,7 +50221,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -50504,7 +50528,7 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
         },
         "reloadtime": 0.06,
         "dispersion": 0.0085,
@@ -50571,7 +50595,7 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
         },
         "reloadtime": 0.06,
         "dispersion": 0.0085,
@@ -50626,7 +50650,7 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
         },
         "reloadtime": 0.06,
         "dispersion": 0.0085,
@@ -50681,7 +50705,7 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
         },
         "reloadtime": 0.06,
         "dispersion": 0.0085,
@@ -50736,7 +50760,7 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["\\rhsusf\\addons\\rhsusf_a2port_air\\data\\sounds\\a10vulcanVII",3.16228,1,1100],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
         },
         "reloadtime": 0.06,
         "dispersion": 0.0085,
@@ -50780,12 +50804,13 @@
     "lowrof": {
         "displayname": "300rpm",
         "burst": 5,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -50803,7 +50828,6 @@
         "midrangeprobab": 0.01,
         "maxrange": 2,
         "maxrangeprobab": 0.01,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -50845,12 +50869,13 @@
         "maxrange": 400,
         "maxrangeprobab": 0.75,
         "displayname": "300rpm",
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -50860,7 +50885,6 @@
         "ffcount": 6,
         "reloadtime": 0.08,
         "dispersion": 0.0044,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -51181,8 +51205,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -51234,8 +51257,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -51289,8 +51311,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -51342,8 +51363,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -51395,8 +51415,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -51483,8 +51502,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         # Recoil Array: recoil,
@@ -51518,12 +51536,13 @@
             "dispersion": 0.0066,
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -51540,7 +51559,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -51608,12 +51626,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -51623,7 +51642,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -51662,12 +51680,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -51677,7 +51696,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -51716,12 +51734,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -51731,7 +51750,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -51770,12 +51788,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -51785,7 +51804,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -51824,12 +51842,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -51839,7 +51858,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -52162,12 +52180,13 @@
         "lowrof": {
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -52185,7 +52204,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -52227,12 +52245,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -52242,7 +52261,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -52281,12 +52299,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -52296,7 +52315,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -52335,12 +52353,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -52350,7 +52369,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -52389,12 +52407,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -52404,7 +52423,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -52443,12 +52461,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -52458,7 +52477,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -52760,12 +52778,13 @@
     "lowrof": {
         "displayname": "300rpm",
         "burst": 5,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -52783,7 +52802,6 @@
         "midrangeprobab": 0.01,
         "maxrange": 2,
         "maxrangeprobab": 0.01,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -52825,12 +52843,13 @@
         "maxrange": 400,
         "maxrangeprobab": 0.75,
         "displayname": "300rpm",
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -52840,7 +52859,6 @@
         "ffcount": 6,
         "reloadtime": 0.08,
         "dispersion": 0.0044,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -53183,8 +53201,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -53237,8 +53254,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         # Recoil Array: recoil,
@@ -53290,8 +53306,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -53344,8 +53359,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -53397,8 +53411,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         # Recoil Array: recoil,
@@ -53451,8 +53464,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         # Recoil Array: recoil,
@@ -53484,12 +53496,13 @@
             "dispersion": 0.0066,
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -53506,7 +53519,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -53574,12 +53586,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -53589,7 +53602,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -53628,12 +53640,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -53643,7 +53656,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -53682,12 +53694,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -53697,7 +53710,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -53736,12 +53748,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -53751,7 +53764,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -53790,12 +53802,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -53805,7 +53818,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -54128,12 +54140,13 @@
         "lowrof": {
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -54151,7 +54164,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -54193,12 +54205,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -54208,7 +54221,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -54247,12 +54259,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -54262,7 +54275,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -54301,12 +54313,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -54316,7 +54329,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -54355,12 +54367,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -54370,7 +54383,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -54409,12 +54421,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -54424,7 +54437,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -54726,12 +54738,13 @@
     "lowrof": {
         "displayname": "300rpm",
         "burst": 5,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -54749,7 +54762,6 @@
         "midrangeprobab": 0.01,
         "maxrange": 2,
         "maxrangeprobab": 0.01,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -54791,12 +54803,13 @@
         "maxrange": 400,
         "maxrangeprobab": 0.75,
         "displayname": "300rpm",
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -54806,7 +54819,6 @@
         "ffcount": 6,
         "reloadtime": 0.08,
         "dispersion": 0.0044,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -55121,8 +55133,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -55175,8 +55186,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -55229,8 +55239,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -55282,8 +55291,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -55335,8 +55343,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         "texturetype": "fullAuto",
@@ -55415,8 +55422,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_gsh30\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"],
-            "weaponsoundeffect": "DefaultRifle"
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "soundend": ["sound",1],
         # Recoil Array: recoil,
@@ -55450,12 +55456,13 @@
             "dispersion": 0.0066,
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -55472,7 +55479,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -55540,12 +55546,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -55555,7 +55562,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -55594,12 +55600,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -55609,7 +55616,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -55648,12 +55654,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -55663,7 +55670,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -55702,12 +55708,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -55717,7 +55724,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -55756,12 +55762,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -55771,7 +55778,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -56094,12 +56100,13 @@
         "lowrof": {
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -56117,7 +56124,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -56159,12 +56165,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -56174,7 +56181,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -56213,12 +56219,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -56228,7 +56235,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -56267,12 +56273,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -56282,7 +56289,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -56321,12 +56327,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -56336,7 +56343,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -56375,12 +56381,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -56390,7 +56397,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -56692,12 +56698,13 @@
     "lowrof": {
         "displayname": "300rpm",
         "burst": 5,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -56715,7 +56722,6 @@
         "midrangeprobab": 0.01,
         "maxrange": 2,
         "maxrangeprobab": 0.01,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -56757,12 +56763,13 @@
         "maxrange": 400,
         "maxrangeprobab": 0.75,
         "displayname": "300rpm",
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -56772,7 +56779,6 @@
         "ffcount": 6,
         "reloadtime": 0.08,
         "dispersion": 0.0044,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -57109,7 +57115,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kpvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -57430,7 +57436,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kpvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -57751,7 +57757,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kpvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -58071,7 +58077,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kpvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -58391,7 +58397,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kpvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -59047,7 +59053,7 @@
         "maxrangeprobab": 0.01,
         # Class: CfgWeapons\\rhs_weap_nsvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -59367,7 +59373,7 @@
         "dispersion": 0.002,
         # Class: CfgWeapons\\rhs_weap_nsvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -59687,7 +59693,7 @@
         "dispersion": 0.002,
         # Class: CfgWeapons\\rhs_weap_nsvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -60006,7 +60012,7 @@
         "dispersion": 0.002,
         # Class: CfgWeapons\\rhs_weap_nsvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -60325,7 +60331,7 @@
         "dispersion": 0.002,
         # Class: CfgWeapons\\rhs_weap_nsvt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -60951,10 +60957,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -61275,10 +61278,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -61597,10 +61597,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -61919,10 +61916,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -62241,10 +62235,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -62892,10 +62883,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -63216,10 +63204,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -63538,10 +63523,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -63860,10 +63842,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -64182,10 +64161,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -64833,10 +64809,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -65157,10 +65130,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -65479,10 +65449,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -65801,10 +65768,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -66123,10 +66087,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -66780,10 +66741,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -67104,10 +67062,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -67426,10 +67381,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -67748,10 +67700,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -68070,10 +68019,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_pkt\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons\\rhs_weap_pkt\\manual\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -70929,7 +70875,6 @@
         "aimtransitionspeed": 1
     },
     "ballisticscomputer": 8,
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,700],
     "scope": 1,
     "type": 65536,
     "reloadtime": 0.2,
@@ -73131,7 +73076,6 @@
         "aimtransitionspeed": 1
     },
     "ballisticscomputer": 8,
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\dagr_fly.ogg",1,1.5,700],
     "scope": 1,
     "type": 65536,
     "reloadtime": 0.2,
@@ -73766,7 +73710,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_yakB\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_3_shot_soundset","jsrs_40mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_yakb_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "soundburst": 0,
         "soundcontinuous": 0,
@@ -73820,7 +73764,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_yakB\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_3_shot_soundset","jsrs_40mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_yakb_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "soundburst": 0,
         "soundcontinuous": 0,
@@ -73872,7 +73816,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_yakB\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_3_shot_soundset","jsrs_40mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_yakb_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "soundburst": 0,
         "soundcontinuous": 0,
@@ -73924,7 +73868,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_yakB\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_3_shot_soundset","jsrs_40mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_yakb_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "soundburst": 0,
         "soundcontinuous": 0,
@@ -73976,7 +73920,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_yakB\\manual\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_autocannon_3_shot_soundset","jsrs_40mm_reverb_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["RHS_yakb_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "soundburst": 0,
         "soundcontinuous": 0,
@@ -74014,12 +73958,13 @@
             "dispersion": 0.0066,
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74036,7 +73981,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74104,12 +74048,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74119,7 +74064,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74158,12 +74102,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74173,7 +74118,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74212,12 +74156,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74227,7 +74172,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74266,12 +74210,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74281,7 +74226,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74320,12 +74264,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74335,7 +74280,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74658,12 +74602,13 @@
         "lowrof": {
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74681,7 +74626,6 @@
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74723,12 +74667,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74738,7 +74683,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74777,12 +74721,13 @@
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74792,7 +74737,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74831,12 +74775,13 @@
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74846,7 +74791,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74885,12 +74829,13 @@
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74900,7 +74845,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -74939,12 +74883,13 @@
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+                "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
                 "soundbegin": ["begin1",1]
             },
+            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -74954,7 +74899,6 @@
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
-            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -75256,12 +75200,13 @@
     "lowrof": {
         "displayname": "300rpm",
         "burst": 5,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -75279,7 +75224,6 @@
         "midrangeprobab": 0.01,
         "maxrange": 2,
         "maxrangeprobab": 0.01,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -75321,12 +75265,13 @@
         "maxrange": 400,
         "maxrangeprobab": 0.75,
         "displayname": "300rpm",
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\gatling_30mm_base\\LowROF\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\shot\\autocannon_1\\medium_distance.ogg",5,1,4000],
+            "begin1": ["A3\\Sounds_F\\arsenal\\weapons_vehicles\\gatling_30mm\\30mm_02_burst",5.62341,1,1500,[2,45447]],
             "soundbegin": ["begin1",1]
         },
+        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -75336,7 +75281,6 @@
         "ffcount": 6,
         "reloadtime": 0.08,
         "dispersion": 0.0044,
-        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,

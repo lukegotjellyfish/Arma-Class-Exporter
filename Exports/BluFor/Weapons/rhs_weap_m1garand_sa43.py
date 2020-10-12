@@ -207,7 +207,7 @@ rhs_weap_m1garand_sa43 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -641,7 +641,7 @@ rhs_weap_m1garand_sa43 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -959,19 +959,19 @@ rhs_weap_m1garand_sa43 = {
     "handanim": ["OFP2_ManSkeleton","|rhsgref|addons|rhsgref_c_weapons|anims|rhs_hand_m1garand.rtm"],
     "dexterity": 1.8,
     "inertia": 0.95,
-    "bullet1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_1.ogg",2.0099,1,10],
-    "bullet2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_2.ogg",2.0099,1,10],
-    "bullet3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_3.ogg",2.0099,1,10],
-    "bullet4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_4.ogg",2.0099,1,10],
-    "bullet5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_1.ogg",2.0099,1,10],
-    "bullet6": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_2.ogg",2.0099,1,10],
-    "bullet7": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_3.ogg",2.0099,1,10],
-    "bullet8": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_4.ogg",2.0099,1,10],
-    "bullet9": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_1.ogg",2.0099,1,10],
-    "bullet10": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_2.ogg",2.0099,1,10],
-    "bullet11": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_3.ogg",2.0099,1,10],
-    "bullet12": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_4.ogg",2.0099,1,10],
-    "soundbullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
+    "bullet1": ["A3|sounds_f|weapons|shells|7_62|metal_762_01",0.630957,1,15],
+    "bullet2": ["A3|sounds_f|weapons|shells|7_62|metal_762_02",0.630957,1,15],
+    "bullet3": ["A3|sounds_f|weapons|shells|7_62|metal_762_03",0.630957,1,15],
+    "bullet4": ["A3|sounds_f|weapons|shells|7_62|metal_762_04",0.630957,1,15],
+    "bullet5": ["A3|sounds_f|weapons|shells|7_62|dirt_762_01",0.630957,1,15],
+    "bullet6": ["A3|sounds_f|weapons|shells|7_62|dirt_762_02",0.630957,1,15],
+    "bullet7": ["A3|sounds_f|weapons|shells|7_62|dirt_762_03",0.630957,1,15],
+    "bullet8": ["A3|sounds_f|weapons|shells|7_62|dirt_762_04",0.630957,1,15],
+    "bullet9": ["A3|sounds_f|weapons|shells|7_62|grass_762_01",0.630957,1,15],
+    "bullet10": ["A3|sounds_f|weapons|shells|7_62|grass_762_02",0.630957,1,15],
+    "bullet11": ["A3|sounds_f|weapons|shells|7_62|grass_762_03",0.630957,1,15],
+    "bullet12": ["A3|sounds_f|weapons|shells|7_62|grass_762_04",0.630957,1,15],
+    "soundbullet": ["bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083],
     "modes": ["Single","far_optic1","medium_optic2","far_optic2"],
     # Class: CfgWeapons|rhs_weap_M1garand_Base_F|Single [Indent level: 1],
     "single": {
@@ -986,7 +986,7 @@ rhs_weap_m1garand_sa43 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_M1garand_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m76_shot_soundset","jsrs_7x62mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_m1_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1042,7 +1042,7 @@ rhs_weap_m1garand_sa43 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_M1garand_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m76_shot_soundset","jsrs_7x62mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_m1_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1094,7 +1094,7 @@ rhs_weap_m1garand_sa43 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_M1garand_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m76_shot_soundset","jsrs_7x62mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_m1_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1146,7 +1146,7 @@ rhs_weap_m1garand_sa43 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_M1garand_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m76_shot_soundset","jsrs_7x62mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_m1_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1221,7 +1221,7 @@ rhs_weap_m1garand_sa43 = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

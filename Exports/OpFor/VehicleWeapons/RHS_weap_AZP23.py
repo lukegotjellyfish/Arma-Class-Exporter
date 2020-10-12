@@ -88,7 +88,7 @@ RHS_weap_AZP23 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_azp23|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons|CannonCore|GunClouds [Indent level: 1],
@@ -379,7 +379,7 @@ RHS_weap_AZP23 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_azp23|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons|CannonCore|GunClouds [Indent level: 1],
@@ -668,7 +668,7 @@ RHS_weap_AZP23 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_azp23|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons|CannonCore|GunClouds [Indent level: 1],
@@ -957,7 +957,7 @@ RHS_weap_AZP23 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_azp23|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons|CannonCore|GunClouds [Indent level: 1],
@@ -1246,7 +1246,7 @@ RHS_weap_AZP23 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_azp23|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_hmg_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_autocannon_Tail_SoundSet"]
         },
         "type": 65536,
         # Class: CfgWeapons|CannonCore|GunClouds [Indent level: 1],

@@ -79,13 +79,12 @@ rhs_rpg7_OG7V_mag = {
         "soundhit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,1800],
         "soundhit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,1800],
         "multisoundhit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
+        "soundsetexplosion": ["RocketsLight_Exp_SoundSet","RocketsLight_Tail_SoundSet","Explosion_Debris_SoundSet"],
         "dangerradiushit": -1,
         "suppressionradiushit": 30,
         "soundhit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionsoundeffect": "DefaultExplosion",
-        "soundengine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundengine": ["",1,1,20],
         "supersoniccracknear": ["",1,1,50],
         "supersoniccrackfar": ["",1,1,150],
         "muzzleeffect": "BIS_fnc_effectFiredRocket",
@@ -93,7 +92,6 @@ rhs_rpg7_OG7V_mag = {
         "hiteffects": {
             "hitwater": "ImpactEffectsWaterRocket"
         },
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo|RocketBase|EventHandlers [Indent level: 1],
         "eventhandlers": {
             # Class: CfgAmmo|RocketBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2]

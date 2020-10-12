@@ -17,11 +17,11 @@ rhs_weap_9m120_launcher = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons|rhs_weap_9K114_launcher|StandardSound [Indent level: 1],
     "standardsound": {
+        "weaponsoundeffect": "DefaultRifle",
         "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
         "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
-        "soundsetshot": ["jsrs_stinger_shot_soundset","jsrs_pods_reverb_soundset"],
-        "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "weaponsoundeffect": "DefaultRifle"
+        "soundsetshot": ["RocketsMedium_Shot_SoundSet"],
+        "soundbegin": ["begin1",0.5,"begin2",0.5]
     },
     "scope": 1,
     "type": 65536,

@@ -36,7 +36,7 @@ RHS_weap_M242BC = {
             "texturetype": "fullAuto",
             # Class: CfgWeapons|RHS_weap_M242BC|HE|player|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "dispersion": 0.0018,
             "sounds": ["StandardSound"],
@@ -88,7 +88,7 @@ RHS_weap_M242BC = {
             "texturetype": "burst",
             # Class: CfgWeapons|RHS_weap_M242BC|HE|player|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "dispersion": 0.0018,
             "sounds": ["StandardSound"],
@@ -141,7 +141,7 @@ RHS_weap_M242BC = {
             "reloadtime": 0.3,
             # Class: CfgWeapons|RHS_weap_M242BC|HE|player|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "dispersion": 0.0018,
             "sounds": ["StandardSound"],
@@ -192,7 +192,7 @@ RHS_weap_M242BC = {
         "close": {
             # Class: CfgWeapons|RHS_weap_M242BC|HE|close|StandardSound [Indent level: 3]
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "showtoplayer": 0,
@@ -245,7 +245,7 @@ RHS_weap_M242BC = {
         "short": {
             # Class: CfgWeapons|RHS_weap_M242BC|HE|short|StandardSound [Indent level: 3]
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "showtoplayer": 0,
@@ -298,7 +298,7 @@ RHS_weap_M242BC = {
         "medium": {
             # Class: CfgWeapons|RHS_weap_M242BC|HE|medium|StandardSound [Indent level: 3]
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "showtoplayer": 0,
@@ -351,7 +351,7 @@ RHS_weap_M242BC = {
         "far": {
             # Class: CfgWeapons|RHS_weap_M242BC|HE|far|StandardSound [Indent level: 3]
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "showtoplayer": 0,
@@ -706,7 +706,7 @@ RHS_weap_M242BC = {
             "reloadtime": 0.3,
             # Class: CfgWeapons|RHS_weap_M242BC|AP|player|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "dispersion": 0.00108,
             "sounds": ["StandardSound"],
@@ -758,7 +758,7 @@ RHS_weap_M242BC = {
             "reloadtime": 0.3,
             # Class: CfgWeapons|RHS_weap_M242BC|AP|close|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "burst": 3,
@@ -811,7 +811,7 @@ RHS_weap_M242BC = {
             "reloadtime": 0.3,
             # Class: CfgWeapons|RHS_weap_M242BC|AP|short|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "burst": 1,
@@ -864,7 +864,7 @@ RHS_weap_M242BC = {
             "reloadtime": 0.3,
             # Class: CfgWeapons|RHS_weap_M242BC|AP|medium|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "burst": 1,
@@ -917,7 +917,7 @@ RHS_weap_M242BC = {
             "reloadtime": 0.6,
             # Class: CfgWeapons|RHS_weap_M242BC|AP|far|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_autocannon_2_shot_soundset","jsrs_30mm_reverb_soundset"]
+                "soundsetshot": ["RHSUSF_veh_m242_Shot_SoundSet","RHSUSF_veh_m242_int_Shot_SoundSet","RHSUSF_VEH_autocannon_Tail_SoundSet"]
             },
             "aiburstterminable": 1,
             "burst": 1,
@@ -1283,7 +1283,7 @@ RHS_weap_M242BC = {
             "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -1352,7 +1352,7 @@ RHS_weap_M242BC = {
             "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -1409,7 +1409,7 @@ RHS_weap_M242BC = {
             "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -1466,7 +1466,7 @@ RHS_weap_M242BC = {
             "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,
@@ -1523,7 +1523,7 @@ RHS_weap_M242BC = {
             "begin2": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_02",1.99526,1,1500],
             "begin3": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_30mm|autocannon_30mm_03",1.99526,1,1500],
             "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            "soundsetshot": ["jsrs_autocannon_1_shot_soundset","jsrs_autocannon_casing"]
+            "soundsetshot": ["Autocannon30mmTurret_Shot_SoundSet","Autocannon30mmBody_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "reloadtime": 0.3,

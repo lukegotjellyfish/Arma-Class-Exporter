@@ -406,7 +406,7 @@ rhs_weap_m240G = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -695,15 +695,12 @@ rhs_weap_m240G = {
         "showtoplayer": 1,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -760,15 +757,12 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -820,15 +814,12 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -880,15 +871,12 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -940,15 +928,12 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
-        },
-        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -1234,7 +1219,7 @@ rhs_weap_m240G = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

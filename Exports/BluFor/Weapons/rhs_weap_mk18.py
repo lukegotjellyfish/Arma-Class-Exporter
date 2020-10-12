@@ -400,14 +400,11 @@ rhs_weap_mk18 = {
         "maxrangeprobab": 0.2,
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m4_shot_soundset","jsrs_5x56mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_m4_shot_silenced_soundset","jsrs_5x56mm_sd_reverb_soundset"]
-        },
-        # Class: CfgWeapons|rhs_weap_m4_Base|Single|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -463,14 +460,11 @@ rhs_weap_mk18 = {
         "dispersion": 0.0008727,
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m4_shot_soundset","jsrs_5x56mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_m4_shot_silenced_soundset","jsrs_5x56mm_sd_reverb_soundset"]
-        },
-        # Class: CfgWeapons|rhs_weap_m4_Base|Single|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -518,14 +512,11 @@ rhs_weap_mk18 = {
         "maxrangeprobab": 0.2,
         # Class: CfgWeapons|rhs_weap_m4_Base|Burst|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m4_shot_soundset","jsrs_5x56mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m4_Base|Burst|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_m4_shot_silenced_soundset","jsrs_5x56mm_sd_reverb_soundset"]
-        },
-        # Class: CfgWeapons|rhs_weap_m4_Base|Burst|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"]
         },
         "sound": ["",10,1],
         "soundloop": ["sound",1],
@@ -578,14 +569,11 @@ rhs_weap_mk18 = {
         "airateoffire": 1e-006,
         # Class: CfgWeapons|rhs_weap_m4_Base|FullAuto|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m4_shot_soundset","jsrs_5x56mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m4_Base|FullAuto|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_m4_shot_silenced_soundset","jsrs_5x56mm_sd_reverb_soundset"]
-        },
-        # Class: CfgWeapons|rhs_weap_m4_Base|FullAuto|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -642,14 +630,11 @@ rhs_weap_mk18 = {
         "dispersion": 0.0008727,
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m4_shot_soundset","jsrs_5x56mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_m4_shot_silenced_soundset","jsrs_5x56mm_sd_reverb_soundset"]
-        },
-        # Class: CfgWeapons|rhs_weap_m4_Base|Single|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -701,14 +686,11 @@ rhs_weap_mk18 = {
         "dispersion": 0.0008727,
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m4_shot_soundset","jsrs_5x56mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m4_Base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_m4_shot_silenced_soundset","jsrs_5x56mm_sd_reverb_soundset"]
-        },
-        # Class: CfgWeapons|rhs_weap_m4_Base|Single|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -758,14 +740,11 @@ rhs_weap_mk18 = {
         "dispersion": 0.0022,
         # Class: CfgWeapons|rhs_weap_m4_Base|FullAuto|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m4_shot_soundset","jsrs_5x56mm_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m4_Base|FullAuto|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_m4_shot_silenced_soundset","jsrs_5x56mm_sd_reverb_soundset"]
-        },
-        # Class: CfgWeapons|rhs_weap_m4_Base|FullAuto|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
+            "soundsetshot": ["RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -820,13 +799,7 @@ rhs_weap_mk18 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons|rhs_weap_m4_Base|M203_GL|Single|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-                "soundclosure": [],
-                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_1.ogg",1.8,1,800],
-                "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_2.ogg",1.8,1,800],
-                "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_3.ogg",1.8,1,800],
-                "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_4.ogg",1.8,1,800],
-                "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
+                "soundsetshot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
             },
             "multiplier": 1,
             "burst": 1,
@@ -894,7 +867,6 @@ rhs_weap_mk18 = {
         "opticszoommax": 1.25,
         "opticszoominit": 0.75,
         "weaponinfotype": "RscWeaponZeroing",
-        "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursoraim": "gl",
         "cursor": "EmptyCursor",
         "value": 3,
@@ -1205,13 +1177,7 @@ rhs_weap_mk18 = {
             "sounds": ["StandardSound"],
             # Class: CfgWeapons|rhs_weap_m4_Base|M320_GL|Single|StandardSound [Indent level: 3],
             "standardsound": {
-                "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-                "soundclosure": [],
-                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_1.ogg",1.8,1,800],
-                "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_2.ogg",1.8,1,800],
-                "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_3.ogg",1.8,1,800],
-                "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|Shot|UGL|Close_4.ogg",1.8,1,800],
-                "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
+                "soundsetshot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
             },
             "multiplier": 1,
             "burst": 1,
@@ -1279,7 +1245,6 @@ rhs_weap_mk18 = {
         "opticszoommax": 1.25,
         "opticszoominit": 0.75,
         "weaponinfotype": "RscWeaponZeroing",
-        "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursoraim": "gl",
         "cursor": "EmptyCursor",
         "value": 3,
@@ -1733,7 +1698,7 @@ rhs_weap_mk18 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -2169,7 +2134,7 @@ rhs_weap_mk18 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -2467,7 +2432,7 @@ rhs_weap_mk18 = {
         "modes": ["Single"],
         # Class: CfgWeapons|UGL_F|Single [Indent level: 1],
         "single": {
-            "sounds": ["standardsound"],
+            "sounds": ["StandardSound"],
             # Class: CfgWeapons|UGL_F|Single|BaseSoundModeType [Indent level: 2],
             "basesoundmodetype": {
                 "closure1": ["A3|Sounds_F|arsenal|weapons|UGL|Closure_UGL",1,1,10],
@@ -2478,7 +2443,7 @@ rhs_weap_mk18 = {
                 "begin1": ["A3|Sounds_F|arsenal|weapons|UGL|UGL_01",0.707946,1,200],
                 "begin2": ["A3|Sounds_F|arsenal|weapons|UGL|UGL_02",0.707946,1,200],
                 "soundbegin": ["begin1",0.5,"begin2",0.5],
-                "soundsetshot": ["jsrs_ugl_shot_soundset","jsrs_12x7mm_reverb_soundset"],
+                "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
                 "closure1": ["A3|Sounds_F|arsenal|weapons|UGL|Closure_UGL",1,1,10],
                 "soundclosure": ["closure1",1]
             },
@@ -2545,7 +2510,6 @@ rhs_weap_mk18 = {
         "opticszoommax": 1.25,
         "opticszoominit": 0.75,
         "weaponinfotype": "RscWeaponZeroing",
-        "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursoraim": "gl",
         "cursor": "EmptyCursor",
         "value": 3,
@@ -2869,7 +2833,7 @@ rhs_weap_mk18 = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,
