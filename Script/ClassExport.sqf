@@ -1,3 +1,20 @@
+/*
+ * _sideMatrix:
+ *  1. Categorise classes of the same kind to iterate through to
+ *      save to directories specific to each array, for ease of use.
+ *  2. It modular so nothing in the script is dependant on the mods
+ *      and can be configured easily through the array instead of
+ *      the rest of the script.
+ *  3. Classes are grouped by faction in the sub-sub array allowing for
+ *      ease of comprehension and addition for other sides.
+ *       The class list is based off of current assets in C4G KotH V14
+ *       but can easily be extended to all assets of the matching Cfg
+ *       category for the given side. This script can (12/10/2020) be
+ *       extended to all applicable classes in Arma + RHS to add to
+ *       the resulting CombinedBluFor and CombinedOpFor with CombineDicts
+ *       being easily altered to include more sides that are added here.
+*/
+
  _sideMatrix = [
 	//weapons matrix (add opfor pistols)
 	[
@@ -630,6 +647,15 @@
 ];
 
 
+/*
+ * getClass:
+ *  This is a function that adds a found class and it's properties to _classBody
+ *   which is then returned.
+ *
+ *  Notes:
+ *   - Remove _classBody param and instead use _classBody = _classBody + [] call getClass
+ *      as there is no reason for _classBody to be passed to this function.
+*/
 getClass = {
 	params ["_property", "_classBody", "_addComma", "_propertyNameLast", "_configCategory"];
 
@@ -663,6 +689,7 @@ getClass = {
 			case 12: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7 >> _splitClass select 8 >> _splitClass select 9 >> _splitClass select 10 >> _splitClass select 11]};
 			case 13: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7 >> _splitClass select 8 >> _splitClass select 9 >> _splitClass select 10 >> _splitClass select 11 >> _splitClass select 12]};
 			case 14: {_classProperties = configProperties [configFile >> _splitClass select 0 >> _splitClass select 1 >> _splitClass select 2 >> _splitClass select 3 >> _splitClass select 4 >> _splitClass select 5 >> _splitClass select 6 >> _splitClass select 7 >> _splitClass select 8 >> _splitClass select 9 >> _splitClass select 10 >> _splitClass select 11 >> _splitClass select 12 >> _splitClass select 13]};
+			//There are more than 14 nested classes, investigate why: bug or valid value (Max seen so far was 14 for RHSUSAF)
 			default {diag_log(format["count _splitClass [%1]", _countSplitClass]);};
 		};
 
@@ -798,7 +825,6 @@ getProperties = {
 };
 
 
-_testRun = 0;
 _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 {
 	{
@@ -815,11 +841,9 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 			if (i > 1) then {
 				_classBody = _x + " = {\n";
 
-				if (_testRun != 1) then {
-					_classBody = [_x, _classBody, _configCategory] call getProperties;
-					//Create path to write class data to
-					_path = _basePath + _folder + "/" + _x + ".py";
-				};
+				_classBody = [_x, _classBody, _configCategory] call getProperties;
+				//Create path to write class data to
+				_path = _basePath + _folder + "/" + _x + ".py";
 
 				if (_x != (_array select (count _array - 1))) then {
 					_classBody = _classBody + ",";
@@ -851,3 +875,6 @@ _basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\";
 		diag_log(format["Trying to write to %1", _combinedPath]);
 	} foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
+
+
+//TODO: Add more comments
