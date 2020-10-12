@@ -125,8 +125,19 @@ def getWeaponStats(weapon, magazine, side):
     penetration   = ('{:.2f}'.format(round((initialSpeed * caliber * 0.015)/10,2)).zfill(4) + "|" +
                      '{:.2f}'.format(round((initialSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
                      '{:.2f}'.format(round((initialSpeed * caliber * 0.250)/10,2)).zfill(5))
+
+    mode_dispersion = ""
+    if (len(fireModes) > len(rpm)) and (len(fireModes) > len(dispersion)):
+        x = 1
+    else:
+        x = 0
+    for mode in fireModes:
+        mode_dispersion += mode + ": (RPM[" + str(rpm[x]) + "],Dispersion[" + str(dispersion[x]) + "])"
+        x += 1
+        if mode != fireModes[len(fireModes)-1]:
+            mode_dispersion += "\n"
     return ["X", "X", name, cartridge, magCapacity, damage, fireModes, rpm, wepClass, magClass,
-            dispersion, initialSpeed, typicalSpeed, airResistance, caliber, penetration, "X"]
+            dispersion, initialSpeed, typicalSpeed, airResistance, caliber, penetration, "X", mode_dispersion]
 
 #Perk Required
 #Weapon Type
@@ -163,7 +174,8 @@ def writeWeaponStats(weapon, side, csvwriter):
           cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[12])  + cend + "\n" +
           cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[13])  + cend + "\n" +
           cred  + "        Caliber: " + cend + cviolet + str(weaponStats[14]) + cend + "\n" +
-          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[15]))
+          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[15]) + cend + "\n" +
+          ccyan + " RPM-Dispersion: " + cend + cyellow + str(weaponStats[17]) + cend)
     print(SEPERATOR + "\n\n")
 
 #[name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
