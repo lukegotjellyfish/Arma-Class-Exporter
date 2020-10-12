@@ -108,36 +108,62 @@ def getModeDependant(side, weapon, fireModes, wepProperty):
 
 def getWeaponStats(weapon, magazine, side):
     name          = fetchSide([side + "Weapons",weapon,"displayname"])
+    cartridge     = fetchSide([side + "Magazines",magazine,"displaynameshort"])
+    if (len(cartridge) == 0):
+        cartridge = fetchSide([side + "Magazines",magazine,"ammo","cartridge"]).replace("RHS_Cartridge_","")
     magCapacity   = fetchSide([side + "Magazines",magazine,"count"])
     damage        = fetchSide([side + "Magazines",magazine,"ammo","hit"])
     fireModes     = [x.lower() for x in fetchSide([side + "Weapons",weapon,"modes"])]
     rpm           = getModeDependant(side + "Weapons",weapon,fireModes,"reloadtime")
     wepClass      = weapon
-    magClass      = fetchSide([side + "Magazines",magazine,"displaynameshort"]) + " = " + magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
+    magClass      = magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
     dispersion    = getModeDependant(side + "Weapons",weapon,fireModes,"dispersion")
     initialSpeed  = fetchSide([side + "Magazines",magazine,"initspeed"])
+    typicalSpeed  = fetchSide([side + "Magazines",magazine,"ammo","typicalspeed"])
     airResistance = fetchSide([side + "Magazines",magazine,"ammo","airfriction"])
     caliber       = fetchSide([side + "Magazines",magazine,"ammo","caliber"])
-    penetration   = str((initialSpeed * (caliber/1000) * 15)) + "mm RHA"  #RHA
-    return [name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
-            dispersion, initialSpeed, airResistance, caliber, penetration]
+    penetration   = ('{:.2f}'.format(round((initialSpeed * caliber * 0.015)/10,2)).zfill(4) + "|" +
+                     '{:.2f}'.format(round((initialSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
+                     '{:.2f}'.format(round((initialSpeed * caliber * 0.250)/10,2)).zfill(5))
+    return ["X", "X", name, cartridge, magCapacity, damage, fireModes, rpm, wepClass, magClass,
+            dispersion, initialSpeed, typicalSpeed, airResistance, caliber, penetration, "X"]
 
-def writeStats(weapon, side, csvwriter):
+#Perk Required
+#Weapon Type
+#Weapon
+#Catridge
+#Magazine Capacity
+#Damage
+#Fire Modes
+#RPM
+#Weapon Classname
+#Magazine Classname
+#Bullet Dispersion (Radians)
+#Initial Velocity
+#Air Friction
+#Caliber
+#Penetration
+#Level req
+
+
+def writeWeaponStats(weapon, side, csvwriter):
     weaponStats = getWeaponStats(weapon[0], weapon[1], side)
     csvwriter.writerow(weaponStats)
     print(SEPERATOR)
-    print(ccyan + "           Name: " + cend + cgreen  + str(weaponStats[0])  + cend + "\n" +
-          cred  + "       Capacity: " + cend + cviolet + str(weaponStats[1])  + cend + "\n" +
-          cred  + "         Damage: " + cend + cviolet + str(weaponStats[2])  + cend + "\n" +
-          ccyan + "     Fire Modes: " + cend + cyellow + str(weaponStats[3])  + cend + "\n" +
-          ccyan + "            RPM: " + cend + cyellow + str(weaponStats[4])  + cend + "\n" +
-          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[5])  + cend + "\n" +
-          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[6])  + cend + "\n" +
-          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[7])  + cend + "\n" +
-          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[8])  + cend + "\n" +
-          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[9])  + cend + "\n" +
-          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[10]) + cend + "\n" +
-          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[11]))
+    print(ccyan + "           Name: " + cend + cgreen  + str(weaponStats[2])  + cend + "\n" +
+          ccyan + "      Cartridge: " + cend + cgreen  + str(weaponStats[3]) + cend + "\n" +
+          cred  + "       Capacity: " + cend + cviolet + str(weaponStats[4])  + cend + "\n" +
+          cred  + "         Damage: " + cend + cviolet + str(weaponStats[5])  + cend + "\n" +
+          ccyan + "     Fire Modes: " + cend + cyellow + str(weaponStats[6])  + cend + "\n" +
+          ccyan + "            RPM: " + cend + cyellow + str(weaponStats[7])  + cend + "\n" +
+          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[8])  + cend + "\n" +
+          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[9])  + cend + "\n" +
+          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[10])  + cend + "\n" +
+          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[11])  + cend + "\n" +
+          cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[12])  + cend + "\n" +
+          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[13])  + cend + "\n" +
+          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[14]) + cend + "\n" +
+          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[15]))
     print(SEPERATOR + "\n\n")
 
 #[name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
@@ -213,13 +239,13 @@ with open("BluForExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)
     csvwriter = csv.writer(csvfile, delimiter=',')
     for weapon in bluForWeapons:
-        writeStats(weapon, "BluFor", csvwriter)
+        writeWeaponStats(weapon, "BluFor", csvwriter)
 
 with open("OpForExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)
     csvwriter = csv.writer(csvfile, delimiter=',')
     for weapon in opForWeapons:
-        writeStats(weapon, "OpFor", csvwriter)
+        writeWeaponStats(weapon, "OpFor", csvwriter)
 
 # for weapon in opForWeapons:
 #     opForWeapon(weapon)
