@@ -123,7 +123,7 @@ def filterModes(mode, array, rpm, dispersion, x):
     return array
 
 def filterFireModes(fireModes, rpm, dispersion):
-    if (len(fireModes) > len(rpm)) and (len(fireModes) > len(dispersion)):
+    if (len(fireModes) < len(rpm)) and (len(fireModes) < len(dispersion)):
         x = 1
     else:
         x = 0
@@ -133,7 +133,7 @@ def filterFireModes(fireModes, rpm, dispersion):
         #If mode is a firemode
         if mode.count("single") > 0:
             singleRPMdispersion = filterModes(mode, singleRPMdispersion, rpm, dispersion, x)
-        elif mode.count("auto") > 0 or mode.count("manual") > 0:
+        elif mode.count("auto") > 0 or mode.count("manual") > 0 or mode.count("burst") > 0:
             fullautoRPMdispersion = filterModes(mode, fullautoRPMdispersion, rpm, dispersion, x)
     return [singleRPMdispersion, fullautoRPMdispersion]
 
@@ -157,28 +157,51 @@ def getWeaponStats(weapon, magazine, side):
     penetration   = ('{:.2f}'.format(round((initialSpeed * caliber * 0.015)/10,2)).zfill(4) + "|" +
                      '{:.2f}'.format(round((initialSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
                      '{:.2f}'.format(round((initialSpeed * caliber * 0.250)/10,2)).zfill(5))
-    modeStats     = filterFireModes(fireModes, rpm, dispersion)
 
-    return ["X", "X", name, cartridge, magCapacity, damage, modeStats, wepClass, magClass,
-            initialSpeed, typicalSpeed, airResistance, caliber, penetration, "X"]
+    #FireMode filtering, likely more useful for vehicle weapons
+    modeStats     = filterFireModes(fireModes, rpm, dispersion)
+    stringModeStats = ""
+    prevSets = []
+    fireModes = ""
+    rpm = ""
+    dispersion = ""
+    for fireGroup in modeStats:
+        for fireType in fireGroup:
+            if fireType[0] != "":
+                fireModes += fireType[0].title() + "\\"
+                #If matching values not already an added set
+                if ([fireType[1],fireType[2]] not in prevSets):
+                    stringModeStats += fireType[0].title() + ": RPM[" + str(fireType[1]) + "] | Dispersion[" + str(fireType[2]) + "]\n"
+                    rpm        += '{:.2f}'.format(round(60/fireType[1],2)).zfill(6)
+                    dispersion += '{:.7f}'.format(fireType[2])
+                    prevSets.append([fireType[1],fireType[2]])
+
+    # stringModeStats[:-1] = Remove trailing \n
+    return ["X", "X", name, cartridge, magCapacity, damage, fireModes[:-1], rpm, wepClass, magClass, dispersion,
+            initialSpeed, typicalSpeed, airResistance, caliber, penetration, "X", stringModeStats[:-1]]
 
 
 def writeWeaponStats(weapon, side, csvwriter):
     weaponStats = getWeaponStats(weapon[0], weapon[1], side)
-    csvwriter.writerow(weaponStats)
     print(SEPERATOR)
     print(ccyan + "           Name: " + cend + cgreen  + str(weaponStats[2])  + cend + "\n" +
           ccyan + "      Cartridge: " + cend + cgreen  + str(weaponStats[3]) + cend + "\n" +
           cred  + "       Capacity: " + cend + cviolet + str(weaponStats[4])  + cend + "\n" +
           cred  + "         Damage: " + cend + cviolet + str(weaponStats[5])  + cend + "\n" +
           ccyan + "     Fire Modes: " + cend + cyellow + str(weaponStats[6])  + cend + "\n" +
-          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[7])  + cend + "\n" +
-          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[8])  + cend + "\n" +
-          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[9])  + cend + "\n" +
-          cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[10])  + cend + "\n" +
-          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[11])  + cend + "\n" +
-          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[12]) + cend + "\n" +
-          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[13]) + cend)
+          ccyan + "            RPM: " + cend + cyellow + str(weaponStats[7])  + cend + "\n" +
+          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[8])  + cend + "\n" +
+          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[9])  + cend + "\n" +
+          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[10])  + cend + "\n" +
+          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[11])  + cend + "\n" +
+          cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[12])  + cend + "\n" +
+          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[13])  + cend + "\n" +
+          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[14]) + cend + "\n" +
+          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[15]) + cend)
+    #Force excel to parse as string
+    weaponStats[7]  = "=\"" + weaponStats[7] + "\""
+    weaponStats[10] = "=\"" + weaponStats [10] + "\""
+    csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
 
 #[name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
