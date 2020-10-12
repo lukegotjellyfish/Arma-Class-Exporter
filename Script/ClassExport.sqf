@@ -1,19 +1,19 @@
-/*
- * _sideMatrix:
- *  1. Categorise classes of the same kind to iterate through to
- *      save to directories specific to each array, for ease of use.
- *  2. It modular so nothing in the script is dependant on the mods
- *      and can be configured easily through the array instead of
- *      the rest of the script.
- *  3. Classes are grouped by faction in the sub-sub array allowing for
- *      ease of comprehension and addition for other sides.
- *       The class list is based off of current assets in C4G KotH V14
- *       but can easily be extended to all assets of the matching Cfg
- *       category for the given side. This script can (12/10/2020) be
- *       extended to all applicable classes in Arma + RHS to add to
- *       the resulting CombinedBluFor and CombinedOpFor with CombineDicts
- *       being easily altered to include more sides that are added here.
-*/
+//
+// _sideMatrix:
+//  1. Categorise classes of the same kind to iterate through to
+//      save to directories specific to each array, for ease of use.
+//  2. It modular so nothing in the script is dependant on the mods
+//      and can be configured easily through the array instead of
+//      the rest of the script.
+//  3. Classes are grouped by faction in the sub-sub array allowing for
+//      ease of comprehension and addition for other sides.
+//       The class list is based off of current assets in C4G KotH V14
+//       but can easily be extended to all assets of the matching Cfg
+//       category for the given side. This script can (12/10/2020) be
+//       extended to all applicable classes in Arma + RHS to add to
+//       the resulting CombinedBluFor and CombinedOpFor with CombineDicts
+//       being easily altered to include more sides that are added here.
+//
 
  _sideMatrix = [
 	//weapons matrix (add opfor pistols)
@@ -385,7 +385,7 @@
 			"RHS_96Rnd_40mm_MK19_M430A1"                        ,
 			"rhs_mag_100rnd_127x99_mag_Tracer_Red"              ,
 			"rhs_mag_1100Rnd_762x51_M240"                       ,
-			"rhs_mag_1150Rnd_30x173_mixed"                      ,
+			"rhs_mag_1150Rnd_30x173"                            ,
 			"rhs_mag_200rnd_127x99_mag_Tracer_Red"              ,
 			"rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red"         ,
 			"rhs_mag_230Rnd_25mm_M242_HEI"                      ,
@@ -647,15 +647,15 @@
 ];
 
 
-/*
- * getClass:
- *  This is a function that adds a found class and it's properties to _classBody
- *   which is then returned.
- *
- *  Notes:
- *   - Remove _classBody param and instead use _classBody = _classBody + [] call getClass
- *      as there is no reason for _classBody to be passed to this function.
-*/
+//
+// getClass:
+//  This is a function that adds a found class and it's properties to _classBody
+//   which is then returned.
+//
+//  Notes:
+//   - Remove _classBody param and instead use _classBody = _classBody + [] call getClass
+//      as there is no reason for _classBody to be passed to this function.
+//
 getClass = {
 	params ["_property", "_classBody", "_addComma", "_propertyNameLast", "_configCategory"];
 
