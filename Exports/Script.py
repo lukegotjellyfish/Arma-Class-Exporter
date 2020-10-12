@@ -6,15 +6,28 @@ import CombinedBluFor
 import CombinedOpFor
 
 
+#\33[m
+
 os.system("")
-cred     = '\33[91m'
-cgreen   = '\33[92m'
+cred     = '\33[31m'
+cgreen   = '\33[32m'
+cyellow  = '\33[33m'
+cviolet  = '\33[35m'
+ccyan    = '\33[36m'
+
 cgrey    = '\33[90m'
+cred2    = '\33[91m'
+cgreen2  = '\33[92m'
+cyellow2 = '\33[93m'
+cblue2   = '\33[94m'
 cviolet2 = '\33[95m'
+ccyan2   = '\33[96m'
+cwhite   = '\33[96m'
+
 
 cbold    = '\33[1m'
 
-cend     = '\033[0m'
+cend     = '\33[0m'
 
 SEPERATOR = cgreen + cbold + "======================================================================================================================" + cend
 
@@ -78,19 +91,19 @@ def fetchSide(array):
 # print(CombinedBluFor)
 # print(CombinedOpFor)
 
-def getRPM(side, weapon, fireModes):
-    rpm = []
+def getModeDependant(side, weapon, fireModes, wepProperty):
+    thing = []
     try:
-        rpm.append(fetchSide([side,weapon,"reloadtime"]))
+        thing.append(fetchSide([side,weapon,wepProperty]))
     except KeyError:
         pass
 
     for mode in fireModes:
         try:
-            rpm.append(fetchSide([side,weapon,mode,"reloadtime"]))
+            thing.append(fetchSide([side,weapon,mode,wepProperty]))
         except KeyError:
             continue
-    return rpm
+    return thing
 
 
 def getWeaponStats(weapon, magazine, side):
@@ -98,10 +111,10 @@ def getWeaponStats(weapon, magazine, side):
     magCapacity   = fetchSide([side + "Magazines",magazine,"count"])
     damage        = fetchSide([side + "Magazines",magazine,"ammo","hit"])
     fireModes     = [x.lower() for x in fetchSide([side + "Weapons",weapon,"modes"])]
-    rpm           = getRPM(side + "Weapons",weapon,fireModes)
+    rpm           = getModeDependant(side + "Weapons",weapon,fireModes,"reloadtime")
     wepClass      = weapon
     magClass      = fetchSide([side + "Magazines",magazine,"displaynameshort"]) + " = " + magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
-    dispersion    = fetchSide([side + "Weapons",weapon,"dispersion"])
+    dispersion    = getModeDependant(side + "Weapons",weapon,fireModes,"dispersion")
     initialSpeed  = fetchSide([side + "Magazines",magazine,"initspeed"])
     airResistance = fetchSide([side + "Magazines",magazine,"ammo","airfriction"])
     caliber       = fetchSide([side + "Magazines",magazine,"ammo","caliber"])
@@ -113,18 +126,18 @@ def writeStats(weapon, side, csvwriter):
     weaponStats = getWeaponStats(weapon[0], weapon[1], side)
     csvwriter.writerow(weaponStats)
     print(SEPERATOR)
-    print("          Name: " + str(weaponStats[0])  + "\n"
-          "      Capacity: " + str(weaponStats[1])  + "\n"
-          "        Damage: " + str(weaponStats[2])  + "\n"
-          "    Fire Modes: " + str(weaponStats[3])  + "\n"
-          "           RPM: " + str(weaponStats[4])  + "\n"
-          "  Weapon Class: " + str(weaponStats[5])  + "\n"
-          "Magazine Class: " + str(weaponStats[6])  + "\n"
-          "    Dispersion: " + str(weaponStats[7])  + "\n"
-          " Initial Speed: " + str(weaponStats[8])  + "\n"
-          "Air Resistance: " + str(weaponStats[9])  + "\n"
-          "       Caliber: " + str(weaponStats[10]) + "\n"
-          "   Penetration: " + str(weaponStats[11]))
+    print(ccyan + "           Name: " + cend + cgreen  + str(weaponStats[0])  + cend + "\n" +
+          cred  + "       Capacity: " + cend + cviolet + str(weaponStats[1])  + cend + "\n" +
+          cred  + "         Damage: " + cend + cviolet + str(weaponStats[2])  + cend + "\n" +
+          ccyan + "     Fire Modes: " + cend + cyellow + str(weaponStats[3])  + cend + "\n" +
+          ccyan + "            RPM: " + cend + cyellow + str(weaponStats[4])  + cend + "\n" +
+          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[5])  + cend + "\n" +
+          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[6])  + cend + "\n" +
+          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[7])  + cend + "\n" +
+          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[8])  + cend + "\n" +
+          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[9])  + cend + "\n" +
+          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[10]) + cend + "\n" +
+          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[11]))
     print(SEPERATOR + "\n\n")
 
 #[name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
