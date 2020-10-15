@@ -49,7 +49,7 @@ rhs_weap_kpvt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kpvt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -370,7 +370,7 @@ rhs_weap_kpvt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kpvt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -691,7 +691,7 @@ rhs_weap_kpvt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kpvt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -1011,7 +1011,7 @@ rhs_weap_kpvt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kpvt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -1331,7 +1331,7 @@ rhs_weap_kpvt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kpvt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_KPVT_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_KPVT_Closure_SoundSet","RHS_KPVT_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",

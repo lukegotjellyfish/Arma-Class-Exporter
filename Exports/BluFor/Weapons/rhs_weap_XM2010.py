@@ -25,6 +25,12 @@ rhs_weap_XM2010 = {
         "cowsslot": {
             # Class: asdg_OpticRail1913_long|compatibleItems [Indent level: 0]
             "compatibleitems": {
+                "rhsusf_acc_leupoldmk4": 0,
+                "rhsusf_acc_leupoldmk4_d": 0,
+                "rhsusf_acc_leupoldmk4_wd": 0,
+                "rhsusf_acc_m8541_low": 0,
+                "rhsusf_acc_m8541_low_d": 0,
+                "rhsusf_acc_m8541_low_wd": 0,
                 "rhsusf_acc_premier_anpvs27": 1,
                 "rhsusf_acc_acog_anpvs27": 1,
                 "rhsusf_acc_t1_low_fwd": 1,
@@ -79,9 +85,6 @@ rhs_weap_XM2010 = {
                 "optic_erco_blk_f": 1,
                 "optic_erco_khk_f": 1,
                 "optic_erco_snd_f": 1,
-                "rhsusf_acc_leupoldmk4": 1,
-                "rhsusf_acc_leupoldmk4_d": 1,
-                "rhsusf_acc_leupoldmk4_wd": 1,
                 "rhsusf_acc_leupoldmk4_2": 1,
                 "rhsusf_acc_leupoldmk4_2_mrds": 1,
                 "rhsusf_acc_leupoldmk4_2_d": 1,
@@ -90,9 +93,6 @@ rhs_weap_XM2010 = {
                 "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
                 "rhsusf_acc_m8541_mrds": 1,
-                "rhsusf_acc_m8541_low": 1,
-                "rhsusf_acc_m8541_low_d": 1,
-                "rhsusf_acc_m8541_low_wd": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -275,6 +275,7 @@ rhs_weap_XM2010 = {
     "baseweapon": "rhs_weap_XM2010",
     "dlc": "RHS_USAF",
     "magazines": ["rhsusf_5Rnd_300winmag_xm2010"],
+    "magazinewell": ["CBA_300WM_AICS"],
     # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Library [Indent level: 1],
     "library": {
         "libtextdesc": ""
@@ -335,7 +336,7 @@ rhs_weap_XM2010 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_xm2010_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_fn3011_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
@@ -395,7 +396,7 @@ rhs_weap_XM2010 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_xm2010_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_fn3011_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
@@ -451,7 +452,7 @@ rhs_weap_XM2010 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_xm2010_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_fn3011_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
@@ -507,7 +508,7 @@ rhs_weap_XM2010 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_xm2010_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_fn3011_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
@@ -713,7 +714,7 @@ rhs_weap_XM2010 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -1029,7 +1030,7 @@ rhs_weap_XM2010 = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

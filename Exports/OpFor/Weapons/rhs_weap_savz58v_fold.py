@@ -245,7 +245,7 @@ rhs_weap_savz58v_fold = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -550,11 +550,11 @@ rhs_weap_savz58v_fold = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_Shot_SoundSet","RHS_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_ShotSD_SoundSet","RHS_Rifle1_SD_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ak12_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -607,11 +607,11 @@ rhs_weap_savz58v_fold = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_savz58_base|FullAuto|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_Shot_SoundSet","RHS_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_savz58_base|FullAuto|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_ShotSD_SoundSet","RHS_Rifle1_SD_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ak12_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -668,11 +668,11 @@ rhs_weap_savz58v_fold = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_Shot_SoundSet","RHS_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_ShotSD_SoundSet","RHS_Rifle1_SD_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ak12_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -724,11 +724,11 @@ rhs_weap_savz58v_fold = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_Shot_SoundSet","RHS_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_ShotSD_SoundSet","RHS_Rifle1_SD_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ak12_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -780,11 +780,11 @@ rhs_weap_savz58v_fold = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_Shot_SoundSet","RHS_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_savz58_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_ShotSD_SoundSet","RHS_Rifle1_SD_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ak12_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -838,11 +838,11 @@ rhs_weap_savz58v_fold = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_savz58_base|FullAuto|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_Shot_SoundSet","RHS_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m70_shot_soundset","jsrs_7x62mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_savz58_base|FullAuto|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHS_akm_Closure_SoundSet","RHS_akm_ShotSD_SoundSet","RHS_Rifle1_SD_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ak12_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -907,7 +907,7 @@ rhs_weap_savz58v_fold = {
     "ffcount": 3,
     "weaponpoolavailable": 1,
     "maxzeroing": 1000,
-    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

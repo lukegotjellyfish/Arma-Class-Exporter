@@ -2138,7 +2138,7 @@ rhs_t80bvk = {
                 },
                 # Class: CfgVehicles|rhs_tank_base|Attributes|rhs_ammoslot_1_type|values|rhs_mag_3bm46_10 [Indent level: 4],
                 "rhs_mag_3bm46_10": {
-                    "name": "APFSDS-T 3BM48",
+                    "name": "APFSDS-T 3BM46",
                     "value": "rhs_mag_3bm46",
                     "defaultvalue": "rhs_mag_3bm46"
                 }
@@ -4873,7 +4873,7 @@ rhs_t80bvk = {
         # Class: CfgVehicles|rhs_tank_base|DriverOpticsIn|OpticView [Indent level: 2]
         "opticview": {
             "opticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_tvn5",
-            "hitpoint": "Hit_Optic_Driver",
+            "hitpoint": "Hit_Optic_Driver2",
             "initfov": 0.7,
             "minfov": 0.7,
             "maxfov": 0.7,

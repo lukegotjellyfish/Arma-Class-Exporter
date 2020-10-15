@@ -46,7 +46,8 @@ rhsusf_m1045_w = {
                 "pointdirection": "gunnerview_dir",
                 "renderquality": 2,
                 "rendervisionmode": 4,
-                "fov": 0.0538462
+                "fov": 0.0538462,
+                "turret": [0]
             },
             "bboxes": ["PIP_3_TL","PIP_3_TR","PIP_3_BL","PIP_3_BR"]
         },
@@ -170,20 +171,22 @@ rhsusf_m1045_w = {
         "light_bo": {
             "source": "user",
             "animperiod": 1e-005,
-            "initphase": 0
+            "initphase": 1
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|light_stop [Indent level: 2],
         "light_stop": {
+            "initphase": 0,
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_snorkel [Indent level: 2],
         "hide_snorkel": {
             "initphase": 1,
             "displayname": "hide snorkel",
             "author": "Red Hammer Studios",
+            "forceanimate": [],
             "mass": -80,
+            "forceanimatephase": 0,
             "source": "user",
             "animperiod": 1e-005
         },
@@ -191,50 +194,51 @@ rhsusf_m1045_w = {
         "hide_cip": {
             "displayname": "hide CIP",
             "author": "Red Hammer Studios",
+            "initphase": 0,
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_BFT [Indent level: 2],
         "hide_bft": {
             "displayname": "hide BFT",
             "author": "Red Hammer Studios",
+            "initphase": 0,
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_Antenna [Indent level: 2],
         "hide_antenna": {
             "displayname": "hide Antennas",
             "author": "Red Hammer Studios",
+            "initphase": 0,
+            "usesource": 1,
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|hide_A2_Parts [Indent level: 2],
         "hide_a2_parts": {
             "displayname": "hide A2 Parts",
             "author": "Red Hammer Studios",
+            "initphase": 0,
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|A1_bumper [Indent level: 2],
         "a1_bumper": {
+            "initphase": 0,
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Hide_A2Bumper [Indent level: 2],
         "hide_a2bumper": {
             "displayname": "switch to old bumper",
             "author": "Red Hammer Studios",
+            "initphase": 0,
             "forceanimatephase": 1,
             "forceanimate": ["A1_bumper",1],
             "forceanimate2": ["A1_bumper",0],
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_m998_w_2dr|AnimationSources|Hide_Brushguard [Indent level: 2],
         "hide_brushguard": {
@@ -4357,7 +4361,7 @@ rhsusf_m1045_w = {
     # Class: CfgVehicles|rhsusf_m998_w_2dr|Damage [Indent level: 1],
     "damage": {
         "tex": [],
-        "mat": ["rhsusf|addons|rhsusf_hmmwv|textures|A2_parts.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_4drcargo.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m1025.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m1025_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_full_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire_full_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows_half_d.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat"]
+        "mat": ["rhsusf|addons|rhsusf_hmmwv|textures|A2_parts.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|A2_parts_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_4drcargo.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_exterior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m1025.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m1025_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_mainbody.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_chassis.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_chassis.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_interior_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_full_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|wheel_wranglermt_tire_full_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_windows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows_half_d.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|m998_tarpwindows_half_d.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","rhsusf|addons|rhsusf_hmmwv|textures|rhs_destr_hmmwv.rvmat"]
     },
     # Class: CfgVehicles|rhsusf_m998_w_2dr|Reflectors [Indent level: 1],
     "reflectors": {
@@ -4653,49 +4657,49 @@ rhsusf_m1045_w = {
         "transportcountermeasurescomponent": {
         }
     },
-    "soundgetin": ["A3|Sounds_F|vehicles2|soft|Mrap_01|Mrap_01_Enter",0.446684,1],
-    "soundgetout": ["A3|Sounds_F|vehicles2|soft|Mrap_01|Mrap_01_Exit",0.446684,1,40],
-    "sounddammage": ["",0.562341,1],
-    "soundengineonint": ["A3|Sounds_F|vehicles2|soft|Mrap_01|Mrap_01_Engine_Int_Start",0.630957,1],
-    "soundengineoffint": ["A3|Sounds_F|vehicles2|soft|Mrap_01|Mrap_01_Engine_Int_stop",0.501187,1],
-    "soundengineonext": ["A3|Sounds_F|vehicles2|soft|Mrap_01|Mrap_01_Engine_Ext_Start",1.99526,1,50],
-    "soundengineoffext": ["A3|Sounds_F|vehicles2|soft|Mrap_01|Mrap_01_Engine_Ext_stop",1.99526,1,50],
-    "buildcrash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_01",1.99526,1,75],
-    "buildcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_02",1.99526,1,75],
-    "buildcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_03",1.99526,1,75],
-    "buildcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_04",1.99526,1,75],
+    "soundgetin": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getin|mrap_1.ogg",0.5,1],
+    "soundgetout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getout|mrap_1.ogg",0.5,1,40],
+    "sounddammage": [".ogg",0.5,1],
+    "soundengineonint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_start_int.ogg",1,1],
+    "soundengineoffint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_shut_int.ogg",1,1],
+    "soundengineonext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_start_ext.ogg",1,1,125],
+    "soundengineoffext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|mrap_01|mrap_01_shut_ext.ogg",1,1,100],
+    "buildcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_01.ogg",1.5,1,300],
+    "buildcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_02.ogg",1.5,1,300],
+    "buildcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_03.ogg",1.5,1,300],
+    "buildcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_04.ogg",1.5,1,300],
     "buildcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
     "buildcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
     "buildcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
     "buildcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundbuildingcrash": ["buildCrash0",0.125,"buildCrash1",0.125,"buildCrash2",0.125,"buildCrash3",0.125,"buildCrash4",0.125,"buildCrash5",0.125,"buildCrash6",0.125,"buildCrash7",0.125],
-    "woodcrash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_01",1.99526,1,75],
-    "woodcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_02",1.99526,1,75],
-    "woodcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_03",1.99526,1,75],
-    "woodcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_04",1.99526,1,75],
-    "woodcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_05",1.99526,1,75],
-    "woodcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_06",1.99526,1,75],
+    "soundbuildingcrash": ["buildcrash0",0.25,"buildcrash1",0.25,"buildcrash2",0.25,"buildcrash3",0.25],
+    "woodcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_01.ogg",1.5,1,300],
+    "woodcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_02.ogg",1.5,1,300],
+    "woodcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_03.ogg",1.5,1,300],
+    "woodcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_04.ogg",1.5,1,300],
+    "woodcrash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_05.ogg",1.5,1,300],
+    "woodcrash5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_06.ogg",1.5,1,300],
     "woodcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_07",1.99526,1,75],
     "woodcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_08",1.99526,1,75],
-    "soundwoodcrash": ["woodCrash0",0.125,"woodCrash1",0.125,"woodCrash2",0.125,"woodCrash3",0.125,"woodCrash4",0.125,"woodCrash5",0.125,"woodCrash6",0.125,"woodCrash7",0.125],
-    "armorcrash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_01",1.99526,1,75],
-    "armorcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_02",1.99526,1,75],
-    "armorcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_03",1.99526,1,75],
-    "armorcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_04",1.99526,1,75],
+    "soundwoodcrash": ["woodcrash0",0.166,"woodcrash1",0.166,"woodcrash2",0.166,"woodcrash3",0.166,"woodcrash4",0.166,"woodcrash5",0.166],
+    "armorcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
+    "armorcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
+    "armorcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
+    "armorcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
     "armorcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
     "armorcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
     "armorcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
     "armorcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundarmorcrash": ["ArmorCrash0",0.125,"ArmorCrash1",0.125,"ArmorCrash2",0.125,"ArmorCrash3",0.125,"ArmorCrash4",0.125,"ArmorCrash5",0.125,"ArmorCrash6",0.125,"ArmorCrash7",0.125],
-    "crash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_01",1.99526,1,75],
-    "crash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_02",1.99526,1,75],
-    "crash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_03",1.99526,1,75],
-    "crash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_04",1.99526,1,75],
-    "crash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
+    "soundarmorcrash": ["armorcrash0",0.25,"armorcrash1",0.25,"armorcrash2",0.25,"armorcrash3",0.25],
+    "crash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
+    "crash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
+    "crash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
+    "crash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
+    "crash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_05.ogg",1.5,1,300],
     "crash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
     "crash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
     "crash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundcrashes": ["Crash0",0.125,"Crash1",0.125,"Crash2",0.125,"Crash3",0.125,"Crash4",0.125,"Crash5",0.125,"Crash6",0.125,"Crash7",0.125],
+    "soundcrashes": ["crash0",0.2,"crash1",0.2,"crash2",0.2,"crash3",0.2,"crash4",0.2],
     "bushcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_01",0.630957,1,50],
     "bushcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_02",0.630957,1,50],
     "bushcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,1,50],

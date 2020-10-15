@@ -644,7 +644,7 @@ rhs_bmd4_vdv = {
             "values": {
                 # Class: CfgVehicles|rhs_a3spruttank_base|Attributes|rhs_ammoslot_1_type|values|rhs_mag_3bm46_10 [Indent level: 4]
                 "rhs_mag_3bm46_10": {
-                    "name": "APFSDS-T 3BM48",
+                    "name": "APFSDS-T 3BM46",
                     "value": "rhs_mag_3bm46",
                     "defaultvalue": "rhs_mag_3bm46"
                 },

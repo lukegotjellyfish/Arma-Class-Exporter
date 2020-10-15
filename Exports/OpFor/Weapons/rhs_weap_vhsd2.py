@@ -10,17 +10,6 @@ rhs_weap_vhsd2 = {
         "cowsslot": {
             # Class: asdg_OpticRail1913_short|compatibleItems [Indent level: 0]
             "compatibleitems": {
-                "rhsusf_acc_leupoldmk4": 0,
-                "rhsusf_acc_leupoldmk4_d": 0,
-                "rhsusf_acc_leupoldmk4_wd": 0,
-                "rhsusf_acc_leupoldmk4_2": 0,
-                "rhsusf_acc_leupoldmk4_2_d": 0,
-                "rhsusf_acc_leupoldmk4_2_mrds": 0,
-                "rhsusf_acc_premier": 0,
-                "rhsusf_acc_premier_low": 0,
-                "rhsusf_acc_premier_anpvs27": 0,
-                "rhsusf_acc_acog_anpvs27": 0,
-                "rhsusf_acc_specterdr_pvs27": 0,
                 "rhs_acc_rakurspm": 1,
                 "rhs_acc_dh520x56": 1,
                 "rhs_acc_ekp8_18": 1,
@@ -65,7 +54,15 @@ rhs_weap_vhsd2 = {
                 "optic_erco_blk_f": 1,
                 "optic_erco_khk_f": 1,
                 "optic_erco_snd_f": 1,
+                "rhsusf_acc_leupoldmk4": 1,
+                "rhsusf_acc_leupoldmk4_d": 1,
+                "rhsusf_acc_leupoldmk4_wd": 1,
+                "rhsusf_acc_leupoldmk4_2": 1,
+                "rhsusf_acc_leupoldmk4_2_mrds": 1,
+                "rhsusf_acc_leupoldmk4_2_d": 1,
+                "rhsusf_acc_premier": 1,
                 "rhsusf_acc_premier_mrds": 1,
+                "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
                 "rhsusf_acc_m8541_mrds": 1,
                 "rhsusf_acc_m8541_low": 1,
@@ -150,6 +147,7 @@ rhs_weap_vhsd2 = {
                 "rhsusf_acc_specterdr_a_3d": 1,
                 "rhsusf_acc_specterdr_cx": 1,
                 "rhsusf_acc_specterdr_cx_3d": 1,
+                "rhsusf_acc_specterdr_pvs27": 1,
                 "rhsusf_acc_specterdr_d": 1,
                 "rhsusf_acc_specterdr_od": 1,
                 "rhsusf_acc_specterdr_d_3d": 1,
@@ -492,7 +490,7 @@ rhs_weap_vhsd2 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -794,14 +792,14 @@ rhs_weap_vhsd2 = {
         "midrangeprobab": 0.7,
         "maxrange": 400,
         "maxrangeprobab": 0.3,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_VHS2_Shot_SoundSet","RHSGREF_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ctar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHSGREF_sd_VHS2_Shot_SoundSet","RHSGREF_sd_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_katiba_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -851,14 +849,14 @@ rhs_weap_vhsd2 = {
         "maxrange": 30,
         "maxrangeprobab": 0.1,
         "airateoffire": 1e-006,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons|rhs_weap_vhs2_base|FullAuto|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_VHS2_Shot_SoundSet","RHSGREF_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ctar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_vhs2_base|FullAuto|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHSGREF_sd_VHS2_Shot_SoundSet","RHSGREF_sd_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_katiba_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -912,14 +910,14 @@ rhs_weap_vhsd2 = {
         "airateoffiredistance": 300,
         "reloadtime": 0.071,
         "dispersion": 0.0021,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_VHS2_Shot_SoundSet","RHSGREF_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ctar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHSGREF_sd_VHS2_Shot_SoundSet","RHSGREF_sd_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_katiba_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -968,14 +966,14 @@ rhs_weap_vhsd2 = {
         "airateoffiredistance": 600,
         "reloadtime": 0.071,
         "dispersion": 0.0021,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_VHS2_Shot_SoundSet","RHSGREF_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ctar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHSGREF_sd_VHS2_Shot_SoundSet","RHSGREF_sd_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_katiba_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1024,14 +1022,14 @@ rhs_weap_vhsd2 = {
         "showtoplayer": 0,
         "reloadtime": 0.071,
         "dispersion": 0.0021,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_VHS2_Shot_SoundSet","RHSGREF_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ctar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_vhs2_base|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHSGREF_sd_VHS2_Shot_SoundSet","RHSGREF_sd_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_katiba_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1082,14 +1080,14 @@ rhs_weap_vhsd2 = {
         "airateoffiredistance": 200,
         "reloadtime": 0.071,
         "dispersion": 0.0021,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound","silencedsound"],
         # Class: CfgWeapons|rhs_weap_vhs2_base|FullAuto|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_VHS2_Shot_SoundSet","RHSGREF_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_ctar_shot_soundset","jsrs_6x5mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_vhs2_base|FullAuto|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["RHSGREF_sd_VHS2_Shot_SoundSet","RHSGREF_sd_rifle1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_katiba_shot_silenced_soundset","jsrs_6x5mm_sd_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -1133,7 +1131,7 @@ rhs_weap_vhsd2 = {
         "reloadaction": "rhs_GestureReloadM320_ugl",
         "reloadmagazinesound": ["A3|Sounds_F|arsenal|weapons|Rifles|Katiba|Katiba_UGL_reload",0.794328,1,10],
         "magazines": ["rhs_mag_M441_HE","rhs_mag_M433_HEDP","rhs_mag_M397_HET","rhs_mag_M4009","rhs_mag_m576","rhs_mag_M585_white","rhs_mag_M661_green","rhs_mag_M662_red","rhs_mag_M713_red","rhs_mag_M714_white","rhs_mag_M715_green","rhs_mag_M716_yellow"],
-        "magazinewell": ["UGL_40x36"],
+        "magazinewell": ["UGL_40x36","CBA_40mm_M203","CBA_40mm_EGLM"],
         "cameradir": "gl_look",
         "discretedistance": [50,100,150,200,250,300,350],
         "discretedistancecamerapoint": ["gl_eye_50m","gl_eye_100m","gl_eye_150m","gl_eye_200m","gl_eye_250m","gl_eye_300m","gl_eye_350m"],
@@ -1144,7 +1142,7 @@ rhs_weap_vhsd2 = {
         "modes": ["Single"],
         # Class: CfgWeapons|UGL_F|Single [Indent level: 1],
         "single": {
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|UGL_F|Single|BaseSoundModeType [Indent level: 2],
             "basesoundmodetype": {
                 "closure1": ["A3|Sounds_F|arsenal|weapons|UGL|Closure_UGL",1,1,10],
@@ -1155,7 +1153,7 @@ rhs_weap_vhsd2 = {
                 "begin1": ["A3|Sounds_F|arsenal|weapons|UGL|UGL_01",0.707946,1,200],
                 "begin2": ["A3|Sounds_F|arsenal|weapons|UGL|UGL_02",0.707946,1,200],
                 "soundbegin": ["begin1",0.5,"begin2",0.5],
-                "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+                "soundsetshot": ["jsrs_ugl_shot_soundset","jsrs_12x7mm_reverb_soundset"],
                 "closure1": ["A3|Sounds_F|arsenal|weapons|UGL|Closure_UGL",1,1,10],
                 "soundclosure": ["closure1",1]
             },
@@ -1222,6 +1220,7 @@ rhs_weap_vhsd2 = {
         "opticszoommax": 1.25,
         "opticszoominit": 0.75,
         "weaponinfotype": "RscWeaponZeroing",
+        "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
         "cursoraim": "gl",
         "cursor": "EmptyCursor",
         "value": 3,
@@ -1543,7 +1542,7 @@ rhs_weap_vhsd2 = {
     "ffcount": 3,
     "weaponpoolavailable": 1,
     "maxzeroing": 1000,
-    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

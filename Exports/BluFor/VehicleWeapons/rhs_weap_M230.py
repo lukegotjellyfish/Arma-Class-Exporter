@@ -26,7 +26,7 @@ rhs_weap_M230 = {
         "maxrangeprobab": 0.001,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -79,7 +79,7 @@ rhs_weap_M230 = {
         "maxrangeprobab": 0.001,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -132,7 +132,7 @@ rhs_weap_M230 = {
         "maxrangeprobab": 0.001,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -185,7 +185,7 @@ rhs_weap_M230 = {
         "maxrangeprobab": 0.001,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -238,7 +238,7 @@ rhs_weap_M230 = {
         "maxrangeprobab": 0.001,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -293,7 +293,7 @@ rhs_weap_M230 = {
         "multiplier": 1,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -346,7 +346,7 @@ rhs_weap_M230 = {
         "multiplier": 1,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -399,7 +399,7 @@ rhs_weap_M230 = {
         "multiplier": 1,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -452,7 +452,7 @@ rhs_weap_M230 = {
         "multiplier": 1,
         # Class: CfgWeapons|rhs_weap_M230|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_M230_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_cannon20_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -514,13 +514,12 @@ rhs_weap_M230 = {
             "dispersion": 0.0066,
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -537,6 +536,7 @@ rhs_weap_M230 = {
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -604,13 +604,12 @@ rhs_weap_M230 = {
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -620,6 +619,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -658,13 +658,12 @@ rhs_weap_M230 = {
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -674,6 +673,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -712,13 +712,12 @@ rhs_weap_M230 = {
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -728,6 +727,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -766,13 +766,12 @@ rhs_weap_M230 = {
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -782,6 +781,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -820,13 +820,12 @@ rhs_weap_M230 = {
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -836,6 +835,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -1158,13 +1158,12 @@ rhs_weap_M230 = {
         "lowrof": {
             "displayname": "300rpm",
             "burst": 5,
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -1182,6 +1181,7 @@ rhs_weap_M230 = {
             "midrangeprobab": 0.01,
             "maxrange": 2,
             "maxrangeprobab": 0.01,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -1223,13 +1223,12 @@ rhs_weap_M230 = {
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -1239,6 +1238,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -1277,13 +1277,12 @@ rhs_weap_M230 = {
             "maxrange": 400,
             "maxrangeprobab": 0.75,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -1293,6 +1292,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -1331,13 +1331,12 @@ rhs_weap_M230 = {
             "maxrange": 1000,
             "maxrangeprobab": 0.7,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -1347,6 +1346,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -1385,13 +1385,12 @@ rhs_weap_M230 = {
             "maxrange": 1800,
             "maxrangeprobab": 0.15,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -1401,6 +1400,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -1439,13 +1439,12 @@ rhs_weap_M230 = {
             "maxrange": 2500,
             "maxrangeprobab": 0.05,
             "displayname": "300rpm",
-            "sounds": ["StandardSound"],
+            "sounds": ["standardsound"],
             # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
             "standardsound": {
-                "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+                "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
                 "soundbegin": ["begin1",1]
             },
-            "soundcontinuous": 1,
             "flash": "gunfire",
             "flashsize": 0.1,
             # Recoil Array: recoil,
@@ -1455,6 +1454,7 @@ rhs_weap_M230 = {
             "ffcount": 6,
             "reloadtime": 0.08,
             "dispersion": 0.0044,
+            "soundcontinuous": 0,
             "sound": ["",10,1],
             "soundend": ["sound",1],
             "autofire": 1,
@@ -1754,13 +1754,12 @@ rhs_weap_M230 = {
     "lowrof": {
         "displayname": "300rpm",
         "burst": 5,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
             "soundbegin": ["begin1",1]
         },
-        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -1778,6 +1777,7 @@ rhs_weap_M230 = {
         "midrangeprobab": 0.01,
         "maxrange": 2,
         "maxrangeprobab": 0.01,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,
@@ -1819,13 +1819,12 @@ rhs_weap_M230 = {
         "maxrange": 400,
         "maxrangeprobab": 0.75,
         "displayname": "300rpm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons|gatling_30mm_base|LowROF|StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|gatling_30mm|30mm_02_burst",5.62341,1,1500,[2,45447]],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|autocannon_1|medium_distance.ogg",5,1,4000],
             "soundbegin": ["begin1",1]
         },
-        "soundcontinuous": 1,
         "flash": "gunfire",
         "flashsize": 0.1,
         # Recoil Array: recoil,
@@ -1835,6 +1834,7 @@ rhs_weap_M230 = {
         "ffcount": 6,
         "reloadtime": 0.08,
         "dispersion": 0.0044,
+        "soundcontinuous": 0,
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "autofire": 1,

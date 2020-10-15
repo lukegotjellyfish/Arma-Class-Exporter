@@ -6,6 +6,7 @@ rhs_weap_M590_5RD = {
     "model": "rhsusf|addons|rhsusf_weapons2|M590A1|M590_5MAG",
     "handanim": ["OFP2_ManSkeleton","|rhsusf|addons|rhsusf_c_weapons|anims|rhs_hand_m590.rtm"],
     "magazines": ["rhsusf_5Rnd_00Buck","rhsusf_5rnd_doomsday_buck","rhsusf_5Rnd_Slug","rhsusf_5Rnd_HE","rhsusf_5Rnd_FRAG"],
+    "magazinewell": ["CBA_12g_1rnd","CBA_12g_2rnds","CBA_12g_3rnds","CBA_12g_4rnds","CBA_12g_5rnds"],
     "optics": 1,
     "modeloptics": "-",
     "displayname": "M590A1 (Short)",
@@ -173,7 +174,7 @@ rhs_weap_M590_5RD = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -607,7 +608,7 @@ rhs_weap_M590_5RD = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -904,7 +905,7 @@ rhs_weap_M590_5RD = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_M590_5RD|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_m590_Shot_SoundSet","RHSUSF_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m590_shot_soundset","jsrs_12x7mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1020,7 +1021,7 @@ rhs_weap_M590_5RD = {
     "ffcount": 3,
     "weaponpoolavailable": 1,
     "maxzeroing": 1000,
-    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

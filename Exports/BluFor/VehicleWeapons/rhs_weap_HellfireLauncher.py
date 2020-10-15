@@ -36,7 +36,8 @@ rhs_weap_HellfireLauncher = {
         "standardsound": {
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.5,0.96,1500],
             "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.5,0.96,1500],
-            "soundbegin": ["begin1",0.5,"begin2",0.5]
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
+            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -90,7 +91,8 @@ rhs_weap_HellfireLauncher = {
         "standardsound": {
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.5,0.96,1500],
             "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.5,0.96,1500],
-            "soundbegin": ["begin1",0.5,"begin2",0.5]
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
+            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -144,7 +146,8 @@ rhs_weap_HellfireLauncher = {
         "standardsound": {
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.5,0.96,1500],
             "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.5,0.96,1500],
-            "soundbegin": ["begin1",0.5,"begin2",0.5]
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
+            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -189,11 +192,12 @@ rhs_weap_HellfireLauncher = {
     "cmimmunity": 0.4,
     "lockingtargetsound": ["|A3|Sounds_F|weapons|Rockets|locked_1",0.562341,1],
     "lockedtargetsound": ["|A3|Sounds_F|weapons|Rockets|locked_3",0.562341,2.5],
-    "sounds": ["StandardSound"],
+    "sounds": ["standardsound"],
     # Class: CfgWeapons|Missile_AGM_02_Plane_CAS_01_F|StandardSound [Indent level: 1],
     "standardsound": {
         "begin1": ["A3|Sounds_F_EPC|Weapons|missile_epc_1",1.77828,1,3500],
-        "soundbegin": ["begin1",1]
+        "soundbegin": ["begin1",1],
+        "soundsetshot": ["jsrs_missile_2_shot_soundset","jsrs_pods_reverb_soundset"]
     },
     # Class: CfgWeapons|Missile_AGM_02_Plane_CAS_01_F|Direct [Indent level: 1],
     "direct": {
@@ -512,6 +516,7 @@ rhs_weap_HellfireLauncher = {
         },
         "aimtransitionspeed": 1
     },
+    "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,500],
     "type": 65536,
     "dexterity": 0.5,
     "count": 1,

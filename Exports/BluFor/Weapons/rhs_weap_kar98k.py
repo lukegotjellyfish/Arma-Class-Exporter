@@ -114,7 +114,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kar98k_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -170,7 +170,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kar98k_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -222,7 +222,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kar98k_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -274,7 +274,7 @@ rhs_weap_kar98k = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kar98k_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSGREF_K98_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_kar98k_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -349,7 +349,7 @@ rhs_weap_kar98k = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

@@ -4,6 +4,7 @@ rhs_weap_m40a5 = {
     "scope": 2,
     "displayname": "M40A5",
     "magazines": ["rhsusf_5Rnd_762x51_AICS_m118_special_Mag","rhsusf_5Rnd_762x51_AICS_m993_Mag","rhsusf_5Rnd_762x51_AICS_m62_Mag","rhsusf_10Rnd_762x51_m118_special_Mag","rhsusf_10Rnd_762x51_m993_Mag","rhsusf_10Rnd_762x51_m62_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m993_Mag","rhsusf_5Rnd_762x51_m62_Mag"],
+    "magazinewell": ["CBA_762x51_AICS","CBA_762x51_1rnd","CBA_762x51_2rnds","CBA_762x51_3rnds","CBA_762x51_4rnds","CBA_762x51_5rnds"],
     "magazinereloadswitchphase": 0.5,
     "model": "rhsusf|addons|rhsusf_weapons3|M40|rhs_m40a5.p3d",
     "hiddenselections": ["Camo"],
@@ -18,18 +19,8 @@ rhs_weap_m40a5 = {
         },
         # Class: CfgWeapons|rhs_weap_m40a5|WeaponSlotsInfo|CowsSlot [Indent level: 2],
         "cowsslot": {
-            # Class: CfgWeapons|rhs_weap_m40a5|WeaponSlotsInfo|CowsSlot|compatibleItems [Indent level: 3]
+            # Class: asdg_OpticRail1913_short|compatibleItems [Indent level: 0]
             "compatibleitems": {
-                "rhsusf_acc_t1_low_fwd": 0,
-                "rhsusf_acc_t1_low_fwd_ak": 0,
-                "rhsusf_acc_rm05_fwd": 0,
-                "rhsusf_acc_rm05_fwd_ak": 0,
-                "rhsusf_acc_mrds_fwd": 0,
-                "rhsusf_acc_mrds_fwd_ak": 0,
-                "rhsusf_acc_mrds_fwd_c": 0,
-                "rhsusf_acc_mrds_fwd_c_ak": 0,
-                "rhsusf_acc_premier_anpvs27": 1,
-                "rhsusf_acc_acog_anpvs27": 1,
                 "rhs_acc_rakurspm": 1,
                 "rhs_acc_dh520x56": 1,
                 "rhs_acc_ekp8_18": 1,
@@ -379,7 +370,7 @@ rhs_weap_m40a5 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_xm2010_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_fn3011_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
@@ -435,7 +426,7 @@ rhs_weap_m40a5 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_xm2010_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_fn3011_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
@@ -491,7 +482,7 @@ rhs_weap_m40a5 = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_xm2010_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_fn3011_shot_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         # Class: CfgWeapons|rhs_weap_XM2010_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
@@ -695,7 +686,7 @@ rhs_weap_m40a5 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -1011,7 +1002,7 @@ rhs_weap_m40a5 = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

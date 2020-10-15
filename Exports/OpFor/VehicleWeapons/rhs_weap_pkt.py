@@ -29,7 +29,10 @@ rhs_weap_pkt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_pkt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_pkt|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -350,7 +353,10 @@ rhs_weap_pkt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_pkt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_pkt|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -669,7 +675,10 @@ rhs_weap_pkt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_pkt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_pkt|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -988,7 +997,10 @@ rhs_weap_pkt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_pkt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_pkt|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -1307,7 +1319,10 @@ rhs_weap_pkt = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_pkt|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHS_veh_PK_Shot_SoundSet","RHS_veh_PK_int_Shot_SoundSet","RHS_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["RHS_pkp_Closure_SoundSet","RHS_pkp_Shot_SoundSet","RHS_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_pkt|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "type": 65536,
         "cursor": "EmptyCursor",

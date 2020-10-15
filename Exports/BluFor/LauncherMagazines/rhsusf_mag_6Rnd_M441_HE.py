@@ -7,7 +7,8 @@ rhsusf_mag_6Rnd_M441_HE = {
     # Ammo: CfgMagazines|rhs_mag_M441_HE|ammo [Indent level: 1],
     "ammo": {
         "ammo": "rhsusf_40mm_HE",
-        "hit": 20,
+        "aiammousageflags": "64 + 256",
+        "hit": 60,
         "indirecthit": 5,
         "indirecthitrange": 10.7,
         "model": "A3|weapons_f|ammo|UGL_slug",
@@ -60,7 +61,7 @@ rhsusf_mag_6Rnd_M441_HE = {
             "frequency": 20,
             "distance": 1
         },
-        "soundsetexplosion": ["GrenadeHe_Exp_SoundSet","GrenadeHe_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "soundsetexplosion": ["jsrs_grenade_explosion_soundset","jsrs_40mm_explosion_stereo_soundset","jsrs_grenade_explosion_reverb_soundset"],
         "soundhit5": ["A3|Sounds_F|weapons|Explosion|gr_explosion_5",3.16228,1,1400],
         "soundhit6": ["A3|Sounds_F|weapons|Explosion|gr_explosion_6",3.16228,1,1400],
         "supersoniccracknear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.316228,1,50],

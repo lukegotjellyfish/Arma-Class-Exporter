@@ -177,7 +177,7 @@ RHS_Mi24Vt_vvsc = {
     "side": 0,
     "picture": "rhsafrf|addons|rhs_a2port_air|data|ico|rhs_mi24v_pic_ca.paa",
     "tf_isolatedamount_api": 0.6,
-    "weapons": ["rhs_weap_DIRCM_Lipa"],
+    "weapons": ["rhs_weap_MASTERSAFE","rhs_weap_DIRCM_Lipa"],
     "magazines": ["rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa","rhs_mag_DIRCM_Lipa"],
     "selectionfireanim": "",
     # Class: CfgVehicles|RHS_Mi24V_Base|AnimationSources [Indent level: 1],
@@ -489,7 +489,7 @@ RHS_Mi24Vt_vvsc = {
         "mainturret": {
             "body": "mainTurret",
             "gun": "mainGun",
-            "weapons": ["rhs_weap_yakB","rhs_weap_fcs_mi24"],
+            "weapons": ["rhs_weap_MASTERSAFE","rhs_weap_yakB","rhs_weap_fcs_mi24"],
             "magazines": ["rhs_mag_127x108mm_1SLT_1470","rhs_laserfcsmag"],
             "gunbeg": "muzzle_1",
             "gunend": "chamber_1",
@@ -516,6 +516,8 @@ RHS_Mi24Vt_vvsc = {
             "memorypointsgetingunnerdir": "pos gunner dir",
             "gunnerlefthandanimname": "stick_gunner",
             "gunnerrighthandanimname": "stick_gunner",
+            "animationsourcestickx": "MainTurret_Inertia",
+            "animationsourcesticky": "MainGun_Inertia",
             "gunnercompartments": "Compartment2",
             "castgunnershadow": 1,
             "viewgunnershadow": 1,
@@ -3107,7 +3109,20 @@ RHS_Mi24Vt_vvsc = {
     "getinproxyorder": [1,2,3,4,5,6,7,8],
     # Class: CfgVehicles|RHS_Mi24_base|UserActions [Indent level: 1],
     "useractions": {
-        # Class: CfgVehicles|RHS_Mi24_base|UserActions|openDoor [Indent level: 2]
+        # Class: CfgVehicles|RHS_Mi24_base|UserActions|SAFEMODE [Indent level: 2]
+        "safemode": {
+            "displayname": "<t color='#00FF7F'>MASTERSAFE</t>",
+            "condition": "(call rhs_fnc_findPlayer) isEqualTo (driver this) || (call rhs_fnc_findPlayer) isEqualTo (gunner this)",
+            "statement": "(call rhs_fnc_findPlayer) action ['SwitchWeapon', this, (call rhs_fnc_findPlayer), (weapons this) find 'rhs_weap_MASTERSAFE'];",
+            "position": "",
+            "radius": 10,
+            "priority": 10.5,
+            "onlyforplayer": 1,
+            "showwindow": 0,
+            "shortcut": "user13",
+            "hideonuse": 1
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|UserActions|openDoor [Indent level: 2],
         "opendoor": {
             "displayname": "Open Door",
             "position": "",
@@ -3157,11 +3172,108 @@ RHS_Mi24Vt_vvsc = {
             "effect": "ExhaustEffectHeli"
         }
     },
-    "armor": 45,
+    "armor": 50,
+    "armorstructural": 20,
     "damageresistance": 0.000345,
+    "hulldamagecauseexplosion": 1,
+    "epeimpulsedamagecoef": 1,
+    "hullexplosiondelay": [10,20],
     # Class: CfgVehicles|RHS_Mi24_base|HitPoints [Indent level: 1],
     "hitpoints": {
-        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitFuel [Indent level: 2]
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitHull [Indent level: 2]
+        "hithull": {
+            "simulation": "RHS_Hull_Helicopter",
+            "armor": -200,
+            "minimalhit": -0.15,
+            "radius": 0.2,
+            "name": "hull_hit",
+            "armorcomponent": "Hit_Hull",
+            "visual": "zbytek",
+            "passthrough": 1,
+            # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitHull|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke [Indent level: 0]
+                "rhs_hull_smoke": {
+                    "simulation": "particles",
+                    "type": "SmallWreckSmoke",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire [Indent level: 0],
+                "rhs_hull_fire": {
+                    "type": "MediumDestructionFire",
+                    "simulation": "particles",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Sparks [Indent level: 0],
+                "rhs_hull_sparks": {
+                    "type": "AirFireSparks",
+                    "simulation": "particles",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Sounds [Indent level: 0],
+                "rhs_hull_sounds": {
+                    "simulation": "sound",
+                    "type": "Fire",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke_small1 [Indent level: 0],
+                "rhs_hull_smoke_small1": {
+                    "type": "WeaponWreckSmoke",
+                    "position": "hull_fire_2",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke_small2 [Indent level: 0],
+                "rhs_hull_smoke_small2": {
+                    "position": "hull_fire_3",
+                    "type": "WeaponWreckSmoke",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire_2 [Indent level: 0],
+                "rhs_hull_fire_2": {
+                    "type": "MediumDestructionFire",
+                    "position": "hull_fire_2",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire_3 [Indent level: 0],
+                "rhs_hull_fire_3": {
+                    "type": "MediumDestructionFire",
+                    "position": "hull_fire_3",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                "ammoexplosioneffect": "",
+                "effectradius": 1,
+                "ignorefuel": 1
+            },
+            "depends": "Total",
+            "convexcomponent": "hull_hit",
+            "explosionshielding": 1,
+            "material": 51
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitFuel [Indent level: 2],
         "hitfuel": {
             "armor": 1.3,
             "radius": 0.125,
@@ -3192,21 +3304,21 @@ RHS_Mi24Vt_vvsc = {
             "explosionshielding": 3,
             "minimalhit": 0.1,
             "name": "engine_1_hit",
-            "convexcomponent": "engine_1_hit",
             "visual": "motor",
             "passthrough": 1,
+            "convexcomponent": "engine_1_hit",
             "material": 51
         },
         # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitEngine2 [Indent level: 2],
         "hitengine2": {
             "name": "engine_2_hit",
-            "convexcomponent": "engine_2_hit",
             "armor": 1.63,
             "radius": 0.35,
             "explosionshielding": 3,
             "minimalhit": 0.1,
             "visual": "motor",
             "passthrough": 1,
+            "convexcomponent": "engine_1_hit",
             "material": 51
         },
         # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitEngine [Indent level: 2],
@@ -3222,14 +3334,26 @@ RHS_Mi24Vt_vvsc = {
             "passthrough": 1,
             "material": 51
         },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitTail [Indent level: 2],
+        "hittail": {
+            "armor": -150,
+            "explosionshielding": 0.2,
+            "passthrough": 0.5,
+            "minimalhit": -0.2,
+            "radius": 0.13,
+            "armorcomponent": "Hit_Tail",
+            "name": "Hit_Tail",
+            "visual": "-",
+            "simulation": "RHS_Hull_Helicopter"
+        },
         # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitVRotor [Indent level: 2],
         "hitvrotor": {
             "armor": 0.5,
             "explosionshielding": 1,
-            "material": 51,
             "passthrough": 0.3,
             "name": "tail_rotor_hit",
-            "visual": "mala vrtule staticka"
+            "visual": "mala vrtule staticka",
+            "depends": "HitTail"
         },
         # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitHRotor [Indent level: 2],
         "hithrotor": {
@@ -3239,6 +3363,78 @@ RHS_Mi24Vt_vvsc = {
             "passthrough": 0.1,
             "name": "main_rotor_hit",
             "visual": "velka vrtule staticka"
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitHydraulics [Indent level: 2],
+        "hithydraulics": {
+            "armor": -50,
+            "explosionshielding": 0.5,
+            "passthrough": 0.1,
+            "minimalhit": 0.1,
+            "radius": 0.13,
+            "name": "hit_hydraulics",
+            "visual": "-"
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitTransmission [Indent level: 2],
+        "hittransmission": {
+            "armor": -80,
+            "explosionshielding": 0.5,
+            "passthrough": 0.1,
+            "minimalhit": 0.1,
+            "radius": 0.13,
+            "name": "transmission",
+            "visual": "-"
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitHStabilizerL1 [Indent level: 2],
+        "hithstabilizerl1": {
+            "armor": -30,
+            "explosionshielding": 0.5,
+            "passthrough": 0.1,
+            "minimalhit": 0.1,
+            "radius": 0.13,
+            "name": "hstabilizerl1",
+            "visual": "-"
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitHStabilizerR1 [Indent level: 2],
+        "hithstabilizerr1": {
+            "armor": -30,
+            "explosionshielding": 0.5,
+            "passthrough": 0.1,
+            "minimalhit": 0.1,
+            "radius": 0.13,
+            "name": "hstabilizerr1",
+            "visual": "-"
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitVStabilizer1 [Indent level: 2],
+        "hitvstabilizer1": {
+            "armor": -30,
+            "explosionshielding": 0.5,
+            "passthrough": 0.1,
+            "minimalhit": 0.1,
+            "radius": 0.13,
+            "name": "vstabilizer1",
+            "visual": "-"
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitPitotTube [Indent level: 2],
+        "hitpitottube": {
+            "armor": -30,
+            "explosionshielding": 0.5,
+            "passthrough": 0.1,
+            "minimalhit": 0.1,
+            "radius": 0.13,
+            "name": "pitot tube",
+            "visual": "-",
+            "depends": ""
+        },
+        # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitStaticPort [Indent level: 2],
+        "hitstaticport": {
+            "armor": -30,
+            "explosionshielding": 0.5,
+            "passthrough": 0.1,
+            "minimalhit": 0.1,
+            "radius": 0.13,
+            "name": "static port",
+            "visual": "-",
+            "depends": ""
         },
         # Class: CfgVehicles|RHS_Mi24_base|HitPoints|HitGlass1 [Indent level: 2],
         "hitglass1": {
@@ -3332,7 +3528,7 @@ RHS_Mi24Vt_vvsc = {
             "material": -1,
             "name": "hit_pylon_1",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -3383,7 +3579,7 @@ RHS_Mi24Vt_vvsc = {
             "material": -1,
             "name": "hit_pylon_2",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -3434,7 +3630,7 @@ RHS_Mi24Vt_vvsc = {
             "material": -1,
             "name": "hit_pylon_3",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -3485,7 +3681,7 @@ RHS_Mi24Vt_vvsc = {
             "material": -1,
             "name": "hit_pylon_4",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -3536,7 +3732,7 @@ RHS_Mi24Vt_vvsc = {
             "material": -1,
             "name": "hit_pylon_5",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -3587,7 +3783,7 @@ RHS_Mi24Vt_vvsc = {
             "material": -1,
             "name": "hit_pylon_6",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -3631,19 +3827,6 @@ RHS_Mi24Vt_vvsc = {
                     "lifetime": 0.03
                 }
             }
-        },
-        # Class: CfgVehicles|Heli_Attack_02_base_F|HitPoints|HitHull [Indent level: 2],
-        "hithull": {
-            "armor": 999,
-            "visual": "camo1",
-            "minimalhit": 0.05,
-            "depends": "Total",
-            "radius": 0.01,
-            "name": "hull_hit",
-            "convexcomponent": "hull_hit",
-            "explosionshielding": 1,
-            "material": 51,
-            "passthrough": 1
         },
         # Class: CfgVehicles|Heli_Attack_02_base_F|HitPoints|HitGlass7 [Indent level: 2],
         "hitglass7": {
@@ -3805,13 +3988,6 @@ RHS_Mi24Vt_vvsc = {
             "visual": "motor",
             "passthrough": 1
         },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitTransmission [Indent level: 2],
-        "hittransmission": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "transmission",
-            "passthrough": 0.8
-        },
         # Class: CfgVehicles|Helicopter|HitPoints|HitLight [Indent level: 2],
         "hitlight": {
             "armor": 0.1,
@@ -3819,61 +3995,12 @@ RHS_Mi24Vt_vvsc = {
             "name": "light",
             "passthrough": 0
         },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitHydraulics [Indent level: 2],
-        "hithydraulics": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "hydraulics",
-            "passthrough": 0.8
-        },
         # Class: CfgVehicles|Helicopter|HitPoints|HitGear [Indent level: 2],
         "hitgear": {
             "armor": 0.9,
             "material": -1,
             "name": "gear",
             "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitHStabilizerL1 [Indent level: 2],
-        "hithstabilizerl1": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "HStabilizerL1",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitHStabilizerR1 [Indent level: 2],
-        "hithstabilizerr1": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "HStabilizerR1",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitVStabilizer1 [Indent level: 2],
-        "hitvstabilizer1": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "VStabilizer1",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitTail [Indent level: 2],
-        "hittail": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "tail boom",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitPitotTube [Indent level: 2],
-        "hitpitottube": {
-            "armor": 0.5,
-            "material": -1,
-            "name": "pitot tube",
-            "passthrough": 0.2
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitStaticPort [Indent level: 2],
-        "hitstaticport": {
-            "armor": 0.1,
-            "material": -1,
-            "name": "static port",
-            "passthrough": 1
         },
         # Class: CfgVehicles|Helicopter|HitPoints|HitStarter1 [Indent level: 2],
         "hitstarter1": {
@@ -4174,31 +4301,31 @@ RHS_Mi24Vt_vvsc = {
     "soundwatercollision1": ["A3|Sounds_F|vehicles|crashes|helis|Heli_coll_water_ext_1",3.16228,1,300],
     "soundwatercollision2": ["A3|Sounds_F|vehicles|crashes|helis|Heli_coll_water_ext_2",3.16228,1,300],
     "soundwatercrashes": ["soundWaterCollision1",0.5,"soundWaterCollision2",0.5],
-    "sounddammage": ["A3|Sounds_F|vehicles|crashes|helis|Heli_crash_default_int_1",10,1],
-    "soundgetin": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_door",1,1],
-    "soundgetout": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_door",1,1,50],
-    "soundengineonint": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_int_start2",0.158489,1],
-    "soundengineonext": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_ext_start2",0.794328,1,600],
-    "soundengineoffint": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_int_stop2",0.199526,1],
-    "soundengineoffext": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_ext_stop2",0.794328,1,600],
-    "rotordamageint": ["A3|Sounds_F|vehicles|air|noises|heli_damage_rotor_int_2",1,1],
-    "rotordamageout": ["A3|Sounds_F|vehicles|air|noises|heli_damage_rotor_ext_2",2.51189,1,300],
-    "rotordamage": ["rotorDamageInt","rotorDamageOut"],
-    "taildamageint": ["A3|Sounds_F|vehicles|air|noises|heli_damage_tail",1,1],
-    "taildamageout": ["A3|Sounds_F|vehicles|air|noises|heli_damage_tail",1,1,300],
-    "taildamage": ["tailDamageInt","tailDamageOut"],
-    "landingsoundint0": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_large_int1",1,1,100],
-    "landingsoundint1": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_large_int2",1,1,100],
-    "landingsoundint": ["landingSoundInt0",0.5,"landingSoundInt1",0.5],
-    "landingsoundout0": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_ext1",5.62341,1,500],
-    "landingsoundout1": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_ext2",5.62341,1,500],
-    "landingsoundout": ["landingSoundOut0",0.5,"landingSoundOut1",0.5],
-    "slingcargoattach0": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownEndINT",1,1],
-    "slingcargoattach1": ["A3|Sounds_F|vehicles|air|noises|SL_1hookLock",1.77828,1,200],
-    "slingcargoattach": ["slingCargoAttach0","slingCargoAttach1"],
-    "slingcargodetach0": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpEndINT",1,1],
-    "slingcargodetach1": ["A3|Sounds_F|vehicles|air|noises|SL_1hookUnlock",1.77828,1,200],
-    "slingcargodetach": ["slingCargoDetach0","slingCargoDetach1"],
+    "sounddammage": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|helibasiccrash.ogg",0.75,1],
+    "soundgetin": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|open.ogg",1,1,50],
+    "soundgetout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|close.ogg",1,1,50],
+    "soundengineonint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|int_start.ogg",1,1],
+    "soundengineonext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|ext_start.ogg",1,1,300],
+    "soundengineoffint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|int_off.ogg",1,1],
+    "soundengineoffext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|ext_off.ogg",1,1,300],
+    "rotordamageint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_rotor_int.ogg",0.75,1],
+    "rotordamageout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_rotor_ext.ogg",2,1,300],
+    "rotordamage": ["rotordamageint","rotordamageout"],
+    "taildamageint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_tail.ogg",0.75,1],
+    "taildamageout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_tail.ogg",2,1,300],
+    "taildamage": ["taildamageint","taildamageout"],
+    "landingsoundint0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_int1_open.ogg",0.75,1],
+    "landingsoundint1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_int1_open.ogg",0.75,1],
+    "landingsoundint": ["landingsoundint0",0.5,"landingsoundint1",0.5],
+    "landingsoundout0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_ext1.ogg",1,1,300],
+    "landingsoundout1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_ext1.ogg",1,1,300],
+    "landingsoundout": ["landingsoundout0",0.5,"landingsoundout1",0.5],
+    "slingcargoattach0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hooklock.ogg",1.35,1],
+    "slingcargoattach1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hooklock.ogg",1,1,300],
+    "slingcargoattach": ["slingcargoattach0","slingcargoattach1"],
+    "slingcargodetach0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hookunlock.ogg",1.5,1],
+    "slingcargodetach1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hookunlock.ogg",1,1,300],
+    "slingcargodetach": ["slingcargodetach0","slingcargodetach1"],
     "slingcargodetachair0": ["A3|Sounds_F|vehicles|air|noises|SL_unhook_air_int",1,1],
     "slingcargodetachair1": ["A3|Sounds_F|vehicles|air|noises|SL_unhook_air_ext",1,1,300],
     "slingcargodetachair": ["slingCargoDetach0","slingCargoDetach1"],
@@ -4214,176 +4341,225 @@ RHS_Mi24Vt_vvsc = {
         "sounds": {
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|EngineExt [Indent level: 3]
             "engineext": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_ext_engine",1.77828,1,900],
-                "frequency": "rotorSpeed",
-                "volume": "camPos*((rotorSpeed-0.72)*4)"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|engine_close.ogg",1.5,1,300],
+                "frequency": "rotorspeed",
+                "volume": "campos *1.5* (rotorspeed factor [0.6, 1]) * (1 + rotorthrust)"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|RotorExt [Indent level: 3],
             "rotorext": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_ext_rotor",1.12202,1,2000],
-                "frequency": "rotorSpeed*(1-rotorThrust/8)*1.2",
-                "volume": "2*camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)",
-                "cone": [1.6,3.14,1.6,0.95]
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|rotor_close.ogg",1.6,1,300],
+                "cone": [1.6,3.14,1.6,0.95],
+                "frequency": "(rotorspeed factor [0.3, 0.7]) * (rotorspeed factor [0.3, 1]) * (1 - rotorthrust/4)",
+                "volume": "campos *1.5* (rotorspeed factor [0.6, 1]) * (1 + rotorthrust)"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|RotorNoiseExt [Indent level: 3],
             "rotornoiseext": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|rotor_swist",1,1,400],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|rotor|rotor_double.ogg",0.5,1,200],
+                "cone": [1.6,3.14,2,0.95],
                 "frequency": 1,
-                "volume": "camPos * (rotorThrust factor [0.7, 0.9])",
-                "cone": [0.7,1.3,1,0]
+                "volume": "(campos*(rotorspeed factor [0.6, 0.85]))"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|EngineInt [Indent level: 3],
             "engineint": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_int_engine",1.12202,1],
-                "frequency": "rotorSpeed",
-                "volume": "(1-camPos)*((rotorSpeed-0.75)*4)"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|int_main.ogg",1,1],
+                "frequency": "rotorspeed",
+                "volume": "1*(1-campos)*(0 max (rotorspeed-0.4))"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|RotorInt [Indent level: 3],
             "rotorint": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Attack_02|Mixxx_int_rotor",0.891251,1],
-                "frequency": "rotorSpeed*(1-rotorThrust/8)*1.2",
-                "volume": "(1-camPos)*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|int_rotor.ogg",1,1],
+                "frequency": "(rotorspeed factor [0.3, 0.7]) * (rotorspeed factor [0.3, 1]) * (1 - rotorthrust/4)",
+                "volume": "(1 - campos) * (rotorspeed factor [0.3, 0.7]) * (1 + rotorthrust) * 0.7"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|TransmissionDamageExt_phase1 [Indent level: 3],
             "transmissiondamageext_phase1": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_1",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",1,1,300],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "campos * (transmissiondamage factor [0.3, 0.35]) * (transmissiondamage factor [0.5, 0.45]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|TransmissionDamageExt_phase2 [Indent level: 3],
             "transmissiondamageext_phase2": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_2",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",1,1,300],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "campos * (transmissiondamage factor [0.45, 0.5]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|TransmissionDamageInt_phase1 [Indent level: 3],
             "transmissiondamageint_phase1": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_1",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",0.75,1],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "(1 - campos) * (transmissiondamage factor [0.3, 0.35]) * (transmissiondamage factor [0.5, 0.45]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|TransmissionDamageInt_phase2 [Indent level: 3],
             "transmissiondamageint_phase2": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_2",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",0.75,1],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "(1 - campos) * (transmissiondamage factor [0.45, 0.5]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|damageAlarmInt [Indent level: 3],
             "damagealarmint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.316228,1],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|damagealarm.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0.0, 0.001])"
+                "volume": "engineon * (1 - campos) * ( 1 - ((transmissiondamage factor [0.61, 0.60]) * (motordamage factor [0.61, 0.60]) * (rotordamage factor [0.51, 0.50]))) * (rotorspeed factor [0.0, 0.001])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|damageAlarmExt [Indent level: 3],
             "damagealarmext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.223872,1,20],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|damagealarm.ogg",1,1,100],
                 "frequency": 1,
-                "volume": "engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])"
+                "volume": "engineon * campos * ( 1 - ((transmissiondamage factor [0.61, 0.60]) * (motordamage factor [0.61, 0.60]) * (rotordamage factor [0.51, 0.50]))) * (rotorspeed factor [0, 0.001])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|rotorLowAlarmInt [Indent level: 3],
             "rotorlowalarmint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.316228,1],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|lowrotoralarmint.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
+                "volume": "engineon * (1 - campos) * (rotorspeed factor [0.9, 0.8999]) * (rotorspeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|rotorLowAlarmExt [Indent level: 3],
             "rotorlowalarmext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.223872,1,20],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|lowrotoralarmint.ogg",1,1,75],
                 "frequency": 1,
-                "volume": "engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
+                "volume": "engineon * campos * (rotorspeed factor [0.9, 0.8999]) * (rotorspeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|scrubLandInt [Indent level: 3],
             "scrublandint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|wheelsInt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrublandint_open.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "2 * (1-camPos) * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))"
+                "volume": "2 * (1-campos) * (scrubland factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|scrubLandExt [Indent level: 3],
             "scrublandext": {
-                "sound": ["A3|Sounds_F|dummysound",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrublandext.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))"
+                "volume": "campos * (scrubland factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|scrubBuildingInt [Indent level: 3],
             "scrubbuildingint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|wheelsInt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubbuilding.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos) * (scrubBuilding factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))"
+                "volume": "2 * (1 - campos) * (scrubbuilding factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|scrubBuildingExt [Indent level: 3],
             "scrubbuildingext": {
-                "sound": ["A3|Sounds_F|dummysound",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubbuilding.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos * (scrubBuilding factor[0.02, 0.05])"
+                "volume": "campos * (scrubbuilding factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|scrubTreeInt [Indent level: 3],
             "scrubtreeint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeInt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubtree.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1 - camPos) * ((scrubTree) factor [0, 0.01])"
+                "volume": "(1 - campos) * ((scrubtree) factor [0, 0.01])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|scrubTreeExt [Indent level: 3],
             "scrubtreeext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeExt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubtree.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos * ((scrubTree) factor [0, 0.01])"
+                "volume": "campos * (scrubtree factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|RainExt [Indent level: 3],
             "rainext": {
-                "sound": ["A3|Sounds_F|vehicles|noises|rain1_ext",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|rain1_ext.ogg",1,1,100],
                 "frequency": 1,
-                "volume": "camPos * (rain - rotorSpeed/2) * 2"
+                "volume": "campos * (rain - rotorspeed/2) * 2"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|RainInt [Indent level: 3],
             "rainint": {
-                "sound": ["A3|Sounds_F|vehicles|noises|rain1_int",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|rain1_int_open.ogg",0.5,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(rain - rotorSpeed/2)*2"
+                "volume": "(1-campos)*(rain - rotorspeed/2)*2"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|SlingLoadDownExt [Indent level: 3],
             "slingloaddownext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownEXT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_enginedownext.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos*(slingLoadActive factor [0,-1])"
+                "volume": "campos*(slingloadactive factor [0,-1])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|SlingLoadUpExt [Indent level: 3],
             "slingloadupext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpEXT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_engineupext.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos*(slingLoadActive factor [0,1])"
+                "volume": "campos*(slingloadactive factor [0,1])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|SlingLoadDownInt [Indent level: 3],
             "slingloaddownint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownINT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_enginedownint.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(slingLoadActive factor [0,-1])"
+                "volume": "(1-campos)*(slingloadactive factor [0,-1])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|SlingLoadUpInt [Indent level: 3],
             "slingloadupint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpINT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_engineupint.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(slingLoadActive factor [0,1])"
+                "volume": "(1-campos)*(slingloadactive factor [0,1])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|WindInt [Indent level: 3],
             "windint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|wind_closed",0.562341,1,50],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|wind_close_in.ogg",0.5,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])"
+                "volume": "(1-campos)*(speed factor[5, 50])*(speed factor[5, 50])"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|GStress [Indent level: 3],
             "gstress": {
-                "sound": ["A3|Sounds_F|vehicles|noises|vehicle_stress2e",0.501187,1,50],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|vehicle_stress2b.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "engineOn * (1-camPos) * ((gmeterZ factor[1.5, 2.5]) + (gmeterZ factor[0.5, -0.5]))"
+                "volume": "engineon * (1-campos) * ((gmeterz factor[1.5, 2.5]) + (gmeterz factor[0.5, -0.5]))"
             },
             # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|SpeedStress [Indent level: 3],
             "speedstress": {
-                "sound": ["A3|Sounds_F|vehicles|noises|vehicle_stress3",1,1,50],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|vehicle_stress2b.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(speed factor[40,60])"
+                "volume": "(1-campos)*(speed factor[40,80])"
+            },
+            # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|rotorswist [Indent level: 3],
+            "rotorswist": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|tail_rotor.ogg",1,1,200],
+                "frequency": 1,
+                "volume": "campos * (rotorthrust factor [0.7, 0.9])"
+            },
+            # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|rotorbench [Indent level: 3],
+            "rotorbench": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|rotor|rotor_double.ogg",0.75,1],
+                "frequency": "(rotorspeed factor [0.3, 0.7]) * (rotorspeed factor [0.3, 1]) * (1 - rotorthrust/4)",
+                "volume": "(playerpos factor [3.9, 4]) * (1 - campos) * (rotorspeed factor [0.3, 1]) * (1 + rotorthrust) * 0.4",
+                "cone": [1.6,3.14,1.6,0.95]
+            },
+            # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|enginebench [Indent level: 3],
+            "enginebench": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|rotor|rotor_double.ogg",0.75,1],
+                "frequency": "rotorspeed",
+                "volume": "(playerpos factor [3.9, 4]) * (1 - campos) * (0 max (rotorspeed-0.4))"
+            },
+            # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|distance [Indent level: 3],
+            "distance": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|engine_far.ogg",1,1,1000],
+                "frequency": "rotorspeed",
+                "volume": "2 * campos * (0 max (rotorspeed-0.4))"
+            },
+            # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|fardistance [Indent level: 3],
+            "fardistance": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|mi48_kajman|rotor_far.ogg",1.25,1,4500],
+                "frequency": "rotorspeed",
+                "volume": "campos *3* (rotorspeed factor [0.6, 1]) * (1 + rotorthrust)"
+            },
+            # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|windbench [Indent level: 3],
+            "windbench": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|wind_close_in.ogg",0.5,1],
+                "frequency": 1,
+                "volume": "4 * (playerpos factor [3.9, 4]) * (1 - campos) * ((speed factor[0, 30]) + (speed factor[0, -30]))"
+            },
+            # Class: CfgVehicles|Heli_Attack_02_base_F|SoundsExt|Sounds|windlateralmovementint [Indent level: 3],
+            "windlateralmovementint": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|wind_close_in.ogg",0.5,1,50],
+                "frequency": 1,
+                "volume": "(1-campos)*lateralmovement*((speed factor [5,40]) + (speed factor [-5,-40]))"
             }
         }
     },
+    "gearupext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_up_out.ogg",1.5,1,700],
+    "gearupint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_up_in.ogg",1.5,1],
+    "gearup": ["gearupint","gearupext"],
+    "geardownint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_down_in.ogg",1.5,1],
+    "geardownext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_down_out.ogg",1.5,1,700],
+    "geardown": ["geardownint","geardownext"],
     "commandercansee": "1 + 2 + 4 + 8 + 32",
     "washdownstrength": "1.0f",
     "washdowndiameter": "40.0f",
@@ -4472,7 +4648,6 @@ RHS_Mi24Vt_vvsc = {
     "soundlandinggear": ["",1,1],
     "extcameraparams": [-1],
     "camouflage": 100,
-    "epeimpulsedamagecoef": 50,
     "crewcrashprotection": 0.25,
     "headgforceleaningfactor": [0.01,0.0025,0.01],
     "damageeffect": "AirDestructionEffects",
@@ -4480,7 +4655,6 @@ RHS_Mi24Vt_vvsc = {
     "transportmaxbackpacks": 1,
     "dammagehalf": [],
     "dammagefull": [],
-    "armorstructural": 4,
     "explosionshielding": 4,
     "mintotaldamagethreshold": 0.005,
     # Class: CfgVehicles|Helicopter|DestructionEffects [Indent level: 1],
@@ -5445,7 +5619,6 @@ RHS_Mi24Vt_vvsc = {
     "shownvgcargo": [0],
     "soundattenuationcargo": [1],
     "countsforscoreboard": 1,
-    "hulldamagecauseexplosion": 0,
     # Class: CfgVehicles|All|NVGMarkers [Indent level: 1],
     "nvgmarkers": {
     },

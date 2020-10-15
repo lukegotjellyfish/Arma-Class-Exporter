@@ -3937,6 +3937,8 @@ rhs_t72bc_tv = {
                     "gunneroutopticsmodel": "A3|weapons_f|reticle|optics_empty",
                     "soundattenuationturret": "HeliAttenuationGunner",
                     "disablesoundattenuation": 1,
+                    "animationsourcestickx": "mg_Turret_Inertia",
+                    "animationsourcesticky": "mg_Gun_Inertia",
                     "gunnerlefthandanimname": "",
                     "gunnerrighthandanimname": "mg_handle2",
                     "turretinfotype": "RHS_RscWeaponZeroing",
@@ -5261,7 +5263,7 @@ rhs_t72bc_tv = {
                 },
                 # Class: CfgVehicles|rhs_a3t72tank_base|Attributes|rhs_ammoslot_1_type|values|rhs_mag_3bm46_10 [Indent level: 4],
                 "rhs_mag_3bm46_10": {
-                    "name": "APFSDS-T 3BM48",
+                    "name": "APFSDS-T 3BM46",
                     "value": "rhs_mag_3bm46",
                     "defaultvalue": "rhs_mag_3bm46"
                 }

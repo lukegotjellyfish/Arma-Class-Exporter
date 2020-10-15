@@ -137,7 +137,29 @@ RHS_CH_47F_10 = {
         }
     },
     "gearretracting": 0,
+    "gearuptime": 1,
+    "geardowntime": 1,
+    "backrotorforcecoef": 0.9,
     "driveoncomponent": ["wheels"],
+    "fuelcapacity": 3200,
+    "fuelconsumptionrate": 0.398,
+    "slingloadmaxcargomass": 12700,
+    "canfloat": 1,
+    "waterleakiness": 0.02,
+    "maxfordingdepth": 1.5,
+    "waterresistancecoef": 0.5,
+    "waterresistance": 10,
+    "waterlineardampingcoefy": 5,
+    "waterlineardampingcoefx": 2,
+    "waterangulardampingcoef": 5,
+    "mainrotorspeed": 1,
+    "backrotorspeed": 1,
+    "mainbladeradius": 9.2,
+    "liftforcecoef": 1.7,
+    "cyclicasideforcecoef": 1,
+    "cyclicforwardforcecoef": 1,
+    "bodyfrictioncoef": 0.9,
+    "useroadwayforvehicles": 1,
     # Class: CfgVehicles|RHS_CH_47F_base|RotorLibHelicopterProperties [Indent level: 1],
     "rotorlibhelicopterproperties": {
         "rtdconfig": "rhsusf|addons|rhsusf_c_a2port_air|CH47|Rotorlib_CH47.xml",
@@ -172,6 +194,17 @@ RHS_CH_47F_10 = {
     "icon": "rhsusf|addons|rhsusf_a2port_air|data|mapico|Icon_ch47f_CA.paa",
     "mapsize": 25,
     "driveraction": "RHS_CH47_Pilot",
+    "driverlefthandanimname": "lever_pilot",
+    "driverrighthandanimname": "stick_pilot",
+    "memorypointsgetincargo": ["pos cargo"],
+    "memorypointsgetincargodir": ["pos cargo dir"],
+    "cargoaction": ["RHS_CH47_Cargo01","RHS_CH47_Cargo01","RHS_CH47_Cargo01","RHS_CH47_Cargo02","RHS_CH47_Cargo03","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo03","RHS_CH47_Cargo01","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02"],
+    "cargoiscodriver": [0],
+    "cargocompartments": ["Compartment1"],
+    "transportsoldier": 22,
+    "cargoproxyindexes": [1,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,22,23,24,25],
+    "getinproxyorder": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25],
+    "transportmaxbackpacks": 10,
     "reportownposition": 1,
     "irtarget": 1,
     "irtargetsize": 1.2,
@@ -182,6 +215,2333 @@ RHS_CH_47F_10 = {
     "radartype": 4,
     "lockdetectionsystem": "8",
     "incomingmissiledetectionsystem": "2 + 8 + 16",
+    "armor": 40,
+    "armorstructural": 20,
+    "hulldamagecauseexplosion": 1,
+    "hullexplosiondelay": [10,20],
+    "damageresistance": 0.001,
+    # Class: CfgVehicles|RHS_CH_47F_base|HitPoints [Indent level: 1],
+    "hitpoints": {
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitHull [Indent level: 2]
+        "hithull": {
+            "simulation": "RHS_Hull_Helicopter",
+            "armor": -100,
+            "minimalhit": -0.2,
+            "explosionshielding": 2,
+            "radius": 0.4,
+            "armorcomponent": "Hit_Hull",
+            "name": "hit_hull",
+            "visual": "zbytek",
+            "passthrough": 1,
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitHull|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke [Indent level: 0]
+                "rhs_hull_smoke": {
+                    "simulation": "particles",
+                    "type": "SmallWreckSmoke",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire [Indent level: 0],
+                "rhs_hull_fire": {
+                    "type": "MediumDestructionFire",
+                    "simulation": "particles",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Sparks [Indent level: 0],
+                "rhs_hull_sparks": {
+                    "type": "AirFireSparks",
+                    "simulation": "particles",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Sounds [Indent level: 0],
+                "rhs_hull_sounds": {
+                    "simulation": "sound",
+                    "type": "Fire",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke_small1 [Indent level: 0],
+                "rhs_hull_smoke_small1": {
+                    "type": "WeaponWreckSmoke",
+                    "position": "hull_fire_2",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke_small2 [Indent level: 0],
+                "rhs_hull_smoke_small2": {
+                    "position": "hull_fire_3",
+                    "type": "WeaponWreckSmoke",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire_2 [Indent level: 0],
+                "rhs_hull_fire_2": {
+                    "type": "MediumDestructionFire",
+                    "position": "hull_fire_2",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire_3 [Indent level: 0],
+                "rhs_hull_fire_3": {
+                    "type": "MediumDestructionFire",
+                    "position": "hull_fire_3",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                "ammoexplosioneffect": "",
+                "effectradius": 1,
+                "ignorefuel": 1
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitEngine1 [Indent level: 2],
+        "hitengine1": {
+            "armor": 0.4,
+            "radius": 0.18,
+            "explosionshielding": 0.7,
+            "minimalhit": -0.001,
+            "passthrough": 0.4,
+            "visual": "",
+            "name": "engine_1_hit",
+            "armorcomponent": "Hit_Engine_1"
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitEngine2 [Indent level: 2],
+        "hitengine2": {
+            "name": "engine_2_hit",
+            "armorcomponent": "Hit_Engine_2",
+            "armor": 0.4,
+            "radius": 0.18,
+            "explosionshielding": 0.7,
+            "minimalhit": -0.001,
+            "passthrough": 0.4,
+            "visual": ""
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitEngine [Indent level: 2],
+        "hitengine": {
+            "armor": -200,
+            "armorcomponent": "",
+            "name": "engine_hit",
+            "depends": "0.5 * (HitEngine1 + HitEngine2)",
+            "radius": 0.18,
+            "explosionshielding": 0.7,
+            "minimalhit": -0.001,
+            "passthrough": 0.4,
+            "visual": ""
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitVRotor [Indent level: 2],
+        "hitvrotor": {
+            "armor": 1,
+            "name": "mala vrtule",
+            "visual": "mala vrtule staticka",
+            "passthrough": 0.5,
+            "armorcomponent": "Hit_Rotor_Rear"
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitHRotor [Indent level: 2],
+        "hithrotor": {
+            "armor": 1,
+            "name": "velka vrtule",
+            "visual": "velka vrtule staticka",
+            "passthrough": 0.5,
+            "armorcomponent": "Hit_Rotor_Main"
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1 [Indent level: 2],
+        "hitglass1": {
+            "name": "glass1",
+            "visual": "glass1",
+            "radius": 0.37,
+            "armor": -5,
+            "explosionshielding": 2,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass1",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass1|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects1",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2 [Indent level: 2],
+        "hitglass2": {
+            "name": "glass2",
+            "visual": "glass2",
+            "radius": 0.37,
+            "armor": -5,
+            "explosionshielding": 1.5,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass2",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass2|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects2",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3 [Indent level: 2],
+        "hitglass3": {
+            "name": "glass3",
+            "visual": "glass3",
+            "radius": 0.25,
+            "armor": -5,
+            "explosionshielding": 1.5,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass3",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass3|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects3",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4 [Indent level: 2],
+        "hitglass4": {
+            "name": "glass4",
+            "visual": "glass4",
+            "radius": 0.25,
+            "armor": -5,
+            "explosionshielding": 1.5,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass4",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass4|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects4",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5 [Indent level: 2],
+        "hitglass5": {
+            "name": "glass5",
+            "visual": "glass5",
+            "radius": 0.34,
+            "armor": -5,
+            "explosionshielding": 2,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass5",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass5|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects5",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6 [Indent level: 2],
+        "hitglass6": {
+            "name": "glass6",
+            "visual": "glass6",
+            "radius": 0.34,
+            "armor": -5,
+            "explosionshielding": 1.5,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass6",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass6|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects6",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7 [Indent level: 2],
+        "hitglass7": {
+            "name": "glass7",
+            "visual": "glass7",
+            "radius": 0.34,
+            "armor": -5,
+            "explosionshielding": 1.5,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass7",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass7|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects7",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8 [Indent level: 2],
+        "hitglass8": {
+            "name": "glass8",
+            "visual": "glass8",
+            "radius": 0.34,
+            "armor": -5,
+            "explosionshielding": 1.5,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass8",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass8|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects8",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9 [Indent level: 2],
+        "hitglass9": {
+            "name": "glass9",
+            "visual": "glass9",
+            "radius": 0.24,
+            "armor": -5,
+            "explosionshielding": 1,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass9",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass9|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects9",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10 [Indent level: 2],
+        "hitglass10": {
+            "name": "glass10",
+            "visual": "glass10",
+            "radius": 0.24,
+            "armor": -5,
+            "explosionshielding": 1,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass10",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass10|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects10",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11 [Indent level: 2],
+        "hitglass11": {
+            "name": "glass11",
+            "visual": "glass11",
+            "radius": 0.24,
+            "armor": -5,
+            "explosionshielding": 1,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass11",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass11|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects11",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12 [Indent level: 2],
+        "hitglass12": {
+            "name": "glass12",
+            "visual": "glass12",
+            "radius": 0.24,
+            "armor": -5,
+            "explosionshielding": 1,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass12",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass12|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects12",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13 [Indent level: 2],
+        "hitglass13": {
+            "name": "glass13",
+            "visual": "glass13",
+            "radius": 0.24,
+            "armor": -5,
+            "explosionshielding": 1,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass13",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass13|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects13",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14 [Indent level: 2],
+        "hitglass14": {
+            "name": "glass14",
+            "visual": "glass14",
+            "radius": 0.24,
+            "armor": -5,
+            "explosionshielding": 1,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass14",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass14|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects14",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15 [Indent level: 2],
+        "hitglass15": {
+            "name": "glass15",
+            "visual": "glass15",
+            "radius": 0.24,
+            "armor": -5,
+            "explosionshielding": 1,
+            "minimalhit": -0.025,
+            "passthrough": 0,
+            "armorcomponent": "glass15",
+            # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitGlass15|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects15",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitFuel [Indent level: 2],
+        "hitfuel": {
+            "armor": 0.7,
+            "radius": 0.125,
+            "minimalhit": 0.05,
+            "explosionshielding": 2,
+            "name": "fuel_hit",
+            "convexcomponent": "fuel_hit",
+            "visual": "zbytek",
+            "material": 51,
+            "passthrough": 1
+        },
+        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitAvionics [Indent level: 2],
+        "hitavionics": {
+            "armor": 1.3,
+            "radius": 0.25,
+            "minimalhit": 0.05,
+            "explosionshielding": 1.5,
+            "visual": "podsvit pristroju",
+            "name": "avionics_hit",
+            "convexcomponent": "avionics_hit",
+            "material": 51,
+            "passthrough": 1
+        },
+        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A [Indent level: 2],
+        "hitglass1a": {
+            "armor": 999,
+            "depends": "HitGlass1",
+            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects1A",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            },
+            "name": "glass1",
+            "visual": "glass1",
+            "radius": 0.37,
+            "explosionshielding": 2,
+            "minimalhit": 0.025,
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B [Indent level: 2],
+        "hitglass1b": {
+            "armor": 999,
+            "depends": "HitGlass1",
+            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects1B",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            },
+            "name": "glass1",
+            "visual": "glass1",
+            "radius": 0.37,
+            "explosionshielding": 2,
+            "minimalhit": 0.025,
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16 [Indent level: 2],
+        "hitglass16": {
+            "name": "glass16",
+            "visual": "glass16",
+            "radius": 0.24,
+            "armor": 0.8,
+            "explosionshielding": 1,
+            "minimalhit": 0.025,
+            "passthrough": 0,
+            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects16",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17 [Indent level: 2],
+        "hitglass17": {
+            "name": "glass17",
+            "visual": "glass17",
+            "radius": 0.24,
+            "armor": 0.8,
+            "explosionshielding": 1,
+            "minimalhit": 0.025,
+            "passthrough": 0,
+            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass1 [Indent level: 4],
+                "brokenglass1": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1NS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass2 [Indent level: 4],
+                "brokenglass2": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2NS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass3 [Indent level: 4],
+                "brokenglass3": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3NS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass4 [Indent level: 4],
+                "brokenglass4": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4NS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass5 [Indent level: 4],
+                "brokenglass5": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5NS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass1S [Indent level: 4],
+                "brokenglass1s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass1SS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass2S [Indent level: 4],
+                "brokenglass2s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass2SS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass3S [Indent level: 4],
+                "brokenglass3s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass3SS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass4S [Indent level: 4],
+                "brokenglass4s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass4SS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                },
+                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass5S [Indent level: 4],
+                "brokenglass5s": {
+                    "simulation": "particles",
+                    "type": "BrokenGlass5SS",
+                    "position": "GlassEffects17",
+                    "intensity": 0.15,
+                    "interval": 1,
+                    "lifetime": 0.05
+                }
+            }
+        },
+        # Class: CfgVehicles|Helicopter_Base_F|HitPoints|HitMissiles [Indent level: 2],
+        "hitmissiles": {
+            "name": "ammo_hit",
+            "convexcomponent": "ammo_hit",
+            "explosionshielding": 1,
+            "armor": 0.1,
+            "material": 51,
+            "visual": "munice",
+            "passthrough": 0.5
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitRGlass [Indent level: 2],
+        "hitrglass": {
+            "convexcomponent": "sklo predni P",
+            "explosionshielding": 1,
+            "armor": 0.1,
+            "material": 51,
+            "name": "sklo predni P",
+            "visual": "sklo predni P",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitLGlass [Indent level: 2],
+        "hitlglass": {
+            "convexcomponent": "sklo predni L",
+            "explosionshielding": 1,
+            "armor": 0.1,
+            "material": 51,
+            "name": "sklo predni L",
+            "visual": "sklo predni L",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitEngine3 [Indent level: 2],
+        "hitengine3": {
+            "name": "engine_3_hit",
+            "convexcomponent": "engine_3_hit",
+            "explosionshielding": 1,
+            "armor": 0.25,
+            "material": 51,
+            "visual": "motor",
+            "passthrough": 1
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitWinch [Indent level: 2],
+        "hitwinch": {
+            "armor": -40,
+            "material": 51,
+            "name": "slingLoad0",
+            "visual": "",
+            "passthrough": 0,
+            "radius": 0.1,
+            # Class: CfgVehicles|Helicopter|HitPoints|HitWinch|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|Helicopter|HitPoints|HitWinch|DestructionEffects|Explo [Indent level: 4],
+                "explo": {
+                    "simulation": "particles",
+                    "type": "WinchDestructionExplo",
+                    "position": "slingLoad0",
+                    "intensity": 1,
+                    "interval": 1,
+                    "lifetime": 0.06
+                },
+                # Class: CfgVehicles|Helicopter|HitPoints|HitWinch|DestructionEffects|Sparks [Indent level: 4],
+                "sparks": {
+                    "simulation": "particles",
+                    "type": "WinchDestructionSparks",
+                    "position": "slingLoad0",
+                    "intensity": 1,
+                    "interval": 1,
+                    "lifetime": 0.1
+                }
+            }
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitTransmission [Indent level: 2],
+        "hittransmission": {
+            "armor": 0.8,
+            "material": -1,
+            "name": "transmission",
+            "passthrough": 0.8
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitLight [Indent level: 2],
+        "hitlight": {
+            "armor": 0.1,
+            "material": -1,
+            "name": "light",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitHydraulics [Indent level: 2],
+        "hithydraulics": {
+            "armor": 0.8,
+            "material": -1,
+            "name": "hydraulics",
+            "passthrough": 0.8
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitGear [Indent level: 2],
+        "hitgear": {
+            "armor": 0.9,
+            "material": -1,
+            "name": "gear",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitHStabilizerL1 [Indent level: 2],
+        "hithstabilizerl1": {
+            "armor": 0.8,
+            "material": -1,
+            "name": "HStabilizerL1",
+            "passthrough": 1
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitHStabilizerR1 [Indent level: 2],
+        "hithstabilizerr1": {
+            "armor": 0.8,
+            "material": -1,
+            "name": "HStabilizerR1",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitVStabilizer1 [Indent level: 2],
+        "hitvstabilizer1": {
+            "armor": 0.8,
+            "material": -1,
+            "name": "VStabilizer1",
+            "passthrough": 1
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitTail [Indent level: 2],
+        "hittail": {
+            "armor": 0.8,
+            "material": -1,
+            "name": "tail boom",
+            "passthrough": 1
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitPitotTube [Indent level: 2],
+        "hitpitottube": {
+            "armor": 0.5,
+            "material": -1,
+            "name": "pitot tube",
+            "passthrough": 0.2
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitStaticPort [Indent level: 2],
+        "hitstaticport": {
+            "armor": 0.1,
+            "material": -1,
+            "name": "static port",
+            "passthrough": 1
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitStarter1 [Indent level: 2],
+        "hitstarter1": {
+            "armor": 0.1,
+            "material": -1,
+            "name": "starter1",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitStarter2 [Indent level: 2],
+        "hitstarter2": {
+            "armor": 0.1,
+            "material": -1,
+            "name": "starter2",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|Helicopter|HitPoints|HitStarter3 [Indent level: 2],
+        "hitstarter3": {
+            "armor": 0.1,
+            "material": -1,
+            "name": "starter3",
+            "passthrough": 0
+        }
+    },
     # Class: CfgVehicles|RHS_CH_47F_base|Components [Indent level: 1],
     "components": {
         # Class: CfgVehicles|RHS_CH_47F_base|Components|TransportPylonsComponent [Indent level: 2]
@@ -943,6 +3303,8 @@ RHS_CH_47F_10 = {
             "gunnerrighthandanimname": "OtocHlaven",
             "gunnerleftleganimname": "gunner1_leg_left",
             "gunnerrightleganimname": "gunner1_leg_right",
+            "animationsourcestickx": "MainTurret_1_Inertia",
+            "animationsourcesticky": "MainGun_1_Inertia",
             "gunnerforceoptics": 0,
             "commanding": -1,
             "primarygunner": 1,
@@ -1341,6 +3703,8 @@ RHS_CH_47F_10 = {
             "gunnerrighthandanimname": "otochlaven_2",
             "gunnerleftleganimname": "gunner2_leg_left",
             "gunnerrightleganimname": "gunner2_leg_right",
+            "animationsourcestickx": "MainTurret_2_inertia",
+            "animationsourcesticky": "MainGun_2_Inertia",
             "commanding": -2,
             "gunbeg": "muzzle_2",
             "gunend": "chamber_2",
@@ -1731,7 +4095,7 @@ RHS_CH_47F_10 = {
             "weapons": ["rhsusf_weap_DummyLauncher"],
             "gunneraction": "passenger_inside_1",
             "gunnergetinaction": "GetInHeli_Transport_01Cargo",
-            "gunnergetoutaction": "RHS_HIND_Cargo_Exit",
+            "gunnergetoutaction": "RHS_Heli_Cargo_Exit",
             "memorypointsgetingunner": "pos cargo L",
             "memorypointsgetingunnerdir": "pos cargo L dir",
             "gunnername": "Passenger (Left Ramp)",
@@ -2112,7 +4476,7 @@ RHS_CH_47F_10 = {
             "weapons": ["rhsusf_weap_DummyLauncher"],
             "gunneraction": "passenger_inside_1",
             "gunnergetinaction": "GetInHeli_Transport_01Cargo",
-            "gunnergetoutaction": "RHS_HIND_Cargo_Exit",
+            "gunnergetoutaction": "RHS_Heli_Cargo_Exit",
             "gunnercompartments": "Compartment1",
             "maxelev": 6,
             "minelev": -25,
@@ -2519,6 +4883,14 @@ RHS_CH_47F_10 = {
             "animperiod": 5,
             "initphase": 0
         },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|Hide_Scopes [Indent level: 2],
+        "hide_scopes": {
+            "source": "user",
+            "initphase": 0,
+            "usesource": 1,
+            "animperiod": 0.1,
+            "displayname": "Hide DCL-120 sights"
+        },
         # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|hide_cargo [Indent level: 2],
         "hide_cargo": {
             "source": "user",
@@ -2527,6 +4899,96 @@ RHS_CH_47F_10 = {
             "animperiod": 1e-005,
             "initphase": 0,
             "onphasechanged": "(_this select 0) lockCargo ((_this select 1)==1)"
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass1 [Indent level: 2],
+        "hitglass1": {
+            "source": "Hit",
+            "hitpoint": "HitGlass1",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass2 [Indent level: 2],
+        "hitglass2": {
+            "source": "Hit",
+            "hitpoint": "HitGlass2",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass3 [Indent level: 2],
+        "hitglass3": {
+            "source": "Hit",
+            "hitpoint": "HitGlass3",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass4 [Indent level: 2],
+        "hitglass4": {
+            "source": "Hit",
+            "hitpoint": "HitGlass4",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass5 [Indent level: 2],
+        "hitglass5": {
+            "source": "Hit",
+            "hitpoint": "HitGlass5",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass6 [Indent level: 2],
+        "hitglass6": {
+            "source": "Hit",
+            "hitpoint": "HitGlass6",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass7 [Indent level: 2],
+        "hitglass7": {
+            "source": "Hit",
+            "hitpoint": "HitGlass7",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass8 [Indent level: 2],
+        "hitglass8": {
+            "source": "Hit",
+            "hitpoint": "HitGlass8",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass9 [Indent level: 2],
+        "hitglass9": {
+            "source": "Hit",
+            "hitpoint": "HitGlass9",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass10 [Indent level: 2],
+        "hitglass10": {
+            "source": "Hit",
+            "hitpoint": "HitGlass10",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass11 [Indent level: 2],
+        "hitglass11": {
+            "source": "Hit",
+            "hitpoint": "HitGlass11",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass12 [Indent level: 2],
+        "hitglass12": {
+            "source": "Hit",
+            "hitpoint": "HitGlass12",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass13 [Indent level: 2],
+        "hitglass13": {
+            "source": "Hit",
+            "hitpoint": "HitGlass13",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass14 [Indent level: 2],
+        "hitglass14": {
+            "source": "Hit",
+            "hitpoint": "HitGlass14",
+            "raw": 1
+        },
+        # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|HitGlass15 [Indent level: 2],
+        "hitglass15": {
+            "source": "Hit",
+            "hitpoint": "HitGlass15",
+            "raw": 1
         },
         # Class: CfgVehicles|RHS_CH_47F_base|AnimationSources|Damper_1_1_source [Indent level: 2],
         "damper_1_1_source": {
@@ -2610,96 +5072,6 @@ RHS_CH_47F_10 = {
             "source": "user",
             "animperiod": 1e-006,
             "initphase": 0
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass1 [Indent level: 2],
-        "hitglass1": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass1"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass2 [Indent level: 2],
-        "hitglass2": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass2"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass3 [Indent level: 2],
-        "hitglass3": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass3"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass4 [Indent level: 2],
-        "hitglass4": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass4"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass5 [Indent level: 2],
-        "hitglass5": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass5"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass6 [Indent level: 2],
-        "hitglass6": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass6"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass7 [Indent level: 2],
-        "hitglass7": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass7"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass8 [Indent level: 2],
-        "hitglass8": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass8"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass9 [Indent level: 2],
-        "hitglass9": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass9"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass10 [Indent level: 2],
-        "hitglass10": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass10"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass11 [Indent level: 2],
-        "hitglass11": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass11"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass12 [Indent level: 2],
-        "hitglass12": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass12"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass13 [Indent level: 2],
-        "hitglass13": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass13"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass14 [Indent level: 2],
-        "hitglass14": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass14"
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass15 [Indent level: 2],
-        "hitglass15": {
-            "raw": 1,
-            "source": "hit",
-            "hitpoint": "HitGlass15"
         },
         # Class: CfgVehicles|Heli_Transport_02_base_F|AnimationSources|HitGlass16 [Indent level: 2],
         "hitglass16": {
@@ -2866,42 +5238,6 @@ RHS_CH_47F_10 = {
             "onlyforplayer": 1
         }
     },
-    "gearuptime": 1,
-    "geardowntime": 1,
-    "backrotorforcecoef": 0.9,
-    "mainrotorspeed": 1,
-    "backrotorspeed": 1,
-    "mainbladeradius": 9.2,
-    "liftforcecoef": 1.7,
-    "cyclicasideforcecoef": 1,
-    "cyclicforwardforcecoef": 1,
-    "bodyfrictioncoef": 0.9,
-    "useroadwayforvehicles": 1,
-    "armor": 30,
-    "armorstructural": 2,
-    "damageresistance": 0.001,
-    "driverlefthandanimname": "lever_pilot",
-    "driverrighthandanimname": "stick_pilot",
-    "fuelcapacity": 3200,
-    "fuelconsumptionrate": 0.398,
-    "slingloadmaxcargomass": 12700,
-    "canfloat": 1,
-    "waterleakiness": 0.02,
-    "maxfordingdepth": 1.5,
-    "waterresistancecoef": 0.5,
-    "waterresistance": 10,
-    "waterlineardampingcoefy": 5,
-    "waterlineardampingcoefx": 2,
-    "waterangulardampingcoef": 5,
-    "memorypointsgetincargo": ["pos cargo"],
-    "memorypointsgetincargodir": ["pos cargo dir"],
-    "cargoaction": ["RHS_CH47_Cargo01","RHS_CH47_Cargo01","RHS_CH47_Cargo01","RHS_CH47_Cargo02","RHS_CH47_Cargo03","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo03","RHS_CH47_Cargo01","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02","RHS_CH47_Cargo01","RHS_CH47_Cargo03","RHS_CH47_Cargo02"],
-    "cargoiscodriver": [0],
-    "cargocompartments": ["Compartment1"],
-    "transportsoldier": 22,
-    "cargoproxyindexes": [1,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,22,23,24,25],
-    "getinproxyorder": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25],
-    "transportmaxbackpacks": 10,
     "weapons": ["rhsusf_weap_ANALQ212"],
     "magazines": ["rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM","rhsusf_mag_DIRCM"],
     "memorypointcm": ["flare_launcher1","flare_launcher2"],
@@ -2979,2239 +5315,6 @@ RHS_CH_47F_10 = {
         "_xx_b_parachute": {
             "backpack": "B_Parachute",
             "count": 4
-        }
-    },
-    # Class: CfgVehicles|RHS_CH_47F_base|HitPoints [Indent level: 1],
-    "hitpoints": {
-        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitVRotor [Indent level: 2]
-        "hitvrotor": {
-            "armor": 1,
-            "material": 51,
-            "name": "mala vrtule",
-            "visual": "mala vrtule staticka",
-            "passthrough": 0.5
-        },
-        # Class: CfgVehicles|RHS_CH_47F_base|HitPoints|HitHRotor [Indent level: 2],
-        "hithrotor": {
-            "armor": 1,
-            "material": 51,
-            "name": "velka vrtule",
-            "visual": "velka vrtule staticka",
-            "passthrough": 0.5
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitHull [Indent level: 2],
-        "hithull": {
-            "armor": 999,
-            "visual": "zbytek",
-            "minimalhit": 0.05,
-            "depends": "Total",
-            "radius": 0.01,
-            "name": "hull_hit",
-            "convexcomponent": "hull_hit",
-            "explosionshielding": 1,
-            "material": 51,
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitFuel [Indent level: 2],
-        "hitfuel": {
-            "armor": 0.7,
-            "radius": 0.125,
-            "minimalhit": 0.05,
-            "explosionshielding": 2,
-            "name": "fuel_hit",
-            "convexcomponent": "fuel_hit",
-            "visual": "zbytek",
-            "material": 51,
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitAvionics [Indent level: 2],
-        "hitavionics": {
-            "armor": 1.3,
-            "radius": 0.25,
-            "minimalhit": 0.05,
-            "explosionshielding": 1.5,
-            "visual": "podsvit pristroju",
-            "name": "avionics_hit",
-            "convexcomponent": "avionics_hit",
-            "material": 51,
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitEngine1 [Indent level: 2],
-        "hitengine1": {
-            "armor": 0.7,
-            "radius": 0.25,
-            "name": "engine_1_hit",
-            "explosionshielding": 3,
-            "minimalhit": 0.1,
-            "visual": "motor",
-            "passthrough": 1,
-            "convexcomponent": "engine_1_hit",
-            "material": 51
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitEngine2 [Indent level: 2],
-        "hitengine2": {
-            "armor": 0.7,
-            "minimalhit": 0.1,
-            "name": "engine_2_hit",
-            "convexcomponent": "engine_2_hit",
-            "radius": 0.25,
-            "explosionshielding": 3,
-            "visual": "motor",
-            "passthrough": 1,
-            "material": 51
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitEngine [Indent level: 2],
-        "hitengine": {
-            "armor": 999,
-            "radius": 0.05,
-            "minimalhit": 1,
-            "depends": "0.5 * (HitEngine1 + HitEngine2)",
-            "name": "engine_hit",
-            "convexcomponent": "engine_hit",
-            "explosionshielding": 1,
-            "material": 51,
-            "visual": "motor",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1 [Indent level: 2],
-        "hitglass1": {
-            "name": "glass1",
-            "visual": "glass1",
-            "radius": 0.37,
-            "armor": 1,
-            "explosionshielding": 2,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects1",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A [Indent level: 2],
-        "hitglass1a": {
-            "armor": 999,
-            "depends": "HitGlass1",
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1A|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects1A",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            },
-            "name": "glass1",
-            "visual": "glass1",
-            "radius": 0.37,
-            "explosionshielding": 2,
-            "minimalhit": 0.025,
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B [Indent level: 2],
-        "hitglass1b": {
-            "armor": 999,
-            "depends": "HitGlass1",
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass1B|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects1B",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            },
-            "name": "glass1",
-            "visual": "glass1",
-            "radius": 0.37,
-            "explosionshielding": 2,
-            "minimalhit": 0.025,
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2 [Indent level: 2],
-        "hitglass2": {
-            "name": "glass2",
-            "visual": "glass2",
-            "radius": 0.37,
-            "armor": 1,
-            "explosionshielding": 1.5,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass2|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects2",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3 [Indent level: 2],
-        "hitglass3": {
-            "name": "glass3",
-            "visual": "glass3",
-            "radius": 0.25,
-            "armor": 1,
-            "explosionshielding": 1.5,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass3|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects3",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4 [Indent level: 2],
-        "hitglass4": {
-            "name": "glass4",
-            "visual": "glass4",
-            "radius": 0.25,
-            "armor": 1,
-            "explosionshielding": 1.5,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass4|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects4",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5 [Indent level: 2],
-        "hitglass5": {
-            "name": "glass5",
-            "visual": "glass5",
-            "radius": 0.34,
-            "armor": 1,
-            "explosionshielding": 2,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass5|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects5",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6 [Indent level: 2],
-        "hitglass6": {
-            "name": "glass6",
-            "visual": "glass6",
-            "radius": 0.34,
-            "armor": 1,
-            "explosionshielding": 1.5,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass6|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects6",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7 [Indent level: 2],
-        "hitglass7": {
-            "name": "glass7",
-            "visual": "glass7",
-            "radius": 0.34,
-            "armor": 1,
-            "explosionshielding": 1.5,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass7|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects7",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8 [Indent level: 2],
-        "hitglass8": {
-            "name": "glass8",
-            "visual": "glass8",
-            "radius": 0.34,
-            "armor": 1,
-            "explosionshielding": 1.5,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass8|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects8",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9 [Indent level: 2],
-        "hitglass9": {
-            "name": "glass9",
-            "visual": "glass9",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass9|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects9",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10 [Indent level: 2],
-        "hitglass10": {
-            "name": "glass10",
-            "visual": "glass10",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass10|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects10",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11 [Indent level: 2],
-        "hitglass11": {
-            "name": "glass11",
-            "visual": "glass11",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass11|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects11",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12 [Indent level: 2],
-        "hitglass12": {
-            "name": "glass12",
-            "visual": "glass12",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass12|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects12",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13 [Indent level: 2],
-        "hitglass13": {
-            "name": "glass13",
-            "visual": "glass13",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass13|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects13",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14 [Indent level: 2],
-        "hitglass14": {
-            "name": "glass14",
-            "visual": "glass14",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass14|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects14",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15 [Indent level: 2],
-        "hitglass15": {
-            "name": "glass15",
-            "visual": "glass15",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass15|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects15",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16 [Indent level: 2],
-        "hitglass16": {
-            "name": "glass16",
-            "visual": "glass16",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass16|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects16",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17 [Indent level: 2],
-        "hitglass17": {
-            "name": "glass17",
-            "visual": "glass17",
-            "radius": 0.24,
-            "armor": 0.8,
-            "explosionshielding": 1,
-            "minimalhit": 0.025,
-            "passthrough": 0,
-            # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass1 [Indent level: 4],
-                "brokenglass1": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1NS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass2 [Indent level: 4],
-                "brokenglass2": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2NS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass3 [Indent level: 4],
-                "brokenglass3": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3NS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass4 [Indent level: 4],
-                "brokenglass4": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4NS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass5 [Indent level: 4],
-                "brokenglass5": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5NS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass1S [Indent level: 4],
-                "brokenglass1s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass1SS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass2S [Indent level: 4],
-                "brokenglass2s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass2SS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass3S [Indent level: 4],
-                "brokenglass3s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass3SS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass4S [Indent level: 4],
-                "brokenglass4s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass4SS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                },
-                # Class: CfgVehicles|Heli_Transport_02_base_F|HitPoints|HitGlass17|DestructionEffects|BrokenGlass5S [Indent level: 4],
-                "brokenglass5s": {
-                    "simulation": "particles",
-                    "type": "BrokenGlass5SS",
-                    "position": "GlassEffects17",
-                    "intensity": 0.15,
-                    "interval": 1,
-                    "lifetime": 0.05
-                }
-            }
-        },
-        # Class: CfgVehicles|Helicopter_Base_F|HitPoints|HitMissiles [Indent level: 2],
-        "hitmissiles": {
-            "name": "ammo_hit",
-            "convexcomponent": "ammo_hit",
-            "explosionshielding": 1,
-            "armor": 0.1,
-            "material": 51,
-            "visual": "munice",
-            "passthrough": 0.5
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitRGlass [Indent level: 2],
-        "hitrglass": {
-            "convexcomponent": "sklo predni P",
-            "explosionshielding": 1,
-            "armor": 0.1,
-            "material": 51,
-            "name": "sklo predni P",
-            "visual": "sklo predni P",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitLGlass [Indent level: 2],
-        "hitlglass": {
-            "convexcomponent": "sklo predni L",
-            "explosionshielding": 1,
-            "armor": 0.1,
-            "material": 51,
-            "name": "sklo predni L",
-            "visual": "sklo predni L",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitEngine3 [Indent level: 2],
-        "hitengine3": {
-            "name": "engine_3_hit",
-            "convexcomponent": "engine_3_hit",
-            "explosionshielding": 1,
-            "armor": 0.25,
-            "material": 51,
-            "visual": "motor",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitWinch [Indent level: 2],
-        "hitwinch": {
-            "armor": -40,
-            "material": 51,
-            "name": "slingLoad0",
-            "visual": "",
-            "passthrough": 0,
-            "radius": 0.1,
-            # Class: CfgVehicles|Helicopter|HitPoints|HitWinch|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|Helicopter|HitPoints|HitWinch|DestructionEffects|Explo [Indent level: 4],
-                "explo": {
-                    "simulation": "particles",
-                    "type": "WinchDestructionExplo",
-                    "position": "slingLoad0",
-                    "intensity": 1,
-                    "interval": 1,
-                    "lifetime": 0.06
-                },
-                # Class: CfgVehicles|Helicopter|HitPoints|HitWinch|DestructionEffects|Sparks [Indent level: 4],
-                "sparks": {
-                    "simulation": "particles",
-                    "type": "WinchDestructionSparks",
-                    "position": "slingLoad0",
-                    "intensity": 1,
-                    "interval": 1,
-                    "lifetime": 0.1
-                }
-            }
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitTransmission [Indent level: 2],
-        "hittransmission": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "transmission",
-            "passthrough": 0.8
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitLight [Indent level: 2],
-        "hitlight": {
-            "armor": 0.1,
-            "material": -1,
-            "name": "light",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitHydraulics [Indent level: 2],
-        "hithydraulics": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "hydraulics",
-            "passthrough": 0.8
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitGear [Indent level: 2],
-        "hitgear": {
-            "armor": 0.9,
-            "material": -1,
-            "name": "gear",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitHStabilizerL1 [Indent level: 2],
-        "hithstabilizerl1": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "HStabilizerL1",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitHStabilizerR1 [Indent level: 2],
-        "hithstabilizerr1": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "HStabilizerR1",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitVStabilizer1 [Indent level: 2],
-        "hitvstabilizer1": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "VStabilizer1",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitTail [Indent level: 2],
-        "hittail": {
-            "armor": 0.8,
-            "material": -1,
-            "name": "tail boom",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitPitotTube [Indent level: 2],
-        "hitpitottube": {
-            "armor": 0.5,
-            "material": -1,
-            "name": "pitot tube",
-            "passthrough": 0.2
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitStaticPort [Indent level: 2],
-        "hitstaticport": {
-            "armor": 0.1,
-            "material": -1,
-            "name": "static port",
-            "passthrough": 1
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitStarter1 [Indent level: 2],
-        "hitstarter1": {
-            "armor": 0.1,
-            "material": -1,
-            "name": "starter1",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitStarter2 [Indent level: 2],
-        "hitstarter2": {
-            "armor": 0.1,
-            "material": -1,
-            "name": "starter2",
-            "passthrough": 0
-        },
-        # Class: CfgVehicles|Helicopter|HitPoints|HitStarter3 [Indent level: 2],
-        "hitstarter3": {
-            "armor": 0.1,
-            "material": -1,
-            "name": "starter3",
-            "passthrough": 0
         }
     },
     # Class: CfgVehicles|RHS_CH_47F_base|Library [Indent level: 1],
@@ -5523,36 +5626,36 @@ RHS_CH_47F_10 = {
     "soundwatercollision1": ["A3|Sounds_F|vehicles|crashes|helis|Heli_coll_water_ext_1",1,1,100],
     "soundwatercollision2": ["A3|Sounds_F|vehicles|crashes|helis|Heli_coll_water_ext_2",1,1,100],
     "soundwatercrashes": ["soundWaterCollision1",0.5,"soundWaterCollision2",0.5],
-    "rotordamageint": ["A3|Sounds_F|vehicles|air|noises|heli_damage_rotor_int_1",1,1],
-    "rotordamageout": ["A3|Sounds_F|vehicles|air|noises|heli_damage_rotor_ext_1",2.51189,1,300],
-    "rotordamage": ["rotorDamageInt","rotorDamageOut"],
-    "taildamageint": ["A3|Sounds_F|vehicles|air|noises|heli_damage_tail",1,1],
-    "taildamageout": ["A3|Sounds_F|vehicles|air|noises|heli_damage_tail",1,1,300],
-    "taildamage": ["tailDamageInt","tailDamageOut"],
-    "landingsoundint0": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_small_int1",1,1,100],
-    "landingsoundint1": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_small_int2",1,1,100],
-    "landingsoundint": ["landingSoundInt0",0.5,"landingSoundInt1",0.5],
-    "landingsoundout0": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_ext1",1.77828,1,100],
-    "landingsoundout1": ["A3|Sounds_F|vehicles|air|noises|landing_wheels_ext2",1.77828,1,100],
-    "landingsoundout": ["landingSoundOut0",0.5,"landingSoundOut1",0.5],
-    "slingcargoattach0": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownEndINT",1,1],
-    "slingcargoattach1": ["A3|Sounds_F|vehicles|air|noises|SL_1hookLock",1.77828,1,200],
-    "slingcargoattach": ["slingCargoAttach0","slingCargoAttach1"],
-    "slingcargodetach0": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpEndINT",1,1],
-    "slingcargodetach1": ["A3|Sounds_F|vehicles|air|noises|SL_1hookUnlock",1.77828,1,200],
-    "slingcargodetach": ["slingCargoDetach0","slingCargoDetach1"],
+    "rotordamageint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_rotor_int.ogg",0.75,1],
+    "rotordamageout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_rotor_ext.ogg",2,1,300],
+    "rotordamage": ["rotordamageint","rotordamageout"],
+    "taildamageint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_tail.ogg",0.75,1],
+    "taildamageout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_tail.ogg",2,1,300],
+    "taildamage": ["taildamageint","taildamageout"],
+    "landingsoundint0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_int1_open.ogg",0.75,1],
+    "landingsoundint1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_int1_open.ogg",0.75,1],
+    "landingsoundint": ["landingsoundint0",0.5,"landingsoundint1",0.5],
+    "landingsoundout0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_ext1.ogg",1,1,300],
+    "landingsoundout1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|landing_skids_ext1.ogg",1,1,300],
+    "landingsoundout": ["landingsoundout0",0.5,"landingsoundout1",0.5],
+    "slingcargoattach0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hooklock.ogg",1.35,1],
+    "slingcargoattach1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hooklock.ogg",1,1,300],
+    "slingcargoattach": ["slingcargoattach0","slingcargoattach1"],
+    "slingcargodetach0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hookunlock.ogg",1.5,1],
+    "slingcargodetach1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_1hookunlock.ogg",1,1,300],
+    "slingcargodetach": ["slingcargodetach0","slingcargodetach1"],
     "slingcargodetachair0": ["A3|Sounds_F|vehicles|air|noises|SL_unhook_air_int",1,1],
     "slingcargodetachair1": ["A3|Sounds_F|vehicles|air|noises|SL_unhook_air_ext",1,1,300],
     "slingcargodetachair": ["slingCargoDetach0","slingCargoDetach1"],
     "slingcargoropebreak0": ["A3|Sounds_F|vehicles|air|noises|SL_rope_break_int",1,1],
     "slingcargoropebreak1": ["A3|Sounds_F|vehicles|air|noises|SL_rope_break_ext",1,1,200],
     "slingcargoropebreak": ["slingCargoDetach0","slingCargoDetach1"],
-    "gearupext": ["A3|Sounds_F|vehicles|air|Heli_Transport_01|gear_up_OUT",1,1,1000],
-    "gearupint": ["A3|Sounds_F|vehicles|air|Heli_Transport_01|gear_up_IN",1,1,100],
-    "gearup": ["gearUpInt","gearUpExt"],
-    "geardownint": ["A3|Sounds_F|vehicles|air|Heli_Transport_01|gear_down_IN",1,1,100],
-    "geardownext": ["A3|Sounds_F|vehicles|air|Heli_Transport_01|gear_down_OUT",1,1,1000],
-    "geardown": ["gearDownInt","gearDownExt"],
+    "gearupext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_up_out.ogg",1.5,1,700],
+    "gearupint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_up_in.ogg",1.5,1],
+    "gearup": ["gearupint","gearupext"],
+    "geardownint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_down_in.ogg",1.5,1],
+    "geardownext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|gear_down_out.ogg",1.5,1,700],
+    "geardown": ["geardownint","geardownext"],
     # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt [Indent level: 1],
     "soundsext": {
         # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|SoundEvents [Indent level: 2]
@@ -5562,173 +5665,216 @@ RHS_CH_47F_10 = {
         "sounds": {
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|EngineExt [Indent level: 3]
             "engineext": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Transport_02|Heli_Transport_02_ext_engine",1.25893,1,900],
-                "frequency": "rotorSpeed",
-                "volume": "camPos*(rotorSpeed-0.72)*4"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|ch49_mohawk|engine_close.ogg",1.5,1,300],
+                "frequency": "rotorspeed",
+                "volume": "campos *1.5* (rotorspeed factor [0.6, 1]) * (1 + rotorthrust)"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|RotorExt [Indent level: 3],
             "rotorext": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Transport_02|Heli_Transport_02_ext_rotor",1.77828,1,2000],
-                "frequency": "rotorSpeed * rotorSpeed * (1 - rotorThrust/6)",
-                "volume": "camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)",
-                "cone": [1.6,3.14,1.6,0.95]
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|ch49_mohawk|rotor_close.ogg",1.6,1,300],
+                "cone": [1.6,3.14,1.6,0.95],
+                "frequency": "(rotorspeed factor [0.3, 0.7]) * (rotorspeed factor [0.3, 1]) * (1 - rotorthrust/4)",
+                "volume": "campos *1.5* (rotorspeed factor [0.6, 1]) * (1 + rotorthrust)"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|RotorNoiseExt [Indent level: 3],
             "rotornoiseext": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Transport_02|rotor_swist",0.707946,1,800],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|rotor|rotor_normal.ogg",0.5,1,200],
+                "cone": [1.6,3.14,2,0.95],
                 "frequency": 1,
-                "volume": "camPos * (rotorThrust factor [0.7, 0.9])",
-                "cone": [0.7,1.3,1,0]
+                "volume": "(campos*(rotorspeed factor [0.6, 0.85]))"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|EngineInt [Indent level: 3],
             "engineint": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Transport_02|Heli_Transport_02_int_engine",1,1],
-                "frequency": "rotorSpeed",
-                "volume": "(1-camPos)*(rotorSpeed-0.75)*4"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|ch49_mohawk|int_main.ogg",1,1],
+                "frequency": "rotorspeed",
+                "volume": "1*(1-campos)*(0 max (rotorspeed-0.4))"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|RotorInt [Indent level: 3],
             "rotorint": {
-                "sound": ["A3|Sounds_F|vehicles|air|Heli_Transport_02|Heli_Transport_02_int_rotor",1.25893,1],
-                "frequency": "rotorSpeed * rotorSpeed * (1 - rotorThrust/6)",
-                "volume": "(1-camPos)*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|ch49_mohawk|int_rotor.ogg",1,1],
+                "frequency": "(rotorspeed factor [0.3, 0.7]) * (rotorspeed factor [0.3, 1]) * (1 - rotorthrust/4)",
+                "volume": "(1 - campos) * (rotorspeed factor [0.3, 0.7]) * (1 + rotorthrust) * 0.7"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|TransmissionDamageExt_phase1 [Indent level: 3],
             "transmissiondamageext_phase1": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_1",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",1,1,300],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "campos * (transmissiondamage factor [0.3, 0.35]) * (transmissiondamage factor [0.5, 0.45]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|TransmissionDamageExt_phase2 [Indent level: 3],
             "transmissiondamageext_phase2": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_ext_2",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",1,1,300],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "campos * (transmissiondamage factor [0.45, 0.5]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|TransmissionDamageInt_phase1 [Indent level: 3],
             "transmissiondamageint_phase1": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_1",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",0.75,1],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "(1 - campos) * (transmissiondamage factor [0.3, 0.35]) * (transmissiondamage factor [0.5, 0.45]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|TransmissionDamageInt_phase2 [Indent level: 3],
             "transmissiondamageint_phase2": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_damage_transmission_int_2",1,1,150],
-                "frequency": "0.66 + rotorSpeed / 3",
-                "volume": "(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])"
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|heli_damage_transmission_int_1.ogg",0.75,1],
+                "frequency": "0.66 + rotorspeed / 3",
+                "volume": "(1 - campos) * (transmissiondamage factor [0.45, 0.5]) * (rotorspeed factor [0.2, 0.5])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|damageAlarmInt [Indent level: 3],
             "damagealarmint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.316228,1],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|damagealarm.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0.0, 0.001])"
+                "volume": "engineon * (1 - campos) * ( 1 - ((transmissiondamage factor [0.61, 0.60]) * (motordamage factor [0.61, 0.60]) * (rotordamage factor [0.51, 0.50]))) * (rotorspeed factor [0.0, 0.001])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|damageAlarmExt [Indent level: 3],
             "damagealarmext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_opfor",0.223872,1,20],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|damagealarm.ogg",1,1,100],
                 "frequency": 1,
-                "volume": "engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])"
+                "volume": "engineon * campos * ( 1 - ((transmissiondamage factor [0.61, 0.60]) * (motordamage factor [0.61, 0.60]) * (rotordamage factor [0.51, 0.50]))) * (rotorspeed factor [0, 0.001])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|rotorLowAlarmInt [Indent level: 3],
             "rotorlowalarmint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.316228,1],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|lowrotoralarmint.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
+                "volume": "engineon * (1 - campos) * (rotorspeed factor [0.9, 0.8999]) * (rotorspeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|rotorLowAlarmExt [Indent level: 3],
             "rotorlowalarmext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|heli_alarm_rotor_low",0.223872,1,20],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|lowrotoralarmint.ogg",1,1,75],
                 "frequency": 1,
-                "volume": "engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
+                "volume": "engineon * campos * (rotorspeed factor [0.9, 0.8999]) * (rotorspeed factor [-0.5, 1]) * (speed factor [3, 3.01])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|scrubLandInt [Indent level: 3],
             "scrublandint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|wheelsInt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrublandint_open.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "2 * (1-camPos) * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))"
+                "volume": "2 * (1-campos) * (scrubland factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|scrubLandExt [Indent level: 3],
             "scrublandext": {
-                "sound": ["A3|Sounds_F|dummysound",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrublandext.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))"
+                "volume": "campos * (scrubland factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|scrubBuildingInt [Indent level: 3],
             "scrubbuildingint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|wheelsInt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubbuilding.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos) * (scrubBuilding factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))"
+                "volume": "2 * (1 - campos) * (scrubbuilding factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|scrubBuildingExt [Indent level: 3],
             "scrubbuildingext": {
-                "sound": ["A3|Sounds_F|dummysound",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubbuilding.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos * (scrubBuilding factor[0.02, 0.05])"
+                "volume": "campos * (scrubbuilding factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|scrubTreeInt [Indent level: 3],
             "scrubtreeint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeInt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubtree.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1 - camPos) * ((scrubTree) factor [0, 0.01])"
+                "volume": "(1 - campos) * ((scrubtree) factor [0, 0.01])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|scrubTreeExt [Indent level: 3],
             "scrubtreeext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|scrubTreeExt",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|scrubtree.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos * ((scrubTree) factor [0, 0.01])"
+                "volume": "campos * (scrubtree factor[0.02, 0.05])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|RainExt [Indent level: 3],
             "rainext": {
-                "sound": ["A3|Sounds_F|vehicles|noises|rain1_ext",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|rain1_ext.ogg",1,1,100],
                 "frequency": 1,
-                "volume": "camPos * (rain - rotorSpeed/2) * 2"
+                "volume": "campos * (rain - rotorspeed/2) * 2"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|RainInt [Indent level: 3],
             "rainint": {
-                "sound": ["A3|Sounds_F|vehicles|noises|rain1_int",1,1,100],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|rain1_int_open.ogg",0.5,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(rain - rotorSpeed/2)*2"
+                "volume": "(1-campos)*(rain - rotorspeed/2)*2"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|SlingLoadDownExt [Indent level: 3],
             "slingloaddownext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownEXT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_enginedownext.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos*(slingLoadActive factor [0,-1])"
+                "volume": "campos*(slingloadactive factor [0,-1])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|SlingLoadUpExt [Indent level: 3],
             "slingloadupext": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpEXT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_engineupext.ogg",1,1,500],
                 "frequency": 1,
-                "volume": "camPos*(slingLoadActive factor [0,1])"
+                "volume": "campos*(slingloadactive factor [0,1])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|SlingLoadDownInt [Indent level: 3],
             "slingloaddownint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineDownINT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_enginedownint.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(slingLoadActive factor [0,-1])"
+                "volume": "(1-campos)*(slingloadactive factor [0,-1])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|SlingLoadUpInt [Indent level: 3],
             "slingloadupint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|SL_engineUpINT",1,1,500],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|sl_engineupint.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(slingLoadActive factor [0,1])"
+                "volume": "(1-campos)*(slingloadactive factor [0,1])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|WindInt [Indent level: 3],
             "windint": {
-                "sound": ["A3|Sounds_F|vehicles|air|noises|wind_closed",0.707946,1,50],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|wind_close_in.ogg",0.5,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])"
+                "volume": "(1-campos)*(speed factor[5, 50])*(speed factor[5, 50])"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|GStress [Indent level: 3],
             "gstress": {
-                "sound": ["A3|Sounds_F|vehicles|noises|vehicle_stress2d",0.707946,1,50],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|vehicle_stress2b.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "engineOn * (1-camPos) * ((gmeterZ factor[1.5, 2.5]) + (gmeterZ factor[0.5, -0.5]))"
+                "volume": "engineon * (1-campos) * ((gmeterz factor[1.5, 2.5]) + (gmeterz factor[0.5, -0.5]))"
             },
             # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|SpeedStress [Indent level: 3],
             "speedstress": {
-                "sound": ["A3|Sounds_F|vehicles|noises|vehicle_stress3",0.707946,1,50],
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|vehicle_stress2b.ogg",0.75,1],
                 "frequency": 1,
-                "volume": "(1-camPos)*(speed factor[40,60])"
+                "volume": "(1-campos)*(speed factor[40,80])"
+            },
+            # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|rotorswist [Indent level: 3],
+            "rotorswist": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|ch49_mohawk|tail_rotor.ogg",1,1,200],
+                "frequency": 1,
+                "volume": "campos * (rotorthrust factor [0.7, 0.9])"
+            },
+            # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|rotorbench [Indent level: 3],
+            "rotorbench": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|rotor|rotor_normal.ogg",0.5,1],
+                "frequency": "(rotorspeed factor [0.3, 0.7]) * (rotorspeed factor [0.3, 1]) * (1 - rotorthrust/4)",
+                "volume": "(playerpos factor [3.9, 4]) * (1 - campos) * (rotorspeed factor [0.3, 1]) * (1 + rotorthrust) * 0.4",
+                "cone": [1.6,3.14,1.6,0.95]
+            },
+            # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|enginebench [Indent level: 3],
+            "enginebench": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|rotor|rotor_normal.ogg",0.5,1],
+                "frequency": "rotorspeed",
+                "volume": "(playerpos factor [3.9, 4]) * (1 - campos) * (0 max (rotorspeed-0.4))"
+            },
+            # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|distance [Indent level: 3],
+            "distance": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|ch49_mohawk|engine_far.ogg",1,1,1000],
+                "frequency": "rotorspeed",
+                "volume": "2 * campos * (0 max (rotorspeed-0.4))"
+            },
+            # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|fardistance [Indent level: 3],
+            "fardistance": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|ch49_mohawk|rotor_far.ogg",1,1,4000],
+                "frequency": "rotorspeed",
+                "volume": "campos *3* (rotorspeed factor [0.6, 1]) * (1 + rotorthrust)"
+            },
+            # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|windbench [Indent level: 3],
+            "windbench": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|wind_close_in.ogg",0.5,1],
+                "frequency": 1,
+                "volume": "4 * (playerpos factor [3.9, 4]) * (1 - campos) * ((speed factor[0, 30]) + (speed factor[0, -30]))"
+            },
+            # Class: CfgVehicles|Heli_Transport_02_base_F|SoundsExt|Sounds|windlateralmovementint [Indent level: 3],
+            "windlateralmovementint": {
+                "sound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|air_vehicles|shared|wind_close_in.ogg",0.5,1,50],
+                "frequency": 1,
+                "volume": "(1-campos)*lateralmovement*((speed factor [5,40]) + (speed factor [-5,-40]))"
             }
         }
     },
@@ -6789,7 +6935,6 @@ RHS_CH_47F_10 = {
     "shownvggunner": 0,
     "soundattenuationcargo": [1],
     "countsforscoreboard": 1,
-    "hulldamagecauseexplosion": 0,
     # Class: CfgVehicles|All|NVGMarkers [Indent level: 1],
     "nvgmarkers": {
     },

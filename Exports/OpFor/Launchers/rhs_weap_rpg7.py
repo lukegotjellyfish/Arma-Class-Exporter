@@ -19,7 +19,7 @@ rhs_weap_rpg7 = {
         }
     },
     "magazinereloadswitchphase": 0.3,
-    "magazines": ["rhs_rpg7_PG7V_mag","rhs_rpg7_PG7VL_mag","rhs_rpg7_PG7VR_mag","rhs_rpg7_OG7V_mag","rhs_rpg7_TBG7V_mag","rhs_rpg7_TYPE69_airburst_mag"],
+    "magazines": ["rhs_rpg7_PG7VL_mag","rhs_rpg7_PG7V_mag","rhs_rpg7_PG7VM_mag","rhs_rpg7_PG7VS_mag","rhs_rpg7_PG7VR_mag","rhs_rpg7_OG7V_mag","rhs_rpg7_TBG7V_mag","rhs_rpg7_TYPE69_airburst_mag"],
     "magazinewell": ["RPG7","CBA_RPG7"],
     "modes": ["single","single_optics1","single_optics2"],
     # Class: CfgWeapons|rhs_weap_rpg7|single [Indent level: 1],
@@ -41,9 +41,14 @@ rhs_weap_rpg7 = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,1100],
             "begin2": ["rhsafrf|addons|rhs_sounds|rpg|rpg_2",2.35,1,1100],
-            "soundbegin": ["begin1",0.5,"begin2",0.5]
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
+            "soundsetshot": ["jsrs_rpg7v_shot_soundset","jsrs_warhead_reverb_soundset"]
         },
         "sound": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,900],
+        # Class: CfgWeapons|rhs_weap_rpg7|single|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
+            "weaponsoundeffect": "DefaultRifle"
+        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -98,9 +103,14 @@ rhs_weap_rpg7 = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,1100],
             "begin2": ["rhsafrf|addons|rhs_sounds|rpg|rpg_2",2.35,1,1100],
-            "soundbegin": ["begin1",0.5,"begin2",0.5]
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
+            "soundsetshot": ["jsrs_rpg7v_shot_soundset","jsrs_warhead_reverb_soundset"]
         },
         "sound": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,900],
+        # Class: CfgWeapons|rhs_weap_rpg7|single|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
+            "weaponsoundeffect": "DefaultRifle"
+        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -153,9 +163,14 @@ rhs_weap_rpg7 = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,1100],
             "begin2": ["rhsafrf|addons|rhs_sounds|rpg|rpg_2",2.35,1,1100],
-            "soundbegin": ["begin1",0.5,"begin2",0.5]
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
+            "soundsetshot": ["jsrs_rpg7v_shot_soundset","jsrs_warhead_reverb_soundset"]
         },
         "sound": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,900],
+        # Class: CfgWeapons|rhs_weap_rpg7|single|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
+            "weaponsoundeffect": "DefaultRifle"
+        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,

@@ -19,7 +19,7 @@ RHS_UAZ_MSV_01 = {
     "displayname": "UAZ-3151",
     "tf_haslrradio_api": 0,
     "hiddenselections": ["camo1","camo2g","n1","n2","n3","n4","i1","i2","i3","i4"],
-    "hiddenselectionstextures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_ind_co.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa","rhsafrf|addons|RHS_Decals|Data|Labels|Misc|no_ca.paa"],
+    "hiddenselectionstextures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_ind_co.paa"],
     # Class: CfgVehicles|RHS_UAZ_Base|textureSources [Indent level: 1],
     "texturesources": {
         # Class: CfgVehicles|RHS_UAZ_Base|textureSources|standard [Indent level: 2]
@@ -63,6 +63,12 @@ RHS_UAZ_MSV_01 = {
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_a2port_car|uaz|data|uaz_main_un_co.paa"],
             "factions": ["rhs_faction_msv","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_vdv","rhs_faction_vv"]
+        },
+        # Class: CfgVehicles|RHS_UAZ_Base|textureSources|Takistan [Indent level: 2],
+        "takistan": {
+            "displayname": "Takistan",
+            "author": "Red Hammer Studios",
+            "textures": ["rhsgref|addons|rhsgref_vehicles_ret|data|tak|uaz_main_ind_co.paa"]
         }
     },
     "texturelist": [],
@@ -1960,7 +1966,7 @@ RHS_UAZ_MSV_01 = {
             "cameraview1": {
                 "pointposition": "m1p",
                 "pointdirection": "m1d",
-                "renderquality": 2,
+                "renderquality": 1,
                 "rendervisionmode": 4,
                 "fov": 0.7
             },
@@ -1973,7 +1979,7 @@ RHS_UAZ_MSV_01 = {
             "cameraview1": {
                 "pointposition": "m2p",
                 "pointdirection": "m2d",
-                "renderquality": 2,
+                "renderquality": 1,
                 "rendervisionmode": 4,
                 "fov": 0.7
             },
@@ -1986,7 +1992,7 @@ RHS_UAZ_MSV_01 = {
             "cameraview1": {
                 "pointposition": "m3p",
                 "pointdirection": "m3d",
-                "renderquality": 2,
+                "renderquality": 0,
                 "rendervisionmode": 4,
                 "fov": 0.7
             },

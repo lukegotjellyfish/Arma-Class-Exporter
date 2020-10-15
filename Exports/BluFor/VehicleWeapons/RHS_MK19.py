@@ -35,7 +35,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons|RHS_MK19|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazinereloadtime": 10,
@@ -362,7 +362,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons|RHS_MK19|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazinereloadtime": 10,
@@ -685,7 +685,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons|RHS_MK19|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazinereloadtime": 10,
@@ -1008,7 +1008,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons|RHS_MK19|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazinereloadtime": 10,
@@ -1331,7 +1331,7 @@ RHS_MK19 = {
         "reloadtime": 0.15,
         # Class: CfgWeapons|RHS_MK19|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_mk19_Shot_SoundSet","RHSUSF_lmg1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_mk19_shot_soundset","jsrs_HMG_reverb_soundset"]
         },
         "dispersion": 0.005,
         "magazinereloadtime": 10,
@@ -1642,6 +1642,7 @@ RHS_MK19 = {
     },
     "modes": ["manual","close","short","medium","far"],
     "drysound": ["A3|Sounds_F|arsenal|weapons_static|Static_GMG|GMG20mm_static_dry",1,1,10],
+    "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
     "airateoffire": 4,
     "airateoffiredistance": 500,
     "minrange": 8,

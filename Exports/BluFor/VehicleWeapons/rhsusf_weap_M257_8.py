@@ -16,10 +16,22 @@ rhsusf_weap_M257_8 = {
         "magazines": ["rhsusf_mag_L8A3_8"],
         "magazinereloadtime": 60,
         "autoreload": 0,
-        "sounds": ["StandardSound"],
+        # Class: CfgWeapons|rhsusf_weap_M259|EventHandlers [Indent level: 1],
+        "eventhandlers": {
+            # Class: CfgWeapons|rhsusf_weap_M259|EventHandlers|RHS_CM [Indent level: 2]
+            "rhs_cm": {
+                "fired": "_this call RHSUSF_fnc_effectFiredSmokeLauncher"
+            }
+        },
+        "sounds": ["standardsound"],
         # Class: CfgWeapons|SmokeLauncher|StandardSound [Indent level: 1],
         "standardsound": {
-            "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+            "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_1.ogg",1,1,800],
+            "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_2.ogg",1,1,800],
+            "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_3.ogg",1,1,800],
+            "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_4.ogg",1,1,800],
+            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
         },
         "canlock": 0,
         "simulation": "cmlauncher",
@@ -117,9 +129,6 @@ rhsusf_weap_M257_8 = {
         "firelightintensity": 0.2,
         "firelightdiffuse": [0.937,0.631,0.259],
         "firelightambient": [0,0,0],
-        # Class: CfgWeapons|Default|Eventhandlers [Indent level: 1],
-        "eventhandlers": {
-        },
         "backgroundreload": 0,
         "muzzles": ["this"],
         "modes": ["this"],
@@ -334,10 +343,22 @@ rhsusf_weap_M257_8 = {
         "magazines": ["rhsusf_mag_L8A3_8"],
         "magazinereloadtime": 60,
         "autoreload": 0,
-        "sounds": ["StandardSound"],
+        # Class: CfgWeapons|rhsusf_weap_M259|EventHandlers [Indent level: 1],
+        "eventhandlers": {
+            # Class: CfgWeapons|rhsusf_weap_M259|EventHandlers|RHS_CM [Indent level: 2]
+            "rhs_cm": {
+                "fired": "_this call RHSUSF_fnc_effectFiredSmokeLauncher"
+            }
+        },
+        "sounds": ["standardsound"],
         # Class: CfgWeapons|SmokeLauncher|StandardSound [Indent level: 1],
         "standardsound": {
-            "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+            "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+            "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_1.ogg",1,1,800],
+            "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_2.ogg",1,1,800],
+            "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_3.ogg",1,1,800],
+            "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_4.ogg",1,1,800],
+            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
         },
         "canlock": 0,
         "simulation": "cmlauncher",
@@ -435,9 +456,6 @@ rhsusf_weap_M257_8 = {
         "firelightintensity": 0.2,
         "firelightdiffuse": [0.937,0.631,0.259],
         "firelightambient": [0,0,0],
-        # Class: CfgWeapons|Default|Eventhandlers [Indent level: 1],
-        "eventhandlers": {
-        },
         "backgroundreload": 0,
         "muzzles": ["this"],
         "modes": ["this"],
@@ -637,12 +655,24 @@ rhsusf_weap_M257_8 = {
         },
         "aimtransitionspeed": 1
     },
+    # Class: CfgWeapons|rhsusf_weap_M257_8|EventHandlers [Indent level: 1],
+    "eventhandlers": {
+        # Class: CfgWeapons|rhsusf_weap_M257_8|EventHandlers|RHS_CM [Indent level: 2]
+        "rhs_cm": {
+            "fired": "_this call RHSUSF_fnc_effectFiredSmokeLauncher"
+        }
+    },
     "scope": 2,
     "displayname": "Smoke Screen",
-    "sounds": ["StandardSound"],
+    "sounds": ["standardsound"],
     # Class: CfgWeapons|SmokeLauncher|StandardSound [Indent level: 1],
     "standardsound": {
-        "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
+        "soundsetshot": ["UGL_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
+        "begin1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_1.ogg",1,1,800],
+        "begin2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_2.ogg",1,1,800],
+        "begin3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_3.ogg",1,1,800],
+        "begin4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shot|smoke|close_4.ogg",1,1,800],
+        "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
     },
     "reloadtime": 3,
     "magazinereloadtime": 60,
@@ -750,9 +780,6 @@ rhsusf_weap_M257_8 = {
     "firelightintensity": 0.2,
     "firelightdiffuse": [0.937,0.631,0.259],
     "firelightambient": [0,0,0],
-    # Class: CfgWeapons|Default|Eventhandlers [Indent level: 1],
-    "eventhandlers": {
-    },
     "backgroundreload": 0,
     "muzzles": ["this"],
     "useaction": 0,

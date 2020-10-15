@@ -563,6 +563,8 @@ rhs_t80ue1 = {
                     "opticsin": {
                         # Class: CfgVehicles|rhs_t80a|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn|day1aa [Indent level: 6]
                         "day1aa": {
+                            "campos": "commanderview_aa",
+                            "hitpoint": "Hit_Optic_NSVT",
                             "opticsdisplayname": "AA",
                             "initanglex": 0,
                             "minanglex": -30,
@@ -579,6 +581,8 @@ rhs_t80ue1 = {
                         },
                         # Class: CfgVehicles|rhs_t80a|Turrets|MainTurret|Turrets|CommanderOptics|OpticsIn|day1 [Indent level: 6],
                         "day1": {
+                            "campos": "commanderview",
+                            "hitpoint": "Hit_Optic_TKN4S",
                             "opticsdisplayname": "DAY",
                             "initfov": 0.7,
                             "minfov": 0.7,
@@ -602,6 +606,8 @@ rhs_t80ue1 = {
                             "visionmode": ["Normal"],
                             "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_tkn4s_zoom.p3d",
                             "gunneropticseffect": ["TankGunnerOptics1","OpticsBlur2","OpticsCHAbera3"],
+                            "campos": "commanderview",
+                            "hitpoint": "Hit_Optic_TKN4S",
                             "initanglex": 0,
                             "minanglex": -30,
                             "maxanglex": 30,
@@ -618,6 +624,8 @@ rhs_t80ue1 = {
                             "visionmode": ["NVG"],
                             "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_empty",
                             "gunneropticseffect": ["TankCommanderOptics1","OpticsBlur2","OpticsCHAbera3"],
+                            "campos": "commanderview",
+                            "hitpoint": "Hit_Optic_TKN4S",
                             "initanglex": 0,
                             "minanglex": -30,
                             "maxanglex": 30,
@@ -1532,6 +1540,8 @@ rhs_t80ue1 = {
             "opticsin": {
                 # Class: CfgVehicles|rhs_t80ue1|Turrets|MainTurret|OpticsIn|Periscope [Indent level: 4]
                 "periscope": {
+                    "campos": "view_periscope",
+                    "hitpoint": "Hit_Optic_Periscope",
                     "opticsdisplayname": "PERISCOPE",
                     "initanglex": 0,
                     "minanglex": -30,
@@ -1548,6 +1558,8 @@ rhs_t80ue1 = {
                 },
                 # Class: CfgVehicles|rhs_t80ue1|Turrets|MainTurret|OpticsIn|day1 [Indent level: 4],
                 "day1": {
+                    "campos": "view_1g46",
+                    "hitpoint": "Hit_Optic_1G46",
                     "opticsdisplayname": "DAY",
                     "initfov": 0.179487,
                     "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_1g46.p3d",
@@ -1569,6 +1581,8 @@ rhs_t80ue1 = {
                     "minfov": 0.0583333,
                     "maxfov": 0.0583333,
                     "visionmode": ["Normal"],
+                    "campos": "view_1g46",
+                    "hitpoint": "Hit_Optic_1G46",
                     "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_1g46.p3d",
                     "initanglex": 0,
                     "minanglex": -30,
@@ -1580,6 +1594,8 @@ rhs_t80ue1 = {
                 },
                 # Class: CfgVehicles|rhs_t80ue1|Turrets|MainTurret|OpticsIn|thermal1 [Indent level: 4],
                 "thermal1": {
+                    "campos": "view_ESSA",
+                    "hitpoint": "Hit_Optic_ESSA",
                     "opticsdisplayname": "TI1",
                     "initfov": 0.466667,
                     "minfov": 0.466667,
@@ -1601,6 +1617,8 @@ rhs_t80ue1 = {
                     "initfov": 0.155556,
                     "minfov": 0.155556,
                     "maxfov": 0.155556,
+                    "campos": "view_ESSA",
+                    "hitpoint": "Hit_Optic_ESSA",
                     "visionmode": ["Ti"],
                     "thermalmode": [0,1],
                     "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_sosnau.p3d",
@@ -1618,6 +1636,8 @@ rhs_t80ue1 = {
                     "initfov": 0.0388889,
                     "minfov": 0.0388889,
                     "maxfov": 0.0388889,
+                    "campos": "view_ESSA",
+                    "hitpoint": "Hit_Optic_ESSA",
                     "visionmode": ["Ti"],
                     "thermalmode": [0,1],
                     "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_sosnau.p3d",
@@ -1636,6 +1656,8 @@ rhs_t80ue1 = {
                     "initfov": 0.0388889,
                     "minfov": 0.0388889,
                     "maxfov": 0.0388889,
+                    "campos": "view_ESSA",
+                    "hitpoint": "Hit_Optic_ESSA",
                     "visionmode": ["Ti"],
                     "thermalmode": [0,1],
                     "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_sosnau.p3d",
@@ -4439,6 +4461,148 @@ rhs_t80ue1 = {
                 }
             }
         },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|HitHull [Indent level: 2],
+        "hithull": {
+            "armorcomponent": "Hit_Carousel",
+            "armor": -100,
+            "material": -1,
+            "name": "telo",
+            "visual": "zbytek",
+            "passthrough": 0,
+            "minimalhit": 0.1,
+            "explosionshielding": 0.01,
+            "radius": 0.13
+        },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|HitEngine [Indent level: 2],
+        "hitengine": {
+            "armorcomponent": "Hit_Engine",
+            "armor": -150,
+            "material": -1,
+            "name": "motor",
+            "visual": "zbytek",
+            "passthrough": 0,
+            "minimalhit": 0.14,
+            "explosionshielding": 0.01,
+            "radius": 0.23,
+            # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                "ammoexplosioneffect": "",
+                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke [Indent level: 4],
+                "rhs_engine_smoke": {
+                    "simulation": "particles",
+                    "type": "SmallWreckSmoke",
+                    "position": "engine_smoke1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Fire [Indent level: 4],
+                "rhs_engine_fire": {
+                    "type": "SmallFireFPlace",
+                    "simulation": "particles",
+                    "position": "engine_smoke1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sparks [Indent level: 4],
+                "rhs_engine_sparks": {
+                    "type": "RHS_FireSparks",
+                    "simulation": "particles",
+                    "position": "engine_smoke1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sounds [Indent level: 4],
+                "rhs_engine_sounds": {
+                    "simulation": "sound",
+                    "type": "Fire",
+                    "position": "engine_smoke1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small1 [Indent level: 4],
+                "rhs_engine_smoke_small1": {
+                    "type": "WeaponWreckSmoke",
+                    "position": "engine_smoke2",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small2 [Indent level: 4],
+                "rhs_engine_smoke_small2": {
+                    "position": "engine_smoke3",
+                    "type": "WeaponWreckSmoke",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                }
+            }
+        },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|HitFuelTank_Left [Indent level: 2],
+        "hitfueltank_left": {
+            "armor": -80,
+            "material": -1,
+            "name": "Hit_FuelTank_Left",
+            "armorcomponent": "Hit_FuelTank_Left",
+            "visual": "-",
+            "passthrough": 0,
+            "minimalhit": 0.3,
+            "explosionshielding": 0,
+            "radius": 0.1
+        },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|HitFuelTank_Right [Indent level: 2],
+        "hitfueltank_right": {
+            "name": "Hit_FuelTank_Right",
+            "armorcomponent": "Hit_FuelTank_Right",
+            "armor": -80,
+            "material": -1,
+            "visual": "-",
+            "passthrough": 0,
+            "minimalhit": 0.3,
+            "explosionshielding": 0,
+            "radius": 0.1
+        },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|HitFuel [Indent level: 2],
+        "hitfuel": {
+            "armor": 999,
+            "name": "Hit_Fuel",
+            "armorcomponent": "Hit_Fuel",
+            "visual": "-",
+            "passthrough": 0,
+            "minimalhit": 1,
+            "explosionshielding": 0,
+            "radius": 0.01,
+            "depends": "(HitFuelTank_Left+HitFuelTank_Right)*0.5"
+        },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|HitLTrack [Indent level: 2],
+        "hitltrack": {
+            "armor": -150,
+            "armorcomponent": "Hit_TrackL",
+            "passthrough": 0,
+            "material": -1,
+            "minimalhit": -0.25,
+            "explosionshielding": 0.5,
+            "radius": 0.3,
+            "name": "pas_L",
+            "visual": "pas_L"
+        },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|HitRTrack [Indent level: 2],
+        "hitrtrack": {
+            "armor": -150,
+            "armorcomponent": "Hit_TrackR",
+            "material": -1,
+            "passthrough": 0,
+            "minimalhit": -0.25,
+            "explosionshielding": 0.5,
+            "radius": 0.3,
+            "name": "pas_P",
+            "visual": "pas_P"
+        },
         # Class: CfgVehicles|rhs_t80ue1|HitPoints|smoketube_4_hitpoint [Indent level: 2],
         "smoketube_4_hitpoint": {
             "armor": 1.2,
@@ -4615,6 +4779,24 @@ rhs_t80ue1 = {
             "minimalhit": 0.08,
             "explosionshielding": 0.007
         },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|Hit_Optic_ESSA [Indent level: 2],
+        "hit_optic_essa": {
+            "armor": -40,
+            "explosionshielding": 0,
+            "name": "Hit_Optic_Agava",
+            "visual": "vis_optic_ESSA",
+            "armorcomponent": "Hit_Optic_ESSA",
+            "passthrough": 0
+        },
+        # Class: CfgVehicles|rhs_t80ue1|HitPoints|Hit_Optic_NSVT [Indent level: 2],
+        "hit_optic_nsvt": {
+            "armor": -40,
+            "explosionshielding": 0,
+            "name": "Hit_Optic_NSVT",
+            "visual": "vis_optic_1pz3",
+            "armorcomponent": "Hit_Optic_NSVT",
+            "passthrough": 0
+        },
         # Class: CfgVehicles|rhs_tank_base|HitPoints|Armor_Composite_65 [Indent level: 2],
         "armor_composite_65": {
             "armor": 999,
@@ -4692,118 +4874,6 @@ rhs_t80ue1 = {
             "explosionshielding": 0,
             "radius": 0.001,
             "visual": "-"
-        },
-        # Class: CfgVehicles|rhs_tank_base|HitPoints|HitHull [Indent level: 2],
-        "hithull": {
-            "armor": -100,
-            "material": -1,
-            "name": "telo",
-            "visual": "zbytek",
-            "passthrough": 0,
-            "minimalhit": 0.1,
-            "explosionshielding": 0.01,
-            "radius": 0.13
-        },
-        # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine [Indent level: 2],
-        "hitengine": {
-            "armor": -150,
-            "material": -1,
-            "name": "motor",
-            "visual": "zbytek",
-            "passthrough": 0,
-            "minimalhit": 0.14,
-            "explosionshielding": 0.01,
-            "radius": 0.23,
-            # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects [Indent level: 3],
-            "destructioneffects": {
-                "ammoexplosioneffect": "",
-                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke [Indent level: 4],
-                "rhs_engine_smoke": {
-                    "simulation": "particles",
-                    "type": "SmallWreckSmoke",
-                    "position": "engine_smoke1",
-                    "intensity": 0.5,
-                    "interval": 1,
-                    "lifetime": 60
-                },
-                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Fire [Indent level: 4],
-                "rhs_engine_fire": {
-                    "type": "SmallFireFPlace",
-                    "simulation": "particles",
-                    "position": "engine_smoke1",
-                    "intensity": 0.5,
-                    "interval": 1,
-                    "lifetime": 60
-                },
-                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sparks [Indent level: 4],
-                "rhs_engine_sparks": {
-                    "type": "RHS_FireSparks",
-                    "simulation": "particles",
-                    "position": "engine_smoke1",
-                    "intensity": 0.5,
-                    "interval": 1,
-                    "lifetime": 60
-                },
-                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Sounds [Indent level: 4],
-                "rhs_engine_sounds": {
-                    "simulation": "sound",
-                    "type": "Fire",
-                    "position": "engine_smoke1",
-                    "intensity": 0.5,
-                    "interval": 1,
-                    "lifetime": 60
-                },
-                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small1 [Indent level: 4],
-                "rhs_engine_smoke_small1": {
-                    "type": "WeaponWreckSmoke",
-                    "position": "engine_smoke2",
-                    "simulation": "particles",
-                    "intensity": 0.5,
-                    "interval": 1,
-                    "lifetime": 60
-                },
-                # Class: CfgVehicles|rhs_tank_base|HitPoints|HitEngine|DestructionEffects|RHS_Engine_Smoke_small2 [Indent level: 4],
-                "rhs_engine_smoke_small2": {
-                    "position": "engine_smoke3",
-                    "type": "WeaponWreckSmoke",
-                    "simulation": "particles",
-                    "intensity": 0.5,
-                    "interval": 1,
-                    "lifetime": 60
-                }
-            }
-        },
-        # Class: CfgVehicles|rhs_tank_base|HitPoints|HitLTrack [Indent level: 2],
-        "hitltrack": {
-            "armor": -150,
-            "material": -1,
-            "name": "pas_L",
-            "passthrough": 0,
-            "minimalhit": -0.25,
-            "explosionshielding": 0.5,
-            "radius": 0.3,
-            "visual": "pas_L"
-        },
-        # Class: CfgVehicles|rhs_tank_base|HitPoints|HitRTrack [Indent level: 2],
-        "hitrtrack": {
-            "armor": -150,
-            "material": -1,
-            "name": "pas_P",
-            "passthrough": 0,
-            "minimalhit": -0.25,
-            "explosionshielding": 0.5,
-            "radius": 0.3,
-            "visual": "pas_P"
-        },
-        # Class: CfgVehicles|Tank_F|HitPoints|HitFuel [Indent level: 2],
-        "hitfuel": {
-            "armor": 0.6,
-            "material": -1,
-            "name": "NEtelo",
-            "visual": "motor",
-            "passthrough": 0,
-            "minimalhit": 0.1,
-            "explosionshielding": 0.3
         }
     },
     # Class: CfgVehicles|rhs_t80ue1|Damage [Indent level: 1],
@@ -4892,7 +4962,7 @@ rhs_t80ue1 = {
             "values": {
                 # Class: CfgVehicles|rhs_t80ue1|Attributes|rhs_ammoslot_1_type|values|rhs_mag_3bm46_10 [Indent level: 4]
                 "rhs_mag_3bm46_10": {
-                    "name": "APFSDS-T 3BM48",
+                    "name": "APFSDS-T 3BM46",
                     "value": "rhs_mag_3bm46",
                     "defaultvalue": "rhs_mag_3bm46"
                 },
@@ -5659,7 +5729,7 @@ rhs_t80ue1 = {
         # Class: CfgVehicles|rhs_tank_base|DriverOpticsIn|OpticView [Indent level: 2]
         "opticview": {
             "opticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_tvn5",
-            "hitpoint": "Hit_Optic_Driver",
+            "hitpoint": "Hit_Optic_Driver2",
             "initfov": 0.7,
             "minfov": 0.7,
             "maxfov": 0.7,

@@ -38,7 +38,7 @@ rhs_mag_fab250 = {
             }
         },
         "maverickweaponindexoffset": 8,
-        "soundsetexplosion": ["BombsHeavy_Exp_SoundSet","BombsHeavy_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "soundsetexplosion": ["jsrs_bomb_explosion_soundset","jsrs_bomb_explosion_stereo_soundset","jsrs_bomb_explosion_reverb_soundset"],
         "maneuvrability": 10,
         "fusedistance": 50,
         "tracklead": 0.95,

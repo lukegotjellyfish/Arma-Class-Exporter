@@ -85,8 +85,9 @@ rhs_weap_rshg2 = {
     "standardsound": {
         "begin1": ["rhsafrf|addons|rhs_sounds|rpg|rpg_1",2.35,1,1100],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
+        "begin2": ["rhsafrf|addons|rhs_sounds|rpg|rpg_2",2.35,1,1100],
         "weaponsoundeffect": "DefaultRifle",
-        "begin2": ["rhsafrf|addons|rhs_sounds|rpg|rpg_2",2.35,1,1100]
+        "soundsetshot": ["jsrs_rpg42_shot_soundset","jsrs_warhead_reverb_soundset"]
     },
     "drysound": ["A3|sounds_f|weapons|other|dry6",0.0316228,1,10],
     "reloadmagazinesound": ["A3|sounds_f|weapons|rockets|titan_reload_final",0.562341,1,50],

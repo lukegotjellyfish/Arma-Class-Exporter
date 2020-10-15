@@ -9,7 +9,7 @@ rhs_mag_gbu12 = {
         "proxyshape": "rhsusf|addons|rhsusf_airweapons|proxyammo|rhsusf_b_gbu12",
         "inittime": 0.2,
         "maverickweaponindexoffset": 8,
-        "soundsetexplosion": ["BombsHeavy_Exp_SoundSet","BombsHeavy_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "soundsetexplosion": ["jsrs_bomb_explosion_soundset","jsrs_bomb_explosion_stereo_soundset","jsrs_bomb_explosion_reverb_soundset"],
         "hit": 5000,
         "indirecthit": 1100,
         "indirecthitrange": 12,

@@ -14,14 +14,14 @@ rhs_btr80a_msv = {
         "standard": {
             "displayname": "Standard",
             "author": "Red Hammer Studios",
-            "textures": ["rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_03_co.paa"],
+            "textures": ["rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_01_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_02_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_03_std_co.paa"],
             "factions": []
         },
         # Class: CfgVehicles|rhs_btr80a_msv|textureSources|tricolourhard [Indent level: 2],
         "tricolourhard": {
             "displayname": "Tri-Colour (hard-edge)",
             "author": "Red Hammer Studios",
-            "textures": ["rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80a_01_tri01_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80a_02_tri01_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80a_03_tri01_co.paa"],
+            "textures": ["rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_01_tri01_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_02_tri01_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_03_tri01_co.paa"],
             "factions": []
         },
         # Class: CfgVehicles|rhs_btr80a_msv|textureSources|rhs_sand [Indent level: 2],
@@ -5905,7 +5905,7 @@ rhs_btr80a_msv = {
         "tex": [],
         "mat": ["rhsafrf|addons|rhs_btr70|data|btr_main.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main_damage.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main_destruct.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main2.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main2_damage.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main2_destruct.rvmat","rhsafrf|addons|rhs_btr70|data|btr_in.rvmat","rhsafrf|addons|rhs_btr70|data|btr_in.rvmat","rhsafrf|addons|rhs_btr70|data|btr_in_destruct.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_02.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_02.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_03.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_03.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_03.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_04.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_04.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_04.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_01.rvmat","rhsafrf|addons|rhs_btr70|data|scope_glass.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_damage.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_destroyed.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_damage.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_destroyed.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_destroyed.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","a3|data_f|default_destruct.rvmat"]
     },
-    "hiddenselectionstextures": ["rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_03_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa"],
+    "hiddenselectionstextures": ["rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_01_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_02_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_03_std_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa"],
     # Class: CfgVehicles|rhs_btr80_msv|Attributes [Indent level: 1],
     "attributes": {
         # Class: CfgVehicles|rhs_btr80_msv|Attributes|ObjectTexture [Indent level: 2]

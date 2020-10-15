@@ -40,17 +40,6 @@ rhs_weap_m240G = {
         "cowsslot": {
             # Class: asdg_OpticRail1913_short|compatibleItems [Indent level: 0]
             "compatibleitems": {
-                "rhsusf_acc_leupoldmk4": 0,
-                "rhsusf_acc_leupoldmk4_d": 0,
-                "rhsusf_acc_leupoldmk4_wd": 0,
-                "rhsusf_acc_leupoldmk4_2": 0,
-                "rhsusf_acc_leupoldmk4_2_d": 0,
-                "rhsusf_acc_leupoldmk4_2_mrds": 0,
-                "rhsusf_acc_premier": 0,
-                "rhsusf_acc_premier_low": 0,
-                "rhsusf_acc_premier_anpvs27": 0,
-                "rhsusf_acc_acog_anpvs27": 0,
-                "rhsusf_acc_specterdr_pvs27": 0,
                 "rhs_acc_rakurspm": 1,
                 "rhs_acc_dh520x56": 1,
                 "rhs_acc_ekp8_18": 1,
@@ -95,7 +84,15 @@ rhs_weap_m240G = {
                 "optic_erco_blk_f": 1,
                 "optic_erco_khk_f": 1,
                 "optic_erco_snd_f": 1,
+                "rhsusf_acc_leupoldmk4": 1,
+                "rhsusf_acc_leupoldmk4_d": 1,
+                "rhsusf_acc_leupoldmk4_wd": 1,
+                "rhsusf_acc_leupoldmk4_2": 1,
+                "rhsusf_acc_leupoldmk4_2_mrds": 1,
+                "rhsusf_acc_leupoldmk4_2_d": 1,
+                "rhsusf_acc_premier": 1,
                 "rhsusf_acc_premier_mrds": 1,
+                "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
                 "rhsusf_acc_m8541_mrds": 1,
                 "rhsusf_acc_m8541_low": 1,
@@ -180,6 +177,7 @@ rhs_weap_m240G = {
                 "rhsusf_acc_specterdr_a_3d": 1,
                 "rhsusf_acc_specterdr_cx": 1,
                 "rhsusf_acc_specterdr_cx_3d": 1,
+                "rhsusf_acc_specterdr_pvs27": 1,
                 "rhsusf_acc_specterdr_d": 1,
                 "rhsusf_acc_specterdr_od": 1,
                 "rhsusf_acc_specterdr_d_3d": 1,
@@ -203,7 +201,7 @@ rhs_weap_m240G = {
         "muzzleouter": [0.5,1,0.7,0.3],
         "muzzleinner": [0,0,0.15,0.15],
         "kickback": [0.02,0.08],
-        "permanent": 0.04,
+        "permanent": 0.08,
         "temporary": 0.005
     },
     "cursor": "mg",
@@ -406,7 +404,7 @@ rhs_weap_m240G = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -695,12 +693,15 @@ rhs_weap_m240G = {
         "showtoplayer": 1,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -757,12 +758,15 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -814,12 +818,15 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -871,12 +878,15 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -928,12 +938,15 @@ rhs_weap_m240G = {
         "soundburst": 0,
         # Class: CfgWeapons|rhs_weap_m240_base|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
         },
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m240_base|manual|SilencedSound [Indent level: 2],
         "silencedsound": {
             "soundsetshot": ["RHSUSF_sd_M240_Shot_SoundSet","RHSUSF_sd_mmg1_Tail_SoundSet"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240_base|manual|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "sound": ["",10,1],
         "soundend": ["sound",1],
@@ -971,7 +984,7 @@ rhs_weap_m240G = {
     "dexterity": 0.51,
     "aimtransitionspeed": 0.5,
     "magazines": ["rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51_m61_ap","rhsusf_100Rnd_762x51_m62_tracer","rhsusf_100Rnd_762x51_m80a1epr","rhsusf_100Rnd_762x51_m82_blank","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51_m61_ap","rhsusf_50Rnd_762x51_m62_tracer","rhsusf_50Rnd_762x51_m80a1epr","rhsusf_50Rnd_762x51_m82_blank","rhsusf_50Rnd_762x51_m993","rhsusf_100Rnd_762x51_m993"],
-    "magazinewell": ["M240_762x51"],
+    "magazinewell": ["M240_762x51","CBA_762x51_LINKS"],
     "descriptionshort": "General Purpose Machine Gun<br />Caliber: 7.62x51mm NATO",
     # Class: CfgWeapons|rhs_weap_m240_base|Library [Indent level: 1],
     "library": {
@@ -1219,7 +1232,7 @@ rhs_weap_m240G = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
+    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

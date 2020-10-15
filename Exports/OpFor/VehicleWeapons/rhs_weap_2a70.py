@@ -25,17 +25,17 @@ rhs_weap_2a70 = {
     "player": {
         "reloadtime": 5.5,
         "dispersion": 0.00275,
-        "airateoffiredistance": 10,
-        "airateoffire": 6.6,
         "autoreload": 0,
         # Class: CfgWeapons|rhs_weap_d81|player|StandardSound [Indent level: 2],
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
         },
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autofire": 0,
+        "airateoffire": 1,
+        "airateoffiredistance": 10,
         "minrange": 0,
         "minrangeprobab": 0.01,
         "midrange": 1,
@@ -79,8 +79,6 @@ rhs_weap_2a70 = {
     "close": {
         "reloadtime": 5.5,
         "dispersion": 0.00275,
-        "airateoffiredistance": 10,
-        "airateoffire": 6.6,
         # Class: CfgWeapons|rhs_weap_d81|close|StandardSound [Indent level: 2],
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
@@ -88,14 +86,16 @@ rhs_weap_2a70 = {
         "showtoplayer": 0,
         "burst": 1,
         "burstrangemax": 1,
+        "airateoffire": 6,
         "airateoffiredispersion": 0.5,
+        "airateoffiredistance": 500,
         "minrange": 5,
         "minrangeprobab": 0.1,
         "midrange": 500,
         "midrangeprobab": 0.8,
         "maxrange": 1000,
         "maxrangeprobab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -133,8 +133,6 @@ rhs_weap_2a70 = {
     "short": {
         "reloadtime": 5.5,
         "dispersion": 0.00275,
-        "airateoffiredistance": 10,
-        "airateoffire": 6.6,
         # Class: CfgWeapons|rhs_weap_d81|short|StandardSound [Indent level: 2],
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
@@ -142,14 +140,16 @@ rhs_weap_2a70 = {
         "showtoplayer": 0,
         "burst": 1,
         "burstrangemax": 1,
+        "airateoffire": 6,
         "airateoffiredispersion": 1,
+        "airateoffiredistance": 1000,
         "minrange": 500,
         "minrangeprobab": 0.3,
         "midrange": 1000,
         "midrangeprobab": 0.85,
         "maxrange": 1500,
         "maxrangeprobab": 0.85,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -187,8 +187,6 @@ rhs_weap_2a70 = {
     "medium": {
         "reloadtime": 5.5,
         "dispersion": 0.00275,
-        "airateoffiredistance": 10,
-        "airateoffire": 6.6,
         # Class: CfgWeapons|rhs_weap_d81|medium|StandardSound [Indent level: 2],
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
@@ -196,14 +194,16 @@ rhs_weap_2a70 = {
         "showtoplayer": 0,
         "burst": 1,
         "burstrangemax": 1,
+        "airateoffire": 8,
         "airateoffiredispersion": 4,
+        "airateoffiredistance": 1250,
         "minrange": 1000,
         "minrangeprobab": 0.6,
         "midrange": 1500,
         "midrangeprobab": 0.85,
         "maxrange": 2000,
         "maxrangeprobab": 0.8,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -241,8 +241,13 @@ rhs_weap_2a70 = {
     "far": {
         "reloadtime": 5.5,
         "dispersion": 0.00275,
-        "airateoffiredistance": 10,
-        "airateoffire": 6.6,
+        "airateoffiredistance": 2500,
+        "minrange": 1500,
+        "minrangeprobab": 0.75,
+        "midrange": 2000,
+        "midrangeprobab": 0.8,
+        "maxrange": 4000,
+        "maxrangeprobab": 0.4,
         # Class: CfgWeapons|rhs_weap_d81|far|StandardSound [Indent level: 2],
         "standardsound": {
             "soundsetshot": ["RHS_120mm_Shot_SoundSet","RHS_120mm_int_Shot_SoundSet","RHS_cannon_Tail_SoundSet"]
@@ -250,14 +255,9 @@ rhs_weap_2a70 = {
         "showtoplayer": 0,
         "burst": 1,
         "burstrangemax": 1,
+        "airateoffire": 10,
         "airateoffiredispersion": 8,
-        "minrange": 1500,
-        "minrangeprobab": 0.75,
-        "midrange": 2000,
-        "midrangeprobab": 0.8,
-        "maxrange": 3500,
-        "maxrangeprobab": 0.05,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "magazinereloadtime": 6,
         "autoreload": 1,
@@ -321,12 +321,12 @@ rhs_weap_2a70 = {
         "midrangeprobab": 0.95,
         "maxrange": 8000,
         "maxrangeprobab": 0.95,
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         # Class: CfgWeapons|cannon_120mm|player|StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|cannon_120mm|slammer_120mm_distant",3.16228,1,1500],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["Cannon120mm_Shot_SoundSet","Cannon120mm_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_cannon120_shot_soundset"]
         },
         "soundcontinuous": 0,
         "reloadtime": 6,
@@ -367,6 +367,7 @@ rhs_weap_2a70 = {
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
+    "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
     "type": 65536,
     # Class: CfgWeapons|CannonCore|GunClouds [Indent level: 1],
     "gunclouds": {

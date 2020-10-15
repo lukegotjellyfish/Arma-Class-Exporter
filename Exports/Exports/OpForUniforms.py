@@ -5080,9 +5080,11 @@
     "allowedfacewear": ["",7,"rhs_scarf",2,"G_Aviator",1],
     "displayname": "6B47",
     "model": "rhsafrf\\addons\\rhs_infantry2\\gear\\head\\rhs_6b47",
-    "hiddenselectionstextures": ["rhsafrf\\addons\\rhs_infantry2\\gear\\head\\data\\rhs_6b7-1m_co.paa"],
+    "hiddenselections": ["camo1","camo2"],
+    "hiddenselectionstextures": ["rhsafrf\\addons\\rhs_infantry2\\gear\\head\\data\\rhs_6b47_co.paa","rhsafrf\\addons\\rhs_infantry2\\gear\\head\\data\\rhs_6b7-1m_co.paa"],
     # Class: CfgWeapons\\rhs_6b47\\ItemInfo [Indent level: 1],
     "iteminfo": {
+        "hiddenselections": ["camo1","camo2"],
         "uniformmodel": "rhsafrf\\addons\\rhs_infantry2\\gear\\head\\rhs_6b47",
         "mass": 40,
         # Class: CfgWeapons\\rhs_6b28\\ItemInfo\\HitpointsProtectionInfo [Indent level: 2],
@@ -5094,7 +5096,6 @@
                 "passthrough": 0.5
             }
         },
-        "hiddenselections": ["Camo1"],
         "allowedslots": [801,901,701,605],
         "modelsides": [6],
         "author": "Bohemia Interactive",
@@ -5103,7 +5104,6 @@
         "scope": 0
     },
     "dlc": "RHS_AFRF",
-    "hiddenselections": ["Camo1"],
     "_generalmacro": "H_HelmetB",
     "scope": 2,
     "weaponpoolavailable": 1,

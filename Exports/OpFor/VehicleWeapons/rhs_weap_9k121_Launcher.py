@@ -38,11 +38,11 @@ rhs_weap_9k121_Launcher = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kh25_Launcher|StandardSound [Indent level: 1],
         "standardsound": {
-            "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
             "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_missile_big_1_shot_soundset","jsrs_pods_reverb_soundset"],
+            "weaponsoundeffect": "DefaultRifle"
         },
         "holdsteranimvalue": 3,
         "magazinereloadtime": 0.1,
@@ -684,6 +684,7 @@ rhs_weap_9k121_Launcher = {
             },
             "aimtransitionspeed": 1
         },
+        "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "namesound": "MissileLauncher",
@@ -1000,11 +1001,11 @@ rhs_weap_9k121_Launcher = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_kh25_Launcher|StandardSound [Indent level: 1],
         "standardsound": {
-            "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
             "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
+            "soundsetshot": ["jsrs_missile_big_1_shot_soundset","jsrs_pods_reverb_soundset"],
+            "weaponsoundeffect": "DefaultRifle"
         },
         "holdsteranimvalue": 3,
         "magazinereloadtime": 0.1,
@@ -1645,6 +1646,7 @@ rhs_weap_9k121_Launcher = {
             },
             "aimtransitionspeed": 1
         },
+        "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,500],
         "scope": 1,
         "type": 65536,
         "namesound": "MissileLauncher",
@@ -1943,11 +1945,11 @@ rhs_weap_9k121_Launcher = {
     "sounds": ["StandardSound"],
     # Class: CfgWeapons|rhs_weap_kh25_Launcher|StandardSound [Indent level: 1],
     "standardsound": {
-        "weaponsoundeffect": "DefaultRifle",
         "begin1": ["rhsafrf|addons|rhs_sounds|atgm|atgm_1",2.35,1,1400],
         "begin2": ["rhsafrf|addons|rhs_sounds|atgm|atgm_2",2.35,1,1400],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
+        "soundsetshot": ["jsrs_missile_big_1_shot_soundset","jsrs_pods_reverb_soundset"],
+        "weaponsoundeffect": "DefaultRifle"
     },
     "magazinereloadtime": 0.1,
     "showaimcursorinternal": 0,
@@ -2588,6 +2590,7 @@ rhs_weap_9k121_Launcher = {
         },
         "aimtransitionspeed": 1
     },
+    "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|dagr_fly.ogg",1,1.5,500],
     "scope": 1,
     "type": 65536,
     "namesound": "MissileLauncher",

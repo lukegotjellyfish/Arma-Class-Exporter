@@ -5917,14 +5917,14 @@ rhs_btr80_msv = {
         "tex": [],
         "mat": ["rhsafrf|addons|rhs_btr70|data|btr_main.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main_damage.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main_destruct.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main2.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main2_damage.rvmat","rhsafrf|addons|rhs_btr70|data|btr_main2_destruct.rvmat","rhsafrf|addons|rhs_btr70|data|btr_in.rvmat","rhsafrf|addons|rhs_btr70|data|btr_in.rvmat","rhsafrf|addons|rhs_btr70|data|btr_in_destruct.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_02.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_02.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_03.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_03.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_03.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_04.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_dam_btr80_04.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_04.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_01.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_int.rvmat","rhsafrf|addons|rhs_btr80|data|rhs_destr_btr80_01.rvmat","rhsafrf|addons|rhs_btr70|data|scope_glass.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_damage.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_destroyed.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_damage.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_destroyed.rvmat","rhsafrf|addons|rhs_btr70|data|periscope_int_destroyed.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","a3|data_f|default_destruct.rvmat"]
     },
-    "hiddenselectionstextures": ["rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_03_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa"],
+    "hiddenselectionstextures": ["rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_01_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_02_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_03_std_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa","rhsafrf|addons|rhs_btr70|habar|data|sa_gear_02_co.paa"],
     # Class: CfgVehicles|rhs_btr80_msv|textureSources [Indent level: 1],
     "texturesources": {
         # Class: CfgVehicles|rhs_btr80_msv|textureSources|standard [Indent level: 2]
         "standard": {
             "displayname": "Standard",
             "author": "Red Hammer Studios",
-            "textures": ["rhsafrf|addons|rhs_btr80|data|rhs_btr80_01_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_02_co.paa","rhsafrf|addons|rhs_btr80|data|rhs_btr80_03_co.paa"],
+            "textures": ["rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_01_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_02_std_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_03_std_co.paa"],
             "factions": ["rhs_faction_msv","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_vdv","rhs_faction_vv"]
         },
         # Class: CfgVehicles|rhs_btr80_msv|textureSources|tricolourhard [Indent level: 2],
@@ -5947,6 +5947,18 @@ rhs_btr80_msv = {
             "author": "beaar",
             "textures": ["rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_01_des_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_02_des_co.paa","rhsafrf|addons|rhs_btr80_camo|data|rhs_btr80_03_des_co.paa"],
             "factions": []
+        },
+        # Class: CfgVehicles|rhs_btr80_msv|textureSources|CDFcamo [Indent level: 2],
+        "cdfcamo": {
+            "displayname": "CDF (Camo)",
+            "author": "Red Hammer Studios",
+            "textures": ["rhsgref|addons|rhsgref_vehicles_ret|data|cdf|rhs_btr80_01_cdf_co.paa","rhsgref|addons|rhsgref_vehicles_ret|data|cdf|rhs_btr80_02_cdf_co.paa","rhsgref|addons|rhsgref_vehicles_ret|data|cdf|rhs_btr80_03_cdf_co.paa"]
+        },
+        # Class: CfgVehicles|rhs_btr80_msv|textureSources|CDFgreen [Indent level: 2],
+        "cdfgreen": {
+            "displayname": "CDF (Green)",
+            "author": "Red Hammer Studios",
+            "textures": ["rhsgref|addons|rhsgref_vehicles_ret|data|cdf|rhs_btr80_01_cdfg_co.paa","rhsgref|addons|rhsgref_vehicles_ret|data|cdf|rhs_btr80_02_cdfg_co.paa","rhsgref|addons|rhsgref_vehicles_ret|data|cdf|rhs_btr80_03_cdfg_co.paa"]
         }
     },
     "texturelist": [],

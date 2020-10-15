@@ -19,8 +19,8 @@ rhs_rpg7_OG7V_mag = {
         "cost": 100,
         "inittime": 0,
         "thrust": 0,
-        "airfriction": 0.8,
-        "sideairfriction": 0.09,
+        "airfriction": 0.25,
+        "sideairfriction": 0.009,
         "fusedistance": 5,
         "explosive": 1,
         "allowagainstinfantry": 1,
@@ -79,12 +79,13 @@ rhs_rpg7_OG7V_mag = {
         "soundhit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,1800],
         "soundhit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,1800],
         "multisoundhit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
-        "soundsetexplosion": ["RocketsLight_Exp_SoundSet","RocketsLight_Tail_SoundSet","Explosion_Debris_SoundSet"],
+        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
+        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
         "dangerradiushit": -1,
         "suppressionradiushit": 30,
         "soundhit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionsoundeffect": "DefaultExplosion",
-        "soundengine": ["",1,1,20],
+        "soundengine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
         "supersoniccracknear": ["",1,1,50],
         "supersoniccrackfar": ["",1,1,150],
         "muzzleeffect": "BIS_fnc_effectFiredRocket",
@@ -92,6 +93,7 @@ rhs_rpg7_OG7V_mag = {
         "hiteffects": {
             "hitwater": "ImpactEffectsWaterRocket"
         },
+        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo|RocketBase|EventHandlers [Indent level: 1],
         "eventhandlers": {
             # Class: CfgAmmo|RocketBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2]
@@ -214,6 +216,8 @@ rhs_rpg7_OG7V_mag = {
     "mass": 28.6,
     "scope": 2,
     "modelspecialisproxy": 1,
+    "hiddenselections": ["camo_1"],
+    "hiddenselectionstextures": ["rhsafrf|addons|rhs_weapons|rpg7|data|rhs_rpg7v2_02_co.paa"],
     "type": "6 * 		256",
     "value": 5,
     "allowedslots": [901],

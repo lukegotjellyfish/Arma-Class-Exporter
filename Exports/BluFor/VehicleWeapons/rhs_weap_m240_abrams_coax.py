@@ -27,8 +27,8 @@ rhs_weap_m240_abrams_coax = {
         "standardsound": {
             "soundsetshot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
         },
+        "sounds": ["standardsound"],
         "displayname": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
         "soundcontinuous": 0,
         "soundburst": 0,
         "dispersion": 0.0016,
@@ -343,7 +343,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadtime": 0.0631,
         # Class: CfgWeapons|rhs_weap_m240veh|close|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240veh|close|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "aiburstterminable": 1,
         "showtoplayer": 0,
@@ -359,7 +362,7 @@ rhs_weap_m240_abrams_coax = {
         "maxrange": 50,
         "maxrangeprobab": 0.2,
         "displayname": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "soundburst": 0,
         "dispersion": 0.0016,
@@ -663,7 +666,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadtime": 0.0631,
         # Class: CfgWeapons|rhs_weap_m240veh|short|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240veh|short|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "aiburstterminable": 1,
         "showtoplayer": 0,
@@ -679,7 +685,7 @@ rhs_weap_m240_abrams_coax = {
         "maxrange": 300,
         "maxrangeprobab": 0.2,
         "displayname": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "soundburst": 0,
         "dispersion": 0.0016,
@@ -983,7 +989,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadtime": 0.0631,
         # Class: CfgWeapons|rhs_weap_m240veh|medium|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240veh|medium|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "aiburstterminable": 1,
         "showtoplayer": 0,
@@ -999,7 +1008,7 @@ rhs_weap_m240_abrams_coax = {
         "maxrange": 800,
         "maxrangeprobab": 0.1,
         "displayname": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "soundburst": 0,
         "dispersion": 0.0016,
@@ -1303,7 +1312,10 @@ rhs_weap_m240_abrams_coax = {
         "reloadtime": 0.0631,
         # Class: CfgWeapons|rhs_weap_m240veh|far|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["RHSUSF_veh_M240_Shot_SoundSet","RHSUSF_veh_M240_int_Shot_SoundSet","RHSUSF_VEH_MMG1_Tail_SoundSet"]
+            "soundsetshot": ["jsrs_m240_shot_soundset","jsrs_mg_chain_clipper_soundset","jsrs_9x3mm_reverb_soundset"]
+        },
+        # Class: CfgWeapons|rhs_weap_m240veh|far|BaseSoundModeType [Indent level: 2],
+        "basesoundmodetype": {
         },
         "aiburstterminable": 1,
         "showtoplayer": 0,
@@ -1319,7 +1331,7 @@ rhs_weap_m240_abrams_coax = {
         "maxrange": 1200,
         "maxrangeprobab": 0.1,
         "displayname": "RCWS LMG 6.5 mm",
-        "sounds": ["StandardSound"],
+        "sounds": ["standardsound"],
         "soundcontinuous": 0,
         "soundburst": 0,
         "dispersion": 0.0016,

@@ -1,6 +1,6 @@
 rhsusf_m1220_m153_m2_usarmy_wd = {
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhsusf_M1220_M153_M2_usarmy_wd.paa",
-    "displayname": "M1220 (M2 CROWS)",
+    "displayname": "M1220 (CROWS/M2)",
     "picture": "rhsusf|addons|rhsusf_caiman|pictures|rhs_caiman_CROWS_pic_ca.paa",
     "scope": 2,
     "accuracy": 0.5,
@@ -66,6 +66,12 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
             "source": "ammorandom",
             "weapon": "RHS_M2"
         },
+        # Class: CfgVehicles|rhsusf_caiman_GPK_base|AnimationSources|GunnerAdjust_source [Indent level: 2],
+        "gunneradjust_source": {
+            "source": "user",
+            "animperiod": 1,
+            "initphase": 0.25
+        },
         # Class: CfgVehicles|rhsusf_caiman_base|AnimationSources|hide_spare [Indent level: 2],
         "hide_spare": {
         },
@@ -97,13 +103,13 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
         "light_bo": {
             "source": "user",
             "animperiod": 1e-005,
-            "initphase": 0
+            "initphase": 1
         },
         # Class: CfgVehicles|rhsusf_caiman_base|AnimationSources|light_stop [Indent level: 2],
         "light_stop": {
+            "initphase": 0,
             "source": "user",
-            "animperiod": 1e-005,
-            "initphase": 0
+            "animperiod": 1e-005
         },
         # Class: CfgVehicles|rhsusf_caiman_base|AnimationSources|light_svc [Indent level: 2],
         "light_svc": {
@@ -1045,11 +1051,15 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
         "m2_turret": {
             "gunnerlefthandanimname": "OtocHlaven_Shake",
             "gunnerrighthandanimname": "OtocHlaven_Shake",
+            "gunnerleftleganimname": "gunner_legs",
+            "gunnerrightleganimname": "gunner_legs",
             "body": "mainTurret",
             "gun": "mainGun",
             "animationsourcebody": "mainTurret",
             "animationsourcegun": "mainGun",
-            "turretinfotype": "RscOptics_Offroad_01",
+            "animationsourcestickx": "MainTurret_Inertia",
+            "animationsourcesticky": "MainGun_Inertia",
+            "turretinfotype": "RHS_RscWeaponZeroing_TurretAdjust",
             "discretedistance": [100,200,300,400,500,600,800,1000,1200,1500],
             "discretedistanceinitindex": 2,
             "gunnerforceoptics": 0,
@@ -1411,8 +1421,6 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
             "forcenvg": 0,
             "iscopilot": 0,
             "caneject": 1,
-            "gunnerleftleganimname": "",
-            "gunnerrightleganimname": "",
             "precisegetinout": 0,
             "turretfollowfreelook": 0,
             "allowtablock": 1,
@@ -1502,6 +1510,26 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
                 "fov": 0.7
             },
             "bboxes": ["PIP_3_TL","PIP_3_TR","PIP_3_BL","PIP_3_BR"]
+        }
+    },
+    # Class: CfgVehicles|rhsusf_caiman_GPK_base|EventHandlers [Indent level: 1],
+    "eventhandlers": {
+        # Class: CfgVehicles|rhsusf_caiman_GPK_base|EventHandlers|RHS_Turret_EH [Indent level: 2]
+        "rhs_turret_eh": {
+            "turnin": "_this call rhsusf_fnc_turret_gunnerAdjust_turnIn",
+            "hit": "_this call rhsusf_fnc_turret_gunnerAdjust_AI_hit",
+            "engine": "_this call rhsusf_fnc_turret_gunnerAdjust_AI_engine"
+        },
+        "init": "if (local (_this select 0)) then {[(_this select 0), `, [], false] call bis_fnc_initVehicle;};",
+        # Class: CfgVehicles|rhsusf_caiman_base|EventHandlers|RHSUSF_EventHandlers [Indent level: 2],
+        "rhsusf_eventhandlers": {
+            "seatswitched": "if(not(_this select 1 in [driver (_this select 0),gunner (_this select 0)]))then{ (_this select 1) action ['turnIn',_this select 0]}"
+        },
+        "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
+        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
+        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
+        "rhs_defaulteventhandlers": {
+            "hitpart": "_this call rhs_fnc_hitPart"
         }
     },
     "dlc": "RHS_USAF",
@@ -2667,20 +2695,6 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
         "tex": [],
         "mat": ["rhsusf|addons|rhsusf_caiman|data|cmn_Body.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_Body_dam.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_Chassis.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_Chassis_dam.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_Accessory2.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_Accessory2_dam.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_Armor.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_Armor_dam.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_amb.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_amb_dam.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_wheel.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_wheel_dam.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_int.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_int_dam.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_caiman|data|crows.rvmat","rhsusf|addons|rhsusf_caiman|data|crows.rvmat","rhsusf|addons|rhsusf_caiman|data|cmn_destruction.rvmat","rhsusf|addons|rhsusf_rg33|data|glass.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|glass_veh.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|glass_veh_int.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|glass_veh_armored_damage.rvmat","a3|data_f|default.rvmat","a3|data_f|default.rvmat","a3|data_f|default_destruct.rvmat"]
     },
-    # Class: CfgVehicles|rhsusf_caiman_base|EventHandlers [Indent level: 1],
-    "eventhandlers": {
-        "init": "if (local (_this select 0)) then {[(_this select 0), `, [], false] call bis_fnc_initVehicle;};",
-        # Class: CfgVehicles|rhsusf_caiman_base|EventHandlers|RHSUSF_EventHandlers [Indent level: 2],
-        "rhsusf_eventhandlers": {
-            "seatswitched": "if(not(_this select 1 in [driver (_this select 0),gunner (_this select 0)]))then{ (_this select 1) action ['turnIn',_this select 0]}"
-        },
-        "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
-        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
-        "rhs_defaulteventhandlers": {
-            "hitpart": "_this call rhs_fnc_hitPart"
-        }
-    },
     # Class: CfgVehicles|rhsusf_caiman_base|TransportBackpacks [Indent level: 1],
     "transportbackpacks": {
         # Class: CfgVehicles|rhsusf_caiman_base|TransportBackpacks|_xx_rhsusf_falconii [Indent level: 2]
@@ -2738,50 +2752,49 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
             "count": 2
         }
     },
-    "attenuationeffecttype": "TruckAttenuation",
-    "soundgetin": ["A3|Sounds_F|vehicles2|soft|Truck_01|Truck_01_Enter",0.446684,1],
-    "soundgetout": ["A3|Sounds_F|vehicles2|soft|Truck_01|Truck_01_Exit",0.446684,1,40],
-    "sounddammage": ["",0.562341,1],
-    "soundengineonint": ["A3|Sounds_F|vehicles2|soft|Truck_01|Truck_01_Engine_Int_Start",0.501187,1],
-    "soundengineoffint": ["A3|Sounds_F|vehicles2|soft|Truck_01|Truck_01_Engine_Int_stop",0.398107,1],
-    "soundengineonext": ["A3|Sounds_F|vehicles2|soft|Truck_01|Truck_01_Engine_Ext_Start",1.99526,1,50],
-    "soundengineoffext": ["A3|Sounds_F|vehicles2|soft|Truck_01|Truck_01_Engine_Ext_stop",1.99526,1,50],
-    "buildcrash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_01",1.99526,1,75],
-    "buildcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_02",1.99526,1,75],
-    "buildcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_03",1.99526,1,75],
-    "buildcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_04",1.99526,1,75],
+    "soundgetin": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getin|truck_1.ogg",0.5,1],
+    "soundgetout": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|handling|getout|truck_1.ogg",0.5,1,40],
+    "sounddammage": [".ogg",0.5,1],
+    "soundengineonint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|truck_01|truck_01_start_int.ogg",0.5,1],
+    "soundengineoffint": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|truck_01|truck_01_shut_int.ogg",0.5,1],
+    "soundengineonext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|truck_01|truck_01_start_ext.ogg",0.5,1,125],
+    "soundengineoffext": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|engines|truck_01|truck_01_shut_ext.ogg",0.5,1,100],
+    "buildcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_01.ogg",1.5,1,300],
+    "buildcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_02.ogg",1.5,1,300],
+    "buildcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_03.ogg",1.5,1,300],
+    "buildcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_building_04.ogg",1.5,1,300],
     "buildcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
     "buildcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
     "buildcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
     "buildcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundbuildingcrash": ["buildCrash0",0.125,"buildCrash1",0.125,"buildCrash2",0.125,"buildCrash3",0.125,"buildCrash4",0.125,"buildCrash5",0.125,"buildCrash6",0.125,"buildCrash7",0.125],
-    "woodcrash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_01",1.99526,1,75],
-    "woodcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_02",1.99526,1,75],
-    "woodcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_03",1.99526,1,75],
-    "woodcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_04",1.99526,1,75],
-    "woodcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_05",1.99526,1,75],
-    "woodcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_06",1.99526,1,75],
+    "soundbuildingcrash": ["buildcrash0",0.25,"buildcrash1",0.25,"buildcrash2",0.25,"buildcrash3",0.25],
+    "woodcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_01.ogg",1.5,1,300],
+    "woodcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_02.ogg",1.5,1,300],
+    "woodcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_03.ogg",1.5,1,300],
+    "woodcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_04.ogg",1.5,1,300],
+    "woodcrash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_05.ogg",1.5,1,300],
+    "woodcrash5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_mix_wood_06.ogg",1.5,1,300],
     "woodcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_07",1.99526,1,75],
     "woodcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_Wood_08",1.99526,1,75],
-    "soundwoodcrash": ["woodCrash0",0.125,"woodCrash1",0.125,"woodCrash2",0.125,"woodCrash3",0.125,"woodCrash4",0.125,"woodCrash5",0.125,"woodCrash6",0.125,"woodCrash7",0.125],
-    "armorcrash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_01",1.99526,1,75],
-    "armorcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_02",1.99526,1,75],
-    "armorcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_03",1.99526,1,75],
-    "armorcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_04",1.99526,1,75],
+    "soundwoodcrash": ["woodcrash0",0.166,"woodcrash1",0.166,"woodcrash2",0.166,"woodcrash3",0.166,"woodcrash4",0.166,"woodcrash5",0.166],
+    "armorcrash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
+    "armorcrash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
+    "armorcrash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
+    "armorcrash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
     "armorcrash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
     "armorcrash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
     "armorcrash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
     "armorcrash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundarmorcrash": ["ArmorCrash0",0.125,"ArmorCrash1",0.125,"ArmorCrash2",0.125,"ArmorCrash3",0.125,"ArmorCrash4",0.125,"ArmorCrash5",0.125,"ArmorCrash6",0.125,"ArmorCrash7",0.125],
-    "crash0": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_01",1.99526,1,75],
-    "crash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_02",1.99526,1,75],
-    "crash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_03",1.99526,1,75],
-    "crash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_04",1.99526,1,75],
-    "crash4": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_05",1.99526,1,75],
+    "soundarmorcrash": ["armorcrash0",0.25,"armorcrash1",0.25,"armorcrash2",0.25,"armorcrash3",0.25],
+    "crash0": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_01.ogg",1.5,1,300],
+    "crash1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_02.ogg",1.5,1,300],
+    "crash2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_03.ogg",1.5,1,300],
+    "crash3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_04.ogg",1.5,1,300],
+    "crash4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|land_vehicles|noises|crash_light|crash_vehicle_05.ogg",1.5,1,300],
     "crash5": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_06",1.99526,1,75],
     "crash6": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_07",1.99526,1,75],
     "crash7": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Medium_08",1.99526,1,75],
-    "soundcrashes": ["Crash0",0.125,"Crash1",0.125,"Crash2",0.125,"Crash3",0.125,"Crash4",0.125,"Crash5",0.125,"Crash6",0.125,"Crash7",0.125],
+    "soundcrashes": ["crash0",0.2,"crash1",0.2,"crash2",0.2,"crash3",0.2,"crash4",0.2],
     "bushcrash1": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_01",0.630957,1,50],
     "bushcrash2": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_02",0.630957,1,50],
     "bushcrash3": ["A3|Sounds_F|vehicles2|soft|shared|collisions|Vehicle_Soft_Collision_Light_Bush_03",0.630957,1,50],
@@ -2789,8 +2802,8 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
     "soundbushcrash": ["BushCrash1",0.25,"BushCrash2",0.25,"BushCrash3",0.25,"BushCrash4",0.25],
     # Class: CfgVehicles|Truck_01_base_F|Sounds [Indent level: 1],
     "sounds": {
-        "soundsetsint": ["Truck_01_Engine_RPM0_INT_SoundSet","Truck_01_Engine_RPM1_INT_SoundSet","Truck_01_Engine_RPM2_INT_SoundSet","Truck_01_Engine_RPM3_INT_SoundSet","Truck_01_Engine_RPM4_INT_SoundSet","Truck_01_Rattling_INT_SoundSet","Truck_01_Stress_INT_SoundSet","Truck_01_Rain_INT_SoundSet","Truck_01_Tires_Rock_Fast_INT_SoundSet","Truck_01_Tires_Grass_Fast_INT_SoundSet","Truck_01_Tires_Sand_Fast_INT_SoundSet","Truck_01_Tires_Gravel_Fast_INT_SoundSet","Truck_01_Tires_Mud_Fast_INT_SoundSet","Truck_01_Tires_Asphalt_Fast_INT_SoundSet","Truck_01_Tires_Water_Fast_INT_SoundSet","Truck_01_Tires_Rock_Slow_INT_SoundSet","Truck_01_Tires_Grass_Slow_INT_SoundSet","Truck_01_Tires_Sand_Slow_INT_SoundSet","Truck_01_Tires_Gravel_Slow_INT_SoundSet","Truck_01_Tires_Mud_Slow_INT_SoundSet","Truck_01_Tires_Asphalt_Slow_INT_SoundSet","Truck_01_Tires_Water_Slow_INT_SoundSet","Truck_01_Tires_Turn_Hard_INT_SoundSet","Truck_01_Tires_Turn_Soft_INT_SoundSet","Truck_01_Tires_Brake_Hard_INT_SoundSet","Truck_01_Tires_Brake_Soft_INT_SoundSet"],
-        "soundsetsext": ["Truck_01_Engine_RPM0_EXT_SoundSet","Truck_01_Engine_RPM1_EXT_SoundSet","Truck_01_Engine_RPM2_EXT_SoundSet","Truck_01_Engine_RPM3_EXT_SoundSet","Truck_01_Engine_RPM4_EXT_SoundSet","Truck_01_Rattling_EXT_SoundSet","Truck_01_Stress_EXT_SoundSet","Truck_01_Rain_EXT_SoundSet","Truck_01_Tires_Rock_Fast_EXT_SoundSet","Truck_01_Tires_Grass_Fast_EXT_SoundSet","Truck_01_Tires_Sand_Fast_EXT_SoundSet","Truck_01_Tires_Gravel_Fast_EXT_SoundSet","Truck_01_Tires_Mud_Fast_EXT_SoundSet","Truck_01_Tires_Asphalt_Fast_EXT_SoundSet","Truck_01_Tires_Water_Fast_EXT_SoundSet","Truck_01_Tires_Rock_Slow_EXT_SoundSet","Truck_01_Tires_Grass_Slow_EXT_SoundSet","Truck_01_Tires_Sand_Slow_EXT_SoundSet","Truck_01_Tires_Gravel_Slow_EXT_SoundSet","Truck_01_Tires_Mud_Slow_EXT_SoundSet","Truck_01_Tires_Asphalt_Slow_EXT_SoundSet","Truck_01_Tires_Water_Slow_EXT_SoundSet","Truck_01_Tires_Turn_Hard_EXT_SoundSet","Truck_01_Tires_Turn_Soft_EXT_SoundSet","Truck_01_Tires_Brake_Hard_EXT_SoundSet","Truck_01_Tires_Brake_Soft_EXT_SoundSet"]
+        "soundsetsint": ["jsrs_truck_01_idle_interior_soundset","jsrs_truck_01_low_interior_soundset","jsrs_truck_01_high_interior_soundset","jsrs_truck_01_low_off_interior_soundset","jsrs_truck_01_high_off_interior_soundset","jsrs_truck_01_start_interior_soundset","Truck_01_Rattling_INT_SoundSet","Truck_01_Stress_INT_SoundSet","Truck_01_Rain_INT_SoundSet","Truck_01_Tires_Rock_Fast_INT_SoundSet","Truck_01_Tires_Grass_Fast_INT_SoundSet","Truck_01_Tires_Sand_Fast_INT_SoundSet","Truck_01_Tires_Gravel_Fast_INT_SoundSet","Truck_01_Tires_Mud_Fast_INT_SoundSet","Truck_01_Tires_Asphalt_Fast_INT_SoundSet","Truck_01_Tires_Water_Fast_INT_SoundSet","Truck_01_Tires_Rock_Slow_INT_SoundSet","Truck_01_Tires_Grass_Slow_INT_SoundSet","Truck_01_Tires_Sand_Slow_INT_SoundSet","Truck_01_Tires_Gravel_Slow_INT_SoundSet","Truck_01_Tires_Mud_Slow_INT_SoundSet","Truck_01_Tires_Asphalt_Slow_INT_SoundSet","Truck_01_Tires_Water_Slow_INT_SoundSet","Truck_01_Tires_Turn_Hard_INT_SoundSet","Truck_01_Tires_Turn_Soft_INT_SoundSet","Truck_01_Tires_Brake_Hard_INT_SoundSet","Truck_01_Tires_Brake_Soft_INT_SoundSet"],
+        "soundsetsext": ["jsrs_truck_01_idle_exterior_soundset","jsrs_truck_01_low_exterior_soundset","jsrs_truck_01_high_exterior_soundset","jsrs_truck_01_low_off_exterior_soundset","jsrs_truck_01_high_off_exterior_soundset","jsrs_truck_01_start_exterior_soundset","jsrs_truck_01_distance_soundset","Truck_01_Rattling_EXT_SoundSet","Truck_01_Stress_EXT_SoundSet","Truck_01_Rain_EXT_SoundSet","Truck_01_Tires_Rock_Fast_EXT_SoundSet","Truck_01_Tires_Grass_Fast_EXT_SoundSet","Truck_01_Tires_Sand_Fast_EXT_SoundSet","Truck_01_Tires_Gravel_Fast_EXT_SoundSet","Truck_01_Tires_Mud_Fast_EXT_SoundSet","Truck_01_Tires_Asphalt_Fast_EXT_SoundSet","Truck_01_Tires_Water_Fast_EXT_SoundSet","Truck_01_Tires_Rock_Slow_EXT_SoundSet","Truck_01_Tires_Grass_Slow_EXT_SoundSet","Truck_01_Tires_Sand_Slow_EXT_SoundSet","Truck_01_Tires_Gravel_Slow_EXT_SoundSet","Truck_01_Tires_Mud_Slow_EXT_SoundSet","Truck_01_Tires_Asphalt_Slow_EXT_SoundSet","Truck_01_Tires_Water_Slow_EXT_SoundSet","Truck_01_Tires_Turn_Hard_EXT_SoundSet","Truck_01_Tires_Turn_Soft_EXT_SoundSet","Truck_01_Tires_Brake_Hard_EXT_SoundSet","Truck_01_Tires_Brake_Soft_EXT_SoundSet"]
     },
     "_generalmacro": "Truck_01_base_F",
     # Class: CfgVehicles|Truck_01_base_F|Library [Indent level: 1],
@@ -2838,6 +2851,7 @@ rhsusf_m1220_m153_m2_usarmy_wd = {
     # Class: CfgVehicles|Truck_01_base_F|VehicleTransport [Indent level: 1],
     "vehicletransport": {
     },
+    "attenuationeffecttype": "jsrs_truck_attenuation",
     # Class: CfgVehicles|Truck_F|SpeechVariants [Indent level: 1],
     "speechvariants": {
         # Class: CfgVehicles|Truck_F|SpeechVariants|Default [Indent level: 2]

@@ -2299,10 +2299,12 @@ RHS_MELB_AH6M = {
         "libtextdesc": "Syko's Little Birds"
     },
     "armor": 35,
-    "armorstructural": 5,
+    "armorstructural": 20,
     "epeimpulsedamagecoef": 20,
     "damageresistance": 0.01039,
     "crewcrashprotection": 0.2,
+    "hulldamagecauseexplosion": 1,
+    "hullexplosiondelay": [10,20],
     # Class: CfgVehicles|RHS_MELB_base|HitPoints [Indent level: 1],
     "hitpoints": {
         # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitFuel [Indent level: 2]
@@ -2319,14 +2321,95 @@ RHS_MELB_AH6M = {
         },
         # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitHull [Indent level: 2],
         "hithull": {
+            "simulation": "RHS_Hull_Helicopter",
+            "armor": -120,
+            "minimalhit": -0.15,
+            "radius": 0.02,
             "name": "hull_hit",
-            "armor": 6,
+            "armorcomponent": "hull_hit",
             "visual": "zbytek",
-            "radius": 0.05,
+            "passthrough": 1,
+            # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitHull|DestructionEffects [Indent level: 3],
+            "destructioneffects": {
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke [Indent level: 0]
+                "rhs_hull_smoke": {
+                    "simulation": "particles",
+                    "type": "SmallWreckSmoke",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire [Indent level: 0],
+                "rhs_hull_fire": {
+                    "type": "MediumDestructionFire",
+                    "simulation": "particles",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Sparks [Indent level: 0],
+                "rhs_hull_sparks": {
+                    "type": "AirFireSparks",
+                    "simulation": "particles",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Sounds [Indent level: 0],
+                "rhs_hull_sounds": {
+                    "simulation": "sound",
+                    "type": "Fire",
+                    "position": "hull_fire_1",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke_small1 [Indent level: 0],
+                "rhs_hull_smoke_small1": {
+                    "type": "WeaponWreckSmoke",
+                    "position": "hull_fire_2",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Smoke_small2 [Indent level: 0],
+                "rhs_hull_smoke_small2": {
+                    "position": "hull_fire_3",
+                    "type": "WeaponWreckSmoke",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire_2 [Indent level: 0],
+                "rhs_hull_fire_2": {
+                    "type": "MediumDestructionFire",
+                    "position": "hull_fire_2",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                # Class: RHS_Effects_Helicopter_Hull_Destruction|RHS_Hull_Fire_3 [Indent level: 0],
+                "rhs_hull_fire_3": {
+                    "type": "MediumDestructionFire",
+                    "position": "hull_fire_3",
+                    "simulation": "particles",
+                    "intensity": 0.5,
+                    "interval": 1,
+                    "lifetime": 60
+                },
+                "ammoexplosioneffect": "",
+                "effectradius": 1,
+                "ignorefuel": 1
+            },
             "convexcomponent": "hull_hit",
             "explosionshielding": 1,
-            "material": 51,
-            "passthrough": 1
+            "material": 51
         },
         # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitEngine [Indent level: 2],
         "hitengine": {
@@ -2420,10 +2503,9 @@ RHS_MELB_AH6M = {
         # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitPylon1 [Indent level: 2],
         "hitpylon1": {
             "armor": -30,
-            "material": -1,
             "name": "hit_pylon_1",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -2473,10 +2555,9 @@ RHS_MELB_AH6M = {
         # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitPylon2 [Indent level: 2],
         "hitpylon2": {
             "armor": -30,
-            "material": -1,
             "name": "hit_pylon_2",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -2526,10 +2607,9 @@ RHS_MELB_AH6M = {
         # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitPylon3 [Indent level: 2],
         "hitpylon3": {
             "armor": -30,
-            "material": -1,
             "name": "hit_pylon_3",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -2579,10 +2659,9 @@ RHS_MELB_AH6M = {
         # Class: CfgVehicles|RHS_MELB_base|HitPoints|HitPylon4 [Indent level: 2],
         "hitpylon4": {
             "armor": -30,
-            "material": -1,
             "name": "hit_pylon_4",
             "passthrough": 0,
-            "minimalhit": 0.8,
+            "minimalhit": -0.1,
             "explosionshielding": 0.1,
             "radius": 0.7,
             "visual": "-",
@@ -4189,7 +4268,6 @@ RHS_MELB_AH6M = {
     "shownvgcargo": [0],
     "soundattenuationcargo": [1],
     "countsforscoreboard": 1,
-    "hulldamagecauseexplosion": 0,
     # Class: CfgVehicles|All|NVGMarker [Indent level: 1],
     "nvgmarker": {
         "diffuse": [1,1,1,1],

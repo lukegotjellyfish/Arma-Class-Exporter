@@ -3907,112 +3907,112 @@ rhs_mig29sm_vmf = {
             "author": "Red Hammer Studios",
             "displayname": "Blue",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Gray [Indent level: 2],
         "gray": {
             "displayname": "Gray",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_gray_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_gray_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_gray_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|LightGray [Indent level: 2],
         "lightgray": {
             "displayname": "Light Gray",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_lgray_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_lgray_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_lgray_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|LightGray2 [Indent level: 2],
         "lightgray2": {
             "displayname": "Light Gray 2",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_lgray_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_lgray2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_lgray_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Gray_camo [Indent level: 2],
         "gray_camo": {
             "displayname": "Gray Camo",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_gray_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_gray_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_gray_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo [Indent level: 2],
         "green_camo": {
             "displayname": "Green Camo 1",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo2 [Indent level: 2],
         "green_camo2": {
             "displayname": "Green Camo 2",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green2_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo3 [Indent level: 2],
         "green_camo3": {
             "displayname": "Green Camo 3",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green22_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green2_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo4 [Indent level: 2],
         "green_camo4": {
             "displayname": "Green Camo 4",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green23_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green2_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo5 [Indent level: 2],
         "green_camo5": {
             "displayname": "Green Camo 5",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green24_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green2_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo6 [Indent level: 2],
         "green_camo6": {
             "displayname": "Green Camo 6",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green25_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green2_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo7 [Indent level: 2],
         "green_camo7": {
             "displayname": "Green Camo 7",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green3_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green3_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green3_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo_kubinka [Indent level: 2],
         "green_camo_kubinka": {
             "displayname": "Green Camo Kubinka",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green_kubinka.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green_kubinka.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green_kubinka.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo_lipetsk [Indent level: 2],
         "green_camo_lipetsk": {
             "displayname": "Green Camo Lipetsk",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green_lipetsk_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green24_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green_lipetsk_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo_aggressor1 [Indent level: 2],
         "green_camo_aggressor1": {
             "displayname": "Aggressor 1",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green_aggressor1_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green_aggressor1_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green2_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|Green_camo_aggressor2 [Indent level: 2],
         "green_camo_aggressor2": {
             "displayname": "Aggressor 2",
             "author": "Red Hammer Studios",
             "textures": ["rhsafrf|addons|rhs_mig29|data|rhs_mig29_01_mimic_green_aggressor2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_02_mimic_green_aggressor2_co.paa","rhsafrf|addons|rhs_mig29|data|rhs_mig29_03_mimic_green_aggressor2_co.paa"],
-            "factions": ["rhs_faction_vvs","rhs_faction_vvs_c","rhs_faction_vmf"]
+            "factions": []
         },
         # Class: CfgVehicles|rhs_mig29s_base|textureSources|RHS_SAF_Gray [Indent level: 2],
         "rhs_saf_gray": {
