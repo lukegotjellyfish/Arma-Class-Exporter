@@ -1,6 +1,9 @@
 # Arma-Class-Exporter
  Currently set up for RHS vehicles and weapons used on the C4G V14 RHS KotH server.<Br>
 
+make_file 32bit: http://killzonekid.com/arma-extension-make_file-dll-v1-0/
+make_file 64bit: http://killzonekid.com/arma-64-bit-extensions/
+
 1. Download make_file_x64 (or 32bit version) and put it in your Arma 3 directory (Where the .exe is)
 2. Run ./Exports/Create folders.bat to create directories to write to
 3. Change "\_basePath" directory in ./Script/ClassExport.sqf on line 840 to the full path of where your "Exports" folder is, with the same formatting
