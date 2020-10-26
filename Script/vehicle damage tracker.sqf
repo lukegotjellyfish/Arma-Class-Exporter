@@ -89,3 +89,31 @@ vehicle_remove = player addAction ["Remove and disable options", {
 // _ctrlBackground ctrlCommit 0;
 // _ctrlGroup ctrlSetPosition [-0.686, -0.2, 0.5, 1.5];
 // _ctrlGroup ctrlCommit 0.1;
+
+
+
+
+
+
+vehicle player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
+bulletA = player addAction ["Enable Bullet Cam", {YEETUS = vehicle player addEventHandler ["Fired", {
+	_null = _this spawn {
+		_missile = _this select 6;
+		_cam = "camera" camCreate (position player);
+		_cam cameraEffect ["External", "Back"];
+		while {!(isNull _missile)} do {
+			_cam camSetTarget getPos _missile;
+			systemChat format["Distance: %1 | Speed: %2", player distance2D _missile, speed _missile];
+			_missilePos = getPos _missile;
+			_cam camSetRelPos [120,-10,5];
+			_cam camCommit 0;
+		};
+		sleep 3;
+		//Can't show hints while in a camera (big sad)
+		_cam cameraEffect ["Terminate", "Back"];
+		camDestroy _cam;
+	};
+}]}];
+bulletB = player addAction ["Disable Bullet Cam", {vehicle player removeEventHandler["Fired", YEETUS]}];
+bulletC = player addAction ["Remove BulletCam Options", {player removeaction bulletA; player removeaction bulletB; player removeaction bulletC; _var = missionNameSpace getVariable ["YEETUS",-1]; if (_var != -1) then {player removeEventHandler ["Fired", YEETUS]} else {}}];
+//bullet cam

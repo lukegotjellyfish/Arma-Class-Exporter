@@ -32,7 +32,7 @@ cend     = '\33[0m'
 
 SEPERATOR = cgreen + cbold + "======================================================================================================================" + cend
 
-#There must be a better way of doing this
+#There must be a better way of doing this, it hurts my eyes and looks wrong
 def bluFor(array, depth):
     if depth == 2:
         return CombinedBluFor.BluFor[array[0]][array[1]]
@@ -88,10 +88,6 @@ def fetchSide(array):
 """
 
 
-#Test for errors:
-# print(CombinedBluFor)
-# print(CombinedOpFor)
-
 def getModeDependant(side, weapon, fireModes, wepProperty):
     thing = []
     try:
@@ -123,6 +119,7 @@ def filterModes(mode, array, rpm, dispersion, x):
         array.append([mode,rpm[x],dispersion[x]])
     return array
 
+
 def filterFireModes(fireModes, rpm, dispersion):
     if (len(fireModes) < len(rpm)) and (len(fireModes) < len(dispersion)):
         x = 1
@@ -143,10 +140,22 @@ def getWeaponStats(weapon, magazine, side):
     name          = fetchSide([side + "Weapons",weapon,"displayname"])
     cartridge     = fetchSide([side + "Magazines",magazine,"displaynameshort"])
     if (len(cartridge) == 0):
-        cartridge = fetchSide([side + "Magazines",magazine,"ammo","cartridge"]).replace("RHS_Cartridge_","")
+        cartridge = fetchSide([side + "Magazines",magazine,"ammo","cartridge"]).replace("RHS_Cartridge_","").replace("FxCartridge_","").replace("762", "7.62")
+
+    # Easier to do it manually :p
+    if cartridge == "Buckshot":
+        shot = []
+        for shotDistance in range(100, 600, 100):
+            estSpeed = 331.8 * (1/math.exp(abs(-0.00634) * shotDistance))
+            shotDamage = 3.91 * (estSpeed/403.86)
+            shot.append('{:.3f}'.format(round(shotDamage,3)))
+        return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
+                "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
+
     magCapacity   = fetchSide([side + "Magazines",magazine,"count"])
+    # hit = hit * (speed / typicalSpeed)
     damage        = fetchSide([side + "Magazines",magazine,"ammo","hit"])
-    fireModes     = [x.lower() for x in fetchSide([side + "Weapons",weapon,"modes"])]
+    fireModes     = [x.lower().replace("manual","Fullauto") for x in fetchSide([side + "Weapons",weapon,"modes"])]
     rpm           = getModeDependant(side + "Weapons",weapon,fireModes,"reloadtime")
     wepClass      = weapon
     magClass      = magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
@@ -160,6 +169,7 @@ def getWeaponStats(weapon, magazine, side):
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.250)/10,2)).zfill(5))
     thrust        = fetchSide([side + "Magazines",magazine,"ammo","thrust"])
     thrustTime    = fetchSide([side + "Magazines",magazine,"ammo","thrusttime"])
+
 
     #FireMode filtering, likely more useful for vehicle weapons
     modeStats     = filterFireModes(fireModes, rpm, dispersion)
@@ -180,13 +190,20 @@ def getWeaponStats(weapon, magazine, side):
                     prevSets.append([fireType[1],fireType[2]])
 
     # hit = hit * (speed / typicalSpeed)
-    speedTime = ""
-    for distance in range(0, 2000, 100):
+    hitValues = []
+    for distance in range(100, 600, 100):
         estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
-        speedTime += str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
-    # stringModeStats[:-1] = Remove trailing \n
-    return ["X", "X", name, cartridge, magCapacity, damage, fireModes[:-1], rpm, wepClass, magClass, dispersion,
-            initialSpeed, typicalSpeed, airResistance, caliber, penetration, "X", speedTime, stringModeStats[:-1], thrust, thrustTime]
+        # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
+        hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
+
+
+    # Now that we're finished with damage, round up to 3dp
+    # hit = hit * (speed / typicalSpeed)
+    # Some bullets have a highter typicalSpeed than initial - they will always do less damage than their Hit value
+    damage = '{:.3f}'.format(round(damage * (initialSpeed / typicalSpeed), 3))
+    return ["X", "X", name, cartridge, magCapacity, damage, fireModes[:-1], rpm, dispersion,
+            initialSpeed, typicalSpeed, airResistance, penetration,
+            hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], "X", wepClass, magClass, caliber]
 
 
 def writeWeaponStats(weapon, side, csvwriter):
@@ -198,23 +215,36 @@ def writeWeaponStats(weapon, side, csvwriter):
           cred  + "         Damage: " + cend + cviolet + str(weaponStats[5])  + cend + "\n" +
           ccyan + "     Fire Modes: " + cend + cyellow + str(weaponStats[6])  + cend + "\n" +
           ccyan + "            RPM: " + cend + cyellow + str(weaponStats[7])  + cend + "\n" +
-          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[8])  + cend + "\n" +
-          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[9])  + cend + "\n" +
-          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[10]) + cend + "\n" +
-          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[11]) + cend + "\n" +
-          cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[12]) + cend + "\n" +
-          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[13]) + cend + "\n" +
-          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[14]) + cend + "\n" +
-          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[15]) + cend + "\n" +
-          cred  + "     Ballistics: " + cend + cgreen  + "\n       " + str(weaponStats[17]).replace("\n","\n       ")[:-8] + cend)
+          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[8]) + cend + "\n" +
+          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[9]) + cend + "\n" +
+          cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[10]) + cend + "\n" +
+          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[11]) + cend + "\n" +
+          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[12]) + cend + "\n" +
+          cred  + "     Ballistics: " + cend + cgreen  + "\n       " + str(weaponStats[13] + "\n" +
+                                                                           weaponStats[14] + "\n" +
+                                                                           weaponStats[15] + "\n" +
+                                                                           weaponStats[16] + "\n" +
+                                                                           weaponStats[17]).replace("\n","\n       ") + cend + "\n" +
+
+          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[19])  + cend + "\n" +
+          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[20])  + cend + "\n" +
+          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[21]) + cend)
     #Force excel to parse as string
-    weaponStats[7]  = "=\"" + weaponStats[7] + "\""
-    weaponStats[10] = "=\"" + weaponStats [10] + "\""
+    weaponStats[5]  = "=\"" + str(weaponStats[5])  + "\""
+    weaponStats[7]  = "=\"" + str(weaponStats[7])  + "\""
+    weaponStats[8]  = "=\"" + str(weaponStats[8])  + "\""
+    weaponStats[9]  = "=\"" + str(weaponStats[9])  + "\""
+    weaponStats[10] = "=\"" + str(weaponStats[10]) + "\""
+    weaponStats[11] = "=\"" + str(weaponStats[11]) + "\""
+    weaponStats[12] = "=\"" + str(weaponStats[12]) + "\""
+    weaponStats[13] = "=\"" + str(weaponStats[13]) + "\""
+    weaponStats[14] = "=\"" + str(weaponStats[14]) + "\""
+    weaponStats[15] = "=\"" + str(weaponStats[15]) + "\""
+    weaponStats[16] = "=\"" + str(weaponStats[16]) + "\""
+    weaponStats[17] = "=\"" + str(weaponStats[17]) + "\""
     csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
 
-#[name, magCapacity, damage, fireModes, rpm, wepClass, magClass,
-# dispersion, initialSpeed, airResistance, caliber, penetration]
 
 bluForWeapons = [
     ["rhs_weap_g36kv"         ,"rhssaf_30rnd_556x45_EPR_G36"          ],
@@ -233,8 +263,8 @@ bluForWeapons = [
     ["rhs_weap_m27iar"        ,"rhs_mag_30Rnd_556x45_Mk318_Stanag"    ],
     ["rhs_weap_m3a1_specops"  ,"rhsgref_30rnd_1143x23_M1911B_SMG"     ],
     ["rhs_weap_m40a5"         ,"rhsusf_10Rnd_762x51_m993_Mag"         ],
-    ["rhs_weap_m4a1_blockII"  ,"rhs_mag_30Rnd_556x45_M855_Stanag"     ],
-    ["rhs_weap_m4a1"          ,"rhs_mag_30Rnd_556x45_Mk262_Stanag"    ],
+    ["rhs_weap_m4a1_blockII"  ,"rhs_mag_30Rnd_556x45_Mk262_Stanag"    ],
+    ["rhs_weap_m4a1"          ,"rhs_mag_30Rnd_556x45_M855_Stanag"     ],
     ["rhs_weap_M590_5RD"      ,"rhsusf_5Rnd_00Buck"                   ],
     ["rhs_weap_M590_5RD"      ,"rhsusf_5Rnd_Slug"                     ],
     ["rhs_weap_mg42"          ,"rhsgref_50Rnd_792x57_SmE_drum"        ],
@@ -254,6 +284,12 @@ bluForWeapons = [
 opForWeapons = [
     ["rhs_weap_ak103"        ,"rhs_30Rnd_762x39mm_polymer_89"],
     ["rhs_weap_ak74"         ,"rhs_30Rnd_545x39_7N6_AK"      ],
+    ["rhs_weap_6p53"         ,"rhs_18rnd_9x21mm_7N29"        ] ,
+    ["rhs_weap_pb_6p9"       ,"rhs_mag_9x18_8_57N181S"       ] ,
+    ["rhs_weap_pya"          ,"rhs_mag_9x19_17"              ] ,
+    ["rhs_weap_makarov_pm"   ,"rhs_mag_9x18_8_57N181S"       ] ,
+    ["rhs_weap_pp2000_folded","rhs_mag_9x19mm_7n21_20"       ] ,
+    ["rhs_weap_tt33"         ,"rhs_mag_762x25_8"             ] ,
     ["rhs_weap_ak74m"        ,"rhs_30Rnd_545x39_7N10_AK"     ],
     ["rhs_weap_ak74mr"       ,"rhs_30Rnd_545x39_7N22_AK"     ],
     ["rhs_weap_akmn"         ,"rhs_30Rnd_762x39mm"           ],
@@ -281,43 +317,27 @@ opForWeapons = [
 
 # [name, magazine count, damage, fire modes, RPM, weapon classname, magazine classnames, dispersion, initspeed, bullet friction, caliber, penetration]
 
+weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
+               "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m", "Unlock Level"
+               "Weapon Class", "Magazine Class", "Caliber"]
 
 with open("BluForExport.csv", "w", newline='\n') as csvfile:
-    csvfile.truncate(0)
+    csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
-    csvwriter.writerow(["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Weapon Class", "Magazine Class", "Dispersion", "Initial Speed", "Typical Speed",
-                        "Air Resistance", "Caliber", "Penetration", "x", "Ballistics", "FireModeDebug", "Thrust", "Thrust Time"])
+    csvwriter.writerow(weaponArray)
     for weapon in bluForWeapons:
         writeWeaponStats(weapon, "BluFor", csvwriter)
 
 with open("OpForExport.csv", "w", newline='\n') as csvfile:
-    csvfile.truncate(0)
+    csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
-    csvwriter.writerow(["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Weapon Class", "Magazine Class", "Dispersion", "Initial Speed", "Typical Speed",
-                        "Air Resistance", "Caliber", "Penetration", "x", "Ballistics", "FireModeDebug", "Thrust", "Thrust Time"])
+    csvwriter.writerow(weaponArray)
     for weapon in opForWeapons:
         writeWeaponStats(weapon, "OpFor", csvwriter)
 
-# for weapon in opForWeapons:
-#     opForWeapon(weapon)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# search = ["BluForWeapons","rhsusf_weap_glock17g4","reloadTime"]
-# print(bluFor(search,len(search)))
+# print('{:.2f}'.format(round((403.86 * 0.24 * 0.015)/10,2)).zfill(4) + "|" +
+#                      '{:.2f}'.format(round((403.86 * 0.24 * 0.080)/10,2)).zfill(5) + "|" +
+#                      '{:.2f}'.format(round((403.86 * 0.24 * 0.250)/10,2)).zfill(5))

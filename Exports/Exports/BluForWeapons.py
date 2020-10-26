@@ -12450,7 +12450,7 @@
         # Class: CfgWeapons\\EBR_base_F\\WeaponSlotsInfo\\MuzzleSlot [Indent level: 2],
         "muzzleslot": {
             "linkproxy": "A3\\data_f\\proxies\\weapon_slots\\MUZZLE",
-            "compatibleitems": ["muzzle_snds_B","muzzle_snds_B_khk_F","muzzle_snds_B_snd_F"],
+            "compatibleitems": ["muzzle_snds_B"],
             "iconposition": [0.05,0.38],
             "iconscale": 0.2,
             "displayname": "$str_a3_cfgweapons_abr_base_f_weaponslotsinfo_muzzleslot0",
