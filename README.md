@@ -1,12 +1,12 @@
 # Arma-Class-Exporter
- Currently set up for RHS vehicles and weapons used on the C4G V14 RHS KotH server: 
- Name: CodeFourGaming - King Of The Hill RHS Vics US #5 (and "- King of the Hill - RHS Inf No Towers EU #3 HC" by extension)
- IP: 158.69.123.61:2402
- Restart: 18:00 UTC+0
- Mods: https://steamcommunity.com/sharedfiles/filedetails/?id=1290398866
-
-make_file 32bit: http://killzonekid.com/arma-extension-make_file-dll-v1-0/
-make_file 64bit: http://killzonekid.com/arma-64-bit-extensions/
+ Currently set up for RHS vehicles and weapons used on the C4G V14 RHS KotH server:<br>
+ Name: CodeFourGaming - King Of The Hill RHS Vics US #5 (and "- King of the Hill - RHS Inf No Towers EU #3 HC" by extension)<br>
+ IP: 158.69.123.61:2402<br>
+ Restart: 18:00 UTC+0<br>
+ Mods: https://steamcommunity.com/sharedfiles/filedetails/?id=1290398866<br>
+<br>
+make_file 32bit: http://killzonekid.com/arma-extension-make_file-dll-v1-0/<br>
+make_file 64bit: http://killzonekid.com/arma-64-bit-extensions/<br>
 
 1. Download make_file_x64 (or 32bit version) and put it in your Arma 3 directory (Where the .exe is)
 2. Run ./Exports/Create folders.bat to create directories to write to
