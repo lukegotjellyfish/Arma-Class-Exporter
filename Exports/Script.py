@@ -136,9 +136,19 @@ def filterFireModes(fireModes, rpm, dispersion):
     return [singleRPMdispersion, fullautoRPMdispersion]
 
 
+def getDisplayName(side, category, _class):
+    return fetchSide([side + category, _class, "displayname"])
+
+def getMagazineCapacity(side, category, _class):
+    return fetchSide([side + category, _class, "count"])
+
+def getAmmoHit(side, category, _class):
+    return fetchSide([side + category, _class, "ammo", "hit"])
+
+
 def getWeaponStats(weapon, magazine, side):
-    name          = fetchSide([side + "Weapons",weapon,"displayname"])
-    cartridge     = fetchSide([side + "Magazines",magazine,"displaynameshort"])
+    name          = getDisplayName(side, "CfgWeapons", weapon)
+    cartridge     = fetchSide([side + "Magazines", magazine, "displaynameshort"])
     if (len(cartridge) == 0):
         cartridge = fetchSide([side + "Magazines",magazine,"ammo","cartridge"]).replace("RHS_Cartridge_","").replace("FxCartridge_","").replace("762", "7.62")
 
@@ -152,9 +162,8 @@ def getWeaponStats(weapon, magazine, side):
         return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
                 "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
 
-    magCapacity   = fetchSide([side + "Magazines",magazine,"count"])
-    # hit = hit * (speed / typicalSpeed)
-    damage        = fetchSide([side + "Magazines",magazine,"ammo","hit"])
+    magCapacity   = getMagazineCapacity(side, "Magazines", magazine)
+    damage        = getAmmoHit(side, "Magazines", magazine)
     fireModes     = [x.lower().replace("manual","Fullauto") for x in fetchSide([side + "Weapons",weapon,"modes"])]
     rpm           = getModeDependant(side + "Weapons",weapon,fireModes,"reloadtime")
     wepClass      = weapon
