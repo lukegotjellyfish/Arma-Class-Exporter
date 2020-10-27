@@ -145,14 +145,17 @@ def getMagazineCapacity(side, category, _class):
 def getAmmoHit(side, category, _class):
     return fetchSide([side + category, _class, "ammo", "hit"])
 
+def getDisplayNameShort(side, category, _class):
+    return fetchSide([side + category, _class, "displaynameshort"])
+
 
 def getWeaponStats(weapon, magazine, side):
-    name          = getDisplayName(side, "CfgWeapons", weapon)
-    cartridge     = fetchSide([side + "Magazines", magazine, "displaynameshort"])
+    name          = getDisplayName(side, "Weapons", weapon)
+    cartridge     = getDisplayNameShort(side, "Magazines", magazine)
     if (len(cartridge) == 0):
-        cartridge = fetchSide([side + "Magazines",magazine,"ammo","cartridge"]).replace("RHS_Cartridge_","").replace("FxCartridge_","").replace("762", "7.62")
+        cartridge = fetchSide([side + "Magazines", magazine, "ammo", "cartridge"]).replace("RHS_Cartridge_","").replace("FxCartridge_","").replace("762", "7.62")
 
-    # Easier to do it manually :p
+    # Easier to do it manually for now :p
     if cartridge == "Buckshot":
         shot = []
         for shotDistance in range(100, 600, 100):
