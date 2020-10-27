@@ -91,13 +91,13 @@ def fetchSide(array):
 def getModeDependant(side, weapon, fireModes, wepProperty):
     thing = []
     try:
-        thing.append(fetchSide([side,weapon,wepProperty]))
+        thing.append(fetchSide([side, weapon, wepProperty]))
     except KeyError:
         pass
 
     for mode in fireModes:
         try:
-            thing.append(fetchSide([side,weapon,mode,wepProperty]))
+            thing.append(fetchSide([side, weapon, mode, wepProperty]))
         except KeyError:
             continue
     return thing
@@ -148,12 +148,38 @@ def getAmmoHit(side, category, _class):
 def getDisplayNameShort(side, category, _class):
     return fetchSide([side + category, _class, "displaynameshort"])
 
+def getCartridge(side, category, _class):
+    return fetchSide([side + category, _class, "ammo", "cartridge"]).replace("RHS_Cartridge_","").replace("FxCartridge_","").replace("762", "7.62")
+
+def getFireModes(side, category, _class):
+    return fetchSide([side + category, _class, "modes"])
+
+def getInitialSpeed(side, category, _class):
+    return fetchSide([side + category, _class, "initspeed"])
+
+def getTypicalSpeed(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","typicalspeed"])
+
+def getAirResistance(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","airfriction"])
+
+def getCaliber(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","caliber"])
+
+def getThrust(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","thrust"])
+
+def getThrustTime(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","thrusttime"])
+
+def getMaxSpeed(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","maxspeed"])
 
 def getWeaponStats(weapon, magazine, side):
     name          = getDisplayName(side, "Weapons", weapon)
     cartridge     = getDisplayNameShort(side, "Magazines", magazine)
     if (len(cartridge) == 0):
-        cartridge = fetchSide([side + "Magazines", magazine, "ammo", "cartridge"]).replace("RHS_Cartridge_","").replace("FxCartridge_","").replace("762", "7.62")
+        cartridge = getCartridge(side, "Magazines", magazine)
 
     # Easier to do it manually for now :p
     if cartridge == "Buckshot":
@@ -167,21 +193,21 @@ def getWeaponStats(weapon, magazine, side):
 
     magCapacity   = getMagazineCapacity(side, "Magazines", magazine)
     damage        = getAmmoHit(side, "Magazines", magazine)
-    fireModes     = [x.lower().replace("manual","Fullauto") for x in fetchSide([side + "Weapons",weapon,"modes"])]
-    rpm           = getModeDependant(side + "Weapons",weapon,fireModes,"reloadtime")
+    fireModes     = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, "Weapons", weapon)]
+    rpm           = getModeDependant(side + "Weapons", weapon, fireModes, "reloadtime")
     wepClass      = weapon
     magClass      = magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
-    dispersion    = getModeDependant(side + "Weapons",weapon,fireModes,"dispersion")
-    initialSpeed  = fetchSide([side + "Magazines",magazine,"initspeed"])
-    typicalSpeed  = fetchSide([side + "Magazines",magazine,"ammo","typicalspeed"])
-    airResistance = fetchSide([side + "Magazines",magazine,"ammo","airfriction"])
-    caliber       = fetchSide([side + "Magazines",magazine,"ammo","caliber"])
+    dispersion    = getModeDependant(side + "Weapons", weapon, fireModes, "dispersion")
+    initialSpeed  = getInitialSpeed(side, "Magazines", magazine)
+    typicalSpeed  = getTypicalSpeed(side, "Magazines", magazine)
+    airResistance = getAirResistance(side, "Magazines", magazine)
+    caliber       = getCaliber(side, "Magazines", magazine)
     penetration   = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015)/10,2)).zfill(4) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.250)/10,2)).zfill(5))
-    thrust        = fetchSide([side + "Magazines",magazine,"ammo","thrust"])
-    thrustTime    = fetchSide([side + "Magazines",magazine,"ammo","thrusttime"])
-
+    thrust        = getThrust(side, "Magazines", magazine)
+    thrustTime    = getThrustTime(side, "Magazines", magazine)
+    maxSpeed      = getMaxSpeed(side, "Magazines", magazine)
 
     #FireMode filtering, likely more useful for vehicle weapons
     modeStats     = filterFireModes(fireModes, rpm, dispersion)
