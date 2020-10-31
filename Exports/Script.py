@@ -170,15 +170,17 @@ def getIndirectRange(side, category, _class):
     return fetchSide([side + category, _class, "ammo", "indirecthitrange"])
 
 def getSubmunition(side, category, _class):
-    submunitionAmmoTest = fetchSide([side + category, _class, "ammo", "submunitionammo"])
-    if isinstance(submunitionAmmoTest, list) == False:
-        submunitionAmmoTest = fetchSide([side + category, _class, "ammo", "submunitionammo", "_dictAmmoName"])
-    else:
-        # If it is a list it containts two or more submunitions with a number (probability it  is created on firing)
-        submunitionAmmo = []
-        count = len(submunitionAmmoTest)
-        for i in range(0, count, 2):
-            submunitionAmmo.append(submunitionAmmoTest[i])
+    try:
+        submunitionAmmo = fetchSide([side + category, _class, "ammo", "submunitionammo"])
+    except KeyError:  #No submunitionammo so must be submunitionammox OR no submunitionammo
+        try:
+            submunitionAmmo = []
+            x = 1
+            while True:
+                submunitionAmmo.append(fetchSide([side + category, _class, "ammo", "submunitionammo" + str(x)]))
+                x += 1
+        except KeyError:  #No submunitionammo
+            return "n/a"
 
     print("SubmunitionAmmo: " + str(submunitionAmmo))
     return submunitionAmmo
@@ -290,7 +292,6 @@ def getVehicleWeaponStats(weapon, magazine, side):
     indirectDamage    = getIndirectHit(side, "VehicleMagazines", magazine)
     indirectRange     = getIndirectRange(side, "VehicleMagazines", magazine)
     submunition       = getSubmunition(side, "VehicleMagazines", magazine)
-
     subDamage         = []
     subIndirectDamage = []
     subIndirectRange  = []
@@ -299,10 +300,20 @@ def getVehicleWeaponStats(weapon, magazine, side):
     subCaliber        = []
     subPenetration    = []
     subArray          = []
-    if isinstance(submunition, list):
-        submunitionCount = len(submunition)
-        for i in range(0, submunitionCount, 1):
-            subArray = (getSubmunitionValues(side, submunition[i]))
+    if (submunition != "n/a"):
+        if isinstance(submunition, list):
+            submunitionCount = len(submunition)
+            for i in range(0, submunitionCount, 1):
+                subArray = (getSubmunitionValues(side, submunition[i]))
+                subDamage.append(subArray[0])
+                subIndirectDamage.append(subArray[1])
+                subIndirectRange.append(subArray[2])
+                subInitialSpeed.append(subArray[3])
+                subTypicalSpeed.append(subArray[4])
+                subCaliber.append(subArray[5])
+                subPenetration.append(subArray[6])
+        else:
+            subArray = (getSubmunitionValues(side, submunition))
             subDamage.append(subArray[0])
             subIndirectDamage.append(subArray[1])
             subIndirectRange.append(subArray[2])
@@ -310,15 +321,6 @@ def getVehicleWeaponStats(weapon, magazine, side):
             subTypicalSpeed.append(subArray[4])
             subCaliber.append(subArray[5])
             subPenetration.append(subArray[6])
-    else:
-        subArray = (getSubmunitionValues(side, submunition))
-        subDamage.append(subArray[0])
-        subIndirectDamage.append(subArray[1])
-        subIndirectRange.append(subArray[2])
-        subInitialSpeed.append(subArray[3])
-        subTypicalSpeed.append(subArray[4])
-        subCaliber.append(subArray[5])
-        subPenetration.append(subArray[6])
 
 
 
