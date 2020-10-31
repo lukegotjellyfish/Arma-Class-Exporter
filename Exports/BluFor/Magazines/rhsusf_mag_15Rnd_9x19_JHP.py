@@ -1,4 +1,4 @@
-rhsusf_mag_15Rnd_9x19_JHP = {
+rhsusf_mag_15rnd_9x19_jhp = {
     "author": "Red Hammer Studios",
     "displayname": "15rnd M9 Mk243 JHP",
     "picture": "rhsusf|addons|rhsusf_weapons2|m9_beretta|Data|UI|M9_Magazine_ca.paa",
@@ -8,7 +8,7 @@ rhsusf_mag_15Rnd_9x19_JHP = {
     "displaynameshort": "9mm JHP Mag",
     # Ammo: CfgMagazines|rhsusf_mag_17Rnd_9x19_JHP|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9x19_JHP",
+        "_dictAmmoName": "rhs_ammo_9x19_JHP",
         "hit": 6.94265,
         "indirecthit": 0,
         "indirecthitrange": 0,

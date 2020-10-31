@@ -1,4 +1,4 @@
-"B_Carryall_cbr": {
+"b_carryall_cbr": {
     "author": "Bohemia Interactive",
     "_generalmacro": "B_Carryall_cbr",
     "scope": 2,

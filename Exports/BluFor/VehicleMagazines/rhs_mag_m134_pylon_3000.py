@@ -5,7 +5,7 @@ rhs_mag_m134_pylon_3000 = {
     "count": 3000,
     # Ammo: CfgMagazines|rhs_mag_m134_pylon_base|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M61_AP",
+        "_dictAmmoName": "rhs_ammo_762x51_M61_AP",
         "hit": 12.55,
         "caliber": 0.79,
         "indirecthit": 0,

@@ -1,4 +1,4 @@
-rhsusf_weap_M259 = {
+rhsusf_weap_m259 = {
     "scope": 2,
     "magazines": ["rhsusf_mag_L8A3_8"],
     "reloadtime": 0.04,

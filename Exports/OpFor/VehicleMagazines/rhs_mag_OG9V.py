@@ -1,9 +1,9 @@
-rhs_mag_OG9V = {
+rhs_mag_og9v = {
     "displayname": "HE-FRAG OG9V",
     "displaynameshort": "OG9V",
     # Ammo: CfgMagazines|rhs_mag_og9v|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_og9v",
+        "_dictAmmoName": "rhs_ammo_og9v",
         "aiammousageflags": "64+128+256",
         "thrusttime": 0,
         "thrust": 0,

@@ -8,10 +8,10 @@ rhs_m136_mag = {
     "model": "A3|weapons_f|empty",
     # Ammo: CfgMagazines|rhs_m136_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_M136_rocket",
+        "_dictAmmoName": "rhs_ammo_M136_rocket",
         # Ammo: CfgAmmo|rhs_ammo_M136_rocket|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M136_penetrator",
+            "_dictAmmoName": "rhs_ammo_M136_penetrator",
             "caliber": 26.6667,
             "warheadname": "HEAT",
             "hit": 290,
@@ -30,7 +30,7 @@ rhs_m136_mag = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

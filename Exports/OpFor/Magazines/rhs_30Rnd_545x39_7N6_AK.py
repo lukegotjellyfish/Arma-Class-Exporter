@@ -1,4 +1,4 @@
-rhs_30Rnd_545x39_7N6_AK = {
+rhs_30rnd_545x39_7n6_ak = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_30Rnd_545x39_AK_ca.paa",
     "scope": 2,
@@ -10,7 +10,7 @@ rhs_30Rnd_545x39_7N6_AK = {
     "modelspecialisproxy": 1,
     # Ammo: CfgMagazines|rhs_30Rnd_545x39_AK|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_545x39_Ball",
+        "_dictAmmoName": "rhs_B_545x39_Ball",
         "cartridge": "RHS_Cartridge_545x39",
         "hit": 9,
         "typicalspeed": 915,

@@ -1,4 +1,4 @@
-"rhsusf_weap_M257_8": {
+"rhsusf_weap_m257_8": {
     "magazines": ["rhsusf_mag_L8A3_8"],
     "modes": ["Double","Volley"],
     # Class: CfgWeapons\\rhsusf_weap_M257_8\\Double [Indent level: 1],
@@ -978,7 +978,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhsusf_weap_M259": {
+"rhsusf_weap_m259": {
     "scope": 2,
     "magazines": ["rhsusf_mag_L8A3_8"],
     "reloadtime": 0.04,
@@ -1304,7 +1304,7 @@
     },
     "aimtransitionspeed": 1
 },
-"RHS_M2": {
+"rhs_m2": {
     "type": 1,
     "ballisticscomputer": 2,
     "canlock": 0,
@@ -3238,7 +3238,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_M2_Abrams_Gunner": {
+"rhs_m2_abrams_gunner": {
     "displayname": "M2 CSAMM",
     "displaynameshort": "M2 CSAMM",
     "canlock": 0,
@@ -5173,7 +5173,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_M2_CROWS_M153": {
+"rhs_m2_crows_m153": {
     "magazinereloadtime": 25,
     "ballisticscomputer": "2 + 16",
     "magazines": ["rhs_mag_100rnd_127x99_mag","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Green","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_SLAP_mag","rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Red","rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Green","rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Yellow","rhs_mag_200rnd_127x99_mag","rhs_mag_200rnd_127x99_mag_Tracer_Red","rhs_mag_200rnd_127x99_SLAP_mag","rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red","rhs_mag_400rnd_127x99_mag","rhs_mag_400rnd_127x99_mag_Tracer_Red","rhs_mag_400rnd_127x99_SLAP_mag","rhs_mag_400rnd_127x99_SLAP_mag_Tracer_Red"],
@@ -7107,7 +7107,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_M2_M1117": {
+"rhs_m2_m1117": {
     # Class: CfgWeapons\\RHS_M2_M1117\\GunParticles [Indent level: 1]
     "gunparticles": {
         # Class: CfgWeapons\\RHS_M2_M1117\\GunParticles\\effect1 [Indent level: 2]
@@ -9029,7 +9029,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_MK19": {
+"rhs_mk19": {
     "type": 1,
     "scope": 1,
     "ballisticscomputer": 2,
@@ -10950,7 +10950,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_2A14": {
+"rhs_weap_2a14": {
     "type": 1,
     "ballisticscomputer": 2,
     "canlock": 0,
@@ -12687,7 +12687,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_weap_FFARLauncher": {
+"rhs_weap_ffarlauncher": {
     "magazines": ["rhs_mag_M151_19","rhs_mag_M151_19_green","rhs_mag_M151_7","rhs_mag_M151_7_green","rhs_mag_M151_7_USAF_LAU131","rhs_mag_M151_21_USAF_LAU131_3","rhs_mag_FFAR_7_USAF","rhs_mag_FFAR_21_USAF_LAU68_3","rhs_mag_FFAR_19_USAF","rhs_mag_FFAR_57_USAF_LAU61_3"],
     "displayname": "Hydra (M151 HE)",
     "modes": ["Far_AI","Single","Two","Four","Eight","Twelve","TwentyFour","Burst"],
@@ -15563,7 +15563,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_weap_gau19": {
+"rhs_weap_gau19": {
     "scope": 1,
     "displayname": "GAU-19/A",
     "cursor": "EmptyCursor",
@@ -16508,7 +16508,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_weap_gau8": {
+"rhs_weap_gau8": {
     "displayname": "GAU-8",
     "cursorsize": 0,
     "cursor": "mg",
@@ -17795,7 +17795,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_HellfireLauncher": {
+"rhs_weap_hellfirelauncher": {
     "scope": 2,
     "autofire": 0,
     "displayname": "AGM-114L Hellfire II",
@@ -19890,7 +19890,7 @@
     "texturetype": "default",
     "aimtransitionspeed": 1,
 },
-"RHS_weap_m134_pylon": {
+"rhs_weap_m134_pylon": {
     "scope": 1,
     "displayname": "M134D-H",
     "cursor": "EmptyCursor",
@@ -20557,7 +20557,7 @@
     "texturetype": "default",
     "aimtransitionspeed": 1,
 },
-"rhs_weap_M197": {
+"rhs_weap_m197": {
     "aidispersioncoefx": 2,
     "scope": 1,
     "cursor": "mg",
@@ -22472,7 +22472,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_weap_M230": {
+"rhs_weap_m230": {
     "displayname": "M230",
     "magazines": ["rhs_mag_30x113mm_M789_HEDP_1200","rhs_mag_30x113mm_M789_HEDP_laser_1200"],
     "shotfromturret": 0,
@@ -28452,7 +28452,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_weap_M242BC": {
+"rhs_weap_m242bc": {
     "aidispersioncoefx": 4,
     "aidispersioncoefy": 6,
     "airateoffire": 2,
@@ -31211,7 +31211,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"Rhs_weap_stinger_Launcher": {
+"rhs_weap_stinger_launcher": {
     "displayname": "FIM-92F Stinger",
     "reloadtime": 4,
     "magazinereloadtime": 5,
@@ -32163,7 +32163,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"Rhs_weap_TOW_Launcher": {
+"rhs_weap_tow_launcher": {
     "holdsteranimvalue": 1,
     "autoreload": 0,
     "texturetype": "semi",
@@ -34067,7 +34067,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_weap_zpl20": {
+"rhs_weap_zpl20": {
     "scope": 2,
     "aidispersioncoefx": 4,
     "aidispersioncoefy": 4,

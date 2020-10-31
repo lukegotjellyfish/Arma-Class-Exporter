@@ -760,10 +760,10 @@ rhs_weap_m76 = {
         "modes": ["Single"],
         # Class: CfgWeapons|RifleGrenade_Base|Single [Indent level: 1],
         "single": {
-            "soundsetshot": ["rhs_gp25_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
             "sounds": ["StandardSound"],
             # Class: CfgWeapons|RifleGrenade_Base|Single|StandardSound [Indent level: 2],
             "standardsound": {
+                "soundsetshot": ["rhs_gp25_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"],
                 "begin1": ["rhsafrf|addons|rhs_sounds|ugl|gp-25_1",0.707946,1,200],
                 "begin2": ["rhsafrf|addons|rhs_sounds|ugl|gp-25_2",0.707946,1,200],
                 "soundbegin": ["begin1",0.5,"begin2",0.5],

@@ -1,4 +1,4 @@
-rhs_weap_m32_Base_F = {
+rhs_weap_m32_base_f = {
     "dlc": "RHS_USAF",
     "uipicture": "A3|weapons_f|data|UI|icon_regular_CA.paa",
     "model": "rhsusf|addons|rhsusf_weapons2|M32|rhs_m32",

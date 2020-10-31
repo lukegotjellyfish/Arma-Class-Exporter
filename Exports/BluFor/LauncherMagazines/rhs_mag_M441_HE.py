@@ -1,9 +1,9 @@
-rhs_mag_M441_HE = {
+rhs_mag_m441_he = {
     "author": "Red Hammer Studios",
     "mass": 5.06,
     # Ammo: CfgMagazines|rhs_mag_M441_HE|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_40mm_HE",
+        "_dictAmmoName": "rhsusf_40mm_HE",
         "aiammousageflags": "64 + 256",
         "hit": 60,
         "indirecthit": 5,

@@ -4,12 +4,12 @@ rhs_mag_9m14m = {
     "displaynameshort": "9M14M",
     # Ammo: CfgMagazines|rhs_mag_9m14m|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9m14m",
+        "_dictAmmoName": "rhs_ammo_9m14m",
         "thrusttime": 2.5,
         "thrust": 100,
         # Ammo: CfgAmmo|rhs_ammo_9m14m|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_9m14m_penetrator",
+            "_dictAmmoName": "rhs_ammo_9m14m_penetrator",
             "caliber": 26.6667,
             "warheadname": "HEAT",
             "hit": 290,
@@ -29,7 +29,7 @@ rhs_mag_9m14m = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

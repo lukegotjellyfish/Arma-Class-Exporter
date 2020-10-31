@@ -1,4 +1,4 @@
-rhs_mag_9M120M_Mi28_8x = {
+rhs_mag_9m120m_mi28_8x = {
     "model": "rhsafrf|addons|rhs_airweapons|rhs_pylon_m_9m120_8x",
     "count": 8,
     "mass": 340,
@@ -6,10 +6,10 @@ rhs_mag_9M120M_Mi28_8x = {
     "hardpoints": ["RHS_HP_9m120_Mi28"],
     # Ammo: CfgMagazines|rhs_mag_9m120m|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9m120m",
+        "_dictAmmoName": "rhs_ammo_9m120m",
         # Ammo: CfgAmmo|rhs_ammo_9m120m|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_9m120m_penetrator",
+            "_dictAmmoName": "rhs_ammo_9m120m_penetrator",
             "warheadname": "TandemHEAT",
             "hit": 290,
             "caliber": 63.3333,
@@ -29,7 +29,7 @@ rhs_mag_9M120M_Mi28_8x = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

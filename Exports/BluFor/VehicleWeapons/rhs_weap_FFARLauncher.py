@@ -1,4 +1,4 @@
-rhs_weap_FFARLauncher = {
+rhs_weap_ffarlauncher = {
     "magazines": ["rhs_mag_M151_19","rhs_mag_M151_19_green","rhs_mag_M151_7","rhs_mag_M151_7_green","rhs_mag_M151_7_USAF_LAU131","rhs_mag_M151_21_USAF_LAU131_3","rhs_mag_FFAR_7_USAF","rhs_mag_FFAR_21_USAF_LAU68_3","rhs_mag_FFAR_19_USAF","rhs_mag_FFAR_57_USAF_LAU61_3"],
     "displayname": "Hydra (M151 HE)",
     "modes": ["Far_AI","Single","Two","Four","Eight","Twelve","TwentyFour","Burst"],

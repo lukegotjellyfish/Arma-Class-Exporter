@@ -1,4 +1,4 @@
-rhs_mag_M151_19_green = {
+rhs_mag_m151_19_green = {
     "model": "rhsusf|addons|rhsusf_airweapons|proxypylon|rhsusf_pylon_r_FFAR_19x_green",
     "displayname": "M151 Hydra (LAU-61)",
     "hardpoints": ["RHS_HP_FFAR_USMC"],
@@ -785,7 +785,7 @@ rhs_mag_M151_19_green = {
     "namesound": "rockets",
     # Ammo: CfgMagazines|rhs_mag_M151_7|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_Hydra_M151",
+        "_dictAmmoName": "rhs_ammo_Hydra_M151",
         "maverickweapon": 1,
         "maverickweaponindexoffset": 0,
         "model": "rhsusf|addons|rhsusf_airweapons|proxyammo|rhsusf_r_M151_fly",

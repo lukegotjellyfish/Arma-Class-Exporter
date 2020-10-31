@@ -9,7 +9,7 @@
     "picture": "rhssaf\\addons\\rhssaf_c_weapons\\icons\\m_scorpion.paa",
     # Ammo: CfgMagazines\\rhsgref_20rnd_765x17_vz61\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9x17",
+        "_dictAmmoName": "rhs_ammo_9x17",
         "hit": 5.07,
         "typicalspeed": 272,
         "airfriction": -0.00176715,
@@ -967,7 +967,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsgref_30rnd_1143x23_M1911B_SMG": {
+"rhsgref_30rnd_1143x23_m1911b_smg": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
@@ -976,7 +976,7 @@
     "picture": "rhsgref\\addons\\rhsgref_weapons2\\icons\\rhs_inv_m3a1mag_01_ca.paa",
     # Ammo: CfgMagazines\\rhsgref_30rnd_1143x23_M1911B_SMG\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_45ACP_MHP",
+        "_dictAmmoName": "rhs_ammo_45ACP_MHP",
         "scope": 2,
         "hit": 5.14686,
         "indirecthit": 0,
@@ -1946,7 +1946,7 @@
     "picture": "rhssaf\\addons\\rhssaf_c_weapons\\icons\\m_m21mag_icon_ca.paa",
     # Ammo: CfgMagazines\\rhsgref_30rnd_556x45_m21\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855_Ball",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,
@@ -2906,7 +2906,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsgref_30Rnd_792x33_SmE_StG": {
+"rhsgref_30rnd_792x33_sme_stg": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
@@ -2915,7 +2915,7 @@
     "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines\\rhsgref_30Rnd_792x33_SmE_StG\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_792x33_SmE_ball",
+        "_dictAmmoName": "rhs_ammo_792x33_SmE_ball",
         "hit": 7.5,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -3874,7 +3874,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsgref_50Rnd_792x57_SmE_drum": {
+"rhsgref_50rnd_792x57_sme_drum": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
@@ -3885,7 +3885,7 @@
     "picture": "rhsgref\\addons\\rhsgref_weapons2\\icons\\rhs_inv_mg42_drum_mag_ca.paa",
     # Ammo: CfgMagazines\\rhsgref_50Rnd_792x57_SmE_drum\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_792x57_Ball",
+        "_dictAmmoName": "rhs_ammo_792x57_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -4843,7 +4843,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsgref_5Rnd_762x54_m38": {
+"rhsgref_5rnd_762x54_m38": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rndÂ 7.62x54Rmm clip",
@@ -4851,7 +4851,7 @@
     "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines\\rhsgref_5Rnd_762x54_m38\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_762x54_Ball",
+        "_dictAmmoName": "rhs_B_762x54_Ball",
         "cartridge": "RHS_Cartridge_762x54r",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_green",
         "hit": 11.47,
@@ -5810,7 +5810,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsgref_5Rnd_792x57_kar98k": {
+"rhsgref_5rnd_792x57_kar98k": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rndÂ 7.92x57mmÂ clip",
@@ -5818,7 +5818,7 @@
     "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines\\rhsgref_5Rnd_792x57_kar98k\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_792x57_Ball",
+        "_dictAmmoName": "rhs_ammo_792x57_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -6777,7 +6777,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsgref_8Rnd_762x63_M2B_M1rifle": {
+"rhsgref_8rnd_762x63_m2b_m1rifle": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "8Rnd .30-06 M2",
@@ -6786,7 +6786,7 @@
     "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines\\rhsgref_8Rnd_762x63_M2B_M1rifle\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x63_M2B_ball",
+        "_dictAmmoName": "rhs_ammo_762x63_M2B_ball",
         "hit": 13.75,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -7743,14 +7743,14 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhssaf_30rnd_556x45_EPR_G36": {
+"rhssaf_30rnd_556x45_epr_g36": {
     "dlc": "RHS_SAF",
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
     # Ammo: CfgMagazines\\rhssaf_30rnd_556x45_EPR_G36\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855A1_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855A1_Ball",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,
@@ -8715,7 +8715,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"Rhsusf_100Rnd_762x51": {
+"rhsusf_100rnd_762x51": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\magazines\\rhsusf_100Rnd_762x51_ca.paa",
     "displayname": "100rnd M240 Box M80",
@@ -8731,7 +8731,7 @@
     "type": "2*		256",
     # Ammo: CfgMagazines\\rhsusf_50Rnd_762x51\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M80_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M80_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -9683,7 +9683,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_10Rnd_762x51_m993_Mag": {
+"rhsusf_10rnd_762x51_m993_mag": {
     "author": "Red Hammer Studios",
     "model": "rhsusf\\addons\\rhsusf_weapons\\magazines\\rhs_10rnd_aics_mag",
     "modelspecial": "rhsusf\\addons\\rhsusf_weapons\\mag_proxies\\rhs_mag_762x51_aics_10rnd",
@@ -9693,7 +9693,7 @@
     "picture": "A3\\weapons_f\\data\\UI\\M_20Rnd_762x51_CA.paa",
     # Ammo: CfgMagazines\\rhsusf_10Rnd_762x51_m993_Mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M993_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M993_Ball",
         "caliber": 1.41176,
         "typicalspeed": 910,
         "cartridge": "",
@@ -10650,7 +10650,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_20Rnd_762x51_m118_special_Mag": {
+"rhsusf_20rnd_762x51_m118_special_mag": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "20rnd M14 M118",
@@ -10662,7 +10662,7 @@
     "count": 20,
     # Ammo: CfgMagazines\\rhsusf_20Rnd_762x51_m118_special_Mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M118_Special_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M118_Special_Ball",
         "caliber": 0.52,
         "typicalspeed": 805,
         "airfriction": -0.0007474,
@@ -11617,7 +11617,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_5Rnd_00Buck": {
+"rhsusf_5rnd_00buck": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5Rnd .00 Buckshot",
@@ -11629,7 +11629,7 @@
     "modelspecialisproxy": 1,
     # Ammo: CfgMagazines\\rhsusf_5Rnd_00Buck\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_12g_00buckshot",
+        "_dictAmmoName": "rhs_ammo_12g_00buckshot",
         "hit": 20,
         "simulation": "shotSubmunitions",
         "simulationstep": 0.0001,
@@ -11637,7 +11637,7 @@
         "triggerspeedcoef": [0.84,1],
         # Ammo: CfgAmmo\\rhs_ammo_12g_00buckshot\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_12g_00buckshot_pellet",
+            "_dictAmmoName": "rhs_ammo_12g_00buckshot_pellet",
             "hit": 4.75,
             "indirecthit": 0,
             "indirecthitrange": 0,
@@ -12791,7 +12791,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_5Rnd_300winmag_xm2010": {
+"rhsusf_5rnd_300winmag_xm2010": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rnd .300WM Mk248 MOD 1",
@@ -12800,7 +12800,7 @@
     "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines\\rhsusf_5Rnd_300winmag_xm2010\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_B_300winmag",
+        "_dictAmmoName": "rhsusf_B_300winmag",
         "hit": 18.5,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -13759,14 +13759,14 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_5Rnd_762x51_m993_Mag": {
+"rhsusf_5rnd_762x51_m993_mag": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rnd M993 AP",
     "displaynameshort": "M993 AP",
     # Ammo: CfgMagazines\\rhsusf_5Rnd_762x51_m993_Mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M993_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M993_Ball",
         "caliber": 1.41176,
         "typicalspeed": 910,
         "cartridge": "",
@@ -14726,7 +14726,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_5Rnd_Slug": {
+"rhsusf_5rnd_slug": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5Rnd 12g Slug",
@@ -14736,7 +14736,7 @@
     "modelspecial": "rhsusf\\addons\\rhsusf_weapons\\mag_proxies\\rhs_mag_12ga_slug_1rnd.p3d",
     # Ammo: CfgMagazines\\rhsusf_5Rnd_Slug\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_12g_slug",
+        "_dictAmmoName": "rhs_ammo_12g_slug",
         "hit": 34.51,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -15691,7 +15691,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_mag_10Rnd_STD_50BMG_M33": {
+"rhsusf_mag_10rnd_std_50bmg_m33": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "initspeed": 853,
@@ -15708,7 +15708,7 @@
     "reloadaction": "",
     # Ammo: CfgMagazines\\10Rnd_RHS_50BMG_Box\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_ammo_127x99_M33_Ball",
+        "_dictAmmoName": "rhsusf_ammo_127x99_M33_Ball",
         "hit": 25.3075,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -16658,7 +16658,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_mag_10Rnd_STD_50BMG_mk211": {
+"rhsusf_mag_10rnd_std_50bmg_mk211": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "10rnd M107 Mk211",
@@ -16666,7 +16666,7 @@
     "descriptionshort": "10RD .50BMG Mk 211 HEIAP M107 Magazine",
     # Ammo: CfgMagazines\\rhsusf_mag_10Rnd_STD_50BMG_mk211\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_ammo_127x99_mk211",
+        "_dictAmmoName": "rhsusf_ammo_127x99_mk211",
         "hit": 24.8085,
         "indirecthit": 4,
         "indirecthitrange": 2.76,
@@ -17625,7 +17625,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_mag_15Rnd_9x19_JHP": {
+"rhsusf_mag_15rnd_9x19_jhp": {
     "author": "Red Hammer Studios",
     "displayname": "15rnd M9 Mk243 JHP",
     "picture": "rhsusf\\addons\\rhsusf_weapons2\\m9_beretta\\Data\\UI\\M9_Magazine_ca.paa",
@@ -17635,7 +17635,7 @@
     "displaynameshort": "9mm JHP Mag",
     # Ammo: CfgMagazines\\rhsusf_mag_17Rnd_9x19_JHP\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9x19_JHP",
+        "_dictAmmoName": "rhs_ammo_9x19_JHP",
         "hit": 6.94265,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -18588,14 +18588,14 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_mag_17Rnd_9x19_JHP": {
+"rhsusf_mag_17rnd_9x19_jhp": {
     "author": "Red Hammer Studios",
     "displayname": "17rnd Glock Mk243 JHP",
     "displaynameshort": "9mm JHP Mag",
     "picture": "rhsusf\\addons\\rhsusf_weapons2\\glock17g4\\data\\rhs_mag2_glock17g4_ca.paa",
     # Ammo: CfgMagazines\\rhsusf_mag_17Rnd_9x19_JHP\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9x19_JHP",
+        "_dictAmmoName": "rhs_ammo_9x19_JHP",
         "hit": 6.94265,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -19551,7 +19551,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_mag_40Rnd_46x30_JHP": {
+"rhsusf_mag_40rnd_46x30_jhp": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "type": 16,
@@ -19559,7 +19559,7 @@
     "picture": "rhsusf\\addons\\rhsusf_weapons2\\glock17g4\\data\\rhs_mag1_glock17g4_ca.paa",
     # Ammo: CfgMagazines\\rhsusf_mag_40Rnd_46x30_JHP\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_46x30_JHP",
+        "_dictAmmoName": "rhs_ammo_46x30_JHP",
         "caliber": 0.464,
         "typicalspeed": 699.821,
         "airfriction": -0.00348301,
@@ -20519,7 +20519,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhsusf_mag_7x45acp_MHP": {
+"rhsusf_mag_7x45acp_mhp": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "type": 16,
@@ -20527,7 +20527,7 @@
     "picture": "rhsusf\\addons\\rhsusf_weapons\\icons\\mag_45acp_ca.paa",
     # Ammo: CfgMagazines\\rhsusf_mag_7x45acp_MHP\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_45ACP_MHP",
+        "_dictAmmoName": "rhs_ammo_45ACP_MHP",
         "scope": 2,
         "hit": 5.14686,
         "indirecthit": 0,
@@ -21485,11 +21485,11 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0
 },
-"rhs_200rnd_556x45_B_SAW": {
+"rhs_200rnd_556x45_b_saw": {
     "author": "Red Hammer Studios",
     # Ammo: CfgMagazines\\rhs_200rnd_556x45_B_SAW\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855A1_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855A1_Ball",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,
@@ -22457,7 +22457,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_20Rnd_762x51_m80_fnfal": {
+"rhs_mag_20rnd_762x51_m80_fnfal": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "20rnd FN FAL M80",
@@ -22466,7 +22466,7 @@
     "count": 20,
     # Ammo: CfgMagazines\\rhs_mag_20Rnd_762x51_m80_fnfal\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M80_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M80_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -23423,7 +23423,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_20Rnd_SCAR_762x51_m80_ball": {
+"rhs_mag_20rnd_scar_762x51_m80_ball": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "20rnd SCAR M80",
@@ -23432,7 +23432,7 @@
     "count": 20,
     # Ammo: CfgMagazines\\rhs_mag_20Rnd_SCAR_762x51_m80_ball\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M80_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M80_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,
@@ -24389,7 +24389,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_30Rnd_556x45_M855_Stanag": {
+"rhs_mag_30rnd_556x45_m855_stanag": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\magazines\\rhs_mag_30Rnd_556x45_M855_Stanag_ca.paa",
     "displayname": "30rnd STANAG M855",
@@ -24397,7 +24397,7 @@
     "descriptionshort": "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Used in: M4, M16, M27, M249",
     # Ammo: CfgMagazines\\rhs_mag_30Rnd_556x45_M855_Stanag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855_Ball",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,
@@ -25360,12 +25360,12 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_30Rnd_556x45_Mk262_Stanag": {
+"rhs_mag_30rnd_556x45_mk262_stanag": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\magazines\\rhs_mag_30Rnd_556x45_Mk262_Stanag_ca.paa",
     # Ammo: CfgMagazines\\rhs_mag_30Rnd_556x45_Mk262_Stanag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_Mk262_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_Mk262_Ball",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "hit": 10.3,
         "typicalspeed": 838.2,
@@ -26331,7 +26331,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_30Rnd_556x45_Mk318_Stanag": {
+"rhs_mag_30rnd_556x45_mk318_stanag": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\magazines\\rhs_mag_30Rnd_556x45_Mk318_Stanag_ca.paa",
     "displayname": "30rnd STANAG Mk318 Mod 0",
@@ -26339,7 +26339,7 @@
     "descriptionshort": "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Used in: M4, M16, M27, M249",
     # Ammo: CfgMagazines\\rhs_mag_30Rnd_556x45_Mk318_Stanag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_Mk318_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_Mk318_Ball",
         "model": "A3\\Weapons_f\\Data\\bullettracer\\tracer_red",
         "hit": 9.55,
         "typicalspeed": 950,
@@ -27309,7 +27309,7 @@
     "picture": "rhsgref\\addons\\rhsgref_weapons2\\icons\\rhs_inv_type94mag_01_ca.paa",
     # Ammo: CfgMagazines\\rhs_mag_6x8mm_mhp\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_8mm_mhp",
+        "_dictAmmoName": "rhs_ammo_8mm_mhp",
         "scope": 2,
         "hit": 3.43133,
         "indirecthit": 0,

@@ -1,10 +1,10 @@
-rhs_mag_AZP23_2000 = {
+rhs_mag_azp23_2000 = {
     "count": 2000,
     "scope": 2,
     "displayname": "AZP-23",
     # Ammo: CfgMagazines|rhs_mag_AZP23_250|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "RHS_ammo_23mm_AA",
+        "_dictAmmoName": "RHS_ammo_23mm_AA",
         "hit": 60,
         "indirecthit": 40,
         "indirecthitrange": 1.8,

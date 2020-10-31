@@ -1,4 +1,4 @@
-rhs_uniform_FROG01_wd = {
+rhs_uniform_frog01_wd = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|uniform|rhs_uniform_FROG01_wd_ca.paa",
     "scope": 2,

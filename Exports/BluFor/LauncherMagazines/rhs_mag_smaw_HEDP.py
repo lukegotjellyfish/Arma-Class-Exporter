@@ -1,4 +1,4 @@
-rhs_mag_smaw_HEDP = {
+rhs_mag_smaw_hedp = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "Mk.3 HEDP",
@@ -9,10 +9,10 @@ rhs_mag_smaw_HEDP = {
     "displaynameshort": "Mk.3 HEDP",
     # Ammo: CfgMagazines|rhs_mag_smaw_HEDP|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_smaw_HEDP",
+        "_dictAmmoName": "rhs_ammo_smaw_HEDP",
         # Ammo: CfgAmmo|rhs_ammo_smaw_HEDP|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_smaw_HEDP_penetrator",
+            "_dictAmmoName": "rhs_ammo_smaw_HEDP_penetrator",
             "hit": 235,
             "caliber": 16.6667,
             "warheadname": "HEAT",
@@ -31,7 +31,7 @@ rhs_mag_smaw_HEDP = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

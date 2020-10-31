@@ -1,4 +1,4 @@
-RHS_M2_M1117 = {
+rhs_m2_m1117 = {
     # Class: CfgWeapons|RHS_M2_M1117|GunParticles [Indent level: 1]
     "gunparticles": {
         # Class: CfgWeapons|RHS_M2_M1117|GunParticles|effect1 [Indent level: 2]

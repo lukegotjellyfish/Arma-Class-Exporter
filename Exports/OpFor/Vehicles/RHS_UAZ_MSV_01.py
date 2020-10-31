@@ -1,4 +1,4 @@
-RHS_UAZ_MSV_01 = {
+rhs_uaz_msv_01 = {
     "editorpreview": "rhsafrf|addons|rhs_editorPreviews|data|rhs_UAZ_MSV_01.paa",
     "scope": 2,
     "author": "Red Hammer Studios",

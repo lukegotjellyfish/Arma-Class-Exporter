@@ -1,4 +1,4 @@
-rhs_mag_maaws_HE = {
+rhs_mag_maaws_he = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "FFV441 HE",
@@ -9,7 +9,7 @@ rhs_mag_maaws_HE = {
     "displaynameshort": "441 HE",
     # Ammo: CfgMagazines|rhs_mag_maaws_HE|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_maaws_HE",
+        "_dictAmmoName": "rhs_ammo_maaws_HE",
         "effectfly": "ArtilleryTrails",
         "soundhit1": ["A3|Sounds_F|arsenal|explosives|shells|Artillery_tank_shell_155mm_explosion_01",2.51189,1,1900],
         "soundhit2": ["A3|Sounds_F|arsenal|explosives|shells|Artillery_tank_shell_155mm_explosion_02",2.51189,1,1900],

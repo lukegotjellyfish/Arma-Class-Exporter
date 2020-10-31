@@ -1,9 +1,9 @@
-rhs_mag_PG9V = {
+rhs_mag_pg9v = {
     "displayname": "HEAT PG9V",
     "displaynameshort": "PG9V",
     # Ammo: CfgMagazines|rhs_mag_pg9v|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_pg9v",
+        "_dictAmmoName": "rhs_ammo_pg9v",
         "model": "rhsafrf|addons|rhs_heavyweapons|SPG9|pg9_projectile",
         "hit": 205,
         "indirecthit": 20,
@@ -17,7 +17,7 @@ rhs_mag_PG9V = {
         "warheadname": "HEAT",
         # Ammo: CfgAmmo|rhs_ammo_pg9v|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_pg9v_penetrator",
+            "_dictAmmoName": "rhs_ammo_pg9v_penetrator",
             "hit": 220,
             "caliber": 20,
             "warheadname": "HEAT",
@@ -37,7 +37,7 @@ rhs_mag_PG9V = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

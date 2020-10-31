@@ -1,4 +1,4 @@
-rhs_Booniehat_digi = {
+rhs_booniehat_digi = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|headgear|rhs_Booniehat_digi_ca.paa",
     "dlc": "RHS_AFRF",

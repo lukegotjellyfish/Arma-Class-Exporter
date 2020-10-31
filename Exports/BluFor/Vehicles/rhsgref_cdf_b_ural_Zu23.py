@@ -1,4 +1,4 @@
-rhsgref_cdf_b_ural_Zu23 = {
+rhsgref_cdf_b_ural_zu23 = {
     "author": "Red Hammer Studios",
     "faction": "rhsgref_faction_cdf_ground_b",
     "side": 1,
@@ -87,7 +87,7 @@ rhsgref_cdf_b_ural_Zu23 = {
             # Class: CfgVehicles|RHS_Ural_Zu23_Base|Turrets|MainTurret|TurnIn [Indent level: 3],
             "turnin": {
                 "limitsarraytop": [[85,-180],[85,180]],
-                "limitsarraybottom": [[-10,-180],[-8,-35.6867],[9.3683,-32.6867],[10,0],[9.7173,32.6372],[-8,36.6867],"",[-10,134],[-6,134.5],[-6,178],[-10,180]]
+                "limitsarraybottom": [[-10,-180],[-8,-35.6867],[9.3683,-32.6867],[10,0],[9.7173,32.6372],[-8,36.6867],[-10,134],[-6,134.5],[-6,178],[-10,180]]
             },
             "soundattenuationturret": "HeliAttenuationRamp",
             # Class: CfgVehicles|RHS_Ural_Zu23_Base|Turrets|MainTurret|Hitpoints [Indent level: 3],

@@ -1,1 +1,2 @@
-"['rhs_weap_gau8', 'rhs_mag_1150Rnd_30x173']"
+Name,Cartridge,Capacity,Damage,Indirect Damage,Indirect Range,Submunition Damage,Submunition Indirect Damage,Submunition Indirect Range,Fire Modes,RPM,Dispersion,Initial Speed,Typical Speed,Air Resistance,Penetration,Submunition Penetration,Damage at 100m,Damage at 500m,Damage at 1000m,Damage at 2000m,Damage at 3000m,Thrust,Thrust Time,Max speed,Weapon Class,Magazine Class,Caliber
+GAU-8,,1150,180,4,8,[],[],[],"['lowrof', 'highrof', 'close', 'short', 'medium', 'far']","[1, 0.03, 0.015, 0.03, 0.03, 0.03, 0.03]","[0.002, 0.0095, 0.0095, 0.0095, 0.0095, 0.0095, 0.0095]",1120,960,-0.00036,7.20|38.40|120.00,[],"['202.574', '175.407', '146.512', '102.218', '71.315']",210,1.5,0,rhs_weap_gau8,rhs_mag_1150rnd_30x173_mixed,5

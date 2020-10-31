@@ -4,11 +4,11 @@ rhs_mag_3bm42_7 = {
     "displaynameshort": "3BM42",
     # Ammo: CfgMagazines|rhs_mag_3bm42_10|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3bm42",
+        "_dictAmmoName": "rhs_ammo_3bm42",
         "caliber": 0.1,
         # Ammo: CfgAmmo|rhs_ammo_3bm42|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_3bm42_penetrator",
+            "_dictAmmoName": "rhs_ammo_3bm42_penetrator",
             "hit": 250,
             "caliber": 19.2157,
             "submunitionconetype": ["randomcenter",30],
@@ -29,7 +29,7 @@ rhs_mag_3bm42_7 = {
             "airfriction": -0.08,
             # Ammo: CfgAmmo|rhs_ammo_ap_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

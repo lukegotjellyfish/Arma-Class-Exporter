@@ -4,7 +4,7 @@ rhs_mag_3of26_5 = {
     "displaynameshort": "3OF26",
     # Ammo: CfgMagazines|rhs_mag_3of26_6|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3of26",
+        "_dictAmmoName": "rhs_ammo_3of26",
         "airfriction": -0.0002,
         "hit": 200,
         "indirecthit": 100,

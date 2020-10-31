@@ -1,4 +1,4 @@
-V_PlateCarrier2_rgr = {
+v_platecarrier2_rgr = {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_PlateCarrier2_rgr",
     "scope": 2,

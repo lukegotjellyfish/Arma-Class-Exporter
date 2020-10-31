@@ -1,4 +1,4 @@
-rhs_weap_GSh302 = {
+rhs_weap_gsh302 = {
     "initspeed": 870,
     "displayname": "GSh-30-2",
     "modes": ["manual","close","short","medium","far"],

@@ -5,7 +5,7 @@ rhs_mag_3uof8_340 = {
     "displaynameshort": "3UOF8",
     # Ammo: CfgMagazines|rhs_mag_3uof8_230|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3uof8",
+        "_dictAmmoName": "rhs_ammo_3uof8",
         "hit": 50,
         "indirecthit": 33,
         "displayname": "3UOF8",

@@ -1,4 +1,4 @@
-rhs_weap_M136 = {
+rhs_weap_m136 = {
     "dlc": "RHS_USAF",
     "scope": 2,
     "author": "Red Hammer Studios",

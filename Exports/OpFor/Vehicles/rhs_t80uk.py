@@ -4419,6 +4419,33 @@ rhs_t80uk = {
                 }
             },
             "armorlights": 0.1,
+            # Class: CfgVehicles|rhs_t80u|Turrets|MainTurret|HitPoints [Indent level: 3],
+            "hitpoints": {
+                # Class: CfgVehicles|rhs_t80u|Turrets|MainTurret|HitPoints|HitTurret [Indent level: 4]
+                "hitturret": {
+                    "armor": -150,
+                    "material": -1,
+                    "name": "vez",
+                    "armorcomponent": "Hit_Turret",
+                    "visual": "vez",
+                    "passthrough": 0,
+                    "minimalhit": -0.2,
+                    "explosionshielding": 0.0009,
+                    "radius": 0.1
+                },
+                # Class: CfgVehicles|rhs_t80u|Turrets|MainTurret|HitPoints|HitGun [Indent level: 4],
+                "hitgun": {
+                    "armor": -150,
+                    "material": -1,
+                    "name": "zbran",
+                    "armorcomponent": "Hit_Gun",
+                    "visual": "-",
+                    "passthrough": 0,
+                    "minimalhit": -0.2,
+                    "explosionshielding": 0.0001,
+                    "radius": 0.1
+                }
+            },
             "gunneraction": "rhs_t80a_gunner_out",
             "gunnerinaction": "rhs_t80a_gunner_in",
             "initturn": -13,
@@ -4430,31 +4457,6 @@ rhs_t80uk = {
             "startengine": 0,
             "soundservo": ["rhsafrf|addons|rhs_t80|Sound|servo.ogg",6,1,20],
             "armorstructural": 60,
-            # Class: CfgVehicles|rhs_tank_base|Turrets|MainTurret|HitPoints [Indent level: 3],
-            "hitpoints": {
-                # Class: CfgVehicles|rhs_tank_base|Turrets|MainTurret|HitPoints|HitTurret [Indent level: 4]
-                "hitturret": {
-                    "armor": -100,
-                    "material": -1,
-                    "name": "vez",
-                    "visual": "vez",
-                    "passthrough": 0,
-                    "minimalhit": 0.01,
-                    "explosionshielding": 0.009,
-                    "radius": 0.15
-                },
-                # Class: CfgVehicles|rhs_tank_base|Turrets|MainTurret|HitPoints|HitGun [Indent level: 4],
-                "hitgun": {
-                    "armor": -150,
-                    "material": -1,
-                    "name": "zbran",
-                    "visual": "-",
-                    "passthrough": 0,
-                    "minimalhit": -0.2,
-                    "explosionshielding": 0.001,
-                    "radius": 0.12
-                }
-            },
             "memorypointgun": "Mgun",
             "selectionfireanim": "zasleh1",
             "gunneropticsmodel": "rhsafrf|addons|rhs_optics|vehicles|rhs_1g42.p3d",

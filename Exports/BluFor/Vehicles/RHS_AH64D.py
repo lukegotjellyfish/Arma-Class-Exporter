@@ -1,4 +1,4 @@
-RHS_AH64D = {
+rhs_ah64d = {
     "scope": 2,
     "accuracy": 5,
     "cost": 1e+007,

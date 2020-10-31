@@ -1,9 +1,9 @@
-rhs_mag_30x113mm_M789_HEDP_1200 = {
+rhs_mag_30x113mm_m789_hedp_1200 = {
     "scope": 1,
     "displayname": "30x113mm M789 HEDP-T",
     # Ammo: CfgMagazines|rhs_mag_30x113mm_M789_HEDP_1200|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_30x113mm_M789_HEDP",
+        "_dictAmmoName": "rhs_ammo_30x113mm_M789_HEDP",
         "allowagainstinfantry": 1,
         "hit": 37,
         "indirecthit": 15,
@@ -18,7 +18,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
         "timetolive": 12,
         # Ammo: CfgAmmo|rhs_ammo_30x113mm_M789_HEDP|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_30x113mm_M789_HEDP_penetrator",
+            "_dictAmmoName": "rhs_ammo_30x113mm_M789_HEDP_penetrator",
             "hit": 90,
             "submunitionconetype": ["randomcenter",4],
             "caliber": 1.66667,
@@ -37,7 +37,7 @@ rhs_mag_30x113mm_M789_HEDP_1200 = {
             "whistledist": 0,
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

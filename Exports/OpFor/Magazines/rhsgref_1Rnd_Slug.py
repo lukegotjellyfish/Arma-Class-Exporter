@@ -1,4 +1,4 @@
-rhsgref_1Rnd_Slug = {
+rhsgref_1rnd_slug = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "1Rnd 12g Slug",
@@ -9,7 +9,7 @@ rhsgref_1Rnd_Slug = {
     "modelspecialisproxy": 1,
     # Ammo: CfgMagazines|rhsgref_1Rnd_Slug|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_12g_slug",
+        "_dictAmmoName": "rhs_ammo_12g_slug",
         "hit": 34.51,
         "indirecthit": 0,
         "indirecthitrange": 0,

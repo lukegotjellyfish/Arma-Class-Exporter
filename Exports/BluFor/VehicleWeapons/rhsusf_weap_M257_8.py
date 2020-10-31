@@ -1,4 +1,4 @@
-rhsusf_weap_M257_8 = {
+rhsusf_weap_m257_8 = {
     "magazines": ["rhsusf_mag_L8A3_8"],
     "modes": ["Double","Volley"],
     # Class: CfgWeapons|rhsusf_weap_M257_8|Double [Indent level: 1],

@@ -1,4 +1,4 @@
-C_Kart_01_Fuel_F = {
+c_kart_01_fuel_f = {
     "author": "Bohemia Interactive",
     # Class: CfgVehicles|C_Kart_01_Fuel_F|SimpleObject [Indent level: 1],
     "simpleobject": {

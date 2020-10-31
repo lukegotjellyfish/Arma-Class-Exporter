@@ -4,7 +4,7 @@ rhs_mag_gbu12 = {
     "descriptionshort": "500lb Paveway II",
     # Ammo: CfgMagazines|rhs_mag_gbu12|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_gbu12",
+        "_dictAmmoName": "rhs_ammo_gbu12",
         "model": "rhsusf|addons|rhsusf_airweapons|proxyammo|rhsusf_b_gbu12_fly",
         "proxyshape": "rhsusf|addons|rhsusf_airweapons|proxyammo|rhsusf_b_gbu12",
         "inittime": 0.2,

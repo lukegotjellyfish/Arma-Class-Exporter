@@ -1,4 +1,4 @@
-rhsusf_5Rnd_300winmag_xm2010 = {
+rhsusf_5rnd_300winmag_xm2010 = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rnd .300WM Mk248 MOD 1",
@@ -7,7 +7,7 @@ rhsusf_5Rnd_300winmag_xm2010 = {
     "picture": "A3|Weapons_F_EPA|Data|ui|M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines|rhsusf_5Rnd_300winmag_xm2010|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_B_300winmag",
+        "_dictAmmoName": "rhsusf_B_300winmag",
         "hit": 18.5,
         "indirecthit": 0,
         "indirecthitrange": 0,

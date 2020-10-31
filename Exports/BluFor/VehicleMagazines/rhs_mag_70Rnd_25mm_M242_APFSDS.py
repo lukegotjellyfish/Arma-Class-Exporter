@@ -1,7 +1,7 @@
-rhs_mag_70Rnd_25mm_M242_APFSDS = {
+rhs_mag_70rnd_25mm_m242_apfsds = {
     # Ammo: CfgMagazines|rhs_mag_70Rnd_25mm_M242_APFSDS|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "RHS_ammo_M919_APFSDS",
+        "_dictAmmoName": "RHS_ammo_M919_APFSDS",
         "hit": 90,
         "caliber": 4.46009,
         "typicalspeed": 1385,

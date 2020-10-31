@@ -1,4 +1,4 @@
-RHS_weap_gau8 = {
+rhs_weap_gau8 = {
     "displayname": "GAU-8",
     "cursorsize": 0,
     "cursor": "mg",

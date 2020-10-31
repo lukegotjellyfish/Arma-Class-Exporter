@@ -1,4 +1,4 @@
-rhsgref_10Rnd_792x57_m76 = {
+rhsgref_10rnd_792x57_m76 = {
     "magazinegroup": ["rhs_m76_mag_group"],
     "dlc": "RHS_SAF",
     "author": "Red Hammer Studios",
@@ -9,7 +9,7 @@ rhsgref_10Rnd_792x57_m76 = {
     "picture": "rhssaf|addons|rhssaf_c_weapons|icons|m_m76mag_icon_ca.paa",
     # Ammo: CfgMagazines|rhsgref_10Rnd_792x57_m76|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_792x57_Ball",
+        "_dictAmmoName": "rhs_ammo_792x57_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,

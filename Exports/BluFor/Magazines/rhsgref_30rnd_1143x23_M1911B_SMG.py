@@ -1,4 +1,4 @@
-rhsgref_30rnd_1143x23_M1911B_SMG = {
+rhsgref_30rnd_1143x23_m1911b_smg = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
@@ -7,7 +7,7 @@ rhsgref_30rnd_1143x23_M1911B_SMG = {
     "picture": "rhsgref|addons|rhsgref_weapons2|icons|rhs_inv_m3a1mag_01_ca.paa",
     # Ammo: CfgMagazines|rhsgref_30rnd_1143x23_M1911B_SMG|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_45ACP_MHP",
+        "_dictAmmoName": "rhs_ammo_45ACP_MHP",
         "scope": 2,
         "hit": 5.14686,
         "indirecthit": 0,

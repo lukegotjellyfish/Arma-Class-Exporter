@@ -5,7 +5,7 @@ rhs_mag_762x54mm_250 = {
     "displaynameshort": "7.62x54mm",
     # Ammo: CfgMagazines|rhs_mag_762x54mm_100|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_762x54_Ball",
+        "_dictAmmoName": "rhs_B_762x54_Ball",
         "cartridge": "RHS_Cartridge_762x54r",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_green",
         "hit": 11.47,

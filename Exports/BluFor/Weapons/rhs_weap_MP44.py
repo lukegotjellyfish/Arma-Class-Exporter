@@ -1,4 +1,4 @@
-rhs_weap_MP44 = {
+rhs_weap_mp44 = {
     "author": "Red Hammer Studios",
     "picture": "rhsgref|addons|rhsgref_inventoryicons|data|weapons|rhs_weap_MP44_ca.paa",
     "scope": 2,

@@ -1,4 +1,4 @@
-RHS_M2 = {
+rhs_m2 = {
     "type": 1,
     "ballisticscomputer": 2,
     "canlock": 0,

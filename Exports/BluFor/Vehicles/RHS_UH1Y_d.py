@@ -1,4 +1,4 @@
-RHS_UH1Y_d = {
+rhs_uh1y_d = {
     "faction": "rhs_faction_usmc_d",
     "vehicleclass": "rhs_vehclass_helicopter",
     "crew": "rhsusf_usmc_marpat_d_helipilot",

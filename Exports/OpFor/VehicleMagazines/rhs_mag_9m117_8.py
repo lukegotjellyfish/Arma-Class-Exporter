@@ -5,10 +5,10 @@ rhs_mag_9m117_8 = {
     "displaynameshort": "9M117",
     # Ammo: CfgMagazines|rhs_mag_9m117_3|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9m117",
+        "_dictAmmoName": "rhs_ammo_9m117",
         # Ammo: CfgAmmo|rhs_ammo_9m117|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_9m117_penetrator",
+            "_dictAmmoName": "rhs_ammo_9m117_penetrator",
             "caliber": 40,
             "warheadname": "TandemHEAT",
             "hit": 290,
@@ -28,7 +28,7 @@ rhs_mag_9m117_8 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

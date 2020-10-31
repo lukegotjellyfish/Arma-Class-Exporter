@@ -1,4 +1,4 @@
-"rhs_6b13_EMR_6sh92": {
+"rhs_6b13_emr_6sh92": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\vests\\rhs_6b13_EMR_6sh92_ca.paa",
     "displayname": "6B13 EMR (6Sh92)",
@@ -367,7 +367,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_6b13_Flora_6sh92": {
+"rhs_6b13_flora_6sh92": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\vests\\rhs_6b13_Flora_6sh92_ca.paa",
     "displayname": "6B13 (6Sh92)",
@@ -1474,7 +1474,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_6b23_digi_6sh92_Spetsnaz": {
+"rhs_6b23_digi_6sh92_spetsnaz": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\vests\\rhs_6b23_digi_6sh92_Spetsnaz_ca.paa",
     "displayname": "6B23 EMR-Summer (6Sh92/Radio) SpNz",
@@ -2212,7 +2212,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz": {
+"rhs_6b23_digi_6sh92_vog_radio_spetsnaz": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\vests\\rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz_ca.paa",
     "displayname": "6B23 EMR-Summer (6Sh92/VOG/Radio) SpNz",
@@ -2950,7 +2950,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_6b23_ML_rifleman": {
+"rhs_6b23_ml_rifleman": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\vests\\rhs_6b23_ML_rifleman_ca.paa",
     "displayname": "6B23 Mountain Les (Rifleman)",
@@ -4744,15 +4744,15 @@
             # Class: CfgWeapons\\rhs_6b43\\ItemInfo\\HitpointsProtectionInfo\\Abdomen [Indent level: 3],
             "abdomen": {
                 "hitpointname": "HitAbdomen",
-                "armor": 22,
-                "passthrough": 0.3,
-                "simulation": "RHS_Gost_4"
+                "armor": 28,
+                "passthrough": 0.1,
+                "simulation": "RHS_Gost_6"
             },
             # Class: CfgWeapons\\rhs_6b43\\ItemInfo\\HitpointsProtectionInfo\\Body [Indent level: 3],
             "body": {
                 "hitpointname": "HitBody",
-                "passthrough": 0.3,
-                "simulation": "RHS_Gost_4"
+                "passthrough": 0.1,
+                "simulation": "RHS_Gost_6"
             }
         },
         "hiddenselections": ["Camo1","Camo2"],
@@ -8859,7 +8859,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_Booniehat_digi": {
+"rhs_booniehat_digi": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\headgear\\rhs_Booniehat_digi_ca.paa",
     "dlc": "RHS_AFRF",
@@ -16135,7 +16135,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_O_FullGhillie_ard": {
+"u_o_fullghillie_ard": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Arid) [CSAT]",
@@ -16460,7 +16460,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_O_FullGhillie_lsh": {
+"u_o_fullghillie_lsh": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Lush) [CSAT]",
@@ -16785,7 +16785,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_O_FullGhillie_sard": {
+"u_o_fullghillie_sard": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Semi-Arid) [CSAT]",
@@ -17110,7 +17110,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"V_Chestrig_khk": {
+"v_chestrig_khk": {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_Chestrig_khk",
     "scope": 2,

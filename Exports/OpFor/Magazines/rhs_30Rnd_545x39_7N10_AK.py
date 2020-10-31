@@ -1,4 +1,4 @@
-rhs_30Rnd_545x39_7N10_AK = {
+rhs_30rnd_545x39_7n10_ak = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_30Rnd_545x39_7N10_AK_ca.paa",
     "displayname": "30rnd AK-74 7N10",
@@ -7,7 +7,7 @@ rhs_30Rnd_545x39_7N10_AK = {
     "model": "rhsafrf|addons|rhs_weapons|magazines|rhs_ak_mag",
     # Ammo: CfgMagazines|rhs_30Rnd_545x39_7N10_AK|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_545x39_7N10_Ball",
+        "_dictAmmoName": "rhs_B_545x39_7N10_Ball",
         "hit": 9.5,
         "typicalspeed": 880,
         "airfriction": -0.001139,

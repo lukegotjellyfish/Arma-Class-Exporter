@@ -1,4 +1,4 @@
-rhsusf_mag_40Rnd_46x30_JHP = {
+rhsusf_mag_40rnd_46x30_jhp = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "type": 16,
@@ -6,7 +6,7 @@ rhsusf_mag_40Rnd_46x30_JHP = {
     "picture": "rhsusf|addons|rhsusf_weapons2|glock17g4|data|rhs_mag1_glock17g4_ca.paa",
     # Ammo: CfgMagazines|rhsusf_mag_40Rnd_46x30_JHP|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_46x30_JHP",
+        "_dictAmmoName": "rhs_ammo_46x30_JHP",
         "caliber": 0.464,
         "typicalspeed": 699.821,
         "airfriction": -0.00348301,

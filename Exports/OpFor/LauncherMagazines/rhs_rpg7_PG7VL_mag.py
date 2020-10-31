@@ -1,4 +1,4 @@
-rhs_rpg7_PG7VL_mag = {
+rhs_rpg7_pg7vl_mag = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_rpg7_PG7VL_mag_ca.paa",
     "scope": 2,
@@ -12,11 +12,11 @@ rhs_rpg7_PG7VL_mag = {
     "hiddenselectionstextures": ["rhsafrf|addons|rhs_weapons|rpg7|data|rhs_rpg7v2_02_co.paa"],
     # Ammo: CfgMagazines|rhs_rpg7_PG7VL_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_pg7vl",
+        "_dictAmmoName": "rhs_rpg7v2_pg7vl",
         "model": "rhsafrf|addons|rhs_weapons|rpg7|projectiles|pg7vl",
         # Ammo: CfgAmmo|rhs_rpg7v2_pg7vl|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_rpg7v2_pg7vl_penetrator",
+            "_dictAmmoName": "rhs_rpg7v2_pg7vl_penetrator",
             "caliber": 36,
             "warheadname": "HEAT",
             "hit": 290,
@@ -36,7 +36,7 @@ rhs_rpg7_PG7VL_mag = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

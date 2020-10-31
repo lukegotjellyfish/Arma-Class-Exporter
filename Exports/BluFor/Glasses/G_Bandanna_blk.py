@@ -1,4 +1,4 @@
-G_Bandanna_blk = {
+g_bandanna_blk = {
     "author": "Bohemia Interactive",
     "_generalmacro": "G_Bandanna_blk",
     "displayname": "Bandana (Black)",

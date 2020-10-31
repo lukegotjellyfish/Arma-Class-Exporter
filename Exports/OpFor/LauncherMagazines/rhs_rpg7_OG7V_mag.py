@@ -1,4 +1,4 @@
-rhs_rpg7_OG7V_mag = {
+rhs_rpg7_og7v_mag = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_rpg7_OG7V_mag_ca.paa",
     "displayname": "OG-7V",
@@ -8,7 +8,7 @@ rhs_rpg7_OG7V_mag = {
     "modelspecial": "rhsafrf|addons|rhs_weapons|mag_proxies|rhs_mag_og7v",
     # Ammo: CfgMagazines|rhs_rpg7_OG7V_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_og7v",
+        "_dictAmmoName": "rhs_rpg7v2_og7v",
         "warheadname": "HE",
         "aiammousageflags": "64+128+256",
         "model": "rhsafrf|addons|rhs_weapons|rpg7|projectiles|og7v",

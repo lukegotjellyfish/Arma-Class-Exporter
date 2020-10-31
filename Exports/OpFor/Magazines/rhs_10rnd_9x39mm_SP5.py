@@ -1,4 +1,4 @@
-rhs_10rnd_9x39mm_SP5 = {
+rhs_10rnd_9x39mm_sp5 = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_10rnd_9x39mm_SP5_ca.paa",
     "count": 10,
@@ -9,7 +9,7 @@ rhs_10rnd_9x39mm_SP5 = {
     "descriptionshort": "Caliber: 9x39mm FMJ<br />Rounds: 10<br />Used in: VSS, AS Val",
     # Ammo: CfgMagazines|rhs_20rnd_9x39mm_SP5|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_9x39_SP5",
+        "_dictAmmoName": "rhs_B_9x39_SP5",
         "cartridge": "FxCartridge_9mm",
         "hit": 9.5,
         "typicalspeed": 295,

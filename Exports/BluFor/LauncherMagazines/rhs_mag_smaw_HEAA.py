@@ -1,4 +1,4 @@
-rhs_mag_smaw_HEAA = {
+rhs_mag_smaw_heaa = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "Mk.6 HEAA",
@@ -9,10 +9,10 @@ rhs_mag_smaw_HEAA = {
     "displaynameshort": "Mk.6 HEAA",
     # Ammo: CfgMagazines|rhs_mag_smaw_HEAA|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_smaw_HEAA",
+        "_dictAmmoName": "rhs_ammo_smaw_HEAA",
         # Ammo: CfgAmmo|rhs_ammo_smaw_HEAA|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_smaw_HEAA_penetrator",
+            "_dictAmmoName": "rhs_ammo_smaw_HEAA_penetrator",
             "caliber": 39.3333,
             "warheadname": "HEAT",
             "hit": 290,
@@ -31,7 +31,7 @@ rhs_mag_smaw_HEAA = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

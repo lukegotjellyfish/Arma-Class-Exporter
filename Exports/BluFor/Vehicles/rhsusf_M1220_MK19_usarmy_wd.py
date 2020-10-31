@@ -1,4 +1,4 @@
-rhsusf_M1220_MK19_usarmy_wd = {
+rhsusf_m1220_mk19_usarmy_wd = {
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhsusf_M1220_MK19_usarmy_wd.paa",
     "displayname": "M1220 (O-GPK/Mk19)",
     "picture": "rhsusf|addons|rhsusf_caiman|pictures|rhs_caiman_armed_pic_ca.paa",

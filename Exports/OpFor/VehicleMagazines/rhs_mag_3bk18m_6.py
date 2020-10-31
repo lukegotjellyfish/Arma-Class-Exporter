@@ -4,11 +4,11 @@ rhs_mag_3bk18m_6 = {
     "displaynameshort": "3BK18M",
     # Ammo: CfgMagazines|rhs_mag_3bk18m_8|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3bk18M",
+        "_dictAmmoName": "rhs_ammo_3bk18M",
         "hit": 215,
         # Ammo: CfgAmmo|rhs_ammo_3bk18M|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_3bk18m_penetrator",
+            "_dictAmmoName": "rhs_ammo_3bk18m_penetrator",
             "caliber": 36.6667,
             "warheadname": "HEAT",
             "hit": 290,
@@ -28,7 +28,7 @@ rhs_mag_3bk18m_6 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

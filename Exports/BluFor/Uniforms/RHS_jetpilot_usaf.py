@@ -1,4 +1,4 @@
-RHS_jetpilot_usaf = {
+rhs_jetpilot_usaf = {
     "author": "Red Hammer Studios",
     "dlc": "RHS_USAF",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|headgear|RHS_jetpilot_usaf_ca.paa",

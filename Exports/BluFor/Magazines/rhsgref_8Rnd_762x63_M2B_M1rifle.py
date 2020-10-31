@@ -1,4 +1,4 @@
-rhsgref_8Rnd_762x63_M2B_M1rifle = {
+rhsgref_8rnd_762x63_m2b_m1rifle = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "8Rnd .30-06 M2",
@@ -7,7 +7,7 @@ rhsgref_8Rnd_762x63_M2B_M1rifle = {
     "picture": "A3|Weapons_F_EPA|Data|ui|M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines|rhsgref_8Rnd_762x63_M2B_M1rifle|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x63_M2B_ball",
+        "_dictAmmoName": "rhs_ammo_762x63_M2B_ball",
         "hit": 13.75,
         "indirecthit": 0,
         "indirecthitrange": 0,

@@ -5,7 +5,7 @@ rhs_mag_pg15v_20 = {
     "displaynameshort": "PG15V",
     # Ammo: CfgMagazines|rhs_mag_pg15v_24|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_pg15v",
+        "_dictAmmoName": "rhs_ammo_pg15v",
         "hit": 205,
         "indirecthit": 20,
         "indirecthitrange": 4.2,
@@ -13,7 +13,7 @@ rhs_mag_pg15v_20 = {
         "warheadname": "HEAT",
         # Ammo: CfgAmmo|rhs_ammo_pg15v|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_pg15v_penetrator",
+            "_dictAmmoName": "rhs_ammo_pg15v_penetrator",
             "hit": 230,
             "caliber": 26.6667,
             "warheadname": "HEAT",
@@ -33,7 +33,7 @@ rhs_mag_pg15v_20 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

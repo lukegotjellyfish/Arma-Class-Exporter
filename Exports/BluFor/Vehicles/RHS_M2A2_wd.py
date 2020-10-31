@@ -1,4 +1,4 @@
-RHS_M2A2_wd = {
+rhs_m2a2_wd = {
     "scope": 2,
     "faction": "rhs_faction_usarmy_wd",
     "crew": "rhsusf_army_ucp_crewman",

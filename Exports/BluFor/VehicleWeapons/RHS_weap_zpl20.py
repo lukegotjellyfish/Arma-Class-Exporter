@@ -1,4 +1,4 @@
-RHS_weap_zpl20 = {
+rhs_weap_zpl20 = {
     "scope": 2,
     "aidispersioncoefx": 4,
     "aidispersioncoefy": 4,

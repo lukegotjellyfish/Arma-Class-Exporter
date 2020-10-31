@@ -1,4 +1,4 @@
-rhs_weap_m240G = {
+rhs_weap_m240g = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|weapons|rhs_weap_m240G_ca.paa",
     "scope": 2,
@@ -94,6 +94,8 @@ rhs_weap_m240G = {
                 "rhsusf_acc_premier_mrds": 1,
                 "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
+                "rhsusf_acc_m8541_d": 1,
+                "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,

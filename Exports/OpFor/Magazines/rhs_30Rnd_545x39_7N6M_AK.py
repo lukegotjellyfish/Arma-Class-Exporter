@@ -1,11 +1,11 @@
-rhs_30Rnd_545x39_7N6M_AK = {
+rhs_30rnd_545x39_7n6m_ak = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_30Rnd_545x39_AK_ca.paa",
     "displayname": "30rnd AK-74 (Bakelite) 7N6M",
     "displaynameshort": "7N6M",
     # Ammo: CfgMagazines|rhs_30Rnd_545x39_7N6M_AK|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_545x39_7N6_Ball",
+        "_dictAmmoName": "rhs_B_545x39_7N6_Ball",
         "hit": 9.3,
         "typicalspeed": 880,
         "airfriction": -0.001139,

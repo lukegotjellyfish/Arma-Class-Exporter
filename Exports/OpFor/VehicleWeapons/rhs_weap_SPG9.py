@@ -1,4 +1,4 @@
-rhs_weap_SPG9 = {
+rhs_weap_spg9 = {
     "scope": 2,
     "canlock": 0,
     "displayname": "SPG-9",

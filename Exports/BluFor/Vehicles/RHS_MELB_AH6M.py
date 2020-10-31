@@ -1,4 +1,4 @@
-RHS_MELB_AH6M = {
+rhs_melb_ah6m = {
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhs_MELB_AH6M.paa",
     "scope": 2,
     "forceingarage": 1,

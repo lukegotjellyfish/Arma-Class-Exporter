@@ -1,4 +1,4 @@
-RHS_Mi8MTV3_vvsc = {
+rhs_mi8mtv3_vvsc = {
     "editorpreview": "rhsafrf|addons|rhs_editorPreviews|data|rhs_Mi8MTV3_vvsc.paa",
     "faction": "rhs_faction_vvs_c",
     "author": "Red Hammer Studios",

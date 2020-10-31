@@ -1,4 +1,4 @@
-V_Chestrig_khk = {
+v_chestrig_khk = {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_Chestrig_khk",
     "scope": 2,

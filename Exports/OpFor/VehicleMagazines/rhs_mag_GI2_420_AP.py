@@ -1,10 +1,10 @@
-rhs_mag_GI2_420_AP = {
+rhs_mag_gi2_420_ap = {
     "scope": 2,
     "displayname": "20x139mm Armor-Piercing Capped",
     "displaynameshort": "APC",
     # Ammo: CfgMagazines|rhs_mag_GI2_420_AP|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_20x139mm_AP",
+        "_dictAmmoName": "rhs_ammo_20x139mm_AP",
         "hit": 60,
         "explosive": 0,
         "indirecthit": 1,

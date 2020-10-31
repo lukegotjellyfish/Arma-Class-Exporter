@@ -1,4 +1,4 @@
-RHS_AH1Z = {
+rhs_ah1z = {
     "side": 1,
     "scope": 2,
     "accuracy": 5,

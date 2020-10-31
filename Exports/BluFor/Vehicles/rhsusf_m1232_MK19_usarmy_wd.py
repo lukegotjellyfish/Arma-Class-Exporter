@@ -1,4 +1,4 @@
-rhsusf_m1232_MK19_usarmy_wd = {
+rhsusf_m1232_mk19_usarmy_wd = {
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhsusf_M1232_MK19_usarmy_wd.paa",
     "displayname": "M1232 (O-GPK/Mk19)",
     "faction": "rhs_faction_usarmy_wd",

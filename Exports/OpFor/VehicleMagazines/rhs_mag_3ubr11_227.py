@@ -5,7 +5,7 @@ rhs_mag_3ubr11_227 = {
     "displaynameshort": "3UBR11",
     # Ammo: CfgMagazines|rhs_mag_3ubr11_230|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3ubr11",
+        "_dictAmmoName": "rhs_ammo_3ubr11",
         "hit": 95,
         "caliber": 5.47619,
         "typicalspeed": 1120,

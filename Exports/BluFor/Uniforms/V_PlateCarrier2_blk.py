@@ -1,4 +1,4 @@
-V_PlateCarrier2_blk = {
+v_platecarrier2_blk = {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_PlateCarrier2_blk",
     "scope": 2,

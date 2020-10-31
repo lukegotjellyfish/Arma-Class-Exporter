@@ -2,7 +2,7 @@ rhs_mag_gau19_air_base = {
     "scope": 0,
     # Ammo: CfgMagazines|rhs_mag_gau19_air_base|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_127x99_SLAP_Tracer_Red",
+        "_dictAmmoName": "rhs_ammo_127x99_SLAP_Tracer_Red",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "tracerendtime": 3,
         "caliber": 2.80992,

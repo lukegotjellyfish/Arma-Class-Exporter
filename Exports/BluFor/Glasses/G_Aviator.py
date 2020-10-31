@@ -1,4 +1,4 @@
-G_Aviator = {
+g_aviator = {
     "author": "Bohemia Interactive",
     "_generalmacro": "G_Aviator",
     "displayname": "Aviator Glasses",

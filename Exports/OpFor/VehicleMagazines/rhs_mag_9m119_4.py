@@ -6,10 +6,10 @@ rhs_mag_9m119_4 = {
     "displaynameshort": "9M119",
     # Ammo: CfgMagazines|rhs_mag_9m119_6|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9m119",
+        "_dictAmmoName": "rhs_ammo_9m119",
         # Ammo: CfgAmmo|rhs_ammo_9m119|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_9m119_penetrator",
+            "_dictAmmoName": "rhs_ammo_9m119_penetrator",
             "hit": 250,
             "caliber": 46.6667,
             "warheadname": "TandemHEAT",
@@ -29,7 +29,7 @@ rhs_mag_9m119_4 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

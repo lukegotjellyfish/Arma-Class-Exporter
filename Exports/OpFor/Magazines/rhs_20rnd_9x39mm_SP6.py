@@ -1,9 +1,9 @@
-rhs_20rnd_9x39mm_SP6 = {
+rhs_20rnd_9x39mm_sp6 = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_20rnd_9x39mm_SP6_ca.paa",
     # Ammo: CfgMagazines|rhs_20rnd_9x39mm_SP6|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_9x39_SP6",
+        "_dictAmmoName": "rhs_B_9x39_SP6",
         "hit": 11.3,
         "indirecthit": 0,
         "indirecthitrange": 0,

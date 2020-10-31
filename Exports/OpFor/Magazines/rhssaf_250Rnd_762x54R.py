@@ -1,9 +1,9 @@
-rhssaf_250Rnd_762x54R = {
+rhssaf_250rnd_762x54r = {
     "displayname": "250Rnd M84 Belt 7.62x54mm M30",
     "descriptionshort": "Caliber: 7.62x54Rmm <br />Rounds: 250<br />Used in: M84 LMG",
     # Ammo: CfgMagazines|rhssaf_250Rnd_762x54R|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_762x54_Ball",
+        "_dictAmmoName": "rhs_B_762x54_Ball",
         "cartridge": "RHS_Cartridge_762x54r",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_green",
         "hit": 11.47,

@@ -1,4 +1,4 @@
-rhs_l159_cdf_b_CDF = {
+rhs_l159_cdf_b_cdf = {
     "editorpreview": "rhsgref|addons|rhsgref_editorPreviews|data|rhs_l159_cdf_b_CDF.paa",
     "faction": "rhsgref_faction_cdf_air_b",
     "crew": "rhsgref_cdf_b_air_pilot",

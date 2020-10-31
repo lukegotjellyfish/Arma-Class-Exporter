@@ -1,4 +1,4 @@
-rhs_weap_M230 = {
+rhs_weap_m230 = {
     "displayname": "M230",
     "magazines": ["rhs_mag_30x113mm_M789_HEDP_1200","rhs_mag_30x113mm_M789_HEDP_laser_1200"],
     "shotfromturret": 0,

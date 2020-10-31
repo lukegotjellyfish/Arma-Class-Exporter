@@ -8,7 +8,7 @@ rhs_mag_762x25_8 = {
     "model": "rhsafrf|addons|rhs_weapons|magazines|rhs_pya_mag",
     # Ammo: CfgMagazines|rhs_mag_762x25_8|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x25_Ball",
+        "_dictAmmoName": "rhs_ammo_762x25_Ball",
         "hit": 4.94578,
         "indirecthit": 0,
         "indirecthitrange": 0,

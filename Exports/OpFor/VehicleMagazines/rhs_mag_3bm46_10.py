@@ -3,11 +3,11 @@ rhs_mag_3bm46_10 = {
     "displaynameshort": "3BM46",
     # Ammo: CfgMagazines|rhs_mag_3bm46_10|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3bm46",
+        "_dictAmmoName": "rhs_ammo_3bm46",
         "caliber": 0.1,
         # Ammo: CfgAmmo|rhs_ammo_3bm46|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_3bm46_penetrator",
+            "_dictAmmoName": "rhs_ammo_3bm46_penetrator",
             "hit": 300,
             "typicalspeed": 1700,
             "caliber": 26.7059,
@@ -29,7 +29,7 @@ rhs_mag_3bm46_10 = {
             "simulationstep": 0.0005,
             # Ammo: CfgAmmo|rhs_ammo_ap_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

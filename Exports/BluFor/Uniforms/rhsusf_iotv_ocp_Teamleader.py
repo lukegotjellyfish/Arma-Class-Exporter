@@ -1,4 +1,4 @@
-rhsusf_iotv_ocp_Teamleader = {
+rhsusf_iotv_ocp_teamleader = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|vests|rhsusf_iotv_ocp_Teamleader_ca.paa",
     "scope": 2,

@@ -1,4 +1,4 @@
-RHS_weap_m134_pylon = {
+rhs_weap_m134_pylon = {
     "scope": 1,
     "displayname": "M134D-H",
     "cursor": "EmptyCursor",

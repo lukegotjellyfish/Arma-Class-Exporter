@@ -1,4 +1,4 @@
-rhs_mag_9M120M_Mi24_2x = {
+rhs_mag_9m120m_mi24_2x = {
     "model": "rhsafrf|addons|rhs_a2port_air|data|rhs_pylon_m_9m120_2x",
     "count": 2,
     "mass": 85,
@@ -6,10 +6,10 @@ rhs_mag_9M120M_Mi24_2x = {
     "hardpoints": ["RHS_HP_9m120_Mi24"],
     # Ammo: CfgMagazines|rhs_mag_9m120m|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9m120m",
+        "_dictAmmoName": "rhs_ammo_9m120m",
         # Ammo: CfgAmmo|rhs_ammo_9m120m|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_9m120m_penetrator",
+            "_dictAmmoName": "rhs_ammo_9m120m_penetrator",
             "warheadname": "TandemHEAT",
             "hit": 290,
             "caliber": 63.3333,
@@ -29,7 +29,7 @@ rhs_mag_9M120M_Mi24_2x = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -1166,6 +1166,7 @@ rhs_mag_9M120M_Mi24_2x = {
         "maxcontrolrange": 8000,
         "locktype": 0,
         "cost": 180,
+        "hit": 350,
         "indirecthit": 26,
         "indirecthitrange": 4.6,
         "maneuvrability": 13,
@@ -1196,7 +1197,6 @@ rhs_mag_9M120M_Mi24_2x = {
             }
         },
         "flightprofiles": ["Direct"],
-        "hit": 240,
         "canlock": 0,
         "irlock": 1,
         "weaponlocksystem": 1,

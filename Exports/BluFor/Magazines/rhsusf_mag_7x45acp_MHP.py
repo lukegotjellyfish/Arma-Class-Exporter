@@ -1,4 +1,4 @@
-rhsusf_mag_7x45acp_MHP = {
+rhsusf_mag_7x45acp_mhp = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "type": 16,
@@ -6,7 +6,7 @@ rhsusf_mag_7x45acp_MHP = {
     "picture": "rhsusf|addons|rhsusf_weapons|icons|mag_45acp_ca.paa",
     # Ammo: CfgMagazines|rhsusf_mag_7x45acp_MHP|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_45ACP_MHP",
+        "_dictAmmoName": "rhs_ammo_45ACP_MHP",
         "scope": 2,
         "hit": 5.14686,
         "indirecthit": 0,

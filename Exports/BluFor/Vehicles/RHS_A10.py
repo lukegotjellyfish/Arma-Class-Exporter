@@ -1,4 +1,4 @@
-RHS_A10 = {
+rhs_a10 = {
     "rhs_gearanim": "Gear_1",
     "dlc": "RHS_USAF",
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhs_a10.paa",

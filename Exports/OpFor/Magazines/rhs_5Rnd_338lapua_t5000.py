@@ -1,4 +1,4 @@
-rhs_5Rnd_338lapua_t5000 = {
+rhs_5rnd_338lapua_t5000 = {
     "author": "Red Hammer Studios",
     "picture": "A3|Weapons_F_EPA|Data|ui|M_5rnd_127x108_ball_CA.paa",
     "model": "rhsafrf|addons|rhs_weapons3|magazines|rhs_t5000_mag",
@@ -7,7 +7,7 @@ rhs_5Rnd_338lapua_t5000 = {
     "displaynameshort": ".338 Lapua",
     # Ammo: CfgMagazines|rhs_5Rnd_338lapua_t5000|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "B_338_Ball",
+        "_dictAmmoName": "B_338_Ball",
         "hit": 16,
         "indirecthit": 0,
         "indirecthitrange": 0,

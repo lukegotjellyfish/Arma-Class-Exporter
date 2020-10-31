@@ -1,4 +1,4 @@
-rhs_100Rnd_762x54mmR = {
+rhs_100rnd_762x54mmr = {
     "author": "Red Hammer Studios",
     "displayname": "100rnd PKM 57-N-323S",
     "descriptionshort": "Caliber: 7.62x54mmR FMJ<br />Rounds: 100<br />Every 5 Rounds: 1x 7T2 Tracer<br />Used in: PKM, PKP",
@@ -7,7 +7,7 @@ rhs_100Rnd_762x54mmR = {
     "picture": "rhsafrf|addons|rhs_weapons|icons|pkpbox_ca.paa",
     # Ammo: CfgMagazines|rhs_100Rnd_762x54mmR|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_762x54_Ball",
+        "_dictAmmoName": "rhs_B_762x54_Ball",
         "cartridge": "RHS_Cartridge_762x54r",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_green",
         "hit": 11.47,

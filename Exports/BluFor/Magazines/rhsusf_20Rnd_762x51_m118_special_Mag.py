@@ -1,4 +1,4 @@
-rhsusf_20Rnd_762x51_m118_special_Mag = {
+rhsusf_20rnd_762x51_m118_special_mag = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "20rnd M14 M118",
@@ -10,7 +10,7 @@ rhsusf_20Rnd_762x51_m118_special_Mag = {
     "count": 20,
     # Ammo: CfgMagazines|rhsusf_20Rnd_762x51_m118_special_Mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M118_Special_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M118_Special_Ball",
         "caliber": 0.52,
         "typicalspeed": 805,
         "airfriction": -0.0007474,

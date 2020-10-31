@@ -1,4 +1,4 @@
-RHS_CH_47F_10 = {
+rhs_ch_47f_10 = {
     "faction": "rhs_faction_usarmy_d",
     "vehicleclass": "rhs_vehclass_helicopter",
     "crew": "rhsusf_army_ocp_helipilot",

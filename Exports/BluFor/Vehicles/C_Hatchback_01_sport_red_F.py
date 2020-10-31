@@ -1,4 +1,4 @@
-C_Hatchback_01_sport_red_F = {
+c_hatchback_01_sport_red_f = {
     "author": "Bohemia Interactive",
     # Class: CfgVehicles|C_Hatchback_01_sport_red_F|SimpleObject [Indent level: 1],
     "simpleobject": {

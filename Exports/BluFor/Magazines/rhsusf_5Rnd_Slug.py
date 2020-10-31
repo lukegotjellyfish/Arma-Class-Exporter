@@ -1,4 +1,4 @@
-rhsusf_5Rnd_Slug = {
+rhsusf_5rnd_slug = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5Rnd 12g Slug",
@@ -8,7 +8,7 @@ rhsusf_5Rnd_Slug = {
     "modelspecial": "rhsusf|addons|rhsusf_weapons|mag_proxies|rhs_mag_12ga_slug_1rnd.p3d",
     # Ammo: CfgMagazines|rhsusf_5Rnd_Slug|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_12g_slug",
+        "_dictAmmoName": "rhs_ammo_12g_slug",
         "hit": 34.51,
         "indirecthit": 0,
         "indirecthitrange": 0,

@@ -1,4 +1,4 @@
-rhs_rpg7_TBG7V_mag = {
+rhs_rpg7_tbg7v_mag = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_rpg7_TBG7V_mag_ca.paa",
     "displayname": "TBG-7V",
@@ -8,7 +8,7 @@ rhs_rpg7_TBG7V_mag = {
     "modelspecial": "rhsafrf|addons|rhs_weapons|mag_proxies|rhs_mag_tbg7v",
     # Ammo: CfgMagazines|rhs_rpg7_TBG7V_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_tbg7v",
+        "_dictAmmoName": "rhs_rpg7v2_tbg7v",
         "warheadname": "HE",
         "aiammousageflags": "64+128+256",
         "model": "rhsafrf|addons|rhs_weapons|rpg7|projectiles|tbg7v",
@@ -60,7 +60,7 @@ rhs_rpg7_TBG7V_mag = {
         "submunitionconetype": ["randomupcone",15],
         # Ammo: CfgAmmo|rhs_rpg7v2_tbg7v|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_thermobaric_wave",
+            "_dictAmmoName": "rhs_ammo_thermobaric_wave",
             "caliber": 6.66667,
             "hit": 10,
             "indirecthit": 20,

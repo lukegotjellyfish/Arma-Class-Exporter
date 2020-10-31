@@ -1,4 +1,4 @@
-rhsusf_iotv_ucp_SAW = {
+rhsusf_iotv_ucp_saw = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|vests|rhsusf_iotv_ucp_SAW_ca.paa",
     "scope": 2,

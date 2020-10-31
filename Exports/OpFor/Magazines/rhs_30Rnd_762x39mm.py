@@ -1,4 +1,4 @@
-rhs_30Rnd_762x39mm = {
+rhs_30rnd_762x39mm = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_30Rnd_762x39mm_tracer_ca.paa",
     "displayname": "30rnd AKM 57-N-231",
@@ -9,7 +9,7 @@ rhs_30Rnd_762x39mm = {
     "modelspecialisproxy": 1,
     # Ammo: CfgMagazines|rhs_30Rnd_762x39mm|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_762x39_Ball",
+        "_dictAmmoName": "rhs_B_762x39_Ball",
         "cartridge": "FxCartridge_762x39",
         "hit": 8.5,
         "typicalspeed": 718,

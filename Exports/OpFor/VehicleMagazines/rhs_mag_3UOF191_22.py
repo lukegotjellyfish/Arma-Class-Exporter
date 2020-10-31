@@ -1,13 +1,13 @@
-rhs_mag_3UOF191_22 = {
+rhs_mag_3uof191_22 = {
     "displayname": "3UOF191",
     "displaynameshort": "3UOF191",
     # Ammo: CfgMagazines|rhs_mag_3UOF191_22|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3UOF191",
+        "_dictAmmoName": "rhs_ammo_3UOF191",
         "simulation": "shotSubmunitions",
         # Ammo: CfgAmmo|rhs_ammo_3UOF191|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_3UOF191_airburst",
+            "_dictAmmoName": "rhs_ammo_3UOF191_airburst",
             "indirecthitrange": 34,
             "model": "A3|Weapons_f|empty",
             "timetolive": 1,

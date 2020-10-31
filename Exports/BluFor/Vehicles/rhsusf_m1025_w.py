@@ -19,7 +19,7 @@ rhsusf_m1025_w = {
     "wheelcircumference": 2.95,
     "brakeidlespeed": 1.8,
     "canfloat": 0,
-    "maxfordingdepth": 0,
+    "maxfordingdepth": -0.7,
     "waterspeedfactor": 0.3,
     "waterresistance": 1,
     "waterresistancecoef": 0.2,

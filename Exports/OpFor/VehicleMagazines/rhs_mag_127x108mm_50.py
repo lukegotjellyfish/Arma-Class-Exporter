@@ -5,7 +5,7 @@ rhs_mag_127x108mm_50 = {
     "count": 50,
     # Ammo: CfgMagazines|rhs_mag_127x108mm_50|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_127x108mm",
+        "_dictAmmoName": "rhs_ammo_127x108mm",
         "hit": 25,
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "timetolive": 25,

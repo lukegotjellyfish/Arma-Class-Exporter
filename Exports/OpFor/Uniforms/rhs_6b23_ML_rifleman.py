@@ -1,4 +1,4 @@
-rhs_6b23_ML_rifleman = {
+rhs_6b23_ml_rifleman = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|vests|rhs_6b23_ML_rifleman_ca.paa",
     "displayname": "6B23 Mountain Les (Rifleman)",

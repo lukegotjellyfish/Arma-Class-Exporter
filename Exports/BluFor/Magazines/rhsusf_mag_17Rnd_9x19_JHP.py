@@ -1,11 +1,11 @@
-rhsusf_mag_17Rnd_9x19_JHP = {
+rhsusf_mag_17rnd_9x19_jhp = {
     "author": "Red Hammer Studios",
     "displayname": "17rnd Glock Mk243 JHP",
     "displaynameshort": "9mm JHP Mag",
     "picture": "rhsusf|addons|rhsusf_weapons2|glock17g4|data|rhs_mag2_glock17g4_ca.paa",
     # Ammo: CfgMagazines|rhsusf_mag_17Rnd_9x19_JHP|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9x19_JHP",
+        "_dictAmmoName": "rhs_ammo_9x19_JHP",
         "hit": 6.94265,
         "indirecthit": 0,
         "indirecthitrange": 0,

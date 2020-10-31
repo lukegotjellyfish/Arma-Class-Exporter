@@ -1,4 +1,4 @@
-RHS_C130J = {
+rhs_c130j = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "side": 1,

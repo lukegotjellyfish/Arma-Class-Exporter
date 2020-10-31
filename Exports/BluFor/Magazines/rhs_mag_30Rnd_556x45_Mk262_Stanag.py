@@ -1,9 +1,9 @@
-rhs_mag_30Rnd_556x45_Mk262_Stanag = {
+rhs_mag_30rnd_556x45_mk262_stanag = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|magazines|rhs_mag_30Rnd_556x45_Mk262_Stanag_ca.paa",
     # Ammo: CfgMagazines|rhs_mag_30Rnd_556x45_Mk262_Stanag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_Mk262_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_Mk262_Ball",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "hit": 10.3,
         "typicalspeed": 838.2,

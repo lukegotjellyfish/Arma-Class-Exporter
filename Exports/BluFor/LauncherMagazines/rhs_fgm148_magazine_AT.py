@@ -1,4 +1,4 @@
-rhs_fgm148_magazine_AT = {
+rhs_fgm148_magazine_at = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "Javelin AT",
@@ -8,7 +8,7 @@ rhs_fgm148_magazine_AT = {
     "count": 1,
     # Ammo: CfgMagazines|rhs_fgm148_magazine_AT|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_M_fgm148_AT",
+        "_dictAmmoName": "rhs_ammo_M_fgm148_AT",
         "afmax": 200,
         "aiammousageflags": "128 + 512",
         "audiblefire": 32,
@@ -16,7 +16,7 @@ rhs_fgm148_magazine_AT = {
         "warheadname": "TandemHEAT",
         # Ammo: CfgAmmo|rhs_ammo_M_fgm148_AT|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M_fgm148_AT_penetrator",
+            "_dictAmmoName": "rhs_ammo_M_fgm148_AT_penetrator",
             "warheadname": "TandemHEAT",
             "hit": 380,
             "caliber": 64.6667,
@@ -35,7 +35,7 @@ rhs_fgm148_magazine_AT = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

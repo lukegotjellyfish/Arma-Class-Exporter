@@ -1,10 +1,10 @@
-rhs_mag_3UOF17_22 = {
+rhs_mag_3uof17_22 = {
     "scope": 2,
     "displayname": "HEF-T 3UOF17",
     "displaynameshort": "3UOF17",
     # Ammo: CfgMagazines|rhs_mag_3UOF17_22|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3UOF17",
+        "_dictAmmoName": "rhs_ammo_3UOF17",
         "hit": 210,
         "indirecthit": 50,
         "indirecthitrange": 12,

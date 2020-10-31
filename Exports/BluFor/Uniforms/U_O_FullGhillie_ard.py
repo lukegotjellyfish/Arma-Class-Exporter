@@ -1,4 +1,4 @@
-U_O_FullGhillie_ard = {
+u_o_fullghillie_ard = {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Arid) [CSAT]",

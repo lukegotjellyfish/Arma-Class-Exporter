@@ -3,7 +3,7 @@ rhs_mag_zpl20_mixed = {
     "displaynameshort": "Mixed",
     # Ammo: CfgMagazines|rhs_mag_zpl20_mixed|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "B_20mm",
+        "_dictAmmoName": "B_20mm",
         "hit": 60,
         "indirecthit": 6,
         "indirecthitrange": 1.6,

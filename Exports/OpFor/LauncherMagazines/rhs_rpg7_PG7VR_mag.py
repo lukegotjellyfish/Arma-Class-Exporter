@@ -1,4 +1,4 @@
-rhs_rpg7_PG7VR_mag = {
+rhs_rpg7_pg7vr_mag = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_rpg7_PG7VR_mag_ca.paa",
     "displayname": "PG-7VR",
@@ -8,13 +8,13 @@ rhs_rpg7_PG7VR_mag = {
     "modelspecial": "rhsafrf|addons|rhs_weapons|mag_proxies|rhs_mag_pg7vr",
     # Ammo: CfgMagazines|rhs_rpg7_PG7VR_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_pg7vr",
+        "_dictAmmoName": "rhs_rpg7v2_pg7vr",
         "aiammousageflags": "128+512",
         "model": "rhsafrf|addons|rhs_weapons|rpg7|projectiles|pg7vr",
         "warheadname": "TandemHEAT",
         # Ammo: CfgAmmo|rhs_rpg7v2_pg7vr|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_rpg7v2_pg7vr_penetrator",
+            "_dictAmmoName": "rhs_rpg7v2_pg7vr_penetrator",
             "warheadname": "TandemHEAT",
             "caliber": 41.3333,
             "hit": 290,
@@ -34,7 +34,7 @@ rhs_rpg7_PG7VR_mag = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

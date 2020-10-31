@@ -1,8 +1,8 @@
-rhs_200rnd_556x45_B_SAW = {
+rhs_200rnd_556x45_b_saw = {
     "author": "Red Hammer Studios",
     # Ammo: CfgMagazines|rhs_200rnd_556x45_B_SAW|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855A1_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855A1_Ball",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,

@@ -1,4 +1,4 @@
-rhsgref_BRDM2_ATGM_vdv = {
+rhsgref_brdm2_atgm_vdv = {
     "editorpreview": "rhsgref|addons|rhsgref_editorPreviews|data|rhsgref_BRDM2_ATGM_vdv.paa",
     "faction": "rhs_faction_vdv",
     "crew": "rhs_vdv_crew",

@@ -4,7 +4,7 @@ rhs_mag_3uor6_230 = {
     "namesound": "heat",
     # Ammo: CfgMagazines|rhs_mag_3uor6_230|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3uor6",
+        "_dictAmmoName": "rhs_ammo_3uor6",
         "hit": 45,
         "indirecthit": 25,
         "indirecthitrange": 4,

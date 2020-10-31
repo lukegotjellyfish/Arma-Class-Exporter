@@ -5,7 +5,7 @@ rhs_mag_og15v_20 = {
     "displaynameshort": "OG15V",
     # Ammo: CfgMagazines|rhs_mag_og15v_16|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_og15v",
+        "_dictAmmoName": "rhs_ammo_og15v",
         "aiammousageflags": "64+128+256",
         "airfriction": -0.00011934,
         "model": "rhsafrf|addons|rhs_heavyweapons|SPG9|og9_shell",

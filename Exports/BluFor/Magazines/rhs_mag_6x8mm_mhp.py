@@ -5,7 +5,7 @@ rhs_mag_6x8mm_mhp = {
     "picture": "rhsgref|addons|rhsgref_weapons2|icons|rhs_inv_type94mag_01_ca.paa",
     # Ammo: CfgMagazines|rhs_mag_6x8mm_mhp|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_8mm_mhp",
+        "_dictAmmoName": "rhs_ammo_8mm_mhp",
         "scope": 2,
         "hit": 3.43133,
         "indirecthit": 0,

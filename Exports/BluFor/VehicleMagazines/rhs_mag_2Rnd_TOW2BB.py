@@ -1,12 +1,12 @@
-rhs_mag_2Rnd_TOW2BB = {
+rhs_mag_2rnd_tow2bb = {
     "scope": 2,
     # Ammo: CfgMagazines|rhs_mag_2Rnd_TOW2BB|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_TOW2_BB",
+        "_dictAmmoName": "rhs_ammo_TOW2_BB",
         "aiammousageflags": "64+128+256",
         # Ammo: CfgAmmo|rhs_ammo_TOW2_BB|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_TOW2_BB_penetrator",
+            "_dictAmmoName": "rhs_ammo_TOW2_BB_penetrator",
             "caliber": 13.3333,
             "simulationstep": 0.0001,
             "timetolive": 0.01,
@@ -14,7 +14,7 @@ rhs_mag_2Rnd_TOW2BB = {
             "deleteparentwhentriggered": 1,
             # Ammo: CfgAmmo|rhs_ammo_TOW2_BB_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_TOW2_BB_explosive",
+                "_dictAmmoName": "rhs_ammo_TOW2_BB_explosive",
                 "hit": 120,
                 "indirecthit": 100,
                 "indirecthitrange": 12,
@@ -53,7 +53,7 @@ rhs_mag_2Rnd_TOW2BB = {
                 "submunitionconeangle": 120,
                 # Ammo: CfgAmmo|rhs_ammo_TOW2_BB_explosive|submunitionAmmo [Indent level: 1],
                 "submunitionammo": {
-                    "submunitionammo": "rhs_ammo_thermobaric_wave",
+                    "_dictAmmoName": "rhs_ammo_thermobaric_wave",
                     "caliber": 6.66667,
                     "hit": 10,
                     "indirecthit": 20,

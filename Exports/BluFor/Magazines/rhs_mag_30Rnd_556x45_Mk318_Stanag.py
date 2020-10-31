@@ -1,4 +1,4 @@
-rhs_mag_30Rnd_556x45_Mk318_Stanag = {
+rhs_mag_30rnd_556x45_mk318_stanag = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|magazines|rhs_mag_30Rnd_556x45_Mk318_Stanag_ca.paa",
     "displayname": "30rnd STANAG Mk318 Mod 0",
@@ -6,7 +6,7 @@ rhs_mag_30Rnd_556x45_Mk318_Stanag = {
     "descriptionshort": "Caliber: 5.56x45mm NATO<br/>Rounds: 30<br/>Used in: M4, M16, M27, M249",
     # Ammo: CfgMagazines|rhs_mag_30Rnd_556x45_Mk318_Stanag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_Mk318_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_Mk318_Ball",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "hit": 9.55,
         "typicalspeed": 950,

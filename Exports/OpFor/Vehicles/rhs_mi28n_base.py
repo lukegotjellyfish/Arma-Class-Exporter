@@ -447,7 +447,7 @@ rhs_mi28n_base = {
     "liftforcecoef": 2,
     "altfullforce": 4000,
     "altnoforce": 6000,
-    "mainrotorspeed": 1,
+    "mainrotorspeed": -1,
     "backrotorspeed": -1,
     "numberphysicalwheels": 3,
     # Class: CfgVehicles|rhs_mi28_base|RotorLibHelicopterProperties [Indent level: 1],

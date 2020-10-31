@@ -1,4 +1,4 @@
-rhs_weap_9P148 = {
+rhs_weap_9p148 = {
     "autoreload": 0,
     "reloadtime": 1.5,
     # Class: CfgWeapons|rhs_weap_9P148|gunParticles [Indent level: 1],

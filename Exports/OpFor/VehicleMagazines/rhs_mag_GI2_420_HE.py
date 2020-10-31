@@ -1,10 +1,10 @@
-rhs_mag_GI2_420_HE = {
+rhs_mag_gi2_420_he = {
     "scope": 2,
     "displayname": "20x139mm High-Explosive Indenciary",
     "displaynameshort": "HEI",
     # Ammo: CfgMagazines|rhs_mag_GI2_420_HE|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_20x139mm_HE",
+        "_dictAmmoName": "rhs_ammo_20x139mm_HE",
         "hit": 20,
         "explosive": 0.8,
         "indirecthit": 4,

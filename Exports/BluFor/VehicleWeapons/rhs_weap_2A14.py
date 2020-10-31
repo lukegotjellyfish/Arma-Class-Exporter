@@ -1,4 +1,4 @@
-rhs_weap_2A14 = {
+rhs_weap_2a14 = {
     "type": 1,
     "ballisticscomputer": 2,
     "canlock": 0,

@@ -1,11 +1,11 @@
-rhssaf_30rnd_556x45_EPR_G36 = {
+rhssaf_30rnd_556x45_epr_g36 = {
     "dlc": "RHS_SAF",
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
     # Ammo: CfgMagazines|rhssaf_30rnd_556x45_EPR_G36|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855A1_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855A1_Ball",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,

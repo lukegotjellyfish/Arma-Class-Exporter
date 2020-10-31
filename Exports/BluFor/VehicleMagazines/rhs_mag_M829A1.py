@@ -1,13 +1,13 @@
-rhs_mag_M829A1 = {
+rhs_mag_m829a1 = {
     "displayname": "M829A1 APFSDS-T",
     "displaynameshort": "M829A1",
     # Ammo: CfgMagazines|rhs_mag_M829A1|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_M829A1",
+        "_dictAmmoName": "rhs_ammo_M829A1",
         "caliber": 0.1,
         # Ammo: CfgAmmo|rhs_ammo_M829A1|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M829A1_penetrator",
+            "_dictAmmoName": "rhs_ammo_M829A1_penetrator",
             "hit": 240,
             "typicalspeed": 1575,
             "caliber": 27.3862,
@@ -30,7 +30,7 @@ rhs_mag_M829A1 = {
             "airfriction": -0.08,
             # Ammo: CfgAmmo|rhs_ammo_ap_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

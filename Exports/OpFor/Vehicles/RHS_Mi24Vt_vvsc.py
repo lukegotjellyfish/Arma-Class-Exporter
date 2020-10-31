@@ -1,4 +1,4 @@
-RHS_Mi24Vt_vvsc = {
+rhs_mi24vt_vvsc = {
     "editorpreview": "rhsafrf|addons|rhs_editorPreviews|data|rhs_Mi24Vt_vvsc.paa",
     "faction": "rhs_faction_vvs_c",
     "scope": 2,

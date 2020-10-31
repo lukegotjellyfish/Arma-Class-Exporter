@@ -3,7 +3,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
     "hardpoints": ["RHS_HP_B8V20_KA52"],
     # Ammo: CfgMagazines|rhs_mag_b8v20a_s8kom|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_s8",
+        "_dictAmmoName": "rhs_ammo_s8",
         "aiammousageflags": "64+128+512",
         "cost": 100,
         "inittime": 0.02,
@@ -15,7 +15,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
         "soundfly": ["A3|Sounds_F|weapons|Rockets|rocket_fly_2",1,1.5,700],
         # Ammo: CfgAmmo|rhs_ammo_s8|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_s8_penetrator",
+            "_dictAmmoName": "rhs_ammo_s8_penetrator",
             "submunitionconetype": ["randomcenter",5],
             "caliber": 26.6667,
             "warheadname": "HEAT",
@@ -35,7 +35,7 @@ rhs_mag_b8v20a_ka52_s8kom = {
             "effectfly": "",
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

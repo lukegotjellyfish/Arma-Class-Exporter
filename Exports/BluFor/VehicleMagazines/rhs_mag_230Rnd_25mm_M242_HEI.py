@@ -1,8 +1,8 @@
-rhs_mag_230Rnd_25mm_M242_HEI = {
+rhs_mag_230rnd_25mm_m242_hei = {
     "scope": 2,
     # Ammo: CfgMagazines|rhs_mag_230Rnd_25mm_M242_HEI|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "RHS_ammo_M792_HEI",
+        "_dictAmmoName": "RHS_ammo_M792_HEI",
         "timetolive": 7.5,
         "airfriction": -0.00056,
         "typicalspeed": 1100,

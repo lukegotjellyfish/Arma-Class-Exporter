@@ -4,7 +4,7 @@ rhs_mag_mk82 = {
     "descriptionshort": "500lb bomb",
     # Ammo: CfgMagazines|rhs_mag_mk82|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_mk82",
+        "_dictAmmoName": "rhs_ammo_mk82",
         "hit": 5000,
         "indirecthit": 1150,
         "cost": 50,

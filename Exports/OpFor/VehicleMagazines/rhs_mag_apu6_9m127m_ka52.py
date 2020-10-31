@@ -4,10 +4,10 @@ rhs_mag_apu6_9m127m_ka52 = {
     "hardpoints": ["RHS_HP_APU6_9m127_KA52"],
     # Ammo: CfgMagazines|rhs_mag_9m127m|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9m127m",
+        "_dictAmmoName": "rhs_ammo_9m127m",
         # Ammo: CfgAmmo|rhs_ammo_9m127|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_9m127_penetrator",
+            "_dictAmmoName": "rhs_ammo_9m127_penetrator",
             "warheadname": "TandemHEAT",
             "hit": 290,
             "caliber": 70,
@@ -27,7 +27,7 @@ rhs_mag_apu6_9m127m_ka52 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -1180,6 +1180,7 @@ rhs_mag_apu6_9m127m_ka52 = {
         "weaponlocksystem": "1 + 4",
         "rhs_guidemode": "BEAMRIDER",
         "cost": 180,
+        "hit": 350,
         "sideairfriction": 0.3,
         "timetolive": 25,
         "whistledist": 3,
@@ -1198,7 +1199,6 @@ rhs_mag_apu6_9m127m_ka52 = {
             }
         },
         "flightprofiles": ["Direct"],
-        "hit": 240,
         "canlock": 0,
         "irlock": 1,
         "inittime": 0,

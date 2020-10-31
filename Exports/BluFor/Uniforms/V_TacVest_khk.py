@@ -1,4 +1,4 @@
-V_TacVest_khk = {
+v_tacvest_khk = {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_TacVest_khk",
     "scope": 2,

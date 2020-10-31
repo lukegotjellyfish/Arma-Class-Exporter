@@ -1,4 +1,4 @@
-rhs_mag_9x18_8_57N181S = {
+rhs_mag_9x18_8_57n181s = {
     "displayname": "8rnd PM 57-N-181S",
     "descriptionshort": "Caliber: 9x18mm<br />Rounds: 8<br />Used in: PM",
     "picture": "rhsafrf|addons|rhs_weapons2|icons|rhs_pm_mag_ca.paa",
@@ -7,7 +7,7 @@ rhs_mag_9x18_8_57N181S = {
     "initspeed": 319,
     # Ammo: CfgMagazines|rhs_mag_9x18_12_57N181S|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_9x18_57N181S",
+        "_dictAmmoName": "rhs_B_9x18_57N181S",
         "hit": 5.07,
         "typicalspeed": 272,
         "airfriction": -0.00176715,

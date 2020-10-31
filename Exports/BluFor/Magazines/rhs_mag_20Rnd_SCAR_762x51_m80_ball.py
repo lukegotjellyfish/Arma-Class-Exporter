@@ -1,4 +1,4 @@
-rhs_mag_20Rnd_SCAR_762x51_m80_ball = {
+rhs_mag_20rnd_scar_762x51_m80_ball = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "20rnd SCAR M80",
@@ -7,7 +7,7 @@ rhs_mag_20Rnd_SCAR_762x51_m80_ball = {
     "count": 20,
     # Ammo: CfgMagazines|rhs_mag_20Rnd_SCAR_762x51_m80_ball|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M80_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M80_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,

@@ -1,4 +1,4 @@
-rhs_mag_maaws_HEAT = {
+rhs_mag_maaws_heat = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "FFV751 HEAT",
@@ -9,10 +9,10 @@ rhs_mag_maaws_HEAT = {
     "displaynameshort": "751 HEAT",
     # Ammo: CfgMagazines|rhs_mag_maaws_HEAT|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_maaws_HEAT",
+        "_dictAmmoName": "rhs_ammo_maaws_HEAT",
         # Ammo: CfgAmmo|rhs_ammo_maaws_HEAT|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_maaws_HEAT_penetrator",
+            "_dictAmmoName": "rhs_ammo_maaws_HEAT_penetrator",
             "caliber": 39.3333,
             "warheadname": "TandemHEAT",
             "hit": 290,
@@ -31,7 +31,7 @@ rhs_mag_maaws_HEAT = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

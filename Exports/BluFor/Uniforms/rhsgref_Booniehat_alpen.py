@@ -1,4 +1,4 @@
-rhsgref_Booniehat_alpen = {
+rhsgref_booniehat_alpen = {
     "author": "Red Hammer Studios",
     "picture": "rhsgref|addons|rhsgref_inventoryicons|data|Headgear|rhsgref_Booniehat_alpen_ca.paa",
     "dlc": "RHS_GREF",

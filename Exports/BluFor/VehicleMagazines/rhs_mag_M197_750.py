@@ -1,10 +1,10 @@
-rhs_mag_M197_750 = {
+rhs_mag_m197_750 = {
     "scope": 2,
     "displayname": "20x102mm PGU-28/B SAPHEI",
     "displaynameshort": "SAPHEI",
     # Ammo: CfgMagazines|rhs_mag_M197_750|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_20mm_AP",
+        "_dictAmmoName": "rhs_ammo_20mm_AP",
         "hit": 45,
         "indirecthit": 10,
         "indirecthitrange": 2,

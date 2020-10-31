@@ -1,4 +1,4 @@
-rhs_weap_M590_5RD = {
+rhs_weap_m590_5rd = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|weapons|rhs_weap_M590_5RD_ca.paa",
     "dlc": "RHS_USAF",

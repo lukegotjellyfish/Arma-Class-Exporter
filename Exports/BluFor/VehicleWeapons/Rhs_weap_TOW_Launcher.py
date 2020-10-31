@@ -1,4 +1,4 @@
-Rhs_weap_TOW_Launcher = {
+rhs_weap_tow_launcher = {
     "holdsteranimvalue": 1,
     "autoreload": 0,
     "texturetype": "semi",

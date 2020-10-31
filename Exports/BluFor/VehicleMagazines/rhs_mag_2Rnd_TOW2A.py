@@ -1,12 +1,12 @@
-rhs_mag_2Rnd_TOW2A = {
+rhs_mag_2rnd_tow2a = {
     "scope": 2,
     # Ammo: CfgMagazines|rhs_mag_2Rnd_TOW2A|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_TOW2A_AT",
+        "_dictAmmoName": "rhs_ammo_TOW2A_AT",
         "warheadname": "TandemHEAT",
         # Ammo: CfgAmmo|rhs_ammo_TOW2A_AT|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_TOW2A_AT_penetrator",
+            "_dictAmmoName": "rhs_ammo_TOW2A_AT_penetrator",
             "warheadname": "TandemHEAT",
             "caliber": 60,
             "hit": 290,
@@ -25,7 +25,7 @@ rhs_mag_2Rnd_TOW2A = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

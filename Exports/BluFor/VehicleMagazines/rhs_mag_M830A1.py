@@ -1,15 +1,15 @@
-rhs_mag_M830A1 = {
+rhs_mag_m830a1 = {
     "displayname": "M830A1 MPAT",
     "displaynameshort": "M830A1",
     # Ammo: CfgMagazines|rhs_mag_M830A1|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_M830A1",
+        "_dictAmmoName": "rhs_ammo_M830A1",
         "explosive": 0.8,
         "indirecthit": 24,
         "indirecthitrange": 3.15,
         # Ammo: CfgAmmo|rhs_ammo_M830A1|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M830A1_penetrator",
+            "_dictAmmoName": "rhs_ammo_M830A1_penetrator",
             "caliber": 30,
             "warheadname": "HEAT",
             "hit": 290,
@@ -28,7 +28,7 @@ rhs_mag_M830A1 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

@@ -3,7 +3,7 @@ rhs_mag_b8m1_s8df = {
     "displaynameshort": "S-8 DF",
     # Ammo: CfgMagazines|rhs_mag_b8m1_s8df|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_s8df",
+        "_dictAmmoName": "rhs_ammo_s8df",
         "aiammousageflags": "64+128",
         "cost": 100,
         "submunitionammo": "",

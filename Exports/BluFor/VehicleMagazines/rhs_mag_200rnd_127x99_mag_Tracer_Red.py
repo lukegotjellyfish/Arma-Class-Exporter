@@ -1,10 +1,10 @@
-rhs_mag_200rnd_127x99_mag_Tracer_Red = {
+rhs_mag_200rnd_127x99_mag_tracer_red = {
     "scope": 2,
     "count": 200,
     "descriptionshort": "Caliber: 12.7x99 mm Tracer - Red<br/>Rounds: 200<br />Used in: Mounted M2",
     # Ammo: CfgMagazines|rhs_mag_100rnd_127x99_mag_Tracer_Red|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_127x99_Ball_Tracer_Red",
+        "_dictAmmoName": "rhs_ammo_127x99_Ball_Tracer_Red",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "tracerendtime": 3,
         "caliber": 2.34848,

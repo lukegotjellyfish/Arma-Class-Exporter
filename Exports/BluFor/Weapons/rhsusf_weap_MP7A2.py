@@ -1,4 +1,4 @@
-rhsusf_weap_MP7A2 = {
+rhsusf_weap_mp7a2 = {
     "author": "Red Hammer Studios",
     "dlc": "RHS_USAF",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|weapons|rhsusf_weap_MP7A2_ca.paa",
@@ -114,6 +114,8 @@ rhsusf_weap_MP7A2 = {
                 "rhsusf_acc_premier_mrds": 1,
                 "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
+                "rhsusf_acc_m8541_d": 1,
+                "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,

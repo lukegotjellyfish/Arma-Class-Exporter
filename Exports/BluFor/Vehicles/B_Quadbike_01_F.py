@@ -1,4 +1,4 @@
-B_Quadbike_01_F = {
+b_quadbike_01_f = {
     "author": "Bohemia Interactive",
     # Class: CfgVehicles|B_Quadbike_01_F|SimpleObject [Indent level: 1],
     "simpleobject": {

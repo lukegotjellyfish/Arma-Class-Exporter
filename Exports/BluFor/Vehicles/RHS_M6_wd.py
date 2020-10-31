@@ -1,4 +1,4 @@
-RHS_M6_wd = {
+rhs_m6_wd = {
     "scope": 2,
     "displayname": "M6A2",
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|RHS_M6_wd.paa",

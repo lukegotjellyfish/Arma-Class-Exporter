@@ -1,4 +1,4 @@
-rhsusf_m1025_w_Mk19 = {
+rhsusf_m1025_w_mk19 = {
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhsusf_m1025_w_mk19.paa",
     "faction": "rhs_faction_usarmy_wd",
     "vehicleclass": "rhs_vehclass_car",
@@ -3305,7 +3305,7 @@ rhsusf_m1025_w_Mk19 = {
     "wheelcircumference": 2.95,
     "brakeidlespeed": 1.8,
     "canfloat": 0,
-    "maxfordingdepth": 0,
+    "maxfordingdepth": -0.7,
     "waterspeedfactor": 0.3,
     "waterresistance": 1,
     "waterresistancecoef": 0.2,

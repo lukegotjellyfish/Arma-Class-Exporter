@@ -1,9 +1,9 @@
-rhsusf_mag_L8A3_8 = {
+rhsusf_mag_l8a3_8 = {
     "count": 8,
     "scope": 2,
     # Ammo: CfgMagazines|rhsusf_mag_L8A3_8|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_ammo_L8A3",
+        "_dictAmmoName": "rhsusf_ammo_L8A3",
         "rhs_smokeshell": "rhsusf_ammo_L8A3_shell",
         "muzzleeffect": "",
         "weaponlocksystem": "1",

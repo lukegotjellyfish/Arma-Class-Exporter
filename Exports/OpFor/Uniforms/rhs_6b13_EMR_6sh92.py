@@ -1,4 +1,4 @@
-rhs_6b13_EMR_6sh92 = {
+rhs_6b13_emr_6sh92 = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|vests|rhs_6b13_EMR_6sh92_ca.paa",
     "displayname": "6B13 EMR (6Sh92)",

@@ -1,4 +1,4 @@
-rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz = {
+rhs_6b23_digi_6sh92_vog_radio_spetsnaz = {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|vests|rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz_ca.paa",
     "displayname": "6B23 EMR-Summer (6Sh92/VOG/Radio) SpNz",

@@ -1,4 +1,4 @@
-rhsusf_m113_usarmy_Mk19 = {
+rhsusf_m113_usarmy_mk19 = {
     "editorpreview": "rhsusf|addons|rhsusf_editorPreviews|data|rhsusf_m113_usarmy_MK19.paa",
     "faction": "rhs_faction_usarmy_wd",
     "vehicleclass": "rhs_vehclass_apc",

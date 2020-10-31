@@ -1,4 +1,4 @@
-rhs_weap_M197 = {
+rhs_weap_m197 = {
     "aidispersioncoefx": 2,
     "scope": 1,
     "cursor": "mg",

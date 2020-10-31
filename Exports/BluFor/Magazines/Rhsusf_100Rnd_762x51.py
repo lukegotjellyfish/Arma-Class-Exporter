@@ -1,4 +1,4 @@
-Rhsusf_100Rnd_762x51 = {
+rhsusf_100rnd_762x51 = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|magazines|rhsusf_100Rnd_762x51_ca.paa",
     "displayname": "100rnd M240 Box M80",
@@ -14,7 +14,7 @@ Rhsusf_100Rnd_762x51 = {
     "type": "2*		256",
     # Ammo: CfgMagazines|rhsusf_50Rnd_762x51|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M80_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M80_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,

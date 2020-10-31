@@ -1,4 +1,4 @@
-"G_Aviator": {
+"g_aviator": {
     "author": "Bohemia Interactive",
     "_generalmacro": "G_Aviator",
     "displayname": "Aviator Glasses",
@@ -11,7 +11,7 @@
     "name": "None",
     "scope": 2,
 },
-"G_Bandanna_blk": {
+"g_bandanna_blk": {
     "author": "Bohemia Interactive",
     "_generalmacro": "G_Bandanna_blk",
     "displayname": "Bandana (Black)",

@@ -1,4 +1,4 @@
-C_SUV_01_F = {
+c_suv_01_f = {
     "author": "Bohemia Interactive",
     # Class: CfgVehicles|C_SUV_01_F|SimpleObject [Indent level: 1],
     "simpleobject": {

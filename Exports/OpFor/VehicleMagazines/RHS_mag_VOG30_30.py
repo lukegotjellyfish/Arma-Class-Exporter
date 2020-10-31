@@ -1,10 +1,10 @@
-RHS_mag_VOG30_30 = {
+rhs_mag_vog30_30 = {
     "displayname": "VOG30",
     "displaynameshort": "VOG30",
     "count": 30,
     # Ammo: CfgMagazines|RHS_mag_VOG30_30|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_VOG30",
+        "_dictAmmoName": "rhs_ammo_VOG30",
         "hit": 40,
         "indirecthit": 7,
         "indirecthitrange": 4.174,

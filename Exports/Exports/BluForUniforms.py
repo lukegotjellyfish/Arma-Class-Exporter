@@ -1,4 +1,4 @@
-"H_Cap_headphones": {
+"h_cap_headphones": {
     "author": "Bohemia Interactive",
     "_generalmacro": "H_Cap_headphones",
     "scope": 2,
@@ -676,7 +676,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhsgref_Booniehat_alpen": {
+"rhsgref_booniehat_alpen": {
     "author": "Red Hammer Studios",
     "picture": "rhsgref\\addons\\rhsgref_inventoryicons\\data\\Headgear\\rhsgref_Booniehat_alpen_ca.paa",
     "dlc": "RHS_GREF",
@@ -4074,7 +4074,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhsusf_iotv_ocp_SAW": {
+"rhsusf_iotv_ocp_saw": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\vests\\rhsusf_iotv_ocp_SAW_ca.paa",
     "scope": 2,
@@ -4440,7 +4440,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhsusf_iotv_ocp_Teamleader": {
+"rhsusf_iotv_ocp_teamleader": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\vests\\rhsusf_iotv_ocp_Teamleader_ca.paa",
     "scope": 2,
@@ -5172,7 +5172,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhsusf_iotv_ucp_SAW": {
+"rhsusf_iotv_ucp_saw": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\vests\\rhsusf_iotv_ucp_SAW_ca.paa",
     "scope": 2,
@@ -5538,7 +5538,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhsusf_iotv_ucp_Teamleader": {
+"rhsusf_iotv_ucp_teamleader": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\vests\\rhsusf_iotv_ucp_Teamleader_ca.paa",
     "scope": 2,
@@ -11390,7 +11390,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_Booniehat_ucp": {
+"rhs_booniehat_ucp": {
     "author": "Red Hammer Studios",
     "dlc": "RHS_USAF",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\headgear\\rhs_Booniehat_ucp_ca.paa",
@@ -11718,7 +11718,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"RHS_jetpilot_usaf": {
+"rhs_jetpilot_usaf": {
     "author": "Red Hammer Studios",
     "dlc": "RHS_USAF",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\headgear\\RHS_jetpilot_usaf_ca.paa",
@@ -13357,7 +13357,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_uniform_FROG01_d": {
+"rhs_uniform_frog01_d": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\uniform\\rhs_uniform_FROG01_d_ca.paa",
     "displayname": "FROG MARPAT-D",
@@ -13682,7 +13682,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_uniform_FROG01_wd": {
+"rhs_uniform_frog01_wd": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\uniform\\rhs_uniform_FROG01_wd_ca.paa",
     "scope": 2,
@@ -14982,7 +14982,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_B_HeliPilotCoveralls": {
+"u_b_helipilotcoveralls": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Heli Pilot Coveralls [NATO]",
@@ -15306,7 +15306,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_B_PilotCoveralls": {
+"u_b_pilotcoveralls": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Pilot Coveralls [NATO]",
@@ -15630,7 +15630,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_O_FullGhillie_ard": {
+"u_o_fullghillie_ard": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Arid) [CSAT]",
@@ -15955,7 +15955,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_O_FullGhillie_lsh": {
+"u_o_fullghillie_lsh": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Lush) [CSAT]",
@@ -16280,7 +16280,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"U_O_FullGhillie_sard": {
+"u_o_fullghillie_sard": {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Semi-Arid) [CSAT]",
@@ -16605,7 +16605,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"V_Chestrig_khk": {
+"v_chestrig_khk": {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_Chestrig_khk",
     "scope": 2,
@@ -16945,7 +16945,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"V_PlateCarrier2_blk": {
+"v_platecarrier2_blk": {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_PlateCarrier2_blk",
     "scope": 2,
@@ -17302,7 +17302,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"V_PlateCarrier2_rgr": {
+"v_platecarrier2_rgr": {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_PlateCarrier2_rgr",
     "scope": 2,
@@ -17659,7 +17659,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"V_TacVest_khk": {
+"v_tacvest_khk": {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_TacVest_khk",
     "scope": 2,
@@ -18016,7 +18016,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"V_TacVest_oli": {
+"v_tacvest_oli": {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_TacVest_oli",
     "displayname": "Tactical Vest (Olive)",

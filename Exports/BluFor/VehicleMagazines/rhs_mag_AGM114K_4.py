@@ -1,4 +1,4 @@
-rhs_mag_AGM114K_4 = {
+rhs_mag_agm114k_4 = {
     "model": "rhsusf|addons|rhsusf_airweapons|proxypylon|rhsusf_pylon_m_agm114_4x",
     "count": 4,
     "displayname": "AGM-114K (M299)",
@@ -217,7 +217,7 @@ rhs_mag_AGM114K_4 = {
     "displaynameshort": "LG",
     # Ammo: CfgMagazines|rhs_mag_AGM114K|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "RHS_ammo_AGM_114K",
+        "_dictAmmoName": "RHS_ammo_AGM_114K",
         "model": "rhsusf|addons|rhsusf_airweapons|proxyammo|rhsusf_m_AGM114K_fly",
         "proxyshape": "rhsusf|addons|rhsusf_airweapons|proxyammo|rhsusf_m_AGM114K",
         "indirecthit": 35,
@@ -285,7 +285,7 @@ rhs_mag_AGM114K_4 = {
         },
         # Ammo: CfgAmmo|rhs_ammo_Hellfire_AT|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_Hellfire_AT_penetrator",
+            "_dictAmmoName": "rhs_ammo_Hellfire_AT_penetrator",
             "warheadname": "TandemHEAT",
             "hit": 310,
             "caliber": 66.6667,
@@ -304,7 +304,7 @@ rhs_mag_AGM114K_4 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

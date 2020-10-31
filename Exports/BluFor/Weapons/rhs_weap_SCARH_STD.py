@@ -1,4 +1,4 @@
-rhs_weap_SCARH_STD = {
+rhs_weap_scarh_std = {
     "dlc": "RHS_SAF",
     "author": "Red Hammer Studios",
     "scope": 2,
@@ -126,6 +126,8 @@ rhs_weap_SCARH_STD = {
                 "rhsusf_acc_premier_mrds": 1,
                 "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
+                "rhsusf_acc_m8541_d": 1,
+                "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,

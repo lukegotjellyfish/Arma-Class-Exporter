@@ -1,4 +1,4 @@
-rhs_weap_HellfireLauncher = {
+rhs_weap_hellfirelauncher = {
     "scope": 2,
     "autofire": 0,
     "displayname": "AGM-114L Hellfire II",

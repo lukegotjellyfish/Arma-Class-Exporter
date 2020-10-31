@@ -1,8 +1,8 @@
-rhs_mag_1100Rnd_762x51_M240 = {
+rhs_mag_1100rnd_762x51_m240 = {
     "scope": 2,
     # Ammo: CfgMagazines|rhs_mag_1100Rnd_762x51_M240|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M80A1EPR_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M80A1EPR_Ball",
         "hit": 10.5,
         "caliber": 0.55,
         "airfriction": -0.0007114,

@@ -1,4 +1,4 @@
-"rhs_weap_2A14": {
+"rhs_weap_2a14": {
     "type": 1,
     "ballisticscomputer": 2,
     "canlock": 0,
@@ -36534,7 +36534,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_9k121_Launcher": {
+"rhs_weap_9k121_launcher": {
     "airateoffire": 5,
     "airateoffiredistance": 4000,
     "displayname": "9K121M",
@@ -40367,7 +40367,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_9P148": {
+"rhs_weap_9p148": {
     "autoreload": 0,
     "reloadtime": 1.5,
     # Class: CfgWeapons\\rhs_weap_9P148\\gunParticles [Indent level: 1],
@@ -40702,7 +40702,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_weap_AGS30": {
+"rhs_weap_ags30": {
     "type": 1,
     "ballisticscomputer": 2,
     "scope": 1,
@@ -42623,7 +42623,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"RHS_weap_AZP23": {
+"rhs_weap_azp23": {
     "scope": 1,
     "ballisticscomputer": 4,
     "displayname": "AZP-23",
@@ -44402,7 +44402,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_weap_DSHKM": {
+"rhs_weap_dshkm": {
     "type": 1,
     "initspeed": 0,
     # Class: CfgWeapons\\rhs_weap_DSHKM\\GunParticles [Indent level: 1],
@@ -55092,7 +55092,7 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
-"rhs_weap_GSh302": {
+"rhs_weap_gsh302": {
     "initspeed": 870,
     "displayname": "GSh-30-2",
     "modes": ["manual","close","short","medium","far"],
@@ -68681,7 +68681,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_PL1": {
+"rhs_weap_pl1": {
     "displayname": "PL-1 Laser Designator",
     "cursor": "EmptyCursor",
     "cursoraim": "EmptyCursor",
@@ -73394,7 +73394,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_SPG9": {
+"rhs_weap_spg9": {
     "scope": 2,
     "canlock": 0,
     "displayname": "SPG-9",
@@ -73712,7 +73712,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_yakB": {
+"rhs_weap_yakb": {
     "scope": 2,
     "aidispersioncoefx": 1.6,
     "aidispersioncoefy": 3,

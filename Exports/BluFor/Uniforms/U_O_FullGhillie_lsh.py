@@ -1,4 +1,4 @@
-U_O_FullGhillie_lsh = {
+u_o_fullghillie_lsh = {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Full Ghillie (Lush) [CSAT]",

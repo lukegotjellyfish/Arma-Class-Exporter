@@ -1,4 +1,4 @@
-rhsusf_mag_10Rnd_STD_50BMG_mk211 = {
+rhsusf_mag_10rnd_std_50bmg_mk211 = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "10rnd M107 Mk211",
@@ -6,7 +6,7 @@ rhsusf_mag_10Rnd_STD_50BMG_mk211 = {
     "descriptionshort": "10RD .50BMG Mk 211 HEIAP M107 Magazine",
     # Ammo: CfgMagazines|rhsusf_mag_10Rnd_STD_50BMG_mk211|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_ammo_127x99_mk211",
+        "_dictAmmoName": "rhsusf_ammo_127x99_mk211",
         "hit": 24.8085,
         "indirecthit": 4,
         "indirecthitrange": 2.76,

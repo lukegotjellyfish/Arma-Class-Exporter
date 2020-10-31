@@ -1023,7 +1023,7 @@
         }
     },
 },
-"rhs_weap_M136": {
+"rhs_weap_m136": {
     "dlc": "RHS_USAF",
     "scope": 2,
     "author": "Red Hammer Studios",
@@ -1411,7 +1411,7 @@
         }
     },
 },
-"rhs_weap_M136_hedp": {
+"rhs_weap_m136_hedp": {
     "author": "Red Hammer Studios",
     "displayname": "M136 (HEDP)",
     "descriptionshort": "Rocket launcher<br/>Caliber: 84mm<br/>Type: Single-shot Dual-purpose",
@@ -1799,7 +1799,7 @@
         }
     },
 },
-"rhs_weap_M320": {
+"rhs_weap_m320": {
     "author": "Red Hammer Studios",
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\weapons\\rhs_weap_M320_ca.paa",
     "scope": 2,
@@ -2789,7 +2789,7 @@
     },
     "aimtransitionspeed": 1,
 },
-"rhs_weap_m32_Base_F": {
+"rhs_weap_m32_base_f": {
     "dlc": "RHS_USAF",
     "uipicture": "A3\\weapons_f\\data\\UI\\icon_regular_CA.paa",
     "model": "rhsusf\\addons\\rhsusf_weapons2\\M32\\rhs_m32",

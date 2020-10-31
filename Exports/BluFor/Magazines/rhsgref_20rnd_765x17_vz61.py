@@ -9,7 +9,7 @@ rhsgref_20rnd_765x17_vz61 = {
     "picture": "rhssaf|addons|rhssaf_c_weapons|icons|m_scorpion.paa",
     # Ammo: CfgMagazines|rhsgref_20rnd_765x17_vz61|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9x17",
+        "_dictAmmoName": "rhs_ammo_9x17",
         "hit": 5.07,
         "typicalspeed": 272,
         "airfriction": -0.00176715,

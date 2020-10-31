@@ -1,4 +1,4 @@
-RHS_MK19 = {
+rhs_mk19 = {
     "type": 1,
     "scope": 1,
     "ballisticscomputer": 2,

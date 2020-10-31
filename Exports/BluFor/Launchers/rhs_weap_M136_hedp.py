@@ -1,4 +1,4 @@
-rhs_weap_M136_hedp = {
+rhs_weap_m136_hedp = {
     "author": "Red Hammer Studios",
     "displayname": "M136 (HEDP)",
     "descriptionshort": "Rocket launcher<br/>Caliber: 84mm<br/>Type: Single-shot Dual-purpose",

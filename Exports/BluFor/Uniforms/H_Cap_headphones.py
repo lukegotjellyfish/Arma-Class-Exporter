@@ -1,4 +1,4 @@
-H_Cap_headphones = {
+h_cap_headphones = {
     "author": "Bohemia Interactive",
     "_generalmacro": "H_Cap_headphones",
     "scope": 2,

@@ -6,7 +6,7 @@ rhs_mag_gsh30_bt_250 = {
     "displaynameshort": "BT-30-GSh",
     # Ammo: CfgMagazines|rhs_mag_gsh30_bt_750|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_gsh30_bt",
+        "_dictAmmoName": "rhs_ammo_gsh30_bt",
         "cost": 10,
         "aiammousageflags": "64 + 128 + 256",
         "weapontype": "mgun",

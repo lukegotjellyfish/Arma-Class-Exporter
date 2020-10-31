@@ -1,4 +1,4 @@
-rhs_Booniehat_ucp = {
+rhs_booniehat_ucp = {
     "author": "Red Hammer Studios",
     "dlc": "RHS_USAF",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|headgear|rhs_Booniehat_ucp_ca.paa",

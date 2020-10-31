@@ -1,4 +1,4 @@
-rhs_weap_Izh18 = {
+rhs_weap_izh18 = {
     "author": "Red Hammer Studios",
     "picture": "rhsgref|addons|rhsgref_inventoryicons|data|weapons|rhs_weap_Izh18_ca.paa",
     "dlc": "RHS_GREF",
@@ -142,6 +142,8 @@ rhs_weap_Izh18 = {
                 "rhsusf_acc_premier_mrds": 1,
                 "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
+                "rhsusf_acc_m8541_d": 1,
+                "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,

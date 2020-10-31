@@ -6,7 +6,7 @@ rhsgref_30rnd_556x45_vhs2 = {
     "picture": "rhsgref|addons|rhsgref_inventoryicons|data|magazines|rhsgref_30rnd_556x45_vhs2_ca.paa",
     # Ammo: CfgMagazines|rhsgref_30rnd_556x45_vhs2|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855A1_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855A1_Ball",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,

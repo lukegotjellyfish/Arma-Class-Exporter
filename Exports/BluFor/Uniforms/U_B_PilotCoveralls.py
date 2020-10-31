@@ -1,4 +1,4 @@
-U_B_PilotCoveralls = {
+u_b_pilotcoveralls = {
     "author": "Bohemia Interactive",
     "scope": 2,
     "displayname": "Pilot Coveralls [NATO]",

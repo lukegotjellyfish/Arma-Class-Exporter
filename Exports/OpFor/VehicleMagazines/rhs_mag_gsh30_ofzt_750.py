@@ -3,7 +3,7 @@ rhs_mag_gsh30_ofzt_750 = {
     "displaynameshort": "OFZT-30-Gsh",
     # Ammo: CfgMagazines|rhs_mag_gsh30_ofzt_750|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3uof8",
+        "_dictAmmoName": "rhs_ammo_3uof8",
         "hit": 50,
         "indirecthit": 33,
         "displayname": "3UOF8",

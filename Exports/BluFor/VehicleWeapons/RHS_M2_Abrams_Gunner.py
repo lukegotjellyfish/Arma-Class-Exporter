@@ -1,4 +1,4 @@
-RHS_M2_Abrams_Gunner = {
+rhs_m2_abrams_gunner = {
     "displayname": "M2 CSAMM",
     "displaynameshort": "M2 CSAMM",
     "canlock": 0,

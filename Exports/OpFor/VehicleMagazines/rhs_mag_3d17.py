@@ -4,7 +4,7 @@ rhs_mag_3d17 = {
     "initspeed": 50,
     # Ammo: CfgMagazines|rhs_mag_3d17|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3d17",
+        "_dictAmmoName": "rhs_ammo_3d17",
         "rhs_smokeshell": "rhs_ammo_3d17_shell",
         "muzzleeffect": "",
         "weaponlocksystem": "1 + 2 + 4",

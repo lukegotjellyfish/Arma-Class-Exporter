@@ -1,4 +1,4 @@
-RHS_Mi24V_vvs = {
+rhs_mi24v_vvs = {
     "editorpreview": "rhsafrf|addons|rhs_editorPreviews|data|rhs_Mi24V_vvs.paa",
     "scope": 2,
     "author": "Red Hammer Studios",

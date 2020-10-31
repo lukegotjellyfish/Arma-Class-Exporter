@@ -3,7 +3,7 @@ rhs_mag_fab250 = {
     "scope": 2,
     # Ammo: CfgMagazines|rhs_mag_fab250|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_fab250",
+        "_dictAmmoName": "rhs_ammo_fab250",
         "hit": 5000,
         "indirecthit": 1140,
         "indirecthitrange": 15,

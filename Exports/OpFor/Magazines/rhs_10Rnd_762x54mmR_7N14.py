@@ -1,11 +1,11 @@
-rhs_10Rnd_762x54mmR_7N14 = {
+rhs_10rnd_762x54mmr_7n14 = {
     "author": "Red Hammer Studios",
     "displayname": "10rnd SVD 7N14",
     "descriptionshort": "7N14 10rnd SVD Mag",
     "displaynameshort": "7N14 AP",
     # Ammo: CfgMagazines|rhs_10Rnd_762x54mmR_7N14|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_762x54_7N14_Ball",
+        "_dictAmmoName": "rhs_B_762x54_7N14_Ball",
         "hit": 13.61,
         "typicalspeed": 823,
         "airfriction": -0.000756,

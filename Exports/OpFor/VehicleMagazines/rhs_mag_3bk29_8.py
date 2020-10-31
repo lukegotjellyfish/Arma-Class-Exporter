@@ -3,13 +3,13 @@ rhs_mag_3bk29_8 = {
     "displaynameshort": "3BK29",
     # Ammo: CfgMagazines|rhs_mag_3bk29_8|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3bk29",
+        "_dictAmmoName": "rhs_ammo_3bk29",
         "hit": 230,
         "typicalspeed": 915,
         "warheadname": "TandemHEAT",
         # Ammo: CfgAmmo|rhs_ammo_3bk29|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_3bk29_penetrator",
+            "_dictAmmoName": "rhs_ammo_3bk29_penetrator",
             "caliber": 53.3333,
             "warheadname": "HEAT",
             "hit": 290,
@@ -29,7 +29,7 @@ rhs_mag_3bk29_8 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

@@ -1,4 +1,4 @@
-RHS_Ka52_vvs = {
+rhs_ka52_vvs = {
     "editorpreview": "rhsafrf|addons|rhs_editorPreviews|data|rhs_Ka52_vvs.paa",
     "scope": 2,
     "faction": "rhs_faction_vvs",
@@ -35,8 +35,8 @@ RHS_Ka52_vvs = {
     "minmainrotordive": -7,
     "neutralmainrotordive": 0,
     "gearretracting": 1,
-    "mainrotorspeed": -1,
-    "backrotorspeed": -1,
+    "mainrotorspeed": 1,
+    "backrotorspeed": 1,
     "mainbladeradius": 6.9,
     "tailbladeradius": 6.9,
     "tailbladecenter": "tail_blade_center",

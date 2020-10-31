@@ -1,7 +1,7 @@
-Rhs_mag_b13l_s13b = {
+rhs_mag_b13l_s13b = {
     # Ammo: CfgMagazines|rhs_mag_b13l_s13b|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_s13b",
+        "_dictAmmoName": "rhs_ammo_s13b",
         "proxyshape": "rhsafrf|addons|rhs_airweapons|s13_rockets|rhs_r_s13_gasket",
         "model": "rhsafrf|addons|rhs_airweapons|s13_rockets|rhs_r_s13b_fly",
         "hit": 470,
@@ -48,7 +48,7 @@ Rhs_mag_b13l_s13b = {
         "soundfly": ["A3|Sounds_F|weapons|Rockets|rocket_fly_2",1,1.5,700],
         # Ammo: CfgAmmo|rhs_ammo_s8|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_s8_penetrator",
+            "_dictAmmoName": "rhs_ammo_s8_penetrator",
             "submunitionconetype": ["randomcenter",5],
             "caliber": 26.6667,
             "warheadname": "HEAT",
@@ -68,7 +68,7 @@ Rhs_mag_b13l_s13b = {
             "effectfly": "",
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

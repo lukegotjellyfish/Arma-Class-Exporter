@@ -1,4 +1,4 @@
-RHS_weap_AGS30 = {
+rhs_weap_ags30 = {
     "type": 1,
     "ballisticscomputer": 2,
     "scope": 1,

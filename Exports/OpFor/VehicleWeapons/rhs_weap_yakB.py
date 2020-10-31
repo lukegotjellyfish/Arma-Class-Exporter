@@ -1,4 +1,4 @@
-rhs_weap_yakB = {
+rhs_weap_yakb = {
     "scope": 2,
     "aidispersioncoefx": 1.6,
     "aidispersioncoefy": 3,

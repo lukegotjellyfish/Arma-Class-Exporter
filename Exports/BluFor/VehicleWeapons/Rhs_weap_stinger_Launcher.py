@@ -1,4 +1,4 @@
-Rhs_weap_stinger_Launcher = {
+rhs_weap_stinger_launcher = {
     "displayname": "FIM-92F Stinger",
     "reloadtime": 4,
     "magazinereloadtime": 5,

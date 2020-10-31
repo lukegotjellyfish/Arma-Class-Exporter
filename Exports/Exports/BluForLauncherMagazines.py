@@ -1,4 +1,4 @@
-"rhsusf_mag_6Rnd_M441_HE": {
+"rhsusf_mag_6rnd_m441_he": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "6rnd M441 HE Grenade Rounds",
@@ -6,7 +6,7 @@
     "mass": 30.36,
     # Ammo: CfgMagazines\\rhs_mag_M441_HE\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_40mm_HE",
+        "_dictAmmoName": "rhsusf_40mm_HE",
         "aiammousageflags": "64 + 256",
         "hit": 60,
         "indirecthit": 5,
@@ -232,7 +232,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0
 },
-"rhs_fgm148_magazine_AT": {
+"rhs_fgm148_magazine_at": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "Javelin AT",
@@ -242,7 +242,7 @@
     "count": 1,
     # Ammo: CfgMagazines\\rhs_fgm148_magazine_AT\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_M_fgm148_AT",
+        "_dictAmmoName": "rhs_ammo_M_fgm148_AT",
         "afmax": 200,
         "aiammousageflags": "128 + 512",
         "audiblefire": 32,
@@ -250,7 +250,7 @@
         "warheadname": "TandemHEAT",
         # Ammo: CfgAmmo\\rhs_ammo_M_fgm148_AT\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M_fgm148_AT_penetrator",
+            "_dictAmmoName": "rhs_ammo_M_fgm148_AT_penetrator",
             "warheadname": "TandemHEAT",
             "hit": 380,
             "caliber": 64.6667,
@@ -269,7 +269,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -1671,7 +1671,7 @@
     "descriptionshort": "Type: Surface-to-air<br />Caliber: 70 mm<br />Used in: FIM-92",
     # Ammo: CfgMagazines\\rhs_fim92_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_fim92_missile",
+        "_dictAmmoName": "rhs_ammo_fim92_missile",
         "model": "rhsusf\\addons\\rhsusf_weapons\\FIM92\\Stinger_Rocket",
         "hit": 60,
         "indirecthit": 55,
@@ -1703,7 +1703,7 @@
         "submunitionconeangle": 65,
         # Ammo: CfgAmmo\\rhs_ammo_fim92_missile\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_he_fragments",
+            "_dictAmmoName": "rhs_ammo_he_fragments",
             "caliber": 0.888889,
             "hit": 40,
             "indirecthit": 3,
@@ -2894,10 +2894,10 @@
     "descriptionshort": "Type: High Explosive, Dual Purpose",
     # Ammo: CfgMagazines\\rhs_m136_hedp_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_M136_hedp_rocket",
+        "_dictAmmoName": "rhs_ammo_M136_hedp_rocket",
         # Ammo: CfgAmmo\\rhs_ammo_M136_hedp_rocket\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M136_hedp_penetrator",
+            "_dictAmmoName": "rhs_ammo_M136_hedp_penetrator",
             "hit": 235,
             "caliber": 10,
             "warheadname": "HEAT",
@@ -2916,7 +2916,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -4267,10 +4267,10 @@
     "model": "A3\\weapons_f\\empty",
     # Ammo: CfgMagazines\\rhs_m136_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_M136_rocket",
+        "_dictAmmoName": "rhs_ammo_M136_rocket",
         # Ammo: CfgAmmo\\rhs_ammo_M136_rocket\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M136_penetrator",
+            "_dictAmmoName": "rhs_ammo_M136_penetrator",
             "caliber": 26.6667,
             "warheadname": "HEAT",
             "hit": 290,
@@ -4289,7 +4289,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -5631,10 +5631,10 @@
     "displayname": "M72 HEDP",
     # Ammo: CfgMagazines\\rhs_m72a7_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_m72a7_rocket",
+        "_dictAmmoName": "rhs_ammo_m72a7_rocket",
         # Ammo: CfgAmmo\\rhs_ammo_m72a7_rocket\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M136_hedp_penetrator",
+            "_dictAmmoName": "rhs_ammo_M136_hedp_penetrator",
             "hit": 235,
             "caliber": 10,
             "warheadname": "HEAT",
@@ -5653,7 +5653,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -6995,12 +6995,12 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_M441_HE": {
+"rhs_mag_m441_he": {
     "author": "Red Hammer Studios",
     "mass": 5.06,
     # Ammo: CfgMagazines\\rhs_mag_M441_HE\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_40mm_HE",
+        "_dictAmmoName": "rhsusf_40mm_HE",
         "aiammousageflags": "64 + 256",
         "hit": 60,
         "indirecthit": 5,
@@ -7229,7 +7229,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_maaws_HE": {
+"rhs_mag_maaws_he": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "FFV441 HE",
@@ -7240,7 +7240,7 @@
     "displaynameshort": "441 HE",
     # Ammo: CfgMagazines\\rhs_mag_maaws_HE\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_maaws_HE",
+        "_dictAmmoName": "rhs_ammo_maaws_HE",
         "effectfly": "ArtilleryTrails",
         "soundhit1": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Artillery_tank_shell_155mm_explosion_01",2.51189,1,1900],
         "soundhit2": ["A3\\Sounds_F\\arsenal\\explosives\\shells\\Artillery_tank_shell_155mm_explosion_02",2.51189,1,1900],
@@ -7464,7 +7464,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_maaws_HEAT": {
+"rhs_mag_maaws_heat": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "FFV751 HEAT",
@@ -7475,10 +7475,10 @@
     "displaynameshort": "751 HEAT",
     # Ammo: CfgMagazines\\rhs_mag_maaws_HEAT\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_maaws_HEAT",
+        "_dictAmmoName": "rhs_ammo_maaws_HEAT",
         # Ammo: CfgAmmo\\rhs_ammo_maaws_HEAT\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_maaws_HEAT_penetrator",
+            "_dictAmmoName": "rhs_ammo_maaws_HEAT_penetrator",
             "caliber": 39.3333,
             "warheadname": "TandemHEAT",
             "hit": 290,
@@ -7497,7 +7497,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -8855,7 +8855,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_smaw_HEAA": {
+"rhs_mag_smaw_heaa": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "Mk.6 HEAA",
@@ -8866,10 +8866,10 @@
     "displaynameshort": "Mk.6 HEAA",
     # Ammo: CfgMagazines\\rhs_mag_smaw_HEAA\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_smaw_HEAA",
+        "_dictAmmoName": "rhs_ammo_smaw_HEAA",
         # Ammo: CfgAmmo\\rhs_ammo_smaw_HEAA\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_smaw_HEAA_penetrator",
+            "_dictAmmoName": "rhs_ammo_smaw_HEAA_penetrator",
             "caliber": 39.3333,
             "warheadname": "HEAT",
             "hit": 290,
@@ -8888,7 +8888,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -10240,7 +10240,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_mag_smaw_HEDP": {
+"rhs_mag_smaw_hedp": {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "Mk.3 HEDP",
@@ -10251,10 +10251,10 @@
     "displaynameshort": "Mk.3 HEDP",
     # Ammo: CfgMagazines\\rhs_mag_smaw_HEDP\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_smaw_HEDP",
+        "_dictAmmoName": "rhs_ammo_smaw_HEDP",
         # Ammo: CfgAmmo\\rhs_ammo_smaw_HEDP\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_smaw_HEDP_penetrator",
+            "_dictAmmoName": "rhs_ammo_smaw_HEDP_penetrator",
             "hit": 235,
             "caliber": 16.6667,
             "warheadname": "HEAT",
@@ -10273,7 +10273,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhsusf_ammo_basic_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

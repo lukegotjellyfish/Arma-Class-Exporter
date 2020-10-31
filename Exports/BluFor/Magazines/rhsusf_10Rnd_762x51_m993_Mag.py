@@ -1,4 +1,4 @@
-rhsusf_10Rnd_762x51_m993_Mag = {
+rhsusf_10rnd_762x51_m993_mag = {
     "author": "Red Hammer Studios",
     "model": "rhsusf|addons|rhsusf_weapons|magazines|rhs_10rnd_aics_mag",
     "modelspecial": "rhsusf|addons|rhsusf_weapons|mag_proxies|rhs_mag_762x51_aics_10rnd",
@@ -8,7 +8,7 @@ rhsusf_10Rnd_762x51_m993_Mag = {
     "picture": "A3|weapons_f|data|UI|M_20Rnd_762x51_CA.paa",
     # Ammo: CfgMagazines|rhsusf_10Rnd_762x51_m993_Mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M993_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M993_Ball",
         "caliber": 1.41176,
         "typicalspeed": 910,
         "cartridge": "",

@@ -1,4 +1,4 @@
-rhsusf_mag_10Rnd_STD_50BMG_M33 = {
+rhsusf_mag_10rnd_std_50bmg_m33 = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "initspeed": 853,
@@ -15,7 +15,7 @@ rhsusf_mag_10Rnd_STD_50BMG_M33 = {
     "reloadaction": "",
     # Ammo: CfgMagazines|10Rnd_RHS_50BMG_Box|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_ammo_127x99_M33_Ball",
+        "_dictAmmoName": "rhsusf_ammo_127x99_M33_Ball",
         "hit": 25.3075,
         "indirecthit": 0,
         "indirecthitrange": 0,

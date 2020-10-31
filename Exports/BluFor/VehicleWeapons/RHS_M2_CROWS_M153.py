@@ -1,4 +1,4 @@
-RHS_M2_CROWS_M153 = {
+rhs_m2_crows_m153 = {
     "magazinereloadtime": 25,
     "ballisticscomputer": "2 + 16",
     "magazines": ["rhs_mag_100rnd_127x99_mag","rhs_mag_100rnd_127x99_mag_Tracer_Red","rhs_mag_100rnd_127x99_mag_Tracer_Green","rhs_mag_100rnd_127x99_mag_Tracer_Yellow","rhs_mag_100rnd_127x99_SLAP_mag","rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Red","rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Green","rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Yellow","rhs_mag_200rnd_127x99_mag","rhs_mag_200rnd_127x99_mag_Tracer_Red","rhs_mag_200rnd_127x99_SLAP_mag","rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red","rhs_mag_400rnd_127x99_mag","rhs_mag_400rnd_127x99_mag_Tracer_Red","rhs_mag_400rnd_127x99_SLAP_mag","rhs_mag_400rnd_127x99_SLAP_mag_Tracer_Red"],

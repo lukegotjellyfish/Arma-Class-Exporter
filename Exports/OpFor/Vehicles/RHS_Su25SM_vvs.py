@@ -1,4 +1,4 @@
-RHS_Su25SM_vvs = {
+rhs_su25sm_vvs = {
     "editorpreview": "rhsafrf|addons|rhs_editorPreviews|data|rhs_Su25SM_vvs.paa",
     "faction": "rhs_faction_vvs",
     "scope": 2,

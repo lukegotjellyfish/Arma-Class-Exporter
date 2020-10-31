@@ -1,11 +1,11 @@
-rhsusf_5Rnd_762x51_m993_Mag = {
+rhsusf_5rnd_762x51_m993_mag = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rnd M993 AP",
     "displaynameshort": "M993 AP",
     # Ammo: CfgMagazines|rhsusf_5Rnd_762x51_m993_Mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M993_Ball",
+        "_dictAmmoName": "rhs_ammo_762x51_M993_Ball",
         "caliber": 1.41176,
         "typicalspeed": 910,
         "cartridge": "",

@@ -1,4 +1,4 @@
-V_TacVest_oli = {
+v_tacvest_oli = {
     "author": "Bohemia Interactive",
     "_generalmacro": "V_TacVest_oli",
     "displayname": "Tactical Vest (Olive)",

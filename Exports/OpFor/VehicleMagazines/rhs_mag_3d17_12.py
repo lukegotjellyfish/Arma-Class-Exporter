@@ -1,7 +1,7 @@
 rhs_mag_3d17_12 = {
     # Ammo: CfgMagazines|rhs_mag_3d17_12|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3d17_902B",
+        "_dictAmmoName": "rhs_ammo_3d17_902B",
         "rhs_smokeshell": "rhs_ammo_3d17_shell_902B",
         "muzzleeffect": "",
         "weaponlocksystem": "1 + 2 + 4",

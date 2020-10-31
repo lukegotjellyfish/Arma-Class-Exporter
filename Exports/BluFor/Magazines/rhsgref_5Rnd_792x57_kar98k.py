@@ -1,4 +1,4 @@
-rhsgref_5Rnd_792x57_kar98k = {
+rhsgref_5rnd_792x57_kar98k = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rnd 7.92x57mm clip",
@@ -6,7 +6,7 @@ rhsgref_5Rnd_792x57_kar98k = {
     "picture": "A3|Weapons_F_EPA|Data|ui|M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines|rhsgref_5Rnd_792x57_kar98k|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_792x57_Ball",
+        "_dictAmmoName": "rhs_ammo_792x57_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,

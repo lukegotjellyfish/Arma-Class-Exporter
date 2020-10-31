@@ -1,4 +1,4 @@
-rhsusf_5Rnd_00Buck = {
+rhsusf_5rnd_00buck = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5Rnd .00 Buckshot",
@@ -10,7 +10,7 @@ rhsusf_5Rnd_00Buck = {
     "modelspecialisproxy": 1,
     # Ammo: CfgMagazines|rhsusf_5Rnd_00Buck|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_12g_00buckshot",
+        "_dictAmmoName": "rhs_ammo_12g_00buckshot",
         "hit": 20,
         "simulation": "shotSubmunitions",
         "simulationstep": 0.0001,
@@ -18,7 +18,7 @@ rhsusf_5Rnd_00Buck = {
         "triggerspeedcoef": [0.84,1],
         # Ammo: CfgAmmo|rhs_ammo_12g_00buckshot|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_12g_00buckshot_pellet",
+            "_dictAmmoName": "rhs_ammo_12g_00buckshot_pellet",
             "hit": 4.75,
             "indirecthit": 0,
             "indirecthitrange": 0,

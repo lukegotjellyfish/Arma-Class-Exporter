@@ -1,12 +1,12 @@
-rhs_mag_9m113M = {
+rhs_mag_9m113m = {
     "displayname": "ATGM 9M113M",
     "displaynameshort": "9M113M",
     # Ammo: CfgMagazines|rhs_mag_9m113M|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9m113M",
+        "_dictAmmoName": "rhs_ammo_9m113M",
         # Ammo: CfgAmmo|rhs_ammo_9m113m|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_9m113m_penetrator",
+            "_dictAmmoName": "rhs_ammo_9m113m_penetrator",
             "warheadname": "TandemHEAT",
             "caliber": 50,
             "hit": 290,
@@ -26,7 +26,7 @@ rhs_mag_9m113M = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

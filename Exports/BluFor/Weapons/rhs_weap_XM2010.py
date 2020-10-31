@@ -1,4 +1,4 @@
-rhs_weap_XM2010 = {
+rhs_weap_xm2010 = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|weapons|rhs_weap_XM2010_ca.paa",
     "scope": 2,
@@ -92,6 +92,8 @@ rhs_weap_XM2010 = {
                 "rhsusf_acc_premier_mrds": 1,
                 "rhsusf_acc_premier_low": 1,
                 "rhsusf_acc_m8541": 1,
+                "rhsusf_acc_m8541_d": 1,
+                "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,

@@ -3,10 +3,10 @@ rhs_m72a7_mag = {
     "displayname": "M72 HEDP",
     # Ammo: CfgMagazines|rhs_m72a7_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_m72a7_rocket",
+        "_dictAmmoName": "rhs_ammo_m72a7_rocket",
         # Ammo: CfgAmmo|rhs_ammo_m72a7_rocket|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_M136_hedp_penetrator",
+            "_dictAmmoName": "rhs_ammo_M136_hedp_penetrator",
             "hit": 235,
             "caliber": 10,
             "warheadname": "HEAT",
@@ -25,7 +25,7 @@ rhs_m72a7_mag = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

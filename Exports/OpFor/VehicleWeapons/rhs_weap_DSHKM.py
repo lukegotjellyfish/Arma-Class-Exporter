@@ -1,4 +1,4 @@
-rhs_weap_DSHKM = {
+rhs_weap_dshkm = {
     "type": 1,
     "initspeed": 0,
     # Class: CfgWeapons|rhs_weap_DSHKM|GunParticles [Indent level: 1],

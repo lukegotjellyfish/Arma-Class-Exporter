@@ -1,4 +1,4 @@
-rhsgref_30Rnd_792x33_SmE_StG = {
+rhsgref_30rnd_792x33_sme_stg = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
@@ -7,7 +7,7 @@ rhsgref_30Rnd_792x33_SmE_StG = {
     "picture": "A3|Weapons_F_EPA|Data|ui|M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines|rhsgref_30Rnd_792x33_SmE_StG|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_792x33_SmE_ball",
+        "_dictAmmoName": "rhs_ammo_792x33_SmE_ball",
         "hit": 7.5,
         "indirecthit": 0,
         "indirecthitrange": 0,

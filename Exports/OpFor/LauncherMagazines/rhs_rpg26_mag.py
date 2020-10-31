@@ -10,13 +10,13 @@ rhs_rpg26_mag = {
     "model": "A3|weapons_f|empty",
     # Ammo: CfgMagazines|rhs_rpg26_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg26_rocket",
+        "_dictAmmoName": "rhs_rpg26_rocket",
         "aiammousageflags": "128+256+512",
         "model": "rhsafrf|addons|rhs_weapons|rpg26|rpg26_projectile",
         "warheadname": "HEAT",
         # Ammo: CfgAmmo|rhs_rpg26_rocket|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_rpg26_penetrator",
+            "_dictAmmoName": "rhs_rpg26_penetrator",
             "caliber": 29.3333,
             "warheadname": "HEAT",
             "hit": 290,
@@ -36,7 +36,7 @@ rhs_rpg26_mag = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhs_ammo_base_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

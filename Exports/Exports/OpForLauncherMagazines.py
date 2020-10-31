@@ -2,7 +2,7 @@
     "author": "Red Hammer Studios",
     # Ammo: CfgMagazines\\rhs_mag_9k38_rocket\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9k38",
+        "_dictAmmoName": "rhs_ammo_9k38",
         "cmimmunity": 0.9,
         "maxspeed": 800,
         "maneuvrability": 34,
@@ -78,7 +78,7 @@
         "submunitionconeangle": 65,
         # Ammo: CfgAmmo\\rhs_ammo_9k32\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_he_fragments",
+            "_dictAmmoName": "rhs_ammo_he_fragments",
             "caliber": 0.888889,
             "hit": 40,
             "indirecthit": 3,
@@ -1235,13 +1235,13 @@
     "model": "A3\\weapons_f\\empty",
     # Ammo: CfgMagazines\\rhs_rpg26_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg26_rocket",
+        "_dictAmmoName": "rhs_rpg26_rocket",
         "aiammousageflags": "128+256+512",
         "model": "rhsafrf\\addons\\rhs_weapons\\rpg26\\rpg26_projectile",
         "warheadname": "HEAT",
         # Ammo: CfgAmmo\\rhs_rpg26_rocket\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_rpg26_penetrator",
+            "_dictAmmoName": "rhs_rpg26_penetrator",
             "caliber": 29.3333,
             "warheadname": "HEAT",
             "hit": 290,
@@ -1261,7 +1261,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhs_ammo_base_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -2612,7 +2612,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_rpg7_OG7V_mag": {
+"rhs_rpg7_og7v_mag": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_rpg7_OG7V_mag_ca.paa",
     "displayname": "OG-7V",
@@ -2622,7 +2622,7 @@
     "modelspecial": "rhsafrf\\addons\\rhs_weapons\\mag_proxies\\rhs_mag_og7v",
     # Ammo: CfgMagazines\\rhs_rpg7_OG7V_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_og7v",
+        "_dictAmmoName": "rhs_rpg7v2_og7v",
         "warheadname": "HE",
         "aiammousageflags": "64+128+256",
         "model": "rhsafrf\\addons\\rhs_weapons\\rpg7\\projectiles\\og7v",
@@ -2857,7 +2857,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_rpg7_PG7VL_mag": {
+"rhs_rpg7_pg7vl_mag": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_rpg7_PG7VL_mag_ca.paa",
     "scope": 2,
@@ -2871,11 +2871,11 @@
     "hiddenselectionstextures": ["rhsafrf\\addons\\rhs_weapons\\rpg7\\data\\rhs_rpg7v2_02_co.paa"],
     # Ammo: CfgMagazines\\rhs_rpg7_PG7VL_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_pg7vl",
+        "_dictAmmoName": "rhs_rpg7v2_pg7vl",
         "model": "rhsafrf\\addons\\rhs_weapons\\rpg7\\projectiles\\pg7vl",
         # Ammo: CfgAmmo\\rhs_rpg7v2_pg7vl\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_rpg7v2_pg7vl_penetrator",
+            "_dictAmmoName": "rhs_rpg7v2_pg7vl_penetrator",
             "caliber": 36,
             "warheadname": "HEAT",
             "hit": 290,
@@ -2895,7 +2895,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhs_ammo_base_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -4250,7 +4250,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_rpg7_PG7VR_mag": {
+"rhs_rpg7_pg7vr_mag": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_rpg7_PG7VR_mag_ca.paa",
     "displayname": "PG-7VR",
@@ -4260,13 +4260,13 @@
     "modelspecial": "rhsafrf\\addons\\rhs_weapons\\mag_proxies\\rhs_mag_pg7vr",
     # Ammo: CfgMagazines\\rhs_rpg7_PG7VR_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_pg7vr",
+        "_dictAmmoName": "rhs_rpg7v2_pg7vr",
         "aiammousageflags": "128+512",
         "model": "rhsafrf\\addons\\rhs_weapons\\rpg7\\projectiles\\pg7vr",
         "warheadname": "TandemHEAT",
         # Ammo: CfgAmmo\\rhs_rpg7v2_pg7vr\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_rpg7v2_pg7vr_penetrator",
+            "_dictAmmoName": "rhs_rpg7v2_pg7vr_penetrator",
             "warheadname": "TandemHEAT",
             "caliber": 41.3333,
             "hit": 290,
@@ -4286,7 +4286,7 @@
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo\\rhs_ammo_base_penetrator\\submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,
@@ -5643,7 +5643,7 @@
     "maxthrowintensitycoef": 1.4,
     "quickreload": 0,
 },
-"rhs_rpg7_TBG7V_mag": {
+"rhs_rpg7_tbg7v_mag": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\magazines\\rhs_rpg7_TBG7V_mag_ca.paa",
     "displayname": "TBG-7V",
@@ -5653,7 +5653,7 @@
     "modelspecial": "rhsafrf\\addons\\rhs_weapons\\mag_proxies\\rhs_mag_tbg7v",
     # Ammo: CfgMagazines\\rhs_rpg7_TBG7V_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rpg7v2_tbg7v",
+        "_dictAmmoName": "rhs_rpg7v2_tbg7v",
         "warheadname": "HE",
         "aiammousageflags": "64+128+256",
         "model": "rhsafrf\\addons\\rhs_weapons\\rpg7\\projectiles\\tbg7v",
@@ -5705,7 +5705,7 @@
         "submunitionconetype": ["randomupcone",15],
         # Ammo: CfgAmmo\\rhs_rpg7v2_tbg7v\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_thermobaric_wave",
+            "_dictAmmoName": "rhs_ammo_thermobaric_wave",
             "caliber": 6.66667,
             "hit": 10,
             "indirecthit": 20,
@@ -6831,7 +6831,7 @@
     "picture": "rhsafrf\\addons\\rhs_weapons\\icons\\rshg2rocket_ca.paa",
     # Ammo: CfgMagazines\\rhs_rshg2_mag\\ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rshg2_rocket",
+        "_dictAmmoName": "rhs_rshg2_rocket",
         "warheadname": "HE",
         "aiammousageflags": "64+128",
         "hit": 80,
@@ -6854,7 +6854,7 @@
         "submunitionconetype": ["randomupcone",15],
         # Ammo: CfgAmmo\\rhs_rshg2_rocket\\submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_thermobaric_wave",
+            "_dictAmmoName": "rhs_ammo_thermobaric_wave",
             "caliber": 6.66667,
             "hit": 10,
             "indirecthit": 20,

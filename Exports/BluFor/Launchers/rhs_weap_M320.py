@@ -1,4 +1,4 @@
-rhs_weap_M320 = {
+rhs_weap_m320 = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|weapons|rhs_weap_M320_ca.paa",
     "scope": 2,

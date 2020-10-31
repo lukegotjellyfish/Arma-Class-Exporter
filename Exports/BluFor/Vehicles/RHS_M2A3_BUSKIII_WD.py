@@ -1,4 +1,4 @@
-RHS_M2A3_BUSKIII_WD = {
+rhs_m2a3_buskiii_wd = {
     "faction": "rhs_faction_usarmy_wd",
     "crew": "rhsusf_army_ucp_crewman",
     "author": "Red Hammer Studios",

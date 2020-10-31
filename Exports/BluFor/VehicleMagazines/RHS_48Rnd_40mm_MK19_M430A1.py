@@ -1,13 +1,13 @@
-RHS_48Rnd_40mm_MK19_M430A1 = {
+rhs_48rnd_40mm_mk19_m430a1 = {
     "displayname": "Mk. 19 40mm M430A1 HEDP",
     "displaynameshort": "M430A1 HEDP",
     # Ammo: CfgMagazines|RHS_48Rnd_40mm_MK19_M430A1|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_mk19m3_M430A1",
+        "_dictAmmoName": "rhs_ammo_mk19m3_M430A1",
         "hit": 35,
         # Ammo: CfgAmmo|rhs_ammo_mk19m3_M430A1|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_mk19m3_M430A1_penetrator",
+            "_dictAmmoName": "rhs_ammo_mk19m3_M430A1_penetrator",
             "hit": 90,
             "caliber": 5.06667,
             "warheadname": "HEAT",
@@ -26,7 +26,7 @@ RHS_48Rnd_40mm_MK19_M430A1 = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

@@ -1,4 +1,4 @@
-RHS_weap_gau19 = {
+rhs_weap_gau19 = {
     "scope": 1,
     "displayname": "GAU-19/A",
     "cursor": "EmptyCursor",

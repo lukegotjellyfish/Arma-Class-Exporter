@@ -1,4 +1,4 @@
-rhs_weap_PL1 = {
+rhs_weap_pl1 = {
     "displayname": "PL-1 Laser Designator",
     "cursor": "EmptyCursor",
     "cursoraim": "EmptyCursor",

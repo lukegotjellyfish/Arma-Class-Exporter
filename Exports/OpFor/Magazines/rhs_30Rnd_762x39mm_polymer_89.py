@@ -1,4 +1,4 @@
-rhs_30Rnd_762x39mm_polymer_89 = {
+rhs_30rnd_762x39mm_polymer_89 = {
     "author": "Red Hammer Studios",
     "displayname": "30rnd AK-103 57-N-231(89)",
     "picture": "rhsafrf|addons|rhs_inventoryicons|data|magazines|rhs_30Rnd_762x39mm_89_ca.paa",
@@ -7,7 +7,7 @@ rhs_30Rnd_762x39mm_polymer_89 = {
     "displaynameshort": "57-N-231(89)",
     # Ammo: CfgMagazines|rhs_30Rnd_762x39mm_89|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_762x39_Ball_89",
+        "_dictAmmoName": "rhs_B_762x39_Ball_89",
         "caliber": 0.928505,
         "cartridge": "FxCartridge_762x39",
         "hit": 8.5,

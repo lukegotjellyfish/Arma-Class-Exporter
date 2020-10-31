@@ -1,11 +1,11 @@
-rhsusf_5Rnd_762x51_m62_Mag = {
+rhsusf_5rnd_762x51_m62_mag = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "5rnd M62 (Tracer)",
     "displaynameshort": "M62 Tracer",
     # Ammo: CfgMagazines|rhsusf_5Rnd_762x51_m62_Mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_762x51_M62_tracer",
+        "_dictAmmoName": "rhs_ammo_762x51_M62_tracer",
         "hit": 11,
         "typicalspeed": 817,
         "indirecthit": 0,

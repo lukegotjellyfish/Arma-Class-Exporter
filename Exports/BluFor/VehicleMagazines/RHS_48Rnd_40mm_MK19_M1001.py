@@ -1,13 +1,13 @@
-RHS_48Rnd_40mm_MK19_M1001 = {
+rhs_48rnd_40mm_mk19_m1001 = {
     "displayname": "Mk. 19 40mm M1001 Canister",
     "displaynameshort": "M1001 Canister",
     # Ammo: CfgMagazines|RHS_48Rnd_40mm_MK19_M1001|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_mk19m3_M1001",
+        "_dictAmmoName": "rhs_ammo_mk19m3_M1001",
         "simulation": "shotSubmunitions",
         # Ammo: CfgAmmo|rhs_ammo_mk19m3_M1001|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_flechettes",
+            "_dictAmmoName": "rhs_ammo_flechettes",
             "hit": 4,
             "indirecthit": 0,
             "indirecthitrange": 0.15,

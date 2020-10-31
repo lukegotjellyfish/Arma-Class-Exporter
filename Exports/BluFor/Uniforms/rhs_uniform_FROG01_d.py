@@ -1,4 +1,4 @@
-rhs_uniform_FROG01_d = {
+rhs_uniform_frog01_d = {
     "author": "Red Hammer Studios",
     "picture": "rhsusf|addons|rhsusf_inventoryicons|data|uniform|rhs_uniform_FROG01_d_ca.paa",
     "displayname": "FROG MARPAT-D",

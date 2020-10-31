@@ -1,4 +1,4 @@
-rhs_weap_9k121_Launcher = {
+rhs_weap_9k121_launcher = {
     "airateoffire": 5,
     "airateoffiredistance": 4000,
     "displayname": "9K121M",

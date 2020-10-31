@@ -12,7 +12,7 @@ rhs_mag_9x19mm_7n21_20 = {
     "type": 16,
     # Ammo: CfgMagazines|rhs_mag_9x19_17|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_9x19_7N21",
+        "_dictAmmoName": "rhs_B_9x19_7N21",
         "hit": 5.97,
         "typicalspeed": 393.192,
         "airfriction": -0.00176715,

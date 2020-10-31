@@ -1,13 +1,13 @@
-rhs_mag_2Rnd_TOW2B_AERO = {
+rhs_mag_2rnd_tow2b_aero = {
     "scope": 2,
     # Ammo: CfgMagazines|rhs_mag_2Rnd_TOW2B_AERO|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_TOW2B_AERO_AT",
+        "_dictAmmoName": "rhs_ammo_TOW2B_AERO_AT",
         "model": "rhsusf|addons|rhsusf_heavyweapons|atgm|TOW2BAERO",
         "maxcontrolrange": 4000,
         # Ammo: CfgAmmo|rhs_ammo_TOW2B_AT|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_TOW2B_AT_penetrator",
+            "_dictAmmoName": "rhs_ammo_TOW2B_AT_penetrator",
             "warheadname": "TandemHEAT",
             "caliber": 20,
             "hit": 290,
@@ -26,7 +26,7 @@ rhs_mag_2Rnd_TOW2B_AERO = {
             "submunitionconetype": ["randomcenter",30],
             # Ammo: CfgAmmo|rhsusf_ammo_basic_penetrator|submunitionAmmo [Indent level: 1],
             "submunitionammo": {
-                "submunitionammo": "rhs_ammo_spall",
+                "_dictAmmoName": "rhs_ammo_spall",
                 "caliber": 10,
                 "hit": 20,
                 "indirecthit": 0,

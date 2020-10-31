@@ -1,4 +1,4 @@
-rhsgref_mi24g_CAS = {
+rhsgref_mi24g_cas = {
     "editorpreview": "rhsgref|addons|rhsgref_editorPreviews|data|rhsgref_mi24g_CAS.paa",
     "displayname": "Mi-24G",
     "scope": 2,

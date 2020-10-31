@@ -1,4 +1,4 @@
-RHS_weap_AZP23 = {
+rhs_weap_azp23 = {
     "scope": 1,
     "ballisticscomputer": 4,
     "displayname": "AZP-23",

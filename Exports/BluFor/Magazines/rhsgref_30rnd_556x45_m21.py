@@ -9,7 +9,7 @@ rhsgref_30rnd_556x45_m21 = {
     "picture": "rhssaf|addons|rhssaf_c_weapons|icons|m_m21mag_icon_ca.paa",
     # Ammo: CfgMagazines|rhsgref_30rnd_556x45_m21|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_556x45_M855_Ball",
+        "_dictAmmoName": "rhs_ammo_556x45_M855_Ball",
         "model": "A3|Weapons_f|Data|bullettracer|tracer_red",
         "cartridge": "RHS_Cartridge_556x45_m855",
         "hit": 9,

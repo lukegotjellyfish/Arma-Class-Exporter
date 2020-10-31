@@ -1,4 +1,4 @@
-RHS_weap_M242BC = {
+rhs_weap_m242bc = {
     "aidispersioncoefx": 4,
     "aidispersioncoefy": 6,
     "airateoffire": 2,

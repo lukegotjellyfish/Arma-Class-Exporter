@@ -5,7 +5,7 @@ rhs_mag_3ubr6_195 = {
     "displaynameshort": "3UBR6",
     # Ammo: CfgMagazines|rhs_mag_3ubr6_230|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_3ubr6",
+        "_dictAmmoName": "rhs_ammo_3ubr6",
         "hit": 60,
         "displayname": "3UBR6",
         "caliber": 3.78007,

@@ -1,4 +1,4 @@
-rhsusf_mag_6Rnd_M441_HE = {
+rhsusf_mag_6rnd_m441_he = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "displayname": "6rnd M441 HE Grenade Rounds",
@@ -6,7 +6,7 @@ rhsusf_mag_6Rnd_M441_HE = {
     "mass": 30.36,
     # Ammo: CfgMagazines|rhs_mag_M441_HE|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhsusf_40mm_HE",
+        "_dictAmmoName": "rhsusf_40mm_HE",
         "aiammousageflags": "64 + 256",
         "hit": 60,
         "indirecthit": 5,

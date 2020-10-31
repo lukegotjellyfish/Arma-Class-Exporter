@@ -7,7 +7,7 @@ rhs_rshg2_mag = {
     "picture": "rhsafrf|addons|rhs_weapons|icons|rshg2rocket_ca.paa",
     # Ammo: CfgMagazines|rhs_rshg2_mag|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_rshg2_rocket",
+        "_dictAmmoName": "rhs_rshg2_rocket",
         "warheadname": "HE",
         "aiammousageflags": "64+128",
         "hit": 80,
@@ -30,7 +30,7 @@ rhs_rshg2_mag = {
         "submunitionconetype": ["randomupcone",15],
         # Ammo: CfgAmmo|rhs_rshg2_rocket|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_thermobaric_wave",
+            "_dictAmmoName": "rhs_ammo_thermobaric_wave",
             "caliber": 6.66667,
             "hit": 10,
             "indirecthit": 20,

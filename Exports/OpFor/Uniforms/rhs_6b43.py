@@ -37,15 +37,15 @@ rhs_6b43 = {
             # Class: CfgWeapons|rhs_6b43|ItemInfo|HitpointsProtectionInfo|Abdomen [Indent level: 3],
             "abdomen": {
                 "hitpointname": "HitAbdomen",
-                "armor": 22,
-                "passthrough": 0.3,
-                "simulation": "RHS_Gost_4"
+                "armor": 28,
+                "passthrough": 0.1,
+                "simulation": "RHS_Gost_6"
             },
             # Class: CfgWeapons|rhs_6b43|ItemInfo|HitpointsProtectionInfo|Body [Indent level: 3],
             "body": {
                 "hitpointname": "HitBody",
-                "passthrough": 0.3,
-                "simulation": "RHS_Gost_4"
+                "passthrough": 0.1,
+                "simulation": "RHS_Gost_6"
             }
         },
         "hiddenselections": ["Camo1","Camo2"],

@@ -1,4 +1,4 @@
-rhsgref_50Rnd_792x57_SmE_drum = {
+rhsgref_50rnd_792x57_sme_drum = {
     "author": "Red Hammer Studios",
     "scope": 2,
     "scopecurator": 2,
@@ -9,7 +9,7 @@ rhsgref_50Rnd_792x57_SmE_drum = {
     "picture": "rhsgref|addons|rhsgref_weapons2|icons|rhs_inv_mg42_drum_mag_ca.paa",
     # Ammo: CfgMagazines|rhsgref_50Rnd_792x57_SmE_drum|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_792x57_Ball",
+        "_dictAmmoName": "rhs_ammo_792x57_Ball",
         "hit": 11.55,
         "indirecthit": 0,
         "indirecthitrange": 0,

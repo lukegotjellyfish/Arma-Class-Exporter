@@ -2,7 +2,7 @@ rhs_mag_9k38_rocket = {
     "author": "Red Hammer Studios",
     # Ammo: CfgMagazines|rhs_mag_9k38_rocket|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_9k38",
+        "_dictAmmoName": "rhs_ammo_9k38",
         "cmimmunity": 0.9,
         "maxspeed": 800,
         "maneuvrability": 34,
@@ -78,7 +78,7 @@ rhs_mag_9k38_rocket = {
         "submunitionconeangle": 65,
         # Ammo: CfgAmmo|rhs_ammo_9k32|submunitionAmmo [Indent level: 1],
         "submunitionammo": {
-            "submunitionammo": "rhs_ammo_he_fragments",
+            "_dictAmmoName": "rhs_ammo_he_fragments",
             "caliber": 0.888889,
             "hit": 40,
             "indirecthit": 3,

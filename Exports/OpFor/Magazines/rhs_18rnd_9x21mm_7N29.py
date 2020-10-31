@@ -1,7 +1,7 @@
-rhs_18rnd_9x21mm_7N29 = {
+rhs_18rnd_9x21mm_7n29 = {
     # Ammo: CfgMagazines|rhs_18rnd_9x21mm_7N29|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_B_9x21_7N29",
+        "_dictAmmoName": "rhs_B_9x21_7N29",
         "hit": 9.47,
         "typicalspeed": 410,
         "airfriction": -0.00176715,

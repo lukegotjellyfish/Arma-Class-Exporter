@@ -4,7 +4,7 @@ rhs_mag_145x115mm_50 = {
     "count": 50,
     # Ammo: CfgMagazines|rhs_mag_145x115mm_50|ammo [Indent level: 1],
     "ammo": {
-        "ammo": "rhs_ammo_145x115mm",
+        "_dictAmmoName": "rhs_ammo_145x115mm",
         "tracerendtime": 2.35,
         "typicalspeed": 988,
         "airfriction": -0.00052,
