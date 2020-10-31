@@ -160,8 +160,28 @@ def getDisplayName(side, category, _class):
 def getMagazineCapacity(side, category, _class):
     return fetchSide([side + category, _class, "count"])
 
-def getAmmoHit(side, category, _class):
+def getHit(side, category, _class):
     return fetchSide([side + category, _class, "ammo", "hit"])
+
+def getIndirectHit(side, category, _class):
+    return fetchSide([side + category, _class, "ammo", "indirecthit"])
+
+def getIndirectRange(side, category, _class):
+    return fetchSide([side + category, _class, "ammo", "indirecthitrange"])
+
+def getSubmunition(side, category, _class):
+    submunitionAmmoTest = fetchSide([side + category, _class, "ammo", "submunitionammo"])
+    if isinstance(submunitionAmmoTest, list) == False:
+        submunitionAmmoTest = fetchSide([side + category, _class, "ammo", "submunitionammo", "_dictAmmoName"])
+    else:
+        # If it is a list it containts two or more submunitions with a number (probability it  is created on firing)
+        submunitionAmmo = []
+        count = len(submunitionAmmoTest)
+        for i in range(0, count, 2):
+            submunitionAmmo.append(submunitionAmmoTest[i])
+
+    print("SubmunitionAmmo: " + str(submunitionAmmo))
+    return submunitionAmmo
 
 def getDisplayNameShort(side, category, _class):
     return fetchSide([side + category, _class, "displaynameshort"])
@@ -193,6 +213,18 @@ def getThrustTime(side, category, _class):
 def getMaxSpeed(side, category, _class):
     return fetchSide([side + category, _class, "ammo","maxspeed"])
 
+def getSubmunitionValues(side, submunition):
+    subDamage         = getHit(side, "VehicleMagazines", submunition)
+    subIndirectDamage = getIndirectHit(side, "VehicleMagazines", submunition)
+    subIndirectRange  = getIndirectRange(side, "VehicleMagazines", submunition)
+    subInitialSpeed   = getInitialSpeed(side, "VehicleMagazines", submunition)
+    subTypicalSpeed   = getTypicalSpeed(side, "VehicleMagazines", submunition)
+    subCaliber        = getCaliber(side, "VehicleMagazines", submunition)
+    subPenetration    = ('{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.015)/10,2)).zfill(4) + "|" +
+                            '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.080)/10,2)).zfill(5) + "|" +
+                            '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.250)/10,2)).zfill(5))
+    return [subDamage, subIndirectDamage, subIndirectRange, subInitialSpeed, subTypicalSpeed, subCaliber, subPenetration]
+
 def getWeaponStats(weapon, magazine, side):
     name          = getDisplayName(side, "Weapons", weapon)
     cartridge     = getDisplayNameShort(side, "Magazines", magazine)
@@ -210,7 +242,7 @@ def getWeaponStats(weapon, magazine, side):
                 "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
 
     magCapacity   = getMagazineCapacity(side, "Magazines", magazine)
-    damage        = getAmmoHit(side, "Magazines", magazine)
+    damage        = getHit(side, "Magazines", magazine)
     fireModes     = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, "Weapons", weapon)]
     rpm           = getModeDependant(side + "Weapons", weapon, fireModes, "reloadtime")
     wepClass      = weapon
@@ -251,25 +283,57 @@ def getWeaponStats(weapon, magazine, side):
             hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], "X", wepClass, magClass, caliber]
 
 def getVehicleWeaponStats(weapon, magazine, side):
-    name              = ""
-    cartridge         = ""
-    capacity          = 0
-    damage            = 0
-    indirectDamage    = 0
-    indirectRange     = 0
-    subDamgae         = 0
-    subIndirectDamage = 0
-    subIndirectRange  = 0
-    fireModes         = ""
-    rpm               = 0
-    dispersion        = 0
-    initialSpeed      = 0
-    typicalSpeed      = 0
-    subInitialSpeed   = 1000  #Constant for "all" RHS submunitions
-    subTypicalSpeed   = 0
-    airResistance     = 0
-    penetration       = 0
-    subPenetration    = 0
+    name              = getDisplayName(side, "VehicleWeapons", weapon)
+    cartridge         = getCartridge(side, "VehicleMagazines", magazine)
+    capacity          = getMagazineCapacity(side, "VehicleMagazines", magazine)
+    damage            = getHit(side, "VehicleMagazines", magazine)
+    indirectDamage    = getIndirectHit(side, "VehicleMagazines", magazine)
+    indirectRange     = getIndirectRange(side, "VehicleMagazines", magazine)
+    submunition       = getSubmunition(side, "VehicleMagazines", magazine)
+
+    subDamage         = []
+    subIndirectDamage = []
+    subIndirectRange  = []
+    subInitialSpeed   = []
+    subTypicalSpeed   = []
+    subCaliber        = []
+    subPenetration    = []
+    subArray          = []
+    if isinstance(submunition, list):
+        submunitionCount = len(submunition)
+        for i in range(0, submunitionCount, 1):
+            subArray = (getSubmunitionValues(side, submunition[i]))
+            subDamage.append(subArray[0])
+            subIndirectDamage.append(subArray[1])
+            subIndirectRange.append(subArray[2])
+            subInitialSpeed.append(subArray[3])
+            subTypicalSpeed.append(subArray[4])
+            subCaliber.append(subArray[5])
+            subPenetration.append(subArray[6])
+    else:
+        subArray = (getSubmunitionValues(side, submunition))
+        subDamage.append(subArray[0])
+        subIndirectDamage.append(subArray[1])
+        subIndirectRange.append(subArray[2])
+        subInitialSpeed.append(subArray[3])
+        subTypicalSpeed.append(subArray[4])
+        subCaliber.append(subArray[5])
+        subPenetration.append(subArray[6])
+
+
+
+    caliber           = getCaliber(side, "VehicleMagazines", magazine)
+    fireModes         = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, "VehicleWeapons", weapon)]
+    rpm               = getModeDependant(side + "VehicleWeapons", weapon, fireModes, "reloadtime")
+    dispersion        = getModeDependant(side + "VehicleWeapons", weapon, fireModes, "dispersion")
+    initialSpeed      = getInitialSpeed(side, "VehicleMagazines", magazine)
+    typicalSpeed      = getTypicalSpeed(side, "VehicleMagazines", magazine)
+    airResistance     = getAirResistance(side, "VehicleMagazines", magazine)
+    penetration       = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015)/10,2)).zfill(4) + "|" +
+                         '{:.2f}'.format(round((typicalSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
+                         '{:.2f}'.format(round((typicalSpeed * caliber * 0.250)/10,2)).zfill(5))
+
+
 
     # hit = hit * (speed / typicalSpeed)
     hitValues = []
@@ -278,12 +342,13 @@ def getVehicleWeaponStats(weapon, magazine, side):
         # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
         hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
 
-    thrust            = 0
-    thrustTime        = 0
-    maxSpeed          = 0
-    weaponClass       = ""
-    magazineClass     = ""
-    caliber           = 0
+    thrust            = getThrust(side, "VehicleMagazines", magazine)
+    thrustTime        = getThrustTime(side, "VehicleMagazines", magazine)
+    maxSpeed          = getMaxSpeed(side, "VehicleMagazines", magazine)
+
+    return [name, cartridge, capacity, damage, indirectDamage, indirectRange, subDamage, subIndirectDamage, subIndirectRange,
+            fireModes, rpm, dispersion, initialSpeed, typicalSpeed, airResistance, penetration, subPenetration, hitValues,
+            thrust, thrustTime, maxSpeed, weapon, magazine, caliber]
 
 def writeWeaponStats(weapon, side, csvwriter):
     weaponStats = getWeaponStats(weapon[0], weapon[1], side)
@@ -335,72 +400,72 @@ weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM
                "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m", "Unlock Level"
                "Weapon Class", "Magazine Class", "Caliber"]
 bluForWeapons = [
-    ["rhs_weap_g36kv"         ,"rhssaf_30rnd_556x45_EPR_G36"          ],
-    ["rhs_weap_hk416d145"     ,"rhs_mag_30Rnd_556x45_Mk318_Stanag"    ],
-    ["rhs_weap_kar98k"        ,"rhsgref_5Rnd_792x57_kar98k"           ],
-    ["rhs_weap_l1a1_base"     ,"rhs_mag_20Rnd_762x51_m80_fnfal"       ],
-    ["rhs_weap_M107"          ,"rhsusf_mag_10Rnd_STD_50BMG_M33"       ],
-    ["rhs_weap_m14ebrri"      ,"rhsusf_20Rnd_762x51_m118_special_Mag" ],
-    ["rhs_weap_m16a4"         ,"rhs_mag_30Rnd_556x45_M855_Stanag"     ],
-    ["rhs_weap_m1garand_sa43" ,"rhsgref_8Rnd_762x63_M2B_M1rifle"      ],
+    ["rhs_weap_g36kv"         ,"rhssaf_30rnd_556x45_epr_g36"          ],
+    ["rhs_weap_hk416d145"     ,"rhs_mag_30rnd_556x45_mk318_stanag"    ],
+    ["rhs_weap_kar98k"        ,"rhsgref_5rnd_792x57_kar98k"           ],
+    ["rhs_weap_l1a1_base"     ,"rhs_mag_20rnd_762x51_m80_fnfal"       ],
+    ["rhs_weap_m107"          ,"rhsusf_mag_10rnd_std_50bmg_m33"       ],
+    ["rhs_weap_m14ebrri"      ,"rhsusf_20rnd_762x51_m118_special_mag" ],
+    ["rhs_weap_m16a4"         ,"rhs_mag_30rnd_556x45_m855_stanag"     ],
+    ["rhs_weap_m1garand_sa43" ,"rhsgref_8rnd_762x63_m2b_m1rifle"      ],
     ["rhs_weap_m21a"          ,"rhsgref_30rnd_556x45_m21"             ],
-    ["rhs_weap_m240G"         ,"Rhsusf_100Rnd_762x51"                 ],
-    ["rhs_weap_m249_pip"      ,"rhs_200rnd_556x45_B_SAW"              ],
-    ["rhs_weap_m249"          ,"rhs_200rnd_556x45_B_SAW"              ],
-    ["rhs_weap_m24sws"        ,"rhsusf_5Rnd_762x51_m993_Mag"          ],
-    ["rhs_weap_m27iar"        ,"rhs_mag_30Rnd_556x45_Mk318_Stanag"    ],
-    ["rhs_weap_m3a1_specops"  ,"rhsgref_30rnd_1143x23_M1911B_SMG"     ],
-    ["rhs_weap_m40a5"         ,"rhsusf_10Rnd_762x51_m993_Mag"         ],
-    ["rhs_weap_m4a1_blockII"  ,"rhs_mag_30Rnd_556x45_Mk262_Stanag"    ],
-    ["rhs_weap_m4a1"          ,"rhs_mag_30Rnd_556x45_M855_Stanag"     ],
-    ["rhs_weap_M590_5RD"      ,"rhsusf_5Rnd_00Buck"                   ],
-    ["rhs_weap_M590_5RD"      ,"rhsusf_5Rnd_Slug"                     ],
-    ["rhs_weap_mg42"          ,"rhsgref_50Rnd_792x57_SmE_drum"        ],
-    ["rhs_weap_mk18"          ,"rhs_mag_30Rnd_556x45_Mk262_Stanag"    ],
-    ["rhs_weap_mosin_sbr"     ,"rhsgref_5Rnd_762x54_m38"              ],
-    ["rhs_weap_MP44"          ,"rhsgref_30Rnd_792x33_SmE_StG"         ],
+    ["rhs_weap_m240g"         ,"rhsusf_100rnd_762x51"                 ],
+    ["rhs_weap_m249_pip"      ,"rhs_200rnd_556x45_b_saw"              ],
+    ["rhs_weap_m249"          ,"rhs_200rnd_556x45_b_saw"              ],
+    ["rhs_weap_m24sws"        ,"rhsusf_5rnd_762x51_m993_mag"          ],
+    ["rhs_weap_m27iar"        ,"rhs_mag_30rnd_556x45_mk318_stanag"    ],
+    ["rhs_weap_m3a1_specops"  ,"rhsgref_30rnd_1143x23_m1911b_smg"     ],
+    ["rhs_weap_m40a5"         ,"rhsusf_10rnd_762x51_m993_mag"         ],
+    ["rhs_weap_m4a1_blockii"  ,"rhs_mag_30rnd_556x45_mk262_stanag"    ],
+    ["rhs_weap_m4a1"          ,"rhs_mag_30rnd_556x45_m855_stanag"     ],
+    ["rhs_weap_m590_5rd"      ,"rhsusf_5rnd_00buck"                   ],
+    ["rhs_weap_m590_5rd"      ,"rhsusf_5rnd_slug"                     ],
+    ["rhs_weap_mg42"          ,"rhsgref_50rnd_792x57_sme_drum"        ],
+    ["rhs_weap_mk18"          ,"rhs_mag_30rnd_556x45_mk262_stanag"    ],
+    ["rhs_weap_mosin_sbr"     ,"rhsgref_5rnd_762x54_m38"              ],
+    ["rhs_weap_mp44"          ,"rhsgref_30rnd_792x33_sme_stg"         ],
     ["rhs_weap_savz61"        ,"rhsgref_20rnd_765x17_vz61"            ],
-    ["rhs_weap_SCARH_STD"     ,"rhs_mag_20Rnd_SCAR_762x51_m80_ball"   ],
-    ["rhs_weap_sr25"          ,"rhsusf_20Rnd_762x51_m118_special_Mag" ],
+    ["rhs_weap_scarh_std"     ,"rhs_mag_20rnd_scar_762x51_m80_ball"   ],
+    ["rhs_weap_sr25"          ,"rhsusf_20rnd_762x51_m118_special_mag" ],
     ["rhs_weap_type94_new"    ,"rhs_mag_6x8mm_mhp"                    ],
-    ["rhs_weap_XM2010"        ,"rhsusf_5Rnd_300winmag_xm2010"         ],
-    ["rhsusf_weap_glock17g4"  ,"rhsusf_mag_17Rnd_9x19_JHP"            ],
-    ["rhsusf_weap_m1911a1"    ,"rhsusf_mag_7x45acp_MHP"               ],
-    ["rhsusf_weap_m9"         ,"rhsusf_mag_15Rnd_9x19_JHP"            ],
-    ["rhsusf_weap_MP7A2"      ,"rhsusf_mag_40Rnd_46x30_JHP"           ]
+    ["rhs_weap_xm2010"        ,"rhsusf_5rnd_300winmag_xm2010"         ],
+    ["rhsusf_weap_glock17g4"  ,"rhsusf_mag_17rnd_9x19_jhp"            ],
+    ["rhsusf_weap_m1911a1"    ,"rhsusf_mag_7x45acp_mhp"               ],
+    ["rhsusf_weap_m9"         ,"rhsusf_mag_15rnd_9x19_jhp"            ],
+    ["rhsusf_weap_mp7a2"      ,"rhsusf_mag_40rnd_46x30_jhp"           ]
 ]
 opForWeapons = [
-    ["rhs_weap_ak103"        ,"rhs_30Rnd_762x39mm_polymer_89"],
-    ["rhs_weap_ak74"         ,"rhs_30Rnd_545x39_7N6_AK"      ],
-    ["rhs_weap_6p53"         ,"rhs_18rnd_9x21mm_7N29"        ] ,
-    ["rhs_weap_pb_6p9"       ,"rhs_mag_9x18_8_57N181S"       ] ,
+    ["rhs_weap_ak103"        ,"rhs_30rnd_762x39mm_polymer_89"],
+    ["rhs_weap_ak74"         ,"rhs_30rnd_545x39_7n6_ak"      ],
+    ["rhs_weap_6p53"         ,"rhs_18rnd_9x21mm_7n29"        ] ,
+    ["rhs_weap_pb_6p9"       ,"rhs_mag_9x18_8_57n181s"       ] ,
     ["rhs_weap_pya"          ,"rhs_mag_9x19_17"              ] ,
-    ["rhs_weap_makarov_pm"   ,"rhs_mag_9x18_8_57N181S"       ] ,
+    ["rhs_weap_makarov_pm"   ,"rhs_mag_9x18_8_57n181s"       ] ,
     ["rhs_weap_pp2000_folded","rhs_mag_9x19mm_7n21_20"       ] ,
     ["rhs_weap_tt33"         ,"rhs_mag_762x25_8"             ] ,
-    ["rhs_weap_ak74m"        ,"rhs_30Rnd_545x39_7N10_AK"     ],
-    ["rhs_weap_ak74mr"       ,"rhs_30Rnd_545x39_7N22_AK"     ],
-    ["rhs_weap_akmn"         ,"rhs_30Rnd_762x39mm"           ],
-    ["rhs_weap_aks74un"      ,"rhs_30Rnd_545x39_7N6M_AK"     ],
-    ["rhs_weap_asval_npz"    ,"rhs_20rnd_9x39mm_SP6"         ],
-    ["rhs_weap_asval"        ,"rhs_20rnd_9x39mm_SP6"         ],
-    ["rhs_weap_dsr1"         ,"rhsusf_5Rnd_762x51_m62_Mag"   ],
-    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_00Buck"          ],
-    ["rhs_weap_Izh18"        ,"rhsgref_1Rnd_Slug"            ],
-    ["rhs_weap_m38_rail"     ,"rhsgref_5Rnd_762x54_m38"      ],
-    ["rhs_weap_m38"          ,"rhsgref_5Rnd_762x54_m38"      ],
-    ["rhs_weap_m76"          ,"rhsgref_10Rnd_792x57_m76"     ],
-    ["rhs_weap_m84"          ,"rhssaf_250Rnd_762x54R"        ],
-    ["rhs_weap_pkm"          ,"rhs_100Rnd_762x54mmR"         ],
-    ["rhs_weap_pkp"          ,"rhs_100Rnd_762x54mmR"         ],
-    ["rhs_weap_savz58p_rail" ,"rhs_30Rnd_762x39mm"           ],
-    ["rhs_weap_savz58v_fold" ,"rhs_30Rnd_762x39mm"           ],
-    ["rhs_weap_svdp_npz"     ,"rhs_10Rnd_762x54mmR_7N14"     ],
-    ["rhs_weap_svdp"         ,"rhs_10Rnd_762x54mmR_7N14"     ],
-    ["rhs_weap_t5000"        ,"rhs_5Rnd_338lapua_t5000"      ],
+    ["rhs_weap_ak74m"        ,"rhs_30rnd_545x39_7n10_ak"     ],
+    ["rhs_weap_ak74mr"       ,"rhs_30rnd_545x39_7n22_ak"     ],
+    ["rhs_weap_akmn"         ,"rhs_30rnd_762x39mm"           ],
+    ["rhs_weap_aks74un"      ,"rhs_30rnd_545x39_7n6m_ak"     ],
+    ["rhs_weap_asval_npz"    ,"rhs_20rnd_9x39mm_sp6"         ],
+    ["rhs_weap_asval"        ,"rhs_20rnd_9x39mm_sp6"         ],
+    ["rhs_weap_dsr1"         ,"rhsusf_5rnd_762x51_m62_mag"   ],
+    ["rhs_weap_izh18"        ,"rhsgref_1rnd_00buck"          ],
+    ["rhs_weap_izh18"        ,"rhsgref_1rnd_slug"            ],
+    ["rhs_weap_m38_rail"     ,"rhsgref_5rnd_762x54_m38"      ],
+    ["rhs_weap_m38"          ,"rhsgref_5rnd_762x54_m38"      ],
+    ["rhs_weap_m76"          ,"rhsgref_10rnd_792x57_m76"     ],
+    ["rhs_weap_m84"          ,"rhssaf_250rnd_762x54r"        ],
+    ["rhs_weap_pkm"          ,"rhs_100rnd_762x54mmr"         ],
+    ["rhs_weap_pkp"          ,"rhs_100rnd_762x54mmr"         ],
+    ["rhs_weap_savz58p_rail" ,"rhs_30rnd_762x39mm"           ],
+    ["rhs_weap_savz58v_fold" ,"rhs_30rnd_762x39mm"           ],
+    ["rhs_weap_svdp_npz"     ,"rhs_10rnd_762x54mmr_7n14"     ],
+    ["rhs_weap_svdp"         ,"rhs_10rnd_762x54mmr_7n14"     ],
+    ["rhs_weap_t5000"        ,"rhs_5rnd_338lapua_t5000"      ],
     ["rhs_weap_vhsd2"        ,"rhsgref_30rnd_556x45_vhs2"    ],
-    ["rhs_weap_vss_npz"      ,"rhs_10rnd_9x39mm_SP5"         ],
-    ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_SP5"         ]
+    ["rhs_weap_vss_npz"      ,"rhs_10rnd_9x39mm_sp5"         ],
+    ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_sp5"         ]
 ]
 
 
@@ -410,7 +475,7 @@ vehicleWeaponArray = ["Name","Cartridge","Capacity","Damage","Indirect Damage","
                       "Thrust", "Thrust Time", "Max speed",
                       "Weapon Class", "Magazine Class", "Caliber"]
 bluForVehicleWeapons = [
-    ["rhs_weap_gau8"          ,"rhs_mag_1150Rnd_30x173"               ]
+    ["rhs_weap_gau8"          ,"rhs_mag_1150rnd_30x173_mixed"]
 ]
 
 
@@ -432,7 +497,7 @@ with open("OpForWeaponExport.csv", "w", newline='\n') as csvfile:
 with open("BluForVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
-    csvwriter.writerow(bluForVehicleWeapons)
+    csvwriter.writerow(vehicleWeaponArray)
     for weapon in bluForVehicleWeapons:
         writeVehicleWeaponStats(weapon, "BluFor", csvwriter)
 
