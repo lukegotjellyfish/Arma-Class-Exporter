@@ -133,7 +133,25 @@ def filterFireModes(fireModes, rpm, dispersion):
             singleRPMdispersion = filterModes(mode, singleRPMdispersion, rpm, dispersion, x)
         elif mode.count("auto") > 0 or mode.count("manual") > 0 or mode.count("burst") > 0:
             fullautoRPMdispersion = filterModes(mode, fullautoRPMdispersion, rpm, dispersion, x)
-    return [singleRPMdispersion, fullautoRPMdispersion]
+    modeStats = [singleRPMdispersion, fullautoRPMdispersion]
+
+    #stringModeStats = ""
+    prevSets = []
+    fireModes = ""
+    rpm = ""
+    dispersion = ""
+    for fireGroup in modeStats:
+        for fireType in fireGroup:
+            if fireType[0] != "":
+                fireModes += fireType[0].title() + "\\"
+                #If matching values not already an added set
+                if ([fireType[1],fireType[2]] not in prevSets):
+                    #stringModeStats += fireType[0].title() + ": RPM[" + str(fireType[1]) + "] | Dispersion[" + str(fireType[2]) + "]\n"
+                    rpm        += '{:.2f}'.format(round(60/fireType[1],2)).zfill(6)
+                    dispersion += '{:.7f}'.format(fireType[2])
+                    prevSets.append([fireType[1],fireType[2]])
+
+    return [fireModes, rpm, dispersion]
 
 
 def getDisplayName(side, category, _class):
@@ -211,21 +229,10 @@ def getWeaponStats(weapon, magazine, side):
 
     #FireMode filtering, likely more useful for vehicle weapons
     modeStats     = filterFireModes(fireModes, rpm, dispersion)
-    stringModeStats = ""
-    prevSets = []
-    fireModes = ""
-    rpm = ""
-    dispersion = ""
-    for fireGroup in modeStats:
-        for fireType in fireGroup:
-            if fireType[0] != "":
-                fireModes += fireType[0].title() + "\\"
-                #If matching values not already an added set
-                if ([fireType[1],fireType[2]] not in prevSets):
-                    stringModeStats += fireType[0].title() + ": RPM[" + str(fireType[1]) + "] | Dispersion[" + str(fireType[2]) + "]\n"
-                    rpm        += '{:.2f}'.format(round(60/fireType[1],2)).zfill(6)
-                    dispersion += '{:.7f}'.format(fireType[2])
-                    prevSets.append([fireType[1],fireType[2]])
+    fireModes     = modeStats[0]
+    rpm           = modeStats[1]
+    dispersion    = modeStats[2]
+
 
     # hit = hit * (speed / typicalSpeed)
     hitValues = []
@@ -243,6 +250,40 @@ def getWeaponStats(weapon, magazine, side):
             initialSpeed, typicalSpeed, airResistance, penetration,
             hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], "X", wepClass, magClass, caliber]
 
+def getVehicleWeaponStats(weapon, magazine, side):
+    name              = ""
+    cartridge         = ""
+    capacity          = 0
+    damage            = 0
+    indirectDamage    = 0
+    indirectRange     = 0
+    subDamgae         = 0
+    subIndirectDamage = 0
+    subIndirectRange  = 0
+    fireModes         = ""
+    rpm               = 0
+    dispersion        = 0
+    initialSpeed      = 0
+    typicalSpeed      = 0
+    subInitialSpeed   = 1000  #Constant for "all" RHS submunitions
+    subTypicalSpeed   = 0
+    airResistance     = 0
+    penetration       = 0
+    subPenetration    = 0
+
+    # hit = hit * (speed / typicalSpeed)
+    hitValues = []
+    for distance in [100,500,1000,2000,3000]:
+        estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
+        # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
+        hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
+
+    thrust            = 0
+    thrustTime        = 0
+    maxSpeed          = 0
+    weaponClass       = ""
+    magazineClass     = ""
+    caliber           = 0
 
 def writeWeaponStats(weapon, side, csvwriter):
     weaponStats = getWeaponStats(weapon[0], weapon[1], side)
@@ -283,7 +324,16 @@ def writeWeaponStats(weapon, side, csvwriter):
     csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
 
+def writeVehicleWeaponStats(weapon, side, csvwriter):
+    weaponStats = getVehicleWeaponStats(weapon[0], weapon[1], side)
+    print(SEPERATOR)
+    print()
+    csvwriter.writerow(weaponStats)
+    print(SEPERATOR + "\n\n")
 
+weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
+               "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m", "Unlock Level"
+               "Weapon Class", "Magazine Class", "Caliber"]
 bluForWeapons = [
     ["rhs_weap_g36kv"         ,"rhssaf_30rnd_556x45_EPR_G36"          ],
     ["rhs_weap_hk416d145"     ,"rhs_mag_30Rnd_556x45_Mk318_Stanag"    ],
@@ -353,27 +403,38 @@ opForWeapons = [
     ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_SP5"         ]
 ]
 
-# [name, magazine count, damage, fire modes, RPM, weapon classname, magazine classnames, dispersion, initspeed, bullet friction, caliber, penetration]
 
-weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
-               "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m", "Unlock Level"
-               "Weapon Class", "Magazine Class", "Caliber"]
+vehicleWeaponArray = ["Name","Cartridge","Capacity","Damage","Indirect Damage","Indirect Range", "Submunition Damage", "Submunition Indirect Damage",
+                      "Submunition Indirect Range", "Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
+                      "Air Resistance", "Penetration", "Submunition Penetration", "Damage at 100m", "Damage at 500m", "Damage at 1000m", "Damage at 2000m", "Damage at 3000m",
+                      "Thrust", "Thrust Time", "Max speed",
+                      "Weapon Class", "Magazine Class", "Caliber"]
+bluForVehicleWeapons = [
+    ["rhs_weap_gau8"          ,"rhs_mag_1150Rnd_30x173"               ]
+]
 
-with open("BluForExport.csv", "w", newline='\n') as csvfile:
+
+
+with open("BluForWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(weaponArray)
     for weapon in bluForWeapons:
         writeWeaponStats(weapon, "BluFor", csvwriter)
 
-with open("OpForExport.csv", "w", newline='\n') as csvfile:
+with open("OpForWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(weaponArray)
     for weapon in opForWeapons:
         writeWeaponStats(weapon, "OpFor", csvwriter)
 
-
+with open("BluForVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
+    csvfile.truncate(0)  #Clear file
+    csvwriter = csv.writer(csvfile, delimiter=',')
+    csvwriter.writerow(bluForVehicleWeapons)
+    for weapon in bluForVehicleWeapons:
+        writeVehicleWeaponStats(weapon, "BluFor", csvwriter)
 
 
 # print('{:.2f}'.format(round((403.86 * 0.24 * 0.015)/10,2)).zfill(4) + "|" +
