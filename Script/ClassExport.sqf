@@ -475,6 +475,8 @@
 			"rhs_mag_9m119_4"                                   ,
 			"rhs_mag_9m119_6"                                   ,
 			"rhs_mag_9M120M_Mi24_2x"                            ,
+			"rhs_mag_9M120M_Mi28_8x",
+			"Rhs_mag_b13l_s13b",
 			"rhs_mag_9m133_2"                                   ,
 			"rhs_mag_9m14m"                                     ,
 			"rhs_mag_apu6_9m127m_ka52"                          ,
