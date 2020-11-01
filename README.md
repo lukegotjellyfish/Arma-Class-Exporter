@@ -16,4 +16,5 @@ make_file 64bit: http://killzonekid.com/arma-64-bit-extensions/<br>
 6. Run ./Exports/Run CombineDicts.py.bat to get two .py dicts for BluFor and OpFor (or edit for more factions)
 7. Run ./Exports/Script.py to get a csv export for BluFor and OpFor (or edit to select specific classes to export from CombinedBluFor.py and/or CombinedOpFor.py
 
-The dict files for each side are for more extensive writing of all classes for Script.py to then extract the data needed for writing to CSV file. They are currently set-up for creating two CSV files for relevant infantry (not launchers or uniforms yet) weapons at https://docs.google.com/spreadsheets/d/15aMgHLaf82euwx455wdVyjPHwko8tDf93RkpLejiQrE
+The dict files for each side are for more extensive writing of all classes for Script.py to then extract the data needed for writing to CSV file.<br>
+They are currently set-up for creating four CSV files for relevant infantry and vehicle(not launchers or uniforms yet) weapons at:<br> **https://docs.google.com/spreadsheets/d/15aMgHLaf82euwx455wdVyjPHwko8tDf93RkpLejiQrE**
