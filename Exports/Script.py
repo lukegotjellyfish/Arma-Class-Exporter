@@ -5,6 +5,7 @@ import csv
 import CombinedBluFor
 import CombinedOpFor
 import math
+from decimal import Decimal
 
 
 #\33[m
@@ -41,7 +42,6 @@ def bluFor(array, depth):
     if depth == 4:
         return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]]
     if depth == 5:
-        print(array[0], array[1], array[2], array[3], array[4])
         return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]]
     if depth == 6:
         return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
@@ -89,6 +89,7 @@ def fetchSide(array):
 """
 
 
+#I should learn how to use classes
 def getModeDependant(side, weapon, fireModes, wepProperty):
     thing = []
     try:
@@ -103,8 +104,6 @@ def getModeDependant(side, weapon, fireModes, wepProperty):
             continue
     return thing
 
-
-#I should learn how to use classes
 def filterModes(mode, array, rpm, dispersion, x):
     #If there is already a firemode
     if len(array) > 0:
@@ -119,7 +118,6 @@ def filterModes(mode, array, rpm, dispersion, x):
     else:
         array.append([mode,rpm[x],dispersion[x]])
     return array
-
 
 def filterRifleFireModes(fireModes, rpm, dispersion):
     if (len(fireModes) < len(rpm)) and (len(fireModes) < len(dispersion)):
@@ -167,7 +165,6 @@ def filterVehicleFireModes(fireModes, rpm, dispersion):
                 rpmX.append(rpm[x])
                 dispersionX.append(dispersion[x])
         x += 1
-
     return [fireModesX, rpmX, dispersionX]
 
 def getDisplayName(side, category, _class):
@@ -260,7 +257,6 @@ def getSubmunitionValues(side, magazine, submunition):
     subPenetration    = ('{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.015),2)).zfill(4) + "|" +
                             '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.080),2)).zfill(5) + "|" +
                             '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.250),2)).zfill(5))
-    print(str(subTypicalSpeed), str(subCaliber), str(0.015))
     return [subDamage, subIndirectDamage, subIndirectRange, subInitialSpeed, subTypicalSpeed, subCaliber, subPenetration]
 
 def getWeaponStats(weapon, magazine, side):
@@ -320,8 +316,48 @@ def getWeaponStats(weapon, magazine, side):
             initialSpeed, typicalSpeed, airResistance, penetration,
             hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], "X", wepClass, magClass, caliber]
 
+def writeWeaponStats(weapon, side, csvwriter):
+    weaponStats = getWeaponStats(weapon[0], weapon[1], side)
+    print(SEPERATOR)
+    print(ccyan + "           Name: " + cend + cgreen  + str(weaponStats[2])  + cend + "\n" +
+          ccyan + "      Cartridge: " + cend + cgreen  + str(weaponStats[3])  + cend + "\n" +
+          cred  + "       Capacity: " + cend + cviolet + str(weaponStats[4])  + cend + "\n" +
+          cred  + "         Damage: " + cend + cviolet + str(weaponStats[5])  + cend + "\n" +
+          ccyan + "     Fire Modes: " + cend + cyellow + str(weaponStats[6])  + cend + "\n" +
+          ccyan + "            RPM: " + cend + cyellow + str(weaponStats[7])  + cend + "\n" +
+          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[8]) + cend + "\n" +
+          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[9]) + cend + "\n" +
+          cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[10]) + cend + "\n" +
+          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[11]) + cend + "\n" +
+          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[12]) + cend + "\n" +
+          cred  + "     Ballistics: " + cend + cgreen  + "\n       " + str(weaponStats[13] + "\n" +
+                                                                           weaponStats[14] + "\n" +
+                                                                           weaponStats[15] + "\n" +
+                                                                           weaponStats[16] + "\n" +
+                                                                           weaponStats[17]).replace("\n","\n       ") + cend + "\n" +
+
+          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[19])  + cend + "\n" +
+          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[20])  + cend + "\n" +
+          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[21]) + cend)
+    #Force excel to parse as string
+    weaponStats[5]  = "=\"" + str(weaponStats[5])  + "\""
+    weaponStats[7]  = "=\"" + str(weaponStats[7])  + "\""
+    weaponStats[8]  = "=\"" + str(weaponStats[8])  + "\""
+    weaponStats[9]  = "=\"" + str(weaponStats[9])  + "\""
+    weaponStats[10] = "=\"" + str(weaponStats[10]) + "\""
+    weaponStats[11] = "=\"" + str(weaponStats[11]) + "\""
+    weaponStats[12] = "=\"" + str(weaponStats[12]) + "\""
+    weaponStats[13] = "=\"" + str(weaponStats[13]) + "\""
+    weaponStats[14] = "=\"" + str(weaponStats[14]) + "\""
+    weaponStats[15] = "=\"" + str(weaponStats[15]) + "\""
+    weaponStats[16] = "=\"" + str(weaponStats[16]) + "\""
+    weaponStats[17] = "=\"" + str(weaponStats[17]) + "\""
+    csvwriter.writerow(weaponStats)
+    print(SEPERATOR + "\n\n")
+
 def getVehicleWeaponStats(weapon, magazine, side):
     name              = getDisplayName(side, "VehicleWeapons", weapon)
+    print(name)
     cartridge         = getDisplayNameShort(side, "VehicleMagazines", magazine)
     capacity          = getMagazineCapacity(side, "VehicleMagazines", magazine)
     damage            = getHit(side, "VehicleMagazines", magazine)
@@ -379,7 +415,10 @@ def getVehicleWeaponStats(weapon, magazine, side):
     # hit = hit * (speed / typicalSpeed)
     hitValues = []
     for distance in [100,500,1000,2000,3000]:
-        estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
+        try:
+            estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
+        except OverflowError:
+            estSpeed = float(initialSpeed * (1/Decimal(abs(airResistance)).exp() * distance))
         # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
         hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
         if hitValues[0] == 0:
@@ -416,50 +455,10 @@ def getVehicleWeaponStats(weapon, magazine, side):
             hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4],
             thrust, thrustTime, maxSpeed, weapon, magazine, caliber, subCaliber]
 
-
-def writeWeaponStats(weapon, side, csvwriter):
-    weaponStats = getWeaponStats(weapon[0], weapon[1], side)
-    print(SEPERATOR)
-    print(ccyan + "           Name: " + cend + cgreen  + str(weaponStats[2])  + cend + "\n" +
-          ccyan + "      Cartridge: " + cend + cgreen  + str(weaponStats[3])  + cend + "\n" +
-          cred  + "       Capacity: " + cend + cviolet + str(weaponStats[4])  + cend + "\n" +
-          cred  + "         Damage: " + cend + cviolet + str(weaponStats[5])  + cend + "\n" +
-          ccyan + "     Fire Modes: " + cend + cyellow + str(weaponStats[6])  + cend + "\n" +
-          ccyan + "            RPM: " + cend + cyellow + str(weaponStats[7])  + cend + "\n" +
-          ccyan + "     Dispersion: " + cend + cyellow + str(weaponStats[8]) + cend + "\n" +
-          cred  + "  Initial Speed: " + cend + cviolet + str(weaponStats[9]) + cend + "\n" +
-          cred  + "  Typical Speed: " + cend + cviolet + str(weaponStats[10]) + cend + "\n" +
-          cred  + " Air Resistance: " + cend + cviolet + str(weaponStats[11]) + cend + "\n" +
-          cred  + "    Penetration: " + cend + cgreen  + str(weaponStats[12]) + cend + "\n" +
-          cred  + "     Ballistics: " + cend + cgreen  + "\n       " + str(weaponStats[13] + "\n" +
-                                                                           weaponStats[14] + "\n" +
-                                                                           weaponStats[15] + "\n" +
-                                                                           weaponStats[16] + "\n" +
-                                                                           weaponStats[17]).replace("\n","\n       ") + cend + "\n" +
-
-          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[19])  + cend + "\n" +
-          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[20])  + cend + "\n" +
-          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[21]) + cend)
-    #Force excel to parse as string
-    weaponStats[5]  = "=\"" + str(weaponStats[5])  + "\""
-    weaponStats[7]  = "=\"" + str(weaponStats[7])  + "\""
-    weaponStats[8]  = "=\"" + str(weaponStats[8])  + "\""
-    weaponStats[9]  = "=\"" + str(weaponStats[9])  + "\""
-    weaponStats[10] = "=\"" + str(weaponStats[10]) + "\""
-    weaponStats[11] = "=\"" + str(weaponStats[11]) + "\""
-    weaponStats[12] = "=\"" + str(weaponStats[12]) + "\""
-    weaponStats[13] = "=\"" + str(weaponStats[13]) + "\""
-    weaponStats[14] = "=\"" + str(weaponStats[14]) + "\""
-    weaponStats[15] = "=\"" + str(weaponStats[15]) + "\""
-    weaponStats[16] = "=\"" + str(weaponStats[16]) + "\""
-    weaponStats[17] = "=\"" + str(weaponStats[17]) + "\""
-    csvwriter.writerow(weaponStats)
-    print(SEPERATOR + "\n\n")
-
 def writeVehicleWeaponStats(weapon, side, csvwriter):
     weaponStats = getVehicleWeaponStats(weapon[0], weapon[1], side)
     print(SEPERATOR)
-    print()
+    print(ccyan + "Name: " + cend + cgreen  + str(weaponStats[0])  + cend)
     csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
 
@@ -472,6 +471,7 @@ bluForWeapons = [
     ["rhs_weap_kar98k"        ,"rhsgref_5rnd_792x57_kar98k"           ],
     ["rhs_weap_l1a1_base"     ,"rhs_mag_20rnd_762x51_m80_fnfal"       ],
     ["rhs_weap_m107"          ,"rhsusf_mag_10rnd_std_50bmg_m33"       ],
+    ["rhs_weap_m107"          , "rhsusf_mag_10rnd_std_50bmg_mk211"    ],
     ["rhs_weap_m14ebrri"      ,"rhsusf_20rnd_762x51_m118_special_mag" ],
     ["rhs_weap_m16a4"         ,"rhs_mag_30rnd_556x45_m855_stanag"     ],
     ["rhs_weap_m1garand_sa43" ,"rhsgref_8rnd_762x63_m2b_m1rifle"      ],
@@ -504,12 +504,12 @@ bluForWeapons = [
 opForWeapons = [
     ["rhs_weap_ak103"        ,"rhs_30rnd_762x39mm_polymer_89"],
     ["rhs_weap_ak74"         ,"rhs_30rnd_545x39_7n6_ak"      ],
-    ["rhs_weap_6p53"         ,"rhs_18rnd_9x21mm_7n29"        ] ,
-    ["rhs_weap_pb_6p9"       ,"rhs_mag_9x18_8_57n181s"       ] ,
-    ["rhs_weap_pya"          ,"rhs_mag_9x19_17"              ] ,
-    ["rhs_weap_makarov_pm"   ,"rhs_mag_9x18_8_57n181s"       ] ,
-    ["rhs_weap_pp2000_folded","rhs_mag_9x19mm_7n21_20"       ] ,
-    ["rhs_weap_tt33"         ,"rhs_mag_762x25_8"             ] ,
+    ["rhs_weap_6p53"         ,"rhs_18rnd_9x21mm_7n29"        ],
+    ["rhs_weap_pb_6p9"       ,"rhs_mag_9x18_8_57n181s"       ],
+    ["rhs_weap_pya"          ,"rhs_mag_9x19_17"              ],
+    ["rhs_weap_makarov_pm"   ,"rhs_mag_9x18_8_57n181s"       ],
+    ["rhs_weap_pp2000_folded","rhs_mag_9x19mm_7n21_20"       ],
+    ["rhs_weap_tt33"         ,"rhs_mag_762x25_8"             ],
     ["rhs_weap_ak74m"        ,"rhs_30rnd_545x39_7n10_ak"     ],
     ["rhs_weap_ak74mr"       ,"rhs_30rnd_545x39_7n22_ak"     ],
     ["rhs_weap_akmn"         ,"rhs_30rnd_762x39mm"           ],
@@ -578,16 +578,83 @@ bluForVehicleWeapons = [
 	["rhs_weap_zpl20"               ,"rhs_mag_zpl20_mixed"                      ],
 	["rhs_weap_mk82"                ,"rhs_mag_mk82"                             ]
 ]
+opForVehicleWeapons = [
+    ["rhs_weap_dshkm"         ,"rhs_mag_127x108mm_50"       ],
+    ["rhs_weap_ags30"         ,"rhs_mag_vog30_30"           ],
+    ["rhs_weap_spg9"          ,"rhs_mag_og9v"               ],
+    ["rhs_weap_spg9"          ,"rhs_mag_pg9v"               ],
+    ["rhs_weap_kpvt"          ,"rhs_mag_145x115mm_50"       ],
+    ["rhs_weap_pkt_btr"       ,"rhs_mag_762x54mm_250"       ],
+    ["rhs_weap_9p148"         ,"rhs_mag_9m113_5"            ],
+    ["rhs_weap_2a14"          ,"rhs_mag_azp23_100"          ],
+    ["rhs_weap_s8"            ,"rhs_mag_s8_12"              ],
+    ["rhs_weap_2a28"          ,"rhs_mag_pg15v_20"           ],
+    ["rhs_weap_2a28"          ,"rhs_mag_og15v_20"           ],
+    ["rhs_weap_pkt"           ,"rhs_mag_762x54mm_250"       ],
+    ["rhs_weap_9k11"          ,"rhs_mag_9m14m"              ],
+    ["rhs_weap_9m113"         ,"rhs_mag_9m113m"             ],
+    ["rhs_weap_2a42"          ,"rhs_mag_3uof8_340"          ],
+    ["rhs_weap_2a42"          ,"rhs_mag_3ubr8_160"          ],
+    ["rhs_weap_azp23"         ,"rhs_mag_azp23_2000"         ],
+    ["rhs_weap_2a75"          ,"rhs_mag_3bm46_10"           ],
+    ["rhs_weap_2a75"          ,"rhs_mag_3bk29_8"            ],
+    ["rhs_weap_2a75"          ,"rhs_mag_3of26_6"            ],
+    ["rhs_weap_2a75"          ,"rhs_mag_9m119_6"            ],
+    ["rhs_weap_2a42"          ,"rhs_mag_3uof8_180"          ],
+    ["rhs_weap_2a42"          ,"rhs_mag_3ubr8_120"          ],
+    ["rhs_weap_9k133"         ,"rhs_mag_9m133_2"            ],
+    ["rhs_weap_2a70"          ,"rhs_mag_3uof17_22"          ],
+    ["rhs_weap_2a70"          ,"rhs_mag_9m117_8"            ],
+    ["rhs_weap_2a72"          ,"rhs_mag_3uof8_305"          ],
+    ["rhs_weap_2a72"          ,"rhs_mag_3ubr6_195"          ],
+    ["rhs_weap_pkt_bmd_coax"  ,"rhs_mag_762x54mm_2000"      ],
+    ["rhs_weap_2a72_btr"      ,"rhs_mag_3uof8_150"          ],
+    ["rhs_weap_2a72_btr"      ,"rhs_mag_3ubr11_150"         ],
+    ["rhs_weap_pkt_btr80a"    ,"rhs_mag_762x54mm_2000"      ],
+    ["rhs_weap_2a70"          ,"rhs_mag_9m117m_8"           ],
+    ["rhs_weap_2a72"          ,"rhs_mag_3uof8_237"          ],
+    ["rhs_weap_2a72"          ,"rhs_mag_3ubr11_227"         ],
+    ["rhs_weap_2a46m"         ,"rhs_mag_3bm42_7"            ],
+    ["rhs_weap_2a46m"         ,"rhs_mag_3bk18m_6"           ],
+    ["rhs_weap_2a46m"         ,"rhs_mag_3of26_5"            ],
+    ["rhs_weap_2a46m"         ,"rhs_mag_9m119_4"            ],
+    ["rhs_weap_nsvt_t72"      ,"rhs_mag_127x108mm_50"       ],
+    ["rhs_weap_2a46_2"        ,"rhs_mag_3bm22_14"           ],
+    ["rhs_weap_2a46_2"        ,"rhs_mag_3bk18m_8"           ],
+    ["rhs_weap_2a46_2"        ,"rhs_mag_3of26_6"            ],
+    ["rhs_weap_2a46m_4"       ,"rhs_mag_3bm46_10"           ],
+    ["rhs_weap_2a46m_4"       ,"rhs_mag_3bk31_8"            ],
+    ["rhs_weap_2a46m_4"       ,"rhs_mag_3of26_6"            ],
+    ["rhs_weap_2a46m_4"       ,"rhs_mag_9m119_4"            ],
+    ["rhs_weap_2a46m_5"       ,"rhs_mag_3bm46_8"            ],
+    ["rhs_weap_2a46m_5"       ,"rhs_mag_3bk31_3"            ],
+    ["rhs_weap_2a46m_5"       ,"rhs_mag_3of26_7"            ],
+    ["rhs_weap_2a46m_5"       ,"rhs_mag_9m119_4"            ],
+    ["rhs_weap_yakb"          ,"rhs_mag_127x108mm_1slt_1470"],
+    ["rhs_weap_gsh30"         ,"rhs_mag_gsh30_ofzt_750"     ],
+    ["rhs_weap_s8"            ,"rhs_mag_b8m1_s8kom"         ],
+    ["rhs_weap_fab250"        ,"rhs_mag_fab250"             ],
+    ["rhs_weap_9m120_launcher","rhs_mag_9m120m_mi24_2x"     ],
+    ["rhs_weap_s8df"          ,"rhs_mag_b8m1_s8df"          ],
+    ["rhs_weap_gi2"           ,"rhs_mag_gi2_420_he"         ],
+    ["rhs_weap_gi2"           ,"rhs_mag_gi2_420_ap"         ],
+    ["rhs_weap_2a42"          ,"rhs_mag_3ubr11_125"         ],
+    ["rhs_weap_2a42"          ,"rhs_mag_3uof8_125"          ],
+    ["rhs_weap_9k121_launcher","rhs_mag_apu6_9m127m_ka52"   ],
+    ["rhs_weap_s8"            ,"rhs_mag_b8v20a_ka52_s8kom"  ],
+    ["rhs_weap_gsh23l"        ,"rhs_mag_upk23_mixed"        ],
+    ["rhs_weap_gsh302"        ,"rhs_mag_gsh30_bt_250"       ],
+    ["rhs_weap_s13"           ,"rhs_mag_b13l_s13b"          ],
+    ["rhs_weap_9m120_launcher","rhs_mag_9m120m_mi28_8x"     ]
+]
 
-
-
+#Normal infantry weapons
 with open("BluForWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(weaponArray)
     for weapon in bluForWeapons:
         writeWeaponStats(weapon, "BluFor", csvwriter)
-
 with open("OpForWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
@@ -595,12 +662,19 @@ with open("OpForWeaponExport.csv", "w", newline='\n') as csvfile:
     for weapon in opForWeapons:
         writeWeaponStats(weapon, "OpFor", csvwriter)
 
+#Vehicle weapons
 with open("BluForVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(vehicleWeaponArray)
     for weapon in bluForVehicleWeapons:
         writeVehicleWeaponStats(weapon, "BluFor", csvwriter)
+with open("OpForVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
+    csvfile.truncate(0)  #Clear file
+    csvwriter = csv.writer(csvfile, delimiter=',')
+    csvwriter.writerow(vehicleWeaponArray)
+    for weapon in opForVehicleWeapons:
+        writeVehicleWeaponStats(weapon, "OpFor", csvwriter)
 
 # print('{:.2f}'.format(round((403.86 * 0.24 * 0.015)/10,2)).zfill(4) + "|" +
 #                      '{:.2f}'.format(round((403.86 * 0.24 * 0.080)/10,2)).zfill(5) + "|" +
