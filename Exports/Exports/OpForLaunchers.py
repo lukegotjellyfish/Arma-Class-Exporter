@@ -102,7 +102,7 @@
     "modes": ["Single","TopDown"],
     # Class: CfgWeapons\\launch_Titan_base\\Single [Indent level: 1],
     "single": {
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\launch_Titan_base\\Single\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
         },
@@ -110,7 +110,7 @@
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\Launchers\\Titan\\Titan",3.16228,1,2000],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundsetshot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -169,7 +169,7 @@
         "midrangeprobab": 0.95,
         "maxrange": 2000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\launch_Titan_base\\Single\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
         },
@@ -177,7 +177,7 @@
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\Launchers\\Titan\\Titan",3.16228,1,2000],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundsetshot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -225,9 +225,9 @@
         "priority": 3
     },
     "hiddenselections": ["camo_launcher","camo_tube"],
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\SoundFly1.ogg",1,1.5,500],
     "swaycoef": 0.5,
     "sound": ["A3\\Sounds_F\\weapons\\Launcher\\rocket_launcher_5",1,1,800],
+    "soundfly": ["A3\\sounds_f\\weapons\\rockets\\rocket_fly_1",0.316228,1.5,700],
     "weaponpoolavailable": 1,
     "texturetype": "semi",
     "autoaimenabled": 0,
@@ -525,9 +525,8 @@
     "standardsound": {
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,1100],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100],
         "weaponsoundeffect": "DefaultRifle",
-        "soundsetshot": ["jsrs_rpg42_shot_soundset","jsrs_warhead_reverb_soundset"]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100]
     },
     "drysound": ["A3\\sounds_f\\weapons\\other\\dry6",0.0316228,1,10],
     "reloadmagazinesound": ["A3\\sounds_f\\weapons\\rockets\\titan_reload_final",0.562341,1,50],
@@ -935,14 +934,9 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,1100],
             "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100],
-            "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "soundsetshot": ["jsrs_rpg7v_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundbegin": ["begin1",0.5,"begin2",0.5]
         },
         "sound": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,900],
-        # Class: CfgWeapons\\rhs_weap_rpg7\\single\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
-            "weaponsoundeffect": "DefaultRifle"
-        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -997,14 +991,9 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,1100],
             "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100],
-            "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "soundsetshot": ["jsrs_rpg7v_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundbegin": ["begin1",0.5,"begin2",0.5]
         },
         "sound": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,900],
-        # Class: CfgWeapons\\rhs_weap_rpg7\\single\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
-            "weaponsoundeffect": "DefaultRifle"
-        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -1057,14 +1046,9 @@
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,1100],
             "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100],
-            "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "soundsetshot": ["jsrs_rpg7v_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundbegin": ["begin1",0.5,"begin2",0.5]
         },
         "sound": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,900],
-        # Class: CfgWeapons\\rhs_weap_rpg7\\single\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
-            "weaponsoundeffect": "DefaultRifle"
-        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -1552,9 +1536,8 @@
     "standardsound": {
         "begin1": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_1",2.35,1,1100],
         "soundbegin": ["begin1",0.5,"begin2",0.5],
-        "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100],
         "weaponsoundeffect": "DefaultRifle",
-        "soundsetshot": ["jsrs_rpg42_shot_soundset","jsrs_warhead_reverb_soundset"]
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\rpg\\rpg_2",2.35,1,1100]
     },
     "drysound": ["A3\\sounds_f\\weapons\\other\\dry6",0.0316228,1,10],
     "reloadmagazinesound": ["A3\\sounds_f\\weapons\\rockets\\titan_reload_final",0.562341,1,50],

@@ -218,7 +218,7 @@ rhsusf_weap_glock17g4 = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -518,11 +518,11 @@ rhsusf_weap_glock17g4 = {
         },
         # Class: CfgWeapons|hgun_P07_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_p07_shot_soundset","jsrs_9mm_reverb_soundset"]
+            "soundsetshot": ["P07_Shot_SoundSet","P07_Tail_SoundSet","P07_InteriorTail_SoundSet"]
         },
         # Class: CfgWeapons|hgun_P07_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_p07_shot_silenced_soundset","jsrs_9mm_sd_reverb_soundset"]
+            "soundsetshot": ["P07_silencerShot_SoundSet","P07_silencerTail_SoundSet","P07_silencerInteriorTail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.03,0.036943,0.0268696,0.09,0.019755,0.006112,0.12,0,0,0.18,-0.003138,-0.001,0.12,-0.001177,-0.000376,0.12,0,0],
@@ -569,19 +569,19 @@ rhsusf_weap_glock17g4 = {
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
-    "bullet1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_1.ogg",2.0099,1,10],
-    "bullet2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_2.ogg",2.0099,1,10],
-    "bullet3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_3.ogg",2.0099,1,10],
-    "bullet4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_4.ogg",2.0099,1,10],
-    "bullet5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_1.ogg",2.0099,1,10],
-    "bullet6": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_2.ogg",2.0099,1,10],
-    "bullet7": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_3.ogg",2.0099,1,10],
-    "bullet8": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_4.ogg",2.0099,1,10],
-    "bullet9": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_1.ogg",2.0099,1,10],
-    "bullet10": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_2.ogg",2.0099,1,10],
-    "bullet11": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_3.ogg",2.0099,1,10],
-    "bullet12": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_4.ogg",2.0099,1,10],
-    "soundbullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
+    "bullet1": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_01",0.501187,1,15],
+    "bullet2": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_02",0.501187,1,15],
+    "bullet3": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_03",0.501187,1,15],
+    "bullet4": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_04",0.501187,1,15],
+    "bullet5": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_01",0.398107,1,15],
+    "bullet6": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_02",0.398107,1,15],
+    "bullet7": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_03",0.398107,1,15],
+    "bullet8": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_04",0.398107,1,15],
+    "bullet9": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_01",0.223872,1,15],
+    "bullet10": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_02",0.223872,1,15],
+    "bullet11": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_03",0.223872,1,15],
+    "bullet12": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_04",0.223872,1,15],
+    "soundbullet": ["bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083],
     # Class: CfgWeapons|hgun_P07_F|Library [Indent level: 1],
     "library": {
         "libtextdesc": "The P07 is a semi-automatic pistol with a frame, that combines metal and reinforced polymer. Following the success of Glock, polymer based pistols became known as perfect handguns for both military use and self-defense and are available in various calibers. P07 allows easy mounting of suppressors."

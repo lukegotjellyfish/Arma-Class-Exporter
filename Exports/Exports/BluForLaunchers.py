@@ -264,7 +264,6 @@
         }
     },
     "hiddenselections": ["camo_launcher","camo_tube"],
-    "soundfly": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\warfare\\SoundFly1.ogg",1,1.5,500],
     "htmin": 1,
     "htmax": 460,
     "afmax": 0,
@@ -273,6 +272,7 @@
     "tbody": 100,
     "swaycoef": 0.5,
     "sound": ["A3\\Sounds_F\\weapons\\Launcher\\rocket_launcher_5",1,1,800],
+    "soundfly": ["A3\\sounds_f\\weapons\\rockets\\rocket_fly_1",0.316228,1.5,700],
     "weaponpoolavailable": 1,
     "texturetype": "semi",
     "opticsdisableperipherialvision": 1,
@@ -627,7 +627,7 @@
     "modes": ["Single","TopDown"],
     # Class: CfgWeapons\\launch_Titan_base\\Single [Indent level: 1],
     "single": {
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\launch_Titan_base\\Single\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
         },
@@ -635,7 +635,7 @@
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\Launchers\\Titan\\Titan",3.16228,1,2000],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundsetshot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -694,7 +694,7 @@
         "midrangeprobab": 0.95,
         "maxrange": 2000,
         "maxrangeprobab": 0.95,
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons\\launch_Titan_base\\Single\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
         },
@@ -702,7 +702,7 @@
         "standardsound": {
             "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\Launchers\\Titan\\Titan",3.16228,1,2000],
             "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_mprl_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundsetshot": ["Launcher_Titan_Shot_SoundSet","Launcher_Titan_Tail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.01,0,0.05,0.025,0,0],
@@ -1116,11 +1116,7 @@
     # Class: CfgWeapons\\rhs_weap_M136\\StandardSound [Indent level: 1],
     "standardsound": {
         "begin1": ["rhsusf\\addons\\rhsusf_weapons2\\smaw\\sound\\smaw_s2.wav","db20",1,1200],
-        "soundbegin": ["begin1",1],
-        "soundsetshot": ["jsrs_smaw_shot_soundset","jsrs_warhead_reverb_soundset"]
-    },
-    # Class: CfgWeapons\\rhs_weap_M136\\BaseSoundModeType [Indent level: 1],
-    "basesoundmodetype": {
+        "soundbegin": ["begin1",1]
     },
     "htmin": 1,
     "htmax": 460,
@@ -1504,11 +1500,7 @@
     # Class: CfgWeapons\\rhs_weap_M136\\StandardSound [Indent level: 1],
     "standardsound": {
         "begin1": ["rhsusf\\addons\\rhsusf_weapons2\\smaw\\sound\\smaw_s2.wav","db20",1,1200],
-        "soundbegin": ["begin1",1],
-        "soundsetshot": ["jsrs_smaw_shot_soundset","jsrs_warhead_reverb_soundset"]
-    },
-    # Class: CfgWeapons\\rhs_weap_M136\\BaseSoundModeType [Indent level: 1],
-    "basesoundmodetype": {
+        "soundbegin": ["begin1",1]
     },
     "htmin": 1,
     "htmax": 460,
@@ -1891,13 +1883,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_M320_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-            "soundclosure": [],
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_1.ogg",1.8,1,800],
-            "begin2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_2.ogg",1.8,1,800],
-            "begin3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_3.ogg",1.8,1,800],
-            "begin4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_4.ogg",1.8,1,800],
-            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
+            "soundsetshot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -1953,13 +1939,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_M320_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-            "soundclosure": [],
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_1.ogg",1.8,1,800],
-            "begin2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_2.ogg",1.8,1,800],
-            "begin3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_3.ogg",1.8,1,800],
-            "begin4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_4.ogg",1.8,1,800],
-            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
+            "soundsetshot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -2011,13 +1991,7 @@
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_M320_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-            "soundclosure": [],
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_1.ogg",1.8,1,800],
-            "begin2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_2.ogg",1.8,1,800],
-            "begin3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_3.ogg",1.8,1,800],
-            "begin4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_4.ogg",1.8,1,800],
-            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25]
+            "soundsetshot": ["rhs_m203_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -2221,7 +2195,7 @@
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\noises\\rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3\\Sounds_F\\arsenal\\sfx\\shared\\zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -2925,15 +2899,13 @@
         # Class: CfgWeapons\\rhs_weap_m32_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
             "weaponsoundeffect": "DefaultRifle",
-            "soundclosure": [],
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_1.ogg",1.8,1,800],
-            "begin2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_2.ogg",1.8,1,800],
-            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25],
+            "soundclosure": ["closure1",0.5,"closure2",0.5],
+            "begin1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_1",1.95,1,800],
+            "begin2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_2",1.95,1,800],
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
             "closure1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_1",2.4,1,35],
             "closure2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_2",2.4,1,35],
-            "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-            "begin3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_3.ogg",1.8,1,800],
-            "begin4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_4.ogg",1.8,1,800]
+            "soundsetshot": ["rhs_m32gl_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
         },
         "reloadtime": 0.075,
         "dispersion": 0.0002909,
@@ -2996,15 +2968,13 @@
         # Class: CfgWeapons\\rhs_weap_m32_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
             "weaponsoundeffect": "DefaultRifle",
-            "soundclosure": [],
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_1.ogg",1.8,1,800],
-            "begin2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_2.ogg",1.8,1,800],
-            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25],
+            "soundclosure": ["closure1",0.5,"closure2",0.5],
+            "begin1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_1",1.95,1,800],
+            "begin2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_2",1.95,1,800],
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
             "closure1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_1",2.4,1,35],
             "closure2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_2",2.4,1,35],
-            "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-            "begin3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_3.ogg",1.8,1,800],
-            "begin4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_4.ogg",1.8,1,800]
+            "soundsetshot": ["rhs_m32gl_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
         },
         "reloadtime": 0.075,
         "dispersion": 0.0002909,
@@ -3057,15 +3027,13 @@
         # Class: CfgWeapons\\rhs_weap_m32_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
             "weaponsoundeffect": "DefaultRifle",
-            "soundclosure": [],
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_1.ogg",1.8,1,800],
-            "begin2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_2.ogg",1.8,1,800],
-            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25],
+            "soundclosure": ["closure1",0.5,"closure2",0.5],
+            "begin1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_1",1.95,1,800],
+            "begin2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_2",1.95,1,800],
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
             "closure1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_1",2.4,1,35],
             "closure2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_2",2.4,1,35],
-            "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-            "begin3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_3.ogg",1.8,1,800],
-            "begin4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_4.ogg",1.8,1,800]
+            "soundsetshot": ["rhs_m32gl_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
         },
         "reloadtime": 0.075,
         "dispersion": 0.0002909,
@@ -3118,15 +3086,13 @@
         # Class: CfgWeapons\\rhs_weap_m32_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
             "weaponsoundeffect": "DefaultRifle",
-            "soundclosure": [],
-            "begin1": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_1.ogg",1.8,1,800],
-            "begin2": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_2.ogg",1.8,1,800],
-            "soundbegin": ["begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25],
+            "soundclosure": ["closure1",0.5,"closure2",0.5],
+            "begin1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_1",1.95,1,800],
+            "begin2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\m32_2",1.95,1,800],
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
             "closure1": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_1",2.4,1,35],
             "closure2": ["rhsusf\\addons\\rhsusf_sounds\\m32\\Closure_2",2.4,1,35],
-            "soundsetshot": ["jsrs_m32_shot_soundset","jsrs_12x7mm_reverb_soundset"],
-            "begin3": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_3.ogg",1.8,1,800],
-            "begin4": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\Shot\\UGL\\Close_4.ogg",1.8,1,800]
+            "soundsetshot": ["rhs_m32gl_shot_SoundSet","UGL_Tail_SoundSet","UGL_InteriorTail_SoundSet"]
         },
         "reloadtime": 0.075,
         "dispersion": 0.0002909,
@@ -3197,7 +3163,7 @@
     "ffcount": 3,
     "weaponpoolavailable": 1,
     "maxzeroing": 1000,
-    "zeroingsound": ["\\jsrs_soundmod_complete\\JSRS_Soundmod_Soundfiles\\weapons\\noises\\rifle_zeroing_1.ogg",5,1,5],
+    "zeroingsound": ["A3\\Sounds_F\\arsenal\\sfx\\shared\\zeroing_knob_tick_metal",0.316228,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,
@@ -3554,11 +3520,7 @@
     # Class: CfgWeapons\\rhs_weap_M136\\StandardSound [Indent level: 1],
     "standardsound": {
         "begin1": ["rhsusf\\addons\\rhsusf_weapons2\\smaw\\sound\\smaw_s2.wav","db20",1,1200],
-        "soundbegin": ["begin1",1],
-        "soundsetshot": ["jsrs_smaw_shot_soundset","jsrs_warhead_reverb_soundset"]
-    },
-    # Class: CfgWeapons\\rhs_weap_M136\\BaseSoundModeType [Indent level: 1],
-    "basesoundmodetype": {
+        "soundbegin": ["begin1",1]
     },
     "htmin": 1,
     "htmax": 460,
@@ -4322,8 +4284,7 @@
         "standardsound": {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf\\addons\\rhsusf_weapons2\\smaw\\sound\\smaw_s2.wav",10,1,1200],
-            "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_smaw_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundbegin": ["begin1",1]
         },
         "airateoffire": 7,
         "airateoffiredistance": 600,
@@ -4334,10 +4295,6 @@
         "maxrange": 900,
         "maxrangeprobab": 0.5,
         "dispersion": 0.35,
-        # Class: CfgWeapons\\rhs_weap_smaw\\Single\\BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
-            "weaponsoundeffect": "DefaultRifle"
-        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -4474,8 +4431,7 @@
             "standardsound": {
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["rhsusf\\addons\\rhsusf_weapons2\\smaw\\sound\\smaw_spotting_s2.wav",7.94328,1,400],
-                "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_smaw_sr_shot_soundset","jsrs_pods_reverb_soundset"]
+                "soundbegin": ["begin1",1]
             },
             # Recoil Array: recoil,
             "recoil": [0,0,0,0.03,0.0073886,0.0028696,0.04,0.0063634,0.0010008,0.05,0.003951,0.0006112,0.06,0.0014776,0.000228,0.06,0,0,0.06,-0.0004804,-7.68e-005,0.06,-0.000706,-0.0001128,0.06,-0.0007354,-0.0001176,0.06,-0.0006276,-0.0001,0.06,-0.0004412,-7.04e-005,0.06,-0.0002354,-3.76e-005,0.06,-6.86e-005,-1.12e-005,0.06,-3e-005,0,0.06,0,0],
@@ -4487,10 +4443,6 @@
             "midrangeprobab": 0.8,
             "maxrange": 900,
             "maxrangeprobab": 0.5,
-            # Class: CfgWeapons\\rhs_weap_smaw\\rhs_weap_smaw_SR\\Single2\\BaseSoundModeType [Indent level: 3],
-            "basesoundmodetype": {
-                "weaponsoundeffect": "DefaultRifle"
-            },
             "multiplier": 1,
             "burst": 1,
             "burstrangemax": -1,

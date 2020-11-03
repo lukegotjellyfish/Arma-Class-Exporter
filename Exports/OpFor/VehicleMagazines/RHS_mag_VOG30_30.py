@@ -58,7 +58,7 @@ rhs_mag_vog30_30 = {
         "soundhit3": ["A3|Sounds_F|arsenal|explosives|Grenades|Explosion_gng_grenades_03",3.16228,1,1500],
         "soundhit4": ["A3|Sounds_F|arsenal|explosives|Grenades|Explosion_gng_grenades_04",3.16228,1,1500],
         "multisoundhit": ["soundHit1",0.25,"soundHit2",0.25,"soundHit3",0.25,"soundHit4",0.25],
-        "soundsetexplosion": ["jsrs_grenade_explosion_soundset","jsrs_40mm_explosion_stereo_soundset","jsrs_grenade_explosion_reverb_soundset"],
+        "soundsetexplosion": ["GrenadeHe_Exp_SoundSet","GrenadeHe_Tail_SoundSet","Explosion_Debris_SoundSet"],
         "soundhit5": ["A3|Sounds_F|weapons|Explosion|gr_explosion_5",3.16228,1,1400],
         "soundhit6": ["A3|Sounds_F|weapons|Explosion|gr_explosion_6",3.16228,1,1400],
         "supersoniccracknear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.316228,1,50],

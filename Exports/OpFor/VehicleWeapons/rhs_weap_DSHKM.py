@@ -58,7 +58,7 @@ rhs_weap_dshkm = {
         "maxrangeprobab": 0.01,
         # Class: CfgWeapons|rhs_weap_DSHKM|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -379,7 +379,7 @@ rhs_weap_dshkm = {
         "aiburstterminable": 1,
         # Class: CfgWeapons|rhs_weap_DSHKM|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -700,7 +700,7 @@ rhs_weap_dshkm = {
         "aiburstterminable": 1,
         # Class: CfgWeapons|rhs_weap_DSHKM|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -1020,7 +1020,7 @@ rhs_weap_dshkm = {
         "aiburstterminable": 1,
         # Class: CfgWeapons|rhs_weap_DSHKM|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",
@@ -1340,7 +1340,7 @@ rhs_weap_dshkm = {
         "aiburstterminable": 1,
         # Class: CfgWeapons|rhs_weap_DSHKM|manual|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_DSHK_shot_soundset","jsrs_HMG_reverb_soundset"]
+            "soundsetshot": ["RHS_DSHKM_Closure_SoundSet","RHS_DSHKM_Shot_SoundSet","RHS_DSHKM_Int_Shot_SoundSet","RHS_sniper1_Tail_SoundSet"]
         },
         "type": 65536,
         "cursor": "EmptyCursor",

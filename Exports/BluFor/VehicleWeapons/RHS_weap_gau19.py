@@ -323,7 +323,7 @@ rhs_weap_gau19 = {
     # Class: CfgWeapons|HMG_127|manual [Indent level: 1],
     "manual": {
         "displayname": "12.7mm HMG",
-        "sounds": ["standardsound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons|HMG_127|manual|StandardSound [Indent level: 2],
         "standardsound": {
             "begin1": ["A3|Sounds_F|arsenal|weapons_vehicles|HMG_127mm|HMG_127mm_01",1.58489,1,2100],
@@ -333,7 +333,7 @@ rhs_weap_gau19 = {
             "closure1": ["A3|Sounds_F|weapons|Closure|sfx10",0.630957,1,20],
             "closure2": ["A3|sounds_f|weapons|closure|sfx11",0.630957,1.2,20],
             "soundclosure": ["closure1",0.5,"closure2",0.5],
-            "soundsetshot": ["jsrs_hmg_vehicle_shot_soundset","jsrs_gunner_casing"]
+            "soundsetshot": ["HMG127mm_shot_SoundSet","HMG127mm_tail_SoundSet"]
         },
         "soundcontinuous": 0,
         "soundburst": 0,

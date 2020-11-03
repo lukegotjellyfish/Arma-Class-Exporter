@@ -175,7 +175,7 @@ rhs_weap_pp2000_folded = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -619,7 +619,7 @@ rhs_weap_pp2000_folded = {
             },
             "allowedslots": [901]
         },
-        "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+        "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
         "type": 1,
         "dexterity": 1.7,
         "airateoffire": 0.5,
@@ -910,16 +910,63 @@ rhs_weap_pp2000_folded = {
         "airateoffiredistance": 500,
         # Class: CfgWeapons|rhs_weap_pp2000|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_pp2000_shot_soundset","jsrs_9mm_reverb_soundset"]
+            "soundsetshot": ["RHS_pp2000_Shot_SoundSet","RHS_rifle_small_Tail_SoundSet"]
         },
         "sounds": ["StandardSound"],
-        # Class: CfgWeapons|rhs_weap_pp2000|Single|BaseSoundModeType [Indent level: 2],
+        # Class: CfgWeapons|pdw2000_base_F|Single|BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
+            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_01",0.501187,1,10],
+            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_02",0.501187,1.1,10],
+            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons|hgun_PDW2000_F|single|silencedsound [Indent level: 2],
+        # Class: CfgWeapons|pdw2000_base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_pdw2000_shot_silenced_soundset","jsrs_9mm_sd_reverb_soundset"]
+            "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_01",0.891251,1,400],
+            "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_02",0.891251,1,400],
+            "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_03",0.891251,1,400],
+            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+            # Class: CfgWeapons|pdw2000_base_F|Single|SilencedSound|SoundTails [Indent level: 3],
+            "soundtails": {
+                # Class: CfgWeapons|pdw2000_base_F|Single|SilencedSound|SoundTails|TailInterior [Indent level: 4]
+                "tailinterior": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_interior",1,1,400],
+                    "frequency": 1,
+                    "volume": "interior"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Single|SilencedSound|SoundTails|TailTrees [Indent level: 4],
+                "tailtrees": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_trees",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*trees"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Single|SilencedSound|SoundTails|TailForest [Indent level: 4],
+                "tailforest": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|silencer_PDW2000_tail_forest",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*forest"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Single|SilencedSound|SoundTails|TailMeadows [Indent level: 4],
+                "tailmeadows": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_meadows",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Single|SilencedSound|SoundTails|TailHouses [Indent level: 4],
+                "tailhouses": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_houses",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*houses"
+                }
+            },
+            "soundsetshot": ["SMGPDW2000_silencerShot_SoundSet","SMGPDW2000_silencerTail_SoundSet","SMGPDW2000_silencerInteriorTail_SoundSet"],
+            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_01",0.501187,1,10],
+            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_02",0.501187,1.1,10],
+            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
+        # Recoil Array: recoil,
+        "recoil": [0,0,0,0.03,0.0110829,0.043044,0.03,0.0159085,0.0170136,0.03,0.0138285,0.0116128,0.06,0.0066492,0.004788,0.06,-0.0007206,-0.002688,0.06,-0.001765,-0.00282,0.06,-0.0018385,-0.001764,0.06,-0.0009414,-0.0005,0.06,0,0],
+        # Recoil Array: recoilprone,
+        "recoilprone": [0,0,0,0.03,0.0110829,0.0021522,0.04,0.0095451,0.0007506,0.05,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0,0.06,-0.0007206,-2.88e-005,0.06,-0.001059,-8.46e-005,0.06,-0.0011031,-8.82e-005,0.06,-0.0009414,-7.5e-005,0.06,-0.0006618,-5.28e-005,0.06,-0.0003531,-2.82e-005,0.06,-0.0001029,-8.4e-006,0.06,-4.5e-005,0,0.06,0,0],
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -945,10 +992,6 @@ rhs_weap_pp2000_folded = {
         "canshootinwater": 0,
         "displayname": "Semi",
         "texturetype": "semi",
-        # Recoil Array: recoil,
-        "recoil": [0,0,0,0.03,0.0110829,0.043044,0.03,0.0159085,0.0170136,0.03,0.0138285,0.0116128,0.06,0.0066492,0.004788,0.06,-0.0007206,-0.002688,0.06,-0.001765,-0.00282,0.06,-0.0018385,-0.001764,0.06,-0.0009414,-0.0005,0.06,0,0],
-        # Recoil Array: recoilprone,
-        "recoilprone": [0,0,0,0.03,0.0110829,0.0021522,0.04,0.0095451,0.0007506,0.05,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0,0.06,-0.0007206,-2.88e-005,0.06,-0.001059,-8.46e-005,0.06,-0.0011031,-8.82e-005,0.06,-0.0009414,-7.5e-005,0.06,-0.0006618,-5.28e-005,0.06,-0.0003531,-2.82e-005,0.06,-0.0001029,-8.4e-006,0.06,-4.5e-005,0,0.06,0,0],
         "aidispersioncoefy": 1.7,
         "aidispersioncoefx": 1.4,
         "soundburst": 0,
@@ -969,25 +1012,69 @@ rhs_weap_pp2000_folded = {
         "airateoffiredistance": 50,
         # Class: CfgWeapons|rhs_weap_pp2000|FullAuto|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_pp2000_shot_soundset","jsrs_9mm_reverb_soundset"]
+            "soundsetshot": ["RHS_pp2000_Shot_SoundSet","RHS_rifle_small_Tail_SoundSet"]
         },
-        # Class: CfgWeapons|rhs_weap_pp2000|FullAuto|BaseSoundModeType [Indent level: 2],
+        "sounds": ["StandardSound","SilencedSound"],
+        # Class: CfgWeapons|pdw2000_base_F|FullAuto|BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
+            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_01",0.501187,1,10],
+            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_02",0.501187,1.1,10],
+            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons|hgun_PDW2000_F|fullauto|silencedsound [Indent level: 2],
+        # Class: CfgWeapons|pdw2000_base_F|FullAuto|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_pdw2000_shot_silenced_soundset","jsrs_9mm_sd_reverb_soundset"]
+            "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_01",0.891251,1,400],
+            "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_02",0.891251,1,400],
+            "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_03",0.891251,1,400],
+            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+            # Class: CfgWeapons|pdw2000_base_F|FullAuto|SilencedSound|SoundTails [Indent level: 3],
+            "soundtails": {
+                # Class: CfgWeapons|pdw2000_base_F|FullAuto|SilencedSound|SoundTails|TailInterior [Indent level: 4]
+                "tailinterior": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_interior",1,1,400],
+                    "frequency": 1,
+                    "volume": "interior"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|FullAuto|SilencedSound|SoundTails|TailTrees [Indent level: 4],
+                "tailtrees": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_trees",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*trees"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|FullAuto|SilencedSound|SoundTails|TailForest [Indent level: 4],
+                "tailforest": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|silencer_PDW2000_tail_forest",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*forest"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|FullAuto|SilencedSound|SoundTails|TailMeadows [Indent level: 4],
+                "tailmeadows": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_meadows",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|FullAuto|SilencedSound|SoundTails|TailHouses [Indent level: 4],
+                "tailhouses": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_houses",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*houses"
+                }
+            },
+            "soundsetshot": ["SMGPDW2000_silencerShot_SoundSet","SMGPDW2000_silencerTail_SoundSet","SMGPDW2000_silencerInteriorTail_SoundSet"],
+            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_01",0.501187,1,10],
+            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_02",0.501187,1.1,10],
+            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
+        # Recoil Array: recoil,
+        "recoil": [0,0,0,0.06,0.0073886,0.0028696,0.06,0.0063634,0.0010008,0.06,0.003951,0.0006112,0.06,0.0014776,0.000228,0.06,0,0],
+        # Recoil Array: recoilprone,
+        "recoilprone": [0,0,0,0.06,0.0073886,0.0014348,0.06,0.0063634,0.0005004,0.06,0.003951,0.0003056,0.06,0.0014776,0.000114,0.06,0,0],
         "sound": ["",10,1],
         "soundend": ["sound",1],
         "soundcontinuous": 0,
         "autofire": 1,
         "displayname": "Full",
         "texturetype": "fullAuto",
-        # Recoil Array: recoil,
-        "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],
-        # Recoil Array: recoilprone,
-        "recoilprone": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],
         "aidispersioncoefy": 3,
         "aidispersioncoefx": 2,
         "soundburst": 0,
@@ -1010,7 +1097,6 @@ rhs_weap_pp2000_folded = {
         "artillerydispersion": 1,
         "artillerycharge": 1,
         "canshootinwater": 0,
-        "sounds": ["StandardSound","SilencedSound"],
         "requiredoptictype": -1,
         "airateoffiredispersion": 1
     },
@@ -1202,52 +1288,148 @@ rhs_weap_pp2000_folded = {
     "library": {
         "libtextdesc": "The PDW2000 is a widespread submachine gun favored for its size and low recoil. The weapon has a conventional submachine gun layout with the magazine housed in the pistol grip and mirrored controls to achieve a truly ambidextrous use. Its low weight and small profile can be compared with some larger pistols. Two rails for mounting sights and tactical accessories underline the weapon's utility."
     },
-    "bullet1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_1.ogg",2.0099,1,10],
-    "bullet2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_2.ogg",2.0099,1,10],
-    "bullet3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_3.ogg",2.0099,1,10],
-    "bullet4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|metal_4.ogg",2.0099,1,10],
-    "bullet5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_1.ogg",2.0099,1,10],
-    "bullet6": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_2.ogg",2.0099,1,10],
-    "bullet7": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_3.ogg",2.0099,1,10],
-    "bullet8": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|dirt_4.ogg",2.0099,1,10],
-    "bullet9": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_1.ogg",2.0099,1,10],
-    "bullet10": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_2.ogg",2.0099,1,10],
-    "bullet11": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_3.ogg",2.0099,1,10],
-    "bullet12": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|small|grass_4.ogg",2.0099,1,10],
-    "soundbullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
-    # Class: CfgWeapons|hgun_PDW2000_F|burst [Indent level: 1],
+    "maxzeroing": 400,
+    "discretedistance": [100,200],
+    "discretedistanceinitindex": 0,
+    "distancezoommin": 50,
+    "distancezoommax": 50,
+    "bullet1": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_01",0.501187,1,15],
+    "bullet2": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_02",0.501187,1,15],
+    "bullet3": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_03",0.501187,1,15],
+    "bullet4": ["A3|sounds_f|weapons|shells|9mm|metal_9mm_04",0.501187,1,15],
+    "bullet5": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_01",0.398107,1,15],
+    "bullet6": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_02",0.398107,1,15],
+    "bullet7": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_03",0.398107,1,15],
+    "bullet8": ["A3|sounds_f|weapons|shells|9mm|dirt_9mm_04",0.398107,1,15],
+    "bullet9": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_01",0.398107,1,15],
+    "bullet10": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_02",0.398107,1,15],
+    "bullet11": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_03",0.398107,1,15],
+    "bullet12": ["A3|sounds_f|weapons|shells|9mm|grass_9mm_04",0.398107,1,15],
+    "soundbullet": ["bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083],
+    "drysound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Dry_pdw2000",0.1,1,20],
+    "changefiremodesound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Firemode_pdw2000",0.251189,1,5],
+    "reloadmagazinesound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Reload_pdw2000",1,1,10],
+    "hiddenselections": ["camo","camo1","camo2","camo3"],
+    "hiddenselectionstextures": ["|a3|weapons_f|acc|data|battlesight_co","|a3|weapons_f|rifles|mx|data|xmx_handle_co","|a3|weapons_f_gamma|smgs|pdw2000|data|pdw2000_ammo_ca","|a3|weapons_f_gamma|smgs|pdw2000|data|pdw2000_co"],
+    # Class: CfgWeapons|pdw2000_base_F|Burst [Indent level: 1],
     "burst": {
-        # Class: CfgWeapons|hgun_PDW2000_F|burst|basesoundmodetype [Indent level: 2]
+        "sounds": ["StandardSound","SilencedSound"],
+        # Class: CfgWeapons|pdw2000_base_F|Burst|BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
+            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_01",0.501187,1,10],
+            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_02",0.501187,1.1,10],
+            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons|hgun_PDW2000_F|burst|standardsound [Indent level: 2],
+        # Class: CfgWeapons|pdw2000_base_F|Burst|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_pdw2000_shot_soundset","jsrs_9mm_reverb_soundset"]
+            "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|pdw2000_short_01",1.25893,1,1000],
+            "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|pdw2000_short_02",1.25893,1,1000],
+            "soundbegin": ["begin1",0.5,"begin2",0.5],
+            # Class: CfgWeapons|pdw2000_base_F|Burst|StandardSound|SoundTails [Indent level: 3],
+            "soundtails": {
+                # Class: CfgWeapons|pdw2000_base_F|Burst|StandardSound|SoundTails|TailInterior [Indent level: 4]
+                "tailinterior": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|pdw2000_tail_interior",1.58489,1,1000],
+                    "frequency": 1,
+                    "volume": "interior"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|StandardSound|SoundTails|TailTrees [Indent level: 4],
+                "tailtrees": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|pdw2000_tail_trees",1,1,1000],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*trees"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|StandardSound|SoundTails|TailForest [Indent level: 4],
+                "tailforest": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|pdw2000_tail_forest",1,1,1000],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*forest"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|StandardSound|SoundTails|TailMeadows [Indent level: 4],
+                "tailmeadows": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|pdw2000_tail_meadows",1,1,1000],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|StandardSound|SoundTails|TailHouses [Indent level: 4],
+                "tailhouses": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|pdw2000_tail_houses",1,1,1000],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*houses"
+                }
+            },
+            "soundsetshot": ["SMGPDW2000_Shot_SoundSet","SMGPDW2000_Tail_SoundSet","SMGPDW2000_InteriorTail_SoundSet"],
+            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_01",0.501187,1,10],
+            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_02",0.501187,1.1,10],
+            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
-        # Class: CfgWeapons|hgun_PDW2000_F|burst|silencedsound [Indent level: 2],
+        # Class: CfgWeapons|pdw2000_base_F|Burst|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_pdw2000_shot_silenced_soundset","jsrs_9mm_sd_reverb_soundset"]
+            "begin1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_01",0.891251,1,400],
+            "begin2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_02",0.891251,1,400],
+            "begin3": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_short_03",0.891251,1,400],
+            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
+            # Class: CfgWeapons|pdw2000_base_F|Burst|SilencedSound|SoundTails [Indent level: 3],
+            "soundtails": {
+                # Class: CfgWeapons|pdw2000_base_F|Burst|SilencedSound|SoundTails|TailInterior [Indent level: 4]
+                "tailinterior": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_interior",1,1,400],
+                    "frequency": 1,
+                    "volume": "interior"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|SilencedSound|SoundTails|TailTrees [Indent level: 4],
+                "tailtrees": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_trees",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*trees"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|SilencedSound|SoundTails|TailForest [Indent level: 4],
+                "tailforest": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|silencer_PDW2000_tail_forest",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*forest"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|SilencedSound|SoundTails|TailMeadows [Indent level: 4],
+                "tailmeadows": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_meadows",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
+                },
+                # Class: CfgWeapons|pdw2000_base_F|Burst|SilencedSound|SoundTails|TailHouses [Indent level: 4],
+                "tailhouses": {
+                    "sound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Silencer_pdw2000_Tail_houses",1,1,400],
+                    "frequency": 1,
+                    "volume": "(1-interior/1.4)*houses"
+                }
+            },
+            "soundsetshot": ["SMGPDW2000_silencerShot_SoundSet","SMGPDW2000_silencerTail_SoundSet","SMGPDW2000_silencerInteriorTail_SoundSet"],
+            "closure1": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_01",0.501187,1,10],
+            "closure2": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|closure_pdw2000_02",0.501187,1.1,10],
+            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
+        "soundburst": 0,
+        "burst": 3,
+        "reloadtime": 0.0545,
+        # Recoil Array: recoil,
+        "recoil": [0,0,0,0.06,0.0221658,0.0086088,0.06,0.0190902,0.0030024,0.06,0.011853,0.0018336,0.06,0.0044328,0.000684,0.06,0,0],
+        # Recoil Array: recoilprone,
+        "recoilprone": [0,0,0,0.06,0.0221658,0.0043044,0.06,0.0190902,0.0015012,0.06,0.011853,0.0009168,0.06,0.0044328,0.000342,0.06,0,0],
+        "dispersion": 0.00203,
+        "minrange": 1,
+        "minrangeprobab": 0.3,
+        "midrange": 100,
+        "midrangeprobab": 0.7,
+        "maxrange": 200,
+        "maxrangeprobab": 0.05,
+        "airateoffire": 1,
+        "airateoffiredistance": 250,
         "sound": ["",10,1],
         "soundloop": ["sound",1],
         "soundend": ["sound",1],
-        "burst": 3,
-        "dispersion": 0.0005,
-        "minrange": 10,
-        "minrangeprobab": 0.3,
-        "midrange": 60,
-        "midrangeprobab": 0.58,
-        "maxrange": 150,
-        "maxrangeprobab": 0.04,
         "displayname": "Burst",
         "texturetype": "burst",
-        # Recoil Array: recoil,
-        "recoil": [0,0,0,0.06,0.0443316,0.0243916,0.06,0.0477255,0.0105084,0.06,0.0335835,0.0073344,0.06,0.0140372,0.003192,0.03,-0.0007206,-0.002688,0.03,-0.001765,-0.00282,0.03,-0.0018385,-0.001764,0.06,0,0],
-        # Recoil Array: recoilprone,
-        "recoilprone": [0,0,0,0.06,0.0110829,0.0021522,0.06,0.0095451,0.0007506,0.06,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0],
         "aidispersioncoefy": 2.4,
         "aidispersioncoefx": 1.9,
-        "soundburst": 0,
         "multiplier": 1,
         "burstrangemax": -1,
         "soundbegin": ["sound",1],
@@ -1255,7 +1437,6 @@ rhs_weap_pp2000_folded = {
         "soundclosure": ["sound",1],
         "soundcontinuous": 0,
         "weaponsoundeffect": "",
-        "reloadtime": 0.1,
         "ffcount": 1,
         "ffmagnitude": 0.5,
         "fffrequency": 11,
@@ -1268,22 +1449,9 @@ rhs_weap_pp2000_folded = {
         "artillerydispersion": 1,
         "artillerycharge": 1,
         "canshootinwater": 0,
-        "sounds": ["StandardSound","SilencedSound"],
         "requiredoptictype": -1,
-        "airateoffire": 2,
-        "airateoffiredispersion": 1,
-        "airateoffiredistance": 500
+        "airateoffiredispersion": 1
     },
-    "maxzeroing": 400,
-    "discretedistance": [100,200],
-    "discretedistanceinitindex": 0,
-    "distancezoommin": 50,
-    "distancezoommax": 50,
-    "drysound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Dry_pdw2000",0.1,1,20],
-    "changefiremodesound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Firemode_pdw2000",0.251189,1,5],
-    "reloadmagazinesound": ["A3|Sounds_F|arsenal|weapons|SMG|PDW2000|Reload_pdw2000",1,1,10],
-    "hiddenselections": ["camo","camo1","camo2","camo3"],
-    "hiddenselectionstextures": ["|a3|weapons_f|acc|data|battlesight_co","|a3|weapons_f|rifles|mx|data|xmx_handle_co","|a3|weapons_f_gamma|smgs|pdw2000|data|pdw2000_ammo_ca","|a3|weapons_f_gamma|smgs|pdw2000|data|pdw2000_co"],
     "deployedpivot": "bipod",
     # Class: CfgWeapons|Rifle_Base_F|GunParticles [Indent level: 1],
     "gunparticles": {
@@ -1327,7 +1495,7 @@ rhs_weap_pp2000_folded = {
     "fffrequency": 11,
     "ffcount": 3,
     "weaponpoolavailable": 1,
-    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
     "airateoffire": 0.5,
     "airateoffiredistance": 500,
     "access": 3,

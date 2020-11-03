@@ -26,8 +26,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "scope": 1,
         "cursor": "EmptyCursor",
@@ -349,8 +348,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "soundburst": 0,
         "scope": 1,
@@ -670,8 +668,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "soundburst": 0,
         "scope": 1,
@@ -991,8 +988,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "soundburst": 0,
         "scope": 1,
@@ -1312,8 +1308,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "soundburst": 0,
         "scope": 1,
@@ -1633,8 +1628,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "soundburst": 0,
         "scope": 1,
@@ -1954,8 +1948,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "soundburst": 0,
         "scope": 1,
@@ -2275,8 +2268,7 @@ rhs_weap_ffarlauncher = {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_1",2.4,1,1400],
             "soundbegin": ["begin1",0.5,"begin2",0.5],
-            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400],
-            "soundsetshot": ["jsrs_rocketpods_shot_soundset","jsrs_pods_reverb_soundset"]
+            "begin2": ["rhsusf|addons|rhsusf_sounds|launcher_small|launcher_small_2",2.4,1,1400]
         },
         "soundburst": 0,
         "scope": 1,

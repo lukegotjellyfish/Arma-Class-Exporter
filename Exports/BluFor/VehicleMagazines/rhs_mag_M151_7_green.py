@@ -71,14 +71,14 @@ rhs_mag_m151_7_green = {
             "frequency": 20,
             "distance": 1
         },
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
+        "soundsetexplosion": ["RocketsLight_Exp_SoundSet","RocketsLight_Tail_SoundSet","Explosion_Debris_SoundSet"],
         "simulationstep": 0.01,
         "soundhit1": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_01",2.51189,1,2000],
         "soundhit2": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_02",2.51189,1,2000],
         "soundhit3": ["A3|Sounds_F|arsenal|weapons|Launchers|Titan|Explosion_titan_missile_03",2.51189,1,2000],
         "multisoundhit": ["soundHit1",0.34,"soundHit2",0.33,"soundHit3",0.33],
         "explosionsoundeffect": "DefaultExplosion",
-        "soundengine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundengine": ["",1,1,50],
         "supersoniccracknear": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_close",0.398107,1,20],
         "supersoniccrackfar": ["A3|Sounds_F|weapons|Explosion|supersonic_crack_50meters",0.316228,1,50],
         "cratereffects": "ATMissileCrater",
@@ -101,8 +101,6 @@ rhs_mag_m151_7_green = {
         "mfmax": 100,
         "mfact": 0,
         "tbody": 0,
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo|MissileBase|EventHandlers [Indent level: 1],
         "eventhandlers": {
             # Class: CfgAmmo|MissileBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2]

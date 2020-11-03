@@ -66,13 +66,12 @@ rhs_mag_b8m1_s8df = {
             "frequency": 20,
             "distance": 1
         },
-        "soundsetexplosion": ["jsrs_rocket_explosion_soundset","jsrs_rocket_explosion_stereo_soundset","jsrs_shell_explosion_reverb_soundset"],
-        "soundsetsoniccrack": ["jsrs_sc_rocket_flyby_soundset"],
+        "soundsetexplosion": ["RocketsMedium_Exp_SoundSet","RocketsMedium_Tail_SoundSet","Explosion_Debris_SoundSet"],
         "dangerradiushit": -1,
         "suppressionradiushit": 30,
         "soundhit": ["A3|Sounds_F|weapons|Rockets|explosion_missile_02",2.51189,1,2500],
         "explosionsoundeffect": "DefaultExplosion",
-        "soundengine": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|soundfly1.ogg",1,1,750],
+        "soundengine": ["",1,1,20],
         "supersoniccracknear": ["",1,1,50],
         "supersoniccrackfar": ["",1,1,150],
         "cratereffects": "HERocketCrater",
@@ -80,7 +79,6 @@ rhs_mag_b8m1_s8df = {
         "hiteffects": {
             "hitwater": "ImpactEffectsWaterRocket"
         },
-        "soundsetfly": ["jsrs_sc_rocket_flyby_soundset"],
         # Class: CfgAmmo|RocketBase|EventHandlers [Indent level: 1],
         "eventhandlers": {
             # Class: CfgAmmo|RocketBase|EventHandlers|RHS_APS_FiredEH [Indent level: 2]

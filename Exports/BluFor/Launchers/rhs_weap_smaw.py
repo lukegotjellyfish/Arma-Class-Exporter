@@ -55,8 +55,7 @@ rhs_weap_smaw = {
         "standardsound": {
             "weaponsoundeffect": "DefaultRifle",
             "begin1": ["rhsusf|addons|rhsusf_weapons2|smaw|sound|smaw_s2.wav",10,1,1200],
-            "soundbegin": ["begin1",1],
-            "soundsetshot": ["jsrs_smaw_shot_soundset","jsrs_warhead_reverb_soundset"]
+            "soundbegin": ["begin1",1]
         },
         "airateoffire": 7,
         "airateoffiredistance": 600,
@@ -67,10 +66,6 @@ rhs_weap_smaw = {
         "maxrange": 900,
         "maxrangeprobab": 0.5,
         "dispersion": 0.35,
-        # Class: CfgWeapons|rhs_weap_smaw|Single|BaseSoundModeType [Indent level: 2],
-        "basesoundmodetype": {
-            "weaponsoundeffect": "DefaultRifle"
-        },
         "multiplier": 1,
         "burst": 1,
         "burstrangemax": -1,
@@ -207,8 +202,7 @@ rhs_weap_smaw = {
             "standardsound": {
                 "weaponsoundeffect": "DefaultRifle",
                 "begin1": ["rhsusf|addons|rhsusf_weapons2|smaw|sound|smaw_spotting_s2.wav",7.94328,1,400],
-                "soundbegin": ["begin1",1],
-                "soundsetshot": ["jsrs_smaw_sr_shot_soundset","jsrs_pods_reverb_soundset"]
+                "soundbegin": ["begin1",1]
             },
             # Recoil Array: recoil,
             "recoil": [0,0,0,0.03,0.0073886,0.0028696,0.04,0.0063634,0.0010008,0.05,0.003951,0.0006112,0.06,0.0014776,0.000228,0.06,0,0,0.06,-0.0004804,-7.68e-005,0.06,-0.000706,-0.0001128,0.06,-0.0007354,-0.0001176,0.06,-0.0006276,-0.0001,0.06,-0.0004412,-7.04e-005,0.06,-0.0002354,-3.76e-005,0.06,-6.86e-005,-1.12e-005,0.06,-3e-005,0,0.06,0,0],
@@ -220,10 +214,6 @@ rhs_weap_smaw = {
             "midrangeprobab": 0.8,
             "maxrange": 900,
             "maxrangeprobab": 0.5,
-            # Class: CfgWeapons|rhs_weap_smaw|rhs_weap_smaw_SR|Single2|BaseSoundModeType [Indent level: 3],
-            "basesoundmodetype": {
-                "weaponsoundeffect": "DefaultRifle"
-            },
             "multiplier": 1,
             "burst": 1,
             "burstrangemax": -1,

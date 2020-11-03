@@ -121,14 +121,14 @@ rhs_weap_m38 = {
         "midrangeprobab": 0.7,
         "maxrange": 400,
         "maxrangeprobab": 0.04,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_mosin_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_cmr76_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -182,14 +182,14 @@ rhs_weap_m38 = {
         "airateoffiredistance": 700,
         "reloadtime": 1.6,
         "dispersion": 0.000235,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_mosin_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_cmr76_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -238,14 +238,14 @@ rhs_weap_m38 = {
         "showtoplayer": 0,
         "reloadtime": 1.6,
         "dispersion": 0.000235,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_mosin_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_cmr76_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -294,14 +294,14 @@ rhs_weap_m38 = {
         "showtoplayer": 0,
         "reloadtime": 1.6,
         "dispersion": 0.000235,
-        "sounds": ["StandardSound","SilencedSound"],
+        "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_mosin_shot_soundset","jsrs_9x3mm_reverb_soundset"]
+            "soundsetshot": ["RHSGREF_nagant_Shot_SoundSet","RHSGREF_rifle2_Tail_SoundSet"]
         },
         # Class: CfgWeapons|rhs_weap_m38_Base_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "soundsetshot": ["jsrs_cmr76_shot_silenced_soundset","jsrs_7x62mm_SD_reverb_soundset"]
+            "soundsetshot": ["RHSUSF_sd_xm2010_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"]
         },
         "multiplier": 1,
         "burst": 1,
@@ -378,7 +378,7 @@ rhs_weap_m38 = {
     "ffcount": 3,
     "weaponpoolavailable": 1,
     "maxzeroing": 1000,
-    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,

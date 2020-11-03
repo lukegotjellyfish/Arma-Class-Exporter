@@ -26,7 +26,7 @@ rhs_weap_izh18 = {
         "sounds": ["StandardSound"],
         # Class: CfgWeapons|rhs_weap_Izh18|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "soundsetshot": ["jsrs_saiga12_shot_soundset","jsrs_7x62mm_reverb_soundset"]
+            "soundsetshot": ["HunterShotgun_01_Shot_SoundSet","HunterShotgun_01_Tail_SoundSet"]
         },
         "reloadtime": 0.5,
         "minrange": 1,
@@ -243,19 +243,6 @@ rhs_weap_izh18 = {
         "allowedslots": [901],
         "mass": 71.72
     },
-    "bullet1": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_1.ogg",2.0099,1,10],
-    "bullet2": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_2.ogg",2.0099,1,10],
-    "bullet3": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_3.ogg",2.0099,1,10],
-    "bullet4": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|metal_4.ogg",2.0099,1,10],
-    "bullet5": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_1.ogg",2.0099,1,10],
-    "bullet6": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_2.ogg",2.0099,1,10],
-    "bullet7": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_3.ogg",2.0099,1,10],
-    "bullet8": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|dirt_4.ogg",2.0099,1,10],
-    "bullet9": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_1.ogg",2.0099,1,10],
-    "bullet10": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_2.ogg",2.0099,1,10],
-    "bullet11": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_3.ogg",2.0099,1,10],
-    "bullet12": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|shells|medium|grass_4.ogg",2.0099,1,10],
-    "soundbullet": ["bullet1",0.08,"bullet2",0.084,"bullet3",0.084,"bullet4",0.084,"bullet5",0.093,"bullet6",0.093,"bullet7",0.074,"bullet8",0.074,"bullet9",0.084,"bullet10",0.085,"bullet11",0.083,"bullet12",0.083],
     # Recoil Class: recoil,
     # Class: CfgRecoils|recoil_default [Indent level: 0],
     "recoil": {
@@ -308,7 +295,7 @@ rhs_weap_izh18 = {
     "ffcount": 3,
     "weaponpoolavailable": 1,
     "maxzeroing": 1000,
-    "zeroingsound": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|weapons|noises|rifle_zeroing_1.ogg",5,1,5],
+    "zeroingsound": ["A3|Sounds_F|arsenal|sfx|shared|zeroing_knob_tick_metal",0.316228,1,5],
     "type": 1,
     "airateoffire": 0.5,
     "airateoffiredistance": 500,
@@ -339,6 +326,7 @@ rhs_weap_izh18 = {
     "drysound": ["",1,1],
     "changefiremodesound": ["",1,1],
     "emptysound": ["",1,1],
+    "soundbullet": ["emptySound",1],
     "initspeed": 0,
     "ballisticscomputer": 0,
     "irdistance": 0,

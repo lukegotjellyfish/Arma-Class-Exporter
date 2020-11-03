@@ -1641,7 +1641,6 @@ rhs_weap_ags30 = {
     },
     "maxzeroing": 2000,
     "drysound": ["A3|Sounds_F|arsenal|weapons_static|Static_GMG|GMG20mm_static_dry",1,1,10],
-    "soundfly": ["|jsrs_soundmod_complete|JSRS_Soundmod_Soundfiles|warfare|mortar_fly.ogg",1,1.5,500],
     "airateoffire": 4,
     "airateoffiredistance": 500,
     "minrange": 8,
