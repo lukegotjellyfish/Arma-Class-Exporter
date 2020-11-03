@@ -299,6 +299,10 @@ Opfor:
 		rhs_weap_2a42
 			1*rhs_mag_3ubr11_125
 			1*rhs_mag_3uof8_125
+		rhs_weap_s13:
+			rhs_mag_b13l_s13b
+		rhs_weap_9m120_launcher:
+			rhs_mag_9M120M_Mi28_8x
 
 	RHS_Ka52_vvs
 		rhs_weap_2a42:
