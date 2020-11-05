@@ -1,0 +1,247 @@
+Shared:
+Ghillie Semi-Aritd:
+U_O_FullGhillie_sard
+V_Chestrig_khk
+
+G_Bandanna_blk
+
+Ghillie Lush:
+U_O_FullGhillie_lsh
+V_Chestrig_khk
+
+G_Bandanna_blk
+
+Ghillie Arid:
+U_O_FullGhillie_ard
+V_Chestrig_khk
+
+G_Bandanna_blk
+
+
+OpFor:
+Backpacks:
+rhs_sidor
+rhs_assault_umbts
+rhsgref_ttsko_alicepack
+
+Infantry Light:
+rhs_uniform_flora_patchless_alt
+rhs_6b23
+rhs_fieldcap_vsr
+
+Marines Light:
+rhs_uniform_flora_patchless_alt
+rhs_6sh92_vsr
+rhs_beret_mp1
+
+Airborne Light:
+rhs_uniform_vdv_flora
+rhs_6sh92
+rhs_beret_vdv3
+
+Afghan:
+rhs_uniform_m88_patchless
+rhs_6b5_rifleman_khaki
+rhs_ssh68
+
+Infantry:
+rhs_uniform_flora_patchless
+rhs_6b23_rifleman
+rhs_6b27m_ess
+
+Infantry (EMR):
+rhs_uniform_emr_patchless
+rhs_6b23_digi_rifleman
+rhs_6b28_ess
+
+Infantry (Mountain):
+rhs_uniform_mflora_patchless
+rhs_6b23_ML_rifleman
+rhs_6b27m_ml_ess
+
+Airborne:
+rhs_uniform_vdv_emr
+rhs_6b23_digi_6sh92_spetsnaz2
+rhs_6b28_ess
+
+Marines:
+rhs_uniform_vmf_flora
+rhs_6b13_Flora_6sh92
+rhs_6b7_1m_bala1_flora
+
+Officer:
+rhs_uniform_emr_patchless
+rhs_vest_commander
+rhs_fieldcap_digi2
+
+Crewman:
+rhs_uniform_flora_patchless
+rhs_vydra_3m
+rhs_tsh4
+
+Heli Pilot:
+rhs_uniform_df15
+rhs_vydra_3m
+rhs_zsh7a_mike_alt
+
+Jet Pilot:
+rhs_uniform_df15_tan
+rhs_vydra_3m
+rhs_zsh7a_alt
+
+Marines (EMR):
+rhs_uniform_emr_patchless
+rhs_6b13_EMR_6sh92
+rhs_6b7_1m_emr_ess_bala
+
+Airborne (Desert):
+rhs_uniform_vdv_emr_des
+rhs_6b23_digi_6sh92_Spetsnaz
+rhs_6b28_ess
+
+Spetsnaz Light:
+rhs_uniform_gorka_r_y
+rhs_6b23_6sh116_od
+rhs_beanie_green
+
+Spetsnaz Marksman:
+rhs_uniform_gorka_r_g
+rhs_6sh92_digi_vog_headset
+rhs_Booniehat_digi
+
+Spetsnaz:
+rhs_uniform_gorka_r_g
+rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz
+rhs_6b47
+
+Infantry Assault:
+rhs_uniform_gorka_r_g
+rhs_6b43
+rhs_altyn_visordown
+rhs_balaclava1_olive
+
+
+
+
+BluFor:
+Backpacks:
+rhsusf_falconii
+B_Carryall_cbr
+
+Army Light (OCP):
+rhs_uniform_acu_ocp
+rhsusf_spcs_ocp
+rhsusf_patrolcap_ocp
+
+Army Light (UCP):
+rhs_uniform_acu_ucp
+rhsusf_spcs_ucp
+rhsusf_patrolcap_ucp
+
+Alpenflage:
+rhsgref_uniform_alpenflage
+rhsgref_alice_webbing
+rhsgref_Booniehat_alpen
+
+Army (OCP):
+rhs_uniform_cu_ocp
+rhsusf_iotv_ocp_SAW
+rhsusf_ach_helmet_ocp
+rhs_ess_black
+
+Army (UCP):
+rhs_uniform_cu_ucp
+rhsusf_iotv_ucp_SAW
+rhsusf_ach_helmet_ucp
+rhs_ess_black
+
+USMC (Woodland):
+rhs_uniform_FROG01_wd
+rhsusf_spc_teamleader
+rhsusf_lwh_helmet_marpatwd_headset
+
+USMC (Desert):
+rhs_uniform_FROG01_d
+rhsusf_spc_teamleader
+rhsusf_lwh_helmet_marpatd_headset
+
+Army Marksman (OCP):
+rhs_uniform_cu_ocp
+rhsusf_iotv_ocp_Teamleader
+rhsusf_ach_helmet_camo_ocp
+
+Army Marksman (UCP):
+rhs_uniform_acu_ucp
+rhsusf_iotv_ucp_Teamleader
+rhs_Booniehat_ucp
+
+USMC Officer (Woodland):
+rhs_uniform_FROG01_wd
+rhsusf_spc
+rhs_8point_marpatwd
+
+Tank Crew (OCP):
+rhs_uniform_cu_ocp
+rhsusf_iotv_ocp
+rhsusf_cvc_green_ess
+
+Tank Crew (UCP):
+rhs_uniform_cu_ucp
+rhsusf_iotv_ucp
+rhsusf_cvc_ess
+
+Helicopter Crew (OCP):
+rhs_uniform_cu_ocp
+rhsusf_spcs_ocp
+rhsusf_hgu56p_visor_green
+
+Helicopter Crew (UCP):
+rhs_uniform_cu_ucp
+rhsusf_spcs_ucp
+rhsusf_hgu56p_saf
+
+Pilot:
+U_B_HeliPilotCoveralls
+V_TacVest_oli
+H_Cap_headphones
+G_Aviator
+
+Jet Pilot:
+U_B_PilotCoveralls
+
+RHS_jetpilot_usaf
+
+USMC Officer (Desert):
+rhs_uniform_FROG01_d
+rhsusf_spc
+rhs_8point_marpatd
+
+USMC Recon (Woodland):
+rhs_uniform_FROG01_wd
+rhsusf_mbav_mg
+rhsusf_mich_bare_norotos_arc_semi_headset
+rhsusf_shemagh_tan
+
+USMC Recon (Desert):
+rhs_uniform_FROG01_d
+rhsusf_mbav_mg
+rhsusf_mich_bare_norotos_tan_headset
+rhsusf_shemagh_tan
+
+SOC (Woodland):
+rhs_uniform_g3_rgr
+V_PlateCarrier2_rgr
+rhsusf_opscore_mar_fg_pelt
+rhsusf_shemagh2_gogg_grn
+
+SOC (Desert):
+rhs_uniform_g3_tan
+V_TacVest_khk
+rhsusf_opscore_mar_ut_pelt
+rhsusf_shemagh2_gogg_tan
+
+SOC (Black):
+rhs_uniform_g3_blk
+V_PlateCarrier2_blk
+rhsusf_opscore_bk_pelt
+rhsusf_shemagh2_gogg_od
