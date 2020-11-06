@@ -2,8 +2,7 @@
 import re
 import os
 import csv
-import CombinedBluFor
-import CombinedOpFor
+import CombinedRHS
 import math
 from decimal import Decimal
 
@@ -34,47 +33,26 @@ cend     = '\33[0m'
 SEPERATOR = cgreen + cbold + "======================================================================================================================" + cend
 
 #There must be a better way of doing this, it hurts my eyes and looks wrong
-def bluFor(array, depth):
+def rhsusaf(array, depth):
     if depth == 2:
-        return CombinedBluFor.BluFor[array[0]][array[1]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]]
     if depth == 3:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]][array[2]]
     if depth == 4:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]][array[2]][array[3]]
     if depth == 5:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]][array[2]][array[3]][array[4]]
     if depth == 6:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
     if depth == 7:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]]
     if depth == 8:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]]
     if depth == 9:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]][array[8]]
-
-def opFor(array, depth):
-    if depth == 2:
-        return CombinedOpFor.OpFor[array[0]][array[1]]
-    if depth == 3:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]]
-    if depth == 4:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]]
-    if depth == 5:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]]
-    if depth == 6:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
-    if depth == 7:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]]
-    if depth == 8:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]]
-    if depth == 9:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]][array[8]]
+        return Combinedrhs.rhsusaf[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]][array[8]]
 
 def fetchSide(array):
-    if array[0][:2] == "Op":
-        return opFor(array, len(array))
-    else:
-        return bluFor(array, len(array))
+    return rhsusaf(array, len(array))
 """
 <Side>LauncherMagazines
 <Side>Launchers
@@ -465,7 +443,7 @@ def writeVehicleWeaponStats(weapon, side, csvwriter):
 weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
                "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m", "Unlock Level"
                "Weapon Class", "Magazine Class", "Caliber"]
-bluForWeapons = [
+rhsusafWeapons = [
     ["rhs_weap_g36kv"         ,"rhssaf_30rnd_556x45_epr_g36"          ],
     ["rhs_weap_hk416d145"     ,"rhs_mag_30rnd_556x45_mk318_stanag"    ],
     ["rhs_weap_kar98k"        ,"rhsgref_5rnd_792x57_kar98k"           ],
@@ -501,7 +479,7 @@ bluForWeapons = [
     ["rhsusf_weap_m9"         ,"rhsusf_mag_15rnd_9x19_jhp"            ],
     ["rhsusf_weap_mp7a2"      ,"rhsusf_mag_40rnd_46x30_jhp"           ]
 ]
-opForWeapons = [
+rhsafrfWeapons = [
     ["rhs_weap_ak103"        ,"rhs_30rnd_762x39mm_polymer_89"],
     ["rhs_weap_ak74"         ,"rhs_30rnd_545x39_7n6_ak"      ],
     ["rhs_weap_6p53"         ,"rhs_18rnd_9x21mm_7n29"        ],
@@ -541,7 +519,7 @@ vehicleWeaponArray = ["Name","Cartridge","Capacity","Damage","Indirect Damage","
                       "Air Resistance", "Penetration", "Submunition Penetration", "Damage at 100m", "Damage at 500m", "Damage at 1000m", "Damage at 2000m", "Damage at 3000m",
                       "Thrust", "Thrust Time", "Max speed",
                       "Weapon Class", "Magazine Class", "Caliber", "Submunition Caliber"]
-bluForVehicleWeapons = [
+rhsusafVehicleWeapons = [
     ["rhs_weap_gau8"                ,"rhs_mag_1150rnd_30x173_mixed"             ],
     ["rhs_m2"                       , "rhs_mag_100rnd_127x99_mag_tracer_red"    ],
     ["rhs_mk19"                     ,"rhs_48rnd_40mm_mk19_m430a1"               ],
@@ -578,7 +556,7 @@ bluForVehicleWeapons = [
 	["rhs_weap_zpl20"               ,"rhs_mag_zpl20_mixed"                      ],
 	["rhs_weap_mk82"                ,"rhs_mag_mk82"                             ]
 ]
-opForVehicleWeapons = [
+rhsafrfVehicleWeapons = [
     ["rhs_weap_dshkm"         ,"rhs_mag_127x108mm_50"       ],
     ["rhs_weap_ags30"         ,"rhs_mag_vog30_30"           ],
     ["rhs_weap_spg9"          ,"rhs_mag_og9v"               ],
@@ -649,32 +627,32 @@ opForVehicleWeapons = [
 ]
 
 #Normal infantry weapons
-with open("BluForWeaponExport.csv", "w", newline='\n') as csvfile:
+with open("rhsusafWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(weaponArray)
-    for weapon in bluForWeapons:
-        writeWeaponStats(weapon, "BluFor", csvwriter)
-with open("OpForWeaponExport.csv", "w", newline='\n') as csvfile:
+    for weapon in rhsusafWeapons:
+        writeWeaponStats(weapon, "rhsusaf", csvwriter)
+with open("rhsafrfWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(weaponArray)
-    for weapon in opForWeapons:
-        writeWeaponStats(weapon, "OpFor", csvwriter)
+    for weapon in rhsafrfWeapons:
+        writeWeaponStats(weapon, "rhsafrf", csvwriter)
 
 #Vehicle weapons
-with open("BluForVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
+with open("rhsusafVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(vehicleWeaponArray)
-    for weapon in bluForVehicleWeapons:
-        writeVehicleWeaponStats(weapon, "BluFor", csvwriter)
-with open("OpForVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
+    for weapon in rhsusafVehicleWeapons:
+        writeVehicleWeaponStats(weapon, "rhsusaf", csvwriter)
+with open("rhsafrfVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
     csvfile.truncate(0)  #Clear file
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(vehicleWeaponArray)
-    for weapon in opForVehicleWeapons:
-        writeVehicleWeaponStats(weapon, "OpFor", csvwriter)
+    for weapon in rhsafrfVehicleWeapons:
+        writeVehicleWeaponStats(weapon, "rhsafrf", csvwriter)
 
 # print('{:.2f}'.format(round((403.86 * 0.24 * 0.015)/10,2)).zfill(4) + "|" +
 #                      '{:.2f}'.format(round((403.86 * 0.24 * 0.080)/10,2)).zfill(5) + "|" +

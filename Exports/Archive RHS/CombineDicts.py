@@ -11,8 +11,8 @@ def writeToFile(file, root, side):
 	side.write(fileContents.replace("Â","") + "\n    }")
 	return
 
-sides = ["BluFor", "OpFor"]
-combineFiles = ["LauncherMagazines", "Launchers", "Magazines", "VehicleMagazines", "Vehicles", "VehicleWeapons", "Weapons", "Uniforms", "Backpacks", "Glasses"]
+sides = ["rhs"]
+combineFiles = ["Magazines", "Vehicles","Weapons", "Glasses"]
 for side in sides:
 	print("Side: " + side)
 	for category in combineFiles:
@@ -43,40 +43,13 @@ for side in sides:
 
 
 # Clear files:
-open("CombinedBluFor.py", 'w').close()
-open("CombinedOpFor.py", 'w').close()
-with open("CombinedBluFor.py", "a", encoding="utf-8") as BluFor,  open("CombinedOpFor.py", "w", encoding="utf-8") as OpFor:
-	for root, dirs, files in os.walk(cwd + "\\" + "Exports", topdown = False):
+open("CombinedRHS.py", 'w').close()
+with open("CombinedRHS.py", "a", encoding="utf-8") as RHS:
+	RHS.write("RHS = {\n")
+	for root, dirs, files in os.walk("E:\\USBBACKUP\\GitHub\\Arma-Class-Exporter\\Exports\\Exports", topdown = False):
 		x = 0
-		onBlu = 0
-		onOpf = 0
 		for file in files:
-
-			if file[:3] == "Blu":
-				if (onBlu == 0):
-					onBlu = 1
-					BluFor.write("BluFor = {\n")
-
-				writeToFile(file, root, BluFor)
-
-				if (files[x+1][:3] == "Blu"):
-					BluFor.write(",")
-				BluFor.write("\n")
-
-			if file[:2] == "Op":
-				if (onOpf == 0):
-					onOpf = 1
-					OpFor.write("OpFor = {\n")
-
-				writeToFile(file, root, OpFor)
-
-				if (file != files[len(files)-1]):
-					OpFor.write(",")
-				OpFor.write("\n")
-
-				if (onBlu == 1):
-					onBlu = 0
-					BluFor.write("}")
-
+			writeToFile(file, root, RHS)
+			RHS.write(",\n")
 			x += 1
-	OpFor.write("}")
+	RHS.write("\n}")
