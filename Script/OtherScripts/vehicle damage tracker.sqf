@@ -16,6 +16,7 @@ v3_vehicle = "";
 //https://community.bistudio.com/wiki/DIK_KeyCodes
 //16 = Q
 //18 = E
+//diag_toggle is a function of the dev branch, exclude this for stable/profiling/rc
 diag_toggleToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 16) then {diag_log('single diag_toggle'); diag_toggle 'shots';};"];
 
 countHitpoints = {
