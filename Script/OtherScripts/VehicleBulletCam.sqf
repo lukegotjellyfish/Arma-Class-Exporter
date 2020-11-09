@@ -6,7 +6,7 @@ bulletA = player addAction ["Enable Bullet Cam", {YEETUS = vehicle player addEve
 		_cam cameraEffect ["External", "Back"];
 		while {!(isNull _missile)} do {
 			_cam camSetTarget getPos _missile;
-			systemChat format["Distance: %1 | Velocity: %2", player distance2D _missile, velocity _missile];
+			systemChat format["Distance: %1 | Velocity: %2 | Pos: %3", player distance2D _missile, velocity _missile, getPos _missile];
 			_missilePos = getPos _missile;
 			_cam camSetRelPos [10,10,0];
 			_cam camCommit 0;
