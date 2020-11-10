@@ -272,8 +272,15 @@ def getWeaponStats(weapon, magazine, side):
             estSpeed = 331.8 * (1/math.exp(abs(-0.00634) * shotDistance))
             shotDamage = 3.91 * (estSpeed/403.86)
             shot.append('{:.3f}'.format(round(shotDamage,3)))
-        return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
-                "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
+        if side == "OpFor":
+            return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
+                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
+        elif side == "BluFor":
+            return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
+                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_M590_5RD","rhs_ammo_12g_00buckshot = 1Rnd 00 Buckshot", "0.24"]
+
+    #
+    #rhsusf_5Rnd_00Buck
 
     magCapacity   = getMagazineCapacity(side, "Magazines", magazine)
     damage        = getHit(side, "Magazines", magazine)
