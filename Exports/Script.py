@@ -293,7 +293,7 @@ def getWeaponStats(weapon, magazine, side):
     typicalSpeed  = getTypicalSpeed(side, "Magazines", magazine)
     airResistance = getAirResistance(side, "Magazines", magazine)
     caliber       = getCaliber(side, "Magazines", magazine)
-    penetration   = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015)/10,2)).zfill(4) + "|" +
+    penetration   = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.250)/10,2)).zfill(5))
     thrust        = getThrust(side, "Magazines", magazine)
