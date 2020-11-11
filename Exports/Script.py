@@ -268,16 +268,16 @@ def getWeaponStats(weapon, magazine, side):
     # Easier to do it manually for now :p
     if cartridge == "Buckshot":
         shot = []
-        for shotDistance in range(100, 600, 100):
+        for shotDistance in [100,200,300,400,500,1000,1500,2000]:
             estSpeed = 331.8 * (1/math.exp(abs(-0.00634) * shotDistance))
             shotDamage = 3.91 * (estSpeed/403.86)
             shot.append('{:.3f}'.format(round(shotDamage,3)))
         if side == "OpFor":
             return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
-                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
+                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], shot[5], shot[6], shot[7], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
         elif side == "BluFor":
             return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
-                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], "X", "rhs_weap_M590_5RD","rhs_ammo_12g_00buckshot = 1Rnd 00 Buckshot", "0.24"]
+                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], shot[5], shot[6], shot[7], "X", "rhs_weap_M590_5RD","rhs_ammo_12g_00buckshot = 1Rnd 00 Buckshot", "0.24"]
 
     #
     #rhsusf_5Rnd_00Buck
@@ -296,9 +296,9 @@ def getWeaponStats(weapon, magazine, side):
     penetration   = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.250)/10,2)).zfill(5))
-    thrust        = getThrust(side, "Magazines", magazine)
-    thrustTime    = getThrustTime(side, "Magazines", magazine)
-    maxSpeed      = getMaxSpeed(side, "Magazines", magazine)
+    #thrust        = getThrust(side, "Magazines", magazine)
+    #thrustTime    = getThrustTime(side, "Magazines", magazine)
+    #maxSpeed      = getMaxSpeed(side, "Magazines", magazine)
 
     #FireMode filtering, likely more useful for vehicle weapons
     modeStats     = filterRifleFireModes(fireModes, rpm, dispersion)
@@ -309,7 +309,7 @@ def getWeaponStats(weapon, magazine, side):
 
     # hit = hit * (speed / typicalSpeed)
     hitValues = []
-    for distance in range(100, 600, 100):
+    for distance in [100,200,300,400,500,1000,1500,2000]:
         estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
         # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
         hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
@@ -321,7 +321,7 @@ def getWeaponStats(weapon, magazine, side):
     damage = '{:.3f}'.format(round(damage * (initialSpeed / typicalSpeed), 3))
     return ["X", "X", name, cartridge, magCapacity, damage, fireModes[:-1], rpm, dispersion,
             initialSpeed, typicalSpeed, airResistance, penetration,
-            hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], "X", wepClass, magClass, caliber]
+            hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], hitValues[5], hitValues[6], hitValues[7], "X", wepClass, magClass, caliber]
 
 def writeWeaponStats(weapon, side, csvwriter):
     weaponStats = getWeaponStats(weapon[0], weapon[1], side)
@@ -470,7 +470,8 @@ def writeVehicleWeaponStats(weapon, side, csvwriter):
     print(SEPERATOR + "\n\n")
 
 weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
-               "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m", "Unlock Level"
+               "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m",
+               "Damage at 1000m", "Damage at 1500m", "Damage at 2000m", "Unlock Level"
                "Weapon Class", "Magazine Class", "Caliber"]
 bluForWeapons = [
     ["rhs_weap_g36kv"         ,"rhssaf_30rnd_556x45_epr_g36"          ],
