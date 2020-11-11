@@ -1,6 +1,7 @@
 //SCRIPT START
-vehicle player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
-//Assign vehicles
+_vehicleFired = vehicle player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
+_playerFired = player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
+//Assign vehicles (vehicle variable name)
 v1 = t72;
 v2 = t80;
 v3 = t90;
@@ -118,4 +119,6 @@ vehicle_remove = player addAction ["Remove and disable options", {
 	// if (_var != -1) then { (findDisplay 46) displayRemoveEventHandler ["KeyDown", v3_displayHandler]; } else {};
 
 	(findDisplay 46) displayRemoveEventHandler ["KeyDown", diag_toggleToggle];
+	player removeEventHandler ["Fired", "_vehicleFired"]
+	player removeEventHandler ["Fired", "_playerFired"]
 }];
