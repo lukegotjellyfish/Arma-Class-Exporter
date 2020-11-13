@@ -17,8 +17,10 @@ v3_vehicle = "";
 //https://community.bistudio.com/wiki/DIK_KeyCodes
 //16 = Q
 //18 = E
+//I couldn't be bothered to figure out a way to actually toggle this off and on without presing it twice so i just use a macro :p
 //diag_toggle is a function of the dev branch, exclude this for stable/profiling/rc
 diag_toggleToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 16) then {diag_log('single diag_toggle'); diag_toggle 'shots';};"];
+
 
 countHitpoints = {
 	params ["_vx", "_hintTitle"];
@@ -40,7 +42,7 @@ countHitpoints = {
 damageLog = {
 	params ["_vx", "_vxDamageEntry"];
 
-	diag_log(format["On damageLog: %1|%2", _vx, _vxDamageEntry]);
+	//diag_log(format["On damageLog: %1|%2", _vx, _vxDamageEntry]);
 
 	vx_HitpointsDamageArray = getAllHitPointsDamage _vx;
 	vx_HitPointsNames = vx_HitpointsDamageArray select 0;
@@ -63,7 +65,7 @@ damageLog = {
 
 toggleLogger = {
 	params ["_vx", "_vxToggle", "_vxName"];
-	vx = _vx;  //Otherwise calling damageLog will be [any]
+	vx = _vx;  //Otherwise calling damageLog will be [any], there is almost definintely a better way of doing this but eeeeeeeh :p
 
 	//diag_log(format["On toggleLogger: %1|%2|%3", _vx, _vxToggle, _vxName]);
 
@@ -90,35 +92,28 @@ toggleLogger = {
 };
 
 
-
-
-vehicle_1 = player addAction ["Toggle T-72 monitor", {
-	[v1, v1_toggle, "T-72"] call toggleLogger;
+vehicle_1 = player addAction [format["Toggle %1 monitor", v1_vehicle], {
+	[v1, v1_toggle, v1_vehicle] call toggleLogger;
 }];
-vehicle_2 = player addAction ["Toggle T-80 monitor", {
-	[v2, v2_toggle, "T-80"] call toggleLogger;
+vehicle_2 = player addAction [format["Toggle %1 monitor", v2_vehicle], {
+	[v2, v2_toggle, v2_vehicle] call toggleLogger;
 }];
-vehicle_3 = player addAction ["Toggle T-90 monitor", {
-	[v3, v3_toggle, "T-90"] call toggleLogger;
+vehicle_3 = player addAction [format["Toggle %1 monitor", v3_vehicle], {
+	[v3, v3_toggle, v3_vehicle] call toggleLogger;
 }];
 
 vehicle_remove = player addAction ["Remove and disable options", {
+	//Remove vehicle toggle actions
 	player removeaction vehicle_1;
 	player removeaction vehicle_2;
 	player removeaction vehicle_3;
 
+	//Remove this action because where else would it be removed
 	player removeaction vehicle_remove;
 
-	// _var = missionNameSpace getVariable ["v1_displayHandler",-1];
-	// if (_var != -1) then { (findDisplay 46) displayRemoveEventHandler ["KeyDown", v1_displayHandler]; } else {};
-
-	// _var = missionNameSpace getVariable ["v2_displayHandler",-1];
-	// if (_var != -1) then { (findDisplay 46) displayRemoveEventHandler ["KeyDown", v2_displayHandler]; } else {};
-
-	// _var = missionNameSpace getVariable ["v3_displayHandler",-1];
-	// if (_var != -1) then { (findDisplay 46) displayRemoveEventHandler ["KeyDown", v3_displayHandler]; } else {};
-
+	//Remove diag_toggle eventhandler
 	(findDisplay 46) displayRemoveEventHandler ["KeyDown", diag_toggleToggle];
+	//Remove unlimited ammo eventhandlers
 	player removeEventHandler ["Fired", "_vehicleFired"]
 	player removeEventHandler ["Fired", "_playerFired"]
 }];
