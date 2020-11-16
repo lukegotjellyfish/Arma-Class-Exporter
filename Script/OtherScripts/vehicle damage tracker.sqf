@@ -1,5 +1,6 @@
 //SCRIPT START
-_vehicleFired = vehicle player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
+_vehiclePlayer = (vehicle player);
+_vehicleFired = _vehiclePlayer addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 _playerFired = player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 //Assign vehicles (vehicle variable name)
 v1 = t72;
@@ -70,7 +71,7 @@ toggleLogger = {
 	//diag_log(format["On toggleLogger: %1|%2|%3", _vx, _vxToggle, _vxName]);
 
 	if !(alive _vx) then {
-		if (_vxToggle == 1 || _vxToggle == 2) then {
+		if (_vxToggle == 0) then {
 			try {
 				(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];
 			}
@@ -81,18 +82,19 @@ toggleLogger = {
 	}
 	else
 	{
-		if (_vxToggle == 0) then {
+		if (_vxToggle == 1) then {
 			vxDamageEntry = [_vx, (_vxName + " Hitpoints: ")] call countHitPoints;
-			_vxToggle = 1;
 			//diag_log(format["Passing [%1,%2] to damageLog", _vx, vxDamageEntry]);
 			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 18) then {vxDamageEntry = [vx, vxDamageEntry] call damageLog;};"];
 		}
-		else {_vxToggle = 0; (findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];};
+		else {(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];};
 	};
 };
 
 
 vehicle_1 = player addAction [format["Toggle %1 monitor", v1_vehicle], {
+	if (v1_toggle == 0) then {v1_toggle = 1;}
+	else {v1_toggle = 0;};
 	[v1, v1_toggle, v1_vehicle] call toggleLogger;
 }];
 vehicle_2 = player addAction [format["Toggle %1 monitor", v2_vehicle], {
@@ -114,6 +116,6 @@ vehicle_remove = player addAction ["Remove and disable options", {
 	//Remove diag_toggle eventhandler
 	(findDisplay 46) displayRemoveEventHandler ["KeyDown", diag_toggleToggle];
 	//Remove unlimited ammo eventhandlers
-	player removeEventHandler ["Fired", "_vehicleFired"];
+	(vehicle player) removeEventHandler ["Fired", "_vehicleFired"];
 	player removeEventHandler ["Fired", "_playerFired"];
 }];
