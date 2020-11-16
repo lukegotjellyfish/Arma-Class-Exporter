@@ -10,7 +10,7 @@ v1_toggle = 0;
 v2_toggle = 0;
 v3_toggle = 0;
 //Player's vehicle for each option
-v1_vehicle = "";
+v1_vehicle = "T-72 Test";
 v2_vehicle = "";
 v3_vehicle = "";
 
@@ -114,6 +114,6 @@ vehicle_remove = player addAction ["Remove and disable options", {
 	//Remove diag_toggle eventhandler
 	(findDisplay 46) displayRemoveEventHandler ["KeyDown", diag_toggleToggle];
 	//Remove unlimited ammo eventhandlers
-	player removeEventHandler ["Fired", "_vehicleFired"]
-	player removeEventHandler ["Fired", "_playerFired"]
+	player removeEventHandler ["Fired", "_vehicleFired"];
+	player removeEventHandler ["Fired", "_playerFired"];
 }];
