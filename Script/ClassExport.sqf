@@ -1,4 +1,14 @@
 //
+// Todo:
+//  For weapons, fetch weapon sound classes:
+//   if firemode:
+//    If sounds[]:
+//     loop through sounds in sounds[]:
+//      look in weapon >> firemode >> sound
+//       get classes from soundsetshot[]
+//        get classes from soundShaders from classes in soundsetshot
+//        also get class from sound3DProcessingType and distanceFilter
+//
 // _sideMatrix:
 //  1. Categorise classes of the same kind to iterate through to
 //      save to directories specific to each array, for ease of use.
