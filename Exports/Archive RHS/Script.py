@@ -70,16 +70,23 @@ def fetchSide(array):
 #I should learn how to use classes
 def getModeDependant(side, weapon, fireModes, wepProperty):
     thing = []
+    for mode in fireModes:
+        try:
+            thing.append(fetchSide([side, weapon, mode, wepProperty]))
+            print(side)
+            print(weapon)
+            print(mode)
+            print(wepProperty)
+            print(fetchSide([side, weapon, mode, wepProperty]))
+            return thing
+        except KeyError:
+            continue
+
     try:
         thing.append(fetchSide([side, weapon, wepProperty]))
     except KeyError:
         pass
 
-    for mode in fireModes:
-        try:
-            thing.append(fetchSide([side, weapon, mode, wepProperty]))
-        except KeyError:
-            continue
     return thing
 
 def filterModes(mode, array, rpm, dispersion, x):
