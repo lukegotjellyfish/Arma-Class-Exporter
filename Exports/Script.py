@@ -92,16 +92,25 @@ def fetchSide(array):
 #I should learn how to use classes
 def getModeDependant(side, weapon, fireModes, wepProperty):
     thing = []
+    print("FireModes: " + str(fireModes))
+    for mode in fireModes:
+        print("On Mode: " + mode)
+        try:
+            try:
+                print(wepProperty + " = " + str(fetchSide([side, weapon, mode, wepProperty])))
+                thing.append(fetchSide([side, weapon, mode, wepProperty]))
+            except KeyError:
+                continue
+        except all: #temp fix
+            if thing != []:
+                return thing
+
     try:
+        print(wepProperty + " = " + str(fetchSide([side, weapon, wepProperty])))
         thing.append(fetchSide([side, weapon, wepProperty]))
     except KeyError:
         pass
 
-    for mode in fireModes:
-        try:
-            thing.append(fetchSide([side, weapon, mode, wepProperty]))
-        except KeyError:
-            continue
     return thing
 
 def filterModes(mode, array, rpm, dispersion, x):
@@ -136,19 +145,16 @@ def filterRifleFireModes(fireModes, rpm, dispersion):
 
     #stringModeStats = ""
     prevSets = []
-    fireModes = ""
-    rpm = ""
-    dispersion = ""
+    fireModes = []
+    rpm = []
+    dispersion = []
     for fireGroup in modeStats:
         for fireType in fireGroup:
             if fireType[0] != "":
-                fireModes += fireType[0].title() + "\\"
-                #If matching values not already an added set
-                if ([fireType[1],fireType[2]] not in prevSets):
-                    #stringModeStats += fireType[0].title() + ": RPM[" + str(fireType[1]) + "] | Dispersion[" + str(fireType[2]) + "]\n"
-                    rpm        += '{:.2f}'.format(round(60/fireType[1],2)).zfill(6)
-                    dispersion += '{:.7f}'.format(fireType[2])
-                    prevSets.append([fireType[1],fireType[2]])
+                fireModes.append(fireType[0].title())
+                rpm.append('{:.2f}'.format(round(60/fireType[1],2)).zfill(6))
+                dispersion.append('{:.7f}'.format(fireType[2]))
+                prevSets.append([fireType[1],fireType[2]])
 
     return [fireModes, rpm, dispersion]
 
@@ -157,6 +163,14 @@ def filterVehicleFireModes(fireModes, rpm, dispersion):
     rpmX = []
     dispersionX = []
     x = 0
+
+    rpm = [str(x) for x in rpm]
+    dispersion = [str(x) for x in dispersion]
+
+    # print("filterVehicleFireModes:\n fireModes = " + str(fireModes) + "\n" +
+    #       "rpm = " + str(rpm) + "\n" +
+    #       "dispersion = " + str(dispersion))
+
     for mode in fireModes:
         #If not a useless firemode (close-far are for AI and this is for smoke/missile launchers)
         if mode not in ["close","short","medium","far","far_ai","this"]:
@@ -165,6 +179,7 @@ def filterVehicleFireModes(fireModes, rpm, dispersion):
                 rpmX.append(rpm[x])
                 dispersionX.append(dispersion[x])
         x += 1
+
     return [fireModesX, rpmX, dispersionX]
 
 def getDisplayName(side, category, _class):
@@ -284,11 +299,14 @@ def getWeaponStats(weapon, magazine, side):
 
     magCapacity   = getMagazineCapacity(side, "Magazines", magazine)
     damage        = getHit(side, "Magazines", magazine)
-    fireModes     = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, "Weapons", weapon)]
+    fireModes     = [x.lower() for x in getFireModes(side, "Weapons", weapon)]   #.replace("manual","Fullauto")
     rpm           = getModeDependant(side + "Weapons", weapon, fireModes, "reloadtime")
     wepClass      = weapon
     magClass      = magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
     dispersion    = getModeDependant(side + "Weapons", weapon, fireModes, "dispersion")
+    print("FireMode array: " + str(fireModes))
+    print("RPM array: " + str(rpm))
+    print("Dispersion array: " + str(dispersion))
     initialSpeed  = getInitialSpeed(side, "Magazines", magazine)
     typicalSpeed  = getTypicalSpeed(side, "Magazines", magazine)
     airResistance = getAirResistance(side, "Magazines", magazine)
@@ -302,9 +320,17 @@ def getWeaponStats(weapon, magazine, side):
 
     #FireMode filtering, likely more useful for vehicle weapons
     modeStats     = filterRifleFireModes(fireModes, rpm, dispersion)
-    fireModes     = modeStats[0]
+    fireModes     = "\\".join(map(str, modeStats[0]))
     rpm           = modeStats[1]
     dispersion    = modeStats[2]
+
+    if type(rpm) == list:
+        rpm = rpm[0]
+        dispersion = dispersion[0]
+
+    # fireModes     = "\\".join(map(str, modeStats[0]))  for mods/weapons that have different ones
+    # rpm           = "\\".join(map(str, modeStats[1]))
+    # dispersion    = "\\".join(map(str, modeStats[2]))
 
 
     # hit = hit * (speed / typicalSpeed)
@@ -319,7 +345,7 @@ def getWeaponStats(weapon, magazine, side):
     # hit = hit * (speed / typicalSpeed)
     # Some bullets have a highter typicalSpeed than initial - they will always do less damage than their Hit value
     damage = '{:.3f}'.format(round(damage * (initialSpeed / typicalSpeed), 3))
-    return ["X", "X", name, cartridge, magCapacity, damage, fireModes[:-1], rpm, dispersion,
+    return ["X", "X", name, cartridge, magCapacity, damage, fireModes, rpm, dispersion,
             initialSpeed, typicalSpeed, airResistance, penetration,
             hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], hitValues[5], hitValues[6], hitValues[7], "X", wepClass, magClass, caliber]
 
@@ -341,11 +367,14 @@ def writeWeaponStats(weapon, side, csvwriter):
                                                                            weaponStats[14] + "\n" +
                                                                            weaponStats[15] + "\n" +
                                                                            weaponStats[16] + "\n" +
-                                                                           weaponStats[17]).replace("\n","\n       ") + cend + "\n" +
+                                                                           weaponStats[17] + "\n" +
+                                                                           weaponStats[18] + "\n" +
+                                                                           weaponStats[19] + "\n" +
+                                                                           weaponStats[20]).replace("\n","\n       ") + cend + "\n" +
 
-          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[19])  + cend + "\n" +
-          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[20])  + cend + "\n" +
-          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[21]) + cend)
+          ccyan + "   Weapon Class: " + cend + cgreen  + str(weaponStats[22])  + cend + "\n" +
+          cred  + " Magazine Class: " + cend + cgreen  + str(weaponStats[23])  + cend + "\n" +
+          cred  + "        Caliber: " + cend + cviolet + str(weaponStats[24]) + cend)
     #Force excel to parse as string
     weaponStats[5]  = "=\"" + str(weaponStats[5])  + "\""
     weaponStats[7]  = "=\"" + str(weaponStats[7])  + "\""
@@ -436,14 +465,15 @@ def getVehicleWeaponStats(weapon, magazine, side):
     maxSpeed          = getMaxSpeed(side, "VehicleMagazines", magazine)
 
 
-    if len(rpm) > len(fireModes):
-        del rpm[0]
+    # if len(rpm) > len(fireModes):
+    #     del rpm[0]
 
     #FireMode filtering, likely more useful for vehicle weapons
-    modeStats     = filterVehicleFireModes(fireModes, rpm, dispersion)
-    fireModes     = modeStats[0]
-    rpm           = modeStats[1]
-    dispersion    = modeStats[2]
+    modeStats  = filterVehicleFireModes(fireModes, rpm, dispersion)
+    fireModes  = "\\".join(map(str, modeStats[0]))
+    rpm        = "\\".join(map(str, modeStats[1]))
+    dispersion = "\\".join(map(str, modeStats[2]))
+
 
     if subDamage         == []: subDamage = ""
     if subIndirectDamage == []: subIndirectDamage = ""
