@@ -299,7 +299,7 @@ def getWeaponStats(weapon, magazine, side):
 
     magCapacity   = getMagazineCapacity(side, "Magazines", magazine)
     damage        = getHit(side, "Magazines", magazine)
-    fireModes     = [x.lower() for x in getFireModes(side, "Weapons", weapon)]   #.replace("manual","Fullauto")
+    fireModes     = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, "Weapons", weapon)]
     rpm           = getModeDependant(side + "Weapons", weapon, fireModes, "reloadtime")
     wepClass      = weapon
     magClass      = magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
