@@ -25,8 +25,8 @@ for /r %%I in (*.pbo) do (
 			::Extract PBO contents
 			PBOConsole -unpack "%%I" "%exportDir%\%%~nF\%%~nI"
 			CfgConvert -txt -dst "%exportDir%\%%~nF\%%~nI\config.cpp" "%exportDir%\%%~nF\%%~nI\config.bin"
-			DEL -f "%exportDir%\%%~nF\%%~nI\config.bin"
-			DEL -f "%exportDir%\%%~nF\%%~nI\texHeaders.bin"
+			DEL "%exportDir%\%%~nF\%%~nI\config.bin"
+			DEL "%exportDir%\%%~nF\%%~nI\texHeaders.bin"
 
 			::Change directory to unpacked pbo
 			CD /D "%exportDir%\%%~nF\%%~nI"
@@ -42,16 +42,16 @@ for /r %%I in (*.pbo) do (
 				::Run dep3d on p3d file to convert to mlod
 				DEP3D "%%a"
 				::Recycle processed file
-				DEL -f "%%a"
+				DEL "%%a"
 			)
 			::Recycle file of files to recycle
-			DEL -f toRecycle.txt
+			DEL toRecycle.txt
 			
 			
 			::Go through all .paa files in directory
 			for /R %%f in (*.paa) do ( 
 				Pal2PacE "%%f" "%%~dpnf.png"
-				DEL -f "%%f"
+				DEL "%%f"
 			)
 			
 			
