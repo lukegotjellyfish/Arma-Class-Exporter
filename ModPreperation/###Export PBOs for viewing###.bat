@@ -9,7 +9,10 @@
 :: RECYCLE (cmdUtils) http://www.maddogsw.com/cmdutils/ (You could replace this with a DEL command instead)
 :: DeP3               Dhttps://community.bistudio.com/wiki/DeP3d
 :: Pal2PcE            https://community.bistudio.com/wiki/TexView_2
-
+::
+:: Ignore the "The system cannot find the drive specified." errors:
+::  These are as a result of running DEP3D and Pal2PacE
+::
 ::Folder to export PBOs to
 SET exportDir=E:\Games\Arma 3 Mod Files
 
