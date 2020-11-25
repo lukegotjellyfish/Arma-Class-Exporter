@@ -1,7 +1,7 @@
 # Arma-Class-Exporter
  Currently set up for RHS vehicles and weapons used on the C4G V14 RHS KotH server:<br>
  Name: CodeFourGaming - King Of The Hill RHS Vics US #5 (and "- King of the Hill - RHS Inf No Towers EU #3 HC" by extension)<br>
- IP: 158.69.123.61:2402<br>
+ IP: 51.79.37.206:2302<br>
  Restart: 18:00 UTC+0<br>
  Mods: https://steamcommunity.com/sharedfiles/filedetails/?id=1290398866<br>
 <br>
