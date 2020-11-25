@@ -6,13 +6,11 @@
 ::Requres the following on PATH:
 :: PBOConsole (cmdl)  https://github.com/winseros/PBOManager/releases/tag/v0.1.0
 :: CfgConvert         https://community.bistudio.com/wiki/CfgConvert
-:: RECYCLE (cmdUtils) http://www.maddogsw.com/cmdutils/ (You could replace this with a DEL command instead)
+:: Recycle (cmdUtils) http://www.maddogsw.com/cmdutils/ (You could replace this with a DEL command instead)
 :: DeP3               Dhttps://community.bistudio.com/wiki/DeP3d
 :: Pal2PcE            https://community.bistudio.com/wiki/TexView_2
-::
-:: Ignore the "The system cannot find the drive specified." errors:
-::  These are as a result of running DEP3D and Pal2PacE
-::
+
+
 ::Folder to export PBOs to
 SET exportDir=E:\Games\Arma 3 Mod Files
 
@@ -28,8 +26,8 @@ for /r %%I in (*.pbo) do (
 			::Extract PBO contents
 			PBOConsole -unpack "%%I" "%exportDir%\%%~nF\%%~nI"
 			CfgConvert -txt -dst "%exportDir%\%%~nF\%%~nI\config.cpp" "%exportDir%\%%~nF\%%~nI\config.bin"
-			RECYCLE -f "%exportDir%\%%~nF\%%~nI\config.bin"
-			RECYCLE -f "%exportDir%\%%~nF\%%~nI\texHeaders.bin"
+			DEL -f "%exportDir%\%%~nF\%%~nI\config.bin"
+			DEL -f "%exportDir%\%%~nF\%%~nI\texHeaders.bin"
 
 			::Change directory to unpacked pbo
 			CD /D "%exportDir%\%%~nF\%%~nI"
@@ -45,16 +43,16 @@ for /r %%I in (*.pbo) do (
 				::Run dep3d on p3d file to convert to mlod
 				DEP3D "%%a"
 				::Recycle processed file
-				RECYCLE -f "%%a"
+				DEL -f "%%a"
 			)
 			::Recycle file of files to recycle
-			RECYCLE -f toRecycle.txt
+			DEL -f toRecycle.txt
 			
 			
 			::Go through all .paa files in directory
 			for /R %%f in (*.paa) do ( 
 				Pal2PacE "%%f" "%%~dpnf.png"
-				RECYCLE -f "%%f"
+				DEL -f "%%f"
 			)
 			
 			
