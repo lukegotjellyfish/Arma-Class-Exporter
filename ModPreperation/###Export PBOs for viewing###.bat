@@ -6,7 +6,7 @@
 ::Requres the following on PATH:
 :: PBOConsole (cmdl)  https://github.com/winseros/PBOManager/releases/tag/v0.1.0
 :: CfgConvert         https://community.bistudio.com/wiki/CfgConvert
-:: RECYCLE (cmdUtils) http://www.maddogsw.com/cmdutils/
+:: RECYCLE (cmdUtils) http://www.maddogsw.com/cmdutils/ (You could replace this with a DEL command instead)
 :: DeP3               Dhttps://community.bistudio.com/wiki/DeP3d
 :: Pal2PcE            https://community.bistudio.com/wiki/TexView_2
 
