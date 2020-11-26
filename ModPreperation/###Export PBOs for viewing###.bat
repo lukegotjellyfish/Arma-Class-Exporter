@@ -5,18 +5,20 @@
 ::
 ::Requres the following on PATH:
 :: PBOConsole (cmdl)  https://github.com/winseros/PBOManager/releases/tag/v0.1.0
-:: CfgConvert			 https://community.bistudio.com/wiki/CfgConvert
-:: DeP3					 Dhttps://community.bistudio.com/wiki/DeP3d
-:: Pal2PcE				 https://community.bistudio.com/wiki/TexView_2
+:: CfgConvert         https://community.bistudio.com/wiki/CfgConvert
+:: DeP3D              https://community.bistudio.com/wiki/DeP3d
+:: Pal2PcE            https://community.bistudio.com/wiki/TexView_2
 
 
 ::Folder to export PBOs to
 SET exportDir=E:\Games\Arma 3 Mod Files
 
-for /r %%I in (*.pbo) do (
-	(ECHO "%%~nI" | findstr \V "bin.pbo core.pbo dubbing ui cargoposes signs rocks roads props structures map_ language supplies music plants missions anims animals" 1>NUL) || (
+::Loop through .pbo files in directory and subdirs
+for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
+	::If filename matches one of these words, ignore it else run the script. || = Error level NEQ 0
+	echo %%~nI | findstr "bin.pbo radio core.pbo dubbing ui cargoposes signs rocks roads props structures map_ language supplies music plants missions anims animals radio" && echo %%I [Excluded] || (
+		echo %%I [OK]
 		for /f "delims==" %%F in ("%%I\.\..\..") do (
-
 			ECHO ====Found pbo in %%~dpnxF====
 			::Create directory for MOD
 			MKDIR "%exportDir%\%%~nF"
@@ -59,10 +61,7 @@ for /r %%I in (*.pbo) do (
 				::Return to arma directory
 				CD /D %~dp0
 			)
-			REM IF NOT EXIST <PBO>
 		)
-		REM for /f "delims==" %%F in ("%%I\.\..\..")
 	)
 )
-REM for /r %%I in (*.pbo)
 PAUSE
