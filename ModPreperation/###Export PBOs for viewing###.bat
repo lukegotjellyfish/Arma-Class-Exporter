@@ -9,14 +9,17 @@ REM  DeP3D              https://community.bistudio.com/wiki/DeP3d
 REM  Pal2PcE            https://community.bistudio.com/wiki/TexView_2
 REM  OptiPNG            http://optipng.sourceforge.net/
 
+REM Folder to export PBOs to
+SET exportDir=E:\Games\Arma 3 Mod Files
+
 REM Get start datetime
 set startDateTime=%date% %time:~0,-3%
 REM Get sanitized start datetime for log title
 set LogDateTime=%date:~0,-8%-%date:~3,-5%-%date:~6% %time:~0,-9%-%time:~3,-6%-%time:~6,-3%.%time:~9%
+REM Create log folder
+CALL :EchoLog "%MKDIRSTRING% '%exportDir%\logs'"
+MKDIR "%exportDir%\logs" > nul 2>nul
 
-
-REM Folder to export PBOs to
-SET exportDir=E:\Games\Arma 3 Mod Files
 REM Set stringS
 set EXCLUDEDSTRING=        [Excluded]
 set P3DSTRING=       [DE-P3D]
@@ -36,7 +39,7 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 		CALL :EchoLog "=============================New-PBO=============================="
 		CALL :EchoLog "."
 
-		CALL "%~dp0\#DateTime.bat" "%startDateTime%" "1"
+		CALL "%~dp0\#DateTime.bat" "%startDateTime%" 1
 		
 		for /f "delims==" %%F in ("%%I\.\..\..") do (
 			CALL :EchoLog "%FOUNDPBOSTRING% '%%~nxI' in '%%~nF'"
@@ -73,17 +76,19 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 
 				REM Go through files to delete processed p3d files
 				FOR /R %%P in (*.p3d) do (
-					echo %%P | findstr /V /I "cba rhs coxhound" || (
-						REM Run de-p3d on p3d file to convert to mlod
-						CALL :EchoLog "%P3DSTRING% '%%~pnxP' TO Mlod"
-						REM After adding :EchoLog, DEP3D fucks up if called in any way other
-						REM  than this:
-						DEP3D "%%P"
-						REM Reset CMD colours, darn you DEP3D
-						COLOR 07
-						REM Delete processed file
-						CALL :EchoLog "%DELSTRING% '%%~pnxP'"
-						DEL "%%P"
+					(Echo "%%P" | FINDSTR /I "_mlod" >NUL) || (
+						(Echo "%%P" | FINDSTR /V /I "rhs cba coxhound" >NUL) || (
+							REM Run de-p3d on p3d file to convert to mlod
+							CALL :EchoLog "%P3DSTRING% '%%~pnxP' TO Mlod"
+							REM After adding :EchoLog, DEP3D fucks up if called in any way other
+							REM  than this:
+							DEP3D "%%P"
+							REM Reset CMD colours, darn you DEP3D
+							COLOR 07
+							REM Delete processed file
+							CALL :EchoLog "%DELSTRING% '%%~pnxP'"
+							DEL "%%P"
+						)
 					)
 				)
 				REM Process WSS files TO wav and delete WSS
@@ -101,17 +106,20 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 					CALL :EchoLog "%PAL2STRING% '%%~pnxf' TO '%%~nf.png'"
 					Pal2PacE "%%f" "%%~dpnf.png" > nul
 					CALL :EchoLog "%DELSTRING% '%%~pnxf'"
-					DEL "%%f"
 					REM Lossless compression of png
 					REM -o 2 usually gives better results but takes much longer
 					REM -o 3-7(max) usually doesn't improve (by much) filesize and takes ages
 					CALL :EchoLog "%OPTISTRING% '%%~pnxf' TO '%%~nf.png'"
 					
-					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2"
-						REM CALL :EchoLog "%OPTISTRING% OPTIPNG START: %time:~0,-3%"
+					REM Get PNG starting size
+					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2" "%%~dpnf.png"
+					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2" "%%~dpnf.png" | CALL :EchoLog
 					CALL :EchoLog "%OPTISTRING%        %%~dpnf.png"
 					OPTIPNG -o 1 -preserve "%%~dpnf.png" > nul 2>nul
-					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG   End:" "2"
+					REM Get PNG end size
+					CALL "%~dp0\#DateTime.bat" "%OPTISTRING%   OptiPNG End:" "2" "%%~dpnf.png"
+					CALL "%~dp0\#DateTime.bat" "%OPTISTRING%   OptiPNG End:" "2" "%%~dpnf.png" | CALL :EchoLog
+					DEL "%%f"
 				)
 				REM Go through all .rvmat files in directory
 				for /R %%f in (*.rvmat) do (
@@ -143,10 +151,10 @@ IF "%LOGTIME%" EQU "" (
 
 IF "%~1" NEQ "." (
 	ECHO %~1
-	ECHO [%LOGTIME%] %~1 >> "%exportDir%\[%LogDateTime%] ExportPBOs.Log"
+	ECHO [%LOGTIME%] %~1 >> "%exportDir%\logs\[%LogDateTime%] ExportPBOs.Log"
 ) else (
 	ECHO.
-	ECHO [%LOGTIME%] >> "%exportDir%\[%LogDateTime%] ExportPBOs.Log"
+	ECHO [%LOGTIME%] >> "%exportDir%\logs\[%LogDateTime%] ExportPBOs.Log"
 )
 EXIT /B
 
