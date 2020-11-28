@@ -6,7 +6,9 @@ REM Requres the following on PATH:
 REM  PBOConsole (cmdl)  https://github.com/winseros/PBOManager/releases/tag/v0.1.0
 REM  CfgConvert         https://community.bistudio.com/wiki/CfgConvert
 REM  DeP3D              https://community.bistudio.com/wiki/DeP3d
-REM  Pal2PcE            https://community.bistudio.com/wiki/TexView_2
+REM  Pal2PacE           https://community.bistudio.com/wiki/TexView_2
+REM  Disabling the OptiPNG function will save a lot of time, disabling dep3d will save a slightly smaller amount
+REM   and disabling Pal2PacE will save less on top of that
 REM  OptiPNG            http://optipng.sourceforge.net/
 
 REM Folder to export PBOs to
@@ -109,9 +111,6 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 					REM Lossless compression of png
 					REM -o 2 usually gives better results but takes much longer
 					REM -o 3-7(max) usually doesn't improve (by much) filesize and takes ages
-					CALL :EchoLog "%OPTISTRING% '%%~pnxf' TO '%%~nf.png'"
-					
-					REM Get PNG starting size
 					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2" "%%~dpnf.png"
 					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2" "%%~dpnf.png" >> "%exportDir%\logs\[%LogDateTime%] ExportPBOs.Log"
 					CALL :EchoLog "%OPTISTRING%        %%~dpnf.png"
@@ -123,6 +122,11 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 				)
 				REM Go through all .rvmat files in directory
 				for /R %%f in (*.rvmat) do (
+					CALL :EchoLog "%DELSTRING% '%%~pnxf'"
+					DEL "%%f"
+				)
+				REM Go through all .rtm files in directory
+				for /R %%f in (*.rtm) do (
 					CALL :EchoLog "%DELSTRING% '%%~pnxf'"
 					DEL "%%f"
 				)
