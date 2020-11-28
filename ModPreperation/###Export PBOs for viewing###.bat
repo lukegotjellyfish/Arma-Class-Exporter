@@ -113,12 +113,12 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 					
 					REM Get PNG starting size
 					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2" "%%~dpnf.png"
-					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2" "%%~dpnf.png" | CALL :EchoLog
+					CALL "%~dp0\#DateTime.bat" "%OPTISTRING% OptiPNG Start:" "2" "%%~dpnf.png" >> "%exportDir%\logs\[%LogDateTime%] ExportPBOs.Log"
 					CALL :EchoLog "%OPTISTRING%        %%~dpnf.png"
 					OPTIPNG -o 1 -preserve "%%~dpnf.png" > nul 2>nul
 					REM Get PNG end size
 					CALL "%~dp0\#DateTime.bat" "%OPTISTRING%   OptiPNG End:" "2" "%%~dpnf.png"
-					CALL "%~dp0\#DateTime.bat" "%OPTISTRING%   OptiPNG End:" "2" "%%~dpnf.png" | CALL :EchoLog
+					CALL "%~dp0\#DateTime.bat" "%OPTISTRING%   OptiPNG End:" "2" "%%~dpnf.png" >> "%exportDir%\logs\[%LogDateTime%] ExportPBOs.Log"
 					DEL "%%f"
 				)
 				REM Go through all .rvmat files in directory
