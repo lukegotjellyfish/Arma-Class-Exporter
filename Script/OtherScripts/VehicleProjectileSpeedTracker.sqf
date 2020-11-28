@@ -9,7 +9,7 @@ bulletA = player addAction ["Enable Bullet Cam", {YEETUS = vehicle player addEve
         while {!(isNull missile)} do {
             vel = velocity missile;
             if (vel select 0 != velCache select 0) then {
-                diag_log(format["Distance: %1 | Speed: %2", player distance2D missile, velocity missile]);
+                systemChat(format["Distance: %1 | Speed: %2", player distance2D missile, velocity missile]);
                 velCache = vel;
             };
         };
