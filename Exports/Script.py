@@ -2,6 +2,7 @@
 import re
 import os
 import csv
+import sys
 import CombinedBluFor
 import CombinedOpFor
 import math
@@ -35,40 +36,56 @@ SEPERATOR = cgreen + cbold + "==================================================
 
 #There must be a better way of doing this, it hurts my eyes and looks wrong
 def bluFor(array, depth):
-    if depth == 2:
-        return CombinedBluFor.BluFor[array[0]][array[1]]
-    if depth == 3:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]]
-    if depth == 4:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]]
-    if depth == 5:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]]
-    if depth == 6:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
-    if depth == 7:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]]
-    if depth == 8:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]]
-    if depth == 9:
-        return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]][array[8]]
+    try:
+        if depth == 2:
+            return CombinedBluFor.BluFor[array[0]][array[1]]
+        if depth == 3:
+            return CombinedBluFor.BluFor[array[0]][array[1]][array[2]]
+        if depth == 4:
+            return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]]
+        if depth == 5:
+            return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]]
+        if depth == 6:
+            return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
+        if depth == 7:
+            return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]]
+        if depth == 8:
+            return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]]
+        if depth == 9:
+            return CombinedBluFor.BluFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]][array[8]]
+    except KeyError:
+        print("KeyError at bluFor(" + str(array) + ", " + str(depth) + ")")
+        return ""
+    except TypeError:
+        print("TypeError at bluFor(" + str(array) + ", " + str(depth) + ")")
+        return ""
+    print("failed")
+
 
 def opFor(array, depth):
-    if depth == 2:
-        return CombinedOpFor.OpFor[array[0]][array[1]]
-    if depth == 3:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]]
-    if depth == 4:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]]
-    if depth == 5:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]]
-    if depth == 6:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
-    if depth == 7:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]]
-    if depth == 8:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]]
-    if depth == 9:
-        return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]][array[8]]
+    try:
+        if depth == 2:
+            return CombinedOpFor.OpFor[array[0]][array[1]]
+        if depth == 3:
+            return CombinedOpFor.OpFor[array[0]][array[1]][array[2]]
+        if depth == 4:
+            return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]]
+        if depth == 5:
+            return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]]
+        if depth == 6:
+            return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]]
+        if depth == 7:
+            return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]]
+        if depth == 8:
+            return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]]
+        if depth == 9:
+            return CombinedOpFor.OpFor[array[0]][array[1]][array[2]][array[3]][array[4]][array[5]][array[6]][array[7]][array[8]]
+    except KeyError:
+        print("KeyError at opFor(" + str(array) + ", " + str(depth) + ")")
+        return ""
+    except TypeError:
+        print("TypeError at opFor(" + str(array) + ", " + str(depth) + ")")
+        return ""
 
 def fetchSide(array):
     if array[0][:2] == "Op":
@@ -172,8 +189,8 @@ def filterVehicleFireModes(fireModes, rpm, dispersion):
     #       "dispersion = " + str(dispersion))
 
     for mode in fireModes:
-        #If not a useless firemode (close-far are for AI and this is for smoke/missile launchers)
-        if mode not in ["close","short","medium","far","far_ai","this"]:
+        #If not a useless firemode (close-far are for AI and 'this' is for when there are no modes)
+        if mode not in ["close","short","medium","far","far_ai", "this"]:
             if fireModes[x] not in fireModesX:
                 fireModesX.append(fireModes[x])
                 rpmX.append(rpm[x])
@@ -232,6 +249,9 @@ def getDisplayNameShort(side, category, _class):
 def getCartridge(side, category, _class):
     return fetchSide([side + category, _class, "ammo", "cartridge"]).replace("RHS_Cartridge_","").replace("FxCartridge_","").replace("762", "7.62")
 
+def getManoeuvrability(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","maneuvrability"])
+
 def getFireModes(side, category, _class):
     return fetchSide([side + category, _class, "modes"])
 
@@ -246,6 +266,60 @@ def getTypicalSpeed(side, category, _class, sub=""):
 
 def getAirResistance(side, category, _class):
     return fetchSide([side + category, _class, "ammo","airfriction"])
+
+def getSideAirResistance(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","sideairfriction"])
+
+def getMaxControlRange(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","maxcontrolrange"])
+
+def getTrackOversteer(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","trackoversteer"])
+
+def getTrackLead(side, category, _class):
+    return fetchSide([side + category, _class, "ammo","tracklead"])
+
+def getManualControlOffset(side, category, _class):
+    try:
+        return fetchSide([side + category, _class, "ammo","manualcontroloffset"])
+    except KeyError:
+        return ""
+
+def getMissileManualControlCone(side, category, _class):
+    try:
+        return fetchSide([side + category, _class, "ammo","missilemanualcontrolcone"])
+    except KeyError:
+        return ""
+
+def getRHSguideMode(side, category, _class):
+    try:
+        return fetchSide([side + category, _class, "ammo","rhs_guidemode"])
+    except KeyError:
+        return ""
+
+def getFlightProfiles(side, category, _class):
+    try:
+        return fetchSide([side + category, _class, "ammo","flightprofiles"])
+    except KeyError:
+        return ""
+
+def getWarheadName(side, category, _class):
+    try:
+        return fetchSide([side + category, _class, "ammo","warheadname"])
+    except KeyError:
+        return ""
+
+def getSubmunitionConeType(side, category, _class):
+    try:
+        return fetchSide([side + category, _class, "ammo","submunitionammo", "submunitionconetype"])
+    except KeyError:
+        return ""
+
+def getSubSubmunition(side, category, _class):
+    try:
+        return fetchSide([side + category, _class, "ammo","submunitionammo", "submunitionammo", "_dictAmmoName"])
+    except KeyError:
+        return ""
 
 def getCaliber(side, category, _class, sub=""):
     if sub == "":
@@ -262,23 +336,37 @@ def getThrustTime(side, category, _class):
 def getMaxSpeed(side, category, _class):
     return fetchSide([side + category, _class, "ammo","maxspeed"])
 
-def getSubmunitionValues(side, magazine, submunition):
-    subDamage         = getHit(side, "VehicleMagazines", magazine, submunition)
-    subIndirectDamage = getIndirectHit(side, "VehicleMagazines", magazine, submunition)
-    subIndirectRange  = getIndirectRange(side, "VehicleMagazines", magazine, submunition)
-    subInitialSpeed   = getInitialSpeed(side, "VehicleMagazines", magazine)
-    subTypicalSpeed   = getTypicalSpeed(side, "VehicleMagazines", magazine, submunition)
-    subCaliber        = getCaliber(side, "VehicleMagazines", magazine, submunition)
+def getSubmunitionValues(side, category, _class, submunition):
+    subDamage         = getHit(side, category, _class, submunition)
+    subIndirectDamage = getIndirectHit(side, category, _class, submunition)
+    subIndirectRange  = getIndirectRange(side, category, _class, submunition)
+    subInitialSpeed   = getInitialSpeed(side, category, _class)
+    subTypicalSpeed   = getTypicalSpeed(side, category, _class, submunition)
+    subCaliber        = getCaliber(side, category, _class, submunition)
     subPenetration    = ('{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.015),2)).zfill(4) + "|" +
                             '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.080),2)).zfill(5) + "|" +
                             '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.250),2)).zfill(5))
     return [subDamage, subIndirectDamage, subIndirectRange, subInitialSpeed, subTypicalSpeed, subCaliber, subPenetration]
 
-def getWeaponStats(weapon, magazine, side):
-    name          = getDisplayName(side, "Weapons", weapon)
-    cartridge     = getDisplayNameShort(side, "Magazines", magazine)
+def getReloadTime(side, category, _class):
+    return fetchSide([side + category, _class, "reloadtime"])
+
+def getDispersion(side, category, _class):
+    return fetchSide([side + category, _class, "dispersion"])
+
+
+
+
+
+
+
+
+
+def getWeaponStats(weapon, magazine, side, categoryA, categoryB):
+    name          = getDisplayName(side, categoryA, weapon)
+    cartridge     = getDisplayNameShort(side, categoryB, magazine)
     if (len(cartridge) == 0):
-        cartridge = getCartridge(side, "Magazines", magazine)
+        cartridge = getCartridge(side, categoryB, magazine)
 
     # Easier to do it manually for now :p
     if cartridge == "Buckshot":
@@ -297,26 +385,26 @@ def getWeaponStats(weapon, magazine, side):
     #
     #rhsusf_5Rnd_00Buck
 
-    magCapacity   = getMagazineCapacity(side, "Magazines", magazine)
-    damage        = getHit(side, "Magazines", magazine)
-    fireModes     = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, "Weapons", weapon)]
-    rpm           = getModeDependant(side + "Weapons", weapon, fireModes, "reloadtime")
+    magCapacity   = getMagazineCapacity(side, categoryB, magazine)
+    damage        = getHit(side, categoryB, magazine)
+    fireModes     = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, categoryA, weapon)]
+    rpm           = getModeDependant(side + categoryA, weapon, fireModes, "reloadtime")
     wepClass      = weapon
-    magClass      = magazine + " = " + fetchSide([side + "Magazines",magazine,"displayname"])
-    dispersion    = getModeDependant(side + "Weapons", weapon, fireModes, "dispersion")
+    magClass      = magazine + " = " + fetchSide([side + categoryB,magazine,"displayname"])
+    dispersion    = getModeDependant(side + categoryA, weapon, fireModes, "dispersion")
     print("FireMode array: " + str(fireModes))
     print("RPM array: " + str(rpm))
     print("Dispersion array: " + str(dispersion))
-    initialSpeed  = getInitialSpeed(side, "Magazines", magazine)
-    typicalSpeed  = getTypicalSpeed(side, "Magazines", magazine)
-    airResistance = getAirResistance(side, "Magazines", magazine)
-    caliber       = getCaliber(side, "Magazines", magazine)
+    initialSpeed  = getInitialSpeed(side, categoryB, magazine)
+    typicalSpeed  = getTypicalSpeed(side, categoryB, magazine)
+    airResistance = getAirResistance(side, categoryB, magazine)
+    caliber       = getCaliber(side, categoryB, magazine)
     penetration   = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
                      '{:.2f}'.format(round((typicalSpeed * caliber * 0.250)/10,2)).zfill(5))
-    #thrust        = getThrust(side, "Magazines", magazine)
-    #thrustTime    = getThrustTime(side, "Magazines", magazine)
-    #maxSpeed      = getMaxSpeed(side, "Magazines", magazine)
+    #thrust        = getThrust(side, categoryB, magazine)
+    #thrustTime    = getThrustTime(side, categoryB, magazine)
+    #maxSpeed      = getMaxSpeed(side, categoryB, magazine)
 
     #FireMode filtering, likely more useful for vehicle weapons
     modeStats     = filterRifleFireModes(fireModes, rpm, dispersion)
@@ -350,7 +438,7 @@ def getWeaponStats(weapon, magazine, side):
             hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], hitValues[5], hitValues[6], hitValues[7], "X", wepClass, magClass, caliber]
 
 def writeWeaponStats(weapon, side, csvwriter):
-    weaponStats = getWeaponStats(weapon[0], weapon[1], side)
+    weaponStats = getWeaponStats(weapon[0], weapon[1], side, "Weapons", "Magazines")
     print(SEPERATOR)
     print(ccyan + "           Name: " + cend + cgreen  + str(weaponStats[2])  + cend + "\n" +
           ccyan + "      Cartridge: " + cend + cgreen  + str(weaponStats[3])  + cend + "\n" +
@@ -391,15 +479,14 @@ def writeWeaponStats(weapon, side, csvwriter):
     csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
 
-def getVehicleWeaponStats(weapon, magazine, side):
-    name              = getDisplayName(side, "VehicleWeapons", weapon)
-    print(name)
-    cartridge         = getDisplayNameShort(side, "VehicleMagazines", magazine)
-    capacity          = getMagazineCapacity(side, "VehicleMagazines", magazine)
-    damage            = getHit(side, "VehicleMagazines", magazine)
-    indirectDamage    = getIndirectHit(side, "VehicleMagazines", magazine)
-    indirectRange     = getIndirectRange(side, "VehicleMagazines", magazine)
-    submunition       = getSubmunition(side, "VehicleMagazines", magazine)
+def getVehicleWeaponStats(weapon, magazine, side, categoryA, categoryB):
+    name              =      getDisplayName(side, categoryA, weapon)
+    cartridge         = getDisplayNameShort(side, categoryB, magazine)
+    capacity          = getMagazineCapacity(side, categoryB, magazine)
+    damage            =              getHit(side, categoryB, magazine)
+    indirectDamage    =      getIndirectHit(side, categoryB, magazine)
+    indirectRange     =    getIndirectRange(side, categoryB, magazine)
+    submunition       =      getSubmunition(side, categoryB, magazine)
     subDamage         = []
     subIndirectDamage = []
     subIndirectRange  = []
@@ -408,12 +495,13 @@ def getVehicleWeaponStats(weapon, magazine, side):
     subCaliber        = []
     subPenetration    = []
     subArray          = []
+    print(name)
 
     if (submunition != 0):
         if isinstance(submunition, list):
             submunitionCount = len(submunition)
             for i in range(0, submunitionCount, 1):
-                subArray = (getSubmunitionValues(side, magazine, submunition[i]))
+                subArray = (getSubmunitionValues(side, categoryB, magazine, submunition[i]))
                 subDamage.append(subArray[0])
                 subIndirectDamage.append(subArray[1])
                 subIndirectRange.append(subArray[2])
@@ -422,7 +510,7 @@ def getVehicleWeaponStats(weapon, magazine, side):
                 subCaliber.append(subArray[5])
                 subPenetration.append(subArray[6])
         else:
-            subArray = (getSubmunitionValues(side, magazine, submunition))
+            subArray = (getSubmunitionValues(side, categoryB, magazine, submunition))
             subDamage.append(subArray[0])
             subIndirectDamage.append(subArray[1])
             subIndirectRange.append(subArray[2])
@@ -431,49 +519,52 @@ def getVehicleWeaponStats(weapon, magazine, side):
             subCaliber.append(subArray[5])
             subPenetration.append(subArray[6])
 
+    caliber                  =       getCaliber(side, categoryB, magazine)
+    fireModes                = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, categoryA, weapon)]
+    reloadTime                      = getModeDependant(side + categoryA, weapon, fireModes, "reloadtime")
+    dispersion               = getModeDependant(side + categoryA, weapon, fireModes, "dispersion")
 
+    manoeuvrability          =          getManoeuvrability(side, categoryB, magazine)
+    maxControlRange          =          getMaxControlRange(side, categoryB, magazine)
+    trackOversteer           =           getTrackOversteer(side, categoryB, magazine)
+    trackLead                =                getTrackLead(side, categoryB, magazine)
+    manualControlOffset      =      getManualControlOffset(side, categoryB, magazine)
+    missileManualControlcone = getMissileManualControlCone(side, categoryB, magazine)
+    RHSguideMode             =             getRHSguideMode(side, categoryB, magazine)
+    flightProfiles           =           getFlightProfiles(side, categoryB, magazine)
+    warheadName              =              getWarheadName(side, categoryB, magazine)
+    submunitionConeType      =      getSubmunitionConeType(side, categoryB, magazine)
+    subSubmunition           =           getSubSubmunition(side, categoryB, magazine)
+    sideAirResistance        =        getSideAirResistance(side, categoryB, magazine)
 
-    caliber           = getCaliber(side, "VehicleMagazines", magazine)
-    fireModes         = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, "VehicleWeapons", weapon)]
-    rpm               = getModeDependant(side + "VehicleWeapons", weapon, fireModes, "reloadtime")
-    dispersion        = getModeDependant(side + "VehicleWeapons", weapon, fireModes, "dispersion")
-    initialSpeed      = getInitialSpeed(side, "VehicleMagazines", magazine)
-    typicalSpeed      = getTypicalSpeed(side, "VehicleMagazines", magazine)
-    airResistance     = getAirResistance(side, "VehicleMagazines", magazine)
-    if str(airResistance).count("E") == 1:
-        airResistance = "{:.8f}".format(float(airResistance))
-    penetration       = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
+    initialSpeed             =  getInitialSpeed(side, categoryB, magazine)
+    typicalSpeed             =  getTypicalSpeed(side, categoryB, magazine)
+    airResistance            = getAirResistance(side, categoryB, magazine)
+    penetration              = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
                          '{:.2f}'.format(round((typicalSpeed * caliber * 0.080),2)).zfill(5) + "|" +
                          '{:.2f}'.format(round((typicalSpeed * caliber * 0.250),2)).zfill(5))
 
+    # # hit = hit * (speed / typicalSpeed)
+    # hitValues = []
+    # for distance in [100,500,1000,2000,3000]:
+    #     try:
+    #         estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
+    #     except OverflowError:
+    #         estSpeed = float(initialSpeed * (1/Decimal(abs(airResistance)).exp() * distance))
+    #     # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
+    #     hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
+    #     if hitValues[0] == 0:
+    #         hitValues = ["","","","",""]
 
-
-    # hit = hit * (speed / typicalSpeed)
-    hitValues = []
-    for distance in [100,500,1000,2000,3000]:
-        try:
-            estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
-        except OverflowError:
-            estSpeed = float(initialSpeed * (1/Decimal(abs(airResistance)).exp() * distance))
-        # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
-        hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
-        if hitValues[0] == 0:
-            hitValues = ["","","","",""]
-
-    thrust            = getThrust(side, "VehicleMagazines", magazine)
-    thrustTime        = getThrustTime(side, "VehicleMagazines", magazine)
-    maxSpeed          = getMaxSpeed(side, "VehicleMagazines", magazine)
-
-
-    # if len(rpm) > len(fireModes):
-    #     del rpm[0]
+    thrust                   =     getThrust(side, categoryB, magazine)
+    thrustTime               = getThrustTime(side, categoryB, magazine)
+    maxSpeed                 =   getMaxSpeed(side, categoryB, magazine)
 
     #FireMode filtering, likely more useful for vehicle weapons
-    modeStats  = filterVehicleFireModes(fireModes, rpm, dispersion)
+    modeStats  = filterVehicleFireModes(fireModes, reloadTime, dispersion)
     fireModes  = "\\".join(map(str, modeStats[0]))
-    rpm        = "\\".join(map(str, modeStats[1]))
+    reloadTime = "\\".join(map(str, modeStats[1]))
     dispersion = "\\".join(map(str, modeStats[2]))
-
 
     if subDamage         == []: subDamage = ""
     if subIndirectDamage == []: subIndirectDamage = ""
@@ -484,16 +575,131 @@ def getVehicleWeaponStats(weapon, magazine, side):
     if subPenetration    == []: subPenetration = ""
     if subArray          == []: subArray = ""
     if fireModes         == []: fireModes = ""
-    if rpm               == []: rpm = ""
+    if reloadTime        == []: reloadTime = ""
     if dispersion        == []: dispersion = ""
 
-    return [name, cartridge, capacity, damage, indirectDamage, indirectRange, subDamage, subIndirectDamage, subIndirectRange,
-            fireModes, rpm, dispersion, initialSpeed, typicalSpeed, airResistance, penetration, subPenetration,
-            hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4],
-            thrust, thrustTime, maxSpeed, weapon, magazine, caliber, subCaliber]
+    return [name, cartridge, capacity, damage, indirectDamage, indirectRange, subDamage, subIndirectDamage, subIndirectRange, subSubmunition, submunitionConeType,
+            warheadName, fireModes, reloadTime, dispersion, initialSpeed, typicalSpeed,
+            airResistance, sideAirResistance, maxControlRange, RHSguideMode,
+            penetration, subPenetration,
+            thrust, thrustTime, maxSpeed, manoeuvrability, trackOversteer, trackLead, manualControlOffset, missileManualControlcone, flightProfiles,
+            weapon, magazine, caliber, subCaliber]
 
 def writeVehicleWeaponStats(weapon, side, csvwriter):
-    weaponStats = getVehicleWeaponStats(weapon[0], weapon[1], side)
+    weaponStats = getVehicleWeaponStats(weapon[0], weapon[1], side, "VehicleWeapons", "VehicleMagazines")
+    print(SEPERATOR)
+    print(ccyan + "Name: " + cend + cgreen  + str(weaponStats[0])  + cend)
+    csvwriter.writerow(weaponStats)
+    print(SEPERATOR + "\n\n")
+
+def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
+    name              =      getDisplayName(side, categoryA, weapon)
+    cartridge         = getDisplayNameShort(side, categoryB, magazine)
+    capacity          = getMagazineCapacity(side, categoryB, magazine)
+    damage            =              getHit(side, categoryB, magazine)
+    indirectDamage    =      getIndirectHit(side, categoryB, magazine)
+    indirectRange     =    getIndirectRange(side, categoryB, magazine)
+    submunition       =      getSubmunition(side, categoryB, magazine)
+    subDamage         = []
+    subIndirectDamage = []
+    subIndirectRange  = []
+    subInitialSpeed   = []
+    subTypicalSpeed   = []
+    subCaliber        = []
+    subPenetration    = []
+    subArray          = []
+    print(name)
+
+    if (submunition != 0):
+        if isinstance(submunition, list):
+            submunitionCount = len(submunition)
+            for i in range(0, submunitionCount, 1):
+                subArray = (getSubmunitionValues(side, categoryB, magazine, submunition[i]))
+                subDamage.append(subArray[0])
+                subIndirectDamage.append(subArray[1])
+                subIndirectRange.append(subArray[2])
+                subInitialSpeed.append(subArray[3])
+                subTypicalSpeed.append(subArray[4])
+                subCaliber.append(subArray[5])
+                subPenetration.append(subArray[6])
+        else:
+            subArray = (getSubmunitionValues(side, categoryB, magazine, submunition))
+            subDamage.append(subArray[0])
+            subIndirectDamage.append(subArray[1])
+            subIndirectRange.append(subArray[2])
+            subInitialSpeed.append(subArray[3])
+            subTypicalSpeed.append(subArray[4])
+            subCaliber.append(subArray[5])
+            subPenetration.append(subArray[6])
+
+    caliber                  =       getCaliber(side, categoryB, magazine)
+    fireModes                = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, categoryA, weapon)]
+    reloadTime                      = getModeDependant(side + categoryA, weapon, fireModes, "reloadtime")
+    dispersion               = getModeDependant(side + categoryA, weapon, fireModes, "dispersion")
+
+    manoeuvrability          =          getManoeuvrability(side, categoryB, magazine)
+    maxControlRange          =          getMaxControlRange(side, categoryB, magazine)
+    trackOversteer           =           getTrackOversteer(side, categoryB, magazine)
+    trackLead                =                getTrackLead(side, categoryB, magazine)
+    manualControlOffset      =      getManualControlOffset(side, categoryB, magazine)
+    missileManualControlcone = getMissileManualControlCone(side, categoryB, magazine)
+    RHSguideMode             =             getRHSguideMode(side, categoryB, magazine)
+    flightProfiles           =           getFlightProfiles(side, categoryB, magazine)
+    warheadName              =              getWarheadName(side, categoryB, magazine)
+    submunitionConeType      =      getSubmunitionConeType(side, categoryB, magazine)
+    subSubmunition           =           getSubSubmunition(side, categoryB, magazine)
+    sideAirResistance        =        getSideAirResistance(side, categoryB, magazine)
+
+    initialSpeed             =  getInitialSpeed(side, categoryB, magazine)
+    typicalSpeed             =  getTypicalSpeed(side, categoryB, magazine)
+    airResistance            = getAirResistance(side, categoryB, magazine)
+    penetration              = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
+                         '{:.2f}'.format(round((typicalSpeed * caliber * 0.080),2)).zfill(5) + "|" +
+                         '{:.2f}'.format(round((typicalSpeed * caliber * 0.250),2)).zfill(5))
+
+    # # hit = hit * (speed / typicalSpeed)
+    # hitValues = []
+    # for distance in [100,500,1000,2000,3000]:
+    #     try:
+    #         estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
+    #     except OverflowError:
+    #         estSpeed = float(initialSpeed * (1/Decimal(abs(airResistance)).exp() * distance))
+    #     # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
+    #     hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
+    #     if hitValues[0] == 0:
+    #         hitValues = ["","","","",""]
+
+    thrust                   =     getThrust(side, categoryB, magazine)
+    thrustTime               = getThrustTime(side, categoryB, magazine)
+    maxSpeed                 =   getMaxSpeed(side, categoryB, magazine)
+
+    #FireMode filtering, likely more useful for vehicle weapons
+    modeStats  = filterVehicleFireModes(fireModes, reloadTime, dispersion)
+    fireModes  = "\\".join(map(str, modeStats[0]))
+    reloadTime = "\\".join(map(str, modeStats[1]))
+    dispersion = "\\".join(map(str, modeStats[2]))
+
+    if subDamage         == []: subDamage = ""
+    if subIndirectDamage == []: subIndirectDamage = ""
+    if subIndirectRange  == []: subIndirectRange = ""
+    if subInitialSpeed   == []: subInitialSpeed = ""
+    if subTypicalSpeed   == []: subTypicalSpeed = ""
+    if subCaliber        == []: subCaliber = ""
+    if subPenetration    == []: subPenetration = ""
+    if subArray          == []: subArray = ""
+    if fireModes         == []: fireModes = ""
+    if reloadTime        == []: reloadTime = ""
+    if dispersion        == []: dispersion = ""
+
+    return [name, cartridge, capacity, damage, indirectDamage, indirectRange, subDamage, subIndirectDamage, subIndirectRange, subSubmunition, submunitionConeType,
+            warheadName, fireModes, reloadTime, dispersion, initialSpeed, typicalSpeed,
+            airResistance, sideAirResistance, maxControlRange, RHSguideMode,
+            penetration, subPenetration,
+            thrust, thrustTime, maxSpeed, manoeuvrability, trackOversteer, trackLead, manualControlOffset, missileManualControlcone, flightProfiles,
+            weapon, magazine, caliber, subCaliber]
+
+def writeLauncherStats(weapon, side, csvwriter):
+    weaponStats = getLauncherStats(weapon[0], weapon[1], side, "Launchers", "LauncherMagazines")
     print(SEPERATOR)
     print(ccyan + "Name: " + cend + cgreen  + str(weaponStats[0])  + cend)
     csvwriter.writerow(weaponStats)
@@ -572,12 +778,11 @@ opForWeapons = [
     ["rhs_weap_vss_npz"      ,"rhs_10rnd_9x39mm_sp5"         ],
     ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_sp5"         ]
 ]
-
-
-vehicleWeaponArray = ["Name","Cartridge","Capacity","Damage","Indirect Damage","Indirect Range", "Submunition Damage", "Submunition Indirect Damage",
-                      "Submunition Indirect Range", "Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
-                      "Air Resistance", "Penetration", "Submunition Penetration", "Damage at 100m", "Damage at 500m", "Damage at 1000m", "Damage at 2000m", "Damage at 3000m",
-                      "Thrust", "Thrust Time", "Max speed",
+vehicleWeaponArray = ["Name","Cartridge","Capacity","Damage","Indirect Damage","Indirect Range", "Submunition Damage", "Submunition Indirect Damage", "Submunition Indirect Range", "Sub-Submunition", "Submunition Cone",
+                      "Warhead", "Fire Modes", "reloadTime", "Dispersion", "Initial Speed", "Typical Speed",
+                      "Air Resistance", "Side Air Reistance", "Control Range", "RHS Guide Mode",
+                      "Penetration", "Submunition Penetration",
+                      "Thrust", "Thrust Time", "Max speed", "Manoeuvrability", "Track Oversteer", "Track Lead", "Control Offset", "Control Cone", "Flight Profiles",
                       "Weapon Class", "Magazine Class", "Caliber", "Submunition Caliber"]
 bluForVehicleWeapons = [
     ["rhs_weap_gau8"                ,"rhs_mag_1150rnd_30x173_mixed"             ],
@@ -685,6 +890,29 @@ opForVehicleWeapons = [
     ["rhs_weap_s13"           ,"rhs_mag_b13l_s13b"          ],
     ["rhs_weap_9m120_launcher","rhs_mag_9m120m_mi28_8x"     ]
 ]
+bluForLaunchers = [
+    ["rhs_weap_m72a7"     ,"rhs_m72a7_mag"          ],
+    ["rhs_weap_m136"      ,"rhs_m136_mag"           ],
+    ["rhs_weap_maaws"     ,"rhs_mag_maaws_heat"     ],
+    ["rhs_weap_m136_hedp" ,"rhs_m136_hedp_mag"      ],
+    ["rhs_weap_smaw"      ,"rhs_mag_smaw_heaa"      ],
+    ["rhs_weap_maaws"     ,"rhs_mag_maaws_he"       ],
+    ["rhs_weap_smaw"      ,"rhs_mag_smaw_hedp"      ],
+    ["rhs_weap_m32_base_f","rhsusf_mag_6rnd_m441_he"],
+    ["rhs_weap_m320"      ,"rhs_mag_m441_he"        ],
+    ["rhs_weap_fim92"     ,"rhs_fim92_mag"          ],
+    ["rhs_weap_fgm148"    ,"rhs_fgm148_magazine_at" ]
+]
+opForLaunchers = [
+    ["rhs_weap_rpg26","rhs_rpg26_mag"      ],
+    ["rhs_weap_rpg7" ,"rhs_rpg7_pg7vl_mag" ],
+    ["rhs_weap_rshg2","rhs_rshg2_mag"      ],
+    ["rhs_weap_rpg7" ,"rhs_rpg7_pg7vr_mag" ],
+    ["rhs_weap_rpg7" ,"rhs_rpg7_og7v_mag"  ],
+    ["rhs_weap_rpg7" ,"rhs_rpg7_tbg7v_mag" ],
+    ["rhs_weap_igla" ,"rhs_mag_9k38_rocket"]
+]
+
 
 #Normal infantry weapons
 with open("BluForWeaponExport.csv", "w", newline='\n') as csvfile:
@@ -713,6 +941,20 @@ with open("OpForVehicleWeaponExport.csv", "w", newline='\n') as csvfile:
     csvwriter.writerow(vehicleWeaponArray)
     for weapon in opForVehicleWeapons:
         writeVehicleWeaponStats(weapon, "OpFor", csvwriter)
+
+#Launchers for now
+with open("BluForLauncherExport.csv", "w", newline='\n') as csvfile:
+    csvfile.truncate(0)  #Clear file
+    csvwriter = csv.writer(csvfile, delimiter=',')
+    csvwriter.writerow(vehicleWeaponArray)
+    for weapon in bluForLaunchers:
+        writeLauncherStats(weapon, "BluFor", csvwriter)
+with open("OpForLauncherExport.csv", "w", newline='\n') as csvfile:
+    csvfile.truncate(0)  #Clear file
+    csvwriter = csv.writer(csvfile, delimiter=',')
+    csvwriter.writerow(vehicleWeaponArray)
+    for weapon in opForLaunchers:
+        writeLauncherStats(weapon, "OpFor", csvwriter)
 
 # print('{:.2f}'.format(round((403.86 * 0.24 * 0.015)/10,2)).zfill(4) + "|" +
 #                      '{:.2f}'.format(round((403.86 * 0.24 * 0.080)/10,2)).zfill(5) + "|" +
