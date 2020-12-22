@@ -22,7 +22,7 @@ REM Create log folder
 CALL :EchoLog "%MKDIRSTRING% '%exportDir%\logs'"
 MKDIR "%exportDir%\logs" > nul 2>nul
 
-REM Set stringS
+REM Set strings
 set EXCLUDEDSTRING=        [Excluded]
 set P3DSTRING=       [DE-P3D]
 set DELSTRING=          [DEL]
@@ -42,7 +42,7 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 		CALL :EchoLog "."
 
 		CALL "%~dp0\#DateTime.bat" "%startDateTime%" 1
-		
+
 		for /f "delims==" %%F in ("%%I\.\..\..") do (
 			CALL :EchoLog "%FOUNDPBOSTRING% '%%~nxI' in '%%~nF'"
 			REM Create directory for MOD
@@ -54,14 +54,14 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 				REM Extract PBO contents
 				ECHO [Unpacking PBO] "%%~pnxI" TO ".\%%~nF\%%~nI"
 				PBOConsole -unpack "%%I" "%exportDir%\%%~nF\%%~nI" > nul
-				
-				
+
+
 				REM Change directory to unpacked pbo
 				CALL :EchoLog "%CDSTRING% Going to '.\%%~nF\%%~nI'"
 				CD /D "%exportDir%\%%~nF\%%~nI"
 				CALL :EchoLog "%CDSTRING% At '.\%%~nF\%%~nI'"
-				
-				
+
+
 				REM Convert config.bin's to config.cpp's
 				FOR /R %%C in (config.bin) do (
 					CALL :EchoLog "%CFGSTRING% '%%~dpnxC' TO '%%~nC.cpp'"
