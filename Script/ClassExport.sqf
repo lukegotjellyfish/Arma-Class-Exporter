@@ -12,6 +12,9 @@
 //  2. Take and filter list of weapons and magazines to export from RHS's cfgPatches
 //
 //Get all classes in CfgPatches
+
+//Remove this following section for the script to actually work, this is a WIP
+
 _cfgPatches           = configProperties [configFile >> "CfgPatches"];
 _rhsWeapons           = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
 _rhsMagazines         = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
@@ -47,6 +50,8 @@ _i = 0;
 				_weapMagazines = [_x] call BIS_fnc_compatibleMagazines;
 				_itemType = _x call BIS_fnc_itemType;
 
+				diag_log(_itemType select 0);
+
 				if (_itemType select 0 == "Weapon") then {
 					if ((_itemType select 1 == "MissileLauncher") || (_itemType select 1 == "RocketLauncher")) then {
 						//
@@ -60,7 +65,8 @@ _i = 0;
 						(_rhsLaunchers select _modIndex) pushBack [_x];
 						(_rhsLauncherMagazines select _modIndex) pushBack _weapMagazines;
 					} else {
-						(_rhsWeapons select _modIndex) pushBack [_x];
+						_rhsWeapons select _modIndex pushBack [_x];
+						diag_log(_rhsWeapons);
 						(_rhsMagazines select _modIndex) pushBack _weapMagazines;
 					};
 				};
