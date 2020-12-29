@@ -1,6 +1,6 @@
 //
 // Todo:
-//  For weapons, fetch weapon sound classes:
+//  1. For weapons, fetch weapon sound classes:
 //   if firemode:
 //    If sounds[]:
 //     loop through sounds in sounds[]:
@@ -8,6 +8,93 @@
 //       get classes from soundsetshot[]
 //        get classes from soundShaders from classes in soundsetshot
 //        also get class from sound3DProcessingType and distanceFilter
+//
+//  2. Take and filter list of weapons and magazines to export from RHS's cfgPatches
+//
+//Get all classes in CfgPatches
+_cfgPatches           = configProperties [configFile >> "CfgPatches"];
+_rhsWeapons           = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
+_rhsMagazines         = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
+_rhsLaunchers         = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
+_rhsLauncherMagazines = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
+_rhsVehicleWeapons    = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
+_rhsVehicleMagazines  = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
+_i = 0;
+{
+	//If class is for RHS
+	_currentCfgPatch = _cfgPatches select _i;
+	_strCurrentCfgPatch = str _currentCfgPatch;
+	_cfgPatchClass = ((str _x) splitString "\/") select 3;
+	if (getText(_currentCfgPatch >> "author") == "Red Hammer Studios") then {
+		//Get weapons array from rhs cfgPatches class
+		_weaponsArray = getArray (configFile >> "CfgPatches" >> _cfgPatchClass >> "weapons");
+
+		//If the array actually has any values, do:
+		if (count _weaponsArray > 0) then {
+			_mod = getArray(configFile >> "CfgPatches" >> _cfgPatchClass >> "requiredAddons");
+
+			switch (_mod select 0) do {
+				case "rhs_main": {_modIndex = 0};
+				case "rhsusf_main": {_modIndex = 1};
+				case "rhsgref_main": {_modIndex = 2};
+				case "rhssaf_main": {_modIndex = 3};
+				default {_modIndex = 0};
+			};
+
+
+			diag_log(format["_i = %1 - %2", _i, _strCurrentCfgPatch]);
+			{
+				_weapMagazines = [_x] call BIS_fnc_compatibleMagazines;
+				_itemType = _x call BIS_fnc_itemType;
+
+				if (_itemType select 0 == "Weapon") then {
+					if ((_itemType select 1 == "MissileLauncher") || (_itemType select 1 == "RocketLauncher")) then {
+						//
+						//
+						//
+						//  Nothing is getting added
+						//
+						//
+						//
+						//
+						(_rhsLaunchers select _modIndex) pushBack [_x];
+						(_rhsLauncherMagazines select _modIndex) pushBack _weapMagazines;
+					} else {
+						(_rhsWeapons select _modIndex) pushBack [_x];
+						(_rhsMagazines select _modIndex) pushBack _weapMagazines;
+					};
+				};
+				if (_itemType select 0 == "VehicleWeapon") then {
+					(_rhsVehicleWeapons select _modIndex) pushBack [_x];
+					(_rhsVehicleMagazines select _modIndex) pushBack _weapMagazines;
+				};
+			} forEach _weaponsArray;
+		};
+	};
+	_i = _i + 1;
+} forEach _cfgPatches;
+
+_rhsWeapons           = _rhsWeapons           arrayIntersect _rhsWeapons;
+_rhsMagazines         = _rhsMagazines         arrayIntersect _rhsMagazines;
+_rhsLaunchers         = _rhsLaunchers         arrayIntersect _rhsLaunchers;
+_rhsLauncherMagazines = _rhsLauncherMagazines arrayIntersect _rhsLauncherMagazines;
+_rhsVehicleWeapons    = _rhsVehicleWeapons    arrayIntersect _rhsVehicleWeapons;
+_rhsVehicleMagazines  = _rhsVehicleMagazines  arrayIntersect _rhsVehicleMagazines;
+
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsWeapons.txt" + "|" + str (_rhsWeapons call BIS_fnc_sortAlphabetically));
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsMagazines.txt" + "|" + str (_rhsMagazines call BIS_fnc_sortAlphabetically));
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLaunchers.txt" + "|" + str (_rhsLaunchers call BIS_fnc_sortAlphabetically));
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLauncherMagazines.txt" + "|" + str (_rhsLauncherMagazines call BIS_fnc_sortAlphabetically));
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleWeapons.txt" + "|" + str (_rhsVehicleWeapons call BIS_fnc_sortAlphabetically));
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleMagazines.txt" + "|" + str (_rhsVehicleMagazines call BIS_fnc_sortAlphabetically));
+
+
+
+
+
+
+
+
 //
 // _sideMatrix:
 //  1. Categorise classes of the same kind to iterate through to
