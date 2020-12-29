@@ -36,42 +36,30 @@ _i = 0;
 		if (count _weaponsArray > 0) then {
 			_mod = getArray(configFile >> "CfgPatches" >> _cfgPatchClass >> "requiredAddons");
 
+			_modIndex = 0;
 			switch (_mod select 0) do {
 				case "rhs_main": {_modIndex = 0};
 				case "rhsusf_main": {_modIndex = 1};
 				case "rhsgref_main": {_modIndex = 2};
 				case "rhssaf_main": {_modIndex = 3};
-				default {_modIndex = 0};
 			};
-
 
 			diag_log(format["_i = %1 - %2", _i, _strCurrentCfgPatch]);
 			{
 				_weapMagazines = [_x] call BIS_fnc_compatibleMagazines;
 				_itemType = _x call BIS_fnc_itemType;
 
-				diag_log(_itemType select 0);
-
 				if (_itemType select 0 == "Weapon") then {
 					if ((_itemType select 1 == "MissileLauncher") || (_itemType select 1 == "RocketLauncher")) then {
-						//
-						//
-						//
-						//  Nothing is getting added
-						//
-						//
-						//
-						//
-						(_rhsLaunchers select _modIndex) pushBack [_x];
+						(_rhsLaunchers select _modIndex) pushBack _x;
 						(_rhsLauncherMagazines select _modIndex) pushBack _weapMagazines;
 					} else {
-						_rhsWeapons select _modIndex pushBack [_x];
-						diag_log(_rhsWeapons);
+						(_rhsWeapons select _modIndex) pushBack _x;
 						(_rhsMagazines select _modIndex) pushBack _weapMagazines;
 					};
 				};
 				if (_itemType select 0 == "VehicleWeapon") then {
-					(_rhsVehicleWeapons select _modIndex) pushBack [_x];
+					(_rhsVehicleWeapons select _modIndex) pushBack _x;
 					(_rhsVehicleMagazines select _modIndex) pushBack _weapMagazines;
 				};
 			} forEach _weaponsArray;
