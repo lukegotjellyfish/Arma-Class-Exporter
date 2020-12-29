@@ -13,7 +13,22 @@
 //
 //Get all classes in CfgPatches
 
-//Remove this following section for the script to actually work, this is a WIP
+//WIP:
+
+sortFactions = {
+	params ["_array", "_numFactions"];
+
+	//_newArray = [];
+	//_newArray resize (_numFactions - 1);
+
+	//Get array offsets to sort each subarray
+	for "_i" from 0 to (_numFactions - 1) do {
+		_array set [_i, (_array select _i) arrayIntersect (_array select _i)];
+	};
+
+	//Return sorted array
+	_array
+};
 
 _cfgPatches           = configProperties [configFile >> "CfgPatches"];
 _rhsWeapons           = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
@@ -40,6 +55,7 @@ _i = 0;
 			switch (_mod select 0) do {
 				case "rhs_main": {_modIndex = 0};
 				case "rhsusf_main": {_modIndex = 1};
+				case "rhsusf_c_heavyweapons": {_modIndex = 1};
 				case "rhsgref_main": {_modIndex = 2};
 				case "rhssaf_main": {_modIndex = 3};
 			};
@@ -52,15 +68,18 @@ _i = 0;
 				if (_itemType select 0 == "Weapon") then {
 					if ((_itemType select 1 == "MissileLauncher") || (_itemType select 1 == "RocketLauncher")) then {
 						(_rhsLaunchers select _modIndex) pushBack _x;
-						(_rhsLauncherMagazines select _modIndex) pushBack _weapMagazines;
+						(_rhsLauncherMagazines select _modIndex) append _weapMagazines;
+					};
+					if (["rhs_weap_pkt","rhs_weap_nsvt","rhs_weap_dshkm","rhs_weap_kpvt","RHS_M2","RHS_M2_offroad","RHS_M2_M1117","rhs_weap_m240veh","rhs_weap_m240_abrams","rhs_weap_m240_m113","rhs_weap_m240_abrams_coax","RHS_MK19","rhs_weap_M320"] find _x != -1) then {
+						_itemType = ["VehicleWeapon"];
 					} else {
 						(_rhsWeapons select _modIndex) pushBack _x;
-						(_rhsMagazines select _modIndex) pushBack _weapMagazines;
+						(_rhsMagazines select _modIndex) append _weapMagazines;
 					};
 				};
 				if (_itemType select 0 == "VehicleWeapon") then {
 					(_rhsVehicleWeapons select _modIndex) pushBack _x;
-					(_rhsVehicleMagazines select _modIndex) pushBack _weapMagazines;
+					(_rhsVehicleMagazines select _modIndex) append _weapMagazines;
 				};
 			} forEach _weaponsArray;
 		};
@@ -68,23 +87,30 @@ _i = 0;
 	_i = _i + 1;
 } forEach _cfgPatches;
 
-_rhsWeapons           = _rhsWeapons           arrayIntersect _rhsWeapons;
-_rhsMagazines         = _rhsMagazines         arrayIntersect _rhsMagazines;
-_rhsLaunchers         = _rhsLaunchers         arrayIntersect _rhsLaunchers;
-_rhsLauncherMagazines = _rhsLauncherMagazines arrayIntersect _rhsLauncherMagazines;
-_rhsVehicleWeapons    = _rhsVehicleWeapons    arrayIntersect _rhsVehicleWeapons;
-_rhsVehicleMagazines  = _rhsVehicleMagazines  arrayIntersect _rhsVehicleMagazines;
+_rhsWeapons           = [_rhsWeapons, count _rhsWeapons] call sortFactions;
+_rhsMagazines         = [_rhsMagazines, count _rhsMagazines] call sortFactions;
+_rhsLaunchers         = [_rhsLaunchers, count _rhsLaunchers] call sortFactions;
+_rhsLauncherMagazines = [_rhsLauncherMagazines, count _rhsLauncherMagazines] call sortFactions;
+_rhsVehicleWeapons    = [_rhsVehicleWeapons, count _rhsVehicleWeapons] call sortFactions;
+_rhsVehicleMagazines  = [_rhsVehicleMagazines, count _rhsVehicleMagazines] call sortFactions;
 
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsWeapons.txt" + "|" + str (_rhsWeapons call BIS_fnc_sortAlphabetically));
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsMagazines.txt" + "|" + str (_rhsMagazines call BIS_fnc_sortAlphabetically));
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLaunchers.txt" + "|" + str (_rhsLaunchers call BIS_fnc_sortAlphabetically));
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLauncherMagazines.txt" + "|" + str (_rhsLauncherMagazines call BIS_fnc_sortAlphabetically));
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleWeapons.txt" + "|" + str (_rhsVehicleWeapons call BIS_fnc_sortAlphabetically));
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleMagazines.txt" + "|" + str (_rhsVehicleMagazines call BIS_fnc_sortAlphabetically));
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsWeapons.txt" + "|" + str _rhsWeapons);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsMagazines.txt" + "|" + str _rhsMagazines);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLaunchers.txt" + "|" + str _rhsLaunchers);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLauncherMagazines.txt" + "|" + str _rhsLauncherMagazines);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleWeapons.txt" + "|" + str _rhsVehicleWeapons);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleMagazines.txt" + "|" + str _rhsVehicleMagazines);
 
+for "_i" from 0 to ((count _rhsWeapons) - 1) do {
+	{
+		player addWeapon _x;
+		_loadout = getUnitLoadout [player, true];
 
-
-
+		if ((_loadout select 0) select 0 != _x) then {
+			diag_log("NOT an infantry weapon: " + _x);
+		};
+	} foreach (_rhsWeapons select _i);
+};
 
 
 
