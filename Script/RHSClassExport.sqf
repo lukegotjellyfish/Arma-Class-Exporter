@@ -8238,7 +8238,7 @@ getProperties = {
 };
 
 
-_basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\Archive RHS";
+_basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\Archive RHS\";
 {
 	{
 		i = 0;
