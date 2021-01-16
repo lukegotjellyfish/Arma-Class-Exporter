@@ -4,16 +4,16 @@ _vehicleFired = vehiclePlayer addeventhandler ["Fired", {(_this select 0) setveh
 playerPlayer = player;
 _playerFired = playerPlayer addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 //Assign vehicles (vehicle variable name)
-v1 = t72;
-v2 = t80;
+v1 = m2a2;
+v2 = m2a3;
 v3 = t90;
 //Init toggle addaction values
 v1_toggle = 0;
 v2_toggle = 0;
 v3_toggle = 0;
 //Player's vehicle for each option
-v1_vehicle = "T-72 Test";
-v2_vehicle = "";
+v1_vehicle = "M2A2";
+v2_vehicle = "M2A3";
 v3_vehicle = "";
 
 //https://community.bistudio.com/wiki/DIK_KeyCodes
@@ -76,7 +76,7 @@ toggleLogger = {
 				(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];
 			}
 			catch {
-				diag_log(format["Error in <1(alive _vx -> removeEventHandler>: %1", _exception])
+				diag_log(format["Error in <1(alive _vx -> removeEventHandler>: %1", _exception]);
 			};
 		};
 	}
@@ -87,8 +87,8 @@ toggleLogger = {
 			//diag_log(format["Passing [%1,%2] to damageLog", _vx, vxDamageEntry]);
 
 			//https://community.bistudio.com/wiki/DIK_KeyCodes
-			//18 = E
-			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 18) then {vxDamageEntry = [vx, vxDamageEntry] call damageLog;};"];
+			//6 = 5
+			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 6) then {vxDamageEntry = [vx, vxDamageEntry] call damageLog;};"];
 		}
 		else {(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];};
 	};
@@ -101,6 +101,8 @@ vehicle_1 = playerPlayer addAction [format["Toggle %1 monitor", v1_vehicle], {
 	[v1, v1_toggle, v1_vehicle] call toggleLogger;
 }];
 vehicle_2 = playerPlayer addAction [format["Toggle %1 monitor", v2_vehicle], {
+	if (v2_toggle == 0) then {v2_toggle = 1;}
+	else {v2_toggle = 0;};
 	[v2, v2_toggle, v2_vehicle] call toggleLogger;
 }];
 vehicle_3 = playerPlayer addAction [format["Toggle %1 monitor", v3_vehicle], {
