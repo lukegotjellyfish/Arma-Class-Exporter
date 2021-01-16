@@ -11,7 +11,7 @@ changeMag = {
 // 3 = 2 key
 // 4 = 3
 // 5 = 4
-// 6 = 5
+// 6 = 5z
 // 7 = 6
 diag_toggleToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 5) then {diag_log('single diag_toggle'); diag_toggle 'shots';};"];
 
@@ -27,8 +27,8 @@ downOneMag = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this sel
 		};
 	};"];
 upTenMag = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 5) then {
-	if (x <= 1490) then {
-	x = x + 10; [x] call changeMag;
+		if (x <= 1490) then {
+			x = x + 10; [x] call changeMag;
 	};"];
 downTenMag = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 6) then {
 		if (x > 10) then {
