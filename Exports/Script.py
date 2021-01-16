@@ -255,8 +255,11 @@ def getManoeuvrability(side, category, _class):
 def getFireModes(side, category, _class):
     return fetchSide([side + category, _class, "modes"])
 
-def getInitialSpeed(side, category, _class):
-    return fetchSide([side + category, _class, "initspeed"])
+def getInitialSpeed(side, category, _class, sub=""):
+    if sub != "":
+        return fetchSide([side + category, _class, "ammo", "submunitioninitspeed"])
+    else:
+        return fetchSide([side + category, _class, "initspeed"])
 
 def getTypicalSpeed(side, category, _class, sub=""):
     if sub == "":
@@ -340,12 +343,20 @@ def getSubmunitionValues(side, category, _class, submunition):
     subDamage         = getHit(side, category, _class, submunition)
     subIndirectDamage = getIndirectHit(side, category, _class, submunition)
     subIndirectRange  = getIndirectRange(side, category, _class, submunition)
-    subInitialSpeed   = getInitialSpeed(side, category, _class)
+    subInitialSpeed   = getInitialSpeed(side, category, _class, submunition)
     subTypicalSpeed   = getTypicalSpeed(side, category, _class, submunition)
     subCaliber        = getCaliber(side, category, _class, submunition)
-    subPenetration    = ('{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.015),2)).zfill(4) + "|" +
-                            '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.080),2)).zfill(5) + "|" +
-                            '{:.2f}'.format(round((subTypicalSpeed * subCaliber * 0.250),2)).zfill(5))
+
+    if (("rhs" in _class.lower()) and (subInitialSpeed == 1000)):
+        subInitialSpeed = 900
+        #All (that i've tested) RHS ATGMs travel before hitting armour and lose 100m/s
+    elif subInitialSpeed == "":
+        subInitialSpeed = subTypicalSpeed
+
+    print("Subinit speed: " + str(subInitialSpeed) + "\nSub caliber: " + str(subCaliber))
+    subPenetration    = ('{:.2f}'.format(round((float(subInitialSpeed) * subCaliber * 0.015),2)).zfill(4) + "|" +
+                            '{:.2f}'.format(round((float(subInitialSpeed) * subCaliber * 0.080),2)).zfill(5) + "|" +
+                            '{:.2f}'.format(round((float(subInitialSpeed) * subCaliber * 0.250),2)).zfill(5))
     return [subDamage, subIndirectDamage, subIndirectRange, subInitialSpeed, subTypicalSpeed, subCaliber, subPenetration]
 
 def getReloadTime(side, category, _class):
@@ -353,10 +364,6 @@ def getReloadTime(side, category, _class):
 
 def getDispersion(side, category, _class):
     return fetchSide([side + category, _class, "dispersion"])
-
-
-
-
 
 
 
@@ -479,6 +486,10 @@ def writeWeaponStats(weapon, side, csvwriter):
     csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
 
+
+
+
+
 def getVehicleWeaponStats(weapon, magazine, side, categoryA, categoryB):
     name              =      getDisplayName(side, categoryA, weapon)
     cartridge         = getDisplayNameShort(side, categoryB, magazine)
@@ -592,6 +603,10 @@ def writeVehicleWeaponStats(weapon, side, csvwriter):
     csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
 
+
+
+
+
 def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
     name              =      getDisplayName(side, categoryA, weapon)
     cartridge         = getDisplayNameShort(side, categoryB, magazine)
@@ -704,6 +719,10 @@ def writeLauncherStats(weapon, side, csvwriter):
     print(ccyan + "Name: " + cend + cgreen  + str(weaponStats[0])  + cend)
     csvwriter.writerow(weaponStats)
     print(SEPERATOR + "\n\n")
+
+
+
+
 
 weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
                "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m",
