@@ -829,6 +829,7 @@ bluForVehicleWeapons = [
 	["rhs_weap_tow_launcher"        ,"rhs_mag_2rnd_tow2b_aero"                  ],
 	["rhs_weap_m134_pylon"          ,"rhs_mag_m134_pylon_3000"                  ],
 	["rhs_weap_ffarlauncher"        ,"rhs_mag_m151_7_green"                     ],
+    ["rhs_weap_ffarlauncher_m229"   ,"rhs_mag_m229_7"                           ],
 	["rhs_weap_m134_minigun_1"      ,"rhs_mag_762x51_m80a1_4000"                ],
 	["rhs_weap_gau19"               ,"rhs_mag_gau19_air_base"                   ],
 	["rhs_weap_ffarlauncher"        ,"rhs_mag_m151_19_green"                    ],
