@@ -2,13 +2,14 @@
 REM Put this .bat file in your arma directory and set exportDir to your
 REM  folder to export PBOs
 REM 
-REM Requres the following on PATH:
+REM Requres the following on PATH (or the current directory (just slap it on PATH)):
 REM  PBOConsole (cmdl)  https://github.com/winseros/PBOManager/releases/tag/v0.1.0
 REM  CfgConvert         https://community.bistudio.com/wiki/CfgConvert
 REM  DeP3D              https://community.bistudio.com/wiki/DeP3d
 REM  Pal2PacE           https://community.bistudio.com/wiki/TexView_2
 REM  Disabling the OptiPNG function will save a lot of time, disabling dep3d will save a slightly smaller amount
 REM   and disabling Pal2PacE will save less on top of that
+REM  Disabling Dep3d will save a LOT of storage space (done by default)
 REM  OptiPNG            http://optipng.sourceforge.net/
 
 REM Folder to export PBOs to
@@ -22,7 +23,7 @@ REM Create log folder
 CALL :EchoLog "%MKDIRSTRING% '%exportDir%\logs'"
 MKDIR "%exportDir%\logs" > nul 2>nul
 
-REM Set strings
+REM Set stringS
 set EXCLUDEDSTRING=        [Excluded]
 set P3DSTRING=       [DE-P3D]
 set DELSTRING=          [DEL]
@@ -35,14 +36,15 @@ set MKDIRSTRING=        [MKDIR]
 set FOUNDPBOSTRING=    [Found PBO]
 REM Loop through .pbo files in directory and subdirs
 for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
+	CALL :EchoLog "Found PBO before filter %%~nxI"
 	REM If filename matches one of these words, ignore it else run the script. || = Error level NEQ 0
-	ECHO %%~nI | findstr "bin.pbo cup_ vegetation radio core.pbo dubbing ui cargoposes signs rocks roads props structures map_ language supplies music plants missions anims animals radio" > nul || (
+	ECHO %%~nI | findstr "HWK_TYPHOON bin.pbo cup_ vegetation radio core.pbo dubbing ui cargoposes signs rocks roads props structures map_ language supplies music plants missions anims animals radio" > nul || (
 
 		CALL :EchoLog "=============================New-PBO=============================="
-		CALL :EchoLog "."
+		CALL :EchoLog " Found PBO after filter %%~nxI"
 
 		CALL "%~dp0\#DateTime.bat" "%startDateTime%" 1
-
+		
 		for /f "delims==" %%F in ("%%I\.\..\..") do (
 			CALL :EchoLog "%FOUNDPBOSTRING% '%%~nxI' in '%%~nF'"
 			REM Create directory for MOD
@@ -52,16 +54,16 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 			REM If PBO has already been extracted, skip it
 			IF NOT EXIST "%exportDir%\%%~nF\%%~nI" (
 				REM Extract PBO contents
-				ECHO [Unpacking PBO] "%%~pnxI" TO ".\%%~nF\%%~nI"
+				ECHO [Unpacking PBO] "%%I" TO ".\%%~nF\%%~nI"
 				PBOConsole -unpack "%%I" "%exportDir%\%%~nF\%%~nI" > nul
-
-
+				
+				
 				REM Change directory to unpacked pbo
 				CALL :EchoLog "%CDSTRING% Going to '.\%%~nF\%%~nI'"
 				CD /D "%exportDir%\%%~nF\%%~nI"
 				CALL :EchoLog "%CDSTRING% At '.\%%~nF\%%~nI'"
-
-
+				
+				
 				REM Convert config.bin's to config.cpp's
 				FOR /R %%C in (config.bin) do (
 					CALL :EchoLog "%CFGSTRING% '%%~dpnxC' TO '%%~nC.cpp'"
@@ -77,25 +79,27 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 
 
 				REM Go through files to delete processed p3d files
-				FOR /R %%P in (*.p3d) do (
-					(Echo "%%P" | FINDSTR /I "_mlod" >NUL) || (
-						(Echo "%%P" | FINDSTR /V /I "rhs cba coxhound" >NUL) || (
-							REM Run de-p3d on p3d file to convert to mlod
-							CALL :EchoLog "%P3DSTRING% '%%~pnxP' TO Mlod"
-							REM After adding :EchoLog, DEP3D fucks up if called in any way other
-							REM  than this:
-							DEP3D "%%P"
-							REM Reset CMD colours, darn you DEP3D
-							COLOR 07
-							REM Delete processed file
-							CALL :EchoLog "%DELSTRING% '%%~pnxP'"
-							DEL "%%P"
-						)
-					)
-				)
+				REM FOR /R %%P in (*.p3d) do (
+					REM (Echo "%%P" | FINDSTR /I "_mlod" >NUL) || (
+						REM (Echo "%%P" | FINDSTR /V /I "rhs cba coxhound" >NUL) || (
+							REM REM Run de-p3d on p3d file to convert to mlod
+							REM CALL :EchoLog "%P3DSTRING% '%%~pnxP' TO Mlod"
+							REM REM After adding :EchoLog, DEP3D fucks up if called in any way other
+							REM REM  than this:
+							REM DEP3D "%%P"
+							REM REM Reset CMD colours, darn you DEP3D
+							REM COLOR 07
+							REM REM Delete processed file
+							REM CALL :EchoLog "%DELSTRING% '%%~pnxP'"
+							REM DEL "%%P"
+						REM )
+					REM )
+				REM )
+				
+				
 				REM Process WSS files TO wav and delete WSS
 				FOR /R %%P in (*.wss) do (
-					echo %%P | findstr /V /I "rhs jsrs coxhound" || (
+					echo %%P | findstr /V /I "rhs jsrs coxhound" > nul || (
 						CALL :EchoLog "%WSSSTRING% '%%~pnxP' TO '%%~nP.wav'"
 						WSSDecoder "%%P"
 						CALL :EchoLog "%DELSTRING% '%%~pnxP'"
@@ -120,15 +124,25 @@ for /f "delims=" %%I in ('dir /s/b/a-d *.pbo') do (
 					CALL "%~dp0\#DateTime.bat" "%OPTISTRING%   OptiPNG End:" "2" "%%~dpnf.png" >> "%exportDir%\logs\[%LogDateTime%] ExportPBOs.Log"
 					DEL "%%f"
 				)
+				
+				
 				REM Go through all .rvmat files in directory
-				for /R %%f in (*.rvmat) do (
-					CALL :EchoLog "%DELSTRING% '%%~pnxf'"
-					DEL "%%f"
-				)
+				REM for /R %%f in (*.rvmat) do (
+					REM CALL :EchoLog "%DELSTRING% '%%~pnxf'"
+					REM DEL "%%f"
+				REM )
+				
+				
 				REM Go through all .rtm files in directory
 				for /R %%f in (*.rtm) do (
 					CALL :EchoLog "%DELSTRING% '%%~pnxf'"
 					DEL "%%f"
+				)
+
+				REM Debinarize *.bisurf's
+				FOR /R %%C in (*.bisurf) do (
+					CALL :EchoLog "%CFGSTRING% '%%~dpnxC' TO '%%~nC.cpp'"
+					CfgConvert -txt -dst "%%~dpC\%%~nC.bisurf" "%%C" > nul
 				)
 
 				REM Return to arma directory
