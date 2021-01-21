@@ -12,9 +12,7 @@
 //  2. Take and filter list of weapons and magazines to export from RHS's cfgPatches
 //
 //Get all classes in CfgPatches
-
-//WIP:
-
+//WIP: Find classes to use
 sortFactions = {
 	params ["_array", "_numFactions"];
 
@@ -30,13 +28,14 @@ sortFactions = {
 	_array
 };
 
+_sides = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
 _cfgPatches           = configProperties [configFile >> "CfgPatches"];
-_rhsWeapons           = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
-_rhsMagazines         = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
-_rhsLaunchers         = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
-_rhsLauncherMagazines = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
-_rhsVehicleWeapons    = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
-_rhsVehicleMagazines  = [["RHS_AFRF"],["RHS_USAF"],["RHS_GREF"],["RHS_SAF"]];
+_rhsWeapons           = _sides;
+_rhsMagazines         = _sides;
+_rhsLaunchers         = _sides;
+_rhsLauncherMagazines = _sides;
+_rhsVehicleWeapons    = _sides;
+_rhsVehicleMagazines  = _sides;
 _i = 0;
 {
 	//If class is for RHS
@@ -94,12 +93,12 @@ _rhsLauncherMagazines = [_rhsLauncherMagazines, count _rhsLauncherMagazines] cal
 _rhsVehicleWeapons    = [_rhsVehicleWeapons, count _rhsVehicleWeapons] call sortFactions;
 _rhsVehicleMagazines  = [_rhsVehicleMagazines, count _rhsVehicleMagazines] call sortFactions;
 
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsWeapons.txt" + "|" + str _rhsWeapons);
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsMagazines.txt" + "|" + str _rhsMagazines);
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLaunchers.txt" + "|" + str _rhsLaunchers);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsWeapons.txt"           + "|" + str _rhsWeapons);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsMagazines.txt"         + "|" + str _rhsMagazines);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLaunchers.txt"         + "|" + str _rhsLaunchers);
 "make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsLauncherMagazines.txt" + "|" + str _rhsLauncherMagazines);
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleWeapons.txt" + "|" + str _rhsVehicleWeapons);
-"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleMagazines.txt" + "|" + str _rhsVehicleMagazines);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleWeapons.txt"    + "|" + str _rhsVehicleWeapons);
+"make_file" callExtension ("E:\USBBACKUP\GitHub\Arma-Class-Exporter\Script\autotest\rhsVehicleMagazines.txt"  + "|" + str _rhsVehicleMagazines);
 
 for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 	{
@@ -111,7 +110,7 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 		};
 	} foreach (_rhsWeapons select _i);
 };
-
+//END OF WIP SECTION
 
 
 
@@ -458,7 +457,8 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_weap_tow_launcher_static"                      ,
 			"RHS_weap_zpl20"                                    ,
 			"rhsusf_weap_M257_8"                                ,
-			"rhsusf_weap_M259"
+			"rhsusf_weap_M259",
+			"rhs_weap_FFARLauncher_M229"
 		]                                                    ,
 		//OpFor
 		[
@@ -546,7 +546,8 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_mag_M830A1"                            ,
 			"rhs_mag_mk82"                              ,
 			"rhs_mag_zpl20_mixed"                       ,
-			"rhsusf_mag_L8A3_8"
+			"rhsusf_mag_L8A3_8",
+			"rhs_mag_M229_7"
 		]                                                    ,
 		//OpFor
 		[
@@ -783,7 +784,6 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 ];
 
 
-//
 // getClass:
 //  This is a function that adds a found class and it's properties to _classBody
 //   which is then returned.
@@ -791,7 +791,6 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 //  Notes:
 //   - Remove _classBody param and instead use _classBody = _classBody + [] call getClass
 //      as there is no reason for _classBody to be passed to this function.
-//
 getClass = {
 	params ["_property", "_classBody", "_addComma", "_propertyNameLast", "_configCategory"];
 
