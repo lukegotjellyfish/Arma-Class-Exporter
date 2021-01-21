@@ -4,7 +4,7 @@ _vehicleFired = vehiclePlayer addeventhandler ["Fired", {(_this select 0) setveh
 playerPlayer = player;
 _playerFired = playerPlayer addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 //Assign vehicles (vehicle variable name)
-v1 = m2a2;
+v1 = tank;
 v2 = m2a3;
 v3 = t90;
 //Init toggle addaction values
@@ -12,7 +12,7 @@ v1_toggle = 0;
 v2_toggle = 0;
 v3_toggle = 0;
 //Player's vehicle for each option
-v1_vehicle = "M2A2";
+v1_vehicle = "M1A2";
 v2_vehicle = "M2A3";
 v3_vehicle = "";
 
