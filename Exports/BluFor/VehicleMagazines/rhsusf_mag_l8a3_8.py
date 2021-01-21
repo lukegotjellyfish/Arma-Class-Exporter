@@ -885,5 +885,5 @@ rhsusf_mag_l8a3_8 = {
     "maxthrowholdtime": 2,
     "minthrowintensitycoef": 0.3,
     "maxthrowintensitycoef": 1.4,
-    "quickreload": 0
+    "quickreload": 0,
 }

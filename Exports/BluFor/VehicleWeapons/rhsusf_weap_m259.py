@@ -317,5 +317,5 @@ rhsusf_weap_m259 = {
             }
         }
     },
-    "aimtransitionspeed": 1
+    "aimtransitionspeed": 1,
 }
