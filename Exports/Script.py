@@ -224,24 +224,22 @@ def getIndirectRange(side, category, _class, sub=""):
         return fetchSide([side + category, _class, "ammo", sub, "indirecthitrange"])
 
 def getSubmunition(side, category, _class):
-    try:
-        submunitionAmmo = fetchSide([side + category, _class, "ammo", "submunitionammo"])
-        if submunitionAmmo != "":
-            return "submunitionammo"
-    except KeyError:  #No submunitionammo so must be submunitionammox OR no submunitionammo
-        try:
-            submunitionAmmo = []
-            x = 1
-            while True:
-                subName = "submunitionammo" + str(x)
-                fetchSide([side + category, _class, "ammo", subName])
-                submunitionAmmo.append("submunitionammo" + str(x))
-                x += 1
-        except KeyError:
-            if (x >= 3):
-                print("SubmunitionAmmo: " + str(submunitionAmmo))
+    print("On getSubmunition")
+    submunitionAmmo = fetchSide([side + category, _class, "ammo", "submunitionammo"])
+    if submunitionAmmo != "":
+        print("[Submunition ammo found] " + str(submunitionAmmo))
+        return "submunitionammo"
+    else:
+        submunitionAmmo = []
+        x = 1
+        while True:
+            subName = "submunitionammo" + str(x)
+            if fetchSide([side + category, _class, "ammo", subName, "_dictAmmoName"]) == "":
                 return submunitionAmmo
-    return 0
+            submunitionAmmo.append("submunitionammo" + str(x))
+            print("[Submunition ammo found] " + str(submunitionAmmo))
+            x += 1
+
 
 def getDisplayNameShort(side, category, _class):
     return fetchSide([side + category, _class, "displaynameshort"])
@@ -498,6 +496,9 @@ def getVehicleWeaponStats(weapon, magazine, side, categoryA, categoryB):
     indirectDamage    =      getIndirectHit(side, categoryB, magazine)
     indirectRange     =    getIndirectRange(side, categoryB, magazine)
     submunition       =      getSubmunition(side, categoryB, magazine)
+    if magazine == "rhs_mag_AZP23_2000_mixed":
+        input("Waiting after submunition on ZSU mag")
+    penetration = 0
     subDamage         = []
     subIndirectDamage = []
     subIndirectRange  = []
@@ -551,7 +552,12 @@ def getVehicleWeaponStats(weapon, magazine, side, categoryA, categoryB):
     initialSpeed             =  getInitialSpeed(side, categoryB, magazine)
     typicalSpeed             =  getTypicalSpeed(side, categoryB, magazine)
     airResistance            = getAirResistance(side, categoryB, magazine)
-    penetration              = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
+
+
+    print("---TypicalSpeed: " + str(typicalSpeed))
+    print("---Caliber: " + str(caliber))
+    if (caliber != ""):
+        penetration          = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
                          '{:.2f}'.format(round((typicalSpeed * caliber * 0.080),2)).zfill(5) + "|" +
                          '{:.2f}'.format(round((typicalSpeed * caliber * 0.250),2)).zfill(5))
 
@@ -615,6 +621,7 @@ def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
     indirectDamage    =      getIndirectHit(side, categoryB, magazine)
     indirectRange     =    getIndirectRange(side, categoryB, magazine)
     submunition       =      getSubmunition(side, categoryB, magazine)
+    penetration = 0
     subDamage         = []
     subIndirectDamage = []
     subIndirectRange  = []
@@ -668,6 +675,10 @@ def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
     initialSpeed             =  getInitialSpeed(side, categoryB, magazine)
     typicalSpeed             =  getTypicalSpeed(side, categoryB, magazine)
     airResistance            = getAirResistance(side, categoryB, magazine)
+
+    print("---TypicalSpeed: " + str(typicalSpeed))
+    print("---Caliber: " + str(caliber))
+
     penetration              = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
                          '{:.2f}'.format(round((typicalSpeed * caliber * 0.080),2)).zfill(5) + "|" +
                          '{:.2f}'.format(round((typicalSpeed * caliber * 0.250),2)).zfill(5))
@@ -839,7 +850,8 @@ bluForVehicleWeapons = [
 	["rhs_weap_hellfirelauncher"    ,"rhs_mag_agm114k_4"                        ],
 	["rhs_weap_gbu12"               ,"rhs_mag_gbu12"                            ],
 	["rhs_weap_zpl20"               ,"rhs_mag_zpl20_mixed"                      ],
-	["rhs_weap_mk82"                ,"rhs_mag_mk82"                             ]
+	["rhs_weap_mk82"                ,"rhs_mag_mk82"                             ],
+    ["rhs_weap_dagr_launcher"       ,"rhs_mag_dagr_8"                           ]
 ]
 opForVehicleWeapons = [
     ["rhs_weap_dshkm"         ,"rhs_mag_127x108mm_50"       ],
@@ -858,7 +870,7 @@ opForVehicleWeapons = [
     ["rhs_weap_9m113"         ,"rhs_mag_9m113m"             ],
     ["rhs_weap_2a42"          ,"rhs_mag_3uof8_340"          ],
     ["rhs_weap_2a42"          ,"rhs_mag_3ubr8_160"          ],
-    ["rhs_weap_azp23"         ,"rhs_mag_azp23_2000"         ],
+    ["rhs_weap_azp23"         ,"rhs_mag_azp23_2000_mixed"   ],
     ["rhs_weap_2a75"          ,"rhs_mag_3bm46_10"           ],
     ["rhs_weap_2a75"          ,"rhs_mag_3bk29_8"            ],
     ["rhs_weap_2a75"          ,"rhs_mag_3of26_6"            ],
@@ -908,7 +920,8 @@ opForVehicleWeapons = [
     ["rhs_weap_gsh23l"        ,"rhs_mag_upk23_mixed"        ],
     ["rhs_weap_gsh302"        ,"rhs_mag_gsh30_bt_250"       ],
     ["rhs_weap_s13"           ,"rhs_mag_b13l_s13b"          ],
-    ["rhs_weap_9m120_launcher","rhs_mag_9m120m_mi28_8x"     ]
+    ["rhs_weap_9m120_launcher","rhs_mag_9m120m_mi28_8x"     ],
+    ["rhs_weap_zt6_Launcher"  ,"rhs_mag_zt6_4"              ]
 ]
 bluForLaunchers = [
     ["rhs_weap_m72a7"     ,"rhs_m72a7_mag"          ],
