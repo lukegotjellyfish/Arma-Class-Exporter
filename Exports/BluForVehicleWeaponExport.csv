@@ -1,5 +1,5 @@
 Name,Cartridge,Capacity,Damage,Indirect Damage,Indirect Range,Submunition Damage,Submunition Indirect Damage,Submunition Indirect Range,Sub-Submunition,Submunition Cone,Warhead,Fire Modes,reloadTime,Dispersion,Initial Speed,Typical Speed,Air Resistance,Side Air Reistance,Control Range,RHS Guide Mode,Penetration,Submunition Penetration,Thrust,Thrust Time,Max speed,Manoeuvrability,Track Oversteer,Track Lead,Control Offset,Control Cone,Flight Profiles,Weapon Class,Magazine Class,Caliber,Submunition Caliber
-GAU-8,,1150,180,4,8,,,,,,,lowrof\highrof,0.03\0.015,0.0095\0.0095,1120,960,-0.00036,1,350,,72.00|384.00|1200.00,,210,1.5,0,1,1,1,,,,rhs_weap_gau8,rhs_mag_1150rnd_30x173_mixed,5,
+GAU-8,,1150,180,4,8,"[120, 80]","[8, 4]","[0.2, 3]",,,,lowrof\highrof,0.03\0.015,0.0095\0.0095,1120,960,-0.00036,1,350,,72.00|384.00|1200.00,"['77.40|412.80|1290.00', '72.00|384.00|1200.00']",210,1.5,0,1,1,1,,,,rhs_weap_gau8,rhs_mag_1150rnd_30x173_mixed,5,"[6, 5]"
 M2 HMG .50,M2 Ball,100,30,0,0,,,,,,,Fullauto,,,880,880,-0.00086,1,350,,31.00|165.33|516.67,,210,1.5,0,1,1,1,,,,rhs_m2,rhs_mag_100rnd_127x99_mag_tracer_red,2.34848,
 Mk. 19,M430A1 HEDP,48,35,8,6,[90],[0],[0],rhs_ammo_spall,"['randomcenter', 30]",HE,Fullauto,,,240,185,-0.0008,1,350,,5.55|29.60|92.50,['68.40|364.80|1140.00'],210,1.5,0,1,1,1,,,,rhs_mk19,rhs_48rnd_40mm_mk19_m430a1,2,[5.06667]
 Mk. 19,M1001 Canister,48,40,8,6,[4],[0],[0.15],,,HE,Fullauto,,,240,185,-0.0008,1,350,,5.55|29.60|92.50,['3.00|16.00|50.00'],210,1.5,0,1,1,1,,,,rhs_mk19,rhs_48rnd_40mm_mk19_m1001,2,[1]
@@ -35,3 +35,4 @@ AGM-114L Hellfire II,LG,4,400,35,8,[310],[0],[0],rhs_ammo_spall,"['randomcenter'
 GBU-12,Bomb,1,5000,1100,12,,,,,,,loalaltitude,0.2,0.002,0,900,0.06,0.12,100000,,13.50|72.00|225.00,,0,0,100,10,1,0.95,,,['LoalAltitude'],rhs_weap_gbu12,rhs_mag_gbu12,1,
 ZPL-20 Plamen,Mixed,210,60,6,1.6,,,,,,HE,Fullauto\Fullauto_low,\,\,1020,1030,-0.00078,1,350,,52.53|280.16|875.50,,210,1.5,0,1,1,1,,,,rhs_weap_zpl20,rhs_mag_zpl20_mixed,3.4,
 Mk 82,Bomb,1,5000,1150,12,,,,,,,,,,0,900,0.08,0.25,0,,13.50|72.00|225.00,,0,0,100,4.6,1,0,,,,rhs_weap_mk82,rhs_mag_mk82,1,
+DAGR,SALH,8,300,50,6,,,,,,,direct\loaldistance,0.1\0.1,0.0002\0.0002,0,900,0.1,0.3,8000,,13.50|72.00|225.00,,825,1.57,720,14,1,1,,,"['Direct', 'LoalDistance']",rhs_weap_dagr_launcher,rhs_mag_dagr_8,1,

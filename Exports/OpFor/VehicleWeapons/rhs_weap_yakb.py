@@ -1904,5 +1904,5 @@ rhs_weap_yakb = {
     },
     "texturetype": "default",
     "inertia": 0.5,
-    "aimtransitionspeed": 1
+    "aimtransitionspeed": 1,
 }

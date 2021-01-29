@@ -2864,5 +2864,5 @@ rhs_weap_ffarlauncher_m229 = {
             }
         }
     },
-    "aimtransitionspeed": 1
+    "aimtransitionspeed": 1,
 }

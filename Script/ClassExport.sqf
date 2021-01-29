@@ -372,7 +372,8 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_l159_cdf_b_CDF"                                ,
 			"C_SUV_01_F"                                        ,
 			"C_Hatchback_01_sport_red_F"                        ,
-			"C_Kart_01_Fuel_F"
+			"C_Kart_01_Fuel_F",
+			"RHSGREF_A29B_HIDF"
 		]                                                    ,
 		//OpFor
 		[
@@ -458,7 +459,8 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"RHS_weap_zpl20"                                    ,
 			"rhsusf_weap_M257_8"                                ,
 			"rhsusf_weap_M259",
-			"rhs_weap_FFARLauncher_M229"
+			"rhs_weap_FFARLauncher_M229",
+			"rhs_weap_DAGR_launcher"
 		]                                                    ,
 		//OpFor
 		[
@@ -502,7 +504,8 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_weap_s8"                                       ,
 			"rhs_weap_s8df"                                     ,
 			"rhs_weap_SPG9"                                     ,
-			"rhs_weap_yakB"
+			"rhs_weap_yakB",
+			"rhs_weap_zt6_Launcher"
 		]
 	]                                                     ,
 	//vehicle magazine matrix
@@ -547,7 +550,8 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_mag_mk82"                              ,
 			"rhs_mag_zpl20_mixed"                       ,
 			"rhsusf_mag_L8A3_8",
-			"rhs_mag_M229_7"
+			"rhs_mag_M229_7",
+			"rhs_mag_DAGR_8"
 		]                                                    ,
 		//OpFor
 		[
@@ -604,7 +608,7 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_mag_9m14m"                                     ,
 			"rhs_mag_apu6_9m127m_ka52"                          ,
 			"RHS_mag_AZP23_100"                                 ,
-			"rhs_mag_AZP23_2000"                                ,
+			"rhs_mag_AZP23_2000_mixed"                          ,
 			"rhs_mag_b8m1_s8df"                                 ,
 			"rhs_mag_b8m1_s8kom"                                ,
 			"rhs_mag_b8v20a_ka52_s8kom"                         ,
@@ -620,7 +624,8 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_mag_PG9V"                                      ,
 			"rhs_mag_s8_12"                                     ,
 			"rhs_mag_upk23_mixed"                               ,
-			"RHS_mag_VOG30_30"
+			"RHS_mag_VOG30_30",
+			"rhs_mag_zt6_4"
 		]
 	]                                                     ,
 	//infantry uniform matrix
