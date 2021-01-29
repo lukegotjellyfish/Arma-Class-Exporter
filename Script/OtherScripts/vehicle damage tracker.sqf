@@ -4,17 +4,17 @@ _vehicleFired = vehiclePlayer addeventhandler ["Fired", {(_this select 0) setveh
 playerPlayer = player;
 _playerFired = playerPlayer addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 //Assign vehicles (vehicle variable name)
-v1 = tank;
-v2 = m2a3;
-v3 = t90;
+v1 = a29;
+v2 = m1a2tuski;
+v3 = m1a2tuskii;
 //Init toggle addaction values
 v1_toggle = 0;
 v2_toggle = 0;
 v3_toggle = 0;
 //Player's vehicle for each option
-v1_vehicle = "M1A2";
-v2_vehicle = "M2A3";
-v3_vehicle = "";
+v1_vehicle = "A-29 Tuskcano";
+v2_vehicle = "M1A2 TUSKi";
+v3_vehicle = "M1A2 TUSKii";
 
 //https://community.bistudio.com/wiki/DIK_KeyCodes
 //16 = Q
@@ -37,13 +37,13 @@ countHitpoints = {
 	_dbg = _dbg + _hintTitle + str(_size);
 	hint _dbg;
 
-	_damageEntry;
+	[_damageEntry, damage _vx];
 };
 
 damageLog = {
-	params ["_vx", "_vxDamageEntry"];
+	params ["_vx", "_vxDamageEntry", "_vxTotalDamage"];
 
-	//diag_log(format["On damageLog: %1|%2", _vx, _vxDamageEntry]);
+	//diag_log(format["On damageLog: %1|%2|%3", _vx, _vxDamageEntry, _vxTotalDamage]);
 
 	vx_HitpointsDamageArray = getAllHitPointsDamage _vx;
 	vx_HitPointsNames = vx_HitpointsDamageArray select 0;
@@ -53,15 +53,21 @@ damageLog = {
 	_i = 0;
 	{
 		_damage = _vxDamageEntry select _i;
-		if ((_x != 0) && (_x != _damage)) then {
+		if (_x != _damage) then {
 			_vxDamageEntry set [_i, _x];
 			_name = vx_HitPointsNames select _i;
-			_damageDone = _damageDone + _name + ": " + str(_x) + " (+" + str(_x - _damage) + ")\n";
+			_damageDone = _damageDone + _name + ": " + str(_x) + " (" + str(_x - _damage) + ")\n";
 		};
 		_i = _i + 1;
 	} forEach vx_HitpointsDamage;
-	hint _damageDone;
-	vx_HitpointsDamage;
+
+	_damage = damage _vx;
+	_totalDamageDifference = _damage - _vxTotalDamage;
+
+	//diag_log format["_damage: %1 | _vxTotalDamage: %2", _damage, _vxTotalDamage];
+
+	hint format["Total Damage: %1 (%2)\n%3",_damage,_totalDamageDifference,_damageDone];
+	[vx_HitpointsDamage,_damage];
 };
 
 toggleLogger = {
@@ -83,12 +89,18 @@ toggleLogger = {
 	else
 	{
 		if (_vxToggle == 1) then {
-			vxDamageEntry = [_vx, (_vxName + " Hitpoints: ")] call countHitPoints;
+			_damageArray = [_vx, (_vxName + " Hitpoints: ")] call countHitPoints;
+			vxDamageEntry = _damageArray select 0;
+			vxTotalDamage = _damageArray select 1;
 			//diag_log(format["Passing [%1,%2] to damageLog", _vx, vxDamageEntry]);
 
 			//https://community.bistudio.com/wiki/DIK_KeyCodes
 			//6 = 5
-			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 6) then {vxDamageEntry = [vx, vxDamageEntry] call damageLog;};"];
+			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 6) then {
+				vxDamageArray = [vx, vxDamageEntry, vxTotalDamage] call damageLog;
+				vxDamageEntry = vxDamageArray select 0;
+				vxTotalDamage = vxDamageArray select 1;
+			};"];
 		}
 		else {(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];};
 	};
@@ -106,6 +118,8 @@ vehicle_2 = playerPlayer addAction [format["Toggle %1 monitor", v2_vehicle], {
 	[v2, v2_toggle, v2_vehicle] call toggleLogger;
 }];
 vehicle_3 = playerPlayer addAction [format["Toggle %1 monitor", v3_vehicle], {
+	if (v3_toggle == 0) then {v3_toggle = 1;}
+	else {v3_toggle = 0;};
 	[v3, v3_toggle, v3_vehicle] call toggleLogger;
 }];
 
