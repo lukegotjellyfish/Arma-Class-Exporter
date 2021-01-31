@@ -405,8 +405,8 @@ def getWeaponStats(weapon, magazine, side, categoryA, categoryB):
     airResistance = getAirResistance(side, categoryB, magazine)
     caliber       = getCaliber(side, categoryB, magazine)
     penetration   = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
-                     '{:.2f}'.format(round((typicalSpeed * caliber * 0.080)/10,2)).zfill(5) + "|" +
-                     '{:.2f}'.format(round((typicalSpeed * caliber * 0.250)/10,2)).zfill(5))
+                     '{:.2f}'.format(round((typicalSpeed * caliber * 0.080),2)).zfill(5) + "|" +
+                     '{:.2f}'.format(round((typicalSpeed * caliber * 0.250),2)).zfill(5))
     #thrust        = getThrust(side, categoryB, magazine)
     #thrustTime    = getThrustTime(side, categoryB, magazine)
     #maxSpeed      = getMaxSpeed(side, categoryB, magazine)
