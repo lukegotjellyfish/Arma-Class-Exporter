@@ -2,12 +2,13 @@
 import re
 import os
 import csv
-import sys
 import CombinedBluFor
 import CombinedOpFor
 import math
 from decimal import Decimal
 
+
+#TODO Add Submunition Name and Count to vehicle/launcher exports
 
 #\33[m
 
@@ -532,8 +533,8 @@ def getVehicleWeaponStats(weapon, magazine, side, categoryA, categoryB):
             subPenetration.append(subArray[6])
 
     caliber                  =       getCaliber(side, categoryB, magazine)
-    fireModes                = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, categoryA, weapon)]
-    reloadTime                      = getModeDependant(side + categoryA, weapon, fireModes, "reloadtime")
+    fireModes                = [x.lower() for x in getFireModes(side, categoryA, weapon)]
+    reloadTime               = getModeDependant(side + categoryA, weapon, fireModes, "reloadtime")
     dispersion               = getModeDependant(side + categoryA, weapon, fireModes, "dispersion")
 
     manoeuvrability          =          getManoeuvrability(side, categoryB, magazine)
@@ -815,8 +816,8 @@ vehicleWeaponArray = ["Name","Cartridge","Capacity","Damage","Indirect Damage","
                       "Thrust", "Thrust Time", "Max speed", "Manoeuvrability", "Track Oversteer", "Track Lead", "Control Offset", "Control Cone", "Flight Profiles",
                       "Weapon Class", "Magazine Class", "Caliber", "Submunition Caliber"]
 bluForVehicleWeapons = [
-    ["rhs_weap_gau8"                ,"rhs_mag_1150rnd_30x173_mixed"             ],
-    ["rhs_m2"                       , "rhs_mag_100rnd_127x99_mag_tracer_red"    ],
+    ["rhs_weap_gau8"                ,"rhs_mag_1000rnd_30x173"                   ],
+    ["rhs_m2"                       ,"rhs_mag_100rnd_127x99_mag_tracer_red"     ],
     ["rhs_mk19"                     ,"rhs_48rnd_40mm_mk19_m430a1"               ],
     ["rhs_mk19"                     ,"rhs_48rnd_40mm_mk19_m1001"                ],
     ["rhsusf_weap_m259"             ,"rhsusf_mag_l8a3_8"                        ],
@@ -921,7 +922,9 @@ opForVehicleWeapons = [
     ["rhs_weap_gsh302"        ,"rhs_mag_gsh30_bt_250"       ],
     ["rhs_weap_s13"           ,"rhs_mag_b13l_s13b"          ],
     ["rhs_weap_9m120_launcher","rhs_mag_9m120m_mi28_8x"     ],
-    ["rhs_weap_zt6_Launcher"  ,"rhs_mag_zt6_4"              ]
+    ["rhs_weap_zt6_launcher"  ,"rhs_mag_zt6_4"              ],
+    ["rhs_weap_2a70","rhs_mag_3uof191_22"],
+    ["rhs_weap_2a70","rhs_mag_9m117m1_8"]
 ]
 bluForLaunchers = [
     ["rhs_weap_m72a7"     ,"rhs_m72a7_mag"          ],
