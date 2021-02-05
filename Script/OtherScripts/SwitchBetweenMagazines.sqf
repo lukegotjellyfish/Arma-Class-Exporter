@@ -8,10 +8,10 @@ changeMag = {
 
 
 ////https://community.bistudio.com/wiki/DIK_KeyCodes
-// 3 = 2 key
+// 3 = 2 Key
 // 4 = 3
 // 5 = 4
-// 6 = 5z
+// 6 = 5
 // 7 = 6
 diag_toggleToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 5) then {diag_log('single diag_toggle'); diag_toggle 'shots';};"];
 
