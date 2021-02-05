@@ -1,0 +1,2 @@
+call ExportScopeFOVs.py
+PAUSE
