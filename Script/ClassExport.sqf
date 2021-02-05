@@ -520,6 +520,7 @@ for "_i" from 0 to ((count _rhsWeapons) - 1) do {
 			"rhs_mag_100rnd_127x99_mag_Tracer_Red"      ,
 			"rhs_mag_1100Rnd_762x51_M240"               ,
 			"rhs_mag_1150Rnd_30x173_mixed"              ,
+			"rhs_mag_1000Rnd_30x173",
 			"rhs_mag_200rnd_127x99_mag_Tracer_Red"      ,
 			"rhs_mag_200rnd_127x99_SLAP_mag_Tracer_Red" ,
 			"rhs_mag_230Rnd_25mm_M242_HEI"              ,
