@@ -29,6 +29,7 @@ downOneMag = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this sel
 upTenMag = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 5) then {
 		if (x <= 1490) then {
 			x = x + 10; [x] call changeMag;
+		};
 	};"];
 downTenMag = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 6) then {
 		if (x > 10) then {
