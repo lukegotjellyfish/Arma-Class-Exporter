@@ -35,7 +35,7 @@ if(_proximityMode isEqualTo 1) then {
 	[_pfhTop, "onEachFrame", {
 		params["_p","_vehList","_pfhTop","_proximityRange","_deleteParentWhenTriggered"];
 
-		//Simplify list for probable targets (might need to scale for proximity range
+		//Simplify list for probable targets (might need to scale for speed and range)
 		private _tgtList = _vehList select {_p distance _x < (_proximityRange * 15)};
 		{
 			//If projectile is in prox range
