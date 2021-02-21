@@ -43,6 +43,7 @@ if(_proximityMode isEqualTo 1) then {
 			if (_p distance _x <= _proximityRange) exitWith {
 				triggerAmmo _p;  //Activate
 
+				//If the projectile will still exist when triggered,
 				if (_deleteParentWhenTriggered isEqualTo 0) then {
 					//We have deployed the submunition, so delete projectile
 					// (or find a way to make it detonate as if hitting a surface)
