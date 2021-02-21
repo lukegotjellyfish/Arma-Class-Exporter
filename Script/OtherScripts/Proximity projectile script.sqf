@@ -47,7 +47,7 @@ if(_proximityMode isEqualTo 1) then {
 				if (_deleteParentWhenTriggered isEqualTo 0) then {
 					//We have deployed the submunition, so delete projectile
 					// (or find a way to make it detonate as if hitting a surface)
-					[_p] spawn {params ["_p"]; sleep 1; deleteVehicle _p;};
+					[_p] spawn {params ["_p"]; sleep 0.1; deleteVehicle _p;};
 				}
 			};
 		} forEach _tgtList;
