@@ -21,33 +21,32 @@ private _v = vehicle (call rhs_fnc_findPlayer);
 
 private _cfgA = configFile >> "cfgAmmo" >> _a;
 private _proximityMode = 1;//getNumber (_cfgA >> "rhs_proximityFuse");
-private _proximityRange = 15;//getNumber (_cfgA >> "rhs_proximityRange");
+private _proximityRange = 10;//getNumber (_cfgA >> "rhs_proximityRange");
 private _deleteParentWhenTriggered = getNumber (_cfgA >> "deleteParentWhenTriggered");
 
 if(_proximityMode isEqualTo 1) then {
 	private _pfhTop = "rhs_pfh_prox_" + str _p;
 
 	//Delay to prevent triggering on self (maybe use as a fuze arming timer?)
-	[] spawn {uisleep 0.1;};
+	[] spawn {uisleep 0.5;};
 
-	private _vehList = vehicles select {_p distance _x < 10000 AND (_x isKindOf "AllVehicles") AND (_x != _u)};
+	private _vehList = vehicles select {(_p distance _x < 10000) AND (_x isKindOf "AllVehicles") AND (_x distance _u >= 200)};
 
 	[_pfhTop, "onEachFrame", {
 		params["_p","_vehList","_pfhTop","_proximityRange","_deleteParentWhenTriggered"];
 
-		//Simplify list for probable targets (might need to scale for speed and range)
-		private _tgtList = _vehList select {_p distance _x < (_proximityRange * 15)};
+		private _tgtList = _vehList select {_p distance _x < 150};
 		{
 			//If projectile is in prox range
 			//Will replace with boundingbox method
 			if (_p distance _x <= _proximityRange) exitWith {
-				triggerAmmo _p;  //Activate
-
 				//If the projectile will still exist when triggered,
 				if (_deleteParentWhenTriggered isEqualTo 0) then {
 					//We have deployed the submunition, so delete projectile
 					// (or find a way to make it detonate as if hitting a surface)
-					[_p] spawn {params ["_p"]; sleep 0.1; deleteVehicle _p;};
+					[_p] spawn {params ["_p"]; triggerAmmo _p; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p); 
+				} else {
+					triggerAmmo _p;
 				}
 			};
 		} forEach _tgtList;
