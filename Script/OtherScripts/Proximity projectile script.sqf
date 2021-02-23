@@ -120,22 +120,40 @@ if(_proximityMode isEqualTo 1) then {
 			if ((_p distance ((_x select 0) modelToWorld (_x select 1 select 0)) <= _proximityRange * 2) OR (_p distance ((_x select 0) modelToWorld (_x select 1 select 7)) <= _proximityRange * 2)) then
 			{
 				private _veh = _x select 0;
+				private _distances = [];
 				{
-					diag_log(format["Distance to this point: %1",_p distance (_veh modelToWorld _x)]);
 					private _projectileToTarget = _p distance (_veh modelToWorld _x);
-					if (_projectileToTarget <= _proximityRange) then {
-						triggerAmmo _p;
-						diag_log("detonated");
+					// diag_log(format["Distance to this point: %1",_projectileToTarget]);
+					// if (_projectileToTarget <= _proximityRange) then {
+					// 	triggerAmmo _p;
+					// 	diag_log("detonated");
 
-						//If the projectile will still exist when triggered,
-						if (_deleteParentWhenTriggered isEqualTo 0) then {
-							//We have deployed the submunition, so delete projectile
-							// (or find a way to make it detonate as if hitting a surface)
-							[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p);
-						};
-						break; //Arma 2.02 Added break for loops
-					};
+					// 	//If the projectile will still exist when triggered,
+					// 	if (_deleteParentWhenTriggered isEqualTo 0) then {
+					// 		//We have deployed the submunition, so delete projectile
+					// 		// (or find a way to make it detonate as if hitting a surface)
+					// 		[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p);
+					// 	};
+					// 	break; //Arma 2.02 Added break for loops
+					// };
+					_distances pushBack _projectileToTarget;
 				} forEach (_x select 1);
+
+
+				private _detonationRange = 5;  //Distance from point to teleport to
+				private _distanceToVeh = selectMin _distances;
+				if (_distanceToVeh <= _proximityRange) then {
+
+					_p setPos (_p modelToWorld [0,- (_detonationRange - _distanceToVeh),0]);
+					triggerAmmo _p;
+
+					//If the projectile will still exist when triggered,
+					if (_deleteParentWhenTriggered isEqualTo 0) then {
+						//We have deployed the submunition, so delete projectile
+						// (or find a way to make it detonate as if hitting a surface)
+						[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p);
+					};
+				};
 			};
 
 			//diag_log("Finished points");
