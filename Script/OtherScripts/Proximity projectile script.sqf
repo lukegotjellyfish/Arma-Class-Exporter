@@ -59,7 +59,7 @@ if(_proximityMode isEqualTo 1) then {
 		//Middle of vehicle
 		  //Bottom
 		private _bbR_botlayer_mid_f = [_bbRw_mid,(_bbRf select 1),(_bbRf select 2)];
-		//private _bbR_botlayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRf select 2)];
+		private _bbR_botlayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRf select 2)];
 		private _bbR_botlayer_mid_b = [_bbRw_mid,(_bbRs select 1),(_bbRf select 2)];
 		  //Middle
 		private _bbR_midlayer_mid_f = [_bbRw_mid,(_bbRf select 1),_bbRh_mid];
@@ -67,7 +67,7 @@ if(_proximityMode isEqualTo 1) then {
 		private _bbR_midlayer_mid_b = [_bbRw_mid,(_bbRs select 1),_bbRh_mid];
 		  //Top
 		private _bbR_toplayer_mid_f = [_bbRw_mid,(_bbRf select 1),(_bbRs select 2)];
-		//private _bbR_toplayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRs select 2)];
+		private _bbR_toplayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRs select 2)];
 		private _bbR_toplayer_mid_b = [_bbRw_mid,(_bbRs select 1),(_bbRs select 2)];
 
 		//Right side of vehicle
@@ -99,11 +99,11 @@ if(_proximityMode isEqualTo 1) then {
 								_bbR_midlayer_left_b,_bbR_midlayer_mid_b,_bbR_midlayer_right_b,
 
 								_bbR_botlayer_left_f,_bbR_botlayer_mid_f,_bbR_botlayer_right_f,
-								_bbR_botlayer_left_m,_bbR_botlayer_right_m,
+								_bbR_botlayer_left_m,_bbR_botlayer_mid_m,_bbR_botlayer_right_m,
 								_bbR_botlayer_left_b,_bbR_botlayer_mid_b,_bbR_botlayer_right_b,
 
 								_bbR_toplayer_left_f,_bbR_toplayer_mid_f,_bbR_toplayer_right_f,
-								_bbR_toplayer_left_m,_bbR_toplayer_right_m,
+								_bbR_toplayer_left_m,_bbR_toplayer_mid_m,_bbR_toplayer_right_m,
 								_bbR_toplayer_left_b,_bbR_toplayer_mid_b,_bbR_toplayer_right_b
 								]];
 	} forEach _vehPrepList;
