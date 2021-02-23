@@ -27,7 +27,7 @@ private _deleteParentWhenTriggered = getNumber (_cfgA >> "deleteParentWhenTrigge
 if(_proximityMode isEqualTo 1) then {
 	private _pfhTop = "rhs_pfh_prox_" + str _p;
 
-	//Delay to prevent triggering on self (maybe use as a fuze arming timer?)
+	//Delay to prevent triggering on near vehicles (maybe use as a fuze arming timer?)
 	[] spawn {uisleep 0.5;};
 
 	private _vehList = [];
@@ -43,20 +43,48 @@ if(_proximityMode isEqualTo 1) then {
 		private _bbRh_mid = (_bbRf select 2) + (_bbRs select 2);
 
 		//Left side of vehicle
-		private _bbR_left_f = [(_bbRf select 0),(_bbRf select 1),_bbRh_mid];
-		private _bbR_left_m = [(_bbRf select 0),_bbRl_mid,       _bbRh_mid];
-		private _bbR_left_b = [(_bbRf select 0),(_bbRs select 1),_bbRh_mid];
+		  //Bottom
+		private _bbR_botlayer_left_f = [(_bbRf select 0),(_bbRf select 1),(_bbRf select 2)];
+		private _bbR_botlayer_left_m = [(_bbRf select 0),_bbRl_mid,       (_bbRf select 2)];
+		private _bbR_botlayer_left_b = [(_bbRf select 0),(_bbRs select 1),(_bbRf select 2)];
+		  //Middle
+		private _bbR_midlayer_left_f = [(_bbRf select 0),(_bbRf select 1),_bbRh_mid];
+		private _bbR_midlayer_left_m = [(_bbRf select 0),_bbRl_mid,       _bbRh_mid];
+		private _bbR_midlayer_left_b = [(_bbRf select 0),(_bbRs select 1),_bbRh_mid];
+		  //Top
+		private _bbR_toplayer_left_f = [(_bbRf select 0),(_bbRf select 1),(_bbRs select 2)];
+		private _bbR_toplayer_left_m = [(_bbRf select 0),_bbRl_mid,       (_bbRs select 2)];
+		private _bbR_toplayer_left_b = [(_bbRf select 0),(_bbRs select 1),(_bbRs select 2)];
 
 		//Middle of vehicle
-		private _bbR_mid_f = [_bbRw_mid,(_bbRf select 1),_bbRh_mid];
+		  //Bottom
+		private _bbR_botlayer_mid_f = [_bbRw_mid,(_bbRf select 1),(_bbRf select 2)];
+		//private _bbR_botlayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRf select 2)];
+		private _bbR_botlayer_mid_b = [_bbRw_mid,(_bbRs select 1),(_bbRf select 2)];
+		  //Middle
+		private _bbR_midlayer_mid_f = [_bbRw_mid,(_bbRf select 1),_bbRh_mid];
 		//private _bbR_mid_m = [_bbRw_mid,_bbRl_mid,       _bbRh_mid];
-		private _bbR_mid_b = [_bbRw_mid,(_bbRs select 1),_bbRh_mid];
+		private _bbR_midlayer_mid_b = [_bbRw_mid,(_bbRs select 1),_bbRh_mid];
+		  //Top
+		private _bbR_toplayer_mid_f = [_bbRw_mid,(_bbRf select 1),(_bbRs select 2)];
+		//private _bbR_toplayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRs select 2)];
+		private _bbR_toplayer_mid_b = [_bbRw_mid,(_bbRs select 1),(_bbRs select 2)];
 
 		//Right side of vehicle
-		private _bbR_right_f = [(_bbRs select 0),(_bbRf select 1),_bbRh_mid];
-		private _bbR_right_m = [(_bbRs select 0),_bbRl_mid,       _bbRh_mid];
-		private _bbR_right_b = [(_bbRs select 0),(_bbRs select 1),_bbRh_mid];
+		  //Bottom
+		private _bbR_botlayer_right_f = [(_bbRs select 0),(_bbRf select 1),(_bbRf select 2)];
+		private _bbR_botlayer_right_m = [(_bbRs select 0),_bbRl_mid,       (_bbRf select 2)];
+		private _bbR_botlayer_right_b = [(_bbRs select 0),(_bbRs select 1),(_bbRf select 2)];
+		  //Middle
+		private _bbR_midlayer_right_f = [(_bbRs select 0),(_bbRf select 1),_bbRh_mid];
+		private _bbR_midlayer_right_m = [(_bbRs select 0),_bbRl_mid,       _bbRh_mid];
+		private _bbR_midlayer_right_b = [(_bbRs select 0),(_bbRs select 1),_bbRh_mid];
+		  //Top
+		private _bbR_toplayer_right_f = [(_bbRs select 0),(_bbRf select 1),(_bbRs select 2)];
+		private _bbR_toplayer_right_m = [(_bbRs select 0),_bbRl_mid,       (_bbRs select 2)];
+		private _bbR_toplayer_right_b = [(_bbRs select 0),(_bbRs select 1),(_bbRs select 2)];
 
+		// Middle of height layer
 		// private _frontLeft   = _x modelToWorld _bbR_left_f;
 		// private _frontMiddle = _x modelToWorld _bbR_mid_f;
 		// private _frontRight  = _x modelToWorld _bbR_right_f;
@@ -66,9 +94,18 @@ if(_proximityMode isEqualTo 1) then {
 		// private _backMiddle  = _x modelToWorld _bbR_mid_b;
 		// private _backRight   = _x modelToWorld _bbR_right_b;
 
-		_vehList pushBack [_x,	[_bbR_left_f,_bbR_mid_f,_bbR_right_f,
-								_bbR_left_m,_bbR_right_m,
-								_bbR_left_b,_bbR_mid_b,_bbR_right_b]];
+		_vehList pushBack [_x,	[_bbR_midlayer_left_f,_bbR_midlayer_mid_f,_bbR_midlayer_right_f,
+								_bbR_midlayer_left_m,_bbR_midlayer_right_m,
+								_bbR_midlayer_left_b,_bbR_midlayer_mid_b,_bbR_midlayer_right_b,
+
+								_bbR_botlayer_left_f,_bbR_botlayer_mid_f,_bbR_botlayer_right_f,
+								_bbR_botlayer_left_m,_bbR_botlayer_right_m,
+								_bbR_botlayer_left_b,_bbR_botlayer_mid_b,_bbR_botlayer_right_b,
+
+								_bbR_toplayer_left_f,_bbR_toplayer_mid_f,_bbR_toplayer_right_f,
+								_bbR_toplayer_left_m,_bbR_toplayer_right_m,
+								_bbR_toplayer_left_b,_bbR_toplayer_mid_b,_bbR_toplayer_right_b
+								]];
 	} forEach _vehPrepList;
 
 
@@ -76,20 +113,19 @@ if(_proximityMode isEqualTo 1) then {
 		params["_p","_vehList","_pfhTop","_proximityRange","_deleteParentWhenTriggered"];
 
 		private _tgtList = _vehList select {_p distance (_x select 0) < 100};
-		private _tgtRelativeList = [];
-		private _calculatedTgtList = [];
-		_tgtRelativeList resize (count _tgtList);
-		_calculatedTgtList resize (count _tgtList);
 		{
-			diag_log("Started points");
+			//diag_log("Started points");
+
 			//Use length+width here for detection? test efficiency with all scenarios
 			if ((_p distance ((_x select 0) modelToWorld (_x select 1 select 0)) <= _proximityRange * 2) AND (_p distance ((_x select 0) modelToWorld (_x select 1 select 7)) <= _proximityRange * 2)) then
 			{
 				private _veh = _x select 0;
 				{
-					//diag_log(format["Distance to this point: %1",_p distance (_veh modelToWorld _x)]);
-					if (_p distance (_veh modelToWorld _x) <= _proximityRange) then {
+					diag_log(format["Distance to this point: %1",_p distance (_veh modelToWorld _x)]);
+					private _projectileToTarget = _p distance (_veh modelToWorld _x);
+					if (_projectileToTarget <= _proximityRange) then {
 						triggerAmmo _p;
+						diag_log("detonated");
 
 						//If the projectile will still exist when triggered,
 						if (_deleteParentWhenTriggered isEqualTo 0) then {
@@ -97,10 +133,12 @@ if(_proximityMode isEqualTo 1) then {
 							// (or find a way to make it detonate as if hitting a surface)
 							[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p);
 						};
+						break;
 					};
 				} forEach (_x select 1);
 			};
-			diag_log("Finished points");
+
+			//diag_log("Finished points");
 
 
 			// //If projectile is in prox range
