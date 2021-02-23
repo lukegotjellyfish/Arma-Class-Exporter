@@ -133,7 +133,7 @@ if(_proximityMode isEqualTo 1) then {
 							// (or find a way to make it detonate as if hitting a surface)
 							[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p);
 						};
-						break;
+						break; //Arma 2.02 Added break for loops
 					};
 				} forEach (_x select 1);
 			};
