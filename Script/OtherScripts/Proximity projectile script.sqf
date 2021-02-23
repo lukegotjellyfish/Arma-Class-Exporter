@@ -21,7 +21,7 @@ private _v = vehicle (call rhs_fnc_findPlayer);
 
 private _cfgA = configFile >> "cfgAmmo" >> _a;
 private _proximityMode = 1;//getNumber (_cfgA >> "rhs_proximityFuse");
-private _proximityRange = 10;//getNumber (_cfgA >> "rhs_proximityRange");
+private _proximityRange = 15;//getNumber (_cfgA >> "rhs_proximityRange");
 private _deleteParentWhenTriggered = getNumber (_cfgA >> "deleteParentWhenTriggered");
 
 if(_proximityMode isEqualTo 1) then {
