@@ -117,7 +117,7 @@ if(_proximityMode isEqualTo 1) then {
 			//diag_log("Started points");
 
 			//Use length+width here for detection? test efficiency with all scenarios
-			if ((_p distance ((_x select 0) modelToWorld (_x select 1 select 0)) <= _proximityRange * 2) AND (_p distance ((_x select 0) modelToWorld (_x select 1 select 7)) <= _proximityRange * 2)) then
+			if ((_p distance ((_x select 0) modelToWorld (_x select 1 select 0)) <= _proximityRange * 2) OR (_p distance ((_x select 0) modelToWorld (_x select 1 select 7)) <= _proximityRange * 2)) then
 			{
 				private _veh = _x select 0;
 				{
