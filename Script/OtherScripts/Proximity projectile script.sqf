@@ -20,79 +20,88 @@ if( (call rhs_fnc_findPlayer) != _g )exitWith{hint "exit18";};
 private _v = vehicle (call rhs_fnc_findPlayer);
 
 private _cfgA = configFile >> "cfgAmmo" >> _a;
-private _proximityMode = 1;//getNumber (_cfgA >> "rhs_proximityFuse");
-private _proximityRange = 15;//getNumber (_cfgA >> "rhs_proximityRange");
+private _proximityMode = 1;
+private _proximityRange = 15;
+private _detonationRange = 5;
 private _deleteParentWhenTriggered = getNumber (_cfgA >> "deleteParentWhenTriggered");
 
 if(_proximityMode isEqualTo 1) then {
 	private _pfhTop = "rhs_pfh_prox_" + str _p;
 
 	//Delay to prevent triggering on near vehicles (maybe use as a fuze arming timer?)
-	[] spawn {uisleep 0.5;};
+	//[] spawn {uisleep 0.5;};
 
 	private _vehList = [];
 	private _vehPrepList = vehicles select {(_p distance _x < 10000) AND (_x isKindOf "AllVehicles") AND (_x distance _u >= 200)};
 	{
-		private _bbR = 0 boundingBoxReal _p;
+		/*
+		Notes:
+			bbR  = bounding box real
+			bbRf = bbR first  (select 0)
+			bbRs = bbR second (select 1)
+			bbRw = bbR width
+			bbRl = bbR length
+			bbRh = bbR height
+		*/
+
+		private _bbR  = 0 boundingBoxReal _p;
 		private _bbRf = _bbR select 0;
 		private _bbRs = _bbR select 1;
 
+		//Variables to hold values from array (more time efficient)
+		private _bbrF_sel_zer = _bbRf select 0;
+		private _bbrF_sel_one = _bbRf select 1;
+		private _bbrF_sel_two = _bbRf select 2;
+		private _bbrS_sel_zer = _bbRs select 0;
+		private _bbrS_sel_one = _bbRs select 1;
+		private _bbrS_sel_two = _bbRs select 2;
+
 		//Middle areas:
-		private _bbRw_mid = (_bbRf select 0) + (_bbRs select 0);
-		private _bbRl_mid = (_bbRf select 1) + (_bbRs select 1);
-		private _bbRh_mid = (_bbRf select 2) + (_bbRs select 2);
+		private _bbRw_mid = _bbrF_sel_zer + _bbrS_sel_zer;
+		private _bbRl_mid = _bbrF_sel_one + _bbrS_sel_one;
+		private _bbRh_mid = _bbrF_sel_two + _bbrS_sel_two;
 
 		//Left side of vehicle
-		  //Bottom
-		private _bbR_botlayer_left_f = [(_bbRf select 0),(_bbRf select 1),(_bbRf select 2)];
-		private _bbR_botlayer_left_m = [(_bbRf select 0),_bbRl_mid,       (_bbRf select 2)];
-		private _bbR_botlayer_left_b = [(_bbRf select 0),(_bbRs select 1),(_bbRf select 2)];
-		  //Middle
-		private _bbR_midlayer_left_f = [(_bbRf select 0),(_bbRf select 1),_bbRh_mid];
-		private _bbR_midlayer_left_m = [(_bbRf select 0),_bbRl_mid,       _bbRh_mid];
-		private _bbR_midlayer_left_b = [(_bbRf select 0),(_bbRs select 1),_bbRh_mid];
-		  //Top
-		private _bbR_toplayer_left_f = [(_bbRf select 0),(_bbRf select 1),(_bbRs select 2)];
-		private _bbR_toplayer_left_m = [(_bbRf select 0),_bbRl_mid,       (_bbRs select 2)];
-		private _bbR_toplayer_left_b = [(_bbRf select 0),(_bbRs select 1),(_bbRs select 2)];
+			//Bottom
+		private _bbR_botlayer_left_f = [_bbrF_sel_two,_bbrF_sel_one,_bbrF_sel_two];
+		private _bbR_botlayer_left_m = [_bbrF_sel_two,_bbRl_mid,    _bbrF_sel_two];
+		private _bbR_botlayer_left_b = [_bbrF_sel_two,_bbrS_sel_one,_bbrF_sel_two];
+			//Middle
+		private _bbR_midlayer_left_f = [_bbrF_sel_two,_bbrF_sel_one,_bbRh_mid];
+		private _bbR_midlayer_left_m = [_bbrF_sel_two,_bbRl_mid,    _bbRh_mid];
+		private _bbR_midlayer_left_b = [_bbrF_sel_two,_bbrS_sel_one,_bbRh_mid];
+			//Top
+		private _bbR_toplayer_left_f = [_bbrF_sel_two,_bbrF_sel_one,_bbrS_sel_two];
+		private _bbR_toplayer_left_m = [_bbrF_sel_two,_bbRl_mid,    _bbrS_sel_two];
+		private _bbR_toplayer_left_b = [_bbrF_sel_two,_bbrS_sel_one,_bbrS_sel_two];
 
 		//Middle of vehicle
-		  //Bottom
-		private _bbR_botlayer_mid_f = [_bbRw_mid,(_bbRf select 1),(_bbRf select 2)];
-		private _bbR_botlayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRf select 2)];
-		private _bbR_botlayer_mid_b = [_bbRw_mid,(_bbRs select 1),(_bbRf select 2)];
-		  //Middle
-		private _bbR_midlayer_mid_f = [_bbRw_mid,(_bbRf select 1),_bbRh_mid];
-		//private _bbR_mid_m = [_bbRw_mid,_bbRl_mid,       _bbRh_mid];
-		private _bbR_midlayer_mid_b = [_bbRw_mid,(_bbRs select 1),_bbRh_mid];
-		  //Top
-		private _bbR_toplayer_mid_f = [_bbRw_mid,(_bbRf select 1),(_bbRs select 2)];
-		private _bbR_toplayer_mid_m = [_bbRw_mid,_bbRl_mid,       (_bbRs select 2)];
-		private _bbR_toplayer_mid_b = [_bbRw_mid,(_bbRs select 1),(_bbRs select 2)];
+			//Bottom
+		private _bbR_botlayer_mid_f = [_bbRw_mid,_bbrF_sel_one,_bbrF_sel_two];
+		private _bbR_botlayer_mid_m = [_bbRw_mid,_bbRl_mid,    _bbrF_sel_two];
+		private _bbR_botlayer_mid_b = [_bbRw_mid,_bbrS_sel_one,_bbrF_sel_two];
+			//Middle
+		private _bbR_midlayer_mid_f = [_bbRw_mid,_bbrF_sel_one,_bbRh_mid];
+		//private _bbR_mid_m = [_bbRw_mid,_bbRl_mid,_bbRh_mid];
+		private _bbR_midlayer_mid_b = [_bbRw_mid,_bbrS_sel_one,_bbRh_mid];
+			//Top
+		private _bbR_toplayer_mid_f = [_bbRw_mid,_bbrF_sel_one,_bbrS_sel_two];
+		private _bbR_toplayer_mid_m = [_bbRw_mid,_bbRl_mid,    _bbrS_sel_two];
+		private _bbR_toplayer_mid_b = [_bbRw_mid,_bbrS_sel_one,_bbrS_sel_two];
 
 		//Right side of vehicle
-		  //Bottom
-		private _bbR_botlayer_right_f = [(_bbRs select 0),(_bbRf select 1),(_bbRf select 2)];
-		private _bbR_botlayer_right_m = [(_bbRs select 0),_bbRl_mid,       (_bbRf select 2)];
-		private _bbR_botlayer_right_b = [(_bbRs select 0),(_bbRs select 1),(_bbRf select 2)];
-		  //Middle
-		private _bbR_midlayer_right_f = [(_bbRs select 0),(_bbRf select 1),_bbRh_mid];
-		private _bbR_midlayer_right_m = [(_bbRs select 0),_bbRl_mid,       _bbRh_mid];
-		private _bbR_midlayer_right_b = [(_bbRs select 0),(_bbRs select 1),_bbRh_mid];
-		  //Top
-		private _bbR_toplayer_right_f = [(_bbRs select 0),(_bbRf select 1),(_bbRs select 2)];
-		private _bbR_toplayer_right_m = [(_bbRs select 0),_bbRl_mid,       (_bbRs select 2)];
-		private _bbR_toplayer_right_b = [(_bbRs select 0),(_bbRs select 1),(_bbRs select 2)];
-
-		// Middle of height layer
-		// private _frontLeft   = _x modelToWorld _bbR_left_f;
-		// private _frontMiddle = _x modelToWorld _bbR_mid_f;
-		// private _frontRight  = _x modelToWorld _bbR_right_f;
-		// private _leftMiddle  = _x modelToWorld _bbR_left_m;
-		// private _rightMiddle = _x modelToWorld _bbR_right_m;
-		// private _backLeft    = _x modelToWorld _bbR_left_b;
-		// private _backMiddle  = _x modelToWorld _bbR_mid_b;
-		// private _backRight   = _x modelToWorld _bbR_right_b;
+			//Bottom
+		private _bbR_botlayer_right_f = [_bbrS_sel_zer,_bbrF_sel_one,_bbrF_sel_two];
+		private _bbR_botlayer_right_m = [_bbrS_sel_zer,_bbRl_mid,    _bbrF_sel_two];
+		private _bbR_botlayer_right_b = [_bbrS_sel_zer,_bbrS_sel_one,_bbrF_sel_two];
+			//Middle
+		private _bbR_midlayer_right_f = [_bbrS_sel_zer,_bbrF_sel_one,_bbRh_mid];
+		private _bbR_midlayer_right_m = [_bbrS_sel_zer,_bbRl_mid,   _bbRh_mid];
+		private _bbR_midlayer_right_b = [_bbrS_sel_zer,_bbrS_sel_one,_bbRh_mid];
+			//Top
+		private _bbR_toplayer_right_f = [_bbrS_sel_zer,_bbrF_sel_one,_bbrS_sel_two];
+		private _bbR_toplayer_right_m = [_bbrS_sel_zer,_bbRl_mid,    _bbrS_sel_two];
+		private _bbR_toplayer_right_b = [_bbrS_sel_zer,_bbrS_sel_one,_bbrS_sel_two];
 
 		_vehList pushBack [_x,	[_bbR_midlayer_left_f,_bbR_midlayer_mid_f,_bbR_midlayer_right_f,
 								_bbR_midlayer_left_m,_bbR_midlayer_right_m,
@@ -110,7 +119,7 @@ if(_proximityMode isEqualTo 1) then {
 
 
 	[_pfhTop, "onEachFrame", {
-		params["_p","_vehList","_pfhTop","_proximityRange","_deleteParentWhenTriggered"];
+		params["_p","_vehList","_pfhTop","_proximityRange","_detonationRange","_deleteParentWhenTriggered"];
 
 		private _tgtList = _vehList select {_p distance (_x select 0) < 100};
 		{
@@ -122,25 +131,9 @@ if(_proximityMode isEqualTo 1) then {
 				private _veh = _x select 0;
 				private _distances = [];
 				{
-					private _projectileToTarget = _p distance (_veh modelToWorld _x);
-					// diag_log(format["Distance to this point: %1",_projectileToTarget]);
-					// if (_projectileToTarget <= _proximityRange) then {
-					// 	triggerAmmo _p;
-					// 	diag_log("detonated");
-
-					// 	//If the projectile will still exist when triggered,
-					// 	if (_deleteParentWhenTriggered isEqualTo 0) then {
-					// 		//We have deployed the submunition, so delete projectile
-					// 		// (or find a way to make it detonate as if hitting a surface)
-					// 		[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p);
-					// 	};
-					// 	break; //Arma 2.02 Added break for loops
-					// };
-					_distances pushBack _projectileToTarget;
+					_distances pushBack (_p distance (_veh modelToWorld _x));
 				} forEach (_x select 1);
 
-
-				private _detonationRange = 5;  //Distance from point to teleport to
 				private _distanceToVeh = selectMin _distances;
 				if (_distanceToVeh <= _proximityRange) then {
 
@@ -151,32 +144,16 @@ if(_proximityMode isEqualTo 1) then {
 					if (_deleteParentWhenTriggered isEqualTo 0) then {
 						//We have deployed the submunition, so delete projectile
 						// (or find a way to make it detonate as if hitting a surface)
-						[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p);
+						[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;};
 					};
 				};
 			};
-
-			//diag_log("Finished points");
-
-
-			// //If projectile is in prox range
-			// //Will replace with boundingbox method
-			// if (_p distance _x <= _proximityRange) exitWith {
-			// 	triggerAmmo _p;
-
-			// 	//If the projectile will still exist when triggered,
-			// 	if (_deleteParentWhenTriggered isEqualTo 0) then {
-			// 		//We have deployed the submunition, so delete projectile
-			// 		// (or find a way to make it detonate as if hitting a surface)
-			// 		[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;}; //"HelicopterExploSmall" createVehicle (getpos _p); 
-			// 	};
-			// };
 		} forEach _tgtList;
 
 		if(!alive _p)exitWith{
 			[_pfhTop, "onEachFrame"] call BIS_fnc_removeStackedEventHandler;
 		};
-	}, [_p,_vehList,_pfhTop,_proximityRange,_deleteParentWhenTriggered]] call BIS_fnc_addStackedEventHandler;
+	}, [_p,_vehList,_pfhTop,_proximityRange,_detonationRange,_deleteParentWhenTriggered]] call BIS_fnc_addStackedEventHandler;
 };
 }]}];
 bulletB = player addAction ["Disable Prox", {vehicle player removeEventHandler["Fired", firedEH]}];
