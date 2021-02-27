@@ -1,7 +1,7 @@
 vehicle player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 bulletA = player addAction ["Enable Prox", {firedEH = vehicle player addEventHandler ["Fired", {
 /*
-	Modified from:
+	Modified from: @RHSUSAF/rhsusf_c_heavyweapons/functions/rhs_saclosGuide.sqf
 		SACLOS guidiance
 		rhs_fnc_saclosGuide
 
@@ -9,6 +9,8 @@ bulletA = player addAction ["Enable Prox", {firedEH = vehicle player addEventHan
 
 	Projectile proximity(to vehicles) detonation
 */
+
+// "_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"
 params["_u","_w","_m","","_a","","_p","_g"];
 
 // exit if unit is local to headless client or dedicated server
@@ -63,17 +65,17 @@ if(_proximityMode isEqualTo 1) then {
 
 		//Left side of vehicle
 			//Bottom
-		private _bbR_botlayer_left_f = [_bbrF_sel_two,_bbrF_sel_one,_bbrF_sel_two];
-		private _bbR_botlayer_left_m = [_bbrF_sel_two,_bbRl_mid,    _bbrF_sel_two];
-		private _bbR_botlayer_left_b = [_bbrF_sel_two,_bbrS_sel_one,_bbrF_sel_two];
+		private _bbR_botlayer_left_f = [_bbrF_sel_zer,_bbrF_sel_one,_bbrF_sel_two];
+		private _bbR_botlayer_left_m = [_bbrF_sel_zer,_bbRl_mid,    _bbrF_sel_two];
+		private _bbR_botlayer_left_b = [_bbrF_sel_zer,_bbrS_sel_one,_bbrF_sel_two];
 			//Middle
-		private _bbR_midlayer_left_f = [_bbrF_sel_two,_bbrF_sel_one,_bbRh_mid];
-		private _bbR_midlayer_left_m = [_bbrF_sel_two,_bbRl_mid,    _bbRh_mid];
-		private _bbR_midlayer_left_b = [_bbrF_sel_two,_bbrS_sel_one,_bbRh_mid];
+		private _bbR_midlayer_left_f = [_bbrF_sel_zer,_bbrF_sel_one,_bbRh_mid];
+		private _bbR_midlayer_left_m = [_bbrF_sel_zer,_bbRl_mid,    _bbRh_mid];
+		private _bbR_midlayer_left_b = [_bbrF_sel_zer,_bbrS_sel_one,_bbRh_mid];
 			//Top
-		private _bbR_toplayer_left_f = [_bbrF_sel_two,_bbrF_sel_one,_bbrS_sel_two];
-		private _bbR_toplayer_left_m = [_bbrF_sel_two,_bbRl_mid,    _bbrS_sel_two];
-		private _bbR_toplayer_left_b = [_bbrF_sel_two,_bbrS_sel_one,_bbrS_sel_two];
+		private _bbR_toplayer_left_f = [_bbrF_sel_zer,_bbrF_sel_one,_bbrS_sel_two];
+		private _bbR_toplayer_left_m = [_bbrF_sel_zer,_bbRl_mid,    _bbrS_sel_two];
+		private _bbR_toplayer_left_b = [_bbrF_sel_zer,_bbrS_sel_one,_bbrS_sel_two];
 
 		//Middle of vehicle
 			//Bottom
