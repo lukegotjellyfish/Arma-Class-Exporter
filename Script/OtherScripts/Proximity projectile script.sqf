@@ -127,7 +127,6 @@ if(_proximityMode isEqualTo 1) then {
 		{
 			//diag_log("Started points");
 
-			//Use length+width here for detection? test efficiency with all scenarios
 			if ((_p distance ((_x select 0) modelToWorld (_x select 1 select 0)) <= _proximityRange * 2) OR (_p distance ((_x select 0) modelToWorld (_x select 1 select 7)) <= _proximityRange * 2)) then
 			{
 				private _veh = _x select 0;
@@ -139,7 +138,9 @@ if(_proximityMode isEqualTo 1) then {
 				private _distanceToVeh = selectMin _distances;
 				if (_distanceToVeh <= _proximityRange) then {
 
+					diag_log(format["before setpos _p position %1", position _p]);
 					_p setPos (_p modelToWorld [0,- (_detonationRange - _distanceToVeh),0]);
+					diag_log(format["after setpos _p position %1", position _p]);
 					triggerAmmo _p;
 
 					//If the projectile will still exist when triggered,
