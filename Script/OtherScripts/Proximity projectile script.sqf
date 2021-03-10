@@ -24,7 +24,7 @@ private _v = vehicle (call rhs_fnc_findPlayer);
 private _cfgA = configFile >> "cfgAmmo" >> _a;
 private _proximityMode = 1;
 private _proximityRange = 15;
-private _detonationRange = 5;
+private _detonationRange = 10;
 private _deleteParentWhenTriggered = getNumber (_cfgA >> "deleteParentWhenTriggered");
 
 if(_proximityMode isEqualTo 1) then {
@@ -139,7 +139,8 @@ if(_proximityMode isEqualTo 1) then {
 				if (_distanceToVeh <= _proximityRange) then {
 
 					diag_log(format["before setpos _p position %1", position _p]);
-					_p setPos (_p modelToWorld [0,- (_detonationRange - _distanceToVeh),0]);
+					_p setPos (_p modelToWorld [0,(_detonationRange - _distanceToVeh)-5,0]);
+					diag_log(format["Y: %1", (_detonationRange - _distanceToVeh)]);
 					diag_log(format["after setpos _p position %1", position _p]);
 					triggerAmmo _p;
 
@@ -147,8 +148,16 @@ if(_proximityMode isEqualTo 1) then {
 					if (_deleteParentWhenTriggered isEqualTo 0) then {
 						//We have deployed the submunition, so delete projectile
 						// (or find a way to make it detonate as if hitting a surface)
-						[_p] spawn {params ["_p"]; uiSleep 0.1; deleteVehicle _p;};
+						_whPos = getPos _p;
+						_wh = createVehicle ["weaponHolder", _whPos, [], 0, "CAN_COLLIDE"];
+						[_wh] spawn {
+							params ["_wh"];
+							uiSleep 1;
+							deleteVehicle _wh;
+						};
 					};
+
+					exit;
 				};
 			};
 		} forEach _tgtList;
