@@ -1,84 +1,114 @@
 //SCRIPT START
-vehiclePlayer = (vehicle player);
-_vehicleFired = vehiclePlayer addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
-playerPlayer = player;
-_playerFired = playerPlayer addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
+startVehicle = (vehicle player);
+vehicleFired = startVehicle addeventhandler ["Fired", {
+	(_this select 0) setvehicleammo 1;
+	startVehicle setWeaponReloadingTime [gunner startVehicle, currentMuzzle (gunner startVehicle), 0];
+}];
+playerFired = player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 //Assign vehicles (vehicle variable name)
-v1 = v1;
-v2 = v2;
-v3 = v3;
-//Init toggle addaction values
-v1_toggle = 0;
-v2_toggle = 0;
-v3_toggle = 0;
+v1 = mk19;  //eg v1 = t72;
+v2 = a10;
+v3 = m1a1fep;
+//Toggle values for each addAction
+v1Toggle = 0;
+v2Toggle = 0;
+v3Toggle = 0;
 //Player's vehicle for each option
-v1_vehicle = str v1;
-v2_vehicle = str v2;
-v3_vehicle = str v3;
-
+v1Name = getText (configFile >> "CfgVehicles" >> typeOf v1 >> "displayName");
+v2Name = getText (configFile >> "CfgVehicles" >> typeOf v2 >> "displayName");
+v3Name = getText (configFile >> "CfgVehicles" >> typeOf v3 >> "displayName");
 //https://community.bistudio.com/wiki/DIK_KeyCodes
-//16 = Q
-//I couldn't be bothered to figure out a way to actually toggle this off and on without presing it twice so i just use a macro :p
-//diag_toggle is a function of the dev branch, exclude this for stable/profiling/rc
-diag_toggleToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 16) then {diag_log('single diag_toggle'); diag_toggle 'shots';};"];
-
+//39 = ;
+diagToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 39) then {diag_toggle 'shots'; [] spawn {uiSleep 0.001; diag_toggle 'shots';};};"];
+//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
+//To have two diag_toggles, there needs to be a delay of at least 0.001
 
 countHitpoints = {
 	params ["_vx", "_hintTitle"];
 
-	//diag_log(format["On countHitpoints: %1|%2", _vx, _hintTitle]);
-
-	_dbg = "";
+	//_damageEntry: array of hitpoints damage values
 	_damageEntry = [];
+	//_size: starting size of _damageEntry to be overwritten to manipulate it
 	_size = 0;
 	{
-		_size = _size + 1; _damageEntry resize _size; _damageEntry set [_size -1, 0]
+		//Increment _size by one for each hitpoint
+		_size = _size + 1;
+		//Increase array size by one to accomodate for the new value
+		_damageEntry resize _size;
+		//Set new array item value to 0 as that is the default damage state
+		_damageEntry set [_size -1, 0];
 	} forEach (getAllHitPointsDamage _vx select 0);
-	_dbg = _dbg + _hintTitle + str(_size);
+	//getAllHitPointsDamage _vx returns:
+	// array of hit point names
+	// array of hit selection names
+	// array of damage values
+	//As all we need right now is the number of hitpoints, take the name array
+
+	//_dbg: string to show the number of hitpoints for the vehicle
+	// Will appear as ""
+	_dbg = _hintTitle + str(_size);
 	hint _dbg;
 
+	//Returning:
+	// _damageEntry
+	// Total vehicle damage
 	[_damageEntry, damage _vx];
 };
 
 damageLog = {
 	params ["_vx", "_vxDamageEntry", "_vxTotalDamage"];
 
-	//diag_log(format["On damageLog: %1|%2|%3", _vx, _vxDamageEntry, _vxTotalDamage]);
-
+	//vx_HitpointsDamageArray: Array to store the arrays from getAllHitPointsDamage <vehicle>
 	vx_HitpointsDamageArray = getAllHitPointsDamage _vx;
+	//vx_HitPointsNames: Array of all hitpoint names
 	vx_HitPointsNames = vx_HitpointsDamageArray select 0;
+	//vx_HitpointsDamage: Array of all current hitpoint damages
 	vx_HitpointsDamage = vx_HitpointsDamageArray select 2;
 
+	//_damageDone: string to build the list of damaged hitpoints on
+	// to then display to the user as a hint
 	_damageDone = "";
+	//_i: int to be used as an index
 	_i = 0;
 	{
+		//_damage: Saved damage value for the current hitpoint
 		_damage = _vxDamageEntry select _i;
+		//If saved damage is not the current damage, there has been a change to display
 		if (_x != _damage) then {
+			//Save the damage to the damage array to be compared next run
 			_vxDamageEntry set [_i, _x];
+			//_name: name of the current hitpoint
 			_name = vx_HitPointsNames select _i;
+			//Append the information for the current hitpoint onto the damaged hitpoints string
 			_damageDone = _damageDone + _name + ": " + str(_x) + " (" + str(_x - _damage) + ")\n";
 		};
 		_i = _i + 1;
-	} forEach vx_HitpointsDamage;
+	} forEach vx_HitpointsDamage; //Loop through every hitpoint damage value
 
+	//Get current Total damage of the vehicle
 	_damage = damage _vx;
-	_totalDamageDifference = _damage - _vxTotalDamage;
+	//Display the damage analysis string:
+	// Total Damage: 0-1
+	// <hitpointname>: <hitpoint damage> (<damage change>)...
+	hint format["Total Damage: %1 (%2)\n%3",_damage,(_damage-_vxTotalDamage),_damageDone];
 
-	//diag_log format["_damage: %1 | _vxTotalDamage: %2", _damage, _vxTotalDamage];
-
-	hint format["Total Damage: %1 (%2)\n%3",_damage,_totalDamageDifference,_damageDone];
+	//Returning:
+	// Array of hitpoint damages
+	// Total damage of the vehicle
 	[vx_HitpointsDamage,_damage];
 };
 
 toggleLogger = {
 	params ["_vx", "_vxToggle", "_vxName"];
-	vx = _vx;  //Otherwise calling damageLog will be [any], there is almost definintely a better way of doing this but eeeeeeeh :p
 
-	//diag_log(format["On toggleLogger: %1|%2|%3", _vx, _vxToggle, _vxName]);
+	(findDisplay 46) setVariable["_vx", _vx];
 
+	//If the vehicle is not alive
 	if !(alive _vx) then {
+		//If the current toggle value is 0
 		if (_vxToggle == 0) then {
 			try {
+				//Remove damageLog eventHandler
 				(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];
 			}
 			catch {
@@ -89,52 +119,82 @@ toggleLogger = {
 	else
 	{
 		if (_vxToggle == 1) then {
-			_damageArray = [_vx, (_vxName + " Hitpoints: ")] call countHitPoints;
+			_nameCount = _vxName + " Hitpoints: ";
+			_damageArray = [_vx, _nameCount] call countHitPoints;
 			vxDamageEntry = _damageArray select 0;
 			vxTotalDamage = _damageArray select 1;
-			//diag_log(format["Passing [%1,%2] to damageLog", _vx, vxDamageEntry]);
 
 			//https://community.bistudio.com/wiki/DIK_KeyCodes
 			//6 = 5
-			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 6) then {
-				vxDamageArray = [vx, vxDamageEntry, vxTotalDamage] call damageLog;
-				vxDamageEntry = vxDamageArray select 0;
-				vxTotalDamage = vxDamageArray select 1;
-			};"];
+			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", {
+				params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
+
+				if (_keyCode == 6) then {
+					vxDamageArray = [_display getVariable "_vx", vxDamageEntry, vxTotalDamage] call damageLog;
+					vxDamageEntry = vxDamageArray select 0;
+					vxTotalDamage = vxDamageArray select 1;
+				};
+			}];
 		}
 		else {(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];};
 	};
 };
 
 
-vehicle_1 = playerPlayer addAction [format["Toggle %1 monitor", v1_vehicle], {
-	if (v1_toggle == 0) then {v1_toggle = 1;}
-	else {v1_toggle = 0;};
-	[v1, v1_toggle, v1_vehicle] call toggleLogger;
-}];
-vehicle_2 = playerPlayer addAction [format["Toggle %1 monitor", v2_vehicle], {
-	if (v2_toggle == 0) then {v2_toggle = 1;}
-	else {v2_toggle = 0;};
-	[v2, v2_toggle, v2_vehicle] call toggleLogger;
-}];
-vehicle_3 = playerPlayer addAction [format["Toggle %1 monitor", v3_vehicle], {
-	if (v3_toggle == 0) then {v3_toggle = 1;}
-	else {v3_toggle = 0;};
-	[v3, v3_toggle, v3_vehicle] call toggleLogger;
-}];
+v1Success = 0;
+v2Success = 0;
+v3Success = 0;
+if (count (str v1) > 0) then {
+	v1AddAction = player addAction [format["Toggle %1 monitor", v1Name], {
+		if (v1Toggle == 0) then {v1Toggle = 1} else {v1Toggle = 0};
+		[v1, v1Toggle, v1Name] call toggleLogger;
+	}];
+	v1Success = 1;
+} else {diag_log("v1 not valid")};
 
-vehicle_remove = playerPlayer addAction ["Remove and disable options", {
-	//Remove vehicle toggle actions
-	playerPlayer removeaction vehicle_1;
-	playerPlayer removeaction vehicle_2;
-	playerPlayer removeaction vehicle_3;
+if (count (str v2) > 0) then {
+	v2AddAction = player addAction [format["Toggle %1 monitor", v2Name], {
+		if (v2Toggle == 0) then {v2Toggle = 1} else {v2Toggle = 0};
+		[v2, v2Toggle, v2Name] call toggleLogger;
+	}];
+	v2Success = 1;
+} else {diag_log("v2 not valid")};
 
+if (count (str v3) > 0) then {
+	v3AddAction = player addAction [format["Toggle %1 monitor", v3Name], {
+		if (v3Toggle == 0) then {v3Toggle = 1} else {v3Toggle = 0};
+		[v3, v3Toggle, v3Name] call toggleLogger;
+	}];
+	v3Success = 1;
+} else { diag_log("v3 not valid")};
+
+
+vRemove = player addAction ["Remove and disable options", {
 	//Remove this action because where else would it be removed
-	playerPlayer removeaction vehicle_remove;
+	player removeaction vRemove;
+
+	//Remove vehicle toggle actions
+	if (v1Success == 1) then {
+		player removeAction v1AddAction;
+		if (v1Toggle == 1) then {[v1, 0, v1Name] call toggleLogger};
+	};
+	if (v2Success == 1) then {
+		player removeAction v2AddAction;
+		if (v2Toggle == 1) then {[v2, 0, v2Name] call toggleLogger};
+	};
+	if (v3Success == 1) then {
+		player removeAction v3AddAction;
+		if (v3Toggle == 1) then {[v3, 0, v3Name] call toggleLogger};
+	};
+
 
 	//Remove diag_toggle eventhandler
-	(findDisplay 46) displayRemoveEventHandler ["KeyDown", diag_toggleToggle];
+	(findDisplay 46)  displayRemoveEventHandler ["KeyDown", diagToggle];
 	//Remove unlimited ammo eventhandlers
-	vehiclePlayer removeEventHandler ["Fired", "_vehicleFired"];
-	playerPlayer removeEventHandler ["Fired", "_playerFired"];
+	try {
+		startVehicle removeEventHandler ["Fired", vehicleFired];
+	} catch {
+		diag_log(format["Error in <vehicleFired removeEventHandler>: %1", _exception]);
+	};
+	player removeEventHandler ["Fired", playerFired];
 }];
