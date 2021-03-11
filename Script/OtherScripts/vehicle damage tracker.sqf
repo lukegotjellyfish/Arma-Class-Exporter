@@ -1,14 +1,39 @@
-//SCRIPT START
+//Assign vehicles (vehicle variable name)
+v1 = mk19;  //eg v1 = t72;
+v2 = a10;
+v3 = m1a1fep;
+
+//Start values at zero to see damage that has already occured [SET TO 1]
+//Start values at the current values
+assumeVehicleIsUndamaged = 0;
+
+//https://community.bistudio.com/wiki/DIK_KeyCodes
+// 39 = ; Key
+//  6 = 5 Key
+diagToggleKey   = 39;
+updateDamageKey = 6;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 startVehicle = (vehicle player);
 vehicleFired = startVehicle addeventhandler ["Fired", {
 	(_this select 0) setvehicleammo 1;
 	startVehicle setWeaponReloadingTime [gunner startVehicle, currentMuzzle (gunner startVehicle), 0];
 }];
 playerFired = player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
-//Assign vehicles (vehicle variable name)
-v1 = mk19;  //eg v1 = t72;
-v2 = a10;
-v3 = m1a1fep;
 //Toggle values for each addAction
 v1Toggle = 0;
 v2Toggle = 0;
@@ -17,11 +42,21 @@ v3Toggle = 0;
 v1Name = getText (configFile >> "CfgVehicles" >> typeOf v1 >> "displayName");
 v2Name = getText (configFile >> "CfgVehicles" >> typeOf v2 >> "displayName");
 v3Name = getText (configFile >> "CfgVehicles" >> typeOf v3 >> "displayName");
-//https://community.bistudio.com/wiki/DIK_KeyCodes
-//39 = ;
-diagToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 39) then {diag_toggle 'shots'; [] spawn {uiSleep 0.001; diag_toggle 'shots';};};"];
-//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
-//To have two diag_toggles, there needs to be a delay of at least 0.001
+
+gameIsDiag = false;
+if ((productVersion select 4) == "Diag") then {
+	diagToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", {
+		params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
+
+		if (_keyCode == diagToggleKey) then {
+			//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
+			diag_toggle 'shots';
+			[] spawn {uiSleep 0.001; diag_toggle 'shots'};
+			//To have two diag_toggles, there needs to be a delay
+		};
+	}];
+	gameIsDiag = true;
+};
 
 countHitpoints = {
 	params ["_vx", "_hintTitle"];
@@ -30,14 +65,17 @@ countHitpoints = {
 	_damageEntry = [];
 	//_size: starting size of _damageEntry to be overwritten to manipulate it
 	_size = 0;
-	{
-		//Increment _size by one for each hitpoint
-		_size = _size + 1;
-		//Increase array size by one to accomodate for the new value
-		_damageEntry resize _size;
-		//Set new array item value to 0 as that is the default damage state
-		_damageEntry set [_size -1, 0];
-	} forEach (getAllHitPointsDamage _vx select 0);
+
+	if (assumeVehicleIsUndamaged == 1) then {
+		{
+			//Increment _size by one for each hitpoint
+			_size = _size + 1;
+			//Increase array size by one to accomodate for the new value
+			_damageEntry resize _size;
+			//Set new array item value to 0 as that is the default damage state
+			_damageEntry set [_size -1, 0];
+		} forEach (getAllHitPointsDamage _vx select 0);
+	} else {_ddamageEntry = getAllHitPointsDamage _vx select 2};
 	//getAllHitPointsDamage _vx returns:
 	// array of hit point names
 	// array of hit selection names
@@ -103,41 +141,23 @@ toggleLogger = {
 
 	(findDisplay 46) setVariable["_vx", _vx];
 
-	//If the vehicle is not alive
-	if !(alive _vx) then {
-		//If the current toggle value is 0
-		if (_vxToggle == 0) then {
-			try {
-				//Remove damageLog eventHandler
-				(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];
-			}
-			catch {
-				diag_log(format["Error in <1(alive _vx -> removeEventHandler>: %1", _exception]);
+	if (_vxToggle == 1) then {
+		_nameCount = _vxName + " Hitpoints: ";
+		_damageArray = [_vx, _nameCount] call countHitPoints;
+		vxDamageEntry = _damageArray select 0;
+		vxTotalDamage = _damageArray select 1;
+
+		vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", {
+			params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
+
+			if (_keyCode == updateDamageKey) then {
+				vxDamageArray = [_display getVariable "_vx", vxDamageEntry, vxTotalDamage] call damageLog;
+				vxDamageEntry = vxDamageArray select 0;
+				vxTotalDamage = vxDamageArray select 1;
 			};
-		};
+		}];
 	}
-	else
-	{
-		if (_vxToggle == 1) then {
-			_nameCount = _vxName + " Hitpoints: ";
-			_damageArray = [_vx, _nameCount] call countHitPoints;
-			vxDamageEntry = _damageArray select 0;
-			vxTotalDamage = _damageArray select 1;
-
-			//https://community.bistudio.com/wiki/DIK_KeyCodes
-			//6 = 5
-			vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", {
-				params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
-
-				if (_keyCode == 6) then {
-					vxDamageArray = [_display getVariable "_vx", vxDamageEntry, vxTotalDamage] call damageLog;
-					vxDamageEntry = vxDamageArray select 0;
-					vxTotalDamage = vxDamageArray select 1;
-				};
-			}];
-		}
-		else {(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];};
-	};
+	else {(findDisplay 46) displayRemoveEventHandler ["KeyDown", vxDisplayHandler];};
 };
 
 
@@ -189,7 +209,7 @@ vRemove = player addAction ["Remove and disable options", {
 
 
 	//Remove diag_toggle eventhandler
-	(findDisplay 46)  displayRemoveEventHandler ["KeyDown", diagToggle];
+	if (gameIsDiag == true) then {(findDisplay 46)  displayRemoveEventHandler ["KeyDown", diagToggle]};
 	//Remove unlimited ammo eventhandlers
 	try {
 		startVehicle removeEventHandler ["Fired", vehicleFired];
