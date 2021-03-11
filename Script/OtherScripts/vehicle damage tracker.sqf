@@ -4,7 +4,7 @@ v2 = a10;
 v3 = m1a1fep;
 
 //Start values at zero to see damage that has already occured [SET TO 1]
-//Start values at the current values
+//Start values at the current values [SET To 0]
 assumeVehicleIsUndamaged = 0;
 
 //https://community.bistudio.com/wiki/DIK_KeyCodes
