@@ -165,7 +165,7 @@ toggleLogger = {
 v1Success = 0;
 v2Success = 0;
 v3Success = 0;
-if (count (str v1) > 0) then {
+if !(v1 isEqualTo objNull) then {
 	v1AddAction = player addAction [format["Toggle %1 monitor", v1Name], {
 		if (v1Toggle == 0) then {v1Toggle = 1} else {v1Toggle = 0};
 		[v1, v1Toggle, v1Name] call toggleLogger;
@@ -173,7 +173,7 @@ if (count (str v1) > 0) then {
 	v1Success = 1;
 } else {diag_log("v1 not valid")};
 
-if (count (str v2) > 0) then {
+if !(v2 isEqualTo objNull) then {
 	v2AddAction = player addAction [format["Toggle %1 monitor", v2Name], {
 		if (v2Toggle == 0) then {v2Toggle = 1} else {v2Toggle = 0};
 		[v2, v2Toggle, v2Name] call toggleLogger;
@@ -181,7 +181,7 @@ if (count (str v2) > 0) then {
 	v2Success = 1;
 } else {diag_log("v2 not valid")};
 
-if (count (str v3) > 0) then {
+if !(v3 isEqualTo objNull) then {
 	v3AddAction = player addAction [format["Toggle %1 monitor", v3Name], {
 		if (v3Toggle == 0) then {v3Toggle = 1} else {v3Toggle = 0};
 		[v3, v3Toggle, v3Name] call toggleLogger;
