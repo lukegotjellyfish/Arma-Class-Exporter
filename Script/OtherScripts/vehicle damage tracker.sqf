@@ -63,20 +63,13 @@ countHitpoints = {
 	params ["_vx", "_hintTitle"];
 
 	//_damageEntry: array of hitpoints damage values
-	_damageEntry = [];
-	//_size: starting size of _damageEntry to be overwritten to manipulate it
-	_size = 0;
-
+	_damageEntry = getAllHitPointsDamage _vx select 2;  //By default set to existing damage values
 	if (assumeVehicleIsUndamaged == 1) then {
 		{
-			//Increment _size by one for each hitpoint
-			_size = _size + 1;
-			//Increase array size by one to accomodate for the new value
-			_damageEntry resize _size;
 			//Set new array item value to 0 as that is the default damage state
-			_damageEntry set [_size -1, 0];
-		} forEach (getAllHitPointsDamage _vx select 0);
-	} else {_ddamageEntry = getAllHitPointsDamage _vx select 2};
+			_damageEntry set [_x, 0];
+		} forEach _damageEntry;
+	};
 	//getAllHitPointsDamage _vx returns:
 	// array of hit point names
 	// array of hit selection names
@@ -85,7 +78,7 @@ countHitpoints = {
 
 	//_dbg: string to show the number of hitpoints for the vehicle
 	// Will appear as ""
-	_dbg = _hintTitle + str(_size);
+	_dbg = _hintTitle + str(count _damageEntry);
 	hint _dbg;
 
 	//Returning:
