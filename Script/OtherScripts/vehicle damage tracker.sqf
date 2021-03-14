@@ -1,5 +1,5 @@
 //Assign vehicles (vehicle variable name)
-v1 = mk19;  //eg v1 = t72;
+v1 = c130j;  //eg v1 = t72;
 v2 = a10;
 v3 = m1a1fep;
 
@@ -43,20 +43,21 @@ v1Name = getText (configFile >> "CfgVehicles" >> typeOf v1 >> "displayName");
 v2Name = getText (configFile >> "CfgVehicles" >> typeOf v2 >> "displayName");
 v3Name = getText (configFile >> "CfgVehicles" >> typeOf v3 >> "displayName");
 
-gameIsDiag = false;
-if ((productVersion select 4) == "Diag") then {
-	diagToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", {
-		params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
+// gameIsDiag = false;
+// if ((productVersion select 4) == "Diag") then {
+// 	diagToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", {
+// 		params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
 
-		if (_keyCode == diagToggleKey) then {
-			//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
-			diag_toggle 'shots';
-			[] spawn {uiSleep 0.001; diag_toggle 'shots'};
-			//To have two diag_toggles, there needs to be a delay
-		};
-	}];
-	gameIsDiag = true;
-};
+// 		if (_keyCode == diagToggleKey) then {
+// 			//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
+// 			//diag_toggle causes scripts to fail when not run on devbranch??
+// 			diag_toggle "shots";
+// 			[] spawn {uiSleep 0.001; diag_toggle 'shots'};
+// 			//To have two diag_toggles, there needs to be a delay
+// 		};
+// 	}];
+// 	gameIsDiag = true;
+// };
 
 countHitpoints = {
 	params ["_vx", "_hintTitle"];
@@ -209,7 +210,7 @@ vRemove = player addAction ["Remove and disable options", {
 
 
 	//Remove diag_toggle eventhandler
-	if (gameIsDiag == true) then {(findDisplay 46)  displayRemoveEventHandler ["KeyDown", diagToggle]};
+	// if (gameIsDiag == true) then {(findDisplay 46)  displayRemoveEventHandler ["KeyDown", diagToggle]};
 	//Remove unlimited ammo eventhandlers
 	try {
 		startVehicle removeEventHandler ["Fired", vehicleFired];
