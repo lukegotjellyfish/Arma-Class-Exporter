@@ -1,14 +1,13 @@
 vehicle player addeventhandler ["Fired", {(_this select 0) setvehicleammo 1}];
 bulletA = player addAction ["Enable Prox", {firedEH = vehicle player addEventHandler ["Fired", {
-/*
-	Modified from: @RHSUSAF/rhsusf_c_heavyweapons/functions/rhs_saclosGuide.sqf
-		SACLOS guidiance
-		rhs_fnc_saclosGuide
 
-		a: reyhard
-
-	Projectile proximity(to vehicles) detonation
-*/
+//	Modified from: @RHSUSAF/rhsusf_c_heavyweapons/functions/rhs_saclosGuide.sqf
+//		SACLOS guidiance
+//		rhs_fnc_saclosGuide
+//
+//		a: reyhard
+//
+//	Projectile proximity(to vehicles) detonation
 
 // "_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"
 params["_u","_w","_m","","_a","","_p","_g"];
@@ -36,15 +35,13 @@ if(_proximityMode isEqualTo 1) then {
 	private _vehList = [];
 	private _vehPrepList = vehicles select {(_p distance _x < 10000) AND (_x isKindOf "AllVehicles") AND (_x distance _u >= 200)};
 	{
-		/*
-		Notes:
-			bbR  = bounding box real
-			bbRf = bbR first  (select 0)
-			bbRs = bbR second (select 1)
-			bbRw = bbR width
-			bbRl = bbR length
-			bbRh = bbR height
-		*/
+		//Notes:
+		//	bbR  = bounding box real
+		//	bbRf = bbR first  (select 0)
+		//	bbRs = bbR second (select 1)
+		//	bbRw = bbR width
+		//	bbRl = bbR length
+		//	bbRh = bbR height
 
 		private _bbR  = 0 boundingBoxReal _p;
 		private _bbRf = _bbR select 0;
@@ -138,10 +135,10 @@ if(_proximityMode isEqualTo 1) then {
 				private _distanceToVeh = selectMin _distances;
 				if (_distanceToVeh <= _proximityRange) then {
 
-					diag_log(format["before setpos _p position %1", position _p]);
-					_p setPos (_p modelToWorld [0,(_detonationRange - _distanceToVeh)-5,0]);
-					diag_log(format["Y: %1", (_detonationRange - _distanceToVeh)]);
-					diag_log(format["after setpos _p position %1", position _p]);
+					//diag_log(format["before setpos _p position %1", position _p]);
+					//_p setPos (_p modelToWorld [0,(_detonationRange - _distanceToVeh)-5,0]);
+					//diag_log(format["Y: %1", (_detonationRange - _distanceToVeh)]);
+					//diag_log(format["after setpos _p position %1", position _p]);
 					triggerAmmo _p;
 
 					//If the projectile will still exist when triggered,
