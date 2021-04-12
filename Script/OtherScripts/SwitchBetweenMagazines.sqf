@@ -40,16 +40,24 @@ magazineKeyHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", {
 			x = x + 1; [x] call changeMag;
 		};
 	};
-	// if (_keyCode == diagToggleKey) then {
-	// 	gameIsDiag = true;
-	// 	if ((productVersion select 4) == "Diag") then {
-	// 		//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
-	// 		//diag_toggle causes scripts to fail when not run on devbranch??
-	// 		diag_toggle 'shots';
-	// 		[] spawn {uiSleep 0.001; diag_toggle 'shots'};
-	// 		//To have two diag_toggles, there needs to be a delay
-	// 	};
-	// };
+	
+	
+	
+	
+	if (_keyCode == diagToggleKey) then {
+		gameIsDiag = true;
+		if ((productVersion select 4) == "Diag") then {
+			//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
+			//diag_toggle causes scripts to fail when not run on devbranch??
+			diag_toggle 'shots';
+			[] spawn {uiSleep 0.001; diag_toggle 'shots'};
+			//To have two diag_toggles, there needs to be a delay
+		};
+	};
+	
+	
+	
+	
 	if (_keyCode == 4) then {
 		if (x > 1) then {
 			x = x - 1; [x] call changeMag;

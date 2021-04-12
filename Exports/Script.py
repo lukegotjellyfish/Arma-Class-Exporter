@@ -62,7 +62,6 @@ def bluFor(array, depth):
         return ""
     print("failed")
 
-
 def opFor(array, depth):
     try:
         if depth == 2:
@@ -107,7 +106,7 @@ def fetchSide(array):
 """
 
 
-#I should learn how to use classes
+#I should learn how to use classes properly
 def getModeDependant(side, weapon, fireModes, wepProperty):
     thing = []
     print("FireModes: " + str(fireModes))
@@ -228,7 +227,7 @@ def getSubmunition(side, category, _class):
     print("On getSubmunition")
     submunitionAmmo = fetchSide([side + category, _class, "ammo", "submunitionammo"])
     if submunitionAmmo != "":
-        print("[Submunition ammo found] " + str(submunitionAmmo))
+        #print("[Submunition ammo found] " + str(submunitionAmmo))
         return "submunitionammo"
     else:
         submunitionAmmo = []
@@ -240,7 +239,6 @@ def getSubmunition(side, category, _class):
             submunitionAmmo.append("submunitionammo" + str(x))
             print("[Submunition ammo found] " + str(submunitionAmmo))
             x += 1
-
 
 def getDisplayNameShort(side, category, _class):
     return fetchSide([side + category, _class, "displaynameshort"])
@@ -254,11 +252,26 @@ def getManoeuvrability(side, category, _class):
 def getFireModes(side, category, _class):
     return fetchSide([side + category, _class, "modes"])
 
-def getInitialSpeed(side, category, _class, sub=""):
-    if sub != "":
-        return fetchSide([side + category, _class, "ammo", "submunitioninitspeed"])
+def getInitialSpeed(side, category, _wClass, _mClass, sub=""):
+    print("getInitialSpeed recieved [" + side, category, _wClass, _mClass, sub + "]")
+    wepInit = ""
+    speedModifier = 0
+
+    if _wClass != "":
+        wepInit = fetchSide([side + "Weapons", _wClass, "initspeed"])
+        if wepInit == 0:
+            wepInit = ""
+        if wepInit != "":
+            speedModifier = wepInit
+            if wepInit < 0:
+                wepInit = fetchSide([side + category, _mClass, "initspeed"]) * abs(wepInit)
+    if wepInit == "":
+        if sub == "":
+            return [fetchSide([side + category, _mClass, "initspeed"]),0]
+        else:
+            return [fetchSide([side + category, _mClass, "ammo", "submunitioninitspeed"]),0]
     else:
-        return fetchSide([side + category, _class, "initspeed"])
+        return [wepInit, speedModifier]
 
 def getTypicalSpeed(side, category, _class, sub=""):
     if sub == "":
@@ -342,11 +355,13 @@ def getSubmunitionValues(side, category, _class, submunition):
     subDamage         = getHit(side, category, _class, submunition)
     subIndirectDamage = getIndirectHit(side, category, _class, submunition)
     subIndirectRange  = getIndirectRange(side, category, _class, submunition)
-    subInitialSpeed   = getInitialSpeed(side, category, _class, submunition)
+    subInitialSpeed   = getInitialSpeed(side, category, "", _class, submunition)
+    if subInitialSpeed[1] == 0:
+        subInitialSpeed = subInitialSpeed[0]
     subTypicalSpeed   = getTypicalSpeed(side, category, _class, submunition)
     subCaliber        = getCaliber(side, category, _class, submunition)
 
-    if (("rhs" in _class.lower()) and (subInitialSpeed == 1000)):
+    if (("rhs" in _class.lower()) and (subInitialSpeed == 1000) and (fetchSide([side + category, _class, "weaponlocksystem"]) != 0)):
         subInitialSpeed = 900
         #All (that i've tested) RHS ATGMs travel before hitting armour and lose 100m/s
     elif subInitialSpeed == "":
@@ -374,23 +389,6 @@ def getWeaponStats(weapon, magazine, side, categoryA, categoryB):
     if (len(cartridge) == 0):
         cartridge = getCartridge(side, categoryB, magazine)
 
-    # Easier to do it manually for now :p
-    if cartridge == "Buckshot":
-        shot = []
-        for shotDistance in [100,200,300,400,500,1000,1500,2000]:
-            estSpeed = 331.8 * (1/math.exp(abs(-0.00634) * shotDistance))
-            shotDamage = 3.91 * (estSpeed/403.86)
-            shot.append('{:.3f}'.format(round(shotDamage,3)))
-        if side == "OpFor":
-            return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
-                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], shot[5], shot[6], shot[7], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
-        elif side == "BluFor":
-            return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","-0.00634",
-                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], shot[5], shot[6], shot[7], "X", "rhs_weap_M590_5RD","rhs_ammo_12g_00buckshot = 1Rnd 00 Buckshot", "0.24"]
-
-    #
-    #rhsusf_5Rnd_00Buck
-
     magCapacity   = getMagazineCapacity(side, categoryB, magazine)
     damage        = getHit(side, categoryB, magazine)
     fireModes     = [x.lower().replace("manual","Fullauto") for x in getFireModes(side, categoryA, weapon)]
@@ -401,7 +399,10 @@ def getWeaponStats(weapon, magazine, side, categoryA, categoryB):
     print("FireMode array: " + str(fireModes))
     print("RPM array: " + str(rpm))
     print("Dispersion array: " + str(dispersion))
-    initialSpeed  = getInitialSpeed(side, categoryB, magazine)
+    initialSpeed  = getInitialSpeed(side, categoryB, weapon, magazine)
+    weaponInitialSpeed = initialSpeed[1]
+    initialSpeed = initialSpeed[0]
+
     typicalSpeed  = getTypicalSpeed(side, categoryB, magazine)
     airResistance = getAirResistance(side, categoryB, magazine)
     caliber       = getCaliber(side, categoryB, magazine)
@@ -418,6 +419,22 @@ def getWeaponStats(weapon, magazine, side, categoryA, categoryB):
     rpm           = modeStats[1]
     dispersion    = modeStats[2]
 
+
+    # Easier to do it manually for now :p
+    if cartridge == "Buckshot":
+        shot = []
+        for shotDistance in [100,200,300,400,500,1000,1500,2000]:
+            estSpeed = 331.8 * (1/math.exp(abs(-0.00634) * shotDistance))
+            shotDamage = 3.91 * (estSpeed/403.86)
+            shot.append('{:.3f}'.format(round(shotDamage,3)))
+        if side == "OpFor":
+            return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86", "0","-0.00634",
+                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], shot[5], shot[6], shot[7], "X", "rhs_weap_Izh18","rhsgref_1Rnd_00Buck = 1Rnd 00 Buckshot", "0.24"]
+        elif side == "BluFor":
+            return ["X", "X", name, "Buckshot","1","35.19 (9*3.91)","Single","120", "0.945","331.8","403.86","0","-0.00634",
+                    "0.15|00.78|02.42", shot[0], shot[1], shot[2], shot[3], shot[4], shot[5], shot[6], shot[7], "X", "rhs_weap_M590_5RD","rhs_ammo_12g_00buckshot = 1Rnd 00 Buckshot", "0.24"]
+
+
     if type(rpm) == list:
         rpm = rpm[0]
         dispersion = dispersion[0]
@@ -430,6 +447,7 @@ def getWeaponStats(weapon, magazine, side, categoryA, categoryB):
     # hit = hit * (speed / typicalSpeed)
     hitValues = []
     for distance in [100,200,300,400,500,1000,1500,2000]:
+        print("initialSpeed = " + str(initialSpeed))
         estSpeed = initialSpeed * (1/math.exp(abs(airResistance) * distance))
         # str(distance).zfill(4) + ": " + '{:.2f}'.format(round(estSpeed, 2)).zfill(6) + " - Hit: " + '{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)) + "\n"
         hitValues.append('{:.3f}'.format(round(damage * (estSpeed/typicalSpeed),3)))
@@ -440,7 +458,8 @@ def getWeaponStats(weapon, magazine, side, categoryA, categoryB):
     # Some bullets have a highter typicalSpeed than initial - they will always do less damage than their Hit value
     damage = '{:.3f}'.format(round(damage * (initialSpeed / typicalSpeed), 3))
     return ["X", "X", name, cartridge, magCapacity, damage, fireModes, rpm, dispersion,
-            initialSpeed, typicalSpeed, airResistance, penetration,
+            initialSpeed, typicalSpeed, weaponInitialSpeed,
+            airResistance, penetration,
             hitValues[0], hitValues[1], hitValues[2], hitValues[3], hitValues[4], hitValues[5], hitValues[6], hitValues[7], "X", wepClass, magClass, caliber]
 
 def writeWeaponStats(weapon, side, csvwriter):
@@ -483,7 +502,7 @@ def writeWeaponStats(weapon, side, csvwriter):
     weaponStats[16] = "=\"" + str(weaponStats[16]) + "\""
     weaponStats[17] = "=\"" + str(weaponStats[17]) + "\""
     csvwriter.writerow(weaponStats)
-    print(SEPERATOR + "\n\n")
+    print(SEPERATOR)
 
 
 
@@ -550,7 +569,10 @@ def getVehicleWeaponStats(weapon, magazine, side, categoryA, categoryB):
     subSubmunition           =           getSubSubmunition(side, categoryB, magazine)
     sideAirResistance        =        getSideAirResistance(side, categoryB, magazine)
 
-    initialSpeed             =  getInitialSpeed(side, categoryB, magazine)
+    initialSpeed             =  getInitialSpeed(side, categoryB, weapon, magazine)
+    weaponInitialSpeed = initialSpeed[1]
+    initialSpeed = initialSpeed[0]
+
     typicalSpeed             =  getTypicalSpeed(side, categoryB, magazine)
     airResistance            = getAirResistance(side, categoryB, magazine)
 
@@ -597,18 +619,57 @@ def getVehicleWeaponStats(weapon, magazine, side, categoryA, categoryB):
     if dispersion        == []: dispersion = ""
 
     return [name, cartridge, capacity, damage, indirectDamage, indirectRange, subDamage, subIndirectDamage, subIndirectRange, subSubmunition, submunitionConeType,
-            warheadName, fireModes, reloadTime, dispersion, initialSpeed, typicalSpeed,
+            warheadName, fireModes, reloadTime, dispersion, initialSpeed, typicalSpeed, weaponInitialSpeed,
             airResistance, sideAirResistance, maxControlRange, RHSguideMode,
             penetration, subPenetration,
             thrust, thrustTime, maxSpeed, manoeuvrability, trackOversteer, trackLead, manualControlOffset, missileManualControlcone, flightProfiles,
             weapon, magazine, caliber, subCaliber]
 
+def printVehicleLauncherStats(weaponStats):
+    print(ccyan + "                       Name: " + cend + cgreen  + str(weaponStats[0])  + cend + "\n" +
+          ccyan + "                  Cartridge: " + cend + cgreen  + str(weaponStats[1])  + cend + "\n" +
+          cred + "                   Capacity: " + cend + cviolet + str(weaponStats[2])  + cend + "\n" +
+          cred + "                     Damage: " + cend + cviolet + str(weaponStats[3])  + cend + "\n" +
+          cred + "            Indirect Damage: " + cend + cviolet + str(weaponStats[4]) + cend + "\n" +
+          cred + "             Indirect Range: " + cend + cviolet + str(weaponStats[5]) + cend + "\n" +
+          cred + "                 Sub Damage: " + cend + cviolet + str(weaponStats[6]) + cend + "\n" +
+          cred + "        Sub Indirect Damage: " + cend + cviolet + str(weaponStats[7]) + cend + "\n" +
+          cred + "         Sub Indirect Range: " + cend + cviolet + str(weaponStats[8]) + cend + "\n" +
+          cred + "            Sub-submunition: " + cend + cviolet + str(weaponStats[9]) + cend + "\n" +
+          cred + "      Submunition Cont Type: " + cend + cviolet + str(weaponStats[10]) + cend + "\n" +
+          cred + "               Warhead Name: " + cend + cviolet + str(weaponStats[11]) + cend + "\n" +
+          cred + "                  Firemodes: " + cend + cviolet + str(weaponStats[12]) + cend + "\n" +
+          cred + "                Reload Time: " + cend + cviolet + str(weaponStats[13]) + cend + "\n" +
+          cred + "                 Dispersion: " + cend + cviolet + str(weaponStats[14]) + cend + "\n" +
+          cred + "              Initial Speed: " + cend + cviolet + str(weaponStats[15]) + cend + "\n" +
+          cred + "              Typical Speed: " + cend + cviolet + str(weaponStats[16]) + cend + "\n" +
+          cred + "       Weapon Initial Speed: " + cend + cviolet + str(weaponStats[17]) + cend + "\n" +
+          cred + "             Air Resistance: " + cend + cviolet + str(weaponStats[18]) + cend + "\n" +
+          cred + "        Side Air Resistance: " + cend + cviolet + str(weaponStats[19]) + cend + "\n" +
+          cred + "          Max Control Range: " + cend + cviolet + str(weaponStats[20]) + cend + "\n" +
+          cred + "             RHS Guide Mode: " + cend + cviolet + str(weaponStats[21]) + cend + "\n" +
+          cred + "                Penetration: " + cend + cviolet + str(weaponStats[22]) + cend + "\n" +
+          cred + "            Sub Penetration: " + cend + cviolet + str(weaponStats[23]) + cend + "\n" +
+          cred + "                     Thrust: " + cend + cviolet + str(weaponStats[24]) + cend + "\n" +
+          cred + "                Thrust Time: " + cend + cviolet + str(weaponStats[25]) + cend + "\n" +
+          cred + "                  Max Speed: " + cend + cviolet + str(weaponStats[26]) + cend + "\n" +
+          cred + "            Manoeuvrability: " + cend + cviolet + str(weaponStats[27]) + cend + "\n" +
+          cred + "            Track Oversteer: " + cend + cviolet + str(weaponStats[28]) + cend + "\n" +
+          cred + "                 Track Lead: " + cend + cviolet + str(weaponStats[29]) + cend + "\n" +
+          cred + "      Manual Control Offset: " + cend + cviolet + str(weaponStats[30]) + cend + "\n" +
+          cred + "Missile Manual Control Cone: " + cend + cviolet + str(weaponStats[31]) + cend + "\n" +
+          cred + "            Flight Profiles: " + cend + cviolet + str(weaponStats[32]) + cend + "\n" +
+          cred + "                     Weapon: " + cend + cviolet + str(weaponStats[33]) + cend + "\n" +
+          cred + "                   Magazine: " + cend + cviolet + str(weaponStats[34]) + cend + "\n" +
+          cred + "                    Caliber: " + cend + cviolet + str(weaponStats[35]) + cend + "\n" +
+          cred + "                Sub Caliber: " + cend + cviolet + str(weaponStats[36]) + cend)
+
 def writeVehicleWeaponStats(weapon, side, csvwriter):
     weaponStats = getVehicleWeaponStats(weapon[0], weapon[1], side, "VehicleWeapons", "VehicleMagazines")
     print(SEPERATOR)
-    print(ccyan + "Name: " + cend + cgreen  + str(weaponStats[0])  + cend)
+    printVehicleLauncherStats(weaponStats)
     csvwriter.writerow(weaponStats)
-    print(SEPERATOR + "\n\n")
+    print(SEPERATOR)
 
 
 
@@ -622,7 +683,7 @@ def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
     indirectDamage    =      getIndirectHit(side, categoryB, magazine)
     indirectRange     =    getIndirectRange(side, categoryB, magazine)
     submunition       =      getSubmunition(side, categoryB, magazine)
-    penetration = 0
+    penetration       = 0
     subDamage         = []
     subIndirectDamage = []
     subIndirectRange  = []
@@ -673,12 +734,15 @@ def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
     subSubmunition           =           getSubSubmunition(side, categoryB, magazine)
     sideAirResistance        =        getSideAirResistance(side, categoryB, magazine)
 
-    initialSpeed             =  getInitialSpeed(side, categoryB, magazine)
+    initialSpeed             =  getInitialSpeed(side, categoryB, weapon, magazine)
+    weaponInitialSpeed       = initialSpeed[1]
+    initialSpeed             = initialSpeed[0]
+
     typicalSpeed             =  getTypicalSpeed(side, categoryB, magazine)
     airResistance            = getAirResistance(side, categoryB, magazine)
 
-    print("---TypicalSpeed: " + str(typicalSpeed))
-    print("---Caliber: " + str(caliber))
+    #print("---TypicalSpeed: " + str(typicalSpeed))
+    #print("---Caliber: " + str(caliber))
 
     penetration              = ('{:.2f}'.format(round((typicalSpeed * caliber * 0.015),2)).zfill(4) + "|" +
                          '{:.2f}'.format(round((typicalSpeed * caliber * 0.080),2)).zfill(5) + "|" +
@@ -719,7 +783,7 @@ def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
     if dispersion        == []: dispersion = ""
 
     return [name, cartridge, capacity, damage, indirectDamage, indirectRange, subDamage, subIndirectDamage, subIndirectRange, subSubmunition, submunitionConeType,
-            warheadName, fireModes, reloadTime, dispersion, initialSpeed, typicalSpeed,
+            warheadName, fireModes, reloadTime, dispersion, initialSpeed, typicalSpeed, weaponInitialSpeed,
             airResistance, sideAirResistance, maxControlRange, RHSguideMode,
             penetration, subPenetration,
             thrust, thrustTime, maxSpeed, manoeuvrability, trackOversteer, trackLead, manualControlOffset, missileManualControlcone, flightProfiles,
@@ -728,15 +792,15 @@ def getLauncherStats(weapon, magazine, side, categoryA, categoryB):
 def writeLauncherStats(weapon, side, csvwriter):
     weaponStats = getLauncherStats(weapon[0], weapon[1], side, "Launchers", "LauncherMagazines")
     print(SEPERATOR)
-    print(ccyan + "Name: " + cend + cgreen  + str(weaponStats[0])  + cend)
+    printVehicleLauncherStats(weaponStats)
     csvwriter.writerow(weaponStats)
-    print(SEPERATOR + "\n\n")
+    print(SEPERATOR)
 
 
 
 
 
-weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed",
+weaponArray = ["x","x","Name","Cartridge","Capacity","Damage","Fire Modes", "RPM", "Dispersion", "Initial Speed", "Typical Speed", "weaponInitialSpeed",
                "Air Resistance", "Penetration", "Damage at 100m", "Damage at 200m", "Damage at 300m", "Damage at 400m", "Damage at 500m",
                "Damage at 1000m", "Damage at 1500m", "Damage at 2000m", "Unlock Level"
                "Weapon Class", "Magazine Class", "Caliber"]
@@ -810,7 +874,7 @@ opForWeapons = [
     ["rhs_weap_vss"          ,"rhs_10rnd_9x39mm_sp5"         ]
 ]
 vehicleWeaponArray = ["Name","Cartridge","Capacity","Damage","Indirect Damage","Indirect Range", "Submunition Damage", "Submunition Indirect Damage", "Submunition Indirect Range", "Sub-Submunition", "Submunition Cone",
-                      "Warhead", "Fire Modes", "reloadTime", "Dispersion", "Initial Speed", "Typical Speed",
+                      "Warhead", "Fire Modes", "reloadTime", "Dispersion", "Initial Speed", "Typical Speed", "weaponInitialSpeed",
                       "Air Resistance", "Side Air Reistance", "Control Range", "RHS Guide Mode",
                       "Penetration", "Submunition Penetration",
                       "Thrust", "Thrust Time", "Max speed", "Manoeuvrability", "Track Oversteer", "Track Lead", "Control Offset", "Control Cone", "Flight Profiles",
