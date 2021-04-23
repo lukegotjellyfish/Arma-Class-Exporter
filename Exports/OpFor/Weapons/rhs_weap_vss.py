@@ -228,8 +228,8 @@ rhs_weap_vss = {
     # Recoil Class: recoil,
     # Class: CfgRecoils|rhs_recoil_asval [Indent level: 0],
     "recoil": {
-        "muzzleouter": [0.1,0.4,0.3,0.2],
-        "kickback": [0.01,0.03],
+        "muzzleouter": [0.2,0.8,0.4,0.3],
+        "kickback": [0.03,0.05],
         "temporary": 0.015,
         "muzzleinner": [0,0,0.1,0.1],
         "permanent": 0.1

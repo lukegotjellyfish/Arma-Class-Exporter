@@ -985,7 +985,9 @@ opForVehicleWeapons = [
     ["rhs_weap_gsh23l"        ,"rhs_mag_upk23_mixed"        ],
     ["rhs_weap_gsh302"        ,"rhs_mag_gsh30_bt_250"       ],
     ["rhs_weap_s13"           ,"rhs_mag_b13l_s13b"          ],
+    ["rhs_weap_s13"           ,"rhs_mag_b13l_s13t"          ],
     ["rhs_weap_9m120_launcher","rhs_mag_9m120m_mi28_8x"     ],
+    ["rhs_weap_zt3_launcher"  ,"rhs_mag_zt3_4"],
     ["rhs_weap_zt6_launcher"  ,"rhs_mag_zt6_4"              ],
     ["rhs_weap_2a70","rhs_mag_3uof191_22"],
     ["rhs_weap_2a70","rhs_mag_9m117m1_8"]

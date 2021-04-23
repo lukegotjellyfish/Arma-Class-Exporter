@@ -29,6 +29,7 @@ rhsgref_a29b_hidf = {
     "driverweaponsinfotype": "RHS_RscOptics_A29_FlirCamera",
     "drivercaneject": 1,
     "destrtype": "DestructDefault",
+    "rhs_gearanim": "GearLever",
     "defaultusermfdvalues": [0.1,1,0.1,0,1,0,2,3,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,8000],
     # Class: CfgVehicles|RHSGREF_A29_Base|MFD [Indent level: 1],
     "mfd": {
@@ -19471,6 +19472,8 @@ rhsgref_a29b_hidf = {
     "memorypointldust": "DustL",
     "memorypointrdust": "DustR",
     "memorypointgun": ["usti hlavne 1","usti hlavne 2"],
+    "gunbeg": ["usti hlavne 1","usti hlavne 2"],
+    "gunend": ["konec hlavne 1","konec hlavne 2"],
     # Class: CfgVehicles|RHSGREF_A29_Base|AnimationSources [Indent level: 1],
     "animationsources": {
         # Class: CfgVehicles|RHSGREF_A29_Base|AnimationSources|Damper_1_source [Indent level: 2]
@@ -20078,11 +20081,7 @@ rhsgref_a29b_hidf = {
         "hit": "_this call bis_fnc_planeAiEject",
         "init": "",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
-        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
-        "rhs_defaulteventhandlers": {
-            "hitpart": "_this call rhs_fnc_hitPart"
-        }
+        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');"
     },
     # Class: CfgVehicles|RHSGREF_A29_Base|UserActions [Indent level: 1],
     "useractions": {

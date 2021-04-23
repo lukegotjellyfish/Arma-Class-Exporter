@@ -33,11 +33,8 @@ rhs_weap_type94_new = {
     "cameradir": "eye_look",
     "maxzeroing": 25,
     "magazines": ["rhs_mag_6x8mm_mhp"],
-    "dispersion": 0.02,
-    "ffcount": 1,
-    "airateoffire": 0.5,
-    "airateoffiredistance": 50,
     "baseweapon": "rhs_weap_type94_new",
+    "initspeed": -1,
     "minrange": 0,
     "minrangeprobab": 0.1,
     "midrange": 30,
@@ -484,6 +481,10 @@ rhs_weap_type94_new = {
         "aimtransitionspeed": 1
     },
     "magazinewell": ["CBA_9x19_MP443"],
+    "dispersion": 0.02,
+    "ffcount": 1,
+    "airateoffire": 0.5,
+    "airateoffiredistance": 50,
     # Class: CfgWeapons|rhs_weap_pya|Library [Indent level: 1],
     "library": {
         "libtextdesc": "MP-443"
@@ -514,97 +515,14 @@ rhs_weap_type94_new = {
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons|hgun_Rook40_F|Single|BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_01",0.158489,1,10],
-            "closure2": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_02",0.158489,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Class: CfgWeapons|hgun_Rook40_F|Single|StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_short_01",3.16228,1,1200],
-            "begin2": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_short_02",3.16228,1,1200],
-            "begin3": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_short_03",3.16228,1,1200],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons|hgun_Rook40_F|Single|StandardSound|SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons|hgun_Rook40_F|Single|StandardSound|SoundTails|TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_tail_interior",1.41254,1,1200],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|StandardSound|SoundTails|TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_tail_trees",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|StandardSound|SoundTails|TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_tail_forest",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|StandardSound|SoundTails|TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_tail_meadows",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|StandardSound|SoundTails|TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Rook40_tail_houses",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["Rook40_Shot_SoundSet","Rook40_Tail_SoundSet","Rook40_InteriorTail_SoundSet"],
-            "closure1": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_01",0.158489,1,10],
-            "closure2": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_02",0.158489,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["Rook40_Shot_SoundSet","Rook40_Tail_SoundSet","Rook40_InteriorTail_SoundSet"]
         },
         # Class: CfgWeapons|hgun_Rook40_F|Single|SilencedSound [Indent level: 2],
         "silencedsound": {
-            "begin1": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_short_01",0.562341,1,400],
-            "begin2": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_short_02",0.562341,1,400],
-            "begin3": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_short_03",0.562341,1,400],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin2",0.34],
-            # Class: CfgWeapons|hgun_Rook40_F|Single|SilencedSound|SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons|hgun_Rook40_F|Single|SilencedSound|SoundTails|TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|SilencedSound|SoundTails|TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|SilencedSound|SoundTails|TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|SilencedSound|SoundTails|TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons|hgun_Rook40_F|Single|SilencedSound|SoundTails|TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Silencer_Rook40_tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["Rook40_silencerShot_SoundSet","Rook40_silencerTail_SoundSet","Rook40_silencerInteriorTail_SoundSet"],
-            "closure1": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_01",0.158489,1,10],
-            "closure2": ["A3|Sounds_F|arsenal|weapons|Pistols|Rook40|Closure_Rook40_02",0.158489,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["Rook40_silencerShot_SoundSet","Rook40_silencerTail_SoundSet","Rook40_silencerInteriorTail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.03,0.036943,0.0268696,0.09,0.019755,0.006112,0.12,0,0,0.18,-0.003138,-0.001,0.12,-0.001177,-0.000376,0.12,0,0],
@@ -654,7 +572,6 @@ rhs_weap_type94_new = {
     "inertia": 0.2,
     "aimtransitionspeed": 1.6,
     "dexterity": 1.8,
-    "initspeed": 450,
     # Recoil Class: recoil,
     # Class: CfgRecoils|recoil_pistol_rook40 [Indent level: 0],
     "recoil": {

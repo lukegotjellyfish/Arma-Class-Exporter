@@ -24,11 +24,7 @@ c_hatchback_01_sport_red_f = {
     "eventhandlers": {
         "init": "if (local (_this select 0)) then {[(_this select 0), `, [], false] call bis_fnc_initVehicle;};",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
-        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
-        "rhs_defaulteventhandlers": {
-            "hitpart": "_this call rhs_fnc_hitPart"
-        }
+        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');"
     },
     # Class: CfgVehicles|C_Hatchback_01_sport_F|Reflectors [Indent level: 1],
     "reflectors": {

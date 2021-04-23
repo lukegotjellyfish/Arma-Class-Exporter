@@ -1,5 +1,6 @@
 rhs_mag_azp23_100 = {
     "count": 100,
+    "muzzleimpulsefactor": [0.5,0.2],
     "scope": 2,
     "displayname": "AZP-23",
     # Ammo: CfgMagazines|rhs_mag_AZP23_250|ammo [Indent level: 1],
@@ -19,7 +20,7 @@ rhs_mag_azp23_100 = {
         "tracerscale": 1.85,
         "tracerstarttime": 0.1,
         "tracerendtime": 5.5,
-        "airfriction": -0.000824,
+        "airfriction": -0.000471,
         "muzzleeffect": "",
         "caliber": 1.11,
         "warheadname": "HE",

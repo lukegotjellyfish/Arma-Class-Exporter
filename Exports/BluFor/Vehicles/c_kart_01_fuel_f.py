@@ -1241,11 +1241,7 @@ c_kart_01_fuel_f = {
     "eventhandlers": {
         "init": "",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
-        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
-        "rhs_defaulteventhandlers": {
-            "hitpart": "_this call rhs_fnc_hitPart"
-        }
+        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');"
     },
     "htmin": 60,
     "htmax": 1800,
@@ -2822,5 +2818,5 @@ c_kart_01_fuel_f = {
     "soundturnout": ["",0.000316228,1],
     "soundturnininternal": ["",0.000316228,1],
     "soundturnoutinternal": ["",0.000316228,1],
-    "insidedetectcoef": 0.05
+    "insidedetectcoef": 0.05,
 }

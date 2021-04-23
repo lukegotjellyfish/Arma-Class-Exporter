@@ -2683,11 +2683,11 @@
 },
 "rhsgref_30rnd_792x33_sme_stg": {
     "author": "Red Hammer Studios",
+    "picture": "rhsgref\\addons\\rhsgref_inventoryicons\\data\\magazines\\rhsgref_30Rnd_792x33_SmE_StG_ca.paa",
     "scope": 2,
     "scopecurator": 2,
     "displayname": "30Rnd 7.92x33 S.m.E.",
     "model": "rhsgref\\addons\\rhsgref_weapons2\\magazines\\rhs_mp44_mag",
-    "picture": "A3\\Weapons_F_EPA\\Data\\ui\\M_5rnd_127x108_ball_CA.paa",
     # Ammo: CfgMagazines\\rhsgref_30Rnd_792x33_SmE_StG\\ammo [Indent level: 1],
     "ammo": {
         "_dictAmmoName": "rhs_ammo_792x33_SmE_ball",

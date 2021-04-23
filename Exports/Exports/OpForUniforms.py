@@ -1846,7 +1846,7 @@
 "rhs_6b23_digi_6sh92_spetsnaz2": {
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\vests\\rhs_6b23_digi_6sh92_spetsnaz2_ca.paa",
-    "displayname": "6b23 EMR-Summer (6Sh92) SpNz",
+    "displayname": "6B23 EMR-Summer (6Sh92) SpNz",
     "model": "rhsafrf\\addons\\rhs_infantry\\gear\\vests\\rhs_6b23_6sh92_spetsnaz",
     # Class: CfgWeapons\\rhs_6b23_digi_6sh92_spetsnaz2\\ItemInfo [Indent level: 1],
     "iteminfo": {
@@ -5415,14 +5415,14 @@
 },
 "rhs_6b5_rifleman_khaki": {
     "author": "Red Hammer Studios",
-    "picture": "rhsgref\\addons\\rhsgref_inventoryicons\\data\\Vests\\rhs_6b5_rifleman_khaki_ca.paa",
+    "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\vests\\rhs_6b5_rifleman_khaki_ca.paa",
     "displayname": "6B5-19 (6Sh46)",
     "hiddenselections": ["camo1"],
-    "hiddenselectionstextures": ["rhsgref\\addons\\rhsgref_infantry\\data_cdf\\6b5_khaki_co.paa"],
-    "model": "rhsgref\\addons\\rhsgref_infantry\\gear_cdf\\vests\\rhs_6b5_6sh46_rifleman",
+    "hiddenselectionstextures": ["rhsafrf\\addons\\rhs_infantry2\\data\\6b5_khaki_co.paa"],
+    "model": "rhsafrf\\addons\\rhs_infantry2\\gear\\vests\\rhs_6b5_6sh46_rifleman",
     # Class: CfgWeapons\\rhs_6b5_rifleman\\ItemInfo [Indent level: 1],
     "iteminfo": {
-        "uniformmodel": "rhsgref\\addons\\rhsgref_infantry\\gear_cdf\\vests\\rhs_6b5_6sh46_rifleman",
+        "uniformmodel": "rhsafrf\\addons\\rhs_infantry2\\gear\\vests\\rhs_6b5_6sh46_rifleman",
         "containerclass": "Supply130",
         "mass": 147,
         # Class: CfgWeapons\\rhs_6b5\\ItemInfo\\HitpointsProtectionInfo [Indent level: 2],
@@ -5467,7 +5467,7 @@
         "showholsteredpistol": 0,
         "scope": 0
     },
-    "descriptionshort": "Armor Level 6",
+    "descriptionshort": "Armor Level 5",
     "dlc": "RHS_AFRF",
     "scope": 2,
     "_generalmacro": "Vest_Camo_Base",
@@ -9876,6 +9876,7 @@
     "aimtransitionspeed": 1,
 },
 "rhs_ssh68": {
+    "scope": 1,
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\headgear\\rhs_ssh68_ca.paa",
     "allowedfacewear": ["",8,"rhs_scarf",1,"G_Aviator",1],
@@ -9906,7 +9907,6 @@
     },
     "dlc": "RHS_AFRF",
     "_generalmacro": "H_HelmetB",
-    "scope": 2,
     "weaponpoolavailable": 1,
     "descriptionshort": "Armor Level II",
     "muzzles": [],
@@ -12820,6 +12820,7 @@
     "aimtransitionspeed": 1,
 },
 "rhs_uniform_m88_patchless": {
+    "scope": 1,
     "author": "Red Hammer Studios",
     "picture": "rhsafrf\\addons\\rhs_inventoryicons\\data\\uniform\\rhs_uniform_m88_patchless_ca.paa",
     "displayname": "M88",
@@ -12833,7 +12834,6 @@
         "scope": 0
     },
     "dlc": "RHS_AFRF",
-    "scope": 2,
     "model": "A3\\Characters_F\\Common\\Suitpacks\\suitpack_blufor_diver",
     "allowedslots": [901],
     "muzzles": [],
@@ -13475,7 +13475,7 @@
     "displayname": "EMR-Summer (VDV)",
     # Class: CfgWeapons\\rhs_uniform_vdv_emr\\ItemInfo [Indent level: 1],
     "iteminfo": {
-        "uniformclass": "rhs_vdv_rifleman",
+        "uniformclass": "rhs_vdv_emr_patchless",
         "uniformmodel": "-",
         "containerclass": "Supply40",
         "mass": 40,

@@ -2626,6 +2626,8 @@
     "picture": "rhsusf\\addons\\rhsusf_inventoryicons\\data\\weapons\\rhsusf_weap_MP7A2_ca.paa",
     "displayname": "MP7A2",
     "scope": 2,
+    "rhs_fold_nogrip": 1,
+    "rhs_fold": "rhsusf_weap_MP7A2_folded",
     "baseweapon": "rhsusf_weap_MP7A2",
     "initspeed": -1,
     "magazines": ["rhsusf_mag_40Rnd_46x30_FMJ","rhsusf_mag_40Rnd_46x30_JHP","rhsusf_mag_40Rnd_46x30_AP"],
@@ -2641,6 +2643,16 @@
     "maxrecoilsway": 0.0125,
     "swaydecayspeed": 1.25,
     "inertia": 0.35,
+    # Recoil Class: recoil,
+    # Class: CfgRecoils\\rhs_recoil_mp7 [Indent level: 0],
+    "recoil": {
+        "muzzleouter": [0.1,0.4,0.2,0.2],
+        "kickback": [0.01,0.02],
+        "temporary": 0.01,
+        "muzzleinner": [0,0,0.1,0.1],
+        "permanent": 0.1
+    },
+    "weaponinfotype": "rhs_rscOptics_mp7",
     # Class: CfgWeapons\\rhsusf_weap_MP7A1_base_f\\GunParticles [Indent level: 1],
     "gunparticles": {
         # Class: CfgWeapons\\rhsusf_weap_MP7A1_base_f\\GunParticles\\SecondEffect [Indent level: 2]
@@ -2666,15 +2678,15 @@
             "iconscale": 0.2,
             "iconpicture": "A3\\Weapons_F\\Data\\clear_empty.paa",
             "iconpinpoint": "Left",
+            "displayname": "$str_a3_cfgweapons_abr_base_f_weaponslotsinfo_muzzleslot0",
+            "linkproxy": "A3\\data_f\\proxies\\weapon_slots\\MUZZLE",
             # Class: rhs_western_46mmsmg_muzzle_slot\\compatibleItems [Indent level: 0],
             "compatibleitems": {
                 "rhsusf_acc_rotex_mp7": 1,
                 "rhsusf_acc_rotex_mp7_desert": 1,
                 "rhsusf_acc_rotex_mp7_winter": 1,
                 "rhsusf_acc_rotex_mp7_aor1": 1
-            },
-            "displayname": "$str_a3_cfgweapons_abr_base_f_weaponslotsinfo_muzzleslot0",
-            "linkproxy": "A3\\data_f\\proxies\\weapon_slots\\MUZZLE"
+            }
         },
         # Class: CfgWeapons\\rhsusf_weap_MP7A1_base_f\\WeaponSlotsInfo\\CowsSlot [Indent level: 2],
         "cowsslot": {
@@ -2742,6 +2754,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -2938,7 +2957,7 @@
     "modes": ["Single","FullAuto"],
     # Class: CfgWeapons\\rhsusf_weap_MP7A1_base_f\\Single [Indent level: 1],
     "single": {
-        "reloadtime": 0.075,
+        "reloadtime": 0.0631579,
         "dispersion": 0.00203,
         "minrange": 2,
         "minrangeprobab": 0.3,
@@ -2959,9 +2978,6 @@
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\SMG_02_base_F\\Single\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_01",1,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_02",1,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.03,0.0110829,0.021522,0.03,0.0159085,0.0085068,0.03,0.0138285,0.0058064,0.06,0.0066492,0.002394,0.06,-0.0007206,-0.001344,0.06,-0.001765,-0.00141,0.06,-0.0018385,-0.000882,0.06,-0.0009414,-0.00025,0.06,0,0],
@@ -3000,7 +3016,7 @@
     },
     # Class: CfgWeapons\\rhsusf_weap_MP7A1_base_f\\FullAuto [Indent level: 1],
     "fullauto": {
-        "reloadtime": 0.075,
+        "reloadtime": 0.0631579,
         "dispersion": 0.00203,
         "minrange": 0,
         "minrangeprobab": 0.1,
@@ -3021,9 +3037,6 @@
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\SMG_02_base_F\\FullAuto\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_01",1,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_02",1,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.06,0.0221658,0.0121958,0.06,0.031817,0.0052542,0.06,0.027657,0.0036672,0.06,0.0132984,0.001596,0.03,-0.0014412,-0.001344,0.03,-0.00353,-0.00141,0.03,-0.003677,-0.000882,0.06,-0.0018828,-0.00025,0.06,0,0],
@@ -3068,15 +3081,6 @@
     "rhs_grip2_change": "rhsusf_weap_MP7A2_grip2",
     "rhs_grip3_change": "rhsusf_weap_MP7A2_grip3",
     "_generalmacro": "SMG_02_base_F",
-    # Recoil Class: recoil,
-    # Class: CfgRecoils\\recoil_smg_02 [Indent level: 0],
-    "recoil": {
-        "muzzleouter": [0.1,0.4,0.2,0.2],
-        "kickback": [0.01,0.02],
-        "temporary": 0.01,
-        "muzzleinner": [0,0,0.1,0.1],
-        "permanent": 0.1
-    },
     "cursor": "smg",
     "discretedistanceinitindex": 0,
     "bullet1": ["A3\\sounds_f\\weapons\\shells\\9mm\\metal_9mm_01",0.501187,1,15],
@@ -3097,97 +3101,14 @@
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\SMG_02_base_F\\Burst\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_01",1,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_02",1,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Class: CfgWeapons\\SMG_02_base_F\\Burst\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_short_01",2.81838,1,1200],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_short_02",2.81838,1,1200],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_short_03",2.81838,1,1200],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\\SMG_02_base_F\\Burst\\StandardSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\StandardSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_tail_interior",1.58489,1,1200],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\StandardSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_tail_trees",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\StandardSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_tail_forest",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\StandardSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_tail_meadows",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\StandardSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Sting_tail_houses",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["SMGSting_Shot_SoundSet","SMGSting_Tail_SoundSet","SMGSting_InteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_01",1,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_02",1,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["SMGSting_Shot_SoundSet","SMGSting_Tail_SoundSet","SMGSting_InteriorTail_SoundSet"]
         },
         # Class: CfgWeapons\\SMG_02_base_F\\Burst\\SilencedSound [Indent level: 2],
         "silencedsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Silencer_Sting_short_01",0.891251,1,400],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Silencer_Sting_short_02",0.891251,1,400],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Silencer_Sting_short_03",0.891251,1,400],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\\SMG_02_base_F\\Burst\\SilencedSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\SilencedSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Silencer_Sting_Tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\SilencedSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Silencer_Sting_Tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\SilencedSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\silencer_Sting_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\SilencedSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Silencer_Sting_Tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\SMG_02_base_F\\Burst\\SilencedSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\Silencer_Sting_Tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["SMGSting_silencerShot_SoundSet","SMGSting_silencerTail_SoundSet","SMGSting_silencerInteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_01",1,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Sting\\closure_Sting_02",1,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["SMGSting_silencerShot_SoundSet","SMGSting_silencerTail_SoundSet","SMGSting_silencerInteriorTail_SoundSet"]
         },
         "soundburst": 0,
         "burst": 3,
@@ -3618,7 +3539,6 @@
         "inertia": 0.5,
         "aimtransitionspeed": 1
     },
-    "weaponinfotype": "RscWeaponZeroing",
     "deployedpivot": "bipod",
     "htmin": 1,
     "htmax": 600,
@@ -3989,6 +3909,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -6426,6 +6353,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -9396,7 +9330,7 @@
     # Class: CfgWeapons\\rhs_weap_kar98k_Base_F\\Single [Indent level: 1],
     "single": {
         "reloadtime": 1.6,
-        "dispersion": 0.0002909,
+        "dispersion": 0.00043635,
         "minrange": 2,
         "minrangeprobab": 0.3,
         "midrange": 250,
@@ -9458,7 +9392,7 @@
         "airateoffiredistance": 700,
         "requiredoptictype": 1,
         "reloadtime": 1.6,
-        "dispersion": 0.0002909,
+        "dispersion": 0.00043635,
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kar98k_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -9510,7 +9444,7 @@
         "airateoffiredistance": 1000,
         "requiredoptictype": 2,
         "reloadtime": 1.6,
-        "dispersion": 0.0002909,
+        "dispersion": 0.00043635,
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kar98k_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -9562,7 +9496,7 @@
         "requiredoptictype": 2,
         "showtoplayer": 0,
         "reloadtime": 1.6,
-        "dispersion": 0.0002909,
+        "dispersion": 0.00043635,
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_kar98k_Base_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -9955,7 +9889,7 @@
     # Class: CfgWeapons\\rhs_weap_l1a1_base\\Single [Indent level: 1],
     "single": {
         "reloadtime": 0.0888889,
-        "dispersion": 0.0021,
+        "dispersion": 0.0011636,
         "minrange": 2,
         "minrangeprobab": 0.5,
         "midrange": 200,
@@ -10023,7 +9957,7 @@
         "airateoffiredispersion": 2,
         "airateoffiredistance": 300,
         "reloadtime": 0.0888889,
-        "dispersion": 0.0021,
+        "dispersion": 0.0011636,
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\rhs_weap_fnfal_base\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -10079,7 +10013,7 @@
         "airateoffiredispersion": 4,
         "airateoffiredistance": 600,
         "reloadtime": 0.0888889,
-        "dispersion": 0.0021,
+        "dispersion": 0.0011636,
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\rhs_weap_fnfal_base\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -10135,7 +10069,7 @@
         "airateoffiredistance": 800,
         "showtoplayer": 0,
         "reloadtime": 0.0888889,
-        "dispersion": 0.0021,
+        "dispersion": 0.0011636,
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\rhs_weap_fnfal_base\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -10683,7 +10617,7 @@
     # Class: CfgWeapons\\rhs_weap_fnfal_base\\FullAuto [Indent level: 1],
     "fullauto": {
         "reloadtime": 0.0857143,
-        "dispersion": 0.0021,
+        "dispersion": 0.0011636,
         "minrange": 0,
         "minrangeprobab": 0.9,
         "midrange": 15,
@@ -10752,7 +10686,7 @@
         "airateoffiredispersion": 3,
         "airateoffiredistance": 200,
         "reloadtime": 0.0857143,
-        "dispersion": 0.0021,
+        "dispersion": 0.0011636,
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\rhs_weap_fnfal_base\\FullAuto\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -11282,6 +11216,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -12404,6 +12345,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -13902,6 +13850,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -18876,6 +18831,7 @@
     "swaydecayspeed": 1.25,
     "inertia": 0.5,
     "reloadaction": "RHS_GestureReloadAKS",
+    "rhs_fold_checkoptic": 0,
     # Class: CfgWeapons\\rhs_weap_m70_base\\Library [Indent level: 1],
     "library": {
         "libtextdesc": ""
@@ -20524,6 +20480,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -23196,6 +23159,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -24579,6 +24549,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -25825,6 +25802,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -28875,6 +28859,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -28996,7 +28987,7 @@
             "soundsetshot": ["RHSGREF_sd_m3a1_Shot_SoundSet","RHSGREF_sd_rifle1_Tail_SoundSet"]
         },
         "reloadtime": 0.15,
-        "dispersion": 0.00131,
+        "dispersion": 0.002909,
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.06,0.0221658,0.0050218,0.06,0.031817,0.0032526,0.06,0.027657,0.0024448,0.06,0.0132984,0.00114,0.03,-0.0014412,-0.001152,0.03,-0.00353,-0.001128,0.03,-0.003677,-0.000588,0.06,-0.0018828,-0.00025,0.06,0,0],
         # Recoil Array: recoilprone,
@@ -29941,6 +29932,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -31155,8 +31153,11 @@
         },
         # Class: CfgWeapons\\rhs_weap_m4_Base\\WeaponSlotsInfo\\CowsSlot [Indent level: 2],
         "cowsslot": {
-            # Class: asdg_OpticRail1913_short\\compatibleItems [Indent level: 0]
+            # Class: CfgWeapons\\rhs_weap_m4_Base\\WeaponSlotsInfo\\CowsSlot\\compatibleItems [Indent level: 3]
             "compatibleitems": {
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 0,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 0,
+                "rhsusf_acc_nxs_5522x56_md_sun": 0,
                 "rhs_acc_rakurspm": 1,
                 "rhs_acc_dh520x56": 1,
                 "rhs_acc_ekp8_18": 1,
@@ -31217,6 +31218,10 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -34399,6 +34404,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -37304,7 +37316,7 @@
     "optics": 1,
     "modeloptics": "-",
     "displayname": "M590A1 (Short)",
-    "descriptionshort": "Shotgun<br />Caliber: 12 gauge",
+    "descriptionshort": "Shotgun <br />Caliber: 12 gauge",
     "weaponinfotype": "rhs_m590_handler",
     "modes": ["Single"],
     "muzzles": ["this","SAFE","RHS_ReloadAction"],
@@ -38658,7 +38670,7 @@
     "aimtransitionspeed": 0.296274,
     "reloadaction": "RHS_GestureReloadMG42",
     "handanim": ["OFP2_ManSkeleton","\\rhsgref\\addons\\rhsgref_c_weapons\\anims\\rhs_hand_MG42.rtm"],
-    "descriptionshort": "General Purpose Machine Gun<br />Caliber: 7.92Ã57mm",
+    "descriptionshort": "Machine Gun<br />Caliber: 7.92Ã57mm",
     # Class: CfgWeapons\\rhs_weap_mg42_base\\Library [Indent level: 1],
     "library": {
         "libtextdesc": "The MG42 is a 7.92Ã57mm Mauser general purpose machine gun used extensively by the German armed forces during the second half of World War II."
@@ -39337,6 +39349,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -42358,7 +42377,7 @@
     # Class: CfgWeapons\\rhs_weap_mosin_sbr\\Single [Indent level: 1],
     "single": {
         "reloadtime": 1.6,
-        "dispersion": 0.001635,
+        "dispersion": 0.0005818,
         "minrange": 2,
         "minrangeprobab": 0.3,
         "midrange": 250,
@@ -42425,7 +42444,7 @@
         "airateoffiredispersion": 3,
         "airateoffiredistance": 700,
         "reloadtime": 1.6,
-        "dispersion": 0.001635,
+        "dispersion": 0.0005818,
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\rhs_weap_mosin_sbr\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -42481,7 +42500,7 @@
         "airateoffiredistance": 1000,
         "showtoplayer": 0,
         "reloadtime": 1.6,
-        "dispersion": 0.001635,
+        "dispersion": 0.0005818,
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\rhs_weap_mosin_sbr\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -42537,7 +42556,7 @@
         "requiredoptictype": 2,
         "showtoplayer": 0,
         "reloadtime": 1.6,
-        "dispersion": 0.001635,
+        "dispersion": 0.0005818,
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\rhs_weap_mosin_sbr\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -42652,6 +42671,13 @@
                 "rhsusf_acc_m8541_low": 1,
                 "rhsusf_acc_m8541_low_d": 1,
                 "rhsusf_acc_m8541_low_wd": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -43672,7 +43698,7 @@
     # Class: CfgWeapons\\rhs_weap_MP44_base\\Single [Indent level: 1],
     "single": {
         "reloadtime": 0.103448,
-        "dispersion": 0.0021,
+        "dispersion": 0.00130905,
         "minrange": 2,
         "minrangeprobab": 0.5,
         "midrange": 200,
@@ -43724,7 +43750,7 @@
     # Class: CfgWeapons\\rhs_weap_MP44_base\\FullAuto [Indent level: 1],
     "fullauto": {
         "reloadtime": 0.103448,
-        "dispersion": 0.0021,
+        "dispersion": 0.00130905,
         "minrange": 0,
         "minrangeprobab": 0.9,
         "midrange": 15,
@@ -43786,7 +43812,7 @@
         "airateoffire": 6,
         "airateoffiredistance": 600,
         "reloadtime": 0.103448,
-        "dispersion": 0.0021,
+        "dispersion": 0.00130905,
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_MP44_base\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -43838,7 +43864,7 @@
         "airateoffiredistance": 800,
         "showtoplayer": 0,
         "reloadtime": 0.103448,
-        "dispersion": 0.0021,
+        "dispersion": 0.00130905,
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_MP44_base\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -43890,7 +43916,7 @@
         "airateoffire": 2,
         "airateoffiredistance": 200,
         "reloadtime": 0.103448,
-        "dispersion": 0.0021,
+        "dispersion": 0.00130905,
         "sounds": ["StandardSound"],
         # Class: CfgWeapons\\rhs_weap_MP44_base\\FullAuto\\StandardSound [Indent level: 2],
         "standardsound": {
@@ -44296,7 +44322,7 @@
     # Class: CfgWeapons\\rhs_weap_savz61\\Single [Indent level: 1],
     "single": {
         "reloadtime": 0.075,
-        "dispersion": 0.0005,
+        "dispersion": 0.002909,
         "minrange": 2,
         "minrangeprobab": 0.3,
         "midrange": 200,
@@ -44312,53 +44338,10 @@
         },
         # Class: CfgWeapons\\SMG_01_Base\\Single\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_02",0.562341,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Class: CfgWeapons\\SMG_01_Base\\Single\\SilencedSound [Indent level: 2],
         "silencedsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_01",0.891251,1,400],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_02",0.891251,1,400],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_03",0.891251,1,400],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\\SMG_01_Base\\Single\\SilencedSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\SMG_01_Base\\Single\\SilencedSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Single\\SilencedSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Single\\SilencedSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\silencer_Vermin_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Single\\SilencedSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Single\\SilencedSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_02",0.562341,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.03,0.0110829,0.014348,0.03,0.0159085,0.0060048,0.03,0.0138285,0.0042784,0.06,0.0066492,0.001824,0.06,-0.0007206,-0.001152,0.06,-0.001765,-0.001128,0.06,-0.0018385,-0.000588,0.06,-0.0009414,-0.00025,0.06,0,0],
@@ -44398,7 +44381,7 @@
     # Class: CfgWeapons\\rhs_weap_savz61\\FullAuto [Indent level: 1],
     "fullauto": {
         "reloadtime": 0.075,
-        "dispersion": 0.0005,
+        "dispersion": 0.002909,
         "minrange": 0,
         "minrangeprobab": 0.1,
         "midrange": 25,
@@ -44414,53 +44397,10 @@
         },
         # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_02",0.562341,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\SilencedSound [Indent level: 2],
         "silencedsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_01",0.891251,1,400],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_02",0.891251,1,400],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_03",0.891251,1,400],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\SilencedSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\SilencedSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\SilencedSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\SilencedSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\silencer_Vermin_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\SilencedSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\FullAuto\\SilencedSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_02",0.562341,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.06,0.0221658,0.0050218,0.06,0.031817,0.0032526,0.06,0.027657,0.0024448,0.06,0.0132984,0.00114,0.03,-0.0014412,-0.001152,0.03,-0.00353,-0.001128,0.03,-0.003677,-0.000588,0.06,-0.0018828,-0.00025,0.06,0,0],
@@ -44541,97 +44481,14 @@
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\SMG_01_Base\\Burst\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_02",0.562341,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Class: CfgWeapons\\SMG_01_Base\\Burst\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_short_01",2.81838,1,1200],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_short_02",2.81838,1,1200],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_short_03",2.81838,1,1200],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\\SMG_01_Base\\Burst\\StandardSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\StandardSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_tail_interior",1.58489,1,1200],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\StandardSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_tail_trees",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\StandardSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_tail_forest",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\StandardSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_tail_meadows",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\StandardSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Vermin_tail_houses",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["SMGVermin_Shot_SoundSet","SMGVermin_Tail_SoundSet","SMGVermin_InteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_02",0.562341,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["SMGVermin_Shot_SoundSet","SMGVermin_Tail_SoundSet","SMGVermin_InteriorTail_SoundSet"]
         },
         # Class: CfgWeapons\\SMG_01_Base\\Burst\\SilencedSound [Indent level: 2],
         "silencedsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_01",0.891251,1,400],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_02",0.891251,1,400],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_short_03",0.891251,1,400],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\\SMG_01_Base\\Burst\\SilencedSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\SilencedSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\SilencedSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\SilencedSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\silencer_Vermin_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\SilencedSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\SMG_01_Base\\Burst\\SilencedSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\Silencer_Vermin_Tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_01",0.562341,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\SMG\\Vermin\\closure_Vermin_02",0.562341,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["SMGVermin_silencerShot_SoundSet","SMGVermin_silencerTail_SoundSet","SMGVermin_silencerInteriorTail_SoundSet"]
         },
         "soundburst": 0,
         "texturetype": "dual",
@@ -45093,6 +44950,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -47344,6 +47208,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,
@@ -48766,11 +48637,8 @@
     "cameradir": "eye_look",
     "maxzeroing": 25,
     "magazines": ["rhs_mag_6x8mm_mhp"],
-    "dispersion": 0.02,
-    "ffcount": 1,
-    "airateoffire": 0.5,
-    "airateoffiredistance": 50,
     "baseweapon": "rhs_weap_type94_new",
+    "initspeed": -1,
     "minrange": 0,
     "minrangeprobab": 0.1,
     "midrange": 30,
@@ -49217,6 +49085,10 @@
         "aimtransitionspeed": 1
     },
     "magazinewell": ["CBA_9x19_MP443"],
+    "dispersion": 0.02,
+    "ffcount": 1,
+    "airateoffire": 0.5,
+    "airateoffiredistance": 50,
     # Class: CfgWeapons\\rhs_weap_pya\\Library [Indent level: 1],
     "library": {
         "libtextdesc": "MP-443"
@@ -49247,97 +49119,14 @@
         "sounds": ["StandardSound","SilencedSound"],
         # Class: CfgWeapons\\hgun_Rook40_F\\Single\\BaseSoundModeType [Indent level: 2],
         "basesoundmodetype": {
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Closure_Rook40_01",0.158489,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Closure_Rook40_02",0.158489,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
         },
         # Class: CfgWeapons\\hgun_Rook40_F\\Single\\StandardSound [Indent level: 2],
         "standardsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_short_01",3.16228,1,1200],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_short_02",3.16228,1,1200],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_short_03",3.16228,1,1200],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin3",0.34],
-            # Class: CfgWeapons\\hgun_Rook40_F\\Single\\StandardSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\StandardSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_tail_interior",1.41254,1,1200],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\StandardSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_tail_trees",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\StandardSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_tail_forest",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\StandardSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_tail_meadows",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\StandardSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Rook40_tail_houses",1,1,1200],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["Rook40_Shot_SoundSet","Rook40_Tail_SoundSet","Rook40_InteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Closure_Rook40_01",0.158489,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Closure_Rook40_02",0.158489,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["Rook40_Shot_SoundSet","Rook40_Tail_SoundSet","Rook40_InteriorTail_SoundSet"]
         },
         # Class: CfgWeapons\\hgun_Rook40_F\\Single\\SilencedSound [Indent level: 2],
         "silencedsound": {
-            "begin1": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_short_01",0.562341,1,400],
-            "begin2": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_short_02",0.562341,1,400],
-            "begin3": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_short_03",0.562341,1,400],
-            "soundbegin": ["begin1",0.33,"begin2",0.33,"begin2",0.34],
-            # Class: CfgWeapons\\hgun_Rook40_F\\Single\\SilencedSound\\SoundTails [Indent level: 3],
-            "soundtails": {
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\SilencedSound\\SoundTails\\TailInterior [Indent level: 4]
-                "tailinterior": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_tail_interior",1,1,400],
-                    "frequency": 1,
-                    "volume": "interior"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\SilencedSound\\SoundTails\\TailTrees [Indent level: 4],
-                "tailtrees": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_tail_trees",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*trees"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\SilencedSound\\SoundTails\\TailForest [Indent level: 4],
-                "tailforest": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_tail_forest",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*forest"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\SilencedSound\\SoundTails\\TailMeadows [Indent level: 4],
-                "tailmeadows": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_tail_meadows",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*(meadows/2 max sea/2)"
-                },
-                # Class: CfgWeapons\\hgun_Rook40_F\\Single\\SilencedSound\\SoundTails\\TailHouses [Indent level: 4],
-                "tailhouses": {
-                    "sound": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Silencer_Rook40_tail_houses",1,1,400],
-                    "frequency": 1,
-                    "volume": "(1-interior/1.4)*houses"
-                }
-            },
-            "soundsetshot": ["Rook40_silencerShot_SoundSet","Rook40_silencerTail_SoundSet","Rook40_silencerInteriorTail_SoundSet"],
-            "closure1": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Closure_Rook40_01",0.158489,1,10],
-            "closure2": ["A3\\Sounds_F\\arsenal\\weapons\\Pistols\\Rook40\\Closure_Rook40_02",0.158489,1.1,10],
-            "soundclosure": ["closure1",0.5,"closure2",0.5]
+            "soundsetshot": ["Rook40_silencerShot_SoundSet","Rook40_silencerTail_SoundSet","Rook40_silencerInteriorTail_SoundSet"]
         },
         # Recoil Array: recoil,
         "recoil": [0,0,0,0.03,0.036943,0.0268696,0.09,0.019755,0.006112,0.12,0,0,0.18,-0.003138,-0.001,0.12,-0.001177,-0.000376,0.12,0,0],
@@ -49387,7 +49176,6 @@
     "inertia": 0.2,
     "aimtransitionspeed": 1.6,
     "dexterity": 1.8,
-    "initspeed": 450,
     # Recoil Class: recoil,
     # Class: CfgRecoils\\recoil_pistol_rook40 [Indent level: 0],
     "recoil": {
@@ -49795,6 +49583,13 @@
                 "rhsusf_acc_m8541_d": 1,
                 "rhsusf_acc_m8541_wd": 1,
                 "rhsusf_acc_m8541_mrds": 1,
+                "rhsusf_acc_nxs_3515x50_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md": 1,
+                "rhsusf_acc_nxs_3515x50f1_md_sun": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58": 1,
+                "rhsusf_acc_nxs_3515x50f1_h58_sun": 1,
+                "rhsusf_acc_nxs_5522x56_md": 1,
+                "rhsusf_acc_nxs_5522x56_md_sun": 1,
                 "rhsusf_acc_eotech": 1,
                 "rhsusf_acc_eotech_552": 1,
                 "rhsusf_acc_eotech_552_d": 1,

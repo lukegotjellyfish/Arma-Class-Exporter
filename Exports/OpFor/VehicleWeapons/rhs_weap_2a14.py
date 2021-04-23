@@ -4,17 +4,36 @@ rhs_weap_2a14 = {
     "canlock": 0,
     "weaponlocksystem": 1,
     "displayname": "2A14",
+    "reloadmagazinesound": ["rhsafrf|addons|rhs_c_heavyweapons|sounds|rhs_2a14_reload",10,1,20],
     # Class: CfgWeapons|rhs_weap_2a14|gunParticles [Indent level: 1],
     "gunparticles": {
         # Class: CfgWeapons|rhs_weap_2a14|gunParticles|effect1 [Indent level: 2]
         "effect1": {
-            "positionname": "cartridge_pos",
-            "directionname": "cartridge_dir",
-            "effectname": "MachineGunCartridge1"
+            "positionname": "eject1",
+            "directionname": "eject1dir",
+            "effectname": "RHS_23mm_Catridge"
+        },
+        # Class: CfgWeapons|rhs_weap_2a14|gunParticles|effect2 [Indent level: 2],
+        "effect2": {
+            "positionname": "eject2",
+            "directionname": "eject2dir",
+            "effectname": "RHS_23mm_AmmoBeltLink"
+        },
+        # Class: CfgWeapons|rhs_weap_2a14|gunParticles|effect3 [Indent level: 2],
+        "effect3": {
+            "positionname": "eject3",
+            "directionname": "eject3dir",
+            "effectname": "RHS_23mm_Catridge"
+        },
+        # Class: CfgWeapons|rhs_weap_2a14|gunParticles|effect4 [Indent level: 2],
+        "effect4": {
+            "positionname": "eject4",
+            "directionname": "eject4dir",
+            "effectname": "RHS_23mm_AmmoBeltLink"
         }
     },
     "magazinereloadtime": 9,
-    "magazines": ["RHS_mag_AZP23_100","rhs_mag_AZP23_100_ap"],
+    "magazines": ["RHS_mag_AZP23_100","rhs_mag_AZP23_100_veh","rhs_mag_AZP23_100_ap","rhs_mag_AZP23_100_ap_veh"],
     # Class: CfgWeapons|rhs_weap_2a14|manual [Indent level: 1],
     "manual": {
         "displayname": "2A14",
@@ -1504,7 +1523,6 @@ rhs_weap_2a14 = {
     "zeroingsound": ["",1,1],
     "reloadsound": ["",1,1],
     "changefiremodesound": ["",1,1],
-    "reloadmagazinesound": ["",1,1],
     "emptysound": ["",1,1],
     "soundbullet": ["emptySound",1],
     "initspeed": 0,

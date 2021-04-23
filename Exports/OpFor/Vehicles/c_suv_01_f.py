@@ -22,11 +22,7 @@ c_suv_01_f = {
     "eventhandlers": {
         "init": "if (local (_this select 0)) then {[(_this select 0), `, [], false] call bis_fnc_initVehicle;};",
         "fired": "_this call (uinamespace getvariable 'BIS_fnc_effectFired');",
-        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');",
-        # Class: DefaultEventHandlers|RHS_DefaultEventhandlers [Indent level: 0],
-        "rhs_defaulteventhandlers": {
-            "hitpart": "_this call rhs_fnc_hitPart"
-        }
+        "killed": "_this call (uinamespace getvariable 'BIS_fnc_effectKilled');"
     },
     "attenuationeffecttype": "CarAttenuation",
     "soundgetin": ["A3|Sounds_F|vehicles2|soft|Suv_01|Suv_01_Exit",0.446684,1],

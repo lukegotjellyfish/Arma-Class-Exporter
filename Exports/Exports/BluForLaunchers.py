@@ -7,7 +7,7 @@
     "picture": "rhsusf\\addons\\rhsusf_weapons\\FGM148\\data\\UI\\w_fgm148_ca.paa",
     "model": "rhsusf\\addons\\rhsusf_weapons\\FGM148\\fgm148_clu_loaded",
     "handanim": ["OFP2_ManSkeleton","\\rhsusf\\addons\\rhsusf_c_weapons\\anims\\anim_fgm148.rtm"],
-    "magazines": ["rhs_fgm148_magazine_AT"],
+    "magazines": ["rhs_fgm148_magazine_AT","rhs_fgm148_magazine_AT_empty"],
     "magazinereloadtime": 12,
     "reloadtime": 0.5,
     "autoreload": 0,
@@ -205,7 +205,14 @@
     "cursoraimon": "",
     # Class: CfgWeapons\\rhs_weap_fgm148\\WeaponSlotsInfo [Indent level: 1],
     "weaponslotsinfo": {
-        "mass": 152.79
+        "mass": 105.79
+    },
+    # Class: CfgWeapons\\rhs_weap_fgm148\\EventHandlers [Indent level: 1],
+    "eventhandlers": {
+        # Class: CfgWeapons\\rhs_weap_fgm148\\EventHandlers\\RHS_Fired_EH [Indent level: 2]
+        "rhs_fired_eh": {
+            "fired": "_this call rhs_fnc_addEmptyTube"
+        }
     },
     "_generalmacro": "launch_O_Titan_F",
     "hiddenselectionstextures": ["A3\\Weapons_F_Beta\\Launchers\\Titan\\Data\\Launcher_OPFOR_CO.paa","A3\\Weapons_F_Beta\\Launchers\\Titan\\Data\\TubeL_OPFOR_CO.paa"],
@@ -352,9 +359,6 @@
     "firelightintensity": 0.2,
     "firelightdiffuse": [0.937,0.631,0.259],
     "firelightambient": [0,0,0],
-    # Class: CfgWeapons\\Default\\Eventhandlers [Indent level: 1],
-    "eventhandlers": {
-    },
     "muzzles": ["this"],
     "useaction": 0,
     "useactiontitle": "",

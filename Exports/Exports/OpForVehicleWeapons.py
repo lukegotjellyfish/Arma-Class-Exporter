@@ -4,17 +4,36 @@
     "canlock": 0,
     "weaponlocksystem": 1,
     "displayname": "2A14",
+    "reloadmagazinesound": ["rhsafrf\\addons\\rhs_c_heavyweapons\\sounds\\rhs_2a14_reload",10,1,20],
     # Class: CfgWeapons\\rhs_weap_2a14\\gunParticles [Indent level: 1],
     "gunparticles": {
         # Class: CfgWeapons\\rhs_weap_2a14\\gunParticles\\effect1 [Indent level: 2]
         "effect1": {
-            "positionname": "cartridge_pos",
-            "directionname": "cartridge_dir",
-            "effectname": "MachineGunCartridge1"
+            "positionname": "eject1",
+            "directionname": "eject1dir",
+            "effectname": "RHS_23mm_Catridge"
+        },
+        # Class: CfgWeapons\\rhs_weap_2a14\\gunParticles\\effect2 [Indent level: 2],
+        "effect2": {
+            "positionname": "eject2",
+            "directionname": "eject2dir",
+            "effectname": "RHS_23mm_AmmoBeltLink"
+        },
+        # Class: CfgWeapons\\rhs_weap_2a14\\gunParticles\\effect3 [Indent level: 2],
+        "effect3": {
+            "positionname": "eject3",
+            "directionname": "eject3dir",
+            "effectname": "RHS_23mm_Catridge"
+        },
+        # Class: CfgWeapons\\rhs_weap_2a14\\gunParticles\\effect4 [Indent level: 2],
+        "effect4": {
+            "positionname": "eject4",
+            "directionname": "eject4dir",
+            "effectname": "RHS_23mm_AmmoBeltLink"
         }
     },
     "magazinereloadtime": 9,
-    "magazines": ["RHS_mag_AZP23_100","rhs_mag_AZP23_100_ap"],
+    "magazines": ["RHS_mag_AZP23_100","rhs_mag_AZP23_100_veh","rhs_mag_AZP23_100_ap","rhs_mag_AZP23_100_ap_veh"],
     # Class: CfgWeapons\\rhs_weap_2a14\\manual [Indent level: 1],
     "manual": {
         "displayname": "2A14",
@@ -1504,7 +1523,6 @@
     "zeroingsound": ["",1,1],
     "reloadsound": ["",1,1],
     "changefiremodesound": ["",1,1],
-    "reloadmagazinesound": ["",1,1],
     "emptysound": ["",1,1],
     "soundbullet": ["emptySound",1],
     "initspeed": 0,
@@ -1739,8 +1757,8 @@
     "muzzles": ["HE","AP"],
     # Class: CfgWeapons\\rhs_weap_2a28\\AP [Indent level: 1],
     "ap": {
-        "aidispersioncoefx": 7,
-        "aidispersioncoefy": 12,
+        "aidispersioncoefx": 3,
+        "aidispersioncoefy": 8,
         "canlock": 0,
         "ballisticscomputer": 0,
         "scope": 1,
@@ -1756,7 +1774,7 @@
         "maxrangeprobab": 0.1,
         "reloadtime": 7,
         "magazinereloadtime": 5.5,
-        "airateoffire": 6,
+        "airateoffire": 12,
         "airateoffiredistance": 1000,
         "maxleadspeed": 100,
         # Class: CfgWeapons\\rhs_weap_2a28_base\\gunParticles [Indent level: 1],
@@ -2380,8 +2398,8 @@
     "he": {
         "modes": ["close","short","medium","far"],
         "magazines": ["rhs_mag_og15v_16","rhs_mag_og15v_20","rhs_mag_og15v_8"],
-        "aidispersioncoefx": 7,
-        "aidispersioncoefy": 12,
+        "aidispersioncoefx": 3,
+        "aidispersioncoefy": 8,
         "canlock": 0,
         "ballisticscomputer": 0,
         "scope": 1,
@@ -2396,7 +2414,7 @@
         "maxrangeprobab": 0.1,
         "reloadtime": 7,
         "magazinereloadtime": 5.5,
-        "airateoffire": 6,
+        "airateoffire": 12,
         "airateoffiredistance": 1000,
         "maxleadspeed": 100,
         # Class: CfgWeapons\\rhs_weap_2a28_base\\gunParticles [Indent level: 1],
@@ -3015,8 +3033,8 @@
         "inertia": 0.5,
         "aimtransitionspeed": 1
     },
-    "aidispersioncoefx": 7,
-    "aidispersioncoefy": 12,
+    "aidispersioncoefx": 3,
+    "aidispersioncoefy": 8,
     "canlock": 0,
     "ballisticscomputer": 0,
     "scope": 1,
@@ -3032,7 +3050,7 @@
     "maxrangeprobab": 0.1,
     "reloadtime": 7,
     "magazinereloadtime": 5.5,
-    "airateoffire": 6,
+    "airateoffire": 12,
     "airateoffiredistance": 1000,
     "maxleadspeed": 100,
     # Class: CfgWeapons\\rhs_weap_2a28_base\\gunParticles [Indent level: 1],
@@ -36264,12 +36282,20 @@
         "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
     },
     "reloadtime": 3,
-    "magazinereloadtime": 30,
+    "magazinereloadtime": 14,
     "magazines": ["rhs_mag_9m14","rhs_mag_9m14m","rhs_mag_9m14m_3","rhs_mag_9m14m_4","rhs_mag_mclos_training"],
     "airateoffire": 5,
     "airateoffiredistance": 500,
     "autoreload": 0,
     "texturetype": "semi",
+    # Class: CfgWeapons\\rhs_weap_9k11\\EventHandlers [Indent level: 1],
+    "eventhandlers": {
+        # Class: CfgWeapons\\rhs_weap_9k11\\EventHandlers\\RHS_EventHandlers [Indent level: 2]
+        "rhs_eventhandlers": {
+            "fired": "_this call rhs_fnc_9m14_fired;",
+            "reloaded": "_this call rhs_fnc_9m14_reload;"
+        }
+    },
     "scope": 1,
     "type": 65536,
     "namesound": "MissileLauncher",
@@ -36366,9 +36392,6 @@
     "firelightintensity": 0.2,
     "firelightdiffuse": [0.937,0.631,0.259],
     "firelightambient": [0,0,0],
-    # Class: CfgWeapons\\Default\\Eventhandlers [Indent level: 1],
-    "eventhandlers": {
-    },
     "backgroundreload": 0,
     "reloadaction": "",
     "muzzles": ["this"],
@@ -39438,16 +39461,16 @@
 },
 "rhs_weap_9k133": {
     "displayname": "9K133",
+    "magazines": ["rhs_mag_9m133_2"],
+    "reloadtime": 0.1,
     "sounds": ["StandardSound"],
     # Class: CfgWeapons\\rhs_weap_9k133\\StandardSound [Indent level: 1],
     "standardsound": {
-        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
-        "soundbegin": ["begin1",0.5,"begin2",0.5],
         "weaponsoundeffect": "DefaultRifle",
-        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
+        "begin1": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_1",2.35,1,1400],
+        "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400],
+        "soundbegin": ["begin1",0.5,"begin2",0.5]
     },
-    "magazines": ["rhs_mag_9m133_2"],
-    "reloadtime": 0.1,
     "canlock": 1,
     "minrange": 10,
     "minrangeprobab": 0.5,
@@ -39461,6 +39484,21 @@
     "autoreload": 0,
     "holdsteranimvalue": 1,
     "texturetype": "semi",
+    # Class: CfgWeapons\\rhs_weap_9m111\\gunParticles [Indent level: 1],
+    "gunparticles": {
+        # Class: CfgWeapons\\rhs_weap_9m111\\gunParticles\\effect1 [Indent level: 2]
+        "effect1": {
+            "effectname": "RHS_ATGM_Cap",
+            "positionname": "spice rakety",
+            "directionname": "cap_ejection_dir1"
+        },
+        # Class: CfgWeapons\\rhs_weap_9m111\\gunParticles\\effect2 [Indent level: 2],
+        "effect2": {
+            "effectname": "RHS_ATGM_Cap",
+            "positionname": "konec rakety",
+            "directionname": "cap_ejection_dir2"
+        }
+    },
     "scope": 1,
     "type": 65536,
     "namesound": "MissileLauncher",
@@ -39780,6 +39818,21 @@
     "airateoffire": 5,
     "holdsteranimvalue": 1,
     "texturetype": "semi",
+    # Class: CfgWeapons\\rhs_weap_9m111\\gunParticles [Indent level: 1],
+    "gunparticles": {
+        # Class: CfgWeapons\\rhs_weap_9m111\\gunParticles\\effect1 [Indent level: 2]
+        "effect1": {
+            "effectname": "RHS_ATGM_Cap",
+            "positionname": "spice rakety",
+            "directionname": "cap_ejection_dir1"
+        },
+        # Class: CfgWeapons\\rhs_weap_9m111\\gunParticles\\effect2 [Indent level: 2],
+        "effect2": {
+            "effectname": "RHS_ATGM_Cap",
+            "positionname": "konec rakety",
+            "directionname": "cap_ejection_dir2"
+        }
+    },
     "scope": 1,
     "type": 65536,
     "namesound": "MissileLauncher",
@@ -40396,20 +40449,16 @@
 "rhs_weap_9p148": {
     "autoreload": 0,
     "reloadtime": 1.5,
+    "magazines": ["rhs_mag_9m113_5_9P148_pylon","rhs_mag_9m113_5"],
+    # Class: CfgWeapons\\rhs_weap_9P148\\EventHandlers [Indent level: 1],
+    "eventhandlers": {
+        # Class: CfgWeapons\\rhs_weap_9P148\\EventHandlers\\RHS_EventHandlers [Indent level: 2]
+        "rhs_eventhandlers": {
+            "fired": "_this call rhs_fnc_firedPylon;(_this + [true]) call RHS_fnc_at14_fired "
+        }
+    },
     # Class: CfgWeapons\\rhs_weap_9P148\\gunParticles [Indent level: 1],
     "gunparticles": {
-        # Class: CfgWeapons\\rhs_weap_9P148\\gunParticles\\effect1 [Indent level: 2]
-        "effect1": {
-            "effectname": "RHS_ATGM_Cap",
-            "positionname": "spice rakety",
-            "directionname": "cap_ejection_dir1"
-        },
-        # Class: CfgWeapons\\rhs_weap_9P148\\gunParticles\\effect2 [Indent level: 2],
-        "effect2": {
-            "effectname": "RHS_ATGM_Cap",
-            "positionname": "konec rakety",
-            "directionname": "cap_ejection_dir2"
-        }
     },
     "canlock": 1,
     "minrange": 10,
@@ -40429,7 +40478,6 @@
         "weaponsoundeffect": "DefaultRifle",
         "begin2": ["rhsafrf\\addons\\rhs_sounds\\atgm\\atgm_2",2.35,1,1400]
     },
-    "magazines": ["rhs_mag_9m111","rhs_mag_9m111_3","rhs_mag_9m111_4","rhs_mag_9m111_5","rhs_mag_9m111m","rhs_mag_9m111m_3","rhs_mag_9m111m_4","rhs_mag_9m111m_5","rhs_mag_9m113","rhs_mag_9m113_3","rhs_mag_9m113_4","rhs_mag_9m113_5"],
     "airateoffire": 5,
     "holdsteranimvalue": 1,
     "texturetype": "semi",
@@ -40528,9 +40576,6 @@
     "firelightintensity": 0.2,
     "firelightdiffuse": [0.937,0.631,0.259],
     "firelightambient": [0,0,0],
-    # Class: CfgWeapons\\Default\\Eventhandlers [Indent level: 1],
-    "eventhandlers": {
-    },
     "backgroundreload": 0,
     "reloadaction": "",
     "muzzles": ["this"],
@@ -44445,7 +44490,7 @@
         }
     },
     "reloadmagazinesound": ["a3\\Sounds_F\\arsenal\\weapons_static\\Static_HMG\\reload_static_HMG",1,1,10],
-    "scope": 2,
+    "scope": 1,
     "autofire": 1,
     "displayname": "DShKM",
     "ballisticscomputer": 2,
@@ -44461,7 +44506,7 @@
     "maxrange": 1200,
     "maxrangeprobab": 0.04,
     "aidispersioncoefy": 7,
-    "aidispersioncoefx": 7,
+    "aidispersioncoefx": 9,
     "airateoffire": 0.3,
     "airateoffiredistance": 1500,
     "maxleadspeed": 600,
@@ -57087,7 +57132,7 @@
             "directionname": "machinegun_eject_dir"
         }
     },
-    "scope": 2,
+    "scope": 1,
     "displayname": "KPVT",
     "magazines": ["rhs_mag_145x115mm_50"],
     "aidispersioncoefy": 10,
@@ -59023,7 +59068,7 @@
             "effectname": "MachineGunCartridge2"
         }
     },
-    "scope": 2,
+    "scope": 1,
     "displayname": "NSVT",
     "magazines": ["rhs_mag_127x108mm_50","rhs_mag_127x108mm_100","rhs_mag_127x108mm_150","rhs_mag_127x108mm_300"],
     "reloadtime": 0.1,
@@ -60929,7 +60974,7 @@
 "rhs_weap_pkt": {
     "type": 1,
     "showaimcursorinternal": 1,
-    "scope": 2,
+    "scope": 1,
     "displayname": "PKT",
     "magazines": ["rhs_mag_762x54mm_100","rhs_mag_762x54mm_250","rhs_mag_762x54mm_500","rhs_mag_762x54mm_1000","rhs_mag_762x54mm_2000"],
     "aidispersioncoefy": 10,
@@ -62855,7 +62900,7 @@
     },
     "type": 1,
     "showaimcursorinternal": 1,
-    "scope": 2,
+    "scope": 1,
     "displayname": "PKT",
     "magazines": ["rhs_mag_762x54mm_100","rhs_mag_762x54mm_250","rhs_mag_762x54mm_500","rhs_mag_762x54mm_1000","rhs_mag_762x54mm_2000"],
     "aidispersioncoefy": 10,
@@ -64781,7 +64826,7 @@
     },
     "type": 1,
     "showaimcursorinternal": 1,
-    "scope": 2,
+    "scope": 1,
     "displayname": "PKT",
     "magazines": ["rhs_mag_762x54mm_100","rhs_mag_762x54mm_250","rhs_mag_762x54mm_500","rhs_mag_762x54mm_1000","rhs_mag_762x54mm_2000"],
     "aidispersioncoefy": 10,
@@ -66713,7 +66758,7 @@
     },
     "type": 1,
     "showaimcursorinternal": 1,
-    "scope": 2,
+    "scope": 1,
     "displayname": "PKT",
     "magazines": ["rhs_mag_762x54mm_100","rhs_mag_762x54mm_250","rhs_mag_762x54mm_500","rhs_mag_762x54mm_1000","rhs_mag_762x54mm_2000"],
     "aidispersioncoefy": 10,
@@ -77765,6 +77810,323 @@
     "inertia": 0.5,
     "aimtransitionspeed": 1,
 },
+"rhs_weap_zt3_launcher": {
+    "cursor": "missile",
+    "cursoraim": "EmptyCursor",
+    "cursorsize": 0,
+    "displayname": "ZT3 Ingwe",
+    "magazines": ["rhs_mag_zt3","rhs_mag_zt3_4"],
+    "airateoffire": 2.5,
+    "airateoffiredistance": 500,
+    "maxrange": 5000,
+    "maxrangeprobab": 0.6,
+    "midrange": 3000,
+    "midrangeprobab": 1,
+    "minrange": 250,
+    "minrangeprobab": 0.9,
+    "reloadtime": 1.5,
+    "autoreload": 0,
+    "magazinereloadtime": 30,
+    "holdsteranimvalue": 1,
+    "texturetype": "semi",
+    "canlock": 1,
+    "weaponlocktype": 1,
+    "sounds": ["StandardSound"],
+    # Class: CfgWeapons\\rhs_weap_zt3_Launcher\\StandardSound [Indent level: 1],
+    "standardsound": {
+        "soundsetshot": ["RocketsMedium_Shot_SoundSet"]
+    },
+    "scope": 1,
+    "type": 65536,
+    "namesound": "MissileLauncher",
+    "dexterity": 0.5,
+    "count": 1,
+    "inertia": 1,
+    "access": 3,
+    "value": 2,
+    "picture": "",
+    "uipicture": "",
+    "ammo": "",
+    "showaimcursorinternal": 1,
+    "cursoraimon": "",
+    "laser": 0,
+    "hiddenselections": [],
+    "hiddenselectionstextures": [],
+    "hiddenunderwaterselections": [],
+    "shownunderwaterselections": [],
+    "hiddenunderwaterselectionstextures": [],
+    "simulation": "Weapon",
+    "multiplier": 1,
+    "burst": 1,
+    "magazinereloadswitchphase": 1,
+    "sound": ["",1,1],
+    "soundbegin": ["sound",1],
+    "soundbeginwater": ["sound",1],
+    "soundclosure": ["sound",1],
+    "soundend": ["sound",1],
+    "soundloop": ["sound",1],
+    "soundcontinuous": 0,
+    "weaponsoundeffect": "",
+    "soundburst": 1,
+    "drysound": ["",1,1],
+    "zeroingsound": ["",1,1],
+    "reloadsound": ["",1,1],
+    "changefiremodesound": ["",1,1],
+    "reloadmagazinesound": ["",1,1],
+    "emptysound": ["",1,1],
+    "soundbullet": ["emptySound",1],
+    "initspeed": 0,
+    "ballisticscomputer": 0,
+    "irdistance": 0,
+    "irdotintensity": 0.001,
+    "dispersion": 0.002,
+    "aidispersioncoefx": 1,
+    "aidispersioncoefy": 1,
+    "lockacquire": 1,
+    "enableattack": 1,
+    "ffmagnitude": 0,
+    "fffrequency": 1,
+    "ffcount": 1,
+    # Recoil Array: recoil,
+    "recoil": [],
+    "maxrecoilsway": 0.008,
+    "swaydecayspeed": 2,
+    "model": "",
+    "modelspecial": "",
+    "modelmagazine": "",
+    "muzzlepos": "usti hlavne",
+    "muzzleend": "konec hlavne",
+    "irlaserpos": "laser pos",
+    "irlaserend": "laser dir",
+    "cartridgepos": "nabojnicestart",
+    "cartridgevel": "nabojniceend",
+    "selectionfireanim": "zasleh",
+    "memorypointcamera": "eye",
+    "firespreadangle": 3,
+    "usemodeloptics": 1,
+    "opticsid": 0,
+    "modeloptics": "",
+    "opticsppeffects": [],
+    "opticsflare": 1,
+    "optics": 1,
+    "forceoptics": 0,
+    "useasbinocular": 0,
+    "opticsdisableperipherialvision": 0.67,
+    "opticszoommin": 0.25,
+    "opticszoommax": 1.25,
+    "opticszoominit": 0.75,
+    "distancezoommin": 400,
+    "distancezoommax": 400,
+    "primary": 10,
+    "showswitchaction": 0,
+    "showempty": 1,
+    "autofire": 0,
+    "showtoplayer": 1,
+    "canshootinwater": 0,
+    "airateoffiredispersion": 0,
+    "firelightduration": 0.05,
+    "firelightintensity": 0.2,
+    "firelightdiffuse": [0.937,0.631,0.259],
+    "firelightambient": [0,0,0],
+    # Class: CfgWeapons\\Default\\Eventhandlers [Indent level: 1],
+    "eventhandlers": {
+    },
+    "backgroundreload": 0,
+    "reloadaction": "",
+    "muzzles": ["this"],
+    "modes": ["this"],
+    "useaction": 0,
+    "useactiontitle": "",
+    "candrop": 1,
+    "weaponlockdelay": 0,
+    "weaponlocksystem": 0,
+    "cmimmunity": 1,
+    "weight": 0,
+    "handanim": [],
+    "lockingtargetsound": ["",0.000316228,2],
+    "lockedtargetsound": ["",0.000316228,6],
+    "detectrange": 0,
+    "artillerydispersion": 1,
+    "artillerycharge": 1,
+    "fireanims": [],
+    # Class: CfgWeapons\\Default\\Library [Indent level: 1],
+    "library": {
+        "libtextdesc": ""
+    },
+    "descriptionshort": "",
+    # Class: CfgWeapons\\Default\\GunFire [Indent level: 1],
+    "gunfire": {
+        "access": 0,
+        "cloudletduration": 0.2,
+        "cloudletanimperiod": 1,
+        "cloudletsize": 1,
+        "cloudletalpha": 1,
+        "cloudletgrowup": 0.2,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 0.5,
+        "cloudletaccy": 0,
+        "cloudletminyspeed": -100,
+        "cloudletmaxyspeed": 100,
+        "cloudletshape": "cloudletFire",
+        "cloudletcolor": [1,1,1,0],
+        "cloudletdensitycoef": -1,
+        "interval": -0.01,
+        "size": 3,
+        "sourcesize": 0.5,
+        "timetolive": 0,
+        "initt": 4500,
+        "deltat": -3000,
+        # Class: CfgWeapons\\Default\\GunFire\\Table [Indent level: 2],
+        "table": {
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T0 [Indent level: 3]
+            "t0": {
+                "maxt": 0,
+                "color": [0.82,0.95,0.93,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T1 [Indent level: 3],
+            "t1": {
+                "maxt": 200,
+                "color": [0.75,0.77,0.9,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T2 [Indent level: 3],
+            "t2": {
+                "maxt": 400,
+                "color": [0.56,0.62,0.67,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T3 [Indent level: 3],
+            "t3": {
+                "maxt": 600,
+                "color": [0.39,0.46,0.47,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T4 [Indent level: 3],
+            "t4": {
+                "maxt": 800,
+                "color": [0.24,0.31,0.31,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T5 [Indent level: 3],
+            "t5": {
+                "maxt": 1000,
+                "color": [0.23,0.31,0.29,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T6 [Indent level: 3],
+            "t6": {
+                "maxt": 1500,
+                "color": [0.21,0.29,0.27,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T7 [Indent level: 3],
+            "t7": {
+                "maxt": 2000,
+                "color": [0.19,0.23,0.21,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T8 [Indent level: 3],
+            "t8": {
+                "maxt": 2300,
+                "color": [0.22,0.19,0.1,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T9 [Indent level: 3],
+            "t9": {
+                "maxt": 2500,
+                "color": [0.35,0.2,0.02,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T10 [Indent level: 3],
+            "t10": {
+                "maxt": 2600,
+                "color": [0.62,0.29,0.03,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T11 [Indent level: 3],
+            "t11": {
+                "maxt": 2650,
+                "color": [0.59,0.35,0.05,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T12 [Indent level: 3],
+            "t12": {
+                "maxt": 2700,
+                "color": [0.75,0.37,0.03,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T13 [Indent level: 3],
+            "t13": {
+                "maxt": 2750,
+                "color": [0.88,0.34,0.03,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T14 [Indent level: 3],
+            "t14": {
+                "maxt": 2800,
+                "color": [0.91,0.5,0.17,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T15 [Indent level: 3],
+            "t15": {
+                "maxt": 2850,
+                "color": [1,0.6,0.2,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T16 [Indent level: 3],
+            "t16": {
+                "maxt": 2900,
+                "color": [1,0.71,0.3,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T17 [Indent level: 3],
+            "t17": {
+                "maxt": 2950,
+                "color": [0.98,0.83,0.41,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T18 [Indent level: 3],
+            "t18": {
+                "maxt": 3000,
+                "color": [0.98,0.91,0.54,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T19 [Indent level: 3],
+            "t19": {
+                "maxt": 3100,
+                "color": [0.98,0.99,0.6,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T20 [Indent level: 3],
+            "t20": {
+                "maxt": 3300,
+                "color": [0.96,0.99,0.72,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T21 [Indent level: 3],
+            "t21": {
+                "maxt": 3600,
+                "color": [1,0.98,0.91,0]
+            },
+            # Class: CfgWeapons\\Default\\GunFire\\Table\\T22 [Indent level: 3],
+            "t22": {
+                "maxt": 4200,
+                "color": [1,1,1,0]
+            }
+        }
+    },
+    # Class: CfgWeapons\\Default\\GunClouds [Indent level: 1],
+    "gunclouds": {
+        "access": 0,
+        "cloudletgrowup": 0.05,
+        "cloudletfadein": 0,
+        "cloudletfadeout": 0.1,
+        "cloudletduration": 0.05,
+        "cloudletalpha": 0.3,
+        "cloudletaccy": 0,
+        "cloudletminyspeed": -100,
+        "cloudletmaxyspeed": 100,
+        "interval": -0.02,
+        "size": 0.3,
+        "sourcesize": 0.02,
+        "cloudletanimperiod": 1,
+        "cloudletsize": 1,
+        "cloudletshape": "cloudletClouds",
+        "cloudletcolor": [1,1,1,0],
+        "timetolive": 0,
+        "initt": 0,
+        "deltat": 0,
+        # Class: CfgWeapons\\Default\\GunClouds\\Table [Indent level: 2],
+        "table": {
+            # Class: CfgWeapons\\Default\\GunClouds\\Table\\T0 [Indent level: 3]
+            "t0": {
+                "maxt": 0,
+                "color": [1,1,1,0]
+            }
+        }
+    },
+    "aimtransitionspeed": 1
+},
 "rhs_weap_zt6_launcher": {
     "scope": 2,
     "autofire": 0,
@@ -78716,5 +79078,5 @@
             }
         }
     },
-    "aimtransitionspeed": 1
+    "aimtransitionspeed": 1,
 }
