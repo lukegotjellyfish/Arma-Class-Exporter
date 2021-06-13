@@ -1,0 +1,16 @@
+rhs_facewear_6m2 = {
+    "author": "Red Hammer Studios",
+    "picture": "rhsafrf|addons|rhs_inventoryicons|data|headgear|rhs_6m2_ca.paa",
+    "dlc": "RHS_AFRF",
+    "scope": 2,
+    "displayname": "6M2",
+    "model": "rhsafrf|addons|rhs_infantry2|gear|head|rhs_6m2",
+    "hiddenselections": [],
+    "identitytypes": ["NoGlasses",0,"rhs_6m2",30],
+    "_generalmacro": "G_Balaclava_blk",
+    "scopecurator": 2,
+    "scopearsenal": 2,
+    "hiddenselectionstextures": ["|a3|characters_f_bootcamp|guerrilla|data|headgear_balaclava_blk_co.paa"],
+    "mass": 6,
+    "name": "None",
+}
