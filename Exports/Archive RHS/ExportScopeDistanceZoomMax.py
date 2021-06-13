@@ -15,7 +15,7 @@ for root, dirs, files in os.walk(cwd + "\\" + RHS_VERSION + "\\Weapons", topdown
 						_opticsModes = list(_scope["iteminfo"]["opticsmodes"].keys())
 						_zooms = []
 						for mode in _opticsModes:
-							_zooms.append([mode, _scope["iteminfo"]["opticsmodes"][mode]["opticszoommin"]])
+							_zooms.append([mode, _scope["iteminfo"]["opticsmodes"][mode]["distancezoommax"]])
 
 						print(_scope["displayname"] + str(_zooms))
 					except KeyError:
