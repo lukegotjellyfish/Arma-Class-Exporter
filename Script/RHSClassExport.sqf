@@ -16,12 +16,11 @@
 //
 
 _sideMatrix = [];
-
 _cfgVehicles = [];
 _cfgWeapons = [];
 _cfgGlasses = [];
 cfgMagazines = [];
-_mods = [["CfgMagazines","Magazines"]];  //["CfgVehicles","Vehicles"],["CfgWeapons","Weapons"],["CfgGlasses","Glasses"],
+_mods = [["CfgMagazines","Magazines"],["CfgVehicles","Vehicles"],["CfgWeapons","Weapons"],["CfgGlasses","Glasses"]];
 {
 	_configClass = _x select 0;
 	_rhsafrf = "'@RHSAFRF' in (configSourceModList _x)" configClasses (configFile >> _configClass) apply {configName _x};
@@ -208,6 +207,8 @@ getPropertyValue = {
 
 			diag_log("LISTING SUBMUNITIONS");
 			_y = 1;
+			_possibilityCount = 0;
+			//diag_log(_ammoName);
 			{
 				if (typeName _x == "STRING") then {
 					diag_log(format["%1 = `%2`", _ammoType, _x]);
@@ -222,7 +223,16 @@ getPropertyValue = {
 					_classBody = _classBody + format["%1    # %2: %3 [Indent level: %4]", _addComma, _ammoType, (_splitClass joinString "|"), str (_countSplitClass - 2)];
 					//Classes with "ammo" first will not have a ,\n for whatever reason - adding it here
 					if (_addComma find ",\n" == -1) then {_addComma = ",\n" + _addComma};
-					_classBody = _classBody + format['%1    "%2": {%3        "_dictAmmoName": "%4"', _addComma, "submunitionammo" +  str _y, _addComma splitString "," joinString "", _x];
+
+					if (typeName (_ammoName select (_y + _possibilityCount)) == "SCALAR") then {
+						diag_log(format["Submunitionammo = %1 | Chance = %2 | _y = %3", _x, (_ammoName select (_y + _possibilityCount)), str _y]);
+						_classBody = _classBody + format['%1    "%2": {%3        "_dictAmmoName": "%4"%5        "_dictAmmoChance": "%6"', _addComma, "submunitionammo" +  str _y, _addComma splitString "," joinString "", _x, _addComma, (_ammoName select (_y + _possibilityCount))];
+						_possibilityCount = _possibilityCount + 1;
+					}
+					else {
+						diag_log(format["Submunitionammo = %1 | No Chance Found", _x]);
+						_classBody = _classBody + format['%1    "%2": {%3        "_dictAmmoName": "%4"', _addComma, "submunitionammo" +  str _y, _addComma splitString "," joinString "", _x];
+					};
 
 					_ammoProperties = configProperties [configFile >> "CfgAmmo" >> _x];
 					{
@@ -287,7 +297,7 @@ getProperties = {
 };
 
 
-_basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\Archive RHS\";
+_basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\Archive RHS\RHS\";
 {
 	{
 		i = 0;
