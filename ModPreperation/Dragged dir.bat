@@ -1,6 +1,6 @@
 @ECHO Off
 REM Put this .bat file anywhere and set exportDir to your
-REM  folder to export PBOs
+REM  folder to export PBOs, drag and drop the !WORKSHOP mod folder onto this to export it
 REM
 REM Requres the following on PATH:
 REM  PBOConsole (cmdl)  https://github.com/winseros/PBOManager/releases/tag/v0.1.0
