@@ -1,5 +1,5 @@
 @ECHO Off
-REM Put this .bat file in your arma directory and set exportDir to your
+REM Put this .bat file anywhere and set exportDir to your
 REM  folder to export PBOs
 REM
 REM Requres the following on PATH:
