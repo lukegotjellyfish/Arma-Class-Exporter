@@ -130,6 +130,7 @@ getPropertyValue = {
 	private _classBody = "";
 
 	_propertyNameArray = _propertyName splitString "/";
+	//_propertyNameLast is the parameter
 	_propertyNameLast = toLower (_propertyNameArray select (count _propertyNameArray - 1));
 
 	if (isText _property) then {
@@ -187,6 +188,14 @@ getPropertyValue = {
 				_classBody = _classBody + format["%1    # Recoil Array: %2", _addComma, _propertyNameLast];
 				_classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, getArray _configDir];
 			};
+		};
+		if (_propertyNameLast == "magazines") then {
+			//entryClass = weapon/vehicle/etc class (im very lazy)
+			_entryClass = _propertyNameArray select 2;
+			_weaponCompatableMagazines = [_entryClass] call BIS_fnc_compatibleMagazines;
+			//Append to _classBody
+			_classBody = _classBody + format["%1    # Compatible Magazines: %2", _addComma, _propertyNameLast];
+			_classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, _weaponCompatableMagazines];
 		}
 		else {_i = _i + 1; _classBody = _classBody + format['%1    "%2": "%3"', _addComma, _propertyNameLast, ((getText _property) splitString "\" joinString "|") splitString '"' joinString "`"];};
 	};
@@ -224,9 +233,10 @@ getPropertyValue = {
 					//Classes with "ammo" first will not have a ,\n for whatever reason - adding it here
 					if (_addComma find ",\n" == -1) then {_addComma = ",\n" + _addComma};
 
-					if (typeName (_ammoName select (_y + _possibilityCount)) == "SCALAR") then {
-						diag_log(format["Submunitionammo = %1 | Chance = %2 | _y = %3", _x, (_ammoName select (_y + _possibilityCount)), str _y]);
-						_classBody = _classBody + format['%1    "%2": {%3        "_dictAmmoName": "%4"%5        "_dictAmmoChance": "%6"', _addComma, "submunitionammo" +  str _y, _addComma splitString "," joinString "", _x, _addComma, (_ammoName select (_y + _possibilityCount))];
+					diag_log format["_ammoName: %1 | selectPos: %2 | typeName of _ammoName: %3", _ammoName, _y + _possibilityCount, typeName _ammoName];
+					if (typeName (getArray _property select (_y + _possibilityCount)) == "SCALAR") then {
+						diag_log(format["Submunitionammo = %1 | Chance = %2 | _y = %3", _x, (getArray _property select (_y + _possibilityCount)), str _y]);
+						_classBody = _classBody + format['%1    "%2": {%3        "_dictAmmoName": "%4"%5        "_dictAmmoChance": "%6"', _addComma, "submunitionammo" +  str _y, _addComma splitString "," joinString "", _x, _addComma, (getArray _property select (_y + _possibilityCount))];
 						_possibilityCount = _possibilityCount + 1;
 					}
 					else {
@@ -245,8 +255,45 @@ getPropertyValue = {
 					_y = _y + 1;
 				};
 			} forEach _ammoName;
+		};
+		if (_propertyNameLast == "magazines") then {
+			diag_log format["_property: %1", getArray _property];
+
+			//entryClass = weapon/vehicle/etc class (im very lazy)
+			_entryClass = _propertyNameArray select 2;
+			_weaponCompatableMagazines = [_entryClass] call BIS_fnc_compatibleMagazines;
+
+			if (count _weaponCompatableMagazines > 0) then {
+				diag_log format["_weaponCompatableMagazines: %1 | count _weaponCompatableMagazines: %2", _weaponCompatableMagazines, count _weaponCompatableMagazines];
+
+				//Beautify _weaponCompatableMagazines (seperate into rows)
+				_newLineSpace = "        ";
+				_lastMagazine = _weaponCompatableMagazines select ((count _weaponCompatableMagazines) - 1);
+				_magazineRowCount = 0;
+				_compatableMagazinesString = "[" + (_addComma splitString "," joinString "") + "        ";
+				{
+					_compatableMagazinesString = _compatableMagazinesString + '"' + _x + '"';
+					_magazineRowCount = _magazineRowCount + 1;
+
+					if (_magazineRowCount == 4) then {
+						if (_x == _lastMagazine) then {_newLineSpace = "    ";};
+						_compatableMagazinesString = _compatableMagazinesString + _addComma + _newLineSpace;
+						_magazineRowCount = 0;
+					} else {
+						_compatableMagazinesString  = _compatableMagazinesString + ",";
+					};
+				} forEach _weaponCompatableMagazines;
+				_compatableMagazinesString = _compatableMagazinesString + "]";
+
+				//Append to _classBody
+				_classBody = _classBody + format["%1    # Compatible Magazines: %2 parameter (+ inherited)", _addComma, _propertyNameLast];
+				_classBody = _classBody + format['%1    "magazines": %2', _addComma, _compatableMagazinesString];
+			}
+			else {
+				_classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; 
+			};
 		}
-		else {_classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"]; }
+		else {_classBody = _classBody + format['%1    "%2": %3', _addComma, _propertyNameLast, (str getArray _property) splitString "\" joinString "|"];}
 	};
 	if (isClass _property) then {
 		_classBody = [_property, _classBody, _addComma, _propertyNameLast, _configCategory] call getClass;
@@ -297,7 +344,7 @@ getProperties = {
 };
 
 
-_basePath = "E:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\Archive RHS\RHS\";
+_basePath = "F:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\Archive RHS\RHS\";
 {
 	{
 		i = 0;
