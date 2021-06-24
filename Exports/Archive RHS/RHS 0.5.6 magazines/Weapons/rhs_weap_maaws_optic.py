@@ -1,0 +1,430 @@
+rhs_weap_maaws_optic = {
+    # Class: CfgWeapons|rhs_weap_maaws_optic|LinkedItems [Indent level: 1]
+    "linkeditems": {
+        # Class: CfgWeapons|rhs_weap_maaws_optic|LinkedItems|LinkedItemsOptic [Indent level: 2]
+        "linkeditemsoptic": {
+            "slot": "CowsSlot",
+            "item": "rhs_optic_maaws"
+        }
+    },
+    "dlc": "RHS_USAF",
+    "audiblefire": 20,
+    "author": "Red Hammer Studios",
+    "scope": 2,
+    "displayname": "M3 MAAWS",
+    "model": "rhsusf|addons|rhsusf_weapons2|m3maaws|m3maaws.p3d",
+    "picture": "rhsusf|addons|rhsusf_weapons2|m3maaws|UI|gear_m3maaws_X_CA.paa",
+    "handanim": ["OFP2_ManSkeleton","rhsusf|addons|rhsusf_weapons2|m3maaws|anim|handanim_m3maaws.rtm"],
+    "reloadaction": "RHS_ReloadRPG",
+    "modeloptics": "-",
+    "maxzeroing": 900,
+    "weaponinfotype": "RscWeaponZeroing",
+    "distancezoommin": 100,
+    "distancezoommax": 900,
+    "discretedistance": [100,200,300,400,500,600,700,800,900],
+    "discretedistancecamerapoint": ["eye_1","eye_2","eye_3","eye_4","eye_5","eye_6","eye_7","eye_8","eye_9"],
+    "discretedistanceinitindex": 0,
+    "cameradir": "look",
+    "optics": 1,
+    "opticsdisableperipherialvision": 0.67,
+    "opticsflare": 0,
+    "opticsid": 0,
+    "opticsppeffects": [],
+    "opticszoommin": 0.25,
+    "opticszoommax": 1.25,
+    "opticszoominit": 0.75,
+    # Class: CfgWeapons|rhs_weap_maaws|GunParticles [Indent level: 1],
+    "gunparticles": {
+        # Class: CfgWeapons|rhs_weap_maaws|GunParticles|effect1 [Indent level: 2]
+        "effect1": {
+            "positionname": "BackBlast2",
+            "directionname": "BackBlast1",
+            "effectname": "RocketBackEffectsRPGNT"
+        }
+    },
+    "modes": ["Single"],
+    # Class: CfgWeapons|rhs_weap_maaws|Single [Indent level: 1],
+    "single": {
+        "sounds": ["StandardSound"],
+        # Class: CfgWeapons|rhs_weap_maaws|Single|StandardSound [Indent level: 2],
+        "standardsound": {
+            "weaponsoundeffect": "DefaultRifle",
+            "begin1": ["rhsusf|addons|rhsusf_weapons2|m3maaws|sound|m3_x.ogg",56.2341,1,900],
+            "begin2": ["rhsusf|addons|rhsusf_weapons2|m3maaws|sound|m3_y.ogg",56.2341,1,900],
+            "soundbegin": ["begin1",1,"begin2",1]
+        },
+        # Recoil Array: recoil,
+        "recoil": [0,0,0,0.03,0.0073886,0.0028696,0.04,0.0063634,0.0010008,0.05,0.003951,0.0006112,0.06,0.0014776,0.000228,0.06,0,0,0.06,-0.0004804,-7.68e-005,0.06,-0.000706,-0.0001128,0.06,-0.0007354,-0.0001176,0.06,-0.0006276,-0.0001,0.06,-0.0004412,-7.04e-005,0.06,-0.0002354,-3.76e-005,0.06,-6.86e-005,-1.12e-005,0.06,-3e-005,0,0.06,0,0],
+        "recoil": "recoil_single_law",
+        "airateoffire": 7,
+        "airateoffiredistance": 600,
+        "minrange": 10,
+        "minrangeprobab": 0.3,
+        "midrange": 400,
+        "midrangeprobab": 0.8,
+        "maxrange": 600,
+        "maxrangeprobab": 0.1,
+        "dispersion": 0.35,
+        "multiplier": 1,
+        "burst": 1,
+        "burstrangemax": -1,
+        "sound": ["",10,1],
+        "soundbegin": ["sound",1],
+        "soundbeginwater": ["sound",1],
+        "soundclosure": ["sound",1],
+        "soundend": [],
+        "soundloop": [],
+        "soundcontinuous": 0,
+        "weaponsoundeffect": "",
+        "reloadtime": 0.1,
+        "ffcount": 1,
+        "ffmagnitude": 0.5,
+        "fffrequency": 11,
+        "flash": "gunfire",
+        "flashsize": 0.1,
+        "autofire": 0,
+        "useaction": 0,
+        "useactiontitle": "",
+        "showtoplayer": 1,
+        "artillerydispersion": 1,
+        "artillerycharge": 1,
+        "canshootinwater": 0,
+        "displayname": "Semi",
+        "texturetype": "semi",
+        # Recoil Array: recoilprone,
+        "recoilprone": [0,0,0,0.03,0.0110829,0.0021522,0.04,0.0095451,0.0007506,0.05,0.0059265,0.0004584,0.06,0.0022164,0.000171,0.06,0,0,0.06,-0.0007206,-2.88e-005,0.06,-0.001059,-8.46e-005,0.06,-0.0011031,-8.82e-005,0.06,-0.0009414,-7.5e-005,0.06,-0.0006618,-5.28e-005,0.06,-0.0003531,-2.82e-005,0.06,-0.0001029,-8.4e-006,0.06,-4.5e-005,0,0.06,0,0],
+        "recoilprone": "recoil_single_primary_prone_3outof10",
+        "aidispersioncoefy": 1.7,
+        "aidispersioncoefx": 1.4,
+        "soundburst": 0,
+        "requiredoptictype": -1,
+        "airateoffiredispersion": 1
+    },
+    # Compatible Magazines: magazines parameter (+ inherited),
+    "magazines": [
+        "rhs_mag_maaws_heat","rhs_mag_maaws_hedp","rhs_mag_maaws_he",],
+    "magazinewell": ["CBA_Carl_Gustaf"],
+    "drysound": ["A3|sounds_f|weapons|other|dry6",0.446684,1,20],
+    "reloadmagazinesound": ["rhsusf|addons|rhsusf_weapons2|m3maaws|sound|m3_reload.ogg",1,1,10],
+    # Recoil Class: recoil,
+    # Class: CfgRecoils|rhs_weap_smaw_SR_recoil [Indent level: 0],
+    "recoil": {
+        "muzzleouter": [0.15,1,0.35,0.8],
+        "kickback": [0.01,0.02],
+        "temporary": 0.0075,
+        "muzzleinner": [0,0,0.1,0.1],
+        "permanent": 0.1
+    },
+    "recoil": "rhs_weap_smaw_SR_recoil",
+    "soundfly": ["A3|sounds_f|weapons|rockets|rocket_fly_1",0.316228,1.5,900],
+    "canlock": 0,
+    "weaponlockdelay": 3,
+    "lockacquire": 0,
+    "inertia": 0.9,
+    "aimtransitionspeed": 0.5,
+    "dexterity": 0.5,
+    # Class: CfgWeapons|rhs_weap_maaws|WeaponSlotsInfo [Indent level: 1],
+    "weaponslotsinfo": {
+        "allowedslots": [901],
+        "mass": "187,4",
+        # Class: CfgWeapons|rhs_weap_maaws|WeaponSlotsInfo|CowsSlot [Indent level: 2],
+        "cowsslot": {
+            "access": 1,
+            "compatibleitems": ["rhs_optic_maaws"],
+            "displayname": "Optics Slot",
+            "linkproxy": "A3|data_f|proxies|weapon_slots|TOP",
+            "scope": 2
+        }
+    },
+    "descriptionshort": "84mm Anti Tank Rifle",
+    # Class: CfgWeapons|rhs_weap_maaws|Library [Indent level: 1],
+    "library": {
+        "libtextdesc": "The Carl Gustav M3 is a very effective recoilles rifle produced by Saab, The US Army recommends only firing 6 per day otherwise you may suffer internal hemorrhaging"
+    },
+    "htmin": 1,
+    "htmax": 460,
+    "afmax": 0,
+    "mfmax": 0,
+    "mfact": 1,
+    "tbody": 100,
+    "uipicture": "A3|Weapons_F|Data|UI|icon_at_CA.paa",
+    "swaycoef": 0.5,
+    "sound": ["A3|Sounds_F|weapons|Launcher|rocket_launcher_5",1,1,800],
+    "weaponpoolavailable": 1,
+    "shotpos": "usti hlavne",
+    "shotend": "konec hlavne",
+    "cursoraim": "EmptyCursor",
+    "cursor": "rocket",
+    "texturetype": "semi",
+    "autoaimenabled": 0,
+    "value": 10,
+    "namesound": "atlauncher",
+    "magazinereloadtime": 12,
+    "reloadtime": 0,
+    "initspeed": 30,
+    "autoreload": 0,
+    "ffmagnitude": 0.1,
+    "fffrequency": 1,
+    "ffcount": 1,
+    "airateoffire": 10,
+    "airateoffiredistance": 500,
+    "primary": 0,
+    "minrange": 20,
+    "minrangeprobab": 0.3,
+    "midrange": 150,
+    "midrangeprobab": 0.58,
+    "maxrange": 500,
+    "maxrangeprobab": 0.04,
+    "type": 4,
+    "count": 1,
+    "access": 3,
+    "ammo": "",
+    "cursorsize": 1,
+    "showaimcursorinternal": 1,
+    "cursoraimon": "",
+    "laser": 0,
+    "hiddenselections": [],
+    "hiddenselectionstextures": [],
+    "hiddenunderwaterselections": [],
+    "shownunderwaterselections": [],
+    "hiddenunderwaterselectionstextures": [],
+    "simulation": "Weapon",
+    "multiplier": 1,
+    "burst": 1,
+    "magazinereloadswitchphase": 1,
+    "soundbegin": ["sound",1],
+    "soundbeginwater": ["sound",1],
+    "soundclosure": ["sound",1],
+    "soundend": ["sound",1],
+    "soundloop": ["sound",1],
+    "soundcontinuous": 0,
+    "weaponsoundeffect": "",
+    "soundburst": 1,
+    "zeroingsound": ["",1,1],
+    "reloadsound": ["",1,1],
+    "changefiremodesound": ["",1,1],
+    "emptysound": ["",1,1],
+    "soundbullet": ["emptySound",1],
+    "ballisticscomputer": 0,
+    "irdistance": 0,
+    "irdotintensity": 0.001,
+    "dispersion": 0.002,
+    "aidispersioncoefx": 1,
+    "aidispersioncoefy": 1,
+    "enableattack": 1,
+    "recoilprone": "",
+    "maxrecoilsway": 0.008,
+    "swaydecayspeed": 2,
+    "modelspecial": "",
+    "modelmagazine": "",
+    "muzzlepos": "usti hlavne",
+    "muzzleend": "konec hlavne",
+    "irlaserpos": "laser pos",
+    "irlaserend": "laser dir",
+    "cartridgepos": "nabojnicestart",
+    "cartridgevel": "nabojniceend",
+    "selectionfireanim": "zasleh",
+    "memorypointcamera": "eye",
+    "firespreadangle": 3,
+    "usemodeloptics": 1,
+    "forceoptics": 0,
+    "useasbinocular": 0,
+    "showswitchaction": 0,
+    "showempty": 1,
+    "autofire": 0,
+    "showtoplayer": 1,
+    "canshootinwater": 0,
+    "airateoffiredispersion": 0,
+    "firelightduration": 0.05,
+    "firelightintensity": 0.2,
+    "firelightdiffuse": [0.937,0.631,0.259],
+    "firelightambient": [0,0,0],
+    # Class: CfgWeapons|Default|Eventhandlers [Indent level: 1],
+    "eventhandlers": {
+    },
+    "backgroundreload": 0,
+    "muzzles": ["this"],
+    "useaction": 0,
+    "useactiontitle": "",
+    "candrop": 1,
+    "weaponlocksystem": 0,
+    "cmimmunity": 1,
+    "weight": 0,
+    "lockingtargetsound": ["",0.000316228,2],
+    "lockedtargetsound": ["",0.000316228,6],
+    "detectrange": 0,
+    "artillerydispersion": 1,
+    "artillerycharge": 1,
+    "fireanims": [],
+    # Class: CfgWeapons|Default|GunFire [Indent level: 1],
+    "gunfire": {
+        "access": 0,
+        "cloudletduration": 0.2,
+        "cloudletanimperiod": 1,
+        "cloudletsize": 1,
+        "cloudletalpha": 1,
+        "cloudletgrowup": 0.2,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 0.5,
+        "cloudletaccy": 0,
+        "cloudletminyspeed": -100,
+        "cloudletmaxyspeed": 100,
+        "cloudletshape": "cloudletFire",
+        "cloudletcolor": [1,1,1,0],
+        "cloudletdensitycoef": -1,
+        "interval": -0.01,
+        "size": 3,
+        "sourcesize": 0.5,
+        "timetolive": 0,
+        "initt": 4500,
+        "deltat": -3000,
+        # Class: CfgWeapons|Default|GunFire|Table [Indent level: 2],
+        "table": {
+            # Class: CfgWeapons|Default|GunFire|Table|T0 [Indent level: 3]
+            "t0": {
+                "maxt": 0,
+                "color": [0.82,0.95,0.93,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T1 [Indent level: 3],
+            "t1": {
+                "maxt": 200,
+                "color": [0.75,0.77,0.9,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T2 [Indent level: 3],
+            "t2": {
+                "maxt": 400,
+                "color": [0.56,0.62,0.67,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T3 [Indent level: 3],
+            "t3": {
+                "maxt": 600,
+                "color": [0.39,0.46,0.47,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T4 [Indent level: 3],
+            "t4": {
+                "maxt": 800,
+                "color": [0.24,0.31,0.31,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T5 [Indent level: 3],
+            "t5": {
+                "maxt": 1000,
+                "color": [0.23,0.31,0.29,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T6 [Indent level: 3],
+            "t6": {
+                "maxt": 1500,
+                "color": [0.21,0.29,0.27,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T7 [Indent level: 3],
+            "t7": {
+                "maxt": 2000,
+                "color": [0.19,0.23,0.21,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T8 [Indent level: 3],
+            "t8": {
+                "maxt": 2300,
+                "color": [0.22,0.19,0.1,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T9 [Indent level: 3],
+            "t9": {
+                "maxt": 2500,
+                "color": [0.35,0.2,0.02,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T10 [Indent level: 3],
+            "t10": {
+                "maxt": 2600,
+                "color": [0.62,0.29,0.03,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T11 [Indent level: 3],
+            "t11": {
+                "maxt": 2650,
+                "color": [0.59,0.35,0.05,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T12 [Indent level: 3],
+            "t12": {
+                "maxt": 2700,
+                "color": [0.75,0.37,0.03,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T13 [Indent level: 3],
+            "t13": {
+                "maxt": 2750,
+                "color": [0.88,0.34,0.03,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T14 [Indent level: 3],
+            "t14": {
+                "maxt": 2800,
+                "color": [0.91,0.5,0.17,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T15 [Indent level: 3],
+            "t15": {
+                "maxt": 2850,
+                "color": [1,0.6,0.2,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T16 [Indent level: 3],
+            "t16": {
+                "maxt": 2900,
+                "color": [1,0.71,0.3,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T17 [Indent level: 3],
+            "t17": {
+                "maxt": 2950,
+                "color": [0.98,0.83,0.41,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T18 [Indent level: 3],
+            "t18": {
+                "maxt": 3000,
+                "color": [0.98,0.91,0.54,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T19 [Indent level: 3],
+            "t19": {
+                "maxt": 3100,
+                "color": [0.98,0.99,0.6,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T20 [Indent level: 3],
+            "t20": {
+                "maxt": 3300,
+                "color": [0.96,0.99,0.72,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T21 [Indent level: 3],
+            "t21": {
+                "maxt": 3600,
+                "color": [1,0.98,0.91,0]
+            },
+            # Class: CfgWeapons|Default|GunFire|Table|T22 [Indent level: 3],
+            "t22": {
+                "maxt": 4200,
+                "color": [1,1,1,0]
+            }
+        }
+    },
+    # Class: CfgWeapons|Default|GunClouds [Indent level: 1],
+    "gunclouds": {
+        "access": 0,
+        "cloudletgrowup": 0.05,
+        "cloudletfadein": 0,
+        "cloudletfadeout": 0.1,
+        "cloudletduration": 0.05,
+        "cloudletalpha": 0.3,
+        "cloudletaccy": 0,
+        "cloudletminyspeed": -100,
+        "cloudletmaxyspeed": 100,
+        "interval": -0.02,
+        "size": 0.3,
+        "sourcesize": 0.02,
+        "cloudletanimperiod": 1,
+        "cloudletsize": 1,
+        "cloudletshape": "cloudletClouds",
+        "cloudletcolor": [1,1,1,0],
+        "timetolive": 0,
+        "initt": 0,
+        "deltat": 0,
+        # Class: CfgWeapons|Default|GunClouds|Table [Indent level: 2],
+        "table": {
+            # Class: CfgWeapons|Default|GunClouds|Table|T0 [Indent level: 3]
+            "t0": {
+                "maxt": 0,
+                "color": [1,1,1,0]
+            }
+        }
+    },
+}
