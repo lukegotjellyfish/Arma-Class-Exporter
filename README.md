@@ -2,7 +2,7 @@
 Two main scripts: /Script/ClassExport.sqf (Manually add what you want to export)<br>
 and RHSClassExport.sqf (Automatically export all RHS classes of specified type)
 
-Ediot lines 23-46 accordingly to change RHSClassExport to export another mod(s) or basegame:<br>
+Edit lines 23-46 accordingly to change RHSClassExport to export another mod(s) or basegame:<br>
 https://community.bistudio.com/wiki/configClasses<br>
 https://community.bistudio.com/wiki/configSourceMod<br>
 https://community.bistudio.com/wiki/configSourceModList<br> 
