@@ -5,11 +5,12 @@ bulletA = player addAction ["Enable Bullet Cam", {YEETUS = vehicle player addEve
     diag_log(position player);
     missile = _this select 6;
     velCache = [0,0,0];
+	startTime = time;
     _null = _this spawn {
         while {!(isNull missile)} do {
             vel = velocity missile;
             if (vel select 0 != velCache select 0) then {
-                diag_log(format["Distance: %1 | Speed: %2", player distance2D missile, velocity missile]);
+                hint(format["Distance: %1\nVelocity: %2\nTime: %3", player distance2D missile, velocity missile, time-startTime]);
                 velCache = vel;
             };
         };
