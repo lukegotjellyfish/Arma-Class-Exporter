@@ -1,4 +1,5 @@
 # Arma-Class-Exporter
+## Introduction
 Two main scripts: /Script/ClassExport.sqf (Manually add what you want to export)<br>
 and RHSClassExport.sqf (Automatically export all RHS classes of specified source (see links just below)
 
@@ -7,6 +8,8 @@ https://community.bistudio.com/wiki/configClasses<br>
 https://community.bistudio.com/wiki/configSourceMod<br>
 https://community.bistudio.com/wiki/configSourceModList<br> 
 
+-----
+## ClassExport/RHSClassExport Setup
 ClassExport.sqf is currently set up for RHS vehicles and weapons used on the C4G V14 RHS KotH server:<br>
  Name: CodeFourGaming - King Of The Hill RHS Vics US #5 (and "- King of the Hill - RHS Inf No Towers EU #3 HC" by extension)<br>
  IP: 51.79.37.206:2302<br>
@@ -24,13 +27,15 @@ make_file 64bit: http://killzonekid.com/arma-64-bit-extensions/<br>
 6. Run ./Exports/Run CombineDicts.py.bat to get two .py dicts for BluFor and OpFor (or edit for more factions)
 7. Run ./Exports/Script.py to get a csv export for BluFor and OpFor (or edit to select specific classes to export from CombinedBluFor.py and/or CombinedOpFor.py
 
+## Example of use
 The dict files for each side are for more extensive writing of all classes for Script.py to then extract the data needed for writing to CSV file. They are currently set-up for creating two CSV files for relevant infantry (not launchers or uniforms yet) weapons at https://docs.google.com/spreadsheets/d/15aMgHLaf82euwx455wdVyjPHwko8tDf93RkpLejiQrE
 
+## Other scripts
 There are also numerous python scripts in the Exports folder that utilise these dict files to fetch values in Exports/Archive RHS/ such as ExportScopeFOVs.py
 
 /Script/OtherScripts/ contains SQF scripts I have made for a variety of purposes, the most notable script being:
 - **vehicle damage tracker.sqf**
 - Proximity projectile script.sqf
 - ProjectileSpeedTracker.sqf
--
+
 Vehicle Damage Tracker is a script that allows for full view of all damage being dealt to a vehicle.
