@@ -25,3 +25,12 @@ make_file 64bit: http://killzonekid.com/arma-64-bit-extensions/<br>
 7. Run ./Exports/Script.py to get a csv export for BluFor and OpFor (or edit to select specific classes to export from CombinedBluFor.py and/or CombinedOpFor.py
 
 The dict files for each side are for more extensive writing of all classes for Script.py to then extract the data needed for writing to CSV file. They are currently set-up for creating two CSV files for relevant infantry (not launchers or uniforms yet) weapons at https://docs.google.com/spreadsheets/d/15aMgHLaf82euwx455wdVyjPHwko8tDf93RkpLejiQrE
+
+There are also numerous python scripts in the Exports folder that utilise these dict files to fetch values in Exports/Archive RHS/ such as ExportScopeFOVs.py
+
+/Script/OtherScripts/ contains SQF scripts I have made for a variety of purposes, the most notable script being:
+- **vehicle damage tracker.sqf**
+- Proximity projectile script.sqf
+- ProjectileSpeedTracker.sqf
+-
+Vehicle Damage Tracker is a script that allows for full view of all damage being dealt to a vehicle.
