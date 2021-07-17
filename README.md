@@ -1,5 +1,13 @@
 # Arma-Class-Exporter
- Currently set up for RHS vehicles and weapons used on the C4G V14 RHS KotH server:<br>
+Two main scripts: /Script/ClassExport.sqf (Manually add what you want to export)<br>
+and RHSClassExport.sqf (Automatically export all RHS classes of specified type)
+
+Ediot lines 23-46 accordingly to change RHSClassExport to export another mod(s) or basegame:<br>
+https://community.bistudio.com/wiki/configClasses<br>
+https://community.bistudio.com/wiki/configSourceMod<br>
+https://community.bistudio.com/wiki/configSourceModList<br> 
+
+ClassExport.sqf is currently set up for RHS vehicles and weapons used on the C4G V14 RHS KotH server:<br>
  Name: CodeFourGaming - King Of The Hill RHS Vics US #5 (and "- King of the Hill - RHS Inf No Towers EU #3 HC" by extension)<br>
  IP: 51.79.37.206:2302<br>
  Restart: 18:00 UTC+0<br>
