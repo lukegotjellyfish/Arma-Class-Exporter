@@ -1,6 +1,6 @@
 # Arma-Class-Exporter
 Two main scripts: /Script/ClassExport.sqf (Manually add what you want to export)<br>
-and RHSClassExport.sqf (Automatically export all RHS classes of specified type)
+and RHSClassExport.sqf (Automatically export all RHS classes of specified source (see links just below)
 
 Edit lines 23-46 accordingly to change RHSClassExport to export another mod(s) or basegame:<br>
 https://community.bistudio.com/wiki/configClasses<br>
