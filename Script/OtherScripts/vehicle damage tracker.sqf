@@ -1,7 +1,7 @@
 //Assign vehicles (vehicle variable name)
-v1 = c130j;  //eg v1 = t72;
-v2 = a10;
-v3 = m1a1fep;
+v1 = nil;  //eg v1 = t72;
+v2 = nil;
+v3 = nil;
 
 //Start values at zero to see damage that has already occured [SET TO 1]
 //Start values at the current values [SET To 0]
@@ -12,7 +12,9 @@ assumeVehicleIsUndamaged = 0;
 //  6 = 5 Key
 diagToggleKey   = 39;
 updateDamageKey = 6;
-
+designateV1Key  = 35;
+designateV2Key  = 36;
+designateV3Key  = 37;
 
 
 
@@ -42,12 +44,15 @@ v3Toggle = 0;
 v1Name = getText (configFile >> "CfgVehicles" >> typeOf v1 >> "displayName");
 v2Name = getText (configFile >> "CfgVehicles" >> typeOf v2 >> "displayName");
 v3Name = getText (configFile >> "CfgVehicles" >> typeOf v3 >> "displayName");
+//
+v1Success = 0;
+v2Success = 0;
+v3Success = 0;
 
 // gameIsDiag = false;
 // if ((productVersion select 4) == "Diag") then {
 // 	diagToggle = (findDisplay 46) displayAddEventHandler ["KeyDown", {
 // 		params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
-
 // 		if (_keyCode == diagToggleKey) then {
 // 			//diag_toggle is a function of the dev branch https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe
 // 			//diag_toggle causes scripts to fail when not run on devbranch??
@@ -97,6 +102,9 @@ damageLog = {
 	//vx_HitpointsDamage: Array of all current hitpoint damages
 	vx_HitpointsDamage = vx_HitpointsDamageArray select 2;
 
+	diag_log format["Previous Damage ((%1))", _vxDamageEntry];
+	diag_log format["Current Damage ((%1))", vx_HitpointsDamage];
+
 	//_damageDone: string to build the list of damaged hitpoints on
 	// to then display to the user as a hint
 	_damageDone = "";
@@ -137,6 +145,7 @@ toggleLogger = {
 
 	if (_vxToggle == 1) then {
 		_nameCount = _vxName + " Hitpoints: ";
+		//_damageArray = [hitpoints, overallDamage]
 		_damageArray = [_vx, _nameCount] call countHitPoints;
 		vxDamageEntry = _damageArray select 0;
 		vxTotalDamage = _damageArray select 1;
@@ -144,7 +153,8 @@ toggleLogger = {
 		vxDisplayHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", {
 			params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
 
-			if (_keyCode == updateDamageKey) then {
+			if (_keyCode == updateDamageKey) then
+			{
 				vxDamageArray = [_display getVariable "_vx", vxDamageEntry, vxTotalDamage] call damageLog;
 				vxDamageEntry = vxDamageArray select 0;
 				vxTotalDamage = vxDamageArray select 1;
@@ -155,30 +165,27 @@ toggleLogger = {
 };
 
 
-v1Success = 0;
-v2Success = 0;
-v3Success = 0;
 if !(v1 isEqualTo objNull) then {
-	v1AddAction = player addAction [format["Toggle %1 monitor", v1Name], {
+	v1AddAction = player addAction [format["<t color='#FF0000'>1. Toggle |%1| monitor</t>", v1Name], {
 		if (v1Toggle == 0) then {v1Toggle = 1};
 		[v1, v1Toggle, v1Name] call toggleLogger;
-	}];
+	}, nil, 15];
 	v1Success = 1;
 } else {diag_log("v1 not valid")};
 
 if !(v2 isEqualTo objNull) then {
-	v2AddAction = player addAction [format["Toggle %1 monitor", v2Name], {
+	v2AddAction = player addAction [format["<t color='#00FF00'>2. Toggle |%1| monitor</t>r", v2Name], {
 		if (v2Toggle == 0) then {v2Toggle = 1};
 		[v2, v2Toggle, v2Name] call toggleLogger;
-	}];
+	}, nil, 14];
 	v2Success = 1;
 } else {diag_log("v2 not valid")};
 
 if !(v3 isEqualTo objNull) then {
-	v3AddAction = player addAction [format["Toggle %1 monitor", v3Name], {
+	v3AddAction = player addAction [format["<t color='#0000FF'>3. Toggle |%1| monitor</t>", v3Name], {
 		if (v3Toggle == 0) then {v3Toggle = 1};
 		[v3, v3Toggle, v3Name] call toggleLogger;
-	}];
+	}, nil, 13];
 	v3Success = 1;
 } else { diag_log("v3 not valid")};
 
@@ -201,6 +208,8 @@ vRemove = player addAction ["Remove and disable options", {
 		if (v3Toggle == 1) then {[v3, 0, v3Name] call toggleLogger};
 	};
 
+	//Remove keydown event handlers
+	(findDisplay 46) displayRemoveAllEventHandlers "KeyDown";
 
 	//Remove diag_toggle eventhandler
 	// if (gameIsDiag == true) then {(findDisplay 46)  displayRemoveEventHandler ["KeyDown", diagToggle]};
@@ -211,4 +220,55 @@ vRemove = player addAction ["Remove and disable options", {
 		diag_log(format["Error in <vehicleFired removeEventHandler>: %1", _exception]);
 	};
 	player removeEventHandler ["Fired", playerFired];
+}];
+
+
+newTargetEH = (findDisplay 46) displayAddEventHandler ["KeyDown", {
+	params["_display", "_keyCode", "_shft", "_ctr", "_alt" ];
+
+	if (_keyCode == designateV1Key) then
+	{
+		v1 = cursorObject;
+		v1Name = getText (configFile >> "CfgVehicles" >> typeOf v1 >> "displayName");
+
+		if !(v1AddAction isEqualTo objNull) then {
+			player removeAction v1AddAction;
+			if (v1Toggle == 1) then {[v1, 0, v1Name] call toggleLogger};
+		};
+		v1AddAction = player addAction ["<t color='#FF0000'>" + format["1. Toggle [%1] monitor", v1Name] + "</t>", {
+			if (v1Toggle == 0) then {v1Toggle = 1};
+			[v1, v1Toggle, v1Name] call toggleLogger;
+		}, nil, 15];
+		v1Success = 1;
+	};
+	if (_keyCode == designateV2Key) then
+	{
+		v2 = cursorObject;
+		v2Name = getText (configFile >> "CfgVehicles" >> typeOf v2 >> "displayName");
+
+		if !(v1AddAction isEqualTo objNull) then {
+			player removeAction v2AddAction;
+			if (v2Toggle == 1) then {[v2, 0, v2Name] call toggleLogger};
+		};
+		v2AddAction = player addAction [format["<t color='#00FF00'>2. Toggle [%1] monitor</t>", v2Name], {
+			if (v2Toggle == 0) then {v2Toggle = 1};
+			[v2, v2Toggle, v2Name] call toggleLogger;
+		}, nil, 14];
+		v2Success = 1;
+	};
+	if (_keyCode == designateV3Key) then
+	{
+		v3 = cursorObject;
+		v3Name = getText (configFile >> "CfgVehicles" >> typeOf v3 >> "displayName");
+
+		if !(v3AddAction isEqualTo objNull) then {
+			player removeAction v3AddAction;
+			if (v3Toggle == 1) then {[v3, 0, v3Name] call toggleLogger};
+		};
+		v3AddAction = player addAction [format["<t color='#0000FF'>3. Toggle [%1] monitor</t>", v3Name], {
+			if (v3Toggle == 0) then {v3Toggle = 1};
+			[v3, v3Toggle, v3Name] call toggleLogger;
+		}, nil, 13];
+		v3Success = 1;
+	};
 }];
