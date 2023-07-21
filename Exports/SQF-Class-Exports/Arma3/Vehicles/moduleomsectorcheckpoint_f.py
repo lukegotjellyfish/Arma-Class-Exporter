@@ -1,0 +1,1443 @@
+d = {
+    "_generalmacro": "Module_F",
+    "access": 0,
+    "accuracy": 0,
+    "accuracydarknightlightsoff": 0.001,
+    "accuracynightlightsoff": 0.006,
+    "accuracynightlightson": 0.1,
+    "aggregatereflectors": [],
+    "aircapacity": 10,
+    "allowtablock": 1,
+    "alwaystarget": 0,
+    "animated": 1,
+    "animationsources": {},
+    "antirollbarforcecoef": 0,
+    "antirollbarforcelimit": 5,
+    "antirollbarspeedmax": 60,
+    "antirollbarspeedmin": 20,
+    "argumentsbaseunits": {
+        "units": {
+            "description": "",
+            "displayname": "Apply to",
+            "values": {
+                "objects": {
+                    "name": "Synchronized objects only",
+                    "value": 0
+                },
+                "objectsandgroups": {
+                    "default": 1,
+                    "name": "Groups of synchronized objects",
+                    "value": 1
+                },
+                "trigger": {
+                    "name": "Objects in synchronized triggers",
+                    "value": 2
+                }
+            }
+        }
+    },
+    "armor": 100,
+    "armorlights": 0.4,
+    "armorstructural": 1,
+    "artilleryscanner": 0,
+    "artillerytarget": 0,
+    "attendant": 0,
+    "attenuationeffecttype": "",
+    "attributes": {
+        "aasector": {
+            "control": "Checkbox",
+            "defaultvalue": "FALSE",
+            "disabled": 1,
+            "displayname": "AA sector",
+            "enabled": 0,
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_AA",
+            "tooltip": "Sector that should be active when player is in the aircraft.",
+            "typename": "BOOL"
+        },
+        "airspawndistance": {
+            "control": "Edit",
+            "defaultvalue": "SPAWN_RANGE_AIR",
+            "displayname": "Air Spawn Distance",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_AirSpawnDistance",
+            "tooltip": "Distance in which vehicles will spawn in sectors when player is in an aircraft.",
+            "typename": "NUMBER"
+        },
+        "canattack": {
+            "control": "Checkbox",
+            "defaultvalue": "false",
+            "displayname": "Can Be Attacked",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_CanAttack",
+            "tooltip": "Sector can be attacked via the Insurgent Support or Insurgent Agent modules.",
+            "typename": "BOOL"
+        },
+        "checkbox": {
+            "control": "Checkbox",
+            "defaultvalue": "false",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "checkboxnumber": {
+            "control": "CheckboxNumber",
+            "defaultvalue": "0",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "combo": {
+            "control": "Combo",
+            "defaultvalue": "''",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "condition": {
+            "control": "EditCodeMulti3",
+            "defaultvalue": "",
+            "displayname": "Condition",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_Condition",
+            "tooltip": "Condition for sector activation.",
+            "typename": "STRING"
+        },
+        "controlzonea": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "displayname": "Control Zone A",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_ControlZoneA",
+            "tooltip": "Variable of the object.",
+            "typename": "STRING"
+        },
+        "controlzoneb": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "displayname": "Control Zone B",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_ControlZoneB",
+            "tooltip": "Variable of the object.",
+            "typename": "STRING"
+        },
+        "default": {
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "defaultstate": {
+            "control": "Edit",
+            "defaultvalue": "1",
+            "displayname": "Default State",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_DefaultState",
+            "tooltip": "",
+            "typename": "NUMBER"
+        },
+        "dronetimelinea": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "displayname": "Drone A Timeline",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_DroneTimelineA",
+            "tooltip": "Object type of Timeline_F.",
+            "typename": "STRING"
+        },
+        "dronetimelineb": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "displayname": "Drone B Timeline",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_DroneTimelineB",
+            "tooltip": "Object type of Timeline_F.",
+            "typename": "STRING"
+        },
+        "edit": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "editcodemulti5": {},
+        "editmulti3": {},
+        "editmulti5": {},
+        "layer": {
+            "control": "Edit",
+            "defaultvalue": "",
+            "displayname": "Used Layer",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_Layer",
+            "tooltip": "Layer used in sector. If used, only units in layer will belong to sector, not all units within the area.",
+            "typename": "STRING"
+        },
+        "moduledescription": {
+            "control": "ModuleInfo",
+            "property": "ModuleInfo"
+        },
+        "ondespawncode": {
+            "control": "EditCodeMulti3",
+            "defaultvalue": "",
+            "displayname": "On Despawn Script",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_OnDespawn",
+            "tooltip": "Code that will be executed when sector is being fully despawned.",
+            "typename": "STRING"
+        },
+        "onstartcustomcode": {
+            "control": "EditCodeMulti3",
+            "defaultvalue": "",
+            "displayname": "On Start Custom Code",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_OnStartCustomCode",
+            "tooltip": "The code will be spawned in the init. procedure of the checkpoint (each sector spawn).",
+            "typename": "STRING"
+        },
+        "onstatechangecode": {
+            "control": "EditCodeMulti3",
+            "defaultvalue": "if( (_this select 1) == 2) then\t{ [_this select 0, vehicle player, (_this select 0) getVariable 'CustomCode'] spawn BIS_fnc_OM_moduleCheckpoint_handleStates };if( (_this select 1) in [0,1]) then {(_this select 0) setVariable ['FSMrunning', false]}",
+            "displayname": "On State Change Code",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_OnStateChanged",
+            "tooltip": "Used for checkpoint functionality! Do not change it. Code that will be performed when sector's state is changed (_this = [sector, state])",
+            "typename": "STRING"
+        },
+        "qrfenabled": {
+            "control": "Checkbox",
+            "defaultvalue": "true",
+            "displayname": "QRF Enabled",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_QRFEnabled",
+            "tooltip": "Determines if QRF can be sent to this sector.",
+            "typename": "BOOL"
+        },
+        "restrictedarea": {
+            "control": "CheckboxNumber",
+            "defaultvalue": "true",
+            "displayname": "Restricted Area",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_RestrictedArea",
+            "tooltip": "Set if player should be punished for accessing the area.",
+            "typename": "NUMBER"
+        },
+        "side": {
+            "control": "Combo",
+            "defaultvalue": "-1",
+            "displayname": "Sector Owner",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_Side",
+            "tooltip": "Set if you need to identify whether or not a sector belongs to someone.",
+            "typename": "NUMBER",
+            "values": {
+                "east": {
+                    "name": "East",
+                    "value": 0
+                },
+                "indep": {
+                    "name": "Independent",
+                    "value": 2
+                },
+                "none": {
+                    "name": "None",
+                    "value": -1
+                },
+                "west": {
+                    "name": "West",
+                    "value": 1
+                }
+            }
+        },
+        "spawndistance": {
+            "control": "Edit",
+            "defaultvalue": 400,
+            "displayname": "Spawn Distance",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_SpawnDistance",
+            "tooltip": "Distance of sector spawn.",
+            "typename": "NUMBER"
+        },
+        "threatrange": {
+            "control": "Edit",
+            "defaultvalue": "300",
+            "displayname": "Threat Range",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_ThreatRange",
+            "tooltip": "Distance that player is seen as a threat by enemies.",
+            "typename": "NUMBER"
+        },
+        "threatrate": {
+            "control": "Combo",
+            "defaultvalue": "1000",
+            "displayname": "Threat Rate",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_ThreatRate",
+            "tooltip": "How quickly enemies become aggressive. A value of 1 provides a normal threat elevation, while a value of 5 would cause enemies to attack much faster.",
+            "typename": "NUMBER",
+            "values": {
+                "v1": {
+                    "name": "1",
+                    "value": 1
+                },
+                "v10": {
+                    "name": "10",
+                    "value": 10
+                },
+                "v1000": {
+                    "name": "1000",
+                    "value": 1000
+                },
+                "v2": {
+                    "name": "2",
+                    "value": 2
+                },
+                "v3": {
+                    "name": "3",
+                    "value": 3
+                },
+                "v4": {
+                    "name": "4",
+                    "value": 4
+                },
+                "v5": {
+                    "name": "5",
+                    "value": 5
+                }
+            }
+        },
+        "units": {
+            "control": "ModuleObjects",
+            "defaultvalue": "'1'",
+            "displayname": "Apply to",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "tooltip": ""
+        },
+        "vehiclespawndistance": {
+            "control": "Edit",
+            "defaultvalue": 1000,
+            "displayname": "Vehicle Spawn Distance",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSector_VSpawnDistance",
+            "tooltip": "Distance in which vehicles will spawn in sectors when player is grounded.",
+            "typename": "NUMBER"
+        },
+        "zonea": {
+            "control": "Edit",
+            "defaultvalue": "[]",
+            "displayname": "List of Zone A triggers",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_ZoneA",
+            "tooltip": "",
+            "typename": "STRING"
+        },
+        "zoneasoldier": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "displayname": "Guard A",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_ZoneASoldier",
+            "tooltip": "Variable of the guard.",
+            "typename": "STRING"
+        },
+        "zoneb": {
+            "control": "Edit",
+            "defaultvalue": "[]",
+            "displayname": "List of Zone B triggers",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_ZoneB",
+            "tooltip": "",
+            "typename": "STRING"
+        },
+        "zonebsoldier": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "displayname": "Guard B",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "property": "ModuleOmSectorCheckpoint_ZoneBSoldier",
+            "tooltip": "Variable of the guard.",
+            "typename": "STRING"
+        }
+    },
+    "attributesbase": {
+        "checkbox": {
+            "control": "Checkbox",
+            "defaultvalue": "false",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "checkboxnumber": {
+            "control": "CheckboxNumber",
+            "defaultvalue": "0",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "combo": {
+            "control": "Combo",
+            "defaultvalue": "''",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "default": {
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "edit": {
+            "control": "Edit",
+            "defaultvalue": "''",
+            "expression": "_this setVariable ['%s',_value,true];"
+        },
+        "editcodemulti5": {},
+        "editmulti3": {},
+        "editmulti5": {},
+        "moduledescription": {
+            "control": "ModuleInfo",
+            "property": "ModuleInfo"
+        },
+        "units": {
+            "control": "ModuleObjects",
+            "defaultvalue": "'1'",
+            "displayname": "Apply to",
+            "expression": "_this setVariable ['%s',_value,true];",
+            "tooltip": ""
+        }
+    },
+    "attributevalues": {
+        "size3": [
+            100,
+            100,
+            -1
+        ]
+    },
+    "audible": 1,
+    "author": "Bohemia Interactive",
+    "autocenter": 1,
+    "brakedistance": 5,
+    "cabinclosesound": [
+        "",
+        1,
+        1
+    ],
+    "cabinclosesoundinternal": [
+        "",
+        1,
+        1
+    ],
+    "cabinopensound": [
+        "",
+        1,
+        1
+    ],
+    "cabinopensoundinternal": [
+        "",
+        1,
+        1
+    ],
+    "camerasmoothspeed": 5,
+    "camouflage": 2,
+    "camshakedamage": {
+        "attenuation": 0.5,
+        "distance": -1,
+        "duration": 3,
+        "frequency": 60,
+        "minspeed": 1,
+        "power": 0.5
+    },
+    "camshakegforce": {
+        "distance": 0,
+        "duration": 3,
+        "frequency": 20,
+        "minspeed": 1,
+        "power": 1
+    },
+    "canhidedriver": -1,
+    "cansetarea": 1,
+    "cansetareaheight": 0,
+    "cansetareashape": 1,
+    "canusescanners": 1,
+    "cargoaction": [],
+    "cargocaneject": 1,
+    "cargocompartments": [
+        "Compartment1"
+    ],
+    "cargogetinaction": [],
+    "cargogetoutaction": [],
+    "cargoiscodriver": [
+        0
+    ],
+    "cargospec": {
+        "cargo1": {
+            "showheadphones": 0
+        }
+    },
+    "castcargoshadow": 0,
+    "castdrivershadow": 0,
+    "category": "Oldman",
+    "coefinside": 2,
+    "coefinsideheur": 2,
+    "coefspeedinside": 2,
+    "commandercansee": 31,
+    "cost": 100,
+    "countsforscoreboard": 1,
+    "crew": "Civilian",
+    "crewcrashprotection": 1,
+    "crewvulnerable": 1,
+    "curatorinfotype": "",
+    "curatorinfotypeempty": "",
+    "damage": {
+        "mat": [],
+        "tex": []
+    },
+    "damagefull": [],
+    "damagehalf": [],
+    "damageresistance": 0.004,
+    "damagetexdelay": 0,
+    "destrtype": "DestructDefault",
+    "destructioneffects": {
+        "fire1": {
+            "intensity": 0.15,
+            "interval": 1,
+            "lifetime": 3,
+            "position": "destructionEffect1",
+            "simulation": "particles",
+            "type": "ObjectDestructionFire1"
+        },
+        "fire2": {
+            "intensity": 0.15,
+            "interval": 1,
+            "lifetime": 3,
+            "position": "destructionEffect2",
+            "simulation": "particles",
+            "type": "ObjectDestructionFire2"
+        },
+        "light1": {
+            "intensity": 0.001,
+            "interval": 1,
+            "lifetime": 3,
+            "position": "destructionEffect1",
+            "simulation": "light",
+            "type": "ObjectDestructionLight"
+        },
+        "light2": {
+            "intensity": 0.001,
+            "interval": 1,
+            "lifetime": 3,
+            "position": "destructionEffect2",
+            "simulation": "light",
+            "type": "ObjectDestructionLight"
+        },
+        "smoke1": {
+            "intensity": 0.15,
+            "interval": 1,
+            "lifetime": 3.5,
+            "position": "destructionEffect1",
+            "simulation": "particles",
+            "type": "ObjectDestructionSmoke"
+        },
+        "smoke1_2": {
+            "intensity": 0.15,
+            "interval": 1,
+            "lifetime": 3.5,
+            "position": "destructionEffect2",
+            "simulation": "particles",
+            "type": "ObjectDestructionSmoke1_2"
+        },
+        "sound": {
+            "intensity": 1,
+            "interval": 1,
+            "lifetime": 1,
+            "position": "destructionEffect1",
+            "simulation": "sound",
+            "type": "Fire"
+        },
+        "sparks1": {
+            "intensity": 0,
+            "interval": 1,
+            "lifetime": 0,
+            "position": "destructionEffect1",
+            "simulation": "particles",
+            "type": "ObjectDestructionSparks"
+        }
+    },
+    "detectskill": 20,
+    "displayname": "Old Man Checkpoint",
+    "driveraction": "",
+    "drivercaneject": 1,
+    "drivercansee": "2+8+16",
+    "drivercompartments": "Compartment1",
+    "driverforceoptics": 0,
+    "driverinaction": "",
+    "driveropticscolor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "driveropticseffect": [],
+    "driveropticsmodel": "",
+    "dustbackleftpos": "dustBackLeft",
+    "dustbackrightpos": "dustBackRight",
+    "dustfrontleftpos": "dustFrontLeft",
+    "dustfrontrightpos": "dustFrontRight",
+    "ejectdeadcargo": 0,
+    "ejectdeaddriver": 0,
+    "emptysound": [
+        "",
+        0,
+        1
+    ],
+    "enablegps": 0,
+    "enablemanualfire": 1,
+    "enableradio": 0,
+    "enablewatch": 0,
+    "engineer": 0,
+    "epeimpulsedamagecoef": 30,
+    "eventhandlers": {
+        "init": "_this call bis_fnc_moduleInit;"
+    },
+    "extcameraparams": [
+        1
+    ],
+    "extcameraposition": [
+        0,
+        2,
+        -20
+    ],
+    "faction": "Default",
+    "features": "",
+    "featuretype": 0,
+    "fireresistance": 10,
+    "forcehidedriver": 0,
+    "formationtime": 5,
+    "formationx": 10,
+    "formationz": 20,
+    "fsmdanger": "",
+    "fsmformation": "",
+    "fuelcapacity": 0,
+    "fuelconsumptionrate": 0.01,
+    "function": "",
+    "fxexplo": {
+        "access": 1
+    },
+    "getinaction": "",
+    "getinradius": 2.5,
+    "getoutaction": "",
+    "gforceshakeattenuation": 0.5,
+    "ghostpreview": "",
+    "groupcameraposition": [
+        0,
+        5,
+        -30
+    ],
+    "gunclouds": {
+        "access": 0,
+        "cloudletaccy": 0.4,
+        "cloudletalpha": 1,
+        "cloudletanimperiod": 1,
+        "cloudletcolor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "cloudletduration": 0.3,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 1,
+        "cloudletgrowup": 1,
+        "cloudletmaxyspeed": 0.8,
+        "cloudletminyspeed": 0.2,
+        "cloudletshape": "cloudletClouds",
+        "cloudletsize": 1,
+        "deltat": 0,
+        "initt": 0,
+        "interval": 0.05,
+        "size": 3,
+        "sourcesize": 0.5,
+        "table": {
+            "t0": {
+                "color": [
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "maxt": 0
+            }
+        },
+        "timetolive": 0
+    },
+    "gunfire": {
+        "access": 0,
+        "cloudletaccy": 0,
+        "cloudletalpha": 1,
+        "cloudletanimperiod": 1,
+        "cloudletcolor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "cloudletduration": 0.2,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 0.5,
+        "cloudletgrowup": 0.2,
+        "cloudletmaxyspeed": 100,
+        "cloudletminyspeed": -100,
+        "cloudletshape": "cloudletFire",
+        "cloudletsize": 1,
+        "deltat": -3000,
+        "initt": 4500,
+        "interval": 0.01,
+        "size": 3,
+        "sourcesize": 0.5,
+        "table": {
+            "t0": {
+                "color": [
+                    0.82,
+                    0.95,
+                    0.93,
+                    0
+                ],
+                "maxt": 0
+            },
+            "t1": {
+                "color": [
+                    0.75,
+                    0.77,
+                    0.9,
+                    0
+                ],
+                "maxt": 200
+            },
+            "t10": {
+                "color": [
+                    0.62,
+                    0.29,
+                    0.03,
+                    0
+                ],
+                "maxt": 2600
+            },
+            "t11": {
+                "color": [
+                    0.59,
+                    0.35,
+                    0.05,
+                    0
+                ],
+                "maxt": 2650
+            },
+            "t12": {
+                "color": [
+                    0.75,
+                    0.37,
+                    0.03,
+                    0
+                ],
+                "maxt": 2700
+            },
+            "t13": {
+                "color": [
+                    0.88,
+                    0.34,
+                    0.03,
+                    0
+                ],
+                "maxt": 2750
+            },
+            "t14": {
+                "color": [
+                    0.91,
+                    0.5,
+                    0.17,
+                    0
+                ],
+                "maxt": 2800
+            },
+            "t15": {
+                "color": [
+                    1,
+                    0.6,
+                    0.2,
+                    0
+                ],
+                "maxt": 2850
+            },
+            "t16": {
+                "color": [
+                    1,
+                    0.71,
+                    0.3,
+                    0
+                ],
+                "maxt": 2900
+            },
+            "t17": {
+                "color": [
+                    0.98,
+                    0.83,
+                    0.41,
+                    0
+                ],
+                "maxt": 2950
+            },
+            "t18": {
+                "color": [
+                    0.98,
+                    0.91,
+                    0.54,
+                    0
+                ],
+                "maxt": 3000
+            },
+            "t19": {
+                "color": [
+                    0.98,
+                    0.99,
+                    0.6,
+                    0
+                ],
+                "maxt": 3100
+            },
+            "t2": {
+                "color": [
+                    0.56,
+                    0.62,
+                    0.67,
+                    0
+                ],
+                "maxt": 400
+            },
+            "t20": {
+                "color": [
+                    0.96,
+                    0.99,
+                    0.72,
+                    0
+                ],
+                "maxt": 3300
+            },
+            "t21": {
+                "color": [
+                    1,
+                    0.98,
+                    0.91,
+                    0
+                ],
+                "maxt": 3600
+            },
+            "t22": {
+                "color": [
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "maxt": 4200
+            },
+            "t3": {
+                "color": [
+                    0.39,
+                    0.46,
+                    0.47,
+                    0
+                ],
+                "maxt": 600
+            },
+            "t4": {
+                "color": [
+                    0.24,
+                    0.31,
+                    0.31,
+                    0
+                ],
+                "maxt": 800
+            },
+            "t5": {
+                "color": [
+                    0.23,
+                    0.31,
+                    0.29,
+                    0
+                ],
+                "maxt": 1000
+            },
+            "t6": {
+                "color": [
+                    0.21,
+                    0.29,
+                    0.27,
+                    0
+                ],
+                "maxt": 1500
+            },
+            "t7": {
+                "color": [
+                    0.19,
+                    0.23,
+                    0.21,
+                    0
+                ],
+                "maxt": 2000
+            },
+            "t8": {
+                "color": [
+                    0.22,
+                    0.19,
+                    0.1,
+                    0
+                ],
+                "maxt": 2300
+            },
+            "t9": {
+                "color": [
+                    0.35,
+                    0.2,
+                    0.02,
+                    0
+                ],
+                "maxt": 2500
+            }
+        },
+        "timetolive": 0
+    },
+    "gunnercansee": "4+8+16",
+    "gunnerhasflares": 1,
+    "hasdriver": 1,
+    "headaimdown": 0,
+    "headgforceleaningfactor": [
+        0.01,
+        0.002,
+        0.01
+    ],
+    "headlimits": {
+        "initanglex": 5,
+        "initangley": 0,
+        "maxanglex": 40,
+        "maxangley": 90,
+        "maxanglez": 45,
+        "minanglex": -30,
+        "minangley": -90,
+        "minanglez": -45,
+        "rotzradius": 0.2
+    },
+    "hiddenselections": [],
+    "hiddenselectionsmaterials": [],
+    "hiddenselectionstextures": [],
+    "hiddenunderwaterselections": [],
+    "hiddenunderwaterselectionstextures": [],
+    "hideproxyincombat": 0,
+    "hideunitinfo": 0,
+    "hideweaponscargo": 0,
+    "hideweaponsdriver": 1,
+    "hulldamagecauseexplosion": 0,
+    "icon": "a3/Ui_f/data/IGUI/Cfg/simpleTasks/letters/s_ca.paa",
+    "impacteffectssea": "ImpactEffectsSea",
+    "incomingmissiledetectionsystem": 0,
+    "indirecthitciviliancoefai": -20,
+    "indirecthitenemycoefai": 10,
+    "indirecthitfriendlycoefai": -20,
+    "indirecthitunknowncoefai": -0.5,
+    "insidedetectcoef": 0.05,
+    "insidesoundcoef": 0.5,
+    "irscanground": 1,
+    "irscanrangemax": 0,
+    "irscanrangemin": 0,
+    "irscantoeyefactor": 1,
+    "irtarget": 1,
+    "is3den": 1,
+    "isbackpack": 0,
+    "isglobal": 0,
+    "istriggeractivated": 0,
+    "keepinepesceneafterdeath": 0,
+    "killfriendlyexpcoef": 1,
+    "laserscanner": 0,
+    "lasertarget": 0,
+    "limitedspeedcoef": 0.22,
+    "lockdetectionsystem": 0,
+    "magazines": [],
+    "mapsize": 1,
+    "markerlights": {},
+    "maxdetectrange": 20,
+    "maxfordingdepth": 1,
+    "maxgforce": 2,
+    "maxspeed": 80,
+    "memorypointsupply": "doplnovani",
+    "mgunclouds": {
+        "access": 0,
+        "cloudletaccy": 0,
+        "cloudletalpha": 0.3,
+        "cloudletanimperiod": 1,
+        "cloudletcolor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "cloudletduration": 0.05,
+        "cloudletfadein": 0,
+        "cloudletfadeout": 0.1,
+        "cloudletgrowup": 0.05,
+        "cloudletmaxyspeed": 100,
+        "cloudletminyspeed": -100,
+        "cloudletshape": "cloudletClouds",
+        "cloudletsize": 1,
+        "deltat": 0,
+        "initt": 0,
+        "interval": 0.02,
+        "size": 0.3,
+        "sourcesize": 0.02,
+        "table": {
+            "t0": {
+                "color": [
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "maxt": 0
+            }
+        },
+        "timetolive": 0
+    },
+    "minealerticonrange": 200,
+    "minfiretime": 20,
+    "mingforce": 0.2,
+    "model": "A3/Weapons_f/empty",
+    "moduledescription": {
+        "anyai": {
+            "description": "Any AI unit. Not players or empty objects",
+            "displayname": "Any AI",
+            "duplicate": 1,
+            "icon": "iconMan",
+            "side": 1
+        },
+        "anybrain": {
+            "description": "Any AI or player. Not empty objects",
+            "displayname": "Any AI or player",
+            "duplicate": 1,
+            "icon": "iconMan",
+            "side": 1
+        },
+        "anyobject": {},
+        "anyperson": {
+            "description": "Any person. Not vehicles or static objects.",
+            "displayname": "Any person",
+            "duplicate": 1,
+            "icon": "iconMan",
+            "side": 1
+        },
+        "anyplayer": {
+            "description": "Any player. Not AI units or empty objects",
+            "displayname": "Any player",
+            "duplicate": 1,
+            "icon": "iconMan",
+            "side": 1
+        },
+        "anystaticobject": {
+            "description": "Any static object. Not persons or vehicles.",
+            "displayname": "Any static object",
+            "duplicate": 1,
+            "icon": "iconObject",
+            "side": 4
+        },
+        "anything": {
+            "description": "Any object - persons, vehicles, static objects, etc.",
+            "displayname": "Any object",
+            "duplicate": 1,
+            "icon": "iconVehicle",
+            "side": 4
+        },
+        "anyvehicle": {
+            "description": "Any vehicle. No persons or static objects.",
+            "displayname": "Any vehicle",
+            "duplicate": 1,
+            "icon": "iconCar",
+            "side": 4
+        },
+        "condition": {
+            "description": "The module will be activated only after the trigger conditions are met.",
+            "displayname": "Trigger",
+            "duplicate": 1,
+            "icon": "iconLogic",
+            "optional": 1,
+            "vehicle": "EmptyDetector"
+        },
+        "curator_f": {
+            "description": "System curator.",
+            "displayname": "Curator"
+        },
+        "description": "Creates a checkpoint sector. This module cannot be used without first adding the Old Man Init. module.",
+        "direction": 0,
+        "directiondisabled": "Has no effect",
+        "directionenabled": "Affects module function",
+        "displayname": "",
+        "duplicate": 0,
+        "duplicatedisabled": "Only one entity of this type can be synced.",
+        "duplicateenabled": "Multiple entities of this type can be synced.",
+        "emptydetector": {
+            "description": "Any trigger",
+            "displayname": "Trigger",
+            "duplicate": 1,
+            "icon": "iconLogic",
+            "vehicle": "EmptyDetector"
+        },
+        "icon": "",
+        "position": 0,
+        "positiondisabled": "Has no effect",
+        "positionenabled": "Affects module function",
+        "sync": [
+            "All"
+        ],
+        "vehicle": ""
+    },
+    "namesound": "unknown",
+    "nightvision": 0,
+    "normalspeedforwardcoef": 0.85,
+    "numberphysicalwheels": 0,
+    "nvgmarker": {
+        "ambient": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "blinking": 0,
+        "brightness": 1,
+        "diffuse": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "onlyinnvg": 0
+    },
+    "nvgmarkers": {},
+    "nvscanner": 0,
+    "nvtarget": 0,
+    "obstructsoundlfratio": 0,
+    "obstructsoundswhenin": 0.562341,
+    "occludesoundlfratio": 0.25,
+    "occludesoundswhenin": 0.316228,
+    "outsidesoundfilter": 0,
+    "picture": "",
+    "pilotspec": {
+        "showheadphones": 0
+    },
+    "portrait": "a3/Ui_f/data/IGUI/Cfg/simpleTasks/letters/s_ca.paa",
+    "precision": 5,
+    "predictturnplan": 1,
+    "predictturnsimul": 1.2,
+    "preferroads": 0,
+    "pulsationsound": {},
+    "radartype": 0,
+    "reflectors": {},
+    "replacedamaged": "",
+    "replacedamagedhitpoints": [],
+    "replacedamagedlimit": 0.9,
+    "reversed": 1,
+    "scope": 2,
+    "scopecurator": 0,
+    "secondaryexplosion": -1,
+    "selectionbacklights": "",
+    "selectionclan": "",
+    "selectiondamage": "zbytek",
+    "selectiondashboard": "",
+    "selectionfireanim": "",
+    "selectionshowdamage": "",
+    "sensitivity": 2.5,
+    "sensitivityear": 0.0075,
+    "shadow": 1,
+    "showalltargets": 0,
+    "showcrewaim": 7,
+    "shownunderwaterselections": [],
+    "shownvgcargo": [
+        0
+    ],
+    "shownvgcommander": 0,
+    "shownvgdriver": 0,
+    "shownvggunner": 0,
+    "side": 7,
+    "simulation": "invisible",
+    "slingloadcargomemorypoints": [],
+    "slingloadcargomemorypointsdir": [],
+    "slowspeedforwardcoef": 0.3,
+    "soundarmorcrash": [
+        "emptySound",
+        0
+    ],
+    "soundattenuationcargo": [
+        1
+    ],
+    "soundbreath": {},
+    "soundbreathautomatic": {},
+    "soundbreathinjured": {},
+    "soundbreathswimming": {},
+    "soundbuildingcrash": [
+        "emptySound",
+        0
+    ],
+    "soundburning": {},
+    "soundbushcrash": [
+        "emptySound",
+        0
+    ],
+    "soundchoke": {},
+    "soundcrash": [
+        "",
+        0.316228,
+        1
+    ],
+    "soundcrashes": [
+        "soundCrash",
+        1
+    ],
+    "sounddamage": [
+        "",
+        1,
+        1
+    ],
+    "sounddammage": [
+        "",
+        1,
+        1
+    ],
+    "sounddrown": {},
+    "sounddrowning": {},
+    "soundelevation": [
+        "",
+        0.00316228,
+        0.5
+    ],
+    "soundengine": [
+        "",
+        1,
+        1
+    ],
+    "soundengineoffext": [
+        "",
+        1,
+        1
+    ],
+    "soundengineoffint": [
+        "",
+        1,
+        1
+    ],
+    "soundengineonext": [
+        "",
+        1,
+        1
+    ],
+    "soundengineonint": [
+        "",
+        1,
+        1
+    ],
+    "soundenviron": [
+        "",
+        1,
+        1
+    ],
+    "soundenvironext": {},
+    "soundequipment": {},
+    "soundflapsdown": [
+        "",
+        1,
+        1
+    ],
+    "soundflapsup": [
+        "",
+        1,
+        1
+    ],
+    "soundgear": {},
+    "soundgeardown": [
+        "",
+        1,
+        1
+    ],
+    "soundgearup": [
+        "",
+        1,
+        1
+    ],
+    "soundgetin": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundgetout": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundhitscream": {},
+    "soundincommingmissile": [
+        "",
+        1,
+        1
+    ],
+    "soundinjured": {},
+    "soundlandcrash": [
+        "",
+        1,
+        1
+    ],
+    "soundlandcrashes": [
+        "soundLandCrash",
+        1
+    ],
+    "soundlocked": [
+        "",
+        1,
+        1
+    ],
+    "soundrecovered": {},
+    "soundservo": [
+        "",
+        0.00316228,
+        0.5
+    ],
+    "soundturnin": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundturnininternal": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundturnout": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundturnoutinternal": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundwatercrash": [
+        "",
+        0.177828,
+        1
+    ],
+    "soundwatercrashes": [
+        "soundWaterCrash",
+        1
+    ],
+    "soundwoodcrash": [
+        "emptySound",
+        0
+    ],
+    "speechplural": [],
+    "speechsingular": [],
+    "speechvariants": {
+        "default": {
+            "speechplural": [
+                "veh_unknown_p"
+            ],
+            "speechsingular": [
+                "veh_unknown_s"
+            ]
+        }
+    },
+    "spotabledarknightlightsoff": 0.001,
+    "spotablenightlightsoff": 0.02,
+    "spotablenightlightson": 4,
+    "steeraheadplan": 0.4,
+    "steeraheadsimul": 0.3,
+    "supplyradius": -1,
+    "textplural": "unknown",
+    "textsingular": "unknown",
+    "threat": [
+        0.7,
+        0.5,
+        0.3
+    ],
+    "transportammo": 0,
+    "transportfuel": 0,
+    "transportmagazines": {},
+    "transportmaxbackpacks": 0,
+    "transportmaxmagazines": 0,
+    "transportmaxweapons": 0,
+    "transportrepair": 0,
+    "transportsoldier": 0,
+    "transportvehiclescount": 0,
+    "transportvehiclesmass": 0,
+    "transportweapons": {},
+    "turrets": {},
+    "type": 1,
+    "typicalcargo": [],
+    "uavhacker": 0,
+    "unitinfotype": "RscUnitInfoTank",
+    "unitinfotypelite": 0,
+    "unloadincombat": 0,
+    "useprecisegetinaction": 0,
+    "vehicleclass": "Modules",
+    "viewcargo": {
+        "initanglex": 5,
+        "initangley": 0,
+        "initfov": 0.75,
+        "maxanglex": 85,
+        "maxangley": 150,
+        "maxfov": 1.25,
+        "maxmovex": 0,
+        "maxmovey": 0,
+        "maxmovez": 0,
+        "minanglex": -85,
+        "minangley": -150,
+        "minfov": 0.25,
+        "minmovex": 0,
+        "minmovey": 0,
+        "minmovez": 0,
+        "speedzoommaxfov": 0,
+        "speedzoommaxspeed": 10000000000.0
+    },
+    "viewcargoshadow": 1,
+    "viewcargoshadowamb": 1,
+    "viewcargoshadowdiff": 1,
+    "viewdrivershadow": 1,
+    "viewdrivershadowamb": 1,
+    "viewdrivershadowdiff": 1,
+    "viewoptics": {
+        "initanglex": 0,
+        "initangley": 0,
+        "initfov": 0.7,
+        "maxanglex": 30,
+        "maxangley": 100,
+        "maxfov": 0.85,
+        "maxmovex": 0,
+        "maxmovey": 0,
+        "maxmovez": 0,
+        "minanglex": -30,
+        "minangley": -100,
+        "minfov": 0.42,
+        "minmovex": 0,
+        "minmovey": 0,
+        "minmovez": 0,
+        "speedzoommaxfov": 0,
+        "speedzoommaxspeed": 10000000000.0
+    },
+    "viewpilot": {
+        "initanglex": 5,
+        "initangley": 0,
+        "initfov": 0.75,
+        "maxanglex": 85,
+        "maxangley": 150,
+        "maxfov": 1.25,
+        "maxmovex": 0,
+        "maxmovey": 0,
+        "maxmovez": 0,
+        "minanglex": -55,
+        "minangley": -150,
+        "minfov": 0.25,
+        "minmovex": 0,
+        "minmovey": 0,
+        "minmovez": 0,
+        "speedzoommaxfov": 0,
+        "speedzoommaxspeed": 10000000000.0
+    },
+    "waterangulardampingcoef": 0,
+    "waterdamageengine": 0.2,
+    "waterleakiness": 0.5,
+    "waterlineardampingcoefx": 0,
+    "waterlineardampingcoefy": 0,
+    "waterresistance": 10,
+    "waterresistancecoef": 0.5,
+    "weapons": [],
+    "weaponsgroup1": "1 + 2",
+    "weaponsgroup2": 4,
+    "weaponsgroup3": "8 + 16 + 32",
+    "weaponsgroup4": "64 + 128",
+    "weaponslots": 0,
+    "wheelcircumference": 1,
+    "windsockexist": 0
+}

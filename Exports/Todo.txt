@@ -1,0 +1,2 @@
+Check SQF export for addComma functionality for a fetched recoil array being the first parameter in a firemode/class
+rhs_weap_smaaw.py is the only example for this.

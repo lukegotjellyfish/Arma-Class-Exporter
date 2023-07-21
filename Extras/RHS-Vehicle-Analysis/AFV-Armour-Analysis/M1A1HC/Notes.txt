@@ -1,0 +1,5 @@
+           Orange: FF6A00
+            Green: 4CFF00
+Highlight opacity: 50/255
+3 Digit Pen Value: 36 font size
+4 Digit Pen Value: 34 font size

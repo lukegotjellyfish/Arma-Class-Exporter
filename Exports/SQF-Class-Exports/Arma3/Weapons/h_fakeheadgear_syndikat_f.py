@@ -1,0 +1,33 @@
+d = {
+    "_generalmacro": "H_FakeHeadgear_Syndikat_F",
+    "allowedfacewear": [
+        "G_Aviator",
+        1,
+        "G_Bandanna_aviator",
+        1,
+        "G_Bandanna_beast",
+        1,
+        "G_Bandanna_blk",
+        1,
+        "G_Bandanna_khk",
+        1,
+        "G_Bandanna_oli",
+        1,
+        "G_Bandanna_shades",
+        1,
+        "G_Bandanna_sport",
+        1,
+        "G_Bandanna_tan",
+        1,
+        "G_Shades_Black",
+        1,
+        "G_Shades_Blue",
+        1,
+        "G_Shades_Red",
+        1,
+        "G_Shades_Green",
+        1
+    ],
+    "author": "Bohemia Interactive",
+    "scope": 0
+}

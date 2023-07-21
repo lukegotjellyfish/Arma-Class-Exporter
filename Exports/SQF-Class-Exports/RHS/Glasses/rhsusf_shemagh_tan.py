@@ -1,0 +1,23 @@
+d = {
+    "_generalmacro": "G_Combat",
+    "author": "Red Hammer Studios",
+    "displayname": "Shemagh (Tan)",
+    "dlc": "RHS_USAF",
+    "hiddenselections": [
+        "Camo"
+    ],
+    "hiddenselectionstextures": [
+        "rhsusf/addons/rhsusf_infantry2/gear/head/shemagh/data/shemagh_tan_co.paa"
+    ],
+    "identitytypes": [
+        "rhsusf_g_army",
+        0,
+        "rhsusf_g_usmc",
+        0
+    ],
+    "mass": 4,
+    "model": "rhsusf/addons/rhsusf_infantry2/gear/head/shemagh/shemagh.p3d",
+    "name": "None",
+    "picture": "rhsusf/addons/rhsusf_infantry2/ui/shemaghtan_ca.paa",
+    "scope": 2
+}

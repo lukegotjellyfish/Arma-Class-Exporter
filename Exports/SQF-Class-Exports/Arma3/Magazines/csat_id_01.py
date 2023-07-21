@@ -1,0 +1,33 @@
+d = {
+    "ammo": "",
+    "author": "Bohemia Interactive",
+    "count": 30,
+    "descriptionshort": "",
+    "displayname": "Access Card (v1) [CSAT]",
+    "displaynameshort": "",
+    "initspeed": 900,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 5,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "a3/Missions_F_Oldman/Props/Military_ID_Card_01_CSAT_01_F.p3d",
+    "modelspecial": "",
+    "namesound": "magazine",
+    "picture": "a3/Missions_F_Oldman/Props/data/Csat_Id_01_ca.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 1,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 256,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

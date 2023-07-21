@@ -1,0 +1,68 @@
+Loadout,Name,Mass,Head Armor,Head Passthrough,Head Simulation,Neck Armor,Neck Passthrough,Neck Simulation,Chest Armor,Chest Passthrough,Chest Simulation,Body Armor,Body Passthrough,Body Simulation,Diaphragm Armor,Diaphragm Passthrough,Diaphragm Simulation,Abdomen Armor,Abdomen Passthrough,Abdomen Simulation,AllowedSlots,II_GeneralMacro,ModelSides,IIType,AllowedFacewear,_GeneralMacro,DescriptionShort,Type,Access,Value
+Ghillie Semi-Arid,Full Ghillie (Semi-Arid) [CSAT],120,[],,[],801,[],,,131072,3,2
+Ghillie Semi-Arid,Chest Rig (Khaki),20,[],VestItem,[],701,[],V_Chestrig_khk,No Armor,131072,3,2
+Ghillie Semi-Arid,Bandana (Black),0,[],,[],0,[],G_Bandanna_blk,,0,0,0
+Ghillie Lush,Full Ghillie (Lush) [CSAT],120,[],,[],801,[],,,131072,3,2
+Ghillie Lush,Chest Rig (Khaki),20,[],VestItem,[],701,[],V_Chestrig_khk,No Armor,131072,3,2
+Ghillie Lush,Bandana (Black),0,[],,[],0,[],G_Bandanna_blk,,0,0,0
+Ghillie Arid,Full Ghillie (Arid) [CSAT],120,[],,[],801,[],,,131072,3,2
+Ghillie Arid,Chest Rig (Khaki),20,[],VestItem,[],701,[],V_Chestrig_khk,No Armor,131072,3,2
+Ghillie Arid,Bandana (Black),0,[],,[],0,[],G_Bandanna_blk,,0,0,0
+Infantry Light,Flora (Alt.),40,[],,[],801,[],,,131072,3,2
+Infantry Light,6B23,60,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Infantry Light,Field Cap VSR,5,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Marines Light,Flora (Alt.),40,[],,[],801,[],,,131072,3,2
+Marines Light,6Sh92 VSR,15,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Marines Light,Beret (MP),5,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Airborne Light,Flora (VDV),40,[],,[],801,[],,,131072,3,2
+Airborne Light,6Sh92,15,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Airborne Light,Beret (VDV),5,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Afghan,M88,40,[],,[],801,[],,,131072,3,2
+Afghan,6B5-19 (6Sh46),147,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+Afghan,SSh-68,40,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Infantry,Flora,40,[],,[],801,[],,,131072,3,2
+Infantry,6B23 (Rifleman),65,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Infantry,6B27M Flora (ESS),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Infantry (EMR),EMR-Summer,40,[],,[],801,[],,,131072,3,2
+Infantry (EMR),6B23 EMR-Summer (Rifleman),65,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Infantry (EMR),6B28 EMR-Summer (ESS),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Infantry (Mountain),Mountain Flora,40,[],,[],801,[],,,131072,3,2
+Infantry (Mountain),6B23 Mountain Les (Rifleman),65,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Infantry (Mountain),6B27M Mountain Les (ESS),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Airborne,EMR-Summer (VDV),40,[],,[],801,[],,,131072,3,2
+Airborne,6B23 EMR-Summer (6Sh92) SpNz,75,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Airborne,6B28 EMR-Summer (ESS),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Marines,Flora (VMF),40,[],,[],801,[],,,131072,3,2
+Marines,6B13 (6Sh92),95,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+Marines,6B7-1M (Flora/Balaclava),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Officer,EMR-Summer,40,[],,[],801,[],,,131072,3,2
+Officer,Mapcase and Holster,20,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Officer,Field Cap EMR-Summer (Alt),5,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Crewman,Flora,40,[],,[],801,[],,,131072,3,2
+Crewman,Vydra-3M,15,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Crewman,TSh-4,5,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 3, 'rhs_scarf', 5, 'G_Aviator', 2]",H_HelmetB,Armor Level II,131072,3,2
+Heli Pilot,DF-15-2,40,[],,[],801,[],,,131072,3,2
+Heli Pilot,Vydra-3M,15,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Heli Pilot,ZSh-7A,11,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Jet Pilot,DF-15-2 (Tan),40,[],,[],801,[],,,131072,3,2
+Jet Pilot,Vydra-3M,15,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Jet Pilot,ZSh-7A (KM-35),11,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Marines (EMR),EMR-Summer,40,[],,[],801,[],,,131072,3,2
+Marines (EMR),6B13 EMR (6Sh92),95,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+Marines (EMR),6B7-1M (EMR/ESS/Balaclava),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Airborne (Desert),EMR-Desert (VDV),40,[],,[],801,[],,,131072,3,2
+Airborne (Desert),6B23 EMR-Summer (6Sh92/Radio) SpNz,70,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Airborne (Desert),6B28 EMR-Summer (ESS),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Spetsnaz Light,Gorka-R (Yellow),40,[],,[],801,[],,,131072,3,2
+Spetsnaz Light,6B23 (6Sh116),80,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Spetsnaz Light,Beanie,5,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Spetsnaz Narksman,Gorka-R (Green),40,[],,[],801,[],,,131072,3,2
+Spetsnaz Narksman,6Sh92 EMR-Summer (VOG/Headset),20,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Spetsnaz Narksman,Boonie Hat EMR-Summer,10,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",,No Armor,131072,3,2
+Spetsnaz,Gorka-R (Green),40,[],,[],801,[],,,131072,3,2
+Spetsnaz,6B23 EMR-Summer (6Sh92/VOG/Radio) SpNz,75,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Spetsnaz,6B47,40,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Infantry Assault,Gorka-R (Green),40,[],,[],801,[],,,131072,3,2
+Infantry Assault,6B43,80,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+Infantry Assault,Altyn (Visor Down),40,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Infantry Assault,Balaclava (Olive),0,[],,[],0,[],G_Balaclava_blk,,0,0,0

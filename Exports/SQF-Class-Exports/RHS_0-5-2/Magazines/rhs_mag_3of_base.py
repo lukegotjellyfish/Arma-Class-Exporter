@@ -1,0 +1,41 @@
+d = {
+    "ammo": "",
+    "author": "Bohemia Interactive",
+    "count": 6,
+    "descriptionshort": "",
+    "displayname": "",
+    "displaynameshort": "",
+    "initspeed": 900,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "magazinereloadtime": 6.5,
+    "mass": 8,
+    "maxleadspeed": 40,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_F/ammo/mag_univ.p3d",
+    "modelspecial": "",
+    "muzzleimpulsefactor": [
+        "14*0.5",
+        14
+    ],
+    "namesound": "magazine",
+    "picture": "",
+    "quickreload": 0,
+    "reloadaction": "",
+    "reloadtime": 6.5,
+    "rhs_magazineindex": 3,
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "tracersevery": 1,
+    "type": 0,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 0,
+    "weight": 0
+}

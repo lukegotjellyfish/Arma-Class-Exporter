@@ -1,0 +1,74 @@
+3BM9: - 244.99989mm
+	hit=190;
+	typicalSpeed=1800;
+	caliber=9.07407;
+
+3BM12 - 280.0008mm
+	hit=215;
+	typicalSpeed=1800;
+	caliber=10.3704;
+
+3BM17 - 289.99872mm
+	hit=230;
+	typicalSpeed=1760;
+	caliber=10.9848;
+
+3BM15 - 310.00035mm
+	hit=240;
+	typicalSpeed=1780;
+	caliber=11.6105;
+
+3BM22 - 379.99896mm
+	hit=200;
+	typicalSpeed=1760;
+	caliber=14.3939;
+
+3BM29 - 392.057775mm
+	hit=230;
+	typicalSpeed=1550;
+	caliber=16.8627;
+
+3BM26 - 410.0007mm
+	hit=230;
+	typicalSpeed=1720;
+	caliber=15.8915;
+
+3BM42 - 446.765025mm
+	hit=250;
+	typicalSpeed=1550;
+	caliber=19.2157;
+
+3BM32 - 492.353625mm
+	hit=230;
+	typicalSpeed=1550;
+	caliber=21.1765;
+
+3BM42M - 649.999875mm
+	hit=270;
+	typicalSpeed=1750;
+	caliber=24.7619;
+
+3BM46 - 681.00045mm
+	hit=300;
+	typicalSpeed=1700;
+	caliber=26.7059;
+
+3BM60 - 689.9994mm
+	hit=300;
+	typicalSpeed=1700;
+	caliber=27.0588;
+
+3BM59 - 779.9991mm
+	hit=300;
+	typicalSpeed=1700;
+	caliber=30.5882;
+
+3BM70 - 960.264075mm
+	hit=300;
+	typicalSpeed=2050;
+	caliber=31.2281;
+
+3BM69 - 1035.78915mm
+	hit=300;
+	typicalSpeed=2050;
+	caliber=33.6842;
