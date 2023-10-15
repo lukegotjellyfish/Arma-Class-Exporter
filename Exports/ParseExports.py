@@ -3,8 +3,30 @@ import contextlib
 import importlib.util
 import math
 import os
+import ast  #string values for integer config parameters that require eval :'c
+import operator as op #https://stackoverflow.com/a/9558001
 from decimal import Decimal
 from json import dumps
+
+# Some mod authors like using string values for int config parameters that 
+#  require the game to evaluate the expressions to get a number
+#  this is not good for numerical operations.
+operators = {ast.Add: op.add, ast.Sub: op.sub, ast.Mult: op.mul,
+             ast.Div: op.truediv, ast.Pow: op.pow, ast.BitXor: op.xor,
+             ast.USub: op.neg}
+
+def eval_expr(expr):
+    return eval_(ast.parse(expr, mode='eval').body)
+
+def eval_(node):
+    if isinstance(node, ast.Num): # <number>
+        return node.n
+    elif isinstance(node, ast.BinOp): # <left> <operator> <right>
+        return operators[type(node.op)](eval_(node.left), eval_(node.right))
+    elif isinstance(node, ast.UnaryOp): # <operator> <operand> e.g., -1
+        return operators[type(node.op)](eval_(node.operand))
+    else:
+        raise TypeError(node)
 
 os.system("")
 cred = '\33[31m'
@@ -310,6 +332,9 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         self.indirect_hit = self.magazine_module.d["ammo"]["indirecthit"]
         self.indirect_hit_range = self.magazine_module.d["ammo"]["indirecthitrange"]
         self.caliber = self.magazine_module.d["ammo"]["caliber"]
+        # TODO Evaluate these expressions in SQF export, instead of here, if possible
+        if isinstance(self.caliber, str):
+            self.caliber = eval_expr(self.caliber)
         self.penetration = [('{:.' + str(self.penetration_formatting) + 'f}').format(
             (Decimal(self.initial_speed * self.caliber * 0.015))).zfill(5),
                             ('{:.' + str(self.penetration_formatting) + 'f}').format(
