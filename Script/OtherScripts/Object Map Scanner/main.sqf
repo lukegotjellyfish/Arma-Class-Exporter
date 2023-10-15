@@ -90,9 +90,6 @@ getTopDownProjection = {
 };
 
 
-_2dBounds = [fac, true] call getTopDownProjection;
-
-
 checkLineIntersectsSurfaces = {
 	params ["_x","_y","_min_z","_max_z"];
 
@@ -137,18 +134,22 @@ getObjectOutline = {
 	private _yval = _miny;
 	private _tempy = 0;
 	private _scanResult = true;
+
+
+	//First method scanning every possible point in the bounding box
     while {_xval < (_maxx + (_resolution*0.5))} do {
 		_tempy = _yval;
 		while {_yval < (_maxy + (_resolution*0.5))} do {
 
-
-			_scanResult = [_xval,_yval,_minZ,_maxZ] call checkLineIntersectsSurfaces; // select 0 params ["","","","_kindResult"];
-			_scanResult select 0 params ["","","","_kindResult"];
-			diag_log format["mxz: %1, mnz: %2, _scanResult: %3 | _kindResult: %4",_maxZ,_minZ,_scanResult, _kindResult];
-
-			if (_kindResult isKindOf "House") then {
+			
+			_scanResult = [_xval,_yval,_minZ,_maxZ] call checkLineIntersectsSurfaces; // select 0 params ["","","","_scanObject"];
+			diag_log format["_scanResult: %1", _scanResult];
+			_scanResult select 0 params ["","","","_scanObject"];
+			//diag_log format["mxz: %1, mnz: %2, _scanResult: %3 | _scanObject: %4",_maxZ,_minZ,_scanResult, _scanObject];
+			if ((_scanObject isEqualTo _object) && (_scanObject isKindOf "House")) then {
 				_markerName = format["%1%2",_marker_prefix,_loopcounter];
 				_marker = createMarker [_markerName, [_xval, _yval]];
+				//_markerName setMarkerSize [0.15, 0.15];
 				_marker setMarkerType "hd_dot";
 				diag_log format["lineIntersects coords: %1|%2", [_xval, _yval,_maxZ], [_xval,_yval,(_minZ-5)]];
 			};
@@ -159,13 +160,31 @@ getObjectOutline = {
 		_xval = _xval + _resolution;
 	};
 
+	private _not_outline = [];
+	private _outline = [];
+	//Second method scanning only the edges of the building
+	//Start the scan from the bottom left corner
+	
+
     _scan_coordinates;
 };
 
 
+// _2dBounds = [one, true] call getTopDownProjection;
+// _aaa = [one, _2dBounds, 0.25] call getObjectOutline;
 
+// _2dBounds = [two, true] call getTopDownProjection;
+// _aaa = [two, _2dBounds, 0.25] call getObjectOutline;
 
+// _2dBounds = [three, true] call getTopDownProjection;
+// _aaa = [three, _2dBounds, 0.25] call getObjectOutline;
 
-_aaa = [fac, _2dBounds, 5] call getObjectOutline;
-_aaa;
+//_2dBounds = [four, true] call getTopDownProjection;
+//_aaa = [four, _2dBounds, 0.25] call getObjectOutline;
+
+_2dBounds = [five, true] call getTopDownProjection;
+_aaa = [five, _2dBounds, 0.1] call getObjectOutline;
+
+// _2dBounds = [six, true] call getTopDownProjection;
+// _aaa = [six, _2dBounds, 0.25] call getObjectOutline;
 
