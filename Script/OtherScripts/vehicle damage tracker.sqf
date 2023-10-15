@@ -33,6 +33,10 @@ hintEnd = "</t>";
 hitpointDamageText = "<t color='#FF0000'>+"; //fix vscode syntax highlighting "</t>"
 hitpointHealText = "<t color='#00FF00'>"; //fix vscode syntax highlighting "</t>"
 hitpointTextEnd = "</t>";
+hitpointSlightlyDamaged = "<t color='#'>"; //fix vscode syntax highlighting "</t>"
+hitpointMediumDamaged = "<t color='#FFA500'>"; //fix vscode syntax highlighting "</t>"
+hitpointCriticalDamaged = "<t color='#FF0000'>"; //fix vscode syntax highlighting "</t>"
+
 
 // gameIsDiag = false;
 // if ((productVersion select 4) == "Diag") then {
