@@ -4,12 +4,18 @@ Exports/#CSV_Exports/Arma3
 Exports/#CSV_Exports/RHS
 Exports/SOGExportScript.py
 Exports/SQF-Class-Exports/*.7z
+Exports/SQF-Class-Exports/Spearhead_1944/
+Exports/#CSV_Exports/Spearhead_1944/
+Exports/SQF-Class-Exports/zz_Archives
 Exports/SQF-Class-Exports/Arma3
 Exports/SQF-Class-Exports/RHS
 Exports/SQF-Class-Exports/RHS_0-5-2
 Exports/SQF-Class-Exports/SOG
 Exports/Vanilla Export Script.py
-Extras/
 ModPreperation/logs/
 Script/SOGClassExport.sqf
 __pycache__
+Exports/SPEExportScript.py
+Exports/nRHSExportScript.py
+Exports/RHSExportScript.py
+Script/SpearheadClassExport.sqf
