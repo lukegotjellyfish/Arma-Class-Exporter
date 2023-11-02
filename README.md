@@ -17,14 +17,14 @@ The functionality for Vehicle parameter export is currently abandoned.~~
 make_file 32bit: http://killzonekid.com/arma-extension-make_file-dll-v1-0/<br>
 make_file 64bit: http://killzonekid.com/arma-64-bit-extensions/<br>
 
-1. Download make_file_x64 (or 32bit version) and put it in your Arma 3 directory (Where the .exe is).
+~~1. Download make_file_x64 (or 32bit version) and put it in your Arma 3 directory (Where the .exe is).
 2. Copy RHSClassExport.sqf and edit as described in the Introduction to modify for other mods.
 3. Run regex replace //.*|/\*[\s\S\n]*\*/ with a blank replacement box to remove all comments because sqf cannot run the script with them in.
 4. Set the folder to export to in *\_basePath* on line 4 (Create this folder yourself).
 5. Create the folders Magazines,Vehicles,Weapons,Glasses in this folder.
 6. Run your version of RHSClassExport.sqf in the debug console.
 7. Run ./Script/AcceptWrites.ahk to auto-accept the make_file confirmation dialogs.
-8. Customize ./Exports/RHSExportScript.py to export a CSV for the provided loadouts as shown.
+8. Customize ./Exports/RHSExportScript.py to export a CSV for the provided loadouts as shown.~~
 
 ## Other Notable Scripts
 ### ./Script/OtherScripts/*.sqf
