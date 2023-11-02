@@ -1,15 +1,15 @@
 # Arma-Class-Exporter
 ## Introduction
-~~The main export script: RHSClassExport.sqf (Automatically export all RHS classes of specified source (see links just below))
+~~The main export script: RHSClassExport.sqf (Automatically export all RHS classes of specified source (see links just below))~~
 
-I highly recommend running RHSClassExport.sqf on Windows for the functionality of AcceptWrites.ahk to auto-confirm the thousands of file write confirmation dialogs from make_file. However, you may be able to do the same with Wine (I haven't tested this yet).
+~~I highly recommend running RHSClassExport.sqf on Windows for the functionality of AcceptWrites.ahk to auto-confirm the thousands of file write confirmation dialogs from make_file. However, you may be able to do the same with Wine (I haven't tested this yet).~~
 
-Edit lines 26-35 accordingly to change RHSClassExport to export another mod(s) or basegame:<br>
+~~Edit lines 26-35 accordingly to change RHSClassExport to export another mod(s) or basegame:<br>
 https://community.bistudio.com/wiki/configClasses<br>
 https://community.bistudio.com/wiki/configSourceMod<br>
-https://community.bistudio.com/wiki/configSourceModList<br> 
+https://community.bistudio.com/wiki/configSourceModList<br>~~
 
-The Exports folder contains the script RHSExportScript.py used to get/export details of (currently) any Weapon, Magazine, Scope or Infantry Armour for a given mod(s) exported with /Script/RHSClassExport.sqf<br>
+~~The Exports folder contains the script RHSExportScript.py used to get/export details of (currently) any Weapon, Magazine, Scope or Infantry Armour for a given mod(s) exported with /Script/RHSClassExport.sqf<br>
 The functionality for Vehicle parameter export is currently abandoned.~~
 
 -----
