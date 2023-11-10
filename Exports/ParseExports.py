@@ -198,6 +198,8 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         self.submunition_delete_parent_when_triggered = 0  # deleteParentWhenTriggered  https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
         self.submunition_trigger_speed_coef = [0,
                                                0]  # triggerSpeedCoef           https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
+        self.submunition_trigger_speed_coef_flag = True
+        self.submunition_trigger_speed_coef = [0,0]  # triggerSpeedCoef           https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
         self.submunition_shot_count = 1  # submunitionConeType        https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
         self.submunition_trigger_time = 0  #
         self.submunition_time_to_live = []  #
