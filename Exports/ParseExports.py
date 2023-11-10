@@ -230,6 +230,10 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
     def get_magazine_mass(self):
         try:
             self.magazine_mass = self.magazine_module.d["mass"]
+            # If mass is a string to be evaluated to a float
+            if isinstance(self.magazine_mass, str):
+                # Evalute string after replacing comma with a .
+                self.magazine_mass = eval_expr(self.magazine_mass.replace(",", "."))
         except KeyError:
             pass
 
