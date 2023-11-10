@@ -465,6 +465,13 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
     def get_air_frictions(self):
         self.airFriction = abs(self.magazine_module.d["ammo"]["airfriction"])
         self.side_air_friction = abs(self.magazine_module.d["ammo"]["sideairfriction"])
+        self.airFriction = self.magazine_module.d["ammo"]["airfriction"]
+        self.side_air_friction = self.magazine_module.d["ammo"]["sideairfriction"]
+
+        if isinstance(self.airFriction, str): 
+            self.airFriction = abs(eval_expr(self.airFriction))
+        if isinstance(self.side_air_friction, str): 
+            self.side_air_friction = abs(eval_expr(self.side_air_friction))
 
         if self.has_submunition != 0:
             for sub in self.submunitions:
