@@ -363,6 +363,10 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
             # Find the number of submunitions created
             try:
                 self.submunition_shot_count = self.magazine_module.d["ammo"]["submunitionconetype"][1]
+
+                # If it's a list, it's a custom submunitionconetype and the number of entires is the number of submunitions
+                if isinstance(self.submunition_shot_count, list):
+                    self.submunition_shot_count = len(self.submunition_shot_count[0])
             except KeyError:
                 pass  # There is only one submunition created
 
@@ -374,7 +378,9 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                     # If there is only one type of submunition we know that
                     #  every submunitionShot will be that CfgAmmo and can therefore
                     #  multiply the hit value by the number of submunitions spawned to get the damage
+                    #print(f"{self.submunition_hit[x]} * {self.submunition_shot_count}")
                     self.submunition_hit[x] = self.submunition_hit[x] * self.submunition_shot_count
+
                     self.submunition_indirect_hit[x] = self.submunition_indirect_hit[x] * self.submunition_shot_count
                     self.submunition_spawn_chance.append(1)  # Only one CfgAmmo in self.submunitions
                 else:  # If there are 2+ submunitions, get the chance to spawn them
