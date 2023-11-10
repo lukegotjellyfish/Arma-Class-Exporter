@@ -681,8 +681,45 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
             # Determine if the projectile has submunitions here
             try:
                 self.submunition_trigger_time = self.magazine_module.d["ammo"]["triggertime"]
+                # Check to see if there is one submunition
+                print(f"weapon: {self.weapon_class}|{self.magazine_class}")
+                submunition_check = self.magazine_module.d["ammo"]["submunitionammo"]
+                if submunition_check:
+                    self.submunitions.append("submunitionammo")
+                    self.submunitions_names.append(self.magazine_module.d["ammo"]["submunitionammo"]["_dictAmmoName"])
+                    self.has_submunition = 1
             except KeyError:
                 pass  # No triggertime set, retain default 0 value
+                try:
+                    for i in range(1, 10):
+                        submunition_var = f"submunitionammo{i}"
+                        submunition_check = self.magazine_module.d["ammo"][submunition_var]
+                        if submunition_check != "":
+                            self.submunitions.append(submunition_var)
+                            self.submunitions_names.append(self.magazine_module.d["ammo"][submunition_var]["_dictAmmoName"])
+                            self.has_submunition = 2
+                except KeyError:
+                    pass  # There is no submunitions named submunitionammoX
+            # Determine if the projectile's submunitions have Submunitions
+            for submunition in self.submunitions:
+                try:
+                    self.submunitions_submunitions.append(
+                        self.magazine_module.d["ammo"][submunition]["submunitionammo"]["_dictAmmoName"])
+                    self.submunitions_submunitions_names.append(
+                        self.magazine_module.d["ammo"][submunition]["submunitionammo"]["_dictAmmoName"])
+                except (KeyError, TypeError):
+                    pass
+            if self.has_submunition == 1:
+                # Find when submunitions are deployed:
+                #  On impact? Just after fired?
+                try:
+                    self.submunition_trigger_on_impact = self.magazine_module.d["ammo"]["triggeronimpact"]
+                except KeyError:
+                    pass  # No triggeronimpact set, retain default 0 value
+                try:
+                    self.submunition_trigger_time = self.magazine_module.d["ammo"]["triggertime"]
+                except KeyError:
+                    pass  # No triggertime set, retain default 0 value
 
     def get_firearm_stats(self, display_name=1, cartridge=1, time_to_live=1,
                           capacity=1, speeds=1, air_frictions=1, hit=1,
