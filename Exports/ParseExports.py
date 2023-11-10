@@ -676,6 +676,9 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
                 self.submunition_trigger_on_impact = self.magazine_module.d["ammo"]["triggeronimpact"]
             except KeyError:
                 pass  # No triggeronimpact set, retain default 0 value
+        # If the magazine has ammo
+        if self.ammo_flag:
+            # Determine if the projectile has submunitions here
             try:
                 self.submunition_trigger_time = self.magazine_module.d["ammo"]["triggertime"]
             except KeyError:
