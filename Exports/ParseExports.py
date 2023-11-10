@@ -400,8 +400,17 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         self.capacity = self.magazine_module.d["count"]
 
     def get_fire_modes(self):  # [Fire mode, RPM, Dispersion]
+        print(f"get_fire_modes {self.weapon_class}")
         fire_modes = self.weapon_module.d["modes"]
         fire_modes = [x.lower() for x in fire_modes]
+
+        # Validate firemodes
+        for mode in fire_modes:
+            try:
+                self.weapon_module.d[mode]["showtoplayer"]
+            except KeyError:
+                #Remove invalid firemodes
+                fire_modes.remove(mode)
 
         # TODO Redo this mess
         if fire_modes != ["this"]:
@@ -409,6 +418,10 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                 if self.weapon_module.d[mode]["showtoplayer"] == 1:
                     try:
                         rpm = str(round(60 / self.weapon_module.d[mode]["reloadtime"], self.rpm_formatting)).zfill(6)
+                        try:
+                            rpm = str(round(60 / self.weapon_module.d[mode]["reloadtime"], self.rpm_formatting)).zfill(6)
+                        except TypeError:
+                            rpm = str(round(60 / eval_expr(self.weapon_module.d[mode]["reloadtime"]), self.rpm_formatting)).zfill(6)
                         # If a unique rpm for the firemode, add it to the list
                         self.fire_modes.append(mode)
                         self.rpm.append(rpm)
@@ -417,12 +430,15 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                             self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(dispersion))
                         except ValueError:  # Value is a string to eval eg "0.005*25"
                             self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval(dispersion)))
+                            self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval_expr(dispersion)))
                     except KeyError:
+                        print(f"KeyError: {self.weapon_class}|{self.magazine_class}|{mode}")
                         pass
         else:
             try:
                 rpm = str(round(60 / self.weapon_module.d["reloadtime"], self.rpm_formatting)).zfill(6)
             except (KeyError, ZeroDivisionError):
+            except (KeyError, ZeroDivisionError) as e:
                 rpm = 0
             self.fire_modes.append("this")
             self.rpm.append(rpm)
@@ -431,11 +447,20 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                 self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(dispersion))
             except ValueError:  # Value is a string to eval eg "0.005*25"
                 self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval(dispersion)))
+                self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval_expr(dispersion)))
 
         if all(item == self.rpm[0] for item in self.rpm):
             self.rpm = self.rpm[0]
         if all(item == self.dispersion[0] for item in self.dispersion):
             self.dispersion = self.dispersion[0]
+        if self.rpm != []:
+            if all(item == self.rpm[0] for item in self.rpm):
+                self.rpm = self.rpm[0] # self.rpm[0] FIXME list index out of range
+            if all(item == self.dispersion[0] for item in self.dispersion):
+                self.dispersion = self.dispersion[0]
+        else:
+            #No mode with an applicable reloadtime, use main weapon parameter value
+            self.rpm = self.weapon_module.d["reloadtime"]
 
     def get_air_frictions(self):
         self.airFriction = abs(self.magazine_module.d["ammo"]["airfriction"])
