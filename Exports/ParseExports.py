@@ -112,6 +112,11 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         spec = importlib.util.spec_from_file_location(mag, f"{cwd}/SQF-Class-Exports/{magazine_mod}/Magazines/{mag}.py")
         self.magazine_module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(self.magazine_module)
+        # Find if magazine has an ammo defined
+        if self.magazine_module.d["ammo"] == "":
+            self.ammo_flag = False
+        else:
+            self.ammo_flag = True
 
         # Class Properties
         self.weapon_class = weapon
