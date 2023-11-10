@@ -265,6 +265,8 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
             pass  # Not present, default value will be used instead
         try:
             self.submunition_trigger_speed_coef = self.magazine_module.d["ammo"]["triggerspeedcoef"]
+            if isinstance(self.submunition_trigger_speed_coef, int) or isinstance(self.submunition_trigger_speed_coef, float):
+                self.submunition_trigger_speed_coef_flag = False
         except KeyError:
             pass  # Not present, default value will be used instead
         try:
@@ -293,6 +295,11 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                 #  multipliers from submunitionTriggerSpeedCoef?
                 # Current method gives ensures submunition performs at or above calculated speed
                 self.submunition_initial_speed.append(self.submunition_trigger_speed_coef[0] * self.initial_speed)
+                if self.submunition_trigger_speed_coef_flag:
+                    print(f"{self.submunition_trigger_speed_coef} | {self.submunition_trigger_speed_coef_flag}")
+                    self.submunition_initial_speed.append(self.submunition_trigger_speed_coef[0] * self.initial_speed)
+                else:
+                    self.submunition_initial_speed.append(self.submunition_trigger_speed_coef * self.initial_speed)
                 pass  # Not present, default value will be used instead
             try:
                 self.submunition_typical_speed.append(self.magazine_module.d["ammo"][sub]["typicalspeed"])
