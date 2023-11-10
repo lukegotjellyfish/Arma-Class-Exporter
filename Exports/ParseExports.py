@@ -731,6 +731,11 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
             self.get_cartridge()
         if time_to_live == 1:
             self.get_time_to_live()
+        if self.ammo_flag:
+            if cartridge == 1:
+                self.get_cartridge()
+            if time_to_live == 1:
+                self.get_time_to_live()
         if capacity == 1:
             self.get_capacity()
         if speeds == 1:
@@ -741,6 +746,15 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
             self.get_hit()
         if hit_at_ranges == 1:
             self.get_hit_at_ranges()
+        if self.ammo_flag:
+            if speeds == 1:
+                self.get_speeds()
+            if air_frictions == 1:
+                self.get_air_frictions()
+            if hit == 1:
+                self.get_hit()
+            if hit_at_ranges == 1:
+                self.get_hit_at_ranges()
         if fire_modes == 1:
             self.get_fire_modes()
         if weapon_mass == 1:
