@@ -597,6 +597,7 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                         submunition_hit_values.append((f"{{:.{self.submunition_hit_values_formatting}f}}").format(
                             round(self.submunition_hit[x] * (estimated_speed / self.submunition_typical_speed[x]),
                                   self.submunition_hit_values_formatting)))
+                            round(self.submunition_hit[x] * (estimated_speed / self.submunition_typical_speed[x]),self.submunition_hit_values_formatting)))
                     else:
                         submunition_hit_values.append(0.000)
                 self.submunition_hit_values.append(submunition_hit_values)
