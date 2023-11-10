@@ -774,6 +774,11 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
                            self.airFriction, self.penetration[0], self.penetration[1], self.penetration[2]]
         self.csv_export.extend(self.hit_values)
         self.csv_export.extend([self.weapon_class, self.magazine_class, self.weapon_mass, self.magazine_mass, round(self.magazine_mass/self.capacity, self.hit_formatting), self.caliber])
+        try:
+            shot_mass = round(self.magazine_mass/self.capacity, self.hit_formatting)
+        except ZeroDivisionError:
+            shot_mass = 0
+        self.csv_export.extend([self.weapon_class, self.magazine_class, self.weapon_mass, self.magazine_mass, shot_mass, self.caliber])
 
     def print_stats(self):
         h_vz_fill = len(str(self.hit_values[0]))
