@@ -1,0 +1,1043 @@
+Name,Mass,Head Armor,Head Passthrough,Head Simulation,Neck Armor,Neck Passthrough,Neck Simulation,Chest Armor,Chest Passthrough,Chest Simulation,Body Armor,Body Passthrough,Body Simulation,Diaphragm Armor,Diaphragm Passthrough,Diaphragm Simulation,Abdomen Armor,Abdomen Passthrough,Abdomen Simulation,AllowedSlots,II_GeneralMacro,ModelSides,IIType,AllowedFacewear,_GeneralMacro,DescriptionShort,Type,Access,Value
+6B23 Khaki (Utility),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Khaki (Medic),80,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Khaki (NCO),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Khaki (Officer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Khaki (Rifleman),75,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Khaki (Sniper),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Digital (Utility),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Digital (Medic),80,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Digital (NCO),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Digital (Officer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Digital (Rifleman),75,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Digital (Sniper),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Forest (Utility),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Forest (Rifleman),75,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Mountain (Utility),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Mountain (Medic),80,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Mountain (NCO),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Mountain (Officer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Mountain (Rifleman),75,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 TTsKO Mountain (Sniper),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+Kaska K93,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+Kaska K93 TTsKO (Digital),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['rhs_scarf', 'G_Balaclava_blk']",H_HelmetB,Armor Level II,131072,3,2
+Kaska K93 TTsKO (Forest),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+Kaska K93 TTsKO (Mountain),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+Kaska K93 TTsKO (Urban),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+ALICE Webbing,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Baseball Cap (Spectre-SKWO),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['G_Aviator', 'G_Balaclava_blk', 'G_Balaclava_oli', 'G_Bandanna_aviator', 'G_Bandanna_beast', 'G_Bandanna_blk', 'G_Bandanna_khk', 'G_Bandanna_oli', 'G_Bandanna_shades', 'G_Bandanna_sport', 'G_Bandanna_tan', 'G_Shades_Black', 'G_Shades_Blue', 'G_Shades_Red', 'G_Shades_Green']",H_Cap_red,No Armor,131072,3,2
+Chest Rig (Light),15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Chicom Chest Rig,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Chicom Chest Rig (M88),15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+M1941 Wool Cap,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Patrol Cap (OG-107),5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M43 Cap,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M43 Cap (Tilted),5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M40,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M40 (Strap Up),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M40 (Painted),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M40 (Strap Up/Painted),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M40 (Heer Decal),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M40 (Winter),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M40 (Strap Up/Winter),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 (Strap Up),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 (Painted),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 (Strap Up/Painted),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 (Heer Decal),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 Covered (Mouse Grey),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 Covered (Sumpf 44),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 Covered (Splitter 31),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 Covered (Winter),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 (Winter),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M42 (Strap Up/Winter),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (OG-107),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (OG-107/Alt.),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (Desert),42,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (ERDL),42,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (Liner),40,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (Mitchell),42,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (Painted),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+M1 (Painted/Alt.),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (3-Color Desert),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+"PASGT (3-Color Desert, Rhino)",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (Altis Lizard),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (ERDL),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+"PASGT (ERDL, Rhino)",30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (Flecktarn),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (Olive),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (Press),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (UN),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+PASGT (Woodland),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+"PASGT (Woodland, Rhino)",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+M56,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+OTV (Digital),70,0,0,0,0,0.9,0,22,0.2,0,0,0.5,0,22,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+OTV (Khaki),70,0,0,0,0,0.9,0,22,0.2,0,0,0.5,0,22,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+SSh-68 TTsKO,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 EMR-Summer,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 TTsKO (Urban),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 TTsKO (Digital),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 TTsKO (Fall),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 TTsKO (Forest),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 TTsKO (Mountain),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 TTsKO (Summer),40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 UN,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+SSh-68 VSR,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['G_Squares_Tinted', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+Tactical Vest (ERDL),40,0,0,0,0,0.9,0,8,0.5,0,0,0.5,0,8,0.5,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+PBB M-98,60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Bandana (Digital),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_khk,No Armor,131072,3,2
+Bandana (Digital/Desert),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_khk,No Armor,131072,3,2
+Bandana (MDU02),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_khk,No Armor,131072,3,2
+Bandana (Oakleaf),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_khk,No Armor,131072,3,2
+Bandana (SMB),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_khk,No Armor,131072,3,2
+Beret (MP),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+Beret (UN),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+Beret (Army),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+Beret (Airborne),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+Beret (Recon),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+M59/85,42,3,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+M59/85,42,3,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+M59/85 (Oakleaf),42,3,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level I,131072,3,2
+M97 (Black),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Black/Black ESS),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Black/Black ESS/Bare),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Digital),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Digital/Black ESS),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Digital/Black ESS/Bare),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (MDU02),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (MDU02/Black ESS),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (MDU02/Black ESS/Bare),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Blue/UN),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Blue/UN/Tan ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Blue/UN/Tan ESS/Bare),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Oakleaf),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Oakleaf/Black ESS),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Oakleaf/Black ESS/Bare),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Olive),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Olive/Black ESS),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Olive/Black ESS/Bare),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Digital/Veil),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (MDU02/Veil),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Oakleaf/Veil),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Woodland/Veil),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Woodland),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Woodland/Black ESS),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+M97 (Woodland/Black ESS/Bare),42,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[6],605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level IIIA,131072,3,2
+PBB M-99T-A1,40,0,0,0,0,1,0,3,0.6,0,0,0.6,0,3,0.6,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+PBB M-12 (Digital),70,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-12 (Digital/Desert),70,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,$$STR_RHSSAF_VEST_MD12_DIGITAL_DESCRIPTIONSHORT,131072,3,2
+PBB M-12 (Rifleman/M70 mags),90,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-98 (Digital),60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-98 (MDU02),60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-98 (Officer),60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-98 (Woodland/Rifleman),80,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-98 (Woodland),60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99A5 w/M-98,120,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Digital),60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Digital/Radio),65,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Digital/Rifleman),70,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Digital/Rifleman/Radio),75,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (MDU02),60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (MDU02/Radio),65,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (MDU02/Rifleman),70,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (MDU02/Rifleman/Radio),75,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Woodland),60,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Woodland/Radio),65,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Woodland/Rifleman),70,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+PBB M-99T (Woodland/Rifleman/Radio),75,0,0,0,8,0.5,0,22,0.2,0,0,0.2,0,22,0.2,0,22,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+OTV (MDU02),70,0,0,0,0,0.9,0,22,0.2,0,0,0.5,0,22,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+ACH,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Desert),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Desert/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Desert/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Desert/Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Semi-Arid),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Semi-Arid/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Semi-Arid/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Semi-Arid/Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Tan),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Tan/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Tan/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Tan/Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Woodland),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Woodland/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Woodland/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH (Woodland/Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (Netting),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH DCU,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH DCU (Early),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH DCU (Early/Rhino),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (ESS/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (ESS/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (Headset/ESS/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (Headset/ESS/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (Headset/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (Headset/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH M81,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP (Norotos),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH UCP (Norotos),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,Armor Level II,131072,3,2
+"ACVC-H, MK-1697 (Tan/Alt.)",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 2, 'rhs_ess_black', 2, 'rhs_googles_black', 2, 'rhs_googles_clear', 1, 'rhsusf_shemagh2_tan', 5, 'rhsusf_shemagh2_gogg_tan', 10]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+"ACVC-H, MK-1697 (Tan/ESS)",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 2, 'rhs_googles_black', 3, 'rhs_googles_clear', 1, 'rhsusf_shemagh2_tan', 4]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+"ACVC-H, MK-1697 (Alt.)",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 5, 'rhs_ess_black', 2, 'rhs_googles_black', 2, 'rhs_googles_clear', 1, 'rhsusf_shemagh2_od', 3, 'rhsusf_shemagh2_gogg_od', 5]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+"ACVC-H, MK-1697 (ESS)",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 2, 'rhs_googles_black', 3, 'rhs_googles_clear', 1, 'rhsusf_shemagh2_od', 4]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+"ACVC-H, MK-1697",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 5, 'rhs_ess_black', 2, 'rhs_googles_black', 2, 'rhs_googles_clear', 1, 'rhsusf_shemagh2_od', 3, 'rhsusf_shemagh2_gogg_od', 5]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+"ACVC-H, MK-1697 (Tan)",40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 2, 'rhs_ess_black', 2, 'rhs_googles_black', 2, 'rhs_googles_clear', 1, 'rhsusf_shemagh2_tan', 5, 'rhsusf_shemagh2_gogg_tan', 10]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Black),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Green),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Black/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Black/Mask/Skull),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Green/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Green/Mask/Mo),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive/Mask/Mo),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Pink/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (SAF/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive/Mask/Skull),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Smiley/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Tan/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Pink),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (SAF),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Tan),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (USA),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Black/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Green/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive/Visor/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Black/Visor/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Black/Visor/Mask/Skull),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Black/Visor/Mask/Empire),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Green/Visor/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Green/Visor/Mask/Mo),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive/Visor/Mask/Mo),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Pink/Visor/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (SAF/Visor/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Olive/Visor/Mask/Skull),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Smiley/Visor/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Tan/Visor/Mask),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Pink/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (SAF/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (Tan/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (USA/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (White/Visor),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+HGU-56/P (White),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+IHADSS,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+IOTV (OEF-CP),100,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,28,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+,100,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,28,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Grenadier/OEF-CP),120,0,0,0,12,0.4,0,31,0.1,0,0,0.1,0,31,0.1,0,31,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Medic/OEF-CP),120,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,28,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Repair/OEF-CP),120,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,28,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Rifleman/OEF-CP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,31,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (SAW/OCP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Squadleader/OCP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Teamleader/OCP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (UCP),100,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,28,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (UCP),100,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,28,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Grenadier/UCP),120,0,0,0,12,0.4,0,31,0.1,0,0,0.1,0,31,0.1,0,31,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Medic/UCP),120,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,31,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Repair/UCP),120,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,31,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Rifleman/UCP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,31,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (SAW/UCP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Squadleader/UCP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+IOTV (Teamleader/UCP),140,0,0,0,12,0.4,0,28,0.1,0,0,0.1,0,31,0.1,0,28,0.1,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+LWH M1942,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-D,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-D (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-D (Headset/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-WD,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-WD (Black ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-WD (Tan ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-WD (Headset/Tan ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-WD (Headset/Black ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+LWH MARPAT-WD (Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MBAV,60,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+MBAV (Grenadier),80,0,0,0,0,0,0,31,0.1,0,0,0.4,0,31,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+MBAV (Light),80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+MBAV (Medic),80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+MBAV (Machinegunner),80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+MBAV (Rifleman),80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+MICH 2000,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos/Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos/Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos/Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos/ARC),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos/ARC/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos/ARC/Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos/ARC/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos/ARC/Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos/ARC/Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos/ARC/Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos/ARC/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos/ARC),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos/ARC/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos/ARC),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos/ARC/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Norotos/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Norotos/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Norotos/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Semi-Arid/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 (Tan/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D (Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D (Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D (Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D (Norotos),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D (Norotos/ARC),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D (Norotos/ARC/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-D (Norotos/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD (Alt),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD (Alt/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD (Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD (Norotos),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD (Norotos/ARC),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD (Norotos/ARC/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+MICH 2000 MARPAT-WD (Norotos/Headset),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+ACH OEF-CP,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+ACH OEF-CP,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+ACH OEF-CP,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+ACH OEF-CP,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+ACH OEF-CP,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+ACH OEF-CP,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (AOR1),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (AOR1/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (AOR1/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (AOR2),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (AOR2/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (AOR2/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Black),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Black/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic Covered,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Coyote Cover),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Coyote Cover/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Foliage Green),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Foliage Green/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Foliage Green/Headset/Cam),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Foliage Green/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+ACH OEF-CP,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Maritime Helmet,131072,3,2
+FAST Maritime (Foliage Green),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Maritime Helmet,131072,3,2
+FAST Maritime (Foliage Green/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Maritime Helmet,131072,3,2
+FAST Maritime (Urban Tan),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Maritime Helmet,131072,3,2
+FAST Maritime (Urban Tan/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Maritime Helmet,131072,3,2
+FAST Ballistic (Multicam Paint),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Multicam Cover),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Multicam Cover/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Multicam Cover/Headset/NSW/Cam),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Multicam Cover/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Multicam Paint/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Multicam Paint/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Paint),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Paint/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Paint/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Paint/Headset/NSW/Cam),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Ranger Green Cover),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Ranger Green Cover/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Urban Tan),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Urban Tan/Headset),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Urban Tan/Headset/Cam),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Urban Tan/Headset/NSW),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+FAST Ballistic (Urban Tan/Headset/NSW/Cam),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_ess_black', 2, 'rhs_googles_black', 1]",H_HelmetB,OpsCore FAST Ballistic Helmet,131072,3,2
+Plateframe (Grenadier),100,0,0,0,0,0,0,22,0.2,0,0,0.2,0,25,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Plateframe (Light),80,0,0,0,0,0,0,22,0.2,0,0,0.2,0,25,0.2,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Plateframe (Machinegunner),100,0,0,0,0,0,0,22,0.2,0,0,0.2,0,25,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Plateframe (Marksman),100,0,0,0,0,0,0,22,0.2,0,0,0.2,0,25,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Plateframe (Medic),100,0,0,0,0,0,0,22,0.2,0,0,0.2,0,25,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Plateframe (Rifleman),100,0,0,0,0,0,0,22,0.2,0,0,0.2,0,25,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Plateframe,60,0,0,0,0,0,0,22,0.2,0,0,0.2,0,22,0.2,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Plateframe (Teamleader),100,0,0,0,0,0,0,22,0.2,0,0,0.2,0,25,0.2,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Pro-Tech SF,15,0,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+Pro-Tech SF (ESS),15,0,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+Pro-Tech SF (Rhino),15,0,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+Pro-Tech SF (Rhino/ESS),15,0,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'rhs_googles_black', 3, 'rhs_googles_clear', 1]",H_HelmetB,Armor Level II,131072,3,2
+SPC,80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Crewman/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Grenadier/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Machinegunner/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Medic/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Rifleman/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Rifleman Alt/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (SAW/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Sniper/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Squad leader/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Team Leader/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Team Leader Alt/OEF-CP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Crewman/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Grenadier/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Machinegunner/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Medic/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Rifleman/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Rifleman Alt/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (SAW/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Sniper/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Squad Leader/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Team Leader/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPCS (Team Leader Alt/UCP),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Corpsman),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Crewman),80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (IAR),120,0,0,0,0,0,0,31,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Light),100,0,0,0,0,0,0,31,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Marksman),80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Machinegunner),100,0,0,0,0,0,0,31,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Patchless),100,0,0,0,0,0,0,31,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Patchless/Radio),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Rifleman),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Scout Sniper),80,0,0,0,0,0,0,28,0.1,0,0,0.4,0,28,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Squadleader),100,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+SPC (Teamleader),120,0,0,0,0,0,0,28,0.1,0,0,0.4,0,31,0.1,0,3,0.6,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level IV,131072,3,2
+6B13 VSR,80,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,28,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 VSR (6Sh92),95,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 VSR (6Sh92/Headset/Mapcase),100,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 VSR (6Sh92/Radio),95,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 VSR (6Sh92/VOG),100,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 VSR (Crew Officer),85,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,28,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 EMR-Summer,80,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,28,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 EMR (6Sh92),95,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 EMR(6Sh92/Headset/Mapcase),100,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 EMR (6Sh92/Radio),95,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 EMR (6Sh92/VOG),100,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13,80,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,28,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 (6Sh92),95,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 (6Sh92/Headset/Mapcase),100,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 (6Sh92/Radio),95,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 (6Sh92/VOG),100,0,0,0,16,0.3,RHS_Gost_3,31,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,31,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B13 (Crew Officer),85,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.3,RHS_Gost_4,28,0.1,RHS_Gost_6,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B2,40,0,0,0,0,0,0,12,0.4,RHS_Gost_2,0,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 1,131072,3,2
+6B23,60,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh116),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Flora (6Sh116),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mixed (6Sh116),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh116),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh116/VOG),85,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Flora (6Sh116/VOG),85,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mixed (6Sh116/VOG),85,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh116/VOG),85,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh92),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh92/Headset),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh92/Headset/Mapcase),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh92/Radio),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh92/VOG),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (6Sh92/VOG/Headset),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (Crew),70,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (Crew Officer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer,60,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/Headset),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/Headset/Mapcase),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/Headset) SpNz,75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/Radio),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/Radio) SpNz,70,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92) SpNz,75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/VOG),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/VOG/Headset),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/VOG/Radio) SpNz,75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (6Sh92/VOG) SpNz,75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (Crew),70,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (Crew Officer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (Engineer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (Medic),80,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (Rifleman),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (Sniper),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 EMR-Summer (Vydra-3M),75,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (Engineer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (Medic),80,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les,60,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (6Sh92),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (6Sh92/Headset),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (6Sh92/Headset/Mapcase),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (6Sh92/Radio),75,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (6Sh92/VOG),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (6Sh92/VOG/Headset),80,0,0,0,12,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (Crew),70,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (Crew Officer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (Engineer),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (Medic),80,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (Rifleman),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (Sniper),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 Mountain Les (Vydra-3M),75,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (Rifleman),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (Sniper),65,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B23 (Vydra-3M),75,0,0,0,8,0.4,RHS_Gost_2,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_3,25,0.3,RHS_Gost_4,25,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 4,131072,3,2
+6B26 Flora,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B26 Flora (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+6B26 (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+6B26 EMR-Summer,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B26 EMR-Summer (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+6B26 EMR-Summer (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+6B26 EMR-Summer (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+6B26 Flora (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['rhs_scarf', 'G_Aviator']",H_HelmetB,Armor Level II,131072,3,2
+6B26 Flora (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+6B26 (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+6B26 (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B26,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,"[3, 1]",605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M Flora,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M Flora (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B27M EMR-Summer,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M EMR-Summer (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B27M EMR-Summer (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M EMR-Summer (ESS/Balaclava),34.32,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B27M Flora (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M Flora (ESS/Balaclava),34.32,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B27M,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B27M (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M (ESS/Balaclava),34.32,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B27M Mountain Les,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M Mountain Les (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B27M Mountain Les (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B27M Mountain Les (ESS/Balaclava),34.32,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B28 EMR-Summer,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B28 EMR-Summer (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B28 EMR-Summer (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B28 EMR-Summer (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B28 Flora,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B28 Flora (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B28 Flora (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B28 Flora (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B28,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B28 (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B28 (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B28 (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B2 (6Sh46),45,0,0,0,0,0,0,12,0.4,RHS_Gost_2,0,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 1,131072,3,2
+6B2 (Chicom),50,0,0,0,0,0,0,12,0.4,RHS_Gost_2,0,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 1,131072,3,2
+6B2 (Holster),42,0,0,0,0,0,0,12,0.4,RHS_Gost_2,0,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 1,131072,3,2
+6B2 (Lifchik),50,0,0,0,0,0,0,12,0.4,RHS_Gost_2,0,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 1,131072,3,2
+6B2 (RPK),50,0,0,0,0,0,0,12,0.4,RHS_Gost_2,0,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 1,131072,3,2
+6B2 (Sniper),45,0,0,0,0,0,0,12,0.4,RHS_Gost_2,0,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,12,0.4,RHS_Gost_2,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 1,131072,3,2
+6B3,60,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (Rifleman 1),65,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (Rifleman 2),65,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (Rifleman 3),65,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (Holster),55,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (Officer),55,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (R-148),65,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (RPK),70,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (VOG 1),70,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B3 (VOG 2),70,0,0,0,0,0,0,22,0.3,RHS_Gost_4,0,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,22,0.3,RHS_Gost_4,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 3,131072,3,2
+6B43,80,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45,80,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (Desert),80,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (VOG),95,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (Holster),85,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (Light),85,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (Machine Gunner),95,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (Officer),90,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (Rifleman 1),90,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B45 (Rifleman 2),90,0,0,0,16,0.3,RHS_Gost_3,28,0.1,RHS_Gost_6,0,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,28,0.1,RHS_Gost_6,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 6,131072,3,2
+6B47,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (EMR/6B50),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (6M2),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (6M2-1),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B47,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (Desert),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (EMR),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (EMR),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (EMR),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B47 (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B48,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B5-19 Olive,132,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19,132,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Olive (Medic),152,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 (Medic),152,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Berezka (Medic),152,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 TTsKO (Medic),152,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 VSR (Medic),152,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Olive (Officer),142,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 (Officer),142,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Berezka (Officer),142,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 TTsKO (Officer),142,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 VSR (Officer),142,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Olive (6Sh46),147,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 (6Sh46),147,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Berezka (6Sh46),147,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 TTsKO (6Sh46),147,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 VSR (6Sh46),147,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Olive (Sniper),137,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 (Sniper),137,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Berezka (Sniper),137,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 TTsKO (Sniper),137,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 VSR (Sniper),137,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 Berezka,132,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 TTsKO,132,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B5-19 VSR,132,0,0,0,8,0.5,0,25,0.2,0,8,0.5,0,25,0.2,0,25,0.2,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level 5,131072,3,2
+6B7-1M,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (EMR/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Flora/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Olive/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (EMR/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Flora/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Olive/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (EMR),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (EMR/ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (EMR/ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Flora),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Flora/NS-3),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6B7-1M (Olive),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+6Sh117 (RPK),18,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh117 (VOG),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh117 (Machine Gunner),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh117 (Squad Leader),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh117 (Squad Leader/Azart),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh117 (Rifleman),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh117 (SVD),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh117 (Val/VSS),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh46,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92,15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 EMR-Summer,15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 EMR-Summer (Headset),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 EMR-Summer (Radio),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 EMR-Summer (VOG),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 EMR-Summer (VOG/Headset),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 (Headset),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 (Radio),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 (VOG),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 (VOG/Headset),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 VSR,15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 VSR (Headset),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 VSR (Radio),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 VSR (VOG),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+6Sh92 VSR (VOG/Headset),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Altyn (Visor Up),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn (Visor Up/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn (ESS),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn (ESS/Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn (Visor Down),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Beanie (Flora),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Beanie,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Belt Equipment (Rifleman),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equipment (6Sh46),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equipment (6Sh46/Alt),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equipment (Rifleman/Alt),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equipment (Grenadier),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equipment (Holster),5,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equipment (Auto Rifleman),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equiment (SKS),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Belt Equipment (SVD),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Beret (VP),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Beret (MP),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Beret (MP),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Beret (MVD),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Beret (VDV),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Beret (VDV),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Beret (VDV),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",,No Armor,131072,3,2
+Boonie Hat EMR-Summer,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",,No Armor,131072,3,2
+Boonie Hat Flora,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7, 'rhs_scarf', 2, 'G_Aviator', 1]",,No Armor,131072,3,2
+Chicom Chest Rig,10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Chicom Chest Rig (Khaki),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Field Cap,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap EMR-Summer,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap EMR-Summer (Alt),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap EMR-Desert,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap (6B27M),20,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap (6B27M EMR-Summer),20,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap (6B27M Mountain Les),20,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap Izlom,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap Olive,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap Mountain Les,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Field Cap VSR,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,No Armor,131072,3,2
+Officer Gear,10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Jet Pilot Helmet,50,1,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[1, 3]",605,[],H_HelmetB,Armor Level II,131072,3,2
+Lifchik Chest Rig 1,15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Lifchik Chest Rig 2,15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Lifchik Chest Rig (Officer),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Lifchik Chest Rig (VOG),15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+SSh-60,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+SSh-68,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+SSh-68,40,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+STSh-81,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+STSh-81 (Butan),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 8, 'rhs_scarf', 1, 'G_Aviator', 1]",H_HelmetB,Armor Level II,131072,3,2
+Suspender Equipment (Rifleman),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Suspender Equipment (Rifleman/Light),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Suspender Equipment (AK Chestrig),20,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Suspender Equipment (SKS),10,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Mapcase and Holster,20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Pistol Holster,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Vydra-3M,15,0,0,0,0,0,0,0,0,0,0,0.8,0,3,0.6,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Altyn,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn (Balaclava),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Altyn,40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+ZSh-7A (KM-35),11,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+ZSh-7A (KM-35),11,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+ZSh-7A,11,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+ZSh-7A,11,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+ZSh-7A,11,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+ZSh-7A,11,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_HelmetB,Armor Level II,131072,3,2
+Bandana (Blue),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 5.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_blu,No Armor,131072,3,2
+Bandana (Woodland),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 5.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_camo,No Armor,131072,3,2
+Bandana (Coyote),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_cbr,No Armor,131072,3,2
+Bandana (Black),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_gry,No Armor,131072,3,2
+Bandana (Khaki),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_khk,No Armor,131072,3,2
+Bandana (Headset),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_khk_hs,No Armor,131072,3,2
+Bandana (MTP),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 4, 'G_Aviator', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_mcamo,No Armor,131072,3,2
+Bandana (Sand),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 4.5, 'G_Aviator', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_sand,No Armor,131072,3,2
+Bandana (Sage),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 4, 'G_Aviator', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_sgg,No Armor,131072,3,2
+Bandana (Surfer),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 4, 'G_Aviator', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_surfer,No Armor,131072,3,2
+"Bandana (Surfer, Black)",8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 5.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_surfer_blk,No Armor,131072,3,2
+"Bandana (Surfer, Green)",8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,"['', 4.5, 'G_Aviator', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Bandanna_surfer_grn,No Armor,131072,3,2
+Bandana Mask (Black),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_BandMask_blk,No Armor,131072,3,2
+Bandana Mask (Demon),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_BandMask_demon,No Armor,131072,3,2
+Bandana Mask (Khaki),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_BandMask_khk,No Armor,131072,3,2
+Bandana Mask (Reaper),8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_BandMask_reaper,No Armor,131072,3,2
+Beret [NATO],6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_02,No Armor,131072,3,2
+Beret (Black),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_blk,No Armor,131072,3,2
+Beret (Police),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_blk_POLICE,No Armor,131072,3,2
+Beret (SAS),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_brn_SF,No Armor,131072,3,2
+Beret [NATO] (Colonel),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_Colonel,No Armor,131072,3,2
+Beret (Red) [CSAT],6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[3],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_CSAT_01_F,No Armor,131072,3,2
+Beret [LDF],6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[3],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_EAF_01_F,No Armor,131072,3,2
+Beret (Gendarmerie),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_gen_F,No Armor,131072,3,2
+Beret (Green),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_grn,No Armor,131072,3,2
+Beret (SF),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_grn_SF,No Armor,131072,3,2
+Beret [CSAT],6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_ocamo,No Armor,131072,3,2
+Beret (Red),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Beret_red,No Armor,131072,3,2
+Booniehat [AAF],10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_dgtl,No Armor,131072,3,2
+Booniehat (Dirty),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_dirty,No Armor,131072,3,2
+Booniehat [LDF],10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_eaf,No Armor,131072,3,2
+Booniehat (Green),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_grn,No Armor,131072,3,2
+Booniehat (Khaki),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_indp,No Armor,131072,3,2
+Booniehat (Khaki),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_khk,No Armor,131072,3,2
+Booniehat (Headset),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_khk_hs,No Armor,131072,3,2
+Booniehat (MTP),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_mcamo,No Armor,131072,3,2
+Booniehat (Green),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_mgrn,No Armor,131072,3,2
+Booniehat (Olive),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_oli,No Armor,131072,3,2
+Booniehat (Taiga),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_taiga,No Armor,131072,3,2
+Booniehat (Sand),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_tan,No Armor,131072,3,2
+Booniehat (Tropic),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_tna_F,No Armor,131072,3,2
+Booniehat (Woodland),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Booniehat_wdl,No Armor,131072,3,2
+Cap (Black) [IDAP],4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_Black_IDAP_F,No Armor,131072,3,2
+Cap (Black),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_blk,No Armor,131072,3,2
+Cap (CMMG),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_blk_CMMG,No Armor,131072,3,2
+Cap (ION),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_blk_ION,No Armor,131072,3,2
+Cap [AAF],4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 5.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_blk_Raven,No Armor,131072,3,2
+Cap (Black),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_blk_Syndikat_F,No Armor,131072,3,2
+Cap (Blue),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 12, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_blu,No Armor,131072,3,2
+Cap [OPFOR],4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_brn_SPECOPS,No Armor,131072,3,2
+Cap (Green),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_grn,No Armor,131072,3,2
+Cap (BI),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_grn_BI,No Armor,131072,3,2
+Cap (Green),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 4, 'G_Aviator', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_grn_Syndikat_F,No Armor,131072,3,2
+Rangemaster Cap,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_headphones,No Armor,131072,3,2
+Cap (UK),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_khaki_specops_UK,No Armor,131072,3,2
+Marshal Cap,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_marshal,No Armor,131072,3,2
+Cap (Olive),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_oli,No Armor,131072,3,2
+"Cap (Olive, Headset)",4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_oli_hs,No Armor,131072,3,2
+Cap (Olive),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 4, 'G_Aviator', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_oli_Syndikat_F,No Armor,131072,3,2
+Cap (Orange) [IDAP],4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_Orange_IDAP_F,No Armor,131072,3,2
+Cap (Police),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_police,No Armor,131072,3,2
+Cap (Press),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_press,No Armor,131072,3,2
+Cap (Red),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_red,No Armor,131072,3,2
+Cap (Surfer),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_surfer,No Armor,131072,3,2
+Cap (Tan),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 7.5, 'G_Aviator', 1, 'G_Balaclava_blk', 1, 'G_Balaclava_oli', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_tan,No Armor,131072,3,2
+Cap (US MTP),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_tan_specops_US,No Armor,131072,3,2
+Cap (Tan),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Cap_tan_Syndikat_F,No Armor,131072,3,2
+Cap (US Black),4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_usblack,No Armor,131072,3,2
+Cap (White) [IDAP],4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Cap_White_IDAP_F,No Armor,131072,3,2
+Combat Helmet,15,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_basic_base_F,Armor Level I,131072,3,2
+Hard Hat (Black),15,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_basic_black_F,Armor Level I,131072,3,2
+Hard Hat (Orange),15,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_basic_orange_F,Armor Level I,131072,3,2
+Hard Hat (Red),15,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_basic_red_F,Armor Level I,131072,3,2
+Hard Hat (Vrana),15,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_basic_vrana_F,Armor Level I,131072,3,2
+Hard Hat (White),15,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_basic_white_F,Armor Level I,131072,3,2
+Hard Hat (Yellow),15,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_basic_yellow_F,Armor Level I,131072,3,2
+Combat Helmet,20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_earprot_base_F,Armor Level I,131072,3,2
+"Hard Hat (Black, Ear Protectors)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_earprot_black_F,Armor Level I,131072,3,2
+"Hard Hat (Orange, Ear Protectors)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_earprot_orange_F,Armor Level I,131072,3,2
+"Hard Hat (Red, Ear Protectors)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_earprot_red_F,Armor Level I,131072,3,2
+"Hard Hat (Vrana, Ear Protectors)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_earprot_vrana_F,Armor Level I,131072,3,2
+"Hard Hat (White, Ear Protectors)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_earprot_white_F,Armor Level I,131072,3,2
+"Hard Hat (Yellow, Ear Protectors)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_earprot_yellow_F,Armor Level I,131072,3,2
+Combat Helmet,20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_headset_base_F,Armor Level I,131072,3,2
+"Hard Hat (Black, Headset)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_headset_black_F,Armor Level I,131072,3,2
+"Hard Hat (Orange, Headset)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_headset_orange_F,Armor Level I,131072,3,2
+"Hard Hat (Red, Headset)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_headset_red_F,Armor Level I,131072,3,2
+"Hard Hat (Vrana, Headset)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_headset_vrana_F,Armor Level I,131072,3,2
+"Hard Hat (White, Headset)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_headset_white_F,Armor Level I,131072,3,2
+"Hard Hat (Yellow, Headset)",20,2,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Construction_headset_yellow_F,Armor Level I,131072,3,2
+Heli Crew Helmet [NATO],50,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_CrewHelmetHeli_B,Armor Level II,131072,3,2
+Heli Crew Helmet [AAF],50,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_CrewHelmetHeli_I,Armor Level II,131072,3,2
+Heli Crew Helmet [LDF],50,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_CrewHelmetHeli_I_E,Armor Level II,131072,3,2
+Heli Crew Helmet [CSAT],50,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_CrewHelmetHeli_O,Armor Level II,131072,3,2
+Combat Helmet,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_EarProtectors_base_F,No Armor,131072,3,2
+Ear Protectors (Black),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_EarProtectors_black_F,No Armor,131072,3,2
+Ear Protectors (Orange),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_EarProtectors_orange_F,No Armor,131072,3,2
+Ear Protectors (Red),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_EarProtectors_red_F,No Armor,131072,3,2
+Ear Protectors (White),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_EarProtectors_white_F,No Armor,131072,3,2
+Ear Protectors (Yellow),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_EarProtectors_yellow_F,No Armor,131072,3,2
+Hat (Blue),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_Hat_blue,No Armor,131072,3,2
+Hat (Brown),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_Hat_brown,No Armor,131072,3,2
+Hat (Camo),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_Hat_camo,No Armor,131072,3,2
+Hat (Checker),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_Hat_checker,No Armor,131072,3,2
+Hat (Grey),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_Hat_grey,No Armor,131072,3,2
+Combat Helmet,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Hat_Safari_base_F,No Armor,131072,3,2
+Safari Hat (Olive),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Hat_Safari_olive_F,No Armor,131072,3,2
+Safari Hat (Sand),5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Hat_Safari_sand_F,No Armor,131072,3,2
+Hat (Tan),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_Hat_tan,No Armor,131072,3,2
+Combat Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Hat_Tinfoil_base_F,No Armor,131072,3,2
+Tin Foil Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Hat_Tinfoil_F,No Armor,131072,3,2
+Combat Helmet,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadBandage_base_F,No Armor,131072,3,2
+Head Bandage (Severe),2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadBandage_bloody_F,No Armor,131072,3,2
+Head Bandage (Clean),2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadBandage_clean_F,No Armor,131072,3,2
+Head Bandage (Moderate),2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadBandage_stained_F,No Armor,131072,3,2
+Combat Helmet,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadSet_base_F,No Armor,131072,3,2
+Headset (Black),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadSet_black_F,No Armor,131072,3,2
+Headset (Orange),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadSet_orange_F,No Armor,131072,3,2
+Headset (Red),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadSet_red_F,No Armor,131072,3,2
+Headset (White),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadSet_white_F,No Armor,131072,3,2
+Headset (Yellow),10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_HeadSet_yellow_F,No Armor,131072,3,2
+Avenger Helmet (Cover B),45,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[2],605,[],H_HelmetAggressor_cover_F,Armor Level III,131072,3,2
+Avenger Helmet (Cover T),45,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[2],605,[],H_HelmetAggressor_cover_taiga_F,Armor Level III,131072,3,2
+Avenger Helmet,45,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[2],605,[],H_HelmetAggressor_F,Armor Level III,131072,3,2
+Combat Helmet,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB,Armor Level II,131072,3,2
+Combat Helmet (Black),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_black,Armor Level II,131072,3,2
+Combat Helmet (Camo),40,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_camo,Armor Level II,131072,3,2
+Combat Helmet (Desert),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_desert,Armor Level II,131072,3,2
+Enhanced Combat Helmet (Tropic),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_Enh_tna_F,Armor Level IV,131072,3,2
+Combat Helmet (Grass),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_grass,Armor Level II,131072,3,2
+Light Combat Helmet,20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_light,Armor Level I,131072,3,2
+Light Combat Helmet (Black),20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_light_black,Armor Level I,131072,3,2
+Light Combat Helmet (Desert),20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_light_desert,Armor Level I,131072,3,2
+Light Combat Helmet (Grass),20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_light_grass,Armor Level I,131072,3,2
+Light Combat Helmet (Sand),20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_light_sand,Armor Level I,131072,3,2
+Light Combat Helmet (Snakeskin),20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_light_snakeskin,Armor Level I,131072,3,2
+Light Combat Helmet (Tropic),20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_Light_tna_F,Armor Level I,131072,3,2
+Light Combat Helmet (Woodland),20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_light_wdl,Armor Level I,131072,3,2
+Combat Helmet (Spraypaint),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_paint,Armor Level II,131072,3,2
+Combat Helmet (Black),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_plain_blk,Armor Level II,131072,3,2
+Combat Helmet (Camo),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_plain_mcamo,Armor Level II,131072,3,2
+Combat Helmet (Woodland),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_plain_wdl,Armor Level II,131072,3,2
+Combat Helmet (Sand),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_sand,Armor Level II,131072,3,2
+Combat Helmet (Snakeskin),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_snakeskin,Armor Level II,131072,3,2
+Stealth Combat Helmet (Arid),50,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetB_TI_arid_F,Armor Level II,131072,3,2
+Stealth Combat Helmet,50,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetB_TI_tna_F,Armor Level II,131072,3,2
+Combat Helmet (Tropic),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetB_tna_F,Armor Level II,131072,3,2
+Crew Helmet [NATO],40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetCrew_B,Armor Level III,131072,3,2
+Crew Helmet [AAF],40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_HelmetCrew_I,Armor Level III,131072,3,2
+Crew Helmet [LDF],40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_HelmetCrew_I_E,Armor Level III,131072,3,2
+Crew Helmet [CSAT],40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetCrew_O,Armor Level III,131072,3,2
+Crew Helmet (Green Hex) [CSAT],40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetCrew_O_ghex_F,Armor Level III,131072,3,2
+Advanced Modular Helmet (Chops),50,7,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[2],605,[],H_HelmetHBK_chops_F,Armor Level III,131072,3,2
+Advanced Modular Helmet (Ear Protectors),40,7,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[2],605,[],H_HelmetHBK_ear_F,Armor Level III,131072,3,2
+Advanced Modular Helmet (Olive),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[2],605,[],H_HelmetHBK_F,Armor Level III,131072,3,2
+Advanced Modular Helmet,35,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[2],605,[],H_HelmetHBK_headset_F,Armor Level III,131072,3,2
+Modular Helmet,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_HelmetIA,Armor Level II,131072,3,2
+MICH2 (Camo),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_HelmetIA_camo,Armor Level II,131072,3,2
+MICH (Camo),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_HelmetIA_net,Armor Level II,131072,3,2
+Defender Helmet (Green Hex),60,12,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetLeaderO_ghex_F,Armor Level V,131072,3,2
+Defender Helmet (Hex),60,12,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetLeaderO_ocamo,Armor Level V,131072,3,2
+Defender Helmet (Urban),60,12,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetLeaderO_oucamo,Armor Level V,131072,3,2
+Protector Helmet (Green Hex),40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetO_ghex_F,Armor Level III,131072,3,2
+Protector Helmet (Hex),40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetO_ocamo,Armor Level III,131072,3,2
+Protector Helmet (Urban),40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetO_oucamo,Armor Level III,131072,3,2
+Special Purpose Helmet (Green Hex),80,12,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetO_ViperSP_ghex_F,Armor Level V,131072,3,2
+Special Purpose Helmet (Hex),80,12,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetO_ViperSP_hex_F,Armor Level V,131072,3,2
+Enhanced Combat Helmet,50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetSpecB,Armor Level IV,131072,3,2
+Enhanced Combat Helmet (Black),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetSpecB_blk,Armor Level IV,131072,3,2
+Enhanced Combat Helmet (Grass),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetSpecB_paint1,Armor Level IV,131072,3,2
+Enhanced Combat Helmet (Desert),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetSpecB_paint2,Armor Level IV,131072,3,2
+Enhanced Combat Helmet (Sand),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetSpecB_sand,Armor Level IV,131072,3,2
+Enhanced Combat Helmet (Snakeskin),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetSpecB_snakeskin,Armor Level IV,131072,3,2
+Enhanced Combat Helmet (Woodland),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_HelmetSpecB_wdl,Armor Level IV,131072,3,2
+Assassin Helmet (Black),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetSpecO_blk,Armor Level IV,131072,3,2
+Assassin Helmet (Green Hex),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetSpecO_ghex_F,Armor Level IV,131072,3,2
+Assassin Helmet (Hex),50,10,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_HelmetSpecO_ocamo,Armor Level IV,131072,3,2
+Combat Helmet (Kerry),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_Helmet_Kerry,Armor Level II,131072,3,2
+Skate Helmet,20,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_Helmet_Skate,Armor Level I,131072,3,2
+Military Cap (Blue),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_blue,No Armor,131072,3,2
+Military Cap [AAF],6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_dgtl,No Armor,131072,3,2
+Military Cap [LDF],6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_wdl,No Armor,131072,3,2
+Military Cap (Gendarmerie),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_gen_F,No Armor,131072,3,2
+Military Cap (Green Hex),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_ghex_F,No Armor,131072,3,2
+Military Cap (Green),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_grn,No Armor,131072,3,2
+Military Cap (Grey),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_gry,No Armor,131072,3,2
+Military Cap (MTP),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_mcamo,No Armor,131072,3,2
+Military Cap (Hex),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_ocamo,No Armor,131072,3,2
+Military Cap (Urban),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_oucamo,No Armor,131072,3,2
+Military Cap (Russia),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_rucamo,No Armor,131072,3,2
+Military Cap (Taiga),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_taiga,No Armor,131072,3,2
+Military Cap (Tropic),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_tna_F,No Armor,131072,3,2
+Military Cap (Woodland),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_MilCap_wdl,No Armor,131072,3,2
+Parade Cap [AAF],15,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_ParadeDressCap_01_AAF_F,No Armor,131072,3,2
+Combat Helmet,15,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_ParadeDressCap_01_base_F,No Armor,131072,3,2
+Parade Cap [CSAT],15,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_ParadeDressCap_01_CSAT_F,No Armor,131072,3,2
+Parade Cap [LDF],15,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_ParadeDressCap_01_LDF_F,No Armor,131072,3,2
+Parade Cap [US],15,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_ParadeDressCap_01_US_F,No Armor,131072,3,2
+Combat Helmet,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_basic_base_F,Armor Level II,131072,3,2
+Basic Helmet (Black),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_basic_black_F,Armor Level II,131072,3,2
+Basic Helmet (Blue),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_basic_blue_F,Armor Level II,131072,3,2
+Press Helmet,30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_basic_blue_press_F,Armor Level II,131072,3,2
+Basic Helmet (Olive),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_basic_olive_F,Armor Level II,131072,3,2
+Basic Helmet (White),30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_basic_white_F,Armor Level II,131072,3,2
+Combat Helmet,40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_neckprot_base_F,Armor Level III,131072,3,2
+Press Helmet (Neck Protection),40,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_PASGT_neckprot_blue_press_F,Armor Level III,131072,3,2
+Pilot Helmet [NATO],60,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_PilotHelmetFighter_B,Armor Level III,131072,3,2
+Pilot Helmet [AAF],60,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_PilotHelmetFighter_I,Armor Level III,131072,3,2
+Pilot Helmet [LDF],60,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_PilotHelmetFighter_I_E,Armor Level III,131072,3,2
+Pilot Helmet [CSAT],60,8,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_PilotHelmetFighter_O,Armor Level III,131072,3,2
+Heli Pilot Helmet [NATO],30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_PilotHelmetHeli_B,Armor Level II,131072,3,2
+Heli Pilot Helmet [AAF],30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_PilotHelmetHeli_I,Armor Level II,131072,3,2
+Heli Pilot Helmet [LDF],30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[2, 3]",605,[],H_PilotHelmetFighter_I_E,Armor Level II,131072,3,2
+Heli Pilot Helmet [CSAT],30,6,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_PilotHelmetHeli_O,Armor Level II,131072,3,2
+Racing Helmet (Black),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_black_F,Armor Level I,131072,3,2
+Racing Helmet (Blue),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_blue_F,Armor Level I,131072,3,2
+Racing Helmet (Fuel),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_F,Armor Level I,131072,3,2
+Racing Helmet (Green),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_green_F,Armor Level I,131072,3,2
+Racing Helmet (Orange),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_orange_F,Armor Level I,131072,3,2
+Racing Helmet (Red),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_red_F,Armor Level I,131072,3,2
+Racing Helmet (White),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_white_F,Armor Level I,131072,3,2
+Racing Helmet (Yellow),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_1_yellow_F,Armor Level I,131072,3,2
+Racing Helmet (Bluking),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_2_F,Armor Level I,131072,3,2
+Racing Helmet (Redstone),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_3_F,Armor Level I,131072,3,2
+Racing Helmet (Vrana),40,4,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,[3],605,[],H_RacingHelmet_4_F,Armor Level I,131072,3,2
+Shemag (White),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 2, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_ShemagOpen_khk,No Armor,131072,3,2
+Shemag (Tan),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 2, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_ShemagOpen_tan,No Armor,131072,3,2
+Shemag mask (Khaki),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Shemag_khk,No Armor,131072,3,2
+Shemag (Olive),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 2, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Shemag_olive,No Armor,131072,3,2
+"Shemag (Olive, Headset)",6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 2, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Shemag_olive_hs,No Armor,131072,3,2
+Shemag mask (Tan),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_Shemag_tan,No Armor,131072,3,2
+Straw Hat,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_StrawHat,No Armor,131072,3,2
+Straw Hat (Dark),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 701, 605]",HeadgearItem,[6],605,[],H_StrawHat_dark,No Armor,131072,3,2
+Combat Helmet,24,4,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_Tank_base_F,Armor Level I,131072,3,2
+Crew Helmet (Soft) [CSAT],24,4,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_Tank_black_F,Armor Level I,131072,3,2
+Crew Helmet (Soft) [LDF],24,4,0.8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[0, 3]",605,[],H_Tank_eaf_F,Armor Level I,131072,3,2
+Black Turban,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,[],H_TurbanO_blk,No Armor,131072,3,2
+Beanie,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Watchcap_blk,No Armor,131072,3,2
+Beanie (Green),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Watchcap_camo,No Armor,131072,3,2
+Beanie (Coyote),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Watchcap_cbr,No Armor,131072,3,2
+Beanie (Khaki),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6.5, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Bandanna_tan', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Watchcap_khk,No Armor,131072,3,2
+Beanie (Sage),6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[801, 901, 701, 605]",HeadgearItem,[6],605,"['', 6, 'G_Aviator', 1, 'G_Bandanna_aviator', 1, 'G_Bandanna_beast', 1, 'G_Bandanna_blk', 1, 'G_Bandanna_khk', 1, 'G_Bandanna_oli', 1, 'G_Bandanna_shades', 1, 'G_Bandanna_sport', 1, 'G_Shades_Black', 1, 'G_Shades_Blue', 1, 'G_Shades_Red', 1, 'G_Shades_Green', 1]",H_Watchcap_sgg,No Armor,131072,3,2
+Combat Helmet,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_WirelessEarpiece_base_F,,131072,3,2
+Wireless Earpiece,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[901, 605]",HeadgearItem,"[3, 1]",605,[],H_WirelessEarpiece_F,,131072,3,2
+,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_NoCamo_Base,No Armor,131072,3,2
+Slash Bandolier (Black),10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_BandollierB_blk,No Armor,131072,3,2
+Slash Bandolier (Coyote),10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_BandollierB_cbr,No Armor,131072,3,2
+Slash Bandolier (Green Hex),10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_BandollierB_ghex_F,No Armor,131072,3,2
+Slash Bandolier (Khaki),10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_BandollierB_khk,No Armor,131072,3,2
+Slash Bandolier (Olive),10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_BandollierB_oli,No Armor,131072,3,2
+Slash Bandolier (Green),10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_BandollierB_rgr,No Armor,131072,3,2
+,60,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Modular Carrier Vest (Geometric),60,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_CarrierRigKBT_01_EAF_F,Armor Level III,131072,3,2
+,80,0,0,0,0.5,0.5,0,16,0.6,0,0,0.6,0,16,0.6,0,16,0.3,0,[],VestItem,[],701,[],Vest_Camo_Base,Explosive Resistant,131072,3,2
+Modular Carrier GL Rig (Geometric),80,0,0,0,0.5,0.5,0,16,0.6,0,0,0.6,0,16,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_CarrierRigKBT_01_heavy_EAF_F,Explosive Resistant,131072,3,2
+Modular Carrier GL Rig (Olive),80,0,0,0,0.5,0.5,0,16,0.6,0,0,0.6,0,16,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_CarrierRigKBT_01_heavy_Olive_F,Explosive Resistant,131072,3,2
+,70,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level III,131072,3,2
+Modular Carrier Lite (Geometric),70,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_CarrierRigKBT_01_light_EAF_F,Armor Level III,131072,3,2
+Modular Carrier Lite (Olive),70,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_CarrierRigKBT_01_light_Olive_F,Armor Level III,131072,3,2
+Modular Carrier Vest (Olive),60,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_CarrierRigKBT_01_Olive_F,Armor Level III,131072,3,2
+Chest Rig (Black),20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Chestrig_blk,No Armor,131072,3,2
+Chest Rig (Khaki),20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Chestrig_khk,No Armor,131072,3,2
+Chest Rig (Olive),20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Chestrig_oli,No Armor,131072,3,2
+Chest Rig (Green),20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Chestrig_rgr,No Armor,131072,3,2
+,100,0,0,0,0,0,0,12,0.4,0,0,0.4,0,12,0.4,0,12,0.4,0,[],VestItem,[],701,[],Vest_Camo_Base,Armor Level II,131072,3,2
+,65,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_EOD_base_F,Explosive Resistant,131072,3,2
+EOD Vest (Blue),65,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_EOD_blue_F,Explosive Resistant,131072,3,2
+EOD Vest (Coyote),65,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_EOD_coyote_F,Explosive Resistant,131072,3,2
+EOD Vest (Blue) [IDAP],65,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_EOD_IDAP_blue_F,Explosive Resistant,131072,3,2
+EOD Vest (Olive),65,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_EOD_olive_F,Explosive Resistant,131072,3,2
+LBV Grenadier Harness,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessOGL_brn,No Armor,131072,3,2
+LBV Grenadier Harness (Green Hex),15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessOGL_ghex_F,No Armor,131072,3,2
+LBV Grenadier Harness (Grey),15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessOGL_gry,No Armor,131072,3,2
+ELBV Harness,30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessOSpec_brn,No Armor,131072,3,2
+ELBV Harness (Grey),30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessOSpec_gry,No Armor,131072,3,2
+LBV Harness,30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessO_brn,No Armor,131072,3,2
+LBV Harness (Green Hex),30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessO_ghex_F,No Armor,131072,3,2
+LBV Harness (Grey),30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_HarnessO_gry,No Armor,131072,3,2
+Tactical Vest (Stavrou),40,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_I_G_resistanceLeader_F,Armor Level I,131072,3,2
+,8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_LegStrapBag_base_F,No Armor,131072,3,2
+Leg Strap Bag (Black),8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_LegStrapBag_black_F,No Armor,131072,3,2
+Leg Strap Bag (Coyote),8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_LegStrapBag_coyote_F,No Armor,131072,3,2
+Leg Strap Bag (Olive),8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_LegStrapBag_olive_F,No Armor,131072,3,2
+,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Plain_base_F,No Armor,131072,3,2
+Identification Vest (Red Crystal),5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Plain_crystal_F,No Armor,131072,3,2
+Identification Vest [IDAP],5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Plain_medical_F,No Armor,131072,3,2
+Carrier Lite (Black),80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrier1_blk,Armor Level III,131072,3,2
+Carrier Lite (Green),80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrier1_rgr,Armor Level III,131072,3,2
+"Carrier Lite (Green, No Flag)",80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrier1_rgr_noflag_F,Armor Level III,131072,3,2
+Carrier Lite (Tropic),80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrier1_tna_F,Armor Level III,131072,3,2
+Carrier Lite (Woodland),80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrier1_wdl,Armor Level III,131072,3,2
+Carrier Rig (Black),100,0,0,0,0,0,0,20,0.2,0,0,0.2,0,20,0.2,0,20,0.2,0,[],VestItem,[],701,[],V_PlateCarrier2_blk,Armor Level IV,131072,3,2
+Carrier Rig (Green),100,0,0,0,0,0,0,20,0.2,0,0,0.2,0,20,0.2,0,20,0.2,0,[],VestItem,[],701,[],V_PlateCarrier2_rgr,Armor Level IV,131072,3,2
+"Carrier Rig (Green, No Flag)",100,0,0,0,0,0,0,20,0.2,0,0,0.2,0,20,0.2,0,20,0.2,0,[],VestItem,[],701,[],V_PlateCarrier2_rgr_noflag_F,Armor Level IV,131072,3,2
+Carrier Rig (Tropic),100,0,0,0,0,0,0,20,0.2,0,0,0.2,0,20,0.2,0,20,0.2,0,[],VestItem,[],701,[],V_PlateCarrier2_tna_F,Armor Level IV,131072,3,2
+Carrier Rig (Woodland),100,0,0,0,0,0,0,20,0.2,0,0,0.2,0,20,0.2,0,20,0.2,0,[],VestItem,[],701,[],V_PlateCarrier2_wdl,Armor Level IV,131072,3,2
+Carrier Rig (Green),100,0,0,0,0,0,0,20,0.2,0,0,0.2,0,20,0.2,0,20,0.2,0,[],VestItem,[],701,[],V_PlateCarrier3_rgr,Armor Level IV,131072,3,2
+Carrier GL Rig (Black),100,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierGL_blk,Explosive Resistant,131072,3,2
+Carrier GL Rig (MTP),100,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierGL_mtp,Explosive Resistant,131072,3,2
+Carrier GL Rig (Green),100,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierGL_rgr,Explosive Resistant,131072,3,2
+Carrier GL Rig (Tropic),100,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierGL_tna_F,Explosive Resistant,131072,3,2
+Carrier GL Rig (Woodland),100,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierGL_wdl,Explosive Resistant,131072,3,2
+CTRG Plate Carrier Rig Mk.2 (Heavy),100,0,0,0,0,0,0,20,0.2,0,0,0.2,0,20,0.2,0,20,0.2,0,[],VestItem,[],701,[],V_PlateCarrierH_CTRG,Armor Level IV,131072,3,2
+GA Carrier Lite (Digital),60,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierIA1_dgtl,Armor Level III,131072,3,2
+GA Carrier Rig (Digital),80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierIA2_dgtl,Armor Level III,131072,3,2
+GA Carrier GL Rig (Digital),80,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierIAGL_dgtl,Explosive Resistant,131072,3,2
+GA Carrier GL Rig (Olive),80,0,0,0,8,0.5,0,78,0.6,0,0,0.6,0,78,0.6,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierIAGL_oli,Explosive Resistant,131072,3,2
+CTRG Plate Carrier Rig Mk.1 (Light),80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrierL_CTRG,Armor Level III,131072,3,2
+Carrier Special Rig (Black),120,0,0,0,8,0.5,0,24,0.1,0,0,0.1,0,24,0.1,0,24,0.1,0,[],VestItem,[],701,[],V_PlateCarrierSpec_blk,Armor Level V,131072,3,2
+Carrier Special Rig (MTP),120,0,0,0,8,0.5,0,24,0.1,0,0,0.1,0,24,0.1,0,24,0.1,0,[],VestItem,[],701,[],V_PlateCarrierSpec_mtp,Armor Level V,131072,3,2
+Carrier Special Rig (Green),120,0,0,0,8,0.5,0,24,0.1,0,0,0.1,0,24,0.1,0,24,0.1,0,[],VestItem,[],701,[],V_PlateCarrierSpec_rgr,Armor Level V,131072,3,2
+Carrier Special Rig (Tropic),120,0,0,0,8,0.5,0,24,0.1,0,0,0.1,0,24,0.1,0,24,0.1,0,[],VestItem,[],701,[],V_PlateCarrierSpec_tna_F,Armor Level V,131072,3,2
+Carrier Special Rig (Woodland),120,0,0,0,8,0.5,0,24,0.1,0,0,0.1,0,24,0.1,0,24,0.1,0,[],VestItem,[],701,[],V_PlateCarrierSpec_wdl,Armor Level V,131072,3,2
+US Plate Carrier Rig (Kerry),80,0,0,0,0,0,0,16,0.3,0,0,0.3,0,16,0.3,0,16,0.3,0,[],VestItem,[],701,[],V_PlateCarrier_Kerry,Armor Level III,131072,3,2
+,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Pocketed_base_F,No Armor,131072,3,2
+Multi-Pocket Vest (Black),15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Pocketed_black_F,No Armor,131072,3,2
+Multi-Pocket Vest (Coyote),15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Pocketed_coyote_F,No Armor,131072,3,2
+Multi-Pocket Vest (Olive),15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Pocketed_olive_F,No Armor,131072,3,2
+Vest (Press),40,0,0,0,0,0,0,12,0.4,0,0,0.4,0,12,0.4,0,12,0.4,0,[],VestItem,[],701,[],V_Press_F,Armor Level II,131072,3,2
+Rangemaster Belt,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Rangemaster_belt,No Armor,131072,3,2
+Rebreather [NATO],80,0,0,0,0,0,0,0,0,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_RebreatherB,Armor Level I,131072,3,2
+Rebreather [AAF],80,0,0,0,0,0,0,0,0,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_RebreatherIA,Armor Level I,131072,3,2
+Rebreather [CSAT],80,0,0,0,0,0,0,0,0,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_RebreatherIR,Armor Level I,131072,3,2
+,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Safety_base_F,No Armor,131072,3,2
+Safety Vest (Blue),5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Safety_blue_F,No Armor,131072,3,2
+Safety Vest (Orange),5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Safety_orange_F,No Armor,131072,3,2
+Safety Vest (Yellow),5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_Safety_yellow_F,No Armor,131072,3,2
+,30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Kipchak Vest,30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_SmershVest_01_F,No Armor,131072,3,2
+,30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],Vest_Camo_Base,No Armor,131072,3,2
+Kipchak Vest (Tactical Radio),30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_SmershVest_01_radio_F,No Armor,131072,3,2
+Tactical Chest Rig (Coyote),20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_TacChestrig_cbr_F,No Armor,131072,3,2
+Tactical Chest Rig (Green),20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_TacChestrig_grn_F,No Armor,131072,3,2
+Tactical Chest Rig (Olive),20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,[],VestItem,[],701,[],V_TacChestrig_oli_F,No Armor,131072,3,2
+Camouflaged Vest,40,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_TacVestCamo_khk,Armor Level I,131072,3,2
+Raven Vest,50,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_TacVestIR_blk,Armor Level I,131072,3,2
+Tactical Vest (Black),40,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_TacVest_blk,Armor Level I,131072,3,2
+Tactical Vest (Police),50,0,0,0,0,0,0,12,0.4,0,0,0.4,0,12,0.4,0,12,0.4,0,[],VestItem,[],701,[],V_TacVest_blk_POLICE,Armor Level II,131072,3,2
+Tactical Vest (Brown),40,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_TacVest_brn,Armor Level I,131072,3,2
+Tactical Vest (Camo),40,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_TacVest_camo,Armor Level I,131072,3,2
+Gendarmerie Vest,50,0,0,0,0,0,0,12,0.4,0,0,0.4,0,12,0.4,0,12,0.4,0,[],VestItem,[],701,[],V_TacVest_gen_F,Armor Level II,131072,3,2
+Tactical Vest (Khaki),40,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_TacVest_khk,Armor Level I,131072,3,2
+Tactical Vest (Olive),40,0,0,0,0,0,0,8,0.5,0,0,0.5,0,8,0.5,0,8,0.5,0,[],VestItem,[],701,[],V_TacVest_oli,Armor Level I,131072,3,2

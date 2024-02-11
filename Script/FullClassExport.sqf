@@ -1,5 +1,6 @@
 // FIXME Magazines classes with the ammo param first do not get processed correctly, only the string name of the ammo
 // or so it seems see (rhs_ammo_mgm164_block2_1.py)
+// TODO Add a function to get compatible weapon mods for the current weapon
 
 // Step 1: Run regex replace //.*|/\*[\s\S\n]*\*/ with nothing to remove all comments because sqf doesn't like them
 // Step 2: Set the folder to export to (Create this folder yourself)

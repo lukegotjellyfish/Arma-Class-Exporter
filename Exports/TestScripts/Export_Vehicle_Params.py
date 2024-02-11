@@ -9,7 +9,7 @@ vehicle_params = ""
 
 param_one = ["displayname","Display Name", ""]
 param_two = ["terraincoef", "Terrain Coef", ""]
-param_three = ["enginepower", "Engine Power", ""]
+param_three = ["mass", "mass", ""]
 # crewcrashprotection
 # 
 
@@ -30,7 +30,7 @@ for root, dirs, vehicles in os.walk("C:/Users/Lukeg/Desktop/GitHub/MyRepos/Arma-
             print(f"{vehicle[:-3]}")
             continue
 
-with open("C:/Users/Lukeg/Desktop/GitHub/MyRepos/Arma-Class-Exporter/Exports/TestScripts/terraincoef_export.csv", "w") as f:
+with open("C:/Users/Lukeg/Desktop/GitHub/MyRepos/Arma-Class-Exporter/Exports/TestScripts/test.csv", "w") as f:
     f.write(f"{param_one[1]};{param_two[1]};{param_three[1]};Class\n")
     f.write(vehicle_params)
     print("wrote to file")
