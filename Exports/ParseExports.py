@@ -223,10 +223,9 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         self.submunition_parent_speed_coef = []  # submunitionParentSpeedCoef https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
         self.submunition_trigger_on_impact = 0  # triggerOnImpact            https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
         self.submunition_delete_parent_when_triggered = 0  # deleteParentWhenTriggered  https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
+        self.submunition_trigger_speed_coef_flag = True
         self.submunition_trigger_speed_coef = [0,
                                                0]  # triggerSpeedCoef           https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
-        self.submunition_trigger_speed_coef_flag = True
-        self.submunition_trigger_speed_coef = [0,0]  # triggerSpeedCoef           https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
         self.submunition_shot_count = 1  # submunitionConeType        https://community.bistudio.com/wiki/Arma_3:_Weapon_Config_Guidelines#Ammo_changes_on_fly_and_on_hit
         self.submunition_trigger_time = 0  #
         self.submunition_time_to_live = []  #
@@ -292,7 +291,8 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
             pass  # Not present, default value will be used instead
         try:
             self.submunition_trigger_speed_coef = self.magazine_module.d["ammo"]["triggerspeedcoef"]
-            if isinstance(self.submunition_trigger_speed_coef, int) or isinstance(self.submunition_trigger_speed_coef, float):
+            if isinstance(self.submunition_trigger_speed_coef, int) or isinstance(self.submunition_trigger_speed_coef,
+                                                                                  float):
                 self.submunition_trigger_speed_coef_flag = False
         except KeyError:
             pass  # Not present, default value will be used instead
@@ -321,9 +321,8 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                 # Using the lowest multiplier from the range - possibly make it in between the two
                 #  multipliers from submunitionTriggerSpeedCoef?
                 # Current method gives ensures submunition performs at or above calculated speed
-                self.submunition_initial_speed.append(self.submunition_trigger_speed_coef[0] * self.initial_speed)
                 if self.submunition_trigger_speed_coef_flag:
-                    print(f"{self.submunition_trigger_speed_coef} | {self.submunition_trigger_speed_coef_flag}")
+                    #print(f"{self.submunition_trigger_speed_coef} | {self.submunition_trigger_speed_coef_flag}")
                     self.submunition_initial_speed.append(self.submunition_trigger_speed_coef[0] * self.initial_speed)
                 else:
                     self.submunition_initial_speed.append(self.submunition_trigger_speed_coef * self.initial_speed)
