@@ -379,12 +379,11 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         # TODO Evaluate these expressions in SQF export, instead of here, if possible
         if isinstance(self.caliber, str):
             self.caliber = eval_expr(self.caliber)
-        self.penetration = [('{:.' + str(self.penetration_formatting) + 'f}').format(
-            (Decimal(self.initial_speed * self.caliber * 0.015))).zfill(5),
-                            ('{:.' + str(self.penetration_formatting) + 'f}').format(
-                                (Decimal(self.initial_speed * self.caliber * 0.080))).zfill(5),
-                            ('{:.' + str(self.penetration_formatting) + 'f}').format(
-                                (Decimal(self.initial_speed * self.caliber * 0.250))).zfill(5)]
+        self.penetration = [
+            ('{:.' + str(self.penetration_formatting) + 'f}').format((Decimal(self.initial_speed * self.caliber * 0.015))).zfill(5),
+            ('{:.' + str(self.penetration_formatting) + 'f}').format((Decimal(self.initial_speed * self.caliber * 0.080))).zfill(5),
+            ('{:.' + str(self.penetration_formatting) + 'f}').format((Decimal(self.initial_speed * self.caliber * 0.250))).zfill(5)
+        ]
         if self.has_submunition > 0:  # Else we have one or more submunitions
             # Find the number of submunitions created
             try:
@@ -413,13 +412,11 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                     self.submunition_spawn_chance.append(self.magazine_module.d["ammo"][sub]["_dictAmmoChance"])
                 self.submunition_indirect_hit_range.append(self.magazine_module.d["ammo"][sub]["indirecthitrange"])
                 self.submunition_caliber.append(self.magazine_module.d["ammo"][sub]["caliber"])
-                self.submunition_penetration.append(
-                    [(f"{{:.{self.submunition_penetration_formatting}f}}").format(
-                        (Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.015))).zfill(5),
-                     (f"{{:.{self.submunition_penetration_formatting}f}}").format(
-                         (Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.080))).zfill(5),
-                     (f"{{:.{self.submunition_penetration_formatting}f}}").format(
-                         (Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.250))).zfill(5)]
+                self.submunition_penetration.append([
+                        (f"{{:.{self.submunition_penetration_formatting}f}}").format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.015))).zfill(5),
+                        (f"{{:.{self.submunition_penetration_formatting}f}}").format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.080))).zfill(5),
+                        (f"{{:.{self.submunition_penetration_formatting}f}}").format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.250))).zfill(5)
+                    ]
                 )
 
     def get_capacity(self):
