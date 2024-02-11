@@ -3,8 +3,8 @@ import contextlib
 import importlib.util
 import math
 import os
-import ast  #string values for integer config parameters that require eval :'c
-import operator as op #https://stackoverflow.com/a/9558001
+import ast  # string values for integer config parameters that require eval :'c
+import operator as op  # https://stackoverflow.com/a/9558001
 from decimal import Decimal
 from json import dumps
 
@@ -15,18 +15,44 @@ operators = {ast.Add: op.add, ast.Sub: op.sub, ast.Mult: op.mul,
              ast.Div: op.truediv, ast.Pow: op.pow, ast.BitXor: op.xor,
              ast.USub: op.neg}
 
+
 def eval_expr(expr):
     return eval_(ast.parse(expr, mode='eval').body)
 
 def eval_(node):
-    if isinstance(node, ast.Num): # <number>
+    """
+    Evaluate mathematical expressions represented by an abstract syntax tree (AST).
+
+    Parameters:
+        node (ast.AST): The root node of the AST.
+
+    Returns:
+        float: The result of the expression evaluation.
+    """
+    ast_operators = {
+        ast.Add: lambda x, y: x + y,
+        ast.Sub: lambda x, y: x - y,
+        ast.Mult: lambda x, y: x * y,
+        ast.Div: lambda x, y: x / y,
+        ast.Pow: lambda x, y: x ** y,
+        ast.USub: lambda x: -x,
+    }
+
+    if isinstance(node, ast.Num):  # <number>
         return node.n
-    elif isinstance(node, ast.BinOp): # <left> <operator> <right>
-        return operators[type(node.op)](eval_(node.left), eval_(node.right))
-    elif isinstance(node, ast.UnaryOp): # <operator> <operand> e.g., -1
-        return operators[type(node.op)](eval_(node.operand))
+    elif isinstance(node, ast.BinOp):  # <left> <operator> <right>
+        if type(node.op) in ast_operators:
+            return ast_operators[type(node.op)](eval_(node.left), eval_(node.right))
+        else:
+            raise ValueError(f"Unsupported operator: {type(node.op)}")
+    elif isinstance(node, ast.UnaryOp):  # <operator> <operand> e.g., -1
+        if type(node.op) in ast_operators:
+            return ast_operators[type(node.op)](eval_(node.operand))
+        else:
+            raise ValueError(f"Unsupported unary operator: {type(node.op)}")
     else:
-        raise TypeError(node)
+        raise ValueError(f"Unsupported node type: {type(node)}")
+
 
 os.system("")
 cred = '\33[31m'
