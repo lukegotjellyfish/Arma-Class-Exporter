@@ -19,6 +19,7 @@ operators = {ast.Add: op.add, ast.Sub: op.sub, ast.Mult: op.mul,
 def eval_expr(expr):
     return eval_(ast.parse(expr, mode='eval').body)
 
+
 def eval_(node):
     """
     Evaluate mathematical expressions represented by an abstract syntax tree (AST).
