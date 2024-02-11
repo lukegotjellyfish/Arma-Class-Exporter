@@ -88,6 +88,7 @@ class ExportList:
                     "Cartridge",  # Ammo Name
                     "Capacity",  # Magazine Capacity
                     "Damage",  # Shot Damage @ Initspeed
+                    "Warhead",
                     "Fire Modes",  # Unique firemodes
                     "RPM",  # |- RPM for each firemode
                     "Dispersion",  # |- Dispersion for each firemode
@@ -274,7 +275,6 @@ class ExportList:
             from ParseExports import ArmaArmourClass
             if self.export_to_csv:
                 self.csvHeader = [
-                    "Loadout",
                     "Name",
                     "Mass", ]
                 for x in self.armour_hitpoints:
@@ -293,22 +293,21 @@ class ExportList:
                     "Value"
                 ])
             self.csv_writer.writerow(self.csvHeader)
-            for armour_loadout in self.list:
-                armour_loadout_title = armour_loadout[0]
-                # TODO Add method of exporting a single loadout as a collection of hitpointProtectionInfo values
-                for armour in armour_loadout[1]:
-                    armour_folder = self.check_file_exists(armour, ["Weapons", "Glasses"])
-                    if armour_folder:
-                        self.armour = ArmaArmourClass(armour_folder[0], armour_folder[1], armour)
-                        self.armour.loadout_title = armour_loadout_title
-                        self.armour.armour_hitpoints = self.armour_hitpoints
-                        self.armour.armour_parameters = self.armour_parameters
-                        self.armour.get_armour_stats()
-                        if not self.disable_print:
-                            self.armour.print_stats()
-                        if (self.csv_file != "") and (write_to_csv == True):
-                            self.armour.set_csv_export()
-                            self.csv_writer.writerow(self.armour.csv_export)
+
+            #new
+            for armour in self.list:
+                armour_folder = self.check_file_exists(armour, ["Weapons", "Glasses"])
+                if armour_folder:
+                    self.armour = ArmaArmourClass(armour_folder[0], armour_folder[1], armour)
+                    self.armour.armour_hitpoints = self.armour_hitpoints
+                    self.armour.armour_parameters = self.armour_parameters
+                    self.armour.get_armour_stats()
+                    if not self.disable_print:
+                        self.armour.print_stats()
+                    if (self.csv_file != "") and (write_to_csv == True):
+                        self.armour.set_csv_export()
+                        self.csv_writer.writerow(self.armour.csv_export)
+
         else:
             print(f"{_type} not in [Weapon,Scope,Vehicle,Armour]")
             pass

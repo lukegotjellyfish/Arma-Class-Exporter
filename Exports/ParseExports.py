@@ -322,7 +322,7 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                 #  multipliers from submunitionTriggerSpeedCoef?
                 # Current method gives ensures submunition performs at or above calculated speed
                 if self.submunition_trigger_speed_coef_flag:
-                    #print(f"{self.submunition_trigger_speed_coef} | {self.submunition_trigger_speed_coef_flag}")
+                    # print(f"{self.submunition_trigger_speed_coef} | {self.submunition_trigger_speed_coef_flag}")
                     self.submunition_initial_speed.append(self.submunition_trigger_speed_coef[0] * self.initial_speed)
                 else:
                     self.submunition_initial_speed.append(self.submunition_trigger_speed_coef * self.initial_speed)
@@ -403,7 +403,7 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                     # If there is only one type of submunition we know that
                     #  every submunitionShot will be that CfgAmmo and can therefore
                     #  multiply the hit value by the number of submunitions spawned to get the damage
-                    #print(f"{self.submunition_hit[x]} * {self.submunition_shot_count}")
+                    # print(f"{self.submunition_hit[x]} * {self.submunition_shot_count}")
                     self.submunition_hit[x] = self.submunition_hit[x] * self.submunition_shot_count
 
                     self.submunition_indirect_hit[x] = self.submunition_indirect_hit[x] * self.submunition_shot_count
@@ -413,9 +413,9 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                 self.submunition_indirect_hit_range.append(self.magazine_module.d["ammo"][sub]["indirecthitrange"])
                 self.submunition_caliber.append(self.magazine_module.d["ammo"][sub]["caliber"])
                 self.submunition_penetration.append([
-                        (f"{{:.{self.submunition_penetration_formatting}f}}").format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.015))).zfill(5),
-                        (f"{{:.{self.submunition_penetration_formatting}f}}").format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.080))).zfill(5),
-                        (f"{{:.{self.submunition_penetration_formatting}f}}").format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.250))).zfill(5)
+                        f"{{:.{self.submunition_penetration_formatting}f}}".format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.015))).zfill(5),
+                        f"{{:.{self.submunition_penetration_formatting}f}}".format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.080))).zfill(5),
+                        f"{{:.{self.submunition_penetration_formatting}f}}".format((Decimal(self.submunition_initial_speed[x] * self.submunition_caliber[x] * 0.250))).zfill(5)
                     ]
                 )
 
@@ -423,7 +423,7 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         self.capacity = self.magazine_module.d["count"]
 
     def get_fire_modes(self):  # [Fire mode, RPM, Dispersion]
-        print(f"get_fire_modes {self.weapon_class}")
+        # print(f"get_fire_modes {self.weapon_class}")
         fire_modes = self.weapon_module.d["modes"]
         fire_modes = [x.lower() for x in fire_modes]
 
@@ -432,7 +432,7 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
             try:
                 self.weapon_module.d[mode]["showtoplayer"]
             except KeyError:
-                #Remove invalid firemodes
+                # Remove invalid firemodes
                 fire_modes.remove(mode)
 
         # TODO Redo this mess
@@ -440,60 +440,50 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
             for mode in fire_modes:
                 if self.weapon_module.d[mode]["showtoplayer"] == 1:
                     try:
-                        rpm = str(round(60 / self.weapon_module.d[mode]["reloadtime"], self.rpm_formatting)).zfill(6)
                         try:
                             rpm = str(round(60 / self.weapon_module.d[mode]["reloadtime"], self.rpm_formatting)).zfill(6)
                         except TypeError:
-                            rpm = str(round(60 / eval_expr(self.weapon_module.d[mode]["reloadtime"]), self.rpm_formatting)).zfill(6)
+                            rpm = str(round(60 / eval_expr(self.weapon_module.d[mode]["reloadtime"]),self.rpm_formatting)).zfill(6)
                         # If a unique rpm for the firemode, add it to the list
                         self.fire_modes.append(mode)
                         self.rpm.append(rpm)
                         dispersion = self.weapon_module.d[mode]["dispersion"]
                         try:
-                            self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(dispersion))
+                            self.dispersion.append(f"{{:.{self.dispersion_formatting}f}}".format(dispersion))
                         except ValueError:  # Value is a string to eval eg "0.005*25"
-                            self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval(dispersion)))
-                            self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval_expr(dispersion)))
+                            self.dispersion.append(f"{{:.{self.dispersion_formatting}f}}".format(eval_expr(dispersion)))
                     except KeyError:
                         print(f"KeyError: {self.weapon_class}|{self.magazine_class}|{mode}")
                         pass
         else:
             try:
                 rpm = str(round(60 / self.weapon_module.d["reloadtime"], self.rpm_formatting)).zfill(6)
-            except (KeyError, ZeroDivisionError):
             except (KeyError, ZeroDivisionError) as e:
                 rpm = 0
             self.fire_modes.append("this")
             self.rpm.append(rpm)
             dispersion = self.weapon_module.d["dispersion"]
             try:
-                self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(dispersion))
+                self.dispersion.append(f"{{:.{self.dispersion_formatting}f}}".format(dispersion))
             except ValueError:  # Value is a string to eval eg "0.005*25"
-                self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval(dispersion)))
-                self.dispersion.append((f"{{:.{self.dispersion_formatting}f}}").format(eval_expr(dispersion)))
+                self.dispersion.append(f"{{:.{self.dispersion_formatting}f}}".format(eval_expr(dispersion)))
 
-        if all(item == self.rpm[0] for item in self.rpm):
-            self.rpm = self.rpm[0]
-        if all(item == self.dispersion[0] for item in self.dispersion):
-            self.dispersion = self.dispersion[0]
         if self.rpm != []:
             if all(item == self.rpm[0] for item in self.rpm):
-                self.rpm = self.rpm[0] # self.rpm[0] FIXME list index out of range
+                self.rpm = self.rpm[0]  # self.rpm[0] FIXME list index out of range
             if all(item == self.dispersion[0] for item in self.dispersion):
                 self.dispersion = self.dispersion[0]
         else:
-            #No mode with an applicable reloadtime, use main weapon parameter value
+            # No mode with an applicable reloadtime, use main weapon parameter value
             self.rpm = self.weapon_module.d["reloadtime"]
 
     def get_air_frictions(self):
-        self.airFriction = abs(self.magazine_module.d["ammo"]["airfriction"])
-        self.side_air_friction = abs(self.magazine_module.d["ammo"]["sideairfriction"])
         self.airFriction = self.magazine_module.d["ammo"]["airfriction"]
         self.side_air_friction = self.magazine_module.d["ammo"]["sideairfriction"]
 
-        if isinstance(self.airFriction, str): 
+        if isinstance(self.airFriction, str):
             self.airFriction = abs(eval_expr(self.airFriction))
-        if isinstance(self.side_air_friction, str): 
+        if isinstance(self.side_air_friction, str):
             self.side_air_friction = abs(eval_expr(self.side_air_friction))
 
         if self.has_submunition != 0:
@@ -511,6 +501,7 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         if self.has_submunition == 0:
             try:
                 self.warhead = self.magazine_module.d["ammo"]["warheadname"]
+                # input(f"{self.magazine_class} has warhead: {self.warhead}")
             except KeyError:
                 pass
         else:
@@ -612,15 +603,18 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
                     round(self.explosive_hit + kinetic_hit_value, self.hit_values_formatting)))
 
         if self.has_submunition != 0:
+            # print(self.has_submunition)
             for x, sub in enumerate(self.submunitions):
                 submunition_hit_values = []
                 for distance in self.hit_ranges:
                     estimated_speed = self.get_estimate_speed(distance)
                     if estimated_speed != 0:
-                        submunition_hit_values.append((f"{{:.{self.submunition_hit_values_formatting}f}}").format(
+                        # print(f"---{self.weapon_class}|{self.magazine_class}----{self.submunition_hit[x]} * ({estimated_speed} / {self.submunition_typical_speed[x]})")
+                        submunition_hit_values.append(f"{{:.{self.submunition_hit_values_formatting}f}}".format(
                             round(self.submunition_hit[x] * (estimated_speed / self.submunition_typical_speed[x]),
-                                  self.submunition_hit_values_formatting)))
-                            round(self.submunition_hit[x] * (estimated_speed / self.submunition_typical_speed[x]),self.submunition_hit_values_formatting)))
+                                  self.submunition_hit_values_formatting)
+                            )
+                        )
                     else:
                         submunition_hit_values.append(0.000)
                 self.submunition_hit_values.append(submunition_hit_values)
@@ -664,55 +658,19 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
                          dispersion_formatting, air_friction_formatting, rpm_formatting,
                          penetration_formatting, submunition_penetration_formatting, hit_ranges)
 
-        # Determine if the projectile has submunitions here
-        try:
-            # Check to see if there is one submunition
-            submunition_check = self.magazine_module.d["ammo"]["submunitionammo"]
-            if submunition_check:
-                self.submunitions.append("submunitionammo")
-                self.submunitions_names.append(self.magazine_module.d["ammo"]["submunitionammo"]["_dictAmmoName"])
-                self.has_submunition = 1
-        except KeyError:
-            try:
-                for i in range(1, 10):
-                    submunition_var = f"submunitionammo{i}"
-                    submunition_check = self.magazine_module.d["ammo"][submunition_var]
-                    if submunition_check != "":
-                        self.submunitions.append(submunition_var)
-                        self.submunitions_names.append(self.magazine_module.d["ammo"][submunition_var]["_dictAmmoName"])
-                        self.has_submunition = 2
-            except KeyError:
-                pass  # There is no submunitions named submunitionammoX
-        # Determine if the projectile's submunitions have Submunitions
-        for submunition in self.submunitions:
-            try:
-                self.submunitions_submunitions.append(
-                    self.magazine_module.d["ammo"][submunition]["submunitionammo"]["_dictAmmoName"])
-                self.submunitions_submunitions_names.append(
-                    self.magazine_module.d["ammo"][submunition]["submunitionammo"]["_dictAmmoName"])
-            except (KeyError, TypeError):
-                pass
-        if self.has_submunition == 1:
-            # Find when submunitions are deployed:
-            #  On impact? Just after fired?
-            try:
-                self.submunition_trigger_on_impact = self.magazine_module.d["ammo"]["triggeronimpact"]
-            except KeyError:
-                pass  # No triggeronimpact set, retain default 0 value
         # If the magazine has ammo
         if self.ammo_flag:
             # Determine if the projectile has submunitions here
             try:
-                self.submunition_trigger_time = self.magazine_module.d["ammo"]["triggertime"]
                 # Check to see if there is one submunition
-                print(f"weapon: {self.weapon_class}|{self.magazine_class}")
+                # print(f"weapon: {self.weapon_class}|{self.magazine_class}")
                 submunition_check = self.magazine_module.d["ammo"]["submunitionammo"]
                 if submunition_check:
                     self.submunitions.append("submunitionammo")
                     self.submunitions_names.append(self.magazine_module.d["ammo"]["submunitionammo"]["_dictAmmoName"])
                     self.has_submunition = 1
+                self.get_warheads()
             except KeyError:
-                pass  # No triggertime set, retain default 0 value
                 try:
                     for i in range(1, 10):
                         submunition_var = f"submunitionammo{i}"
@@ -750,10 +708,6 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
                           magazine_mass=1):
         if display_name == 1:
             self.get_display_name(self.weapon_module)
-        if cartridge == 1:
-            self.get_cartridge()
-        if time_to_live == 1:
-            self.get_time_to_live()
         if self.ammo_flag:
             if cartridge == 1:
                 self.get_cartridge()
@@ -761,14 +715,6 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
                 self.get_time_to_live()
         if capacity == 1:
             self.get_capacity()
-        if speeds == 1:
-            self.get_speeds()
-        if air_frictions == 1:
-            self.get_air_frictions()
-        if hit == 1:
-            self.get_hit()
-        if hit_at_ranges == 1:
-            self.get_hit_at_ranges()
         if self.ammo_flag:
             if speeds == 1:
                 self.get_speeds()
@@ -791,14 +737,13 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
         #  Created variable self.get_firearm_statsParameters for this
         self.airFriction = (f"{{:.{self.air_friction_formatting}f}}").format(self.airFriction)
         self.csv_export = [self.display_name, self.cartridge, self.capacity,
-                           (f"{{:.{self.hit_formatting}f}}").format(self.hit),
+                           (f"{{:.{self.hit_formatting}f}}").format(self.hit),self.warhead,
                            '|'.join(self.fire_modes), self.rpm, self.dispersion, self.time_to_live,
                            self.initial_speed, self.typical_speed, self.weap_initial_speed,
                            self.airFriction, self.penetration[0], self.penetration[1], self.penetration[2]]
         self.csv_export.extend(self.hit_values)
-        self.csv_export.extend([self.weapon_class, self.magazine_class, self.weapon_mass, self.magazine_mass, round(self.magazine_mass/self.capacity, self.hit_formatting), self.caliber])
         try:
-            shot_mass = round(self.magazine_mass/self.capacity, self.hit_formatting)
+            shot_mass = round(self.magazine_mass / self.capacity, self.hit_formatting)
         except ZeroDivisionError:
             shot_mass = 0
         self.csv_export.extend([self.weapon_class, self.magazine_class, self.weapon_mass, self.magazine_mass, shot_mass, self.caliber])
@@ -1137,7 +1082,6 @@ class ArmaArmourClass(ArmaSharedProperties):
         spec.loader.exec_module(self.armour_module)
 
         # Init variables
-        self.loadout_title = ""
         self.allowed_facewear = []
         self.general_macro = ""
         self.description_short = ""
@@ -1145,8 +1089,8 @@ class ArmaArmourClass(ArmaSharedProperties):
         self.access = 0
         self.value = 0
 
-        self.armourHitpoints = []
-        self.armourParameters = []
+        self.armour_hitpoints = []
+        self.armour_parameters = []
 
     def get_general_macro(self):
         try:
@@ -1201,9 +1145,9 @@ class ArmaArmourClass(ArmaSharedProperties):
 
     def set_csv_export(self):
         armour_values = []
-        for partIndex, part in enumerate(self.armourHitpoints):
+        for partIndex, part in enumerate(self.armour_hitpoints):
             armour_values.append([])
-            for param in self.armourParameters:
+            for param in self.armour_parameters:
                 try:
                     param_value = self.item_info_hitpoints_protection_info[part][param]
                     try:
@@ -1219,16 +1163,19 @@ class ArmaArmourClass(ArmaSharedProperties):
                                         temp_string = ""
                                 sum_value += int(temp_string)
                                 param_value = sum_value
-                    except ValueError:
+                    except ValueError as e:
+                        # print(f"armour_values ValueError: {e}")
                         pass
                     armour_values[partIndex].append(param_value)
-                except KeyError:
+                except KeyError as e:
+                    # print(f"armour_values KeyError: {e}")
                     armour_values[partIndex].append(0)
+        # print(f"armour_values = {armour_values}")
 
         self.csv_export = [
-            self.loadout_title,
             self.display_name,
-            self.item_info_mass, ]
+            self.item_info_mass,
+        ]
         for x in armour_values:
             self.csv_export.extend(x)
         self.csv_export.extend([
@@ -1246,7 +1193,6 @@ class ArmaArmourClass(ArmaSharedProperties):
 
     def print_stats(self):
         print((
-            f"           LoadoutTitle: {self.loadout_title}\n"
             f"                   Name: {self.display_name}\n"
             f"                   Mass: {self.item_info_mass}\n"
             f"HitPointsProtectionInfo: {self.item_info_hitpoints_protection_info}\n"
@@ -1269,12 +1215,11 @@ class ArmaSharedVehicleClass(ArmaSharedProperties):
         cwd = os.getcwd()
 
         # Import vehicle dict
-        spec = importlib.util.spec_from_file_location(vehicle,
-                                                      f"{cwd}/SQF-Class-Exports/{config_mod}/Vehicles/{vehicle}.py")
+        spec = importlib.util.spec_from_file_location(vehicle,f"{cwd}/SQF-Class-Exports/{config_mod}/Vehicles/{vehicle}.py")
         self.vehicleModule = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(self.vehicleModule)
 
-        # TODO: Chkeck all paramaters aginst the wiki
+        # TODO: Check all paramaters aginst the wiki
         #  to check usefulness
         # Init variables
         self.max_speed = 0
