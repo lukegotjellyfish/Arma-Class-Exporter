@@ -12,10 +12,11 @@ Exports/SQF-Class-Exports/RHS
 Exports/SQF-Class-Exports/RHS_0-5-2
 Exports/SQF-Class-Exports/SOG
 Exports/Vanilla Export Script.py
+Exports/RU_vs_UA_Warlords
 ModPreperation/logs/
 Script/SOGClassExport.sqf
 __pycache__
 Exports/SPEExportScript.py
 Exports/nRHSExportScript.py
-Exports/RHSExportScript.py
 Script/SpearheadClassExport.sqf
+Exports/RHSExportScript.py
