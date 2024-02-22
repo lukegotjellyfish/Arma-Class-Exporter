@@ -116,7 +116,7 @@ getPropertyValue = {
 
           //diag_log(format["Before if it contains ammo: _property: %1 | _propertyNameLast: %2", _property, _propertyNameLast]);
 
-        if (((_propertyNameLast == "ammo") || (_propertyNameLast == "submunitionammo")) && getText _property != "") then {
+        if (((_propertyNameLast isEqualTo "ammo") || (_propertyNameLast isEqualTo "submunitionammo")) && getText _property != "") then {
 
             _ammoType = "Ammo/SubmunitionAmmo";
             if (_propertyNameLast find "submunitionammo" != -1) then {
@@ -152,7 +152,7 @@ getPropertyValue = {
             _classBody = _classBody + "},"
 
         } else {
-            if ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilprone")) then {
+            if ((_propertyNameLast isEqualTo "recoil") || (_propertyNameLast isEqualTo "recoilprone")) then {
                 _configDir = configFile >> "CfgRecoils" >> getText _property;
 
                 if (isClass _configDir) then {
@@ -163,7 +163,7 @@ getPropertyValue = {
                     _classBody = _classBody + (['"',_propertyNameLast,'": ', getArray _configDir,','] joinString "");
                 };
             } else {
-                if ((_propertyNameLast == "vehicleclass") && ((getText _property == "rhs_vehclass_aircraft") || (getText _property == "rhs_vehclass_helicopter"))) then {
+                if ((_propertyNameLast isEqualTo "vehicleclass") && ((getText _property isEqualTo "rhs_vehclass_aircraft") || (getText _property isEqualTo "rhs_vehclass_helicopter"))) then {
                     _vehCompatiblePylons = _exportClass getCompatiblePylonMagazines 0;
                     //diag_log format["%1 getCompatiblePylonMagazines 0 = %2", _exportClass, _vehCompatiblePylons];
                     //_classBody = _classBody + format['"%2": "%3",', _propertyNameLast, getText _property];  //NOTE format[] has an 8kb limit
@@ -186,7 +186,7 @@ getPropertyValue = {
         _classBody = _classBody + (['"',_propertyNameLast,'": ',getNumber _property,','] joinString "");
     };
     if (isArray _property) then {
-        if ((_propertyNameLast == "ammo") || (_propertyNameLast == "submunitionammo")) then {
+        if ((_propertyNameLast isEqualTo "ammo") || (_propertyNameLast isEqualTo "submunitionammo")) then {
             _ammoName = getArray _property;
 
             _ammoType = "Ammo/SubmunitionAmmo";
@@ -199,12 +199,12 @@ getPropertyValue = {
                 _ammoType = "Ammo";
             };
 
-            diag_log("LISTING SUBMUNITIONS");
+            //DISABLED_DIAGLOG diag_log("LISTING SUBMUNITIONS");
             _y = 1;
             _possibilityCount = 0;
             //diag_log(_ammoName);
             {
-                if (typeName _x == "STRING") then {
+                if (_x isEqualType "") then {
                     //diag_log(format["%1 = `%2`", _ammoType, _x]);
 
                     //Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
@@ -215,7 +215,7 @@ getPropertyValue = {
                     _countSplitClass = count _splitClass;
 
                     //diag_log format["_ammoName: %1 | selectPos: %2 | typeName of _ammoName: %3", _ammoName, _y + _possibilityCount, typeName _ammoName];
-                    if (typeName (getArray _property select (_y + _possibilityCount)) == "SCALAR") then {
+                    if ((getArray _property select (_y + _possibilityCount)) isEqualType 0) then {
                         //diag_log(format["Submunitionammo = %1 | Chance = %2 | _y = %3", _x, (getArray _property select (_y + _possibilityCount)), str _y]);
                         _classBody = _classBody + format['"%1": {"_dictAmmoName": "%2","_dictAmmoChance": "%3",', "submunitionammo" +  str _y, _x, (getArray _property select (_y + _possibilityCount))];
                         _possibilityCount = _possibilityCount + 1;
@@ -238,12 +238,12 @@ getPropertyValue = {
                 };
             } forEach _ammoName;
         };
-        if (_propertyNameLast == "magazines") then {
+        if (_propertyNameLast isEqualTo "magazines") then {
             //entryClass = weapon/vehicle/etc class (im very lazy)
             _entryClass = _propertyNameArray select 3;
             _weaponCompatableMagazines = [_exportClass] call BIS_fnc_compatibleMagazines;
 
-            if ((_entryClass != "Default") && (count _weaponCompatableMagazines > 0)) then {
+            if ((_entryClass isNotEqualTo "Default") && (count _weaponCompatableMagazines > 0)) then {
 
                 //Beautify _weaponCompatableMagazines (seperate into rows)
                 _lastMagazine = _weaponCompatableMagazines select ((count _weaponCompatableMagazines) - 1);
@@ -259,7 +259,7 @@ getPropertyValue = {
                 _classBody = _classBody + (['"magazines": ',_compatibleMagazinesString,','] joinString "");
             }
             else {
-                diag_log format["%1 has no compatible magazines", _exportClass];
+                //DISABLED_DIAGLOG diag_log format["%1 has no compatible magazines", _exportClass];
                 //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, (str getArray _property) splitString "\" joinString "/"];  //NOTE format[] has an 8kb limit
 
                 _classBody = _classBody + (['"',_propertyNameLast,'": ',((str getArray _property) splitString "\" joinString "/"),','] joinString "");
@@ -276,7 +276,7 @@ getPropertyValue = {
 getProperties = {
     params ["_newClass", "_classBody", "_configCategory"];
 
-    diag_log(format["Recieved %1 %2", _newClass, _configCategory]);
+    //DISABLED_DIAGLOG diag_log(format["Recieved %1 %2", _newClass, _configCategory]);
 
     //Get all sub-classes of the current class (not including sub-classes from inherited classes)
     //error ends here^
@@ -311,21 +311,22 @@ getProperties = {
     _classBody
 };
 
-
-//_basePath = "F:\USBBACKUP\GitHub\Arma-Class-Exporter\Exports\Archive RHS\RHS\";
 {
     {
-        i = 0;
+        _i = 0;
         _configCategory = "";
         _folder = "";
         _path = "";
         _array = _x;
         {
             //Create the start of the file, classname with brace for dict
-            diag_log(format["On: %1", _x]);
-            if (i == 1) then {_configCategory = _x; _classBody = _classBody + _folder + " = {";};
-            if (i == 0) then {_folder = _x; };
-            if (i > 1) then {
+            //DISABLED_DIAGLOG diag_log(format["On: %1", _x]);
+            if (_i isEqualTo 1) then {
+                _configCategory = _x;
+                _classBody = _classBody + _folder + " = {";
+            };
+            if (_i isEqualTo 0) then {_folder = _x; };
+            if (_i > 1) then {
                 // "d" instead of class name:
                 //  My new procedure in Exports/Archive-RHS-Improved
                 //   requires a constant dictionary name for importing
@@ -339,10 +340,10 @@ getProperties = {
                 _filename = toLower _x + ".py";
 
                 //Write class to its own file
-                diag_log(format["Wrote to %1/%2", _dir, _filename]);
+                //DISABLED_DIAGLOG diag_log(format["Wrote to %1/%2", _dir, _filename]);
 
                 //seperate lines in .rpt by a line
-                diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+                //DISABLED_DIAGLOG diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
                 //add final brace
                 _classBody = _classBody + "\n}";
@@ -357,16 +358,16 @@ getProperties = {
                 //Total export for Vanilla A3: 264.147s
                 ["neko.write_to_file_test",[_classBody, _dir,  _filename]] call py3_fnc_callExtension;
             };
-            i = i + 1;
+            _i = _i + 1;
         } foreach _x; //for each class for the side in the category
 
-        _folderCategoryName = (_folder splitString "\") select 1;
-        _combinedPath = _basePath + _folder + "/" + _folderCategoryName + ".py";
+        //_folderCategoryName = (_folder splitString "\") select 1;
+        //_combinedPath = _basePath + _folder + "/" + _folderCategoryName + ".py";
 
-        diag_log(format["_basePath           = %1", _basePath]);
-        diag_log(format["_folder             = %1", _folder]);
-        diag_log(format["_folderCategoryName = %1", _folderCategoryName]);
-        diag_log(format["Trying to write to %1", _combinedPath]);
+        //DISABLED_DIAGLOG diag_log(format["_basePath           = %1", _basePath]);
+        //DISABLED_DIAGLOG diag_log(format["_folder             = %1", _folder]);
+        //DISABLED_DIAGLOG diag_log(format["_folderCategoryName = %1", _folderCategoryName]);
+        //DISABLED_DIAGLOG diag_log(format["Trying to write to %1", _combinedPath]);
     } foreach _x; //For each side in category
 } foreach _sideMatrix;  //For each category in sidematmarix
 
