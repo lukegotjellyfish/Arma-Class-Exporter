@@ -323,6 +323,7 @@ getProperties = {
         {
             //Create the start of the file, classname with brace for dict
             diag_log(format["On: %1", _x]);
+            if (i == 1) then {_configCategory = _x; _classBody = _classBody + _folder + " = {";};
             if (i == 0) then {_folder = _x; };
             if (i > 1) then {
                 // "d" instead of class name:
@@ -334,8 +335,11 @@ getProperties = {
 
                 _classBody = [_x, _classBody, _configCategory] call getProperties;
                 //Create path to write class data to
+                _dir = _basePath + _folder;
+                _filename = toLower _x + ".py";
 
                 //Write class to its own file
+                diag_log(format["Wrote to %1/%2", _dir, _filename]);
 
                 //seperate lines in .rpt by a line
                 diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
@@ -343,7 +347,15 @@ getProperties = {
                 //add final brace
                 _classBody = _classBody + "\n}";
 
+                //Deprecated method: this is ~4x slower and forces you to be afk
+                //Total export for Vanilla A3: 884.732s
                 //KillZoneKidd's make_file_x64 .dll linked in repo
+                //_path = _dir + _filename;
+                //"make_file" callExtension (_path + "|" + _classBody);
+
+                //Pythia approach
+                //Total export for Vanilla A3: 264.147s
+                ["neko.write_to_file_test",[_classBody, _dir,  _filename]] call py3_fnc_callExtension;
             };
             i = i + 1;
         } foreach _x; //for each class for the side in the category
