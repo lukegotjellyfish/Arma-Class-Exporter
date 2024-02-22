@@ -1,5 +1,4 @@
 import os
-import logging
 
 
 def write_to_file(text, directory, filename):

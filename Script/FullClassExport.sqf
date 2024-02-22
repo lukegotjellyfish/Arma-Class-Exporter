@@ -350,7 +350,7 @@ getProperties = {
                 //Deprecated method: this is ~4x slower and forces you to be afk
                 //Total export for Vanilla A3: 884.732s
                 //KillZoneKidd's make_file_x64 .dll linked in repo
-                //_path = _dir + _filename;
+                //_path = _dir + "/" + _filename;
                 //"make_file" callExtension (_path + "|" + _classBody);
 
                 //Pythia approach
