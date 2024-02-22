@@ -356,6 +356,7 @@ getProperties = {
 
                 //Pythia approach
                 //Total export for Vanilla A3: 264.147s
+                //TODO - Try threading to make SQF not wait for v_this_v, probably wont save much time though
                 ["neko.write_to_file_test",[_classBody, _dir,  _filename]] call py3_fnc_callExtension;
             };
             _i = _i + 1;
