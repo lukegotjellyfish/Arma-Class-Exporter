@@ -4,7 +4,7 @@ import logging
 
 def write_to_file(text, directory, filename):
     """
-    _z = ["neko.write_to_file_test",["writing to file", "C:/here/", "file.txt"]] call py3_fnc_callExtension;
+    _z = ["neko.write_to_file",["writing to file", "C:/here/", "file.txt"]] call py3_fnc_callExtension;
     """
 
     try:
