@@ -18,7 +18,7 @@ _basePath = "F:\Software\GitHub\MyRepos\Arma-Class-Exporter\Exports\SQF-Class-Ex
 //      ease of comprehension and addition for other sides.
 
 _sideMatrix = [];
-_mods = [["CfgWeapons","Weapons"],["CfgMagazines","Magazines"],["CfgVehicles","Vehicles"],["CfgGlasses","Glasses"]]; //["CfgWeapons","Weapons"],["CfgMagazines","Magazines"],["CfgVehicles","Vehicles"],["CfgGlasses","Glasses"]
+_mods = [["CfgGlasses","Glasses"]]; //["CfgWeapons","Weapons"],["CfgMagazines","Magazines"],["CfgAmmo","Ammo"],["CfgVehicles","Vehicles"],["CfgGlasses","Glasses"]
 {
     _configClass = _x select 0;
 	_config = [];
@@ -111,167 +111,164 @@ getPropertyValue = {
     //_propertyNameLast is the parameter
     _propertyNameLast = toLower (_propertyNameArray select (count _propertyNameArray - 1));
 
-    switch (typeName _property) do {
-        case "STRING": {
-            _strProperty = str _property;
+    if (isText _property) then {
+        _strProperty = str _property;
 
-            //diag_log(format["Before if it contains ammo: _property: %1 | _propertyNameLast: %2", _property, _propertyNameLast]);
+          //diag_log(format["Before if it contains ammo: _property: %1 | _propertyNameLast: %2", _property, _propertyNameLast]);
 
-            if (((_propertyNameLast == "ammo") || (_propertyNameLast == "submunitionammo")) && getText _property != "") then {
+        if (((_propertyNameLast == "ammo") || (_propertyNameLast == "submunitionammo")) && getText _property != "") then {
 
-                _ammoType = "Ammo/SubmunitionAmmo";
-                if (_propertyNameLast find "submunitionammo" != -1) then {
-                    //diag_log("submunitionammo");
-                    _ammoType = "SubmunitionAmmo";
+            _ammoType = "Ammo/SubmunitionAmmo";
+            if (_propertyNameLast find "submunitionammo" != -1) then {
+                  //diag_log("submunitionammo");
+                _ammoType = "SubmunitionAmmo";
+            };
+            if (_propertyNameLast find "ammo" != -1) then {
+                  //diag_log("ammo");
+                _ammoType = "Ammo";
+            };
+
+              //diag_log(format["Looking for ammo | %1", _property]);
+
+            _ammoName = getText _property;
+
+            //diag_log(format["%1 = `%2`", _ammoType, _ammoName]);
+
+            //Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
+            _splitClass = str _property splitString "\/";
+            //Remove "bin" and "config.bin"
+            _splitClass deleteRange [0, 2];
+
+            _countSplitClass = count _splitClass;
+            //_classBody = _classBody + format['"%1": {"_dictAmmoName": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
+            _classBody = _classBody + (['"',_propertyNameLast,'": {"_dictAmmoName": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
+
+            _ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
+            {
+                _addition = [_x, _configCategory, (((str _x) splitString "\") joinString "/"), _i, _exportClass] call getPropertyValue;
+                _classBody = _classBody + _addition;
+                _i = _i + 1;
+            } forEach _ammoProperties;
+            _classBody = _classBody + "},"
+
+        } else {
+            if ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilprone")) then {
+                _configDir = configFile >> "CfgRecoils" >> getText _property;
+
+                if (isClass _configDir) then {
+                    _classBody = [_configDir, _classBody, _propertyNameLast, "CfgRecoils", _exportClass] call getClass;
                 };
-                if (_propertyNameLast find "ammo" != -1) then {
-                    //diag_log("ammo");
-                    _ammoType = "Ammo";
+                if (isArray _configDir) then {
+                    //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, getArray _configDir];  //NOTE format[] has an 8kb limit
+                    _classBody = _classBody + (['"',_propertyNameLast,'": ', getArray _configDir,','] joinString "");
                 };
-
-                //diag_log(format["Looking for ammo | %1", _property]);
-
-                _ammoName = getText _property;
-
-                //diag_log(format["%1 = `%2`", _ammoType, _ammoName]);
-
-                //Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
-                _splitClass = str _property splitString "\/";
-                //Remove "bin" and "config.bin"
-                _splitClass deleteRange [0, 2];
-
-                _countSplitClass = count _splitClass;
-                //_classBody = _classBody + format['"%1": {"_dictAmmoName": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
-                _classBody = _classBody + (['"',_propertyNameLast,'": {"_dictAmmoName": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
-
-                _ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
-                {
-                    _addition = [_x, _configCategory, (((str _x) splitString "\") joinString "/"), _i, _exportClass] call getPropertyValue;
-                    _classBody = _classBody + _addition;
-                    _i = _i + 1;
-                } forEach _ammoProperties;
-                _classBody = _classBody + "},"
-
             } else {
-                if ((_propertyNameLast == "recoil") || (_propertyNameLast == "recoilprone")) then {
-                    _configDir = configFile >> "CfgRecoils" >> getText _property;
-
-                    if (isClass _configDir) then {
-                        _classBody = [_configDir, _classBody, _propertyNameLast, "CfgRecoils", _exportClass] call getClass;
-                    };
-                    if (isArray _configDir) then {
-                        //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, getArray _configDir];  //NOTE format[] has an 8kb limit
-                        _classBody = _classBody + (['"',_propertyNameLast,'": ', getArray _configDir,','] joinString "");
-                    };
+                if ((_propertyNameLast == "vehicleclass") && ((getText _property == "rhs_vehclass_aircraft") || (getText _property == "rhs_vehclass_helicopter"))) then {
+                    _vehCompatiblePylons = _exportClass getCompatiblePylonMagazines 0;
+                    //diag_log format["%1 getCompatiblePylonMagazines 0 = %2", _exportClass, _vehCompatiblePylons];
+                    //_classBody = _classBody + format['"%2": "%3",', _propertyNameLast, getText _property];  //NOTE format[] has an 8kb limit
+                    _classBody = _classBody + (['"',_propertyNameLast,'": "',getText _property,'",'] joinString "");
+                    _classBody = _classBody + '"pylonmagazines": [';
+                    {
+                        _classBody = _classBody + str _x + ",";
+                    } forEach _vehCompatiblePylons;
+                    _classBody = _classBody + "],";
                 } else {
-                    if ((_propertyNameLast == "vehicleclass") && ((getText _property == "rhs_vehclass_aircraft") || (getText _property == "rhs_vehclass_helicopter"))) then {
-                        _vehCompatiblePylons = _exportClass getCompatiblePylonMagazines 0;
-                        //diag_log format["%1 getCompatiblePylonMagazines 0 = %2", _exportClass, _vehCompatiblePylons];
-                        //_classBody = _classBody + format['"%2": "%3",', _propertyNameLast, getText _property];  //NOTE format[] has an 8kb limit
-                        _classBody = _classBody + (['"',_propertyNameLast,'": "',getText _property,'",'] joinString "");
-                        _classBody = _classBody + '"pylonmagazines": [';
-                        {
-                            _classBody = _classBody + str _x + ",";
-                        } forEach _vehCompatiblePylons;
-                        _classBody = _classBody + "],";
-                    } else {
-                        _i = _i + 1;
-                        //_classBody = _classBody + format['"%1": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
-                        _classBody = _classBody + (['"',_propertyNameLast,'": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
-                    };
+                    _i = _i + 1;
+                    //_classBody = _classBody + format['"%1": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
+                    _classBody = _classBody + (['"',_propertyNameLast,'": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
                 };
             };
         };
-        case "SCALAR": {
-            //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, getNumber _property];  //NOTE format[] has an 8kb limit
-            _classBody = _classBody + (['"',_propertyNameLast,'": ',getNumber _property,','] joinString "");
-        };
-        case "ARRAY": {
-            if ((_propertyNameLast == "ammo") || (_propertyNameLast == "submunitionammo")) then {
-                _ammoName = getArray _property;
+    };
+    if (isNumber _property) then {
+        //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, getNumber _property];  //NOTE format[] has an 8kb limit
+        _classBody = _classBody + (['"',_propertyNameLast,'": ',getNumber _property,','] joinString "");
+    };
+    if (isArray _property) then {
+        if ((_propertyNameLast == "ammo") || (_propertyNameLast == "submunitionammo")) then {
+            _ammoName = getArray _property;
 
-                _ammoType = "Ammo/SubmunitionAmmo";
-                if (_propertyNameLast find "submunitionammo" != -1) then {
-                    //diag_log("submunitionammo");
-                    _ammoType = "SubmunitionAmmo";
-                };
-                if (_propertyNameLast find "ammo" != -1) then {
-                    //diag_log("ammo");
-                    _ammoType = "Ammo";
-                };
+            _ammoType = "Ammo/SubmunitionAmmo";
+            if (_propertyNameLast find "submunitionammo" != -1) then {
+                //diag_log("submunitionammo");
+                _ammoType = "SubmunitionAmmo";
+            };
+            if (_propertyNameLast find "ammo" != -1) then {
+                //diag_log("ammo");
+                _ammoType = "Ammo";
+            };
 
-                diag_log("LISTING SUBMUNITIONS");
-                _y = 1;
-                _possibilityCount = 0;
-                //diag_log(_ammoName);
-                {
-                    if (typeName _x == "STRING") then {
-                        //diag_log(format["%1 = `%2`", _ammoType, _x]);
+            diag_log("LISTING SUBMUNITIONS");
+            _y = 1;
+            _possibilityCount = 0;
+            //diag_log(_ammoName);
+            {
+                if (typeName _x == "STRING") then {
+                    //diag_log(format["%1 = `%2`", _ammoType, _x]);
 
-                        //Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
-                        _splitClass = str _property splitString "\/";
-                        //Remove "bin" and "config.bin"
-                        _splitClass deleteRange [0, 2];
+                    //Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
+                    _splitClass = str _property splitString "\/";
+                    //Remove "bin" and "config.bin"
+                    _splitClass deleteRange [0, 2];
 
-                        _countSplitClass = count _splitClass;
+                    _countSplitClass = count _splitClass;
 
-                        //diag_log format["_ammoName: %1 | selectPos: %2 | typeName of _ammoName: %3", _ammoName, _y + _possibilityCount, typeName _ammoName];
-                        if (typeName (getArray _property select (_y + _possibilityCount)) == "SCALAR") then {
-                            //diag_log(format["Submunitionammo = %1 | Chance = %2 | _y = %3", _x, (getArray _property select (_y + _possibilityCount)), str _y]);
-                            _classBody = _classBody + format['"%1": {"_dictAmmoName": "%2","_dictAmmoChance": "%3",', "submunitionammo" +  str _y, _x, (getArray _property select (_y + _possibilityCount))];
-                            _possibilityCount = _possibilityCount + 1;
-                        }
-                        else {
-                            //diag_log(format["Submunitionammo = %1 | No Chance Found", _x]);
-                            //_classBody = _classBody + format['"%1": {"_dictAmmoName": "%2",', "submunitionammo" +  str _y, _x];  //NOTE format[] has an 8kb limit
-                            _classBody = _classBody + (['"submunitionammo', + (str _y),'": {"_dictAmmoName": "',_x,'",'] joinString "");
-                        };
-
-                        _ammoProperties = configProperties [configFile >> "CfgAmmo" >> _x];
-                        {
-                            _addition = [_x, _configCategory, (((str _x) splitString "\") joinString "/"), _i, _exportClass] call getPropertyValue;
-                            _classBody = _classBody + _addition;
-                            _i = _i + 1;
-                        } forEach _ammoProperties;
-                        _classBody = _classBody + "},";
-
-                        _y = _y + 1;
-                    };
-                } forEach _ammoName;
-            } else {
-                if (_propertyNameLast == "magazines") then {
-                    //entryClass = weapon/vehicle/etc class (im very lazy)
-                    _entryClass = _propertyNameArray select 3;
-                    _weaponCompatableMagazines = [_exportClass] call BIS_fnc_compatibleMagazines;
-
-                    if ((_entryClass != "Default") && (count _weaponCompatableMagazines > 0)) then {
-
-                        //Beautify _weaponCompatableMagazines (seperate into rows)
-                        _lastMagazine = _weaponCompatableMagazines select ((count _weaponCompatableMagazines) - 1);
-                        _compatibleMagazinesString = "[";
-                        {
-                            _compatibleMagazinesString = _compatibleMagazinesString + '"' + _x + '"';
-                            _compatibleMagazinesString  = _compatibleMagazinesString + ",";
-                        } forEach _weaponCompatableMagazines;
-                        _compatibleMagazinesString = _compatibleMagazinesString + "]";
-
-                        //Append to _classBody
-                        //_classBody = _classBody + format['"magazines": %1,', _compatibleMagazinesString];  //NOTE format[] has an 8kb limit
-                        _classBody = _classBody + (['"magazines": ',_compatibleMagazinesString,','] joinString "");
+                    //diag_log format["_ammoName: %1 | selectPos: %2 | typeName of _ammoName: %3", _ammoName, _y + _possibilityCount, typeName _ammoName];
+                    if (typeName (getArray _property select (_y + _possibilityCount)) == "SCALAR") then {
+                        //diag_log(format["Submunitionammo = %1 | Chance = %2 | _y = %3", _x, (getArray _property select (_y + _possibilityCount)), str _y]);
+                        _classBody = _classBody + format['"%1": {"_dictAmmoName": "%2","_dictAmmoChance": "%3",', "submunitionammo" +  str _y, _x, (getArray _property select (_y + _possibilityCount))];
+                        _possibilityCount = _possibilityCount + 1;
                     }
                     else {
-                        diag_log format["%1 has no compatible magazines", _exportClass];
-                        //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, (str getArray _property) splitString "\" joinString "/"];  //NOTE format[] has an 8kb limit
-
-                        _classBody = _classBody + (['"',_propertyNameLast,'": ',((str getArray _property) splitString "\" joinString "/"),','] joinString "");
+                        //diag_log(format["Submunitionammo = %1 | No Chance Found", _x]);
+                        //_classBody = _classBody + format['"%1": {"_dictAmmoName": "%2",', "submunitionammo" +  str _y, _x];  //NOTE format[] has an 8kb limit
+                        _classBody = _classBody + (['"submunitionammo', + (str _y),'": {"_dictAmmoName": "',_x,'",'] joinString "");
                     };
-                } else {_classBody = _classBody + (['"',_propertyNameLast,'": ',((str getArray _property) splitString "\" joinString "/"),','] joinString "");}
+
+                    _ammoProperties = configProperties [configFile >> "CfgAmmo" >> _x];
+                    {
+                        _addition = [_x, _configCategory, (((str _x) splitString "\") joinString "/"), _i, _exportClass] call getPropertyValue;
+                        _classBody = _classBody + _addition;
+                        _i = _i + 1;
+                    } forEach _ammoProperties;
+                    _classBody = _classBody + "},";
+
+                    _y = _y + 1;
+                };
+            } forEach _ammoName;
+        };
+        if (_propertyNameLast == "magazines") then {
+            //entryClass = weapon/vehicle/etc class (im very lazy)
+            _entryClass = _propertyNameArray select 3;
+            _weaponCompatableMagazines = [_exportClass] call BIS_fnc_compatibleMagazines;
+
+            if ((_entryClass != "Default") && (count _weaponCompatableMagazines > 0)) then {
+
+                //Beautify _weaponCompatableMagazines (seperate into rows)
+                _lastMagazine = _weaponCompatableMagazines select ((count _weaponCompatableMagazines) - 1);
+                _compatibleMagazinesString = "[";
+                {
+                    _compatibleMagazinesString = _compatibleMagazinesString + '"' + _x + '"';
+                    _compatibleMagazinesString  = _compatibleMagazinesString + ",";
+                } forEach _weaponCompatableMagazines;
+                _compatibleMagazinesString = _compatibleMagazinesString + "]";
+
+                //Append to _classBody
+                //_classBody = _classBody + format['"magazines": %1,', _compatibleMagazinesString];  //NOTE format[] has an 8kb limit
+                _classBody = _classBody + (['"magazines": ',_compatibleMagazinesString,','] joinString "");
+            }
+            else {
+                diag_log format["%1 has no compatible magazines", _exportClass];
+                //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, (str getArray _property) splitString "\" joinString "/"];  //NOTE format[] has an 8kb limit
+
+                _classBody = _classBody + (['"',_propertyNameLast,'": ',((str getArray _property) splitString "\" joinString "/"),','] joinString "");
             };
-        };
-        case "OBJECT": {
-            _classBody = [_property, _classBody, _propertyNameLast, _configCategory, _exportClass] call getClass;
-        };
-        default {diag_log(format["Unknown Format: %1:%2",_propertyName,typeName _property])};
+        }
+        else {_classBody = _classBody + (['"',_propertyNameLast,'": ',((str getArray _property) splitString "\" joinString "/"),','] joinString "");}
+    };
+    if (isClass _property) then {
+        _classBody = [_property, _classBody, _propertyNameLast, _configCategory, _exportClass] call getClass;
     };
     _classBody
 };
@@ -326,7 +323,6 @@ getProperties = {
         {
             //Create the start of the file, classname with brace for dict
             diag_log(format["On: %1", _x]);
-            if (i == 1) then {_configCategory = _x; _classBody = _classBody + _folder + " = {";};
             if (i == 0) then {_folder = _x; };
             if (i > 1) then {
                 // "d" instead of class name:
@@ -338,10 +334,8 @@ getProperties = {
 
                 _classBody = [_x, _classBody, _configCategory] call getProperties;
                 //Create path to write class data to
-                _path = _basePath + _folder + "/" + toLower _x + ".py";
 
                 //Write class to its own file
-                diag_log(format["Wrote to %1", _path]);
 
                 //seperate lines in .rpt by a line
                 diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
@@ -350,8 +344,6 @@ getProperties = {
                 _classBody = _classBody + "\n}";
 
                 //KillZoneKidd's make_file_x64 .dll linked in repo
-                    //(Cannot write tabs to file, using spaces instead)
-                "make_file" callExtension (_path + "|" + _classBody);
             };
             i = i + 1;
         } foreach _x; //for each class for the side in the category
