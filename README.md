@@ -1,6 +1,6 @@
 # Arma-Class-Exporter
 ## Introduction
-This project (python scripts) is being re-written, lets see if I'll finish it!
+This project (python scripts) is being re-written, lets see if I'll finish it!<br>
 The SQF scripts are completely functional.
 
 ## Other Notable Scripts
