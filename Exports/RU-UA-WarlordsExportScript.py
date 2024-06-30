@@ -12,6 +12,7 @@ scriptStart = default_timer()  # Start timer to get total execution time
 cwd = os.getcwd()  # Save current folder path
 
 
+
 def export_all_loadouts(cwd, weapon, mod, backup_folders, appendList, dupe_list):
     try:
         # cwd           = /path/to/this/script
@@ -43,6 +44,7 @@ def export_weapons(path, loadout_list, export_class, export_to_csv=True, hit_ran
 weapons = []
 for root, dirs, files in os.walk(cwd + "/SQF-Class-Exports/" + mod + "/Weapons", topdown=False):
     for file in files:
+        print(file)
         if file[-2:] == "py":
             #if file.count("_acc_") > 0:
             weapons.append(file[:-3])
@@ -55,12 +57,11 @@ dupe_list = []
 for weapon in weapons:  # Loop through every loadout in bluForWeapons and opForWeapons
     if weapon not in dupe_list:
         dupe_list.append(weapon)
-        export_all_loadouts(cwd, weapon, mod, backup_folders, allLoadouts,
-                            dupe_list)  # Pass loadout, export folder, other folders and list to append to
-export_weapons(path=f"#CSV_Exports/{mod}/allWeaponExport.csv",
+        export_all_loadouts(cwd, weapon, mod, backup_folders, allLoadouts, dupe_list)  # Pass loadout, export folder, other folders and list to append to
+export_weapons(path=f"F:/Software/GitHub/MyRepos/Arma-Class-Exporter/Exports/#CSV_Exports/{mod}/allWeaponExport.csv",
                loadout_list=allLoadouts, export_class="Weapon", export_to_csv=True,
                hit_ranges=[100, 200, 300, 400, 500, 1000, 1500, 2000])
-print(f"allLoadouts took {round((default_timer() - start), 3)}s")  # Print time taken            
+print(f"allLoadouts took {round((default_timer() - start), 3)}s")  # Print time taken
             
             
 

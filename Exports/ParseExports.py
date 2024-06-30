@@ -87,6 +87,7 @@ class ArmaSharedProperties(ExportProperties):
     item_info_model_sides = []
     item_info_type = 0
     model = ""
+    scope = 0
 
     def get_display_name(self, _module):
         with contextlib.suppress(KeyError):
@@ -120,6 +121,10 @@ class ArmaSharedProperties(ExportProperties):
         with contextlib.suppress(KeyError):
             self.model = _module.d["model"]
 
+    def get_scope(self, _module):
+        with contextlib.suppress(KeyError):
+            self.scope = _module["scope"]
+
 
 class ArmaWeaponSharedProperties(ArmaSharedProperties):
     def __init__(self, weapon_mod, magazine_mod, weapon, mag,
@@ -150,6 +155,8 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
         self.magazine_class = mag
 
         # General Parameters
+        self.weapon_scope = self.weapon_module.d["scope"]
+        self.magazine_scope = self.magazine_module.d["scope"]
         self.cartridge = ""  # https://community.bistudio.com/wiki/CfgAmmo_Config_Reference#cartridge
         self.capacity = 0  # https://community.bistudio.com/wiki/CfgAmmo_Config_Reference#cartridge
         self.hit = 0  # https://community.bistudio.com/wiki/CfgAmmo_Config_Reference#hit
@@ -273,14 +280,17 @@ class ArmaWeaponSharedProperties(ArmaSharedProperties):
             self.cartridge = self.magazine_module.d["ammo"]["_dictAmmoName"]
 
     def get_time_to_live(self):
-        # Time to live of the first CfgAmmo spanwed
-        self.time_to_live = self.magazine_module.d["ammo"]["timetolive"]
+        try:
+            # Time to live of the first CfgAmmo spanwed
+            self.time_to_live = self.magazine_module.d["ammo"]["timetolive"]
 
-        # Time to live of the submunition(s)
-        if self.has_submunition != 0:
-            self.submunition_penetration = []  # Remove default [[0,0,0]] value
-            for sub in self.submunitions:
-                self.submunition_time_to_live.append(self.magazine_module.d["ammo"][sub]["timetolive"])
+            # Time to live of the submunition(s)
+            if self.has_submunition != 0:
+                self.submunition_penetration = []  # Remove default [[0,0,0]] value
+                for sub in self.submunitions:
+                    self.submunition_time_to_live.append(self.magazine_module.d["ammo"][sub]["timetolive"])
+        except KeyError:
+            print(f"{self.magazine_class} has no ammo>>timetolive")
 
     def get_submunition_values(self):
 
@@ -746,7 +756,7 @@ class ArmaWeaponClass(ArmaWeaponSharedProperties):
             shot_mass = round(self.magazine_mass / self.capacity, self.hit_formatting)
         except ZeroDivisionError:
             shot_mass = 0
-        self.csv_export.extend([self.weapon_class, self.magazine_class, self.weapon_mass, self.magazine_mass, shot_mass, self.caliber])
+        self.csv_export.extend([self.weapon_class, self.magazine_class, self.weapon_scope, self.magazine_scope, self.weapon_mass, self.magazine_mass, shot_mass, self.caliber])
 
     def print_stats(self):
         h_vz_fill = len(str(self.hit_values[0]))
@@ -982,7 +992,7 @@ class ArmaVehicleWeaponClass(ArmaWeaponClass):
             self.flight_profiles,
         ]
         self.csv_export.extend(self.hit_values)
-        self.csv_export.extend([self.weapon_class, self.magazine_class, self.caliber,
+        self.csv_export.extend([self.weapon_class, self.magazine_class, self.weapon_scope, self.magazine_scope, self.caliber,
                                 self.submunition_caliber, self.submunition_submunition_caliber])
 
     def print_all_variables(self):

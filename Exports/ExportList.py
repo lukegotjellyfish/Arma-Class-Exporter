@@ -109,7 +109,7 @@ class ExportList:
                 for x in range(len(self.hit_ranges)):
                     self.csvHeader.append(f"Damage at {self.hit_ranges[x]}m")
                 self.csvHeader.extend(
-                    ["Weapon Class", "Magazine Class", "Weapon Mass", "Magazine Mass", "Mass per Ammo", "Caliber"])
+                    ["Weapon Class", "Magazine Class", "Weapon Scope", "Magazine Scope", "Weapon Mass", "Magazine Mass", "Mass per Ammo", "Caliber"])
                 self.csv_writer.writerow(self.csvHeader)
             for loadout in self.list:
                 weapon_folder = self.check_file_exists(loadout[0], ["Weapons"])
@@ -233,7 +233,7 @@ class ExportList:
                 for x in range(len(self.hit_ranges)):
                     self.csvHeader.append(f"Damage at {self.hit_ranges[x]}m")
                 self.csvHeader.extend(
-                    ["Weapon Class", "Magazine Class", "Caliber", "Submunition Caliber", "Sub-submunition Caliber"])
+                    ["Weapon Class", "Magazine Class", "Weapon Scope", "Magazine Scope", "Caliber", "Submunition Caliber", "Sub-submunition Caliber"])
                 self.csv_writer.writerow(self.csvHeader)
             for loadout in self.list:
                 # TODO Add feature to detect/pass argument specifying
