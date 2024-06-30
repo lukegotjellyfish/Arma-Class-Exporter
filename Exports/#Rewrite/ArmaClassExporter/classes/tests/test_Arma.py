@@ -2,20 +2,18 @@ import sys
 
 sys.path.append('..')
 import unittest
-import mock_module
-from unittest.mock import MagicMock
 from Arma import Arma
 
 
 class TestArma(unittest.TestCase):
-    def test_load_properties(self):
+    def test_arma(self):
         # Create an instance of Arma
-        arma_instance = Arma("mock_module", "mock_module.py")
+        arma_instance = Arma("example_weapon_class", "example_weapon_class.py")
 
         # Check that each attribute has been correctly set
-        self.assertEqual(arma_instance.display_name, "Test Display Name")
-        self.assertEqual(arma_instance.model, "Test Model")
-        self.assertEqual(arma_instance.scope, "Test Scope")
+        self.assertEqual(arma_instance.display_name, "AK-12 7.62 mm")
+        self.assertEqual(arma_instance.model, "A3/Weapons_F_Exp/Rifles/AK12/AK12_F.p3d")
+        self.assertEqual(arma_instance.scope, 2)
         self.assertEqual(arma_instance.eventhandlers, {})
         #self.assertEqual(arma_instance.item_info_type, "Test Type")
         #self.assertEqual(arma_instance.item_info_mass, 100)
