@@ -1,4 +1,4 @@
-from Arma import Arma
+from ArmaU import ArmaU
 from decimal import Decimal
 import importlib.util
 import os
@@ -7,20 +7,23 @@ sys.path.append('..')
 import eval_param_value as epv
 
 
-class ArmaWeapon(Arma):
-    def __init__(self, weapon_mod_folder, weapon_class_name):
-
-        cwd = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
-
-        # Construct path to weapon dict
-        weapon_module_path = os.path.join(cwd, "SQF-Class-Exports", weapon_mod_folder, "Weapons", f"{weapon_class_name}.py")
-
+class ArmaWeapon(ArmaU):
+    def __init__(self, weapon_class_name, weapon_class_path):
         # Send the module details to the super class
-        super().__init__(weapon_class_name, weapon_module_path)
+        super().__init__(weapon_class_name, weapon_class_path)
 
         properties_mapping = {
             "init_speed": "initspeed", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#initSpeed.3D0
             "can_lock": "canlock", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#canLock=2
             "firemodes": "modes", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#modes[]=_{%22this%22}
+
+            # Infantry weapon parameters
+            "slots_info": "weaponslotsinfo",
+            "slot": ["weaponslotsinfo","allowedslots"],
+            "mass": ["weaponslotsinfo","mass"],
+            "comptabile_optics": ["weaponslotsinfo","cowsslot","compatibleitems"],
+            "compatible_muzzles": ["weaponslotsinfo","muzzleslot","compatibleitems"],
+            "compatible_pointers": ["weaponslotsinfo","pointerslot","compatibleitems"],
+            "compatible_underbarrel_attachments": ["weaponslotsinfo","underbarrelslot","compatibleitems"],
         }
         self.load_properties(properties_mapping)

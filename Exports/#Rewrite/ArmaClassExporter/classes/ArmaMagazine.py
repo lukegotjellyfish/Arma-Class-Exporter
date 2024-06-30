@@ -6,22 +6,25 @@ from decimal import Decimal
 import importlib.util
 import os
 import sys
-from Arma import Arma
+from ArmaU import ArmaU
 sys.path.append('..')
 
 
-class ArmaMagazine(Arma):
-    def __init__(self, magazine_class_name, magazine_mod_folder):
-        cwd = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
+class ArmaMagazine(ArmaU):
+    def __init__(self, magazine_class_name: str, magazine_dict_path: str):
+        """
+        Class to get Magazine values
 
-        # Construct path to magazine dict
-        magazine_module_path = os.path.join(cwd, "SQF-Class-Exports", magazine_mod_folder, "Magazines", f"{magazine_class_name}.py")
-
+        Parameters:
+            magazine_class_name (str): The class name of the magazine
+            magazine_dict_path (str): The absolute file path to the dict
+        """
         # Send the module details to the super class
-        super().__init__(magazine_class_name, magazine_module_path)
+        super().__init__(magazine_class_name, magazine_dict_path)
 
         # Init variables
-        self.ammo_class_name = None
+        self.ammo_class_name = "uwu"
+
 
         # Find Ammo name with magazine parameters
         properties_mapping = {
@@ -32,11 +35,6 @@ class ArmaMagazine(Arma):
 
         # If the magazine actually has an Ammo...
         if self.ammo_class_name:
-            # Import CfgAmmo in the magazine
-            ammo_module_path = os.path.join(cwd, "SQF-Class-Exports", magazine_mod_folder, "Ammo", f"{magazine_class_name}.cfg")
-
-            # Import ammo dict
-            spec = importlib.util.spec_from_file_location(ammo_class_name, ammo_module_path)
-            self.magazine_module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(self.magazine_module)
-            self.magazine_module = self.magazine_module.d
+            # Create a new instance of ArmaAmmo
+            # TODO: Add backup folders to check (or default check other export folders)?
+            self.ammo = ArmaAmmo(self.ammo_class_name, magazine_dict_path)

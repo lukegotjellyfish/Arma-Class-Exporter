@@ -1,0 +1,15 @@
+Modules to use:
+
+To get weapon stats: ArmaWeapon
+To get magazine stats: ArmaMagazine
+To get ammo stats: ArmaAmmo
+To get weapon+magazine stats: ArmaLoadedWeapon
+
+
+scope = 2;			// 2 = class is available in the editor;
+                       1 = class is unavailable in the editor, but can be accessed via a macro;
+                       0 = class is unavailable (and used for inheritance only).
+scopeCurator = 2;	// 2 = class is available in Zeus;
+                       0 = class is unavailable in Zeus.
+scopeArsenal = 2;	// 2 (or 1??) = class is available in the Virtual Arsenal; (not present by default)
+                       0 = class is unavailable in the Virtual Arsenal.
