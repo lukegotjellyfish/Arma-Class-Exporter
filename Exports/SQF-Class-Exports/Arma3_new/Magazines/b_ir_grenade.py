@@ -1,0 +1,33 @@
+d = {
+    "ammo": "B_IRStrobe",
+    "author": "Bohemia Interactive",
+    "count": 1,
+    "descriptionshort": "Type: IR Strobe<br />Faction: NATO<br />Rounds: 1",
+    "displayname": "IR Grenade [NATO]",
+    "displaynameshort": "IR Grenade",
+    "initspeed": 18,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 8,
+    "maxleadspeed": 6.94444,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/Weapons_F_EPB/Ammo/B_IRstrobe_F.p3d",
+    "modelspecial": "",
+    "namesound": "handgrenade",
+    "picture": "A3/Weapons_F_EPB/Ammo/Data/UI/gear_B_IRstrobe_CA.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 256,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

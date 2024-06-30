@@ -1,0 +1,33 @@
+d = {
+    "ammo": "F_20mm_Red",
+    "author": "Bohemia Interactive",
+    "count": 1,
+    "descriptionshort": "Type: Flare Rounds - Red<br />Rounds: 1<br />Used in: Flare Gun",
+    "displayname": "Flare (Red)",
+    "displaynameshort": "Red Flare",
+    "initspeed": 80,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 4,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_f/ammo/flare_red",
+    "modelspecial": "",
+    "namesound": "",
+    "picture": "A3/Weapons_F/Data/UI/gear_flare_red_ca.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 16,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

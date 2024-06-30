@@ -1,0 +1,1321 @@
+d = {
+    "_generalmacro": "B_CargoNet_01_ammo_F",
+    "access": 0,
+    "accuracy": 0.5,
+    "accuracydarknightlightsoff": 0.001,
+    "accuracynightlightsoff": 0.006,
+    "accuracynightlightson": 0.1,
+    "aggregatereflectors": [],
+    "aircapacity": 10,
+    "airfriction0": [
+        0.01,
+        0.01,
+        0.01
+    ],
+    "airfriction1": [
+        0.01,
+        0.01,
+        0.01
+    ],
+    "airfriction2": [
+        0.01,
+        0.01,
+        0.01
+    ],
+    "airrotation": 0,
+    "allowtablock": 1,
+    "alwaystarget": 0,
+    "animated": 0,
+    "animationsources": {},
+    "antirollbarforcecoef": 0,
+    "antirollbarforcelimit": 5,
+    "antirollbarspeedmax": 60,
+    "antirollbarspeedmin": 20,
+    "armor": 200,
+    "armorlights": 0.4,
+    "armorstructural": 1,
+    "artilleryscanner": 0,
+    "artillerytarget": 0,
+    "attendant": 0,
+    "attenuationeffecttype": "",
+    "audible": 0,
+    "author": "Bohemia Interactive",
+    "autocenter": 1,
+    "avgheight": 0.2,
+    "brakedistance": 5,
+    "cabinclosesound": [
+        "",
+        1,
+        1
+    ],
+    "cabinclosesoundinternal": [
+        "",
+        1,
+        1
+    ],
+    "cabinopensound": [
+        "",
+        1,
+        1
+    ],
+    "cabinopensoundinternal": [
+        "",
+        1,
+        1
+    ],
+    "camerasmoothspeed": 5,
+    "camouflage": 2,
+    "camshakedamage": {
+        "attenuation": 0.5,
+        "distance": -1,
+        "duration": 3,
+        "frequency": 60,
+        "minspeed": 1,
+        "power": 0.5
+    },
+    "camshakegforce": {
+        "distance": 0,
+        "duration": 3,
+        "frequency": 20,
+        "minspeed": 1,
+        "power": 1
+    },
+    "canhidedriver": -1,
+    "canusescanners": 1,
+    "cargoaction": [],
+    "cargocaneject": 1,
+    "cargocompartments": [
+        "Compartment1"
+    ],
+    "cargogetinaction": [],
+    "cargogetoutaction": [],
+    "cargoiscodriver": [
+        0
+    ],
+    "cargospec": {
+        "cargo1": {
+            "showheadphones": 0
+        }
+    },
+    "castcargoshadow": 0,
+    "castdrivershadow": 0,
+    "coefinside": 2,
+    "coefinsideheur": 2,
+    "coefspeedinside": 2,
+    "commandercansee": 31,
+    "cost": 0,
+    "countsforscoreboard": 0,
+    "crew": "Civilian",
+    "crewcrashprotection": 1,
+    "crewvulnerable": 1,
+    "curatorinfotypeempty": "RscDisplayAttributesInventory",
+    "damage": {
+        "mat": [],
+        "tex": []
+    },
+    "damagefull": [],
+    "damagehalf": [],
+    "damageresistance": 0.004,
+    "damagetexdelay": 0,
+    "destrtype": "DestructNo",
+    "destructioneffects": {
+        "bullets": {
+            "intensity": 1,
+            "interval": 1,
+            "lifetime": 1.2,
+            "position": "",
+            "simulation": "particles",
+            "type": "AmmoBulletCore"
+        },
+        "housedestr": {
+            "intensity": 1,
+            "interval": 1,
+            "lifetime": 10,
+            "position": "",
+            "simulation": "destroy",
+            "type": "DelayedDestructionAmmoBox"
+        },
+        "smoke2": {
+            "intensity": 1,
+            "interval": 1,
+            "lifetime": 2,
+            "position": "",
+            "simulation": "particles",
+            "type": "AmmoSmokeParticles2"
+        }
+    },
+    "detectskill": 20,
+    "disappearatcontact": 0,
+    "displayname": "Cargo Net [NATO]",
+    "dlc": "Heli",
+    "driveraction": "",
+    "drivercaneject": 1,
+    "drivercansee": "2+8+16",
+    "drivercompartments": "Compartment1",
+    "driverforceoptics": 0,
+    "driverinaction": "",
+    "driveropticscolor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "driveropticseffect": [],
+    "driveropticsmodel": "",
+    "dustbackleftpos": "dustBackLeft",
+    "dustbackrightpos": "dustBackRight",
+    "dustfrontleftpos": "dustFrontLeft",
+    "dustfrontrightpos": "dustFrontRight",
+    "editorcategory": "EdCat_Supplies",
+    "editorpreview": "A3/EditorPreviews_F/Data/CfgVehicles/B_CargoNet_01_ammo_F.jpg",
+    "editorsubcategory": "EdSubcat_Storage",
+    "ejectdeadcargo": 0,
+    "ejectdeaddriver": 0,
+    "emptysound": [
+        "",
+        0,
+        1
+    ],
+    "enablegps": 0,
+    "enablemanualfire": 1,
+    "enableradio": 0,
+    "enablewatch": 0,
+    "engineer": 0,
+    "epeimpulsedamagecoef": 30,
+    "eventhandlers": {},
+    "explosioneffect": "BasicAmmoExplosion",
+    "extcameraparams": [
+        1
+    ],
+    "extcameraposition": [
+        0,
+        2,
+        -20
+    ],
+    "faction": "Default",
+    "features": "",
+    "featuretype": 0,
+    "fireresistance": 10,
+    "forcehidedriver": 0,
+    "formationtime": 5,
+    "formationx": 10,
+    "formationz": 20,
+    "fuelcapacity": 0,
+    "fuelconsumptionrate": 0.01,
+    "fxexplo": {
+        "access": 1
+    },
+    "getinaction": "",
+    "getinradius": 2.5,
+    "getoutaction": "",
+    "gforceshakeattenuation": 0.5,
+    "ghostpreview": "",
+    "gravityfactor": 1,
+    "groupcameraposition": [
+        0,
+        5,
+        -30
+    ],
+    "gunclouds": {
+        "access": 0,
+        "cloudletaccy": 0.4,
+        "cloudletalpha": 1,
+        "cloudletanimperiod": 1,
+        "cloudletcolor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "cloudletduration": 0.3,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 1,
+        "cloudletgrowup": 1,
+        "cloudletmaxyspeed": 0.8,
+        "cloudletminyspeed": 0.2,
+        "cloudletshape": "cloudletClouds",
+        "cloudletsize": 1,
+        "deltat": 0,
+        "initt": 0,
+        "interval": 0.05,
+        "size": 3,
+        "sourcesize": 0.5,
+        "table": {
+            "t0": {
+                "color": [
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "maxt": 0
+            }
+        },
+        "timetolive": 0
+    },
+    "gunfire": {
+        "access": 0,
+        "cloudletaccy": 0,
+        "cloudletalpha": 1,
+        "cloudletanimperiod": 1,
+        "cloudletcolor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "cloudletduration": 0.2,
+        "cloudletfadein": 0.01,
+        "cloudletfadeout": 0.5,
+        "cloudletgrowup": 0.2,
+        "cloudletmaxyspeed": 100,
+        "cloudletminyspeed": -100,
+        "cloudletshape": "cloudletFire",
+        "cloudletsize": 1,
+        "deltat": -3000,
+        "initt": 4500,
+        "interval": 0.01,
+        "size": 3,
+        "sourcesize": 0.5,
+        "table": {
+            "t0": {
+                "color": [
+                    0.82,
+                    0.95,
+                    0.93,
+                    0
+                ],
+                "maxt": 0
+            },
+            "t1": {
+                "color": [
+                    0.75,
+                    0.77,
+                    0.9,
+                    0
+                ],
+                "maxt": 200
+            },
+            "t10": {
+                "color": [
+                    0.62,
+                    0.29,
+                    0.03,
+                    0
+                ],
+                "maxt": 2600
+            },
+            "t11": {
+                "color": [
+                    0.59,
+                    0.35,
+                    0.05,
+                    0
+                ],
+                "maxt": 2650
+            },
+            "t12": {
+                "color": [
+                    0.75,
+                    0.37,
+                    0.03,
+                    0
+                ],
+                "maxt": 2700
+            },
+            "t13": {
+                "color": [
+                    0.88,
+                    0.34,
+                    0.03,
+                    0
+                ],
+                "maxt": 2750
+            },
+            "t14": {
+                "color": [
+                    0.91,
+                    0.5,
+                    0.17,
+                    0
+                ],
+                "maxt": 2800
+            },
+            "t15": {
+                "color": [
+                    1,
+                    0.6,
+                    0.2,
+                    0
+                ],
+                "maxt": 2850
+            },
+            "t16": {
+                "color": [
+                    1,
+                    0.71,
+                    0.3,
+                    0
+                ],
+                "maxt": 2900
+            },
+            "t17": {
+                "color": [
+                    0.98,
+                    0.83,
+                    0.41,
+                    0
+                ],
+                "maxt": 2950
+            },
+            "t18": {
+                "color": [
+                    0.98,
+                    0.91,
+                    0.54,
+                    0
+                ],
+                "maxt": 3000
+            },
+            "t19": {
+                "color": [
+                    0.98,
+                    0.99,
+                    0.6,
+                    0
+                ],
+                "maxt": 3100
+            },
+            "t2": {
+                "color": [
+                    0.56,
+                    0.62,
+                    0.67,
+                    0
+                ],
+                "maxt": 400
+            },
+            "t20": {
+                "color": [
+                    0.96,
+                    0.99,
+                    0.72,
+                    0
+                ],
+                "maxt": 3300
+            },
+            "t21": {
+                "color": [
+                    1,
+                    0.98,
+                    0.91,
+                    0
+                ],
+                "maxt": 3600
+            },
+            "t22": {
+                "color": [
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "maxt": 4200
+            },
+            "t3": {
+                "color": [
+                    0.39,
+                    0.46,
+                    0.47,
+                    0
+                ],
+                "maxt": 600
+            },
+            "t4": {
+                "color": [
+                    0.24,
+                    0.31,
+                    0.31,
+                    0
+                ],
+                "maxt": 800
+            },
+            "t5": {
+                "color": [
+                    0.23,
+                    0.31,
+                    0.29,
+                    0
+                ],
+                "maxt": 1000
+            },
+            "t6": {
+                "color": [
+                    0.21,
+                    0.29,
+                    0.27,
+                    0
+                ],
+                "maxt": 1500
+            },
+            "t7": {
+                "color": [
+                    0.19,
+                    0.23,
+                    0.21,
+                    0
+                ],
+                "maxt": 2000
+            },
+            "t8": {
+                "color": [
+                    0.22,
+                    0.19,
+                    0.1,
+                    0
+                ],
+                "maxt": 2300
+            },
+            "t9": {
+                "color": [
+                    0.35,
+                    0.2,
+                    0.02,
+                    0
+                ],
+                "maxt": 2500
+            }
+        },
+        "timetolive": 0
+    },
+    "gunnercansee": "4+8+16",
+    "gunnerhasflares": 1,
+    "hasdriver": 0,
+    "headaimdown": 0,
+    "headgforceleaningfactor": [
+        0.01,
+        0.002,
+        0.01
+    ],
+    "headlimits": {
+        "initanglex": 5,
+        "initangley": 0,
+        "maxanglex": 40,
+        "maxangley": 90,
+        "maxanglez": 45,
+        "minanglex": -30,
+        "minangley": -90,
+        "minanglez": -45,
+        "rotzradius": 0.2
+    },
+    "hiddenselections": [
+        "Camo_1",
+        "Camo_2"
+    ],
+    "hiddenselectionsmaterials": [],
+    "hiddenselectionstextures": [
+        "/A3/Weapons_F/Ammoboxes/Data/AmmoBox_CO.paa",
+        "/A3/Weapons_F/Ammoboxes/Data/AmmoBox_signs_CA.paa"
+    ],
+    "hiddenunderwaterselections": [],
+    "hiddenunderwaterselectionstextures": [],
+    "hideproxyincombat": 0,
+    "hideunitinfo": 0,
+    "hideweaponscargo": 0,
+    "hideweaponsdriver": 1,
+    "hulldamagecauseexplosion": 0,
+    "icon": "iconObject_1x1",
+    "impacteffectssea": "ImpactEffectsSea",
+    "incomingmissiledetectionsystem": 0,
+    "indirecthitciviliancoefai": -20,
+    "indirecthitenemycoefai": 10,
+    "indirecthitfriendlycoefai": -20,
+    "indirecthitunknowncoefai": -0.5,
+    "insidedetectcoef": 0.05,
+    "insidesoundcoef": 0.5,
+    "inventoryplacements": {},
+    "irscanground": 1,
+    "irscanrangemax": 0,
+    "irscanrangemin": 0,
+    "irscantoeyefactor": 1,
+    "irtarget": 0,
+    "isbackpack": 0,
+    "keepinepesceneafterdeath": 0,
+    "killfriendlyexpcoef": 1,
+    "laserscanner": 0,
+    "lasertarget": 0,
+    "limitedspeedcoef": 0.22,
+    "lockdetectionsystem": 0,
+    "magazines": [],
+    "mapsize": 1.65,
+    "markerlights": {},
+    "maxdetectrange": 20,
+    "maxfordingdepth": 1,
+    "maxgforce": 2,
+    "maxheight": 0.4,
+    "maximumload": 22000,
+    "maxspeed": 0,
+    "memorypointsupply": "Supply_pos",
+    "mgunclouds": {
+        "access": 0,
+        "cloudletaccy": 0,
+        "cloudletalpha": 0.3,
+        "cloudletanimperiod": 1,
+        "cloudletcolor": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "cloudletduration": 0.05,
+        "cloudletfadein": 0,
+        "cloudletfadeout": 0.1,
+        "cloudletgrowup": 0.05,
+        "cloudletmaxyspeed": 100,
+        "cloudletminyspeed": -100,
+        "cloudletshape": "cloudletClouds",
+        "cloudletsize": 1,
+        "deltat": 0,
+        "initt": 0,
+        "interval": 0.02,
+        "size": 0.3,
+        "sourcesize": 0.02,
+        "table": {
+            "t0": {
+                "color": [
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "maxt": 0
+            }
+        },
+        "timetolive": 0
+    },
+    "minealerticonrange": 200,
+    "minfiretime": 20,
+    "mingforce": 0.2,
+    "minheight": 0.1,
+    "model": "A3/Supplies_F_Heli/CargoNets/CargoNet_01_ammo_F.p3d",
+    "namesound": "obj_object",
+    "nightvision": 0,
+    "normalspeedforwardcoef": 0.85,
+    "numberphysicalwheels": 0,
+    "nvgmarker": {
+        "ambient": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "blinking": 0,
+        "brightness": 1,
+        "diffuse": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "onlyinnvg": 0
+    },
+    "nvgmarkers": {},
+    "nvscanner": 0,
+    "nvtarget": 0,
+    "obstructsoundlfratio": 0,
+    "obstructsoundswhenin": 0.562341,
+    "occludesoundlfratio": 0.25,
+    "occludesoundswhenin": 0.316228,
+    "outsidesoundfilter": 0,
+    "picture": "pictureThing",
+    "pilotspec": {
+        "showheadphones": 0
+    },
+    "portrait": "",
+    "precision": 5,
+    "predictturnplan": 1,
+    "predictturnsimul": 1.2,
+    "preferroads": 0,
+    "pulsationsound": {},
+    "radartype": 0,
+    "reflectors": {},
+    "replacedamaged": "",
+    "replacedamagedhitpoints": [],
+    "replacedamagedlimit": 0.9,
+    "reversed": 0,
+    "scope": 2,
+    "scopecurator": 2,
+    "secondaryexplosion": -1,
+    "selectionbacklights": "",
+    "selectionclan": "",
+    "selectiondamage": "zbytek",
+    "selectiondashboard": "",
+    "selectionfireanim": "",
+    "selectionshowdamage": "",
+    "sensitivity": 2.5,
+    "sensitivityear": 0.0075,
+    "shadow": 1,
+    "showalltargets": 0,
+    "showcrewaim": 7,
+    "shownunderwaterselections": [],
+    "shownvgcargo": [
+        0
+    ],
+    "shownvgcommander": 0,
+    "shownvgdriver": 0,
+    "shownvggunner": 0,
+    "side": 3,
+    "simpleobject": {
+        "animate": [],
+        "eden": 1,
+        "hide": [],
+        "init": "''",
+        "verticaloffset": 0.825,
+        "verticaloffsetworld": 0
+    },
+    "simulation": "thingX",
+    "slingloadcargomemorypoints": [
+        "SlingLoadCargo1",
+        "SlingLoadCargo2",
+        "SlingLoadCargo3",
+        "SlingLoadCargo4"
+    ],
+    "slingloadcargomemorypointsdir": [],
+    "slowspeedforwardcoef": 0.3,
+    "soundarmorcrash": [
+        "emptySound",
+        0
+    ],
+    "soundattenuationcargo": [
+        1
+    ],
+    "soundbreath": {},
+    "soundbreathautomatic": {},
+    "soundbreathinjured": {},
+    "soundbreathswimming": {},
+    "soundbuildingcrash": [
+        "emptySound",
+        0
+    ],
+    "soundburning": {},
+    "soundbushcrash": [
+        "emptySound",
+        0
+    ],
+    "soundchoke": {},
+    "soundcrash": [
+        "",
+        0.316228,
+        1
+    ],
+    "soundcrashes": [
+        "soundCrash",
+        1
+    ],
+    "sounddamage": [
+        "",
+        1,
+        1
+    ],
+    "sounddammage": [
+        "",
+        1,
+        1
+    ],
+    "sounddrown": {},
+    "sounddrowning": {},
+    "soundelevation": [
+        "",
+        0.00316228,
+        0.5
+    ],
+    "soundengine": [
+        "",
+        1,
+        1
+    ],
+    "soundengineoffext": [
+        "",
+        1,
+        1
+    ],
+    "soundengineoffint": [
+        "",
+        1,
+        1
+    ],
+    "soundengineonext": [
+        "",
+        1,
+        1
+    ],
+    "soundengineonint": [
+        "",
+        1,
+        1
+    ],
+    "soundenviron": [
+        "",
+        1,
+        1
+    ],
+    "soundenvironext": {},
+    "soundequipment": {},
+    "soundflapsdown": [
+        "",
+        1,
+        1
+    ],
+    "soundflapsup": [
+        "",
+        1,
+        1
+    ],
+    "soundgear": {},
+    "soundgeardown": [
+        "",
+        1,
+        1
+    ],
+    "soundgearup": [
+        "",
+        1,
+        1
+    ],
+    "soundgetin": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundgetout": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundhitscream": {},
+    "soundincommingmissile": [
+        "",
+        1,
+        1
+    ],
+    "soundinjured": {},
+    "soundlandcrash": [
+        "",
+        1,
+        1
+    ],
+    "soundlandcrashes": [
+        "soundLandCrash",
+        1
+    ],
+    "soundlocked": [
+        "",
+        1,
+        1
+    ],
+    "soundrecovered": {},
+    "soundservo": [
+        "",
+        0.00316228,
+        0.5
+    ],
+    "soundturnin": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundturnininternal": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundturnout": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundturnoutinternal": [
+        "",
+        0.000316228,
+        1
+    ],
+    "soundwatercrash": [
+        "",
+        0.177828,
+        1
+    ],
+    "soundwatercrashes": [
+        "soundWaterCrash",
+        1
+    ],
+    "soundwoodcrash": [
+        "emptySound",
+        0
+    ],
+    "speechplural": [],
+    "speechsingular": [],
+    "speechvariants": {
+        "default": {
+            "speechplural": [
+                "veh_unknown_p"
+            ],
+            "speechsingular": [
+                "veh_unknown_s"
+            ]
+        }
+    },
+    "spotabledarknightlightsoff": 0.001,
+    "spotablenightlightsoff": 0.02,
+    "spotablenightlightson": 4,
+    "steeraheadplan": 0.4,
+    "steeraheadsimul": 0.3,
+    "submerged": 0,
+    "submergespeed": 0,
+    "supplyradius": 1.4,
+    "textplural": "unknown",
+    "textsingular": "unknown",
+    "threat": [
+        0,
+        0,
+        0
+    ],
+    "timetolive": 10000000000.0,
+    "transportammo": 0,
+    "transportfuel": 0,
+    "transportitems": {
+        "_xx_acc_flashlight": {
+            "count": 5,
+            "name": "acc_flashlight"
+        },
+        "_xx_acc_pointer_ir": {
+            "count": 5,
+            "name": "acc_pointer_IR"
+        },
+        "_xx_binocular": {
+            "count": 1,
+            "name": "Binocular"
+        },
+        "_xx_firstaidkit": {
+            "count": 10,
+            "name": "FirstAidKit"
+        },
+        "_xx_itemgps": {
+            "count": 5,
+            "name": "ItemGPS"
+        },
+        "_xx_laserdesignator": {
+            "count": 1,
+            "name": "Laserdesignator"
+        },
+        "_xx_medikit": {
+            "count": 1,
+            "name": "Medikit"
+        },
+        "_xx_minedetector": {
+            "count": 1,
+            "name": "MineDetector"
+        },
+        "_xx_muzzle_snds_acp": {
+            "count": 5,
+            "name": "muzzle_snds_acp"
+        },
+        "_xx_muzzle_snds_b": {
+            "count": 5,
+            "name": "muzzle_snds_b"
+        },
+        "_xx_muzzle_snds_h": {
+            "count": 5,
+            "name": "muzzle_snds_H"
+        },
+        "_xx_muzzle_snds_h_sw": {
+            "count": 1,
+            "name": "muzzle_snds_H_SW"
+        },
+        "_xx_muzzle_snds_l": {
+            "count": 5,
+            "name": "muzzle_snds_L"
+        },
+        "_xx_optic_aco": {
+            "count": 2,
+            "name": "optic_ACO"
+        },
+        "_xx_optic_aco_smg": {
+            "count": 2,
+            "name": "optic_ACO_smg"
+        },
+        "_xx_optic_dms": {
+            "count": 2,
+            "name": "optic_DMS"
+        },
+        "_xx_optic_hamr": {
+            "count": 2,
+            "name": "optic_Hamr"
+        },
+        "_xx_optic_holosight": {
+            "count": 2,
+            "name": "optic_Holosight"
+        },
+        "_xx_optic_lrps": {
+            "count": 2,
+            "name": "optic_LRPS"
+        },
+        "_xx_optic_mrd": {
+            "count": 2,
+            "name": "optic_MRD"
+        },
+        "_xx_optic_nvs": {
+            "count": 2,
+            "name": "optic_NVS"
+        },
+        "_xx_optic_sos": {
+            "count": 2,
+            "name": "optic_SOS"
+        },
+        "_xx_optic_tws": {
+            "count": 2,
+            "name": "optic_TWS"
+        },
+        "_xx_optic_tws_mg": {
+            "count": 2,
+            "name": "optic_TWS_MG"
+        },
+        "_xx_rangefinder": {
+            "count": 1,
+            "name": "Rangefinder"
+        },
+        "_xx_toolkit": {
+            "count": 1,
+            "name": "ToolKit"
+        }
+    },
+    "transportmagazines": {
+        "_xx_100rnd_65x39_caseless_mag_tracer": {
+            "count": 16,
+            "magazine": "100Rnd_65x39_caseless_mag_Tracer"
+        },
+        "_xx_11rnd_45acp_mag": {
+            "count": 14,
+            "magazine": "11Rnd_45ACP_Mag"
+        },
+        "_xx_16rnd_9x21_mag": {
+            "count": 14,
+            "magazine": "16Rnd_9x21_Mag"
+        },
+        "_xx_1rnd_he_grenade_shell": {
+            "count": 15,
+            "magazine": "1Rnd_HE_Grenade_shell"
+        },
+        "_xx_1rnd_smoke_grenade_shell": {
+            "count": 2,
+            "magazine": "1Rnd_Smoke_Grenade_shell"
+        },
+        "_xx_1rnd_smokeblue_grenade_shell": {
+            "count": 2,
+            "magazine": "1Rnd_SmokeBlue_Grenade_shell"
+        },
+        "_xx_1rnd_smokegreen_grenade_shell": {
+            "count": 2,
+            "magazine": "1Rnd_SmokeGreen_Grenade_shell"
+        },
+        "_xx_1rnd_smokeorange_grenade_shell": {
+            "count": 2,
+            "magazine": "1Rnd_SmokeOrange_Grenade_shell"
+        },
+        "_xx_1rnd_smokepurple_grenade_shell": {
+            "count": 2,
+            "magazine": "1Rnd_SmokePurple_Grenade_shell"
+        },
+        "_xx_1rnd_smokered_grenade_shell": {
+            "count": 2,
+            "magazine": "1Rnd_SmokeRed_Grenade_shell"
+        },
+        "_xx_1rnd_smokeyellow_grenade_shell": {
+            "count": 2,
+            "magazine": "1Rnd_SmokeYellow_Grenade_shell"
+        },
+        "_xx_20rnd_556x45_uw_mag": {
+            "count": 6,
+            "magazine": "20Rnd_556x45_UW_mag"
+        },
+        "_xx_20rnd_762x51_mag": {
+            "count": 24,
+            "magazine": "20Rnd_762x51_Mag"
+        },
+        "_xx_30rnd_45acp_mag_smg_01": {
+            "count": 14,
+            "magazine": "30Rnd_45ACP_Mag_SMG_01"
+        },
+        "_xx_30rnd_556x45_stanag_red": {
+            "count": 6,
+            "magazine": "30Rnd_556x45_Stanag_red"
+        },
+        "_xx_30rnd_65x39_caseless_mag": {
+            "count": 52,
+            "magazine": "30Rnd_65x39_caseless_mag"
+        },
+        "_xx_3rnd_he_grenade_shell": {
+            "count": 3,
+            "magazine": "3Rnd_HE_Grenade_shell"
+        },
+        "_xx_7rnd_408_mag": {
+            "count": 12,
+            "magazine": "7Rnd_408_mag"
+        },
+        "_xx_apersboundingmine_range_mag": {
+            "count": 5,
+            "magazine": "APERSBoundingMine_Range_Mag"
+        },
+        "_xx_apersmine_range_mag": {
+            "count": 5,
+            "magazine": "APERSMine_Range_Mag"
+        },
+        "_xx_aperstripmine_wire_mag": {
+            "count": 5,
+            "magazine": "APERSTripMine_Wire_Mag"
+        },
+        "_xx_atmine_range_mag": {
+            "count": 5,
+            "magazine": "ATMine_Range_Mag"
+        },
+        "_xx_b_ir_grenade": {
+            "count": 8,
+            "magazine": "B_IR_Grenade"
+        },
+        "_xx_claymoredirectionalmine_remote_mag": {
+            "count": 5,
+            "magazine": "ClaymoreDirectionalMine_Remote_Mag"
+        },
+        "_xx_democharge_remote_mag": {
+            "count": 5,
+            "magazine": "DemoCharge_Remote_Mag"
+        },
+        "_xx_handgrenade": {
+            "count": 24,
+            "magazine": "HandGrenade"
+        },
+        "_xx_laserbatteries": {
+            "count": 5,
+            "magazine": "Laserbatteries"
+        },
+        "_xx_minigrenade": {
+            "count": 24,
+            "magazine": "MiniGrenade"
+        },
+        "_xx_nlaw_f": {
+            "count": 8,
+            "magazine": "NLAW_F"
+        },
+        "_xx_satchelcharge_remote_mag": {
+            "count": 5,
+            "magazine": "SatchelCharge_Remote_Mag"
+        },
+        "_xx_slamdirectionalmine_wire_mag": {
+            "count": 5,
+            "magazine": "SLAMDirectionalMine_Wire_Mag"
+        },
+        "_xx_smokeshell": {
+            "count": 2,
+            "magazine": "SmokeShell"
+        },
+        "_xx_smokeshellblue": {
+            "count": 2,
+            "magazine": "SmokeShellBlue"
+        },
+        "_xx_smokeshellgreen": {
+            "count": 2,
+            "magazine": "SmokeShellGreen"
+        },
+        "_xx_smokeshellorange": {
+            "count": 2,
+            "magazine": "SmokeShellOrange"
+        },
+        "_xx_smokeshellpurple": {
+            "count": 2,
+            "magazine": "SmokeShellPurple"
+        },
+        "_xx_smokeshellred": {
+            "count": 2,
+            "magazine": "SmokeShellRed"
+        },
+        "_xx_smokeshellyellow": {
+            "count": 2,
+            "magazine": "SmokeShellYellow"
+        },
+        "_xx_titan_aa": {
+            "count": 6,
+            "magazine": "Titan_AA"
+        },
+        "_xx_titan_ap": {
+            "count": 6,
+            "magazine": "Titan_AP"
+        },
+        "_xx_titan_at": {
+            "count": 6,
+            "magazine": "Titan_AT"
+        },
+        "_xx_ugl_flaregreen_f": {
+            "count": 2,
+            "magazine": "UGL_FlareGreen_F"
+        },
+        "_xx_ugl_flarewhite_f": {
+            "count": 2,
+            "magazine": "UGL_FlareWhite_F"
+        }
+    },
+    "transportmaxbackpacks": 12,
+    "transportmaxmagazines": 704,
+    "transportmaxweapons": 132,
+    "transportrepair": 0,
+    "transportsoldier": 0,
+    "transportvehiclescount": 0,
+    "transportvehiclesmass": 0,
+    "transportweapons": {
+        "_xx_arifle_mx_f": {
+            "count": 8,
+            "weapon": "arifle_MX_F"
+        },
+        "_xx_arifle_mx_gl_f": {
+            "count": 4,
+            "weapon": "arifle_MX_GL_F"
+        },
+        "_xx_arifle_mx_sw_f": {
+            "count": 4,
+            "weapon": "arifle_MX_SW_F"
+        },
+        "_xx_arifle_mxc_f": {
+            "count": 4,
+            "weapon": "arifle_MXC_F"
+        },
+        "_xx_arifle_mxm_f": {
+            "count": 2,
+            "weapon": "arifle_MXM_F"
+        },
+        "_xx_arifle_sdar_f": {
+            "count": 2,
+            "weapon": "arifle_SDAR_F"
+        },
+        "_xx_hgun_p07_f": {
+            "count": 2,
+            "weapon": "hgun_P07_F"
+        },
+        "_xx_hgun_pistol_heavy_01_f": {
+            "count": 2,
+            "weapon": "hgun_Pistol_heavy_01_F"
+        },
+        "_xx_launch_nlaw_f": {
+            "count": 2,
+            "weapon": "launch_NLAW_F"
+        },
+        "_xx_launch_titan_f": {
+            "count": 2,
+            "weapon": "launch_Titan_F"
+        },
+        "_xx_launch_titan_short_f": {
+            "count": 2,
+            "weapon": "launch_Titan_short_F"
+        },
+        "_xx_smg_01_f": {
+            "count": 2,
+            "weapon": "SMG_01_F"
+        },
+        "_xx_srifle_ebr_f": {
+            "count": 2,
+            "weapon": "srifle_EBR_F"
+        },
+        "_xx_srifle_lrr_camo_f": {
+            "count": 2,
+            "weapon": "srifle_LRR_camo_F"
+        },
+        "_xx_srifle_lrr_f": {
+            "count": 2,
+            "weapon": "srifle_LRR_F"
+        }
+    },
+    "turrets": {},
+    "type": 1,
+    "typicalcargo": [],
+    "uavhacker": 0,
+    "unitinfotype": "RscUnitInfoTank",
+    "unitinfotypelite": 0,
+    "unloadincombat": 0,
+    "useprecisegetinaction": 0,
+    "viewcargo": {
+        "initanglex": 5,
+        "initangley": 0,
+        "initfov": 0.75,
+        "maxanglex": 85,
+        "maxangley": 150,
+        "maxfov": 1.25,
+        "maxmovex": 0,
+        "maxmovey": 0,
+        "maxmovez": 0,
+        "minanglex": -85,
+        "minangley": -150,
+        "minfov": 0.25,
+        "minmovex": 0,
+        "minmovey": 0,
+        "minmovez": 0,
+        "speedzoommaxfov": 0,
+        "speedzoommaxspeed": 10000000000.0
+    },
+    "viewcargoshadow": 1,
+    "viewcargoshadowamb": 1,
+    "viewcargoshadowdiff": 1,
+    "viewdrivershadow": 1,
+    "viewdrivershadowamb": 1,
+    "viewdrivershadowdiff": 1,
+    "viewoptics": {
+        "initanglex": 0,
+        "initangley": 0,
+        "initfov": 0.7,
+        "maxanglex": 30,
+        "maxangley": 100,
+        "maxfov": 0.85,
+        "maxmovex": 0,
+        "maxmovey": 0,
+        "maxmovez": 0,
+        "minanglex": -30,
+        "minangley": -100,
+        "minfov": 0.42,
+        "minmovex": 0,
+        "minmovey": 0,
+        "minmovez": 0,
+        "speedzoommaxfov": 0,
+        "speedzoommaxspeed": 10000000000.0
+    },
+    "viewpilot": {
+        "initanglex": 5,
+        "initangley": 0,
+        "initfov": 0.75,
+        "maxanglex": 85,
+        "maxangley": 150,
+        "maxfov": 1.25,
+        "maxmovex": 0,
+        "maxmovey": 0,
+        "maxmovez": 0,
+        "minanglex": -55,
+        "minangley": -150,
+        "minfov": 0.25,
+        "minmovex": 0,
+        "minmovey": 0,
+        "minmovez": 0,
+        "speedzoommaxfov": 0,
+        "speedzoommaxspeed": 10000000000.0
+    },
+    "waterangulardampingcoef": 0.1,
+    "waterdamageengine": 0.2,
+    "waterleakiness": 0.5,
+    "waterlineardampingcoefx": 0,
+    "waterlineardampingcoefy": 1,
+    "waterresistance": 10,
+    "waterresistancecoef": 0.5,
+    "weapons": [],
+    "weaponsgroup1": "1 + 2",
+    "weaponsgroup2": 4,
+    "weaponsgroup3": "8 + 16 + 32",
+    "weaponsgroup4": "64 + 128",
+    "weaponslots": 0,
+    "weight": 0,
+    "wheelcircumference": 1,
+    "windsockexist": 0
+}

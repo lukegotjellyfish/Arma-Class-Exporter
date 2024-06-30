@@ -1,0 +1,33 @@
+d = {
+    "ammo": "B_408_Ball",
+    "author": "Bohemia Interactive",
+    "count": 7,
+    "descriptionshort": "Caliber: .408<br />Rounds: 7<br />Used in: M320 LRR",
+    "displayname": ".408 7Rnd LRR Mag",
+    "displaynameshort": "",
+    "initspeed": 910,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 14,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_F/ammo/mag_univ.p3d",
+    "modelspecial": "",
+    "namesound": "magazine",
+    "picture": "A3/weapons_f/data/UI/m_M24_CA.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 256,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

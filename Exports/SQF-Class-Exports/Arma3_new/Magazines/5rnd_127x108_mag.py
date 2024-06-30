@@ -1,0 +1,33 @@
+d = {
+    "ammo": "B_127x108_Ball",
+    "author": "Bohemia Interactive",
+    "count": 5,
+    "descriptionshort": "Caliber: 12.7x108 mm Russian<br />Rounds: 5<br />Used in: GM6 Lynx",
+    "displayname": "12.7 mm 5Rnd Mag",
+    "displaynameshort": "",
+    "initspeed": 820,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 16,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_F/ammo/mag_univ.p3d",
+    "modelspecial": "",
+    "namesound": "magazine",
+    "picture": "A3/Weapons_F_EPA/Data/ui/M_5rnd_127x108_ball_CA.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 256,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

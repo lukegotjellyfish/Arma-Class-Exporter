@@ -5,7 +5,7 @@
 // Step 1: Run regex replace //.*|/\*[\s\S\n]*\*/ with nothing to remove all comments because sqf doesn't like them
 // Step 2: Set the folder to export to (Create this folder yourself)
 // Step 3: Create the folders Magazines,Vehicles,Weapons,Glasses in this folder as well
-_basePath = "F:\Software\GitHub\MyRepos\Arma-Class-Exporter\Exports\SQF-Class-Exports\RU_vs_UA_Warlords\";
+_basePath = "F:\Software\GitHub\MyRepos\Arma-Class-Exporter\Exports\SQF-Class-Exports\Arma3_new\";
 
 //
 // _sideMatrix:
@@ -18,7 +18,7 @@ _basePath = "F:\Software\GitHub\MyRepos\Arma-Class-Exporter\Exports\SQF-Class-Ex
 //      ease of comprehension and addition for other sides.
 
 _sideMatrix = [];
-_mods = [["CfgGlasses","Glasses"]]; //["CfgWeapons","Weapons"],["CfgMagazines","Magazines"],["CfgAmmo","Ammo"],["CfgVehicles","Vehicles"],["CfgGlasses","Glasses"]
+_mods = [["CfgWeapons","Weapons"],["CfgMagazines","Magazines"],["CfgAmmo","Ammo"],["CfgVehicles","Vehicles"],["CfgGlasses","Glasses"]];
 {
     _configClass = _x select 0;
 	_config = [];
@@ -116,55 +116,56 @@ getPropertyValue = {
 
           //diag_log(format["Before if it contains ammo: _property: %1 | _propertyNameLast: %2", _property, _propertyNameLast]);
 
-        if (((_propertyNameLast isEqualTo "ammo") || (_propertyNameLast isEqualTo "submunitionammo")) && getText _property != "") then {
+        // if (((_propertyNameLast isEqualTo "ammo") || (_propertyNameLast isEqualTo "submunitionammo")) && getText _property != "") then {
 
-            _ammoType = "Ammo/SubmunitionAmmo";
-            if (_propertyNameLast find "submunitionammo" != -1) then {
-                  //diag_log("submunitionammo");
-                _ammoType = "SubmunitionAmmo";
+        //     _ammoType = "Ammo/SubmunitionAmmo";
+        //     if (_propertyNameLast find "submunitionammo" != -1) then {
+        //           //diag_log("submunitionammo");
+        //         _ammoType = "SubmunitionAmmo";
+        //     };
+        //     if (_propertyNameLast find "ammo" != -1) then {
+        //           //diag_log("ammo");
+        //         _ammoType = "Ammo";
+        //     };
+
+        //       //diag_log(format["Looking for ammo | %1", _property]);
+
+        //     _ammoName = getText _property;
+
+        //     //diag_log(format["%1 = `%2`", _ammoType, _ammoName]);
+
+        //     //Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
+        //     _splitClass = str _property splitString "\/";
+        //     //Remove "bin" and "config.bin"
+        //     _splitClass deleteRange [0, 2];
+
+        //     _countSplitClass = count _splitClass;
+        //     //_classBody = _classBody + format['"%1": {"_dictAmmoName": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
+        //     _classBody = _classBody + (['"',_propertyNameLast,'": {"_dictAmmoName": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
+
+        //     _ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
+        //     {
+        //         _addition = [_x, _configCategory, (((str _x) splitString "\") joinString "/"), _i, _exportClass] call getPropertyValue;
+        //         _classBody = _classBody + _addition;
+        //         _i = _i + 1;
+        //     } forEach _ammoProperties;
+        //     _classBody = _classBody + "},"
+
+        if ((_propertyNameLast isEqualTo "recoil") || (_propertyNameLast isEqualTo "recoilprone")) then {
+            _configDir = configFile >> "CfgRecoils" >> getText _property;
+
+            if (isClass _configDir) then {
+                _classBody = [_configDir, _classBody, _propertyNameLast, "CfgRecoils", _exportClass] call getClass;
             };
-            if (_propertyNameLast find "ammo" != -1) then {
-                  //diag_log("ammo");
-                _ammoType = "Ammo";
+            if (isArray _configDir) then {
+                //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, getArray _configDir];  //NOTE format[] has an 8kb limit
+                _classBody = _classBody + (['"',_propertyNameLast,'": ', getArray _configDir,','] joinString "");
             };
-
-              //diag_log(format["Looking for ammo | %1", _property]);
-
-            _ammoName = getText _property;
-
-            //diag_log(format["%1 = `%2`", _ammoType, _ammoName]);
-
-            //Class here: bin\config.bin/CfgWeapons/SMG_01_Base/Burst"
-            _splitClass = str _property splitString "\/";
-            //Remove "bin" and "config.bin"
-            _splitClass deleteRange [0, 2];
-
-            _countSplitClass = count _splitClass;
-            //_classBody = _classBody + format['"%1": {"_dictAmmoName": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
-            _classBody = _classBody + (['"',_propertyNameLast,'": {"_dictAmmoName": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
-
-            _ammoProperties = configProperties [configFile >> "CfgAmmo" >> _ammoName];
-            {
-                _addition = [_x, _configCategory, (((str _x) splitString "\") joinString "/"), _i, _exportClass] call getPropertyValue;
-                _classBody = _classBody + _addition;
-                _i = _i + 1;
-            } forEach _ammoProperties;
-            _classBody = _classBody + "},"
-
         } else {
-            if ((_propertyNameLast isEqualTo "recoil") || (_propertyNameLast isEqualTo "recoilprone")) then {
-                _configDir = configFile >> "CfgRecoils" >> getText _property;
-
-                if (isClass _configDir) then {
-                    _classBody = [_configDir, _classBody, _propertyNameLast, "CfgRecoils", _exportClass] call getClass;
-                };
-                if (isArray _configDir) then {
-                    //_classBody = _classBody + format['"%1": %2,', _propertyNameLast, getArray _configDir];  //NOTE format[] has an 8kb limit
-                    _classBody = _classBody + (['"',_propertyNameLast,'": ', getArray _configDir,','] joinString "");
-                };
-            } else {
-                if ((_propertyNameLast isEqualTo "vehicleclass") && ((getText _property isEqualTo "rhs_vehclass_aircraft") || (getText _property isEqualTo "rhs_vehclass_helicopter"))) then {
-                    _vehCompatiblePylons = _exportClass getCompatiblePylonMagazines 0;
+            if ((_propertyNameLast isEqualTo "vehicleclass")) then {
+                _vehCompatiblePylons = _exportClass getCompatiblePylonMagazines 0;
+                // No pylons if return is empty, don't have to fuss about with compatability with edge cases for figuring out if a vehicle is a plane or helicopter or something new
+                if (_vehCompatiblePylons isNotEqualTo []) then {
                     //diag_log format["%1 getCompatiblePylonMagazines 0 = %2", _exportClass, _vehCompatiblePylons];
                     //_classBody = _classBody + format['"%2": "%3",', _propertyNameLast, getText _property];  //NOTE format[] has an 8kb limit
                     _classBody = _classBody + (['"',_propertyNameLast,'": "',getText _property,'",'] joinString "");
@@ -173,11 +174,11 @@ getPropertyValue = {
                         _classBody = _classBody + str _x + ",";
                     } forEach _vehCompatiblePylons;
                     _classBody = _classBody + "],";
-                } else {
-                    _i = _i + 1;
-                    //_classBody = _classBody + format['"%1": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
-                    _classBody = _classBody + (['"',_propertyNameLast,'": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
-                };
+                }
+            } else {
+                _i = _i + 1;
+                //_classBody = _classBody + format['"%1": "%2",', _propertyNameLast, ((getText _property) splitString "\" joinString "/") splitString '"' joinString "`"];  //NOTE format[] has an 8kb limit
+                _classBody = _classBody + (['"',_propertyNameLast,'": "',((getText _property) splitString "\" joinString "/") splitString '"' joinString "`",'",'] joinString "");
             };
         };
     };
@@ -346,7 +347,7 @@ getProperties = {
                 //DISABLED_DIAGLOG diag_log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
                 //add final brace
-                _classBody = _classBody + "\n}";
+                _classBody = _classBody + "}"; //removed \n in move to Pythia
 
                 //Deprecated method: this is ~4x slower and forces you to be afk
                 //Total export for Vanilla A3: 884.732s
@@ -357,7 +358,7 @@ getProperties = {
                 //Pythia approach
                 //Total export for Vanilla A3: 264.147s
                 //TODO - Try threading to make SQF not wait for v_this_v, probably wont save much time though
-                ["neko.write_to_file_test",[_classBody, _dir,  _filename]] call py3_fnc_callExtension;
+                ["neko.write_to_file",[_classBody, _dir,  _filename]] call py3_fnc_callExtension;
             };
             _i = _i + 1;
         } foreach _x; //for each class for the side in the category

@@ -1,0 +1,33 @@
+d = {
+    "ammo": "F_40mm_Yellow",
+    "author": "Bohemia Interactive",
+    "count": 3,
+    "descriptionshort": "Type: Flare Rounds - Yellow<br />Rounds: 3<br />Used in: 3GL",
+    "displayname": "3Rnd 3GL Flares (Yellow)",
+    "displaynameshort": "Yellow Flare",
+    "initspeed": 80,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 12,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/Weapons_F/Ammo/UGL_Flare",
+    "modelspecial": "",
+    "namesound": "",
+    "picture": "A3/Weapons_F/Data/UI/gear_UGL_Flare_yelow_CA.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 16,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

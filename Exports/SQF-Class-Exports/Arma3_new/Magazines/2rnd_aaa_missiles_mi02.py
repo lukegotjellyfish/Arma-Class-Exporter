@@ -1,0 +1,33 @@
+d = {
+    "ammo": "M_Air_AA_MI02",
+    "author": "Bohemia Interactive",
+    "count": 2,
+    "descriptionshort": "Short-range, infrared-guided, air-to-air missile with high-explosive warhead",
+    "displayname": "ASRAAM",
+    "displaynameshort": "AA SRange",
+    "initspeed": 0,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 8,
+    "maxleadspeed": 694.444,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_F/ammo/mag_univ.p3d",
+    "modelspecial": "",
+    "namesound": "missiles",
+    "picture": "",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 0,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 0,
+    "weight": 0
+}

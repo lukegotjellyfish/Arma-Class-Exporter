@@ -1,0 +1,33 @@
+d = {
+    "ammo": "F_40mm_Green",
+    "author": "Bohemia Interactive",
+    "count": 1,
+    "descriptionshort": "Type: Flare - Green<br />Rounds: 1<br />Used in: EGLM, 3GL",
+    "displayname": "Flare Round (Green)",
+    "displaynameshort": "Green Flare",
+    "initspeed": 80,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 4,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/Weapons_F/Ammo/UGL_Flare",
+    "modelspecial": "",
+    "namesound": "",
+    "picture": "A3/Weapons_F/Data/UI/gear_UGL_Flare_Green_CA.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 16,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

@@ -1,0 +1,33 @@
+d = {
+    "ammo": "B_127x54_Ball",
+    "author": "Bohemia Interactive",
+    "count": 10,
+    "descriptionshort": "Caliber: 12.7x54 mm<br />Rounds: 10<br />Used in: ASP-1 Kir",
+    "displayname": "12.7 mm 10Rnd Mag",
+    "displaynameshort": "",
+    "initspeed": 290,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 12,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_F/ammo/mag_univ.p3d",
+    "modelspecial": "",
+    "namesound": "magazine",
+    "picture": "A3/Weapons_F_Mark/Data/UI/M_127x54_CA.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 256,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}

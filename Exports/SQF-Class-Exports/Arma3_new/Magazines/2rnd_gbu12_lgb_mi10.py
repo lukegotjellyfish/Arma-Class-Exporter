@@ -1,0 +1,33 @@
+d = {
+    "ammo": "Bo_GBU12_LGB_MI10",
+    "author": "Bohemia Interactive",
+    "count": 2,
+    "descriptionshort": "500lb, high-explosive, laser-guided bomb",
+    "displayname": "GBU-12",
+    "displaynameshort": "Bomb",
+    "initspeed": 0,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 8,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_F/ammo/mag_univ.p3d",
+    "modelspecial": "",
+    "namesound": "cannon",
+    "picture": "",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 0,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 0,
+    "weight": 0
+}

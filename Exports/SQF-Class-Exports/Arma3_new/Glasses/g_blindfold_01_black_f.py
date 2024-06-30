@@ -1,0 +1,20 @@
+d = {
+    "_generalmacro": "G_Blindfold_01_black_F",
+    "author": "Bohemia Interactive",
+    "displayname": "Blindfold (Black)",
+    "dlc": "Enoch",
+    "hiddenselections": [
+        "camo"
+    ],
+    "hiddenselectionstextures": [
+        "/A3/Characters_F_Enoch/Facewear/data/G_Blindfold_01_Black_CO"
+    ],
+    "identitytypes": [],
+    "mass": 3,
+    "model": "a3/Characters_F_Enoch/Facewear/G_Blindfold_01_F.p3d",
+    "name": "None",
+    "picture": "A3/Characters_F_Enoch/Facewear/Data/UI/icon_G_Blindfold_01_black_F_ca.paa",
+    "scope": 2,
+    "scopearsenal": 2,
+    "scopecurator": 2
+}

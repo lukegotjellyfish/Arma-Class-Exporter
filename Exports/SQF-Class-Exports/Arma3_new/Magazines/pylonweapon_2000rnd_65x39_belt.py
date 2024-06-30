@@ -1,0 +1,41 @@
+d = {
+    "ammo": "B_65x39_Minigun_Caseless_Green_splash",
+    "author": "Bohemia Interactive",
+    "count": 2000,
+    "descriptionshort": "6.5mm gatling gun",
+    "displayname": "Minigun 6.5\u00a0mm",
+    "displaynamemfdformat": "LMG",
+    "displaynameshort": "Tracer",
+    "hardpoints": [
+        "I_ORCA_RIGHT_PYLON"
+    ],
+    "initspeed": 825,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 200,
+    "maxleadspeed": 36.1111,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/Weapons_F/DynamicLoadout/PylonPod_Minigun_Heli_Light_02.p3d",
+    "modelspecial": "",
+    "muzzleend": "machinegun_end",
+    "muzzlepos": "machinegun_beg",
+    "namesound": "mgun",
+    "picture": "",
+    "pylonweapon": "LMG_Minigun_heli",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "tracersevery": 1,
+    "type": 0,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 0,
+    "weight": 30
+}

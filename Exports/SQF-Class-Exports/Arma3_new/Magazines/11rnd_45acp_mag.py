@@ -1,0 +1,33 @@
+d = {
+    "ammo": "B_45ACP_Ball",
+    "author": "Bohemia Interactive",
+    "count": 11,
+    "descriptionshort": "Caliber: .45 ACP<br />Rounds: 11<br />Used in: 4-five",
+    "displayname": ".45 ACP 11Rnd Mag",
+    "displaynameshort": "",
+    "initspeed": 380,
+    "inventoryplacements": {},
+    "library": {
+        "libtextdesc": ""
+    },
+    "mass": 7,
+    "maxleadspeed": 25,
+    "maxthrowholdtime": 2,
+    "maxthrowintensitycoef": 1.4,
+    "minthrowintensitycoef": 0.3,
+    "model": "A3/weapons_F/ammo/mag_univ.p3d",
+    "modelspecial": "",
+    "namesound": "magazine",
+    "picture": "A3/weapons_f/data/UI/M_16Rnd_9x21_CA.paa",
+    "quickreload": 0,
+    "reloadaction": "",
+    "scope": 2,
+    "selectionfireanim": "zasleh",
+    "simulation": "ProxyMagazines",
+    "type": 256,
+    "useaction": 0,
+    "useactiontitle": "",
+    "value": 1,
+    "weaponpoolavailable": 1,
+    "weight": 0
+}
