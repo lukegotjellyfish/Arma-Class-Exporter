@@ -1,0 +1,32 @@
+digraph "packages" {
+rankdir=BT
+charset="utf-8"
+"Exports.#Rewrite" [color="#77AADD", label=<Exports.#Rewrite>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.ParseExports" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.ParseExports>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.Arma" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.Arma>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaAmmo" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.ArmaAmmo>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaInfantryWeapon" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.ArmaInfantryWeapon>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedInfantryWeapon" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedInfantryWeapon>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedWeapon" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedWeapon>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaMagazine" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.ArmaMagazine>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaWeapon" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.ArmaWeapon>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ExportProperties" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.ExportProperties>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.tests" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.tests>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.tests.mock_module" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.tests.mock_module>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.tests.test_Arma" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.classes.tests.test_Arma>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.eval_param_value" [color="#77AADD", label=<Exports.#Rewrite.ArmaClassExporter.eval_param_value>, shape="box", style="filled"];
+"Exports.#Rewrite.tests" [color="#77AADD", label=<Exports.#Rewrite.tests>, shape="box", style="filled"];
+"Exports.#Rewrite.tests.test_eval_param_value" [color="#77AADD", label=<Exports.#Rewrite.tests.test_eval_param_value>, shape="box", style="filled"];
+"Exports.#Rewrite.ArmaClassExporter.classes.Arma" -> "Exports.#Rewrite.ArmaClassExporter.classes.ExportProperties" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaAmmo" -> "Exports.#Rewrite.ArmaClassExporter.classes.Arma" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaInfantryWeapon" -> "Exports.#Rewrite.ArmaClassExporter.classes.ArmaWeapon" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedInfantryWeapon" -> "Exports.#Rewrite.ArmaClassExporter.classes.ArmaInfantryWeapon" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedInfantryWeapon" -> "Exports.#Rewrite.ArmaClassExporter.classes.ArmaMagazine" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedWeapon" -> "Exports.#Rewrite.ArmaClassExporter.classes.ArmaMagazine" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaLoadedWeapon" -> "Exports.#Rewrite.ArmaClassExporter.classes.ArmaWeapon" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaMagazine" -> "Exports.#Rewrite.ArmaClassExporter.classes.Arma" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaMagazine" -> "Exports.#Rewrite.ArmaClassExporter.classes.ArmaAmmo" [arrowhead="open", arrowtail="none"];
+"Exports.#Rewrite.ArmaClassExporter.classes.ArmaWeapon" -> "Exports.#Rewrite.ArmaClassExporter.classes.Arma" [arrowhead="open", arrowtail="none"];
+}
