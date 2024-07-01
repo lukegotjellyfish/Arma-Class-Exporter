@@ -12,9 +12,5 @@ class Arma(ExportProperties):
         # Send the module details to the super class
         super().__init__(_dict_name, _dict_path)
 
-        properties_mapping = {
-            "model": "model",
-            "scope": "scope",
-            "eventhandlers": "eventhandlers",
-        }
-        self.load_properties(properties_mapping)
+        # Necessary values
+        self.scope = self.arma_module.get("scope")

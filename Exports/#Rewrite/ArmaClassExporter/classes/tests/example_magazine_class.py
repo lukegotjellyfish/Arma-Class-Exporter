@@ -1,5 +1,5 @@
 d = {
-    "ammo": "B_762x39_Ball_Green_F",
+    "ammo": "example_ammo_class",
     "author": "Bohemia Interactive",
     "count": 30,
     "descriptionshort": "Caliber: 7.62x39 mm<br />Rounds: 30<br />Used in: AK-12, AK-12 GL, AKM",

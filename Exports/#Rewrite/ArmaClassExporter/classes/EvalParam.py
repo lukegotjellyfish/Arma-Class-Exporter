@@ -60,7 +60,7 @@ def eval_(node):
         node (ast.AST): The root node of the AST.
 
     Returns:
-        float: The result of the evaluation.
+        any: The result of the evaluation.
     """
     if isinstance(node, ast.Constant):  # <number>
         return node.value

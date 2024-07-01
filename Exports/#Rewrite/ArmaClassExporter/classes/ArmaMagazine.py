@@ -15,19 +15,13 @@ class ArmaMagazine(ArmaU):
         # Send the module details to the super class
         super().__init__(magazine_class_name, magazine_dict_path)
 
-        # Init variables
-        self.ammo_class_name = "uwu"
-
-
-        # Find Ammo name with magazine parameters
-        properties_mapping = {
-            "ammo_class_name": "ammo",
-        }
-
-        self.load_properties(properties_mapping)
+        # Necessary Values
+        self.ammo_class_name = self.arma_module.get("ammo")
+        self.init_speed = self.arma_module.get("initspeed")
 
         # If the magazine actually has an Ammo...
         if self.ammo_class_name:
             # Create a new instance of ArmaAmmo
             # TODO: Add backup folders to check (or default check other export folders)?
-            self.ammo = ArmaAmmo(self.ammo_class_name, magazine_dict_path)
+            ammo_dict_path = magazine_dict_path.replace(magazine_class_name + ".py", self.ammo_class_name + ".py")
+            self.ammo = ArmaAmmo(self.ammo_class_name, ammo_dict_path)

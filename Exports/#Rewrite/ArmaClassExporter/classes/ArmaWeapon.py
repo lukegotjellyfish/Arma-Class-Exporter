@@ -6,19 +6,18 @@ class ArmaWeapon(ArmaU):
         # Send the module details to the super class
         super().__init__(weapon_class_name, weapon_class_path)
 
-        properties_mapping = {
-            "magazines": "magazines",
-            "init_speed": "initspeed", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#initSpeed.3D0
-            "can_lock": "canlock", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#canLock=2
-            "firemodes": "modes", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#modes[]=_{%22this%22}
-
-            # Infantry weapon parameters
-            "slots_info": "weaponslotsinfo",
-            "slot": ["weaponslotsinfo","allowedslots"],
-            "mass": ["weaponslotsinfo","mass"],
-            "comptabile_optics": ["weaponslotsinfo","cowsslot","compatibleitems"],
-            "compatible_muzzles": ["weaponslotsinfo","muzzleslot","compatibleitems"],
-            "compatible_pointers": ["weaponslotsinfo","pointerslot","compatibleitems"],
-            "compatible_underbarrel_attachments": ["weaponslotsinfo","underbarrelslot","compatibleitems"],
-        }
-        self.load_properties(properties_mapping)
+        # Necessary Values
+        self.magazines = self.arma_module.get("magazines")
+        self.init_speed = self.arma_module.get("initspeed")
+        self.can_lock = self.arma_module.get("canlock")
+        self.firemodes = self.arma_module.get("modes")
+        # Infantry weapons
+        if self.scope_arsenal != 0:
+            self.slots_info = self.arma_module.get("weaponslotsinfo")
+            if self.slots_info is not None:
+                self.slot = self.slots_info.get("allowedslots")
+                self.mass = self.slots_info.get("mass")
+                self.compatible_mobile_optics = self.slots_info.get("cowsslot").get("compatibleitems")
+                self.compatible_muzzles = self.slots_info.get("muzzleslot").get("compatibleitems")
+                self.compatible_pointers = self.slots_info.get("pointerslot").get("compatibleitems")
+                self.compatible_underbarrel_attachments = self.slots_info.get("underbarrelslot").get("compatibleitems")

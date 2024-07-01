@@ -1,6 +1,5 @@
 import importlib.util
 
-
 class ExportProperties:
     def __init__(self, _dict_name: str, _dict_path: str, _backup_paths: list[str] | None = None):
         """
@@ -21,21 +20,3 @@ class ExportProperties:
         self.arma_module = self.arma_module.d
         # CSV Export text
         self.csv_export = []
-
-    def load_properties(self, properties_mapping: dict):
-        """
-        Assigns properties to the class
-
-        Parameters:
-            properties_mapping (dict): The properties to assign
-        """
-        for attr, key in properties_mapping.items():
-            nested_keys = key if isinstance(key, list) else [key]
-            value = self.arma_module
-            try:
-                for nested_key in nested_keys:
-                    value = value.get(nested_key, {})
-            except AttributeError:
-                value = None
-
-            setattr(self, attr, value)

@@ -13,10 +13,11 @@ class ArmaAmmo(Arma):
         # Send the module details to the super class
         super().__init__(ammo_class_name, ammo_dict_path)
 
-        properties_mapping = {
-            "hit": "hit",  # https://community.bistudio.com/wiki/CfgAmmo_Config_Reference#hit
-            "explosive": "explosive",  # https://community.bistudio.com/wiki/CfgAmmo_Config_Reference#explosive
-        }
-        self.load_properties(properties_mapping)
+        # Necessary Values
+        self.hit = self.arma_module.get("hit")
+        self.indirect_hit = self.arma_module.get("indirecthit")
+        self.explosive = self.arma_module.get("explosive")
+        self.air_resistance = abs(self.arma_module.get("airfriction"))
+        self.typical_speed = self.arma_module.get("typicalspeed")
 
         #Assign Properties

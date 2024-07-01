@@ -12,10 +12,8 @@ class ArmaU(Arma):
         # Send the module details to the super class
         super().__init__(_dict_name, _dict_path)
 
-        properties_mapping = {
-            "scope_arsenal": "scopearsenal",
-            "display_name": "displayname",
-            "display_name_short": "displaynameshort", # These two parameters probably need to be moved
-            "showtoplayer": "showtoplayer",           #  but it's fine for now
-        }
-        self.load_properties(properties_mapping)
+        # Necessary Values
+        self.scope_arsenal = self.arma_module.get("scopearsenal", 2)
+        self.display_name = self.arma_module.get("displayname")
+        self.display_name_short = self.arma_module.get("displaynameshort")
+        self.show_to_player = self.arma_module.get("showtoplayer")

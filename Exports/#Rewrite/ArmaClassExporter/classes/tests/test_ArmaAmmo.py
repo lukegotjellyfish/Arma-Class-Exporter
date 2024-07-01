@@ -15,7 +15,6 @@ class TestArma(unittest.TestCase):
         # Check that each attribute has been correctly set
         self.assertEqual(arma_instance.hit, 11)
         self.assertEqual(arma_instance.explosive, 0)
-        self.assertEqual(arma_instance.eventhandlers, {})
 
 
 if __name__ == '__main__':
