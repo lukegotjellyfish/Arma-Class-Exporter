@@ -7,6 +7,7 @@ class ArmaWeapon(ArmaU):
         super().__init__(weapon_class_name, weapon_class_path)
 
         properties_mapping = {
+            "magazines": "magazines",
             "init_speed": "initspeed", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#initSpeed.3D0
             "can_lock": "canlock", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#canLock=2
             "firemodes": "modes", # https://community.bistudio.com/wiki/CfgWeapons_Config_Reference#modes[]=_{%22this%22}
