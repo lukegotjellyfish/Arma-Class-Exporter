@@ -1,4 +1,3 @@
-from ExportProperties import ExportProperties
 from Arma import Arma
 
 class ArmaU(Arma):

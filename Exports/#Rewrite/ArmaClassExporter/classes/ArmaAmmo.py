@@ -1,6 +1,4 @@
-import sys
 from Arma import Arma
-import os
 
 
 class ArmaAmmo(Arma):

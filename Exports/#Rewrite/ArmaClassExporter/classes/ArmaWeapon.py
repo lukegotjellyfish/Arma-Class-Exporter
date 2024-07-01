@@ -1,10 +1,4 @@
 from ArmaU import ArmaU
-from decimal import Decimal
-import importlib.util
-import os
-import sys
-sys.path.append('..')
-import eval_param_value as epv
 
 
 class ArmaWeapon(ArmaU):

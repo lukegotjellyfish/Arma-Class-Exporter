@@ -1,5 +1,3 @@
-from decimal import Decimal
-
 from ArmaWeapon import ArmaWeapon
 from ArmaMagazine import ArmaMagazine
 

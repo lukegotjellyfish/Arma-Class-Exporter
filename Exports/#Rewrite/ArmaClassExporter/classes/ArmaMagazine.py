@@ -1,13 +1,6 @@
-import contextlib
-
-from Arma import Arma
-from ArmaAmmo import ArmaAmmo
-from decimal import Decimal
-import importlib.util
-import os
 import sys
 from ArmaU import ArmaU
-sys.path.append('..')
+from ArmaAmmo import ArmaAmmo
 
 
 class ArmaMagazine(ArmaU):
