@@ -1,6 +1,7 @@
-// FIXME Magazines classes with the ammo param first do not get processed correctly, only the string name of the ammo
-// or so it seems see (rhs_ammo_mgm164_block2_1.py)
-// TODO Add a function to get compatible weapon mods for the current weapon
+// TODO Figure out what I meant by this -> Add a function to get compatible weapon mods for the current weapon
+// TODO Add Ammo classes found to the export list if they are used in a magazine,
+// TODO  this isn't currently necessary with a FullClassExport but would be needed for an edited/specific script
+// TODO  to avoid missing dependencies for the python processing script.
 
 // Step 1: Run regex replace //.*|/\*[\s\S\n]*\*/ with nothing to remove all comments because sqf doesn't like them
 // Step 2: Set the folder to export to (Create this folder yourself)
