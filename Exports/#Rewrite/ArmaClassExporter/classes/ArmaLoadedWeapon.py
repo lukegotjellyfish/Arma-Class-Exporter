@@ -21,9 +21,15 @@ class ArmaLoadedWeapon:
             magazine_class_path (str): The absolute file path to the magazine dict
         """
         #
+        self.magazine = None
         self.weapon = ArmaWeapon(weapon_class_name, weapon_class_path)
-        self.magazine = ArmaMagazine(magazine_class_name, magazine_class_path)
+        self.set_magazine(magazine_class_name, magazine_class_path)
 
+    def set_magazine(self, magazine_class_name, magazine_class_path):
+        self.magazine = ArmaMagazine(magazine_class_name, magazine_class_path)
+        self.process_loadout()
+
+    def process_loadout(self):
         """
         weapon init speed rules:
         initspeed = >0: use weapon initspeed
@@ -67,7 +73,7 @@ class ArmaLoadedWeapon:
         if self.magazine.ammo.explosive == 0:
             # Kinetic Damage is x1 at typical speed and scales linearly.
             # 10/20 would be x2 damage, 10/10 would be x1 damage, 5/10 would be x0.5 damage
-            hit = (speed/self.magazine.ammo.typical_speed) * self.magazine.ammo.hit
+            hit = (speed / self.magazine.ammo.typical_speed) * self.magazine.ammo.hit
         elif self.magazine.ammo.explosive == 1:
             # Explosive damage is irrespective of speed
             hit = self.magazine.ammo.hit
@@ -84,8 +90,9 @@ class ArmaLoadedWeapon:
             
             Then get the sum of both
             """
-            hit = ((((speed/self.magazine.ammo.typical_speed) * self.magazine.ammo.hit) * (1 - self.magazine.ammo.explosive)) +
-                     (self.magazine.ammo.explosive * self.magazine.ammo.hit))
+            hit = ((((speed / self.magazine.ammo.typical_speed) * self.magazine.ammo.hit) * (
+                        1 - self.magazine.ammo.explosive)) +
+                   (self.magazine.ammo.explosive * self.magazine.ammo.hit))
         if self.magazine.ammo.indirect_hit is not None:
             hit += self.magazine.ammo.indirect_hit
 
