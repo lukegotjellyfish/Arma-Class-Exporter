@@ -1,4 +1,5 @@
 import importlib.util
+import os
 
 class ExportProperties:
     def __init__(self, _dict_name: str, _dict_path: str, _backup_paths: list[str] | None = None):
@@ -20,3 +21,12 @@ class ExportProperties:
         self.arma_module = self.arma_module.d
         # CSV Export text
         self.csv_export = []
+
+        # Meta vars
+        # Figure out splitting paths to get parent folder consistently with \ /
+        # tbh just if \ in x then split by \ else / then [-3] for 2nd last (export parent folder)
+        self.target_folder = _dict_path
+        os.path.
+        inputos.path.split(_dict_path)[:1]
+        # TODO add backup_folders feature for non-full ClassExports
+        # self.backup_folders = []

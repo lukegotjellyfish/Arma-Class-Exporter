@@ -1,7 +1,19 @@
+import os
 import sys
 from ArmaU import ArmaU
 from ArmaAmmo import ArmaAmmo
 
+
+@staticmethod
+def check_file_exists(self, name, _type):
+    for folder in [*[self.mod], *self.backup_folders]:
+        # If weapon dict file exists
+        for configType in _type:
+            if os.path.isfile(f"{self.cwd}/SQF-Class-Exports/{folder}/{configType}/{name}.py"):
+                return [folder, configType]
+    print(
+        f"\33[31m{name} could not be found in {[*[self.mod], *self.backup_folders]} with configType(s) {_type}\33[0m")
+    return False
 
 class ArmaMagazine(ArmaU):
     def __init__(self, magazine_class_name: str, magazine_dict_path: str):
@@ -23,5 +35,6 @@ class ArmaMagazine(ArmaU):
         if self.ammo_class_name:
             # Create a new instance of ArmaAmmo
             # TODO: Add backup folders to check (or default check other export folders)?
+            #try: something i cant remember
             ammo_dict_path = magazine_dict_path.replace(magazine_class_name + ".py", self.ammo_class_name + ".py")
             self.ammo = ArmaAmmo(self.ammo_class_name, ammo_dict_path)
