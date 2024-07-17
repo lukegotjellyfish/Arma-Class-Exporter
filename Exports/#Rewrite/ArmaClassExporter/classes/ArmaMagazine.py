@@ -34,7 +34,14 @@ class ArmaMagazine(ArmaU):
         # If the magazine actually has an Ammo...
         if self.ammo_class_name:
             # Create a new instance of ArmaAmmo
-            # TODO: Add backup folders to check (or default check other export folders)?
             #try: something i cant remember
             ammo_dict_path = magazine_dict_path.replace(magazine_class_name + ".py", self.ammo_class_name + ".py")
+
+            """
+             NOTE: The file should probably not be looked for outside of this export
+                    since different exports may give wildly different results. Other
+                    mods that are loaded can affect the values of classes directly or
+                    though inheritance of modified parent classes.
+                    
+            """
             self.ammo = ArmaAmmo(self.ammo_class_name, ammo_dict_path)
