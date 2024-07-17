@@ -26,7 +26,7 @@ class ExportProperties:
         # Figure out splitting paths to get parent folder consistently with \ /
         # tbh just if \ in x then split by \ else / then [-3] for 2nd last (export parent folder)
         self.target_folder = _dict_path
-        os.path.
-        inputos.path.split(_dict_path)[:1]
+        # os.path.
+        # inputos.path.split(_dict_path)[:1]
         # TODO add backup_folders feature for non-full ClassExports
         # self.backup_folders = []
