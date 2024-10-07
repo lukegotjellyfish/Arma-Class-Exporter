@@ -1,4 +1,5 @@
 # Arma-Class-Exporter
+Requires Pythia+https://steamcommunity.com/sharedfiles/filedetails/?id=3165878126
 ## Introduction
 This project (python scripts) is being re-written, lets see if I'll finish it!<br>
 The SQF scripts are completely functional.
