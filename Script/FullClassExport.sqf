@@ -356,7 +356,7 @@ getProperties = {
                 //_path = _dir + "/" + _filename;
                 //"make_file" callExtension (_path + "|" + _classBody);
 
-                //Pythia approach
+                //Pythia approach https://steamcommunity.com/sharedfiles/filedetails/?id=3165878126
                 //Total export for Vanilla A3: 264.147s
                 //TODO - Try threading to make SQF not wait for v_this_v, probably wont save much time though
                 ["neko.write_to_file",[_classBody, _dir,  _filename]] call py3_fnc_callExtension;
